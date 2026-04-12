@@ -1,0 +1,10 @@
+
+[DATA] Building sample indices...
+[DEBUG] Found 1 batch files
+[DATA] Total samples available: 15,165
+       unknown: 15,165 samples
+       Train: 12,132 samples
+       Val:   3,033 samples
+  ✓ Index time: 0.3s
+
+[DATA] Loading training data into memory...

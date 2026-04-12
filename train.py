@@ -95,16 +95,16 @@ CONFIG = {
     'patience': 5,
     'seed': 42,
     # Data loading mode: 'preload' (load arrays into RAM) or 'streaming' (on-the-fly parquet reads)
-    'data_mode': 'streaming',
+    'data_mode': 'preload',
     'stream_cache_size': 2,
     'num_workers': 1,
     'prefetch_factor': 2,
     'persistent_workers': False,
     # Data subset sizes (set to None for all available)
-    'train_subset': 2000,
-    'val_subset': 400,
+    'train_subset': None,
+    'val_subset': None,
     'balanced_sampling': True,
-    'data_dir': './data/archs4/train_orthologs',
+    'data_dir': './scratch/working_training_tools/train_orthologs_20K_samples',
     'checkpoint_dir': './checkpoints_performer',
 }
 
@@ -490,13 +490,30 @@ def get_sample_indices(batch_dir, train_subset=None, val_subset=None, balanced_s
     if verbose:
         print(f"[DEBUG] Found {len(batch_files)} batch files")
     
-    # Load metadata to track species per sample
-    metadata_file = batch_dir.parent / "samples.json"
+    # Load metadata to track species per sample.
+    # Check metadata.csv first (geo_accession, species columns), then fall back
+    # to samples.json with {"id", "species"} entries.  Search batch_dir and its
+    # parent so we work regardless of whether batch files live in a sub-folder.
     sample_to_species = {}
-    if metadata_file.exists():
-        with open(metadata_file) as f:
-            samples_meta = json.load(f)
-        sample_to_species = {s["id"]: s["species"] for s in samples_meta if "species" in s}
+    for search_dir in (batch_dir, batch_dir.parent):
+        csv_path = search_dir / "metadata.csv"
+        if csv_path.exists():
+            import csv as _csv
+            with open(csv_path, newline='') as f:
+                reader = _csv.DictReader(f)
+                for row in reader:
+                    sid = row.get("geo_accession") or row.get("id") or ""
+                    sp  = row.get("species", "")
+                    if sid and sp:
+                        sample_to_species[sid] = sp
+            break
+        json_path = search_dir / "samples.json"
+        if json_path.exists():
+            with open(json_path) as f:
+                samples_meta = json.load(f)
+            if samples_meta and isinstance(samples_meta[0], dict):
+                sample_to_species = {s["id"]: s["species"] for s in samples_meta if "species" in s}
+            break
     
     rng = np.random.default_rng(seed)
     
@@ -535,7 +552,12 @@ def get_sample_indices(batch_dir, train_subset=None, val_subset=None, balanced_s
                     table = pf.read(columns=[idx_col], use_threads=True)
                     sample_ids = table.column(0).to_pylist()
                 else:
-                    sample_ids = [str(i) for i in range(pf.metadata.num_rows)]
+                    # Gene-major parquet: column names are the sample IDs
+                    non_meta = [c for c in cols if c != 'gene_symbol']
+                    if non_meta and (non_meta[0] in sample_to_species or non_meta[0].startswith(('GSM', 'GSE'))):
+                        sample_ids = non_meta
+                    else:
+                        sample_ids = [str(i) for i in range(pf.metadata.num_rows)]
                 for sample_idx, sample_id in enumerate(sample_ids):
                     species = sample_to_species.get(sample_id, "unknown")
                     all_samples.append((batch_idx, sample_idx, species))
@@ -551,7 +573,12 @@ def get_sample_indices(batch_dir, train_subset=None, val_subset=None, balanced_s
                 table = pf.read(columns=[idx_col], use_threads=True)
                 sample_ids = table.column(0).to_pylist()
             else:
-                sample_ids = [str(i) for i in range(pf.metadata.num_rows)]
+                # Gene-major parquet: column names are the sample IDs
+                non_meta = [c for c in cols if c != 'gene_symbol']
+                if non_meta and (non_meta[0] in sample_to_species or non_meta[0].startswith(('GSM', 'GSE'))):
+                    sample_ids = non_meta
+                else:
+                    sample_ids = [str(i) for i in range(pf.metadata.num_rows)]
             for sample_idx, sample_id in enumerate(sample_ids):
                 species = sample_to_species.get(sample_id, "unknown")
                 all_samples.append((batch_idx, sample_idx, species))
@@ -565,6 +592,9 @@ def get_sample_indices(batch_dir, train_subset=None, val_subset=None, balanced_s
         if species not in samples_by_species:
             samples_by_species[species] = []
         samples_by_species[species].append((batch_idx, sample_idx))
+
+    # Strip species — downstream code expects (batch_idx, sample_idx) 2-tuples
+    all_samples = [(b, s) for b, s, _ in all_samples]
     
     if verbose:
         for sp, samples in samples_by_species.items():
@@ -657,20 +687,40 @@ def load_batch_data(batch_dir, sample_indices, normalization='tpm', verbose=True
     for idx, (batch_idx, sample_in_batch) in enumerate(sample_indices):
         batch_to_samples[batch_idx].append((idx, sample_in_batch))
     
-    # Pre-allocate output array (sample-major parquet: [samples, genes]).
+    # Detect parquet orientation: gene-major has sample IDs as column names.
     first_pf = pq.ParquetFile(str(batch_files[0]))
-    gene_cols = [c for c in first_pf.schema_arrow.names
-                 if c not in ('geo_accession', '__index_level_0__')]
-    num_genes = len(gene_cols)
+    first_cols = first_pf.schema_arrow.names
+    _non_meta = [c for c in first_cols if c not in ('geo_accession', '__index_level_0__', 'gene_symbol')]
+    _gene_major = bool(_non_meta and (_non_meta[0].startswith(('GSM', 'GSE'))))
+
+    if _gene_major:
+        # Gene-major: rows=genes, cols=samples. num_genes = num_rows.
+        num_genes = first_pf.metadata.num_rows
+        # Only need the row data — read all numeric columns (all except gene_symbol)
+        _read_cols = [c for c in first_cols if c != 'gene_symbol']
+    else:
+        # Sample-major: rows=samples, cols=genes.
+        _read_cols = [c for c in first_cols if c not in ('geo_accession', '__index_level_0__')]
+        num_genes = len(_read_cols)
+
     result = np.empty((len(sample_indices), num_genes), dtype=np.float32)
-    
-    # Load batch-by-batch and gather selected sample rows.
+
+    # Load batch-by-batch and gather selected samples.
     total_batches = len(batch_to_samples)
     for i, (batch_idx, idx_pairs) in enumerate(batch_to_samples.items(), start=1):
-        table = pq.read_table(batch_files[batch_idx], columns=gene_cols, use_threads=True)
-        cols = [table.column(j).combine_chunks().to_numpy(zero_copy_only=False)
-                for j in range(table.num_columns)]
-        data = np.stack(cols, axis=1).astype(np.float32, copy=False)
+        pf_b = pq.ParquetFile(str(batch_files[batch_idx]))
+        b_cols = pf_b.schema_arrow.names
+        if _gene_major:
+            read_cols = [c for c in b_cols if c != 'gene_symbol']
+        else:
+            read_cols = [c for c in b_cols if c not in ('geo_accession', '__index_level_0__')]
+        table = pq.read_table(batch_files[batch_idx], columns=read_cols, use_threads=True)
+        cols_np = [table.column(j).combine_chunks().to_numpy(zero_copy_only=False)
+                   for j in range(table.num_columns)]
+        data = np.stack(cols_np, axis=1).astype(np.float32, copy=False)
+        if _gene_major:
+            # data shape: [num_genes, num_samples_in_batch] — transpose to [samples, genes]
+            data = data.T
         for out_idx, sample_in_batch in idx_pairs:
             result[out_idx] = data[sample_in_batch]
 
