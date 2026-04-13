@@ -1,0 +1,73 @@
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'hidden_dim' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'num_heads' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'num_layers' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'ree_base' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'normalization' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'mask_ratio' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'learning_rate' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'weight_decay' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'batch_size' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'epochs' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'early_stopping' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'include_species_embedding' was locked by 'sweep' (ignored update).
+
+[DATA] Building sample indices...
+[DEBUG] Found 1 batch files
+[DATA] Total samples available: 15,865
+       human: 8,392 samples
+       mouse: 7,473 samples
+       Balanced to 7,473 per species
+       Train: 11,956 samples
+       Val:   2,990 samples
+[DATA] Species IDs: {'human': 0, 'mouse': 1}
+  ✓ Index time: 0.3s
+
+[DATA] Loading training data into memory...
+  ...loaded 1/1 batch files
+  ✓ Loaded 11,956 samples × 15,165 genes
+[DATA] Loading validation data into memory...
+  ...loaded 1/1 batch files
+  ✓ Loaded 2,990 samples × 15,165 genes
+
+[CHECK] num_genes=15165
+
+[DATA] Train: 11,956 samples, 1495 batches
+[DATA] Val:   2,990 samples, 374 batches
+/home/walt/.local/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  warnings.warn(  # warn only once
+
+[MODEL] Building ExpressionPerformer...
+  ✓ Parameters: 42,441,729
+  ✓ AdamW (lr=0.0002)
+
+======================================================================
+[TRAIN] Starting training...
+======================================================================
+
+[ERROR] Exception in train.py: shape '[4, 15165, 12, -1]' is invalid for input of size 31057920
+Traceback (most recent call last):
+  File "/home/walt/Attention/train.py", line 1317, in <module>
+    main()
+  File "/home/walt/Attention/train.py", line 1127, in main
+    pred = model(x_masked, species_id)  # [B, G]
+  File "/home/walt/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1661, in forward
+    else self._run_ddp_forward(*inputs, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1487, in _run_ddp_forward
+    return self.module(*inputs, **kwargs)  # type: ignore[index]
+  File "/home/walt/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/walt/Attention/train.py", line 234, in forward
+    h = layer.full_forward(h, rfs)
+  File "/home/walt/Attention/slim_performer_model.py", line 277, in full_forward
+    x = self.attention.full_forward(x, rfs)
+  File "/home/walt/Attention/slim_performer_model.py", line 351, in full_forward
+    queries, keys, values = self._get_queries_keys_values(x, rfs)
+  File "/home/walt/Attention/slim_performer_model.py", line 442, in _get_queries_keys_values
+    queries = queries.reshape(
+RuntimeError: shape '[4, 15165, 12, -1]' is invalid for input of size 31057920

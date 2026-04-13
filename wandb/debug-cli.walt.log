@@ -1803,3 +1803,318 @@ wandb.errors.errors.UsageError: Sweep walt_/Attention/9g59mbl7 is not running
 	weight_decay: 0
 2026-03-21 09:39:49 INFO About to run command: /usr/bin/env /home/walt/Attention/sweep_train_single.sh
 2026-03-21 09:39:54 INFO Running runs: ['id43hkpi']
+2026-04-11 21:59:59 INFO Running runs: []
+2026-04-11 22:00:00 INFO Agent received command: run
+2026-04-11 22:00:00 INFO Agent starting run with config:
+	batch_size: 4
+	early_stopping: False
+	epochs: 5
+	hidden_dim: 256
+	include_species_embedding: False
+	learning_rate: 0.0002
+	mask_ratio: 0.15
+	normalization: log1p_tpm
+	num_heads: 8
+	num_layers: 2
+	ree_base: 100
+	weight_decay: 0
+2026-04-11 22:00:00 INFO About to run command: /usr/bin/env /home/walt/Attention/sweep_train.sh
+2026-04-11 22:00:05 INFO Running runs: ['ymvj797t']
+2026-04-12 00:05:29 INFO Cleaning up finished run: ymvj797t
+2026-04-12 00:05:30 INFO Agent received command: run
+2026-04-12 00:05:30 INFO Agent starting run with config:
+	batch_size: 4
+	early_stopping: False
+	epochs: 5
+	hidden_dim: 256
+	include_species_embedding: True
+	learning_rate: 0.0002
+	mask_ratio: 0.15
+	normalization: log1p_tpm
+	num_heads: 8
+	num_layers: 2
+	ree_base: 100
+	weight_decay: 0
+2026-04-12 00:05:30 INFO About to run command: /usr/bin/env /home/walt/Attention/sweep_train.sh
+2026-04-12 00:05:35 INFO Running runs: ['u5470keg']
+2026-04-12 02:08:03 INFO Cleaning up finished run: u5470keg
+2026-04-12 02:08:03 INFO Agent received command: exit
+2026-04-12 02:08:03 INFO Received exit command. Killing runs and quitting.
+2026-04-12 14:40:53 ERROR Error executing GraphQL.
+Traceback (most recent call last):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 394, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 71, in execute
+    request.raise_for_status()
+  File "/home/walt/.local/lib/python3.10/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+2026-04-12 14:40:53 ERROR Traceback (most recent call last):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 160, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 394, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 71, in execute
+    request.raise_for_status()
+  File "/home/walt/.local/lib/python3.10/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/cli/cli.py", line 150, in wrapper
+    return func(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/cli/cli.py", line 1766, in agent
+    wandb_agent.agent(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/wandb_agent.py", line 669, in agent
+    return run_agent(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/wandb_agent.py", line 622, in run_agent
+    agent.run()
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/wandb_agent.py", line 288, in run
+    agent = self._api.register_agent(socket.gethostname(), sweep_id=self._sweep_id)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/apis/internal.py", line 149, in register_agent
+    return self.api.register_agent(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/apis/normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3111, in register_agent
+    response = self.gql(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 364, in gql
+    ret = self._retry_gql(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 163, in __call__
+    if not retry_loop.should_retry(e):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 280, in should_retry
+    retry_check_result = self._retry_check(exception)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/util.py", line 902, in no_retry_4xx
+    raise UsageError(body["errors"][0]["message"])
+wandb.errors.errors.UsageError: Sweep walt_/Attention/tnn27l2x is not running
+Traceback (most recent call last):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 160, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 394, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 71, in execute
+    request.raise_for_status()
+  File "/home/walt/.local/lib/python3.10/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/cli/cli.py", line 150, in wrapper
+    return func(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/cli/cli.py", line 1766, in agent
+    wandb_agent.agent(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/wandb_agent.py", line 669, in agent
+    return run_agent(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/wandb_agent.py", line 622, in run_agent
+    agent.run()
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/wandb_agent.py", line 288, in run
+    agent = self._api.register_agent(socket.gethostname(), sweep_id=self._sweep_id)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/apis/internal.py", line 149, in register_agent
+    return self.api.register_agent(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/apis/normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3111, in register_agent
+    response = self.gql(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 364, in gql
+    ret = self._retry_gql(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 163, in __call__
+    if not retry_loop.should_retry(e):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 280, in should_retry
+    retry_check_result = self._retry_check(exception)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/util.py", line 902, in no_retry_4xx
+    raise UsageError(body["errors"][0]["message"])
+wandb.errors.errors.UsageError: Sweep walt_/Attention/tnn27l2x is not running
+2026-04-12 14:41:08 INFO Running runs: []
+2026-04-12 14:41:09 INFO Agent received command: run
+2026-04-12 14:41:09 INFO Agent starting run with config:
+	batch_size: 4
+	early_stopping: False
+	epochs: 5
+	hidden_dim: 768
+	include_species_embedding: False
+	learning_rate: 0.0002
+	mask_ratio: 0.15
+	normalization: log1p_tpm
+	num_heads: 12
+	num_layers: 12
+	ree_base: 100
+	weight_decay: 0
+2026-04-12 14:41:09 INFO About to run command: /usr/bin/env /home/walt/Attention/sweep_train.sh
+2026-04-12 14:41:14 INFO Running runs: ['1w4p6a6f']
+2026-04-12 14:42:00 INFO Cleaning up finished run: 1w4p6a6f
+2026-04-12 14:42:01 INFO Agent received command: exit
+2026-04-12 14:42:01 INFO Received exit command. Killing runs and quitting.
+2026-04-12 16:37:59 INFO Running runs: []
+2026-04-12 16:38:00 INFO Agent received command: run
+2026-04-12 16:38:00 INFO Agent starting run with config:
+	batch_size: 4
+	early_stopping: False
+	epochs: 5
+	hidden_dim: 512
+	include_species_embedding: False
+	learning_rate: 0.0002
+	mask_ratio: 0.15
+	normalization: log1p_tpm
+	num_heads: 12
+	num_layers: 12
+	ree_base: 100
+	weight_decay: 0
+2026-04-12 16:38:00 INFO About to run command: /usr/bin/env /home/walt/Attention/sweep_train.sh
+2026-04-12 16:38:05 INFO Running runs: ['93m4txqc']
+2026-04-12 16:38:46 INFO Cleaning up finished run: 93m4txqc
+2026-04-12 16:38:47 INFO Agent received command: exit
+2026-04-12 16:38:47 INFO Received exit command. Killing runs and quitting.
+2026-04-12 16:41:07 ERROR Error executing GraphQL.
+Traceback (most recent call last):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 394, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 71, in execute
+    request.raise_for_status()
+  File "/home/walt/.local/lib/python3.10/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+2026-04-12 16:41:07 ERROR Traceback (most recent call last):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 160, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 394, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 71, in execute
+    request.raise_for_status()
+  File "/home/walt/.local/lib/python3.10/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/cli/cli.py", line 150, in wrapper
+    return func(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/cli/cli.py", line 1766, in agent
+    wandb_agent.agent(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/wandb_agent.py", line 669, in agent
+    return run_agent(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/wandb_agent.py", line 622, in run_agent
+    agent.run()
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/wandb_agent.py", line 288, in run
+    agent = self._api.register_agent(socket.gethostname(), sweep_id=self._sweep_id)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/apis/internal.py", line 149, in register_agent
+    return self.api.register_agent(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/apis/normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3111, in register_agent
+    response = self.gql(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 364, in gql
+    ret = self._retry_gql(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 163, in __call__
+    if not retry_loop.should_retry(e):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 280, in should_retry
+    retry_check_result = self._retry_check(exception)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/util.py", line 902, in no_retry_4xx
+    raise UsageError(body["errors"][0]["message"])
+wandb.errors.errors.UsageError: Sweep walt_/Attention/br5pnsaz is not running
+Traceback (most recent call last):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 160, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 394, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 71, in execute
+    request.raise_for_status()
+  File "/home/walt/.local/lib/python3.10/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/cli/cli.py", line 150, in wrapper
+    return func(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/cli/cli.py", line 1766, in agent
+    wandb_agent.agent(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/wandb_agent.py", line 669, in agent
+    return run_agent(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/wandb_agent.py", line 622, in run_agent
+    agent.run()
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/wandb_agent.py", line 288, in run
+    agent = self._api.register_agent(socket.gethostname(), sweep_id=self._sweep_id)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/apis/internal.py", line 149, in register_agent
+    return self.api.register_agent(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/apis/normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3111, in register_agent
+    response = self.gql(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 364, in gql
+    ret = self._retry_gql(
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 163, in __call__
+    if not retry_loop.should_retry(e):
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 280, in should_retry
+    retry_check_result = self._retry_check(exception)
+  File "/home/walt/.local/lib/python3.10/site-packages/wandb/util.py", line 902, in no_retry_4xx
+    raise UsageError(body["errors"][0]["message"])
+wandb.errors.errors.UsageError: Sweep walt_/Attention/br5pnsaz is not running
+2026-04-12 16:41:20 INFO Running runs: []
+2026-04-12 16:41:21 INFO Agent received command: run
+2026-04-12 16:41:21 INFO Agent starting run with config:
+	batch_size: 4
+	early_stopping: False
+	epochs: 5
+	hidden_dim: 512
+	include_species_embedding: False
+	learning_rate: 0.0002
+	mask_ratio: 0.15
+	normalization: log1p_tpm
+	num_heads: 16
+	num_layers: 12
+	ree_base: 100
+	weight_decay: 0
+2026-04-12 16:41:21 INFO About to run command: /usr/bin/env /home/walt/Attention/sweep_train.sh
+2026-04-12 16:41:26 INFO Running runs: ['vqupyrt8']
+2026-04-12 16:42:17 INFO Cleaning up finished run: vqupyrt8
+2026-04-12 16:42:18 INFO Agent received command: exit
+2026-04-12 16:42:18 INFO Received exit command. Killing runs and quitting.
+2026-04-12 16:43:48 INFO Running runs: []
+2026-04-12 16:43:49 INFO Agent received command: run
+2026-04-12 16:43:49 INFO Agent starting run with config:
+	batch_size: 4
+	early_stopping: False
+	epochs: 5
+	hidden_dim: 512
+	include_species_embedding: False
+	learning_rate: 0.0002
+	mask_ratio: 0.15
+	normalization: log1p_tpm
+	num_heads: 16
+	num_layers: 8
+	ree_base: 100
+	weight_decay: 0
+2026-04-12 16:43:49 INFO About to run command: /usr/bin/env /home/walt/Attention/sweep_train.sh
+2026-04-12 16:43:54 INFO Running runs: ['05qwrps6']
+2026-04-13 00:39:14 INFO Cleaning up finished run: 05qwrps6
+2026-04-13 00:39:14 INFO Agent received command: exit
+2026-04-13 00:39:14 INFO Received exit command. Killing runs and quitting.

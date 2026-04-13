@@ -3,20 +3,22 @@ command:
   - ${env}                 # sets WANDB env vars for each run
   - ${program}             # runs the shell wrapper which calls torchrun
 method: grid
-run_cap: 8
+run_cap: 2
 metric:
   name: val_loss
   goal: minimize
 
 parameters:
-  # ── Fixed Architecture (fast sweeps) ──
+  # Species embedding ablation: two runs, identical except for the flag below.
+
+  # ── Fixed Architecture ──
   hidden_dim:
     values: [512]
   # ffn_dim is auto-computed as hidden_dim * 4 in train.py
   num_heads:
-    values: [8]
+    values: [16]
   num_layers:
-    values: [2]
+    values: [8]
   epochs:
     values: [5]
 
@@ -47,4 +49,6 @@ parameters:
     values: [0.15]
     # Fraction of genes masked per sample. Higher = harder task but more training signal
   early_stopping:
+    values: [false]
+  include_species_embedding:
     values: [false]

@@ -1,0 +1,26 @@
+wandb_version: 1
+
+batch_size:
+  value: 4
+early_stopping:
+  value: false
+epochs:
+  value: 5
+hidden_dim:
+  value: 512
+include_species_embedding:
+  value: false
+learning_rate:
+  value: 0.0002
+mask_ratio:
+  value: 0.15
+normalization:
+  value: log1p_tpm
+num_heads:
+  value: 16
+num_layers:
+  value: 12
+ree_base:
+  value: 100
+weight_decay:
+  value: 0

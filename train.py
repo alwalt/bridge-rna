@@ -104,6 +104,7 @@ CONFIG = {
     'train_subset': None,
     'val_subset': None,
     'balanced_sampling': True,
+    'include_species_embedding': True,
     'data_dir': './scratch/working_training_tools/train_orthologs_20K_samples',
     'checkpoint_dir': './checkpoints_performer',
 }
@@ -174,10 +175,12 @@ class ExpressionPerformer(nn.Module):
 
     def __init__(self, num_genes, hidden_dim=256, n_heads=8, n_layers=4,
                  ffn_dim=1024, ree_base=100.0, mask_token_id=-10,
-                 feature_type='sqr', compute_type='iter'):
+                 feature_type='sqr', compute_type='iter',
+                 include_species_embedding=False, num_species=1):
         super().__init__()
         self.num_genes = num_genes
         self._hidden_dim = hidden_dim
+        self.include_species_embedding = bool(include_species_embedding)
 
         # Gene identity embedding (like BERT's token embedding)
         self.gene_embedding = nn.Embedding(num_genes, hidden_dim)
@@ -185,6 +188,9 @@ class ExpressionPerformer(nn.Module):
         # Rotary Expression Embedding
         self.ree = RotaryExpressionEmbedding(hidden_dim, base=ree_base,
                                               mask_token_id=mask_token_id)
+
+        if self.include_species_embedding:
+            self.species_embedding = nn.Embedding(int(num_species), hidden_dim)
 
         # SLiMPerformer layers (linear O(n) attention via prefix sums)
         self.layers = nn.ModuleList([
@@ -196,7 +202,7 @@ class ExpressionPerformer(nn.Module):
         # Output: predict single expression value per gene
         self.output_map = nn.Linear(hidden_dim, 1)
 
-    def forward(self, x):
+    def forward(self, x, species_ids=None):
         """
         Args:
             x: [batch, num_genes] expression values
@@ -216,6 +222,12 @@ class ExpressionPerformer(nn.Module):
         # Sum embeddings (like BERT: token + position)
         h = gene_emb.unsqueeze(0) + ree_emb
 
+        if self.include_species_embedding:
+            if species_ids is None:
+                species_ids = torch.zeros(B, dtype=torch.long, device=device)
+            species_emb = self.species_embedding(species_ids.long())
+            h = h + species_emb.unsqueeze(1)
+
         # Pass through SLiMPerformer layers (linear attention)
         for layer in self.layers:
             rfs = layer.attention.sample_rfs(device)
@@ -233,8 +245,12 @@ class ExpressionPerformer(nn.Module):
 class ExpressionMLMDataset(Dataset):
     """Expression dataset with MLM-style masking."""
 
-    def __init__(self, expr_array, mask_ratio=0.15, mask_token=-10):
+    def __init__(self, expr_array, species_ids=None, mask_ratio=0.15, mask_token=-10):
         self.X = expr_array.astype(np.float32)
+        if species_ids is None:
+            self.species_ids = np.zeros(len(self.X), dtype=np.int64)
+        else:
+            self.species_ids = np.asarray(species_ids, dtype=np.int64)
         self.mask_ratio = mask_ratio
         self.mask_token = mask_token
 
@@ -255,6 +271,7 @@ class ExpressionMLMDataset(Dataset):
             torch.tensor(x_masked, dtype=torch.float32),
             torch.tensor(x, dtype=torch.float32),
             torch.tensor(mask_indices, dtype=torch.long),
+            torch.tensor(self.species_ids[idx], dtype=torch.long),
         )
 
 
@@ -307,12 +324,17 @@ class StreamingParquetMLMDataset(Dataset):
             self.sample_indices = sample_indices
 
         # Precompute per-sample row-group metadata once to avoid repeated bisect work.
-        # record = (batch_idx, row_group_idx, row_offset)
+        # record = (batch_idx, row_group_idx, row_offset, species_id)
         self.records = []
         self.group_to_indices = {}
-        for i, (batch_idx, sample_row) in enumerate(self.sample_indices):
+        for i, rec in enumerate(self.sample_indices):
+            if len(rec) >= 3:
+                batch_idx, sample_row, species_id = rec[:3]
+            else:
+                batch_idx, sample_row = rec
+                species_id = 0
             rg_idx, rg_offset = self._locate_row_group(batch_idx, sample_row)
-            self.records.append((batch_idx, rg_idx, rg_offset))
+            self.records.append((batch_idx, rg_idx, rg_offset, int(species_id)))
             key = (batch_idx, rg_idx)
             self.group_to_indices.setdefault(key, []).append(i)
 
@@ -377,12 +399,14 @@ class StreamingParquetMLMDataset(Dataset):
         """
         B = len(batch_record_indices)
         x_true = np.empty((B, self.num_genes), dtype=np.float32)
+        species_ids = np.zeros((B,), dtype=np.int64)
 
         # Group requests by (file, row_group) to maximize locality.
         grouped = {}
         for out_i, rec_i in enumerate(batch_record_indices):
-            batch_idx, rg_idx, rg_off = self.records[rec_i]
+            batch_idx, rg_idx, rg_off, species_id = self.records[rec_i]
             grouped.setdefault((batch_idx, rg_idx), []).append((out_i, rg_off))
+            species_ids[out_i] = species_id
 
         for (batch_idx, rg_idx), reqs in grouped.items():
             table = self._get_row_group_table(batch_idx, rg_idx)
@@ -408,6 +432,7 @@ class StreamingParquetMLMDataset(Dataset):
             torch.from_numpy(x_masked),
             torch.from_numpy(x_true),
             torch.from_numpy(mask_indices),
+            torch.from_numpy(species_ids),
         )
 
 
@@ -472,8 +497,7 @@ def get_sample_indices(batch_dir, train_subset=None, val_subset=None, balanced_s
         verbose: Print diagnostics
     
     Returns:
-        (train_sample_indices, val_sample_indices): Lists of
-        (batch_idx, sample_idx_in_batch) tuples where sample_idx_in_batch is row index.
+        (train_sample_indices, val_sample_indices, species_to_id)
     """
     batch_dir = Path(batch_dir)
     batch_files = sorted(batch_dir.glob("*.parquet"))
@@ -516,6 +540,12 @@ def get_sample_indices(batch_dir, train_subset=None, val_subset=None, balanced_s
             break
     
     rng = np.random.default_rng(seed)
+
+    preferred_species_order = ['human', 'mouse']
+    species_to_id = {}
+    for sp in preferred_species_order:
+        if any(v == sp for v in sample_to_species.values()):
+            species_to_id[sp] = len(species_to_id)
     
     # Build master list of all (batch_idx, sample_in_batch, species) tuples.
     # New preprocessing saves sample-major batch files, so sample IDs are parquet index.
@@ -538,6 +568,8 @@ def get_sample_indices(batch_dir, train_subset=None, val_subset=None, balanced_s
                 sample_ids = []
             for sample_idx, sample_id in enumerate(sample_ids):
                 species = sample_to_species.get(sample_id, "unknown")
+                if species not in species_to_id:
+                    species_to_id[species] = len(species_to_id)
                 all_samples.append((batch_idx, sample_idx, species))
 
         # If manifest exists but produced no sample rows, fallback to parquet index.
@@ -560,6 +592,8 @@ def get_sample_indices(batch_dir, train_subset=None, val_subset=None, balanced_s
                         sample_ids = [str(i) for i in range(pf.metadata.num_rows)]
                 for sample_idx, sample_id in enumerate(sample_ids):
                     species = sample_to_species.get(sample_id, "unknown")
+                    if species not in species_to_id:
+                        species_to_id[species] = len(species_to_id)
                     all_samples.append((batch_idx, sample_idx, species))
     else:
         # Fallback for legacy data without manifest: read index column via PyArrow.
@@ -581,6 +615,8 @@ def get_sample_indices(batch_dir, train_subset=None, val_subset=None, balanced_s
                     sample_ids = [str(i) for i in range(pf.metadata.num_rows)]
             for sample_idx, sample_id in enumerate(sample_ids):
                 species = sample_to_species.get(sample_id, "unknown")
+                if species not in species_to_id:
+                    species_to_id[species] = len(species_to_id)
                 all_samples.append((batch_idx, sample_idx, species))
     
     if verbose:
@@ -591,10 +627,10 @@ def get_sample_indices(batch_dir, train_subset=None, val_subset=None, balanced_s
     for batch_idx, sample_idx, species in all_samples:
         if species not in samples_by_species:
             samples_by_species[species] = []
-        samples_by_species[species].append((batch_idx, sample_idx))
+        samples_by_species[species].append((batch_idx, sample_idx, species_to_id.get(species, 0)))
 
-    # Strip species — downstream code expects (batch_idx, sample_idx) 2-tuples
-    all_samples = [(b, s) for b, s, _ in all_samples]
+    # Convert species labels to integer IDs for optional species embedding lookup.
+    all_samples = [(b, s, species_to_id.get(sp, 0)) for b, s, sp in all_samples]
     
     if verbose:
         for sp, samples in samples_by_species.items():
@@ -662,7 +698,7 @@ def get_sample_indices(batch_dir, train_subset=None, val_subset=None, balanced_s
         print(f"       Train: {len(train_indices):,} samples", flush=True)
         print(f"       Val:   {len(val_indices):,} samples", flush=True)
     
-    return train_indices, val_indices
+    return train_indices, val_indices, species_to_id
 
 
 def load_batch_data(batch_dir, sample_indices, normalization='tpm', verbose=True):
@@ -684,7 +720,8 @@ def load_batch_data(batch_dir, sample_indices, normalization='tpm', verbose=True
     # Group samples by batch file for efficient loading
     from collections import defaultdict
     batch_to_samples = defaultdict(list)
-    for idx, (batch_idx, sample_in_batch) in enumerate(sample_indices):
+    for idx, rec in enumerate(sample_indices):
+        batch_idx, sample_in_batch = rec[:2]
         batch_to_samples[batch_idx].append((idx, sample_in_batch))
     
     # Detect parquet orientation: gene-major has sample IDs as column names.
@@ -819,8 +856,9 @@ def main():
     t0 = time.time()
     train_indices = None
     val_indices = None
+    species_to_id = None
     if is_main:
-        train_indices, val_indices = get_sample_indices(
+        train_indices, val_indices, species_to_id = get_sample_indices(
             batch_dir,
             train_subset=CONFIG.get('train_subset', None),
             val_subset=CONFIG.get('val_subset', None),
@@ -831,11 +869,16 @@ def main():
 
     train_indices_list = [train_indices if is_main else None]
     val_indices_list = [val_indices if is_main else None]
+    species_to_id_list = [species_to_id if is_main else None]
     dist.broadcast_object_list(train_indices_list, src=0)
     dist.broadcast_object_list(val_indices_list, src=0)
+    dist.broadcast_object_list(species_to_id_list, src=0)
     train_indices = train_indices_list[0]
     val_indices = val_indices_list[0]
+    species_to_id = species_to_id_list[0]
+    num_species = max(1, len(species_to_id))
     if is_main:
+        print(f"[DATA] Species IDs: {species_to_id}", flush=True)
         print(f"  ✓ Index time: {time.time()-t0:.1f}s", flush=True)
 
     data_mode = CONFIG.get('data_mode', 'preload')
@@ -878,11 +921,18 @@ def main():
                                 normalization=CONFIG['normalization'],
                                 verbose=is_main)
 
+        train_species = np.asarray([int(rec[2]) if len(rec) >= 3 else 0 for rec in train_indices], dtype=np.int64)
+        val_species = np.asarray([int(rec[2]) if len(rec) >= 3 else 0 for rec in val_indices], dtype=np.int64)
+
         num_genes = X_train.shape[1]
 
         # Data stored fully in host memory; faster per-step but higher RAM.
-        train_ds = ExpressionMLMDataset(X_train, CONFIG['mask_ratio'], CONFIG['mask_token'])
-        val_ds = ExpressionMLMDataset(X_val, CONFIG['mask_ratio'], CONFIG['mask_token'])
+        train_ds = ExpressionMLMDataset(X_train, species_ids=train_species,
+                        mask_ratio=CONFIG['mask_ratio'],
+                        mask_token=CONFIG['mask_token'])
+        val_ds = ExpressionMLMDataset(X_val, species_ids=val_species,
+                          mask_ratio=CONFIG['mask_ratio'],
+                          mask_token=CONFIG['mask_token'])
 
     if is_main:
         print(f"\n[CHECK] num_genes={num_genes}")
@@ -968,6 +1018,8 @@ def main():
         mask_token_id=CONFIG['mask_token'],
         feature_type=CONFIG['feature_type'],
         compute_type=CONFIG['compute_type'],
+        include_species_embedding=CONFIG.get('include_species_embedding', False),
+        num_species=num_species,
     ).to(device)
 
     model = DDP(model, device_ids=[rank], output_device=rank,
@@ -1038,6 +1090,8 @@ def main():
             'ffn_dim': CONFIG['ffn_dim'],
             'num_heads': CONFIG['num_heads'],
             'num_layers': CONFIG['num_layers'],
+            'include_species_embedding': CONFIG.get('include_species_embedding', False),
+            'num_species': int(num_species),
         },
         'dataset': {
             'train_samples': len(train_ds),
@@ -1065,11 +1119,12 @@ def main():
         running_loss = 0.0
         num_batches = 0
 
-        for batch_idx, (x_masked, x_true, mask_idx) in enumerate(train_loader):
+        for batch_idx, (x_masked, x_true, mask_idx, species_id) in enumerate(train_loader):
             x_masked = x_masked.to(device)
             x_true = x_true.to(device)
+            species_id = species_id.to(device)
 
-            pred = model(x_masked)  # [B, G]
+            pred = model(x_masked, species_id)  # [B, G]
 
             # MSE loss on masked positions only
             loss_parts = []
@@ -1102,10 +1157,11 @@ def main():
         val_batches = 0
 
         with torch.no_grad():
-            for x_masked, x_true, mask_idx in val_loader:
+            for x_masked, x_true, mask_idx, species_id in val_loader:
                 x_masked = x_masked.to(device)
                 x_true = x_true.to(device)
-                pred = model(x_masked)
+                species_id = species_id.to(device)
+                pred = model(x_masked, species_id)
 
                 loss_parts = []
                 for i in range(len(x_masked)):

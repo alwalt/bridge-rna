@@ -18,3 +18,8 @@ config: {'hidden_dim': 256, 'ffn_dim': 1024, 'num_heads': 8, 'num_layers': 2, 'r
 2026-04-11 20:59:33,928 INFO    MainThread:5386 [wandb_run.py:_redirect():2465] Redirects installed.
 2026-04-11 20:59:33,933 INFO    MainThread:5386 [wandb_init.py:init():1082] run started, returning control to user process
 2026-04-11 20:59:33,934 INFO    MainThread:5386 [wandb_run.py:_config_callback():1403] config_cb None None {'hidden_dim': 256, 'ffn_dim': 1024, 'num_heads': 8, 'num_layers': 2, 'ree_base': 100, 'feature_type': 'sqr', 'compute_type': 'iter', 'normalization': 'log1p_tpm', 'mask_ratio': 0.15, 'mask_token': -10, 'learning_rate': 0.0001, 'weight_decay': 0, 'batch_size': 4, 'epochs': 1, 'early_stopping': True, 'patience': 5, 'seed': 42, 'data_mode': 'preload', 'stream_cache_size': 2, 'num_workers': 1, 'prefetch_factor': 2, 'persistent_workers': False, 'train_subset': None, 'val_subset': None, 'balanced_sampling': True, 'data_dir': './scratch/working_training_tools/train_orthologs_20K_samples', 'checkpoint_dir': './checkpoints_performer'}
+2026-04-11 21:25:04,811 INFO    MainThread:5386 [wandb_run.py:_finish():2291] finishing run walt_/expression-performer/cbbg5tur
+2026-04-11 21:25:04,812 INFO    MainThread:5386 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-04-11 21:25:04,813 INFO    MainThread:5386 [wandb_run.py:_restore():2472] restore
+2026-04-11 21:25:04,813 INFO    MainThread:5386 [wandb_run.py:_restore():2478] restore done
+2026-04-11 21:25:05,659 INFO    MainThread:5386 [wandb_run.py:_footer_sync_info():3868] logging synced files

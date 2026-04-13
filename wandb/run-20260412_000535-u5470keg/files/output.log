@@ -1,0 +1,118 @@
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'hidden_dim' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'num_heads' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'num_layers' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'ree_base' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'normalization' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'mask_ratio' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'learning_rate' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'weight_decay' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'batch_size' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'epochs' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'early_stopping' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'include_species_embedding' was locked by 'sweep' (ignored update).
+
+[DATA] Building sample indices...
+[DEBUG] Found 1 batch files
+[DATA] Total samples available: 15,865
+       human: 8,392 samples
+       mouse: 7,473 samples
+       Balanced to 7,473 per species
+       Train: 11,956 samples
+       Val:   2,990 samples
+[DATA] Species IDs: {'human': 0, 'mouse': 1}
+  ✓ Index time: 0.3s
+
+[DATA] Loading training data into memory...
+  ...loaded 1/1 batch files
+  ✓ Loaded 11,956 samples × 15,165 genes
+[DATA] Loading validation data into memory...
+  ...loaded 1/1 batch files
+  ✓ Loaded 2,990 samples × 15,165 genes
+
+[CHECK] num_genes=15165
+
+[DATA] Train: 11,956 samples, 1495 batches
+[DATA] Val:   2,990 samples, 374 batches
+/home/walt/.local/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  warnings.warn(  # warn only once
+
+[MODEL] Building ExpressionPerformer...
+  ✓ Parameters: 5,330,945
+  ✓ AdamW (lr=0.0002)
+
+======================================================================
+[TRAIN] Starting training...
+======================================================================
+
+  Epoch 1/5 | Batch 373/1495 | Loss: 1.927312 | Avg: 3.105528
+  Epoch 1/5 | Batch 746/1495 | Loss: 0.937102 | Avg: 2.232337
+  Epoch 1/5 | Batch 1119/1495 | Loss: 1.167469 | Avg: 1.863675
+  Epoch 1/5 | Batch 1492/1495 | Loss: 1.004481 | Avg: 1.671079
+
+  ╔════════════════════════════════════════════╗
+  ║ Epoch 1/5
+  ║ Train Loss: 1.670062
+  ║ Val Loss:   1.083752
+  ║ Time: 1515.6s
+  ║ ✓ New best (run)! Saved best_model.pt
+  ╚════════════════════════════════════════════╝
+
+  Epoch 2/5 | Batch 373/1495 | Loss: 1.394348 | Avg: 1.065287
+  Epoch 2/5 | Batch 746/1495 | Loss: 0.817178 | Avg: 1.051695
+  Epoch 2/5 | Batch 1119/1495 | Loss: 1.520164 | Avg: 1.050325
+  Epoch 2/5 | Batch 1492/1495 | Loss: 0.999546 | Avg: 1.051008
+
+  ╔════════════════════════════════════════════╗
+  ║ Epoch 2/5
+  ║ Train Loss: 1.050803
+  ║ Val Loss:   1.129109
+  ║ Time: 1512.8s
+  ║ ✗ No improvement (early_stopping=False; continuing)
+  ╚════════════════════════════════════════════╝
+
+  Epoch 3/5 | Batch 373/1495 | Loss: 0.957821 | Avg: 1.031846
+  Epoch 3/5 | Batch 746/1495 | Loss: 0.915787 | Avg: 1.025772
+  Epoch 3/5 | Batch 1119/1495 | Loss: 1.617678 | Avg: 1.024075
+  Epoch 3/5 | Batch 1492/1495 | Loss: 1.346580 | Avg: 1.022286
+
+  ╔════════════════════════════════════════════╗
+  ║ Epoch 3/5
+  ║ Train Loss: 1.022057
+  ║ Val Loss:   1.042395
+  ║ Time: 1467.3s
+  ║ ✓ New best (run)! Saved best_model.pt
+  ╚════════════════════════════════════════════╝
+
+  Epoch 4/5 | Batch 373/1495 | Loss: 0.905246 | Avg: 0.990003
+  Epoch 4/5 | Batch 746/1495 | Loss: 1.260563 | Avg: 0.983832
+  Epoch 4/5 | Batch 1119/1495 | Loss: 0.916083 | Avg: 0.982534
+  Epoch 4/5 | Batch 1492/1495 | Loss: 0.983207 | Avg: 0.975502
+
+  ╔════════════════════════════════════════════╗
+  ║ Epoch 4/5
+  ║ Train Loss: 0.975705
+  ║ Val Loss:   0.951619
+  ║ Time: 1410.8s
+  ║ ✓ New best (run)! Saved best_model.pt
+  ╚════════════════════════════════════════════╝
+
+  Epoch 5/5 | Batch 373/1495 | Loss: 0.828353 | Avg: 0.949105
+  Epoch 5/5 | Batch 746/1495 | Loss: 1.071672 | Avg: 0.936717
+  Epoch 5/5 | Batch 1119/1495 | Loss: 0.778446 | Avg: 0.929667
+  Epoch 5/5 | Batch 1492/1495 | Loss: 0.796462 | Avg: 0.928081
+
+  ╔════════════════════════════════════════════╗
+  ║ Epoch 5/5
+  ║ Train Loss: 0.928131
+  ║ Val Loss:   0.924743
+  ║ Time: 1406.0s
+  ║ ✓ New best (run)! Saved best_model.pt
+  ╚════════════════════════════════════════════╝
+
+======================================================================
+Training complete! 7342s (122.4m)
+  Run best val loss:    0.924743
+  Global best val loss: 0.000000
+  Run checkpoints:      checkpoints_performer/u5470keg/
+  Global best model:    checkpoints_performer/best_model.pt
+======================================================================

@@ -33,3 +33,21 @@
 
   Epoch 1/1 | Batch 373/1495 | Loss: 1.467744 | Avg: 2.744178
   Epoch 1/1 | Batch 746/1495 | Loss: 1.003610 | Avg: 1.985094
+  Epoch 1/1 | Batch 1119/1495 | Loss: 1.309063 | Avg: 1.709079
+  Epoch 1/1 | Batch 1492/1495 | Loss: 1.046834 | Avg: 1.567590
+
+  ╔════════════════════════════════════════════╗
+  ║ Epoch 1/1
+  ║ Train Loss: 1.566942
+  ║ Val Loss:   1.169928
+  ║ Time: 1505.0s
+  ║ ✓ New best (run)! Saved best_model.pt
+  ╚════════════════════════════════════════════╝
+
+======================================================================
+Training complete! 1533s (25.5m)
+  Run best val loss:    1.169928
+  Global best val loss: 0.000000
+  Run checkpoints:      checkpoints_performer/cbbg5tur/
+  Global best model:    checkpoints_performer/best_model.pt
+======================================================================
