@@ -90,22 +90,22 @@ CONFIG = {
     'learning_rate': 1e-4,
     'weight_decay': 0,
     'batch_size': 8,
-    'epochs': 5,
-    'early_stopping': False,
+    'epochs': 10,
+    'early_stopping': True,
     'patience': 5,
     'seed': 42,
     # Data loading mode: 'preload' (load arrays into RAM) or 'streaming' (on-the-fly parquet reads)
-    'data_mode': 'preload',
+    'data_mode': 'streaming',
     'stream_cache_size': 2,
     'num_workers': 0,
     'prefetch_factor': 2,
     'persistent_workers': False,
     # Data subset sizes (set to None for all available)
-    'train_subset': None,
-    'val_subset': None,
+    'train_subset': 20000,
+    'val_subset': 4000,
     'balanced_sampling': True,
     'include_species_embedding': False,
-    'data_dir': './data/archs4/train_orthologs_merged',
+    'data_dir': './data/archs4/train_orthologs_sharded',
     'checkpoint_dir': './checkpoints_performer',
     'progress_log_interval_sec': 60,
     'timing_profile': True,
@@ -459,12 +459,23 @@ class StreamingParquetMLMDataset(Dataset):
 class RowGroupBatchSampler(Sampler):
     """Batch sampler that keeps batches within the same (file, row_group)."""
 
-    def __init__(self, group_to_indices, batch_size, shuffle=True, seed=42, drop_last=False):
+    def __init__(
+        self,
+        group_to_indices,
+        batch_size,
+        shuffle=True,
+        seed=42,
+        drop_last=False,
+        target_num_batches=None,
+    ):
         self.group_to_indices = group_to_indices
         self.batch_size = int(batch_size)
         self.shuffle = bool(shuffle)
         self.seed = int(seed)
         self.drop_last = bool(drop_last)
+        self.target_num_batches = (
+            None if target_num_batches is None else max(0, int(target_num_batches))
+        )
         self.epoch = 0
 
         total = 0
@@ -479,11 +490,19 @@ class RowGroupBatchSampler(Sampler):
         self.epoch = int(epoch)
 
     def __iter__(self):
+        batches = self._build_batches()
+        if self.target_num_batches is not None:
+            batches = batches[: self.target_num_batches]
+        for batch in batches:
+            yield batch
+
+    def _build_batches(self):
         rng = np.random.default_rng(self.seed + self.epoch)
         keys = list(self.group_to_indices.keys())
         if self.shuffle:
             rng.shuffle(keys)
 
+        batches = []
         for k in keys:
             idxs = np.array(self.group_to_indices[k], dtype=np.int64)
             if self.shuffle:
@@ -495,9 +514,13 @@ class RowGroupBatchSampler(Sampler):
                 batch = idxs[start:start + self.batch_size]
                 if len(batch) < self.batch_size and self.drop_last:
                     continue
-                yield batch.tolist()
+                batches.append(batch.tolist())
+
+        return batches
 
     def __len__(self):
+        if self.target_num_batches is not None:
+            return min(self._len, self.target_num_batches)
         return self._len
 
 
@@ -996,6 +1019,34 @@ def main():
                 seed=CONFIG.get('seed', 42),
                 drop_last=False,
             )
+
+            # Keep DDP ranks in lockstep by forcing identical per-rank batch counts.
+            local_batch_counts = torch.tensor(
+                [len(train_batch_sampler), len(val_batch_sampler)],
+                dtype=torch.long,
+                device=device,
+            )
+            gathered_batch_counts = [torch.zeros_like(local_batch_counts) for _ in range(world_size)]
+            dist.all_gather(gathered_batch_counts, local_batch_counts)
+            batch_counts_matrix = torch.stack(gathered_batch_counts, dim=0).cpu().numpy()
+
+            synced_train_batches = int(batch_counts_matrix[:, 0].min())
+            synced_val_batches = int(batch_counts_matrix[:, 1].min())
+
+            train_batch_sampler.target_num_batches = synced_train_batches
+            val_batch_sampler.target_num_batches = synced_val_batches
+
+            if is_main:
+                train_counts = [int(x) for x in batch_counts_matrix[:, 0].tolist()]
+                val_counts = [int(x) for x in batch_counts_matrix[:, 1].tolist()]
+                print(
+                    f"[DATA] Streaming file-shard local batch counts (train): {train_counts} -> synced={synced_train_batches}",
+                    flush=True,
+                )
+                print(
+                    f"[DATA] Streaming file-shard local batch counts (val): {val_counts} -> synced={synced_val_batches}",
+                    flush=True,
+                )
         else:
             train_sampler = DistributedSampler(
                 train_ds, num_replicas=world_size, rank=rank, shuffle=True, seed=42
