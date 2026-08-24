@@ -1,25 +1,132 @@
+# ============================================================
 # Python
+# ============================================================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # environments
+.venv/
 venv/
+env/
+ENV/
+.conda/
+conda-env/
+
+# Environment / secrets
 .env
-*.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
 
 # notebooks
 .ipynb_checkpoints/
 
-# datasets
-data/
-datasets/
-*.parquet
+# Common biological / tabular data
 *.h5
+*.hdf5
+*.hdf
+*.gct
+*.gct.gz
+*.parquet
+*.feather
 
-# models
+# Compressed datasets
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.7z
+
+# ============================================================
+# RNA-seq / Bioinformatics
+# ============================================================
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.cram
+*.bed
+*.bigWig
+*.bw
+
+# ============================================================
+# MODEL CHECKPOINTS / WEIGHTS
+# ============================================================
 checkpoints/
+models/
+weights/
+
 *.pt
 *.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
 
-# misc
-.DS_Store
+# ============================================================
+# EMBEDDINGS / GENERATED FEATURES
+# ============================================================
+embeddings/
+cache/
+.cache/
+
+# ============================================================
+# Frontend / Node
+# ============================================================
+node_modules/
+.next/
+.nuxt/
+dist/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================================
+# Local application state
+# ============================================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================
+# Weights & Biases
+# ============================================================
+wandb/
+
+# Local W&B run artifacts
+**/wandb/
+
+# Sweep outputs / local sweep directories
+sweeps/
+sweep_outputs/
+
+# W&B debug logs
+debug.log
+debug-internal.log
