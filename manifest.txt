@@ -1,0 +1,105 @@
+
+================================================================================
+MANIFEST SCHEMA
+================================================================================
+Path:    /home/walt/bridge-rna/data/manifests/sample_manifest.parquet
+Shape:   940,455 rows x 13 columns
+Columns: ['sample_id', 'gsm', 'split', 'study_exposure', 'gse_candidates', 'gse_candidates_str', 'gse_count', 'mapping_status', 'has_gse_conflict', 'mapping_source', 'species', 'archs4_file', 'has_source_conflict']
+
+Data types:
+sample_id              string[python]
+gsm                    string[python]
+split                  string[python]
+study_exposure                 object
+gse_candidates                 object
+gse_candidates_str             object
+gse_count                       int64
+mapping_status                 object
+has_gse_conflict                 bool
+mapping_source                 object
+species                        object
+archs4_file                    object
+has_source_conflict              bool
+
+Required manifest columns are present.
+
+================================================================================
+COUNTS BY SPLIT
+================================================================================
+split
+train     640000
+val       160000
+unseen    140455
+
+================================================================================
+COUNTS BY STUDY_EXPOSURE
+================================================================================
+study_exposure
+seen_study      805665
+unseen_study    134790
+
+================================================================================
+COUNTS BY MAPPING_STATUS
+================================================================================
+mapping_status
+mapped_single      730315
+mapped_multiple    210140
+
+================================================================================
+IDENTIFIER AND MAPPING SUMMARY
+================================================================================
+Rows:                          940,455
+Unique GSMs:                   940,455
+Unique GSEs:                   59,804
+Rows without GSM:              0
+Duplicate GSM rows:            0
+Rows without a GSE candidate:  0
+Unresolved mappings:           0
+Multiple-GSE mappings:         210,140
+
+================================================================================
+TRAIN / VAL / UNSEEN OVERLAP
+================================================================================
+
+GSM overlap:
+  train / val: 0
+  train / unseen: 0
+  val / unseen: 0
+
+GSE overlap:
+  train / val: 41,172
+    examples: ['GSE100007', 'GSE100009', 'GSE100026', 'GSE100027', 'GSE100035']
+  train / unseen: 377
+    examples: ['GSE109125', 'GSE120693', 'GSE124076', 'GSE125986', 'GSE127267']
+  val / unseen: 324
+    examples: ['GSE109125', 'GSE120693', 'GSE124076', 'GSE125986', 'GSE127267']
+
+================================================================================
+STRICT EXTERNAL EVALUATION POOL
+================================================================================
+All unseen samples:                  140,455
+Mapped samples from unseen studies: 134,255
+Share of unseen samples:             95.59%
+
+First 5 eligible rows:
+sample_id       gsm  split study_exposure       gse_candidates gse_candidates_str  gse_count  mapping_status  has_gse_conflict mapping_source species        archs4_file  has_source_conflict
+GSM678412 GSM678412 unseen   unseen_study [GSE27452, GSE32303]  GSE27452;GSE32303          2 mapped_multiple              True         archs4   human human_gene_v2.5.h5                False
+GSM678414 GSM678414 unseen   unseen_study [GSE27452, GSE32303]  GSE27452;GSE32303          2 mapped_multiple              True         archs4   human human_gene_v2.5.h5                False
+GSM741170 GSM741170 unseen   unseen_study           [GSE29943]           GSE29943          1   mapped_single             False         archs4   human human_gene_v2.5.h5                False
+GSM741172 GSM741172 unseen   unseen_study           [GSE29943]           GSE29943          1   mapped_single             False         archs4   human human_gene_v2.5.h5                False
+GSM774014 GSM774014 unseen   unseen_study [GSE30866, GSE31223]  GSE30866;GSE31223          2 mapped_multiple              True         archs4   mouse mouse_gene_v2.5.h5                False
+
+================================================================================
+SUSPICIOUS ROWS
+================================================================================
+missing sample_id: 0
+duplicate sample_id: 0
+missing GSM: 0
+mapped status without GSE: 0
+unresolved status with GSE: 0
+mapped_single with non-single GSE count: 0
+mapped_multiple with fewer than two GSEs: 0
+unseen_study intersects training GSEs: 0
+seen_study has no training GSE match: 0
+
+Distinct rows flagged by any check: 0

@@ -11,6 +11,7 @@ Examples
     python scripts/data_audit/map_gsm_to_gse.py
     python scripts/data_audit/map_gsm_to_gse.py --train data/archs4/training/sample_split/train_samples.parquet --validation data/archs4/training/sample_split/validation_samples.parquet
     python scripts/data_audit/map_gsm_to_gse.py --unused unused_samples.parquet
+    .venv/bin/python scripts/data_audit/map_gsm_to_gse.py   --train data/archs4/training/sample_split/train_samples.parquet   --validation data/archs4/training/sample_split/validation_samples.parquet   --unused data/archs4/training/sample_split/unused_samples.parquet
 """
 
 from __future__ import annotations
@@ -31,10 +32,14 @@ DEFAULT_ARCHS4_DIR = REPO_ROOT / "data" / "archs4"
 DEFAULT_OUTPUT = REPO_ROOT / "data" / "manifests" / "sample_manifest.parquet"
 GSM_RE = re.compile(r"GSM\d+", re.IGNORECASE)
 GSE_RE = re.compile(r"GSE\d+", re.IGNORECASE)
-OUTPUT_COLUMNS = [
+MAPPING_COLUMNS = [
     "gsm", "gse_candidates", "gse_candidates_str", "gse_count",
     "mapping_status", "has_gse_conflict", "mapping_source", "species",
     "archs4_file", "has_source_conflict",
+]
+OUTPUT_COLUMNS = [
+    "sample_id", "gsm", "split", "study_exposure",
+    *[column for column in MAPPING_COLUMNS if column != "gsm"],
 ]
 
 
@@ -138,7 +143,7 @@ def discover_unused_paths(explicit: Sequence[Path], data_dir: Path) -> list[Path
 
 def extract_required_gsms(
     train_path: Path, validation_path: Path, unused_paths: Sequence[Path] = ()
-) -> set[str]:
+) -> dict[str, set[str]]:
     """Build ``train_gsms | validation_gsms | unused_gsms`` explicitly."""
     heading("REQUIRED GSM INPUTS")
     train_gsms = extract_gsms_from_file(train_path)
@@ -155,9 +160,28 @@ def extract_required_gsms(
     else:
         print("Unused: no input supplied or discovered; continuing with train + validation")
 
-    required = train_gsms | validation_gsms | unused_gsms
+    split_gsms = {"train": train_gsms, "val": validation_gsms, "unseen": unused_gsms}
+    validate_split_membership(split_gsms)
+    required = set().union(*split_gsms.values())
     print(f"Union: {len(required):,} unique GSMs")
-    return required
+    return split_gsms
+
+
+def validate_split_membership(split_gsms: dict[str, set[str]]) -> None:
+    """Reject leakage: each GSM must originate from exactly one input split."""
+    conflicts: dict[tuple[str, str], set[str]] = {}
+    splits = list(split_gsms)
+    for index, left in enumerate(splits):
+        for right in splits[index + 1:]:
+            overlap = split_gsms[left] & split_gsms[right]
+            if overlap:
+                conflicts[(left, right)] = overlap
+    if conflicts:
+        details = [
+            f"{left}/{right}: {len(overlap):,} GSMs; examples={sorted(overlap)[:5]}"
+            for (left, right), overlap in conflicts.items()
+        ]
+        raise ValueError("GSMs occur in multiple splits:\n  " + "\n  ".join(details))
 
 
 def _list_value(value: object) -> list[str]:
@@ -171,7 +195,7 @@ def _list_value(value: object) -> list[str]:
 
 def load_existing_mapping(path: Path) -> pd.DataFrame:
     if not path.exists():
-        return pd.DataFrame(columns=OUTPUT_COLUMNS)
+        return pd.DataFrame(columns=MAPPING_COLUMNS)
     frame = pd.read_parquet(path)
     if "gsm" not in frame.columns:
         raise ValueError(f"Existing mapping lacks required 'gsm' column: {path}")
@@ -191,10 +215,10 @@ def load_existing_mapping(path: Path) -> pd.DataFrame:
         frame["gse_candidates"] = frame["gse_candidates_str"].map(parse_gse_candidates)
     else:
         frame["gse_candidates"] = [[] for _ in range(len(frame))]
-    for column in OUTPUT_COLUMNS:
+    for column in MAPPING_COLUMNS:
         if column not in frame.columns:
             frame[column] = pd.NA
-    return frame[OUTPUT_COLUMNS]
+    return frame[MAPPING_COLUMNS]
 
 
 def inspect_archs4_metadata(path: Path) -> tuple[str, str]:
@@ -292,7 +316,7 @@ def build_archs4_mapping(gsms: set[str], archs4_files: Sequence[Path]) -> pd.Dat
             "has_source_conflict": source_conflict,
         })
     print(f"Not found in any ARCHS4 file: {len(remaining):,}")
-    return pd.DataFrame(rows, columns=OUTPUT_COLUMNS)
+    return pd.DataFrame(rows, columns=MAPPING_COLUMNS)
 
 
 def update_mapping(
@@ -306,7 +330,7 @@ def update_mapping(
     to_process = (required - cached) | (required & retry)
     retained = existing.loc[~existing["gsm"].isin(to_process)].copy()
     new = build_archs4_mapping(to_process, archs4_files) if to_process else existing.iloc[0:0]
-    combined = pd.concat([retained, new], ignore_index=True)[OUTPUT_COLUMNS]
+    combined = pd.concat([retained, new], ignore_index=True)[MAPPING_COLUMNS]
     combined = combined.sort_values("gsm", key=lambda s: s.str[3:].astype(int)).reset_index(drop=True)
     return combined, len(required & cached), len(to_process)
 
@@ -353,13 +377,80 @@ def validate_mapping(mapping: pd.DataFrame, required: set[str], cached: int, new
         raise ValueError(f"Validation failed: {len(missing):,} requested GSMs are absent.")
 
 
-def save_mapping(mapping: pd.DataFrame, output: Path) -> None:
+def classify_study_exposure(
+    candidates: object, training_gses: set[str]
+) -> str:
+    """Classify study exposure conservatively for single- and multi-GSE rows."""
+    values = _list_value(candidates)
+    if not values:
+        return "unknown_study"
+    if any(gse in training_gses for gse in values):
+        return "seen_study"
+    return "unseen_study"
+
+
+def build_sample_manifest(
+    mapping: pd.DataFrame, split_gsms: dict[str, set[str]]
+) -> pd.DataFrame:
+    """Attach source split and training-relative study exposure to mappings."""
+    validate_split_membership(split_gsms)
+    required = set().union(*split_gsms.values())
+    manifest = mapping[mapping["gsm"].isin(required)].copy()
+    split_by_gsm = {
+        gsm: split for split, gsms in split_gsms.items() for gsm in gsms
+    }
+    manifest["sample_id"] = manifest["gsm"]
+    manifest["split"] = manifest["gsm"].map(split_by_gsm).astype("string")
+
+    train_candidates = manifest.loc[
+        manifest["split"].eq("train"), "gse_candidates"
+    ]
+    training_gses = {
+        gse for candidates in train_candidates for gse in _list_value(candidates)
+    }
+    manifest["study_exposure"] = manifest["gse_candidates"].map(
+        lambda candidates: classify_study_exposure(candidates, training_gses)
+    )
+    manifest = manifest[OUTPUT_COLUMNS].sort_values(
+        ["split", "gsm"], key=lambda values: (
+            values.str[3:].astype(int) if values.name == "gsm" else values
+        )
+    ).reset_index(drop=True)
+    return manifest
+
+
+def validate_manifest(manifest: pd.DataFrame, split_gsms: dict[str, set[str]]) -> None:
+    """Validate final provenance and exposure fields before writing."""
+    required = set().union(*split_gsms.values())
+    if len(manifest) != len(required):
+        raise ValueError(
+            f"Final manifest has {len(manifest):,} rows for {len(required):,} required GSMs."
+        )
+    if manifest["gsm"].duplicated().any():
+        raise ValueError("Final manifest contains duplicate GSM rows.")
+    if manifest[["sample_id", "gsm", "split", "study_exposure"]].isna().any().any():
+        raise ValueError("Final manifest has missing required provenance/exposure values.")
+
+    strict = (
+        manifest["split"].eq("unseen")
+        & manifest["study_exposure"].eq("unseen_study")
+        & manifest["mapping_status"].isin(["mapped_single", "mapped_multiple"])
+    )
+    heading("FINAL SAMPLE MANIFEST")
+    print("Counts by split:")
+    print(manifest["split"].value_counts().to_string())
+    print("\nCounts by study exposure:")
+    print(manifest["study_exposure"].value_counts().to_string())
+    print(f"\nStrict external-evaluation samples: {strict.sum():,}")
+
+
+def save_manifest(manifest: pd.DataFrame, output: Path) -> None:
     """Atomically replace the derived cache, leaving all source data untouched."""
     output.parent.mkdir(parents=True, exist_ok=True)
     temporary = output.with_name(f".{output.name}.tmp")
-    mapping.to_parquet(temporary, index=False)
+    manifest.to_parquet(temporary, index=False)
     temporary.replace(output)
-    print(f"\nSaved authoritative manifest with {len(mapping):,} unique GSM mappings to {output}")
+    print(f"\nSaved authoritative sample manifest with {len(manifest):,} rows to {output}")
 
 
 def parse_args() -> argparse.Namespace:
@@ -390,7 +481,8 @@ def main() -> None:
         train = resolve_split_path(args.train, "train", data_dir)
         validation = resolve_split_path(args.validation, "validation", data_dir)
         unused = discover_unused_paths(args.unused, data_dir)
-        required = extract_required_gsms(train, validation, unused)
+        split_gsms = extract_required_gsms(train, validation, unused)
+        required = set().union(*split_gsms.values())
         output = args.output.expanduser().resolve()
         existing = load_existing_mapping(output)
         archs4_files = discover_archs4_files(
@@ -400,7 +492,9 @@ def main() -> None:
             required, existing, archs4_files, args.retry_unresolved
         )
         validate_mapping(mapping, required, cached, newly_processed)
-        save_mapping(mapping, output)
+        manifest = build_sample_manifest(mapping, split_gsms)
+        validate_manifest(manifest, split_gsms)
+        save_manifest(manifest, output)
     except (FileNotFoundError, RuntimeError, ValueError) as exc:
         raise SystemExit(f"Error: {exc}") from exc
 
