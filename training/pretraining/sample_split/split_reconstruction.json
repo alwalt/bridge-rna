@@ -1,0 +1,13 @@
+{
+  "run_id": "r7hnr92k",
+  "seed": 42,
+  "balanced_sampling": true,
+  "balanced_shards_only": true,
+  "balanced_shard_tolerance": 0,
+  "max_balanced_shards": 40,
+  "train_samples": 640000,
+  "validation_samples": 160000,
+  "unused_samples": 140455,
+  "source_sample_id_column": "geo_accession / GSM accession",
+  "gse_accession": "not available in the archived shard metadata"
+}

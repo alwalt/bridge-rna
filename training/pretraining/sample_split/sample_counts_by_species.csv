@@ -1,0 +1,4 @@
+species,all_samples,train_samples,validation_samples,unused_samples
+human,510709,320050,79950,110709
+mouse,429746,319950,80050,29746
+total,940455,640000,160000,140455
