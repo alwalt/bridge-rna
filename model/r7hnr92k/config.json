@@ -1,0 +1,14 @@
+{
+  "hidden_dim": 512,
+  "ffn_dim": 2048,
+  "num_heads": 8,
+  "num_layers": 12,
+  "ree_base": 100,
+  "feature_type": "flash",
+  "compute_type": "iter",
+  "normalization": "log1p_tpm",
+  "mask_token": -10,
+  "include_species_embedding": false,
+  "num_genes": 15165,
+  "run_id": "r7hnr92k"
+}

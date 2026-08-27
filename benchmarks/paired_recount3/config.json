@@ -1,0 +1,15 @@
+{
+  "random_seed": 20260826,
+  "target_pairs_per_cohort": 100000,
+  "candidate_samples_per_cohort": 100000,
+  "max_candidates_per_gse": 50,
+  "max_final_pairs_per_gse": 100000,
+  "species": "human",
+  "cohorts": [
+    "unseen_sample_seen_study",
+    "strict_unseen_single_gse"
+  ],
+  "normalization": "log1p_tpm",
+  "recount3_annotation": "gencode_v29",
+  "embedding_batch_size": 32
+}

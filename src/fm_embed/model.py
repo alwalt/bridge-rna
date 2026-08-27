@@ -3,17 +3,12 @@
 from __future__ import annotations
 
 import json
-import sys
 from pathlib import Path
 from typing import Tuple
 
 import torch
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
-if str(REPO_ROOT) not in sys.path:
-    sys.path.insert(0, str(REPO_ROOT))
-
-from generate_archs4_embeddings import ExpressionPerformer, _strip_module_prefix  # noqa: E402
+from .inference_model import ExpressionPerformer, strip_module_prefix
 
 
 def load_expression_performer(
@@ -50,7 +45,16 @@ def load_expression_performer(
         include_species_embedding=bool(cfg.get("include_species_embedding", False)),
         num_species=2,
     )
-    model.load_state_dict(_strip_module_prefix(ckpt["model_state_dict"]), strict=False)
+    expected_genes = cfg.get("num_genes")
+    if expected_genes is not None and int(expected_genes) != num_genes:
+        raise ValueError(f"Checkpoint expects {expected_genes} genes, received {num_genes}")
+    missing, unexpected = model.load_state_dict(
+        strip_module_prefix(ckpt["model_state_dict"]), strict=False
+    )
+    if missing or unexpected:
+        raise ValueError(
+            f"Checkpoint mismatch: missing={missing[:5]}, unexpected={unexpected[:5]}"
+        )
 
     resolved_device = torch.device(device if torch.cuda.is_available() and device.startswith("cuda") else "cpu")
     model.to(resolved_device)
