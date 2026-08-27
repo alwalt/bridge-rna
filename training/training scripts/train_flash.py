@@ -57,7 +57,7 @@ import torch.distributed as dist
 import pandas as pd
 import pyarrow.parquet as pq
 
-from slim_performer_model import SLiMPerformerLayer
+from training.scripts.slim_performer_model import SLiMPerformerLayer
 
 try:
     import wandb

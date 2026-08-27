@@ -39,7 +39,7 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.optim import AdamW
 from torch.utils.data import BatchSampler, DataLoader, Dataset, DistributedSampler, Sampler
 
-from slim_performer_model import SLiMPerformerLayer
+from training.scripts.slim_performer_model import SLiMPerformerLayer
 
 try:
 	import wandb

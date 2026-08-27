@@ -18,8 +18,6 @@ import argparse
 import re
 from itertools import combinations
 from pathlib import Path
-from typing import Iterable
-
 import pandas as pd
 
 
@@ -116,6 +114,78 @@ def summarize_identifiers(manifest: pd.DataFrame, row_gses: pd.Series) -> None:
         print(f"Multiple-GSE mappings:         {statuses.eq('mapped_multiple').sum():,}")
     else:
         print("Mapping-status summaries unavailable: 'mapping_status' is missing.")
+
+
+def report_species_breakdown(manifest: pd.DataFrame) -> None:
+    heading("HUMAN / MOUSE COMPOSITION")
+    if "species" not in manifest.columns:
+        print("Unavailable: column 'species' is missing.")
+        return
+    species = manifest["species"].astype("string").fillna("<missing>")
+    print("Overall:")
+    print(species.value_counts().to_string())
+    if "split" in manifest.columns:
+        print("\nBy split:")
+        print(pd.crosstab(manifest["split"], species, margins=True).to_string())
+    if "study_exposure" in manifest.columns:
+        print("\nBy study exposure:")
+        print(pd.crosstab(manifest["study_exposure"], species, margins=True).to_string())
+
+
+def report_benchmark_cohorts(manifest: pd.DataFrame, row_gses: pd.Series) -> None:
+    """Summarize benchmark pools by exposure, species, and mapping ambiguity."""
+    heading("BENCHMARK COHORTS")
+    required = {"split", "study_exposure", "mapping_status"}
+    missing = required - set(manifest.columns)
+    if missing:
+        print(f"Unavailable: missing columns {sorted(missing)}")
+        return
+
+    split = manifest["split"].astype("string")
+    exposure = manifest["study_exposure"].astype("string")
+    status = manifest["mapping_status"].astype("string")
+    mapped = status.isin(MAPPED_STATUSES)
+    masks = {
+        "train_reference": split.eq("train"),
+        "validation_seen_study": split.eq("val") & exposure.eq("seen_study"),
+        "validation_unseen_study": split.eq("val") & exposure.eq("unseen_study"),
+        "unseen_sample_seen_study": split.eq("unseen") & exposure.eq("seen_study"),
+        "unseen_sample_unseen_study": (
+            split.eq("unseen") & exposure.eq("unseen_study") & mapped
+        ),
+        "strict_unseen_single_gse": (
+            split.eq("unseen") & exposure.eq("unseen_study")
+            & status.eq("mapped_single")
+        ),
+        "strict_unseen_multiple_gse": (
+            split.eq("unseen") & exposure.eq("unseen_study")
+            & status.eq("mapped_multiple")
+        ),
+    }
+
+    species = (
+        manifest["species"].astype("string").str.lower()
+        if "species" in manifest.columns
+        else pd.Series(pd.NA, index=manifest.index, dtype="string")
+    )
+    rows = []
+    for name, mask in masks.items():
+        cohort_gses = {gse for values in row_gses.loc[mask] for gse in values}
+        rows.append({
+            "cohort": name,
+            "samples": int(mask.sum()),
+            "human": int((mask & species.eq("human")).sum()),
+            "mouse": int((mask & species.eq("mouse")).sum()),
+            "other/missing": int((mask & ~species.isin(["human", "mouse"])).sum()),
+            "candidate_GSEs": len(cohort_gses),
+            "mapped_single": int((mask & status.eq("mapped_single")).sum()),
+            "mapped_multiple": int((mask & status.eq("mapped_multiple")).sum()),
+            "unresolved": int((mask & status.eq("unresolved")).sum()),
+        })
+    summary = pd.DataFrame(rows).set_index("cohort")
+    print(summary.to_string())
+    print("\nRecommended primary benchmark: strict_unseen_single_gse")
+    print("Comparison cohort: unseen_sample_seen_study")
 
 
 def values_by_split(
@@ -264,6 +334,8 @@ def main() -> None:
     for column in ("split", "study_exposure", "mapping_status"):
         print_counts(manifest, column)
     summarize_identifiers(manifest, row_gses)
+    report_species_breakdown(manifest)
+    report_benchmark_cohorts(manifest, row_gses)
     summarize_overlap(manifest, row_gses)
     report_strict_pool(manifest, args.examples)
     report_suspicious_rows(manifest, row_gses, args.examples)
