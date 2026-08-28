@@ -1,0 +1,4 @@
+# Additional BulkFormer runtime dependencies; core scientific packages come
+# from the repository environment.
+torch-geometric==2.8.0.post1
+performer-pytorch==1.1.4

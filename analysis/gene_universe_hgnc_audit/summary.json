@@ -1,0 +1,24 @@
+{
+  "current_vocab_genes_after_hgnc": 15165,
+  "high_confidence_unique_one_to_one_pairs": 16168,
+  "reconciled_eligible_genes": 15564,
+  "eligible_with_exact_tcga_symbols": 14913,
+  "genes_rescued_by_tcga_hgnc_reconciliation": 654,
+  "genes_retained_from_current_vocab": 15054,
+  "candidate_genes_added": 510,
+  "current_genes_not_eligible_under_this_audit": 111,
+  "potential_new_vocab_size": 15564,
+  "training_ready_genes_with_both_exon_lengths": 15564,
+  "training_ready_candidate_additions": 510,
+  "training_ready_current_genes_retained": 15054,
+  "osdr_files_scanned": 94,
+  "filter_failure_counts": {
+    "hgnc_resolved": 2,
+    "unique_pair_after_hgnc": 62,
+    "protein_coding_hgnc": 421,
+    "present_archs4_human": 13,
+    "present_archs4_mouse": 27,
+    "expressed_tcga": 187,
+    "expressed_osdr": 54
+  }
+}

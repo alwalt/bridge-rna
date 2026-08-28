@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "sample_id": "009C6A5C-3F63-4925-A92B-2AF54F1A4852",
+  "mask_ratio": 0.15,
+  "mask_seed": 0,
+  "shared_genes": 15101,
+  "device": "cuda",
+  "benchmarks": {
+    "shared_vocab": {
+      "models": {
+        "ours_45.6m": {
+          "input_shape": [
+            1,
+            15165
+          ],
+          "output_shape": [
+            1,
+            15165
+          ],
+          "masked_native_positions": 2265,
+          "mask_prob_passed": 0.1493570722057369,
+          "finite_output": true,
+          "pearson": 0.9527040123939514,
+          "spearman": 0.9497750088545075,
+          "mse": 0.2829930782318115
+        },
+        "bulkformer_50m": {
+          "input_shape": [
+            1,
+            20010
+          ],
+          "output_shape": [
+            1,
+            20010
+          ],
+          "masked_native_positions": 2265,
+          "mask_prob_passed": 0.1662168915542229,
+          "finite_output": true,
+          "pearson": 0.8974851369857788,
+          "spearman": 0.8909983132128099,
+          "mse": 0.558058500289917
+        },
+        "bulkformer_147m": {
+          "input_shape": [
+            1,
+            20010
+          ],
+          "output_shape": [
+            1,
+            20010
+          ],
+          "masked_native_positions": 2265,
+          "mask_prob_passed": 0.1662168915542229,
+          "finite_output": true,
+          "pearson": 0.9255181550979614,
+          "spearman": 0.9200959360303698,
+          "mse": 0.40946561098098755
+        }
+      }
+    },
+    "native_vocab": {
+      "models": {
+        "ours_45.6m": {
+          "input_shape": [
+            1,
+            15165
+          ],
+          "output_shape": [
+            1,
+            15165
+          ],
+          "masked_native_positions": 2266,
+          "mask_prob_passed": 0.149423013517969,
+          "finite_output": true,
+          "pearson": 0.9555723667144775,
+          "spearman": 0.9529314033207079,
+          "mse": 0.26564711332321167
+        },
+        "bulkformer_50m": {
+          "input_shape": [
+            1,
+            20010
+          ],
+          "output_shape": [
+            1,
+            20010
+          ],
+          "masked_native_positions": 2842,
+          "mask_prob_passed": 0.19505247376311843,
+          "finite_output": true,
+          "pearson": 0.8950745463371277,
+          "spearman": 0.8840494169075697,
+          "mse": 0.6068193912506104
+        },
+        "bulkformer_147m": {
+          "input_shape": [
+            1,
+            20010
+          ],
+          "output_shape": [
+            1,
+            20010
+          ],
+          "masked_native_positions": 2842,
+          "mask_prob_passed": 0.19505247376311843,
+          "finite_output": true,
+          "pearson": 0.9293810725212097,
+          "spearman": 0.9213414091161591,
+          "mse": 0.40291157364845276
+        }
+      }
+    }
+  }
+}

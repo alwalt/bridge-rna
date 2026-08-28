@@ -1,0 +1,13 @@
+{
+  "selection_seed": 20260827,
+  "num_samples": 1000,
+  "mask_ratios": [0.15, 0.30, 0.50],
+  "mask_seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "mask_token": -10.0,
+  "device": "cuda",
+  "batch_sizes": {
+    "ours_45.6m": 4,
+    "bulkformer_50m": 32,
+    "bulkformer_147m": 16
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "device": "cuda",
+  "ratio": 0.15,
+  "seed": 0,
+  "benchmark": "shared_vocab",
+  "records": [
+    {
+      "model": "ours_45.6m",
+      "samples": 100,
+      "inference_seconds": 12.987955466029234,
+      "scoring_seconds": 0.060840071993879974,
+      "total_seconds": 13.048795538023114,
+      "samples_per_second": 7.699441244740631,
+      "mean_pearson": 0.9561480784416199,
+      "actual_minus10_ratio": 0.1493570722057369
+    },
+    {
+      "model": "bulkformer_50m",
+      "samples": 100,
+      "inference_seconds": 5.295101767987944,
+      "scoring_seconds": 0.05616245698183775,
+      "total_seconds": 5.351264224969782,
+      "samples_per_second": 18.88537829519345,
+      "mean_pearson": 0.8929588437080384,
+      "actual_minus10_ratio": 0.1662168915542229
+    },
+    {
+      "model": "bulkformer_147m",
+      "samples": 100,
+      "inference_seconds": 22.50612778204959,
+      "scoring_seconds": 0.061314497026614845,
+      "total_seconds": 22.567442279076204,
+      "samples_per_second": 4.443234347925363,
+      "mean_pearson": 0.9214496171474457,
+      "actual_minus10_ratio": 0.1662168915542229
+    }
+  ]
+}
