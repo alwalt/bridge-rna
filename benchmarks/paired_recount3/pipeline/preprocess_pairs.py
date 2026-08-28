@@ -21,11 +21,11 @@ from numpy.lib.format import open_memmap
 from scipy import sparse
 from scipy.io import mmread
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
-HERE = Path(__file__).resolve().parent
-DEFAULT_PAIRS = HERE / "outputs/final_pairs.parquet"
-DEFAULT_RECOUNT = HERE / "outputs/recount3_counts"
-DEFAULT_OUTPUT = HERE / "outputs/paired_expression"
+REPO_ROOT = Path(__file__).resolve().parents[3]
+HERE = Path(__file__).resolve().parents[1]
+DEFAULT_PAIRS = HERE / "work/final_pairs.parquet"
+DEFAULT_RECOUNT = HERE / "work/recount3_counts"
+DEFAULT_OUTPUT = HERE / "work/paired_expression"
 DEFAULT_H5 = REPO_ROOT / "data/archs4/human_gene_v2.5.h5"
 DEFAULT_LENGTHS = REPO_ROOT / "data/gencode/gencode_v49_gene_exon_lengths.csv"
 DEFAULT_CANONICAL = (

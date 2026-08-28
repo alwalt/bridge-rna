@@ -15,8 +15,8 @@ value_after <- function(flag, default = NULL) {
   if (hit == length(args)) stop(flag, " requires a value")
   args[[hit + 1]]
 }
-input <- value_after("--pairs", "benchmarks/paired_recount3/outputs/final_pairs.csv")
-output_dir <- value_after("--output-dir", "benchmarks/paired_recount3/outputs/recount3_counts")
+input <- value_after("--pairs", "benchmarks/paired_recount3/work/final_pairs.csv")
+output_dir <- value_after("--output-dir", "benchmarks/paired_recount3/work/recount3_counts")
 annotation <- value_after("--annotation", "gencode_v29")
 recount_url <- value_after(
   "--recount3-url", "https://recount-opendata.s3.amazonaws.com/recount3/release"

@@ -15,15 +15,15 @@ value_after <- function(flag, default = NULL) {
   args[[hit + 1]]
 }
 
-input <- value_after("--candidates", "benchmarks/paired_recount3/outputs/candidate_samples.csv")
-output <- value_after("--output", "benchmarks/paired_recount3/outputs/recount3_matches.csv")
+input <- value_after("--candidates", "benchmarks/paired_recount3/work/candidate_samples.csv")
+output <- value_after("--output", "benchmarks/paired_recount3/work/recount3_matches.csv")
 recount_url <- value_after(
   "--recount3-url", "https://recount-opendata.s3.amazonaws.com/recount3/release"
 )
 max_projects <- as.integer(value_after("--max-projects", "0"))
 workers <- as.integer(value_after("--workers", "8"))
 metadata_cache <- value_after(
-  "--metadata-cache", "benchmarks/paired_recount3/outputs/recount3_metadata_cache"
+  "--metadata-cache", "benchmarks/paired_recount3/work/recount3_metadata_cache"
 )
 if (!file.exists(input)) stop("Missing candidate CSV: ", input)
 dir.create(dirname(output), recursive = TRUE, showWarnings = FALSE)

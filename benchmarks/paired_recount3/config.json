@@ -6,7 +6,6 @@
   "max_final_pairs_per_gse": 100000,
   "species": "human",
   "cohorts": [
-    "unseen_sample_seen_study",
     "strict_unseen_single_gse"
   ],
   "normalization": "log1p_tpm",

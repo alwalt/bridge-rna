@@ -18,12 +18,12 @@ import h5py
 import numpy as np
 import pandas as pd
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
-HERE = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parents[3]
+HERE = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = HERE / "config.json"
 DEFAULT_MANIFEST = REPO_ROOT / "data/manifests/sample_manifest.parquet"
 DEFAULT_H5 = REPO_ROOT / "data/archs4/human_gene_v2.5.h5"
-DEFAULT_OUTPUT = HERE / "outputs/candidate_samples.parquet"
+DEFAULT_OUTPUT = HERE / "work/candidate_samples.parquet"
 COHORT_RULES = {
     "unseen_sample_seen_study": lambda d: (
         d["split"].eq("unseen")

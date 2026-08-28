@@ -79,7 +79,7 @@ secrets*
 # MODEL CHECKPOINTS / WEIGHTS
 # ============================================================
 checkpoints/
-models/
+model/
 weights/
 
 *.pt

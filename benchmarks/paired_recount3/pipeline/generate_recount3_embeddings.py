@@ -12,13 +12,13 @@ from pathlib import Path
 
 import numpy as np
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
+REPO_ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(REPO_ROOT / "src"))
 
 from fm_embed.encode import encode_matrix  # noqa: E402
 from fm_embed.model import load_expression_performer  # noqa: E402
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parents[1]
 
 
 def sha256(path: Path) -> str:
@@ -33,13 +33,13 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--expression", type=Path,
-        default=HERE / "outputs/paired_expression/recount3_log1p_tpm.npy",
+        default=HERE / "work/paired_expression/recount3_log1p_tpm.npy",
     )
     parser.add_argument("--checkpoint", type=Path, default=REPO_ROOT / "model/r7hnr92k/best_model.pt")
     parser.add_argument("--model-config", type=Path, default=REPO_ROOT / "model/r7hnr92k/config.json")
     parser.add_argument(
         "--output", type=Path,
-        default=HERE / "outputs/recount3_embeddings.npy",
+        default=HERE / "work/recount3_embeddings.npy",
     )
     parser.add_argument("--batch-size", type=int, default=4)
     parser.add_argument("--device", default="cuda")
