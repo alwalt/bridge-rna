@@ -1,0 +1,21 @@
+{
+  "selection_seed": 20260828,
+  "source_manifest": "/home/walt/bridge-rna/data/manifests/sample_manifest.parquet",
+  "criteria": {
+    "split": "unseen",
+    "study_exposure": "unseen_study",
+    "mapping_status": "mapped_single"
+  },
+  "datasets": [
+    {
+      "dataset": "archs4_holdout_human",
+      "samples": 1000,
+      "observed_genes": 15164
+    },
+    {
+      "dataset": "archs4_holdout_mouse",
+      "samples": 1000,
+      "observed_genes": 15161
+    }
+  ]
+}

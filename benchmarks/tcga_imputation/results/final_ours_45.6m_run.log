@@ -1,0 +1,505 @@
+reuse shared_vocab__ours_45.6m__ours__r15__s00.parquet
+completed shared_vocab ratio=0.15 seed=0
+reuse shared_vocab__ours_45.6m__ours__r15__s01.parquet
+completed shared_vocab ratio=0.15 seed=1
+reuse shared_vocab__ours_45.6m__ours__r15__s02.parquet
+completed shared_vocab ratio=0.15 seed=2
+reuse shared_vocab__ours_45.6m__ours__r15__s03.parquet
+completed shared_vocab ratio=0.15 seed=3
+reuse shared_vocab__ours_45.6m__ours__r15__s04.parquet
+completed shared_vocab ratio=0.15 seed=4
+reuse shared_vocab__ours_45.6m__ours__r15__s05.parquet
+completed shared_vocab ratio=0.15 seed=5
+reuse shared_vocab__ours_45.6m__ours__r15__s06.parquet
+completed shared_vocab ratio=0.15 seed=6
+reuse shared_vocab__ours_45.6m__ours__r15__s07.parquet
+completed shared_vocab ratio=0.15 seed=7
+reuse shared_vocab__ours_45.6m__ours__r15__s08.parquet
+completed shared_vocab ratio=0.15 seed=8
+reuse shared_vocab__ours_45.6m__ours__r15__s09.parquet
+completed shared_vocab ratio=0.15 seed=9
+reuse shared_vocab__ours_45.6m__ours__r30__s00.parquet
+completed shared_vocab ratio=0.30 seed=0
+reuse shared_vocab__ours_45.6m__ours__r30__s01.parquet
+completed shared_vocab ratio=0.30 seed=1
+reuse shared_vocab__ours_45.6m__ours__r30__s02.parquet
+completed shared_vocab ratio=0.30 seed=2
+reuse shared_vocab__ours_45.6m__ours__r30__s03.parquet
+completed shared_vocab ratio=0.30 seed=3
+reuse shared_vocab__ours_45.6m__ours__r30__s04.parquet
+completed shared_vocab ratio=0.30 seed=4
+reuse shared_vocab__ours_45.6m__ours__r30__s05.parquet
+completed shared_vocab ratio=0.30 seed=5
+reuse shared_vocab__ours_45.6m__ours__r30__s06.parquet
+completed shared_vocab ratio=0.30 seed=6
+reuse shared_vocab__ours_45.6m__ours__r30__s07.parquet
+completed shared_vocab ratio=0.30 seed=7
+reuse shared_vocab__ours_45.6m__ours__r30__s08.parquet
+completed shared_vocab ratio=0.30 seed=8
+reuse shared_vocab__ours_45.6m__ours__r30__s09.parquet
+completed shared_vocab ratio=0.30 seed=9
+reuse shared_vocab__ours_45.6m__ours__r50__s00.parquet
+completed shared_vocab ratio=0.50 seed=0
+reuse shared_vocab__ours_45.6m__ours__r50__s01.parquet
+completed shared_vocab ratio=0.50 seed=1
+reuse shared_vocab__ours_45.6m__ours__r50__s02.parquet
+completed shared_vocab ratio=0.50 seed=2
+reuse shared_vocab__ours_45.6m__ours__r50__s03.parquet
+completed shared_vocab ratio=0.50 seed=3
+reuse shared_vocab__ours_45.6m__ours__r50__s04.parquet
+completed shared_vocab ratio=0.50 seed=4
+reuse shared_vocab__ours_45.6m__ours__r50__s05.parquet
+completed shared_vocab ratio=0.50 seed=5
+reuse shared_vocab__ours_45.6m__ours__r50__s06.parquet
+completed shared_vocab ratio=0.50 seed=6
+reuse shared_vocab__ours_45.6m__ours__r50__s07.parquet
+completed shared_vocab ratio=0.50 seed=7
+reuse shared_vocab__ours_45.6m__ours__r50__s08.parquet
+completed shared_vocab ratio=0.50 seed=8
+reuse shared_vocab__ours_45.6m__ours__r50__s09.parquet
+completed shared_vocab ratio=0.50 seed=9
+reuse shared_vocab__ours_45.6m__ours__r70__s00.parquet
+completed shared_vocab ratio=0.70 seed=0
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.62/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.76/s
+completed shared_vocab ratio=0.70 seed=1
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.56/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.59/s
+completed shared_vocab ratio=0.70 seed=2
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.65/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+completed shared_vocab ratio=0.70 seed=3
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.65/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+completed shared_vocab ratio=0.70 seed=4
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+completed shared_vocab ratio=0.70 seed=5
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.63/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+completed shared_vocab ratio=0.70 seed=6
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.63/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+completed shared_vocab ratio=0.70 seed=7
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.65/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+completed shared_vocab ratio=0.70 seed=8
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.62/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+completed shared_vocab ratio=0.70 seed=9
+reuse shared_vocab__ours_45.6m__ours__r90__s00.parquet
+completed shared_vocab ratio=0.90 seed=0
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+completed shared_vocab ratio=0.90 seed=1
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.63/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+completed shared_vocab ratio=0.90 seed=2
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.58/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.66/s
+completed shared_vocab ratio=0.90 seed=3
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+completed shared_vocab ratio=0.90 seed=4
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.62/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+completed shared_vocab ratio=0.90 seed=5
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+completed shared_vocab ratio=0.90 seed=6
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.63/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+completed shared_vocab ratio=0.90 seed=7
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+completed shared_vocab ratio=0.90 seed=8
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+completed shared_vocab ratio=0.90 seed=9
+reuse shared_vocab__ours_45.6m__ours__r100__s00.parquet
+completed shared_vocab ratio=1.00 seed=0
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.65/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed shared_vocab ratio=1.00 seed=1
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=524/1,000 elapsed=1.0m rate=8.68/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.72/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed shared_vocab ratio=1.00 seed=2
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed shared_vocab ratio=1.00 seed=3
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.67/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed shared_vocab ratio=1.00 seed=4
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.65/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed shared_vocab ratio=1.00 seed=5
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.66/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed shared_vocab ratio=1.00 seed=6
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.66/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed shared_vocab ratio=1.00 seed=7
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed shared_vocab ratio=1.00 seed=8
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed shared_vocab ratio=1.00 seed=9
+reuse native_vocab__ours_45.6m__ours__r15__s00.parquet
+completed native_vocab ratio=0.15 seed=0
+reuse native_vocab__ours_45.6m__ours__r15__s01.parquet
+completed native_vocab ratio=0.15 seed=1
+reuse native_vocab__ours_45.6m__ours__r15__s02.parquet
+completed native_vocab ratio=0.15 seed=2
+reuse native_vocab__ours_45.6m__ours__r15__s03.parquet
+completed native_vocab ratio=0.15 seed=3
+reuse native_vocab__ours_45.6m__ours__r15__s04.parquet
+completed native_vocab ratio=0.15 seed=4
+reuse native_vocab__ours_45.6m__ours__r15__s05.parquet
+completed native_vocab ratio=0.15 seed=5
+reuse native_vocab__ours_45.6m__ours__r15__s06.parquet
+completed native_vocab ratio=0.15 seed=6
+reuse native_vocab__ours_45.6m__ours__r15__s07.parquet
+completed native_vocab ratio=0.15 seed=7
+reuse native_vocab__ours_45.6m__ours__r15__s08.parquet
+completed native_vocab ratio=0.15 seed=8
+reuse native_vocab__ours_45.6m__ours__r15__s09.parquet
+completed native_vocab ratio=0.15 seed=9
+reuse native_vocab__ours_45.6m__ours__r30__s00.parquet
+completed native_vocab ratio=0.30 seed=0
+reuse native_vocab__ours_45.6m__ours__r30__s01.parquet
+completed native_vocab ratio=0.30 seed=1
+reuse native_vocab__ours_45.6m__ours__r30__s02.parquet
+completed native_vocab ratio=0.30 seed=2
+reuse native_vocab__ours_45.6m__ours__r30__s03.parquet
+completed native_vocab ratio=0.30 seed=3
+reuse native_vocab__ours_45.6m__ours__r30__s04.parquet
+completed native_vocab ratio=0.30 seed=4
+reuse native_vocab__ours_45.6m__ours__r30__s05.parquet
+completed native_vocab ratio=0.30 seed=5
+reuse native_vocab__ours_45.6m__ours__r30__s06.parquet
+completed native_vocab ratio=0.30 seed=6
+reuse native_vocab__ours_45.6m__ours__r30__s07.parquet
+completed native_vocab ratio=0.30 seed=7
+reuse native_vocab__ours_45.6m__ours__r30__s08.parquet
+completed native_vocab ratio=0.30 seed=8
+reuse native_vocab__ours_45.6m__ours__r30__s09.parquet
+completed native_vocab ratio=0.30 seed=9
+reuse native_vocab__ours_45.6m__ours__r50__s00.parquet
+completed native_vocab ratio=0.50 seed=0
+reuse native_vocab__ours_45.6m__ours__r50__s01.parquet
+completed native_vocab ratio=0.50 seed=1
+reuse native_vocab__ours_45.6m__ours__r50__s02.parquet
+completed native_vocab ratio=0.50 seed=2
+reuse native_vocab__ours_45.6m__ours__r50__s03.parquet
+completed native_vocab ratio=0.50 seed=3
+reuse native_vocab__ours_45.6m__ours__r50__s04.parquet
+completed native_vocab ratio=0.50 seed=4
+reuse native_vocab__ours_45.6m__ours__r50__s05.parquet
+completed native_vocab ratio=0.50 seed=5
+reuse native_vocab__ours_45.6m__ours__r50__s06.parquet
+completed native_vocab ratio=0.50 seed=6
+reuse native_vocab__ours_45.6m__ours__r50__s07.parquet
+completed native_vocab ratio=0.50 seed=7
+reuse native_vocab__ours_45.6m__ours__r50__s08.parquet
+completed native_vocab ratio=0.50 seed=8
+reuse native_vocab__ours_45.6m__ours__r50__s09.parquet
+completed native_vocab ratio=0.50 seed=9
+reuse native_vocab__ours_45.6m__ours__r70__s00.parquet
+completed native_vocab ratio=0.70 seed=0
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.62/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+completed native_vocab ratio=0.70 seed=1
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.61/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.67/s
+completed native_vocab ratio=0.70 seed=2
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.61/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+completed native_vocab ratio=0.70 seed=3
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.62/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+completed native_vocab ratio=0.70 seed=4
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.61/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.67/s
+completed native_vocab ratio=0.70 seed=5
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.60/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.66/s
+completed native_vocab ratio=0.70 seed=6
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.62/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+completed native_vocab ratio=0.70 seed=7
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+completed native_vocab ratio=0.70 seed=8
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.62/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+completed native_vocab ratio=0.70 seed=9
+reuse native_vocab__ours_45.6m__ours__r90__s00.parquet
+completed native_vocab ratio=0.90 seed=0
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.61/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.67/s
+completed native_vocab ratio=0.90 seed=1
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.63/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+completed native_vocab ratio=0.90 seed=2
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.62/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+completed native_vocab ratio=0.90 seed=3
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.63/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+completed native_vocab ratio=0.90 seed=4
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+completed native_vocab ratio=0.90 seed=5
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+completed native_vocab ratio=0.90 seed=6
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.66/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+completed native_vocab ratio=0.90 seed=7
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+completed native_vocab ratio=0.90 seed=8
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+completed native_vocab ratio=0.90 seed=9
+reuse native_vocab__ours_45.6m__ours__r100__s00.parquet
+completed native_vocab ratio=1.00 seed=0
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=524/1,000 elapsed=1.0m rate=8.68/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed native_vocab ratio=1.00 seed=1
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed native_vocab ratio=1.00 seed=2
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.62/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed native_vocab ratio=1.00 seed=3
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.63/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed native_vocab ratio=1.00 seed=4
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.65/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed native_vocab ratio=1.00 seed=5
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.62/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed native_vocab ratio=1.00 seed=6
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.64/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed native_vocab ratio=1.00 seed=7
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.63/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed native_vocab ratio=1.00 seed=8
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.62/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+/home/walt/bridge-rna/benchmarks/tcga_imputation/pipeline/run_imputation.py:87: RuntimeWarning: Mean of empty slice
+  center[eligible] = np.nanmean(values[:, eligible], axis=0)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+completed native_vocab ratio=1.00 seed=9
+   benchmark          method target_space  mask_ratio  pearson_mean  pearson_sd  spearman_mean  spearman_sd  mse_mean   mse_sd  seeds  evaluated_genes
+native_vocab bulkformer_147m   bulkformer        0.15      0.908325    0.000303       0.904569     0.000341  0.511774 0.001544     10            18949
+native_vocab bulkformer_147m   bulkformer        0.30      0.682548    0.001957       0.701835     0.002078  2.154099 0.005566     10            18949
+native_vocab bulkformer_147m   bulkformer        0.50      0.276682    0.004604       0.329054     0.004681  2.775503 0.001476     10            18949
+native_vocab bulkformer_147m   bulkformer        0.70      0.015906         NaN       0.001031          NaN  2.818443      NaN      1            18949
+native_vocab bulkformer_147m   bulkformer        0.90      0.006915         NaN       0.001100          NaN  2.819181      NaN      1            18949
+native_vocab bulkformer_147m   bulkformer        1.00           NaN         NaN            NaN          NaN  7.790097      NaN      1            18949
+native_vocab  bulkformer_50m   bulkformer        0.15      0.885459    0.000403       0.884142     0.000336  0.649920 0.002181     10            18949
+native_vocab  bulkformer_50m   bulkformer        0.30      0.851064    0.000471       0.852763     0.000429  1.032230 0.004836     10            18949
+native_vocab  bulkformer_50m   bulkformer        0.50      0.311027    0.006288       0.394965     0.006716  2.685730 0.004996     10            18949
+native_vocab  bulkformer_50m   bulkformer        0.70      0.049490         NaN       0.015597          NaN  2.813897      NaN      1            18949
+native_vocab  bulkformer_50m   bulkformer        0.90     -0.011111         NaN      -0.076802          NaN  2.822096      NaN      1            18949
+native_vocab  bulkformer_50m   bulkformer        1.00     -0.012647         NaN      -0.072908          NaN  7.779206      NaN      1            18949
+native_vocab       gene_mean   bulkformer        0.15      0.897522    0.000235       0.903347     0.000169  0.591121 0.001058     10            18949
+native_vocab       gene_mean   bulkformer        0.30      0.897460    0.000108       0.903363     0.000100  0.591464 0.000470     10            18949
+native_vocab       gene_mean   bulkformer        0.50      0.897417    0.000089       0.903347     0.000069  0.591781 0.000457     10            18949
+native_vocab       gene_mean   bulkformer        0.70      0.897294         NaN       0.903252          NaN  0.592355      NaN      1            18949
+native_vocab       gene_mean   bulkformer        0.90      0.896447         NaN       0.902349          NaN  0.596659      NaN      1            18949
+native_vocab       gene_mean   bulkformer        1.00           NaN         NaN            NaN          NaN       NaN      NaN      1            18949
+native_vocab       gene_mean         ours        0.15      0.894080    0.000219       0.893357     0.000222  0.617718 0.001023     10            15105
+native_vocab       gene_mean         ours        0.30      0.894065    0.000137       0.893357     0.000122  0.618049 0.000716     10            15105
+native_vocab       gene_mean         ours        0.50      0.894009    0.000101       0.893384     0.000099  0.618325 0.000517     10            15105
+native_vocab       gene_mean         ours        0.70      0.893813    0.000047       0.893200     0.000055  0.619279 0.000200     10            15105
+native_vocab       gene_mean         ours        0.90      0.892988    0.000036       0.892336     0.000039  0.623530 0.000166     10            15105
+native_vocab       gene_mean         ours        1.00           NaN         NaN            NaN          NaN       NaN      NaN     10            15105
+native_vocab     gene_median   bulkformer        0.15      0.893187    0.000256       0.901405     0.000186  0.627597 0.001279     10            18949
+native_vocab     gene_median   bulkformer        0.30      0.893141    0.000129       0.901443     0.000119  0.627817 0.000688     10            18949
+native_vocab     gene_median   bulkformer        0.50      0.893096    0.000117       0.901427     0.000081  0.628199 0.000640     10            18949
+native_vocab     gene_median   bulkformer        0.70      0.892931         NaN       0.901304          NaN  0.629059      NaN      1            18949
+native_vocab     gene_median   bulkformer        0.90      0.892081         NaN       0.900425          NaN  0.633670      NaN      1            18949
+native_vocab     gene_median   bulkformer        1.00           NaN         NaN            NaN          NaN       NaN      NaN      1            18949
+native_vocab     gene_median         ours        0.15      0.890352    0.000229       0.891247     0.000232  0.652667 0.001207     10            15105
+native_vocab     gene_median         ours        0.30      0.890322    0.000164       0.891236     0.000134  0.653087 0.000926     10            15105
+native_vocab     gene_median         ours        0.50      0.890263    0.000121       0.891248     0.000110  0.653371 0.000702     10            15105
+native_vocab     gene_median         ours        0.70      0.890049    0.000061       0.891052     0.000072  0.654563 0.000338     10            15105
+native_vocab     gene_median         ours        0.90      0.889130    0.000080       0.890034     0.000074  0.659690 0.000517     10            15105
+native_vocab     gene_median         ours        1.00           NaN         NaN            NaN          NaN       NaN      NaN     10            15105
+native_vocab      ours_45.6m         ours        0.15      0.955561    0.000113       0.953494     0.000111  0.248565 0.000569     10            15105
+native_vocab      ours_45.6m         ours        0.30      0.952310    0.000071       0.950736     0.000066  0.267777 0.000453     10            15105
+native_vocab      ours_45.6m         ours        0.50      0.939201    0.000118       0.938374     0.000075  0.340726 0.000689     10            15105
+native_vocab      ours_45.6m         ours        0.70      0.899230    0.000125       0.899908     0.000114  0.556196 0.000649     10            15105
+native_vocab      ours_45.6m         ours        0.90      0.677989    0.000392       0.685067     0.000364  1.681848 0.001479     10            15105
+native_vocab      ours_45.6m         ours        1.00      0.051717    0.000000       0.095681     0.000000  3.040983 0.000000     10            15105
+shared_vocab bulkformer_147m   bulkformer        0.15      0.920778    0.000207       0.916343     0.000259  0.402771 0.000804     10            15101
+shared_vocab bulkformer_147m   bulkformer        0.30      0.880023    0.000895       0.876144     0.000870  0.640519 0.004705     10            15101
+shared_vocab bulkformer_147m   bulkformer        0.50      0.541411    0.003806       0.576488     0.002982  2.321243 0.005273     10            15101
+shared_vocab bulkformer_147m   bulkformer        0.70      0.320740         NaN       0.392927          NaN  2.742178      NaN      1            15101
+shared_vocab bulkformer_147m   bulkformer        0.90      0.089602         NaN       0.066879          NaN  3.108008      NaN      1            15101
+shared_vocab bulkformer_147m   bulkformer        1.00      0.055970         NaN       0.014340          NaN  3.575309      NaN      1            15101
+shared_vocab  bulkformer_50m   bulkformer        0.15      0.893037    0.000244       0.890444     0.000268  0.557915 0.001033     10            15101
+shared_vocab  bulkformer_50m   bulkformer        0.30      0.890676    0.000215       0.888405     0.000208  0.577018 0.001423     10            15101
+shared_vocab  bulkformer_50m   bulkformer        0.50      0.691836    0.002363       0.734729     0.001867  1.826852 0.007139     10            15101
+shared_vocab  bulkformer_50m   bulkformer        0.70      0.551670         NaN       0.594645          NaN  2.569248      NaN      1            15101
+shared_vocab  bulkformer_50m   bulkformer        0.90      0.474614         NaN       0.463158          NaN  2.966072      NaN      1            15101
+shared_vocab  bulkformer_50m   bulkformer        1.00      0.319439         NaN       0.293110          NaN  3.476016      NaN      1            15101
+shared_vocab       gene_mean   bulkformer        0.15      0.887164    0.000254       0.887541     0.000290  0.607542 0.001069     10            15101
+shared_vocab       gene_mean   bulkformer        0.30      0.887196    0.000130       0.887647     0.000117  0.607391 0.000585     10            15101
+shared_vocab       gene_mean   bulkformer        0.50      0.887171    0.000072       0.887607     0.000080  0.607704 0.000370     10            15101
+shared_vocab       gene_mean   bulkformer        0.70      0.886832         NaN       0.887331          NaN  0.609272      NaN      1            15101
+shared_vocab       gene_mean   bulkformer        0.90      0.886056         NaN       0.886449          NaN  0.612804      NaN      1            15101
+shared_vocab       gene_mean   bulkformer        1.00           NaN         NaN            NaN          NaN       NaN      NaN      1            15101
+shared_vocab       gene_mean         ours        0.15      0.894018    0.000256       0.893294     0.000282  0.618128 0.001103     10            15101
+shared_vocab       gene_mean         ours        0.30      0.894054    0.000131       0.893402     0.000111  0.617988 0.000611     10            15101
+shared_vocab       gene_mean         ours        0.50      0.894015    0.000066       0.893362     0.000071  0.618333 0.000396     10            15101
+shared_vocab       gene_mean         ours        0.70      0.893820    0.000076       0.893198     0.000065  0.619337 0.000420     10            15101
+shared_vocab       gene_mean         ours        0.90      0.893007    0.000021       0.892348     0.000033  0.623510 0.000095     10            15101
+shared_vocab       gene_mean         ours        1.00           NaN         NaN            NaN          NaN       NaN      NaN     10            15101
+shared_vocab     gene_median   bulkformer        0.15      0.883148    0.000292       0.885270     0.000317  0.641847 0.001350     10            15101
+shared_vocab     gene_median   bulkformer        0.30      0.883194    0.000162       0.885383     0.000148  0.641655 0.000766     10            15101
+shared_vocab     gene_median   bulkformer        0.50      0.883169    0.000083       0.885336     0.000104  0.641932 0.000444     10            15101
+shared_vocab     gene_median   bulkformer        0.70      0.882784         NaN       0.885019          NaN  0.644061      NaN      1            15101
+shared_vocab     gene_median   bulkformer        0.90      0.881971         NaN       0.884029          NaN  0.647981      NaN      1            15101
+shared_vocab     gene_median   bulkformer        1.00           NaN         NaN            NaN          NaN       NaN      NaN      1            15101
+shared_vocab     gene_median         ours        0.15      0.890271    0.000292       0.891177     0.000311  0.653210 0.001397     10            15101
+shared_vocab     gene_median         ours        0.30      0.890316    0.000161       0.891285     0.000140  0.653029 0.000796     10            15101
+shared_vocab     gene_median         ours        0.50      0.890284    0.000078       0.891240     0.000086  0.653301 0.000496     10            15101
+shared_vocab     gene_median         ours        0.70      0.890065    0.000092       0.891051     0.000069  0.654520 0.000595     10            15101
+shared_vocab     gene_median         ours        0.90      0.889213    0.000067       0.890108     0.000045  0.659216 0.000449     10            15101
+shared_vocab     gene_median         ours        1.00           NaN         NaN            NaN          NaN       NaN      NaN     10            15101
+shared_vocab      ours_45.6m         ours        0.15      0.955611    0.000099       0.953521     0.000110  0.248369 0.000510     10            15101
+shared_vocab      ours_45.6m         ours        0.30      0.952314    0.000076       0.950723     0.000063  0.267691 0.000459     10            15101
+shared_vocab      ours_45.6m         ours        0.50      0.939249    0.000097       0.938422     0.000080  0.340556 0.000522     10            15101
+shared_vocab      ours_45.6m         ours        0.70      0.899212    0.000135       0.899910     0.000116  0.556326 0.000736     10            15101
+shared_vocab      ours_45.6m         ours        0.90      0.678699    0.000386       0.685750     0.000408  1.679534 0.001433     10            15101
+shared_vocab      ours_45.6m         ours        1.00      0.051905    0.000000       0.095875     0.000000  3.040005 0.000000     10            15101

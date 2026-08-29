@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "source": "/home/walt/bridge-rna/data/archs4/human_gene_v2.5.h5",
+  "split": "/home/walt/bridge-rna/data/archs4/training/sample_split/train_samples.parquet",
+  "species": "human",
+  "samples": 5000,
+  "selection_seed": 20260828,
+  "statistics": [
+    "gene_mean",
+    "gene_median"
+  ],
+  "representation": "model-specific natural log1p(TPM)",
+  "evaluation_samples_used": 0
+}

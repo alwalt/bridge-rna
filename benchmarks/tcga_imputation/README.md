@@ -52,9 +52,23 @@ tcga_imputation/
 ```bash
 .venv/bin/pip install -r benchmarks/tcga_imputation/requirements.txt
 .venv/bin/python benchmarks/tcga_imputation/pipeline/prepare_tcga.py
+.venv/bin/python benchmarks/tcga_imputation/pipeline/prepare_frozen_baselines.py
 .venv/bin/python benchmarks/tcga_imputation/pipeline/run_imputation.py --validate-one
 .venv/bin/python benchmarks/tcga_imputation/pipeline/run_imputation.py --run
 ```
+
+ARCHS4 strict-unseen human/mouse comparison:
+
+```bash
+.venv/bin/python benchmarks/tcga_imputation/pipeline/prepare_archs4_holdout.py
+.venv/bin/python benchmarks/tcga_imputation/pipeline/run_archs4_holdout.py \
+  --mask-ratios 0.15 0.30 0.50 0.70 0.90 1.00 \
+  --mask-seeds 0 1 2 3 4 5 6 7 8 9
+```
+
+These cohorts contain 1,000 samples per species selected from
+`sample_manifest.parquet` with `split=unseen`,
+`study_exposure=unseen_study`, and `mapping_status=mapped_single`.
 
 The full run is intentionally unavailable until `--validate-one` writes a
 successful `results/one_sample_validation.json` for all three checkpoints.
@@ -65,3 +79,8 @@ recorded by the preparation manifest. The adapter preserves the official
 notebook's transposed-sparse-adjacency convention when converting these files
 to a native PyG edge index (`stored row 1 -> stored row 0`). This orientation
 matters because the top-k correlation graph is directed. No fine-tuning occurs.
+
+Gene-wise mean and median baselines are frozen from a deterministic set of
+human ARCHS4 **training** samples. They never use TCGA evaluation expression.
+Their sample IDs and provenance are saved under `results/`. Legacy transductive
+baseline cache files are retained for provenance but excluded from aggregation.
