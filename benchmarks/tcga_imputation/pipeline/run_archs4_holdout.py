@@ -60,7 +60,8 @@ def aggregate(condition_dir: Path) -> None:
     print(summary.to_string(index=False))
 
 
-def run(datasets: list[str], ratios: list[float], seeds: list[int]) -> None:
+def run(datasets: list[str], ratios: list[float], seeds: list[int],
+        skip_aggregate: bool = False, batch_size: int | None = None) -> None:
     condition_dir = WORK / "archs4_strict_unseen_condition_results"
     condition_dir.mkdir(parents=True, exist_ok=True)
     for dataset in datasets:
@@ -75,14 +76,15 @@ def run(datasets: list[str], ratios: list[float], seeds: list[int]) -> None:
                 masked = apply_mask(matrix, mask)
                 actual_ratio = float(np.mean(masked == float(CONFIG["mask_token"])))
                 output = predict("ours_45.6m", masked, actual_ratio, resolved_device(),
-                                 int(CONFIG["batch_sizes"]["ours_45.6m"]))
+                                 batch_size or int(CONFIG["batch_sizes"]["ours_45.6m"]))
                 score_prediction(
                     sample_ids, matrix, output, mask, dataset=dataset, method="ours_45.6m",
                     mask_ratio=ratio, mask_seed=seed, native_genes=matrix.shape[1],
                     evaluated_genes=int(eligible.sum()),
                 ).to_parquet(path, index=False)
                 print(f"completed {dataset} ratio={ratio:.2f} seed={seed}", flush=True)
-    aggregate(condition_dir)
+    if not skip_aggregate:
+        aggregate(condition_dir)
 
 
 def main() -> None:
@@ -90,8 +92,18 @@ def main() -> None:
     parser.add_argument("--datasets", nargs="+", choices=DATASETS, default=list(DATASETS))
     parser.add_argument("--mask-ratios", nargs="+", type=float, default=list(DEFAULT_RATIOS))
     parser.add_argument("--mask-seeds", nargs="+", type=int, default=list(DEFAULT_SEEDS))
+    parser.add_argument("--skip-aggregate", action="store_true",
+                        help="Write condition caches only; aggregate once after parallel workers finish")
+    parser.add_argument("--aggregate-only", action="store_true",
+                        help="Rebuild result tables from all cached conditions without inference")
+    parser.add_argument("--batch-size", type=int,
+                        help="Inference batch size override; does not change model predictions")
     args = parser.parse_args()
-    run(args.datasets, args.mask_ratios, args.mask_seeds)
+    condition_dir = WORK / "archs4_strict_unseen_condition_results"
+    if args.aggregate_only:
+        aggregate(condition_dir)
+    else:
+        run(args.datasets, args.mask_ratios, args.mask_seeds, args.skip_aggregate, args.batch_size)
 
 
 if __name__ == "__main__":

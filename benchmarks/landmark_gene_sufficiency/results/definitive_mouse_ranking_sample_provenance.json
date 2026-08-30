@@ -1,0 +1,14 @@
+{
+  "species": "mouse",
+  "selection": "deterministic one-sample-per-study",
+  "source_pool": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/work/mouse_information_discovery_samples.parquet",
+  "criteria": {
+    "split": "unseen",
+    "study_exposure": "unseen_study",
+    "mapping_status": "mapped_single"
+  },
+  "samples": 500,
+  "studies": 500,
+  "ordered_sample_sha256": "c2acbe11ab606d979f3255b3ac0d4028bfd64a3a6e1b62d9f935581602dbbd50",
+  "benchmark_seed": 20260828
+}

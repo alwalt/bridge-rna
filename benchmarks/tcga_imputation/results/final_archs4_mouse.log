@@ -1,0 +1,225 @@
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=524/1,000 elapsed=1.0m rate=8.69/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.75/s
+completed archs4_holdout_mouse ratio=0.15 seed=1
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=540/1,000 elapsed=1.0m rate=8.98/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.8m rate=9.09/s
+completed archs4_holdout_mouse ratio=0.15 seed=2
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=536/1,000 elapsed=1.0m rate=8.86/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.99/s
+completed archs4_holdout_mouse ratio=0.15 seed=3
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+reuse archs4_holdout_mouse__ours_45.6m__r015__s01.parquet
+reuse archs4_holdout_mouse__ours_45.6m__r015__s02.parquet
+reuse archs4_holdout_mouse__ours_45.6m__r015__s03.parquet
+[inference] model=ours_45.6m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=ours_45.6m samples=480/1,000 elapsed=1.0m rate=7.86/s
+reuse archs4_holdout_mouse__ours_45.6m__r015__s01.parquet
+reuse archs4_holdout_mouse__ours_45.6m__r015__s02.parquet
+reuse archs4_holdout_mouse__ours_45.6m__r015__s03.parquet
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=472/1,000 elapsed=1.0m rate=7.83/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.40/s
+completed archs4_holdout_mouse ratio=0.15 seed=4
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=528/1,000 elapsed=1.0m rate=8.74/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.94/s
+completed archs4_holdout_mouse ratio=0.15 seed=5
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=540/1,000 elapsed=1.0m rate=8.97/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.8m rate=9.06/s
+completed archs4_holdout_mouse ratio=0.15 seed=6
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=540/1,000 elapsed=1.0m rate=8.97/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.8m rate=9.06/s
+completed archs4_holdout_mouse ratio=0.15 seed=7
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=540/1,000 elapsed=1.0m rate=8.97/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.8m rate=9.05/s
+completed archs4_holdout_mouse ratio=0.15 seed=8
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=540/1,000 elapsed=1.0m rate=8.97/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.8m rate=9.06/s
+completed archs4_holdout_mouse ratio=0.15 seed=9
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=540/1,000 elapsed=1.0m rate=8.97/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=9.00/s
+completed archs4_holdout_mouse ratio=0.30 seed=1
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=536/1,000 elapsed=1.0m rate=8.93/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.8m rate=9.02/s
+completed archs4_holdout_mouse ratio=0.30 seed=2
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=536/1,000 elapsed=1.0m rate=8.92/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=9.00/s
+completed archs4_holdout_mouse ratio=0.30 seed=3
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=536/1,000 elapsed=1.0m rate=8.90/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.81/s
+completed archs4_holdout_mouse ratio=0.30 seed=4
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=512/1,000 elapsed=1.0m rate=8.52/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.62/s
+completed archs4_holdout_mouse ratio=0.30 seed=5
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=512/1,000 elapsed=1.0m rate=8.53/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.63/s
+completed archs4_holdout_mouse ratio=0.30 seed=6
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=512/1,000 elapsed=1.0m rate=8.52/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.62/s
+completed archs4_holdout_mouse ratio=0.30 seed=7
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=512/1,000 elapsed=1.0m rate=8.52/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.61/s
+completed archs4_holdout_mouse ratio=0.30 seed=8
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=512/1,000 elapsed=1.0m rate=8.51/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.61/s
+completed archs4_holdout_mouse ratio=0.30 seed=9
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=512/1,000 elapsed=1.0m rate=8.52/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.62/s
+completed archs4_holdout_mouse ratio=0.50 seed=1
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.55/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.64/s
+completed archs4_holdout_mouse ratio=0.50 seed=2
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.56/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.64/s
+completed archs4_holdout_mouse ratio=0.50 seed=3
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.57/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.64/s
+completed archs4_holdout_mouse ratio=0.50 seed=4
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.55/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.64/s
+completed archs4_holdout_mouse ratio=0.50 seed=5
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.55/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.63/s
+completed archs4_holdout_mouse ratio=0.50 seed=6
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=504/1,000 elapsed=1.0m rate=8.39/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.56/s
+completed archs4_holdout_mouse ratio=0.50 seed=7
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.56/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.64/s
+completed archs4_holdout_mouse ratio=0.50 seed=8
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=512/1,000 elapsed=1.0m rate=8.53/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.62/s
+completed archs4_holdout_mouse ratio=0.50 seed=9
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.57/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.64/s
+completed archs4_holdout_mouse ratio=0.70 seed=1
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.55/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.64/s
+completed archs4_holdout_mouse ratio=0.70 seed=2
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=512/1,000 elapsed=1.0m rate=8.53/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.63/s
+completed archs4_holdout_mouse ratio=0.70 seed=3
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=512/1,000 elapsed=1.0m rate=8.52/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.62/s
+completed archs4_holdout_mouse ratio=0.70 seed=4
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.62/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+completed archs4_holdout_mouse ratio=0.70 seed=5
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.57/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.65/s
+completed archs4_holdout_mouse ratio=0.70 seed=6
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.56/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.65/s
+completed archs4_holdout_mouse ratio=0.70 seed=7
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.58/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.66/s
+completed archs4_holdout_mouse ratio=0.70 seed=8
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.58/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.66/s
+completed archs4_holdout_mouse ratio=0.70 seed=9
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.58/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.66/s
+completed archs4_holdout_mouse ratio=0.90 seed=1
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.59/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.67/s
+completed archs4_holdout_mouse ratio=0.90 seed=2
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.58/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.66/s
+completed archs4_holdout_mouse ratio=0.90 seed=3
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.57/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.65/s
+completed archs4_holdout_mouse ratio=0.90 seed=4
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.58/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.66/s
+completed archs4_holdout_mouse ratio=0.90 seed=5
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=500/1,000 elapsed=1.0m rate=8.33/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.54/s
+completed archs4_holdout_mouse ratio=0.90 seed=6
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.59/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.67/s
+completed archs4_holdout_mouse ratio=0.90 seed=7
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.61/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.67/s
+completed archs4_holdout_mouse ratio=0.90 seed=8
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.59/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.66/s
+completed archs4_holdout_mouse ratio=0.90 seed=9
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.58/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.66/s
+completed archs4_holdout_mouse ratio=1.00 seed=1
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.57/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.65/s
+completed archs4_holdout_mouse ratio=1.00 seed=2
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.59/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.66/s
+completed archs4_holdout_mouse ratio=1.00 seed=3
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.57/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.65/s
+completed archs4_holdout_mouse ratio=1.00 seed=4
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.57/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.65/s
+completed archs4_holdout_mouse ratio=1.00 seed=5
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.58/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.66/s
+completed archs4_holdout_mouse ratio=1.00 seed=6
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=504/1,000 elapsed=1.0m rate=8.35/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.55/s
+completed archs4_holdout_mouse ratio=1.00 seed=7
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.59/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.67/s
+completed archs4_holdout_mouse ratio=1.00 seed=8
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=520/1,000 elapsed=1.0m rate=8.60/s
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.67/s
+completed archs4_holdout_mouse ratio=1.00 seed=9

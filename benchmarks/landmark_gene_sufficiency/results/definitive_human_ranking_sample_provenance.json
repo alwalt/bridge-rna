@@ -1,0 +1,14 @@
+{
+  "species": "human",
+  "selection": "deterministic one-sample-per-study",
+  "source_pool": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/work/human_information_discovery_samples.parquet",
+  "criteria": {
+    "split": "unseen",
+    "study_exposure": "unseen_study",
+    "mapping_status": "mapped_single"
+  },
+  "samples": 500,
+  "studies": 500,
+  "ordered_sample_sha256": "708f7cc6cce7dadf57adac9e588f2305603869e570335a16011376dc624bed21",
+  "benchmark_seed": 20260828
+}

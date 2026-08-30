@@ -1,0 +1,22 @@
+{
+  "status": "frozen_before_validation",
+  "panel_size": 921,
+  "random_replicates": 50,
+  "benchmark_seed": 20260828,
+  "ranking_inputs": {
+    "human": {
+      "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/final_human_informative_gene_ranking.parquet",
+      "sha256": "7feb05c35f7fba1f864ea3e3a38b0269b18c487685be41dbf9fb2b6b12126b71"
+    },
+    "mouse": {
+      "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/final_mouse_informative_gene_ranking.parquet",
+      "sha256": "94812555f738471c3c22bbd7d545c9f1fba2d138b5616162fb92ab1526e50846"
+    }
+  },
+  "l1000_input": {
+    "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/l1000_model_mapping.parquet",
+    "sha256": "3e9c87b608eb5122d24c1026fa60f611d32e2e4aab78256d15686e82f62c1be3"
+  },
+  "frozen_panel_sha256": "f699633893c88dffa021f18b3d4ca80d28d018894d95d85a10e40cf79f366cc5",
+  "policy": "Do not modify or regenerate after viewing held-out validation results."
+}

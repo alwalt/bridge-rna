@@ -1,0 +1,14 @@
+[
+  {
+    "species": "human",
+    "samples": 5000,
+    "observed_genes": 15165,
+    "source": "/home/walt/bridge-rna/data/archs4/human_gene_v2.5.h5"
+  },
+  {
+    "species": "mouse",
+    "samples": 5000,
+    "observed_genes": 15165,
+    "source": "/home/walt/bridge-rna/data/archs4/mouse_gene_v2.5.h5"
+  }
+]

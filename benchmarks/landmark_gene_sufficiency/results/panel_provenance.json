@@ -1,0 +1,8 @@
+{
+  "model_positions": 15165,
+  "jointly_observed_genes": 15161,
+  "l1000_source_genes": 978,
+  "l1000_model_overlap": 922,
+  "l1000_jointly_evaluable": 921,
+  "panels": 81
+}

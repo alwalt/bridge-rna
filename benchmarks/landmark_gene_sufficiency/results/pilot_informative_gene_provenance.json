@@ -1,0 +1,11 @@
+{
+  "method": "cross-fitted randomized panel marginal attribution",
+  "selection_species": "human",
+  "selection_role": "discovery",
+  "samples": 25,
+  "probe_folds": 4,
+  "panels_per_fold": 16,
+  "visible_genes": 921,
+  "evaluation_cohorts_used_for_selection": false,
+  "score_direction": "larger is more informative; MSE sign inverted"
+}

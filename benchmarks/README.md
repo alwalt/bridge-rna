@@ -10,6 +10,7 @@ the folder README documents provenance and rerun instructions.
 |---|---|---|---|
 | Paired ARCHS4–recount3 | Are expression and FM embeddings robust to two independent processing pipelines for the same unseen-study samples? | [`paired_recount3/paired_recount3_benchmark.ipynb`](paired_recount3/paired_recount3_benchmark.ipynb) | Complete |
 | TCGA expression imputation | How does frozen masked-expression reconstruction compare with BulkFormer-50M and BulkFormer-147M? | [`tcga_imputation/tcga_imputation_benchmark.ipynb`](tcga_imputation/tcga_imputation_benchmark.ipynb) | One-sample validation passed; full run pending |
+| Landmark-gene sufficiency | Do L1000 or other fixed reduced gene panels preserve disproportionate information for masked transcriptome reconstruction? | [`landmark_gene_sufficiency/landmark_gene_sufficiency_benchmark.ipynb`](landmark_gene_sufficiency/landmark_gene_sufficiency_benchmark.ipynb) | Reproducible pilot complete |
 
 ## Folder convention
 

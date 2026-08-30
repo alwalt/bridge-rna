@@ -1,0 +1,17 @@
+{
+  "status": "frozen_before_shared_451_external_validation",
+  "panel_size": 451,
+  "random_replicates": 50,
+  "benchmark_seed": 20260828,
+  "random_seed_offset": 20000,
+  "shared_input": {
+    "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/shared_top_451_genes.parquet",
+    "sha256": "1bd2d8c265306c1403ca1c9e3a0dac404d7eeae81e5f292affc33c9c6334250b"
+  },
+  "ranking_input": {
+    "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/final_human_informative_gene_ranking.parquet",
+    "sha256": "7feb05c35f7fba1f864ea3e3a38b0269b18c487685be41dbf9fb2b6b12126b71"
+  },
+  "frozen_panel_sha256": "f84e9382ce98f426a08df925ac383a4d93bcc2fb8aefe19d53b7deb6d7c3d5c8",
+  "policy": "Do not modify or regenerate after viewing validation results."
+}

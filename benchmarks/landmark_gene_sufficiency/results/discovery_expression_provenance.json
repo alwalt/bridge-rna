@@ -1,0 +1,8 @@
+{
+  "samples": 5000,
+  "observed_genes": 15164,
+  "source": "/home/walt/bridge-rna/data/archs4/human_gene_v2.5.h5",
+  "preprocessing": "exon-length TPM -> natural log1p",
+  "matrix_sha256": "bc1b25599c3a61ef9ef23b61fe7c378eb4b065482933b5d8e95dbfb7a4517c46",
+  "selection_role": "human discovery; disjoint from human/mouse evaluation"
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE92nnn/GSE92742/suppl/GSE92742_Broad_LINCS_gene_info.txt.gz",
+  "geo_accession": "GSE92742",
+  "retrieved": "2026-08-28",
+  "sha256": "741216ccc53320119b47ab006de3bcad48963c57087c9e07f50f0d6cd088711a",
+  "selection": "pr_is_lm == 1",
+  "source_landmarks": 978,
+  "hgnc_resolved": 978,
+  "model_overlap": 922,
+  "hgnc_file": "/home/walt/bridge-rna/data/annotations/hgnc/hgnc_complete_set_2026-08-27.tsv",
+  "hgnc_sha256": "0615a070f1628e6727953f67ad9248dd0f0ddbb16d41a7b40e06aa852fc3f448",
+  "model_vocab": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv",
+  "model_vocab_sha256": "1dbe9a5753e5982b3ddb383f35e92ce5795c21fc054fff685514831c8dadbb8d"
+}

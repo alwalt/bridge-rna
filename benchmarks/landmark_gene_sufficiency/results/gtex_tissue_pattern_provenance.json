@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-08-30T04:15:30.035587+00:00",
+  "gtex_h5": "/home/walt/bridge-rna/data/gtex/gtex_matrix.h5",
+  "gtex_h5_sha256": "1392f2321014147d801f09e2a9a012f267a8c8bd7347099370fb723dbb414592",
+  "tissue_field": "meta/smtsd",
+  "samples": 9662,
+  "tissues": 54,
+  "model_gene_universe": 15165,
+  "genes_observed_after_unique_hgnc_mapping": 15037,
+  "preprocessing": "sample-wise counts per million followed by natural log1p",
+  "tissue_summary": "median log1p(CPM) within each detailed GTEx tissue",
+  "specificity": "maximum tissue median divided by mean tissue median",
+  "ranking": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/final_human_informative_gene_ranking.parquet",
+  "shared_gene_set": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/shared_top_451_genes.parquet",
+  "shared_genes": 451,
+  "top_genes": 921
+}

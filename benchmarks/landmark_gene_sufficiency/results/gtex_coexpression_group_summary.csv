@@ -1,0 +1,4 @@
+gene_set,genes_in_set,genes_with_coexpression,median_mean_absolute_correlation,median_correlated_genes_abs_r_gt_0_5
+Shared-451,451,449,0.23326240479946136,1115.0
+Top-921,921,915,0.2327532023191452,1053.0
+Remaining/background,14244,14122,0.2353111431002617,1097.5

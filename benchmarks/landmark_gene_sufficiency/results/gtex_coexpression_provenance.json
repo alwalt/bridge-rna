@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-08-30T04:28:59.121727+00:00",
+  "gtex_h5": "/home/walt/bridge-rna/data/gtex/gtex_matrix.h5",
+  "model_gene_universe": 15165,
+  "gtex_samples": 9662,
+  "genes_with_valid_coexpression": 15037,
+  "partners_per_valid_gene": 15036,
+  "preprocessing": "sample-wise counts per million followed by natural log1p",
+  "correlation": "Pearson across GTEx samples; self-correlation excluded",
+  "threshold": "absolute Pearson r > 0.5",
+  "compute_device": "cuda:0",
+  "block_size": 1024,
+  "ranking": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/final_human_informative_gene_ranking.parquet",
+  "shared_gene_set": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/shared_top_451_genes.parquet",
+  "missing_or_constant_genes_retained_as_null": 128
+}

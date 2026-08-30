@@ -1,0 +1,583 @@
+[inference] osdr_mouse shared_451 samples=1,000 batch_size=4 device=cuda:1
+[inference] tcga_human shared_451 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=1.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human shared_451 samples=540/1,000 elapsed=1.0m rate=8.97/s
+[heartbeat] osdr_mouse shared_451 samples=560/1,000 elapsed=1.0m rate=9.27/s
+[heartbeat] osdr_mouse shared_451 samples=1,000/1,000 elapsed=1.8m rate=9.25/s
+[heartbeat] tcga_human shared_451 samples=1,000/1,000 elapsed=1.9m rate=8.93/s
+[orchestrator heartbeat] elapsed=2.0m running=tcga_human,osdr_mouse
+[osdr_mouse] completed shared_451
+[inference] osdr_mouse random_451_r00 samples=1,000 batch_size=4 device=cuda:1
+[tcga_human] completed shared_451
+[inference] tcga_human random_451_r00 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=3.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r00 samples=556/1,000 elapsed=1.0m rate=9.20/s
+[heartbeat] tcga_human random_451_r00 samples=528/1,000 elapsed=1.0m rate=8.73/s
+[heartbeat] osdr_mouse random_451_r00 samples=1,000/1,000 elapsed=1.8m rate=9.23/s
+[orchestrator heartbeat] elapsed=4.0m running=tcga_human,osdr_mouse
+[osdr_mouse] completed random_451_r00
+[inference] osdr_mouse random_451_r01 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r00 samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+[tcga_human] completed random_451_r00
+[inference] tcga_human random_451_r01 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=5.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r01 samples=556/1,000 elapsed=1.0m rate=9.22/s
+[heartbeat] tcga_human random_451_r01 samples=520/1,000 elapsed=1.0m rate=8.63/s
+[heartbeat] osdr_mouse random_451_r01 samples=1,000/1,000 elapsed=1.8m rate=9.23/s
+[osdr_mouse] completed random_451_r01
+[inference] osdr_mouse random_451_r02 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=6.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r01 samples=1,000/1,000 elapsed=1.9m rate=8.61/s
+[tcga_human] completed random_451_r01
+[inference] tcga_human random_451_r02 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r02 samples=552/1,000 elapsed=1.0m rate=9.18/s
+[orchestrator heartbeat] elapsed=7.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r02 samples=512/1,000 elapsed=1.0m rate=8.51/s
+[heartbeat] osdr_mouse random_451_r02 samples=1,000/1,000 elapsed=1.8m rate=9.20/s
+[osdr_mouse] completed random_451_r02
+[inference] osdr_mouse random_451_r03 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=8.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r02 samples=1,000/1,000 elapsed=2.0m rate=8.48/s
+[tcga_human] completed random_451_r02
+[inference] tcga_human random_451_r03 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r03 samples=552/1,000 elapsed=1.0m rate=9.17/s
+[orchestrator heartbeat] elapsed=9.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r03 samples=508/1,000 elapsed=1.0m rate=8.45/s
+[heartbeat] osdr_mouse random_451_r03 samples=1,000/1,000 elapsed=1.8m rate=9.17/s
+[osdr_mouse] completed random_451_r03
+[inference] osdr_mouse random_451_r04 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=10.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r03 samples=1,000/1,000 elapsed=2.0m rate=8.44/s
+[tcga_human] completed random_451_r03
+[inference] tcga_human random_451_r04 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r04 samples=552/1,000 elapsed=1.0m rate=9.16/s
+[orchestrator heartbeat] elapsed=11.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r04 samples=508/1,000 elapsed=1.0m rate=8.42/s
+[heartbeat] osdr_mouse random_451_r04 samples=1,000/1,000 elapsed=1.8m rate=9.16/s
+[osdr_mouse] completed random_451_r04
+[inference] osdr_mouse random_451_r05 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=12.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r04 samples=1,000/1,000 elapsed=2.0m rate=8.40/s
+[tcga_human] completed random_451_r04
+[inference] tcga_human random_451_r05 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r05 samples=552/1,000 elapsed=1.0m rate=9.15/s
+[orchestrator heartbeat] elapsed=13.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r05 samples=504/1,000 elapsed=1.0m rate=8.39/s
+[heartbeat] osdr_mouse random_451_r05 samples=1,000/1,000 elapsed=1.8m rate=9.15/s
+[osdr_mouse] completed random_451_r05
+[inference] osdr_mouse random_451_r06 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=14.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r05 samples=1,000/1,000 elapsed=2.0m rate=8.37/s
+[tcga_human] completed random_451_r05
+[inference] tcga_human random_451_r06 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r06 samples=552/1,000 elapsed=1.0m rate=9.13/s
+[orchestrator heartbeat] elapsed=15.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r06 samples=1,000/1,000 elapsed=1.9m rate=8.97/s
+[heartbeat] tcga_human random_451_r06 samples=472/1,000 elapsed=1.0m rate=7.86/s
+[osdr_mouse] completed random_451_r06
+[inference] osdr_mouse random_451_r07 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=16.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r06 samples=940/1,000 elapsed=2.0m rate=7.80/s
+[heartbeat] osdr_mouse random_451_r07 samples=524/1,000 elapsed=1.0m rate=8.72/s
+[heartbeat] tcga_human random_451_r06 samples=1,000/1,000 elapsed=2.1m rate=7.80/s
+[orchestrator heartbeat] elapsed=17.0m running=tcga_human,osdr_mouse
+[tcga_human] completed random_451_r06
+[inference] tcga_human random_451_r07 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r07 samples=1,000/1,000 elapsed=1.9m rate=8.72/s
+[osdr_mouse] completed random_451_r07
+[inference] osdr_mouse random_451_r08 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=18.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r07 samples=468/1,000 elapsed=1.0m rate=7.77/s
+[heartbeat] osdr_mouse random_451_r08 samples=524/1,000 elapsed=1.0m rate=8.71/s
+[orchestrator heartbeat] elapsed=19.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r07 samples=936/1,000 elapsed=2.0m rate=7.75/s
+[heartbeat] tcga_human random_451_r07 samples=1,000/1,000 elapsed=2.2m rate=7.75/s
+[tcga_human] completed random_451_r07
+[inference] tcga_human random_451_r08 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r08 samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+[osdr_mouse] completed random_451_r08
+[inference] osdr_mouse random_451_r09 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=20.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r08 samples=468/1,000 elapsed=1.0m rate=7.75/s
+[heartbeat] osdr_mouse random_451_r09 samples=524/1,000 elapsed=1.0m rate=8.70/s
+[orchestrator heartbeat] elapsed=21.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r08 samples=932/1,000 elapsed=2.0m rate=7.73/s
+[heartbeat] tcga_human random_451_r08 samples=1,000/1,000 elapsed=2.2m rate=7.72/s
+[tcga_human] completed random_451_r08
+[inference] tcga_human random_451_r09 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r09 samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+[osdr_mouse] completed random_451_r09
+[inference] osdr_mouse random_451_r10 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=22.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r09 samples=464/1,000 elapsed=1.0m rate=7.73/s
+[heartbeat] osdr_mouse random_451_r10 samples=524/1,000 elapsed=1.0m rate=8.69/s
+[orchestrator heartbeat] elapsed=23.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r09 samples=924/1,000 elapsed=2.0m rate=7.68/s
+[heartbeat] tcga_human random_451_r09 samples=1,000/1,000 elapsed=2.2m rate=7.68/s
+[heartbeat] osdr_mouse random_451_r10 samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+[tcga_human] completed random_451_r09
+[inference] tcga_human random_451_r10 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=24.0m running=tcga_human,osdr_mouse
+[osdr_mouse] completed random_451_r10
+[inference] osdr_mouse random_451_r11 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r10 samples=464/1,000 elapsed=1.0m rate=7.70/s
+[orchestrator heartbeat] elapsed=25.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r11 samples=524/1,000 elapsed=1.0m rate=8.68/s
+[heartbeat] osdr_mouse random_451_r11 samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+[heartbeat] tcga_human random_451_r10 samples=924/1,000 elapsed=2.0m rate=7.66/s
+[orchestrator heartbeat] elapsed=26.0m running=tcga_human,osdr_mouse
+[osdr_mouse] completed random_451_r11
+[inference] osdr_mouse random_451_r12 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r10 samples=1,000/1,000 elapsed=2.2m rate=7.65/s
+[tcga_human] completed random_451_r10
+[inference] tcga_human random_451_r11 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=27.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r12 samples=524/1,000 elapsed=1.0m rate=8.70/s
+[heartbeat] tcga_human random_451_r11 samples=464/1,000 elapsed=1.0m rate=7.70/s
+[orchestrator heartbeat] elapsed=28.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r12 samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+[osdr_mouse] completed random_451_r12
+[inference] osdr_mouse random_451_r13 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r11 samples=924/1,000 elapsed=2.0m rate=7.65/s
+[heartbeat] tcga_human random_451_r11 samples=1,000/1,000 elapsed=2.2m rate=7.65/s
+[tcga_human] completed random_451_r11
+[inference] tcga_human random_451_r12 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=29.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r13 samples=524/1,000 elapsed=1.0m rate=8.68/s
+[heartbeat] tcga_human random_451_r12 samples=464/1,000 elapsed=1.0m rate=7.70/s
+[orchestrator heartbeat] elapsed=30.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r13 samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+[osdr_mouse] completed random_451_r13
+[inference] osdr_mouse random_451_r14 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r12 samples=924/1,000 elapsed=2.0m rate=7.65/s
+[heartbeat] tcga_human random_451_r12 samples=1,000/1,000 elapsed=2.2m rate=7.65/s
+[tcga_human] completed random_451_r12
+[inference] tcga_human random_451_r13 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=31.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r14 samples=524/1,000 elapsed=1.0m rate=8.68/s
+[heartbeat] tcga_human random_451_r13 samples=464/1,000 elapsed=1.0m rate=7.67/s
+[orchestrator heartbeat] elapsed=32.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r14 samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+[osdr_mouse] completed random_451_r14
+[inference] osdr_mouse random_451_r15 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r13 samples=920/1,000 elapsed=2.0m rate=7.63/s
+[orchestrator heartbeat] elapsed=33.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r13 samples=1,000/1,000 elapsed=2.2m rate=7.62/s
+[tcga_human] completed random_451_r13
+[inference] tcga_human random_451_r14 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r15 samples=524/1,000 elapsed=1.0m rate=8.68/s
+[orchestrator heartbeat] elapsed=34.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r15 samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+[heartbeat] tcga_human random_451_r14 samples=460/1,000 elapsed=1.0m rate=7.65/s
+[osdr_mouse] completed random_451_r15
+[inference] osdr_mouse random_451_r16 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=35.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r14 samples=916/1,000 elapsed=2.0m rate=7.61/s
+[heartbeat] osdr_mouse random_451_r16 samples=524/1,000 elapsed=1.0m rate=8.69/s
+[heartbeat] tcga_human random_451_r14 samples=1,000/1,000 elapsed=2.2m rate=7.61/s
+[tcga_human] completed random_451_r14
+[inference] tcga_human random_451_r15 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=36.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r16 samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+[osdr_mouse] completed random_451_r16
+[inference] osdr_mouse random_451_r17 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r15 samples=460/1,000 elapsed=1.0m rate=7.61/s
+[orchestrator heartbeat] elapsed=37.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r17 samples=524/1,000 elapsed=1.0m rate=8.70/s
+[heartbeat] tcga_human random_451_r15 samples=916/1,000 elapsed=2.0m rate=7.60/s
+[heartbeat] tcga_human random_451_r15 samples=1,000/1,000 elapsed=2.2m rate=7.60/s
+[tcga_human] completed random_451_r15
+[inference] tcga_human random_451_r16 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=38.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r17 samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+[osdr_mouse] completed random_451_r17
+[inference] osdr_mouse random_451_r18 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r16 samples=460/1,000 elapsed=1.0m rate=7.63/s
+[orchestrator heartbeat] elapsed=39.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r18 samples=524/1,000 elapsed=1.0m rate=8.71/s
+[heartbeat] tcga_human random_451_r16 samples=920/1,000 elapsed=2.0m rate=7.63/s
+[orchestrator heartbeat] elapsed=40.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r16 samples=1,000/1,000 elapsed=2.2m rate=7.63/s
+[tcga_human] completed random_451_r16
+[inference] tcga_human random_451_r17 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r18 samples=1,000/1,000 elapsed=1.9m rate=8.72/s
+[osdr_mouse] completed random_451_r18
+[inference] osdr_mouse random_451_r19 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=41.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r17 samples=468/1,000 elapsed=1.0m rate=7.78/s
+[heartbeat] osdr_mouse random_451_r19 samples=524/1,000 elapsed=1.0m rate=8.72/s
+[orchestrator heartbeat] elapsed=42.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r17 samples=932/1,000 elapsed=2.0m rate=7.73/s
+[heartbeat] tcga_human random_451_r17 samples=1,000/1,000 elapsed=2.2m rate=7.72/s
+[heartbeat] osdr_mouse random_451_r19 samples=1,000/1,000 elapsed=1.9m rate=8.72/s
+[tcga_human] completed random_451_r17
+[inference] tcga_human random_451_r18 samples=1,000 batch_size=4 device=cuda:0
+[osdr_mouse] completed random_451_r19
+[inference] osdr_mouse random_451_r20 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=43.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r18 samples=468/1,000 elapsed=1.0m rate=7.75/s
+[heartbeat] osdr_mouse random_451_r20 samples=524/1,000 elapsed=1.0m rate=8.71/s
+[orchestrator heartbeat] elapsed=44.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r20 samples=1,000/1,000 elapsed=1.9m rate=8.72/s
+[heartbeat] tcga_human random_451_r18 samples=928/1,000 elapsed=2.0m rate=7.69/s
+[heartbeat] tcga_human random_451_r18 samples=1,000/1,000 elapsed=2.2m rate=7.68/s
+[osdr_mouse] completed random_451_r20
+[inference] osdr_mouse random_451_r21 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=45.0m running=tcga_human,osdr_mouse
+[tcga_human] completed random_451_r18
+[inference] tcga_human random_451_r19 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r21 samples=524/1,000 elapsed=1.0m rate=8.71/s
+[orchestrator heartbeat] elapsed=46.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r19 samples=468/1,000 elapsed=1.0m rate=7.76/s
+[heartbeat] osdr_mouse random_451_r21 samples=1,000/1,000 elapsed=1.9m rate=8.72/s
+[orchestrator heartbeat] elapsed=47.0m running=tcga_human,osdr_mouse
+[osdr_mouse] completed random_451_r21
+[inference] osdr_mouse random_451_r22 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r19 samples=928/1,000 elapsed=2.0m rate=7.70/s
+[heartbeat] tcga_human random_451_r19 samples=1,000/1,000 elapsed=2.2m rate=7.69/s
+[tcga_human] completed random_451_r19
+[inference] tcga_human random_451_r20 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=48.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r22 samples=528/1,000 elapsed=1.0m rate=8.74/s
+[heartbeat] tcga_human random_451_r20 samples=468/1,000 elapsed=1.0m rate=7.77/s
+[heartbeat] osdr_mouse random_451_r22 samples=1,000/1,000 elapsed=1.9m rate=8.73/s
+[orchestrator heartbeat] elapsed=49.0m running=tcga_human,osdr_mouse
+[osdr_mouse] completed random_451_r22
+[inference] osdr_mouse random_451_r23 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r20 samples=932/1,000 elapsed=2.0m rate=7.72/s
+[heartbeat] tcga_human random_451_r20 samples=1,000/1,000 elapsed=2.2m rate=7.71/s
+[tcga_human] completed random_451_r20
+[inference] tcga_human random_451_r21 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=50.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r23 samples=524/1,000 elapsed=1.0m rate=8.72/s
+[heartbeat] tcga_human random_451_r21 samples=464/1,000 elapsed=1.0m rate=7.69/s
+[orchestrator heartbeat] elapsed=51.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r23 samples=1,000/1,000 elapsed=1.9m rate=8.72/s
+[osdr_mouse] completed random_451_r23
+[inference] osdr_mouse random_451_r24 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r21 samples=920/1,000 elapsed=2.0m rate=7.63/s
+[heartbeat] tcga_human random_451_r21 samples=1,000/1,000 elapsed=2.2m rate=7.63/s
+[orchestrator heartbeat] elapsed=52.0m running=tcga_human,osdr_mouse
+[tcga_human] completed random_451_r21
+[inference] tcga_human random_451_r22 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r24 samples=524/1,000 elapsed=1.0m rate=8.71/s
+[orchestrator heartbeat] elapsed=53.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r24 samples=1,000/1,000 elapsed=1.9m rate=8.72/s
+[heartbeat] tcga_human random_451_r22 samples=460/1,000 elapsed=1.0m rate=7.63/s
+[osdr_mouse] completed random_451_r24
+[inference] osdr_mouse random_451_r25 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=54.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r22 samples=916/1,000 elapsed=2.0m rate=7.60/s
+[heartbeat] osdr_mouse random_451_r25 samples=524/1,000 elapsed=1.0m rate=8.71/s
+[heartbeat] tcga_human random_451_r22 samples=1,000/1,000 elapsed=2.2m rate=7.60/s
+[tcga_human] completed random_451_r22
+[inference] tcga_human random_451_r23 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=55.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r25 samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+[osdr_mouse] completed random_451_r25
+[inference] osdr_mouse random_451_r26 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r23 samples=472/1,000 elapsed=1.0m rate=7.80/s
+[orchestrator heartbeat] elapsed=56.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r26 samples=540/1,000 elapsed=1.0m rate=8.96/s
+[heartbeat] tcga_human random_451_r23 samples=952/1,000 elapsed=2.0m rate=7.89/s
+[heartbeat] tcga_human random_451_r23 samples=1,000/1,000 elapsed=2.1m rate=7.90/s
+[tcga_human] completed random_451_r23
+[inference] tcga_human random_451_r24 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=57.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r26 samples=1,000/1,000 elapsed=1.9m rate=8.95/s
+[osdr_mouse] completed random_451_r26
+[inference] osdr_mouse random_451_r27 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r24 samples=484/1,000 elapsed=1.0m rate=8.06/s
+[orchestrator heartbeat] elapsed=58.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r27 samples=544/1,000 elapsed=1.0m rate=9.05/s
+[heartbeat] tcga_human random_451_r24 samples=976/1,000 elapsed=2.0m rate=8.12/s
+[heartbeat] tcga_human random_451_r24 samples=1,000/1,000 elapsed=2.1m rate=8.12/s
+[tcga_human] completed random_451_r24
+[inference] tcga_human random_451_r25 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=59.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r27 samples=1,000/1,000 elapsed=1.8m rate=9.10/s
+[osdr_mouse] completed random_451_r27
+[inference] osdr_mouse random_451_r28 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r25 samples=496/1,000 elapsed=1.0m rate=8.21/s
+[orchestrator heartbeat] elapsed=60.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r28 samples=548/1,000 elapsed=1.0m rate=9.11/s
+[heartbeat] tcga_human random_451_r25 samples=972/1,000 elapsed=2.0m rate=8.06/s
+[heartbeat] tcga_human random_451_r25 samples=1,000/1,000 elapsed=2.1m rate=8.07/s
+[orchestrator heartbeat] elapsed=61.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r28 samples=1,000/1,000 elapsed=1.9m rate=9.01/s
+[tcga_human] completed random_451_r25
+[inference] tcga_human random_451_r26 samples=1,000 batch_size=4 device=cuda:0
+[osdr_mouse] completed random_451_r28
+[inference] osdr_mouse random_451_r29 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=62.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r26 samples=492/1,000 elapsed=1.0m rate=8.20/s
+[heartbeat] osdr_mouse random_451_r29 samples=548/1,000 elapsed=1.0m rate=9.09/s
+[orchestrator heartbeat] elapsed=63.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r29 samples=1,000/1,000 elapsed=1.8m rate=9.11/s
+[heartbeat] tcga_human random_451_r26 samples=984/1,000 elapsed=2.0m rate=8.17/s
+[heartbeat] tcga_human random_451_r26 samples=1,000/1,000 elapsed=2.0m rate=8.17/s
+[osdr_mouse] completed random_451_r29
+[inference] osdr_mouse random_451_r30 samples=1,000 batch_size=4 device=cuda:1
+[tcga_human] completed random_451_r26
+[inference] tcga_human random_451_r27 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=64.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r30 samples=548/1,000 elapsed=1.0m rate=9.12/s
+[heartbeat] tcga_human random_451_r27 samples=500/1,000 elapsed=1.0m rate=8.27/s
+[orchestrator heartbeat] elapsed=65.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r30 samples=1,000/1,000 elapsed=1.8m rate=9.13/s
+[osdr_mouse] completed random_451_r30
+[inference] osdr_mouse random_451_r31 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r27 samples=992/1,000 elapsed=2.0m rate=8.22/s
+[heartbeat] tcga_human random_451_r27 samples=1,000/1,000 elapsed=2.0m rate=8.22/s
+[tcga_human] completed random_451_r27
+[inference] tcga_human random_451_r28 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=66.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r31 samples=548/1,000 elapsed=1.0m rate=9.12/s
+[heartbeat] tcga_human random_451_r28 samples=496/1,000 elapsed=1.0m rate=8.24/s
+[orchestrator heartbeat] elapsed=67.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r31 samples=1,000/1,000 elapsed=1.8m rate=9.13/s
+[osdr_mouse] completed random_451_r31
+[inference] osdr_mouse random_451_r32 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r28 samples=988/1,000 elapsed=2.0m rate=8.20/s
+[heartbeat] tcga_human random_451_r28 samples=1,000/1,000 elapsed=2.0m rate=8.19/s
+[tcga_human] completed random_451_r28
+[inference] tcga_human random_451_r29 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=68.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r32 samples=548/1,000 elapsed=1.0m rate=9.12/s
+[heartbeat] tcga_human random_451_r29 samples=496/1,000 elapsed=1.0m rate=8.22/s
+[heartbeat] osdr_mouse random_451_r32 samples=1,000/1,000 elapsed=1.8m rate=9.12/s
+[orchestrator heartbeat] elapsed=69.0m running=tcga_human,osdr_mouse
+[osdr_mouse] completed random_451_r32
+[inference] osdr_mouse random_451_r33 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r29 samples=988/1,000 elapsed=2.0m rate=8.18/s
+[heartbeat] tcga_human random_451_r29 samples=1,000/1,000 elapsed=2.0m rate=8.18/s
+[tcga_human] completed random_451_r29
+[inference] tcga_human random_451_r30 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=70.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r33 samples=548/1,000 elapsed=1.0m rate=9.10/s
+[heartbeat] tcga_human random_451_r30 samples=496/1,000 elapsed=1.0m rate=8.22/s
+[heartbeat] osdr_mouse random_451_r33 samples=1,000/1,000 elapsed=1.8m rate=9.12/s
+[orchestrator heartbeat] elapsed=71.0m running=tcga_human,osdr_mouse
+[osdr_mouse] completed random_451_r33
+[inference] osdr_mouse random_451_r34 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r30 samples=988/1,000 elapsed=2.0m rate=8.19/s
+[heartbeat] tcga_human random_451_r30 samples=1,000/1,000 elapsed=2.0m rate=8.19/s
+[tcga_human] completed random_451_r30
+[inference] tcga_human random_451_r31 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=72.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r34 samples=548/1,000 elapsed=1.0m rate=9.12/s
+[heartbeat] osdr_mouse random_451_r34 samples=1,000/1,000 elapsed=1.8m rate=9.13/s
+[heartbeat] tcga_human random_451_r31 samples=496/1,000 elapsed=1.0m rate=8.22/s
+[osdr_mouse] completed random_451_r34
+[inference] osdr_mouse random_451_r35 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=73.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r31 samples=988/1,000 elapsed=2.0m rate=8.18/s
+[heartbeat] tcga_human random_451_r31 samples=1,000/1,000 elapsed=2.0m rate=8.18/s
+[heartbeat] osdr_mouse random_451_r35 samples=548/1,000 elapsed=1.0m rate=9.12/s
+[orchestrator heartbeat] elapsed=74.0m running=tcga_human,osdr_mouse
+[tcga_human] completed random_451_r31
+[inference] tcga_human random_451_r32 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r35 samples=1,000/1,000 elapsed=1.8m rate=9.13/s
+[osdr_mouse] completed random_451_r35
+[inference] osdr_mouse random_451_r36 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=75.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r32 samples=496/1,000 elapsed=1.0m rate=8.21/s
+[heartbeat] osdr_mouse random_451_r36 samples=548/1,000 elapsed=1.0m rate=9.13/s
+[orchestrator heartbeat] elapsed=76.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r32 samples=988/1,000 elapsed=2.0m rate=8.18/s
+[heartbeat] tcga_human random_451_r32 samples=1,000/1,000 elapsed=2.0m rate=8.18/s
+[tcga_human] completed random_451_r32
+[inference] tcga_human random_451_r33 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r36 samples=1,000/1,000 elapsed=1.8m rate=9.13/s
+[osdr_mouse] completed random_451_r36
+[inference] osdr_mouse random_451_r37 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=77.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r33 samples=496/1,000 elapsed=1.0m rate=8.21/s
+[heartbeat] osdr_mouse random_451_r37 samples=544/1,000 elapsed=1.0m rate=9.04/s
+[orchestrator heartbeat] elapsed=78.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r33 samples=968/1,000 elapsed=2.0m rate=8.01/s
+[heartbeat] tcga_human random_451_r33 samples=1,000/1,000 elapsed=2.1m rate=7.99/s
+[tcga_human] completed random_451_r33
+[inference] tcga_human random_451_r34 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r37 samples=1,000/1,000 elapsed=1.9m rate=8.88/s
+[osdr_mouse] completed random_451_r37
+[inference] osdr_mouse random_451_r38 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=79.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r34 samples=460/1,000 elapsed=1.0m rate=7.65/s
+[heartbeat] osdr_mouse random_451_r38 samples=524/1,000 elapsed=1.0m rate=8.69/s
+[orchestrator heartbeat] elapsed=80.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r34 samples=916/1,000 elapsed=2.0m rate=7.61/s
+[heartbeat] tcga_human random_451_r34 samples=1,000/1,000 elapsed=2.2m rate=7.60/s
+[tcga_human] completed random_451_r34
+[inference] tcga_human random_451_r35 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r38 samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+[osdr_mouse] completed random_451_r38
+[inference] osdr_mouse random_451_r39 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=81.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r35 samples=460/1,000 elapsed=1.0m rate=7.61/s
+[heartbeat] osdr_mouse random_451_r39 samples=524/1,000 elapsed=1.0m rate=8.68/s
+[orchestrator heartbeat] elapsed=82.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r35 samples=916/1,000 elapsed=2.0m rate=7.58/s
+[heartbeat] osdr_mouse random_451_r39 samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+[osdr_mouse] completed random_451_r39
+[inference] osdr_mouse random_451_r40 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r35 samples=1,000/1,000 elapsed=2.2m rate=7.57/s
+[orchestrator heartbeat] elapsed=83.0m running=tcga_human,osdr_mouse
+[tcga_human] completed random_451_r35
+[inference] tcga_human random_451_r36 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r40 samples=524/1,000 elapsed=1.0m rate=8.70/s
+[orchestrator heartbeat] elapsed=84.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r36 samples=460/1,000 elapsed=1.0m rate=7.63/s
+[heartbeat] osdr_mouse random_451_r40 samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+[osdr_mouse] completed random_451_r40
+[inference] osdr_mouse random_451_r41 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=85.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r36 samples=916/1,000 elapsed=2.0m rate=7.58/s
+[heartbeat] tcga_human random_451_r36 samples=1,000/1,000 elapsed=2.2m rate=7.58/s
+[tcga_human] completed random_451_r36
+[inference] tcga_human random_451_r37 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=86.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r41 samples=524/1,000 elapsed=1.0m rate=8.70/s
+[heartbeat] tcga_human random_451_r37 samples=460/1,000 elapsed=1.0m rate=7.63/s
+[heartbeat] osdr_mouse random_451_r41 samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+[orchestrator heartbeat] elapsed=87.0m running=tcga_human,osdr_mouse
+[osdr_mouse] completed random_451_r41
+[inference] osdr_mouse random_451_r42 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r37 samples=916/1,000 elapsed=2.0m rate=7.59/s
+[heartbeat] tcga_human random_451_r37 samples=1,000/1,000 elapsed=2.2m rate=7.59/s
+[tcga_human] completed random_451_r37
+[inference] tcga_human random_451_r38 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=88.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r42 samples=524/1,000 elapsed=1.0m rate=8.68/s
+[heartbeat] tcga_human random_451_r38 samples=460/1,000 elapsed=1.0m rate=7.62/s
+[heartbeat] osdr_mouse random_451_r42 samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+[orchestrator heartbeat] elapsed=89.0m running=tcga_human,osdr_mouse
+[osdr_mouse] completed random_451_r42
+[inference] osdr_mouse random_451_r43 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r38 samples=916/1,000 elapsed=2.0m rate=7.58/s
+[heartbeat] tcga_human random_451_r38 samples=1,000/1,000 elapsed=2.2m rate=7.58/s
+[orchestrator heartbeat] elapsed=90.0m running=tcga_human,osdr_mouse
+[tcga_human] completed random_451_r38
+[inference] tcga_human random_451_r39 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r43 samples=524/1,000 elapsed=1.0m rate=8.70/s
+[heartbeat] osdr_mouse random_451_r43 samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+[orchestrator heartbeat] elapsed=91.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r39 samples=456/1,000 elapsed=1.0m rate=7.59/s
+[osdr_mouse] completed random_451_r43
+[inference] osdr_mouse random_451_r44 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=92.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r39 samples=912/1,000 elapsed=2.0m rate=7.56/s
+[heartbeat] osdr_mouse random_451_r44 samples=524/1,000 elapsed=1.0m rate=8.70/s
+[heartbeat] tcga_human random_451_r39 samples=1,000/1,000 elapsed=2.2m rate=7.56/s
+[tcga_human] completed random_451_r39
+[inference] tcga_human random_451_r40 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=93.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r44 samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+[osdr_mouse] completed random_451_r44
+[inference] osdr_mouse random_451_r45 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r40 samples=456/1,000 elapsed=1.0m rate=7.59/s
+[orchestrator heartbeat] elapsed=94.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r45 samples=524/1,000 elapsed=1.0m rate=8.69/s
+[heartbeat] tcga_human random_451_r40 samples=912/1,000 elapsed=2.0m rate=7.57/s
+[heartbeat] tcga_human random_451_r40 samples=1,000/1,000 elapsed=2.2m rate=7.57/s
+[tcga_human] completed random_451_r40
+[inference] tcga_human random_451_r41 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=95.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r45 samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+[osdr_mouse] completed random_451_r45
+[inference] osdr_mouse random_451_r46 samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_451_r41 samples=456/1,000 elapsed=1.0m rate=7.58/s
+[orchestrator heartbeat] elapsed=96.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r46 samples=524/1,000 elapsed=1.0m rate=8.67/s
+[heartbeat] tcga_human random_451_r41 samples=912/1,000 elapsed=2.0m rate=7.56/s
+[heartbeat] tcga_human random_451_r41 samples=1,000/1,000 elapsed=2.2m rate=7.55/s
+[tcga_human] completed random_451_r41
+[inference] tcga_human random_451_r42 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=97.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r46 samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+[osdr_mouse] completed random_451_r46
+[inference] osdr_mouse random_451_r47 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=98.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r42 samples=460/1,000 elapsed=1.0m rate=7.61/s
+[heartbeat] osdr_mouse random_451_r47 samples=524/1,000 elapsed=1.0m rate=8.71/s
+[orchestrator heartbeat] elapsed=99.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r42 samples=916/1,000 elapsed=2.0m rate=7.58/s
+[heartbeat] tcga_human random_451_r42 samples=1,000/1,000 elapsed=2.2m rate=7.57/s
+[heartbeat] osdr_mouse random_451_r47 samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+[tcga_human] completed random_451_r42
+[inference] tcga_human random_451_r43 samples=1,000 batch_size=4 device=cuda:0
+[osdr_mouse] completed random_451_r47
+[inference] osdr_mouse random_451_r48 samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=100.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_451_r43 samples=464/1,000 elapsed=1.0m rate=7.69/s
+[heartbeat] osdr_mouse random_451_r48 samples=524/1,000 elapsed=1.0m rate=8.69/s
+[orchestrator heartbeat] elapsed=101.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r48 samples=1,000/1,000 elapsed=1.9m rate=8.70/s
+[heartbeat] tcga_human random_451_r43 samples=920/1,000 elapsed=2.0m rate=7.62/s
+[heartbeat] tcga_human random_451_r43 samples=1,000/1,000 elapsed=2.2m rate=7.61/s
+[osdr_mouse] completed random_451_r48
+[inference] osdr_mouse random_451_r49 samples=1,000 batch_size=4 device=cuda:1
+[tcga_human] completed random_451_r43
+[inference] tcga_human random_451_r44 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=102.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r49 samples=520/1,000 elapsed=1.0m rate=8.65/s
+[heartbeat] tcga_human random_451_r44 samples=468/1,000 elapsed=1.0m rate=7.78/s
+[orchestrator heartbeat] elapsed=103.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_451_r49 samples=1,000/1,000 elapsed=1.9m rate=8.69/s
+[osdr_mouse] completed random_451_r49
+[orchestrator] osdr_mouse finished on cuda:1
+[heartbeat] tcga_human random_451_r44 samples=928/1,000 elapsed=2.0m rate=7.71/s
+[orchestrator heartbeat] elapsed=104.0m running=tcga_human
+[heartbeat] tcga_human random_451_r44 samples=1,000/1,000 elapsed=2.2m rate=7.70/s
+[tcga_human] completed random_451_r44
+[inference] tcga_human random_451_r45 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=105.0m running=tcga_human
+[heartbeat] tcga_human random_451_r45 samples=468/1,000 elapsed=1.0m rate=7.75/s
+[orchestrator heartbeat] elapsed=106.0m running=tcga_human
+[heartbeat] tcga_human random_451_r45 samples=948/1,000 elapsed=2.0m rate=7.85/s
+[heartbeat] tcga_human random_451_r45 samples=1,000/1,000 elapsed=2.1m rate=7.85/s
+[tcga_human] completed random_451_r45
+[inference] tcga_human random_451_r46 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=107.0m running=tcga_human
+[heartbeat] tcga_human random_451_r46 samples=484/1,000 elapsed=1.0m rate=8.02/s
+[orchestrator heartbeat] elapsed=108.0m running=tcga_human
+[heartbeat] tcga_human random_451_r46 samples=968/1,000 elapsed=2.0m rate=8.03/s
+[heartbeat] tcga_human random_451_r46 samples=1,000/1,000 elapsed=2.1m rate=8.03/s
+[tcga_human] completed random_451_r46
+[inference] tcga_human random_451_r47 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=109.0m running=tcga_human
+[heartbeat] tcga_human random_451_r47 samples=484/1,000 elapsed=1.0m rate=8.02/s
+[orchestrator heartbeat] elapsed=110.0m running=tcga_human
+[heartbeat] tcga_human random_451_r47 samples=968/1,000 elapsed=2.0m rate=8.03/s
+[heartbeat] tcga_human random_451_r47 samples=1,000/1,000 elapsed=2.1m rate=8.03/s
+[orchestrator heartbeat] elapsed=111.0m running=tcga_human
+[tcga_human] completed random_451_r47
+[inference] tcga_human random_451_r48 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=112.0m running=tcga_human
+[heartbeat] tcga_human random_451_r48 samples=484/1,000 elapsed=1.0m rate=8.06/s
+[orchestrator heartbeat] elapsed=113.0m running=tcga_human
+[heartbeat] tcga_human random_451_r48 samples=968/1,000 elapsed=2.0m rate=8.05/s
+[heartbeat] tcga_human random_451_r48 samples=1,000/1,000 elapsed=2.1m rate=8.05/s
+[tcga_human] completed random_451_r48
+[inference] tcga_human random_451_r49 samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=114.0m running=tcga_human
+[heartbeat] tcga_human random_451_r49 samples=484/1,000 elapsed=1.0m rate=8.05/s
+[orchestrator heartbeat] elapsed=115.0m running=tcga_human
+[heartbeat] tcga_human random_451_r49 samples=968/1,000 elapsed=2.0m rate=8.05/s
+[heartbeat] tcga_human random_451_r49 samples=1,000/1,000 elapsed=2.1m rate=8.05/s
+[tcga_human] completed random_451_r49
+[orchestrator] tcga_human finished on cuda:0
+
+Fixed-panel comparison
+   dataset   metric  shared_451  random_451_mean  random_451_sd  directional_advantage  standardized_advantage  shared_451_percentile  empirical_one_sided_p  random_replicates  higher_is_better
+osdr_mouse  pearson    0.394478         0.323682       0.013785               0.070796                5.135854                    1.0               0.019608                 50              True
+osdr_mouse spearman    0.401897         0.341044       0.012866               0.060853                4.729952                    1.0               0.019608                 50              True
+osdr_mouse      mse    2.617332         2.732555       0.021778               0.115223                5.290829                    1.0               0.019608                 50             False
+tcga_human  pearson    0.417586         0.350749       0.016597               0.066837                4.027013                    1.0               0.019608                 50              True
+tcga_human spearman    0.416173         0.363553       0.015030               0.052620                3.501002                    1.0               0.019608                 50              True
+tcga_human      mse    2.464502         2.584359       0.026996               0.119857                4.439732                    1.0               0.019608                 50             False
+   dataset panel_type selection_species  pearson_mean  pearson_sd  spearman_mean  spearman_sd  mse_mean   mse_sd  replicates
+osdr_mouse random_451              none      0.323682    0.013785       0.341044     0.012866  2.732555 0.021778          50
+osdr_mouse shared_451       human_mouse      0.394478         NaN       0.401897          NaN  2.617332      NaN           1
+tcga_human random_451              none      0.350749    0.016597       0.363553     0.015030  2.584359 0.026996          50
+tcga_human shared_451       human_mouse      0.417586         NaN       0.416173          NaN  2.464502      NaN           1

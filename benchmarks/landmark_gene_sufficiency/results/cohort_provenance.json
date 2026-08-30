@@ -1,0 +1,30 @@
+{
+  "source_manifest": "/home/walt/bridge-rna/data/manifests/sample_manifest.parquet",
+  "benchmark_seed": 20260828,
+  "criteria": {
+    "split": "unseen",
+    "study_exposure": "unseen_study",
+    "mapping_status": "mapped_single"
+  },
+  "discovery": {
+    "species": "human",
+    "samples": 5000,
+    "studies": 2549,
+    "max_samples_per_gse": 10,
+    "ordered_sample_sha256": "47bcedbadc7e4240bfccea0c738e742c1d523028ddace0d6a0590371a64c85f4"
+  },
+  "evaluation": {
+    "human": {
+      "samples": 1000,
+      "studies": 715,
+      "ordered_sample_sha256": "230f436a6df0a3aa24fc3203716ff1eb55fbfccf551986c0ef3dc093dd19a741"
+    },
+    "mouse": {
+      "samples": 1000,
+      "studies": 552,
+      "ordered_sample_sha256": "85b0d6bf9d18d705d9bffa22efd8b196405c5ffe9cae6ac2ee937e4a79a46cfe"
+    }
+  },
+  "discovery_evaluation_sample_overlap": 0,
+  "discovery_evaluation_gse_overlap": 0
+}

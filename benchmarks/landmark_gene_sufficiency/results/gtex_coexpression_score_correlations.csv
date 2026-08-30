@@ -1,0 +1,3 @@
+coexpression_measure,genes,spearman_rho,p_value
+mean_absolute_correlation,15037,0.0054730619740739166,0.5021658097848134
+correlated_genes_abs_r_gt_0_5,15037,0.0064710072199225055,0.42751424100363133

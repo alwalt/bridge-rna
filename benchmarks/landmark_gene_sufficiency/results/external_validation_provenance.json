@@ -1,0 +1,18 @@
+[
+  {
+    "dataset": "tcga_human",
+    "samples": 1000,
+    "genes": 15165,
+    "source": "/home/walt/bridge-rna/benchmarks/tcga_imputation/work/ours_log1p_tpm.npy",
+    "sha256": "7b2745beadea09f03206cc9088858946b25d20f1e40b6cd6b0a01c488367791c"
+  },
+  {
+    "dataset": "osdr_mouse",
+    "samples": 1000,
+    "genes": 15165,
+    "studies": 90,
+    "genes_observed_in_all_selected_studies": 15155,
+    "source": "/home/walt/bridge-rna/data/osdr/metadata/selected_sample_metadata.tsv",
+    "sha256": "a52106b79089893504cfb65b72d7d3570eaa579bbd9535fc79a3099e61106969"
+  }
+]

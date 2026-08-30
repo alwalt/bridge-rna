@@ -1,0 +1,979 @@
+l1000_entrez_id,l1000_symbol,l1000_title,hgnc_symbol,mapping_method,mapping_status,model_symbol,model_index,observed_human,observed_mouse,jointly_evaluable
+780,DDR1,discoidin domain receptor tyrosine kinase 1,DDR1,hgnc_entrez_id,mapped,DDR1,3171.0,True,True,True
+7849,PAX8,paired box 8,PAX8,hgnc_entrez_id,mapped,PAX8,9121.0,True,True,True
+6193,RPS5,ribosomal protein S5,RPS5,hgnc_entrez_id,mapped,RPS5,11114.0,True,True,True
+23,ABCF1,ATP binding cassette subfamily F member 1,ABCF1,hgnc_entrez_id,mapped,ABCF1,60.0,True,True,True
+9552,SPAG7,sperm associated antigen 7,SPAG7,hgnc_entrez_id,mapped,SPAG7,12383.0,True,True,True
+387,RHOA,ras homolog family member A,RHOA,hgnc_entrez_id,mapped,RHOA,10841.0,True,True,True
+10921,RNPS1,"RNA binding protein S1, serine-rich domain",RNPS1,hgnc_entrez_id,mapped,RNPS1,11013.0,True,True,True
+10285,SMNDC1,survival motor neuron domain containing 1,SMNDC1,hgnc_entrez_id,mapped,SMNDC1,12203.0,True,True,True
+533,ATP6V0B,"ATPase, H+ transporting, lysosomal 21kDa, V0 subunit b",ATP6V0B,hgnc_entrez_id,mapped,ATP6V0B,1095.0,True,True,True
+6194,RPS6,ribosomal protein S6,RPS6,hgnc_entrez_id,mapped,RPS6,11115.0,True,True,True
+23326,USP22,ubiquitin specific peptidase 22,USP22,hgnc_entrez_id,mapped,USP22,14339.0,True,True,True
+351,APP,amyloid beta precursor protein,APP,hgnc_entrez_id,mapped,APP,752.0,True,True,True
+1213,CLTC,clathrin heavy chain,CLTC,hgnc_entrez_id,mapped,CLTC,2503.0,True,True,True
+9761,MLEC,malectin,MLEC,hgnc_entrez_id,mapped,MLEC,7665.0,True,True,True
+1465,CSRP1,cysteine and glycine rich protein 1,CSRP1,hgnc_entrez_id,mapped,CSRP1,2895.0,True,True,True
+808,CALM3,"calmodulin 3 (phosphorylase kinase, delta)",CALM3,hgnc_entrez_id,mapped,CALM3,1612.0,True,True,True
+5792,PTPRF,"protein tyrosine phosphatase, receptor type F",PTPRF,hgnc_entrez_id,mapped,PTPRF,10346.0,True,True,True
+3337,DNAJB1,DnaJ heat shock protein family (Hsp40) member B1,DNAJB1,hgnc_entrez_id,mapped,DNAJB1,3420.0,True,True,True
+7494,XBP1,X-box binding protein 1,XBP1,hgnc_entrez_id,mapped,XBP1,14664.0,True,True,True
+2896,GRN,granulin,GRN,hgnc_entrez_id,mapped,GRN,5325.0,True,True,True
+3098,HK1,hexokinase 1,HK1,hgnc_entrez_id,mapped,HK1,5615.0,True,True,True
+11014,KDELR2,KDEL endoplasmic reticulum protein retention receptor 2,KDELR2,hgnc_entrez_id,mapped,KDELR2,6447.0,True,True,True
+6500,SKP1,S-phase kinase-associated protein 1,SKP1,hgnc_entrez_id,mapped,SKP1,11760.0,True,True,True
+823,CAPN1,calpain 1,CAPN1,hgnc_entrez_id,mapped,CAPN1,1647.0,True,True,True
+813,CALU,calumenin,CALU,hgnc_entrez_id,mapped,CALU,1618.0,True,True,True
+1509,CTSD,cathepsin D,CTSD,hgnc_entrez_id,mapped,CTSD,2940.0,True,True,True
+4144,MAT2A,methionine adenosyltransferase 2A,MAT2A,hgnc_entrez_id,mapped,MAT2A,7365.0,True,True,True
+3925,STMN1,stathmin 1,STMN1,hgnc_entrez_id,mapped,STMN1,12677.0,True,True,True
+1891,ECH1,"enoyl-CoA hydratase 1, peroxisomal",ECH1,hgnc_entrez_id,mapped,ECH1,3690.0,True,True,True
+8826,IQGAP1,IQ motif containing GTPase activating protein 1,IQGAP1,hgnc_entrez_id,mapped,IQGAP1,6142.0,True,True,True
+3303,HSPA1A,heat shock protein family A (Hsp70) member 1A,HSPA1A,hgnc_entrez_id,not_in_model,,,False,False,False
+3329,HSPD1,heat shock protein family D (Hsp60) member 1,HSPD1,hgnc_entrez_id,mapped,HSPD1,5814.0,True,True,True
+1153,CIRBP,cold inducible RNA binding protein,CIRBP,hgnc_entrez_id,mapped,CIRBP,2390.0,True,True,True
+5720,PSME1,proteasome activator subunit 1,PSME1,hgnc_entrez_id,mapped,PSME1,10253.0,True,True,True
+5048,PAFAH1B1,platelet activating factor acetylhydrolase 1b regulatory subunit 1,PAFAH1B1,hgnc_entrez_id,mapped,PAFAH1B1,9026.0,True,True,True
+10525,HYOU1,hypoxia up-regulated 1,HYOU1,hgnc_entrez_id,mapped,HYOU1,5848.0,True,True,True
+5708,PSMD2,"proteasome 26S subunit, non-ATPase 2",PSMD2,hgnc_entrez_id,mapped,PSMD2,10245.0,True,True,True
+2058,EPRS,glutamyl-prolyl-tRNA synthetase,EPRS1,hgnc_entrez_id,not_in_model,,,False,False,False
+5710,PSMD4,"proteasome 26S subunit, non-ATPase 4",PSMD4,hgnc_entrez_id,mapped,PSMD4,10247.0,True,True,True
+5223,PGAM1,phosphoglycerate mutase 1,PGAM1,hgnc_entrez_id,not_in_model,,,False,False,False
+6772,STAT1,signal transducer and activator of transcription 1,STAT1,hgnc_entrez_id,mapped,STAT1,12633.0,True,True,True
+2288,FKBP4,FK506 binding protein 4,FKBP4,hgnc_entrez_id,mapped,FKBP4,4531.0,True,True,True
+3895,KTN1,kinectin 1,KTN1,hgnc_entrez_id,mapped,KTN1,6719.0,True,True,True
+10972,TMED10,transmembrane p24 trafficking protein 10,TMED10,hgnc_entrez_id,mapped,TMED10,13359.0,True,True,True
+226,ALDOA,"aldolase, fructose-bisphosphate A",ALDOA,hgnc_entrez_id,not_in_model,,,False,False,False
+10099,TSPAN3,tetraspanin 3,TSPAN3,hgnc_entrez_id,mapped,TSPAN3,13964.0,True,True,True
+2778,GNAS,GNAS complex locus,GNAS,hgnc_entrez_id,not_in_model,,,False,False,False
+3091,HIF1A,"hypoxia inducible factor 1, alpha subunit (basic helix-loop-helix transcription factor)",HIF1A,hgnc_entrez_id,mapped,HIF1A,5591.0,True,True,True
+16,AARS,alanyl-tRNA synthetase,AARS1,hgnc_entrez_id,not_in_model,,,False,False,False
+6184,RPN1,ribophorin I,RPN1,hgnc_entrez_id,mapped,RPN1,11084.0,True,True,True
+10606,PAICS,phosphoribosylaminoimidazole carboxylase; phosphoribosylaminoimidazolesuccinocarboxamide synthase,PAICS,hgnc_entrez_id,mapped,PAICS,9032.0,True,True,True
+10904,BLCAP,bladder cancer associated protein,BLCAP,hgnc_entrez_id,mapped,BLCAP,1350.0,True,True,True
+3033,HADH,hydroxyacyl-CoA dehydrogenase,HADH,hgnc_entrez_id,mapped,HADH,5449.0,True,True,True
+2771,GNAI2,"guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 2",GNAI2,hgnc_entrez_id,mapped,GNAI2,5067.0,True,True,True
+9491,PSMF1,proteasome inhibitor subunit 1,PSMF1,hgnc_entrez_id,mapped,PSMF1,10257.0,True,True,True
+10398,MYL9,myosin light chain 9,MYL9,hgnc_entrez_id,mapped,MYL9,8081.0,True,True,True
+4313,MMP2,matrix metallopeptidase 2,MMP2,hgnc_entrez_id,mapped,MMP2,7700.0,True,True,True
+6599,SMARCC1,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily c, member 1",SMARCC1,hgnc_entrez_id,mapped,SMARCC1,12154.0,True,True,True
+9375,TM9SF2,transmembrane 9 superfamily member 2,TM9SF2,hgnc_entrez_id,mapped,TM9SF2,13333.0,True,True,True
+8396,PIP4K2B,"phosphatidylinositol-5-phosphate 4-kinase, type II, beta",PIP4K2B,hgnc_entrez_id,mapped,PIP4K2B,9548.0,True,True,True
+5829,PXN,paxillin,PXN,hgnc_entrez_id,mapped,PXN,10393.0,True,True,True
+9276,COPB2,coatomer protein complex subunit beta 2 (beta prime),COPB2,hgnc_entrez_id,mapped,COPB2,2671.0,True,True,True
+5211,PFKL,"phosphofructokinase, liver",PFKL,hgnc_entrez_id,mapped,PFKL,9383.0,True,True,True
+10857,PGRMC1,progesterone receptor membrane component 1,PGRMC1,hgnc_entrez_id,mapped,PGRMC1,9418.0,True,True,True
+3693,ITGB5,integrin subunit beta 5,ITGB5,hgnc_entrez_id,mapped,ITGB5,6221.0,True,True,True
+5355,PLP2,proteolipid protein 2 (colonic epithelium-enriched),PLP2,hgnc_entrez_id,not_in_model,,,False,False,False
+4780,NFE2L2,"nuclear factor, erythroid 2 like 2",NFE2L2,hgnc_entrez_id,mapped,NFE2L2,8401.0,True,True,True
+4154,MBNL1,muscleblind like splicing regulator 1,MBNL1,hgnc_entrez_id,mapped,MBNL1,7389.0,True,True,True
+4836,NMT1,N-myristoyltransferase 1,NMT1,hgnc_entrez_id,mapped,NMT1,8532.0,True,True,True
+8553,BHLHE40,basic helix-loop-helix family member e40,BHLHE40,hgnc_entrez_id,mapped,BHLHE40,1331.0,True,True,True
+54386,TERF2IP,"telomeric repeat binding factor 2, interacting protein",TERF2IP,hgnc_entrez_id,mapped,TERF2IP,13116.0,True,True,True
+25793,FBXO7,F-box protein 7,FBXO7,hgnc_entrez_id,mapped,FBXO7,4404.0,True,True,True
+5654,HTRA1,HtrA serine peptidase 1,HTRA1,hgnc_entrez_id,mapped,HTRA1,5831.0,True,True,True
+4043,LRPAP1,LDL receptor related protein associated protein 1,LRPAP1,hgnc_entrez_id,mapped,LRPAP1,7014.0,True,True,True
+8804,CREG1,cellular repressor of E1A stimulated genes 1,CREG1,hgnc_entrez_id,mapped,CREG1,2806.0,True,True,True
+5111,PCNA,proliferating cell nuclear antigen,PCNA,hgnc_entrez_id,mapped,PCNA,9212.0,True,True,True
+5641,LGMN,legumain,LGMN,hgnc_entrez_id,mapped,LGMN,6850.0,True,True,True
+3611,ILK,integrin linked kinase,ILK,hgnc_entrez_id,mapped,ILK,6033.0,True,True,True
+481,ATP1B1,"ATPase, Na+/K+ transporting, beta 1 polypeptide",ATP1B1,hgnc_entrez_id,mapped,ATP1B1,1073.0,True,True,True
+6856,SYPL1,synaptophysin-like 1,SYPL1,hgnc_entrez_id,not_in_model,,,False,False,False
+7296,TXNRD1,thioredoxin reductase 1,TXNRD1,hgnc_entrez_id,mapped,TXNRD1,14116.0,True,True,True
+23386,NUDCD3,NudC domain containing 3,NUDCD3,hgnc_entrez_id,mapped,NUDCD3,8755.0,True,True,True
+7153,TOP2A,topoisomerase (DNA) II alpha,TOP2A,hgnc_entrez_id,mapped,TOP2A,13697.0,True,True,True
+10494,STK25,serine/threonine kinase 25,STK25,hgnc_entrez_id,mapped,STK25,12661.0,True,True,True
+10969,EBNA1BP2,EBNA1 binding protein 2,EBNA1BP2,hgnc_entrez_id,mapped,EBNA1BP2,3683.0,True,True,True
+23365,ARHGEF12,Rho guanine nucleotide exchange factor 12,ARHGEF12,hgnc_entrez_id,mapped,ARHGEF12,835.0,True,True,True
+6342,SCP2,sterol carrier protein 2,SCP2,hgnc_entrez_id,mapped,SCP2,11380.0,True,True,True
+10730,YME1L1,YME1 like 1 ATPase,YME1L1,hgnc_entrez_id,mapped,YME1L1,14728.0,True,True,True
+79073,TMEM109,transmembrane protein 109,TMEM109,hgnc_entrez_id,mapped,TMEM109,13379.0,True,True,True
+7165,TPD52L2,tumor protein D52-like 2,TPD52L2,hgnc_entrez_id,mapped,TPD52L2,13730.0,True,True,True
+10491,CRTAP,cartilage associated protein,CRTAP,hgnc_entrez_id,mapped,CRTAP,2839.0,True,True,True
+10131,TRAP1,TNF receptor-associated protein 1,TRAP1,hgnc_entrez_id,mapped,TRAP1,13779.0,True,True,True
+3482,IGF2R,insulin like growth factor 2 receptor,IGF2R,hgnc_entrez_id,mapped,IGF2R,5925.0,True,True,True
+26227,PHGDH,phosphoglycerate dehydrogenase,PHGDH,hgnc_entrez_id,mapped,PHGDH,9452.0,True,True,True
+26020,LRP10,LDL receptor related protein 10,LRP10,hgnc_entrez_id,mapped,LRP10,7003.0,True,True,True
+6659,SOX4,SRY-box 4,SOX4,hgnc_entrez_id,mapped,SOX4,12356.0,True,True,True
+847,CAT,catalase,CAT,hgnc_entrez_id,mapped,CAT,1705.0,True,True,True
+6009,RHEB,Ras homolog enriched in brain,RHEB,hgnc_entrez_id,mapped,RHEB,10837.0,True,True,True
+9261,MAPKAPK2,mitogen-activated protein kinase-activated protein kinase 2,MAPKAPK2,hgnc_entrez_id,mapped,MAPKAPK2,7324.0,True,True,True
+9805,SCRN1,secernin 1,SCRN1,hgnc_entrez_id,mapped,SCRN1,11385.0,True,True,True
+3725,JUN,jun proto-oncogene,JUN,hgnc_entrez_id,mapped,JUN,6295.0,True,True,True
+6464,SHC1,SHC (Src homology 2 domain containing) transforming protein 1,SHC1,hgnc_entrez_id,mapped,SHC1,11672.0,True,True,True
+8878,SQSTM1,sequestosome 1,SQSTM1,hgnc_entrez_id,mapped,SQSTM1,12506.0,True,True,True
+5547,PRCP,prolylcarboxypeptidase,PRCP,hgnc_entrez_id,mapped,PRCP,10016.0,True,True,True
+7874,USP7,ubiquitin specific peptidase 7 (herpes virus-associated),USP7,hgnc_entrez_id,mapped,USP7,14370.0,True,True,True
+4792,NFKBIA,"nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha",NFKBIA,hgnc_entrez_id,mapped,NFKBIA,8410.0,True,True,True
+10146,G3BP1,GTPase activating protein (SH3 domain) binding protein 1,G3BP1,hgnc_entrez_id,mapped,G3BP1,4737.0,True,True,True
+9868,TOMM70A,translocase of outer mitochondrial membrane 70 homolog A (S. cerevisiae),TOMM70,hgnc_entrez_id,mapped,TOMM70,13692.0,True,True,True
+6117,RPA1,replication protein A1,RPA1,hgnc_entrez_id,mapped,RPA1,11034.0,True,True,True
+7538,ZFP36,ZFP36 ring finger protein,ZFP36,hgnc_entrez_id,mapped,ZFP36,14871.0,True,True,True
+1845,DUSP3,dual specificity phosphatase 3,DUSP3,hgnc_entrez_id,not_in_model,,,False,False,False
+10765,KDM5B,lysine (K)-specific demethylase 5B,KDM5B,hgnc_entrez_id,mapped,KDM5B,6461.0,True,True,True
+4172,MCM3,minichromosome maintenance complex component 3,MCM3,hgnc_entrez_id,mapped,MCM3,7419.0,True,True,True
+25932,CLIC4,chloride intracellular channel 4,CLIC4,hgnc_entrez_id,mapped,CLIC4,2466.0,True,True,True
+22883,CLSTN1,calsyntenin 1,CLSTN1,hgnc_entrez_id,mapped,CLSTN1,2498.0,True,True,True
+3398,ID2,"inhibitor of DNA binding 2, dominant negative helix-loop-helix protein",ID2,hgnc_entrez_id,mapped,ID2,5867.0,True,True,True
+1635,DCTD,dCMP deaminase,DCTD,hgnc_entrez_id,mapped,DCTD,3142.0,True,True,True
+2195,FAT1,FAT atypical cadherin 1,FAT1,hgnc_entrez_id,mapped,FAT1,4333.0,True,True,True
+8243,SMC1A,structural maintenance of chromosomes 1A,SMC1A,hgnc_entrez_id,mapped,SMC1A,12160.0,True,True,True
+11188,NISCH,nischarin,NISCH,hgnc_entrez_id,mapped,NISCH,8465.0,True,True,True
+11137,PWP1,"PWP1 homolog, endonuclein",PWP1,hgnc_entrez_id,mapped,PWP1,10382.0,True,True,True
+23463,ICMT,isoprenylcysteine carboxyl methyltransferase,ICMT,hgnc_entrez_id,mapped,ICMT,5864.0,True,True,True
+8607,RUVBL1,RuvB like AAA ATPase 1,RUVBL1,hgnc_entrez_id,mapped,RUVBL1,11221.0,True,True,True
+8720,MBTPS1,"membrane bound transcription factor peptidase, site 1",MBTPS1,hgnc_entrez_id,mapped,MBTPS1,7398.0,True,True,True
+3638,INSIG1,insulin induced gene 1,INSIG1,hgnc_entrez_id,mapped,INSIG1,6087.0,True,True,True
+10670,RRAGA,Ras-related GTP binding A,RRAGA,hgnc_entrez_id,mapped,RRAGA,11135.0,True,True,True
+8870,IER3,immediate early response 3,IER3,hgnc_entrez_id,mapped,IER3,5883.0,True,True,True
+9246,UBE2L6,ubiquitin conjugating enzyme E2L 6,UBE2L6,hgnc_entrez_id,mapped,UBE2L6,14173.0,True,True,True
+10051,SMC4,structural maintenance of chromosomes 4,SMC4,hgnc_entrez_id,mapped,SMC4,12164.0,True,True,True
+9097,USP14,ubiquitin specific peptidase 14 (tRNA-guanine transglycosylase),USP14,hgnc_entrez_id,mapped,USP14,14331.0,True,True,True
+1958,EGR1,early growth response 1,EGR1,hgnc_entrez_id,mapped,EGR1,3774.0,True,True,True
+4860,PNP,purine nucleoside phosphorylase,PNP,hgnc_entrez_id,not_in_model,,,False,False,False
+1786,DNMT1,DNA (cytosine-5-)-methyltransferase 1,DNMT1,hgnc_entrez_id,mapped,DNMT1,3478.0,True,True,True
+896,CCND3,cyclin D3,CCND3,hgnc_entrez_id,mapped,CCND3,1889.0,True,True,True
+8508,NIPSNAP1,nipsnap homolog 1 (C. elegans),NIPSNAP1,hgnc_entrez_id,mapped,NIPSNAP1,8463.0,True,True,True
+4605,MYBL2,v-myb avian myeloblastosis viral oncogene homolog-like 2,MYBL2,hgnc_entrez_id,mapped,MYBL2,8043.0,True,True,True
+2037,EPB41L2,erythrocyte membrane protein band 4.1-like 2,EPB41L2,hgnc_entrez_id,mapped,EPB41L2,3962.0,True,True,True
+1994,ELAVL1,ELAV like RNA binding protein 1,ELAVL1,hgnc_entrez_id,mapped,ELAVL1,3844.0,True,True,True
+9703,KIAA0100,KIAA0100,BLTP2,hgnc_entrez_id,not_in_model,,,False,False,False
+7157,TP53,tumor protein p53,TP53,hgnc_entrez_id,mapped,TP53,13715.0,True,True,True
+6118,RPA2,replication protein A2,RPA2,hgnc_entrez_id,mapped,RPA2,11035.0,True,True,True
+10797,MTHFD2,"methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2, methenyltetrahydrofolate cyclohydrolase",MTHFD2,hgnc_entrez_id,mapped,MTHFD2,7981.0,True,True,True
+5721,PSME2,proteasome activator subunit 2,PSME2,hgnc_entrez_id,not_in_model,,,False,False,False
+1616,DAXX,death-domain associated protein,DAXX,hgnc_entrez_id,mapped,DAXX,3092.0,True,True,True
+60528,ELAC2,elaC ribonuclease Z 2,ELAC2,hgnc_entrez_id,mapped,ELAC2,3840.0,True,True,True
+9918,NCAPD2,non-SMC condensin I complex subunit D2,NCAPD2,hgnc_entrez_id,mapped,NCAPD2,8222.0,True,True,True
+9813,EFCAB14,EF-hand calcium binding domain 14,EFCAB14,hgnc_entrez_id,mapped,EFCAB14,3737.0,True,True,True
+11325,DDX42,DEAD-box helicase 42,DDX42,hgnc_entrez_id,mapped,DDX42,3195.0,True,True,True
+3930,LBR,lamin B receptor,LBR,hgnc_entrez_id,mapped,LBR,6781.0,True,True,True
+9467,SH3BP5,SH3-domain binding protein 5 (BTK-associated),SH3BP5,hgnc_entrez_id,mapped,SH3BP5,11649.0,True,True,True
+9690,UBE3C,ubiquitin protein ligase E3C,UBE3C,hgnc_entrez_id,mapped,UBE3C,14188.0,True,True,True
+949,SCARB1,scavenger receptor class B member 1,SCARB1,hgnc_entrez_id,mapped,SCARB1,11338.0,True,True,True
+51097,SCCPDH,saccharopine dehydrogenase (putative),SCCPDH,hgnc_entrez_id,mapped,SCCPDH,11342.0,True,True,True
+6603,SMARCD2,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 2",SMARCD2,hgnc_entrez_id,mapped,SMARCD2,12157.0,True,True,True
+10276,NET1,neuroepithelial cell transforming 1,NET1,hgnc_entrez_id,mapped,NET1,8369.0,True,True,True
+3066,HDAC2,histone deacetylase 2,HDAC2,hgnc_entrez_id,mapped,HDAC2,5503.0,True,True,True
+3315,HSPB1,heat shock protein family B (small) member 1,HSPB1,hgnc_entrez_id,mapped,HSPB1,5806.0,True,True,True
+3988,LIPA,"lipase A, lysosomal acid",LIPA,hgnc_entrez_id,mapped,LIPA,6899.0,True,True,True
+664,BNIP3,BCL2/adenovirus E1B 19kDa interacting protein 3,BNIP3,hgnc_entrez_id,mapped,BNIP3,1387.0,True,True,True
+994,CDC25B,cell division cycle 25B,CDC25B,hgnc_entrez_id,mapped,CDC25B,1999.0,True,True,True
+23300,ATMIN,ATM interactor,ATMIN,hgnc_entrez_id,mapped,ATMIN,1051.0,True,True,True
+10953,TOMM34,translocase of outer mitochondrial membrane 34,TOMM34,hgnc_entrez_id,mapped,TOMM34,13687.0,True,True,True
+9019,MPZL1,myelin protein zero like 1,MPZL1,hgnc_entrez_id,mapped,MPZL1,7790.0,True,True,True
+3597,IL13RA1,interleukin 13 receptor subunit alpha 1,IL13RA1,hgnc_entrez_id,mapped,IL13RA1,5966.0,True,True,True
+84722,PSRC1,proline/serine-rich coiled-coil 1,PSRC1,hgnc_entrez_id,mapped,PSRC1,10266.0,True,True,True
+7319,UBE2A,ubiquitin conjugating enzyme E2A,UBE2A,hgnc_entrez_id,mapped,UBE2A,14156.0,True,True,True
+80347,COASY,Coenzyme A synthase,COASY,hgnc_entrez_id,mapped,COASY,2598.0,True,True,True
+10489,LRRC41,leucine rich repeat containing 41,LRRC41,hgnc_entrez_id,mapped,LRRC41,7045.0,True,True,True
+23077,MYCBP2,"MYC binding protein 2, E3 ubiquitin protein ligase",MYCBP2,hgnc_entrez_id,mapped,MYCBP2,8051.0,True,True,True
+10180,RBM6,RNA binding motif protein 6,RBM6,hgnc_entrez_id,mapped,RBM6,10672.0,True,True,True
+5236,PGM1,phosphoglucomutase 1,PGM1,hgnc_entrez_id,mapped,PGM1,9410.0,True,True,True
+4651,MYO10,myosin X,MYO10,hgnc_entrez_id,mapped,MYO10,8089.0,True,True,True
+6251,RSU1,Ras suppressor protein 1,RSU1,hgnc_entrez_id,mapped,RSU1,11179.0,True,True,True
+1956,EGFR,epidermal growth factor receptor,EGFR,hgnc_entrez_id,mapped,EGFR,3770.0,True,True,True
+9897,KIAA0196,KIAA0196,WASHC5,hgnc_entrez_id,mapped,WASHC5,14535.0,True,True,True
+2131,EXT1,exostosin glycosyltransferase 1,EXT1,hgnc_entrez_id,mapped,EXT1,4137.0,True,True,True
+23013,SPEN,spen family transcriptional repressor,SPEN,hgnc_entrez_id,mapped,SPEN,12427.0,True,True,True
+5782,PTPN12,"protein tyrosine phosphatase, non-receptor type 12",PTPN12,hgnc_entrez_id,mapped,PTPN12,10325.0,True,True,True
+11344,TWF2,twinfilin actin binding protein 2,TWF2,hgnc_entrez_id,mapped,TWF2,14093.0,True,True,True
+7082,TJP1,tight junction protein 1,TJP1,hgnc_entrez_id,mapped,TJP1,13279.0,True,True,True
+4232,MEST,mesoderm specific transcript,MEST,hgnc_entrez_id,mapped,MEST,7524.0,True,True,True
+230,ALDOC,"aldolase, fructose-bisphosphate C",ALDOC,hgnc_entrez_id,mapped,ALDOC,488.0,True,True,True
+5927,KDM5A,lysine (K)-specific demethylase 5A,KDM5A,hgnc_entrez_id,mapped,KDM5A,6460.0,True,True,True
+26064,RAI14,retinoic acid induced 14,RAI14,hgnc_entrez_id,mapped,RAI14,10535.0,True,True,True
+329,BIRC2,baculoviral IAP repeat containing 2,BIRC2,hgnc_entrez_id,mapped,BIRC2,1345.0,True,True,True
+1514,CTSL,cathepsin L,CTSL,hgnc_entrez_id,not_in_model,,,False,False,False
+54623,PAF1,"PAF1 homolog, Paf1/RNA polymerase II complex component",PAF1,hgnc_entrez_id,mapped,PAF1,9025.0,True,True,True
+332,BIRC5,baculoviral IAP repeat containing 5,BIRC5,hgnc_entrez_id,mapped,BIRC5,1347.0,True,True,True
+5899,RALB,v-ral simian leukemia viral oncogene homolog B,RALB,hgnc_entrez_id,mapped,RALB,10538.0,True,True,True
+23647,ARFIP2,ADP ribosylation factor interacting protein 2,ARFIP2,hgnc_entrez_id,mapped,ARFIP2,789.0,True,True,True
+392,ARHGAP1,Rho GTPase activating protein 1,ARHGAP1,hgnc_entrez_id,mapped,ARHGAP1,794.0,True,True,True
+8895,CPNE3,copine 3,CPNE3,hgnc_entrez_id,mapped,CPNE3,2755.0,True,True,True
+25,ABL1,"ABL proto-oncogene 1, non-receptor tyrosine kinase",ABL1,hgnc_entrez_id,mapped,ABL1,93.0,True,True,True
+66008,TRAK2,"trafficking protein, kinesin binding 2",TRAK2,hgnc_entrez_id,mapped,TRAK2,13774.0,True,True,True
+5831,PYCR1,pyrroline-5-carboxylate reductase 1,PYCR1,hgnc_entrez_id,mapped,PYCR1,10396.0,True,True,True
+23636,NUP62,nucleoporin 62kDa,NUP62,hgnc_entrez_id,mapped,NUP62,8794.0,True,True,True
+5108,PCM1,pericentriolar material 1,PCM1,hgnc_entrez_id,mapped,PCM1,9208.0,True,True,True
+642,BLMH,bleomycin hydrolase,BLMH,hgnc_entrez_id,mapped,BLMH,1353.0,True,True,True
+9961,MVP,major vault protein,MVP,hgnc_entrez_id,mapped,MVP,8032.0,True,True,True
+55746,NUP133,nucleoporin 133kDa,NUP133,hgnc_entrez_id,mapped,NUP133,8780.0,True,True,True
+8985,PLOD3,"procollagen-lysine, 2-oxoglutarate 5-dioxygenase 3",PLOD3,hgnc_entrez_id,mapped,PLOD3,9708.0,True,True,True
+5525,PPP2R5A,"protein phosphatase 2 regulatory subunit B', alpha",PPP2R5A,hgnc_entrez_id,mapped,PPP2R5A,9983.0,True,True,True
+9688,NUP93,nucleoporin 93kDa,NUP93,hgnc_entrez_id,mapped,NUP93,8797.0,True,True,True
+10123,ARL4C,ADP ribosylation factor like GTPase 4C,ARL4C,hgnc_entrez_id,mapped,ARL4C,880.0,True,True,True
+22889,KIAA0907,KIAA0907,KHDC4,hgnc_entrez_id,mapped,KHDC4,6472.0,True,True,True
+1398,CRK,v-crk avian sarcoma virus CT10 oncogene homolog,CRK,hgnc_entrez_id,mapped,CRK,2824.0,True,True,True
+10523,CHERP,calcium homeostasis endoplasmic reticulum protein,CHERP,hgnc_entrez_id,mapped,CHERP,2291.0,True,True,True
+5347,PLK1,polo like kinase 1,PLK1,hgnc_entrez_id,mapped,PLK1,9700.0,True,True,True
+10221,TRIB1,tribbles pseudokinase 1,TRIB1,hgnc_entrez_id,mapped,TRIB1,13811.0,True,True,True
+1019,CDK4,cyclin-dependent kinase 4,CDK4,hgnc_entrez_id,mapped,CDK4,2075.0,True,True,True
+6812,STXBP1,syntaxin binding protein 1,STXBP1,hgnc_entrez_id,mapped,STXBP1,12726.0,True,True,True
+6944,VPS72,vacuolar protein sorting 72 homolog (S. cerevisiae),VPS72,hgnc_entrez_id,mapped,VPS72,14487.0,True,True,True
+3028,HSD17B10,hydroxysteroid (17-beta) dehydrogenase 10,HSD17B10,hgnc_entrez_id,mapped,HSD17B10,5773.0,True,True,True
+1026,CDKN1A,"cyclin-dependent kinase inhibitor 1A (p21, Cip1)",CDKN1A,hgnc_entrez_id,mapped,CDKN1A,2092.0,True,True,True
+1277,COL1A1,collagen type I alpha 1,COL1A1,hgnc_entrez_id,mapped,COL1A1,2621.0,True,True,True
+26054,SENP6,SUMO1/sentrin specific peptidase 6,SENP6,hgnc_entrez_id,mapped,SENP6,11499.0,True,True,True
+64746,ACBD3,acyl-CoA binding domain containing 3,ACBD3,hgnc_entrez_id,mapped,ACBD3,123.0,True,True,True
+1445,CSK,c-src tyrosine kinase,CSK,hgnc_entrez_id,mapped,CSK,2877.0,True,True,True
+1454,CSNK1E,casein kinase 1 epsilon,CSNK1E,hgnc_entrez_id,mapped,CSNK1E,2883.0,True,True,True
+1861,TOR1A,torsin family 1 member A,TOR1A,hgnc_entrez_id,mapped,TOR1A,13704.0,True,True,True
+9697,TRAM2,translocation associated membrane protein 2,TRAM2,hgnc_entrez_id,mapped,TRAM2,13777.0,True,True,True
+79921,TCEAL4,transcription elongation factor A (SII)-like 4,TCEAL4,hgnc_entrez_id,not_in_model,,,False,False,False
+10007,GNPDA1,glucosamine-6-phosphate deaminase 1,GNPDA1,hgnc_entrez_id,mapped,GNPDA1,5100.0,True,True,True
+5997,RGS2,regulator of G-protein signaling 2,RGS2,hgnc_entrez_id,mapped,RGS2,10812.0,True,True,True
+55324,ABCF3,ATP binding cassette subfamily F member 3,ABCF3,hgnc_entrez_id,mapped,ABCF3,62.0,True,True,True
+10915,TCERG1,transcription elongation regulator 1,TCERG1,hgnc_entrez_id,mapped,TCERG1,13037.0,True,True,True
+7398,USP1,ubiquitin specific peptidase 1,USP1,hgnc_entrez_id,mapped,USP1,14326.0,True,True,True
+9817,KEAP1,kelch like ECH associated protein 1,KEAP1,hgnc_entrez_id,mapped,KEAP1,6469.0,True,True,True
+7994,KAT6A,K(lysine) acetyltransferase 6A,KAT6A,hgnc_entrez_id,mapped,KAT6A,6314.0,True,True,True
+25874,MPC2,mitochondrial pyruvate carrier 2,MPC2,hgnc_entrez_id,mapped,MPC2,7763.0,True,True,True
+4609,MYC,v-myc avian myelocytomatosis viral oncogene homolog,MYC,hgnc_entrez_id,mapped,MYC,8049.0,True,True,True
+10237,SLC35B1,solute carrier family 35 member B1,SLC35B1,hgnc_entrez_id,mapped,SLC35B1,11956.0,True,True,True
+5359,PLSCR1,phospholipid scramblase 1,PLSCR1,hgnc_entrez_id,not_in_model,,,False,False,False
+1666,DECR1,"2,4-dienoyl-CoA reductase 1, mitochondrial",DECR1,hgnc_entrez_id,mapped,DECR1,3210.0,True,True,True
+2065,ERBB3,erb-b2 receptor tyrosine kinase 3,ERBB3,hgnc_entrez_id,mapped,ERBB3,4014.0,True,True,True
+11098,PRSS23,"protease, serine 23",PRSS23,hgnc_entrez_id,mapped,PRSS23,10175.0,True,True,True
+11044,PAPD7,PAP associated domain containing 7,TENT4A,hgnc_entrez_id,mapped,TENT4A,13104.0,True,True,True
+8727,CTNNAL1,catenin alpha-like 1,CTNNAL1,hgnc_entrez_id,mapped,CTNNAL1,2927.0,True,True,True
+8518,IKBKAP,"inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase complex-associated protein",ELP1,hgnc_entrez_id,mapped,ELP1,3879.0,True,True,True
+10450,PPIE,peptidylprolyl isomerase E,PPIE,hgnc_entrez_id,mapped,PPIE,9909.0,True,True,True
+3300,DNAJB2,DnaJ heat shock protein family (Hsp40) member B2,DNAJB2,hgnc_entrez_id,mapped,DNAJB2,3425.0,True,True,True
+6616,SNAP25,synaptosome associated protein 25kDa,SNAP25,hgnc_entrez_id,mapped,SNAP25,12232.0,True,True,True
+9275,BCL7B,B-cell CLL/lymphoma 7B,BCL7B,hgnc_entrez_id,mapped,BCL7B,1291.0,True,True,True
+2582,GALE,UDP-galactose-4-epimerase,GALE,hgnc_entrez_id,mapped,GALE,4784.0,True,True,True
+3156,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,HMGCR,hgnc_entrez_id,mapped,HMGCR,5641.0,True,True,True
+5580,PRKCD,protein kinase C delta,PRKCD,hgnc_entrez_id,mapped,PRKCD,10072.0,True,True,True
+9217,VAPB,VAMP (vesicle-associated membrane protein)-associated protein B and C,VAPB,hgnc_entrez_id,mapped,VAPB,14400.0,True,True,True
+4638,MYLK,myosin light chain kinase,MYLK,hgnc_entrez_id,mapped,MYLK,8083.0,True,True,True
+6284,S100A13,S100 calcium binding protein A13,S100A13,hgnc_entrez_id,mapped,S100A13,11243.0,True,True,True
+8204,NRIP1,nuclear receptor interacting protein 1,NRIP1,hgnc_entrez_id,mapped,NRIP1,8675.0,True,True,True
+27336,HTATSF1,HIV-1 Tat specific factor 1,HTATSF1,hgnc_entrez_id,mapped,HTATSF1,5818.0,True,True,True
+102,ADAM10,ADAM metallopeptidase domain 10,ADAM10,hgnc_entrez_id,mapped,ADAM10,223.0,True,True,True
+55837,EAPP,E2F-associated phosphoprotein,EAPP,hgnc_entrez_id,mapped,EAPP,3675.0,True,True,True
+5054,SERPINE1,"serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 1",SERPINE1,hgnc_entrez_id,mapped,SERPINE1,11546.0,True,True,True
+10513,APPBP2,amyloid beta precursor protein binding protein 2,APPBP2,hgnc_entrez_id,mapped,APPBP2,753.0,True,True,True
+11073,TOPBP1,topoisomerase (DNA) II binding protein 1,TOPBP1,hgnc_entrez_id,mapped,TOPBP1,13702.0,True,True,True
+5440,POLR2K,"polymerase (RNA) II (DNA directed) polypeptide K, 7.0kDa",POLR2K,hgnc_entrez_id,mapped,POLR2K,9839.0,True,True,True
+3383,ICAM1,intercellular adhesion molecule 1,ICAM1,hgnc_entrez_id,mapped,ICAM1,5858.0,True,True,True
+4893,NRAS,neuroblastoma RAS viral (v-ras) oncogene homolog,NRAS,hgnc_entrez_id,mapped,NRAS,8663.0,True,True,True
+9926,LPGAT1,lysophosphatidylglycerol acyltransferase 1,LPGAT1,hgnc_entrez_id,mapped,LPGAT1,6972.0,True,True,True
+5699,PSMB10,proteasome subunit beta 10,PSMB10,hgnc_entrez_id,mapped,PSMB10,10222.0,True,True,True
+6390,SDHB,succinate dehydrogenase complex iron sulfur subunit B,SDHB,hgnc_entrez_id,mapped,SDHB,11416.0,True,True,True
+5921,RASA1,RAS p21 protein activator 1,RASA1,hgnc_entrez_id,mapped,RASA1,10585.0,True,True,True
+2958,GTF2A2,general transcription factor IIA 2,GTF2A2,hgnc_entrez_id,mapped,GTF2A2,5366.0,True,True,True
+4864,NPC1,"Niemann-Pick disease, type C1",NPC1,hgnc_entrez_id,mapped,NPC1,8596.0,True,True,True
+2961,GTF2E2,general transcription factor IIE subunit 2,GTF2E2,hgnc_entrez_id,mapped,GTF2E2,5369.0,True,True,True
+8731,RNMT,RNA (guanine-7-) methyltransferase,RNMT,hgnc_entrez_id,mapped,RNMT,11009.0,True,True,True
+29890,RBM15B,RNA binding motif protein 15B,RBM15B,hgnc_entrez_id,mapped,RBM15B,10645.0,True,True,True
+9943,OXSR1,oxidative stress responsive 1,OXSR1,hgnc_entrez_id,mapped,OXSR1,8977.0,True,True,True
+8446,DUSP11,dual specificity phosphatase 11,DUSP11,hgnc_entrez_id,mapped,DUSP11,3609.0,True,True,True
+9133,CCNB2,cyclin B2,CCNB2,hgnc_entrez_id,mapped,CCNB2,1885.0,True,True,True
+8349,HIST2H2BE,"histone cluster 2, H2be",H2BC21,hgnc_entrez_id,not_in_model,,,False,False,False
+5770,PTPN1,"protein tyrosine phosphatase, non-receptor type 1",PTPN1,hgnc_entrez_id,mapped,PTPN1,10323.0,True,True,True
+26136,TES,testin LIM domain protein,TES,hgnc_entrez_id,not_in_model,,,False,False,False
+2673,GFPT1,glutamine--fructose-6-phosphate transaminase 1,GFPT1,hgnc_entrez_id,mapped,GFPT1,4925.0,True,True,True
+3978,LIG1,"ligase I, DNA, ATP-dependent",LIG1,hgnc_entrez_id,mapped,LIG1,6873.0,True,True,True
+11142,PKIG,"protein kinase (cAMP-dependent, catalytic) inhibitor gamma",PKIG,hgnc_entrez_id,mapped,PKIG,9587.0,True,True,True
+8974,P4HA2,prolyl 4-hydroxylase subunit alpha 2,P4HA2,hgnc_entrez_id,mapped,P4HA2,9001.0,True,True,True
+10682,EBP,emopamil binding protein (sterol isomerase),EBP,hgnc_entrez_id,mapped,EBP,3684.0,True,True,True
+5257,PHKB,"phosphorylase kinase, beta",PHKB,hgnc_entrez_id,mapped,PHKB,9456.0,True,True,True
+8503,PIK3R3,phosphoinositide-3-kinase regulatory subunit 3,PIK3R3,hgnc_entrez_id,mapped,PIK3R3,9534.0,True,True,True
+7485,WRB,tryptophan rich basic protein,GET1,hgnc_entrez_id,mapped,GET1,4914.0,True,True,True
+2817,GPC1,glypican 1,GPC1,hgnc_entrez_id,mapped,GPC1,5155.0,True,True,True
+23224,SYNE2,"spectrin repeat containing, nuclear envelope 2",SYNE2,hgnc_entrez_id,mapped,SYNE2,12823.0,True,True,True
+836,CASP3,caspase 3,CASP3,hgnc_entrez_id,mapped,CASP3,1692.0,True,True,True
+30836,DNTTIP2,"deoxynucleotidyltransferase, terminal, interacting protein 2",DNTTIP2,hgnc_entrez_id,mapped,DNTTIP2,3485.0,True,True,True
+7750,ZMYM2,"zinc finger, MYM-type 2",ZMYM2,hgnc_entrez_id,mapped,ZMYM2,14924.0,True,True,True
+5019,OXCT1,3-oxoacid CoA-transferase 1,OXCT1,hgnc_entrez_id,mapped,OXCT1,8973.0,True,True,True
+23530,NNT,nicotinamide nucleotide transhydrogenase,NNT,hgnc_entrez_id,not_in_model,,,False,False,False
+7867,MAPKAPK3,mitogen-activated protein kinase-activated protein kinase 3,MAPKAPK3,hgnc_entrez_id,mapped,MAPKAPK3,7325.0,True,True,True
+3628,INPP1,inositol polyphosphate-1-phosphatase,INPP1,hgnc_entrez_id,mapped,INPP1,6075.0,True,True,True
+22908,SACM1L,SAC1 suppressor of actin mutations 1-like (yeast),SACM1L,hgnc_entrez_id,mapped,SACM1L,11263.0,True,True,True
+5566,PRKACA,protein kinase cAMP-activated catalytic subunit alpha,PRKACA,hgnc_entrez_id,mapped,PRKACA,10061.0,True,True,True
+65123,INTS3,integrator complex subunit 3,INTS3,hgnc_entrez_id,mapped,INTS3,6105.0,True,True,True
+10617,STAMBP,STAM binding protein,STAMBP,hgnc_entrez_id,mapped,STAMBP,12619.0,True,True,True
+2548,GAA,"glucosidase, alpha; acid",GAA,hgnc_entrez_id,mapped,GAA,4741.0,True,True,True
+6894,TARBP1,TAR (HIV-1) RNA binding protein 1,TARBP1,hgnc_entrez_id,mapped,TARBP1,12933.0,True,True,True
+291,SLC25A4,"solute carrier family 25 (mitochondrial carrier; adenine nucleotide translocator), member 4",SLC25A4,hgnc_entrez_id,mapped,SLC25A4,11889.0,True,True,True
+2542,SLC37A4,"solute carrier family 37 (glucose-6-phosphate transporter), member 4",SLC37A4,hgnc_entrez_id,mapped,SLC37A4,11983.0,True,True,True
+5106,PCK2,phosphoenolpyruvate carboxykinase 2 (mitochondrial),PCK2,hgnc_entrez_id,mapped,PCK2,9205.0,True,True,True
+3251,HPRT1,hypoxanthine phosphoribosyltransferase 1,HPRT1,hgnc_entrez_id,not_in_model,,,False,False,False
+2184,FAH,fumarylacetoacetate hydrolase (fumarylacetoacetase),FAH,hgnc_entrez_id,mapped,FAH,4186.0,True,True,True
+10775,POP4,"POP4 homolog, ribonuclease P/MRP subunit",POP4,hgnc_entrez_id,mapped,POP4,9861.0,True,True,True
+991,CDC20,cell division cycle 20,CDC20,hgnc_entrez_id,mapped,CDC20,1995.0,True,True,True
+9267,CYTH1,cytohesin 1,CYTH1,hgnc_entrez_id,mapped,CYTH1,3057.0,True,True,True
+54541,DDIT4,DNA damage inducible transcript 4,DDIT4,hgnc_entrez_id,mapped,DDIT4,3166.0,True,True,True
+9053,MAP7,microtubule associated protein 7,MAP7,hgnc_entrez_id,mapped,MAP7,7303.0,True,True,True
+4817,NIT1,nitrilase 1,NIT1,hgnc_entrez_id,mapped,NIT1,8466.0,True,True,True
+4927,NUP88,nucleoporin 88kDa,NUP88,hgnc_entrez_id,mapped,NUP88,8796.0,True,True,True
+7466,WFS1,Wolfram syndrome 1 (wolframin),WFS1,hgnc_entrez_id,mapped,WFS1,14612.0,True,True,True
+976,ADGRE5,adhesion G protein-coupled receptor E5,ADGRE5,hgnc_entrez_id,mapped,ADGRE5,300.0,True,True,True
+2956,MSH6,mutS homolog 6,MSH6,hgnc_entrez_id,mapped,MSH6,7917.0,True,True,True
+9917,FAM20B,family with sequence similarity 20 member B,FAM20B,hgnc_entrez_id,mapped,FAM20B,4251.0,True,True,True
+5300,PIN1,"peptidylprolyl cis/trans isomerase, NIMA-interacting 1",PIN1,hgnc_entrez_id,not_in_model,,,False,False,False
+2109,ETFB,electron transfer flavoprotein beta subunit,ETFB,hgnc_entrez_id,mapped,ETFB,4077.0,True,True,True
+2356,FPGS,folylpolyglutamate synthase,FPGS,hgnc_entrez_id,mapped,FPGS,4646.0,True,True,True
+2274,FHL2,four and a half LIM domains 2,FHL2,hgnc_entrez_id,mapped,FHL2,4503.0,True,True,True
+1429,CRYZ,crystallin zeta,CRYZ,hgnc_entrez_id,mapped,CRYZ,2864.0,True,True,True
+11065,UBE2C,ubiquitin conjugating enzyme E2C,UBE2C,hgnc_entrez_id,mapped,UBE2C,14158.0,True,True,True
+5993,RFX5,regulatory factor X5,RFX5,hgnc_entrez_id,mapped,RFX5,10787.0,True,True,True
+9915,ARNT2,aryl hydrocarbon receptor nuclear translocator 2,ARNT2,hgnc_entrez_id,mapped,ARNT2,914.0,True,True,True
+5836,PYGL,"phosphorylase, glycogen, liver",PYGL,hgnc_entrez_id,mapped,PYGL,10399.0,True,True,True
+57804,POLD4,"polymerase (DNA-directed), delta 4, accessory subunit",POLD4,hgnc_entrez_id,mapped,POLD4,9807.0,True,True,True
+10434,LYPLA1,lysophospholipase I,LYPLA1,hgnc_entrez_id,mapped,LYPLA1,7166.0,True,True,True
+11319,ECD,ecdysoneless cell cycle regulator,ECD,hgnc_entrez_id,mapped,ECD,3686.0,True,True,True
+5796,PTPRK,"protein tyrosine phosphatase, receptor type K",PTPRK,hgnc_entrez_id,mapped,PTPRK,10349.0,True,True,True
+8914,TIMELESS,timeless circadian clock,TIMELESS,hgnc_entrez_id,mapped,TIMELESS,13251.0,True,True,True
+6793,STK10,serine/threonine kinase 10,STK10,hgnc_entrez_id,mapped,STK10,12655.0,True,True,True
+7158,TP53BP1,tumor protein p53 binding protein 1,TP53BP1,hgnc_entrez_id,mapped,TP53BP1,13716.0,True,True,True
+6988,TCTA,T-cell leukemia translocation altered,TCTA,hgnc_entrez_id,mapped,TCTA,13060.0,True,True,True
+8050,PDHX,pyruvate dehydrogenase complex component X,PDHX,hgnc_entrez_id,mapped,PDHX,9289.0,True,True,True
+9903,KLHL21,kelch like family member 21,KLHL21,hgnc_entrez_id,mapped,KLHL21,6593.0,True,True,True
+22796,COG2,component of oligomeric golgi complex 2,COG2,hgnc_entrez_id,mapped,COG2,2603.0,True,True,True
+10059,DNM1L,dynamin 1-like,DNM1L,hgnc_entrez_id,mapped,DNM1L,3474.0,True,True,True
+2185,PTK2B,protein tyrosine kinase 2 beta,PTK2B,hgnc_entrez_id,mapped,PTK2B,10312.0,True,True,True
+9924,PAN2,PAN2 poly(A) specific ribonuclease subunit,PAN2,hgnc_entrez_id,mapped,PAN2,9054.0,True,True,True
+79080,CCDC86,coiled-coil domain containing 86,CCDC86,hgnc_entrez_id,mapped,CCDC86,1843.0,True,True,True
+7159,TP53BP2,tumor protein p53 binding protein 2,TP53BP2,hgnc_entrez_id,mapped,TP53BP2,13717.0,True,True,True
+4891,SLC11A2,"solute carrier family 11 (proton-coupled divalent metal ion transporter), member 2",SLC11A2,hgnc_entrez_id,mapped,SLC11A2,11777.0,True,True,True
+9517,SPTLC2,serine palmitoyltransferase long chain base subunit 2,SPTLC2,hgnc_entrez_id,mapped,SPTLC2,12498.0,True,True,True
+3800,KIF5C,kinesin family member 5C,KIF5C,hgnc_entrez_id,mapped,KIF5C,6536.0,True,True,True
+5925,RB1,retinoblastoma 1,RB1,hgnc_entrez_id,mapped,RB1,10622.0,True,True,True
+6908,TBP,TATA-box binding protein,TBP,hgnc_entrez_id,mapped,TBP,13003.0,True,True,True
+8520,HAT1,histone acetyltransferase 1,HAT1,hgnc_entrez_id,mapped,HAT1,5470.0,True,True,True
+10298,PAK4,p21 protein (Cdc42/Rac)-activated kinase 4,PAK4,hgnc_entrez_id,mapped,PAK4,9040.0,True,True,True
+7077,TIMP2,TIMP metallopeptidase inhibitor 2,TIMP2,hgnc_entrez_id,mapped,TIMP2,13267.0,True,True,True
+23378,RRP8,"ribosomal RNA processing 8, methyltransferase, homolog (yeast)",RRP8,hgnc_entrez_id,mapped,RRP8,11154.0,True,True,True
+6275,S100A4,S100 calcium binding protein A4,S100A4,hgnc_entrez_id,mapped,S100A4,11247.0,True,True,True
+11041,B4GAT1,"beta-1,4-glucuronyltransferase 1",B4GAT1,hgnc_entrez_id,mapped,B4GAT1,1200.0,True,True,True
+10058,ABCB6,ATP binding cassette subfamily B member 6 (Langereis blood group),ABCB6,hgnc_entrez_id,mapped,ABCB6,41.0,True,True,True
+5373,PMM2,phosphomannomutase 2,PMM2,hgnc_entrez_id,mapped,PMM2,9751.0,True,True,True
+9650,MTFR1,mitochondrial fission regulator 1,MTFR1,hgnc_entrez_id,mapped,MTFR1,7974.0,True,True,True
+5985,RFC5,replication factor C subunit 5,RFC5,hgnc_entrez_id,mapped,RFC5,10772.0,True,True,True
+983,CDK1,cyclin-dependent kinase 1,CDK1,hgnc_entrez_id,mapped,CDK1,2061.0,True,True,True
+8869,ST3GAL5,"ST3 beta-galactoside alpha-2,3-sialyltransferase 5",ST3GAL5,hgnc_entrez_id,mapped,ST3GAL5,12592.0,True,True,True
+5601,MAPK9,mitogen-activated protein kinase 9,MAPK9,hgnc_entrez_id,mapped,MAPK9,7322.0,True,True,True
+7088,TLE1,transducin like enhancer of split 1,TLE1,hgnc_entrez_id,mapped,TLE1,13295.0,True,True,True
+5050,PAFAH1B3,platelet activating factor acetylhydrolase 1b catalytic subunit 3,PAFAH1B3,hgnc_entrez_id,mapped,PAFAH1B3,9028.0,True,True,True
+3566,IL4R,interleukin 4 receptor,IL4R,hgnc_entrez_id,mapped,IL4R,6020.0,True,True,True
+10641,NPRL2,"NPR2-like, GATOR1 complex subunit",NPRL2,hgnc_entrez_id,mapped,NPRL2,8620.0,True,True,True
+1001,CDH3,cadherin 3,CDH3,hgnc_entrez_id,mapped,CDH3,2046.0,True,True,True
+10589,DRAP1,DR1 associated protein 1,DRAP1,hgnc_entrez_id,mapped,DRAP1,3555.0,True,True,True
+1676,DFFA,"DNA fragmentation factor, 45kDa, alpha polypeptide",DFFA,hgnc_entrez_id,mapped,DFFA,3259.0,True,True,True
+9695,EDEM1,"ER degradation enhancer, mannosidase alpha-like 1",EDEM1,hgnc_entrez_id,mapped,EDEM1,3709.0,True,True,True
+9653,HS2ST1,heparan sulfate 2-O-sulfotransferase 1,HS2ST1,hgnc_entrez_id,mapped,HS2ST1,5756.0,True,True,True
+9710,KIAA0355,KIAA0355,GARRE1,hgnc_entrez_id,mapped,GARRE1,4825.0,True,True,True
+4850,CNOT4,CCR4-NOT transcription complex subunit 4,CNOT4,hgnc_entrez_id,mapped,CNOT4,2563.0,True,True,True
+9988,DMTF1,cyclin D binding myb-like transcription factor 1,DMTF1,hgnc_entrez_id,not_in_model,,,False,False,False
+1633,DCK,deoxycytidine kinase,DCK,hgnc_entrez_id,mapped,DCK,3126.0,True,True,True
+6990,DYNLT3,"dynein, light chain, Tctex-type 3",DYNLT3,hgnc_entrez_id,mapped,DYNLT3,3650.0,True,True,True
+25805,BAMBI,BMP and activin membrane-bound inhibitor,BAMBI,hgnc_entrez_id,mapped,BAMBI,1225.0,True,True,True
+10559,SLC35A1,"solute carrier family 35 (CMP-sialic acid transporter), member A1",SLC35A1,hgnc_entrez_id,mapped,SLC35A1,11951.0,True,True,True
+8440,NCK2,NCK adaptor protein 2,NCK2,hgnc_entrez_id,mapped,NCK2,8238.0,True,True,True
+9270,ITGB1BP1,integrin subunit beta 1 binding protein 1,ITGB1BP1,hgnc_entrez_id,mapped,ITGB1BP1,6215.0,True,True,True
+5529,PPP2R5E,"protein phosphatase 2 regulatory subunit B', epsilon",PPP2R5E,hgnc_entrez_id,mapped,PPP2R5E,9987.0,True,True,True
+10153,CEBPZ,CCAAT/enhancer binding protein zeta,CEBPZ,hgnc_entrez_id,mapped,CEBPZ,2125.0,True,True,True
+10245,TIMM17B,translocase of inner mitochondrial membrane 17 homolog B (yeast),TIMM17B,hgnc_entrez_id,mapped,TIMM17B,13256.0,True,True,True
+7358,UGDH,UDP-glucose 6-dehydrogenase,UGDH,hgnc_entrez_id,mapped,UGDH,14246.0,True,True,True
+22823,MTF2,metal response element binding transcription factor 2,MTF2,hgnc_entrez_id,mapped,MTF2,7971.0,True,True,True
+2146,EZH2,enhancer of zeste 2 polycomb repressive complex 2 subunit,EZH2,hgnc_entrez_id,mapped,EZH2,4147.0,True,True,True
+26292,MYCBP,MYC binding protein,MYCBP,hgnc_entrez_id,mapped,MYCBP,8050.0,True,True,True
+11072,DUSP14,dual specificity phosphatase 14,DUSP14,hgnc_entrez_id,mapped,DUSP14,3611.0,True,True,True
+8835,SOCS2,suppressor of cytokine signaling 2,SOCS2,hgnc_entrez_id,mapped,SOCS2,12316.0,True,True,True
+6195,RPS6KA1,"ribosomal protein S6 kinase, 90kDa, polypeptide 1",RPS6KA1,hgnc_entrez_id,mapped,RPS6KA1,11116.0,True,True,True
+348,APOE,apolipoprotein E,APOE,hgnc_entrez_id,mapped,APOE,745.0,True,True,True
+3280,HES1,hes family bHLH transcription factor 1,HES1,hgnc_entrez_id,mapped,HES1,5558.0,True,True,True
+8624,PSMG1,"proteasome (prosome, macropain) assembly chaperone 1",PSMG1,hgnc_entrez_id,mapped,PSMG1,10258.0,True,True,True
+6304,SATB1,SATB homeobox 1,SATB1,hgnc_entrez_id,mapped,SATB1,11308.0,True,True,True
+1643,DDB2,damage-specific DNA binding protein 2,DDB2,hgnc_entrez_id,mapped,DDB2,3160.0,True,True,True
+890,CCNA2,cyclin A2,CCNA2,hgnc_entrez_id,mapped,CCNA2,1882.0,True,True,True
+256364,EML3,echinoderm microtubule associated protein like 3,EML3,hgnc_entrez_id,mapped,EML3,3906.0,True,True,True
+11230,PRAF2,PRA1 domain family member 2,PRAF2,hgnc_entrez_id,mapped,PRAF2,10010.0,True,True,True
+6697,SPR,"sepiapterin reductase (7,8-dihydrobiopterin:NADP+ oxidoreductase)",SPR,hgnc_entrez_id,mapped,SPR,12472.0,True,True,True
+22905,EPN2,epsin 2,EPN2,hgnc_entrez_id,mapped,EPN2,3994.0,True,True,True
+9801,MRPL19,mitochondrial ribosomal protein L19,MRPL19,hgnc_entrez_id,mapped,MRPL19,7830.0,True,True,True
+9702,CEP57,centrosomal protein 57kDa,CEP57,hgnc_entrez_id,mapped,CEP57,2182.0,True,True,True
+27095,TRAPPC3,trafficking protein particle complex 3,TRAPPC3,hgnc_entrez_id,mapped,TRAPPC3,13788.0,True,True,True
+24149,ZNF318,zinc finger protein 318,ZNF318,hgnc_entrez_id,mapped,ZNF318,14981.0,True,True,True
+6810,STX4,syntaxin 4,STX4,hgnc_entrez_id,mapped,STX4,12721.0,True,True,True
+9670,IPO13,importin 13,IPO13,hgnc_entrez_id,mapped,IPO13,6121.0,True,True,True
+5092,PCBD1,pterin-4 alpha-carbinolamine dehydratase 1,PCBD1,hgnc_entrez_id,mapped,PCBD1,9136.0,True,True,True
+4331,MNAT1,MNAT CDK-activating kinase assembly factor 1,MNAT1,hgnc_entrez_id,mapped,MNAT1,7718.0,True,True,True
+178,AGL,"amylo-alpha-1, 6-glucosidase, 4-alpha-glucanotransferase",AGL,hgnc_entrez_id,mapped,AGL,383.0,True,True,True
+4016,LOXL1,lysyl oxidase like 1,LOXL1,hgnc_entrez_id,mapped,LOXL1,6958.0,True,True,True
+4783,NFIL3,"nuclear factor, interleukin 3 regulated",NFIL3,hgnc_entrez_id,mapped,NFIL3,8406.0,True,True,True
+1459,CSNK2A2,casein kinase 2 alpha 2,CSNK2A2,hgnc_entrez_id,mapped,CSNK2A2,2887.0,True,True,True
+5867,RAB4A,"RAB4A, member RAS oncogene family",RAB4A,hgnc_entrez_id,mapped,RAB4A,10479.0,True,True,True
+5423,POLB,"polymerase (DNA directed), beta",POLB,hgnc_entrez_id,mapped,POLB,9804.0,True,True,True
+3480,IGF1R,insulin like growth factor 1 receptor,IGF1R,hgnc_entrez_id,mapped,IGF1R,5920.0,True,True,True
+2263,FGFR2,fibroblast growth factor receptor 2,FGFR2,hgnc_entrez_id,mapped,FGFR2,4486.0,True,True,True
+10150,MBNL2,muscleblind like splicing regulator 2,MBNL2,hgnc_entrez_id,mapped,MBNL2,7390.0,True,True,True
+9797,TATDN2,TatD DNase domain containing 2,TATDN2,hgnc_entrez_id,mapped,TATDN2,12955.0,True,True,True
+10206,TRIM13,tripartite motif containing 13,TRIM13,hgnc_entrez_id,mapped,TRIM13,13817.0,True,True,True
+3162,HMOX1,heme oxygenase 1,HMOX1,hgnc_entrez_id,mapped,HMOX1,5649.0,True,True,True
+4925,NUCB2,nucleobindin 2,NUCB2,hgnc_entrez_id,mapped,NUCB2,8750.0,True,True,True
+596,BCL2,B-cell CLL/lymphoma 2,BCL2,hgnc_entrez_id,mapped,BCL2,1279.0,True,True,True
+5982,RFC2,replication factor C subunit 2,RFC2,hgnc_entrez_id,mapped,RFC2,10769.0,True,True,True
+8324,FZD7,frizzled class receptor 7,FZD7,hgnc_entrez_id,mapped,FZD7,4731.0,True,True,True
+5261,PHKG2,"phosphorylase kinase, gamma 2 (testis)",PHKG2,hgnc_entrez_id,mapped,PHKG2,9458.0,True,True,True
+1647,GADD45A,growth arrest and DNA damage inducible alpha,GADD45A,hgnc_entrez_id,mapped,GADD45A,4773.0,True,True,True
+3909,LAMA3,laminin subunit alpha 3,LAMA3,hgnc_entrez_id,mapped,LAMA3,6741.0,True,True,True
+6499,SKIV2L,Ski2 like RNA helicase,SKIC2,hgnc_entrez_id,not_in_model,,,False,False,False
+701,BUB1B,BUB1 mitotic checkpoint serine/threonine kinase B,BUB1B,hgnc_entrez_id,mapped,BUB1B,1485.0,True,True,True
+10165,SLC25A13,"solute carrier family 25 (aspartate/glutamate carrier), member 13",SLC25A13,hgnc_entrez_id,mapped,SLC25A13,11860.0,True,True,True
+23635,SSBP2,single-stranded DNA binding protein 2,SSBP2,hgnc_entrez_id,mapped,SSBP2,12560.0,True,True,True
+10270,AKAP8,A-kinase anchoring protein 8,AKAP8,hgnc_entrez_id,mapped,AKAP8,450.0,True,True,True
+10954,PDIA5,protein disulfide isomerase family A member 5,PDIA5,hgnc_entrez_id,mapped,PDIA5,9293.0,True,True,True
+22841,RAB11FIP2,RAB11 family interacting protein 2 (class I),RAB11FIP2,hgnc_entrez_id,mapped,RAB11FIP2,10429.0,True,True,True
+23011,RAB21,"RAB21, member RAS oncogene family",RAB21,hgnc_entrez_id,mapped,RAB21,10443.0,True,True,True
+57149,LYRM1,LYR motif containing 1,LYRM1,hgnc_entrez_id,mapped,LYRM1,7169.0,True,True,True
+5909,RAP1GAP,RAP1 GTPase activating protein,RAP1GAP,hgnc_entrez_id,mapped,RAP1GAP,10564.0,True,True,True
+6919,TCEA2,"transcription elongation factor A (SII), 2",TCEA2,hgnc_entrez_id,mapped,TCEA2,13029.0,True,True,True
+4794,NFKBIE,"nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, epsilon",NFKBIE,hgnc_entrez_id,mapped,NFKBIE,8413.0,True,True,True
+6182,MRPL12,mitochondrial ribosomal protein L12,MRPL12,hgnc_entrez_id,mapped,MRPL12,7823.0,True,True,True
+22926,ATF6,activating transcription factor 6,ATF6,hgnc_entrez_id,mapped,ATF6,1025.0,True,True,True
+1052,CEBPD,CCAAT/enhancer binding protein delta,CEBPD,hgnc_entrez_id,mapped,CEBPD,2122.0,True,True,True
+10681,GNB5,"guanine nucleotide binding protein (G protein), beta 5",GNB5,hgnc_entrez_id,mapped,GNB5,5080.0,True,True,True
+1846,DUSP4,dual specificity phosphatase 4,DUSP4,hgnc_entrez_id,mapped,DUSP4,3623.0,True,True,True
+1050,CEBPA,CCAAT/enhancer binding protein alpha,CEBPA,hgnc_entrez_id,mapped,CEBPA,2120.0,True,True,True
+10810,WASF3,WAS protein family member 3,WASF3,hgnc_entrez_id,mapped,WASF3,14532.0,True,True,True
+5613,PRKX,"protein kinase, X-linked",PRKX,hgnc_entrez_id,mapped,PRKX,10089.0,True,True,True
+8884,SLC5A6,"solute carrier family 5 (sodium/multivitamin and iodide cotransporter), member 6",SLC5A6,hgnc_entrez_id,mapped,SLC5A6,12056.0,True,True,True
+4216,MAP3K4,mitogen-activated protein kinase kinase kinase 4,MAP3K4,hgnc_entrez_id,mapped,MAP3K4,7290.0,True,True,True
+6790,AURKA,aurora kinase A,AURKA,hgnc_entrez_id,mapped,AURKA,1145.0,True,True,True
+902,CCNH,cyclin H,CCNH,hgnc_entrez_id,mapped,CCNH,1896.0,True,True,True
+7016,TESK1,testis-specific kinase 1,TESK1,hgnc_entrez_id,mapped,TESK1,13118.0,True,True,True
+8318,CDC45,cell division cycle 45,CDC45,hgnc_entrez_id,mapped,CDC45,2017.0,True,True,True
+2309,FOXO3,forkhead box O3,FOXO3,hgnc_entrez_id,mapped,FOXO3,4634.0,True,True,True
+55556,ENOSF1,enolase superfamily member 1,ENOSF1,hgnc_entrez_id,not_in_model,,,False,False,False
+3454,IFNAR1,interferon alpha and beta receptor subunit 1,IFNAR1,hgnc_entrez_id,not_in_model,,,False,False,False
+1017,CDK2,cyclin-dependent kinase 2,CDK2,hgnc_entrez_id,mapped,CDK2,2071.0,True,True,True
+79071,ELOVL6,ELOVL fatty acid elongase 6,ELOVL6,hgnc_entrez_id,mapped,ELOVL6,3877.0,True,True,True
+5366,PMAIP1,phorbol-12-myristate-13-acetate-induced protein 1,PMAIP1,hgnc_entrez_id,not_in_model,,,False,False,False
+5289,PIK3C3,phosphatidylinositol 3-kinase catalytic subunit type 3,PIK3C3,hgnc_entrez_id,mapped,PIK3C3,9526.0,True,True,True
+1385,CREB1,cAMP responsive element binding protein 1,CREB1,hgnc_entrez_id,mapped,CREB1,2795.0,True,True,True
+5290,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",PIK3CA,hgnc_entrez_id,mapped,PIK3CA,9527.0,True,True,True
+2946,GSTM2,glutathione S-transferase mu 2 (muscle),GSTM2,hgnc_entrez_id,mapped,GSTM2,5354.0,True,True,True
+8061,FOSL1,FOS like antigen 1,FOSL1,hgnc_entrez_id,mapped,FOSL1,4599.0,True,True,True
+8321,FZD1,frizzled class receptor 1,FZD1,hgnc_entrez_id,mapped,FZD1,4724.0,True,True,True
+23659,PLA2G15,phospholipase A2 group XV,PLA2G15,hgnc_entrez_id,mapped,PLA2G15,9604.0,True,True,True
+6622,SNCA,synuclein alpha,SNCA,hgnc_entrez_id,mapped,SNCA,12242.0,True,True,True
+4312,MMP1,matrix metallopeptidase 1,MMP1,hgnc_entrez_id,not_in_model,,,False,False,False
+5287,PIK3C2B,phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 beta,PIK3C2B,hgnc_entrez_id,mapped,PIK3C2B,9524.0,True,True,True
+960,CD44,CD44 molecule (Indian blood group),CD44,hgnc_entrez_id,mapped,CD44,1968.0,True,True,True
+1802,DPH2,DPH2 homolog,DPH2,hgnc_entrez_id,mapped,DPH2,3522.0,True,True,True
+5480,PPIC,peptidylprolyl isomerase C,PPIC,hgnc_entrez_id,mapped,PPIC,9907.0,True,True,True
+672,BRCA1,breast cancer 1,BRCA1,hgnc_entrez_id,mapped,BRCA1,1418.0,True,True,True
+10610,ST6GALNAC2,"ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 2",ST6GALNAC2,hgnc_entrez_id,not_in_model,,,False,False,False
+9641,IKBKE,"inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase epsilon",IKBKE,hgnc_entrez_id,mapped,IKBKE,5951.0,True,True,True
+2264,FGFR4,fibroblast growth factor receptor 4,FGFR4,hgnc_entrez_id,mapped,FGFR4,4488.0,True,True,True
+9016,SLC25A14,"solute carrier family 25 (mitochondrial carrier, brain), member 14",SLC25A14,hgnc_entrez_id,mapped,SLC25A14,11861.0,True,True,True
+10668,CGRRF1,cell growth regulator with ring finger domain 1,CGRRF1,hgnc_entrez_id,mapped,CGRRF1,2261.0,True,True,True
+11007,CCDC85B,coiled-coil domain containing 85B,CCDC85B,hgnc_entrez_id,mapped,CCDC85B,1841.0,True,True,True
+65057,ACD,adrenocortical dysplasia homolog (mouse),ACD,hgnc_entrez_id,mapped,ACD,130.0,True,True,True
+7020,TFAP2A,transcription factor AP-2 alpha (activating enhancer binding protein 2 alpha),TFAP2A,hgnc_entrez_id,mapped,TFAP2A,13144.0,True,True,True
+6461,SHB,Src homology 2 domain containing adaptor protein B,SHB,hgnc_entrez_id,mapped,SHB,11670.0,True,True,True
+9738,CCP110,centriolar coiled-coil protein 110kDa,CCP110,hgnc_entrez_id,mapped,CCP110,1908.0,True,True,True
+3775,KCNK1,"potassium channel, two pore domain subfamily K, member 1",KCNK1,hgnc_entrez_id,mapped,KCNK1,6390.0,True,True,True
+993,CDC25A,cell division cycle 25A,CDC25A,hgnc_entrez_id,mapped,CDC25A,1998.0,True,True,True
+9851,KIAA0753,KIAA0753,KIAA0753,hgnc_entrez_id,mapped,KIAA0753,6486.0,True,True,True
+4690,NCK1,NCK adaptor protein 1,NCK1,hgnc_entrez_id,mapped,NCK1,8237.0,True,True,True
+6804,STX1A,syntaxin 1A,STX1A,hgnc_entrez_id,mapped,STX1A,12717.0,True,True,True
+5743,PTGS2,prostaglandin-endoperoxide synthase 2,PTGS2,hgnc_entrez_id,mapped,PTGS2,10305.0,True,True,True
+5607,MAP2K5,mitogen-activated protein kinase kinase 5,MAP2K5,hgnc_entrez_id,mapped,MAP2K5,7275.0,True,True,True
+9854,C2CD2L,C2CD2 like,C2CD2L,hgnc_entrez_id,mapped,C2CD2L,1515.0,True,True,True
+9712,USP6NL,USP6 N-terminal like,USP6NL,hgnc_entrez_id,mapped,USP6NL,14369.0,True,True,True
+355,FAS,Fas cell surface death receptor,FAS,hgnc_entrez_id,not_in_model,,,False,False,False
+5498,PPOX,protoporphyrinogen oxidase,PPOX,hgnc_entrez_id,mapped,PPOX,9934.0,True,True,True
+10329,TMEM5,transmembrane protein 5,RXYLT1,hgnc_entrez_id,mapped,RXYLT1,11234.0,True,True,True
+10845,CLPX,caseinolytic mitochondrial matrix peptidase chaperone subunit,CLPX,hgnc_entrez_id,mapped,CLPX,2493.0,True,True,True
+9183,ZW10,zw10 kinetochore protein,ZW10,hgnc_entrez_id,mapped,ZW10,15157.0,True,True,True
+9833,MELK,maternal embryonic leucine zipper kinase,MELK,hgnc_entrez_id,mapped,MELK,7512.0,True,True,True
+899,CCNF,cyclin F,CCNF,hgnc_entrez_id,mapped,CCNF,1893.0,True,True,True
+5883,RAD9A,RAD9 checkpoint clamp component A,RAD9A,hgnc_entrez_id,mapped,RAD9A,10526.0,True,True,True
+10732,TCFL5,transcription factor-like 5 (basic helix-loop-helix),TCFL5,hgnc_entrez_id,mapped,TCFL5,13051.0,True,True,True
+10782,ZNF274,zinc finger protein 274,ZNF274,hgnc_entrez_id,not_in_model,,,False,False,False
+3385,ICAM3,intercellular adhesion molecule 3,ICAM3,hgnc_entrez_id,not_in_model,,,False,False,False
+1662,DDX10,DEAD-box helicase 10,DDX10,hgnc_entrez_id,mapped,DDX10,3175.0,True,True,True
+79090,TRAPPC6A,trafficking protein particle complex 6A,TRAPPC6A,hgnc_entrez_id,mapped,TRAPPC6A,13792.0,True,True,True
+8851,CDK5R1,"cyclin-dependent kinase 5, regulatory subunit 1 (p35)",CDK5R1,hgnc_entrez_id,mapped,CDK5R1,2077.0,True,True,True
+22809,ATF5,activating transcription factor 5,ATF5,hgnc_entrez_id,mapped,ATF5,1024.0,True,True,True
+6777,STAT5B,signal transducer and activator of transcription 5B,STAT5B,hgnc_entrez_id,mapped,STAT5B,12638.0,True,True,True
+9134,CCNE2,cyclin E2,CCNE2,hgnc_entrez_id,mapped,CCNE2,1892.0,True,True,True
+11157,LSM6,"LSM6 homolog, U6 small nuclear RNA and mRNA degradation associated",LSM6,hgnc_entrez_id,mapped,LSM6,7109.0,True,True,True
+10320,IKZF1,IKAROS family zinc finger 1,IKZF1,hgnc_entrez_id,mapped,IKZF1,5953.0,True,True,True
+1062,CENPE,centromere protein E,CENPE,hgnc_entrez_id,mapped,CENPE,2144.0,True,True,True
+3815,KIT,KIT proto-oncogene receptor tyrosine kinase,KIT,hgnc_entrez_id,mapped,KIT,6548.0,True,True,True
+3682,ITGAE,integrin subunit alpha E,ITGAE,hgnc_entrez_id,mapped,ITGAE,6209.0,True,True,True
+3553,IL1B,interleukin 1 beta,IL1B,hgnc_entrez_id,mapped,IL1B,5987.0,True,True,True
+4998,ORC1,origin recognition complex subunit 1,ORC1,hgnc_entrez_id,mapped,ORC1,8903.0,True,True,True
+10046,MAMLD1,mastermind like domain containing 1,MAMLD1,hgnc_entrez_id,mapped,MAMLD1,7246.0,True,True,True
+6443,SGCB,sarcoglycan beta,SGCB,hgnc_entrez_id,mapped,SGCB,11610.0,True,True,True
+5891,MOK,MOK protein kinase,MOK,hgnc_entrez_id,mapped,MOK,7740.0,True,True,True
+958,CD40,CD40 molecule,CD40,hgnc_entrez_id,mapped,CD40,1966.0,True,True,True
+8800,PEX11A,peroxisomal biogenesis factor 11 alpha,PEX11A,hgnc_entrez_id,mapped,PEX11A,9358.0,True,True,True
+1212,CLTB,clathrin light chain B,CLTB,hgnc_entrez_id,mapped,CLTB,2502.0,True,True,True
+965,CD58,CD58 molecule,CD58,hgnc_entrez_id,not_in_model,,,False,False,False
+5357,PLS1,plastin 1,PLS1,hgnc_entrez_id,mapped,PLS1,9724.0,True,True,True
+5110,PCMT1,protein-L-isoaspartate (D-aspartate) O-methyltransferase,PCMT1,hgnc_entrez_id,mapped,PCMT1,9209.0,True,True,True
+5971,RELB,v-rel avian reticuloendotheliosis viral oncogene homolog B,RELB,hgnc_entrez_id,mapped,RELB,10736.0,True,True,True
+2769,GNA15,"guanine nucleotide binding protein (G protein), alpha 15 (Gq class)",GNA15,hgnc_entrez_id,mapped,GNA15,5065.0,True,True,True
+8821,INPP4B,inositol polyphosphate-4-phosphatase type II B,INPP4B,hgnc_entrez_id,mapped,INPP4B,6077.0,True,True,True
+874,CBR3,carbonyl reductase 3,CBR3,hgnc_entrez_id,mapped,CBR3,1730.0,True,True,True
+1111,CHEK1,checkpoint kinase 1,CHEK1,hgnc_entrez_id,mapped,CHEK1,2289.0,True,True,True
+4088,SMAD3,SMAD family member 3,SMAD3,hgnc_entrez_id,mapped,SMAD3,12139.0,True,True,True
+1605,DAG1,dystroglycan 1,DAG1,hgnc_entrez_id,mapped,DAG1,3077.0,True,True,True
+5255,PHKA1,"phosphorylase kinase, alpha 1 (muscle)",PHKA1,hgnc_entrez_id,mapped,PHKA1,9454.0,True,True,True
+4303,FOXO4,forkhead box O4,FOXO4,hgnc_entrez_id,mapped,FOXO4,4635.0,True,True,True
+9488,PIGB,phosphatidylinositol glycan anchor biosynthesis class B,PIGB,hgnc_entrez_id,mapped,PIGB,9500.0,True,True,True
+5154,PDGFA,platelet derived growth factor subunit A,PDGFA,hgnc_entrez_id,mapped,PDGFA,9279.0,True,True,True
+843,CASP10,caspase 10,CASP10,hgnc_entrez_id,not_in_model,,,False,False,False
+2690,GHR,growth hormone receptor,GHR,hgnc_entrez_id,mapped,GHR,4949.0,True,True,True
+727,C5,complement component 5,C5,hgnc_entrez_id,not_in_model,,,False,False,False
+695,BTK,Bruton tyrosine kinase,BTK,hgnc_entrez_id,mapped,BTK,1477.0,True,True,True
+10557,RPP38,ribonuclease P/MRP 38kDa subunit,RPP38,hgnc_entrez_id,mapped,RPP38,11091.0,True,True,True
+51375,SNX7,sorting nexin 7,SNX7,hgnc_entrez_id,mapped,SNX7,12309.0,True,True,True
+4846,NOS3,nitric oxide synthase 3,NOS3,hgnc_entrez_id,mapped,NOS3,8573.0,True,True,True
+57147,SCYL3,"SCY1-like, kinase-like 3",SCYL3,hgnc_entrez_id,mapped,SCYL3,11398.0,True,True,True
+211,ALAS1,5'-aminolevulinate synthase 1,ALAS1,hgnc_entrez_id,mapped,ALAS1,467.0,True,True,True
+9143,SYNGR3,synaptogyrin 3,SYNGR3,hgnc_entrez_id,mapped,SYNGR3,12829.0,True,True,True
+670,BPHL,biphenyl hydrolase-like (serine hydrolase),BPHL,hgnc_entrez_id,mapped,BPHL,1403.0,True,True,True
+11232,POLG2,"polymerase (DNA directed), gamma 2, accessory subunit",POLG2,hgnc_entrez_id,mapped,POLG2,9815.0,True,True,True
+9221,NOLC1,nucleolar and coiled-body phosphoprotein 1,NOLC1,hgnc_entrez_id,mapped,NOLC1,8558.0,True,True,True
+4776,NFATC4,"nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 4",NFATC4,hgnc_entrez_id,mapped,NFATC4,8398.0,True,True,True
+8900,CCNA1,cyclin A1,CCNA1,hgnc_entrez_id,mapped,CCNA1,1881.0,True,True,True
+5427,POLE2,"polymerase (DNA directed), epsilon 2, accessory subunit",POLE2,hgnc_entrez_id,mapped,POLE2,9811.0,True,True,True
+9093,DNAJA3,DnaJ heat shock protein family (Hsp40) member A3,DNAJA3,hgnc_entrez_id,mapped,DNAJA3,3418.0,True,True,True
+22887,FOXJ3,forkhead box J3,FOXJ3,hgnc_entrez_id,mapped,FOXJ3,4622.0,True,True,True
+6050,RNH1,ribonuclease/angiogenin inhibitor 1,RNH1,hgnc_entrez_id,mapped,RNH1,11007.0,True,True,True
+5889,RAD51C,RAD51 paralog C,RAD51C,hgnc_entrez_id,mapped,RAD51C,10520.0,True,True,True
+2042,EPHA3,EPH receptor A3,EPHA3,hgnc_entrez_id,mapped,EPHA3,3976.0,True,True,True
+5583,PRKCH,protein kinase C eta,PRKCH,hgnc_entrez_id,mapped,PRKCH,10075.0,True,True,True
+2523,FUT1,fucosyltransferase 1 (H blood group),FUT1,hgnc_entrez_id,mapped,FUT1,4703.0,True,True,True
+154,ADRB2,adrenoceptor beta 2,ADRB2,hgnc_entrez_id,mapped,ADRB2,348.0,True,True,True
+2553,GABPB1,"GA binding protein transcription factor, beta subunit 1",GABPB1,hgnc_entrez_id,mapped,GABPB1,4751.0,True,True,True
+1950,EGF,epidermal growth factor,EGF,hgnc_entrez_id,mapped,EGF,3765.0,True,True,True
+9928,KIF14,kinesin family member 14,KIF14,hgnc_entrez_id,mapped,KIF14,6507.0,True,True,True
+2115,ETV1,ets variant 1,ETV1,hgnc_entrez_id,mapped,ETV1,4087.0,True,True,True
+1452,CSNK1A1,casein kinase 1 alpha 1,CSNK1A1,hgnc_entrez_id,mapped,CSNK1A1,2881.0,True,True,True
+9448,MAP4K4,mitogen-activated protein kinase kinase kinase kinase 4,MAP4K4,hgnc_entrez_id,mapped,MAP4K4,7299.0,True,True,True
+2745,GLRX,glutaredoxin,GLRX,hgnc_entrez_id,mapped,GLRX,5031.0,True,True,True
+5777,PTPN6,"protein tyrosine phosphatase, non-receptor type 6",PTPN6,hgnc_entrez_id,mapped,PTPN6,10337.0,True,True,True
+10898,CPSF4,cleavage and polyadenylation specific factor 4,CPSF4,hgnc_entrez_id,mapped,CPSF4,2769.0,True,True,True
+9170,LPAR2,lysophosphatidic acid receptor 2,LPAR2,hgnc_entrez_id,mapped,LPAR2,6963.0,True,True,True
+1677,DFFB,"DNA fragmentation factor, 40kDa, beta polypeptide (caspase-activated DNase)",DFFB,hgnc_entrez_id,mapped,DFFB,3260.0,True,True,True
+23443,SLC35A3,"solute carrier family 35 (UDP-N-acetylglucosamine (UDP-GlcNAc) transporter), member A3",SLC35A3,hgnc_entrez_id,mapped,SLC35A3,11953.0,True,True,True
+10013,HDAC6,histone deacetylase 6,HDAC6,hgnc_entrez_id,mapped,HDAC6,5507.0,True,True,True
+2736,GLI2,GLI family zinc finger 2,GLI2,hgnc_entrez_id,mapped,GLI2,5012.0,True,True,True
+1029,CDKN2A,cyclin-dependent kinase inhibitor 2A,CDKN2A,hgnc_entrez_id,mapped,CDKN2A,2094.0,True,True,True
+1870,E2F2,E2F transcription factor 2,E2F2,hgnc_entrez_id,mapped,E2F2,3665.0,True,True,True
+1021,CDK6,cyclin-dependent kinase 6,CDK6,hgnc_entrez_id,mapped,CDK6,2082.0,True,True,True
+207,AKT1,v-akt murine thymoma viral oncogene homolog 1,AKT1,hgnc_entrez_id,mapped,AKT1,461.0,True,True,True
+840,CASP7,caspase 7,CASP7,hgnc_entrez_id,mapped,CASP7,1694.0,True,True,True
+10318,TNIP1,TNFAIP3 interacting protein 1,TNIP1,hgnc_entrez_id,mapped,TNIP1,13644.0,True,True,True
+7015,TERT,telomerase reverse transcriptase,TERT,hgnc_entrez_id,mapped,TERT,13117.0,True,True,True
+5788,PTPRC,"protein tyrosine phosphatase, receptor type C",PTPRC,hgnc_entrez_id,mapped,PTPRC,10342.0,True,True,True
+7048,TGFBR2,transforming growth factor beta receptor II,TGFBR2,hgnc_entrez_id,mapped,TGFBR2,13178.0,True,True,True
+4775,NFATC3,"nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 3",NFATC3,hgnc_entrez_id,mapped,NFATC3,8397.0,True,True,True
+5880,RAC2,"ras-related C3 botulinum toxin substrate 2 (rho family, small GTP binding protein Rac2)",RAC2,hgnc_entrez_id,mapped,RAC2,10505.0,True,True,True
+9533,POLR1C,polymerase (RNA) I polypeptide C,POLR1C,hgnc_entrez_id,mapped,POLR1C,9825.0,True,True,True
+4791,NFKB2,nuclear factor of kappa light polypeptide gene enhancer in B-cells 2 (p49/p100),NFKB2,hgnc_entrez_id,mapped,NFKB2,8409.0,True,True,True
+6850,SYK,spleen tyrosine kinase,SYK,hgnc_entrez_id,mapped,SYK,12813.0,True,True,True
+8573,CASK,calcium/calmodulin-dependent serine protein kinase (MAGUK family),CASK,hgnc_entrez_id,mapped,CASK,1687.0,True,True,True
+8202,NCOA3,nuclear receptor coactivator 3,NCOA3,hgnc_entrez_id,mapped,NCOA3,8249.0,True,True,True
+5715,PSMD9,"proteasome 26S subunit, non-ATPase 9",PSMD9,hgnc_entrez_id,mapped,PSMD9,10252.0,True,True,True
+5627,PROS1,protein S (alpha),PROS1,hgnc_entrez_id,mapped,PROS1,10115.0,True,True,True
+22794,CASC3,cancer susceptibility candidate 3,CASC3,hgnc_entrez_id,mapped,CASC3,1685.0,True,True,True
+4582,MUC1,"mucin 1, cell surface associated",MUC1,hgnc_entrez_id,not_in_model,,,False,False,False
+7982,ST7,suppression of tumorigenicity 7,ST7,hgnc_entrez_id,mapped,ST7,12601.0,True,True,True
+4931,NVL,nuclear VCP-like,NVL,hgnc_entrez_id,mapped,NVL,8803.0,True,True,True
+4208,MEF2C,myocyte enhancer factor 2C,MEF2C,hgnc_entrez_id,mapped,MEF2C,7497.0,True,True,True
+11261,CHP1,calcineurin like EF-hand protein 1,CHP1,hgnc_entrez_id,mapped,CHP1,2317.0,True,True,True
+8091,HMGA2,high mobility group AT-hook 2,HMGA2,hgnc_entrez_id,mapped,HMGA2,5635.0,True,True,True
+835,CASP2,caspase 2,CASP2,hgnc_entrez_id,mapped,CASP2,1691.0,True,True,True
+51599,LSR,lipolysis stimulated lipoprotein receptor,LSR,hgnc_entrez_id,mapped,LSR,7115.0,True,True,True
+10892,MALT1,MALT1 paracaspase,MALT1,hgnc_entrez_id,mapped,MALT1,7240.0,True,True,True
+9519,TBPL1,TATA-box binding protein like 1,TBPL1,hgnc_entrez_id,mapped,TBPL1,13004.0,True,True,True
+1500,CTNND1,catenin delta 1,CTNND1,hgnc_entrez_id,mapped,CTNND1,2931.0,True,True,True
+57019,CIAPIN1,cytokine induced apoptosis inhibitor 1,CIAPIN1,hgnc_entrez_id,mapped,CIAPIN1,2370.0,True,True,True
+581,BAX,BCL2-associated X protein,BAX,hgnc_entrez_id,mapped,BAX,1240.0,True,True,True
+5468,PPARG,peroxisome proliferator activated receptor gamma,PPARG,hgnc_entrez_id,mapped,PPARG,9890.0,True,True,True
+6709,SPTAN1,"spectrin alpha, non-erythrocytic 1",SPTAN1,hgnc_entrez_id,mapped,SPTAN1,12491.0,True,True,True
+1981,EIF4G1,"eukaryotic translation initiation factor 4 gamma, 1",EIF4G1,hgnc_entrez_id,mapped,EIF4G1,3830.0,True,True,True
+10493,VAT1,vesicle amine transport 1,VAT1,hgnc_entrez_id,mapped,VAT1,14406.0,True,True,True
+23499,MACF1,microtubule-actin crosslinking factor 1,MACF1,hgnc_entrez_id,mapped,MACF1,7195.0,True,True,True
+142,PARP1,poly(ADP-ribose) polymerase 1,PARP1,hgnc_entrez_id,mapped,PARP1,9089.0,True,True,True
+2222,FDFT1,farnesyl-diphosphate farnesyltransferase 1,FDFT1,hgnc_entrez_id,mapped,FDFT1,4428.0,True,True,True
+3312,HSPA8,heat shock protein family A (Hsp70) member 8,HSPA8,hgnc_entrez_id,mapped,HSPA8,5804.0,True,True,True
+9124,PDLIM1,PDZ and LIM domain 1,PDLIM1,hgnc_entrez_id,mapped,PDLIM1,9301.0,True,True,True
+1983,EIF5,eukaryotic translation initiation factor 5,EIF5,hgnc_entrez_id,mapped,EIF5,3834.0,True,True,True
+595,CCND1,cyclin D1,CCND1,hgnc_entrez_id,mapped,CCND1,1887.0,True,True,True
+54499,TMCO1,transmembrane and coiled-coil domains 1,TMCO1,hgnc_entrez_id,mapped,TMCO1,13352.0,True,True,True
+5018,OXA1L,oxidase (cytochrome c) assembly 1-like,OXA1L,hgnc_entrez_id,mapped,OXA1L,8972.0,True,True,True
+998,CDC42,cell division cycle 42,CDC42,hgnc_entrez_id,mapped,CDC42,2006.0,True,True,True
+1831,TSC22D3,TSC22 domain family member 3,TSC22D3,hgnc_entrez_id,mapped,TSC22D3,13934.0,True,True,True
+5747,PTK2,protein tyrosine kinase 2,PTK2,hgnc_entrez_id,mapped,PTK2,10311.0,True,True,True
+128,ADH5,"alcohol dehydrogenase 5 (class III), chi polypeptide",ADH5,hgnc_entrez_id,mapped,ADH5,318.0,True,True,True
+7905,REEP5,receptor accessory protein 5,REEP5,hgnc_entrez_id,mapped,REEP5,10732.0,True,True,True
+1848,DUSP6,dual specificity phosphatase 6,DUSP6,hgnc_entrez_id,mapped,DUSP6,3625.0,True,True,True
+3122,HLA-DRA,"major histocompatibility complex, class II, DR alpha",HLA-DRA,hgnc_entrez_id,mapped,HLA-DRA,5622.0,True,True,True
+51382,ATP6V1D,"ATPase, H+ transporting, lysosomal 34kDa, V1 subunit D",ATP6V1D,hgnc_entrez_id,mapped,ATP6V1D,1105.0,True,True,True
+54205,CYCS,"cytochrome c, somatic",CYCS,hgnc_entrez_id,not_in_model,,,False,False,False
+831,CAST,calpastatin,CAST,hgnc_entrez_id,mapped,CAST,1702.0,True,False,False
+3964,LGALS8,"lectin, galactoside-binding, soluble, 8",LGALS8,hgnc_entrez_id,mapped,LGALS8,6845.0,True,True,True
+8678,BECN1,"beclin 1, autophagy related",BECN1,hgnc_entrez_id,mapped,BECN1,1310.0,True,True,True
+501,ALDH7A1,aldehyde dehydrogenase 7 family member A1,ALDH7A1,hgnc_entrez_id,mapped,ALDH7A1,485.0,True,True,True
+6774,STAT3,signal transducer and activator of transcription 3 (acute-phase response factor),STAT3,hgnc_entrez_id,mapped,STAT3,12635.0,True,True,True
+10049,DNAJB6,DnaJ heat shock protein family (Hsp40) member B6,DNAJB6,hgnc_entrez_id,mapped,DNAJB6,3428.0,True,True,True
+50813,COPS7A,COP9 signalosome subunit 7A,COPS7A,hgnc_entrez_id,mapped,COPS7A,2680.0,True,True,True
+5696,PSMB8,proteasome subunit beta 8,PSMB8,hgnc_entrez_id,mapped,PSMB8,10230.0,True,True,True
+7511,XPNPEP1,"X-prolyl aminopeptidase (aminopeptidase P) 1, soluble",XPNPEP1,hgnc_entrez_id,mapped,XPNPEP1,14680.0,True,True,True
+5900,RALGDS,ral guanine nucleotide dissociation stimulator,RALGDS,hgnc_entrez_id,mapped,RALGDS,10543.0,True,True,True
+11151,CORO1A,coronin 1A,CORO1A,hgnc_entrez_id,mapped,CORO1A,2697.0,True,True,True
+51031,GLOD4,glyoxalase domain containing 4,GLOD4,hgnc_entrez_id,mapped,GLOD4,5023.0,True,True,True
+1738,DLD,dihydrolipoamide dehydrogenase,DLD,hgnc_entrez_id,mapped,DLD,3346.0,True,True,True
+7866,IFRD2,interferon-related developmental regulator 2,IFRD2,hgnc_entrez_id,mapped,IFRD2,5901.0,True,True,True
+7105,TSPAN6,tetraspanin 6,TSPAN6,hgnc_entrez_id,mapped,TSPAN6,13970.0,True,True,True
+1027,CDKN1B,"cyclin-dependent kinase inhibitor 1B (p27, Kip1)",CDKN1B,hgnc_entrez_id,mapped,CDKN1B,2093.0,True,True,True
+9128,PRPF4,pre-mRNA processing factor 4,PRPF4,hgnc_entrez_id,mapped,PRPF4,10128.0,True,True,True
+1534,CYB561,cytochrome b561,CYB561,hgnc_entrez_id,mapped,CYB561,2997.0,True,True,True
+4125,MAN2B1,mannosidase alpha class 2B member 1,MAN2B1,hgnc_entrez_id,mapped,MAN2B1,7254.0,True,True,True
+79143,MBOAT7,membrane bound O-acyltransferase domain containing 7,MBOAT7,hgnc_entrez_id,mapped,MBOAT7,7395.0,True,True,True
+2353,FOS,FBJ murine osteosarcoma viral oncogene homolog,FOS,hgnc_entrez_id,mapped,FOS,4597.0,True,True,True
+84617,TUBB6,tubulin beta 6 class V,TUBB6,hgnc_entrez_id,mapped,TUBB6,14067.0,True,True,True
+873,CBR1,carbonyl reductase 1,CBR1,hgnc_entrez_id,not_in_model,,,False,False,False
+10227,MFSD10,major facilitator superfamily domain containing 10,SLC75A1,hgnc_entrez_id,mapped,MFSD10,7567.0,True,True,True
+10174,SORBS3,sorbin and SH3 domain containing 3,SORBS3,hgnc_entrez_id,mapped,SORBS3,12328.0,True,True,True
+9126,SMC3,structural maintenance of chromosomes 3,SMC3,hgnc_entrez_id,mapped,SMC3,12163.0,True,True,True
+2810,SFN,stratifin,SFN,hgnc_entrez_id,mapped,SFN,11591.0,True,True,True
+2063,NR2F6,nuclear receptor subfamily 2 group F member 6,NR2F6,hgnc_entrez_id,mapped,NR2F6,8652.0,True,True,True
+7106,TSPAN4,tetraspanin 4,TSPAN4,hgnc_entrez_id,mapped,TSPAN4,13968.0,True,True,True
+4616,GADD45B,growth arrest and DNA damage inducible beta,GADD45B,hgnc_entrez_id,mapped,GADD45B,4774.0,True,True,True
+11168,PSIP1,PC4 and SFRS1 interacting protein 1,PSIP1,hgnc_entrez_id,mapped,PSIP1,10211.0,True,True,True
+3551,IKBKB,"inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta",IKBKB,hgnc_entrez_id,mapped,IKBKB,5950.0,True,True,True
+572,BAD,BCL2 associated agonist of cell death,BAD,hgnc_entrez_id,mapped,BAD,1211.0,True,True,True
+6813,STXBP2,syntaxin binding protein 2,STXBP2,hgnc_entrez_id,mapped,STXBP2,12727.0,True,True,True
+10057,ABCC5,ATP binding cassette subfamily C member 5,ABCC5,hgnc_entrez_id,mapped,ABCC5,51.0,True,True,True
+11004,KIF2C,kinesin family member 2C,KIF2C,hgnc_entrez_id,mapped,KIF2C,6528.0,True,True,True
+2887,GRB10,growth factor receptor bound protein 10,GRB10,hgnc_entrez_id,mapped,GRB10,5275.0,True,True,True
+9181,ARHGEF2,Rho/Rac guanine nucleotide exchange factor 2,ARHGEF2,hgnc_entrez_id,mapped,ARHGEF2,841.0,True,True,True
+9212,AURKB,aurora kinase B,AURKB,hgnc_entrez_id,mapped,AURKB,1147.0,True,True,True
+8569,MKNK1,MAP kinase interacting serine/threonine kinase 1,MKNK1,hgnc_entrez_id,mapped,MKNK1,7655.0,True,True,True
+6119,RPA3,replication protein A3,RPA3,hgnc_entrez_id,mapped,RPA3,11036.0,True,True,True
+5873,RAB27A,"RAB27A, member RAS oncogene family",RAB27A,hgnc_entrez_id,mapped,RAB27A,10449.0,True,True,True
+50810,HDGFRP3,"hepatoma-derived growth factor, related protein 3",HDGFL3,hgnc_entrez_id,mapped,HDGFL3,5516.0,True,True,True
+2954,GSTZ1,glutathione S-transferase zeta 1,GSTZ1,hgnc_entrez_id,mapped,GSTZ1,5360.0,True,True,True
+23212,RRS1,ribosome biogenesis regulator homolog,RRS1,hgnc_entrez_id,mapped,RRS1,11156.0,True,True,True
+8726,EED,embryonic ectoderm development,EED,hgnc_entrez_id,mapped,EED,3721.0,True,True,True
+2770,GNAI1,"guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 1",GNAI1,hgnc_entrez_id,mapped,GNAI1,5066.0,True,True,True
+58497,PRUNE,prune exopolyphosphatase,PRUNE1,hgnc_entrez_id,mapped,PRUNE1,10194.0,True,True,True
+2048,EPHB2,EPH receptor B2,EPHB2,hgnc_entrez_id,mapped,EPHB2,3983.0,True,True,True
+2625,GATA3,GATA binding protein 3,GATA3,hgnc_entrez_id,mapped,GATA3,4840.0,True,True,True
+39,ACAT2,acetyl-CoA acetyltransferase 2,ACAT2,hgnc_entrez_id,not_in_model,,,False,False,False
+5058,PAK1,p21 protein (Cdc42/Rac)-activated kinase 1,PAK1,hgnc_entrez_id,mapped,PAK1,9036.0,True,True,True
+1070,CETN3,centrin 3,CETN3,hgnc_entrez_id,mapped,CETN3,2212.0,True,True,True
+868,CBLB,"Cbl proto-oncogene B, E3 ubiquitin protein ligase",CBLB,hgnc_entrez_id,mapped,CBLB,1722.0,True,True,True
+2624,GATA2,GATA binding protein 2,GATA2,hgnc_entrez_id,mapped,GATA2,4839.0,True,True,True
+7043,TGFB3,transforming growth factor beta 3,TGFB3,hgnc_entrez_id,mapped,TGFB3,13175.0,True,True,True
+2920,CXCL2,chemokine (C-X-C motif) ligand 2,CXCL2,hgnc_entrez_id,not_in_model,,,False,False,False
+85236,HIST1H2BK,"histone cluster 1, H2bk",H2BC12,hgnc_entrez_id,not_in_model,,,False,False,False
+310,ANXA7,annexin A7,ANXA7,hgnc_entrez_id,mapped,ANXA7,673.0,True,True,True
+6696,SPP1,secreted phosphoprotein 1,SPP1,hgnc_entrez_id,mapped,SPP1,12466.0,True,True,True
+22827,PUF60,poly(U) binding splicing factor 60KDa,PUF60,hgnc_entrez_id,mapped,PUF60,10368.0,True,True,True
+8837,CFLAR,CASP8 and FADD like apoptosis regulator,CFLAR,hgnc_entrez_id,mapped,CFLAR,2252.0,True,True,True
+5588,PRKCQ,protein kinase C theta,PRKCQ,hgnc_entrez_id,mapped,PRKCQ,10077.0,True,True,True
+5603,MAPK13,mitogen-activated protein kinase 13,MAPK13,hgnc_entrez_id,mapped,MAPK13,7311.0,True,True,True
+2534,FYN,"FYN proto-oncogene, Src family tyrosine kinase",FYN,hgnc_entrez_id,mapped,FYN,4722.0,True,True,True
+116832,RPL39L,ribosomal protein L39 like,RPL39L,hgnc_entrez_id,not_in_model,,,False,False,False
+5321,PLA2G4A,phospholipase A2 group IVA,PLA2G4A,hgnc_entrez_id,mapped,PLA2G4A,9611.0,True,True,True
+8444,DYRK3,dual specificity tyrosine-(Y)-phosphorylation regulated kinase 3,DYRK3,hgnc_entrez_id,mapped,DYRK3,3656.0,True,True,True
+4200,ME2,"malic enzyme 2, NAD(+)-dependent, mitochondrial",ME2,hgnc_entrez_id,mapped,ME2,7456.0,True,True,True
+47,ACLY,ATP citrate lyase,ACLY,hgnc_entrez_id,mapped,ACLY,142.0,True,True,True
+11200,CHEK2,checkpoint kinase 2,CHEK2,hgnc_entrez_id,mapped,CHEK2,2290.0,True,True,True
+2852,GPER1,G protein-coupled estrogen receptor 1,GPER1,hgnc_entrez_id,mapped,GPER1,5165.0,True,True,True
+10362,HMG20B,high mobility group 20B,HMG20B,hgnc_entrez_id,mapped,HMG20B,5634.0,True,True,True
+4067,LYN,"LYN proto-oncogene, Src family tyrosine kinase",LYN,hgnc_entrez_id,mapped,LYN,7158.0,True,True,True
+2886,GRB7,growth factor receptor bound protein 7,GRB7,hgnc_entrez_id,mapped,GRB7,5278.0,True,True,True
+51635,DHRS7,dehydrogenase/reductase (SDR family) member 7,DHRS7,hgnc_entrez_id,not_in_model,,,False,False,False
+7168,TPM1,tropomyosin 1 (alpha),TPM1,hgnc_entrez_id,mapped,TPM1,13737.0,True,True,True
+3308,HSPA4,heat shock protein family A (Hsp70) member 4,HSPA4,hgnc_entrez_id,mapped,HSPA4,5801.0,True,True,True
+10962,MLLT11,"myeloid/lymphoid or mixed-lineage leukemia; translocated to, 11",MLLT11,hgnc_entrez_id,mapped,MLLT11,7674.0,True,True,True
+1022,CDK7,cyclin-dependent kinase 7,CDK7,hgnc_entrez_id,mapped,CDK7,2083.0,True,True,True
+8480,RAE1,ribonucleic acid export 1,RAE1,hgnc_entrez_id,mapped,RAE1,10530.0,True,True,True
+652,BMP4,bone morphogenetic protein 4,BMP4,hgnc_entrez_id,mapped,BMP4,1373.0,True,True,True
+622,BDH1,"3-hydroxybutyrate dehydrogenase, type 1",BDH1,hgnc_entrez_id,mapped,BDH1,1303.0,True,True,True
+637,BID,BH3 interacting domain death agonist,BID,hgnc_entrez_id,mapped,BID,1341.0,True,True,True
+644,BLVRA,biliverdin reductase A,BLVRA,hgnc_entrez_id,mapped,BLVRA,1361.0,True,True,True
+23658,LSM5,"LSM5 homolog, U6 small nuclear RNA and mRNA degradation associated",LSM5,hgnc_entrez_id,mapped,LSM5,7108.0,True,True,True
+10190,TXNDC9,thioredoxin domain containing 9,TXNDC9,hgnc_entrez_id,mapped,TXNDC9,14111.0,True,True,True
+9112,MTA1,metastasis associated 1,MTA1,hgnc_entrez_id,mapped,MTA1,7955.0,True,True,True
+7852,CXCR4,chemokine (C-X-C motif) receptor 4,CXCR4,hgnc_entrez_id,mapped,CXCR4,2991.0,True,True,True
+1282,COL4A1,collagen type IV alpha 1,COL4A1,hgnc_entrez_id,mapped,COL4A1,2631.0,True,True,True
+26001,RNF167,ring finger protein 167,RNF167,hgnc_entrez_id,mapped,RNF167,10961.0,True,True,True
+147179,WIPF2,WAS/WASL interacting protein family member 2,WIPF2,hgnc_entrez_id,mapped,WIPF2,14617.0,True,True,True
+23061,TBC1D9B,TBC1 domain family member 9B,TBC1D9B,hgnc_entrez_id,mapped,TBC1D9B,12989.0,True,True,True
+9289,ADGRG1,adhesion G protein-coupled receptor G1,ADGRG1,hgnc_entrez_id,mapped,ADGRG1,305.0,True,True,True
+90861,HN1L,hematological and neurological expressed 1-like,JPT2,hgnc_entrez_id,not_in_model,,,False,False,False
+57178,ZMIZ1,"zinc finger, MIZ-type containing 1",ZMIZ1,hgnc_entrez_id,mapped,ZMIZ1,14920.0,True,True,True
+23244,PDS5A,PDS5 cohesin associated factor A,PDS5A,hgnc_entrez_id,mapped,PDS5A,9312.0,True,True,True
+3486,IGFBP3,insulin like growth factor binding protein 3,IGFBP3,hgnc_entrez_id,mapped,IGFBP3,5929.0,True,True,True
+23039,XPO7,exportin 7,XPO7,hgnc_entrez_id,mapped,XPO7,14687.0,True,True,True
+1399,CRKL,v-crk avian sarcoma virus CT10 oncogene homolog-like,CRKL,hgnc_entrez_id,mapped,CRKL,2825.0,True,True,True
+25839,COG4,component of oligomeric golgi complex 4,COG4,hgnc_entrez_id,mapped,COG4,2605.0,True,True,True
+94239,H2AFV,H2A histone family member V,H2AZ2,hgnc_entrez_id,mapped,H2AZ2,5433.0,True,True,True
+23014,FBXO21,F-box protein 21,FBXO21,hgnc_entrez_id,mapped,FBXO21,4377.0,True,True,True
+27032,ATP2C1,"ATPase, Ca++ transporting, type 2C, member 1",ATP2C1,hgnc_entrez_id,mapped,ATP2C1,1085.0,True,True,True
+27346,TMEM97,transmembrane protein 97,TMEM97,hgnc_entrez_id,mapped,TMEM97,13578.0,True,True,True
+23512,SUZ12,SUZ12 polycomb repressive complex 2 subunit,SUZ12,hgnc_entrez_id,mapped,SUZ12,12786.0,True,True,True
+200081,TXLNA,taxilin alpha,TXLNA,hgnc_entrez_id,mapped,TXLNA,14099.0,True,True,True
+7027,TFDP1,transcription factor Dp-1,TFDP1,hgnc_entrez_id,mapped,TFDP1,13154.0,True,True,True
+9686,VGLL4,vestigial like family member 4,VGLL4,hgnc_entrez_id,mapped,VGLL4,14434.0,True,True,True
+89910,UBE3B,ubiquitin protein ligase E3B,UBE3B,hgnc_entrez_id,mapped,UBE3B,14187.0,True,True,True
+26128,KIF1BP,KIF1 binding protein,KIFBP,hgnc_entrez_id,mapped,KIFBP,6541.0,True,True,True
+200734,SPRED2,"sprouty-related, EVH1 domain containing 2",SPRED2,hgnc_entrez_id,mapped,SPRED2,12474.0,True,True,True
+23522,KAT6B,K(lysine) acetyltransferase 6B,KAT6B,hgnc_entrez_id,mapped,KAT6B,6315.0,True,True,True
+23131,GPATCH8,G-patch domain containing 8,GPATCH8,hgnc_entrez_id,mapped,GPATCH8,5151.0,True,True,True
+84890,ADO,2-aminoethanethiol (cysteamine) dioxygenase,ADO,hgnc_entrez_id,mapped,ADO,332.0,True,True,True
+23200,ATP11B,"ATPase, class VI, type 11B",ATP11B,hgnc_entrez_id,mapped,ATP11B,1061.0,True,True,True
+26036,ZNF451,zinc finger protein 451,ZNF451,hgnc_entrez_id,mapped,ZNF451,15024.0,True,True,True
+23029,RBM34,RNA binding motif protein 34,RBM34,hgnc_entrez_id,mapped,RBM34,10658.0,True,True,True
+84159,ARID5B,AT-rich interaction domain 5B,ARID5B,hgnc_entrez_id,mapped,ARID5B,864.0,True,True,True
+1123,CHN1,chimerin 1,CHN1,hgnc_entrez_id,mapped,CHN1,2313.0,True,True,True
+93487,MAPK1IP1L,mitogen-activated protein kinase 1 interacting protein 1-like,MAPK1IP1L,hgnc_entrez_id,not_in_model,,,False,False,False
+54505,DHX29,DEAH-box helicase 29,DHX29,hgnc_entrez_id,mapped,DHX29,3296.0,True,True,True
+23338,JADE2,jade family PHD finger 2,JADE2,hgnc_entrez_id,mapped,JADE2,6259.0,True,True,True
+25976,TIPARP,TCDD-inducible poly(ADP-ribose) polymerase,TIPARP,hgnc_entrez_id,mapped,TIPARP,13274.0,True,True,True
+55818,KDM3A,lysine (K)-specific demethylase 3A,KDM3A,hgnc_entrez_id,mapped,KDM3A,6454.0,True,True,True
+5096,PCCB,propionyl-CoA carboxylase beta subunit,PCCB,hgnc_entrez_id,mapped,PCCB,9143.0,True,True,True
+9842,PLEKHM1,pleckstrin homology and RUN domain containing M1,PLEKHM1,hgnc_entrez_id,mapped,PLEKHM1,9686.0,True,True,True
+23210,JMJD6,jumonji domain containing 6,JMJD6,hgnc_entrez_id,mapped,JMJD6,6280.0,True,True,True
+30849,PIK3R4,phosphoinositide-3-kinase regulatory subunit 4,PIK3R4,hgnc_entrez_id,mapped,PIK3R4,9535.0,True,True,True
+23271,CAMSAP2,calmodulin regulated spectrin associated protein family member 2,CAMSAP2,hgnc_entrez_id,mapped,CAMSAP2,1636.0,True,True,True
+23325,KIAA1033,KIAA1033,WASHC4,hgnc_entrez_id,mapped,WASHC4,14534.0,True,True,True
+6509,SLC1A4,"solute carrier family 1 (glutamate/neutral amino acid transporter), member 4",SLC1A4,hgnc_entrez_id,mapped,SLC1A4,11830.0,True,True,True
+10973,ASCC3,activating signal cointegrator 1 complex subunit 3,ASCC3,hgnc_entrez_id,mapped,ASCC3,971.0,True,True,True
+91137,SLC25A46,solute carrier family 25 member 46,SLC25A46,hgnc_entrez_id,mapped,SLC25A46,11896.0,True,True,True
+23076,RRP1B,ribosomal RNA processing 1B,RRP1B,hgnc_entrez_id,mapped,RRP1B,11151.0,True,True,True
+8312,AXIN1,axin 1,AXIN1,hgnc_entrez_id,mapped,AXIN1,1160.0,True,True,True
+23142,DCUN1D4,defective in cullin neddylation 1 domain containing 4,DCUN1D4,hgnc_entrez_id,mapped,DCUN1D4,3152.0,True,True,True
+8550,MAPKAPK5,mitogen-activated protein kinase-activated protein kinase 5,MAPKAPK5,hgnc_entrez_id,mapped,MAPKAPK5,7326.0,True,True,True
+25966,C2CD2,C2 calcium-dependent domain containing 2,C2CD2,hgnc_entrez_id,mapped,C2CD2,1514.0,True,True,True
+23335,WDR7,WD repeat domain 7,WDR7,hgnc_entrez_id,mapped,WDR7,14586.0,True,True,True
+6832,SUPV3L1,Suv3 like RNA helicase,SUPV3L1,hgnc_entrez_id,mapped,SUPV3L1,12773.0,True,True,True
+23097,CDK19,cyclin-dependent kinase 19,CDK19,hgnc_entrez_id,mapped,CDK19,2070.0,True,True,True
+57215,THAP11,THAP domain containing 11,THAP11,hgnc_entrez_id,mapped,THAP11,13195.0,True,True,True
+9847,C2CD5,C2 calcium-dependent domain containing 5,C2CD5,hgnc_entrez_id,mapped,C2CD5,1519.0,True,True,True
+5438,POLR2I,"polymerase (RNA) II (DNA directed) polypeptide I, 14.5kDa",POLR2I,hgnc_entrez_id,mapped,POLR2I,9838.0,True,True,True
+5986,RFNG,RFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase,RFNG,hgnc_entrez_id,mapped,RFNG,10778.0,True,True,True
+22934,RPIA,ribose 5-phosphate isomerase A,RPIA,hgnc_entrez_id,mapped,RPIA,11048.0,True,True,True
+11011,TLK2,tousled like kinase 2,TLK2,hgnc_entrez_id,mapped,TLK2,13302.0,True,True,True
+7074,TIAM1,T-cell lymphoma invasion and metastasis 1,TIAM1,hgnc_entrez_id,mapped,TIAM1,13238.0,True,True,True
+3206,HOXA10,homeobox A10,HOXA10,hgnc_entrez_id,mapped,HOXA10,5689.0,True,True,True
+91949,COG7,component of oligomeric golgi complex 7,COG7,hgnc_entrez_id,mapped,COG7,2608.0,True,True,True
+148022,TICAM1,toll like receptor adaptor molecule 1,TICAM1,hgnc_entrez_id,mapped,TICAM1,13240.0,True,True,True
+55958,KLHL9,kelch like family member 9,KLHL9,hgnc_entrez_id,mapped,KLHL9,6618.0,True,True,True
+23161,SNX13,sorting nexin 13,SNX13,hgnc_entrez_id,mapped,SNX13,12286.0,True,True,True
+6714,SRC,"SRC proto-oncogene, non-receptor tyrosine kinase",SRC,hgnc_entrez_id,mapped,SRC,12509.0,True,True,True
+81544,GDPD5,glycerophosphodiester phosphodiesterase domain containing 5,GDPD5,hgnc_entrez_id,mapped,GDPD5,4904.0,True,True,True
+5331,PLCB3,phospholipase C beta 3,PLCB3,hgnc_entrez_id,mapped,PLCB3,9638.0,True,True,True
+6909,TBX2,T-box 2,TBX2,hgnc_entrez_id,mapped,TBX2,13013.0,True,True,True
+323,APBB2,amyloid beta precursor protein binding family B member 2,APBB2,hgnc_entrez_id,mapped,APBB2,715.0,True,True,True
+23149,FCHO1,FCH domain only 1,FCHO1,hgnc_entrez_id,mapped,FCHO1,4419.0,True,True,True
+388650,FAM69A,family with sequence similarity 69 member A,DIPK1A,hgnc_entrez_id,mapped,DIPK1A,3323.0,True,True,True
+427,ASAH1,N-acylsphingosine amidohydrolase (acid ceramidase) 1,ASAH1,hgnc_entrez_id,mapped,ASAH1,947.0,True,True,True
+6597,SMARCA4,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4",SMARCA4,hgnc_entrez_id,mapped,SMARCA4,12149.0,True,True,True
+6657,SOX2,SRY-box 2,SOX2,hgnc_entrez_id,mapped,SOX2,12352.0,True,True,True
+3202,HOXA5,homeobox A5,HOXA5,hgnc_entrez_id,mapped,HOXA5,5695.0,True,True,True
+375346,TMEM110,transmembrane protein 110,STIMATE,hgnc_entrez_id,mapped,STIMATE,12652.0,True,True,True
+27109,ATP5S,"ATP synthase, H+ transporting, mitochondrial Fo complex subunit s (factor B)",DMAC2L,hgnc_entrez_id,mapped,DMAC2L,3373.0,True,True,True
+93594,TBC1D31,TBC1 domain family member 31,TBC1D31,hgnc_entrez_id,mapped,TBC1D31,12981.0,True,True,True
+4793,NFKBIB,"nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, beta",NFKBIB,hgnc_entrez_id,mapped,NFKBIB,8411.0,True,True,True
+2017,CTTN,cortactin,CTTN,hgnc_entrez_id,mapped,CTTN,2950.0,True,True,True
+10038,PARP2,poly(ADP-ribose) polymerase 2,PARP2,hgnc_entrez_id,mapped,PARP2,9095.0,True,True,True
+8574,AKR7A2,"aldo-keto reductase family 7, member A2",AKR7A2,hgnc_entrez_id,not_in_model,,,False,False,False
+30,ACAA1,acetyl-CoA acyltransferase 1,ACAA1,hgnc_entrez_id,not_in_model,,,False,False,False
+25803,SPDEF,SAM pointed domain containing ETS transcription factor,SPDEF,hgnc_entrez_id,mapped,SPDEF,12417.0,True,True,True
+5898,RALA,v-ral simian leukemia viral oncogene homolog A (ras related),RALA,hgnc_entrez_id,mapped,RALA,10537.0,True,True,True
+2113,ETS1,v-ets avian erythroblastosis virus E26 oncogene homolog 1,ETS1,hgnc_entrez_id,mapped,ETS1,4085.0,True,True,True
+891,CCNB1,cyclin B1,CCNB1,hgnc_entrez_id,mapped,CCNB1,1883.0,True,True,True
+7690,ZNF131,zinc finger protein 131,ZBTB35,hgnc_entrez_id,mapped,ZNF131,14938.0,True,True,True
+9637,FEZ2,fasciculation and elongation protein zeta 2,FEZ2,hgnc_entrez_id,mapped,FEZ2,4448.0,True,True,True
+50814,NSDHL,NAD(P) dependent steroid dehydrogenase-like,NSDHL,hgnc_entrez_id,mapped,NSDHL,8696.0,True,True,True
+1759,DNM1,dynamin 1,DNM1,hgnc_entrez_id,mapped,DNM1,3473.0,True,True,True
+29978,UBQLN2,ubiquilin 2,UBQLN2,hgnc_entrez_id,mapped,UBQLN2,14204.0,True,True,True
+23139,MAST2,microtubule associated serine/threonine kinase 2,MAST2,hgnc_entrez_id,mapped,MAST2,7360.0,True,True,True
+23321,TRIM2,tripartite motif containing 2,TRIM2,hgnc_entrez_id,mapped,TRIM2,13821.0,True,True,True
+3508,IGHMBP2,immunoglobulin mu binding protein 2,IGHMBP2,hgnc_entrez_id,mapped,IGHMBP2,5936.0,True,True,True
+2908,NR3C1,nuclear receptor subfamily 3 group C member 1,NR3C1,hgnc_entrez_id,mapped,NR3C1,8653.0,True,True,True
+23368,PPP1R13B,protein phosphatase 1 regulatory subunit 13B,PPP1R13B,hgnc_entrez_id,mapped,PPP1R13B,9943.0,True,True,True
+6347,CCL2,chemokine (C-C motif) ligand 2,CCL2,hgnc_entrez_id,not_in_model,,,False,False,False
+2064,ERBB2,erb-b2 receptor tyrosine kinase 2,ERBB2,hgnc_entrez_id,mapped,ERBB2,4013.0,True,True,True
+23223,RRP12,ribosomal RNA processing 12 homolog,RRP12,hgnc_entrez_id,mapped,RRP12,11149.0,True,True,True
+9455,HOMER2,homer scaffolding protein 2,HOMER2,hgnc_entrez_id,mapped,HOMER2,5679.0,True,True,True
+7416,VDAC1,voltage dependent anion channel 1,VDAC1,hgnc_entrez_id,mapped,VDAC1,14420.0,True,True,True
+9709,HERPUD1,"homocysteine-inducible, endoplasmic reticulum stress-inducible, ubiquitin-like domain member 1",HERPUD1,hgnc_entrez_id,mapped,HERPUD1,5556.0,True,True,True
+2597,GAPDH,glyceraldehyde-3-phosphate dehydrogenase,GAPDH,hgnc_entrez_id,not_in_model,,,False,False,False
+3108,HLA-DMA,"major histocompatibility complex, class II, DM alpha",HLA-DMA,hgnc_entrez_id,mapped,HLA-DMA,5618.0,True,True,True
+3416,IDE,insulin degrading enzyme,IDE,hgnc_entrez_id,mapped,IDE,5870.0,True,True,True
+51335,NGRN,"neugrin, neurite outgrowth associated",NGRN,hgnc_entrez_id,mapped,NGRN,8430.0,True,True,True
+55748,CNDP2,CNDP dipeptidase 2 (metallopeptidase M20 family),CNDP2,hgnc_entrez_id,mapped,CNDP2,2534.0,True,True,True
+56889,TM9SF3,transmembrane 9 superfamily member 3,TM9SF3,hgnc_entrez_id,mapped,TM9SF3,13334.0,True,True,True
+55256,ADI1,acireductone dioxygenase 1,ADI1,hgnc_entrez_id,mapped,ADI1,322.0,True,True,True
+11031,RAB31,"RAB31, member RAS oncogene family",RAB31,hgnc_entrez_id,mapped,RAB31,10456.0,True,True,True
+23585,TMEM50A,transmembrane protein 50A,TMEM50A,hgnc_entrez_id,mapped,TMEM50A,13538.0,True,True,True
+51495,HACD3,3-hydroxyacyl-CoA dehydratase 3,HACD3,hgnc_entrez_id,mapped,HACD3,5445.0,True,True,True
+10652,YKT6,YKT6 v-SNARE homolog (S. cerevisiae),YKT6,hgnc_entrez_id,mapped,YKT6,14726.0,True,True,True
+58533,SNX6,sorting nexin 6,SNX6,hgnc_entrez_id,mapped,SNX6,12308.0,True,True,True
+28969,BZW2,basic leucine zipper and W2 domains 2,BZW2,hgnc_entrez_id,mapped,BZW2,1492.0,True,True,True
+51465,UBE2J1,"ubiquitin conjugating enzyme E2, J1",UBE2J1,hgnc_entrez_id,mapped,UBE2J1,14170.0,True,True,True
+51466,EVL,Enah/Vasp-like,EVL,hgnc_entrez_id,mapped,EVL,4103.0,True,True,True
+25825,BACE2,beta-site APP-cleaving enzyme 2,BACE2,hgnc_entrez_id,mapped,BACE2,1208.0,True,True,True
+4282,MIF,macrophage migration inhibitory factor (glycosylation-inhibiting factor),MIF,hgnc_entrez_id,mapped,MIF,7627.0,True,True,True
+55011,PIH1D1,PIH1 domain containing 1,PIH1D1,hgnc_entrez_id,mapped,PIH1D1,9520.0,True,True,True
+51719,CAB39,calcium binding protein 39,CAB39,hgnc_entrez_id,mapped,CAB39,1546.0,True,True,True
+55699,IARS2,"isoleucyl-tRNA synthetase 2, mitochondrial",IARS2,hgnc_entrez_id,mapped,IARS2,5852.0,True,True,True
+1829,DSG2,desmoglein 2,DSG2,hgnc_entrez_id,mapped,DSG2,3577.0,True,True,True
+23588,KLHDC2,kelch domain containing 2,KLHDC2,hgnc_entrez_id,mapped,KLHDC2,6575.0,True,True,True
+9531,BAG3,BCL2 associated athanogene 3,BAG3,hgnc_entrez_id,mapped,BAG3,1214.0,True,True,True
+10695,CNPY3,canopy FGF signaling regulator 3,CNPY3,hgnc_entrez_id,mapped,CNPY3,2572.0,True,True,True
+51056,LAP3,leucine aminopeptidase 3,LAP3,hgnc_entrez_id,mapped,LAP3,6761.0,True,True,True
+10273,STUB1,"STIP1 homology and U-box containing protein 1, E3 ubiquitin protein ligase",STUB1,hgnc_entrez_id,mapped,STUB1,12709.0,True,True,True
+51070,NOSIP,nitric oxide synthase interacting protein,NOSIP,hgnc_entrez_id,mapped,NOSIP,8574.0,True,True,True
+58478,ENOPH1,enolase-phosphatase 1,ENOPH1,hgnc_entrez_id,mapped,ENOPH1,3933.0,True,True,True
+51170,HSD17B11,hydroxysteroid (17-beta) dehydrogenase 11,HSD17B11,hgnc_entrez_id,mapped,HSD17B11,5774.0,True,True,True
+58472,SQRDL,sulfide quinone reductase-like (yeast),SQOR,hgnc_entrez_id,mapped,SQOR,12505.0,True,True,True
+51116,MRPS2,mitochondrial ribosomal protein S2,MRPS2,hgnc_entrez_id,mapped,MRPS2,7877.0,True,True,True
+79902,NUP85,nucleoporin 85kDa,NUP85,hgnc_entrez_id,mapped,NUP85,8795.0,True,True,True
+51024,FIS1,"fission, mitochondrial 1",FIS1,hgnc_entrez_id,mapped,FIS1,4519.0,True,True,True
+51203,NUSAP1,nucleolar and spindle associated protein 1,NUSAP1,hgnc_entrez_id,mapped,NUSAP1,8801.0,True,True,True
+51021,MRPS16,mitochondrial ribosomal protein S16,MRPS16,hgnc_entrez_id,mapped,MRPS16,7872.0,True,True,True
+51569,UFM1,ubiquitin-fold modifier 1,UFM1,hgnc_entrez_id,mapped,UFM1,14242.0,True,True,True
+64943,NT5DC2,5'-nucleotidase domain containing 2,NT5DC2,hgnc_entrez_id,mapped,NT5DC2,8720.0,True,True,True
+26993,AKAP8L,A-kinase anchoring protein 8 like,AKAP8L,hgnc_entrez_id,mapped,AKAP8L,451.0,True,True,True
+56654,NPDC1,"neural proliferation, differentiation and control, 1",NPDC1,hgnc_entrez_id,mapped,NPDC1,8599.0,True,True,True
+55608,ANKRD10,ankyrin repeat domain 10,ANKRD10,hgnc_entrez_id,mapped,ANKRD10,598.0,True,True,True
+51071,DERA,deoxyribose-phosphate aldolase (putative),DERA,hgnc_entrez_id,mapped,DERA,3248.0,True,True,True
+54881,TEX10,testis expressed 10,TEX10,hgnc_entrez_id,mapped,TEX10,13125.0,True,True,True
+55148,UBR7,ubiquitin protein ligase E3 component n-recognin 7 (putative),UBR7,hgnc_entrez_id,mapped,UBR7,14212.0,True,True,True
+23670,TMEM2,transmembrane protein 2,CEMIP2,hgnc_entrez_id,mapped,CEMIP2,2140.0,True,True,True
+57761,TRIB3,tribbles pseudokinase 3,TRIB3,hgnc_entrez_id,mapped,TRIB3,13813.0,True,True,True
+55893,ZNF395,zinc finger protein 395,ZNF395,hgnc_entrez_id,mapped,ZNF395,15008.0,True,True,True
+56997,ADCK3,aarF domain containing kinase 3,COQ8A,hgnc_entrez_id,mapped,COQ8A,2693.0,True,True,True
+51015,ISOC1,isochorismatase domain containing 1,ISOC1,hgnc_entrez_id,mapped,ISOC1,6189.0,True,True,True
+80212,CCDC92,coiled-coil domain containing 92,CCDC92,hgnc_entrez_id,mapped,CCDC92,1852.0,True,True,True
+51026,GOLT1B,golgi transport 1B,GOLT1B,hgnc_entrez_id,mapped,GOLT1B,5121.0,True,True,True
+51282,SCAND1,SCAN domain containing 1,SCAND1,hgnc_entrez_id,mapped,SCAND1,11333.0,True,True,True
+7376,NR1H2,nuclear receptor subfamily 1 group H member 2,NR1H2,hgnc_entrez_id,mapped,NR1H2,8640.0,True,True,True
+25987,TSKU,"tsukushi, small leucine rich proteoglycan",TSKU,hgnc_entrez_id,mapped,TSKU,13950.0,True,True,True
+64429,ZDHHC6,"zinc finger, DHHC-type containing 6",ZDHHC6,hgnc_entrez_id,mapped,ZDHHC6,14846.0,True,True,True
+55111,PLEKHJ1,pleckstrin homology domain containing J1,PLEKHJ1,hgnc_entrez_id,mapped,PLEKHJ1,9685.0,True,True,True
+51422,PRKAG2,protein kinase AMP-activated non-catalytic subunit gamma 2,PRKAG2,hgnc_entrez_id,mapped,PRKAG2,10064.0,True,True,True
+26520,TIMM9,translocase of inner mitochondrial membrane 9 homolog (yeast),TIMM9,hgnc_entrez_id,mapped,TIMM9,13264.0,True,True,True
+27244,SESN1,sestrin 1,SESN1,hgnc_entrez_id,mapped,SESN1,11560.0,True,True,True
+51053,GMNN,"geminin, DNA replication inhibitor",GMNN,hgnc_entrez_id,mapped,GMNN,5055.0,True,True,True
+79174,CRELD2,cysteine rich with EGF like domains 2,CRELD2,hgnc_entrez_id,mapped,CRELD2,2809.0,True,True,True
+53343,NUDT9,nudix hydrolase 9,NUDT9,hgnc_entrez_id,mapped,NUDT9,8772.0,True,True,True
+55038,CDCA4,cell division cycle associated 4,CDCA4,hgnc_entrez_id,mapped,CDCA4,2023.0,True,True,True
+29937,NENF,neudesin neurotrophic factor,NENF,hgnc_entrez_id,mapped,NENF,8365.0,True,True,True
+64781,CERK,ceramide kinase,CERK,hgnc_entrez_id,mapped,CERK,2199.0,True,True,True
+29103,DNAJC15,DnaJ heat shock protein family (Hsp40) member C15,DNAJC15,hgnc_entrez_id,mapped,DNAJC15,3438.0,True,True,True
+50865,HEBP1,heme binding protein 1,HEBP1,hgnc_entrez_id,mapped,HEBP1,5529.0,True,True,True
+1788,DNMT3A,DNA (cytosine-5-)-methyltransferase 3 alpha,DNMT3A,hgnc_entrez_id,mapped,DNMT3A,3479.0,True,True,True
+54442,KCTD5,potassium channel tetramerization domain containing 5,KCTD5,hgnc_entrez_id,mapped,KCTD5,6441.0,True,True,True
+30001,ERO1A,endoplasmic reticulum oxidoreductase alpha,ERO1A,hgnc_entrez_id,mapped,ERO1A,4049.0,True,True,True
+51293,CD320,CD320 molecule,CD320,hgnc_entrez_id,mapped,CD320,1957.0,True,True,True
+79947,DHDDS,dehydrodolichyl diphosphate synthase subunit,DHDDS,hgnc_entrez_id,mapped,DHDDS,3280.0,True,True,True
+29082,CHMP4A,charged multivesicular body protein 4A,CHMP4A,hgnc_entrez_id,not_in_model,,,False,False,False
+63874,ABHD4,abhydrolase domain containing 4,ABHD4,hgnc_entrez_id,mapped,ABHD4,84.0,True,True,True
+79600,TCTN1,tectonic family member 1,TCTN1,hgnc_entrez_id,mapped,TCTN1,13062.0,True,True,True
+55127,HEATR1,HEAT repeat containing 1,HEATR1,hgnc_entrez_id,mapped,HEATR1,5522.0,True,True,True
+55847,CISD1,CDGSH iron sulfur domain 1,CISD1,hgnc_entrez_id,mapped,CISD1,2391.0,True,True,True
+6839,SUV39H1,suppressor of variegation 3-9 homolog 1,SUV39H1,hgnc_entrez_id,mapped,SUV39H1,12784.0,True,True,True
+51160,VPS28,vacuolar protein sorting 28 homolog (S. cerevisiae),VPS28,hgnc_entrez_id,mapped,VPS28,14466.0,True,True,True
+54512,EXOSC4,exosome component 4,EXOSC4,hgnc_entrez_id,mapped,EXOSC4,4130.0,True,True,True
+64428,NARFL,nuclear prelamin A recognition factor-like,CIAO3,hgnc_entrez_id,mapped,CIAO3,2369.0,True,True,True
+79643,CHMP6,charged multivesicular body protein 6,CHMP6,hgnc_entrez_id,mapped,CHMP6,2311.0,True,True,True
+29763,PACSIN3,protein kinase C and casein kinase substrate in neurons 3,PACSIN3,hgnc_entrez_id,mapped,PACSIN3,9019.0,True,True,True
+10112,KIF20A,kinesin family member 20A,KIF20A,hgnc_entrez_id,mapped,KIF20A,6516.0,True,True,True
+29911,HOOK2,hook microtubule-tethering protein 2,HOOK2,hgnc_entrez_id,mapped,HOOK2,5683.0,True,True,True
+54957,TXNL4B,thioredoxin like 4B,TXNL4B,hgnc_entrez_id,mapped,TXNL4B,14115.0,True,True,True
+10451,VAV3,vav guanine nucleotide exchange factor 3,VAV3,hgnc_entrez_id,mapped,VAV3,14410.0,True,True,True
+54733,SLC35F2,solute carrier family 35 member F2,SLC35F2,hgnc_entrez_id,mapped,SLC35F2,11970.0,True,True,True
+56940,DUSP22,dual specificity phosphatase 22,DUSP22,hgnc_entrez_id,mapped,DUSP22,3618.0,True,True,True
+10644,IGF2BP2,insulin like growth factor 2 mRNA binding protein 2,IGF2BP2,hgnc_entrez_id,mapped,IGF2BP2,5923.0,True,True,True
+55012,PPP2R3C,"protein phosphatase 2 regulatory subunit B'', gamma",PPP2R3C,hgnc_entrez_id,mapped,PPP2R3C,9982.0,True,True,True
+27242,TNFRSF21,tumor necrosis factor receptor superfamily member 21,TNFRSF21,hgnc_entrez_id,mapped,TNFRSF21,13630.0,True,True,True
+79850,FAM57A,family with sequence similarity 57 member A,TLCD3A,hgnc_entrez_id,mapped,TLCD3A,13290.0,True,True,True
+4851,NOTCH1,notch 1,NOTCH1,hgnc_entrez_id,mapped,NOTCH1,8576.0,True,True,True
+55129,ANO10,anoctamin 10,ANO10,hgnc_entrez_id,mapped,ANO10,649.0,True,True,True
+11284,PNKP,polynucleotide kinase 3'-phosphatase,PNKP,hgnc_entrez_id,mapped,PNKP,9762.0,True,True,True
+1906,EDN1,endothelin 1,EDN1,hgnc_entrez_id,mapped,EDN1,3714.0,True,True,True
+60493,FASTKD5,FAST kinase domains 5,FASTKD5,hgnc_entrez_id,mapped,FASTKD5,4332.0,True,True,True
+79006,METRN,"meteorin, glial cell differentiation regulator",METRN,hgnc_entrez_id,mapped,METRN,7529.0,True,True,True
+8270,LAGE3,L antigen family member 3,LAGE3,hgnc_entrez_id,not_in_model,,,False,False,False
+5827,PXMP2,peroxisomal membrane protein 2,PXMP2,hgnc_entrez_id,mapped,PXMP2,10391.0,True,True,True
+51005,AMDHD2,amidohydrolase domain containing 2,AMDHD2,hgnc_entrez_id,mapped,AMDHD2,532.0,True,True,True
+79170,PRR15L,proline rich 15 like,PRR15L,hgnc_entrez_id,mapped,PRR15L,10145.0,True,True,True
+79187,FSD1,fibronectin type III and SPRY domain containing 1,FSD1,hgnc_entrez_id,mapped,FSD1,4677.0,True,True,True
+29928,TIMM22,translocase of inner mitochondrial membrane 22 homolog (yeast),TIMM22,hgnc_entrez_id,mapped,TIMM22,13258.0,True,True,True
+80204,FBXO11,F-box protein 11,FBXO11,hgnc_entrez_id,mapped,FBXO11,4372.0,True,True,True
+64080,RBKS,ribokinase,RBKS,hgnc_entrez_id,mapped,RBKS,10638.0,True,True,True
+79094,CHAC1,ChaC glutathione-specific gamma-glutamylcyclotransferase 1,CHAC1,hgnc_entrez_id,mapped,CHAC1,2263.0,True,True,True
+4482,MSRA,methionine sulfoxide reductase A,MSRA,hgnc_entrez_id,mapped,MSRA,7929.0,True,True,True
+55008,HERC6,HECT and RLD domain containing E3 ubiquitin protein ligase family member 6,HERC6,hgnc_entrez_id,mapped,HERC6,5555.0,True,True,True
+51001,MTERF3,mitochondrial transcription termination factor 3,MTERF3,hgnc_entrez_id,mapped,MTERF3,7968.0,True,True,True
+23536,ADAT1,"adenosine deaminase, tRNA-specific 1",ADAT1,hgnc_entrez_id,mapped,ADAT1,271.0,True,True,True
+55033,FKBP14,FK506 binding protein 14,FKBP14,hgnc_entrez_id,mapped,FKBP14,4526.0,True,True,True
+56924,PAK6,p21 protein (Cdc42/Rac)-activated kinase 6,PAK6,hgnc_entrez_id,mapped,PAK6,9042.0,True,True,True
+5716,PSMD10,"proteasome 26S subunit, non-ATPase 10",PSMD10,hgnc_entrez_id,mapped,PSMD10,10240.0,True,True,True
+26511,CHIC2,cysteine rich hydrophobic domain 2,CHIC2,hgnc_entrez_id,mapped,CHIC2,2296.0,True,True,True
+55604,LRRC16A,leucine rich repeat containing 16A,CARMIL1,hgnc_entrez_id,mapped,CARMIL1,1678.0,True,True,True
+80746,TSEN2,tRNA splicing endonuclease subunit 2,TSEN2,hgnc_entrez_id,mapped,TSEN2,13936.0,True,True,True
+54807,ZNF586,zinc finger protein 586,ZNF586,hgnc_entrez_id,not_in_model,,,False,False,False
+80758,PRR7,proline rich 7 (synaptic),PRR7,hgnc_entrez_id,mapped,PRR7,10156.0,True,True,True
+54438,GFOD1,glucose-fructose oxidoreductase domain containing 1,GFOD1,hgnc_entrez_id,mapped,GFOD1,4923.0,True,True,True
+6676,SPAG4,sperm associated antigen 4,SPAG4,hgnc_entrez_id,mapped,SPAG4,12381.0,True,True,True
+57192,MCOLN1,mucolipin 1,MCOLN1,hgnc_entrez_id,mapped,MCOLN1,7429.0,True,True,True
+51385,ZNF589,zinc finger protein 589,ZNF589,hgnc_entrez_id,not_in_model,,,False,False,False
+11182,SLC2A6,"solute carrier family 2 (facilitated glucose transporter), member 6",SLC2A6,hgnc_entrez_id,mapped,SLC2A6,11930.0,True,True,True
+63933,MCUR1,mitochondrial calcium uniporter regulator 1,MCUR1,hgnc_entrez_id,mapped,MCUR1,7441.0,True,True,True
+54850,FBXL12,F-box and leucine-rich repeat protein 12,FBXL12,hgnc_entrez_id,mapped,FBXL12,4354.0,True,True,True
+29916,SNX11,sorting nexin 11,SNX11,hgnc_entrez_id,mapped,SNX11,12284.0,True,True,True
+55179,FAIM,Fas apoptotic inhibitory molecule,FAIM,hgnc_entrez_id,not_in_model,,,False,False,False
+29083,GTPBP8,GTP-binding protein 8 (putative),GTPBP8,hgnc_entrez_id,mapped,GTPBP8,5391.0,True,True,True
+7099,TLR4,toll like receptor 4,TLR4,hgnc_entrez_id,mapped,TLR4,13311.0,True,True,True
+79961,DENND2D,DENN/MADD domain containing 2D,DENND2D,hgnc_entrez_id,mapped,DENND2D,3232.0,True,True,True
+55825,PECR,peroxisomal trans-2-enoyl-CoA reductase,PECR,hgnc_entrez_id,mapped,PECR,9335.0,True,True,True
+51742,ARID4B,AT-rich interaction domain 4B,ARID4B,hgnc_entrez_id,mapped,ARID4B,862.0,True,True,True
+10818,FRS2,fibroblast growth factor receptor substrate 2,FRS2,hgnc_entrez_id,mapped,FRS2,4668.0,True,True,True
+81533,ITFG1,integrin alpha FG-GAP repeat containing 1,ITFG1,hgnc_entrez_id,mapped,ITFG1,6194.0,True,True,True
+665,BNIP3L,BCL2/adenovirus E1B 19kDa interacting protein 3-like,BNIP3L,hgnc_entrez_id,mapped,BNIP3L,1388.0,True,True,True
+10776,ARPP19,cAMP regulated phosphoprotein 19kDa,ARPP19,hgnc_entrez_id,mapped,ARPP19,922.0,True,True,True
+64422,ATG3,autophagy related 3,ATG3,hgnc_entrez_id,mapped,ATG3,1038.0,True,True,True
+10813,UTP14A,UTP14A small subunit processome component,UTP14A,hgnc_entrez_id,not_in_model,,,False,False,False
+80349,WDR61,WD repeat domain 61,SKIC8,hgnc_entrez_id,not_in_model,,,False,False,False
+1978,EIF4EBP1,eukaryotic translation initiation factor 4E binding protein 1,EIF4EBP1,hgnc_entrez_id,not_in_model,,,False,False,False
+83743,GRWD1,glutamate-rich WD repeat containing 1,GRWD1,hgnc_entrez_id,mapped,GRWD1,5332.0,True,True,True
+57406,ABHD6,abhydrolase domain containing 6,ABHD6,hgnc_entrez_id,mapped,ABHD6,86.0,True,True,True
+23410,SIRT3,sirtuin 3,SIRT3,hgnc_entrez_id,mapped,SIRT3,11737.0,True,True,True
+8996,NOL3,nucleolar protein 3,NOL3,hgnc_entrez_id,mapped,NOL3,8551.0,True,True,True
+55620,STAP2,signal transducing adaptor family member 2,STAP2,hgnc_entrez_id,mapped,STAP2,12622.0,True,True,True
+23597,ACOT9,acyl-CoA thioesterase 9,ACOT9,hgnc_entrez_id,not_in_model,,,False,False,False
+124583,CANT1,calcium activated nucleotidase 1,CANT1,hgnc_entrez_id,mapped,CANT1,1642.0,True,True,True
+54915,YTHDF1,YTH N(6)-methyladenosine RNA binding protein 1,YTHDF1,hgnc_entrez_id,mapped,YTHDF1,14738.0,True,True,True
+3157,HMGCS1,3-hydroxy-3-methylglutaryl-CoA synthase 1,HMGCS1,hgnc_entrez_id,mapped,HMGCS1,5642.0,True,True,True
+85377,MICALL1,MICAL like 1,MICALL1,hgnc_entrez_id,mapped,MICALL1,7609.0,True,True,True
+55793,FAM63A,family with sequence similarity 63 member A,MINDY1,hgnc_entrez_id,mapped,MINDY1,7634.0,True,True,True
+466,ATF1,activating transcription factor 1,ATF1,hgnc_entrez_id,mapped,ATF1,1020.0,True,True,True
+54681,P4HTM,"prolyl 4-hydroxylase, transmembrane (endoplasmic reticulum)",P4HTM,hgnc_entrez_id,mapped,P4HTM,9004.0,True,True,True
+11000,SLC27A3,"solute carrier family 27 (fatty acid transporter), member 3",SLC27A3,hgnc_entrez_id,mapped,SLC27A3,11913.0,True,True,True
+6915,TBXA2R,thromboxane A2 receptor,TBXA2R,hgnc_entrez_id,mapped,TBXA2R,13021.0,True,True,True
+6253,RTN2,reticulon 2,RTN2,hgnc_entrez_id,mapped,RTN2,11194.0,True,True,True
+7264,TSTA3,tissue specific transplantation antigen P35B,GFUS,hgnc_entrez_id,mapped,GFUS,4932.0,True,True,True
+5467,PPARD,peroxisome proliferator activated receptor delta,PPARD,hgnc_entrez_id,mapped,PPARD,9889.0,True,True,True
+2767,GNA11,"guanine nucleotide binding protein (G protein), alpha 11 (Gq class)",GNA11,hgnc_entrez_id,mapped,GNA11,5061.0,True,True,True
+23038,WDTC1,WD and tetratricopeptide repeats 1,WDTC1,hgnc_entrez_id,mapped,WDTC1,14604.0,True,True,True
+57048,PLSCR3,phospholipid scramblase 3,PLSCR3,hgnc_entrez_id,mapped,PLSCR3,9726.0,True,True,True
+79716,NPEPL1,aminopeptidase-like 1,NPEPL1,hgnc_entrez_id,mapped,NPEPL1,8600.0,True,True,True

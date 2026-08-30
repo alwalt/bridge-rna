@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "split": "unseen",
+    "study_exposure": "unseen_study",
+    "mapping_status": "mapped_single"
+  },
+  "evaluation_samples": 2000,
+  "sample_overlap": 0,
+  "study_overlap": 0,
+  "discovery": {
+    "human": {
+      "samples": 5000,
+      "studies": 2549,
+      "ordered_sample_sha256": "9754575e4a1670790f5f27db54d5437dc02c131925004fe90a0f6ef8a7f25876"
+    },
+    "mouse": {
+      "samples": 5000,
+      "studies": 828,
+      "ordered_sample_sha256": "379e7bed5e4cfef0e482fd202b23dcc3aa7cc4e3b7d3acacc50f893910475f2d"
+    }
+  }
+}
