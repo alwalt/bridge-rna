@@ -1,0 +1,19 @@
+{
+  "status": "exploratory_full-vocabulary_ranking",
+  "objective": "marginal visible-gene utility for predicting individual masked genes across biological samples",
+  "visible_counts": [
+    500,
+    1000
+  ],
+  "probe_folds": 4,
+  "panels_per_fold": 24,
+  "samples_per_species": 500,
+  "sample_selection": "frozen deterministic one-sample-per-unseen-study",
+  "species": [
+    "human",
+    "mouse"
+  ],
+  "benchmark_seed": 20260828,
+  "top_n_selected_during_discovery": null,
+  "existing_rankings_modified": false
+}

@@ -1,0 +1,28 @@
+{
+  "status": "frozen_before_external_validation",
+  "objective": "masked-gene prediction across external biological samples",
+  "top_panel_size": 1000,
+  "random_replicates": 50,
+  "benchmark_seed": 20260828,
+  "random_seed_offset": 30000,
+  "ranking_inputs": {
+    "human": {
+      "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/gene_inference_human_consensus_ranking.parquet",
+      "sha256": "278d27ab0fc8a0b59b6b97c252ed6e2cc2f6b3f651d1fbb05db90cdaf8cbae86"
+    },
+    "mouse": {
+      "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/gene_inference_mouse_consensus_ranking.parquet",
+      "sha256": "6c2f678c3f1664bdf3f07b74039e0ef287e2e32e47f0f0f7304e3b75abfd17b4"
+    }
+  },
+  "cross_species_selection": "mean percentile rank of human and mouse size-consensus scores",
+  "l1000_input": {
+    "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/l1000_model_mapping.parquet",
+    "sha256": "3e9c87b608eb5122d24c1026fa60f611d32e2e4aab78256d15686e82f62c1be3",
+    "official_landmarks": 978,
+    "model_mapped": 922,
+    "not_in_model": 56
+  },
+  "frozen_panel_sha256": "0940805247929277800ae615a4d459b3795ffef4af6ee7bf3411bf204a7c397f",
+  "policy": "Do not modify or regenerate after viewing external validation results."
+}

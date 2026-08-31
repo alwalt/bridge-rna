@@ -1,0 +1,1289 @@
+[mouse] balanced discovery: 500 samples, 500 studies
+[human] balanced discovery: 500 samples, 500 studies
+[inference] gene-inference human visible=500 fold=1/4 panel=1/24 samples=500 batch_size=4 device=cuda:0
+[inference] gene-inference mouse visible=500 fold=1/4 panel=1/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=1.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=1/24 samples=488/500 elapsed=1.0m rate=8.12/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=1/24 samples=464/500 elapsed=1.0m rate=7.70/s
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=1/24 samples=500/500 elapsed=1.0m rate=8.12/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=2/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=1/24 samples=500/500 elapsed=1.1m rate=7.70/s
+[inference] gene-inference human visible=500 fold=1/4 panel=2/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=2.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=2/24 samples=492/500 elapsed=1.0m rate=8.15/s
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=2/24 samples=500/500 elapsed=1.0m rate=8.15/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=3/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=2/24 samples=456/500 elapsed=1.0m rate=7.59/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=2/24 samples=500/500 elapsed=1.1m rate=7.59/s
+[inference] gene-inference human visible=500 fold=1/4 panel=3/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=3.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=3/24 samples=484/500 elapsed=1.0m rate=8.06/s
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=3/24 samples=500/500 elapsed=1.0m rate=8.06/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=4/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=3/24 samples=448/500 elapsed=1.0m rate=7.43/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=3/24 samples=500/500 elapsed=1.1m rate=7.43/s
+[inference] gene-inference human visible=500 fold=1/4 panel=4/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=4.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=4/24 samples=484/500 elapsed=1.0m rate=8.03/s
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=4/24 samples=500/500 elapsed=1.0m rate=8.03/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=5/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=4/24 samples=444/500 elapsed=1.0m rate=7.36/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=4/24 samples=500/500 elapsed=1.1m rate=7.37/s
+[inference] gene-inference human visible=500 fold=1/4 panel=5/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=5.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=5/24 samples=484/500 elapsed=1.0m rate=8.05/s
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=5/24 samples=500/500 elapsed=1.0m rate=8.05/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=6/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=5/24 samples=440/500 elapsed=1.0m rate=7.30/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=5/24 samples=500/500 elapsed=1.1m rate=7.28/s
+[inference] gene-inference human visible=500 fold=1/4 panel=6/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=6.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=6/24 samples=484/500 elapsed=1.0m rate=8.00/s
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=6/24 samples=500/500 elapsed=1.0m rate=8.00/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=7/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=6/24 samples=428/500 elapsed=1.0m rate=7.10/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=6/24 samples=500/500 elapsed=1.2m rate=7.09/s
+[inference] gene-inference human visible=500 fold=1/4 panel=7/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=7.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=7/24 samples=480/500 elapsed=1.0m rate=7.98/s
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=7/24 samples=500/500 elapsed=1.0m rate=7.98/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=8/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=7/24 samples=436/500 elapsed=1.0m rate=7.26/s
+[orchestrator heartbeat] elapsed=8.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=7/24 samples=500/500 elapsed=1.1m rate=7.29/s
+[inference] gene-inference human visible=500 fold=1/4 panel=8/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=8/24 samples=500/500 elapsed=1.0m rate=8.34/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=9/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=9.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=8/24 samples=480/500 elapsed=1.0m rate=7.98/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=8/24 samples=500/500 elapsed=1.0m rate=7.99/s
+[inference] gene-inference human visible=500 fold=1/4 panel=9/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=9/24 samples=500/500 elapsed=0.9m rate=9.04/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=10/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=10.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=9/24 samples=492/500 elapsed=1.0m rate=8.19/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=9/24 samples=500/500 elapsed=1.0m rate=8.19/s
+[inference] gene-inference human visible=500 fold=1/4 panel=10/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=10/24 samples=500/500 elapsed=0.9m rate=8.93/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=11/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=11.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=10/24 samples=480/500 elapsed=1.0m rate=7.94/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=10/24 samples=500/500 elapsed=1.0m rate=7.95/s
+[inference] gene-inference human visible=500 fold=1/4 panel=11/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=11/24 samples=500/500 elapsed=0.9m rate=8.92/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=12/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=12.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=12/24 samples=500/500 elapsed=0.9m rate=9.13/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=13/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=11/24 samples=496/500 elapsed=1.0m rate=8.27/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=11/24 samples=500/500 elapsed=1.0m rate=8.27/s
+[inference] gene-inference human visible=500 fold=1/4 panel=12/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=13/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=14/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=13.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=12/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=12/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference human visible=500 fold=1/4 panel=13/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=14/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=15/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=14.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=13/24 samples=496/500 elapsed=1.0m rate=8.23/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=13/24 samples=500/500 elapsed=1.0m rate=8.23/s
+[inference] gene-inference human visible=500 fold=1/4 panel=14/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=15/24 samples=500/500 elapsed=0.9m rate=9.12/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=16/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=15.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=14/24 samples=492/500 elapsed=1.0m rate=8.20/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=14/24 samples=500/500 elapsed=1.0m rate=8.20/s
+[inference] gene-inference human visible=500 fold=1/4 panel=15/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=16/24 samples=500/500 elapsed=0.9m rate=9.12/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=17/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=16.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=15/24 samples=492/500 elapsed=1.0m rate=8.17/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=15/24 samples=500/500 elapsed=1.0m rate=8.17/s
+[inference] gene-inference human visible=500 fold=1/4 panel=16/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=17/24 samples=500/500 elapsed=0.9m rate=9.09/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=18/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=17.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=16/24 samples=484/500 elapsed=1.0m rate=8.02/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=16/24 samples=500/500 elapsed=1.0m rate=8.02/s
+[inference] gene-inference human visible=500 fold=1/4 panel=17/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=18/24 samples=500/500 elapsed=0.9m rate=9.02/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=19/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=18.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=17/24 samples=472/500 elapsed=1.0m rate=7.80/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=17/24 samples=500/500 elapsed=1.1m rate=7.82/s
+[inference] gene-inference human visible=500 fold=1/4 panel=18/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=19/24 samples=500/500 elapsed=0.9m rate=8.78/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=20/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=19.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=18/24 samples=476/500 elapsed=1.0m rate=7.92/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=18/24 samples=500/500 elapsed=1.1m rate=7.92/s
+[inference] gene-inference human visible=500 fold=1/4 panel=19/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=20/24 samples=500/500 elapsed=0.9m rate=8.92/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=21/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=20.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=19/24 samples=476/500 elapsed=1.0m rate=7.93/s
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=21/24 samples=500/500 elapsed=0.9m rate=8.94/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=22/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=19/24 samples=500/500 elapsed=1.0m rate=7.94/s
+[inference] gene-inference human visible=500 fold=1/4 panel=20/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=21.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=22/24 samples=484/500 elapsed=1.0m rate=8.05/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=20/24 samples=420/500 elapsed=1.0m rate=6.95/s
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=22/24 samples=500/500 elapsed=1.0m rate=8.04/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=23/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=20/24 samples=500/500 elapsed=1.2m rate=6.95/s
+[inference] gene-inference human visible=500 fold=1/4 panel=21/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=22.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=23/24 samples=480/500 elapsed=1.0m rate=7.95/s
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=23/24 samples=500/500 elapsed=1.0m rate=7.95/s
+[inference] gene-inference mouse visible=500 fold=1/4 panel=24/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=21/24 samples=412/500 elapsed=1.0m rate=6.86/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=21/24 samples=500/500 elapsed=1.2m rate=6.86/s
+[inference] gene-inference human visible=500 fold=1/4 panel=22/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=23.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=24/24 samples=480/500 elapsed=1.0m rate=8.00/s
+[heartbeat] gene-inference mouse visible=500 fold=1/4 panel=24/24 samples=500/500 elapsed=1.0m rate=7.99/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=1/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=22/24 samples=420/500 elapsed=1.0m rate=6.96/s
+[orchestrator heartbeat] elapsed=24.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=22/24 samples=500/500 elapsed=1.2m rate=6.96/s
+[inference] gene-inference human visible=500 fold=1/4 panel=23/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=1/24 samples=480/500 elapsed=1.0m rate=8.00/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=1/24 samples=500/500 elapsed=1.0m rate=8.00/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=2/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=25.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=23/24 samples=416/500 elapsed=1.0m rate=6.89/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=23/24 samples=500/500 elapsed=1.2m rate=6.88/s
+[inference] gene-inference human visible=500 fold=1/4 panel=24/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=2/24 samples=480/500 elapsed=1.0m rate=7.98/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=2/24 samples=500/500 elapsed=1.0m rate=7.98/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=3/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=26.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=24/24 samples=420/500 elapsed=1.0m rate=6.95/s
+[heartbeat] gene-inference human visible=500 fold=1/4 panel=24/24 samples=500/500 elapsed=1.2m rate=6.95/s
+[inference] gene-inference human visible=500 fold=2/4 panel=1/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=3/24 samples=484/500 elapsed=1.0m rate=8.02/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=3/24 samples=500/500 elapsed=1.0m rate=8.03/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=4/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=27.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=1/24 samples=416/500 elapsed=1.0m rate=6.88/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=1/24 samples=500/500 elapsed=1.2m rate=6.88/s
+[inference] gene-inference human visible=500 fold=2/4 panel=2/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=4/24 samples=480/500 elapsed=1.0m rate=7.96/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=4/24 samples=500/500 elapsed=1.0m rate=7.97/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=5/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=28.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=2/24 samples=420/500 elapsed=1.0m rate=6.94/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=5/24 samples=484/500 elapsed=1.0m rate=8.02/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=5/24 samples=500/500 elapsed=1.0m rate=8.02/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=6/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=2/24 samples=500/500 elapsed=1.2m rate=6.93/s
+[inference] gene-inference human visible=500 fold=2/4 panel=3/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=29.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=6/24 samples=480/500 elapsed=1.0m rate=7.99/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=6/24 samples=500/500 elapsed=1.0m rate=7.99/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=7/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=3/24 samples=416/500 elapsed=1.0m rate=6.90/s
+[orchestrator heartbeat] elapsed=30.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=3/24 samples=500/500 elapsed=1.2m rate=6.90/s
+[inference] gene-inference human visible=500 fold=2/4 panel=4/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=7/24 samples=480/500 elapsed=1.0m rate=7.94/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=7/24 samples=500/500 elapsed=1.0m rate=7.94/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=8/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=31.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=4/24 samples=412/500 elapsed=1.0m rate=6.86/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=4/24 samples=500/500 elapsed=1.2m rate=6.88/s
+[inference] gene-inference human visible=500 fold=2/4 panel=5/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=8/24 samples=484/500 elapsed=1.0m rate=8.03/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=8/24 samples=500/500 elapsed=1.0m rate=8.03/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=9/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=32.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=5/24 samples=416/500 elapsed=1.0m rate=6.92/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=5/24 samples=500/500 elapsed=1.2m rate=6.92/s
+[inference] gene-inference human visible=500 fold=2/4 panel=6/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=9/24 samples=480/500 elapsed=1.0m rate=7.97/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=9/24 samples=500/500 elapsed=1.0m rate=7.97/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=10/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=33.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=6/24 samples=416/500 elapsed=1.0m rate=6.86/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=6/24 samples=500/500 elapsed=1.2m rate=6.85/s
+[inference] gene-inference human visible=500 fold=2/4 panel=7/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=10/24 samples=480/500 elapsed=1.0m rate=7.95/s
+[orchestrator heartbeat] elapsed=34.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=10/24 samples=500/500 elapsed=1.0m rate=7.96/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=11/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=7/24 samples=420/500 elapsed=1.0m rate=6.95/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=7/24 samples=500/500 elapsed=1.2m rate=6.95/s
+[inference] gene-inference human visible=500 fold=2/4 panel=8/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=35.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=11/24 samples=484/500 elapsed=1.0m rate=8.03/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=11/24 samples=500/500 elapsed=1.0m rate=8.03/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=12/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=8/24 samples=420/500 elapsed=1.0m rate=6.96/s
+[orchestrator heartbeat] elapsed=36.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=12/24 samples=488/500 elapsed=1.0m rate=8.10/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=12/24 samples=500/500 elapsed=1.0m rate=8.10/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=13/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=8/24 samples=500/500 elapsed=1.2m rate=6.98/s
+[inference] gene-inference human visible=500 fold=2/4 panel=9/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=37.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=13/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=13/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=14/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=9/24 samples=428/500 elapsed=1.0m rate=7.09/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=9/24 samples=500/500 elapsed=1.2m rate=7.09/s
+[inference] gene-inference human visible=500 fold=2/4 panel=10/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=38.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=14/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=14/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=15/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=10/24 samples=428/500 elapsed=1.0m rate=7.08/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=10/24 samples=500/500 elapsed=1.2m rate=7.08/s
+[inference] gene-inference human visible=500 fold=2/4 panel=11/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=39.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=15/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=15/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=16/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=11/24 samples=428/500 elapsed=1.0m rate=7.07/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=11/24 samples=500/500 elapsed=1.2m rate=7.07/s
+[inference] gene-inference human visible=500 fold=2/4 panel=12/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=40.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=16/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=16/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=17/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=12/24 samples=428/500 elapsed=1.0m rate=7.07/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=12/24 samples=500/500 elapsed=1.2m rate=7.07/s
+[inference] gene-inference human visible=500 fold=2/4 panel=13/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=41.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=17/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=17/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=18/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=13/24 samples=424/500 elapsed=1.0m rate=7.06/s
+[orchestrator heartbeat] elapsed=42.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=13/24 samples=500/500 elapsed=1.2m rate=7.06/s
+[inference] gene-inference human visible=500 fold=2/4 panel=14/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=18/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=18/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=19/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=43.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=14/24 samples=424/500 elapsed=1.0m rate=7.06/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=19/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=19/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=20/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=14/24 samples=500/500 elapsed=1.2m rate=7.06/s
+[inference] gene-inference human visible=500 fold=2/4 panel=15/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=44.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=20/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=20/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=21/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=15/24 samples=424/500 elapsed=1.0m rate=7.05/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=15/24 samples=500/500 elapsed=1.2m rate=7.05/s
+[inference] gene-inference human visible=500 fold=2/4 panel=16/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=45.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=21/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=21/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=22/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=16/24 samples=424/500 elapsed=1.0m rate=7.05/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=16/24 samples=500/500 elapsed=1.2m rate=7.05/s
+[inference] gene-inference human visible=500 fold=2/4 panel=17/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=46.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=22/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=22/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=23/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=17/24 samples=424/500 elapsed=1.0m rate=7.04/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=17/24 samples=500/500 elapsed=1.2m rate=7.04/s
+[inference] gene-inference human visible=500 fold=2/4 panel=18/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=47.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=23/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=23/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=2/4 panel=24/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=18/24 samples=424/500 elapsed=1.0m rate=7.04/s
+[orchestrator heartbeat] elapsed=48.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=18/24 samples=500/500 elapsed=1.2m rate=7.04/s
+[inference] gene-inference human visible=500 fold=2/4 panel=19/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=24/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=2/4 panel=24/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=1/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=49.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=19/24 samples=424/500 elapsed=1.0m rate=7.05/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=19/24 samples=500/500 elapsed=1.2m rate=7.05/s
+[inference] gene-inference human visible=500 fold=2/4 panel=20/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=1/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=1/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=2/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=50.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=20/24 samples=424/500 elapsed=1.0m rate=7.06/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=2/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=2/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=3/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=20/24 samples=500/500 elapsed=1.2m rate=7.07/s
+[inference] gene-inference human visible=500 fold=2/4 panel=21/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=51.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=3/24 samples=480/500 elapsed=1.0m rate=7.96/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=3/24 samples=500/500 elapsed=1.0m rate=7.96/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=4/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=21/24 samples=412/500 elapsed=1.0m rate=6.81/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=21/24 samples=500/500 elapsed=1.2m rate=6.84/s
+[inference] gene-inference human visible=500 fold=2/4 panel=22/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=52.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=4/24 samples=484/500 elapsed=1.0m rate=8.04/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=4/24 samples=500/500 elapsed=1.0m rate=8.04/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=5/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=22/24 samples=420/500 elapsed=1.0m rate=6.95/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=22/24 samples=500/500 elapsed=1.2m rate=6.93/s
+[inference] gene-inference human visible=500 fold=2/4 panel=23/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=53.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=5/24 samples=480/500 elapsed=1.0m rate=7.97/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=5/24 samples=500/500 elapsed=1.0m rate=7.97/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=6/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=23/24 samples=412/500 elapsed=1.0m rate=6.87/s
+[orchestrator heartbeat] elapsed=54.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=23/24 samples=500/500 elapsed=1.2m rate=6.87/s
+[inference] gene-inference human visible=500 fold=2/4 panel=24/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=6/24 samples=480/500 elapsed=1.0m rate=7.98/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=6/24 samples=500/500 elapsed=1.0m rate=7.98/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=7/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=55.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=24/24 samples=416/500 elapsed=1.0m rate=6.93/s
+[heartbeat] gene-inference human visible=500 fold=2/4 panel=24/24 samples=500/500 elapsed=1.2m rate=6.93/s
+[inference] gene-inference human visible=500 fold=3/4 panel=1/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=7/24 samples=484/500 elapsed=1.0m rate=8.02/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=7/24 samples=500/500 elapsed=1.0m rate=8.02/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=8/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=56.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=1/24 samples=416/500 elapsed=1.0m rate=6.89/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=1/24 samples=500/500 elapsed=1.2m rate=6.89/s
+[inference] gene-inference human visible=500 fold=3/4 panel=2/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=8/24 samples=480/500 elapsed=1.0m rate=7.98/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=8/24 samples=500/500 elapsed=1.0m rate=7.98/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=9/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=57.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=2/24 samples=416/500 elapsed=1.0m rate=6.90/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=9/24 samples=480/500 elapsed=1.0m rate=8.00/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=9/24 samples=500/500 elapsed=1.0m rate=8.00/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=10/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=2/24 samples=500/500 elapsed=1.2m rate=6.91/s
+[inference] gene-inference human visible=500 fold=3/4 panel=3/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=58.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=10/24 samples=484/500 elapsed=1.0m rate=8.02/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=3/24 samples=420/500 elapsed=1.0m rate=6.94/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=10/24 samples=500/500 elapsed=1.0m rate=8.02/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=11/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=3/24 samples=500/500 elapsed=1.2m rate=6.93/s
+[inference] gene-inference human visible=500 fold=3/4 panel=4/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=59.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=11/24 samples=476/500 elapsed=1.0m rate=7.92/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=11/24 samples=500/500 elapsed=1.1m rate=7.92/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=12/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=4/24 samples=412/500 elapsed=1.0m rate=6.82/s
+[orchestrator heartbeat] elapsed=60.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=4/24 samples=500/500 elapsed=1.2m rate=6.83/s
+[inference] gene-inference human visible=500 fold=3/4 panel=5/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=12/24 samples=484/500 elapsed=1.0m rate=8.01/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=12/24 samples=500/500 elapsed=1.0m rate=8.01/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=13/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=61.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=5/24 samples=416/500 elapsed=1.0m rate=6.93/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=5/24 samples=500/500 elapsed=1.2m rate=6.92/s
+[inference] gene-inference human visible=500 fold=3/4 panel=6/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=13/24 samples=480/500 elapsed=1.0m rate=8.00/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=13/24 samples=500/500 elapsed=1.0m rate=8.00/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=14/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=62.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=6/24 samples=416/500 elapsed=1.0m rate=6.87/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=6/24 samples=500/500 elapsed=1.2m rate=6.87/s
+[inference] gene-inference human visible=500 fold=3/4 panel=7/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=14/24 samples=480/500 elapsed=1.0m rate=7.97/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=14/24 samples=500/500 elapsed=1.0m rate=7.97/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=15/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=63.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=7/24 samples=416/500 elapsed=1.0m rate=6.89/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=7/24 samples=500/500 elapsed=1.2m rate=6.90/s
+[inference] gene-inference human visible=500 fold=3/4 panel=8/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=15/24 samples=480/500 elapsed=1.0m rate=7.97/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=15/24 samples=500/500 elapsed=1.0m rate=7.97/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=16/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=64.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=8/24 samples=412/500 elapsed=1.0m rate=6.86/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=16/24 samples=480/500 elapsed=1.0m rate=7.97/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=8/24 samples=500/500 elapsed=1.2m rate=6.86/s
+[inference] gene-inference human visible=500 fold=3/4 panel=9/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=16/24 samples=500/500 elapsed=1.0m rate=7.97/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=17/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=65.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=9/24 samples=416/500 elapsed=1.0m rate=6.89/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=17/24 samples=480/500 elapsed=1.0m rate=7.98/s
+[orchestrator heartbeat] elapsed=66.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=17/24 samples=500/500 elapsed=1.0m rate=7.98/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=18/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=9/24 samples=500/500 elapsed=1.2m rate=6.90/s
+[inference] gene-inference human visible=500 fold=3/4 panel=10/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=67.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=18/24 samples=484/500 elapsed=1.0m rate=8.00/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=18/24 samples=500/500 elapsed=1.0m rate=7.99/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=19/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=10/24 samples=416/500 elapsed=1.0m rate=6.90/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=10/24 samples=500/500 elapsed=1.2m rate=6.88/s
+[inference] gene-inference human visible=500 fold=3/4 panel=11/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=68.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=19/24 samples=480/500 elapsed=1.0m rate=7.98/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=19/24 samples=500/500 elapsed=1.0m rate=7.98/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=20/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=11/24 samples=416/500 elapsed=1.0m rate=6.93/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=11/24 samples=500/500 elapsed=1.2m rate=6.93/s
+[inference] gene-inference human visible=500 fold=3/4 panel=12/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=69.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=20/24 samples=484/500 elapsed=1.0m rate=8.03/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=20/24 samples=500/500 elapsed=1.0m rate=8.03/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=21/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=12/24 samples=420/500 elapsed=1.0m rate=6.96/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=12/24 samples=500/500 elapsed=1.2m rate=6.95/s
+[inference] gene-inference human visible=500 fold=3/4 panel=13/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=70.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=21/24 samples=484/500 elapsed=1.0m rate=8.01/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=21/24 samples=500/500 elapsed=1.0m rate=8.01/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=22/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=13/24 samples=416/500 elapsed=1.0m rate=6.92/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=13/24 samples=500/500 elapsed=1.2m rate=6.93/s
+[orchestrator heartbeat] elapsed=71.0m running=human,mouse
+[inference] gene-inference human visible=500 fold=3/4 panel=14/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=22/24 samples=484/500 elapsed=1.0m rate=8.01/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=22/24 samples=500/500 elapsed=1.0m rate=8.01/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=23/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=72.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=14/24 samples=420/500 elapsed=1.0m rate=6.95/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=14/24 samples=500/500 elapsed=1.2m rate=6.95/s
+[inference] gene-inference human visible=500 fold=3/4 panel=15/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=23/24 samples=484/500 elapsed=1.0m rate=8.02/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=23/24 samples=500/500 elapsed=1.0m rate=8.02/s
+[inference] gene-inference mouse visible=500 fold=3/4 panel=24/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=73.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=15/24 samples=416/500 elapsed=1.0m rate=6.91/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=24/24 samples=480/500 elapsed=1.0m rate=8.00/s
+[heartbeat] gene-inference mouse visible=500 fold=3/4 panel=24/24 samples=500/500 elapsed=1.0m rate=8.00/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=1/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=15/24 samples=500/500 elapsed=1.2m rate=6.92/s
+[inference] gene-inference human visible=500 fold=3/4 panel=16/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=74.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=1/24 samples=484/500 elapsed=1.0m rate=8.01/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=1/24 samples=500/500 elapsed=1.0m rate=8.01/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=2/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=16/24 samples=416/500 elapsed=1.0m rate=6.91/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=16/24 samples=500/500 elapsed=1.2m rate=6.91/s
+[inference] gene-inference human visible=500 fold=3/4 panel=17/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=75.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=2/24 samples=484/500 elapsed=1.0m rate=8.03/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=2/24 samples=500/500 elapsed=1.0m rate=8.03/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=3/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=17/24 samples=416/500 elapsed=1.0m rate=6.93/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=17/24 samples=500/500 elapsed=1.2m rate=6.92/s
+[inference] gene-inference human visible=500 fold=3/4 panel=18/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=76.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=3/24 samples=484/500 elapsed=1.0m rate=8.01/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=3/24 samples=500/500 elapsed=1.0m rate=8.01/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=4/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=18/24 samples=416/500 elapsed=1.0m rate=6.88/s
+[orchestrator heartbeat] elapsed=77.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=18/24 samples=500/500 elapsed=1.2m rate=6.87/s
+[inference] gene-inference human visible=500 fold=3/4 panel=19/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=4/24 samples=484/500 elapsed=1.0m rate=8.01/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=4/24 samples=500/500 elapsed=1.0m rate=8.01/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=5/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=78.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=19/24 samples=416/500 elapsed=1.0m rate=6.89/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=19/24 samples=500/500 elapsed=1.2m rate=6.89/s
+[inference] gene-inference human visible=500 fold=3/4 panel=20/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=5/24 samples=484/500 elapsed=1.0m rate=8.01/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=5/24 samples=500/500 elapsed=1.0m rate=8.01/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=6/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=79.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=20/24 samples=412/500 elapsed=1.0m rate=6.86/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=20/24 samples=500/500 elapsed=1.2m rate=6.85/s
+[inference] gene-inference human visible=500 fold=3/4 panel=21/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=6/24 samples=480/500 elapsed=1.0m rate=7.99/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=6/24 samples=500/500 elapsed=1.0m rate=8.00/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=7/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=80.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=21/24 samples=412/500 elapsed=1.0m rate=6.86/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=7/24 samples=484/500 elapsed=1.0m rate=8.02/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=7/24 samples=500/500 elapsed=1.0m rate=8.02/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=8/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=21/24 samples=500/500 elapsed=1.2m rate=6.86/s
+[inference] gene-inference human visible=500 fold=3/4 panel=22/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=81.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=8/24 samples=484/500 elapsed=1.0m rate=8.00/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=22/24 samples=412/500 elapsed=1.0m rate=6.83/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=8/24 samples=500/500 elapsed=1.0m rate=8.00/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=9/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=22/24 samples=500/500 elapsed=1.2m rate=6.83/s
+[inference] gene-inference human visible=500 fold=3/4 panel=23/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=82.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=9/24 samples=484/500 elapsed=1.0m rate=8.06/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=9/24 samples=500/500 elapsed=1.0m rate=8.06/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=10/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=23/24 samples=416/500 elapsed=1.0m rate=6.90/s
+[orchestrator heartbeat] elapsed=83.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=23/24 samples=500/500 elapsed=1.2m rate=6.92/s
+[inference] gene-inference human visible=500 fold=3/4 panel=24/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=10/24 samples=496/500 elapsed=1.0m rate=8.24/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=10/24 samples=500/500 elapsed=1.0m rate=8.24/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=11/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=84.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=24/24 samples=420/500 elapsed=1.0m rate=6.99/s
+[heartbeat] gene-inference human visible=500 fold=3/4 panel=24/24 samples=500/500 elapsed=1.2m rate=6.99/s
+[inference] gene-inference human visible=500 fold=4/4 panel=1/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=11/24 samples=496/500 elapsed=1.0m rate=8.24/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=11/24 samples=500/500 elapsed=1.0m rate=8.24/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=12/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=85.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=1/24 samples=420/500 elapsed=1.0m rate=7.00/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=1/24 samples=500/500 elapsed=1.2m rate=6.99/s
+[inference] gene-inference human visible=500 fold=4/4 panel=2/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=12/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=12/24 samples=500/500 elapsed=1.0m rate=8.24/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=13/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=86.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=2/24 samples=424/500 elapsed=1.0m rate=7.00/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=2/24 samples=500/500 elapsed=1.2m rate=7.00/s
+[inference] gene-inference human visible=500 fold=4/4 panel=3/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=13/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=13/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=14/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=87.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=3/24 samples=424/500 elapsed=1.0m rate=7.00/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=14/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=14/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=15/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=3/24 samples=500/500 elapsed=1.2m rate=7.00/s
+[inference] gene-inference human visible=500 fold=4/4 panel=4/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=88.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=15/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=15/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=16/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=4/24 samples=424/500 elapsed=1.0m rate=7.01/s
+[orchestrator heartbeat] elapsed=89.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=4/24 samples=500/500 elapsed=1.2m rate=7.01/s
+[inference] gene-inference human visible=500 fold=4/4 panel=5/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=16/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=16/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=17/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=90.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=5/24 samples=424/500 elapsed=1.0m rate=7.01/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=5/24 samples=500/500 elapsed=1.2m rate=7.02/s
+[inference] gene-inference human visible=500 fold=4/4 panel=6/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=17/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=17/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=18/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=91.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=6/24 samples=424/500 elapsed=1.0m rate=7.02/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=6/24 samples=500/500 elapsed=1.2m rate=7.02/s
+[inference] gene-inference human visible=500 fold=4/4 panel=7/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=18/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=18/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=19/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=92.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=7/24 samples=424/500 elapsed=1.0m rate=7.02/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=7/24 samples=500/500 elapsed=1.2m rate=7.02/s
+[inference] gene-inference human visible=500 fold=4/4 panel=8/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=19/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=19/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=20/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=93.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=8/24 samples=424/500 elapsed=1.0m rate=7.02/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=8/24 samples=500/500 elapsed=1.2m rate=7.02/s
+[inference] gene-inference human visible=500 fold=4/4 panel=9/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=20/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=20/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=21/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=94.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=9/24 samples=424/500 elapsed=1.0m rate=7.01/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=21/24 samples=496/500 elapsed=1.0m rate=8.24/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=21/24 samples=500/500 elapsed=1.0m rate=8.24/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=22/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=95.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=9/24 samples=500/500 elapsed=1.2m rate=7.01/s
+[inference] gene-inference human visible=500 fold=4/4 panel=10/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=22/24 samples=496/500 elapsed=1.0m rate=8.24/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=22/24 samples=500/500 elapsed=1.0m rate=8.24/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=23/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=96.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=10/24 samples=424/500 elapsed=1.0m rate=7.00/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=10/24 samples=500/500 elapsed=1.2m rate=7.00/s
+[inference] gene-inference human visible=500 fold=4/4 panel=11/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=23/24 samples=496/500 elapsed=1.0m rate=8.24/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=23/24 samples=500/500 elapsed=1.0m rate=8.24/s
+[inference] gene-inference mouse visible=500 fold=4/4 panel=24/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=97.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=11/24 samples=420/500 elapsed=1.0m rate=6.99/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=11/24 samples=500/500 elapsed=1.2m rate=6.99/s
+[inference] gene-inference human visible=500 fold=4/4 panel=12/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=24/24 samples=496/500 elapsed=1.0m rate=8.24/s
+[heartbeat] gene-inference mouse visible=500 fold=4/4 panel=24/24 samples=500/500 elapsed=1.0m rate=8.24/s
+[orchestrator heartbeat] elapsed=98.0m running=human,mouse
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=1/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=12/24 samples=420/500 elapsed=1.0m rate=6.99/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=12/24 samples=500/500 elapsed=1.2m rate=7.00/s
+[inference] gene-inference human visible=500 fold=4/4 panel=13/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=99.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=1/24 samples=496/500 elapsed=1.0m rate=8.22/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=1/24 samples=500/500 elapsed=1.0m rate=8.22/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=2/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=13/24 samples=424/500 elapsed=1.0m rate=7.03/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=13/24 samples=500/500 elapsed=1.2m rate=7.04/s
+[inference] gene-inference human visible=500 fold=4/4 panel=14/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=100.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=2/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=2/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=3/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=14/24 samples=424/500 elapsed=1.0m rate=7.06/s
+[orchestrator heartbeat] elapsed=101.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=14/24 samples=500/500 elapsed=1.2m rate=7.06/s
+[inference] gene-inference human visible=500 fold=4/4 panel=15/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=3/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=3/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=4/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=102.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=15/24 samples=428/500 elapsed=1.0m rate=7.09/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=4/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=4/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=5/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=15/24 samples=500/500 elapsed=1.2m rate=7.09/s
+[inference] gene-inference human visible=500 fold=4/4 panel=16/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=103.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=5/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=5/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=6/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=16/24 samples=428/500 elapsed=1.0m rate=7.11/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=16/24 samples=500/500 elapsed=1.2m rate=7.11/s
+[inference] gene-inference human visible=500 fold=4/4 panel=17/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=104.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=6/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=6/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=7/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=17/24 samples=428/500 elapsed=1.0m rate=7.12/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=17/24 samples=500/500 elapsed=1.2m rate=7.11/s
+[inference] gene-inference human visible=500 fold=4/4 panel=18/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=105.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=7/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=7/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=8/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=18/24 samples=428/500 elapsed=1.0m rate=7.12/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=18/24 samples=500/500 elapsed=1.2m rate=7.12/s
+[inference] gene-inference human visible=500 fold=4/4 panel=19/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=106.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=8/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=8/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=9/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=19/24 samples=428/500 elapsed=1.0m rate=7.12/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=19/24 samples=500/500 elapsed=1.2m rate=7.12/s
+[inference] gene-inference human visible=500 fold=4/4 panel=20/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=107.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=9/24 samples=496/500 elapsed=1.0m rate=8.27/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=9/24 samples=500/500 elapsed=1.0m rate=8.27/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=10/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=20/24 samples=428/500 elapsed=1.0m rate=7.11/s
+[orchestrator heartbeat] elapsed=108.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=20/24 samples=500/500 elapsed=1.2m rate=7.11/s
+[inference] gene-inference human visible=500 fold=4/4 panel=21/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=10/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=10/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=11/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=109.0m running=human,mouse
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=21/24 samples=428/500 elapsed=1.0m rate=7.09/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=11/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=11/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=12/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=21/24 samples=500/500 elapsed=1.2m rate=7.09/s
+[inference] gene-inference human visible=500 fold=4/4 panel=22/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=110.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=12/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=12/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=13/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=22/24 samples=428/500 elapsed=1.0m rate=7.07/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=22/24 samples=500/500 elapsed=1.2m rate=7.07/s
+[inference] gene-inference human visible=500 fold=4/4 panel=23/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=111.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=13/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=13/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=14/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=23/24 samples=424/500 elapsed=1.0m rate=7.05/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=23/24 samples=500/500 elapsed=1.2m rate=7.05/s
+[inference] gene-inference human visible=500 fold=4/4 panel=24/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=112.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=14/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=14/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=15/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=24/24 samples=424/500 elapsed=1.0m rate=7.03/s
+[heartbeat] gene-inference human visible=500 fold=4/4 panel=24/24 samples=500/500 elapsed=1.2m rate=7.03/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=1/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=113.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=15/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=15/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=16/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=1/24 samples=424/500 elapsed=1.0m rate=7.06/s
+[orchestrator heartbeat] elapsed=114.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=1/24 samples=500/500 elapsed=1.2m rate=7.06/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=2/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=16/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=16/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=17/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=115.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=2/24 samples=424/500 elapsed=1.0m rate=7.01/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=2/24 samples=500/500 elapsed=1.2m rate=7.01/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=3/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=17/24 samples=496/500 elapsed=1.0m rate=8.24/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=17/24 samples=500/500 elapsed=1.0m rate=8.24/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=18/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=116.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=3/24 samples=420/500 elapsed=1.0m rate=7.00/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=18/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=18/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=19/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=3/24 samples=500/500 elapsed=1.2m rate=6.99/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=4/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=117.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=19/24 samples=496/500 elapsed=1.0m rate=8.24/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=19/24 samples=500/500 elapsed=1.0m rate=8.24/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=20/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=4/24 samples=420/500 elapsed=1.0m rate=6.99/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=4/24 samples=500/500 elapsed=1.2m rate=6.99/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=5/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=118.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=20/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=20/24 samples=500/500 elapsed=1.0m rate=8.24/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=21/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=5/24 samples=420/500 elapsed=1.0m rate=7.00/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=5/24 samples=500/500 elapsed=1.2m rate=7.00/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=6/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=119.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=21/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=21/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=22/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=6/24 samples=424/500 elapsed=1.0m rate=7.01/s
+[orchestrator heartbeat] elapsed=120.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=6/24 samples=500/500 elapsed=1.2m rate=7.01/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=7/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=22/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=22/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=23/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=121.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=7/24 samples=424/500 elapsed=1.0m rate=7.02/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=7/24 samples=500/500 elapsed=1.2m rate=7.03/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=8/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=23/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=23/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=1/4 panel=24/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=122.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=8/24 samples=424/500 elapsed=1.0m rate=7.03/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=24/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=1/4 panel=24/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=1/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=8/24 samples=500/500 elapsed=1.2m rate=7.03/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=9/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=123.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=1/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=1/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=2/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=9/24 samples=424/500 elapsed=1.0m rate=7.06/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=9/24 samples=500/500 elapsed=1.2m rate=7.06/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=10/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=124.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=2/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=2/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=3/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=10/24 samples=428/500 elapsed=1.0m rate=7.08/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=10/24 samples=500/500 elapsed=1.2m rate=7.08/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=11/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=125.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=3/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=3/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=4/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=11/24 samples=428/500 elapsed=1.0m rate=7.09/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=11/24 samples=500/500 elapsed=1.2m rate=7.09/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=12/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=126.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=4/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=4/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=5/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=12/24 samples=428/500 elapsed=1.0m rate=7.10/s
+[orchestrator heartbeat] elapsed=127.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=12/24 samples=500/500 elapsed=1.2m rate=7.10/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=13/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=5/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=5/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=6/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=128.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=13/24 samples=428/500 elapsed=1.0m rate=7.10/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=13/24 samples=500/500 elapsed=1.2m rate=7.10/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=14/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=6/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=6/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=7/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=129.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=14/24 samples=428/500 elapsed=1.0m rate=7.10/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=7/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=7/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=8/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=14/24 samples=500/500 elapsed=1.2m rate=7.10/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=15/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=130.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=8/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=8/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=9/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=15/24 samples=428/500 elapsed=1.0m rate=7.10/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=15/24 samples=500/500 elapsed=1.2m rate=7.10/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=16/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=131.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=9/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=9/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=10/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=16/24 samples=428/500 elapsed=1.0m rate=7.09/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=16/24 samples=500/500 elapsed=1.2m rate=7.09/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=17/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=132.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=10/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=10/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=11/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=17/24 samples=428/500 elapsed=1.0m rate=7.09/s
+[orchestrator heartbeat] elapsed=133.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=17/24 samples=500/500 elapsed=1.2m rate=7.09/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=18/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=11/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=11/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=12/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=134.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=18/24 samples=428/500 elapsed=1.0m rate=7.09/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=18/24 samples=500/500 elapsed=1.2m rate=7.08/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=19/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=12/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=12/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=13/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=135.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=19/24 samples=428/500 elapsed=1.0m rate=7.08/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=19/24 samples=500/500 elapsed=1.2m rate=7.08/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=20/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=13/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=13/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=14/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=136.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=20/24 samples=428/500 elapsed=1.0m rate=7.08/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=14/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=14/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=20/24 samples=500/500 elapsed=1.2m rate=7.08/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=15/24 samples=500 batch_size=4 device=cuda:1
+[inference] gene-inference human visible=1000 fold=1/4 panel=21/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=137.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=15/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=21/24 samples=428/500 elapsed=1.0m rate=7.08/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=15/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=16/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=21/24 samples=500/500 elapsed=1.2m rate=7.08/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=22/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=138.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=16/24 samples=496/500 elapsed=1.0m rate=8.26/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=16/24 samples=500/500 elapsed=1.0m rate=8.26/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=17/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=22/24 samples=428/500 elapsed=1.0m rate=7.08/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=22/24 samples=500/500 elapsed=1.2m rate=7.08/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=23/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=139.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=17/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=17/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=18/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=23/24 samples=428/500 elapsed=1.0m rate=7.08/s
+[orchestrator heartbeat] elapsed=140.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=23/24 samples=500/500 elapsed=1.2m rate=7.08/s
+[inference] gene-inference human visible=1000 fold=1/4 panel=24/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=18/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=18/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=19/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=141.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=24/24 samples=428/500 elapsed=1.0m rate=7.09/s
+[heartbeat] gene-inference human visible=1000 fold=1/4 panel=24/24 samples=500/500 elapsed=1.2m rate=7.09/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=1/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=19/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=19/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=20/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=142.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=1/24 samples=428/500 elapsed=1.0m rate=7.09/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=1/24 samples=500/500 elapsed=1.2m rate=7.09/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=2/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=20/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=20/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=21/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=143.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=2/24 samples=428/500 elapsed=1.0m rate=7.09/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=2/24 samples=500/500 elapsed=1.2m rate=7.09/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=3/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=21/24 samples=496/500 elapsed=1.0m rate=8.25/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=21/24 samples=500/500 elapsed=1.0m rate=8.25/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=22/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=144.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=3/24 samples=444/500 elapsed=1.0m rate=7.35/s
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=22/24 samples=500/500 elapsed=1.0m rate=8.42/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=23/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=3/24 samples=500/500 elapsed=1.1m rate=7.30/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=4/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=145.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=23/24 samples=500/500 elapsed=0.9m rate=8.93/s
+[inference] gene-inference mouse visible=1000 fold=2/4 panel=24/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=4/24 samples=488/500 elapsed=1.0m rate=8.07/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=4/24 samples=500/500 elapsed=1.0m rate=8.06/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=5/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=146.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=2/4 panel=24/24 samples=500/500 elapsed=0.9m rate=9.10/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=1/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=5/24 samples=488/500 elapsed=1.0m rate=8.07/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=5/24 samples=500/500 elapsed=1.0m rate=8.08/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=6/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=147.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=1/24 samples=500/500 elapsed=0.9m rate=9.07/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=2/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=6/24 samples=484/500 elapsed=1.0m rate=8.06/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=6/24 samples=500/500 elapsed=1.0m rate=8.06/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=7/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=148.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=2/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=3/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=7/24 samples=488/500 elapsed=1.0m rate=8.12/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=7/24 samples=500/500 elapsed=1.0m rate=8.11/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=8/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=149.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=3/24 samples=500/500 elapsed=0.9m rate=9.13/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=4/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=8/24 samples=488/500 elapsed=1.0m rate=8.12/s
+[orchestrator heartbeat] elapsed=150.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=8/24 samples=500/500 elapsed=1.0m rate=8.11/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=9/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=4/24 samples=500/500 elapsed=0.9m rate=9.11/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=5/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=151.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=9/24 samples=488/500 elapsed=1.0m rate=8.09/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=9/24 samples=500/500 elapsed=1.0m rate=8.09/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=10/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=5/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=6/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=152.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=10/24 samples=488/500 elapsed=1.0m rate=8.13/s
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=6/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=7/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=10/24 samples=500/500 elapsed=1.0m rate=8.13/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=11/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=7/24 samples=500/500 elapsed=0.9m rate=9.13/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=8/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=153.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=11/24 samples=488/500 elapsed=1.0m rate=8.12/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=11/24 samples=500/500 elapsed=1.0m rate=8.12/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=12/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=8/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=9/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=154.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=12/24 samples=488/500 elapsed=1.0m rate=8.13/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=12/24 samples=500/500 elapsed=1.0m rate=8.13/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=13/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=9/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=10/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=155.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=13/24 samples=488/500 elapsed=1.0m rate=8.12/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=13/24 samples=500/500 elapsed=1.0m rate=8.12/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=14/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=10/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=11/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=156.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=14/24 samples=488/500 elapsed=1.0m rate=8.12/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=14/24 samples=500/500 elapsed=1.0m rate=8.12/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=15/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=11/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=12/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=157.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=15/24 samples=488/500 elapsed=1.0m rate=8.12/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=15/24 samples=500/500 elapsed=1.0m rate=8.12/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=16/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=12/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=13/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=158.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=16/24 samples=488/500 elapsed=1.0m rate=8.13/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=16/24 samples=500/500 elapsed=1.0m rate=8.13/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=17/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=13/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=14/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=159.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=17/24 samples=492/500 elapsed=1.0m rate=8.13/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=17/24 samples=500/500 elapsed=1.0m rate=8.13/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=18/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=14/24 samples=500/500 elapsed=0.9m rate=9.15/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=15/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=160.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=18/24 samples=492/500 elapsed=1.0m rate=8.14/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=18/24 samples=500/500 elapsed=1.0m rate=8.14/s
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=15/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=19/24 samples=500 batch_size=4 device=cuda:0
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=16/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=161.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=16/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=17/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=19/24 samples=492/500 elapsed=1.0m rate=8.14/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=19/24 samples=500/500 elapsed=1.0m rate=8.14/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=20/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=162.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=17/24 samples=500/500 elapsed=0.9m rate=9.14/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=18/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=20/24 samples=488/500 elapsed=1.0m rate=8.13/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=20/24 samples=500/500 elapsed=1.0m rate=8.13/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=21/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=163.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=18/24 samples=500/500 elapsed=0.9m rate=8.85/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=19/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=21/24 samples=456/500 elapsed=1.0m rate=7.57/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=21/24 samples=500/500 elapsed=1.1m rate=7.56/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=22/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=164.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=19/24 samples=500/500 elapsed=1.0m rate=8.73/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=20/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=22/24 samples=456/500 elapsed=1.0m rate=7.55/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=22/24 samples=500/500 elapsed=1.1m rate=7.55/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=23/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=165.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=20/24 samples=500/500 elapsed=1.0m rate=8.73/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=21/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=23/24 samples=456/500 elapsed=1.0m rate=7.55/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=23/24 samples=500/500 elapsed=1.1m rate=7.55/s
+[inference] gene-inference human visible=1000 fold=2/4 panel=24/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=21/24 samples=500/500 elapsed=1.0m rate=8.73/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=22/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=166.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=24/24 samples=456/500 elapsed=1.0m rate=7.54/s
+[heartbeat] gene-inference human visible=1000 fold=2/4 panel=24/24 samples=500/500 elapsed=1.1m rate=7.54/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=1/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=22/24 samples=500/500 elapsed=1.0m rate=8.73/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=23/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=167.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=1/24 samples=456/500 elapsed=1.0m rate=7.53/s
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=23/24 samples=500/500 elapsed=1.0m rate=8.72/s
+[inference] gene-inference mouse visible=1000 fold=3/4 panel=24/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=1/24 samples=500/500 elapsed=1.1m rate=7.53/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=2/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=168.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=3/4 panel=24/24 samples=500/500 elapsed=1.0m rate=8.72/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=1/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=2/24 samples=452/500 elapsed=1.0m rate=7.52/s
+[orchestrator heartbeat] elapsed=169.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=2/24 samples=500/500 elapsed=1.1m rate=7.52/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=3/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=1/24 samples=500/500 elapsed=1.0m rate=8.72/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=2/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=170.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=3/24 samples=452/500 elapsed=1.0m rate=7.52/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=3/24 samples=500/500 elapsed=1.1m rate=7.52/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=4/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=2/24 samples=500/500 elapsed=1.0m rate=8.72/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=3/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=171.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=4/24 samples=452/500 elapsed=1.0m rate=7.51/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=4/24 samples=500/500 elapsed=1.1m rate=7.51/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=5/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=3/24 samples=500/500 elapsed=1.0m rate=8.72/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=4/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=172.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=5/24 samples=452/500 elapsed=1.0m rate=7.50/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=5/24 samples=500/500 elapsed=1.1m rate=7.50/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=6/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=4/24 samples=500/500 elapsed=1.0m rate=8.72/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=5/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=173.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=6/24 samples=452/500 elapsed=1.0m rate=7.49/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=6/24 samples=500/500 elapsed=1.1m rate=7.49/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=7/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=5/24 samples=500/500 elapsed=1.0m rate=8.72/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=6/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=174.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=7/24 samples=452/500 elapsed=1.0m rate=7.49/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=7/24 samples=500/500 elapsed=1.1m rate=7.49/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=8/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=6/24 samples=500/500 elapsed=1.0m rate=8.71/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=7/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=175.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=7/24 samples=500/500 elapsed=0.9m rate=9.12/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=8/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=8/24 samples=484/500 elapsed=1.0m rate=8.07/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=8/24 samples=500/500 elapsed=1.0m rate=8.07/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=9/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=176.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=8/24 samples=500/500 elapsed=0.9m rate=9.13/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=9/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=9/24 samples=484/500 elapsed=1.0m rate=8.06/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=9/24 samples=500/500 elapsed=1.0m rate=8.06/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=10/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=177.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=9/24 samples=500/500 elapsed=0.9m rate=9.13/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=10/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=10/24 samples=484/500 elapsed=1.0m rate=8.06/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=10/24 samples=500/500 elapsed=1.0m rate=8.06/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=11/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=178.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=10/24 samples=500/500 elapsed=0.9m rate=9.12/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=11/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=11/24 samples=484/500 elapsed=1.0m rate=8.06/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=11/24 samples=500/500 elapsed=1.0m rate=8.06/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=12/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=179.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=11/24 samples=500/500 elapsed=0.9m rate=9.13/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=12/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=12/24 samples=484/500 elapsed=1.0m rate=8.06/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=12/24 samples=500/500 elapsed=1.0m rate=8.06/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=13/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=180.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=12/24 samples=500/500 elapsed=0.9m rate=9.03/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=13/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=13/24 samples=480/500 elapsed=1.0m rate=7.96/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=13/24 samples=500/500 elapsed=1.0m rate=7.97/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=14/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=181.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=13/24 samples=500/500 elapsed=0.9m rate=9.12/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=14/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=14/24 samples=484/500 elapsed=1.0m rate=8.06/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=14/24 samples=500/500 elapsed=1.0m rate=8.06/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=15/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=14/24 samples=500/500 elapsed=0.9m rate=9.13/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=15/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=182.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=15/24 samples=500/500 elapsed=0.9m rate=9.12/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=16/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=15/24 samples=484/500 elapsed=1.0m rate=8.05/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=15/24 samples=500/500 elapsed=1.0m rate=8.04/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=16/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=183.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=16/24 samples=500/500 elapsed=0.9m rate=9.12/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=17/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=16/24 samples=484/500 elapsed=1.0m rate=8.05/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=16/24 samples=500/500 elapsed=1.0m rate=8.04/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=17/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=184.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=17/24 samples=500/500 elapsed=0.9m rate=9.11/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=18/24 samples=500 batch_size=4 device=cuda:1
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=17/24 samples=484/500 elapsed=1.0m rate=8.05/s
+[orchestrator heartbeat] elapsed=185.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=17/24 samples=500/500 elapsed=1.0m rate=8.05/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=18/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=18/24 samples=500/500 elapsed=0.9m rate=9.12/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=19/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=186.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=18/24 samples=484/500 elapsed=1.0m rate=8.06/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=18/24 samples=500/500 elapsed=1.0m rate=8.06/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=19/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=19/24 samples=500/500 elapsed=0.9m rate=9.13/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=20/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=187.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=19/24 samples=484/500 elapsed=1.0m rate=8.06/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=19/24 samples=500/500 elapsed=1.0m rate=8.06/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=20/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=20/24 samples=500/500 elapsed=0.9m rate=9.13/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=21/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=188.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=20/24 samples=484/500 elapsed=1.0m rate=8.06/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=20/24 samples=500/500 elapsed=1.0m rate=8.06/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=21/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=21/24 samples=500/500 elapsed=0.9m rate=9.13/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=22/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=189.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=21/24 samples=484/500 elapsed=1.0m rate=8.06/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=21/24 samples=500/500 elapsed=1.0m rate=8.06/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=22/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=22/24 samples=500/500 elapsed=0.9m rate=9.12/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=23/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=190.0m running=human,mouse
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=22/24 samples=484/500 elapsed=1.0m rate=8.05/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=22/24 samples=500/500 elapsed=1.0m rate=8.05/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=23/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=23/24 samples=500/500 elapsed=0.9m rate=9.11/s
+[inference] gene-inference mouse visible=1000 fold=4/4 panel=24/24 samples=500 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=191.0m running=human,mouse
+[heartbeat] gene-inference mouse visible=1000 fold=4/4 panel=24/24 samples=500/500 elapsed=0.9m rate=9.06/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=23/24 samples=484/500 elapsed=1.0m rate=8.00/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=23/24 samples=500/500 elapsed=1.0m rate=8.01/s
+[inference] gene-inference human visible=1000 fold=3/4 panel=24/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator] mouse complete
+[orchestrator heartbeat] elapsed=192.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=24/24 samples=496/500 elapsed=1.0m rate=8.23/s
+[heartbeat] gene-inference human visible=1000 fold=3/4 panel=24/24 samples=500/500 elapsed=1.0m rate=8.23/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=1/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=193.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=1/24 samples=500/500 elapsed=1.0m rate=8.46/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=2/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=194.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=2/24 samples=500/500 elapsed=1.0m rate=8.59/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=3/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=195.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=3/24 samples=500/500 elapsed=1.0m rate=8.62/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=4/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=196.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=4/24 samples=500/500 elapsed=1.0m rate=8.68/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=5/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=197.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=5/24 samples=500/500 elapsed=1.0m rate=8.68/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=6/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=198.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=6/24 samples=500/500 elapsed=1.0m rate=8.70/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=7/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=199.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=7/24 samples=500/500 elapsed=1.0m rate=8.71/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=8/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=200.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=8/24 samples=500/500 elapsed=1.0m rate=8.71/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=9/24 samples=500 batch_size=4 device=cuda:0
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=9/24 samples=500/500 elapsed=1.0m rate=8.72/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=10/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=201.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=10/24 samples=500/500 elapsed=1.0m rate=8.72/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=11/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=202.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=11/24 samples=500/500 elapsed=1.0m rate=8.72/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=12/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=203.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=12/24 samples=500/500 elapsed=1.0m rate=8.71/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=13/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=204.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=13/24 samples=500/500 elapsed=1.0m rate=8.71/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=14/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=205.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=14/24 samples=500/500 elapsed=1.0m rate=8.71/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=15/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=206.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=15/24 samples=496/500 elapsed=1.0m rate=8.24/s
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=15/24 samples=500/500 elapsed=1.0m rate=8.24/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=16/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=207.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=16/24 samples=488/500 elapsed=1.0m rate=8.13/s
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=16/24 samples=500/500 elapsed=1.0m rate=8.14/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=17/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=208.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=17/24 samples=500/500 elapsed=1.0m rate=8.70/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=18/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=209.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=18/24 samples=500/500 elapsed=1.0m rate=8.70/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=19/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=210.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=19/24 samples=500/500 elapsed=1.0m rate=8.70/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=20/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=211.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=20/24 samples=500/500 elapsed=1.0m rate=8.70/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=21/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=212.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=21/24 samples=500/500 elapsed=1.0m rate=8.70/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=22/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=213.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=22/24 samples=500/500 elapsed=1.0m rate=8.70/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=23/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=214.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=23/24 samples=500/500 elapsed=1.0m rate=8.70/s
+[inference] gene-inference human visible=1000 fold=4/4 panel=24/24 samples=500 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=215.0m running=human
+[heartbeat] gene-inference human visible=1000 fold=4/4 panel=24/24 samples=500/500 elapsed=1.0m rate=8.71/s
+[orchestrator] human complete
+
+Ranking stability
+species  eligible_genes  visible_size_score_spearman  top1000_overlap  top1000_jaccard
+  human           15165                     0.223459              168         0.091703
+  mouse           15165                     0.247437              168         0.091703

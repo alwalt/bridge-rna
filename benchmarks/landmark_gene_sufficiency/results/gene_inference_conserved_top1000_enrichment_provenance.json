@@ -1,0 +1,5126 @@
+{
+  "service": "g:Profiler g:GOSt",
+  "endpoint": "https://biit.cs.ut.ee/gprofiler/api/gost/profile/",
+  "retrieved_utc": "2026-08-31T04:46:38.563882+00:00",
+  "organism": "hsapiens",
+  "sources": [
+    "GO:BP",
+    "REAC"
+  ],
+  "correction_method": "g:SCS",
+  "threshold": 0.05,
+  "domain_scope": "custom",
+  "query": "conserved_gene_inference_top1000",
+  "query_genes": 1000,
+  "background_genes": 15165,
+  "background_unique_genes": 15165,
+  "frozen_panel": {
+    "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/frozen_gene_inference_validation_panels.parquet",
+    "sha256": "0940805247929277800ae615a4d459b3795ffef4af6ee7bf3411bf204a7c397f"
+  },
+  "background_ranking": {
+    "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/gene_inference_human_consensus_ranking.parquet",
+    "sha256": "278d27ab0fc8a0b59b6b97c252ed6e2cc2f6b3f651d1fbb05db90cdaf8cbae86"
+  },
+  "service_meta": {
+    "query_metadata": {
+      "queries": {
+        "conserved_gene_inference_top1000": [
+          "GPR156",
+          "ZNF692",
+          "HEG1",
+          "LSM1",
+          "GGH",
+          "MFSD10",
+          "HAGH",
+          "LSM8",
+          "NCDN",
+          "FNDC8",
+          "SPTB",
+          "ZPBP2",
+          "WBP2",
+          "TECPR2",
+          "MPZL3",
+          "DNASE1L2",
+          "CDK12",
+          "PHF6",
+          "SLC25A40",
+          "ACOT13",
+          "CCDC148",
+          "POMT2",
+          "ARHGAP1",
+          "HRH2",
+          "TUG1",
+          "TRA2B",
+          "TIMP3",
+          "GPHA2",
+          "FANCG",
+          "PLA2R1",
+          "GCLC",
+          "ODF2",
+          "RPS28",
+          "DOCK2",
+          "MZT1",
+          "RNFT2",
+          "TFCP2",
+          "PRPSAP2",
+          "NLN",
+          "PRICKLE2",
+          "COBL",
+          "GPR174",
+          "USHBP1",
+          "GRIPAP1",
+          "PSMD14",
+          "COPB2",
+          "SWT1",
+          "LGALS4",
+          "DNASE2B",
+          "CPT1C",
+          "SNRPB",
+          "REST",
+          "GALNT6",
+          "EHD1",
+          "PROM1",
+          "CLEC4E",
+          "ELOVL2",
+          "JCHAIN",
+          "DCDC2",
+          "PML",
+          "GATAD2A",
+          "SNRNP25",
+          "SLC25A48",
+          "CFAP97D1",
+          "UNC45A",
+          "TOGARAM2",
+          "AIF1L",
+          "TARBP2",
+          "ESM1",
+          "SDR39U1",
+          "TRAPPC10",
+          "ANKRD13C",
+          "IL22RA2",
+          "SUCLA2",
+          "GLMP",
+          "SDCBP2",
+          "WDR35",
+          "NUP62",
+          "EXTL3",
+          "UNC5B",
+          "MYOF",
+          "AQP1",
+          "SQOR",
+          "ITPR2",
+          "YIPF2",
+          "RRP36",
+          "VDAC2",
+          "ASNS",
+          "LIN7B",
+          "TECTB",
+          "UBD",
+          "SBK2",
+          "GPRC5C",
+          "ERF",
+          "MSLNL",
+          "CD163",
+          "TMEM218",
+          "UIMC1",
+          "NLRC3",
+          "POPDC2",
+          "UCN3",
+          "PPP1R26",
+          "TRIM59",
+          "TMCC3",
+          "TRPM1",
+          "PABPN1",
+          "TRPM4",
+          "SYNDIG1",
+          "CPSF2",
+          "PLA2G12B",
+          "NFU1",
+          "ABCD1",
+          "AARSD1",
+          "SLC2A10",
+          "SLC25A21",
+          "MAPK4",
+          "DUSP18",
+          "EPB41L4B",
+          "PPM1L",
+          "PPP1CA",
+          "GSTO2",
+          "B3GALT1",
+          "PRSS38",
+          "KIF23",
+          "BLOC1S5",
+          "BCL2",
+          "AFG1L",
+          "PSRC1",
+          "EIF4E",
+          "RCHY1",
+          "ARL13B",
+          "REEP3",
+          "TMEM184B",
+          "PAWR",
+          "GZMK",
+          "IL7",
+          "RARB",
+          "MRPS33",
+          "EMX2",
+          "ZP1",
+          "FBXL19",
+          "SNCB",
+          "SLC18A2",
+          "ENPP2",
+          "CTSK",
+          "EIF3F",
+          "POP1",
+          "AVPR2",
+          "TAC1",
+          "HAUS4",
+          "HYAL4",
+          "LEMD3",
+          "CREB3L2",
+          "MTF1",
+          "MTAP",
+          "C8G",
+          "RPL28",
+          "RPL27",
+          "SLC12A4",
+          "RTF1",
+          "MT-ND4L",
+          "ZNF606",
+          "TPPP3",
+          "MROH7",
+          "ATG4B",
+          "ART4",
+          "SSTR5",
+          "ZBTB25",
+          "PNPT1",
+          "DPYD",
+          "NDUFC1",
+          "COMMD1",
+          "HECTD1",
+          "P2RY14",
+          "ADCK5",
+          "CD200",
+          "TOX2",
+          "CD247",
+          "SAT2",
+          "RHOV",
+          "YES1",
+          "MIXL1",
+          "CCPG1",
+          "LRBA",
+          "ADAMTS6",
+          "ZNF180",
+          "KCNAB2",
+          "CENPH",
+          "RTP2",
+          "NCK1",
+          "EIF4EBP2",
+          "SH2D6",
+          "PCDHGC3",
+          "XCR1",
+          "TFAP2D",
+          "ATF6",
+          "STX1B",
+          "CTDSP1",
+          "ASIC4",
+          "ICE1",
+          "RBBP4",
+          "PHKA2",
+          "CD2",
+          "PDZRN3",
+          "STEEP1",
+          "ARHGAP33",
+          "CASK",
+          "B3GALT5",
+          "JCAD",
+          "ULK3",
+          "NUFIP2",
+          "MINK1",
+          "TFR2",
+          "CFAP77",
+          "SMU1",
+          "SLC6A19",
+          "ATP13A4",
+          "PHYHIPL",
+          "MYH3",
+          "EDN1",
+          "CLN5",
+          "LPAR5",
+          "GRK5",
+          "AS3MT",
+          "LRP1",
+          "MOK",
+          "MKKS",
+          "CCDC117",
+          "MINDY3",
+          "ZNF366",
+          "LYRM1",
+          "MYL2",
+          "DAB2IP",
+          "ERN1",
+          "FAM234B",
+          "EFCAB14",
+          "CDC25C",
+          "PAPSS2",
+          "AP4E1",
+          "COX7C",
+          "CARMIL2",
+          "TRIM28",
+          "ACTA1",
+          "BRDT",
+          "CRISPLD1",
+          "LAS1L",
+          "NICN1",
+          "FUT11",
+          "PRDM12",
+          "CCDC91",
+          "CDR2",
+          "GOLIM4",
+          "FOXE3",
+          "NKX2-2",
+          "CRKL",
+          "NOP58",
+          "NBR1",
+          "FADD",
+          "HSCB",
+          "MROH9",
+          "PARPBP",
+          "TTC4",
+          "P4HA1",
+          "UBE3A",
+          "MMP14",
+          "SARNP",
+          "SPDL1",
+          "ATF5",
+          "RAP1GAP",
+          "MIEN1",
+          "SLC16A9",
+          "PTPRN",
+          "PHOSPHO1",
+          "F5",
+          "N4BP2",
+          "MMD2",
+          "ALX3",
+          "KLK6",
+          "GABPA",
+          "KCNH3",
+          "P2RY6",
+          "DDIT3",
+          "FUT1",
+          "MGST1",
+          "NPR2",
+          "TET3",
+          "SPINK5",
+          "SMARCD1",
+          "MRPL58",
+          "ENDOV",
+          "TMPRSS13",
+          "UBOX5",
+          "TTC39C",
+          "DACH1",
+          "PPRC1",
+          "SLC25A37",
+          "CCT3",
+          "C1QTNF7",
+          "TNFAIP8L3",
+          "TMEM229B",
+          "CPNE2",
+          "CBX2",
+          "POLN",
+          "FBN1",
+          "LRCH1",
+          "TEK",
+          "MAFG",
+          "THUMPD2",
+          "MAP7",
+          "ASL",
+          "EGFL7",
+          "ZNF385B",
+          "SYNM",
+          "YPEL1",
+          "POLD2",
+          "FSTL4",
+          "TAF8",
+          "PRUNE1",
+          "SNX6",
+          "MPDU1",
+          "NLE1",
+          "BAG1",
+          "NTMT1",
+          "KCNMB3",
+          "MSN",
+          "RABGEF1",
+          "SETX",
+          "CMTM5",
+          "CWC15",
+          "MSTN",
+          "CCDC97",
+          "KIF17",
+          "SCO1",
+          "SIPA1",
+          "CENPQ",
+          "ZKSCAN7",
+          "HS6ST2",
+          "MYG1",
+          "JADE3",
+          "IFT88",
+          "LDHAL6B",
+          "ACTRT3",
+          "XRCC5",
+          "SPG11",
+          "SOD3",
+          "NECAB2",
+          "ENOX1",
+          "CCNJL",
+          "CHP1",
+          "SLA2",
+          "RAB28",
+          "FKRP",
+          "IMMP2L",
+          "UBE2R2",
+          "SESN2",
+          "PHETA1",
+          "ITPA",
+          "CCDC87",
+          "BTC",
+          "PDGFB",
+          "NFIC",
+          "POLA1",
+          "TYRO3",
+          "HLA-DMA",
+          "PEG3",
+          "GPR142",
+          "KCNK15",
+          "RECQL",
+          "C2CD2",
+          "PCDHGA7",
+          "FAM50A",
+          "CWF19L1",
+          "PSMC2",
+          "LRRC31",
+          "NOTUM",
+          "NUF2",
+          "VASH2",
+          "SSC5D",
+          "SLC8A1",
+          "PLSCR4",
+          "POLR3B",
+          "CEP295",
+          "ITGA2",
+          "AGR2",
+          "GATA5",
+          "PEA15",
+          "CEP128",
+          "NKD2",
+          "SLC18A1",
+          "LTC4S",
+          "MYMK",
+          "CASP3",
+          "HAUS1",
+          "SETDB1",
+          "MUL1",
+          "EFNA3",
+          "TMEM106C",
+          "SRCIN1",
+          "MGLL",
+          "BNIP3L",
+          "RXFP4",
+          "BRD8",
+          "MOS",
+          "EFCAB5",
+          "LYPD2",
+          "TTI1",
+          "CYB5A",
+          "NEK3",
+          "SUSD3",
+          "THNSL2",
+          "C1QTNF12",
+          "NGRN",
+          "TPP1",
+          "SF3B2",
+          "SPNS1",
+          "CCDC14",
+          "DAG1",
+          "CYP8B1",
+          "EMC6",
+          "CPLX2",
+          "SNCA",
+          "ZNF646",
+          "ITGAM",
+          "RALGDS",
+          "AGGF1",
+          "ZNF382",
+          "PEX11G",
+          "SEBOX",
+          "PYCARD",
+          "NTAN1",
+          "KANSL1L",
+          "TYMP",
+          "HOPX",
+          "STAG2",
+          "CLTB",
+          "MBL2",
+          "GINM1",
+          "SCN9A",
+          "COPZ1",
+          "ICA1",
+          "HLX",
+          "PCGF1",
+          "ZNF76",
+          "MED4",
+          "E2F8",
+          "MLC1",
+          "MON2",
+          "PACSIN2",
+          "TSTD2",
+          "PATL2",
+          "CEP41",
+          "SUCLG1",
+          "MED24",
+          "MACROD1",
+          "SCFD1",
+          "EIF1AD",
+          "WASL",
+          "KCTD5",
+          "ZC3HAV1L",
+          "UGT8",
+          "KCNC3",
+          "PFKM",
+          "LLGL2",
+          "AQP3",
+          "FKBP6",
+          "PLPP2",
+          "PPM1K",
+          "NPM3",
+          "SMIM11",
+          "RFX1",
+          "MAN2B2",
+          "CASP2",
+          "TBX6",
+          "GABRA6",
+          "CD99L2",
+          "GDF9",
+          "CHRNA4",
+          "UBR2",
+          "FBXO9",
+          "IFI35",
+          "FBXO34",
+          "MFSD6L",
+          "EEA1",
+          "PDPK1",
+          "ALOX15B",
+          "ACKR3",
+          "MYO5A",
+          "CDCA8",
+          "ZNF629",
+          "USP9X",
+          "C6",
+          "CYTL1",
+          "HCFC1R1",
+          "TLCD2",
+          "TMEM176A",
+          "ZFP36",
+          "WDR72",
+          "NFATC2IP",
+          "MGAT2",
+          "CCDC137",
+          "CTTN",
+          "GRTP1",
+          "HSPB1",
+          "PKP2",
+          "HP1BP3",
+          "RBCK1",
+          "NDRG4",
+          "BRSK2",
+          "NDUFS8",
+          "RRP9",
+          "RWDD4",
+          "ALKAL2",
+          "ITGAE",
+          "OTUB2",
+          "TNIK",
+          "KAT5",
+          "ARHGAP19",
+          "F13A1",
+          "ZNF383",
+          "ANAPC1",
+          "OPN3",
+          "EPHA7",
+          "HOXD13",
+          "MMP24",
+          "CCL17",
+          "DKK1",
+          "SHROOM2",
+          "JPH2",
+          "PDHB",
+          "IQCF5",
+          "PRR32",
+          "ABHD10",
+          "CMTM7",
+          "SHMT2",
+          "MBTD1",
+          "ATL2",
+          "CLCN7",
+          "MED1",
+          "FSBP",
+          "DDX10",
+          "MOB3C",
+          "TMEM69",
+          "FAM3B",
+          "SLC32A1",
+          "EXOC3",
+          "EZH1",
+          "MRPL11",
+          "F10",
+          "SMOC2",
+          "DNALI1",
+          "ATP1B3",
+          "SAMM50",
+          "ZNHIT6",
+          "MRPS26",
+          "GCSH",
+          "HSPA13",
+          "CACYBP",
+          "NPVF",
+          "BFSP1",
+          "SPIRE1",
+          "LDB1",
+          "CUBN",
+          "GIGYF1",
+          "GUCY2F",
+          "OTULIN",
+          "KIF5C",
+          "CRP",
+          "PDIK1L",
+          "RINL",
+          "HSPH1",
+          "MEF2B",
+          "RPL13",
+          "FCGRT",
+          "KCNS1",
+          "WDHD1",
+          "PLCG2",
+          "TBC1D31",
+          "AKIRIN2",
+          "PPP1R1A",
+          "SLC5A7",
+          "MMGT1",
+          "FAM107B",
+          "FFAR1",
+          "TMEM101",
+          "NDUFS2",
+          "CEACAM16",
+          "ACKR4",
+          "BAP1",
+          "ARHGAP15",
+          "COPS6",
+          "MCM7",
+          "CTPS2",
+          "MRI1",
+          "KLC3",
+          "NISCH",
+          "TSHZ3",
+          "STT3A",
+          "KLC2",
+          "LSM11",
+          "GPR137C",
+          "MRGPRE",
+          "NSF",
+          "AWAT1",
+          "CAP1",
+          "PSME4",
+          "ZCCHC4",
+          "WBP1L",
+          "CFLAR",
+          "TRIM24",
+          "PCDHGA8",
+          "EMSY",
+          "ZNF346",
+          "PTPRR",
+          "ZC3H14",
+          "SEC16B",
+          "FBXO17",
+          "PPM1D",
+          "FKBP15",
+          "CCDC136",
+          "ZNF653",
+          "KRTCAP3",
+          "VGLL2",
+          "CDC42SE2",
+          "OCA2",
+          "SDR16C5",
+          "CHP2",
+          "PUS7L",
+          "TMOD2",
+          "MRPL53",
+          "HUS1B",
+          "TMEM80",
+          "NSMAF",
+          "NMT2",
+          "USP11",
+          "STAM",
+          "TTLL1",
+          "TAFA2",
+          "PARP1",
+          "NIFK",
+          "ILRUN",
+          "TIMP2",
+          "MAD1L1",
+          "OC90",
+          "CWC27",
+          "NEUROD2",
+          "CNOT3",
+          "CDH20",
+          "POLR1E",
+          "CDPF1",
+          "PADI3",
+          "GFUS",
+          "UQCC2",
+          "LMCD1",
+          "ACO1",
+          "CSNK1E",
+          "GNAI3",
+          "CRY2",
+          "NUCB2",
+          "ALPK1",
+          "STIL",
+          "PLK2",
+          "CHRNE",
+          "CACNG4",
+          "GPR12",
+          "ARID3C",
+          "UTP11",
+          "TMEM198",
+          "MACROD2",
+          "USP14",
+          "AMOT",
+          "NTN3",
+          "YOD1",
+          "ZCCHC10",
+          "MLANA",
+          "MTRFR",
+          "ASCL1",
+          "ZNF23",
+          "ELAVL1",
+          "RAB5C",
+          "RO60",
+          "TNNI3",
+          "TMEM50A",
+          "HYOU1",
+          "BBS1",
+          "PROM2",
+          "KCNJ8",
+          "LYZL6",
+          "KCNC1",
+          "VIRMA",
+          "UCP2",
+          "PPIL6",
+          "SIRT4",
+          "PADI4",
+          "PRDM14",
+          "SSR1",
+          "CTRL",
+          "GUCA2B",
+          "MCM3AP",
+          "FNDC9",
+          "LHFPL1",
+          "CCDC17",
+          "R3HDML",
+          "MYOT",
+          "PRKCQ",
+          "SELENOT",
+          "ADI1",
+          "TRMT1",
+          "EXOSC9",
+          "ATAD5",
+          "CFAP69",
+          "ZUP1",
+          "CPA2",
+          "RRP7A",
+          "COLEC12",
+          "RAPGEF6",
+          "SLC31A2",
+          "UTP3",
+          "SLC25A16",
+          "LUZP2",
+          "MYBPC2",
+          "BTG4",
+          "CENPB",
+          "CSNK1D",
+          "NFKBIB",
+          "TMEM200B",
+          "ADAP2",
+          "EMILIN1",
+          "TSC22D3",
+          "CSDE1",
+          "DNAAF4",
+          "DCX",
+          "ESRP1",
+          "TBC1D1",
+          "FMO3",
+          "PHAF1",
+          "VEZF1",
+          "SPARC",
+          "ADGRF3",
+          "DDX50",
+          "ZNF106",
+          "PARP12",
+          "DNAJB8",
+          "MARCHF9",
+          "DIPK1C",
+          "IL10RB",
+          "DTYMK",
+          "SRRM4",
+          "TCERG1",
+          "KNTC1",
+          "NECAB1",
+          "KLHL13",
+          "CCDC177",
+          "BLCAP",
+          "B3GALT4",
+          "KCNJ10",
+          "TAF1A",
+          "POLG2",
+          "ONECUT2",
+          "AP5Z1",
+          "PCNX3",
+          "TRPC6",
+          "PCDH12",
+          "OCIAD2",
+          "NMB",
+          "EPHB2",
+          "DNAH3",
+          "FA2H",
+          "FSTL1",
+          "TRAPPC5",
+          "ABTB1",
+          "IPCEF1",
+          "SEPTIN14",
+          "FOXL1",
+          "C1QC",
+          "PPCS",
+          "AGO2",
+          "SSH1",
+          "RMC1",
+          "CCDC188",
+          "TM6SF1",
+          "PDIA4",
+          "RNF152",
+          "CCDC40",
+          "TLCD4",
+          "STXBP3",
+          "ATAD3A",
+          "ZNF711",
+          "DIRAS1",
+          "SLC6A9",
+          "NOP16",
+          "PPP1R3D",
+          "SSBP3",
+          "SMYD3",
+          "CRABP2",
+          "WDFY2",
+          "PPP1R3E",
+          "SDAD1",
+          "TMEM164",
+          "CLDN15",
+          "PYGO1",
+          "APCDD1",
+          "MTHFSD",
+          "SP1",
+          "POU3F2",
+          "ZNF25",
+          "MRPS18A",
+          "AHCTF1",
+          "WNK3",
+          "GPR160",
+          "MED13",
+          "TOMM70",
+          "SEMA3C",
+          "SGTB",
+          "MAP7D2",
+          "EGFL6",
+          "CD63",
+          "CARD9",
+          "PTPRH",
+          "UAP1L1",
+          "TMTC4",
+          "SPTSSA",
+          "CAMKK1",
+          "TSN",
+          "TLE5",
+          "ABCC8",
+          "PRRX2",
+          "ANTKMT",
+          "HDHD2",
+          "DPP8",
+          "NCAPG2",
+          "WDR1",
+          "HNRNPL",
+          "VSTM2L",
+          "RPP40",
+          "U2AF1L4",
+          "GPHB5",
+          "FNDC11",
+          "NXPH1",
+          "SPCS1",
+          "TMEM171",
+          "SOX15",
+          "TAFAZZIN",
+          "CFAP20DC",
+          "MAPK11",
+          "LRAT",
+          "GOSR2",
+          "GPR39",
+          "LHX3",
+          "GATC",
+          "ASPA",
+          "DHX57",
+          "HRAS",
+          "ACOX3",
+          "RETREG3",
+          "CCDC80",
+          "KRT12",
+          "POLL",
+          "NEMP2",
+          "ECHDC2",
+          "CACNG8",
+          "NEXMIF",
+          "MINAR2",
+          "NRXN3",
+          "PLAC8",
+          "EPB41L4A",
+          "SHB",
+          "TGFBR1",
+          "NOX4",
+          "NT5DC2",
+          "EMC2",
+          "MYCT1",
+          "PMM1",
+          "MEX3C",
+          "BARHL2",
+          "CORO2A",
+          "NUDT14",
+          "SMYD4",
+          "STRBP",
+          "POMGNT2",
+          "TMEM177",
+          "TIGD4",
+          "EVI2B",
+          "TMEM132E",
+          "CARM1",
+          "WDR53",
+          "GGA3",
+          "DZIP3",
+          "MTHFD2L",
+          "ROM1",
+          "CTBP1",
+          "TRIM13",
+          "GET1",
+          "AJM1",
+          "ABHD8",
+          "TMEM120B",
+          "UBTF",
+          "SMS",
+          "SLC16A14",
+          "MUSK",
+          "NRIP1",
+          "BSCL2",
+          "EDN2",
+          "ZNF804B",
+          "FBXL14",
+          "CEACAM18",
+          "PRKAG1",
+          "GOSR1",
+          "PRR16",
+          "TRIM44",
+          "AK9",
+          "CPSF6",
+          "POMK",
+          "ARPC5L",
+          "ATP10A",
+          "BRWD1",
+          "S100A11",
+          "ADD2",
+          "BMP4",
+          "SLC5A11",
+          "NDUFB8",
+          "PPFIA3",
+          "TAPBP",
+          "SRPK2",
+          "LRRC46",
+          "ASB16",
+          "COCH",
+          "KCNK7",
+          "RUFY3",
+          "CNIH1",
+          "ATP11A",
+          "NDOR1",
+          "ZDHHC14",
+          "ZPBP",
+          "PIGP",
+          "CALY",
+          "THAP2",
+          "HOXB1",
+          "GPR153",
+          "OTP",
+          "SNRPE",
+          "CMBL",
+          "AADACL3",
+          "MFSD3",
+          "TMEM132D",
+          "S100A3",
+          "TBC1D14",
+          "NEPRO",
+          "SYNGR2",
+          "LOXL2",
+          "KYAT3",
+          "NAGK",
+          "SPG21",
+          "CREB3L1",
+          "SOX12",
+          "PGS1",
+          "S100A16",
+          "CHSY3",
+          "TMEM115",
+          "SLC33A1",
+          "KIF20B",
+          "LIPI",
+          "PLEKHO2",
+          "PHYHD1",
+          "TADA3",
+          "RIMBP2",
+          "E2F7",
+          "RGS18",
+          "DENND4A",
+          "NFIA",
+          "PLPP3",
+          "NCKAP1",
+          "SLC35D2",
+          "GLB1L2",
+          "ANAPC13",
+          "NFKBIA",
+          "MYL3",
+          "FOXC1",
+          "ARF3",
+          "TMEM245",
+          "ERBB2",
+          "FZD4",
+          "CAAP1",
+          "SPSB4",
+          "NRK",
+          "LENG1",
+          "CORO1A",
+          "MEGF10",
+          "PIWIL2",
+          "TNPO2",
+          "SLC38A6",
+          "SLIT3",
+          "TASP1",
+          "SHLD3",
+          "SLC2A4",
+          "STK35",
+          "RPTOR",
+          "BPIFB3",
+          "SERINC4",
+          "EMC3",
+          "EOGT"
+        ]
+      },
+      "organism": "hsapiens",
+      "all_results": false,
+      "ordered": false,
+      "no_iea": false,
+      "sources": [
+        "GO:BP",
+        "REAC"
+      ],
+      "combined": false,
+      "aresolve": {},
+      "numeric_ns": "ENTREZGENE_ACC",
+      "domain_scope": "custom",
+      "measure_underrepresentation": false,
+      "significance_threshold_method": "g_SCS",
+      "user_threshold": 0.05,
+      "no_evidences": false,
+      "highlight": null
+    },
+    "result_metadata": {
+      "GO:BP": {
+        "domain_size": 20972,
+        "number_of_terms": 24546,
+        "threshold": 1e-06
+      },
+      "REAC": {
+        "domain_size": 11056,
+        "number_of_terms": 2849,
+        "threshold": 8.8e-05
+      }
+    },
+    "genes_metadata": {
+      "failed": [],
+      "ambiguous": {
+        "AARSD1": [
+          {
+            "gene_id": "ENSG00000108825",
+            "description": "PTGES3L-AARSD1 readthrough [Source:HGNC Symbol;Acc:HGNC:43946]",
+            "number_of_go_annotations": 69
+          },
+          {
+            "gene_id": "ENSG00000266967",
+            "description": "alanyl-tRNA synthetase domain containing 1 [Source:HGNC Symbol;Acc:HGNC:28417]",
+            "number_of_go_annotations": 66
+          }
+        ],
+        "DDIT3": [
+          {
+            "gene_id": "ENSG00000285133",
+            "description": "novel protein",
+            "number_of_go_annotations": 12
+          },
+          {
+            "gene_id": "ENSG00000175197",
+            "description": "DNA damage inducible transcript 3 [Source:HGNC Symbol;Acc:HGNC:2726]",
+            "number_of_go_annotations": 310
+          }
+        ],
+        "OPN3": [
+          {
+            "gene_id": "ENSG00000203668",
+            "description": "CHM like Rab escort protein [Source:HGNC Symbol;Acc:HGNC:1941]",
+            "number_of_go_annotations": 73
+          },
+          {
+            "gene_id": "ENSG00000054277",
+            "description": "opsin 3 [Source:HGNC Symbol;Acc:HGNC:14007]",
+            "number_of_go_annotations": 142
+          }
+        ],
+        "CSNK1E": [
+          {
+            "gene_id": "ENSG00000283900",
+            "description": "TPTEP2-CSNK1E readthrough [Source:HGNC Symbol;Acc:HGNC:53829]",
+            "number_of_go_annotations": 36
+          },
+          {
+            "gene_id": "ENSG00000213923",
+            "description": "casein kinase 1 epsilon [Source:HGNC Symbol;Acc:HGNC:2453]",
+            "number_of_go_annotations": 210
+          }
+        ],
+        "NDUFB8": [
+          {
+            "gene_id": "ENSG00000166136",
+            "description": "NADH:ubiquinone oxidoreductase subunit B8 [Source:HGNC Symbol;Acc:HGNC:7703]",
+            "number_of_go_annotations": 101
+          },
+          {
+            "gene_id": "ENSG00000255339",
+            "description": "NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 8, 19kDa (NDUFB8) and SEC31 homolog B (S. cerevisiae) (SEC31B) readthrough",
+            "number_of_go_annotations": 30
+          }
+        ],
+        "EMC3": [
+          {
+            "gene_id": "ENSG00000125037",
+            "description": "ER membrane protein complex subunit 3 [Source:HGNC Symbol;Acc:HGNC:23999]",
+            "number_of_go_annotations": 47
+          },
+          {
+            "gene_id": "ENSG00000206567",
+            "description": "novel transcript",
+            "number_of_go_annotations": 0
+          }
+        ]
+      },
+      "duplicates": [],
+      "query": {
+        "conserved_gene_inference_top1000": {
+          "mapping": {
+            "GPR156": [
+              "ENSG00000175697"
+            ],
+            "ZNF692": [
+              "ENSG00000171163"
+            ],
+            "HEG1": [
+              "ENSG00000173706"
+            ],
+            "LSM1": [
+              "ENSG00000175324"
+            ],
+            "GGH": [
+              "ENSG00000137563"
+            ],
+            "MFSD10": [
+              "ENSG00000109736"
+            ],
+            "HAGH": [
+              "ENSG00000063854"
+            ],
+            "LSM8": [
+              "ENSG00000128534"
+            ],
+            "NCDN": [
+              "ENSG00000020129"
+            ],
+            "FNDC8": [
+              "ENSG00000073598"
+            ],
+            "SPTB": [
+              "ENSG00000070182"
+            ],
+            "ZPBP2": [
+              "ENSG00000186075"
+            ],
+            "WBP2": [
+              "ENSG00000132471"
+            ],
+            "TECPR2": [
+              "ENSG00000196663"
+            ],
+            "MPZL3": [
+              "ENSG00000160588"
+            ],
+            "DNASE1L2": [
+              "ENSG00000167968"
+            ],
+            "CDK12": [
+              "ENSG00000167258"
+            ],
+            "PHF6": [
+              "ENSG00000156531"
+            ],
+            "SLC25A40": [
+              "ENSG00000075303"
+            ],
+            "ACOT13": [
+              "ENSG00000112304"
+            ],
+            "CCDC148": [
+              "ENSG00000153237"
+            ],
+            "POMT2": [
+              "ENSG00000009830"
+            ],
+            "ARHGAP1": [
+              "ENSG00000175220"
+            ],
+            "HRH2": [
+              "ENSG00000113749"
+            ],
+            "TUG1": [
+              "ENSG00000253352"
+            ],
+            "TRA2B": [
+              "ENSG00000136527"
+            ],
+            "TIMP3": [
+              "ENSG00000100234"
+            ],
+            "GPHA2": [
+              "ENSG00000149735"
+            ],
+            "FANCG": [
+              "ENSG00000221829"
+            ],
+            "PLA2R1": [
+              "ENSG00000153246"
+            ],
+            "GCLC": [
+              "ENSG00000001084"
+            ],
+            "ODF2": [
+              "ENSG00000136811"
+            ],
+            "RPS28": [
+              "ENSG00000233927"
+            ],
+            "DOCK2": [
+              "ENSG00000134516"
+            ],
+            "MZT1": [
+              "ENSG00000204899"
+            ],
+            "RNFT2": [
+              "ENSG00000135119"
+            ],
+            "TFCP2": [
+              "ENSG00000135457"
+            ],
+            "PRPSAP2": [
+              "ENSG00000141127"
+            ],
+            "NLN": [
+              "ENSG00000123213"
+            ],
+            "PRICKLE2": [
+              "ENSG00000163637"
+            ],
+            "COBL": [
+              "ENSG00000106078"
+            ],
+            "GPR174": [
+              "ENSG00000147138"
+            ],
+            "USHBP1": [
+              "ENSG00000130307"
+            ],
+            "GRIPAP1": [
+              "ENSG00000068400"
+            ],
+            "PSMD14": [
+              "ENSG00000115233"
+            ],
+            "COPB2": [
+              "ENSG00000184432"
+            ],
+            "SWT1": [
+              "ENSG00000116668"
+            ],
+            "LGALS4": [
+              "ENSG00000171747"
+            ],
+            "DNASE2B": [
+              "ENSG00000137976"
+            ],
+            "CPT1C": [
+              "ENSG00000169169"
+            ],
+            "SNRPB": [
+              "ENSG00000125835"
+            ],
+            "REST": [
+              "ENSG00000084093"
+            ],
+            "GALNT6": [
+              "ENSG00000139629"
+            ],
+            "EHD1": [
+              "ENSG00000110047"
+            ],
+            "PROM1": [
+              "ENSG00000007062"
+            ],
+            "CLEC4E": [
+              "ENSG00000166523"
+            ],
+            "ELOVL2": [
+              "ENSG00000197977"
+            ],
+            "JCHAIN": [
+              "ENSG00000132465"
+            ],
+            "DCDC2": [
+              "ENSG00000146038"
+            ],
+            "PML": [
+              "ENSG00000140464"
+            ],
+            "GATAD2A": [
+              "ENSG00000167491"
+            ],
+            "SNRNP25": [
+              "ENSG00000161981"
+            ],
+            "SLC25A48": [
+              "ENSG00000145832"
+            ],
+            "CFAP97D1": [
+              "ENSG00000231256"
+            ],
+            "UNC45A": [
+              "ENSG00000140553"
+            ],
+            "TOGARAM2": [
+              "ENSG00000189350"
+            ],
+            "AIF1L": [
+              "ENSG00000126878"
+            ],
+            "TARBP2": [
+              "ENSG00000139546"
+            ],
+            "ESM1": [
+              "ENSG00000164283"
+            ],
+            "SDR39U1": [
+              "ENSG00000100445"
+            ],
+            "TRAPPC10": [
+              "ENSG00000160218"
+            ],
+            "ANKRD13C": [
+              "ENSG00000118454"
+            ],
+            "IL22RA2": [
+              "ENSG00000164485"
+            ],
+            "SUCLA2": [
+              "ENSG00000136143"
+            ],
+            "GLMP": [
+              "ENSG00000198715"
+            ],
+            "SDCBP2": [
+              "ENSG00000125775"
+            ],
+            "WDR35": [
+              "ENSG00000118965"
+            ],
+            "NUP62": [
+              "ENSG00000213024"
+            ],
+            "EXTL3": [
+              "ENSG00000012232"
+            ],
+            "UNC5B": [
+              "ENSG00000107731"
+            ],
+            "MYOF": [
+              "ENSG00000138119"
+            ],
+            "AQP1": [
+              "ENSG00000240583"
+            ],
+            "SQOR": [
+              "ENSG00000137767"
+            ],
+            "ITPR2": [
+              "ENSG00000123104"
+            ],
+            "YIPF2": [
+              "ENSG00000130733"
+            ],
+            "RRP36": [
+              "ENSG00000124541"
+            ],
+            "VDAC2": [
+              "ENSG00000165637"
+            ],
+            "ASNS": [
+              "ENSG00000070669"
+            ],
+            "LIN7B": [
+              "ENSG00000104863"
+            ],
+            "TECTB": [
+              "ENSG00000119913"
+            ],
+            "UBD": [
+              "ENSG00000213886"
+            ],
+            "SBK2": [
+              "ENSG00000187550"
+            ],
+            "GPRC5C": [
+              "ENSG00000170412"
+            ],
+            "ERF": [
+              "ENSG00000105722"
+            ],
+            "MSLNL": [
+              "ENSG00000162006"
+            ],
+            "CD163": [
+              "ENSG00000177575"
+            ],
+            "TMEM218": [
+              "ENSG00000150433"
+            ],
+            "UIMC1": [
+              "ENSG00000087206"
+            ],
+            "NLRC3": [
+              "ENSG00000167984"
+            ],
+            "POPDC2": [
+              "ENSG00000121577"
+            ],
+            "UCN3": [
+              "ENSG00000178473"
+            ],
+            "PPP1R26": [
+              "ENSG00000196422"
+            ],
+            "TRIM59": [
+              "ENSG00000213186"
+            ],
+            "TMCC3": [
+              "ENSG00000057704"
+            ],
+            "TRPM1": [
+              "ENSG00000134160"
+            ],
+            "PABPN1": [
+              "ENSG00000100836"
+            ],
+            "TRPM4": [
+              "ENSG00000130529"
+            ],
+            "SYNDIG1": [
+              "ENSG00000101463"
+            ],
+            "CPSF2": [
+              "ENSG00000165934"
+            ],
+            "PLA2G12B": [
+              "ENSG00000138308"
+            ],
+            "NFU1": [
+              "ENSG00000169599"
+            ],
+            "ABCD1": [
+              "ENSG00000101986"
+            ],
+            "SLC2A10": [
+              "ENSG00000197496"
+            ],
+            "SLC25A21": [
+              "ENSG00000183032"
+            ],
+            "MAPK4": [
+              "ENSG00000141639"
+            ],
+            "DUSP18": [
+              "ENSG00000167065"
+            ],
+            "EPB41L4B": [
+              "ENSG00000095203"
+            ],
+            "PPM1L": [
+              "ENSG00000163590"
+            ],
+            "PPP1CA": [
+              "ENSG00000172531"
+            ],
+            "GSTO2": [
+              "ENSG00000065621"
+            ],
+            "B3GALT1": [
+              "ENSG00000172318"
+            ],
+            "PRSS38": [
+              "ENSG00000185888"
+            ],
+            "KIF23": [
+              "ENSG00000137807"
+            ],
+            "BLOC1S5": [
+              "ENSG00000188428"
+            ],
+            "BCL2": [
+              "ENSG00000171791"
+            ],
+            "AFG1L": [
+              "ENSG00000135537"
+            ],
+            "PSRC1": [
+              "ENSG00000134222"
+            ],
+            "EIF4E": [
+              "ENSG00000151247"
+            ],
+            "RCHY1": [
+              "ENSG00000163743"
+            ],
+            "ARL13B": [
+              "ENSG00000169379"
+            ],
+            "REEP3": [
+              "ENSG00000165476"
+            ],
+            "TMEM184B": [
+              "ENSG00000198792"
+            ],
+            "PAWR": [
+              "ENSG00000177425"
+            ],
+            "GZMK": [
+              "ENSG00000113088"
+            ],
+            "IL7": [
+              "ENSG00000104432"
+            ],
+            "RARB": [
+              "ENSG00000077092"
+            ],
+            "MRPS33": [
+              "ENSG00000090263"
+            ],
+            "EMX2": [
+              "ENSG00000170370"
+            ],
+            "ZP1": [
+              "ENSG00000149506"
+            ],
+            "FBXL19": [
+              "ENSG00000099364"
+            ],
+            "SNCB": [
+              "ENSG00000074317"
+            ],
+            "SLC18A2": [
+              "ENSG00000165646"
+            ],
+            "ENPP2": [
+              "ENSG00000136960"
+            ],
+            "CTSK": [
+              "ENSG00000143387"
+            ],
+            "EIF3F": [
+              "ENSG00000175390"
+            ],
+            "POP1": [
+              "ENSG00000104356"
+            ],
+            "AVPR2": [
+              "ENSG00000126895"
+            ],
+            "TAC1": [
+              "ENSG00000006128"
+            ],
+            "HAUS4": [
+              "ENSG00000092036"
+            ],
+            "HYAL4": [
+              "ENSG00000106302"
+            ],
+            "LEMD3": [
+              "ENSG00000174106"
+            ],
+            "CREB3L2": [
+              "ENSG00000182158"
+            ],
+            "MTF1": [
+              "ENSG00000188786"
+            ],
+            "MTAP": [
+              "ENSG00000099810"
+            ],
+            "C8G": [
+              "ENSG00000176919"
+            ],
+            "RPL28": [
+              "ENSG00000108107"
+            ],
+            "RPL27": [
+              "ENSG00000131469"
+            ],
+            "SLC12A4": [
+              "ENSG00000124067"
+            ],
+            "RTF1": [
+              "ENSG00000137815"
+            ],
+            "MT-ND4L": [
+              "ENSG00000212907"
+            ],
+            "ZNF606": [
+              "ENSG00000166704"
+            ],
+            "TPPP3": [
+              "ENSG00000159713"
+            ],
+            "MROH7": [
+              "ENSG00000184313"
+            ],
+            "ATG4B": [
+              "ENSG00000168397"
+            ],
+            "ART4": [
+              "ENSG00000111339"
+            ],
+            "SSTR5": [
+              "ENSG00000162009"
+            ],
+            "ZBTB25": [
+              "ENSG00000089775"
+            ],
+            "PNPT1": [
+              "ENSG00000138035"
+            ],
+            "DPYD": [
+              "ENSG00000188641"
+            ],
+            "NDUFC1": [
+              "ENSG00000109390"
+            ],
+            "COMMD1": [
+              "ENSG00000173163"
+            ],
+            "HECTD1": [
+              "ENSG00000092148"
+            ],
+            "P2RY14": [
+              "ENSG00000174944"
+            ],
+            "ADCK5": [
+              "ENSG00000173137"
+            ],
+            "CD200": [
+              "ENSG00000091972"
+            ],
+            "TOX2": [
+              "ENSG00000124191"
+            ],
+            "CD247": [
+              "ENSG00000198821"
+            ],
+            "SAT2": [
+              "ENSG00000141504"
+            ],
+            "RHOV": [
+              "ENSG00000104140"
+            ],
+            "YES1": [
+              "ENSG00000176105"
+            ],
+            "MIXL1": [
+              "ENSG00000185155"
+            ],
+            "CCPG1": [
+              "ENSG00000260916"
+            ],
+            "LRBA": [
+              "ENSG00000198589"
+            ],
+            "ADAMTS6": [
+              "ENSG00000049192"
+            ],
+            "ZNF180": [
+              "ENSG00000167384"
+            ],
+            "KCNAB2": [
+              "ENSG00000069424"
+            ],
+            "CENPH": [
+              "ENSG00000153044"
+            ],
+            "RTP2": [
+              "ENSG00000198471"
+            ],
+            "NCK1": [
+              "ENSG00000158092"
+            ],
+            "EIF4EBP2": [
+              "ENSG00000148730"
+            ],
+            "SH2D6": [
+              "ENSG00000152292"
+            ],
+            "PCDHGC3": [
+              "ENSG00000240184"
+            ],
+            "XCR1": [
+              "ENSG00000173578"
+            ],
+            "TFAP2D": [
+              "ENSG00000008197"
+            ],
+            "ATF6": [
+              "ENSG00000118217"
+            ],
+            "STX1B": [
+              "ENSG00000099365"
+            ],
+            "CTDSP1": [
+              "ENSG00000144579"
+            ],
+            "ASIC4": [
+              "ENSG00000072182"
+            ],
+            "ICE1": [
+              "ENSG00000164151"
+            ],
+            "RBBP4": [
+              "ENSG00000162521"
+            ],
+            "PHKA2": [
+              "ENSG00000044446"
+            ],
+            "CD2": [
+              "ENSG00000116824"
+            ],
+            "PDZRN3": [
+              "ENSG00000121440"
+            ],
+            "STEEP1": [
+              "ENSG00000018610"
+            ],
+            "ARHGAP33": [
+              "ENSG00000004777"
+            ],
+            "CASK": [
+              "ENSG00000147044"
+            ],
+            "B3GALT5": [
+              "ENSG00000183778"
+            ],
+            "JCAD": [
+              "ENSG00000165757"
+            ],
+            "ULK3": [
+              "ENSG00000140474"
+            ],
+            "NUFIP2": [
+              "ENSG00000108256"
+            ],
+            "MINK1": [
+              "ENSG00000141503"
+            ],
+            "TFR2": [
+              "ENSG00000106327"
+            ],
+            "CFAP77": [
+              "ENSG00000188523"
+            ],
+            "SMU1": [
+              "ENSG00000122692"
+            ],
+            "SLC6A19": [
+              "ENSG00000174358"
+            ],
+            "ATP13A4": [
+              "ENSG00000127249"
+            ],
+            "PHYHIPL": [
+              "ENSG00000165443"
+            ],
+            "MYH3": [
+              "ENSG00000109063"
+            ],
+            "EDN1": [
+              "ENSG00000078401"
+            ],
+            "CLN5": [
+              "ENSG00000102805"
+            ],
+            "LPAR5": [
+              "ENSG00000184574"
+            ],
+            "GRK5": [
+              "ENSG00000198873"
+            ],
+            "AS3MT": [
+              "ENSG00000214435"
+            ],
+            "LRP1": [
+              "ENSG00000123384"
+            ],
+            "MOK": [
+              "ENSG00000080823"
+            ],
+            "MKKS": [
+              "ENSG00000125863"
+            ],
+            "CCDC117": [
+              "ENSG00000159873"
+            ],
+            "MINDY3": [
+              "ENSG00000148481"
+            ],
+            "ZNF366": [
+              "ENSG00000178175"
+            ],
+            "LYRM1": [
+              "ENSG00000102897"
+            ],
+            "MYL2": [
+              "ENSG00000111245"
+            ],
+            "DAB2IP": [
+              "ENSG00000136848"
+            ],
+            "ERN1": [
+              "ENSG00000178607"
+            ],
+            "FAM234B": [
+              "ENSG00000084444"
+            ],
+            "EFCAB14": [
+              "ENSG00000159658"
+            ],
+            "CDC25C": [
+              "ENSG00000158402"
+            ],
+            "PAPSS2": [
+              "ENSG00000198682"
+            ],
+            "AP4E1": [
+              "ENSG00000081014"
+            ],
+            "COX7C": [
+              "ENSG00000127184"
+            ],
+            "CARMIL2": [
+              "ENSG00000159753"
+            ],
+            "TRIM28": [
+              "ENSG00000130726"
+            ],
+            "ACTA1": [
+              "ENSG00000143632"
+            ],
+            "BRDT": [
+              "ENSG00000137948"
+            ],
+            "CRISPLD1": [
+              "ENSG00000121005"
+            ],
+            "LAS1L": [
+              "ENSG00000001497"
+            ],
+            "NICN1": [
+              "ENSG00000145029"
+            ],
+            "FUT11": [
+              "ENSG00000196968"
+            ],
+            "PRDM12": [
+              "ENSG00000130711"
+            ],
+            "CCDC91": [
+              "ENSG00000123106"
+            ],
+            "CDR2": [
+              "ENSG00000140743"
+            ],
+            "GOLIM4": [
+              "ENSG00000173905"
+            ],
+            "FOXE3": [
+              "ENSG00000186790"
+            ],
+            "NKX2-2": [
+              "ENSG00000125820"
+            ],
+            "CRKL": [
+              "ENSG00000099942"
+            ],
+            "NOP58": [
+              "ENSG00000055044"
+            ],
+            "NBR1": [
+              "ENSG00000188554"
+            ],
+            "FADD": [
+              "ENSG00000168040"
+            ],
+            "HSCB": [
+              "ENSG00000100209"
+            ],
+            "MROH9": [
+              "ENSG00000117501"
+            ],
+            "PARPBP": [
+              "ENSG00000185480"
+            ],
+            "TTC4": [
+              "ENSG00000243725"
+            ],
+            "P4HA1": [
+              "ENSG00000122884"
+            ],
+            "UBE3A": [
+              "ENSG00000114062"
+            ],
+            "MMP14": [
+              "ENSG00000157227"
+            ],
+            "SARNP": [
+              "ENSG00000205323"
+            ],
+            "SPDL1": [
+              "ENSG00000040275"
+            ],
+            "ATF5": [
+              "ENSG00000169136"
+            ],
+            "RAP1GAP": [
+              "ENSG00000076864"
+            ],
+            "MIEN1": [
+              "ENSG00000141741"
+            ],
+            "SLC16A9": [
+              "ENSG00000165449"
+            ],
+            "PTPRN": [
+              "ENSG00000054356"
+            ],
+            "PHOSPHO1": [
+              "ENSG00000173868"
+            ],
+            "F5": [
+              "ENSG00000198734"
+            ],
+            "N4BP2": [
+              "ENSG00000078177"
+            ],
+            "MMD2": [
+              "ENSG00000136297"
+            ],
+            "ALX3": [
+              "ENSG00000156150"
+            ],
+            "KLK6": [
+              "ENSG00000167755"
+            ],
+            "GABPA": [
+              "ENSG00000154727"
+            ],
+            "KCNH3": [
+              "ENSG00000135519"
+            ],
+            "P2RY6": [
+              "ENSG00000171631"
+            ],
+            "FUT1": [
+              "ENSG00000174951"
+            ],
+            "MGST1": [
+              "ENSG00000008394"
+            ],
+            "NPR2": [
+              "ENSG00000159899"
+            ],
+            "TET3": [
+              "ENSG00000187605"
+            ],
+            "SPINK5": [
+              "ENSG00000133710"
+            ],
+            "SMARCD1": [
+              "ENSG00000066117"
+            ],
+            "MRPL58": [
+              "ENSG00000167862"
+            ],
+            "ENDOV": [
+              "ENSG00000173818"
+            ],
+            "TMPRSS13": [
+              "ENSG00000137747"
+            ],
+            "UBOX5": [
+              "ENSG00000185019"
+            ],
+            "TTC39C": [
+              "ENSG00000168234"
+            ],
+            "DACH1": [
+              "ENSG00000276644"
+            ],
+            "PPRC1": [
+              "ENSG00000148840"
+            ],
+            "SLC25A37": [
+              "ENSG00000147454"
+            ],
+            "CCT3": [
+              "ENSG00000163468"
+            ],
+            "C1QTNF7": [
+              "ENSG00000163145"
+            ],
+            "TNFAIP8L3": [
+              "ENSG00000183578"
+            ],
+            "TMEM229B": [
+              "ENSG00000198133"
+            ],
+            "CPNE2": [
+              "ENSG00000140848"
+            ],
+            "CBX2": [
+              "ENSG00000173894"
+            ],
+            "POLN": [
+              "ENSG00000130997"
+            ],
+            "FBN1": [
+              "ENSG00000166147"
+            ],
+            "LRCH1": [
+              "ENSG00000136141"
+            ],
+            "TEK": [
+              "ENSG00000120156"
+            ],
+            "MAFG": [
+              "ENSG00000197063"
+            ],
+            "THUMPD2": [
+              "ENSG00000138050"
+            ],
+            "MAP7": [
+              "ENSG00000135525"
+            ],
+            "ASL": [
+              "ENSG00000126522"
+            ],
+            "EGFL7": [
+              "ENSG00000172889"
+            ],
+            "ZNF385B": [
+              "ENSG00000144331"
+            ],
+            "SYNM": [
+              "ENSG00000182253"
+            ],
+            "YPEL1": [
+              "ENSG00000100027"
+            ],
+            "POLD2": [
+              "ENSG00000106628"
+            ],
+            "FSTL4": [
+              "ENSG00000053108"
+            ],
+            "TAF8": [
+              "ENSG00000137413"
+            ],
+            "PRUNE1": [
+              "ENSG00000143363"
+            ],
+            "SNX6": [
+              "ENSG00000129515"
+            ],
+            "MPDU1": [
+              "ENSG00000129255"
+            ],
+            "NLE1": [
+              "ENSG00000073536"
+            ],
+            "BAG1": [
+              "ENSG00000107262"
+            ],
+            "NTMT1": [
+              "ENSG00000148335"
+            ],
+            "KCNMB3": [
+              "ENSG00000171121"
+            ],
+            "MSN": [
+              "ENSG00000147065"
+            ],
+            "RABGEF1": [
+              "ENSG00000154710"
+            ],
+            "SETX": [
+              "ENSG00000107290"
+            ],
+            "CMTM5": [
+              "ENSG00000166091"
+            ],
+            "CWC15": [
+              "ENSG00000150316"
+            ],
+            "MSTN": [
+              "ENSG00000138379"
+            ],
+            "CCDC97": [
+              "ENSG00000142039"
+            ],
+            "KIF17": [
+              "ENSG00000117245"
+            ],
+            "SCO1": [
+              "ENSG00000133028"
+            ],
+            "SIPA1": [
+              "ENSG00000213445"
+            ],
+            "CENPQ": [
+              "ENSG00000031691"
+            ],
+            "ZKSCAN7": [
+              "ENSG00000196345"
+            ],
+            "HS6ST2": [
+              "ENSG00000171004"
+            ],
+            "MYG1": [
+              "ENSG00000139637"
+            ],
+            "JADE3": [
+              "ENSG00000102221"
+            ],
+            "IFT88": [
+              "ENSG00000032742"
+            ],
+            "LDHAL6B": [
+              "ENSG00000171989"
+            ],
+            "ACTRT3": [
+              "ENSG00000184378"
+            ],
+            "XRCC5": [
+              "ENSG00000079246"
+            ],
+            "SPG11": [
+              "ENSG00000104133"
+            ],
+            "SOD3": [
+              "ENSG00000109610"
+            ],
+            "NECAB2": [
+              "ENSG00000103154"
+            ],
+            "ENOX1": [
+              "ENSG00000120658"
+            ],
+            "CCNJL": [
+              "ENSG00000135083"
+            ],
+            "CHP1": [
+              "ENSG00000187446"
+            ],
+            "SLA2": [
+              "ENSG00000101082"
+            ],
+            "RAB28": [
+              "ENSG00000157869"
+            ],
+            "FKRP": [
+              "ENSG00000181027"
+            ],
+            "IMMP2L": [
+              "ENSG00000184903"
+            ],
+            "UBE2R2": [
+              "ENSG00000107341"
+            ],
+            "SESN2": [
+              "ENSG00000130766"
+            ],
+            "PHETA1": [
+              "ENSG00000198324"
+            ],
+            "ITPA": [
+              "ENSG00000125877"
+            ],
+            "CCDC87": [
+              "ENSG00000182791"
+            ],
+            "BTC": [
+              "ENSG00000174808"
+            ],
+            "PDGFB": [
+              "ENSG00000100311"
+            ],
+            "NFIC": [
+              "ENSG00000141905"
+            ],
+            "POLA1": [
+              "ENSG00000101868"
+            ],
+            "TYRO3": [
+              "ENSG00000092445"
+            ],
+            "HLA-DMA": [
+              "ENSG00000204257"
+            ],
+            "PEG3": [
+              "ENSG00000198300"
+            ],
+            "GPR142": [
+              "ENSG00000257008"
+            ],
+            "KCNK15": [
+              "ENSG00000124249"
+            ],
+            "RECQL": [
+              "ENSG00000004700"
+            ],
+            "C2CD2": [
+              "ENSG00000157617"
+            ],
+            "PCDHGA7": [
+              "ENSG00000253537"
+            ],
+            "FAM50A": [
+              "ENSG00000071859"
+            ],
+            "CWF19L1": [
+              "ENSG00000095485"
+            ],
+            "PSMC2": [
+              "ENSG00000161057"
+            ],
+            "LRRC31": [
+              "ENSG00000114248"
+            ],
+            "NOTUM": [
+              "ENSG00000185269"
+            ],
+            "NUF2": [
+              "ENSG00000143228"
+            ],
+            "VASH2": [
+              "ENSG00000143494"
+            ],
+            "SSC5D": [
+              "ENSG00000179954"
+            ],
+            "SLC8A1": [
+              "ENSG00000183023"
+            ],
+            "PLSCR4": [
+              "ENSG00000114698"
+            ],
+            "POLR3B": [
+              "ENSG00000013503"
+            ],
+            "CEP295": [
+              "ENSG00000166004"
+            ],
+            "ITGA2": [
+              "ENSG00000164171"
+            ],
+            "AGR2": [
+              "ENSG00000106541"
+            ],
+            "GATA5": [
+              "ENSG00000130700"
+            ],
+            "PEA15": [
+              "ENSG00000162734"
+            ],
+            "CEP128": [
+              "ENSG00000100629"
+            ],
+            "NKD2": [
+              "ENSG00000145506"
+            ],
+            "SLC18A1": [
+              "ENSG00000036565"
+            ],
+            "LTC4S": [
+              "ENSG00000213316"
+            ],
+            "MYMK": [
+              "ENSG00000187616"
+            ],
+            "CASP3": [
+              "ENSG00000164305"
+            ],
+            "HAUS1": [
+              "ENSG00000152240"
+            ],
+            "SETDB1": [
+              "ENSG00000143379"
+            ],
+            "MUL1": [
+              "ENSG00000090432"
+            ],
+            "EFNA3": [
+              "ENSG00000143590"
+            ],
+            "TMEM106C": [
+              "ENSG00000134291"
+            ],
+            "SRCIN1": [
+              "ENSG00000277363"
+            ],
+            "MGLL": [
+              "ENSG00000074416"
+            ],
+            "BNIP3L": [
+              "ENSG00000104765"
+            ],
+            "RXFP4": [
+              "ENSG00000173080"
+            ],
+            "BRD8": [
+              "ENSG00000112983"
+            ],
+            "MOS": [
+              "ENSG00000172680"
+            ],
+            "EFCAB5": [
+              "ENSG00000176927"
+            ],
+            "LYPD2": [
+              "ENSG00000197353"
+            ],
+            "TTI1": [
+              "ENSG00000101407"
+            ],
+            "CYB5A": [
+              "ENSG00000166347"
+            ],
+            "NEK3": [
+              "ENSG00000136098"
+            ],
+            "SUSD3": [
+              "ENSG00000157303"
+            ],
+            "THNSL2": [
+              "ENSG00000144115"
+            ],
+            "C1QTNF12": [
+              "ENSG00000184163"
+            ],
+            "NGRN": [
+              "ENSG00000182768"
+            ],
+            "TPP1": [
+              "ENSG00000166340"
+            ],
+            "SF3B2": [
+              "ENSG00000087365"
+            ],
+            "SPNS1": [
+              "ENSG00000169682"
+            ],
+            "CCDC14": [
+              "ENSG00000175455"
+            ],
+            "DAG1": [
+              "ENSG00000173402"
+            ],
+            "CYP8B1": [
+              "ENSG00000180432"
+            ],
+            "EMC6": [
+              "ENSG00000127774"
+            ],
+            "CPLX2": [
+              "ENSG00000145920"
+            ],
+            "SNCA": [
+              "ENSG00000145335"
+            ],
+            "ZNF646": [
+              "ENSG00000167395"
+            ],
+            "ITGAM": [
+              "ENSG00000169896"
+            ],
+            "RALGDS": [
+              "ENSG00000160271"
+            ],
+            "AGGF1": [
+              "ENSG00000164252"
+            ],
+            "ZNF382": [
+              "ENSG00000161298"
+            ],
+            "PEX11G": [
+              "ENSG00000104883"
+            ],
+            "SEBOX": [
+              "ENSG00000274529"
+            ],
+            "PYCARD": [
+              "ENSG00000103490"
+            ],
+            "NTAN1": [
+              "ENSG00000157045"
+            ],
+            "KANSL1L": [
+              "ENSG00000144445"
+            ],
+            "TYMP": [
+              "ENSG00000025708"
+            ],
+            "HOPX": [
+              "ENSG00000171476"
+            ],
+            "STAG2": [
+              "ENSG00000101972"
+            ],
+            "CLTB": [
+              "ENSG00000175416"
+            ],
+            "MBL2": [
+              "ENSG00000165471"
+            ],
+            "GINM1": [
+              "ENSG00000055211"
+            ],
+            "SCN9A": [
+              "ENSG00000169432"
+            ],
+            "COPZ1": [
+              "ENSG00000111481"
+            ],
+            "ICA1": [
+              "ENSG00000003147"
+            ],
+            "HLX": [
+              "ENSG00000136630"
+            ],
+            "PCGF1": [
+              "ENSG00000115289"
+            ],
+            "ZNF76": [
+              "ENSG00000065029"
+            ],
+            "MED4": [
+              "ENSG00000136146"
+            ],
+            "E2F8": [
+              "ENSG00000129173"
+            ],
+            "MLC1": [
+              "ENSG00000100427"
+            ],
+            "MON2": [
+              "ENSG00000061987"
+            ],
+            "PACSIN2": [
+              "ENSG00000100266"
+            ],
+            "TSTD2": [
+              "ENSG00000136925"
+            ],
+            "PATL2": [
+              "ENSG00000229474"
+            ],
+            "CEP41": [
+              "ENSG00000106477"
+            ],
+            "SUCLG1": [
+              "ENSG00000163541"
+            ],
+            "MED24": [
+              "ENSG00000008838"
+            ],
+            "MACROD1": [
+              "ENSG00000133315"
+            ],
+            "SCFD1": [
+              "ENSG00000092108"
+            ],
+            "EIF1AD": [
+              "ENSG00000175376"
+            ],
+            "WASL": [
+              "ENSG00000106299"
+            ],
+            "KCTD5": [
+              "ENSG00000167977"
+            ],
+            "ZC3HAV1L": [
+              "ENSG00000146858"
+            ],
+            "UGT8": [
+              "ENSG00000174607"
+            ],
+            "KCNC3": [
+              "ENSG00000131398"
+            ],
+            "PFKM": [
+              "ENSG00000152556"
+            ],
+            "LLGL2": [
+              "ENSG00000073350"
+            ],
+            "AQP3": [
+              "ENSG00000165272"
+            ],
+            "FKBP6": [
+              "ENSG00000077800"
+            ],
+            "PLPP2": [
+              "ENSG00000141934"
+            ],
+            "PPM1K": [
+              "ENSG00000163644"
+            ],
+            "NPM3": [
+              "ENSG00000107833"
+            ],
+            "SMIM11": [
+              "ENSG00000205670"
+            ],
+            "RFX1": [
+              "ENSG00000132005"
+            ],
+            "MAN2B2": [
+              "ENSG00000013288"
+            ],
+            "CASP2": [
+              "ENSG00000106144"
+            ],
+            "TBX6": [
+              "ENSG00000149922"
+            ],
+            "GABRA6": [
+              "ENSG00000145863"
+            ],
+            "CD99L2": [
+              "ENSG00000102181"
+            ],
+            "GDF9": [
+              "ENSG00000164404"
+            ],
+            "CHRNA4": [
+              "ENSG00000101204"
+            ],
+            "UBR2": [
+              "ENSG00000024048"
+            ],
+            "FBXO9": [
+              "ENSG00000112146"
+            ],
+            "IFI35": [
+              "ENSG00000068079"
+            ],
+            "FBXO34": [
+              "ENSG00000178974"
+            ],
+            "MFSD6L": [
+              "ENSG00000185156"
+            ],
+            "EEA1": [
+              "ENSG00000102189"
+            ],
+            "PDPK1": [
+              "ENSG00000140992"
+            ],
+            "ALOX15B": [
+              "ENSG00000179593"
+            ],
+            "ACKR3": [
+              "ENSG00000144476"
+            ],
+            "MYO5A": [
+              "ENSG00000197535"
+            ],
+            "CDCA8": [
+              "ENSG00000134690"
+            ],
+            "ZNF629": [
+              "ENSG00000102870"
+            ],
+            "USP9X": [
+              "ENSG00000124486"
+            ],
+            "C6": [
+              "ENSG00000039537"
+            ],
+            "CYTL1": [
+              "ENSG00000170891"
+            ],
+            "HCFC1R1": [
+              "ENSG00000103145"
+            ],
+            "TLCD2": [
+              "ENSG00000185561"
+            ],
+            "TMEM176A": [
+              "ENSG00000002933"
+            ],
+            "ZFP36": [
+              "ENSG00000128016"
+            ],
+            "WDR72": [
+              "ENSG00000166415"
+            ],
+            "NFATC2IP": [
+              "ENSG00000176953"
+            ],
+            "MGAT2": [
+              "ENSG00000168282"
+            ],
+            "CCDC137": [
+              "ENSG00000185298"
+            ],
+            "CTTN": [
+              "ENSG00000085733"
+            ],
+            "GRTP1": [
+              "ENSG00000139835"
+            ],
+            "HSPB1": [
+              "ENSG00000106211"
+            ],
+            "PKP2": [
+              "ENSG00000057294"
+            ],
+            "HP1BP3": [
+              "ENSG00000127483"
+            ],
+            "RBCK1": [
+              "ENSG00000125826"
+            ],
+            "NDRG4": [
+              "ENSG00000103034"
+            ],
+            "BRSK2": [
+              "ENSG00000174672"
+            ],
+            "NDUFS8": [
+              "ENSG00000110717"
+            ],
+            "RRP9": [
+              "ENSG00000114767"
+            ],
+            "RWDD4": [
+              "ENSG00000182552"
+            ],
+            "ALKAL2": [
+              "ENSG00000189292"
+            ],
+            "ITGAE": [
+              "ENSG00000083457"
+            ],
+            "OTUB2": [
+              "ENSG00000089723"
+            ],
+            "TNIK": [
+              "ENSG00000154310"
+            ],
+            "KAT5": [
+              "ENSG00000172977"
+            ],
+            "ARHGAP19": [
+              "ENSG00000213390"
+            ],
+            "F13A1": [
+              "ENSG00000124491"
+            ],
+            "ZNF383": [
+              "ENSG00000188283"
+            ],
+            "ANAPC1": [
+              "ENSG00000153107"
+            ],
+            "EPHA7": [
+              "ENSG00000135333"
+            ],
+            "HOXD13": [
+              "ENSG00000128714"
+            ],
+            "MMP24": [
+              "ENSG00000125966"
+            ],
+            "CCL17": [
+              "ENSG00000102970"
+            ],
+            "DKK1": [
+              "ENSG00000107984"
+            ],
+            "SHROOM2": [
+              "ENSG00000146950"
+            ],
+            "JPH2": [
+              "ENSG00000149596"
+            ],
+            "PDHB": [
+              "ENSG00000168291"
+            ],
+            "IQCF5": [
+              "ENSG00000214681"
+            ],
+            "PRR32": [
+              "ENSG00000183631"
+            ],
+            "ABHD10": [
+              "ENSG00000144827"
+            ],
+            "CMTM7": [
+              "ENSG00000153551"
+            ],
+            "SHMT2": [
+              "ENSG00000182199"
+            ],
+            "MBTD1": [
+              "ENSG00000011258"
+            ],
+            "ATL2": [
+              "ENSG00000119787"
+            ],
+            "CLCN7": [
+              "ENSG00000103249"
+            ],
+            "MED1": [
+              "ENSG00000125686"
+            ],
+            "FSBP": [
+              "ENSG00000265817"
+            ],
+            "DDX10": [
+              "ENSG00000178105"
+            ],
+            "MOB3C": [
+              "ENSG00000142961"
+            ],
+            "TMEM69": [
+              "ENSG00000159596"
+            ],
+            "FAM3B": [
+              "ENSG00000183844"
+            ],
+            "SLC32A1": [
+              "ENSG00000101438"
+            ],
+            "EXOC3": [
+              "ENSG00000180104"
+            ],
+            "EZH1": [
+              "ENSG00000108799"
+            ],
+            "MRPL11": [
+              "ENSG00000174547"
+            ],
+            "F10": [
+              "ENSG00000126218"
+            ],
+            "SMOC2": [
+              "ENSG00000112562"
+            ],
+            "DNALI1": [
+              "ENSG00000163879"
+            ],
+            "ATP1B3": [
+              "ENSG00000069849"
+            ],
+            "SAMM50": [
+              "ENSG00000100347"
+            ],
+            "ZNHIT6": [
+              "ENSG00000117174"
+            ],
+            "MRPS26": [
+              "ENSG00000125901"
+            ],
+            "GCSH": [
+              "ENSG00000140905"
+            ],
+            "HSPA13": [
+              "ENSG00000155304"
+            ],
+            "CACYBP": [
+              "ENSG00000116161"
+            ],
+            "NPVF": [
+              "ENSG00000105954"
+            ],
+            "BFSP1": [
+              "ENSG00000125864"
+            ],
+            "SPIRE1": [
+              "ENSG00000134278"
+            ],
+            "LDB1": [
+              "ENSG00000198728"
+            ],
+            "CUBN": [
+              "ENSG00000107611"
+            ],
+            "GIGYF1": [
+              "ENSG00000146830"
+            ],
+            "GUCY2F": [
+              "ENSG00000101890"
+            ],
+            "OTULIN": [
+              "ENSG00000154124"
+            ],
+            "KIF5C": [
+              "ENSG00000168280"
+            ],
+            "CRP": [
+              "ENSG00000132693"
+            ],
+            "PDIK1L": [
+              "ENSG00000175087"
+            ],
+            "RINL": [
+              "ENSG00000187994"
+            ],
+            "HSPH1": [
+              "ENSG00000120694"
+            ],
+            "MEF2B": [
+              "ENSG00000213999"
+            ],
+            "RPL13": [
+              "ENSG00000167526"
+            ],
+            "FCGRT": [
+              "ENSG00000104870"
+            ],
+            "KCNS1": [
+              "ENSG00000124134"
+            ],
+            "WDHD1": [
+              "ENSG00000198554"
+            ],
+            "PLCG2": [
+              "ENSG00000197943"
+            ],
+            "TBC1D31": [
+              "ENSG00000156787"
+            ],
+            "AKIRIN2": [
+              "ENSG00000135334"
+            ],
+            "PPP1R1A": [
+              "ENSG00000135447"
+            ],
+            "SLC5A7": [
+              "ENSG00000115665"
+            ],
+            "MMGT1": [
+              "ENSG00000169446"
+            ],
+            "FAM107B": [
+              "ENSG00000065809"
+            ],
+            "FFAR1": [
+              "ENSG00000126266"
+            ],
+            "TMEM101": [
+              "ENSG00000091947"
+            ],
+            "NDUFS2": [
+              "ENSG00000158864"
+            ],
+            "CEACAM16": [
+              "ENSG00000213892"
+            ],
+            "ACKR4": [
+              "ENSG00000129048"
+            ],
+            "BAP1": [
+              "ENSG00000163930"
+            ],
+            "ARHGAP15": [
+              "ENSG00000075884"
+            ],
+            "COPS6": [
+              "ENSG00000168090"
+            ],
+            "MCM7": [
+              "ENSG00000166508"
+            ],
+            "CTPS2": [
+              "ENSG00000047230"
+            ],
+            "MRI1": [
+              "ENSG00000037757"
+            ],
+            "KLC3": [
+              "ENSG00000104892"
+            ],
+            "NISCH": [
+              "ENSG00000010322"
+            ],
+            "TSHZ3": [
+              "ENSG00000121297"
+            ],
+            "STT3A": [
+              "ENSG00000134910"
+            ],
+            "KLC2": [
+              "ENSG00000174996"
+            ],
+            "LSM11": [
+              "ENSG00000155858"
+            ],
+            "GPR137C": [
+              "ENSG00000180998"
+            ],
+            "MRGPRE": [
+              "ENSG00000184350"
+            ],
+            "NSF": [
+              "ENSG00000073969"
+            ],
+            "AWAT1": [
+              "ENSG00000204195"
+            ],
+            "CAP1": [
+              "ENSG00000131236"
+            ],
+            "PSME4": [
+              "ENSG00000068878"
+            ],
+            "ZCCHC4": [
+              "ENSG00000168228"
+            ],
+            "WBP1L": [
+              "ENSG00000166272"
+            ],
+            "CFLAR": [
+              "ENSG00000003402"
+            ],
+            "TRIM24": [
+              "ENSG00000122779"
+            ],
+            "PCDHGA8": [
+              "ENSG00000253767"
+            ],
+            "EMSY": [
+              "ENSG00000158636"
+            ],
+            "ZNF346": [
+              "ENSG00000113761"
+            ],
+            "PTPRR": [
+              "ENSG00000153233"
+            ],
+            "ZC3H14": [
+              "ENSG00000100722"
+            ],
+            "SEC16B": [
+              "ENSG00000120341"
+            ],
+            "FBXO17": [
+              "ENSG00000269190"
+            ],
+            "PPM1D": [
+              "ENSG00000170836"
+            ],
+            "FKBP15": [
+              "ENSG00000119321"
+            ],
+            "CCDC136": [
+              "ENSG00000128596"
+            ],
+            "ZNF653": [
+              "ENSG00000161914"
+            ],
+            "KRTCAP3": [
+              "ENSG00000157992"
+            ],
+            "VGLL2": [
+              "ENSG00000170162"
+            ],
+            "CDC42SE2": [
+              "ENSG00000158985"
+            ],
+            "OCA2": [
+              "ENSG00000104044"
+            ],
+            "SDR16C5": [
+              "ENSG00000170786"
+            ],
+            "CHP2": [
+              "ENSG00000166869"
+            ],
+            "PUS7L": [
+              "ENSG00000129317"
+            ],
+            "TMOD2": [
+              "ENSG00000128872"
+            ],
+            "MRPL53": [
+              "ENSG00000204822"
+            ],
+            "HUS1B": [
+              "ENSG00000188996"
+            ],
+            "TMEM80": [
+              "ENSG00000177042"
+            ],
+            "NSMAF": [
+              "ENSG00000035681"
+            ],
+            "NMT2": [
+              "ENSG00000152465"
+            ],
+            "USP11": [
+              "ENSG00000102226"
+            ],
+            "STAM": [
+              "ENSG00000136738"
+            ],
+            "TTLL1": [
+              "ENSG00000100271"
+            ],
+            "TAFA2": [
+              "ENSG00000198673"
+            ],
+            "PARP1": [
+              "ENSG00000143799"
+            ],
+            "NIFK": [
+              "ENSG00000155438"
+            ],
+            "ILRUN": [
+              "ENSG00000196821"
+            ],
+            "TIMP2": [
+              "ENSG00000035862"
+            ],
+            "MAD1L1": [
+              "ENSG00000002822"
+            ],
+            "OC90": [
+              "ENSG00000253117"
+            ],
+            "CWC27": [
+              "ENSG00000153015"
+            ],
+            "NEUROD2": [
+              "ENSG00000171532"
+            ],
+            "CNOT3": [
+              "ENSG00000088038"
+            ],
+            "CDH20": [
+              "ENSG00000101542"
+            ],
+            "POLR1E": [
+              "ENSG00000137054"
+            ],
+            "CDPF1": [
+              "ENSG00000205643"
+            ],
+            "PADI3": [
+              "ENSG00000142619"
+            ],
+            "GFUS": [
+              "ENSG00000104522"
+            ],
+            "UQCC2": [
+              "ENSG00000137288"
+            ],
+            "LMCD1": [
+              "ENSG00000071282"
+            ],
+            "ACO1": [
+              "ENSG00000122729"
+            ],
+            "GNAI3": [
+              "ENSG00000065135"
+            ],
+            "CRY2": [
+              "ENSG00000121671"
+            ],
+            "NUCB2": [
+              "ENSG00000070081"
+            ],
+            "ALPK1": [
+              "ENSG00000073331"
+            ],
+            "STIL": [
+              "ENSG00000123473"
+            ],
+            "PLK2": [
+              "ENSG00000145632"
+            ],
+            "CHRNE": [
+              "ENSG00000108556"
+            ],
+            "CACNG4": [
+              "ENSG00000075461"
+            ],
+            "GPR12": [
+              "ENSG00000132975"
+            ],
+            "ARID3C": [
+              "ENSG00000205143"
+            ],
+            "UTP11": [
+              "ENSG00000183520"
+            ],
+            "TMEM198": [
+              "ENSG00000188760"
+            ],
+            "MACROD2": [
+              "ENSG00000172264"
+            ],
+            "USP14": [
+              "ENSG00000101557"
+            ],
+            "AMOT": [
+              "ENSG00000126016"
+            ],
+            "NTN3": [
+              "ENSG00000162068"
+            ],
+            "YOD1": [
+              "ENSG00000180667"
+            ],
+            "ZCCHC10": [
+              "ENSG00000155329"
+            ],
+            "MLANA": [
+              "ENSG00000120215"
+            ],
+            "MTRFR": [
+              "ENSG00000130921"
+            ],
+            "ASCL1": [
+              "ENSG00000139352"
+            ],
+            "ZNF23": [
+              "ENSG00000167377"
+            ],
+            "ELAVL1": [
+              "ENSG00000066044"
+            ],
+            "RAB5C": [
+              "ENSG00000108774"
+            ],
+            "RO60": [
+              "ENSG00000116747"
+            ],
+            "TNNI3": [
+              "ENSG00000129991"
+            ],
+            "TMEM50A": [
+              "ENSG00000183726"
+            ],
+            "HYOU1": [
+              "ENSG00000149428"
+            ],
+            "BBS1": [
+              "ENSG00000174483"
+            ],
+            "PROM2": [
+              "ENSG00000155066"
+            ],
+            "KCNJ8": [
+              "ENSG00000121361"
+            ],
+            "LYZL6": [
+              "ENSG00000275722"
+            ],
+            "KCNC1": [
+              "ENSG00000129159"
+            ],
+            "VIRMA": [
+              "ENSG00000164944"
+            ],
+            "UCP2": [
+              "ENSG00000175567"
+            ],
+            "PPIL6": [
+              "ENSG00000185250"
+            ],
+            "SIRT4": [
+              "ENSG00000089163"
+            ],
+            "PADI4": [
+              "ENSG00000159339"
+            ],
+            "PRDM14": [
+              "ENSG00000147596"
+            ],
+            "SSR1": [
+              "ENSG00000124783"
+            ],
+            "CTRL": [
+              "ENSG00000141086"
+            ],
+            "GUCA2B": [
+              "ENSG00000044012"
+            ],
+            "MCM3AP": [
+              "ENSG00000160294"
+            ],
+            "FNDC9": [
+              "ENSG00000172568"
+            ],
+            "LHFPL1": [
+              "ENSG00000182508"
+            ],
+            "CCDC17": [
+              "ENSG00000159588"
+            ],
+            "R3HDML": [
+              "ENSG00000101074"
+            ],
+            "MYOT": [
+              "ENSG00000120729"
+            ],
+            "PRKCQ": [
+              "ENSG00000065675"
+            ],
+            "SELENOT": [
+              "ENSG00000198843"
+            ],
+            "ADI1": [
+              "ENSG00000182551"
+            ],
+            "TRMT1": [
+              "ENSG00000104907"
+            ],
+            "EXOSC9": [
+              "ENSG00000123737"
+            ],
+            "ATAD5": [
+              "ENSG00000176208"
+            ],
+            "CFAP69": [
+              "ENSG00000105792"
+            ],
+            "ZUP1": [
+              "ENSG00000153975"
+            ],
+            "CPA2": [
+              "ENSG00000158516"
+            ],
+            "RRP7A": [
+              "ENSG00000189306"
+            ],
+            "COLEC12": [
+              "ENSG00000158270"
+            ],
+            "RAPGEF6": [
+              "ENSG00000158987"
+            ],
+            "SLC31A2": [
+              "ENSG00000136867"
+            ],
+            "UTP3": [
+              "ENSG00000132467"
+            ],
+            "SLC25A16": [
+              "ENSG00000122912"
+            ],
+            "LUZP2": [
+              "ENSG00000187398"
+            ],
+            "MYBPC2": [
+              "ENSG00000086967"
+            ],
+            "BTG4": [
+              "ENSG00000137707"
+            ],
+            "CENPB": [
+              "ENSG00000125817"
+            ],
+            "CSNK1D": [
+              "ENSG00000141551"
+            ],
+            "NFKBIB": [
+              "ENSG00000104825"
+            ],
+            "TMEM200B": [
+              "ENSG00000253304"
+            ],
+            "ADAP2": [
+              "ENSG00000184060"
+            ],
+            "EMILIN1": [
+              "ENSG00000138080"
+            ],
+            "TSC22D3": [
+              "ENSG00000157514"
+            ],
+            "CSDE1": [
+              "ENSG00000009307"
+            ],
+            "DNAAF4": [
+              "ENSG00000256061"
+            ],
+            "DCX": [
+              "ENSG00000077279"
+            ],
+            "ESRP1": [
+              "ENSG00000104413"
+            ],
+            "TBC1D1": [
+              "ENSG00000065882"
+            ],
+            "FMO3": [
+              "ENSG00000007933"
+            ],
+            "PHAF1": [
+              "ENSG00000125149"
+            ],
+            "VEZF1": [
+              "ENSG00000136451"
+            ],
+            "SPARC": [
+              "ENSG00000113140"
+            ],
+            "ADGRF3": [
+              "ENSG00000173567"
+            ],
+            "DDX50": [
+              "ENSG00000107625"
+            ],
+            "ZNF106": [
+              "ENSG00000103994"
+            ],
+            "PARP12": [
+              "ENSG00000059378"
+            ],
+            "DNAJB8": [
+              "ENSG00000179407"
+            ],
+            "MARCHF9": [
+              "ENSG00000139266"
+            ],
+            "DIPK1C": [
+              "ENSG00000187773"
+            ],
+            "IL10RB": [
+              "ENSG00000243646"
+            ],
+            "DTYMK": [
+              "ENSG00000168393"
+            ],
+            "SRRM4": [
+              "ENSG00000139767"
+            ],
+            "TCERG1": [
+              "ENSG00000113649"
+            ],
+            "KNTC1": [
+              "ENSG00000184445"
+            ],
+            "NECAB1": [
+              "ENSG00000123119"
+            ],
+            "KLHL13": [
+              "ENSG00000003096"
+            ],
+            "CCDC177": [
+              "ENSG00000267909"
+            ],
+            "BLCAP": [
+              "ENSG00000166619"
+            ],
+            "B3GALT4": [
+              "ENSG00000235863"
+            ],
+            "KCNJ10": [
+              "ENSG00000177807"
+            ],
+            "TAF1A": [
+              "ENSG00000143498"
+            ],
+            "POLG2": [
+              "ENSG00000256525"
+            ],
+            "ONECUT2": [
+              "ENSG00000119547"
+            ],
+            "AP5Z1": [
+              "ENSG00000242802"
+            ],
+            "PCNX3": [
+              "ENSG00000197136"
+            ],
+            "TRPC6": [
+              "ENSG00000137672"
+            ],
+            "PCDH12": [
+              "ENSG00000113555"
+            ],
+            "OCIAD2": [
+              "ENSG00000145247"
+            ],
+            "NMB": [
+              "ENSG00000197696"
+            ],
+            "EPHB2": [
+              "ENSG00000133216"
+            ],
+            "DNAH3": [
+              "ENSG00000158486"
+            ],
+            "FA2H": [
+              "ENSG00000103089"
+            ],
+            "FSTL1": [
+              "ENSG00000163430"
+            ],
+            "TRAPPC5": [
+              "ENSG00000181029"
+            ],
+            "ABTB1": [
+              "ENSG00000114626"
+            ],
+            "IPCEF1": [
+              "ENSG00000074706"
+            ],
+            "SEPTIN14": [
+              "ENSG00000154997"
+            ],
+            "FOXL1": [
+              "ENSG00000176678"
+            ],
+            "C1QC": [
+              "ENSG00000159189"
+            ],
+            "PPCS": [
+              "ENSG00000127125"
+            ],
+            "AGO2": [
+              "ENSG00000123908"
+            ],
+            "SSH1": [
+              "ENSG00000084112"
+            ],
+            "RMC1": [
+              "ENSG00000141452"
+            ],
+            "CCDC188": [
+              "ENSG00000234409"
+            ],
+            "TM6SF1": [
+              "ENSG00000136404"
+            ],
+            "PDIA4": [
+              "ENSG00000155660"
+            ],
+            "RNF152": [
+              "ENSG00000176641"
+            ],
+            "CCDC40": [
+              "ENSG00000141519"
+            ],
+            "TLCD4": [
+              "ENSG00000152078"
+            ],
+            "STXBP3": [
+              "ENSG00000116266"
+            ],
+            "ATAD3A": [
+              "ENSG00000197785"
+            ],
+            "ZNF711": [
+              "ENSG00000147180"
+            ],
+            "DIRAS1": [
+              "ENSG00000176490"
+            ],
+            "SLC6A9": [
+              "ENSG00000196517"
+            ],
+            "NOP16": [
+              "ENSG00000048162"
+            ],
+            "PPP1R3D": [
+              "ENSG00000132825"
+            ],
+            "SSBP3": [
+              "ENSG00000157216"
+            ],
+            "SMYD3": [
+              "ENSG00000185420"
+            ],
+            "CRABP2": [
+              "ENSG00000143320"
+            ],
+            "WDFY2": [
+              "ENSG00000139668"
+            ],
+            "PPP1R3E": [
+              "ENSG00000235194"
+            ],
+            "SDAD1": [
+              "ENSG00000198301"
+            ],
+            "TMEM164": [
+              "ENSG00000157600"
+            ],
+            "CLDN15": [
+              "ENSG00000106404"
+            ],
+            "PYGO1": [
+              "ENSG00000171016"
+            ],
+            "APCDD1": [
+              "ENSG00000154856"
+            ],
+            "MTHFSD": [
+              "ENSG00000103248"
+            ],
+            "SP1": [
+              "ENSG00000185591"
+            ],
+            "POU3F2": [
+              "ENSG00000184486"
+            ],
+            "ZNF25": [
+              "ENSG00000175395"
+            ],
+            "MRPS18A": [
+              "ENSG00000096080"
+            ],
+            "AHCTF1": [
+              "ENSG00000153207"
+            ],
+            "WNK3": [
+              "ENSG00000196632"
+            ],
+            "GPR160": [
+              "ENSG00000173890"
+            ],
+            "MED13": [
+              "ENSG00000108510"
+            ],
+            "TOMM70": [
+              "ENSG00000154174"
+            ],
+            "SEMA3C": [
+              "ENSG00000075223"
+            ],
+            "SGTB": [
+              "ENSG00000197860"
+            ],
+            "MAP7D2": [
+              "ENSG00000184368"
+            ],
+            "EGFL6": [
+              "ENSG00000198759"
+            ],
+            "CD63": [
+              "ENSG00000135404"
+            ],
+            "CARD9": [
+              "ENSG00000187796"
+            ],
+            "PTPRH": [
+              "ENSG00000080031"
+            ],
+            "UAP1L1": [
+              "ENSG00000197355"
+            ],
+            "TMTC4": [
+              "ENSG00000125247"
+            ],
+            "SPTSSA": [
+              "ENSG00000165389"
+            ],
+            "CAMKK1": [
+              "ENSG00000004660"
+            ],
+            "TSN": [
+              "ENSG00000211460"
+            ],
+            "TLE5": [
+              "ENSG00000104964"
+            ],
+            "ABCC8": [
+              "ENSG00000006071"
+            ],
+            "PRRX2": [
+              "ENSG00000167157"
+            ],
+            "ANTKMT": [
+              "ENSG00000103254"
+            ],
+            "HDHD2": [
+              "ENSG00000167220"
+            ],
+            "DPP8": [
+              "ENSG00000074603"
+            ],
+            "NCAPG2": [
+              "ENSG00000146918"
+            ],
+            "WDR1": [
+              "ENSG00000071127"
+            ],
+            "HNRNPL": [
+              "ENSG00000104824"
+            ],
+            "VSTM2L": [
+              "ENSG00000132821"
+            ],
+            "RPP40": [
+              "ENSG00000124787"
+            ],
+            "U2AF1L4": [
+              "ENSG00000161265"
+            ],
+            "GPHB5": [
+              "ENSG00000179600"
+            ],
+            "FNDC11": [
+              "ENSG00000125531"
+            ],
+            "NXPH1": [
+              "ENSG00000122584"
+            ],
+            "SPCS1": [
+              "ENSG00000114902"
+            ],
+            "TMEM171": [
+              "ENSG00000157111"
+            ],
+            "SOX15": [
+              "ENSG00000129194"
+            ],
+            "TAFAZZIN": [
+              "ENSG00000102125"
+            ],
+            "CFAP20DC": [
+              "ENSG00000163689"
+            ],
+            "MAPK11": [
+              "ENSG00000185386"
+            ],
+            "LRAT": [
+              "ENSG00000121207"
+            ],
+            "GOSR2": [
+              "ENSG00000108433"
+            ],
+            "GPR39": [
+              "ENSG00000183840"
+            ],
+            "LHX3": [
+              "ENSG00000107187"
+            ],
+            "GATC": [
+              "ENSG00000257218"
+            ],
+            "ASPA": [
+              "ENSG00000108381"
+            ],
+            "DHX57": [
+              "ENSG00000163214"
+            ],
+            "HRAS": [
+              "ENSG00000174775"
+            ],
+            "ACOX3": [
+              "ENSG00000087008"
+            ],
+            "RETREG3": [
+              "ENSG00000141699"
+            ],
+            "CCDC80": [
+              "ENSG00000091986"
+            ],
+            "KRT12": [
+              "ENSG00000187242"
+            ],
+            "POLL": [
+              "ENSG00000166169"
+            ],
+            "NEMP2": [
+              "ENSG00000189362"
+            ],
+            "ECHDC2": [
+              "ENSG00000121310"
+            ],
+            "CACNG8": [
+              "ENSG00000142408"
+            ],
+            "NEXMIF": [
+              "ENSG00000050030"
+            ],
+            "MINAR2": [
+              "ENSG00000186367"
+            ],
+            "NRXN3": [
+              "ENSG00000021645"
+            ],
+            "PLAC8": [
+              "ENSG00000145287"
+            ],
+            "EPB41L4A": [
+              "ENSG00000129595"
+            ],
+            "SHB": [
+              "ENSG00000107338"
+            ],
+            "TGFBR1": [
+              "ENSG00000106799"
+            ],
+            "NOX4": [
+              "ENSG00000086991"
+            ],
+            "NT5DC2": [
+              "ENSG00000168268"
+            ],
+            "EMC2": [
+              "ENSG00000104412"
+            ],
+            "MYCT1": [
+              "ENSG00000120279"
+            ],
+            "PMM1": [
+              "ENSG00000100417"
+            ],
+            "MEX3C": [
+              "ENSG00000176624"
+            ],
+            "BARHL2": [
+              "ENSG00000143032"
+            ],
+            "CORO2A": [
+              "ENSG00000106789"
+            ],
+            "NUDT14": [
+              "ENSG00000183828"
+            ],
+            "SMYD4": [
+              "ENSG00000186532"
+            ],
+            "STRBP": [
+              "ENSG00000165209"
+            ],
+            "POMGNT2": [
+              "ENSG00000144647"
+            ],
+            "TMEM177": [
+              "ENSG00000144120"
+            ],
+            "TIGD4": [
+              "ENSG00000169989"
+            ],
+            "EVI2B": [
+              "ENSG00000185862"
+            ],
+            "TMEM132E": [
+              "ENSG00000181291"
+            ],
+            "CARM1": [
+              "ENSG00000142453"
+            ],
+            "WDR53": [
+              "ENSG00000185798"
+            ],
+            "GGA3": [
+              "ENSG00000125447"
+            ],
+            "DZIP3": [
+              "ENSG00000198919"
+            ],
+            "MTHFD2L": [
+              "ENSG00000163738"
+            ],
+            "ROM1": [
+              "ENSG00000149489"
+            ],
+            "CTBP1": [
+              "ENSG00000159692"
+            ],
+            "TRIM13": [
+              "ENSG00000204977"
+            ],
+            "GET1": [
+              "ENSG00000182093"
+            ],
+            "AJM1": [
+              "ENSG00000232434"
+            ],
+            "ABHD8": [
+              "ENSG00000127220"
+            ],
+            "TMEM120B": [
+              "ENSG00000188735"
+            ],
+            "UBTF": [
+              "ENSG00000108312"
+            ],
+            "SMS": [
+              "ENSG00000102172"
+            ],
+            "SLC16A14": [
+              "ENSG00000163053"
+            ],
+            "MUSK": [
+              "ENSG00000030304"
+            ],
+            "NRIP1": [
+              "ENSG00000180530"
+            ],
+            "BSCL2": [
+              "ENSG00000168000"
+            ],
+            "EDN2": [
+              "ENSG00000127129"
+            ],
+            "ZNF804B": [
+              "ENSG00000182348"
+            ],
+            "FBXL14": [
+              "ENSG00000171823"
+            ],
+            "CEACAM18": [
+              "ENSG00000213822"
+            ],
+            "PRKAG1": [
+              "ENSG00000181929"
+            ],
+            "GOSR1": [
+              "ENSG00000108587"
+            ],
+            "PRR16": [
+              "ENSG00000184838"
+            ],
+            "TRIM44": [
+              "ENSG00000166326"
+            ],
+            "AK9": [
+              "ENSG00000155085"
+            ],
+            "CPSF6": [
+              "ENSG00000111605"
+            ],
+            "POMK": [
+              "ENSG00000185900"
+            ],
+            "ARPC5L": [
+              "ENSG00000136950"
+            ],
+            "ATP10A": [
+              "ENSG00000206190"
+            ],
+            "BRWD1": [
+              "ENSG00000185658"
+            ],
+            "S100A11": [
+              "ENSG00000163191"
+            ],
+            "ADD2": [
+              "ENSG00000075340"
+            ],
+            "BMP4": [
+              "ENSG00000125378"
+            ],
+            "SLC5A11": [
+              "ENSG00000158865"
+            ],
+            "PPFIA3": [
+              "ENSG00000177380"
+            ],
+            "TAPBP": [
+              "ENSG00000231925"
+            ],
+            "SRPK2": [
+              "ENSG00000135250"
+            ],
+            "LRRC46": [
+              "ENSG00000141294"
+            ],
+            "ASB16": [
+              "ENSG00000161664"
+            ],
+            "COCH": [
+              "ENSG00000100473"
+            ],
+            "KCNK7": [
+              "ENSG00000173338"
+            ],
+            "RUFY3": [
+              "ENSG00000018189"
+            ],
+            "CNIH1": [
+              "ENSG00000100528"
+            ],
+            "ATP11A": [
+              "ENSG00000068650"
+            ],
+            "NDOR1": [
+              "ENSG00000188566"
+            ],
+            "ZDHHC14": [
+              "ENSG00000175048"
+            ],
+            "ZPBP": [
+              "ENSG00000042813"
+            ],
+            "PIGP": [
+              "ENSG00000185808"
+            ],
+            "CALY": [
+              "ENSG00000130643"
+            ],
+            "THAP2": [
+              "ENSG00000173451"
+            ],
+            "HOXB1": [
+              "ENSG00000120094"
+            ],
+            "GPR153": [
+              "ENSG00000158292"
+            ],
+            "OTP": [
+              "ENSG00000171540"
+            ],
+            "SNRPE": [
+              "ENSG00000182004"
+            ],
+            "CMBL": [
+              "ENSG00000164237"
+            ],
+            "AADACL3": [
+              "ENSG00000188984"
+            ],
+            "MFSD3": [
+              "ENSG00000167700"
+            ],
+            "TMEM132D": [
+              "ENSG00000151952"
+            ],
+            "S100A3": [
+              "ENSG00000188015"
+            ],
+            "TBC1D14": [
+              "ENSG00000132405"
+            ],
+            "NEPRO": [
+              "ENSG00000163608"
+            ],
+            "SYNGR2": [
+              "ENSG00000108639"
+            ],
+            "LOXL2": [
+              "ENSG00000134013"
+            ],
+            "KYAT3": [
+              "ENSG00000137944"
+            ],
+            "NAGK": [
+              "ENSG00000124357"
+            ],
+            "SPG21": [
+              "ENSG00000090487"
+            ],
+            "CREB3L1": [
+              "ENSG00000157613"
+            ],
+            "SOX12": [
+              "ENSG00000177732"
+            ],
+            "PGS1": [
+              "ENSG00000087157"
+            ],
+            "S100A16": [
+              "ENSG00000188643"
+            ],
+            "CHSY3": [
+              "ENSG00000198108"
+            ],
+            "TMEM115": [
+              "ENSG00000126062"
+            ],
+            "SLC33A1": [
+              "ENSG00000169359"
+            ],
+            "KIF20B": [
+              "ENSG00000138182"
+            ],
+            "LIPI": [
+              "ENSG00000188992"
+            ],
+            "PLEKHO2": [
+              "ENSG00000241839"
+            ],
+            "PHYHD1": [
+              "ENSG00000175287"
+            ],
+            "TADA3": [
+              "ENSG00000171148"
+            ],
+            "RIMBP2": [
+              "ENSG00000060709"
+            ],
+            "E2F7": [
+              "ENSG00000165891"
+            ],
+            "RGS18": [
+              "ENSG00000150681"
+            ],
+            "DENND4A": [
+              "ENSG00000174485"
+            ],
+            "NFIA": [
+              "ENSG00000162599"
+            ],
+            "PLPP3": [
+              "ENSG00000162407"
+            ],
+            "NCKAP1": [
+              "ENSG00000061676"
+            ],
+            "SLC35D2": [
+              "ENSG00000130958"
+            ],
+            "GLB1L2": [
+              "ENSG00000149328"
+            ],
+            "ANAPC13": [
+              "ENSG00000129055"
+            ],
+            "NFKBIA": [
+              "ENSG00000100906"
+            ],
+            "MYL3": [
+              "ENSG00000160808"
+            ],
+            "FOXC1": [
+              "ENSG00000054598"
+            ],
+            "ARF3": [
+              "ENSG00000134287"
+            ],
+            "TMEM245": [
+              "ENSG00000106771"
+            ],
+            "ERBB2": [
+              "ENSG00000141736"
+            ],
+            "FZD4": [
+              "ENSG00000174804"
+            ],
+            "CAAP1": [
+              "ENSG00000120159"
+            ],
+            "SPSB4": [
+              "ENSG00000175093"
+            ],
+            "NRK": [
+              "ENSG00000123572"
+            ],
+            "LENG1": [
+              "ENSG00000105617"
+            ],
+            "CORO1A": [
+              "ENSG00000102879"
+            ],
+            "MEGF10": [
+              "ENSG00000145794"
+            ],
+            "PIWIL2": [
+              "ENSG00000197181"
+            ],
+            "TNPO2": [
+              "ENSG00000105576"
+            ],
+            "SLC38A6": [
+              "ENSG00000139974"
+            ],
+            "SLIT3": [
+              "ENSG00000184347"
+            ],
+            "TASP1": [
+              "ENSG00000089123"
+            ],
+            "SHLD3": [
+              "ENSG00000253251"
+            ],
+            "SLC2A4": [
+              "ENSG00000181856"
+            ],
+            "STK35": [
+              "ENSG00000125834"
+            ],
+            "RPTOR": [
+              "ENSG00000141564"
+            ],
+            "BPIFB3": [
+              "ENSG00000186190"
+            ],
+            "SERINC4": [
+              "ENSG00000184716"
+            ],
+            "EOGT": [
+              "ENSG00000163378"
+            ]
+          },
+          "ensgs": [
+            "ENSG00000175697",
+            "ENSG00000171163",
+            "ENSG00000173706",
+            "ENSG00000175324",
+            "ENSG00000137563",
+            "ENSG00000109736",
+            "ENSG00000063854",
+            "ENSG00000128534",
+            "ENSG00000020129",
+            "ENSG00000073598",
+            "ENSG00000070182",
+            "ENSG00000186075",
+            "ENSG00000132471",
+            "ENSG00000196663",
+            "ENSG00000160588",
+            "ENSG00000167968",
+            "ENSG00000167258",
+            "ENSG00000156531",
+            "ENSG00000075303",
+            "ENSG00000112304",
+            "ENSG00000153237",
+            "ENSG00000009830",
+            "ENSG00000175220",
+            "ENSG00000113749",
+            "ENSG00000253352",
+            "ENSG00000136527",
+            "ENSG00000100234",
+            "ENSG00000149735",
+            "ENSG00000221829",
+            "ENSG00000153246",
+            "ENSG00000001084",
+            "ENSG00000136811",
+            "ENSG00000233927",
+            "ENSG00000134516",
+            "ENSG00000204899",
+            "ENSG00000135119",
+            "ENSG00000135457",
+            "ENSG00000141127",
+            "ENSG00000123213",
+            "ENSG00000163637",
+            "ENSG00000106078",
+            "ENSG00000147138",
+            "ENSG00000130307",
+            "ENSG00000068400",
+            "ENSG00000115233",
+            "ENSG00000184432",
+            "ENSG00000116668",
+            "ENSG00000171747",
+            "ENSG00000137976",
+            "ENSG00000169169",
+            "ENSG00000125835",
+            "ENSG00000084093",
+            "ENSG00000139629",
+            "ENSG00000110047",
+            "ENSG00000007062",
+            "ENSG00000166523",
+            "ENSG00000197977",
+            "ENSG00000132465",
+            "ENSG00000146038",
+            "ENSG00000140464",
+            "ENSG00000167491",
+            "ENSG00000161981",
+            "ENSG00000145832",
+            "ENSG00000231256",
+            "ENSG00000140553",
+            "ENSG00000189350",
+            "ENSG00000126878",
+            "ENSG00000139546",
+            "ENSG00000164283",
+            "ENSG00000100445",
+            "ENSG00000160218",
+            "ENSG00000118454",
+            "ENSG00000164485",
+            "ENSG00000136143",
+            "ENSG00000198715",
+            "ENSG00000125775",
+            "ENSG00000118965",
+            "ENSG00000213024",
+            "ENSG00000012232",
+            "ENSG00000107731",
+            "ENSG00000138119",
+            "ENSG00000240583",
+            "ENSG00000137767",
+            "ENSG00000123104",
+            "ENSG00000130733",
+            "ENSG00000124541",
+            "ENSG00000165637",
+            "ENSG00000070669",
+            "ENSG00000104863",
+            "ENSG00000119913",
+            "ENSG00000213886",
+            "ENSG00000187550",
+            "ENSG00000170412",
+            "ENSG00000105722",
+            "ENSG00000162006",
+            "ENSG00000177575",
+            "ENSG00000150433",
+            "ENSG00000087206",
+            "ENSG00000167984",
+            "ENSG00000121577",
+            "ENSG00000178473",
+            "ENSG00000196422",
+            "ENSG00000213186",
+            "ENSG00000057704",
+            "ENSG00000134160",
+            "ENSG00000100836",
+            "ENSG00000130529",
+            "ENSG00000101463",
+            "ENSG00000165934",
+            "ENSG00000138308",
+            "ENSG00000169599",
+            "ENSG00000101986",
+            "ENSG00000197496",
+            "ENSG00000183032",
+            "ENSG00000141639",
+            "ENSG00000167065",
+            "ENSG00000095203",
+            "ENSG00000163590",
+            "ENSG00000172531",
+            "ENSG00000065621",
+            "ENSG00000172318",
+            "ENSG00000185888",
+            "ENSG00000137807",
+            "ENSG00000188428",
+            "ENSG00000171791",
+            "ENSG00000135537",
+            "ENSG00000134222",
+            "ENSG00000151247",
+            "ENSG00000163743",
+            "ENSG00000169379",
+            "ENSG00000165476",
+            "ENSG00000198792",
+            "ENSG00000177425",
+            "ENSG00000113088",
+            "ENSG00000104432",
+            "ENSG00000077092",
+            "ENSG00000090263",
+            "ENSG00000170370",
+            "ENSG00000149506",
+            "ENSG00000099364",
+            "ENSG00000074317",
+            "ENSG00000165646",
+            "ENSG00000136960",
+            "ENSG00000143387",
+            "ENSG00000175390",
+            "ENSG00000104356",
+            "ENSG00000126895",
+            "ENSG00000006128",
+            "ENSG00000092036",
+            "ENSG00000106302",
+            "ENSG00000174106",
+            "ENSG00000182158",
+            "ENSG00000188786",
+            "ENSG00000099810",
+            "ENSG00000176919",
+            "ENSG00000108107",
+            "ENSG00000131469",
+            "ENSG00000124067",
+            "ENSG00000137815",
+            "ENSG00000212907",
+            "ENSG00000166704",
+            "ENSG00000159713",
+            "ENSG00000184313",
+            "ENSG00000168397",
+            "ENSG00000111339",
+            "ENSG00000162009",
+            "ENSG00000089775",
+            "ENSG00000138035",
+            "ENSG00000188641",
+            "ENSG00000109390",
+            "ENSG00000173163",
+            "ENSG00000092148",
+            "ENSG00000174944",
+            "ENSG00000173137",
+            "ENSG00000091972",
+            "ENSG00000124191",
+            "ENSG00000198821",
+            "ENSG00000141504",
+            "ENSG00000104140",
+            "ENSG00000176105",
+            "ENSG00000185155",
+            "ENSG00000260916",
+            "ENSG00000198589",
+            "ENSG00000049192",
+            "ENSG00000167384",
+            "ENSG00000069424",
+            "ENSG00000153044",
+            "ENSG00000198471",
+            "ENSG00000158092",
+            "ENSG00000148730",
+            "ENSG00000152292",
+            "ENSG00000240184",
+            "ENSG00000173578",
+            "ENSG00000008197",
+            "ENSG00000118217",
+            "ENSG00000099365",
+            "ENSG00000144579",
+            "ENSG00000072182",
+            "ENSG00000164151",
+            "ENSG00000162521",
+            "ENSG00000044446",
+            "ENSG00000116824",
+            "ENSG00000121440",
+            "ENSG00000018610",
+            "ENSG00000004777",
+            "ENSG00000147044",
+            "ENSG00000183778",
+            "ENSG00000165757",
+            "ENSG00000140474",
+            "ENSG00000108256",
+            "ENSG00000141503",
+            "ENSG00000106327",
+            "ENSG00000188523",
+            "ENSG00000122692",
+            "ENSG00000174358",
+            "ENSG00000127249",
+            "ENSG00000165443",
+            "ENSG00000109063",
+            "ENSG00000078401",
+            "ENSG00000102805",
+            "ENSG00000184574",
+            "ENSG00000198873",
+            "ENSG00000214435",
+            "ENSG00000123384",
+            "ENSG00000080823",
+            "ENSG00000125863",
+            "ENSG00000159873",
+            "ENSG00000148481",
+            "ENSG00000178175",
+            "ENSG00000102897",
+            "ENSG00000111245",
+            "ENSG00000136848",
+            "ENSG00000178607",
+            "ENSG00000084444",
+            "ENSG00000159658",
+            "ENSG00000158402",
+            "ENSG00000198682",
+            "ENSG00000081014",
+            "ENSG00000127184",
+            "ENSG00000159753",
+            "ENSG00000130726",
+            "ENSG00000143632",
+            "ENSG00000137948",
+            "ENSG00000121005",
+            "ENSG00000001497",
+            "ENSG00000145029",
+            "ENSG00000196968",
+            "ENSG00000130711",
+            "ENSG00000123106",
+            "ENSG00000140743",
+            "ENSG00000173905",
+            "ENSG00000186790",
+            "ENSG00000125820",
+            "ENSG00000099942",
+            "ENSG00000055044",
+            "ENSG00000188554",
+            "ENSG00000168040",
+            "ENSG00000100209",
+            "ENSG00000117501",
+            "ENSG00000185480",
+            "ENSG00000243725",
+            "ENSG00000122884",
+            "ENSG00000114062",
+            "ENSG00000157227",
+            "ENSG00000205323",
+            "ENSG00000040275",
+            "ENSG00000169136",
+            "ENSG00000076864",
+            "ENSG00000141741",
+            "ENSG00000165449",
+            "ENSG00000054356",
+            "ENSG00000173868",
+            "ENSG00000198734",
+            "ENSG00000078177",
+            "ENSG00000136297",
+            "ENSG00000156150",
+            "ENSG00000167755",
+            "ENSG00000154727",
+            "ENSG00000135519",
+            "ENSG00000171631",
+            "ENSG00000174951",
+            "ENSG00000008394",
+            "ENSG00000159899",
+            "ENSG00000187605",
+            "ENSG00000133710",
+            "ENSG00000066117",
+            "ENSG00000167862",
+            "ENSG00000173818",
+            "ENSG00000137747",
+            "ENSG00000185019",
+            "ENSG00000168234",
+            "ENSG00000276644",
+            "ENSG00000148840",
+            "ENSG00000147454",
+            "ENSG00000163468",
+            "ENSG00000163145",
+            "ENSG00000183578",
+            "ENSG00000198133",
+            "ENSG00000140848",
+            "ENSG00000173894",
+            "ENSG00000130997",
+            "ENSG00000166147",
+            "ENSG00000136141",
+            "ENSG00000120156",
+            "ENSG00000197063",
+            "ENSG00000138050",
+            "ENSG00000135525",
+            "ENSG00000126522",
+            "ENSG00000172889",
+            "ENSG00000144331",
+            "ENSG00000182253",
+            "ENSG00000100027",
+            "ENSG00000106628",
+            "ENSG00000053108",
+            "ENSG00000137413",
+            "ENSG00000143363",
+            "ENSG00000129515",
+            "ENSG00000129255",
+            "ENSG00000073536",
+            "ENSG00000107262",
+            "ENSG00000148335",
+            "ENSG00000171121",
+            "ENSG00000147065",
+            "ENSG00000154710",
+            "ENSG00000107290",
+            "ENSG00000166091",
+            "ENSG00000150316",
+            "ENSG00000138379",
+            "ENSG00000142039",
+            "ENSG00000117245",
+            "ENSG00000133028",
+            "ENSG00000213445",
+            "ENSG00000031691",
+            "ENSG00000196345",
+            "ENSG00000171004",
+            "ENSG00000139637",
+            "ENSG00000102221",
+            "ENSG00000032742",
+            "ENSG00000171989",
+            "ENSG00000184378",
+            "ENSG00000079246",
+            "ENSG00000104133",
+            "ENSG00000109610",
+            "ENSG00000103154",
+            "ENSG00000120658",
+            "ENSG00000135083",
+            "ENSG00000187446",
+            "ENSG00000101082",
+            "ENSG00000157869",
+            "ENSG00000181027",
+            "ENSG00000184903",
+            "ENSG00000107341",
+            "ENSG00000130766",
+            "ENSG00000198324",
+            "ENSG00000125877",
+            "ENSG00000182791",
+            "ENSG00000174808",
+            "ENSG00000100311",
+            "ENSG00000141905",
+            "ENSG00000101868",
+            "ENSG00000092445",
+            "ENSG00000204257",
+            "ENSG00000198300",
+            "ENSG00000257008",
+            "ENSG00000124249",
+            "ENSG00000004700",
+            "ENSG00000157617",
+            "ENSG00000253537",
+            "ENSG00000071859",
+            "ENSG00000095485",
+            "ENSG00000161057",
+            "ENSG00000114248",
+            "ENSG00000185269",
+            "ENSG00000143228",
+            "ENSG00000143494",
+            "ENSG00000179954",
+            "ENSG00000183023",
+            "ENSG00000114698",
+            "ENSG00000013503",
+            "ENSG00000166004",
+            "ENSG00000164171",
+            "ENSG00000106541",
+            "ENSG00000130700",
+            "ENSG00000162734",
+            "ENSG00000100629",
+            "ENSG00000145506",
+            "ENSG00000036565",
+            "ENSG00000213316",
+            "ENSG00000187616",
+            "ENSG00000164305",
+            "ENSG00000152240",
+            "ENSG00000143379",
+            "ENSG00000090432",
+            "ENSG00000143590",
+            "ENSG00000134291",
+            "ENSG00000277363",
+            "ENSG00000074416",
+            "ENSG00000104765",
+            "ENSG00000173080",
+            "ENSG00000112983",
+            "ENSG00000172680",
+            "ENSG00000176927",
+            "ENSG00000197353",
+            "ENSG00000101407",
+            "ENSG00000166347",
+            "ENSG00000136098",
+            "ENSG00000157303",
+            "ENSG00000144115",
+            "ENSG00000184163",
+            "ENSG00000182768",
+            "ENSG00000166340",
+            "ENSG00000087365",
+            "ENSG00000169682",
+            "ENSG00000175455",
+            "ENSG00000173402",
+            "ENSG00000180432",
+            "ENSG00000127774",
+            "ENSG00000145920",
+            "ENSG00000145335",
+            "ENSG00000167395",
+            "ENSG00000169896",
+            "ENSG00000160271",
+            "ENSG00000164252",
+            "ENSG00000161298",
+            "ENSG00000104883",
+            "ENSG00000274529",
+            "ENSG00000103490",
+            "ENSG00000157045",
+            "ENSG00000144445",
+            "ENSG00000025708",
+            "ENSG00000171476",
+            "ENSG00000101972",
+            "ENSG00000175416",
+            "ENSG00000165471",
+            "ENSG00000055211",
+            "ENSG00000169432",
+            "ENSG00000111481",
+            "ENSG00000003147",
+            "ENSG00000136630",
+            "ENSG00000115289",
+            "ENSG00000065029",
+            "ENSG00000136146",
+            "ENSG00000129173",
+            "ENSG00000100427",
+            "ENSG00000061987",
+            "ENSG00000100266",
+            "ENSG00000136925",
+            "ENSG00000229474",
+            "ENSG00000106477",
+            "ENSG00000163541",
+            "ENSG00000008838",
+            "ENSG00000133315",
+            "ENSG00000092108",
+            "ENSG00000175376",
+            "ENSG00000106299",
+            "ENSG00000167977",
+            "ENSG00000146858",
+            "ENSG00000174607",
+            "ENSG00000131398",
+            "ENSG00000152556",
+            "ENSG00000073350",
+            "ENSG00000165272",
+            "ENSG00000077800",
+            "ENSG00000141934",
+            "ENSG00000163644",
+            "ENSG00000107833",
+            "ENSG00000205670",
+            "ENSG00000132005",
+            "ENSG00000013288",
+            "ENSG00000106144",
+            "ENSG00000149922",
+            "ENSG00000145863",
+            "ENSG00000102181",
+            "ENSG00000164404",
+            "ENSG00000101204",
+            "ENSG00000024048",
+            "ENSG00000112146",
+            "ENSG00000068079",
+            "ENSG00000178974",
+            "ENSG00000185156",
+            "ENSG00000102189",
+            "ENSG00000140992",
+            "ENSG00000179593",
+            "ENSG00000144476",
+            "ENSG00000197535",
+            "ENSG00000134690",
+            "ENSG00000102870",
+            "ENSG00000124486",
+            "ENSG00000039537",
+            "ENSG00000170891",
+            "ENSG00000103145",
+            "ENSG00000185561",
+            "ENSG00000002933",
+            "ENSG00000128016",
+            "ENSG00000166415",
+            "ENSG00000176953",
+            "ENSG00000168282",
+            "ENSG00000185298",
+            "ENSG00000085733",
+            "ENSG00000139835",
+            "ENSG00000106211",
+            "ENSG00000057294",
+            "ENSG00000127483",
+            "ENSG00000125826",
+            "ENSG00000103034",
+            "ENSG00000174672",
+            "ENSG00000110717",
+            "ENSG00000114767",
+            "ENSG00000182552",
+            "ENSG00000189292",
+            "ENSG00000083457",
+            "ENSG00000089723",
+            "ENSG00000154310",
+            "ENSG00000172977",
+            "ENSG00000213390",
+            "ENSG00000124491",
+            "ENSG00000188283",
+            "ENSG00000153107",
+            "ENSG00000135333",
+            "ENSG00000128714",
+            "ENSG00000125966",
+            "ENSG00000102970",
+            "ENSG00000107984",
+            "ENSG00000146950",
+            "ENSG00000149596",
+            "ENSG00000168291",
+            "ENSG00000214681",
+            "ENSG00000183631",
+            "ENSG00000144827",
+            "ENSG00000153551",
+            "ENSG00000182199",
+            "ENSG00000011258",
+            "ENSG00000119787",
+            "ENSG00000103249",
+            "ENSG00000125686",
+            "ENSG00000265817",
+            "ENSG00000178105",
+            "ENSG00000142961",
+            "ENSG00000159596",
+            "ENSG00000183844",
+            "ENSG00000101438",
+            "ENSG00000180104",
+            "ENSG00000108799",
+            "ENSG00000174547",
+            "ENSG00000126218",
+            "ENSG00000112562",
+            "ENSG00000163879",
+            "ENSG00000069849",
+            "ENSG00000100347",
+            "ENSG00000117174",
+            "ENSG00000125901",
+            "ENSG00000140905",
+            "ENSG00000155304",
+            "ENSG00000116161",
+            "ENSG00000105954",
+            "ENSG00000125864",
+            "ENSG00000134278",
+            "ENSG00000198728",
+            "ENSG00000107611",
+            "ENSG00000146830",
+            "ENSG00000101890",
+            "ENSG00000154124",
+            "ENSG00000168280",
+            "ENSG00000132693",
+            "ENSG00000175087",
+            "ENSG00000187994",
+            "ENSG00000120694",
+            "ENSG00000213999",
+            "ENSG00000167526",
+            "ENSG00000104870",
+            "ENSG00000124134",
+            "ENSG00000198554",
+            "ENSG00000197943",
+            "ENSG00000156787",
+            "ENSG00000135334",
+            "ENSG00000135447",
+            "ENSG00000115665",
+            "ENSG00000169446",
+            "ENSG00000065809",
+            "ENSG00000126266",
+            "ENSG00000091947",
+            "ENSG00000158864",
+            "ENSG00000213892",
+            "ENSG00000129048",
+            "ENSG00000163930",
+            "ENSG00000075884",
+            "ENSG00000168090",
+            "ENSG00000166508",
+            "ENSG00000047230",
+            "ENSG00000037757",
+            "ENSG00000104892",
+            "ENSG00000010322",
+            "ENSG00000121297",
+            "ENSG00000134910",
+            "ENSG00000174996",
+            "ENSG00000155858",
+            "ENSG00000180998",
+            "ENSG00000184350",
+            "ENSG00000073969",
+            "ENSG00000204195",
+            "ENSG00000131236",
+            "ENSG00000068878",
+            "ENSG00000168228",
+            "ENSG00000166272",
+            "ENSG00000003402",
+            "ENSG00000122779",
+            "ENSG00000253767",
+            "ENSG00000158636",
+            "ENSG00000113761",
+            "ENSG00000153233",
+            "ENSG00000100722",
+            "ENSG00000120341",
+            "ENSG00000269190",
+            "ENSG00000170836",
+            "ENSG00000119321",
+            "ENSG00000128596",
+            "ENSG00000161914",
+            "ENSG00000157992",
+            "ENSG00000170162",
+            "ENSG00000158985",
+            "ENSG00000104044",
+            "ENSG00000170786",
+            "ENSG00000166869",
+            "ENSG00000129317",
+            "ENSG00000128872",
+            "ENSG00000204822",
+            "ENSG00000188996",
+            "ENSG00000177042",
+            "ENSG00000035681",
+            "ENSG00000152465",
+            "ENSG00000102226",
+            "ENSG00000136738",
+            "ENSG00000100271",
+            "ENSG00000198673",
+            "ENSG00000143799",
+            "ENSG00000155438",
+            "ENSG00000196821",
+            "ENSG00000035862",
+            "ENSG00000002822",
+            "ENSG00000253117",
+            "ENSG00000153015",
+            "ENSG00000171532",
+            "ENSG00000088038",
+            "ENSG00000101542",
+            "ENSG00000137054",
+            "ENSG00000205643",
+            "ENSG00000142619",
+            "ENSG00000104522",
+            "ENSG00000137288",
+            "ENSG00000071282",
+            "ENSG00000122729",
+            "ENSG00000065135",
+            "ENSG00000121671",
+            "ENSG00000070081",
+            "ENSG00000073331",
+            "ENSG00000123473",
+            "ENSG00000145632",
+            "ENSG00000108556",
+            "ENSG00000075461",
+            "ENSG00000132975",
+            "ENSG00000205143",
+            "ENSG00000183520",
+            "ENSG00000188760",
+            "ENSG00000172264",
+            "ENSG00000101557",
+            "ENSG00000126016",
+            "ENSG00000162068",
+            "ENSG00000180667",
+            "ENSG00000155329",
+            "ENSG00000120215",
+            "ENSG00000130921",
+            "ENSG00000139352",
+            "ENSG00000167377",
+            "ENSG00000066044",
+            "ENSG00000108774",
+            "ENSG00000116747",
+            "ENSG00000129991",
+            "ENSG00000183726",
+            "ENSG00000149428",
+            "ENSG00000174483",
+            "ENSG00000155066",
+            "ENSG00000121361",
+            "ENSG00000275722",
+            "ENSG00000129159",
+            "ENSG00000164944",
+            "ENSG00000175567",
+            "ENSG00000185250",
+            "ENSG00000089163",
+            "ENSG00000159339",
+            "ENSG00000147596",
+            "ENSG00000124783",
+            "ENSG00000141086",
+            "ENSG00000044012",
+            "ENSG00000160294",
+            "ENSG00000172568",
+            "ENSG00000182508",
+            "ENSG00000159588",
+            "ENSG00000101074",
+            "ENSG00000120729",
+            "ENSG00000065675",
+            "ENSG00000198843",
+            "ENSG00000182551",
+            "ENSG00000104907",
+            "ENSG00000123737",
+            "ENSG00000176208",
+            "ENSG00000105792",
+            "ENSG00000153975",
+            "ENSG00000158516",
+            "ENSG00000189306",
+            "ENSG00000158270",
+            "ENSG00000158987",
+            "ENSG00000136867",
+            "ENSG00000132467",
+            "ENSG00000122912",
+            "ENSG00000187398",
+            "ENSG00000086967",
+            "ENSG00000137707",
+            "ENSG00000125817",
+            "ENSG00000141551",
+            "ENSG00000104825",
+            "ENSG00000253304",
+            "ENSG00000184060",
+            "ENSG00000138080",
+            "ENSG00000157514",
+            "ENSG00000009307",
+            "ENSG00000256061",
+            "ENSG00000077279",
+            "ENSG00000104413",
+            "ENSG00000065882",
+            "ENSG00000007933",
+            "ENSG00000125149",
+            "ENSG00000136451",
+            "ENSG00000113140",
+            "ENSG00000173567",
+            "ENSG00000107625",
+            "ENSG00000103994",
+            "ENSG00000059378",
+            "ENSG00000179407",
+            "ENSG00000139266",
+            "ENSG00000187773",
+            "ENSG00000243646",
+            "ENSG00000168393",
+            "ENSG00000139767",
+            "ENSG00000113649",
+            "ENSG00000184445",
+            "ENSG00000123119",
+            "ENSG00000003096",
+            "ENSG00000267909",
+            "ENSG00000166619",
+            "ENSG00000235863",
+            "ENSG00000177807",
+            "ENSG00000143498",
+            "ENSG00000256525",
+            "ENSG00000119547",
+            "ENSG00000242802",
+            "ENSG00000197136",
+            "ENSG00000137672",
+            "ENSG00000113555",
+            "ENSG00000145247",
+            "ENSG00000197696",
+            "ENSG00000133216",
+            "ENSG00000158486",
+            "ENSG00000103089",
+            "ENSG00000163430",
+            "ENSG00000181029",
+            "ENSG00000114626",
+            "ENSG00000074706",
+            "ENSG00000154997",
+            "ENSG00000176678",
+            "ENSG00000159189",
+            "ENSG00000127125",
+            "ENSG00000123908",
+            "ENSG00000084112",
+            "ENSG00000141452",
+            "ENSG00000234409",
+            "ENSG00000136404",
+            "ENSG00000155660",
+            "ENSG00000176641",
+            "ENSG00000141519",
+            "ENSG00000152078",
+            "ENSG00000116266",
+            "ENSG00000197785",
+            "ENSG00000147180",
+            "ENSG00000176490",
+            "ENSG00000196517",
+            "ENSG00000048162",
+            "ENSG00000132825",
+            "ENSG00000157216",
+            "ENSG00000185420",
+            "ENSG00000143320",
+            "ENSG00000139668",
+            "ENSG00000235194",
+            "ENSG00000198301",
+            "ENSG00000157600",
+            "ENSG00000106404",
+            "ENSG00000171016",
+            "ENSG00000154856",
+            "ENSG00000103248",
+            "ENSG00000185591",
+            "ENSG00000184486",
+            "ENSG00000175395",
+            "ENSG00000096080",
+            "ENSG00000153207",
+            "ENSG00000196632",
+            "ENSG00000173890",
+            "ENSG00000108510",
+            "ENSG00000154174",
+            "ENSG00000075223",
+            "ENSG00000197860",
+            "ENSG00000184368",
+            "ENSG00000198759",
+            "ENSG00000135404",
+            "ENSG00000187796",
+            "ENSG00000080031",
+            "ENSG00000197355",
+            "ENSG00000125247",
+            "ENSG00000165389",
+            "ENSG00000004660",
+            "ENSG00000211460",
+            "ENSG00000104964",
+            "ENSG00000006071",
+            "ENSG00000167157",
+            "ENSG00000103254",
+            "ENSG00000167220",
+            "ENSG00000074603",
+            "ENSG00000146918",
+            "ENSG00000071127",
+            "ENSG00000104824",
+            "ENSG00000132821",
+            "ENSG00000124787",
+            "ENSG00000161265",
+            "ENSG00000179600",
+            "ENSG00000125531",
+            "ENSG00000122584",
+            "ENSG00000114902",
+            "ENSG00000157111",
+            "ENSG00000129194",
+            "ENSG00000102125",
+            "ENSG00000163689",
+            "ENSG00000185386",
+            "ENSG00000121207",
+            "ENSG00000108433",
+            "ENSG00000183840",
+            "ENSG00000107187",
+            "ENSG00000257218",
+            "ENSG00000108381",
+            "ENSG00000163214",
+            "ENSG00000174775",
+            "ENSG00000087008",
+            "ENSG00000141699",
+            "ENSG00000091986",
+            "ENSG00000187242",
+            "ENSG00000166169",
+            "ENSG00000189362",
+            "ENSG00000121310",
+            "ENSG00000142408",
+            "ENSG00000050030",
+            "ENSG00000186367",
+            "ENSG00000021645",
+            "ENSG00000145287",
+            "ENSG00000129595",
+            "ENSG00000107338",
+            "ENSG00000106799",
+            "ENSG00000086991",
+            "ENSG00000168268",
+            "ENSG00000104412",
+            "ENSG00000120279",
+            "ENSG00000100417",
+            "ENSG00000176624",
+            "ENSG00000143032",
+            "ENSG00000106789",
+            "ENSG00000183828",
+            "ENSG00000186532",
+            "ENSG00000165209",
+            "ENSG00000144647",
+            "ENSG00000144120",
+            "ENSG00000169989",
+            "ENSG00000185862",
+            "ENSG00000181291",
+            "ENSG00000142453",
+            "ENSG00000185798",
+            "ENSG00000125447",
+            "ENSG00000198919",
+            "ENSG00000163738",
+            "ENSG00000149489",
+            "ENSG00000159692",
+            "ENSG00000204977",
+            "ENSG00000182093",
+            "ENSG00000232434",
+            "ENSG00000127220",
+            "ENSG00000188735",
+            "ENSG00000108312",
+            "ENSG00000102172",
+            "ENSG00000163053",
+            "ENSG00000030304",
+            "ENSG00000180530",
+            "ENSG00000168000",
+            "ENSG00000127129",
+            "ENSG00000182348",
+            "ENSG00000171823",
+            "ENSG00000213822",
+            "ENSG00000181929",
+            "ENSG00000108587",
+            "ENSG00000184838",
+            "ENSG00000166326",
+            "ENSG00000155085",
+            "ENSG00000111605",
+            "ENSG00000185900",
+            "ENSG00000136950",
+            "ENSG00000206190",
+            "ENSG00000185658",
+            "ENSG00000163191",
+            "ENSG00000075340",
+            "ENSG00000125378",
+            "ENSG00000158865",
+            "ENSG00000177380",
+            "ENSG00000231925",
+            "ENSG00000135250",
+            "ENSG00000141294",
+            "ENSG00000161664",
+            "ENSG00000100473",
+            "ENSG00000173338",
+            "ENSG00000018189",
+            "ENSG00000100528",
+            "ENSG00000068650",
+            "ENSG00000188566",
+            "ENSG00000175048",
+            "ENSG00000042813",
+            "ENSG00000185808",
+            "ENSG00000130643",
+            "ENSG00000173451",
+            "ENSG00000120094",
+            "ENSG00000158292",
+            "ENSG00000171540",
+            "ENSG00000182004",
+            "ENSG00000164237",
+            "ENSG00000188984",
+            "ENSG00000167700",
+            "ENSG00000151952",
+            "ENSG00000188015",
+            "ENSG00000132405",
+            "ENSG00000163608",
+            "ENSG00000108639",
+            "ENSG00000134013",
+            "ENSG00000137944",
+            "ENSG00000124357",
+            "ENSG00000090487",
+            "ENSG00000157613",
+            "ENSG00000177732",
+            "ENSG00000087157",
+            "ENSG00000188643",
+            "ENSG00000198108",
+            "ENSG00000126062",
+            "ENSG00000169359",
+            "ENSG00000138182",
+            "ENSG00000188992",
+            "ENSG00000241839",
+            "ENSG00000175287",
+            "ENSG00000171148",
+            "ENSG00000060709",
+            "ENSG00000165891",
+            "ENSG00000150681",
+            "ENSG00000174485",
+            "ENSG00000162599",
+            "ENSG00000162407",
+            "ENSG00000061676",
+            "ENSG00000130958",
+            "ENSG00000149328",
+            "ENSG00000129055",
+            "ENSG00000100906",
+            "ENSG00000160808",
+            "ENSG00000054598",
+            "ENSG00000134287",
+            "ENSG00000106771",
+            "ENSG00000141736",
+            "ENSG00000174804",
+            "ENSG00000120159",
+            "ENSG00000175093",
+            "ENSG00000123572",
+            "ENSG00000105617",
+            "ENSG00000102879",
+            "ENSG00000145794",
+            "ENSG00000197181",
+            "ENSG00000105576",
+            "ENSG00000139974",
+            "ENSG00000184347",
+            "ENSG00000089123",
+            "ENSG00000253251",
+            "ENSG00000181856",
+            "ENSG00000125834",
+            "ENSG00000141564",
+            "ENSG00000186190",
+            "ENSG00000184716",
+            "ENSG00000163378"
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-08-31T04:46:37.928603+00:00",
+    "version": "e114_eg62_p19_27110d83"
+  }
+}

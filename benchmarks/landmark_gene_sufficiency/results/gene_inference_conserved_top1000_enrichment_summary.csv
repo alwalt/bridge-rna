@@ -1,0 +1,3 @@
+source,tested_terms,significant_terms,query_genes,background_genes
+GO:BP,24546,0,1000,15165
+REAC,2849,0,1000,15165

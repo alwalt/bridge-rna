@@ -1,0 +1,637 @@
+[inference] tcga_human human_gene_inference_top1000 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[inference] osdr_mouse human_gene_inference_top1000 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=1.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human human_gene_inference_top1000 per-gene validation samples=540/1,000 elapsed=1.0m rate=8.96/s
+[heartbeat] osdr_mouse human_gene_inference_top1000 per-gene validation samples=560/1,000 elapsed=1.0m rate=9.30/s
+[heartbeat] osdr_mouse human_gene_inference_top1000 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.31/s
+[osdr_mouse] completed human_gene_inference_top1000: 14,155 masked genes
+[inference] osdr_mouse mouse_gene_inference_top1000 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human human_gene_inference_top1000 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.93/s
+[tcga_human] completed human_gene_inference_top1000: 14,109 masked genes
+[inference] tcga_human mouse_gene_inference_top1000 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=2.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse mouse_gene_inference_top1000 per-gene validation samples=552/1,000 elapsed=1.0m rate=9.20/s
+[heartbeat] tcga_human mouse_gene_inference_top1000 per-gene validation samples=520/1,000 elapsed=1.0m rate=8.64/s
+[orchestrator heartbeat] elapsed=3.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse mouse_gene_inference_top1000 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.19/s
+[osdr_mouse] completed mouse_gene_inference_top1000: 14,155 masked genes
+[inference] osdr_mouse conserved_gene_inference_top1000 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human mouse_gene_inference_top1000 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.63/s
+[tcga_human] completed mouse_gene_inference_top1000: 14,108 masked genes
+[inference] tcga_human conserved_gene_inference_top1000 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=4.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse conserved_gene_inference_top1000 per-gene validation samples=556/1,000 elapsed=1.0m rate=9.25/s
+[heartbeat] tcga_human conserved_gene_inference_top1000 per-gene validation samples=520/1,000 elapsed=1.0m rate=8.64/s
+[orchestrator heartbeat] elapsed=5.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse conserved_gene_inference_top1000 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.25/s
+[osdr_mouse] completed conserved_gene_inference_top1000: 14,156 masked genes
+[inference] osdr_mouse l1000_all_mapped_922 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human conserved_gene_inference_top1000 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.61/s
+[tcga_human] completed conserved_gene_inference_top1000: 14,108 masked genes
+[inference] tcga_human l1000_all_mapped_922 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=6.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse l1000_all_mapped_922 per-gene validation samples=552/1,000 elapsed=1.0m rate=9.18/s
+[heartbeat] tcga_human l1000_all_mapped_922 per-gene validation samples=508/1,000 elapsed=1.0m rate=8.44/s
+[orchestrator heartbeat] elapsed=7.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse l1000_all_mapped_922 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.18/s
+[osdr_mouse] completed l1000_all_mapped_922: 14,233 masked genes
+[inference] osdr_mouse random_1000_r00 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human l1000_all_mapped_922 per-gene validation samples=1,000/1,000 elapsed=2.0m rate=8.45/s
+[tcga_human] completed l1000_all_mapped_922: 14,184 masked genes
+[inference] tcga_human random_1000_r00 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=8.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r00 per-gene validation samples=552/1,000 elapsed=1.0m rate=9.14/s
+[heartbeat] tcga_human random_1000_r00 per-gene validation samples=508/1,000 elapsed=1.0m rate=8.40/s
+[orchestrator heartbeat] elapsed=9.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r00 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.14/s
+[osdr_mouse] completed random_1000_r00: 14,156 masked genes
+[inference] osdr_mouse random_1000_r01 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r00 per-gene validation samples=1,000/1,000 elapsed=2.0m rate=8.38/s
+[tcga_human] completed random_1000_r00: 14,106 masked genes
+[inference] tcga_human random_1000_r01 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=10.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r01 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.13/s
+[heartbeat] tcga_human random_1000_r01 per-gene validation samples=492/1,000 elapsed=1.0m rate=8.14/s
+[orchestrator heartbeat] elapsed=11.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r01 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.04/s
+[osdr_mouse] completed random_1000_r01: 14,155 masked genes
+[inference] osdr_mouse random_1000_r02 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r01 per-gene validation samples=992/1,000 elapsed=2.0m rate=8.20/s
+[heartbeat] tcga_human random_1000_r01 per-gene validation samples=1,000/1,000 elapsed=2.0m rate=8.20/s
+[orchestrator heartbeat] elapsed=12.0m running=tcga_human,osdr_mouse
+[tcga_human] completed random_1000_r01: 14,107 masked genes
+[inference] tcga_human random_1000_r02 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r02 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.12/s
+[orchestrator heartbeat] elapsed=13.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r02 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.14/s
+[heartbeat] tcga_human random_1000_r02 per-gene validation samples=496/1,000 elapsed=1.0m rate=8.26/s
+[osdr_mouse] completed random_1000_r02: 14,155 masked genes
+[inference] osdr_mouse random_1000_r03 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=14.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r02 per-gene validation samples=992/1,000 elapsed=2.0m rate=8.26/s
+[heartbeat] osdr_mouse random_1000_r03 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.12/s
+[heartbeat] tcga_human random_1000_r02 per-gene validation samples=1,000/1,000 elapsed=2.0m rate=8.26/s
+[tcga_human] completed random_1000_r02: 14,111 masked genes
+[inference] tcga_human random_1000_r03 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r03 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.03/s
+[osdr_mouse] completed random_1000_r03: 14,155 masked genes
+[inference] osdr_mouse random_1000_r04 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=15.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r03 per-gene validation samples=480/1,000 elapsed=1.0m rate=7.94/s
+[heartbeat] osdr_mouse random_1000_r04 per-gene validation samples=540/1,000 elapsed=1.0m rate=8.96/s
+[orchestrator heartbeat] elapsed=16.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r03 per-gene validation samples=968/1,000 elapsed=2.0m rate=8.02/s
+[heartbeat] tcga_human random_1000_r03 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.02/s
+[tcga_human] completed random_1000_r03: 14,108 masked genes
+[inference] tcga_human random_1000_r04 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r04 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.86/s
+[osdr_mouse] completed random_1000_r04: 14,156 masked genes
+[inference] osdr_mouse random_1000_r05 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=17.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r04 per-gene validation samples=460/1,000 elapsed=1.0m rate=7.61/s
+[heartbeat] osdr_mouse random_1000_r05 per-gene validation samples=536/1,000 elapsed=1.0m rate=8.89/s
+[orchestrator heartbeat] elapsed=18.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r04 per-gene validation samples=948/1,000 elapsed=2.0m rate=7.86/s
+[heartbeat] tcga_human random_1000_r04 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.88/s
+[tcga_human] completed random_1000_r04: 14,112 masked genes
+[inference] tcga_human random_1000_r05 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r05 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.97/s
+[osdr_mouse] completed random_1000_r05: 14,156 masked genes
+[inference] osdr_mouse random_1000_r06 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=19.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r05 per-gene validation samples=484/1,000 elapsed=1.0m rate=8.01/s
+[heartbeat] osdr_mouse random_1000_r06 per-gene validation samples=528/1,000 elapsed=1.0m rate=8.78/s
+[orchestrator heartbeat] elapsed=20.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r05 per-gene validation samples=948/1,000 elapsed=2.0m rate=7.85/s
+[heartbeat] tcga_human random_1000_r05 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.86/s
+[tcga_human] completed random_1000_r05: 14,107 masked genes
+[inference] tcga_human random_1000_r06 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r06 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.86/s
+[osdr_mouse] completed random_1000_r06: 14,156 masked genes
+[inference] osdr_mouse random_1000_r07 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=21.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r06 per-gene validation samples=492/1,000 elapsed=1.0m rate=8.14/s
+[heartbeat] osdr_mouse random_1000_r07 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.07/s
+[orchestrator heartbeat] elapsed=22.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r07 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.98/s
+[heartbeat] tcga_human random_1000_r06 per-gene validation samples=968/1,000 elapsed=2.0m rate=8.01/s
+[osdr_mouse] completed random_1000_r07: 14,156 masked genes
+[inference] osdr_mouse random_1000_r08 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r06 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.98/s
+[tcga_human] completed random_1000_r06: 14,107 masked genes
+[inference] tcga_human random_1000_r07 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=23.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r08 per-gene validation samples=532/1,000 elapsed=1.0m rate=8.85/s
+[heartbeat] tcga_human random_1000_r07 per-gene validation samples=476/1,000 elapsed=1.0m rate=7.90/s
+[orchestrator heartbeat] elapsed=24.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r08 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.96/s
+[osdr_mouse] completed random_1000_r08: 14,155 masked genes
+[inference] osdr_mouse random_1000_r09 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r07 per-gene validation samples=964/1,000 elapsed=2.0m rate=7.99/s
+[heartbeat] tcga_human random_1000_r07 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.99/s
+[tcga_human] completed random_1000_r07: 14,107 masked genes
+[inference] tcga_human random_1000_r08 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=25.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r09 per-gene validation samples=512/1,000 elapsed=1.0m rate=8.49/s
+[heartbeat] tcga_human random_1000_r08 per-gene validation samples=444/1,000 elapsed=1.0m rate=7.38/s
+[orchestrator heartbeat] elapsed=26.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r09 per-gene validation samples=1,000/1,000 elapsed=2.0m rate=8.54/s
+[osdr_mouse] completed random_1000_r09: 14,155 masked genes
+[inference] osdr_mouse random_1000_r10 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r08 per-gene validation samples=888/1,000 elapsed=2.0m rate=7.36/s
+[heartbeat] tcga_human random_1000_r08 per-gene validation samples=1,000/1,000 elapsed=2.2m rate=7.41/s
+[orchestrator heartbeat] elapsed=27.0m running=tcga_human,osdr_mouse
+[tcga_human] completed random_1000_r08: 14,110 masked genes
+[inference] tcga_human random_1000_r09 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r10 per-gene validation samples=512/1,000 elapsed=1.0m rate=8.52/s
+[orchestrator heartbeat] elapsed=28.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r09 per-gene validation samples=464/1,000 elapsed=1.0m rate=7.69/s
+[heartbeat] osdr_mouse random_1000_r10 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.72/s
+[osdr_mouse] completed random_1000_r10: 14,156 masked genes
+[inference] osdr_mouse random_1000_r11 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=29.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r09 per-gene validation samples=948/1,000 elapsed=2.0m rate=7.86/s
+[heartbeat] tcga_human random_1000_r09 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.87/s
+[tcga_human] completed random_1000_r09: 14,110 masked genes
+[inference] tcga_human random_1000_r10 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r11 per-gene validation samples=544/1,000 elapsed=1.0m rate=9.06/s
+[orchestrator heartbeat] elapsed=30.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r10 per-gene validation samples=484/1,000 elapsed=1.0m rate=8.05/s
+[heartbeat] osdr_mouse random_1000_r11 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.06/s
+[osdr_mouse] completed random_1000_r11: 14,156 masked genes
+[inference] osdr_mouse random_1000_r12 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=31.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r10 per-gene validation samples=972/1,000 elapsed=2.0m rate=8.08/s
+[heartbeat] tcga_human random_1000_r10 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.08/s
+[heartbeat] osdr_mouse random_1000_r12 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.10/s
+[tcga_human] completed random_1000_r10: 14,110 masked genes
+[inference] tcga_human random_1000_r11 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=32.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r12 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.12/s
+[osdr_mouse] completed random_1000_r12: 14,156 masked genes
+[inference] osdr_mouse random_1000_r13 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r11 per-gene validation samples=488/1,000 elapsed=1.0m rate=8.13/s
+[orchestrator heartbeat] elapsed=33.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r13 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.11/s
+[heartbeat] tcga_human random_1000_r11 per-gene validation samples=976/1,000 elapsed=2.0m rate=8.13/s
+[heartbeat] tcga_human random_1000_r11 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.13/s
+[tcga_human] completed random_1000_r11: 14,105 masked genes
+[inference] tcga_human random_1000_r12 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r13 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.12/s
+[osdr_mouse] completed random_1000_r13: 14,157 masked genes
+[inference] osdr_mouse random_1000_r14 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=34.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r12 per-gene validation samples=488/1,000 elapsed=1.0m rate=8.07/s
+[heartbeat] osdr_mouse random_1000_r14 per-gene validation samples=540/1,000 elapsed=1.0m rate=9.00/s
+[orchestrator heartbeat] elapsed=35.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r12 per-gene validation samples=960/1,000 elapsed=2.0m rate=7.94/s
+[heartbeat] tcga_human random_1000_r12 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.95/s
+[tcga_human] completed random_1000_r12: 14,109 masked genes
+[inference] tcga_human random_1000_r13 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r14 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.96/s
+[osdr_mouse] completed random_1000_r14: 14,155 masked genes
+[inference] osdr_mouse random_1000_r15 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=36.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r13 per-gene validation samples=480/1,000 elapsed=1.0m rate=7.98/s
+[heartbeat] osdr_mouse random_1000_r15 per-gene validation samples=536/1,000 elapsed=1.0m rate=8.90/s
+[orchestrator heartbeat] elapsed=37.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r13 per-gene validation samples=956/1,000 elapsed=2.0m rate=7.94/s
+[heartbeat] tcga_human random_1000_r13 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.95/s
+[tcga_human] completed random_1000_r13: 14,109 masked genes
+[inference] tcga_human random_1000_r14 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r15 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.95/s
+[osdr_mouse] completed random_1000_r15: 14,156 masked genes
+[inference] osdr_mouse random_1000_r16 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=38.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r14 per-gene validation samples=480/1,000 elapsed=1.0m rate=7.96/s
+[heartbeat] osdr_mouse random_1000_r16 per-gene validation samples=536/1,000 elapsed=1.0m rate=8.93/s
+[orchestrator heartbeat] elapsed=39.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r16 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.03/s
+[heartbeat] tcga_human random_1000_r14 per-gene validation samples=968/1,000 elapsed=2.0m rate=8.03/s
+[osdr_mouse] completed random_1000_r16: 14,155 masked genes
+[inference] osdr_mouse random_1000_r17 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r14 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.03/s
+[tcga_human] completed random_1000_r14: 14,108 masked genes
+[inference] tcga_human random_1000_r15 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=40.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r17 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.10/s
+[heartbeat] tcga_human random_1000_r15 per-gene validation samples=488/1,000 elapsed=1.0m rate=8.09/s
+[orchestrator heartbeat] elapsed=41.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r17 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.08/s
+[osdr_mouse] completed random_1000_r17: 14,156 masked genes
+[inference] osdr_mouse random_1000_r18 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r15 per-gene validation samples=968/1,000 elapsed=2.0m rate=8.04/s
+[heartbeat] tcga_human random_1000_r15 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.04/s
+[tcga_human] completed random_1000_r15: 14,110 masked genes
+[inference] tcga_human random_1000_r16 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=42.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r18 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.10/s
+[heartbeat] tcga_human random_1000_r16 per-gene validation samples=488/1,000 elapsed=1.0m rate=8.10/s
+[orchestrator heartbeat] elapsed=43.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r18 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.11/s
+[osdr_mouse] completed random_1000_r18: 14,155 masked genes
+[inference] osdr_mouse random_1000_r19 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r16 per-gene validation samples=976/1,000 elapsed=2.0m rate=8.09/s
+[heartbeat] tcga_human random_1000_r16 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.09/s
+[tcga_human] completed random_1000_r16: 14,108 masked genes
+[inference] tcga_human random_1000_r17 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=44.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r19 per-gene validation samples=544/1,000 elapsed=1.0m rate=9.06/s
+[heartbeat] tcga_human random_1000_r17 per-gene validation samples=488/1,000 elapsed=1.0m rate=8.10/s
+[orchestrator heartbeat] elapsed=45.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r19 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.08/s
+[osdr_mouse] completed random_1000_r19: 14,156 masked genes
+[inference] osdr_mouse random_1000_r20 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r17 per-gene validation samples=976/1,000 elapsed=2.0m rate=8.09/s
+[orchestrator heartbeat] elapsed=46.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r17 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.09/s
+[tcga_human] completed random_1000_r17: 14,111 masked genes
+[inference] tcga_human random_1000_r18 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r20 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.07/s
+[orchestrator heartbeat] elapsed=47.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r18 per-gene validation samples=488/1,000 elapsed=1.0m rate=8.09/s
+[heartbeat] osdr_mouse random_1000_r20 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.09/s
+[osdr_mouse] completed random_1000_r20: 14,156 masked genes
+[inference] osdr_mouse random_1000_r21 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=48.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r18 per-gene validation samples=976/1,000 elapsed=2.0m rate=8.08/s
+[heartbeat] tcga_human random_1000_r18 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.09/s
+[heartbeat] osdr_mouse random_1000_r21 per-gene validation samples=544/1,000 elapsed=1.0m rate=9.06/s
+[tcga_human] completed random_1000_r18: 14,111 masked genes
+[inference] tcga_human random_1000_r19 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=49.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r21 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.94/s
+[osdr_mouse] completed random_1000_r21: 14,155 masked genes
+[inference] osdr_mouse random_1000_r22 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r19 per-gene validation samples=468/1,000 elapsed=1.0m rate=7.75/s
+[orchestrator heartbeat] elapsed=50.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r22 per-gene validation samples=544/1,000 elapsed=1.0m rate=9.02/s
+[heartbeat] tcga_human random_1000_r19 per-gene validation samples=948/1,000 elapsed=2.0m rate=7.87/s
+[heartbeat] tcga_human random_1000_r19 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.88/s
+[tcga_human] completed random_1000_r19: 14,106 masked genes
+[inference] tcga_human random_1000_r20 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r22 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.06/s
+[osdr_mouse] completed random_1000_r22: 14,155 masked genes
+[inference] osdr_mouse random_1000_r23 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=51.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r20 per-gene validation samples=484/1,000 elapsed=1.0m rate=8.02/s
+[heartbeat] osdr_mouse random_1000_r23 per-gene validation samples=540/1,000 elapsed=1.0m rate=8.95/s
+[orchestrator heartbeat] elapsed=52.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r20 per-gene validation samples=960/1,000 elapsed=2.0m rate=7.98/s
+[heartbeat] tcga_human random_1000_r20 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.98/s
+[tcga_human] completed random_1000_r20: 14,111 masked genes
+[inference] tcga_human random_1000_r21 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r23 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.03/s
+[osdr_mouse] completed random_1000_r23: 14,156 masked genes
+[inference] osdr_mouse random_1000_r24 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=53.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r21 per-gene validation samples=488/1,000 elapsed=1.0m rate=8.10/s
+[heartbeat] osdr_mouse random_1000_r24 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.11/s
+[orchestrator heartbeat] elapsed=54.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r21 per-gene validation samples=976/1,000 elapsed=2.0m rate=8.10/s
+[heartbeat] tcga_human random_1000_r21 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.10/s
+[tcga_human] completed random_1000_r21: 14,107 masked genes
+[inference] tcga_human random_1000_r22 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r24 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.12/s
+[osdr_mouse] completed random_1000_r24: 14,158 masked genes
+[inference] osdr_mouse random_1000_r25 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=55.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r22 per-gene validation samples=484/1,000 elapsed=1.0m rate=8.07/s
+[heartbeat] osdr_mouse random_1000_r25 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.10/s
+[orchestrator heartbeat] elapsed=56.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r25 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.11/s
+[osdr_mouse] completed random_1000_r25: 14,156 masked genes
+[inference] osdr_mouse random_1000_r26 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r22 per-gene validation samples=972/1,000 elapsed=2.0m rate=8.07/s
+[heartbeat] tcga_human random_1000_r22 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.07/s
+[tcga_human] completed random_1000_r22: 14,108 masked genes
+[inference] tcga_human random_1000_r23 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=57.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r26 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.10/s
+[heartbeat] tcga_human random_1000_r23 per-gene validation samples=488/1,000 elapsed=1.0m rate=8.08/s
+[orchestrator heartbeat] elapsed=58.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r26 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.11/s
+[osdr_mouse] completed random_1000_r26: 14,155 masked genes
+[inference] osdr_mouse random_1000_r27 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r23 per-gene validation samples=976/1,000 elapsed=2.0m rate=8.08/s
+[heartbeat] tcga_human random_1000_r23 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.08/s
+[tcga_human] completed random_1000_r23: 14,108 masked genes
+[inference] tcga_human random_1000_r24 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=59.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r27 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.10/s
+[heartbeat] tcga_human random_1000_r24 per-gene validation samples=488/1,000 elapsed=1.0m rate=8.10/s
+[orchestrator heartbeat] elapsed=60.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r27 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.12/s
+[osdr_mouse] completed random_1000_r27: 14,155 masked genes
+[inference] osdr_mouse random_1000_r28 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r24 per-gene validation samples=976/1,000 elapsed=2.0m rate=8.09/s
+[heartbeat] tcga_human random_1000_r24 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.09/s
+[tcga_human] completed random_1000_r24: 14,111 masked genes
+[inference] tcga_human random_1000_r25 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=61.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r28 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.11/s
+[heartbeat] tcga_human random_1000_r25 per-gene validation samples=488/1,000 elapsed=1.0m rate=8.08/s
+[orchestrator heartbeat] elapsed=62.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r28 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.12/s
+[osdr_mouse] completed random_1000_r28: 14,155 masked genes
+[inference] osdr_mouse random_1000_r29 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r25 per-gene validation samples=976/1,000 elapsed=2.0m rate=8.08/s
+[heartbeat] tcga_human random_1000_r25 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.08/s
+[tcga_human] completed random_1000_r25: 14,108 masked genes
+[inference] tcga_human random_1000_r26 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=63.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r29 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.10/s
+[heartbeat] tcga_human random_1000_r26 per-gene validation samples=488/1,000 elapsed=1.0m rate=8.09/s
+[heartbeat] osdr_mouse random_1000_r29 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.12/s
+[osdr_mouse] completed random_1000_r29: 14,156 masked genes
+[inference] osdr_mouse random_1000_r30 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=64.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r26 per-gene validation samples=976/1,000 elapsed=2.0m rate=8.10/s
+[heartbeat] tcga_human random_1000_r26 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.10/s
+[heartbeat] osdr_mouse random_1000_r30 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.12/s
+[orchestrator heartbeat] elapsed=65.0m running=tcga_human,osdr_mouse
+[tcga_human] completed random_1000_r26: 14,108 masked genes
+[inference] tcga_human random_1000_r27 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r30 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.12/s
+[osdr_mouse] completed random_1000_r30: 14,157 masked genes
+[inference] osdr_mouse random_1000_r31 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=66.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r27 per-gene validation samples=488/1,000 elapsed=1.0m rate=8.07/s
+[heartbeat] osdr_mouse random_1000_r31 per-gene validation samples=548/1,000 elapsed=1.0m rate=9.11/s
+[orchestrator heartbeat] elapsed=67.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r27 per-gene validation samples=972/1,000 elapsed=2.0m rate=8.07/s
+[heartbeat] tcga_human random_1000_r27 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.07/s
+[tcga_human] completed random_1000_r27: 14,107 masked genes
+[inference] tcga_human random_1000_r28 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r31 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.01/s
+[osdr_mouse] completed random_1000_r31: 14,156 masked genes
+[inference] osdr_mouse random_1000_r32 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=68.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r28 per-gene validation samples=456/1,000 elapsed=1.0m rate=7.54/s
+[heartbeat] osdr_mouse random_1000_r32 per-gene validation samples=524/1,000 elapsed=1.0m rate=8.70/s
+[orchestrator heartbeat] elapsed=69.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r28 per-gene validation samples=908/1,000 elapsed=2.0m rate=7.52/s
+[heartbeat] tcga_human random_1000_r28 per-gene validation samples=1,000/1,000 elapsed=2.2m rate=7.52/s
+[tcga_human] completed random_1000_r28: 14,108 masked genes
+[inference] tcga_human random_1000_r29 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r32 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.71/s
+[osdr_mouse] completed random_1000_r32: 14,157 masked genes
+[inference] osdr_mouse random_1000_r33 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=70.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r29 per-gene validation samples=456/1,000 elapsed=1.0m rate=7.54/s
+[heartbeat] osdr_mouse random_1000_r33 per-gene validation samples=524/1,000 elapsed=1.0m rate=8.71/s
+[orchestrator heartbeat] elapsed=71.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r29 per-gene validation samples=912/1,000 elapsed=2.0m rate=7.54/s
+[heartbeat] tcga_human random_1000_r29 per-gene validation samples=1,000/1,000 elapsed=2.2m rate=7.54/s
+[heartbeat] osdr_mouse random_1000_r33 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.72/s
+[tcga_human] completed random_1000_r29: 14,106 masked genes
+[inference] tcga_human random_1000_r30 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[osdr_mouse] completed random_1000_r33: 14,157 masked genes
+[inference] osdr_mouse random_1000_r34 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=72.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r30 per-gene validation samples=464/1,000 elapsed=1.0m rate=7.70/s
+[heartbeat] osdr_mouse random_1000_r34 per-gene validation samples=528/1,000 elapsed=1.0m rate=8.80/s
+[orchestrator heartbeat] elapsed=73.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r34 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.93/s
+[osdr_mouse] completed random_1000_r34: 14,155 masked genes
+[inference] osdr_mouse random_1000_r35 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r30 per-gene validation samples=944/1,000 elapsed=2.0m rate=7.84/s
+[heartbeat] tcga_human random_1000_r30 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.83/s
+[tcga_human] completed random_1000_r30: 14,111 masked genes
+[inference] tcga_human random_1000_r31 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=74.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r35 per-gene validation samples=544/1,000 elapsed=1.0m rate=9.02/s
+[heartbeat] tcga_human random_1000_r31 per-gene validation samples=488/1,000 elapsed=1.0m rate=8.12/s
+[orchestrator heartbeat] elapsed=75.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r35 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.06/s
+[osdr_mouse] completed random_1000_r35: 14,155 masked genes
+[inference] osdr_mouse random_1000_r36 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r31 per-gene validation samples=972/1,000 elapsed=2.0m rate=8.07/s
+[heartbeat] tcga_human random_1000_r31 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.04/s
+[tcga_human] completed random_1000_r31: 14,111 masked genes
+[inference] tcga_human random_1000_r32 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=76.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r36 per-gene validation samples=532/1,000 elapsed=1.0m rate=8.81/s
+[heartbeat] tcga_human random_1000_r32 per-gene validation samples=476/1,000 elapsed=1.0m rate=7.89/s
+[orchestrator heartbeat] elapsed=77.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r36 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.94/s
+[osdr_mouse] completed random_1000_r36: 14,157 masked genes
+[inference] osdr_mouse random_1000_r37 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r32 per-gene validation samples=960/1,000 elapsed=2.0m rate=7.97/s
+[heartbeat] tcga_human random_1000_r32 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.97/s
+[orchestrator heartbeat] elapsed=78.0m running=tcga_human,osdr_mouse
+[tcga_human] completed random_1000_r32: 14,111 masked genes
+[inference] tcga_human random_1000_r33 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r37 per-gene validation samples=544/1,000 elapsed=1.0m rate=9.05/s
+[orchestrator heartbeat] elapsed=79.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r33 per-gene validation samples=476/1,000 elapsed=1.0m rate=7.89/s
+[heartbeat] osdr_mouse random_1000_r37 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.98/s
+[osdr_mouse] completed random_1000_r37: 14,155 masked genes
+[inference] osdr_mouse random_1000_r38 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=80.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r33 per-gene validation samples=956/1,000 elapsed=2.0m rate=7.94/s
+[heartbeat] tcga_human random_1000_r33 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.93/s
+[tcga_human] completed random_1000_r33: 14,109 masked genes
+[inference] tcga_human random_1000_r34 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r38 per-gene validation samples=540/1,000 elapsed=1.0m rate=8.99/s
+[orchestrator heartbeat] elapsed=81.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r38 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.03/s
+[osdr_mouse] completed random_1000_r38: 14,156 masked genes
+[inference] osdr_mouse random_1000_r39 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r34 per-gene validation samples=480/1,000 elapsed=1.0m rate=7.97/s
+[orchestrator heartbeat] elapsed=82.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r39 per-gene validation samples=544/1,000 elapsed=1.0m rate=9.05/s
+[heartbeat] tcga_human random_1000_r34 per-gene validation samples=964/1,000 elapsed=2.0m rate=7.99/s
+[heartbeat] tcga_human random_1000_r34 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.98/s
+[tcga_human] completed random_1000_r34: 14,109 masked genes
+[inference] tcga_human random_1000_r35 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r39 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.04/s
+[osdr_mouse] completed random_1000_r39: 14,156 masked genes
+[inference] osdr_mouse random_1000_r40 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=83.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r35 per-gene validation samples=484/1,000 elapsed=1.0m rate=8.02/s
+[heartbeat] osdr_mouse random_1000_r40 per-gene validation samples=544/1,000 elapsed=1.0m rate=9.04/s
+[orchestrator heartbeat] elapsed=84.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r35 per-gene validation samples=968/1,000 elapsed=2.0m rate=8.02/s
+[heartbeat] tcga_human random_1000_r35 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.01/s
+[tcga_human] completed random_1000_r35: 14,107 masked genes
+[inference] tcga_human random_1000_r36 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r40 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.01/s
+[osdr_mouse] completed random_1000_r40: 14,155 masked genes
+[inference] osdr_mouse random_1000_r41 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=85.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r36 per-gene validation samples=480/1,000 elapsed=1.0m rate=7.97/s
+[heartbeat] osdr_mouse random_1000_r41 per-gene validation samples=544/1,000 elapsed=1.0m rate=9.03/s
+[orchestrator heartbeat] elapsed=86.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r36 per-gene validation samples=960/1,000 elapsed=2.0m rate=7.97/s
+[heartbeat] tcga_human random_1000_r36 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.97/s
+[tcga_human] completed random_1000_r36: 14,112 masked genes
+[inference] tcga_human random_1000_r37 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r41 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.01/s
+[osdr_mouse] completed random_1000_r41: 14,156 masked genes
+[inference] osdr_mouse random_1000_r42 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=87.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r37 per-gene validation samples=480/1,000 elapsed=1.0m rate=7.96/s
+[heartbeat] osdr_mouse random_1000_r42 per-gene validation samples=544/1,000 elapsed=1.0m rate=9.04/s
+[orchestrator heartbeat] elapsed=88.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r37 per-gene validation samples=960/1,000 elapsed=2.0m rate=7.98/s
+[heartbeat] osdr_mouse random_1000_r42 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.05/s
+[osdr_mouse] completed random_1000_r42: 14,155 masked genes
+[inference] osdr_mouse random_1000_r43 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r37 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.95/s
+[tcga_human] completed random_1000_r37: 14,108 masked genes
+[inference] tcga_human random_1000_r38 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=89.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r43 per-gene validation samples=544/1,000 elapsed=1.0m rate=9.02/s
+[heartbeat] tcga_human random_1000_r38 per-gene validation samples=484/1,000 elapsed=1.0m rate=8.03/s
+[orchestrator heartbeat] elapsed=90.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r43 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.04/s
+[osdr_mouse] completed random_1000_r43: 14,157 masked genes
+[inference] osdr_mouse random_1000_r44 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r38 per-gene validation samples=964/1,000 elapsed=2.0m rate=8.01/s
+[heartbeat] tcga_human random_1000_r38 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.00/s
+[tcga_human] completed random_1000_r38: 14,108 masked genes
+[inference] tcga_human random_1000_r39 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=91.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r44 per-gene validation samples=540/1,000 elapsed=1.0m rate=8.99/s
+[heartbeat] tcga_human random_1000_r39 per-gene validation samples=484/1,000 elapsed=1.0m rate=8.02/s
+[orchestrator heartbeat] elapsed=92.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r44 per-gene validation samples=1,000/1,000 elapsed=1.8m rate=9.02/s
+[osdr_mouse] completed random_1000_r44: 14,156 masked genes
+[inference] osdr_mouse random_1000_r45 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r39 per-gene validation samples=964/1,000 elapsed=2.0m rate=8.01/s
+[heartbeat] tcga_human random_1000_r39 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.00/s
+[tcga_human] completed random_1000_r39: 14,107 masked genes
+[inference] tcga_human random_1000_r40 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=93.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r45 per-gene validation samples=540/1,000 elapsed=1.0m rate=8.99/s
+[heartbeat] tcga_human random_1000_r40 per-gene validation samples=480/1,000 elapsed=1.0m rate=7.99/s
+[orchestrator heartbeat] elapsed=94.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r45 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.95/s
+[osdr_mouse] completed random_1000_r45: 14,155 masked genes
+[inference] osdr_mouse random_1000_r46 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r40 per-gene validation samples=932/1,000 elapsed=2.0m rate=7.74/s
+[orchestrator heartbeat] elapsed=95.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r40 per-gene validation samples=1,000/1,000 elapsed=2.2m rate=7.72/s
+[tcga_human] completed random_1000_r40: 14,107 masked genes
+[inference] tcga_human random_1000_r41 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_1000_r46 per-gene validation samples=520/1,000 elapsed=1.0m rate=8.65/s
+[orchestrator heartbeat] elapsed=96.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r41 per-gene validation samples=452/1,000 elapsed=1.0m rate=7.53/s
+[heartbeat] osdr_mouse random_1000_r46 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+[osdr_mouse] completed random_1000_r46: 14,155 masked genes
+[inference] osdr_mouse random_1000_r47 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[orchestrator heartbeat] elapsed=97.0m running=tcga_human,osdr_mouse
+[heartbeat] tcga_human random_1000_r41 per-gene validation samples=904/1,000 elapsed=2.0m rate=7.51/s
+[heartbeat] osdr_mouse random_1000_r47 per-gene validation samples=524/1,000 elapsed=1.0m rate=8.67/s
+[heartbeat] tcga_human random_1000_r41 per-gene validation samples=1,000/1,000 elapsed=2.2m rate=7.51/s
+[tcga_human] completed random_1000_r41: 14,110 masked genes
+[inference] tcga_human random_1000_r42 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=98.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r47 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+[osdr_mouse] completed random_1000_r47: 14,156 masked genes
+[inference] osdr_mouse random_1000_r48 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r42 per-gene validation samples=452/1,000 elapsed=1.0m rate=7.50/s
+[orchestrator heartbeat] elapsed=99.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r48 per-gene validation samples=520/1,000 elapsed=1.0m rate=8.66/s
+[heartbeat] tcga_human random_1000_r42 per-gene validation samples=904/1,000 elapsed=2.0m rate=7.50/s
+[heartbeat] tcga_human random_1000_r42 per-gene validation samples=1,000/1,000 elapsed=2.2m rate=7.50/s
+[tcga_human] completed random_1000_r42: 14,109 masked genes
+[inference] tcga_human random_1000_r43 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=100.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r48 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.67/s
+[osdr_mouse] completed random_1000_r48: 14,155 masked genes
+[inference] osdr_mouse random_1000_r49 per-gene validation samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_1000_r43 per-gene validation samples=452/1,000 elapsed=1.0m rate=7.50/s
+[orchestrator heartbeat] elapsed=101.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r49 per-gene validation samples=524/1,000 elapsed=1.0m rate=8.67/s
+[heartbeat] tcga_human random_1000_r43 per-gene validation samples=904/1,000 elapsed=2.0m rate=7.50/s
+[heartbeat] tcga_human random_1000_r43 per-gene validation samples=1,000/1,000 elapsed=2.2m rate=7.49/s
+[tcga_human] completed random_1000_r43: 14,109 masked genes
+[inference] tcga_human random_1000_r44 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=102.0m running=tcga_human,osdr_mouse
+[heartbeat] osdr_mouse random_1000_r49 per-gene validation samples=1,000/1,000 elapsed=1.9m rate=8.66/s
+[osdr_mouse] completed random_1000_r49: 14,156 masked genes
+[orchestrator] osdr_mouse complete
+[heartbeat] tcga_human random_1000_r44 per-gene validation samples=448/1,000 elapsed=1.0m rate=7.44/s
+[orchestrator heartbeat] elapsed=103.0m running=tcga_human
+[heartbeat] tcga_human random_1000_r44 per-gene validation samples=912/1,000 elapsed=2.0m rate=7.57/s
+[orchestrator heartbeat] elapsed=104.0m running=tcga_human
+[heartbeat] tcga_human random_1000_r44 per-gene validation samples=1,000/1,000 elapsed=2.2m rate=7.58/s
+[tcga_human] completed random_1000_r44: 14,105 masked genes
+[inference] tcga_human random_1000_r45 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=105.0m running=tcga_human
+[heartbeat] tcga_human random_1000_r45 per-gene validation samples=476/1,000 elapsed=1.0m rate=7.91/s
+[orchestrator heartbeat] elapsed=106.0m running=tcga_human
+[heartbeat] tcga_human random_1000_r45 per-gene validation samples=956/1,000 elapsed=2.0m rate=7.93/s
+[heartbeat] tcga_human random_1000_r45 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.93/s
+[tcga_human] completed random_1000_r45: 14,107 masked genes
+[inference] tcga_human random_1000_r46 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=107.0m running=tcga_human
+[heartbeat] tcga_human random_1000_r46 per-gene validation samples=480/1,000 elapsed=1.0m rate=7.98/s
+[orchestrator heartbeat] elapsed=108.0m running=tcga_human
+[heartbeat] tcga_human random_1000_r46 per-gene validation samples=964/1,000 elapsed=2.0m rate=7.99/s
+[heartbeat] tcga_human random_1000_r46 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=7.99/s
+[tcga_human] completed random_1000_r46: 14,109 masked genes
+[inference] tcga_human random_1000_r47 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=109.0m running=tcga_human
+[heartbeat] tcga_human random_1000_r47 per-gene validation samples=484/1,000 elapsed=1.0m rate=8.01/s
+[orchestrator heartbeat] elapsed=110.0m running=tcga_human
+[heartbeat] tcga_human random_1000_r47 per-gene validation samples=968/1,000 elapsed=2.0m rate=8.02/s
+[heartbeat] tcga_human random_1000_r47 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.01/s
+[tcga_human] completed random_1000_r47: 14,111 masked genes
+[inference] tcga_human random_1000_r48 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=111.0m running=tcga_human
+[heartbeat] tcga_human random_1000_r48 per-gene validation samples=484/1,000 elapsed=1.0m rate=8.02/s
+[orchestrator heartbeat] elapsed=112.0m running=tcga_human
+[heartbeat] tcga_human random_1000_r48 per-gene validation samples=968/1,000 elapsed=2.0m rate=8.03/s
+[heartbeat] tcga_human random_1000_r48 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.03/s
+[tcga_human] completed random_1000_r48: 14,108 masked genes
+[inference] tcga_human random_1000_r49 per-gene validation samples=1,000 batch_size=4 device=cuda:0
+[orchestrator heartbeat] elapsed=113.0m running=tcga_human
+[heartbeat] tcga_human random_1000_r49 per-gene validation samples=484/1,000 elapsed=1.0m rate=8.02/s
+[orchestrator heartbeat] elapsed=114.0m running=tcga_human
+[heartbeat] tcga_human random_1000_r49 per-gene validation samples=968/1,000 elapsed=2.0m rate=8.04/s
+[heartbeat] tcga_human random_1000_r49 per-gene validation samples=1,000/1,000 elapsed=2.1m rate=8.03/s
+[tcga_human] completed random_1000_r49: 14,107 masked genes
+[orchestrator] tcga_human complete
+
+Summary
+   dataset             panel_type selection_species  visible_genes  effective_visible_genes  pearson_mean  pearson_sd  spearman_mean  spearman_sd  mse_mean   mse_sd  replicates
+osdr_mouse gene_inference_top1000             human           1000                     1000      0.412485         NaN       0.395651          NaN  2.186723      NaN           1
+osdr_mouse gene_inference_top1000       human_mouse           1000                      999      0.425267         NaN       0.410211          NaN  2.177796      NaN           1
+osdr_mouse gene_inference_top1000             mouse           1000                     1000      0.425512         NaN       0.411507          NaN  2.185932      NaN           1
+osdr_mouse       l1000_all_mapped          external            922                      922      0.372714         NaN       0.366310          NaN  2.398358      NaN           1
+osdr_mouse            random_1000              none           1000                      999      0.390562    0.009481       0.374454     0.010182  2.249585 0.030383          50
+tcga_human gene_inference_top1000             human           1000                      996      0.315439         NaN       0.296818          NaN  2.066419      NaN           1
+tcga_human gene_inference_top1000       human_mouse           1000                      997      0.325808         NaN       0.306730          NaN  2.026464      NaN           1
+tcga_human gene_inference_top1000             mouse           1000                      997      0.312823         NaN       0.295043          NaN  2.093565      NaN           1
+tcga_human       l1000_all_mapped          external            922                      921      0.272079         NaN       0.254904          NaN  2.127097      NaN           1
+tcga_human            random_1000              none           1000                      999      0.292645    0.006760       0.274783     0.006801  2.131971 0.041054          50
+
+Fixed-panel comparisons
+   dataset                         panel_id             panel_type selection_species  visible_genes  effective_visible_genes   metric  fixed_value  random_1000_mean  random_1000_sd  directional_advantage  standardized_advantage  empirical_one_sided_p  random_replicates  higher_is_better  size_matched_to_random
+osdr_mouse conserved_gene_inference_top1000 gene_inference_top1000       human_mouse           1000                      999  pearson     0.425267          0.390562        0.009481               0.034705                3.660415               0.019608                 50              True                    True
+osdr_mouse conserved_gene_inference_top1000 gene_inference_top1000       human_mouse           1000                      999 spearman     0.410211          0.374454        0.010182               0.035757                3.511726               0.019608                 50              True                    True
+osdr_mouse conserved_gene_inference_top1000 gene_inference_top1000       human_mouse           1000                      999      mse     2.177796          2.249585        0.030383               0.071790                2.362851               0.019608                 50             False                    True
+osdr_mouse     human_gene_inference_top1000 gene_inference_top1000             human           1000                     1000  pearson     0.412485          0.390562        0.009481               0.021923                2.312258               0.039216                 50              True                    True
+osdr_mouse     human_gene_inference_top1000 gene_inference_top1000             human           1000                     1000 spearman     0.395651          0.374454        0.010182               0.021198                2.081827               0.039216                 50              True                    True
+osdr_mouse     human_gene_inference_top1000 gene_inference_top1000             human           1000                     1000      mse     2.186723          2.249585        0.030383               0.062862                2.069011               0.019608                 50             False                    True
+osdr_mouse             l1000_all_mapped_922       l1000_all_mapped          external            922                      922  pearson     0.372714          0.390562        0.009481              -0.017848               -1.882433               0.980392                 50              True                   False
+osdr_mouse             l1000_all_mapped_922       l1000_all_mapped          external            922                      922 spearman     0.366310          0.374454        0.010182              -0.008144               -0.799856               0.764706                 50              True                   False
+osdr_mouse             l1000_all_mapped_922       l1000_all_mapped          external            922                      922      mse     2.398358          2.249585        0.030383              -0.148772               -4.896618               1.000000                 50             False                   False
+osdr_mouse     mouse_gene_inference_top1000 gene_inference_top1000             mouse           1000                     1000  pearson     0.425512          0.390562        0.009481               0.034950                3.686189               0.019608                 50              True                    True
+osdr_mouse     mouse_gene_inference_top1000 gene_inference_top1000             mouse           1000                     1000 spearman     0.411507          0.374454        0.010182               0.037054                3.639075               0.019608                 50              True                    True
+osdr_mouse     mouse_gene_inference_top1000 gene_inference_top1000             mouse           1000                     1000      mse     2.185932          2.249585        0.030383               0.063653                2.095057               0.019608                 50             False                    True
+tcga_human conserved_gene_inference_top1000 gene_inference_top1000       human_mouse           1000                      997  pearson     0.325808          0.292645        0.006760               0.033163                4.905364               0.019608                 50              True                    True
+tcga_human conserved_gene_inference_top1000 gene_inference_top1000       human_mouse           1000                      997 spearman     0.306730          0.274783        0.006801               0.031947                4.697477               0.019608                 50              True                    True
+tcga_human conserved_gene_inference_top1000 gene_inference_top1000       human_mouse           1000                      997      mse     2.026464          2.131971        0.041054               0.105508                2.569991               0.019608                 50             False                    True
+tcga_human     human_gene_inference_top1000 gene_inference_top1000             human           1000                      996  pearson     0.315439          0.292645        0.006760               0.022794                3.371669               0.019608                 50              True                    True
+tcga_human     human_gene_inference_top1000 gene_inference_top1000             human           1000                      996 spearman     0.296818          0.274783        0.006801               0.022035                3.240003               0.019608                 50              True                    True
+tcga_human     human_gene_inference_top1000 gene_inference_top1000             human           1000                      996      mse     2.066419          2.131971        0.041054               0.065552                1.596745               0.098039                 50             False                    True
+tcga_human             l1000_all_mapped_922       l1000_all_mapped          external            922                      921  pearson     0.272079          0.292645        0.006760              -0.020566               -3.042055               1.000000                 50              True                   False
+tcga_human             l1000_all_mapped_922       l1000_all_mapped          external            922                      921 spearman     0.254904          0.274783        0.006801              -0.019879               -2.922967               1.000000                 50              True                   False
+tcga_human             l1000_all_mapped_922       l1000_all_mapped          external            922                      921      mse     2.127097          2.131971        0.041054               0.004875                0.118739               0.450980                 50             False                   False
+tcga_human     mouse_gene_inference_top1000 gene_inference_top1000             mouse           1000                      997  pearson     0.312823          0.292645        0.006760               0.020178                2.984738               0.019608                 50              True                    True
+tcga_human     mouse_gene_inference_top1000 gene_inference_top1000             mouse           1000                      997 spearman     0.295043          0.274783        0.006801               0.020260                2.978953               0.019608                 50              True                    True
+tcga_human     mouse_gene_inference_top1000 gene_inference_top1000             mouse           1000                      997      mse     2.093565          2.131971        0.041054               0.038406                0.935510               0.156863                 50             False                    True

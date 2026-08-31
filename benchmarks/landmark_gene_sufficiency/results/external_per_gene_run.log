@@ -1,0 +1,85 @@
+[inference] tcga_human human_top per-gene samples=1,000 batch_size=4 device=cuda:0
+[inference] osdr_mouse human_top per-gene samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] osdr_mouse human_top per-gene samples=552/1,000 elapsed=1.0m rate=9.17/s
+[heartbeat] tcga_human human_top per-gene samples=532/1,000 elapsed=1.0m rate=8.82/s
+[heartbeat] osdr_mouse human_top per-gene samples=1,000/1,000 elapsed=1.8m rate=9.20/s
+[osdr_mouse] completed human_top: 14,234 masked genes
+[inference] osdr_mouse human_bottom per-gene samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human human_top per-gene samples=1,000/1,000 elapsed=1.9m rate=8.79/s
+[tcga_human] completed human_top: 14,187 masked genes
+[inference] tcga_human human_bottom per-gene samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse human_bottom per-gene samples=548/1,000 elapsed=1.0m rate=9.09/s
+[heartbeat] tcga_human human_bottom per-gene samples=516/1,000 elapsed=1.0m rate=8.55/s
+[heartbeat] osdr_mouse human_bottom per-gene samples=1,000/1,000 elapsed=1.9m rate=9.01/s
+[osdr_mouse] completed human_bottom: 14,235 masked genes
+[inference] osdr_mouse mouse_top per-gene samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human human_bottom per-gene samples=1,000/1,000 elapsed=2.0m rate=8.43/s
+[tcga_human] completed human_bottom: 14,187 masked genes
+[inference] tcga_human mouse_top per-gene samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse mouse_top per-gene samples=552/1,000 elapsed=1.0m rate=9.18/s
+[heartbeat] tcga_human mouse_top per-gene samples=512/1,000 elapsed=1.0m rate=8.53/s
+[heartbeat] osdr_mouse mouse_top per-gene samples=1,000/1,000 elapsed=1.8m rate=9.07/s
+[osdr_mouse] completed mouse_top: 14,234 masked genes
+[inference] osdr_mouse mouse_bottom per-gene samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human mouse_top per-gene samples=1,000/1,000 elapsed=2.0m rate=8.36/s
+[tcga_human] completed mouse_top: 14,185 masked genes
+[inference] tcga_human mouse_bottom per-gene samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse mouse_bottom per-gene samples=548/1,000 elapsed=1.0m rate=9.08/s
+[heartbeat] tcga_human mouse_bottom per-gene samples=508/1,000 elapsed=1.0m rate=8.44/s
+[heartbeat] osdr_mouse mouse_bottom per-gene samples=1,000/1,000 elapsed=1.8m rate=9.12/s
+[osdr_mouse] completed mouse_bottom: 14,234 masked genes
+[inference] osdr_mouse l1000 per-gene samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human mouse_bottom per-gene samples=1,000/1,000 elapsed=2.0m rate=8.45/s
+[tcga_human] completed mouse_bottom: 14,188 masked genes
+[inference] tcga_human l1000 per-gene samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse l1000 per-gene samples=548/1,000 elapsed=1.0m rate=9.13/s
+[heartbeat] tcga_human l1000 per-gene samples=504/1,000 elapsed=1.0m rate=8.34/s
+[heartbeat] osdr_mouse l1000 per-gene samples=1,000/1,000 elapsed=1.8m rate=9.05/s
+[osdr_mouse] completed l1000: 14,234 masked genes
+[inference] osdr_mouse random_921_r00 per-gene samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human l1000 per-gene samples=996/1,000 elapsed=2.0m rate=8.24/s
+[heartbeat] tcga_human l1000 per-gene samples=1,000/1,000 elapsed=2.0m rate=8.24/s
+[tcga_human] completed l1000: 14,185 masked genes
+[inference] tcga_human random_921_r00 per-gene samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_921_r00 per-gene samples=544/1,000 elapsed=1.0m rate=9.04/s
+[heartbeat] tcga_human random_921_r00 per-gene samples=484/1,000 elapsed=1.0m rate=8.00/s
+[heartbeat] osdr_mouse random_921_r00 per-gene samples=1,000/1,000 elapsed=1.9m rate=8.97/s
+[osdr_mouse] completed random_921_r00: 14,235 masked genes
+[inference] osdr_mouse shared_451 per-gene samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human random_921_r00 per-gene samples=964/1,000 elapsed=2.0m rate=7.97/s
+[heartbeat] tcga_human random_921_r00 per-gene samples=1,000/1,000 elapsed=2.1m rate=7.98/s
+[tcga_human] completed random_921_r00: 14,188 masked genes
+[inference] tcga_human shared_451 per-gene samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse shared_451 per-gene samples=532/1,000 elapsed=1.0m rate=8.86/s
+[heartbeat] osdr_mouse shared_451 per-gene samples=1,000/1,000 elapsed=1.9m rate=8.96/s
+[osdr_mouse] completed shared_451: 14,704 masked genes
+[inference] osdr_mouse random_451_r00 per-gene samples=1,000 batch_size=4 device=cuda:1
+[heartbeat] tcga_human shared_451 per-gene samples=492/1,000 elapsed=1.0m rate=8.19/s
+[heartbeat] osdr_mouse random_451_r00 per-gene samples=524/1,000 elapsed=1.0m rate=8.69/s
+[heartbeat] tcga_human shared_451 per-gene samples=960/1,000 elapsed=2.0m rate=7.97/s
+[heartbeat] tcga_human shared_451 per-gene samples=1,000/1,000 elapsed=2.1m rate=7.97/s
+[tcga_human] completed shared_451: 14,654 masked genes
+[inference] tcga_human random_451_r00 per-gene samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] osdr_mouse random_451_r00 per-gene samples=1,000/1,000 elapsed=1.9m rate=8.61/s
+[osdr_mouse] completed random_451_r00: 14,704 masked genes
+[heartbeat] tcga_human random_451_r00 per-gene samples=444/1,000 elapsed=1.0m rate=7.37/s
+[heartbeat] tcga_human random_451_r00 per-gene samples=944/1,000 elapsed=2.0m rate=7.83/s
+[heartbeat] tcga_human random_451_r00 per-gene samples=1,000/1,000 elapsed=2.1m rate=7.86/s
+[tcga_human] completed random_451_r00: 14,655 masked genes
+   dataset       panel_id panel_type selection_species  genes_scored  samples  pearson_mean  pearson_median  spearman_mean  spearman_median  mse_mean  mse_median
+osdr_mouse   human_bottom     bottom             human         14235     1000      0.357920        0.423750       0.343689         0.411703  2.460602    1.877860
+osdr_mouse      human_top        top             human         14234     1000      0.386914        0.455644       0.373327         0.440888  2.179046    1.684402
+osdr_mouse          l1000      l1000          external         14234     1000      0.372384        0.425773       0.366095         0.418201  2.401167    1.759383
+osdr_mouse   mouse_bottom     bottom             mouse         14234     1000      0.352932        0.415437       0.342781         0.409954  2.512325    1.892954
+osdr_mouse      mouse_top        top             mouse         14234     1000      0.400094        0.468877       0.383484         0.452824  2.107935    1.651287
+osdr_mouse random_451_r00 random_451              none         14704     1000      0.282435        0.331181       0.283463         0.338281  2.736260    2.184825
+osdr_mouse random_921_r00     random              none         14235     1000      0.390692        0.454396       0.380956         0.449154  2.309826    1.789955
+osdr_mouse     shared_451 shared_451       human_mouse         14704     1000      0.272545        0.318468       0.268501         0.316643  2.617332    2.103112
+tcga_human   human_bottom     bottom             human         14187     1000      0.249182        0.271620       0.233700         0.254723  2.349392    1.595321
+tcga_human      human_top        top             human         14187     1000      0.298084        0.315478       0.282709         0.295550  2.026869    1.450205
+tcga_human          l1000      l1000          external         14185     1000      0.271876        0.273346       0.254724         0.256374  2.128886    1.398845
+tcga_human   mouse_bottom     bottom             mouse         14188     1000      0.261715        0.279467       0.247810         0.264407  2.358727    1.599984
+tcga_human      mouse_top        top             mouse         14185     1000      0.299122        0.317642       0.282072         0.298091  2.011374    1.448525
+tcga_human random_451_r00 random_451              none         14655     1000      0.188516        0.199183       0.178030         0.191899  2.571267    1.821011
+tcga_human random_921_r00     random              none         14188     1000      0.297157        0.319754       0.278982         0.299023  2.170490    1.505654
+tcga_human     shared_451 shared_451       human_mouse         14654     1000      0.192045        0.193785       0.180620         0.187084  2.464504    1.767501
