@@ -1,0 +1,35 @@
+{
+  "ours_45.6m": {
+    "input_shape": [
+      1,
+      15165
+    ],
+    "embedding_shape": [
+      1,
+      512
+    ],
+    "finite": true
+  },
+  "bulkformer_50m": {
+    "input_shape": [
+      1,
+      20010
+    ],
+    "embedding_shape": [
+      1,
+      259
+    ],
+    "finite": true
+  },
+  "bulkformer_147m": {
+    "input_shape": [
+      1,
+      20010
+    ],
+    "embedding_shape": [
+      1,
+      643
+    ],
+    "finite": true
+  }
+}

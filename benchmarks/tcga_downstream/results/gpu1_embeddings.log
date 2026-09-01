@@ -1,0 +1,37 @@
+[2026-08-31 18:29:16] embedding bulkformer_147m: samples=9,816 batch=16 device=cuda:0
+/home/walt/bridge-rna/benchmarks/tcga_downstream/pipeline/run_benchmark.py:179: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  batch = torch.as_tensor(matrix[start:start + batch_size], dtype=torch.float32, device=device)
+[2026-08-31 18:30:18] heartbeat bulkformer_147m: 304/9,816 elapsed=1.0m rate=4.97/s
+[2026-08-31 18:31:20] heartbeat bulkformer_147m: 624/9,816 elapsed=2.1m rate=5.06/s
+[2026-08-31 18:32:22] heartbeat bulkformer_147m: 944/9,816 elapsed=3.1m rate=5.09/s
+[2026-08-31 18:33:24] heartbeat bulkformer_147m: 1,264/9,816 elapsed=4.1m rate=5.10/s
+[2026-08-31 18:34:27] heartbeat bulkformer_147m: 1,584/9,816 elapsed=5.2m rate=5.11/s
+[2026-08-31 18:35:29] heartbeat bulkformer_147m: 1,904/9,816 elapsed=6.2m rate=5.11/s
+[2026-08-31 18:36:31] heartbeat bulkformer_147m: 2,224/9,816 elapsed=7.2m rate=5.12/s
+[2026-08-31 18:37:34] heartbeat bulkformer_147m: 2,544/9,816 elapsed=8.3m rate=5.12/s
+[2026-08-31 18:38:36] heartbeat bulkformer_147m: 2,864/9,816 elapsed=9.3m rate=5.12/s
+[2026-08-31 18:39:39] heartbeat bulkformer_147m: 3,184/9,816 elapsed=10.4m rate=5.12/s
+[2026-08-31 18:40:41] heartbeat bulkformer_147m: 3,504/9,816 elapsed=11.4m rate=5.12/s
+[2026-08-31 18:41:44] heartbeat bulkformer_147m: 3,808/9,816 elapsed=12.5m rate=5.09/s
+[2026-08-31 18:42:47] heartbeat bulkformer_147m: 4,112/9,816 elapsed=13.5m rate=5.07/s
+[2026-08-31 18:43:50] heartbeat bulkformer_147m: 4,416/9,816 elapsed=14.6m rate=5.05/s
+[2026-08-31 18:44:51] heartbeat bulkformer_147m: 4,704/9,816 elapsed=15.6m rate=5.04/s
+[2026-08-31 18:45:54] heartbeat bulkformer_147m: 5,008/9,816 elapsed=16.6m rate=5.02/s
+[2026-08-31 18:46:54] heartbeat bulkformer_147m: 5,296/9,816 elapsed=17.6m rate=5.01/s
+[2026-08-31 18:47:54] heartbeat bulkformer_147m: 5,584/9,816 elapsed=18.6m rate=5.00/s
+[2026-08-31 18:48:58] heartbeat bulkformer_147m: 5,888/9,816 elapsed=19.7m rate=4.99/s
+[2026-08-31 18:49:58] heartbeat bulkformer_147m: 6,176/9,816 elapsed=20.7m rate=4.98/s
+[2026-08-31 18:51:01] heartbeat bulkformer_147m: 6,480/9,816 elapsed=21.7m rate=4.97/s
+[2026-08-31 18:52:04] heartbeat bulkformer_147m: 6,784/9,816 elapsed=22.8m rate=4.96/s
+[2026-08-31 18:53:07] heartbeat bulkformer_147m: 7,088/9,816 elapsed=23.8m rate=4.96/s
+[2026-08-31 18:54:10] heartbeat bulkformer_147m: 7,392/9,816 elapsed=24.9m rate=4.95/s
+[2026-08-31 18:55:13] heartbeat bulkformer_147m: 7,696/9,816 elapsed=25.9m rate=4.94/s
+[2026-08-31 18:56:17] heartbeat bulkformer_147m: 8,000/9,816 elapsed=27.0m rate=4.94/s
+[2026-08-31 18:57:20] heartbeat bulkformer_147m: 8,304/9,816 elapsed=28.1m rate=4.93/s
+[2026-08-31 18:58:23] heartbeat bulkformer_147m: 8,608/9,816 elapsed=29.1m rate=4.93/s
+[2026-08-31 18:59:26] heartbeat bulkformer_147m: 8,912/9,816 elapsed=30.2m rate=4.92/s
+[2026-08-31 19:00:27] heartbeat bulkformer_147m: 9,200/9,816 elapsed=31.2m rate=4.92/s
+[2026-08-31 19:01:30] heartbeat bulkformer_147m: 9,504/9,816 elapsed=32.2m rate=4.92/s
+[2026-08-31 19:02:30] heartbeat bulkformer_147m: 9,792/9,816 elapsed=33.2m rate=4.91/s
+[2026-08-31 19:02:35] heartbeat bulkformer_147m: 9,816/9,816 elapsed=33.3m rate=4.91/s
+[2026-08-31 19:02:35] saved /home/walt/bridge-rna/benchmarks/tcga_downstream/work/bulkformer_147m_embeddings.npy

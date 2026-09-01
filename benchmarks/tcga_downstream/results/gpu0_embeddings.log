@@ -1,0 +1,29 @@
+[2026-08-31 18:29:14] embedding ours_45.6m: samples=9,816 batch=4 device=cuda:0
+/home/walt/bridge-rna/benchmarks/tcga_downstream/pipeline/run_benchmark.py:179: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  batch = torch.as_tensor(matrix[start:start + batch_size], dtype=torch.float32, device=device)
+[2026-08-31 18:30:14] heartbeat ours_45.6m: 540/9,816 elapsed=1.0m rate=8.98/s
+[2026-08-31 18:31:15] heartbeat ours_45.6m: 1,076/9,816 elapsed=2.0m rate=8.93/s
+[2026-08-31 18:32:15] heartbeat ours_45.6m: 1,604/9,816 elapsed=3.0m rate=8.88/s
+[2026-08-31 18:33:15] heartbeat ours_45.6m: 2,128/9,816 elapsed=4.0m rate=8.83/s
+[2026-08-31 18:34:15] heartbeat ours_45.6m: 2,648/9,816 elapsed=5.0m rate=8.79/s
+[2026-08-31 18:35:16] heartbeat ours_45.6m: 3,164/9,816 elapsed=6.0m rate=8.75/s
+[2026-08-31 18:36:16] heartbeat ours_45.6m: 3,672/9,816 elapsed=7.0m rate=8.71/s
+[2026-08-31 18:37:16] heartbeat ours_45.6m: 4,180/9,816 elapsed=8.0m rate=8.68/s
+[2026-08-31 18:38:16] heartbeat ours_45.6m: 4,688/9,816 elapsed=9.0m rate=8.66/s
+[2026-08-31 18:39:16] heartbeat ours_45.6m: 5,196/9,816 elapsed=10.0m rate=8.63/s
+[2026-08-31 18:40:17] heartbeat ours_45.6m: 5,700/9,816 elapsed=11.0m rate=8.61/s
+[2026-08-31 18:41:17] heartbeat ours_45.6m: 6,184/9,816 elapsed=12.0m rate=8.56/s
+[2026-08-31 18:42:17] heartbeat ours_45.6m: 6,648/9,816 elapsed=13.1m rate=8.49/s
+[2026-08-31 18:43:18] heartbeat ours_45.6m: 7,112/9,816 elapsed=14.1m rate=8.43/s
+[2026-08-31 18:44:18] heartbeat ours_45.6m: 7,572/9,816 elapsed=15.1m rate=8.38/s
+[2026-08-31 18:45:19] heartbeat ours_45.6m: 8,032/9,816 elapsed=16.1m rate=8.33/s
+[2026-08-31 18:46:19] heartbeat ours_45.6m: 8,492/9,816 elapsed=17.1m rate=8.29/s
+[2026-08-31 18:47:19] heartbeat ours_45.6m: 8,952/9,816 elapsed=18.1m rate=8.25/s
+[2026-08-31 18:48:20] heartbeat ours_45.6m: 9,412/9,816 elapsed=19.1m rate=8.22/s
+[2026-08-31 18:49:13] heartbeat ours_45.6m: 9,816/9,816 elapsed=20.0m rate=8.19/s
+[2026-08-31 18:49:13] saved /home/walt/bridge-rna/benchmarks/tcga_downstream/work/ours_45.6m_embeddings.npy
+[2026-08-31 18:49:16] embedding bulkformer_50m: samples=9,816 batch=32 device=cuda:0
+[2026-08-31 18:50:16] heartbeat bulkformer_50m: 2,880/9,816 elapsed=1.0m rate=47.75/s
+[2026-08-31 18:51:17] heartbeat bulkformer_50m: 6,592/9,816 elapsed=2.0m rate=54.57/s
+[2026-08-31 18:52:04] heartbeat bulkformer_50m: 9,816/9,816 elapsed=2.8m rate=58.23/s
+[2026-08-31 18:52:04] saved /home/walt/bridge-rna/benchmarks/tcga_downstream/work/bulkformer_50m_embeddings.npy

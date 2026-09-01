@@ -1,0 +1,18 @@
+{
+  "split_seeds": [0, 1, 2, 3, 4],
+  "test_fraction": 0.2,
+  "classification_cohorts": ["BLCA", "BRCA", "GBMLGG", "LUAD", "UCEC"],
+  "embedding_batch_sizes": {
+    "ours_45.6m": 4,
+    "bulkformer_50m": 32,
+    "bulkformer_147m": 16
+  },
+  "probe_pca_components": 128,
+  "survival_penalizer": 0.1,
+  "head_learning_rate": 0.001,
+  "head_weight_decay": 0.0001,
+  "head_batch_size": 128,
+  "head_max_epochs": 200,
+  "head_patience": 20,
+  "selection_seed": 20260831
+}

@@ -1,0 +1,39 @@
+{
+  "tcga_h5": "/home/walt/bridge-rna/data/tcga/tcga_matrix.h5",
+  "tcga_h5_sha256": "d36d479aba1aa0b3d6e7fa10d255291b1eaa2393e41cd38ffc264f994d215a5a",
+  "survival_source": "https://pancanatlas.xenahubs.net/download/Survival_SupplementalTable_S1_20171025_xena_sp",
+  "survival_sha256": "a5e704158bb5c51cded8a368accd999dfb259d428e88bbb0c4386078c5df9617",
+  "config": {
+    "split_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "test_fraction": 0.2,
+    "classification_cohorts": [
+      "BLCA",
+      "BRCA",
+      "GBMLGG",
+      "LUAD",
+      "UCEC"
+    ],
+    "embedding_batch_sizes": {
+      "ours_45.6m": 4,
+      "bulkformer_50m": 32,
+      "bulkformer_147m": 16
+    },
+    "probe_pca_components": 128,
+    "survival_penalizer": 0.1,
+    "head_learning_rate": 0.001,
+    "head_weight_decay": 0.0001,
+    "head_batch_size": 128,
+    "head_max_epochs": 200,
+    "head_patience": 20,
+    "selection_seed": 20260831
+  },
+  "frozen_encoders": true,
+  "fine_tuning": false,
+  "published_results_are_not_on_local_splits": true
+}

@@ -1,0 +1,21 @@
+[2026-08-31 21:00:59] cohort: 9,816 primary-tumor patients; classification=3,227; survival=9,668; cohorts=32
+[2026-08-31 21:01:02] native classification seed=0 model=ours_45.6m weighted_f1=0.9737 epochs=30
+[2026-08-31 21:01:03] native classification seed=0 model=bulkformer_50m weighted_f1=0.9689 epochs=22
+[2026-08-31 21:01:04] native classification seed=0 model=bulkformer_147m weighted_f1=0.9784 epochs=22
+[2026-08-31 21:01:08] native classification seed=0 model=full_expression_25150 weighted_f1=0.9892 epochs=24
+[2026-08-31 21:01:10] native classification seed=1 model=ours_45.6m weighted_f1=0.9861 epochs=26
+[2026-08-31 21:01:12] native classification seed=1 model=bulkformer_50m weighted_f1=0.9814 epochs=30
+[2026-08-31 21:01:14] native classification seed=1 model=bulkformer_147m weighted_f1=0.9938 epochs=32
+[2026-08-31 21:01:20] native classification seed=1 model=full_expression_25150 weighted_f1=0.9954 epochs=35
+[2026-08-31 21:01:22] native classification seed=2 model=ours_45.6m weighted_f1=0.9875 epochs=29
+[2026-08-31 21:01:23] native classification seed=2 model=bulkformer_50m weighted_f1=0.9845 epochs=27
+[2026-08-31 21:01:25] native classification seed=2 model=bulkformer_147m weighted_f1=0.9861 epochs=23
+[2026-08-31 21:01:29] native classification seed=2 model=full_expression_25150 weighted_f1=0.9846 epochs=23
+[2026-08-31 21:01:32] native classification seed=3 model=ours_45.6m weighted_f1=0.9814 epochs=44
+[2026-08-31 21:01:34] native classification seed=3 model=bulkformer_50m weighted_f1=0.9814 epochs=27
+[2026-08-31 21:01:36] native classification seed=3 model=bulkformer_147m weighted_f1=0.9875 epochs=30
+[2026-08-31 21:02:05] native classification seed=3 model=full_expression_25150 weighted_f1=0.9923 epochs=200
+[2026-08-31 21:02:07] native classification seed=4 model=ours_45.6m weighted_f1=0.9861 epochs=35
+[2026-08-31 21:02:09] native classification seed=4 model=bulkformer_50m weighted_f1=0.9815 epochs=44
+[2026-08-31 21:02:12] native classification seed=4 model=bulkformer_147m weighted_f1=0.9846 epochs=35
+[2026-08-31 21:02:39] native classification seed=4 model=full_expression_25150 weighted_f1=0.9907 epochs=200

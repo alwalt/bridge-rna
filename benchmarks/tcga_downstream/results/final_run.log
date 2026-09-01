@@ -1,0 +1,66 @@
+[2026-08-31 19:02:48] cohort: 9,816 primary-tumor patients; classification=3,227; survival=9,668; cohorts=32
+[2026-08-31 19:02:48] reusing prepared native expression matrices
+[2026-08-31 19:02:48] reusing ours_45.6m_embeddings.npy
+[2026-08-31 19:02:48] reusing bulkformer_50m_embeddings.npy
+[2026-08-31 19:02:48] reusing bulkformer_147m_embeddings.npy
+[2026-08-31 19:02:52] classification seed=0 model=ours_45.6m probe=logistic_regression macro_f1=0.9718
+[2026-08-31 19:02:52] classification seed=0 model=ours_45.6m probe=linear_svm macro_f1=0.9817
+[2026-08-31 19:02:55] classification seed=0 model=bulkformer_50m probe=logistic_regression macro_f1=0.9633
+[2026-08-31 19:02:55] classification seed=0 model=bulkformer_50m probe=linear_svm macro_f1=0.9726
+[2026-08-31 19:02:57] classification seed=0 model=bulkformer_147m probe=logistic_regression macro_f1=0.9761
+[2026-08-31 19:02:57] classification seed=0 model=bulkformer_147m probe=linear_svm macro_f1=0.9792
+[2026-08-31 19:03:04] classification seed=0 model=raw_expression probe=logistic_regression macro_f1=0.9923
+[2026-08-31 19:03:04] classification seed=0 model=raw_expression probe=linear_svm macro_f1=0.9931
+[2026-08-31 19:03:07] classification seed=1 model=ours_45.6m probe=logistic_regression macro_f1=0.9923
+[2026-08-31 19:03:07] classification seed=1 model=ours_45.6m probe=linear_svm macro_f1=0.9923
+[2026-08-31 19:03:09] classification seed=1 model=bulkformer_50m probe=logistic_regression macro_f1=0.9773
+[2026-08-31 19:03:09] classification seed=1 model=bulkformer_50m probe=linear_svm macro_f1=0.9829
+[2026-08-31 19:03:11] classification seed=1 model=bulkformer_147m probe=logistic_regression macro_f1=0.9924
+[2026-08-31 19:03:11] classification seed=1 model=bulkformer_147m probe=linear_svm macro_f1=0.9964
+[2026-08-31 19:03:16] classification seed=1 model=raw_expression probe=logistic_regression macro_f1=0.9966
+[2026-08-31 19:03:16] classification seed=1 model=raw_expression probe=linear_svm macro_f1=0.9926
+[2026-08-31 19:03:19] classification seed=2 model=ours_45.6m probe=logistic_regression macro_f1=0.9905
+[2026-08-31 19:03:19] classification seed=2 model=ours_45.6m probe=linear_svm macro_f1=0.9907
+[2026-08-31 19:03:21] classification seed=2 model=bulkformer_50m probe=logistic_regression macro_f1=0.9846
+[2026-08-31 19:03:22] classification seed=2 model=bulkformer_50m probe=linear_svm macro_f1=0.9754
+[2026-08-31 19:03:24] classification seed=2 model=bulkformer_147m probe=logistic_regression macro_f1=0.9893
+[2026-08-31 19:03:25] classification seed=2 model=bulkformer_147m probe=linear_svm macro_f1=0.9904
+[2026-08-31 19:03:30] classification seed=2 model=raw_expression probe=logistic_regression macro_f1=0.9940
+[2026-08-31 19:03:31] classification seed=2 model=raw_expression probe=linear_svm macro_f1=0.9918
+[2026-08-31 19:03:34] classification seed=3 model=ours_45.6m probe=logistic_regression macro_f1=0.9803
+[2026-08-31 19:03:34] classification seed=3 model=ours_45.6m probe=linear_svm macro_f1=0.9852
+[2026-08-31 19:03:36] classification seed=3 model=bulkformer_50m probe=logistic_regression macro_f1=0.9772
+[2026-08-31 19:03:36] classification seed=3 model=bulkformer_50m probe=linear_svm macro_f1=0.9827
+[2026-08-31 19:03:37] classification seed=3 model=bulkformer_147m probe=logistic_regression macro_f1=0.9847
+[2026-08-31 19:03:38] classification seed=3 model=bulkformer_147m probe=linear_svm macro_f1=0.9909
+[2026-08-31 19:03:43] classification seed=3 model=raw_expression probe=logistic_regression macro_f1=0.9924
+[2026-08-31 19:03:43] classification seed=3 model=raw_expression probe=linear_svm macro_f1=0.9929
+[2026-08-31 19:03:46] classification seed=4 model=ours_45.6m probe=logistic_regression macro_f1=0.9883
+[2026-08-31 19:03:46] classification seed=4 model=ours_45.6m probe=linear_svm macro_f1=0.9884
+[2026-08-31 19:03:49] classification seed=4 model=bulkformer_50m probe=logistic_regression macro_f1=0.9777
+[2026-08-31 19:03:50] classification seed=4 model=bulkformer_50m probe=linear_svm macro_f1=0.9746
+[2026-08-31 19:03:51] classification seed=4 model=bulkformer_147m probe=logistic_regression macro_f1=0.9820
+[2026-08-31 19:03:51] classification seed=4 model=bulkformer_147m probe=linear_svm macro_f1=0.9848
+[2026-08-31 19:03:56] classification seed=4 model=raw_expression probe=logistic_regression macro_f1=0.9931
+[2026-08-31 19:03:57] classification seed=4 model=raw_expression probe=linear_svm macro_f1=0.9896
+[2026-08-31 19:04:00] survival seed=0 model=ours_45.6m c_index=0.7456 weighted=0.5873
+[2026-08-31 19:04:04] survival seed=0 model=bulkformer_50m c_index=0.7502 weighted=0.6094
+[2026-08-31 19:04:07] survival seed=0 model=bulkformer_147m c_index=0.7452 weighted=0.6021
+[2026-08-31 19:04:18] survival seed=0 model=raw_expression c_index=0.7580 weighted=0.6184
+[2026-08-31 19:04:22] survival seed=1 model=ours_45.6m c_index=0.7692 weighted=0.6242
+[2026-08-31 19:04:25] survival seed=1 model=bulkformer_50m c_index=0.7557 weighted=0.6396
+[2026-08-31 19:04:29] survival seed=1 model=bulkformer_147m c_index=0.7659 weighted=0.6332
+[2026-08-31 19:04:41] survival seed=1 model=raw_expression c_index=0.7709 weighted=0.6248
+[2026-08-31 19:04:44] survival seed=2 model=ours_45.6m c_index=0.7729 weighted=0.6286
+[2026-08-31 19:04:47] survival seed=2 model=bulkformer_50m c_index=0.7575 weighted=0.5957
+[2026-08-31 19:04:51] survival seed=2 model=bulkformer_147m c_index=0.7628 weighted=0.6020
+[2026-08-31 19:05:02] survival seed=2 model=raw_expression c_index=0.7811 weighted=0.6295
+[2026-08-31 19:05:07] survival seed=3 model=ours_45.6m c_index=0.7419 weighted=0.6258
+[2026-08-31 19:05:10] survival seed=3 model=bulkformer_50m c_index=0.7386 weighted=0.6229
+[2026-08-31 19:05:15] survival seed=3 model=bulkformer_147m c_index=0.7378 weighted=0.6193
+[2026-08-31 19:05:24] survival seed=3 model=raw_expression c_index=0.7464 weighted=0.6167
+[2026-08-31 19:05:28] survival seed=4 model=ours_45.6m c_index=0.7595 weighted=0.6524
+[2026-08-31 19:05:31] survival seed=4 model=bulkformer_50m c_index=0.7538 weighted=0.6464
+[2026-08-31 19:05:35] survival seed=4 model=bulkformer_147m c_index=0.7571 weighted=0.6320
+[2026-08-31 19:05:46] survival seed=4 model=raw_expression c_index=0.7672 weighted=0.6418
+[2026-08-31 19:05:47] benchmark complete

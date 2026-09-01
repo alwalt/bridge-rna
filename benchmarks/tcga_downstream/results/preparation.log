@@ -1,0 +1,4 @@
+[2026-08-31 18:27:43] downloading TCGA PanCanAtlas survival endpoints: https://pancanatlas.xenahubs.net/download/Survival_SupplementalTable_S1_20171025_xena_sp
+[2026-08-31 18:27:44] saved /home/walt/bridge-rna/data/tcga/Survival_SupplementalTable_S1_20171025_xena_sp.tsv (2,419,504 bytes)
+[2026-08-31 18:27:44] cohort: 9,816 primary-tumor patients; classification=3,227; survival=9,668; cohorts=32
+[2026-08-31 18:28:28] prepared expression: ours=(9816, 15165); BulkFormer=(9816, 20010)
