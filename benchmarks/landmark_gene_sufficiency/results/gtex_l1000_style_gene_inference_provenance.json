@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-08-31T08:25:17.329789+00:00",
+  "method": "Subramanian et al. 2017 pooled non-matching-gene Pearson null",
+  "well_inferred_criterion": "matched Pearson >= exact 95th percentile of all non-matched correlations",
+  "paper_reference": "Cell 2017; doi:10.1016/j.cell.2017.10.049",
+  "paper_gtex_samples": 8555,
+  "local_gtex_samples": 9662,
+  "sample_set_note": "Historical paper 8,555-sample matrix unavailable; all 9,662 local GTEx samples used",
+  "preprocessing": "raw counts -> GENCODE v49 exon-length TPM -> natural log1p",
+  "model_checkpoint": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+  "model_checkpoint_sha256": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541",
+  "frozen_panels": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/frozen_gene_inference_validation_panels.parquet",
+  "frozen_panels_sha256": "0940805247929277800ae615a4d459b3795ffef4af6ee7bf3411bf204a7c397f",
+  "gtex_h5": "/home/walt/bridge-rna/data/gtex/gtex_matrix.h5",
+  "gtex_h5_sha256": "1392f2321014147d801f09e2a9a012f267a8c8bd7347099370fb723dbb414592",
+  "random_panels": 0,
+  "fine_tuning": false,
+  "reranking": false
+}

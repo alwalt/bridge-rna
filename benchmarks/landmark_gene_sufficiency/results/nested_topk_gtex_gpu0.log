@@ -1,0 +1,97 @@
+[gtex_human] reuse gene_inference_top_1500.parquet
+[gtex_human] reuse gene_inference_top_2500.parquet
+[gtex_human] reuse gene_inference_top_3500.parquet
+[gtex_human] reuse gene_inference_top_4500.parquet
+[gtex_human] reuse profile_top_1500.parquet
+[gtex_human] reuse profile_top_2500.parquet
+[gtex_human] reuse profile_top_3500.parquet
+[gtex_human] reuse profile_top_4500.parquet
+[gtex_human] reuse random_1500_r00.parquet
+[gtex_human] reuse random_1500_r02.parquet
+[gtex_human] reuse random_1500_r04.parquet
+[inference] nested Top-k gtex_human random_2000_r01 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_2000_r01 samples=496/1,000 elapsed=1.0m rate=8.08/s
+[heartbeat] nested Top-k gtex_human random_2000_r01 samples=976/1,000 elapsed=2.0m rate=8.01/s
+[heartbeat] nested Top-k gtex_human random_2000_r01 samples=1,000/1,000 elapsed=2.1m rate=8.01/s
+[gtex_human] completed random_2000_r01
+[inference] nested Top-k gtex_human random_2000_r03 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_2000_r03 samples=480/1,000 elapsed=1.0m rate=7.94/s
+[heartbeat] nested Top-k gtex_human random_2000_r03 samples=960/1,000 elapsed=2.0m rate=7.92/s
+[heartbeat] nested Top-k gtex_human random_2000_r03 samples=1,000/1,000 elapsed=2.1m rate=7.92/s
+[gtex_human] completed random_2000_r03
+[inference] nested Top-k gtex_human random_2500_r00 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_2500_r00 samples=480/1,000 elapsed=1.0m rate=7.96/s
+[heartbeat] nested Top-k gtex_human random_2500_r00 samples=960/1,000 elapsed=2.0m rate=7.93/s
+[heartbeat] nested Top-k gtex_human random_2500_r00 samples=1,000/1,000 elapsed=2.1m rate=7.93/s
+[gtex_human] completed random_2500_r00
+[inference] nested Top-k gtex_human random_2500_r02 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_2500_r02 samples=480/1,000 elapsed=1.0m rate=7.90/s
+[heartbeat] nested Top-k gtex_human random_2500_r02 samples=960/1,000 elapsed=2.0m rate=7.88/s
+[heartbeat] nested Top-k gtex_human random_2500_r02 samples=1,000/1,000 elapsed=2.1m rate=7.88/s
+[gtex_human] completed random_2500_r02
+[inference] nested Top-k gtex_human random_2500_r04 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_2500_r04 samples=480/1,000 elapsed=1.0m rate=7.92/s
+[heartbeat] nested Top-k gtex_human random_2500_r04 samples=960/1,000 elapsed=2.0m rate=7.90/s
+[heartbeat] nested Top-k gtex_human random_2500_r04 samples=1,000/1,000 elapsed=2.1m rate=7.90/s
+[gtex_human] completed random_2500_r04
+[inference] nested Top-k gtex_human random_3000_r01 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_3000_r01 samples=480/1,000 elapsed=1.0m rate=7.92/s
+[heartbeat] nested Top-k gtex_human random_3000_r01 samples=960/1,000 elapsed=2.0m rate=7.90/s
+[heartbeat] nested Top-k gtex_human random_3000_r01 samples=1,000/1,000 elapsed=2.1m rate=7.89/s
+[gtex_human] completed random_3000_r01
+[inference] nested Top-k gtex_human random_3000_r03 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_3000_r03 samples=480/1,000 elapsed=1.0m rate=7.86/s
+[heartbeat] nested Top-k gtex_human random_3000_r03 samples=960/1,000 elapsed=2.0m rate=7.84/s
+[heartbeat] nested Top-k gtex_human random_3000_r03 samples=1,000/1,000 elapsed=2.1m rate=7.84/s
+[gtex_human] completed random_3000_r03
+[inference] nested Top-k gtex_human random_3500_r00 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_3500_r00 samples=480/1,000 elapsed=1.0m rate=7.84/s
+[heartbeat] nested Top-k gtex_human random_3500_r00 samples=960/1,000 elapsed=2.0m rate=7.81/s
+[heartbeat] nested Top-k gtex_human random_3500_r00 samples=1,000/1,000 elapsed=2.1m rate=7.81/s
+[gtex_human] completed random_3500_r00
+[inference] nested Top-k gtex_human random_3500_r02 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_3500_r02 samples=480/1,000 elapsed=1.0m rate=7.82/s
+[heartbeat] nested Top-k gtex_human random_3500_r02 samples=960/1,000 elapsed=2.1m rate=7.79/s
+[heartbeat] nested Top-k gtex_human random_3500_r02 samples=1,000/1,000 elapsed=2.1m rate=7.79/s
+[gtex_human] completed random_3500_r02
+[inference] nested Top-k gtex_human random_3500_r04 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_3500_r04 samples=480/1,000 elapsed=1.0m rate=7.89/s
+[heartbeat] nested Top-k gtex_human random_3500_r04 samples=960/1,000 elapsed=2.0m rate=7.83/s
+[heartbeat] nested Top-k gtex_human random_3500_r04 samples=1,000/1,000 elapsed=2.1m rate=7.83/s
+[gtex_human] completed random_3500_r04
+[inference] nested Top-k gtex_human random_4000_r01 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_4000_r01 samples=480/1,000 elapsed=1.0m rate=7.82/s
+[heartbeat] nested Top-k gtex_human random_4000_r01 samples=944/1,000 elapsed=2.0m rate=7.77/s
+[heartbeat] nested Top-k gtex_human random_4000_r01 samples=1,000/1,000 elapsed=2.1m rate=7.77/s
+[gtex_human] completed random_4000_r01
+[inference] nested Top-k gtex_human random_4000_r03 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_4000_r03 samples=480/1,000 elapsed=1.0m rate=7.83/s
+[heartbeat] nested Top-k gtex_human random_4000_r03 samples=960/1,000 elapsed=2.1m rate=7.78/s
+[heartbeat] nested Top-k gtex_human random_4000_r03 samples=1,000/1,000 elapsed=2.1m rate=7.78/s
+[gtex_human] completed random_4000_r03
+[inference] nested Top-k gtex_human random_4500_r00 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_4500_r00 samples=480/1,000 elapsed=1.0m rate=7.81/s
+[heartbeat] nested Top-k gtex_human random_4500_r00 samples=944/1,000 elapsed=2.0m rate=7.77/s
+[heartbeat] nested Top-k gtex_human random_4500_r00 samples=1,000/1,000 elapsed=2.1m rate=7.76/s
+[gtex_human] completed random_4500_r00
+[inference] nested Top-k gtex_human random_4500_r02 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_4500_r02 samples=480/1,000 elapsed=1.0m rate=7.84/s
+[heartbeat] nested Top-k gtex_human random_4500_r02 samples=944/1,000 elapsed=2.0m rate=7.79/s
+[heartbeat] nested Top-k gtex_human random_4500_r02 samples=1,000/1,000 elapsed=2.1m rate=7.78/s
+[gtex_human] completed random_4500_r02
+[inference] nested Top-k gtex_human random_4500_r04 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_4500_r04 samples=480/1,000 elapsed=1.0m rate=7.75/s
+[heartbeat] nested Top-k gtex_human random_4500_r04 samples=944/1,000 elapsed=2.0m rate=7.72/s
+[heartbeat] nested Top-k gtex_human random_4500_r04 samples=1,000/1,000 elapsed=2.2m rate=7.72/s
+[gtex_human] completed random_4500_r04
+[inference] nested Top-k gtex_human random_5000_r01 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_5000_r01 samples=480/1,000 elapsed=1.0m rate=7.83/s
+[heartbeat] nested Top-k gtex_human random_5000_r01 samples=960/1,000 elapsed=2.0m rate=7.86/s
+[heartbeat] nested Top-k gtex_human random_5000_r01 samples=1,000/1,000 elapsed=2.1m rate=7.86/s
+[gtex_human] completed random_5000_r01
+[inference] nested Top-k gtex_human random_5000_r03 samples=1,000 batch_size=16 device=cuda:0
+[heartbeat] nested Top-k gtex_human random_5000_r03 samples=496/1,000 elapsed=1.0m rate=8.08/s
+[heartbeat] nested Top-k gtex_human random_5000_r03 samples=992/1,000 elapsed=2.0m rate=8.10/s
+[heartbeat] nested Top-k gtex_human random_5000_r03 samples=1,000/1,000 elapsed=2.1m rate=8.10/s
+[gtex_human] completed random_5000_r03
+Completed in 38.9 minutes

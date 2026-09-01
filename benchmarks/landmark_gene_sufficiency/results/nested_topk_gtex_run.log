@@ -1,0 +1,39 @@
+[inference] nested Top-k gtex_human profile_top_1500 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k gtex_human profile_top_1500 samples=540/1,000 elapsed=1.0m rate=8.93/s
+[heartbeat] nested Top-k gtex_human profile_top_1500 samples=1,000/1,000 elapsed=1.9m rate=8.92/s
+[gtex_human] completed profile_top_1500
+[inference] nested Top-k gtex_human gene_inference_top_1500 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k gtex_human gene_inference_top_1500 samples=528/1,000 elapsed=1.0m rate=8.78/s
+[heartbeat] nested Top-k gtex_human gene_inference_top_1500 samples=1,000/1,000 elapsed=1.9m rate=8.78/s
+[gtex_human] completed gene_inference_top_1500
+[inference] nested Top-k gtex_human profile_top_2000 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k gtex_human profile_top_2000 samples=528/1,000 elapsed=1.0m rate=8.74/s
+[heartbeat] nested Top-k gtex_human profile_top_2000 samples=1,000/1,000 elapsed=1.9m rate=8.74/s
+[gtex_human] completed profile_top_2000
+[inference] nested Top-k gtex_human gene_inference_top_2000 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k gtex_human gene_inference_top_2000 samples=524/1,000 elapsed=1.0m rate=8.72/s
+[heartbeat] nested Top-k gtex_human gene_inference_top_2000 samples=1,000/1,000 elapsed=1.9m rate=8.73/s
+[gtex_human] completed gene_inference_top_2000
+[inference] nested Top-k gtex_human profile_top_2500 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k gtex_human profile_top_2500 samples=524/1,000 elapsed=1.0m rate=8.72/s
+[heartbeat] nested Top-k gtex_human profile_top_2500 samples=1,000/1,000 elapsed=1.9m rate=8.73/s
+[gtex_human] completed profile_top_2500
+[inference] nested Top-k gtex_human gene_inference_top_2500 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k gtex_human gene_inference_top_2500 samples=524/1,000 elapsed=1.0m rate=8.71/s
+[heartbeat] nested Top-k gtex_human gene_inference_top_2500 samples=1,000/1,000 elapsed=1.9m rate=8.72/s
+[gtex_human] completed gene_inference_top_2500
+[inference] nested Top-k gtex_human profile_top_3000 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k gtex_human profile_top_3000 samples=524/1,000 elapsed=1.0m rate=8.70/s
+[heartbeat] nested Top-k gtex_human profile_top_3000 samples=1,000/1,000 elapsed=2.0m rate=8.51/s
+[gtex_human] completed profile_top_3000
+[inference] nested Top-k gtex_human gene_inference_top_3000 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k gtex_human gene_inference_top_3000 samples=488/1,000 elapsed=1.0m rate=8.09/s
+[heartbeat] nested Top-k gtex_human gene_inference_top_3000 samples=976/1,000 elapsed=2.0m rate=8.10/s
+[heartbeat] nested Top-k gtex_human gene_inference_top_3000 samples=1,000/1,000 elapsed=2.1m rate=8.10/s
+[gtex_human] completed gene_inference_top_3000
+[inference] nested Top-k gtex_human profile_top_3500 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k gtex_human profile_top_3500 samples=488/1,000 elapsed=1.0m rate=8.08/s
+[heartbeat] nested Top-k gtex_human profile_top_3500 samples=976/1,000 elapsed=2.0m rate=8.08/s
+[heartbeat] nested Top-k gtex_human profile_top_3500 samples=1,000/1,000 elapsed=2.1m rate=8.08/s
+[gtex_human] completed profile_top_3500
+[inference] nested Top-k gtex_human gene_inference_top_3500 samples=1,000 batch_size=4 device=cuda:0

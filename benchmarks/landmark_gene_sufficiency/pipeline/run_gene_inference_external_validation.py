@@ -21,7 +21,7 @@ from fm_embed.model import load_expression_performer
 from fm_embed.reconstruction import mask_except_panel, reconstruct
 
 
-DATASETS = ("tcga_human", "osdr_mouse")
+DATASETS = ("tcga_human", "osdr_mouse", "osdr_mouse_filtered")
 PANEL_FILE = RESULTS / "frozen_gene_inference_validation_panels.parquet"
 CACHE = WORK / "gene_inference_external_conditions"
 PREFIX = "gene_inference_external_validation"
@@ -62,27 +62,27 @@ def worker(dataset: str, device_name: str) -> None:
         print(f"[{dataset}] completed {panel.panel_id}: {len(result):,} masked genes", flush=True)
 
 
-def aggregate() -> None:
-    files = sorted(CACHE.glob("*/*.parquet"))
-    expected = len(DATASETS) * 54
+def aggregate(datasets: list[str], output_prefix: str = PREFIX) -> None:
+    files = sorted(path for dataset in datasets for path in (CACHE / dataset).glob("*.parquet"))
+    expected = len(datasets) * 54
     if len(files) != expected:
         raise RuntimeError(f"Expected {expected} cached conditions, found {len(files)}")
     per_gene = pd.concat((pd.read_parquet(path) for path in files), ignore_index=True)
-    per_gene.to_parquet(RESULTS / f"{PREFIX}_per_gene.parquet", index=False)
+    per_gene.to_parquet(RESULTS / f"{output_prefix}_per_gene.parquet", index=False)
     per_panel = per_gene.groupby(["dataset", "panel_id", "panel_type", "selection_species", "replicate"],
         as_index=False, dropna=False).agg(genes_scored=("gene", "size"), samples=("samples", "first"),
         visible_genes=("visible_genes", "first"),
         effective_visible_genes=("effective_visible_genes", "first"),
         pearson=("pearson", "mean"), spearman=("spearman", "mean"), mse=("mse", "mean"))
-    per_panel.to_parquet(RESULTS / f"{PREFIX}_per_panel.parquet", index=False)
+    per_panel.to_parquet(RESULTS / f"{output_prefix}_per_panel.parquet", index=False)
     summary = per_panel.groupby(["dataset", "panel_type", "selection_species"],
         as_index=False, dropna=False).agg(visible_genes=("visible_genes", "first"),
         effective_visible_genes=("effective_visible_genes", "first"),
         pearson_mean=("pearson", "mean"), pearson_sd=("pearson", "std"),
         spearman_mean=("spearman", "mean"), spearman_sd=("spearman", "std"),
         mse_mean=("mse", "mean"), mse_sd=("mse", "std"), replicates=("panel_id", "size"))
-    summary.to_parquet(RESULTS / f"{PREFIX}_summary.parquet", index=False)
-    summary.to_csv(RESULTS / f"{PREFIX}_summary.csv", index=False)
+    summary.to_parquet(RESULTS / f"{output_prefix}_summary.parquet", index=False)
+    summary.to_csv(RESULTS / f"{output_prefix}_summary.csv", index=False)
     comparisons = []
     for dataset, frame in per_panel.groupby("dataset"):
         random = frame.loc[frame.panel_type.eq("random_1000")]
@@ -103,8 +103,8 @@ def aggregate() -> None:
                     "random_replicates": len(values), "higher_is_better": higher,
                     "size_matched_to_random": fixed.visible_genes == 1000})
     comparison = pd.DataFrame(comparisons)
-    comparison.to_parquet(RESULTS / f"{PREFIX}_comparison.parquet", index=False)
-    comparison.to_csv(RESULTS / f"{PREFIX}_comparison.csv", index=False)
+    comparison.to_parquet(RESULTS / f"{output_prefix}_comparison.parquet", index=False)
+    comparison.to_csv(RESULTS / f"{output_prefix}_comparison.csv", index=False)
     print("\nSummary\n" + summary.to_string(index=False), flush=True)
     print("\nFixed-panel comparisons\n" + comparison.to_string(index=False), flush=True)
 
@@ -115,6 +115,7 @@ def main() -> None:
     parser.add_argument("--devices", nargs="+", default=["cuda:0"])
     parser.add_argument("--worker-dataset", choices=DATASETS)
     parser.add_argument("--worker-device")
+    parser.add_argument("--output-prefix", default=PREFIX)
     args = parser.parse_args()
     if args.worker_dataset:
         worker(args.worker_dataset, args.worker_device or "cuda:0"); return
@@ -135,7 +136,7 @@ def main() -> None:
         if processes and int(time.monotonic() - started) % 60 < 10:
             print(f"[orchestrator heartbeat] elapsed={(time.monotonic()-started)/60:.1f}m "
                   f"running={','.join(x[0] for x in processes)}", flush=True)
-    aggregate()
+    aggregate(args.datasets, args.output_prefix)
 
 
 if __name__ == "__main__":

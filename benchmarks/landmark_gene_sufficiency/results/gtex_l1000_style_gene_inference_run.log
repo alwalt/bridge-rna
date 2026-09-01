@@ -1,0 +1,280 @@
+[GTEx preparation] 1,024/9,662
+[GTEx preparation] 2,048/9,662
+[GTEx preparation] 3,072/9,662
+[GTEx preparation] 4,096/9,662
+[GTEx preparation] 5,120/9,662
+[GTEx preparation] 6,144/9,662
+[GTEx preparation] 7,168/9,662
+[GTEx preparation] 8,192/9,662
+[GTEx preparation] 9,216/9,662
+[GTEx preparation] 9,662/9,662
+[inference] GTEx L1000-style conserved_gene_inference_top1000 samples=9,662 batch_size=4 device=cuda:0
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=448/9,662 elapsed=1.0m rate=7.42/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=884/9,662 elapsed=2.0m rate=7.33/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=1,308/9,662 elapsed=3.0m rate=7.23/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=1,732/9,662 elapsed=4.0m rate=7.19/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=2,156/9,662 elapsed=5.0m rate=7.16/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=2,580/9,662 elapsed=6.0m rate=7.15/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=3,000/9,662 elapsed=7.0m rate=7.12/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=3,432/9,662 elapsed=8.0m rate=7.12/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=3,904/9,662 elapsed=9.0m rate=7.20/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=4,404/9,662 elapsed=10.0m rate=7.31/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=4,888/9,662 elapsed=11.0m rate=7.38/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=5,376/9,662 elapsed=12.0m rate=7.44/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=5,876/9,662 elapsed=13.0m rate=7.51/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=6,360/9,662 elapsed=14.0m rate=7.55/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=6,844/9,662 elapsed=15.1m rate=7.58/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=7,344/9,662 elapsed=16.1m rate=7.62/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=7,832/9,662 elapsed=17.1m rate=7.65/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=8,324/9,662 elapsed=18.1m rate=7.68/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=8,824/9,662 elapsed=19.1m rate=7.72/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=9,300/9,662 elapsed=20.1m rate=7.72/s
+[heartbeat] GTEx L1000-style conserved_gene_inference_top1000 samples=9,662/9,662 elapsed=20.8m rate=7.75/s
+[null pass 1] inferred genes=256/14,045 elapsed=0.0m
+[null pass 1] inferred genes=512/14,045 elapsed=0.0m
+[null pass 1] inferred genes=768/14,045 elapsed=0.0m
+[null pass 1] inferred genes=1,024/14,045 elapsed=0.0m
+[null pass 1] inferred genes=1,280/14,045 elapsed=0.0m
+[null pass 1] inferred genes=1,536/14,045 elapsed=0.0m
+[null pass 1] inferred genes=1,792/14,045 elapsed=0.0m
+[null pass 1] inferred genes=2,048/14,045 elapsed=0.0m
+[null pass 1] inferred genes=2,304/14,045 elapsed=0.0m
+[null pass 1] inferred genes=2,560/14,045 elapsed=0.0m
+[null pass 1] inferred genes=2,816/14,045 elapsed=0.0m
+[null pass 1] inferred genes=3,072/14,045 elapsed=0.0m
+[null pass 1] inferred genes=3,328/14,045 elapsed=0.0m
+[null pass 1] inferred genes=3,584/14,045 elapsed=0.0m
+[null pass 1] inferred genes=3,840/14,045 elapsed=0.0m
+[null pass 1] inferred genes=4,096/14,045 elapsed=0.0m
+[null pass 1] inferred genes=4,352/14,045 elapsed=0.0m
+[null pass 1] inferred genes=4,608/14,045 elapsed=0.0m
+[null pass 1] inferred genes=4,864/14,045 elapsed=0.0m
+[null pass 1] inferred genes=5,120/14,045 elapsed=0.0m
+[null pass 1] inferred genes=5,376/14,045 elapsed=0.0m
+[null pass 1] inferred genes=5,632/14,045 elapsed=0.0m
+[null pass 1] inferred genes=5,888/14,045 elapsed=0.0m
+[null pass 1] inferred genes=6,144/14,045 elapsed=0.0m
+[null pass 1] inferred genes=6,400/14,045 elapsed=0.0m
+[null pass 1] inferred genes=6,656/14,045 elapsed=0.0m
+[null pass 1] inferred genes=6,912/14,045 elapsed=0.0m
+[null pass 1] inferred genes=7,168/14,045 elapsed=0.0m
+[null pass 1] inferred genes=7,424/14,045 elapsed=0.0m
+[null pass 1] inferred genes=7,680/14,045 elapsed=0.0m
+[null pass 1] inferred genes=7,936/14,045 elapsed=0.0m
+[null pass 1] inferred genes=8,192/14,045 elapsed=0.0m
+[null pass 1] inferred genes=8,448/14,045 elapsed=0.0m
+[null pass 1] inferred genes=8,704/14,045 elapsed=0.0m
+[null pass 1] inferred genes=8,960/14,045 elapsed=0.0m
+[null pass 1] inferred genes=9,216/14,045 elapsed=0.0m
+[null pass 1] inferred genes=9,472/14,045 elapsed=0.0m
+[null pass 1] inferred genes=9,728/14,045 elapsed=0.0m
+[null pass 1] inferred genes=9,984/14,045 elapsed=0.0m
+[null pass 1] inferred genes=10,240/14,045 elapsed=0.0m
+[null pass 1] inferred genes=10,496/14,045 elapsed=0.0m
+[null pass 1] inferred genes=10,752/14,045 elapsed=0.0m
+[null pass 1] inferred genes=11,008/14,045 elapsed=0.0m
+[null pass 1] inferred genes=11,264/14,045 elapsed=0.0m
+[null pass 1] inferred genes=11,520/14,045 elapsed=0.0m
+[null pass 1] inferred genes=11,776/14,045 elapsed=0.0m
+[null pass 1] inferred genes=12,032/14,045 elapsed=0.0m
+[null pass 1] inferred genes=12,288/14,045 elapsed=0.0m
+[null pass 1] inferred genes=12,544/14,045 elapsed=0.0m
+[null pass 1] inferred genes=12,800/14,045 elapsed=0.0m
+[null pass 1] inferred genes=13,056/14,045 elapsed=0.0m
+[null pass 1] inferred genes=13,312/14,045 elapsed=0.0m
+[null pass 1] inferred genes=13,568/14,045 elapsed=0.0m
+[null pass 1] inferred genes=13,824/14,045 elapsed=0.0m
+[null pass 1] inferred genes=14,045/14,045 elapsed=0.0m
+[null pass 2] inferred genes=256/14,045
+[null pass 2] inferred genes=512/14,045
+[null pass 2] inferred genes=768/14,045
+[null pass 2] inferred genes=1,024/14,045
+[null pass 2] inferred genes=1,280/14,045
+[null pass 2] inferred genes=1,536/14,045
+[null pass 2] inferred genes=1,792/14,045
+[null pass 2] inferred genes=2,048/14,045
+[null pass 2] inferred genes=2,304/14,045
+[null pass 2] inferred genes=2,560/14,045
+[null pass 2] inferred genes=2,816/14,045
+[null pass 2] inferred genes=3,072/14,045
+[null pass 2] inferred genes=3,328/14,045
+[null pass 2] inferred genes=3,584/14,045
+[null pass 2] inferred genes=3,840/14,045
+[null pass 2] inferred genes=4,096/14,045
+[null pass 2] inferred genes=4,352/14,045
+[null pass 2] inferred genes=4,608/14,045
+[null pass 2] inferred genes=4,864/14,045
+[null pass 2] inferred genes=5,120/14,045
+[null pass 2] inferred genes=5,376/14,045
+[null pass 2] inferred genes=5,632/14,045
+[null pass 2] inferred genes=5,888/14,045
+[null pass 2] inferred genes=6,144/14,045
+[null pass 2] inferred genes=6,400/14,045
+[null pass 2] inferred genes=6,656/14,045
+[null pass 2] inferred genes=6,912/14,045
+[null pass 2] inferred genes=7,168/14,045
+[null pass 2] inferred genes=7,424/14,045
+[null pass 2] inferred genes=7,680/14,045
+[null pass 2] inferred genes=7,936/14,045
+[null pass 2] inferred genes=8,192/14,045
+[null pass 2] inferred genes=8,448/14,045
+[null pass 2] inferred genes=8,704/14,045
+[null pass 2] inferred genes=8,960/14,045
+[null pass 2] inferred genes=9,216/14,045
+[null pass 2] inferred genes=9,472/14,045
+[null pass 2] inferred genes=9,728/14,045
+[null pass 2] inferred genes=9,984/14,045
+[null pass 2] inferred genes=10,240/14,045
+[null pass 2] inferred genes=10,496/14,045
+[null pass 2] inferred genes=10,752/14,045
+[null pass 2] inferred genes=11,008/14,045
+[null pass 2] inferred genes=11,264/14,045
+[null pass 2] inferred genes=11,520/14,045
+[null pass 2] inferred genes=11,776/14,045
+[null pass 2] inferred genes=12,032/14,045
+[null pass 2] inferred genes=12,288/14,045
+[null pass 2] inferred genes=12,544/14,045
+[null pass 2] inferred genes=12,800/14,045
+[null pass 2] inferred genes=13,056/14,045
+[null pass 2] inferred genes=13,312/14,045
+[null pass 2] inferred genes=13,568/14,045
+[null pass 2] inferred genes=13,824/14,045
+[null pass 2] inferred genes=14,045/14,045
+[inference] GTEx L1000-style l1000_all_mapped_922 samples=9,662 batch_size=4 device=cuda:0
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=504/9,662 elapsed=1.0m rate=8.38/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=1,008/9,662 elapsed=2.0m rate=8.38/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=1,480/9,662 elapsed=3.0m rate=8.19/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=1,964/9,662 elapsed=4.0m rate=8.15/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=2,468/9,662 elapsed=5.0m rate=8.20/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=2,976/9,662 elapsed=6.0m rate=8.23/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=3,484/9,662 elapsed=7.0m rate=8.26/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=3,992/9,662 elapsed=8.0m rate=8.28/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=4,500/9,662 elapsed=9.0m rate=8.29/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=5,004/9,662 elapsed=10.0m rate=8.30/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=5,512/9,662 elapsed=11.1m rate=8.31/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=6,020/9,662 elapsed=12.1m rate=8.32/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=6,528/9,662 elapsed=13.1m rate=8.33/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=7,036/9,662 elapsed=14.1m rate=8.33/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=7,544/9,662 elapsed=15.1m rate=8.34/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=8,052/9,662 elapsed=16.1m rate=8.34/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=8,560/9,662 elapsed=17.1m rate=8.35/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=9,068/9,662 elapsed=18.1m rate=8.35/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=9,576/9,662 elapsed=19.1m rate=8.36/s
+[heartbeat] GTEx L1000-style l1000_all_mapped_922 samples=9,662/9,662 elapsed=19.3m rate=8.35/s
+[null pass 1] inferred genes=256/14,118 elapsed=0.0m
+[null pass 1] inferred genes=512/14,118 elapsed=0.0m
+[null pass 1] inferred genes=768/14,118 elapsed=0.0m
+[null pass 1] inferred genes=1,024/14,118 elapsed=0.0m
+[null pass 1] inferred genes=1,280/14,118 elapsed=0.0m
+[null pass 1] inferred genes=1,536/14,118 elapsed=0.0m
+[null pass 1] inferred genes=1,792/14,118 elapsed=0.0m
+[null pass 1] inferred genes=2,048/14,118 elapsed=0.0m
+[null pass 1] inferred genes=2,304/14,118 elapsed=0.0m
+[null pass 1] inferred genes=2,560/14,118 elapsed=0.0m
+[null pass 1] inferred genes=2,816/14,118 elapsed=0.0m
+[null pass 1] inferred genes=3,072/14,118 elapsed=0.0m
+[null pass 1] inferred genes=3,328/14,118 elapsed=0.0m
+[null pass 1] inferred genes=3,584/14,118 elapsed=0.0m
+[null pass 1] inferred genes=3,840/14,118 elapsed=0.0m
+[null pass 1] inferred genes=4,096/14,118 elapsed=0.0m
+[null pass 1] inferred genes=4,352/14,118 elapsed=0.0m
+[null pass 1] inferred genes=4,608/14,118 elapsed=0.0m
+[null pass 1] inferred genes=4,864/14,118 elapsed=0.0m
+[null pass 1] inferred genes=5,120/14,118 elapsed=0.0m
+[null pass 1] inferred genes=5,376/14,118 elapsed=0.0m
+[null pass 1] inferred genes=5,632/14,118 elapsed=0.0m
+[null pass 1] inferred genes=5,888/14,118 elapsed=0.0m
+[null pass 1] inferred genes=6,144/14,118 elapsed=0.0m
+[null pass 1] inferred genes=6,400/14,118 elapsed=0.0m
+[null pass 1] inferred genes=6,656/14,118 elapsed=0.0m
+[null pass 1] inferred genes=6,912/14,118 elapsed=0.0m
+[null pass 1] inferred genes=7,168/14,118 elapsed=0.0m
+[null pass 1] inferred genes=7,424/14,118 elapsed=0.0m
+[null pass 1] inferred genes=7,680/14,118 elapsed=0.0m
+[null pass 1] inferred genes=7,936/14,118 elapsed=0.0m
+[null pass 1] inferred genes=8,192/14,118 elapsed=0.0m
+[null pass 1] inferred genes=8,448/14,118 elapsed=0.0m
+[null pass 1] inferred genes=8,704/14,118 elapsed=0.0m
+[null pass 1] inferred genes=8,960/14,118 elapsed=0.0m
+[null pass 1] inferred genes=9,216/14,118 elapsed=0.0m
+[null pass 1] inferred genes=9,472/14,118 elapsed=0.0m
+[null pass 1] inferred genes=9,728/14,118 elapsed=0.0m
+[null pass 1] inferred genes=9,984/14,118 elapsed=0.0m
+[null pass 1] inferred genes=10,240/14,118 elapsed=0.0m
+[null pass 1] inferred genes=10,496/14,118 elapsed=0.0m
+[null pass 1] inferred genes=10,752/14,118 elapsed=0.0m
+[null pass 1] inferred genes=11,008/14,118 elapsed=0.0m
+[null pass 1] inferred genes=11,264/14,118 elapsed=0.0m
+[null pass 1] inferred genes=11,520/14,118 elapsed=0.0m
+[null pass 1] inferred genes=11,776/14,118 elapsed=0.0m
+[null pass 1] inferred genes=12,032/14,118 elapsed=0.0m
+[null pass 1] inferred genes=12,288/14,118 elapsed=0.0m
+[null pass 1] inferred genes=12,544/14,118 elapsed=0.0m
+[null pass 1] inferred genes=12,800/14,118 elapsed=0.0m
+[null pass 1] inferred genes=13,056/14,118 elapsed=0.0m
+[null pass 1] inferred genes=13,312/14,118 elapsed=0.0m
+[null pass 1] inferred genes=13,568/14,118 elapsed=0.0m
+[null pass 1] inferred genes=13,824/14,118 elapsed=0.0m
+[null pass 1] inferred genes=14,080/14,118 elapsed=0.0m
+[null pass 1] inferred genes=14,118/14,118 elapsed=0.0m
+[null pass 2] inferred genes=256/14,118
+[null pass 2] inferred genes=512/14,118
+[null pass 2] inferred genes=768/14,118
+[null pass 2] inferred genes=1,024/14,118
+[null pass 2] inferred genes=1,280/14,118
+[null pass 2] inferred genes=1,536/14,118
+[null pass 2] inferred genes=1,792/14,118
+[null pass 2] inferred genes=2,048/14,118
+[null pass 2] inferred genes=2,304/14,118
+[null pass 2] inferred genes=2,560/14,118
+[null pass 2] inferred genes=2,816/14,118
+[null pass 2] inferred genes=3,072/14,118
+[null pass 2] inferred genes=3,328/14,118
+[null pass 2] inferred genes=3,584/14,118
+[null pass 2] inferred genes=3,840/14,118
+[null pass 2] inferred genes=4,096/14,118
+[null pass 2] inferred genes=4,352/14,118
+[null pass 2] inferred genes=4,608/14,118
+[null pass 2] inferred genes=4,864/14,118
+[null pass 2] inferred genes=5,120/14,118
+[null pass 2] inferred genes=5,376/14,118
+[null pass 2] inferred genes=5,632/14,118
+[null pass 2] inferred genes=5,888/14,118
+[null pass 2] inferred genes=6,144/14,118
+[null pass 2] inferred genes=6,400/14,118
+[null pass 2] inferred genes=6,656/14,118
+[null pass 2] inferred genes=6,912/14,118
+[null pass 2] inferred genes=7,168/14,118
+[null pass 2] inferred genes=7,424/14,118
+[null pass 2] inferred genes=7,680/14,118
+[null pass 2] inferred genes=7,936/14,118
+[null pass 2] inferred genes=8,192/14,118
+[null pass 2] inferred genes=8,448/14,118
+[null pass 2] inferred genes=8,704/14,118
+[null pass 2] inferred genes=8,960/14,118
+[null pass 2] inferred genes=9,216/14,118
+[null pass 2] inferred genes=9,472/14,118
+[null pass 2] inferred genes=9,728/14,118
+[null pass 2] inferred genes=9,984/14,118
+[null pass 2] inferred genes=10,240/14,118
+[null pass 2] inferred genes=10,496/14,118
+[null pass 2] inferred genes=10,752/14,118
+[null pass 2] inferred genes=11,008/14,118
+[null pass 2] inferred genes=11,264/14,118
+[null pass 2] inferred genes=11,520/14,118
+[null pass 2] inferred genes=11,776/14,118
+[null pass 2] inferred genes=12,032/14,118
+[null pass 2] inferred genes=12,288/14,118
+[null pass 2] inferred genes=12,544/14,118
+[null pass 2] inferred genes=12,800/14,118
+[null pass 2] inferred genes=13,056/14,118
+[null pass 2] inferred genes=13,312/14,118
+[null pass 2] inferred genes=13,568/14,118
+[null pass 2] inferred genes=13,824/14,118
+[null pass 2] inferred genes=14,080/14,118
+[null pass 2] inferred genes=14,118/14,118
+
+GTEx L1000-style summary
+                        panel_id  requested_visible_genes  visible_genes_mapped_used  hidden_genes_evaluated  well_inferred_genes  well_inferred_percent  median_matched_pearson  null_95th_percentile  null_correlations  gtex_samples
+conserved_gene_inference_top1000                     1000                        992                   14045                 3235               0.230331                0.572627              0.765974          197247980          9662
+            l1000_all_mapped_922                      922                        919                   14118                 3030               0.214620                0.496601              0.753482          199303806          9662

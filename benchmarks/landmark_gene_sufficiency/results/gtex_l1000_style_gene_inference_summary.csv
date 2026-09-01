@@ -1,0 +1,3 @@
+panel_id,requested_visible_genes,visible_genes_mapped_used,hidden_genes_evaluated,well_inferred_genes,well_inferred_percent,median_matched_pearson,null_95th_percentile,null_correlations,gtex_samples
+conserved_gene_inference_top1000,1000,992,14045,3235,0.2303310786756853,0.572627067565918,0.765974223613739,197247980,9662
+l1000_all_mapped_922,922,919,14118,3030,0.21461963450913726,0.4966013431549072,0.7534815073013306,199303806,9662

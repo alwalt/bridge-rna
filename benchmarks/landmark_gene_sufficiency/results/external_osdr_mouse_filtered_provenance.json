@@ -1,0 +1,14 @@
+{
+  "source_samples": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/external_osdr_mouse_samples.parquet",
+  "source_matrix": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/work/external_osdr_mouse_log1p_tpm.npy",
+  "exposure_manifest": "/home/walt/bridge-rna/data/manifests/sample_manifest.parquet",
+  "source_samples_count": 1000,
+  "excluded_known_seen": 66,
+  "retained_samples": 934,
+  "retained_exposure_audit": {
+    "non_geo_unresolved": 902,
+    "gsm_absent_from_manifest": 26,
+    "confirmed_unseen_study": 6
+  },
+  "policy": "Exclude manifest-linked train/val samples and samples from seen studies; do not relabel unresolved samples as confirmed unseen."
+}

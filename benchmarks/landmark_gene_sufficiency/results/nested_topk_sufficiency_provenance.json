@@ -1,0 +1,53 @@
+{
+  "status": "exploratory",
+  "datasets": [
+    "tcga_human",
+    "osdr_mouse_filtered",
+    "gtex_human"
+  ],
+  "visible_sizes": [
+    1500,
+    2000,
+    2500,
+    3000,
+    3500,
+    4000,
+    4500,
+    5000
+  ],
+  "random_replicates": 5,
+  "random_panels_nested_by_replicate": true,
+  "dataset_samples": {
+    "tcga_human": 1000,
+    "osdr_mouse_filtered": 934,
+    "gtex_human": 1000
+  },
+  "gtex_sampling": "deterministic sample without replacement; benchmark_seed + 53000",
+  "profile_metric_scope": "masked genes within each sample",
+  "gene_inference_metric_scope": "each masked gene across external samples",
+  "rankings": {
+    "mouse": {
+      "profile": {
+        "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/final_mouse_informative_gene_ranking.parquet",
+        "sha256": "94812555f738471c3c22bbd7d545c9f1fba2d138b5616162fb92ab1526e50846"
+      },
+      "gene_inference": {
+        "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/gene_inference_mouse_consensus_ranking.parquet",
+        "sha256": "6c2f678c3f1664bdf3f07b74039e0ef287e2e32e47f0f0f7304e3b75abfd17b4"
+      }
+    },
+    "human": {
+      "profile": {
+        "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/final_human_informative_gene_ranking.parquet",
+        "sha256": "7feb05c35f7fba1f864ea3e3a38b0269b18c487685be41dbf9fb2b6b12126b71"
+      },
+      "gene_inference": {
+        "path": "/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/results/gene_inference_human_consensus_ranking.parquet",
+        "sha256": "278d27ab0fc8a0b59b6b97c252ed6e2cc2f6b3f651d1fbb05db90cdaf8cbae86"
+      }
+    }
+  },
+  "reranking": false,
+  "fine_tuning": false,
+  "plateau_definition": "first k reaching 90% of observed 1500-to-5000 Top-k improvement"
+}

@@ -1,0 +1,471 @@
+[inference] nested Top-k tcga_human profile_top_1500 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human profile_top_1500 samples=548/1,000 elapsed=1.0m rate=9.12/s
+[heartbeat] nested Top-k tcga_human profile_top_1500 samples=1,000/1,000 elapsed=1.8m rate=9.17/s
+[tcga_human] completed profile_top_1500
+[inference] nested Top-k tcga_human gene_inference_top_1500 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human gene_inference_top_1500 samples=548/1,000 elapsed=1.0m rate=9.09/s
+[heartbeat] nested Top-k tcga_human gene_inference_top_1500 samples=1,000/1,000 elapsed=1.8m rate=9.12/s
+[tcga_human] completed gene_inference_top_1500
+[inference] nested Top-k tcga_human profile_top_2000 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human profile_top_2000 samples=552/1,000 elapsed=1.0m rate=9.15/s
+[heartbeat] nested Top-k tcga_human profile_top_2000 samples=1,000/1,000 elapsed=1.8m rate=9.18/s
+[tcga_human] completed profile_top_2000
+[inference] nested Top-k tcga_human gene_inference_top_2000 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human gene_inference_top_2000 samples=536/1,000 elapsed=1.0m rate=8.89/s
+[heartbeat] nested Top-k tcga_human gene_inference_top_2000 samples=1,000/1,000 elapsed=1.8m rate=9.02/s
+[tcga_human] completed gene_inference_top_2000
+[inference] nested Top-k tcga_human profile_top_2500 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human profile_top_2500 samples=540/1,000 elapsed=1.0m rate=8.98/s
+[heartbeat] nested Top-k tcga_human profile_top_2500 samples=1,000/1,000 elapsed=1.8m rate=9.05/s
+[tcga_human] completed profile_top_2500
+[inference] nested Top-k tcga_human gene_inference_top_2500 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human gene_inference_top_2500 samples=532/1,000 elapsed=1.0m rate=8.81/s
+[heartbeat] nested Top-k tcga_human gene_inference_top_2500 samples=1,000/1,000 elapsed=1.9m rate=8.78/s
+[tcga_human] completed gene_inference_top_2500
+[inference] nested Top-k tcga_human profile_top_3000 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human profile_top_3000 samples=552/1,000 elapsed=1.0m rate=9.13/s
+[heartbeat] nested Top-k tcga_human profile_top_3000 samples=1,000/1,000 elapsed=1.9m rate=8.94/s
+[tcga_human] completed profile_top_3000
+[inference] nested Top-k tcga_human gene_inference_top_3000 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human gene_inference_top_3000 samples=548/1,000 elapsed=1.0m rate=9.10/s
+[heartbeat] nested Top-k tcga_human gene_inference_top_3000 samples=1,000/1,000 elapsed=1.8m rate=9.04/s
+[tcga_human] completed gene_inference_top_3000
+[inference] nested Top-k tcga_human profile_top_3500 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human profile_top_3500 samples=536/1,000 elapsed=1.0m rate=8.91/s
+[heartbeat] nested Top-k tcga_human profile_top_3500 samples=1,000/1,000 elapsed=1.8m rate=9.02/s
+[tcga_human] completed profile_top_3500
+[inference] nested Top-k tcga_human gene_inference_top_3500 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human gene_inference_top_3500 samples=484/1,000 elapsed=1.0m rate=8.02/s
+[heartbeat] nested Top-k tcga_human gene_inference_top_3500 samples=1,000/1,000 elapsed=2.0m rate=8.35/s
+[tcga_human] completed gene_inference_top_3500
+[inference] nested Top-k tcga_human profile_top_4000 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human profile_top_4000 samples=500/1,000 elapsed=1.0m rate=8.33/s
+[heartbeat] nested Top-k tcga_human profile_top_4000 samples=984/1,000 elapsed=2.0m rate=8.17/s
+[heartbeat] nested Top-k tcga_human profile_top_4000 samples=1,000/1,000 elapsed=2.0m rate=8.17/s
+[tcga_human] completed profile_top_4000
+[inference] nested Top-k tcga_human gene_inference_top_4000 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human gene_inference_top_4000 samples=484/1,000 elapsed=1.0m rate=8.01/s
+[heartbeat] nested Top-k tcga_human gene_inference_top_4000 samples=968/1,000 elapsed=2.0m rate=8.01/s
+[heartbeat] nested Top-k tcga_human gene_inference_top_4000 samples=1,000/1,000 elapsed=2.1m rate=8.01/s
+[tcga_human] completed gene_inference_top_4000
+[inference] nested Top-k tcga_human profile_top_4500 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human profile_top_4500 samples=484/1,000 elapsed=1.0m rate=8.04/s
+[heartbeat] nested Top-k tcga_human profile_top_4500 samples=964/1,000 elapsed=2.0m rate=7.99/s
+[heartbeat] nested Top-k tcga_human profile_top_4500 samples=1,000/1,000 elapsed=2.1m rate=7.99/s
+[tcga_human] completed profile_top_4500
+[inference] nested Top-k tcga_human gene_inference_top_4500 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human gene_inference_top_4500 samples=484/1,000 elapsed=1.0m rate=8.01/s
+[heartbeat] nested Top-k tcga_human gene_inference_top_4500 samples=968/1,000 elapsed=2.0m rate=8.03/s
+[heartbeat] nested Top-k tcga_human gene_inference_top_4500 samples=1,000/1,000 elapsed=2.1m rate=8.03/s
+[tcga_human] completed gene_inference_top_4500
+[inference] nested Top-k tcga_human profile_top_5000 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human profile_top_5000 samples=484/1,000 elapsed=1.0m rate=8.02/s
+[heartbeat] nested Top-k tcga_human profile_top_5000 samples=972/1,000 elapsed=2.0m rate=8.04/s
+[heartbeat] nested Top-k tcga_human profile_top_5000 samples=1,000/1,000 elapsed=2.1m rate=8.04/s
+[tcga_human] completed profile_top_5000
+[inference] nested Top-k tcga_human gene_inference_top_5000 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human gene_inference_top_5000 samples=508/1,000 elapsed=1.0m rate=8.42/s
+[heartbeat] nested Top-k tcga_human gene_inference_top_5000 samples=1,000/1,000 elapsed=1.9m rate=8.76/s
+[tcga_human] completed gene_inference_top_5000
+[inference] nested Top-k tcga_human random_1500_r00 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_1500_r00 samples=536/1,000 elapsed=1.0m rate=8.88/s
+[heartbeat] nested Top-k tcga_human random_1500_r00 samples=1,000/1,000 elapsed=1.9m rate=9.00/s
+[tcga_human] completed random_1500_r00
+[inference] nested Top-k tcga_human random_2000_r00 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_2000_r00 samples=548/1,000 elapsed=1.0m rate=9.12/s
+[heartbeat] nested Top-k tcga_human random_2000_r00 samples=1,000/1,000 elapsed=1.8m rate=9.14/s
+[tcga_human] completed random_2000_r00
+[inference] nested Top-k tcga_human random_2500_r00 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_2500_r00 samples=544/1,000 elapsed=1.0m rate=9.02/s
+[heartbeat] nested Top-k tcga_human random_2500_r00 samples=1,000/1,000 elapsed=1.8m rate=9.03/s
+[tcga_human] completed random_2500_r00
+[inference] nested Top-k tcga_human random_3000_r00 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_3000_r00 samples=548/1,000 elapsed=1.0m rate=9.12/s
+[heartbeat] nested Top-k tcga_human random_3000_r00 samples=1,000/1,000 elapsed=1.8m rate=9.03/s
+[tcga_human] completed random_3000_r00
+[inference] nested Top-k tcga_human random_3500_r00 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_3500_r00 samples=552/1,000 elapsed=1.0m rate=9.17/s
+[heartbeat] nested Top-k tcga_human random_3500_r00 samples=1,000/1,000 elapsed=1.8m rate=9.18/s
+[tcga_human] completed random_3500_r00
+[inference] nested Top-k tcga_human random_4000_r00 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_4000_r00 samples=548/1,000 elapsed=1.0m rate=9.13/s
+[heartbeat] nested Top-k tcga_human random_4000_r00 samples=1,000/1,000 elapsed=1.8m rate=9.14/s
+[tcga_human] completed random_4000_r00
+[inference] nested Top-k tcga_human random_4500_r00 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_4500_r00 samples=512/1,000 elapsed=1.0m rate=8.51/s
+[heartbeat] nested Top-k tcga_human random_4500_r00 samples=1,000/1,000 elapsed=1.9m rate=8.79/s
+[tcga_human] completed random_4500_r00
+[inference] nested Top-k tcga_human random_5000_r00 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_5000_r00 samples=544/1,000 elapsed=1.0m rate=9.05/s
+[heartbeat] nested Top-k tcga_human random_5000_r00 samples=1,000/1,000 elapsed=1.9m rate=8.91/s
+[tcga_human] completed random_5000_r00
+[inference] nested Top-k tcga_human random_1500_r01 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_1500_r01 samples=544/1,000 elapsed=1.0m rate=9.02/s
+[heartbeat] nested Top-k tcga_human random_1500_r01 samples=1,000/1,000 elapsed=1.8m rate=9.06/s
+[tcga_human] completed random_1500_r01
+[inference] nested Top-k tcga_human random_2000_r01 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_2000_r01 samples=544/1,000 elapsed=1.0m rate=9.05/s
+[heartbeat] nested Top-k tcga_human random_2000_r01 samples=1,000/1,000 elapsed=1.8m rate=9.10/s
+[tcga_human] completed random_2000_r01
+[inference] nested Top-k tcga_human random_2500_r01 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_2500_r01 samples=552/1,000 elapsed=1.0m rate=9.18/s
+[heartbeat] nested Top-k tcga_human random_2500_r01 samples=1,000/1,000 elapsed=1.8m rate=9.15/s
+[tcga_human] completed random_2500_r01
+[inference] nested Top-k tcga_human random_3000_r01 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_3000_r01 samples=540/1,000 elapsed=1.0m rate=8.98/s
+[heartbeat] nested Top-k tcga_human random_3000_r01 samples=1,000/1,000 elapsed=1.9m rate=8.94/s
+[tcga_human] completed random_3000_r01
+[inference] nested Top-k tcga_human random_3500_r01 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_3500_r01 samples=512/1,000 elapsed=1.0m rate=8.50/s
+[heartbeat] nested Top-k tcga_human random_3500_r01 samples=1,000/1,000 elapsed=2.0m rate=8.51/s
+[tcga_human] completed random_3500_r01
+[inference] nested Top-k tcga_human random_4000_r01 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_4000_r01 samples=552/1,000 elapsed=1.0m rate=9.19/s
+[heartbeat] nested Top-k tcga_human random_4000_r01 samples=1,000/1,000 elapsed=1.8m rate=9.21/s
+[tcga_human] completed random_4000_r01
+[inference] nested Top-k tcga_human random_4500_r01 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_4500_r01 samples=544/1,000 elapsed=1.0m rate=9.03/s
+[heartbeat] nested Top-k tcga_human random_4500_r01 samples=1,000/1,000 elapsed=1.8m rate=9.10/s
+[tcga_human] completed random_4500_r01
+[inference] nested Top-k tcga_human random_5000_r01 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_5000_r01 samples=544/1,000 elapsed=1.0m rate=9.03/s
+[heartbeat] nested Top-k tcga_human random_5000_r01 samples=1,000/1,000 elapsed=1.8m rate=9.12/s
+[tcga_human] completed random_5000_r01
+[inference] nested Top-k tcga_human random_1500_r02 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_1500_r02 samples=552/1,000 elapsed=1.0m rate=9.18/s
+[heartbeat] nested Top-k tcga_human random_1500_r02 samples=1,000/1,000 elapsed=1.8m rate=9.19/s
+[tcga_human] completed random_1500_r02
+[inference] nested Top-k tcga_human random_2000_r02 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_2000_r02 samples=552/1,000 elapsed=1.0m rate=9.19/s
+[heartbeat] nested Top-k tcga_human random_2000_r02 samples=1,000/1,000 elapsed=1.8m rate=9.20/s
+[tcga_human] completed random_2000_r02
+[inference] nested Top-k tcga_human random_2500_r02 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_2500_r02 samples=552/1,000 elapsed=1.0m rate=9.19/s
+[heartbeat] nested Top-k tcga_human random_2500_r02 samples=1,000/1,000 elapsed=1.9m rate=8.99/s
+[tcga_human] completed random_2500_r02
+[inference] nested Top-k tcga_human random_3000_r02 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_3000_r02 samples=520/1,000 elapsed=1.0m rate=8.67/s
+[heartbeat] nested Top-k tcga_human random_3000_r02 samples=1,000/1,000 elapsed=1.9m rate=8.90/s
+[tcga_human] completed random_3000_r02
+[inference] nested Top-k tcga_human random_3500_r02 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_3500_r02 samples=544/1,000 elapsed=1.0m rate=9.05/s
+[heartbeat] nested Top-k tcga_human random_3500_r02 samples=1,000/1,000 elapsed=1.8m rate=9.09/s
+[tcga_human] completed random_3500_r02
+[inference] nested Top-k tcga_human random_4000_r02 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_4000_r02 samples=476/1,000 elapsed=1.0m rate=7.93/s
+[heartbeat] nested Top-k tcga_human random_4000_r02 samples=956/1,000 elapsed=2.0m rate=7.96/s
+[heartbeat] nested Top-k tcga_human random_4000_r02 samples=1,000/1,000 elapsed=2.1m rate=7.96/s
+[tcga_human] completed random_4000_r02
+[inference] nested Top-k tcga_human random_4500_r02 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_4500_r02 samples=480/1,000 elapsed=1.0m rate=7.98/s
+[heartbeat] nested Top-k tcga_human random_4500_r02 samples=988/1,000 elapsed=2.0m rate=8.22/s
+[heartbeat] nested Top-k tcga_human random_4500_r02 samples=1,000/1,000 elapsed=2.0m rate=8.23/s
+[tcga_human] completed random_4500_r02
+[inference] nested Top-k tcga_human random_5000_r02 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_5000_r02 samples=552/1,000 elapsed=1.0m rate=9.15/s
+[heartbeat] nested Top-k tcga_human random_5000_r02 samples=1,000/1,000 elapsed=1.8m rate=9.17/s
+[tcga_human] completed random_5000_r02
+[inference] nested Top-k tcga_human random_1500_r03 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_1500_r03 samples=512/1,000 elapsed=1.0m rate=8.48/s
+[heartbeat] nested Top-k tcga_human random_1500_r03 samples=1,000/1,000 elapsed=1.9m rate=8.68/s
+[tcga_human] completed random_1500_r03
+[inference] nested Top-k tcga_human random_2000_r03 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_2000_r03 samples=536/1,000 elapsed=1.0m rate=8.86/s
+[heartbeat] nested Top-k tcga_human random_2000_r03 samples=1,000/1,000 elapsed=1.9m rate=8.98/s
+[tcga_human] completed random_2000_r03
+[inference] nested Top-k tcga_human random_2500_r03 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_2500_r03 samples=544/1,000 elapsed=1.0m rate=9.04/s
+[heartbeat] nested Top-k tcga_human random_2500_r03 samples=1,000/1,000 elapsed=1.9m rate=8.90/s
+[tcga_human] completed random_2500_r03
+[inference] nested Top-k tcga_human random_3000_r03 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_3000_r03 samples=548/1,000 elapsed=1.0m rate=9.11/s
+[heartbeat] nested Top-k tcga_human random_3000_r03 samples=1,000/1,000 elapsed=1.8m rate=9.07/s
+[tcga_human] completed random_3000_r03
+[inference] nested Top-k tcga_human random_3500_r03 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_3500_r03 samples=548/1,000 elapsed=1.0m rate=9.07/s
+[heartbeat] nested Top-k tcga_human random_3500_r03 samples=1,000/1,000 elapsed=1.9m rate=8.99/s
+[tcga_human] completed random_3500_r03
+[inference] nested Top-k tcga_human random_4000_r03 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_4000_r03 samples=544/1,000 elapsed=1.0m rate=9.07/s
+[heartbeat] nested Top-k tcga_human random_4000_r03 samples=1,000/1,000 elapsed=1.9m rate=8.95/s
+[tcga_human] completed random_4000_r03
+[inference] nested Top-k tcga_human random_4500_r03 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_4500_r03 samples=532/1,000 elapsed=1.0m rate=8.83/s
+[heartbeat] nested Top-k tcga_human random_4500_r03 samples=1,000/1,000 elapsed=1.9m rate=8.99/s
+[tcga_human] completed random_4500_r03
+[inference] nested Top-k tcga_human random_5000_r03 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_5000_r03 samples=548/1,000 elapsed=1.0m rate=9.13/s
+[heartbeat] nested Top-k tcga_human random_5000_r03 samples=1,000/1,000 elapsed=1.9m rate=8.85/s
+[tcga_human] completed random_5000_r03
+[inference] nested Top-k tcga_human random_1500_r04 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_1500_r04 samples=548/1,000 elapsed=1.0m rate=9.12/s
+[heartbeat] nested Top-k tcga_human random_1500_r04 samples=1,000/1,000 elapsed=1.8m rate=9.03/s
+[tcga_human] completed random_1500_r04
+[inference] nested Top-k tcga_human random_2000_r04 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_2000_r04 samples=484/1,000 elapsed=1.0m rate=8.03/s
+[heartbeat] nested Top-k tcga_human random_2000_r04 samples=1,000/1,000 elapsed=2.0m rate=8.54/s
+[tcga_human] completed random_2000_r04
+[inference] nested Top-k tcga_human random_2500_r04 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_2500_r04 samples=536/1,000 elapsed=1.0m rate=8.88/s
+[heartbeat] nested Top-k tcga_human random_2500_r04 samples=1,000/1,000 elapsed=1.9m rate=8.91/s
+[tcga_human] completed random_2500_r04
+[inference] nested Top-k tcga_human random_3000_r04 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_3000_r04 samples=544/1,000 elapsed=1.0m rate=9.04/s
+[heartbeat] nested Top-k tcga_human random_3000_r04 samples=1,000/1,000 elapsed=1.9m rate=8.83/s
+[tcga_human] completed random_3000_r04
+[inference] nested Top-k tcga_human random_3500_r04 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_3500_r04 samples=548/1,000 elapsed=1.0m rate=9.12/s
+[heartbeat] nested Top-k tcga_human random_3500_r04 samples=1,000/1,000 elapsed=1.8m rate=9.11/s
+[tcga_human] completed random_3500_r04
+[inference] nested Top-k tcga_human random_4000_r04 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_4000_r04 samples=540/1,000 elapsed=1.0m rate=8.95/s
+[heartbeat] nested Top-k tcga_human random_4000_r04 samples=1,000/1,000 elapsed=1.8m rate=9.02/s
+[tcga_human] completed random_4000_r04
+[inference] nested Top-k tcga_human random_4500_r04 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_4500_r04 samples=536/1,000 elapsed=1.0m rate=8.91/s
+[heartbeat] nested Top-k tcga_human random_4500_r04 samples=1,000/1,000 elapsed=1.9m rate=8.92/s
+[tcga_human] completed random_4500_r04
+[inference] nested Top-k tcga_human random_5000_r04 samples=1,000 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k tcga_human random_5000_r04 samples=536/1,000 elapsed=1.0m rate=8.87/s
+[heartbeat] nested Top-k tcga_human random_5000_r04 samples=1,000/1,000 elapsed=1.9m rate=8.93/s
+[tcga_human] completed random_5000_r04
+[inference] nested Top-k osdr_mouse_filtered profile_top_1500 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_1500 samples=532/934 elapsed=1.0m rate=8.84/s
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_1500 samples=934/934 elapsed=1.7m rate=8.98/s
+[osdr_mouse_filtered] completed profile_top_1500
+[inference] nested Top-k osdr_mouse_filtered gene_inference_top_1500 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_1500 samples=540/934 elapsed=1.0m rate=8.97/s
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_1500 samples=934/934 elapsed=1.7m rate=8.98/s
+[osdr_mouse_filtered] completed gene_inference_top_1500
+[inference] nested Top-k osdr_mouse_filtered profile_top_2000 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_2000 samples=496/934 elapsed=1.0m rate=8.22/s
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_2000 samples=934/934 elapsed=1.9m rate=8.12/s
+[osdr_mouse_filtered] completed profile_top_2000
+[inference] nested Top-k osdr_mouse_filtered gene_inference_top_2000 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_2000 samples=480/934 elapsed=1.0m rate=7.94/s
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_2000 samples=934/934 elapsed=2.0m rate=7.98/s
+[osdr_mouse_filtered] completed gene_inference_top_2000
+[inference] nested Top-k osdr_mouse_filtered profile_top_2500 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_2500 samples=484/934 elapsed=1.0m rate=8.03/s
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_2500 samples=934/934 elapsed=1.9m rate=8.02/s
+[osdr_mouse_filtered] completed profile_top_2500
+[inference] nested Top-k osdr_mouse_filtered gene_inference_top_2500 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_2500 samples=484/934 elapsed=1.0m rate=8.00/s
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_2500 samples=934/934 elapsed=1.9m rate=7.98/s
+[osdr_mouse_filtered] completed gene_inference_top_2500
+[inference] nested Top-k osdr_mouse_filtered profile_top_3000 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_3000 samples=484/934 elapsed=1.0m rate=8.02/s
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_3000 samples=934/934 elapsed=1.9m rate=8.01/s
+[osdr_mouse_filtered] completed profile_top_3000
+[inference] nested Top-k osdr_mouse_filtered gene_inference_top_3000 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_3000 samples=484/934 elapsed=1.0m rate=8.01/s
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_3000 samples=934/934 elapsed=1.9m rate=7.99/s
+[osdr_mouse_filtered] completed gene_inference_top_3000
+[inference] nested Top-k osdr_mouse_filtered profile_top_3500 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_3500 samples=480/934 elapsed=1.0m rate=7.95/s
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_3500 samples=934/934 elapsed=1.9m rate=8.34/s
+[osdr_mouse_filtered] completed profile_top_3500
+[inference] nested Top-k osdr_mouse_filtered gene_inference_top_3500 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_3500 samples=544/934 elapsed=1.0m rate=9.02/s
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_3500 samples=934/934 elapsed=1.7m rate=9.05/s
+[osdr_mouse_filtered] completed gene_inference_top_3500
+[inference] nested Top-k osdr_mouse_filtered profile_top_4000 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_4000 samples=532/934 elapsed=1.0m rate=8.84/s
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_4000 samples=934/934 elapsed=1.8m rate=8.85/s
+[osdr_mouse_filtered] completed profile_top_4000
+[inference] nested Top-k osdr_mouse_filtered gene_inference_top_4000 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_4000 samples=536/934 elapsed=1.0m rate=8.91/s
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_4000 samples=934/934 elapsed=1.7m rate=8.93/s
+[osdr_mouse_filtered] completed gene_inference_top_4000
+[inference] nested Top-k osdr_mouse_filtered profile_top_4500 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_4500 samples=532/934 elapsed=1.0m rate=8.83/s
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_4500 samples=934/934 elapsed=1.7m rate=8.95/s
+[osdr_mouse_filtered] completed profile_top_4500
+[inference] nested Top-k osdr_mouse_filtered gene_inference_top_4500 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_4500 samples=528/934 elapsed=1.0m rate=8.75/s
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_4500 samples=934/934 elapsed=1.7m rate=8.92/s
+[osdr_mouse_filtered] completed gene_inference_top_4500
+[inference] nested Top-k osdr_mouse_filtered profile_top_5000 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_5000 samples=544/934 elapsed=1.0m rate=9.03/s
+[heartbeat] nested Top-k osdr_mouse_filtered profile_top_5000 samples=934/934 elapsed=1.8m rate=8.89/s
+[osdr_mouse_filtered] completed profile_top_5000
+[inference] nested Top-k osdr_mouse_filtered gene_inference_top_5000 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_5000 samples=548/934 elapsed=1.0m rate=9.10/s
+[heartbeat] nested Top-k osdr_mouse_filtered gene_inference_top_5000 samples=934/934 elapsed=1.7m rate=9.10/s
+[osdr_mouse_filtered] completed gene_inference_top_5000
+[inference] nested Top-k osdr_mouse_filtered random_1500_r00 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_1500_r00 samples=536/934 elapsed=1.0m rate=8.87/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_1500_r00 samples=934/934 elapsed=1.8m rate=8.87/s
+[osdr_mouse_filtered] completed random_1500_r00
+[inference] nested Top-k osdr_mouse_filtered random_2000_r00 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_2000_r00 samples=532/934 elapsed=1.0m rate=8.83/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_2000_r00 samples=934/934 elapsed=1.7m rate=8.96/s
+[osdr_mouse_filtered] completed random_2000_r00
+[inference] nested Top-k osdr_mouse_filtered random_2500_r00 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_2500_r00 samples=552/934 elapsed=1.0m rate=9.16/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_2500_r00 samples=934/934 elapsed=1.7m rate=9.18/s
+[osdr_mouse_filtered] completed random_2500_r00
+[inference] nested Top-k osdr_mouse_filtered random_3000_r00 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_3000_r00 samples=552/934 elapsed=1.0m rate=9.17/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_3000_r00 samples=934/934 elapsed=1.7m rate=9.19/s
+[osdr_mouse_filtered] completed random_3000_r00
+[inference] nested Top-k osdr_mouse_filtered random_3500_r00 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_3500_r00 samples=552/934 elapsed=1.0m rate=9.14/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_3500_r00 samples=934/934 elapsed=1.7m rate=9.16/s
+[osdr_mouse_filtered] completed random_3500_r00
+[inference] nested Top-k osdr_mouse_filtered random_4000_r00 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_4000_r00 samples=552/934 elapsed=1.0m rate=9.15/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_4000_r00 samples=934/934 elapsed=1.7m rate=9.15/s
+[osdr_mouse_filtered] completed random_4000_r00
+[inference] nested Top-k osdr_mouse_filtered random_4500_r00 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_4500_r00 samples=552/934 elapsed=1.0m rate=9.14/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_4500_r00 samples=934/934 elapsed=1.7m rate=9.15/s
+[osdr_mouse_filtered] completed random_4500_r00
+[inference] nested Top-k osdr_mouse_filtered random_5000_r00 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_5000_r00 samples=552/934 elapsed=1.0m rate=9.16/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_5000_r00 samples=934/934 elapsed=1.7m rate=9.16/s
+[osdr_mouse_filtered] completed random_5000_r00
+[inference] nested Top-k osdr_mouse_filtered random_1500_r01 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_1500_r01 samples=552/934 elapsed=1.0m rate=9.14/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_1500_r01 samples=934/934 elapsed=1.7m rate=9.15/s
+[osdr_mouse_filtered] completed random_1500_r01
+[inference] nested Top-k osdr_mouse_filtered random_2000_r01 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_2000_r01 samples=548/934 elapsed=1.0m rate=9.13/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_2000_r01 samples=934/934 elapsed=1.7m rate=8.99/s
+[osdr_mouse_filtered] completed random_2000_r01
+[inference] nested Top-k osdr_mouse_filtered random_2500_r01 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_2500_r01 samples=528/934 elapsed=1.0m rate=8.77/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_2500_r01 samples=934/934 elapsed=1.8m rate=8.77/s
+[osdr_mouse_filtered] completed random_2500_r01
+[inference] nested Top-k osdr_mouse_filtered random_3000_r01 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_3000_r01 samples=528/934 elapsed=1.0m rate=8.74/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_3000_r01 samples=934/934 elapsed=1.8m rate=8.75/s
+[osdr_mouse_filtered] completed random_3000_r01
+[inference] nested Top-k osdr_mouse_filtered random_3500_r01 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_3500_r01 samples=524/934 elapsed=1.0m rate=8.73/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_3500_r01 samples=934/934 elapsed=1.8m rate=8.74/s
+[osdr_mouse_filtered] completed random_3500_r01
+[inference] nested Top-k osdr_mouse_filtered random_4000_r01 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_4000_r01 samples=528/934 elapsed=1.0m rate=8.74/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_4000_r01 samples=934/934 elapsed=1.8m rate=8.75/s
+[osdr_mouse_filtered] completed random_4000_r01
+[inference] nested Top-k osdr_mouse_filtered random_4500_r01 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_4500_r01 samples=528/934 elapsed=1.0m rate=8.74/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_4500_r01 samples=934/934 elapsed=1.8m rate=8.75/s
+[osdr_mouse_filtered] completed random_4500_r01
+[inference] nested Top-k osdr_mouse_filtered random_5000_r01 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_5000_r01 samples=528/934 elapsed=1.0m rate=8.74/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_5000_r01 samples=934/934 elapsed=1.8m rate=8.75/s
+[osdr_mouse_filtered] completed random_5000_r01
+[inference] nested Top-k osdr_mouse_filtered random_1500_r02 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_1500_r02 samples=528/934 elapsed=1.0m rate=8.74/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_1500_r02 samples=934/934 elapsed=1.8m rate=8.75/s
+[osdr_mouse_filtered] completed random_1500_r02
+[inference] nested Top-k osdr_mouse_filtered random_2000_r02 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_2000_r02 samples=528/934 elapsed=1.0m rate=8.74/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_2000_r02 samples=934/934 elapsed=1.8m rate=8.75/s
+[osdr_mouse_filtered] completed random_2000_r02
+[inference] nested Top-k osdr_mouse_filtered random_2500_r02 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_2500_r02 samples=524/934 elapsed=1.0m rate=8.73/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_2500_r02 samples=934/934 elapsed=1.8m rate=8.75/s
+[osdr_mouse_filtered] completed random_2500_r02
+[inference] nested Top-k osdr_mouse_filtered random_3000_r02 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_3000_r02 samples=528/934 elapsed=1.0m rate=8.74/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_3000_r02 samples=934/934 elapsed=1.8m rate=8.76/s
+[osdr_mouse_filtered] completed random_3000_r02
+[inference] nested Top-k osdr_mouse_filtered random_3500_r02 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_3500_r02 samples=528/934 elapsed=1.0m rate=8.74/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_3500_r02 samples=934/934 elapsed=1.8m rate=8.75/s
+[osdr_mouse_filtered] completed random_3500_r02
+[inference] nested Top-k osdr_mouse_filtered random_4000_r02 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_4000_r02 samples=524/934 elapsed=1.0m rate=8.72/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_4000_r02 samples=934/934 elapsed=1.8m rate=8.74/s
+[osdr_mouse_filtered] completed random_4000_r02
+[inference] nested Top-k osdr_mouse_filtered random_4500_r02 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_4500_r02 samples=524/934 elapsed=1.0m rate=8.73/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_4500_r02 samples=934/934 elapsed=1.8m rate=8.74/s
+[osdr_mouse_filtered] completed random_4500_r02
+[inference] nested Top-k osdr_mouse_filtered random_5000_r02 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_5000_r02 samples=524/934 elapsed=1.0m rate=8.72/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_5000_r02 samples=934/934 elapsed=1.8m rate=8.74/s
+[osdr_mouse_filtered] completed random_5000_r02
+[inference] nested Top-k osdr_mouse_filtered random_1500_r03 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_1500_r03 samples=524/934 elapsed=1.0m rate=8.72/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_1500_r03 samples=934/934 elapsed=1.8m rate=8.73/s
+[osdr_mouse_filtered] completed random_1500_r03
+[inference] nested Top-k osdr_mouse_filtered random_2000_r03 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_2000_r03 samples=524/934 elapsed=1.0m rate=8.72/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_2000_r03 samples=934/934 elapsed=1.8m rate=8.74/s
+[osdr_mouse_filtered] completed random_2000_r03
+[inference] nested Top-k osdr_mouse_filtered random_2500_r03 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_2500_r03 samples=528/934 elapsed=1.0m rate=8.74/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_2500_r03 samples=934/934 elapsed=1.8m rate=8.75/s
+[osdr_mouse_filtered] completed random_2500_r03
+[inference] nested Top-k osdr_mouse_filtered random_3000_r03 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_3000_r03 samples=524/934 elapsed=1.0m rate=8.73/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_3000_r03 samples=934/934 elapsed=1.8m rate=8.74/s
+[osdr_mouse_filtered] completed random_3000_r03
+[inference] nested Top-k osdr_mouse_filtered random_3500_r03 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_3500_r03 samples=524/934 elapsed=1.0m rate=8.72/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_3500_r03 samples=934/934 elapsed=1.8m rate=8.74/s
+[osdr_mouse_filtered] completed random_3500_r03
+[inference] nested Top-k osdr_mouse_filtered random_4000_r03 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_4000_r03 samples=528/934 elapsed=1.0m rate=8.75/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_4000_r03 samples=934/934 elapsed=1.8m rate=8.76/s
+[osdr_mouse_filtered] completed random_4000_r03
+[inference] nested Top-k osdr_mouse_filtered random_4500_r03 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_4500_r03 samples=528/934 elapsed=1.0m rate=8.74/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_4500_r03 samples=934/934 elapsed=1.8m rate=8.75/s
+[osdr_mouse_filtered] completed random_4500_r03
+[inference] nested Top-k osdr_mouse_filtered random_5000_r03 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_5000_r03 samples=524/934 elapsed=1.0m rate=8.73/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_5000_r03 samples=934/934 elapsed=1.8m rate=8.74/s
+[osdr_mouse_filtered] completed random_5000_r03
+[inference] nested Top-k osdr_mouse_filtered random_1500_r04 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_1500_r04 samples=528/934 elapsed=1.0m rate=8.73/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_1500_r04 samples=934/934 elapsed=1.8m rate=8.74/s
+[osdr_mouse_filtered] completed random_1500_r04
+[inference] nested Top-k osdr_mouse_filtered random_2000_r04 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_2000_r04 samples=528/934 elapsed=1.0m rate=8.75/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_2000_r04 samples=934/934 elapsed=1.8m rate=8.75/s
+[osdr_mouse_filtered] completed random_2000_r04
+[inference] nested Top-k osdr_mouse_filtered random_2500_r04 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_2500_r04 samples=528/934 elapsed=1.0m rate=8.78/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_2500_r04 samples=934/934 elapsed=1.8m rate=8.78/s
+[osdr_mouse_filtered] completed random_2500_r04
+[inference] nested Top-k osdr_mouse_filtered random_3000_r04 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_3000_r04 samples=528/934 elapsed=1.0m rate=8.76/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_3000_r04 samples=934/934 elapsed=1.8m rate=8.77/s
+[osdr_mouse_filtered] completed random_3000_r04
+[inference] nested Top-k osdr_mouse_filtered random_3500_r04 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_3500_r04 samples=528/934 elapsed=1.0m rate=8.76/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_3500_r04 samples=934/934 elapsed=1.8m rate=8.76/s
+[osdr_mouse_filtered] completed random_3500_r04
+[inference] nested Top-k osdr_mouse_filtered random_4000_r04 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_4000_r04 samples=528/934 elapsed=1.0m rate=8.74/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_4000_r04 samples=934/934 elapsed=1.8m rate=8.75/s
+[osdr_mouse_filtered] completed random_4000_r04
+[inference] nested Top-k osdr_mouse_filtered random_4500_r04 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_4500_r04 samples=524/934 elapsed=1.0m rate=8.73/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_4500_r04 samples=934/934 elapsed=1.8m rate=8.75/s
+[osdr_mouse_filtered] completed random_4500_r04
+[inference] nested Top-k osdr_mouse_filtered random_5000_r04 samples=934 batch_size=4 device=cuda:0
+[heartbeat] nested Top-k osdr_mouse_filtered random_5000_r04 samples=528/934 elapsed=1.0m rate=8.79/s
+[heartbeat] nested Top-k osdr_mouse_filtered random_5000_r04 samples=934/934 elapsed=1.8m rate=8.78/s
+[osdr_mouse_filtered] completed random_5000_r04
+
+Plateau estimates
+            dataset      objective   metric  plateau_k_90pct                                                      definition
+osdr_mouse_filtered gene_inference  pearson             4500 first k reaching 90% of observed 1500-to-5000 Top-k improvement
+osdr_mouse_filtered gene_inference spearman             4500 first k reaching 90% of observed 1500-to-5000 Top-k improvement
+osdr_mouse_filtered gene_inference      mse             5000 first k reaching 90% of observed 1500-to-5000 Top-k improvement
+osdr_mouse_filtered        profile  pearson             4500 first k reaching 90% of observed 1500-to-5000 Top-k improvement
+osdr_mouse_filtered        profile spearman             4500 first k reaching 90% of observed 1500-to-5000 Top-k improvement
+osdr_mouse_filtered        profile      mse             5000 first k reaching 90% of observed 1500-to-5000 Top-k improvement
+         tcga_human gene_inference  pearson             4500 first k reaching 90% of observed 1500-to-5000 Top-k improvement
+         tcga_human gene_inference spearman             4500 first k reaching 90% of observed 1500-to-5000 Top-k improvement
+         tcga_human gene_inference      mse             5000 first k reaching 90% of observed 1500-to-5000 Top-k improvement
+         tcga_human        profile  pearson             4500 first k reaching 90% of observed 1500-to-5000 Top-k improvement
+         tcga_human        profile spearman             4500 first k reaching 90% of observed 1500-to-5000 Top-k improvement
+         tcga_human        profile      mse             5000 first k reaching 90% of observed 1500-to-5000 Top-k improvement
+Completed in 224.5 minutes

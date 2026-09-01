@@ -1,0 +1,19 @@
+dataset,objective,metric,plateau_k_90pct,definition
+gtex_human,gene_inference,pearson,4500,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+gtex_human,gene_inference,spearman,4500,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+gtex_human,gene_inference,mse,5000,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+gtex_human,profile,pearson,4500,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+gtex_human,profile,spearman,4500,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+gtex_human,profile,mse,5000,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+osdr_mouse_filtered,gene_inference,pearson,4500,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+osdr_mouse_filtered,gene_inference,spearman,4500,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+osdr_mouse_filtered,gene_inference,mse,5000,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+osdr_mouse_filtered,profile,pearson,4500,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+osdr_mouse_filtered,profile,spearman,4500,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+osdr_mouse_filtered,profile,mse,5000,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+tcga_human,gene_inference,pearson,4500,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+tcga_human,gene_inference,spearman,4500,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+tcga_human,gene_inference,mse,5000,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+tcga_human,profile,pearson,4500,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+tcga_human,profile,spearman,4500,first k reaching 90% of observed 1500-to-5000 Top-k improvement
+tcga_human,profile,mse,5000,first k reaching 90% of observed 1500-to-5000 Top-k improvement
