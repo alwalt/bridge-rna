@@ -36,6 +36,7 @@ from run_benchmark import (  # noqa: E402
 MODEL_CONFIG = REPO_ROOT / "model/r7hnr92k/config.json"
 MEAN_EMBEDDINGS = WORK / "ours_45.6m_embeddings.npy"
 EXPRESSION = WORK / "ours_log1p_tpm.npy"
+CONTEXT_CACHE = REPO_ROOT / "embeddings/tcga/ours_r7hnr92k_contextual/contextual_tokens.float16.npy"
 
 
 def say(message: str) -> None:
@@ -108,6 +109,15 @@ class AttentionSurvival(nn.Module):
         return self.head(pooled), weights
 
 
+def parallelize(model: nn.Module, enabled: bool) -> nn.Module:
+    if not enabled:
+        return model
+    if not torch.cuda.is_available() or torch.cuda.device_count() < 2:
+        raise RuntimeError("--data-parallel requires at least two visible CUDA devices")
+    say(f"using DataParallel attention head across {torch.cuda.device_count()} GPUs")
+    return nn.DataParallel(model, device_ids=list(range(torch.cuda.device_count())))
+
+
 def split_indices(cohort: pd.DataFrame, seed: int, task: str) -> tuple[np.ndarray, ...]:
     indices = np.arange(len(cohort))
     strata = cohort.classification_label if task == "classification" else cohort.cohort.astype(str)
@@ -129,6 +139,8 @@ def mean_pool_scaler(source_rows: np.ndarray, train: np.ndarray) -> tuple[torch.
 
 def contextual_tokens(encoder: nn.Module, expression: np.ndarray, rows: np.ndarray,
                       device: torch.device) -> torch.Tensor:
+    if encoder is None:
+        return torch.as_tensor(np.asarray(expression[rows]), dtype=torch.float16, device=device)
     values = torch.as_tensor(np.asarray(expression[rows]), dtype=torch.float32, device=device)
     with torch.no_grad(), torch.autocast(device_type=device.type, dtype=torch.float16,
                                         enabled=device.type == "cuda"):
@@ -157,15 +169,16 @@ def evaluate_classification(model, encoder, expression, source_rows, indices, la
 
 
 def run_classification(samples: pd.DataFrame, device: torch.device, batch_size: int,
-                       heartbeat: int, seeds: list[int]) -> None:
+                       heartbeat: int, seeds: list[int], data_parallel: bool) -> None:
     output = RESULTS / "classification_attention_per_split.parquet"
     existing = pd.read_parquet(output) if output.is_file() else pd.DataFrame()
     cohort = samples.loc[samples.classification_usable].copy().reset_index(drop=True)
     source_rows = cohort.matrix_row.to_numpy(int)
     names = sorted(cohort.classification_label.unique())
     y = cohort.classification_label.map({name: i for i, name in enumerate(names)}).to_numpy(int)
-    expression = np.load(EXPRESSION, mmap_mode="r")
-    encoder = load_frozen_encoder(device)
+    if not CONTEXT_CACHE.is_file():
+        raise FileNotFoundError(f"Run cache_contextual_tokens.py first: {CONTEXT_CACHE}")
+    expression = np.load(CONTEXT_CACHE, mmap_mode="r"); encoder = None
     rows = existing.to_dict("records")
     for seed in seeds:
         if not existing.empty and seed in set(existing.seed):
@@ -174,7 +187,7 @@ def run_classification(samples: pd.DataFrame, device: torch.device, batch_size: 
         center, scale = mean_pool_scaler(source_rows, train)
         center, scale = center.to(device), scale.to(device)
         torch.manual_seed(seed); np.random.seed(seed)
-        model = AttentionClassification(len(names)).to(device)
+        model = parallelize(AttentionClassification(len(names)).to(device), data_parallel)
         optimizer = torch.optim.AdamW(model.parameters(), lr=float(CONFIG["head_learning_rate"]),
             weight_decay=float(CONFIG["head_weight_decay"]))
         loss_fn = nn.CrossEntropyLoss(); optimum, state, stale = np.inf, None, 0
@@ -200,7 +213,8 @@ def run_classification(samples: pd.DataFrame, device: torch.device, batch_size: 
             if value < optimum - 1e-5: optimum, state, stale = value, best_state(model), 0
             else: stale += 1
             say(f"attention classification seed={seed} epoch={epoch+1} train_loss={total_loss/seen:.5f} "
-                f"val_loss={value:.5f} elapsed={(time.monotonic()-started)/60:.1f}m")
+                f"val_loss={value:.5f} stale={stale}/{CONFIG['head_patience']} "
+                f"elapsed={(time.monotonic()-started)/60:.1f}m")
             if stale >= int(CONFIG["head_patience"]): break
         assert state is not None; model.load_state_dict(state)
         predicted = evaluate_classification(model, encoder, expression, source_rows,
@@ -232,20 +246,24 @@ def risks_for(model, encoder, expression, source_rows, indices, center, scale, d
         offset += len(batch)
         now = time.monotonic()
         if heartbeat and (now - last >= heartbeat or offset == len(indices)):
-            say(f"heartbeat {label} samples={offset:,}/{len(indices):,} elapsed={(now-started)/60:.1f}m")
+            rate = offset / max(now-started, 1e-9); eta = (len(indices)-offset)/max(rate, 1e-9)
+            say(f"heartbeat {label} samples={offset:,}/{len(indices):,} "
+                f"elapsed={(now-started)/60:.1f}m eta_pass={eta/60:.1f}m")
             last = now
     return None if with_grad else torch.cat(output)
 
 
 def run_survival(samples: pd.DataFrame, device: torch.device, batch_size: int,
-                 heartbeat: int, seeds: list[int]) -> None:
+                 heartbeat: int, seeds: list[int], data_parallel: bool) -> None:
     output = RESULTS / "survival_attention_per_split.parquet"
     existing = pd.read_parquet(output) if output.is_file() else pd.DataFrame()
     cohort = samples.loc[samples.survival_usable].copy().reset_index(drop=True)
     source_rows = cohort.matrix_row.to_numpy(int)
     duration = torch.as_tensor(cohort.time_days.to_numpy(np.float32), device=device)
     event = torch.as_tensor(cohort.event.to_numpy(np.float32), device=device)
-    expression = np.load(EXPRESSION, mmap_mode="r"); encoder = load_frozen_encoder(device)
+    if not CONTEXT_CACHE.is_file():
+        raise FileNotFoundError(f"Run cache_contextual_tokens.py first: {CONTEXT_CACHE}")
+    expression = np.load(CONTEXT_CACHE, mmap_mode="r"); encoder = None
     rows = existing.to_dict("records")
     for seed in seeds:
         if not existing.empty and seed in set(existing.seed):
@@ -254,7 +272,7 @@ def run_survival(samples: pd.DataFrame, device: torch.device, batch_size: int,
         center, scale = mean_pool_scaler(source_rows, train)
         center, scale = center.to(device), scale.to(device)
         torch.manual_seed(seed); np.random.seed(seed)
-        model = AttentionSurvival().to(device)
+        model = parallelize(AttentionSurvival().to(device), data_parallel)
         optimizer = torch.optim.AdamW(model.parameters(), lr=float(CONFIG["head_learning_rate"]),
             weight_decay=float(CONFIG["head_weight_decay"]))
         optimum, state, stale = np.inf, None, 0; started = time.monotonic()
@@ -279,7 +297,8 @@ def run_survival(samples: pd.DataFrame, device: torch.device, batch_size: int,
             if value < optimum - 1e-5: optimum, state, stale = value, best_state(model), 0
             else: stale += 1
             say(f"attention survival seed={seed} epoch={epoch+1} train_loss={float(loss):.5f} "
-                f"val_loss={value:.5f} elapsed={(time.monotonic()-started)/60:.1f}m")
+                f"val_loss={value:.5f} stale={stale}/{CONFIG['head_patience']} "
+                f"elapsed={(time.monotonic()-started)/60:.1f}m")
             if stale >= int(CONFIG["head_patience"]): break
         assert state is not None; model.load_state_dict(state); model.eval()
         with torch.no_grad(): risk = risks_for(model, encoder, expression, source_rows,
@@ -314,6 +333,9 @@ def summarize() -> None:
         attention = pd.read_parquet(attention_path) if attention_path.is_file() else pd.DataFrame()
         combined = pd.concat([mean, attention], ignore_index=True)
         combined.to_parquet(RESULTS / f"ours_pooling_{task}_per_split.parquet", index=False)
+        paired_seed0 = combined.loc[combined.seed.eq(0), ["seed", "pooling", *metrics]].copy()
+        paired_seed0.to_parquet(RESULTS / f"ours_pooling_{task}_seed0.parquet", index=False)
+        paired_seed0.to_csv(RESULTS / f"ours_pooling_{task}_seed0.csv", index=False)
         rows = []
         for pooling, frame in combined.groupby("pooling"):
             row = {"pooling": pooling, "splits": len(frame)}
@@ -325,6 +347,7 @@ def summarize() -> None:
         summary.to_parquet(RESULTS / f"ours_pooling_{task}_summary.parquet", index=False)
         summary.to_csv(RESULTS / f"ours_pooling_{task}_summary.csv", index=False)
         print(f"\n{task}\n{summary.to_string(index=False)}")
+        print(f"\n{task} paired seed 0\n{paired_seed0.to_string(index=False)}")
 
 
 def main() -> None:
@@ -335,15 +358,19 @@ def main() -> None:
     parser.add_argument("--seeds", nargs="+", type=int, default=list(CONFIG["split_seeds"]))
     parser.add_argument("--batch-size", type=int, default=4)
     parser.add_argument("--heartbeat-seconds", type=int, default=60)
+    parser.add_argument("--data-parallel", action="store_true",
+                        help="Split cached-token batches across all visible GPUs.")
     args = parser.parse_args()
     device = torch.device(args.device if args.device.startswith("cuda") and torch.cuda.is_available() else "cpu")
     samples = build_cohorts(); prepare_expression(samples); verify_input_contract()
     if not MEAN_EMBEDDINGS.is_file():
         raise FileNotFoundError(f"Mean-pooling baseline embeddings are missing: {MEAN_EMBEDDINGS}")
     if "classification" in args.tasks:
-        run_classification(samples, device, args.batch_size, args.heartbeat_seconds, args.seeds)
+        run_classification(samples, device, args.batch_size, args.heartbeat_seconds, args.seeds,
+                           args.data_parallel)
     if "survival" in args.tasks:
-        run_survival(samples, device, args.batch_size, args.heartbeat_seconds, args.seeds)
+        run_survival(samples, device, args.batch_size, args.heartbeat_seconds, args.seeds,
+                     args.data_parallel)
     summarize()
 
 

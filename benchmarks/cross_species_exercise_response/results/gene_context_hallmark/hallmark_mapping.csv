@@ -1,0 +1,51 @@
+hallmark,source_genes,mapped_genes,mapping_percent
+TNF-alpha Signaling via NF-kB,200,184,92.0
+Hypoxia,200,184,92.0
+Cholesterol Homeostasis,74,70,94.5945945945946
+Mitotic Spindle,199,196,98.49246231155779
+Wnt-beta Catenin Signaling,42,40,95.23809523809524
+TGF-beta Signaling,54,50,92.5925925925926
+IL-6/JAK/STAT3 Signaling,87,71,81.60919540229885
+DNA Repair,150,136,90.66666666666667
+G2-M Checkpoint,200,184,92.0
+Apoptosis,161,148,91.92546583850931
+Notch Signaling,32,32,100.0
+Adipogenesis,200,189,94.5
+Estrogen Response Early,200,190,95.0
+Estrogen Response Late,200,185,92.5
+Androgen Response,100,93,93.0
+Myogenesis,200,190,95.0
+Protein Secretion,96,92,95.83333333333333
+Interferon Alpha Response,97,71,73.19587628865979
+Interferon Gamma Response,200,155,77.5
+Apical Junction,200,188,94.0
+Apical Surface,44,44,100.0
+Hedgehog Signaling,36,36,100.0
+Complement,200,169,84.5
+Unfolded Protein Response,113,102,90.26548672566372
+PI3K/AKT/mTOR  Signaling,105,101,96.19047619047619
+mTORC1 Signaling,200,179,89.5
+E2F Targets,200,189,94.5
+Myc Targets V1,200,175,87.5
+Myc Targets V2,58,54,93.10344827586206
+Epithelial Mesenchymal Transition,200,188,94.0
+Inflammatory Response,200,177,88.5
+Xenobiotic Metabolism,200,179,89.5
+Fatty Acid Metabolism,158,137,86.70886075949367
+Oxidative Phosphorylation,200,173,86.5
+Glycolysis,200,183,91.5
+Reactive Oxygen Species Pathway,49,44,89.79591836734694
+p53 Pathway,200,186,93.0
+UV Response Up,158,137,86.70886075949367
+UV Response Dn,144,140,97.22222222222223
+Angiogenesis,36,34,94.44444444444444
+heme Metabolism,200,178,89.0
+Coagulation,138,123,89.1304347826087
+IL-2/STAT5 Signaling,199,180,90.45226130653266
+Bile Acid Metabolism,112,106,94.64285714285714
+Pperoxisome,104,94,90.38461538461539
+Allograft Rejection,200,161,80.5
+Spermatogenesis,135,127,94.07407407407408
+KRAS Signaling Up,200,189,94.5
+KRAS Signaling Dn,200,176,88.0
+Pancreas Beta Cells,40,39,97.5

@@ -1,0 +1,37 @@
+species,GSE,matched_samples,control_or_inactivity_samples,exercise_response_samples,subjects_in_both,has_within_study_comparison,classifications,exercise_types,protocols,biopsy_timepoints
+human,GSE108643,57,28,29,28,True,acute exercise; inactivity,aerobic exercise,baseline; cycling,post(0h); pre
+human,GSE120862,84,28,56,7,True,acute exercise; inactivity,resistance exercise,"unilateral knee extensions, exercised leg; unilateral knee extensions, non-exercised leg",post(1h); post(4h); pre
+human,GSE137631,29,23,6,5,True,inactivity; longterm training,combined exercise,"strength exercises, treadmill walking",post; pre
+human,GSE140089,41,36,5,0,True,inactivity; longterm training,resistance exercise,baseline; rehabilitation training,post; pre
+human,GSE151066,56,19,37,19,True,acute exercise; inactivity,aerobic exercise,baseline; cycling,post(0h); post(3h); pre
+human,GSE157585,133,83,50,46,True,inactivity; longterm training,resistance exercise,baseline; resistance exercise sets,post(3d); pre
+human,GSE163356,41,20,21,11,True,acute exercise; inactivity,high-intensity interval training,baseline; cycling,post(3h); pre; pre(Ninth session)
+human,GSE163434,4,2,2,2,True,inactivity; longterm training,resistance exercise,baseline; resistance exercise sets,post(3d); pre
+human,GSE186045,26,19,7,7,True,inactivity; longterm training,combined exercise,baseline; bed rest only; bed rest with exercise,post; pre
+human,GSE195585,98,22,76,22,True,acute exercise; inactivity,resistance exercise,"baseline; unilateral knee extensions, exercised leg",post(1h); post(24h); post(4h); pre
+human,GSE60590,26,8,18,0,True,inactivity; longterm training,aerobic exercise,"baseline; unilateral knee extensions, exercised leg",T1: pre-training period 1; T2: post-training period 1 in trained leg
+human,GSE60833,55,21,34,0,True,inactivity; longterm training,aerobic exercise,"bilateral knee extensions; unilateral knee extensions, non-exercised leg",T3: pre-training period 2 in previously(period 1) trained leg; T4: post-training period 2 in previously(period 1) trained leg; U2: post-training period 1 in untrained leg; U3: pre-training period 2 in previously(period 1) untrained leg; U4: post-training period 2 in previously(period 1) untrained leg
+human,GSE71972,40,15,25,13,True,acute exercise; inactivity,aerobic exercise,"baseline; unilateral knee extensions, exercised leg",post(0h); post(3h); pre
+human,GSE86931,6,2,4,2,True,acute exercise; inactivity,aerobic exercise,baseline; cycling,post(4h); post(8h); pre
+human,GSE87748,18,8,10,8,True,acute exercise; inactivity,aerobic exercise,baseline,post(4h); pre
+human,GSE97084,103,52,51,0,True,inactivity; longterm training,combined exercise; high-intensity interval training; resistance exercise,"cycling, treadmill walking; cycling, weight lifting; weight lifting",post(72h); pre
+human,GSE99963,27,20,7,7,True,inactivity; longterm training,resistance exercise,"baseline; leg press, leg extensions, dumbbell squats",post; pre
+mouse,GSE122116,66,40,26,0,True,inactivity; longterm training,aerobic exercise,voluntary wheel running,post
+mouse,GSE123878,10,5,5,0,True,inactivity; longterm training,aerobic exercise,sedentary; voluntary wheel running,post; post(4–6h)
+mouse,GSE126962,23,13,10,0,True,acute exercise; inactivity,aerobic exercise,sedentary (sham-exercise); treadmill,post(0h); post(12h); post(16h); post(20h); post(4h); post(8h)
+mouse,GSE132520,16,8,8,0,True,acute exercise; inactivity,aerobic exercise,treadmill,post; post(3h)
+mouse,GSE155937,12,6,6,0,True,inactivity; longterm training,aerobic exercise,sedentary; treadmill,post
+mouse,GSE179394,46,26,20,0,True,inactivity; longterm training,aerobic exercise,voluntary wheel running,post
+mouse,GSE180771,15,9,6,0,True,inactivity; longterm training,aerobic exercise,forced downhill running,post
+mouse,GSE186251,12,6,6,0,True,inactivity; longterm training,aerobic exercise,sedentary; treadmill,post
+mouse,GSE198229,60,30,30,0,True,inactivity; longterm training,aerobic exercise,treadmill,post; post(6d)
+mouse,GSE198266,24,12,12,0,True,inactivity; longterm training,aerobic exercise,treadmill,post
+mouse,GSE82164,12,6,6,0,True,inactivity; longterm training,aerobic exercise,swimming,post
+mouse,GSE97718,16,8,8,0,True,acute exercise; inactivity,aerobic exercise,treadmill,post; post(3h)
+human,GSE113165,56,56,0,0,False,inactivity,,baseline; bed rest,post; pre
+human,GSE126865,6,6,0,0,False,inactivity,,baseline; bed rest,post; pre
+human,GSE165630,14,14,0,0,False,inactivity,,baseline,pre
+human,GSE58387,5,5,0,0,False,inactivity,,baseline,pre
+human,GSE58608,22,22,0,0,False,inactivity,,baseline,T1: pre-training period 1
+mouse,GSE138940,8,0,8,0,False,longterm training,aerobic exercise,voluntary wheel running,post
+mouse,GSE205019,3,0,3,0,False,longterm training,aerobic exercise,forced wheel running,post(1d)

@@ -1,0 +1,12 @@
+,adrenal,subcutaneous adipose,cerebellum,heart,liver,lung,mammary gland,ovary,spleen,stomach,testis
+adrenal,0,222,7,1,0,0,0,1,0,0,19
+subcutaneous adipose,1,248,2,3,67,9,26,57,17,0,202
+cerebellum,4,1,3,0,0,0,67,157,0,0,4
+heart,544,7,6,4,240,1,0,0,0,11,10
+liver,0,0,135,0,67,0,0,1,0,19,0
+lung,1,0,0,0,0,282,5,106,37,100,1
+mammary gland,7,94,0,35,38,24,27,72,9,25,114
+ovary,0,8,0,0,0,1,0,53,6,94,11
+spleen,0,12,7,0,3,49,6,0,160,2,0
+stomach,0,29,22,36,0,17,0,1,3,224,15
+testis,0,0,0,0,0,29,0,6,326,0,0

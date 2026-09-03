@@ -1,0 +1,74 @@
+{
+  "retrieved_utc": "2026-09-03T09:10:53.265873+00:00",
+  "service": "g:Profiler g:GOSt",
+  "sources": [
+    "GO:BP",
+    "KEGG",
+    "REAC"
+  ],
+  "multiple_testing": "g:SCS",
+  "significance_threshold": 0.05,
+  "DE": {
+    "gene_set": "axis-consensus full-transcriptome DE Top 100",
+    "background": "union of all edgeR-tested genes in constituent axis studies with an unambiguous human-symbol mapping",
+    "background_sizes": {
+      "Pattern A": 16076,
+      "Pattern B": 17029
+    }
+  },
+  "IG": {
+    "background": "exact 15,165 BridgeRNA genes",
+    "sets": "existing overall and species consensus Top 100; conserved is human/mouse Top-100 intersection"
+  },
+  "theme_rules": [
+    {
+      "theme": "Muscle contraction",
+      "regex": "muscle system process|muscle contraction|striated muscle contraction"
+    },
+    {
+      "theme": "Muscle structure / cytoskeleton",
+      "regex": "cytoskeleton in muscle|muscle structure|muscle organ development|muscle tissue development|striated muscle tissue development|myofibril|actomyosin|sarcomere"
+    },
+    {
+      "theme": "Cardiac contraction / cardiomyopathy",
+      "regex": "cardiac muscle contraction|cardiomyopathy"
+    },
+    {
+      "theme": "Vascular / circulatory development",
+      "regex": "vascular|vasculature|blood vessel|circulatory"
+    },
+    {
+      "theme": "Immune / cytokine signaling",
+      "regex": "immune|cytokine|interferon|interleukin|inflamm|leukocyte|complement"
+    },
+    {
+      "theme": "Lipid / fatty-acid response",
+      "regex": "lipid|fatty acid"
+    },
+    {
+      "theme": "Oxidative / mitochondrial respiration",
+      "regex": "respirat|electron transport|complex i|oxidative phosphorylation|reactive oxygen"
+    },
+    {
+      "theme": "Glycogen / carbohydrate metabolism",
+      "regex": "glycogen|carbohydrate|glucose|glycol"
+    },
+    {
+      "theme": "Metabolic regulation",
+      "regex": "metabolic|metabolism|biosynthetic"
+    },
+    {
+      "theme": "Oxygen / cellular stress response",
+      "regex": "oxygen-containing|hypoxi|stress|unfolded protein|heat shock"
+    },
+    {
+      "theme": "General tissue / organ development",
+      "regex": "tissue development|organ development|multicellular organismal"
+    }
+  ],
+  "blank_cells": "no significant corrected source term mapped to theme",
+  "study_descriptions": {
+    "Pattern A": "Human GSE108643/GSE86931: vastus lateralis cycling (immediate at 50% VO\u2082max/650 kcal; 4 h after 70 min at 70% VO\u2082max).\nMouse GSE126962/GSE132520: gastrocnemius/quadriceps treadmill responses at 3\u20134 h (60 min ramped and submaximal ramped protocols).",
+    "Pattern B": "Human GSE71972/GSE87748: vastus lateralis after 60 min moderate unilateral knee extension (immediate) or 15 min at 80% VO\u2082max (4 h).\nMouse GSE97718: quadriceps 3 h after one maximal treadmill-to-exhaustion session."
+  }
+}

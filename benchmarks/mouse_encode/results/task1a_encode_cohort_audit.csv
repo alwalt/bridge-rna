@@ -1,0 +1,42 @@
+sample_id,species,tissue,source_tissue,sex,age,strain,study_accession,experiment_accession,biosample_accession,quant_file,annotation,included,exclusion_reason
+ENCFF634BLK,mouse,adrenal,adrenal gland,male,2 months,B6CASTF1/J,ENCSR007NGM,ENCSR007NGM,ENCBS110BLI; ENCBS886TIW,/home/walt/bridge-rna/data/encode/files/ENCFF634BLK.tsv,M21,True,
+ENCFF463LHQ,mouse,adrenal,adrenal gland,male,8-10 months,5xFAD/CAST,ENCSR129DEA,ENCSR129DEA,ENCBS515VBP; ENCBS943GNI,/home/walt/bridge-rna/data/encode/files/ENCFF463LHQ.tsv,M21,False,disease-model strain (5xFAD/CAST)
+ENCFF941XXI,mouse,adrenal,adrenal gland,female,8-10 months,B6CASTF1/J,ENCSR173MHB,ENCSR173MHB,ENCBS703JRK; ENCBS858KWH,/home/walt/bridge-rna/data/encode/files/ENCFF941XXI.tsv,M21,True,
+ENCFF739KFI,mouse,adrenal,adrenal gland,male,8-10 months,B6CASTF1/J,ENCSR249EFE,ENCSR249EFE,ENCBS882DIZ; ENCBS962RLX,/home/walt/bridge-rna/data/encode/files/ENCFF739KFI.tsv,M21,True,
+ENCFF883HID,mouse,adrenal,adrenal gland,female,2 months,B6CASTF1/J,ENCSR288BJQ,ENCSR288BJQ,ENCBS393LTW; ENCBS838VBH,/home/walt/bridge-rna/data/encode/files/ENCFF883HID.tsv,M21,True,
+ENCFF288KSK,mouse,adrenal,adrenal gland,female,18-20 months,B6CASTF1/J,ENCSR442XRH,ENCSR442XRH,ENCBS180MQS; ENCBS703MDQ,/home/walt/bridge-rna/data/encode/files/ENCFF288KSK.tsv,M21,True,
+ENCFF859PQU,mouse,adrenal,adrenal gland,female,8-10 months,5xFAD/CAST,ENCSR511LAZ,ENCSR511LAZ,ENCBS206LPG; ENCBS375TMX,/home/walt/bridge-rna/data/encode/files/ENCFF859PQU.tsv,M21,False,disease-model strain (5xFAD/CAST)
+ENCFF890GTZ,mouse,adrenal,adrenal gland,male,18-20 months,B6CASTF1/J,ENCSR748DUR,ENCSR748DUR,ENCBS999WBI,/home/walt/bridge-rna/data/encode/files/ENCFF890GTZ.tsv,M21,True,
+ENCFF806DOB,mouse,cortex,left cerebral cortex,female,2 months,B6CASTF1/J,ENCSR219ZXZ,ENCSR219ZXZ,ENCBS121OPX; ENCBS235YYJ,/home/walt/bridge-rna/data/encode/files/ENCFF806DOB.tsv,M21,True,
+ENCFF076AUQ,mouse,cortex,left cerebral cortex,male,8-10 months,5xFAD/CAST,ENCSR299GYD,ENCSR299GYD,ENCBS264WGP; ENCBS328ZHX,/home/walt/bridge-rna/data/encode/files/ENCFF076AUQ.tsv,M21,False,disease-model strain (5xFAD/CAST)
+ENCFF062FKP,mouse,cortex,left cerebral cortex,male,2 months,B6CASTF1/J,ENCSR496PRU,ENCSR496PRU,ENCBS350BQS; ENCBS790MBN,/home/walt/bridge-rna/data/encode/files/ENCFF062FKP.tsv,M21,True,
+ENCFF494NWW,mouse,cortex,left cerebral cortex,female,8-10 months,B6CASTF1/J,ENCSR588BJN,ENCSR588BJN,ENCBS379IPL; ENCBS779EQI,/home/walt/bridge-rna/data/encode/files/ENCFF494NWW.tsv,M21,True,
+ENCFF833HPL,mouse,cortex,left cerebral cortex,female,18-20 months,B6CASTF1/J,ENCSR712PLG,ENCSR712PLG,ENCBS774TTB; ENCBS833RXG,/home/walt/bridge-rna/data/encode/files/ENCFF833HPL.tsv,M21,True,
+ENCFF692XOT,mouse,cortex,left cerebral cortex,female,8-10 months,5xFAD/CAST,ENCSR723XFW,ENCSR723XFW,ENCBS505BIQ; ENCBS869WPR,/home/walt/bridge-rna/data/encode/files/ENCFF692XOT.tsv,M21,False,disease-model strain (5xFAD/CAST)
+ENCFF707MBR,mouse,cortex,left cerebral cortex,male,8-10 months,B6CASTF1/J,ENCSR879VZJ,ENCSR879VZJ,ENCBS154EVO; ENCBS902QEZ,/home/walt/bridge-rna/data/encode/files/ENCFF707MBR.tsv,M21,True,
+ENCFF715VBJ,mouse,cortex,left cerebral cortex,male,18-20 months,B6CASTF1/J,ENCSR996TVY,ENCSR996TVY,ENCBS321KXV; ENCBS972OCB,/home/walt/bridge-rna/data/encode/files/ENCFF715VBJ.tsv,M21,True,
+ENCFF792RJS,mouse,heart,heart,male,2 months,B6CASTF1/J,ENCSR201FJT,ENCSR201FJT,ENCBS154PWG; ENCBS297GPP,/home/walt/bridge-rna/data/encode/files/ENCFF792RJS.tsv,M21,True,
+ENCFF225ZGJ,mouse,heart,heart,male,8-10 months,B6CASTF1/J,ENCSR389GJZ,ENCSR389GJZ,ENCBS081XNT; ENCBS989OMB,/home/walt/bridge-rna/data/encode/files/ENCFF225ZGJ.tsv,M21,True,
+ENCFF658ONP,mouse,heart,heart,female,18-20 months,B6CASTF1/J,ENCSR465PBJ,ENCSR465PBJ,ENCBS007ZPS; ENCBS281CBG,/home/walt/bridge-rna/data/encode/files/ENCFF658ONP.tsv,M21,True,
+ENCFF258WVY,mouse,heart,heart,male,8-10 months,5xFAD/CAST,ENCSR584OSM,ENCSR584OSM,ENCBS391BLT; ENCBS657KFM,/home/walt/bridge-rna/data/encode/files/ENCFF258WVY.tsv,M21,False,disease-model strain (5xFAD/CAST)
+ENCFF081BLO,mouse,heart,heart,female,8-10 months,B6CASTF1/J,ENCSR674QMU,ENCSR674QMU,ENCBS225NBG; ENCBS825FXB,/home/walt/bridge-rna/data/encode/files/ENCFF081BLO.tsv,M21,True,
+ENCFF519HZD,mouse,heart,heart,male,18-20 months,B6CASTF1/J,ENCSR795WFC,ENCSR795WFC,ENCBS540JOT; ENCBS897MIA,/home/walt/bridge-rna/data/encode/files/ENCFF519HZD.tsv,M21,True,
+ENCFF260OJQ,mouse,heart,heart,female,8-10 months,5xFAD/CAST,ENCSR967IKT,ENCSR967IKT,ENCBS669PYZ; ENCBS734MAN,/home/walt/bridge-rna/data/encode/files/ENCFF260OJQ.tsv,M21,False,disease-model strain (5xFAD/CAST)
+ENCFF894UGW,mouse,heart,heart,female,2 months,B6CASTF1/J,ENCSR984JDC,ENCSR984JDC,ENCBS353NKX; ENCBS759GYL,/home/walt/bridge-rna/data/encode/files/ENCFF894UGW.tsv,M21,True,
+ENCFF250LIY,mouse,hippocampus,layer of hippocampus,male,2 months,B6CASTF1/J,ENCSR330DDD,ENCSR330DDD,ENCBS379YDE; ENCBS762CAG,/home/walt/bridge-rna/data/encode/files/ENCFF250LIY.tsv,M21,True,
+ENCFF188SRP,mouse,hippocampus,layer of hippocampus,female,18-20 months,B6CASTF1/J,ENCSR390XPU,ENCSR390XPU,ENCBS528DMR; ENCBS953PDK,/home/walt/bridge-rna/data/encode/files/ENCFF188SRP.tsv,M21,True,
+ENCFF315QLH,mouse,hippocampus,layer of hippocampus,male,8-10 months,5xFAD/CAST,ENCSR549HQM,ENCSR549HQM,ENCBS116ERU; ENCBS830OUL,/home/walt/bridge-rna/data/encode/files/ENCFF315QLH.tsv,M21,False,disease-model strain (5xFAD/CAST)
+ENCFF281OSY,mouse,hippocampus,layer of hippocampus,male,18-20 months,B6CASTF1/J,ENCSR576HNP,ENCSR576HNP,ENCBS168YXE; ENCBS226ECT,/home/walt/bridge-rna/data/encode/files/ENCFF281OSY.tsv,M21,True,
+ENCFF461HYK,mouse,hippocampus,layer of hippocampus,female,8-10 months,B6CASTF1/J,ENCSR637GLC,ENCSR637GLC,ENCBS040JRN; ENCBS812WTH,/home/walt/bridge-rna/data/encode/files/ENCFF461HYK.tsv,M21,True,
+ENCFF760XUJ,mouse,hippocampus,layer of hippocampus,male,8-10 months,B6CASTF1/J,ENCSR801JDZ,ENCSR801JDZ,ENCBS090XCX; ENCBS608BJZ,/home/walt/bridge-rna/data/encode/files/ENCFF760XUJ.tsv,M21,True,
+ENCFF006EWX,mouse,hippocampus,layer of hippocampus,female,8-10 months,5xFAD/CAST,ENCSR886NLC,ENCSR886NLC,ENCBS125BDZ; ENCBS900NRB,/home/walt/bridge-rna/data/encode/files/ENCFF006EWX.tsv,M21,False,disease-model strain (5xFAD/CAST)
+ENCFF802PHC,mouse,hippocampus,layer of hippocampus,female,2 months,B6CASTF1/J,ENCSR912TCG,ENCSR912TCG,ENCBS422YFH; ENCBS912RBR,/home/walt/bridge-rna/data/encode/files/ENCFF802PHC.tsv,M21,True,
+ENCFF161ZNN,mouse,liver,liver,unknown,2 months,C57BL/6J,ENCSR000AJU,ENCSR000AJU,ENCBS093RNA; ENCBS094RNA,/home/walt/bridge-rna/data/encode/files/ENCFF161ZNN.tsv,M21,True,
+ENCFF546IKJ,mouse,skeletal muscle,gastrocnemius,male,8-10 months,B6CASTF1/J,ENCSR000OCV,ENCSR000OCV,ENCBS722CXC; ENCBS845UIZ,/home/walt/bridge-rna/data/encode/files/ENCFF546IKJ.tsv,M21,True,
+ENCFF312RDW,mouse,skeletal muscle,gastrocnemius,male,8-10 months,5xFAD/CAST,ENCSR086MHH,ENCSR086MHH,ENCBS197MJZ; ENCBS480BER,/home/walt/bridge-rna/data/encode/files/ENCFF312RDW.tsv,M21,False,disease-model strain (5xFAD/CAST)
+ENCFF380NDK,mouse,skeletal muscle,gastrocnemius,female,8-10 months,5xFAD/CAST,ENCSR093SMP,ENCSR093SMP,ENCBS105OZV; ENCBS370ZSH,/home/walt/bridge-rna/data/encode/files/ENCFF380NDK.tsv,M21,False,disease-model strain (5xFAD/CAST)
+ENCFF117PAU,mouse,skeletal muscle,gastrocnemius,male,18-20 months,B6CASTF1/J,ENCSR095VGF,ENCSR095VGF,ENCBS752ONG; ENCBS861KNF,/home/walt/bridge-rna/data/encode/files/ENCFF117PAU.tsv,M21,True,
+ENCFF947UNC,mouse,skeletal muscle,gastrocnemius,female,18-20 months,B6CASTF1/J,ENCSR502ORP,ENCSR502ORP,ENCBS216EDC; ENCBS655BBB,/home/walt/bridge-rna/data/encode/files/ENCFF947UNC.tsv,M21,True,
+ENCFF731ZHP,mouse,skeletal muscle,gastrocnemius,female,2 months,B6CASTF1/J,ENCSR791UVS,ENCSR791UVS,ENCBS523ZPG; ENCBS821KNX,/home/walt/bridge-rna/data/encode/files/ENCFF731ZHP.tsv,M21,True,
+ENCFF365VIK,mouse,skeletal muscle,gastrocnemius,male,2 months,B6CASTF1/J,ENCSR809JHL,ENCSR809JHL,ENCBS258UBR; ENCBS689CSE,/home/walt/bridge-rna/data/encode/files/ENCFF365VIK.tsv,M21,True,
+ENCFF938PSN,mouse,skeletal muscle,gastrocnemius,female,8-10 months,B6CASTF1/J,ENCSR960ZZW,ENCSR960ZZW,ENCBS266MYR; ENCBS720GRG,/home/walt/bridge-rna/data/encode/files/ENCFF938PSN.tsv,M21,True,

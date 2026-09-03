@@ -1,0 +1,27 @@
+{
+  "human_geprep": "data/geprep/e2lvzaf49r_human.txt",
+  "mouse_geprep": "data/geprep/ygk689iqfx_mouse.txt",
+  "sample_manifest": "data/manifests/sample_manifest.parquet",
+  "embedding_directory": "embeddings/archs4",
+  "archs4_shard_directory": "/mnt/d/wsl-data-archive/Attention_archs4/train_orthologs_sharded/batch_files",
+  "canonical_genes": "data/ensembl/canonical_genes.csv",
+  "pca_components": 512,
+  "seed": 42,
+  "focus_condition": "acute aerobic exercise",
+  "hallmark_readout": {
+    "sample_count": 40000,
+    "hallmark_gene_sets": "data/gsea/hallmark_gene_sets.json",
+    "pca_components": 512,
+    "seed": 42,
+    "batch_size": 256,
+    "epochs": 50,
+    "patience": 8,
+    "learning_rate": 0.001,
+    "external_tcga_expression": "benchmarks/tcga_downstream/work/ours_log1p_tpm.npy",
+    "external_tcga_embeddings": "benchmarks/tcga_downstream/work/ours_45.6m_embeddings.npy",
+    "external_tcga_manifest": "benchmarks/tcga_downstream/results/cohort_manifest.parquet",
+    "external_gtex_expression": "benchmarks/mouse_encode/work/expanded_gtex_log1p_tpm.npy",
+    "external_gtex_embeddings": "benchmarks/mouse_encode/work/expanded_gtex_bridgerna_embeddings.npy",
+    "external_gtex_manifest": "benchmarks/mouse_encode/results/task1a_balanced_geometry/sample_manifest.parquet"
+  }
+}

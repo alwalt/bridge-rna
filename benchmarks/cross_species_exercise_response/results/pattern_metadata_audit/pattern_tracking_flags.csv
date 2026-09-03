@@ -1,0 +1,12 @@
+variable,assessment,evidence
+species,Does not track,Both A and B contain human and mouse studies.
+exercise modality,Does not track,All selected contrasts are aerobic exercise.
+protocol,Strong partial tracking,Both A human studies are cycling; B human studies use knee extension or an incompletely reported baseline protocol. Mouse studies are treadmill in both patterns.
+duration/intensity,Possible biological confounding,"Protocols differ by study; B includes 80% VO2max and maximal exhaustion, but moderate exercise also occurs in B and intensive exercise in A."
+post-exercise time,Does not track,Both patterns contain immediate and 3–4 h sampling.
+muscle/site,Does not track,Vastus lateralis and quadriceps occur across patterns; gastrocnemius occurs only in one A study.
+paired vs control design,Does not independently track,Human studies are paired and mouse studies use independent groups in both patterns; this is confounded with species.
+sequencing instrument,Strong partial tracking,"All B studies use Illumina HiSeq 2500; A is heterogeneous (HiSeq 2500, HiSeq 2000, NovaSeq 6000). HiSeq 2500 is not exclusive to B."
+library preparation/molecule,Does not track,PolyA and ribo-zero occur across patterns; preparation and layout largely follow study/species.
+sex,Does not track / limited,Reported studies are predominantly male; sex is missing for GSE71972.
+training status,Possible / incomplete,Available A human metadata include trained; B includes active or sedentary. Most A samples and all mouse studies lack this field.

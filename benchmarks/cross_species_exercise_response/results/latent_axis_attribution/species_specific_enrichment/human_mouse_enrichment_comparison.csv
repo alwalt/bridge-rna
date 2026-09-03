@@ -1,0 +1,3 @@
+axis,human_top100,mouse_top100,shared_top100_genes,gene_jaccard,GO:BP_human_terms,GO:BP_mouse_terms,GO:BP_shared_terms,GO:BP_human_only,GO:BP_mouse_only,GO:BP_jaccard,KEGG_human_terms,KEGG_mouse_terms,KEGG_shared_terms,KEGG_human_only,KEGG_mouse_only,KEGG_jaccard,REAC_human_terms,REAC_mouse_terms,REAC_shared_terms,REAC_human_only,REAC_mouse_only,REAC_jaccard
+Axis A,100,100,31,0.1834319526627219,1,2,0,1,2,0.0,1,4,1,0,3,0.25,2,3,2,0,1,0.6666666666666666
+Axis B,100,100,27,0.15606936416184972,2,1,0,2,1,0.0,1,6,1,0,5,0.16666666666666666,2,6,2,0,4,0.3333333333333333

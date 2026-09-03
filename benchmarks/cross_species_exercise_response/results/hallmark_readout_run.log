@@ -1,0 +1,284 @@
+[12:38:55] Cohort: 40,000 samples across 20,643 GSEs
+[12:39:26] Expression batch_00000.parquet: 929 selected samples
+[12:39:54] Expression batch_00001.parquet: 847 selected samples
+[12:40:23] Expression batch_00002.parquet: 1,265 selected samples
+[12:40:55] Expression batch_00003.parquet: 1,723 selected samples
+[12:41:23] Expression batch_00004.parquet: 789 selected samples
+[12:41:51] Expression batch_00005.parquet: 661 selected samples
+[12:42:19] Expression batch_00006.parquet: 683 selected samples
+[12:42:47] Expression batch_00007.parquet: 915 selected samples
+[12:43:15] Expression batch_00008.parquet: 768 selected samples
+[12:43:44] Expression batch_00009.parquet: 696 selected samples
+[12:44:12] Expression batch_00010.parquet: 735 selected samples
+[12:44:40] Expression batch_00011.parquet: 762 selected samples
+[12:45:08] Expression batch_00012.parquet: 775 selected samples
+[12:45:36] Expression batch_00013.parquet: 855 selected samples
+[12:46:05] Expression batch_00014.parquet: 753 selected samples
+[12:46:33] Expression batch_00015.parquet: 816 selected samples
+[12:47:01] Expression batch_00016.parquet: 760 selected samples
+[12:47:29] Expression batch_00017.parquet: 811 selected samples
+[12:47:57] Expression batch_00018.parquet: 784 selected samples
+[12:48:25] Expression batch_00019.parquet: 885 selected samples
+[12:48:54] Expression batch_00020.parquet: 668 selected samples
+[12:49:22] Expression batch_00021.parquet: 749 selected samples
+[12:49:50] Expression batch_00022.parquet: 656 selected samples
+[12:50:18] Expression batch_00023.parquet: 790 selected samples
+[12:50:46] Expression batch_00024.parquet: 801 selected samples
+[12:51:14] Expression batch_00025.parquet: 785 selected samples
+[12:51:42] Expression batch_00026.parquet: 787 selected samples
+[12:52:10] Expression batch_00027.parquet: 762 selected samples
+[12:52:39] Expression batch_00028.parquet: 1,166 selected samples
+[12:53:07] Expression batch_00029.parquet: 744 selected samples
+[12:53:35] Expression batch_00030.parquet: 562 selected samples
+[12:54:03] Expression batch_00031.parquet: 689 selected samples
+[12:54:31] Expression batch_00032.parquet: 846 selected samples
+[12:54:59] Expression batch_00033.parquet: 736 selected samples
+[12:55:27] Expression batch_00034.parquet: 668 selected samples
+[12:55:55] Expression batch_00035.parquet: 405 selected samples
+[12:56:23] Expression batch_00036.parquet: 605 selected samples
+[12:56:51] Expression batch_00037.parquet: 694 selected samples
+[12:57:18] Expression batch_00038.parquet: 564 selected samples
+[12:57:47] Expression batch_00039.parquet: 748 selected samples
+[12:58:15] Expression batch_00040.parquet: 610 selected samples
+[12:58:43] Expression batch_00041.parquet: 561 selected samples
+[12:59:17] Expression batch_00042.parquet: 1,246 selected samples
+[13:00:13] Expression batch_00043.parquet: 1,487 selected samples
+[13:01:09] Expression batch_00044.parquet: 1,406 selected samples
+[13:02:05] Expression batch_00045.parquet: 1,223 selected samples
+[13:03:01] Expression batch_00046.parquet: 1,772 selected samples
+[13:03:06] Expression batch_00047.parquet: 58 selected samples
+[13:03:11] ssGSEA: 2,048/40,000 samples
+[13:03:15] ssGSEA: 4,096/40,000 samples
+[13:03:19] ssGSEA: 6,144/40,000 samples
+[13:03:23] ssGSEA: 8,192/40,000 samples
+[13:03:27] ssGSEA: 10,240/40,000 samples
+[13:03:30] ssGSEA: 12,288/40,000 samples
+[13:03:34] ssGSEA: 14,336/40,000 samples
+[13:03:38] ssGSEA: 16,384/40,000 samples
+[13:03:42] ssGSEA: 18,432/40,000 samples
+[13:03:47] ssGSEA: 20,480/40,000 samples
+[13:03:50] ssGSEA: 22,528/40,000 samples
+[13:03:54] ssGSEA: 24,576/40,000 samples
+[13:03:58] ssGSEA: 26,624/40,000 samples
+[13:04:01] ssGSEA: 28,672/40,000 samples
+[13:04:05] ssGSEA: 30,720/40,000 samples
+[13:04:09] ssGSEA: 32,768/40,000 samples
+[13:04:13] ssGSEA: 34,816/40,000 samples
+[13:04:17] ssGSEA: 36,864/40,000 samples
+[13:04:20] ssGSEA: 38,912/40,000 samples
+[13:04:22] ssGSEA: 40,000/40,000 samples
+[13:04:23] Fitting 512-component PCA on 32,029 training samples only
+Traceback (most recent call last):
+  File "/home/walt/bridge-rna/benchmarks/cross_species_exercise_response/pipeline/run_hallmark_readout.py", line 370, in <module>
+    main()
+  File "/home/walt/bridge-rna/benchmarks/cross_species_exercise_response/pipeline/run_hallmark_readout.py", line 341, in main
+    fits={"bridgerna":fit_head("bridgerna",embeddings,targets,cohort,hcfg),"pca":fit_head("pca",pca_features,targets,cohort,hcfg)}
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/benchmarks/cross_species_exercise_response/pipeline/run_hallmark_readout.py", line 259, in fit_head
+    optimizer = torch.optim.AdamW(model.parameters(), lr=float(cfg["learning_rate"]), weight_decay=1e-4)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/optim/adamw.py", line 36, in __init__
+    super().__init__(
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/optim/adam.py", line 102, in __init__
+    super().__init__(params, defaults)
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/optim/optimizer.py", line 405, in __init__
+    self.add_param_group(cast(dict, param_group))
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/_compile.py", line 47, in inner
+    import torch._dynamo
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/_dynamo/__init__.py", line 78, in <module>
+    from .polyfills import loader as _  # usort: skip # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/_dynamo/polyfills/loader.py", line 35, in <module>
+    POLYFILLED_MODULES: tuple["ModuleType", ...] = tuple(
+                                                   ^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/_dynamo/polyfills/loader.py", line 36, in <genexpr>
+    importlib.import_module(f".{submodule}", package=polyfills.__name__)
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/_dynamo/polyfills/sys.py", line 31, in <module>
+    @substitute_in_graph(sys.get_int_max_str_digits, can_constant_fold_through=True)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'sys' has no attribute 'get_int_max_str_digits'
+[13:05:25] Cohort: 40,000 samples across 20,643 GSEs
+[13:05:25] Reusing cached ARCHS4 log1p(TPM) matrix
+[13:05:25] Reusing cached BridgeRNA embeddings
+[13:05:25] Reusing cached Hallmark ssGSEA targets
+[13:05:25] Reusing cached PCA representation
+Traceback (most recent call last):
+  File "/home/walt/bridge-rna/benchmarks/cross_species_exercise_response/pipeline/run_hallmark_readout.py", line 377, in <module>
+    main()
+  File "/home/walt/bridge-rna/benchmarks/cross_species_exercise_response/pipeline/run_hallmark_readout.py", line 348, in main
+    fits={"bridgerna":fit_head("bridgerna",embeddings,targets,cohort,hcfg),"pca":fit_head("pca",pca_features,targets,cohort,hcfg)}
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/benchmarks/cross_species_exercise_response/pipeline/run_hallmark_readout.py", line 266, in fit_head
+    optimizer = torch.optim.AdamW(model.parameters(), lr=float(cfg["learning_rate"]), weight_decay=1e-4)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/optim/adamw.py", line 36, in __init__
+    super().__init__(
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/optim/adam.py", line 102, in __init__
+    super().__init__(params, defaults)
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/optim/optimizer.py", line 405, in __init__
+    self.add_param_group(cast(dict, param_group))
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/_compile.py", line 47, in inner
+    import torch._dynamo
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/_dynamo/__init__.py", line 78, in <module>
+    from .polyfills import loader as _  # usort: skip # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/_dynamo/polyfills/loader.py", line 35, in <module>
+    POLYFILLED_MODULES: tuple["ModuleType", ...] = tuple(
+                                                   ^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/_dynamo/polyfills/loader.py", line 36, in <genexpr>
+    importlib.import_module(f".{submodule}", package=polyfills.__name__)
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/_dynamo/polyfills/sys.py", line 35, in <module>
+    @substitute_in_graph(sys.set_int_max_str_digits, can_constant_fold_through=True)
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/_dynamo/decorators.py", line 948, in wrapper
+    raise TypeError(
+TypeError: Signature mismatch between <function <lambda> at 0x77fdf1410680> and <function set_int_max_str_digits at 0x77fcb3a9a520>: (value) != (maxdigits: 'int') -> 'None'
+[13:05:40] Cohort: 40,000 samples across 20,643 GSEs
+[13:05:40] Reusing cached ARCHS4 log1p(TPM) matrix
+[13:05:40] Reusing cached BridgeRNA embeddings
+[13:05:40] Reusing cached Hallmark ssGSEA targets
+[13:05:40] Reusing cached PCA representation
+[13:05:43] bridgerna epoch=01 train=0.25448 val=0.13634
+[13:05:43] bridgerna epoch=02 train=0.12855 val=0.10490
+[13:05:44] bridgerna epoch=03 train=0.11152 val=0.10036
+[13:05:44] bridgerna epoch=04 train=0.10432 val=0.08855
+[13:05:45] bridgerna epoch=05 train=0.09900 val=0.08863
+[13:05:45] bridgerna epoch=06 train=0.09500 val=0.08906
+[13:05:46] bridgerna epoch=07 train=0.09317 val=0.08413
+[13:05:46] bridgerna epoch=08 train=0.09032 val=0.07944
+[13:05:47] bridgerna epoch=09 train=0.08764 val=0.07961
+[13:05:47] bridgerna epoch=10 train=0.08819 val=0.08361
+[13:05:48] bridgerna epoch=11 train=0.08628 val=0.07719
+[13:05:48] bridgerna epoch=12 train=0.08393 val=0.07322
+[13:05:49] bridgerna epoch=13 train=0.08307 val=0.07454
+[13:05:49] bridgerna epoch=14 train=0.08261 val=0.07431
+[13:05:50] bridgerna epoch=15 train=0.08123 val=0.07548
+[13:05:51] bridgerna epoch=16 train=0.08039 val=0.07564
+[13:05:51] bridgerna epoch=17 train=0.08087 val=0.07284
+[13:05:52] bridgerna epoch=18 train=0.07926 val=0.07153
+[13:05:52] bridgerna epoch=19 train=0.07855 val=0.07360
+[13:05:53] bridgerna epoch=20 train=0.07757 val=0.07299
+[13:05:53] bridgerna epoch=21 train=0.07924 val=0.07324
+[13:05:54] bridgerna epoch=22 train=0.07651 val=0.07034
+[13:05:55] bridgerna epoch=23 train=0.07806 val=0.07027
+[13:05:55] bridgerna epoch=24 train=0.07624 val=0.07116
+[13:05:56] bridgerna epoch=25 train=0.07684 val=0.06898
+[13:05:56] bridgerna epoch=26 train=0.07702 val=0.06824
+[13:05:57] bridgerna epoch=27 train=0.07502 val=0.07204
+[13:05:57] bridgerna epoch=28 train=0.07523 val=0.06759
+[13:05:58] bridgerna epoch=29 train=0.07561 val=0.06766
+[13:05:58] bridgerna epoch=30 train=0.07414 val=0.06670
+[13:05:59] bridgerna epoch=31 train=0.07416 val=0.06761
+[13:06:00] bridgerna epoch=32 train=0.07356 val=0.06874
+[13:06:00] bridgerna epoch=33 train=0.07570 val=0.06600
+[13:06:01] bridgerna epoch=34 train=0.07345 val=0.06578
+[13:06:01] bridgerna epoch=35 train=0.07341 val=0.06561
+[13:06:02] bridgerna epoch=36 train=0.07255 val=0.06844
+[13:06:02] bridgerna epoch=37 train=0.07225 val=0.07174
+[13:06:03] bridgerna epoch=38 train=0.07210 val=0.06525
+[13:06:03] bridgerna epoch=39 train=0.07137 val=0.07150
+[13:06:04] bridgerna epoch=40 train=0.07299 val=0.06497
+[13:06:05] bridgerna epoch=41 train=0.07244 val=0.06413
+[13:06:05] bridgerna epoch=42 train=0.07141 val=0.06806
+[13:06:06] bridgerna epoch=43 train=0.07181 val=0.06797
+[13:06:06] bridgerna epoch=44 train=0.07178 val=0.06850
+[13:06:07] bridgerna epoch=45 train=0.07146 val=0.06680
+[13:06:07] bridgerna epoch=46 train=0.07079 val=0.06686
+[13:06:08] bridgerna epoch=47 train=0.07107 val=0.06501
+[13:06:08] bridgerna epoch=48 train=0.07078 val=0.06496
+[13:06:09] bridgerna epoch=49 train=0.06957 val=0.06976
+[13:06:10] pca epoch=01 train=0.40401 val=0.08115
+[13:06:10] pca epoch=02 train=0.08255 val=0.05511
+[13:06:11] pca epoch=03 train=0.06709 val=0.04843
+[13:06:11] pca epoch=04 train=0.06576 val=0.04237
+[13:06:12] pca epoch=05 train=0.05616 val=0.04088
+[13:06:12] pca epoch=06 train=0.05210 val=0.03904
+[13:06:13] pca epoch=07 train=0.04816 val=0.03755
+[13:06:13] pca epoch=08 train=0.04841 val=0.03566
+[13:06:14] pca epoch=09 train=0.04484 val=0.03553
+[13:06:15] pca epoch=10 train=0.04552 val=0.03485
+[13:06:15] pca epoch=11 train=0.04330 val=0.03347
+[13:06:16] pca epoch=12 train=0.04241 val=0.03266
+[13:06:17] pca epoch=13 train=0.04139 val=0.03180
+[13:06:17] pca epoch=14 train=0.04133 val=0.03215
+[13:06:18] pca epoch=15 train=0.04026 val=0.03233
+[13:06:18] pca epoch=16 train=0.04081 val=0.03168
+[13:06:19] pca epoch=17 train=0.04197 val=0.03213
+[13:06:19] pca epoch=18 train=0.04079 val=0.03241
+[13:06:20] pca epoch=19 train=0.04228 val=0.03278
+[13:06:20] pca epoch=20 train=0.04452 val=0.03280
+[13:06:21] pca epoch=21 train=0.04206 val=0.03140
+[13:06:21] pca epoch=22 train=0.04308 val=0.03095
+[13:06:22] pca epoch=23 train=0.04046 val=0.03082
+[13:06:23] pca epoch=24 train=0.03995 val=0.03234
+[13:06:23] pca epoch=25 train=0.04141 val=0.03063
+[13:06:24] pca epoch=26 train=0.03982 val=0.03049
+[13:06:24] pca epoch=27 train=0.03909 val=0.03114
+[13:06:25] pca epoch=28 train=0.03957 val=0.03226
+[13:06:25] pca epoch=29 train=0.03904 val=0.03070
+[13:06:26] pca epoch=30 train=0.04745 val=0.03414
+[13:06:26] pca epoch=31 train=0.04645 val=0.03289
+[13:06:27] pca epoch=32 train=0.04710 val=0.03307
+[13:06:28] pca epoch=33 train=0.04517 val=0.03313
+[13:06:28] pca epoch=34 train=0.04646 val=0.03215
+[13:06:33] ssGSEA: 2,048/9,816 samples
+[13:06:37] ssGSEA: 4,096/9,816 samples
+[13:06:42] ssGSEA: 6,144/9,816 samples
+[13:06:46] ssGSEA: 8,192/9,816 samples
+[13:06:49] ssGSEA: 9,816/9,816 samples
+[13:06:51] gtex: manifest length differs; metrics remain row-aligned by prepared matrices
+[13:06:55] ssGSEA: 2,048/4,260 samples
+[13:06:59] ssGSEA: 4,096/4,260 samples
+[13:06:59] ssGSEA: 4,260/4,260 samples
+Traceback (most recent call last):
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/compat/_optional.py", line 135, in import_optional_dependency
+    module = importlib.import_module(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'tabulate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/walt/bridge-rna/benchmarks/cross_species_exercise_response/pipeline/run_hallmark_readout.py", line 381, in <module>
+    main()
+  File "/home/walt/bridge-rna/benchmarks/cross_species_exercise_response/pipeline/run_hallmark_readout.py", line 376, in main
+    lines=["# Exploratory Hallmark readout", "", summary.to_markdown(index=False), "", "BridgeRNA remained frozen; both readout heads use the same architecture and study-held-out split."]
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/core/frame.py", line 2994, in to_markdown
+    tabulate = import_optional_dependency("tabulate")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/compat/_optional.py", line 138, in import_optional_dependency
+    raise ImportError(msg)
+ImportError: Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate.
+[13:07:22] Cohort: 40,000 samples across 20,643 GSEs
+[13:07:22] Reusing cached ARCHS4 log1p(TPM) matrix
+[13:07:22] Reusing cached BridgeRNA embeddings
+[13:07:22] Reusing cached Hallmark ssGSEA targets
+[13:07:22] Reusing cached PCA representation
+[13:07:22] Reusing trained bridgerna Hallmark head
+[13:07:22] Reusing trained pca Hallmark head
+[13:07:26] ssGSEA: 2,048/9,816 samples
+[13:07:31] ssGSEA: 4,096/9,816 samples
+[13:07:35] ssGSEA: 6,144/9,816 samples
+[13:07:39] ssGSEA: 8,192/9,816 samples
+[13:07:42] ssGSEA: 9,816/9,816 samples
+[13:07:44] gtex: manifest length differs; metrics remain row-aligned by prepared matrices
+[13:07:48] ssGSEA: 2,048/4,260 samples
+[13:07:52] ssGSEA: 4,096/4,260 samples
+[13:07:52] ssGSEA: 4,260/4,260 samples
+[13:07:56] Hallmark readout complete

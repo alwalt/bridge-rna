@@ -1,0 +1,11 @@
+{
+  "encoder": "frozen r7hnr92k",
+  "contextual_tensor_cached": false,
+  "training_samples": 256,
+  "training_GSEs": 256,
+  "split_unit": "GSE",
+  "epochs": 2,
+  "membership_target": "fixed binary gene x Hallmark",
+  "interpretation": "sigmoid outputs are contextual association scores, not pathway activity probabilities",
+  "seed": 42
+}

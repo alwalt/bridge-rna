@@ -1,0 +1,239 @@
+column,source,native,name,p_value,intersection_size,pattern,theme
+Full-transcriptome DE,GO:BP,GO:0009888,tissue development,7.26726373020661e-11,39,Pattern A,General tissue / organ development
+Full-transcriptome DE,GO:BP,GO:0048513,animal organ development,2.4015366134455923e-09,45,Pattern A,General tissue / organ development
+Full-transcriptome DE,GO:BP,GO:0072359,circulatory system development,2.5852335046090575e-09,30,Pattern A,Vascular / circulatory development
+Full-transcriptome DE,GO:BP,GO:0030154,cell differentiation,1.6594116414888705e-08,53,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0048869,cellular developmental process,1.680290548378503e-08,53,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0048856,anatomical structure development,3.47933235278551e-08,62,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0001568,blood vessel development,1.0079112778668347e-07,23,Pattern A,Vascular / circulatory development
+Full-transcriptome DE,GO:BP,GO:0032502,developmental process,1.165996045514373e-07,64,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0009891,positive regulation of biosynthetic process,1.2579296628780997e-07,41,Pattern A,Metabolic regulation
+Full-transcriptome DE,GO:BP,GO:0010557,positive regulation of macromolecule biosynthetic process,1.6164107892591798e-07,40,Pattern A,Metabolic regulation
+Full-transcriptome DE,GO:BP,GO:0001944,vasculature development,2.6306806612040924e-07,23,Pattern A,Vascular / circulatory development
+Full-transcriptome DE,GO:BP,GO:0060537,muscle tissue development,4.86016100989799e-07,18,Pattern A,Muscle structure / cytoskeleton
+Full-transcriptome DE,GO:BP,GO:0051240,positive regulation of multicellular organismal process,9.445685495930022e-07,31,Pattern A,General tissue / organ development
+Full-transcriptome DE,GO:BP,GO:0009628,response to abiotic stimulus,1.8581445522646665e-06,26,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0014706,striated muscle tissue development,2.1219823281205786e-06,17,Pattern A,Muscle structure / cytoskeleton
+Full-transcriptome DE,GO:BP,GO:0009893,positive regulation of metabolic process,2.7838698540421355e-06,45,Pattern A,Metabolic regulation
+Full-transcriptome DE,GO:BP,GO:0010604,positive regulation of macromolecule metabolic process,3.0894430163029627e-06,43,Pattern A,Metabolic regulation
+Full-transcriptome DE,GO:BP,GO:0048646,anatomical structure formation involved in morphogenesis,3.877025398757098e-06,26,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0048522,positive regulation of cellular process,4.243685536368667e-06,59,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0048518,positive regulation of biological process,5.094486978156399e-06,61,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0016477,cell migration,5.6319278714191155e-06,29,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0007275,multicellular organism development,6.700980202630541e-06,52,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0032501,multicellular organismal process,8.128241197446409e-06,63,Pattern A,General tissue / organ development
+Full-transcriptome DE,GO:BP,GO:0051239,regulation of multicellular organismal process,8.614081723303852e-06,40,Pattern A,General tissue / organ development
+Full-transcriptome DE,GO:BP,GO:0048870,cell motility,1.5270105803928357e-05,30,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0035914,skeletal muscle cell differentiation,1.7971026421236545e-05,9,Pattern A,
+Full-transcriptome DE,REAC,REAC:R-HSA-6785807,Interleukin-4 and Interleukin-13 signaling,1.93887632089709e-05,8,Pattern A,Immune / cytokine signaling
+Full-transcriptome DE,GO:BP,GO:0048514,blood vessel morphogenesis,2.7706930746097668e-05,19,Pattern A,Vascular / circulatory development
+Full-transcriptome DE,GO:BP,GO:0009612,response to mechanical stimulus,3.836366781980264e-05,12,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0010628,positive regulation of gene expression,5.3847603883069846e-05,24,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0048731,system development,7.367650639584402e-05,46,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0045595,regulation of cell differentiation,0.00012776564055534608,27,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0035239,tube morphogenesis,0.0001617546117501875,21,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0051094,positive regulation of developmental process,0.000163726649075222,25,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0040011,locomotion,0.00016409164354727843,24,Pattern A,
+Full-transcriptome DE,KEGG,KEGG:00000,KEGG root term,0.00017277781837009024,62,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0048519,negative regulation of biological process,0.00027553431332541495,53,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0006915,apoptotic process,0.00033020680625004697,30,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0009605,response to external stimulus,0.0003310029731503209,32,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0071495,cellular response to endogenous stimulus,0.0003371991405610068,24,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0009719,response to endogenous stimulus,0.00035960580343031765,26,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0035556,intracellular signal transduction,0.0004030696473865585,39,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0030334,regulation of cell migration,0.0005143632376066594,21,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0048523,negative regulation of cellular process,0.0006027748383102358,51,Pattern A,
+Full-transcriptome DE,REAC,REAC:R-HSA-1280215,Cytokine Signaling in Immune system,0.0006371747038490558,16,Pattern A,Immune / cytokine signaling
+Full-transcriptome DE,GO:BP,GO:0012501,programmed cell death,0.0006714086153148959,30,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0007154,cell communication,0.0007082078028135917,56,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0008219,cell death,0.0007105431900391277,30,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0019222,regulation of metabolic process,0.0008810637021191573,58,Pattern A,Metabolic regulation
+Full-transcriptome DE,GO:BP,GO:0030335,positive regulation of cell migration,0.0010784629439648257,16,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0001525,angiogenesis,0.0011108813063761497,16,Pattern A,
+Full-transcriptome DE,GO:BP,GO:2000145,regulation of cell motility,0.001126199232026141,21,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0061061,muscle structure development,0.0011832196384865873,18,Pattern A,Muscle structure / cytoskeleton
+Full-transcriptome DE,GO:BP,GO:0050793,regulation of developmental process,0.0012512152965078597,33,Pattern A,
+Full-transcriptome DE,GO:BP,GO:2000147,positive regulation of cell motility,0.0015759299028940505,16,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0045597,positive regulation of cell differentiation,0.0016105958754768842,19,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0070848,response to growth factor,0.0016712227734738947,18,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0023052,signaling,0.0017805249792155696,55,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0043067,regulation of programmed cell death,0.0018117963196639887,25,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0040012,regulation of locomotion,0.0018668531204555055,21,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0040017,positive regulation of locomotion,0.0019783972939119623,16,Pattern A,
+Full-transcriptome DE,GO:BP,GO:2000026,regulation of multicellular organismal development,0.0019884307603167286,24,Pattern A,General tissue / organ development
+Full-transcriptome DE,GO:BP,GO:0001649,osteoblast differentiation,0.0020862194104405776,11,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0007519,skeletal muscle tissue development,0.002500720947304267,10,Pattern A,Muscle structure / cytoskeleton
+Full-transcriptome DE,KEGG,KEGG:04010,MAPK signaling pathway,0.002677801539276172,9,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0009892,negative regulation of metabolic process,0.0027150530823210495,35,Pattern A,Metabolic regulation
+Full-transcriptome DE,KEGG,KEGG:05206,MicroRNAs in cancer,0.002791672265991624,7,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0009725,response to hormone,0.002998244371625359,19,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0008283,cell population proliferation,0.0036669322496920066,28,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0009653,anatomical structure morphogenesis,0.0037182243890983026,34,Pattern A,
+Full-transcriptome DE,REAC,REAC:R-HSA-168256,Immune System,0.0038229696025066195,25,Pattern A,Immune / cytokine signaling
+Full-transcriptome DE,GO:BP,GO:0045444,fat cell differentiation,0.004308211528290038,11,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0042981,regulation of apoptotic process,0.004376486279863461,24,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0060538,skeletal muscle organ development,0.004651874582766281,10,Pattern A,Muscle structure / cytoskeleton
+Full-transcriptome DE,GO:BP,GO:0007155,cell adhesion,0.004970881580356592,24,Pattern A,
+Full-transcriptome DE,KEGG,KEGG:04151,PI3K-Akt signaling pathway,0.005138084609342058,9,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0042127,regulation of cell population proliferation,0.005415439505920488,25,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0009889,regulation of biosynthetic process,0.005529522431339506,50,Pattern A,Metabolic regulation
+Full-transcriptome DE,GO:BP,GO:0035295,tube development,0.005632874689396964,21,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0051716,cellular response to stimulus,0.005692498727974574,59,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0071363,cellular response to growth factor stimulus,0.005752133916176287,17,Pattern A,
+Full-transcriptome DE,KEGG,KEGG:04820,Cytoskeleton in muscle cells,0.005770296655535925,8,Pattern A,Muscle structure / cytoskeleton
+Full-transcriptome DE,KEGG,KEGG:04380,Osteoclast differentiation,0.005799070193533371,6,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0031669,cellular response to nutrient levels,0.007081126709355322,11,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0104004,cellular response to environmental stimulus,0.008299249224647608,12,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0071214,cellular response to abiotic stimulus,0.008299249224647608,12,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0050896,response to stimulus,0.008349060314056562,65,Pattern A,
+Full-transcriptome DE,KEGG,KEGG:05146,Amoebiasis,0.008423919912840253,5,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0071260,cellular response to mechanical stimulus,0.008585972775942675,7,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0007165,signal transduction,0.008803829575961897,51,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0060255,regulation of macromolecule metabolic process,0.009311610698966919,53,Pattern A,Metabolic regulation
+Full-transcriptome DE,GO:BP,GO:0071496,cellular response to external stimulus,0.009508422536733905,7,Pattern A,
+Full-transcriptome DE,REAC,REAC:R-HSA-212436,Generic Transcription Pathway,0.011078886860489582,19,Pattern A,
+Full-transcriptome DE,REAC,REAC:R-HSA-162582,Signal Transduction,0.011518272609331142,28,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0030097,hemopoiesis,0.01206482716403287,19,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0010563,negative regulation of phosphorus metabolic process,0.01232489928058955,10,Pattern A,Metabolic regulation
+Full-transcriptome DE,GO:BP,GO:0045936,negative regulation of phosphate metabolic process,0.01232489928058955,10,Pattern A,Metabolic regulation
+Full-transcriptome DE,GO:BP,GO:0002376,immune system process,0.015045639062487032,31,Pattern A,Immune / cytokine signaling
+Full-transcriptome DE,GO:BP,GO:0061448,connective tissue development,0.017029429350554227,11,Pattern A,General tissue / organ development
+Full-transcriptome DE,GO:BP,GO:0010605,negative regulation of macromolecule metabolic process,0.017644519743311243,32,Pattern A,Metabolic regulation
+Full-transcriptome DE,GO:BP,GO:0048583,regulation of response to stimulus,0.018098979734160043,42,Pattern A,
+Full-transcriptome DE,KEGG,KEGG:04933,AGE-RAGE signaling pathway in diabetic complications,0.02077719716234975,5,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0010468,regulation of gene expression,0.021637573872147497,47,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0045893,positive regulation of DNA-templated transcription,0.022669364936378698,25,Pattern A,
+Full-transcriptome DE,GO:BP,GO:1902680,positive regulation of RNA biosynthetic process,0.023293953441385382,25,Pattern A,Metabolic regulation
+Full-transcriptome DE,KEGG,KEGG:04928,"Parathyroid hormone synthesis, secretion and action",0.02413259219212793,5,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0043068,positive regulation of programmed cell death,0.025278423426766436,14,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0007167,enzyme-linked receptor protein signaling pathway,0.026017863616281764,19,Pattern A,
+Full-transcriptome DE,KEGG,KEGG:04066,HIF-1 signaling pathway,0.026587895342040528,5,Pattern A,
+Full-transcriptome DE,REAC,REAC:0000000,REACTOME root term,0.028354679357522946,71,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0007517,muscle organ development,0.029292687734163575,12,Pattern A,Muscle structure / cytoskeleton
+Full-transcriptome DE,KEGG,KEGG:05200,Pathways in cancer,0.029787761420339013,10,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0031667,response to nutrient levels,0.03457048791588713,13,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0033993,response to lipid,0.03596336693412952,17,Pattern A,Lipid / fatty-acid response
+Full-transcriptome DE,GO:BP,GO:0033002,muscle cell proliferation,0.03629667193700583,9,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0070887,cellular response to chemical stimulus,0.03697690964662611,28,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0000165,MAPK cascade,0.038807856655071304,16,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0043435,response to corticotropin-releasing hormone,0.04281169414787263,3,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0071376,cellular response to corticotropin-releasing hormone stimulus,0.04281169414787263,3,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0010556,regulation of macromolecule biosynthetic process,0.04493352156315797,47,Pattern A,Metabolic regulation
+Full-transcriptome DE,GO:BP,GO:0097190,apoptotic signaling pathway,0.045162061060296584,15,Pattern A,
+Full-transcriptome DE,REAC,REAC:R-HSA-73857,RNA Polymerase II Transcription,0.045390279364470425,19,Pattern A,
+Full-transcriptome DE,GO:BP,GO:0071345,cellular response to cytokine stimulus,0.049397277403784565,17,Pattern A,Immune / cytokine signaling
+Full-transcriptome DE,REAC,REAC:R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,0.04948974949487556,11,Pattern A,
+Human IG,REAC,REAC:R-HSA-390522,Striated Muscle Contraction,2.7696148155415305e-08,8,Pattern A,Muscle contraction
+Human IG,KEGG,KEGG:04820,Cytoskeleton in muscle cells,1.7206919048262575e-07,13,Pattern A,Muscle structure / cytoskeleton
+Human IG,REAC,REAC:R-HSA-397014,Muscle contraction,2.0936142850590563e-05,11,Pattern A,Muscle contraction
+Human IG,GO:BP,GO:0003012,muscle system process,0.01927069073583982,14,Pattern A,Muscle contraction
+Mouse IG,KEGG,KEGG:04820,Cytoskeleton in muscle cells,1.8328713821342717e-06,12,Pattern A,Muscle structure / cytoskeleton
+Mouse IG,GO:BP,GO:0030239,myofibril assembly,0.000775400168947206,8,Pattern A,Muscle structure / cytoskeleton
+Mouse IG,REAC,REAC:R-HSA-390522,Striated Muscle Contraction,0.001455165126581471,5,Pattern A,Muscle contraction
+Mouse IG,KEGG,KEGG:05410,Hypertrophic cardiomyopathy,0.0037142751019012543,6,Pattern A,Cardiac contraction / cardiomyopathy
+Mouse IG,KEGG,KEGG:05414,Dilated cardiomyopathy,0.004652306728331124,6,Pattern A,Cardiac contraction / cardiomyopathy
+Mouse IG,REAC,REAC:R-HSA-397014,Muscle contraction,0.01563849992223624,8,Pattern A,Muscle contraction
+Mouse IG,REAC,REAC:R-HSA-3322077,Glycogen synthesis,0.023845531637866485,3,Pattern A,Glycogen / carbohydrate metabolism
+Mouse IG,GO:BP,GO:0031032,actomyosin structure organization,0.03574644042435041,10,Pattern A,Muscle structure / cytoskeleton
+Mouse IG,KEGG,KEGG:00000,KEGG root term,0.048686864296950974,62,Pattern A,
+Conserved human–mouse IG,REAC,REAC:R-HSA-390522,Striated Muscle Contraction,0.00027521069491538014,4,Pattern A,Muscle contraction
+Conserved human–mouse IG,REAC,REAC:R-HSA-397014,Muscle contraction,0.0007307508013183305,6,Pattern A,Muscle contraction
+Conserved human–mouse IG,KEGG,KEGG:04820,Cytoskeleton in muscle cells,0.005136200033960529,5,Pattern A,Muscle structure / cytoskeleton
+Conserved human–mouse IG,KEGG,KEGG:04814,Motor proteins,0.028447254486127137,4,Pattern A,
+Full-transcriptome DE,GO:BP,GO:1901700,response to oxygen-containing compound,6.481368779773722e-10,34,Pattern B,Oxygen / cellular stress response
+Full-transcriptome DE,GO:BP,GO:0033993,response to lipid,4.337563523738333e-09,25,Pattern B,Lipid / fatty-acid response
+Full-transcriptome DE,GO:BP,GO:0042221,response to chemical,8.5001768091969e-09,47,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0071396,cellular response to lipid,1.7593926411594518e-07,20,Pattern B,Lipid / fatty-acid response
+Full-transcriptome DE,GO:BP,GO:0070887,cellular response to chemical stimulus,3.9585459292620556e-07,35,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0051239,regulation of multicellular organismal process,4.267088520783451e-07,41,Pattern B,General tissue / organ development
+Full-transcriptome DE,GO:BP,GO:0050896,response to stimulus,8.55306555153142e-07,71,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0023052,signaling,8.909831449256948e-06,58,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0071398,cellular response to fatty acid,9.743408984826491e-06,7,Pattern B,Lipid / fatty-acid response
+Full-transcriptome DE,GO:BP,GO:0072359,circulatory system development,1.0445460790631079e-05,25,Pattern B,Vascular / circulatory development
+Full-transcriptome DE,GO:BP,GO:0048514,blood vessel morphogenesis,1.1869097414945108e-05,19,Pattern B,Vascular / circulatory development
+Full-transcriptome DE,GO:BP,GO:0001568,blood vessel development,1.7373165499569247e-05,20,Pattern B,Vascular / circulatory development
+Full-transcriptome DE,GO:BP,GO:0048519,negative regulation of biological process,2.269604680311956e-05,54,Pattern B,
+Full-transcriptome DE,GO:BP,GO:1901701,cellular response to oxygen-containing compound,3.4343160073231945e-05,24,Pattern B,Oxygen / cellular stress response
+Full-transcriptome DE,GO:BP,GO:0001944,vasculature development,3.861578113274906e-05,20,Pattern B,Vascular / circulatory development
+Full-transcriptome DE,GO:BP,GO:0007154,cell communication,4.066523526078211e-05,57,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0048523,negative regulation of cellular process,5.3272131943879495e-05,52,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0007165,signal transduction,6.186364790075049e-05,54,Pattern B,
+Full-transcriptome DE,GO:BP,GO:2000026,regulation of multicellular organismal development,0.00015839998698136508,25,Pattern B,General tissue / organ development
+Full-transcriptome DE,GO:BP,GO:0070542,response to fatty acid,0.0002922953457862709,7,Pattern B,Lipid / fatty-acid response
+Full-transcriptome DE,GO:BP,GO:0051716,cellular response to stimulus,0.0003696516084062329,60,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0002376,immune system process,0.0004319886357743451,33,Pattern B,Immune / cytokine signaling
+Full-transcriptome DE,GO:BP,GO:0001525,angiogenesis,0.0005293260219189693,16,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0071345,cellular response to cytokine stimulus,0.0008414043116636893,19,Pattern B,Immune / cytokine signaling
+Full-transcriptome DE,GO:BP,GO:0051241,negative regulation of multicellular organismal process,0.0008643447359298885,21,Pattern B,General tissue / organ development
+Full-transcriptome DE,GO:BP,GO:0042592,homeostatic process,0.001251991509179006,26,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0002682,regulation of immune system process,0.001275608843249419,25,Pattern B,Immune / cytokine signaling
+Full-transcriptome DE,GO:BP,GO:0009888,tissue development,0.0013994120162596905,28,Pattern B,General tissue / organ development
+Full-transcriptome DE,GO:BP,GO:0048646,anatomical structure formation involved in morphogenesis,0.0014567426509192725,22,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0050793,regulation of developmental process,0.0016663580665185174,32,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0006915,apoptotic process,0.0019002731717754089,28,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0032502,developmental process,0.0021373440385960684,55,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0035239,tube morphogenesis,0.002182221565326774,19,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0032501,multicellular organismal process,0.002376264926390872,57,Pattern B,General tissue / organ development
+Full-transcriptome DE,GO:BP,GO:0048856,anatomical structure development,0.0026149442489811483,52,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0009719,response to endogenous stimulus,0.002784423131330676,24,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0030154,cell differentiation,0.0028064358536210483,43,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0048869,cellular developmental process,0.0028317846376013206,43,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0012501,programmed cell death,0.003536385038357861,28,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0008219,cell death,0.0037283311874609752,28,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0034097,response to cytokine,0.004422275535267151,19,Pattern B,Immune / cytokine signaling
+Full-transcriptome DE,GO:BP,GO:0016477,cell migration,0.00480290640729655,24,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0023057,negative regulation of signaling,0.004951800826137137,24,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0030334,regulation of cell migration,0.004989223669147559,19,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0048585,negative regulation of response to stimulus,0.005169599151700074,26,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0007166,cell surface receptor signaling pathway,0.005572155392603806,33,Pattern B,
+Full-transcriptome DE,GO:BP,GO:1901652,response to peptide,0.00562234454906832,19,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0009725,response to hormone,0.006427942858012477,18,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0042981,regulation of apoptotic process,0.007166153341806556,23,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0040011,locomotion,0.008314025401838442,21,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0045765,regulation of angiogenesis,0.008744088392588074,11,Pattern B,
+Full-transcriptome DE,GO:BP,GO:2000145,regulation of cell motility,0.010434092573882172,19,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0023051,regulation of signaling,0.010977432242927672,38,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0043408,regulation of MAPK cascade,0.011117455780599632,15,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0035295,tube development,0.011331683876403601,20,Pattern B,
+Full-transcriptome DE,GO:BP,GO:1901342,regulation of vasculature development,0.011617704648423186,11,Pattern B,Vascular / circulatory development
+Full-transcriptome DE,GO:BP,GO:0043067,regulation of programmed cell death,0.012223402554451715,23,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0071495,cellular response to endogenous stimulus,0.015393667002072453,21,Pattern B,
+Full-transcriptome DE,REAC,REAC:R-HSA-9031628,NGF-stimulated transcription,0.016689405812515976,4,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0038066,p38MAPK cascade,0.016749176164413505,6,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0040012,regulation of locomotion,0.01717425686547723,19,Pattern B,
+Full-transcriptome DE,REAC,REAC:R-HSA-162582,Signal Transduction,0.017297740609816772,27,Pattern B,
+Full-transcriptome DE,KEGG,KEGG:04933,AGE-RAGE signaling pathway in diabetic complications,0.01818359580810584,5,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0048513,animal organ development,0.018723439765032417,33,Pattern B,General tissue / organ development
+Full-transcriptome DE,GO:BP,GO:0010648,negative regulation of cell communication,0.020425894640365656,23,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0000165,MAPK cascade,0.02052633374026688,16,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0009890,negative regulation of biosynthetic process,0.02445241189525092,29,Pattern B,Metabolic regulation
+Full-transcriptome DE,GO:BP,GO:0009968,negative regulation of signal transduction,0.026904901121629143,22,Pattern B,
+Full-transcriptome DE,GO:BP,GO:1902531,regulation of intracellular signal transduction,0.03006045266604808,27,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0010646,regulation of cell communication,0.03577500690617108,37,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0051093,negative regulation of developmental process,0.036851771148567226,17,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0048870,cell motility,0.039496330647201976,24,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0050900,leukocyte migration,0.042465977412303055,11,Pattern B,Immune / cytokine signaling
+Full-transcriptome DE,GO:BP,GO:0042127,regulation of cell population proliferation,0.042852913350523526,23,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0010558,negative regulation of macromolecule biosynthetic process,0.04328932429689091,28,Pattern B,Metabolic regulation
+Full-transcriptome DE,GO:BP,GO:0009653,anatomical structure morphogenesis,0.044083927156038726,31,Pattern B,
+Full-transcriptome DE,GO:BP,GO:0048583,regulation of response to stimulus,0.0492486110649888,40,Pattern B,
+Human IG,KEGG,KEGG:04820,Cytoskeleton in muscle cells,1.7760577537319407e-05,11,Pattern B,Muscle structure / cytoskeleton
+Human IG,GO:BP,GO:0061061,muscle structure development,4.957435052218708e-05,21,Pattern B,Muscle structure / cytoskeleton
+Human IG,GO:BP,GO:0007517,muscle organ development,0.0004001619722121795,15,Pattern B,Muscle structure / cytoskeleton
+Human IG,REAC,REAC:R-HSA-390522,Striated Muscle Contraction,0.001455165126581471,5,Pattern B,Muscle contraction
+Human IG,REAC,REAC:R-HSA-397014,Muscle contraction,0.01563849992223624,8,Pattern B,Muscle contraction
+Mouse IG,KEGG,KEGG:04820,Cytoskeleton in muscle cells,1.7206919048262575e-07,13,Pattern B,Muscle structure / cytoskeleton
+Mouse IG,REAC,REAC:R-HSA-397014,Muscle contraction,2.0936142850590563e-05,11,Pattern B,Muscle contraction
+Mouse IG,REAC,REAC:R-HSA-390522,Striated Muscle Contraction,4.697185237663471e-05,6,Pattern B,Muscle contraction
+Mouse IG,KEGG,KEGG:05415,Diabetic cardiomyopathy,0.00017495603645225125,9,Pattern B,Cardiac contraction / cardiomyopathy
+Mouse IG,KEGG,KEGG:04260,Cardiac muscle contraction,0.0011659600139672394,6,Pattern B,Muscle contraction
+Mouse IG,REAC,REAC:R-HSA-1428517,Aerobic respiration and respiratory electron transport,0.005014567439676564,9,Pattern B,Oxidative / mitochondrial respiration
+Mouse IG,KEGG,KEGG:05020,Prion disease,0.013435013738765064,8,Pattern B,
+Mouse IG,REAC,REAC:R-HSA-611105,Respiratory electron transport,0.016848161029151258,7,Pattern B,Oxidative / mitochondrial respiration
+Mouse IG,KEGG,KEGG:05208,Chemical carcinogenesis - reactive oxygen species,0.01855794330840871,7,Pattern B,Oxidative / mitochondrial respiration
+Mouse IG,GO:BP,GO:0003012,muscle system process,0.01927069073583982,14,Pattern B,Muscle contraction
+Mouse IG,KEGG,KEGG:00000,KEGG root term,0.023408810587489302,63,Pattern B,
+Mouse IG,REAC,REAC:R-HSA-6799198,Complex I biogenesis,0.027431665822221982,5,Pattern B,Oxidative / mitochondrial respiration
+Mouse IG,REAC,REAC:R-HSA-166663,Initial triggering of complement,0.03907877457827451,3,Pattern B,Immune / cytokine signaling
+Conserved human–mouse IG,KEGG,KEGG:04820,Cytoskeleton in muscle cells,0.0025480153257649387,5,Pattern B,Muscle structure / cytoskeleton
+Conserved human–mouse IG,REAC,REAC:R-HSA-390522,Striated Muscle Contraction,0.011263139286641423,3,Pattern B,Muscle contraction

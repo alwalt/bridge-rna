@@ -1,0 +1,492 @@
+GSE187051
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 1
+Validation: 1
+Unseen: 0
+
+GSE187097
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE187110
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE187315
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE187318
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE187331
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE187415
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE187494
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE187503
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE187726
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 1
+Validation: 1
+Unseen: 0
+
+GSE187814
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE187838
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 1
+Validation: 1
+Unseen: 0
+
+GSE187899
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 1
+Validation: 1
+Unseen: 0
+
+GSE187940
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE187982
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE188014
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 1
+Validation: 1
+Unseen: 0
+
+GSE188016
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 1
+Validation: 1
+Unseen: 0
+
+GSE188033
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 1
+Validation: 1
+Unseen: 0
+
+GSE188055
+Found: Yes
+Study seen in training: Yes
+Samples: 1
+Train: 1
+Validation: 0
+Unseen: 0
+
+GSE188086
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE219296
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE219462
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 1
+Validation: 1
+Unseen: 0
+
+GSE219496
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE219551
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 1
+Validation: 1
+Unseen: 0
+
+GSE219552
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE219630
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE219631
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 1
+Validation: 1
+Unseen: 0
+
+GSE219765
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE219778
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE219873
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE219891
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE219946
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE78583
+Found: Yes
+Study seen in training: Yes
+Samples: 1
+Train: 1
+Validation: 0
+Unseen: 0
+
+GSE90178
+Found: No
+
+GSE90180
+Found: No
+
+GSE90181
+Found: No
+
+GSE90182
+Found: No
+
+GSE90184
+Found: No
+
+GSE90185
+Found: No
+
+GSE90189
+Found: No
+
+GSE90190
+Found: No
+
+GSE90192
+Found: No
+
+GSE90193
+Found: No
+
+GSE90200
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE90206
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE93455
+Found: No
+
+GSE93456
+Found: No
+
+GSE93458
+Found: No
+
+GSE93460
+Found: No
+
+GSE93461
+Found: No
+
+GSE93466
+Found: No
+
+GSE93483
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE93485
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE93487
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE93488
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE93494
+Found: Yes
+Study seen in training: Yes
+Samples: 1
+Train: 1
+Validation: 0
+Unseen: 0
+
+GSE93495
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE93501
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE93502
+Found: Yes
+Study seen in training: Yes
+Samples: 2
+Train: 2
+Validation: 0
+Unseen: 0
+
+GSE93503
+Found: Yes
+Study seen in training: No
+Samples: 2
+Train: 0
+Validation: 2
+Unseen: 0
+
+GSM1000562
+Found: Yes
+Split: train
+Sample used in training: Yes
+GSE candidate(s): GSE36025;GSE49417;GSE49847
+Study seen in training: Yes
+Study exposure: seen_study
+Mapping status: mapped_multiple
+Species: mouse
+
+GSM1000567
+Found: Yes
+Split: train
+Sample used in training: Yes
+GSE candidate(s): GSE36025;GSE49417;GSE49847
+Study seen in training: Yes
+Study exposure: seen_study
+Mapping status: mapped_multiple
+Species: mouse
+
+GSM900183
+Found: No
+
+GSM900184
+Found: No
+
+GSM900185
+Found: No
+
+GSM900188
+Found: No
+
+GSM900191
+Found: No
+
+GSM900193
+Found: No
+
+GSM900195
+Found: No
+
+GSM900196
+Found: No
+
+GSM900197
+Found: No
+
+GSM900199
+Found: No
+
+GSM929707
+Found: No
+
+GSM929709
+Found: No
+
+GSM929710
+Found: No
+
+GSM929711
+Found: No
+
+GSM929715
+Found: Yes
+Split: unseen
+Sample used in training: No
+GSE candidate(s): GSE36026;GSE49847
+Study seen in training: Yes
+Study exposure: seen_study
+Mapping status: mapped_multiple
+Species: mouse
+
+GSM929720
+Found: No
+
+GSM970856
+Found: No
+
+GSM970860
+Found: No
+
+GSM970862
+Found: No
+
+GSM970864
+Found: No
+
+GSM970865
+Found: No
+
+GSM970873
+Found: No

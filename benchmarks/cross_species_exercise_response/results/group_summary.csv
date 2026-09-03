@@ -1,0 +1,110 @@
+species,group,samples,studies
+human,plaPRT,67,2
+human,exercise collagen peptides(CP),51,1
+human,metPRT,51,1
+human,exercise placebo(PLA),47,1
+human,T1: pre-training period 1,30,2
+human,active exercise,30,1
+human,Ov/Ob exercise,29,1
+human,lean exercise,28,1
+human,sedentary exercise,26,1
+human,histamine-blockade exercise,23,1
+human,young HIIT,22,1
+human,First session,21,1
+human,"trained, exercised (Ex)",21,1
+human,"trained, non-exercised (NE)",21,1
+human,"untrained, exercised (Ex)",21,1
+human,"untrained, non-exercised (NE)",21,1
+human,Ninth/Last session,20,1
+human,young resistance exercise,20,1
+human,young control,19,1
+human,T2: post-training period 1 in trained leg,18,1
+human,acute intensive exercise,18,1
+human,"aged, low susceptibility, bed rest",18,1
+human,control exercise,17,1
+human,U2: post-training period 1 in untrained leg,16,1
+human,aged HIIT,16,1
+human,aged resistance exercise,16,1
+human,"aged, high susceptibility, bed rest",16,1
+human,young combined exercise,15,1
+human,"Exercise, 9 days of a high-fat diet in combination with resistance exercise (Ex-HFD)",14,1
+human,aged combined exercise,14,1
+human,bed rest with exercise,14,1
+human,"Sedentary, 9 days of a high-fat diet alone (Sed-HFD)",13,1
+human,T3: pre-training period 2 in previously(period 1) trained leg,13,1
+human,RYGB,12,1
+human,aged healthy,12,1
+human,bed rest only,12,1
+human,young healthy,12,1
+human,RYGB exercise,11,1
+human,U4: post-training period 2 in previously(period 1) untrained leg,11,1
+human,PD exercise,10,1
+human,"young, low susceptibility, bed rest",10,1
+human,U3: pre-training period 2 in previously(period 1) untrained leg,8,1
+human,"young, high susceptibility, bed rest",8,1
+human,PD,7,1
+human,T4: post-training period 2 in previously(period 1) trained leg,7,1
+human,acute intensive cycling,6,1
+human,bed rest,6,1
+human,lean control,6,1
+human,sedentary,5,1
+human,sedentary baseline,5,1
+human,well endurance trained,5,1
+human,"aged, Not used in Susceptibility Study, bed rest",4,1
+human,well resistance trained,4,1
+mouse,aged exercise,29,2
+mouse,adult sedentary,23,2
+mouse,aged sedentary,23,2
+mouse,exercise,11,2
+mouse,HFD30wk_HFD.exercised(EX)20wk,10,1
+mouse,HFD30wk_HFD.non-exercised(NE)20wk,10,1
+mouse,HFD30wk_chow.exercised(EX)20wk,10,1
+mouse,HFD30wk_chow.non-exercised(NE)20wk,9,1
+mouse,"Active phase (ZT15),sedentary (sham-exercise)",7,1
+mouse,chow30wk_chow.non-exercised (NE)20wk,7,1
+mouse,ANT1 (mitochondrial mutation) non-exercise,6,1
+mouse,"Active phase (ZT15),exercise",6,1
+mouse,CO1 (mitochondrial mutation) non-exercise,6,1
+mouse,Control B6 non-exercised,6,1
+mouse,ND5 (mitochondrial mutation) non-exercise,6,1
+mouse,ND6 (mitochondrial mutation) non-exercise,6,1
+mouse,"Rest phase (ZT3),sedentary (sham-exercise)",6,1
+mouse,old control,6,1
+mouse,old exercise,6,1
+mouse,sedentary,6,1
+mouse,young control,6,1
+mouse,young exercise,6,1
+mouse,Control,5,1
+mouse,CaMK2gVV/CaMK2gVV exercise,4,1
+mouse,CaMK2gVV/CaMK2gVV sedentary,4,1
+mouse,Cre-control 5wks running+ SMC,4,1
+mouse,HFD-post,4,1
+mouse,HFD-pre,4,1
+mouse,MyD88 Muscle KO 5wks running+ SMC,4,1
+mouse,"Rest phase (ZT3),exercise",4,1
+mouse,control diet-post,4,1
+mouse,control diet-pre,4,1
+mouse,wild-type exercise,4,1
+mouse,wild-type sedentary,4,1
+mouse,"ANT1 (mitochondrial mutation) exercise, non-responder",3,1
+mouse,"ANT1 (mitochondrial mutation) exercise, responder",3,1
+mouse,"CO1 (mitochondrial mutation) exercise, non-responder",3,1
+mouse,"CO1 (mitochondrial mutation) exercise, responder",3,1
+mouse,"Control B6 exercise, non-responder",3,1
+mouse,"Control B6 exercise, responder",3,1
+mouse,"FKRPP448L-NSG,not swim",3,1
+mouse,"FKRPP448L-NSG,swim",3,1
+mouse,"ND5 (mitochondrial mutation) exercise, non-responder",3,1
+mouse,"ND5 (mitochondrial mutation) exercise, responder",3,1
+mouse,"ND6 (mitochondrial mutation) exercise, non-responder",3,1
+mouse,"ND6 (mitochondrial mutation) exercise, responder",3,1
+mouse,"NSG,not swim",3,1
+mouse,"NSG,swim",3,1
+mouse,WT control sedentary,3,1
+mouse,adult exercise,3,1
+mouse,corrected-delEx44 DMD sedentary,3,1
+mouse,delEx44 DMD sedentary,3,1
+mouse,exercised mice,3,1
+mouse,WT control exercise,2,1
+mouse,corrected-delEx44 DMD exercise,2,1
+mouse,delEx44 DMD exercise,2,1

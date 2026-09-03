@@ -1,0 +1,28 @@
+cohort,tissue,mouse_experiments,gtex_profiles_available
+expanded_replicated,adrenal,8,250
+expanded_replicated,cerebellum,2,236
+expanded_replicated,cortex,7,243
+expanded_replicated,heart,9,823
+expanded_replicated,hippocampus,7,181
+expanded_replicated,liver,4,222
+expanded_replicated,lung,3,532
+expanded_replicated,ovary,2,173
+expanded_replicated,skeletal muscle,6,756
+expanded_replicated,spleen,3,239
+expanded_replicated,testis,3,361
+fixed_11,adrenal,8,250
+fixed_11,subcutaneous adipose,1,632
+fixed_11,cerebellum,2,236
+fixed_11,heart,9,823
+fixed_11,liver,4,222
+fixed_11,lung,3,532
+fixed_11,mammary gland,1,445
+fixed_11,ovary,2,173
+fixed_11,spleen,3,239
+fixed_11,stomach,1,347
+fixed_11,testis,3,361
+fixed_5,heart,9,823
+fixed_5,liver,4,222
+fixed_5,lung,3,532
+fixed_5,spleen,3,239
+fixed_5,testis,3,361

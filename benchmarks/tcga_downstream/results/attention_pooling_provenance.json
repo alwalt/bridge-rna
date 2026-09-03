@@ -1,0 +1,16 @@
+{
+  "checkpoint": "/home/walt/bridge-rna/model/r7hnr92k/config.json",
+  "checkpoint_run_id": "r7hnr92k",
+  "checkpoint_normalization": "log1p_tpm",
+  "input_matrix": "/home/walt/bridge-rna/benchmarks/tcga_downstream/work/ours_log1p_tpm.npy",
+  "input_shape": [
+    9816,
+    15165
+  ],
+  "encoder_frozen": true,
+  "token_pooling": [
+    "mean",
+    "learned_attention"
+  ],
+  "tokens_flattened": false
+}

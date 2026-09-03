@@ -1,0 +1,9 @@
+contrast_id,species,GSE,post_n,pre_n,rule,stratum
+human_GSE108643,human,GSE108643,28,28,paired earliest acute post (post(0h)) minus pre/baseline,post(0h)
+human_GSE151066,human,GSE151066,19,19,paired earliest acute post (post(0h)) minus pre/baseline,post(0h)
+human_GSE71972,human,GSE71972,6,6,paired earliest acute post (post(0h)) minus pre/baseline,post(0h)
+human_GSE86931,human,GSE86931,2,2,paired earliest acute post (post(4h)) minus pre/baseline,post(4h)
+human_GSE87748,human,GSE87748,8,8,paired earliest acute post (post(4h)) minus pre/baseline,post(4h)
+mouse_GSE126962,mouse,GSE126962,2,2,active-phase treadmill exercise minus phase/time-matched sham,active phase; post(4h)
+mouse_GSE132520,mouse,GSE132520,4,4,wild-type treadmill exercise minus wild-type sedentary,wild-type; post(3h)
+mouse_GSE97718,mouse,GSE97718,4,4,control-diet acute treadmill post minus control-diet pre,control diet; post(3h)

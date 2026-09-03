@@ -1,0 +1,9 @@
+{
+  "center_mean": "source/training species mean only, applied unchanged to both species",
+  "knn": "cosine; fixed k=1,3,5; individual cross-species profiles; no within-mouse neighbors",
+  "linear_probe": "linear softmax, AdamW, 50 fixed epochs, balanced loss, no feature scaling",
+  "nonlinear_probe": "one 64-unit ReLU hidden layer, AdamW, 50 fixed epochs, balanced loss, no feature scaling",
+  "hyperparameter_selection": "fixed a priori; no target data/labels",
+  "seed": 42,
+  "pairwise_cosine_sampling": "deterministic up to 20,000 non-self pairs"
+}

@@ -1,0 +1,8 @@
+{
+  "prior_median_de_ig_spearman": 0.6718114585367291,
+  "prior_median_top100_overlap": 12.0,
+  "Axis A_cross_species_mean_rank_spearman": 0.5004365734100609,
+  "Axis A_cross_species_mean_top100_overlap": 27.75,
+  "Axis B_cross_species_mean_rank_spearman": 0.451932666999927,
+  "Axis B_cross_species_mean_top100_overlap": 26.5
+}

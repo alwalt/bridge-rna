@@ -1,0 +1,19 @@
+{
+  "task": "Task 1A: zero-shot human-mouse tissue retrieval",
+  "created": "2026-09-02T03:03:21.304927+00:00",
+  "seed": 42,
+  "vocabulary_genes": 15165,
+  "preprocessing": "species-specific gene-level counts -> TPM -> natural log1p",
+  "human_annotation": "GENCODE v49 exon-union lengths",
+  "mouse_annotation": "ENCODE GENCODE M21 RSEM effective_length",
+  "normalization_exclusions": [
+    "batch correction",
+    "cross-species normalization",
+    "z-scoring"
+  ],
+  "checkpoint": "model/r7hnr92k/best_model.pt",
+  "frozen_model": true,
+  "chance_top1": 0.16666666666666666,
+  "mouse_exclusion_rule": "exclude 5xFAD strain and any modified/treated/perturbed experiment",
+  "within_mouse_note": "singleton liver has no valid leave-one-out centroid and is excluded from within-mouse accuracy"
+}

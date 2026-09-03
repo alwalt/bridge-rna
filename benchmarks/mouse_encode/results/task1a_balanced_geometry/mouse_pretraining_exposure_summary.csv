@@ -1,0 +1,25 @@
+tissue,pretraining_exposure,size
+adrenal,fully_unseen,1
+adrenal,same_study_seen,7
+cerebellum,exact_sample_seen,1
+cerebellum,fully_unseen,1
+cortex,same_study_seen,7
+frontal cortex,exact_sample_seen,1
+heart,fully_unseen,2
+heart,same_study_seen,7
+hippocampus,same_study_seen,7
+liver,fully_unseen,2
+liver,same_study_seen,2
+lung,fully_unseen,2
+lung,same_study_seen,1
+mammary gland,fully_unseen,1
+ovary,fully_unseen,1
+ovary,same_study_seen,1
+pancreas,same_study_seen,1
+sigmoid colon,same_study_seen,1
+skeletal muscle,same_study_seen,6
+spleen,fully_unseen,3
+stomach,fully_unseen,1
+subcutaneous adipose,fully_unseen,1
+testis,fully_unseen,2
+testis,same_study_seen,1

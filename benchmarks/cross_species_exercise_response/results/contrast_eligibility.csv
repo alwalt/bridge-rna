@@ -1,0 +1,9 @@
+species,GSE,matched_samples,exercise_samples,control_or_pre_samples,subjects_in_both,candidate_acute_aerobic,selected_primary_contrast,contrast_id,selected_exercise,selected_control,contrast_rule,contrast_stratum
+human,GSE108643,57,29,28,28,True,True,human_GSE108643,28,28,paired earliest acute post (post(0h)) minus pre/baseline,post(0h)
+human,GSE151066,56,37,19,19,True,True,human_GSE151066,19,19,paired earliest acute post (post(0h)) minus pre/baseline,post(0h)
+human,GSE71972,40,25,15,13,True,True,human_GSE71972,6,6,paired earliest acute post (post(0h)) minus pre/baseline,post(0h)
+human,GSE86931,6,4,2,2,True,True,human_GSE86931,2,2,paired earliest acute post (post(4h)) minus pre/baseline,post(4h)
+human,GSE87748,18,10,8,8,True,True,human_GSE87748,8,8,paired earliest acute post (post(4h)) minus pre/baseline,post(4h)
+mouse,GSE126962,23,10,13,0,True,True,mouse_GSE126962,2,2,active-phase treadmill exercise minus phase/time-matched sham,active phase; post(4h)
+mouse,GSE132520,16,8,8,0,True,True,mouse_GSE132520,4,4,wild-type treadmill exercise minus wild-type sedentary,wild-type; post(3h)
+mouse,GSE97718,16,8,8,0,True,True,mouse_GSE97718,4,4,control-diet acute treadmill post minus control-diet pre,control diet; post(3h)

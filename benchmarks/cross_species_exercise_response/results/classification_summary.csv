@@ -1,0 +1,7 @@
+species,classification,samples,studies
+human,inactivity,509,22
+human,acute exercise,258,8
+human,longterm training,180,9
+mouse,inactivity,169,12
+mouse,longterm training,128,11
+mouse,acute exercise,26,3

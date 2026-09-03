@@ -1,0 +1,92 @@
+[21:48:08] complete_11_tissue · raw_expression
+[21:48:30] complete_11_tissue · joint_pca
+[21:48:37] complete_11_tissue · bridgerna
+[21:48:43] replicated_5_tissue · raw_expression
+[21:48:54] replicated_5_tissue · joint_pca
+[21:48:57] replicated_5_tissue · bridgerna
+[21:49:21] Geometry diagnostic complete
+             cohort representation                  readout      direction  queries  top1_accuracy  macro_f1  mean_correct_tissue_margin      mrr
+ complete_11_tissue raw_expression          centroid_cosine human_to_mouse     4260       0.617136  0.473857                    0.003084 0.702695
+ complete_11_tissue raw_expression centroid_cosine_centered human_to_mouse     4260       0.800704  0.776233                    0.145267 0.871440
+ complete_11_tissue raw_expression            knn_cosine_k1 human_to_mouse     4260       0.661737  0.560971                    0.323771      NaN
+ complete_11_tissue raw_expression            knn_cosine_k3 human_to_mouse     4260       0.645070  0.539108                    0.055004      NaN
+ complete_11_tissue raw_expression            knn_cosine_k5 human_to_mouse     4260       0.417606  0.305994                   -0.263255      NaN
+ complete_11_tissue raw_expression     linear_softmax_probe human_to_mouse       17       0.882353  0.787879                   21.815153      NaN
+ complete_11_tissue raw_expression        shallow_mlp_probe human_to_mouse       17       0.823529  0.696970                    2.689825      NaN
+ complete_11_tissue raw_expression          centroid_cosine mouse_to_human       17       0.882353  0.772727                    0.032311 0.926471
+ complete_11_tissue raw_expression centroid_cosine_centered mouse_to_human       17       0.764706  0.618182                    0.203543 0.862745
+ complete_11_tissue raw_expression            knn_cosine_k1 mouse_to_human       17       0.882353  0.772727                    0.765383      NaN
+ complete_11_tissue raw_expression            knn_cosine_k3 mouse_to_human       17       0.882353  0.772727                    2.294794      NaN
+ complete_11_tissue raw_expression            knn_cosine_k5 mouse_to_human       17       0.882353  0.772727                    3.824205      NaN
+ complete_11_tissue raw_expression     linear_softmax_probe mouse_to_human     4260       0.257746  0.162395                   -5.160136      NaN
+ complete_11_tissue raw_expression        shallow_mlp_probe mouse_to_human     4260       0.552817  0.451645                    0.374129      NaN
+ complete_11_tissue      joint_pca          centroid_cosine human_to_mouse     4260       0.800939  0.776248                    0.146723 0.871446
+ complete_11_tissue      joint_pca centroid_cosine_centered human_to_mouse     4260       0.801174  0.776862                    0.146520 0.871608
+ complete_11_tissue      joint_pca            knn_cosine_k1 human_to_mouse     4260       0.812676  0.776415                    0.625655      NaN
+ complete_11_tissue      joint_pca            knn_cosine_k3 human_to_mouse     4260       0.775117  0.719460                    0.301312      NaN
+ complete_11_tissue      joint_pca            knn_cosine_k5 human_to_mouse     4260       0.719014  0.623180                    0.295670      NaN
+ complete_11_tissue      joint_pca     linear_softmax_probe human_to_mouse       17       0.352941  0.211255                   -1.967849      NaN
+ complete_11_tissue      joint_pca        shallow_mlp_probe human_to_mouse       17       0.764706  0.693939                    1.622447      NaN
+ complete_11_tissue      joint_pca          centroid_cosine mouse_to_human       17       0.823529  0.756710                    0.179748 0.887255
+ complete_11_tissue      joint_pca centroid_cosine_centered mouse_to_human       17       0.764706  0.618182                    0.204897 0.862745
+ complete_11_tissue      joint_pca            knn_cosine_k1 mouse_to_human       17       0.823529  0.724242                    0.647421      NaN
+ complete_11_tissue      joint_pca            knn_cosine_k3 mouse_to_human       17       0.823529  0.724242                    1.941533      NaN
+ complete_11_tissue      joint_pca            knn_cosine_k5 mouse_to_human       17       0.823529  0.724242                    3.294471      NaN
+ complete_11_tissue      joint_pca     linear_softmax_probe mouse_to_human     4260       0.250704  0.221474                   -2.094153      NaN
+ complete_11_tissue      joint_pca        shallow_mlp_probe mouse_to_human     4260       0.468075  0.498804                   -0.160767      NaN
+ complete_11_tissue      bridgerna          centroid_cosine human_to_mouse     4260       0.460329  0.473250                   -0.008048 0.639870
+ complete_11_tissue      bridgerna centroid_cosine_centered human_to_mouse     4260       0.548826  0.470793                   -0.156081 0.651886
+ complete_11_tissue      bridgerna            knn_cosine_k1 human_to_mouse     4260       0.492254  0.505102                   -0.015503      NaN
+ complete_11_tissue      bridgerna            knn_cosine_k3 human_to_mouse     4260       0.404460  0.385319                   -0.095242      NaN
+ complete_11_tissue      bridgerna            knn_cosine_k5 human_to_mouse     4260       0.371831  0.341106                   -0.333888      NaN
+ complete_11_tissue      bridgerna     linear_softmax_probe human_to_mouse       17       0.823529  0.769697                    1.155869      NaN
+ complete_11_tissue      bridgerna        shallow_mlp_probe human_to_mouse       17       0.764706  0.748485                    1.545388      NaN
+ complete_11_tissue      bridgerna          centroid_cosine mouse_to_human       17       0.588235  0.553247                   -0.000734 0.697084
+ complete_11_tissue      bridgerna centroid_cosine_centered mouse_to_human       17       0.647059  0.560606                   -0.061827 0.719118
+ complete_11_tissue      bridgerna            knn_cosine_k1 mouse_to_human       17       0.823529  0.724242                    0.647694      NaN
+ complete_11_tissue      bridgerna            knn_cosine_k3 mouse_to_human       17       0.764706  0.675758                    1.647578      NaN
+ complete_11_tissue      bridgerna            knn_cosine_k5 mouse_to_human       17       0.705882  0.639394                    2.529931      NaN
+ complete_11_tissue      bridgerna     linear_softmax_probe mouse_to_human     4260       0.482160  0.497785                   -0.036431      NaN
+ complete_11_tissue      bridgerna        shallow_mlp_probe mouse_to_human     4260       0.515258  0.511373                   -0.015007      NaN
+replicated_5_tissue raw_expression          centroid_cosine human_to_mouse     2177       0.811208  0.736964                    0.015053 0.867203
+replicated_5_tissue raw_expression centroid_cosine_centered human_to_mouse     2177       0.986679  0.988621                    0.306396 0.992589
+replicated_5_tissue raw_expression            knn_cosine_k1 human_to_mouse     2177       0.954065  0.959124                    0.908959      NaN
+replicated_5_tissue raw_expression            knn_cosine_k3 human_to_mouse     2177       0.807074  0.731561                    0.797536      NaN
+replicated_5_tissue raw_expression            knn_cosine_k5 human_to_mouse     2177       0.567754  0.486446                   -0.310492      NaN
+replicated_5_tissue raw_expression     linear_softmax_probe human_to_mouse       11       1.000000  1.000000                   30.901054      NaN
+replicated_5_tissue raw_expression        shallow_mlp_probe human_to_mouse       11       1.000000  1.000000                    6.848971      NaN
+replicated_5_tissue raw_expression          centroid_cosine mouse_to_human       11       1.000000  1.000000                    0.052915 1.000000
+replicated_5_tissue raw_expression centroid_cosine_centered mouse_to_human       11       0.909091  0.893333                    0.310452 0.939394
+replicated_5_tissue raw_expression            knn_cosine_k1 mouse_to_human       11       1.000000  1.000000                    1.000882      NaN
+replicated_5_tissue raw_expression            knn_cosine_k3 mouse_to_human       11       1.000000  1.000000                    3.000881      NaN
+replicated_5_tissue raw_expression            knn_cosine_k5 mouse_to_human       11       1.000000  1.000000                    5.000881      NaN
+replicated_5_tissue raw_expression     linear_softmax_probe mouse_to_human     2177       0.354157  0.287330                   -0.108019      NaN
+replicated_5_tissue raw_expression        shallow_mlp_probe mouse_to_human     2177       0.759761  0.817228                    4.338799      NaN
+replicated_5_tissue      joint_pca          centroid_cosine human_to_mouse     2177       0.996785  0.997574                    0.305945 0.997910
+replicated_5_tissue      joint_pca centroid_cosine_centered human_to_mouse     2177       0.986679  0.988621                    0.309772 0.992589
+replicated_5_tissue      joint_pca            knn_cosine_k1 human_to_mouse     2177       0.992650  0.992455                    0.985785      NaN
+replicated_5_tissue      joint_pca            knn_cosine_k3 human_to_mouse     2177       0.991272  0.989900                    1.140334      NaN
+replicated_5_tissue      joint_pca            knn_cosine_k5 human_to_mouse     2177       0.803859  0.773653                    0.038407      NaN
+replicated_5_tissue      joint_pca     linear_softmax_probe human_to_mouse       11       0.636364  0.580952                    0.784691      NaN
+replicated_5_tissue      joint_pca        shallow_mlp_probe human_to_mouse       11       0.636364  0.666667                    1.004560      NaN
+replicated_5_tissue      joint_pca          centroid_cosine mouse_to_human       11       0.909091  0.893333                    0.228232 0.939394
+replicated_5_tissue      joint_pca centroid_cosine_centered mouse_to_human       11       0.909091  0.893333                    0.312880 0.939394
+replicated_5_tissue      joint_pca            knn_cosine_k1 mouse_to_human       11       0.909091  0.893333                    0.818641      NaN
+replicated_5_tissue      joint_pca            knn_cosine_k3 mouse_to_human       11       0.909091  0.893333                    2.454997      NaN
+replicated_5_tissue      joint_pca            knn_cosine_k5 mouse_to_human       11       0.909091  0.893333                    4.091355      NaN
+replicated_5_tissue      joint_pca     linear_softmax_probe mouse_to_human     2177       0.713826  0.649262                    1.393534      NaN
+replicated_5_tissue      joint_pca        shallow_mlp_probe mouse_to_human     2177       0.811208  0.815133                    1.368471      NaN
+replicated_5_tissue      bridgerna          centroid_cosine human_to_mouse     2177       0.779054  0.686633                    0.003166 0.857495
+replicated_5_tissue      bridgerna centroid_cosine_centered human_to_mouse     2177       0.720717  0.561742                    0.176757 0.856890
+replicated_5_tissue      bridgerna            knn_cosine_k1 human_to_mouse     2177       0.833716  0.820435                    0.668078      NaN
+replicated_5_tissue      bridgerna            knn_cosine_k3 human_to_mouse     2177       0.863114  0.848704                    0.757972      NaN
+replicated_5_tissue      bridgerna            knn_cosine_k5 human_to_mouse     2177       0.494258  0.442441                   -0.418935      NaN
+replicated_5_tissue      bridgerna     linear_softmax_probe human_to_mouse       11       0.909091  0.893333                    1.469591      NaN
+replicated_5_tissue      bridgerna        shallow_mlp_probe human_to_mouse       11       0.909091  0.893333                    2.670910      NaN
+replicated_5_tissue      bridgerna          centroid_cosine mouse_to_human       11       0.727273  0.733333                    0.001321 0.821212
+replicated_5_tissue      bridgerna centroid_cosine_centered mouse_to_human       11       0.818182  0.826667                    0.105765 0.878788
+replicated_5_tissue      bridgerna            knn_cosine_k1 mouse_to_human       11       0.909091  0.893333                    0.818986      NaN
+replicated_5_tissue      bridgerna            knn_cosine_k3 mouse_to_human       11       0.909091  0.893333                    2.455349      NaN
+replicated_5_tissue      bridgerna            knn_cosine_k5 mouse_to_human       11       0.909091  0.893333                    3.909805      NaN
+replicated_5_tissue      bridgerna     linear_softmax_probe mouse_to_human     2177       0.806615  0.737521                    0.337527      NaN
+replicated_5_tissue      bridgerna        shallow_mlp_probe mouse_to_human     2177       0.813045  0.763467                    0.500323      NaN

@@ -1,0 +1,5 @@
+metadata_field,shared_value,human_samples,mouse_samples
+classification,acute exercise,258,26
+classification,inactivity,509,169
+classification,longterm training,180,128
+exercise_type,aerobic exercise,157,154

@@ -1,0 +1,201 @@
+source,axis,hallmark,mean_delta,minimum_delta,maximum_delta,studies_positive,studies_negative,studies,consistent_increase,consistent_decrease
+bridgerna_predicted,Axis A,TNF-alpha Signaling via NF-kB,0.19721963,0.0058574826,0.28023583,4,0,4,True,False
+bridgerna_predicted,Axis A,Hypoxia,0.17306267,0.003994167,0.24803704,4,0,4,True,False
+bridgerna_predicted,Axis A,Cholesterol Homeostasis,0.13544019,0.08483571,0.1680311,4,0,4,True,False
+bridgerna_predicted,Axis A,Mitotic Spindle,0.065645814,-0.0020833015,0.11194444,3,1,4,False,False
+bridgerna_predicted,Axis A,Wnt-beta Catenin Signaling,0.107195616,0.029325366,0.17883492,4,0,4,True,False
+bridgerna_predicted,Axis A,TGF-beta Signaling,0.12424198,0.023481011,0.18734121,4,0,4,True,False
+bridgerna_predicted,Axis A,IL-6/JAK/STAT3 Signaling,0.11573273,-0.03578434,0.22844851,3,1,4,False,False
+bridgerna_predicted,Axis A,DNA Repair,0.0019792318,-0.06542331,0.052982926,2,2,4,False,False
+bridgerna_predicted,Axis A,G2-M Checkpoint,0.034821577,-0.022946805,0.06931567,3,1,4,False,False
+bridgerna_predicted,Axis A,Apoptosis,0.19999735,0.0045239255,0.32388794,4,0,4,True,False
+bridgerna_predicted,Axis A,Notch Signaling,0.105945855,0.032170534,0.15972161,4,0,4,True,False
+bridgerna_predicted,Axis A,Adipogenesis,0.01759538,-0.03366971,0.07646668,2,2,4,False,False
+bridgerna_predicted,Axis A,Estrogen Response Early,0.09440984,0.044301182,0.13137811,4,0,4,True,False
+bridgerna_predicted,Axis A,Estrogen Response Late,0.090406045,0.034484357,0.116372526,4,0,4,True,False
+bridgerna_predicted,Axis A,Androgen Response,0.12999904,0.08930506,0.20791823,4,0,4,True,False
+bridgerna_predicted,Axis A,Myogenesis,0.08991408,0.018588543,0.21531248,4,0,4,True,False
+bridgerna_predicted,Axis A,Protein Secretion,0.07140282,0.027490735,0.1593855,4,0,4,True,False
+bridgerna_predicted,Axis A,Interferon Alpha Response,0.026834622,-0.052725494,0.11322105,2,2,4,False,False
+bridgerna_predicted,Axis A,Interferon Gamma Response,0.05331149,-0.057288826,0.13220644,3,1,4,False,False
+bridgerna_predicted,Axis A,Apical Junction,0.10228825,0.011909251,0.25823775,4,0,4,True,False
+bridgerna_predicted,Axis A,Apical Surface,0.06275576,-0.00680995,0.13107574,3,1,4,False,False
+bridgerna_predicted,Axis A,Hedgehog Signaling,0.084057346,0.019693375,0.115953594,4,0,4,True,False
+bridgerna_predicted,Axis A,Complement,0.104065955,-0.06527164,0.18713768,3,1,4,False,False
+bridgerna_predicted,Axis A,Unfolded Protein Response,0.1327431,0.057249486,0.20162582,4,0,4,True,False
+bridgerna_predicted,Axis A,PI3K/AKT/mTOR  Signaling,0.1130905,0.07867199,0.167885,4,0,4,True,False
+bridgerna_predicted,Axis A,mTORC1 Signaling,0.14903885,0.08121276,0.22014487,4,0,4,True,False
+bridgerna_predicted,Axis A,E2F Targets,0.008378193,-0.031439364,0.03111732,3,1,4,False,False
+bridgerna_predicted,Axis A,Myc Targets V1,0.039662804,-0.039483458,0.074820876,3,1,4,False,False
+bridgerna_predicted,Axis A,Myc Targets V2,0.04950349,-0.042234957,0.09390819,3,1,4,False,False
+bridgerna_predicted,Axis A,Epithelial Mesenchymal Transition,0.11096218,-0.056378774,0.25056383,3,1,4,False,False
+bridgerna_predicted,Axis A,Inflammatory Response,0.120662645,-0.046429977,0.20804226,3,1,4,False,False
+bridgerna_predicted,Axis A,Xenobiotic Metabolism,0.043080546,0.021455765,0.081933975,4,0,4,True,False
+bridgerna_predicted,Axis A,Fatty Acid Metabolism,-0.012480319,-0.07151961,0.067353725,2,2,4,False,False
+bridgerna_predicted,Axis A,Oxidative Phosphorylation,-0.055764407,-0.112692595,0.043137074,1,3,4,False,False
+bridgerna_predicted,Axis A,Glycolysis,0.0673054,0.013125457,0.14468515,4,0,4,True,False
+bridgerna_predicted,Axis A,Reactive Oxygen Species Pathway,0.10315843,0.037966013,0.1541794,4,0,4,True,False
+bridgerna_predicted,Axis A,p53 Pathway,0.16668174,0.044102013,0.2485447,4,0,4,True,False
+bridgerna_predicted,Axis A,UV Response Up,0.18046811,0.09468794,0.22502774,4,0,4,True,False
+bridgerna_predicted,Axis A,UV Response Dn,0.0984979,-0.029951215,0.15946066,3,1,4,False,False
+bridgerna_predicted,Axis A,Angiogenesis,0.12405404,-0.043575577,0.26243335,3,1,4,False,False
+bridgerna_predicted,Axis A,heme Metabolism,0.020121202,-0.042242527,0.06364691,3,1,4,False,False
+bridgerna_predicted,Axis A,Coagulation,0.102235414,-0.058223262,0.19908369,3,1,4,False,False
+bridgerna_predicted,Axis A,IL-2/STAT5 Signaling,0.15594894,-0.0222283,0.230605,3,1,4,False,False
+bridgerna_predicted,Axis A,Bile Acid Metabolism,-0.07004507,-0.17448807,-0.001120925,0,4,4,False,True
+bridgerna_predicted,Axis A,Pperoxisome,-0.00048948824,-0.040910304,0.04567015,1,3,4,False,False
+bridgerna_predicted,Axis A,Allograft Rejection,0.057228453,-0.071240634,0.15951237,3,1,4,False,False
+bridgerna_predicted,Axis A,Spermatogenesis,-0.034458198,-0.11553979,0.0100440085,1,3,4,False,False
+bridgerna_predicted,Axis A,KRAS Signaling Up,0.12780443,-0.078526646,0.24562562,3,1,4,False,False
+bridgerna_predicted,Axis A,KRAS Signaling Dn,-0.03412819,-0.068596125,0.0102911,1,3,4,False,False
+bridgerna_predicted,Axis A,Pancreas Beta Cells,0.014083326,-0.013966739,0.048039258,3,1,4,False,False
+bridgerna_predicted,Axis B,TNF-alpha Signaling via NF-kB,0.04612547,-0.07359254,0.18056864,2,1,3,False,False
+bridgerna_predicted,Axis B,Hypoxia,0.020336488,-0.03848065,0.11769764,1,2,3,False,False
+bridgerna_predicted,Axis B,Cholesterol Homeostasis,0.059483062,0.021618128,0.11625886,3,0,3,True,False
+bridgerna_predicted,Axis B,Mitotic Spindle,-0.0032820303,-0.076942444,0.043353558,2,1,3,False,False
+bridgerna_predicted,Axis B,Wnt-beta Catenin Signaling,0.009328882,-0.043292284,0.074489236,1,2,3,False,False
+bridgerna_predicted,Axis B,TGF-beta Signaling,0.03699985,-0.049788654,0.1152778,2,1,3,False,False
+bridgerna_predicted,Axis B,IL-6/JAK/STAT3 Signaling,0.007229805,-0.027799785,0.07252407,1,2,3,False,False
+bridgerna_predicted,Axis B,DNA Repair,0.010098298,-0.038115323,0.07817727,1,2,3,False,False
+bridgerna_predicted,Axis B,G2-M Checkpoint,0.011666745,-0.024920791,0.047926545,2,1,3,False,False
+bridgerna_predicted,Axis B,Apoptosis,0.029731164,-0.045027137,0.1487391,1,2,3,False,False
+bridgerna_predicted,Axis B,Notch Signaling,0.004459282,-0.060015857,0.053816557,2,1,3,False,False
+bridgerna_predicted,Axis B,Adipogenesis,-0.02633361,-0.0811944,0.04535544,1,2,3,False,False
+bridgerna_predicted,Axis B,Estrogen Response Early,0.027544746,-0.022669852,0.106441826,1,2,3,False,False
+bridgerna_predicted,Axis B,Estrogen Response Late,0.0034783806,-0.06190058,0.08248776,1,2,3,False,False
+bridgerna_predicted,Axis B,Androgen Response,0.030259332,-0.053795457,0.132878,2,1,3,False,False
+bridgerna_predicted,Axis B,Myogenesis,-0.08435377,-0.14035177,-0.047514915,0,3,3,False,True
+bridgerna_predicted,Axis B,Protein Secretion,0.02215376,-0.031516537,0.056033492,2,1,3,False,False
+bridgerna_predicted,Axis B,Interferon Alpha Response,-0.001982669,-0.028516173,0.019987404,2,1,3,False,False
+bridgerna_predicted,Axis B,Interferon Gamma Response,0.008696814,-0.01064688,0.033833325,2,1,3,False,False
+bridgerna_predicted,Axis B,Apical Junction,-0.027989203,-0.113560975,0.017765597,2,1,3,False,False
+bridgerna_predicted,Axis B,Apical Surface,0.01909248,-0.035293102,0.05981958,2,1,3,False,False
+bridgerna_predicted,Axis B,Hedgehog Signaling,0.018555582,-0.047294915,0.055173635,2,1,3,False,False
+bridgerna_predicted,Axis B,Complement,-0.00080542517,-0.03466084,0.06186956,1,2,3,False,False
+bridgerna_predicted,Axis B,Unfolded Protein Response,0.05551255,-0.017739281,0.13011026,2,1,3,False,False
+bridgerna_predicted,Axis B,PI3K/AKT/mTOR  Signaling,0.036889683,0.01903221,0.05545044,3,0,3,True,False
+bridgerna_predicted,Axis B,mTORC1 Signaling,0.067264855,0.00035125017,0.1370225,3,0,3,True,False
+bridgerna_predicted,Axis B,E2F Targets,0.0064255693,-0.037371427,0.028393626,2,1,3,False,False
+bridgerna_predicted,Axis B,Myc Targets V1,0.016058898,-0.0027700812,0.035894454,2,1,3,False,False
+bridgerna_predicted,Axis B,Myc Targets V2,0.019466579,-0.046960294,0.066639066,2,1,3,False,False
+bridgerna_predicted,Axis B,Epithelial Mesenchymal Transition,0.0033619702,-0.07700545,0.056137495,2,1,3,False,False
+bridgerna_predicted,Axis B,Inflammatory Response,0.017970907,-0.047196604,0.1040023,1,2,3,False,False
+bridgerna_predicted,Axis B,Xenobiotic Metabolism,-0.00041268519,-0.048824966,0.025857605,2,1,3,False,False
+bridgerna_predicted,Axis B,Fatty Acid Metabolism,-0.032054108,-0.08596516,0.012765169,1,2,3,False,False
+bridgerna_predicted,Axis B,Oxidative Phosphorylation,-0.017924527,-0.09751308,0.031095445,2,1,3,False,False
+bridgerna_predicted,Axis B,Glycolysis,-0.0028039042,-0.025556512,0.04138589,1,2,3,False,False
+bridgerna_predicted,Axis B,Reactive Oxygen Species Pathway,0.04609527,-0.009418249,0.078330316,2,1,3,False,False
+bridgerna_predicted,Axis B,p53 Pathway,0.02980107,-0.09323633,0.1296956,2,1,3,False,False
+bridgerna_predicted,Axis B,UV Response Up,0.034176517,-0.13138184,0.16515815,2,1,3,False,False
+bridgerna_predicted,Axis B,UV Response Dn,0.01638493,-0.102353305,0.08816135,2,1,3,False,False
+bridgerna_predicted,Axis B,Angiogenesis,-0.019575318,-0.10048457,0.049949087,1,2,3,False,False
+bridgerna_predicted,Axis B,heme Metabolism,-0.008651276,-0.025780737,0.017970204,1,2,3,False,False
+bridgerna_predicted,Axis B,Coagulation,-0.02085343,-0.057322234,0.038800687,1,2,3,False,False
+bridgerna_predicted,Axis B,IL-2/STAT5 Signaling,0.035855252,-0.026493251,0.14192796,1,2,3,False,False
+bridgerna_predicted,Axis B,Bile Acid Metabolism,-0.05418986,-0.08264017,-0.0230515,0,3,3,False,True
+bridgerna_predicted,Axis B,Pperoxisome,-0.026280249,-0.05665429,0.013349235,1,2,3,False,False
+bridgerna_predicted,Axis B,Allograft Rejection,0.0014327863,-0.024948567,0.036493897,1,2,3,False,False
+bridgerna_predicted,Axis B,Spermatogenesis,-0.037646253,-0.13983864,0.016621292,2,1,3,False,False
+bridgerna_predicted,Axis B,KRAS Signaling Up,0.0018060406,-0.049058527,0.09264031,1,2,3,False,False
+bridgerna_predicted,Axis B,KRAS Signaling Dn,-0.05923943,-0.10132396,-0.02291894,0,3,3,False,True
+bridgerna_predicted,Axis B,Pancreas Beta Cells,0.02188909,-0.038747787,0.06433147,2,1,3,False,False
+direct_ssgsea,Axis A,TNF-alpha Signaling via NF-kB,0.36241573,-0.038522422,0.7631608,3,1,4,False,False
+direct_ssgsea,Axis A,Hypoxia,0.3168838,0.057743907,0.5147307,4,0,4,True,False
+direct_ssgsea,Axis A,Cholesterol Homeostasis,0.23918161,0.12572515,0.30618322,4,0,4,True,False
+direct_ssgsea,Axis A,Mitotic Spindle,0.08121091,0.026125431,0.21245718,4,0,4,True,False
+direct_ssgsea,Axis A,Wnt-beta Catenin Signaling,0.19062406,0.011833668,0.39540696,4,0,4,True,False
+direct_ssgsea,Axis A,TGF-beta Signaling,0.27090448,-0.05992961,0.7828147,3,1,4,False,False
+direct_ssgsea,Axis A,IL-6/JAK/STAT3 Signaling,0.22246028,0.030894697,0.29620886,4,0,4,True,False
+direct_ssgsea,Axis A,DNA Repair,-0.03288299,-0.070189476,0.024604201,1,3,4,False,False
+direct_ssgsea,Axis A,G2-M Checkpoint,0.033049583,-0.007605791,0.09859359,2,2,4,False,False
+direct_ssgsea,Axis A,Apoptosis,0.2700249,-0.08654094,0.46812433,3,1,4,False,False
+direct_ssgsea,Axis A,Notch Signaling,0.07671319,-0.053177655,0.1735812,3,1,4,False,False
+direct_ssgsea,Axis A,Adipogenesis,-0.01961565,-0.07998276,0.055769205,2,2,4,False,False
+direct_ssgsea,Axis A,Estrogen Response Early,0.17428252,0.009214401,0.27911013,4,0,4,True,False
+direct_ssgsea,Axis A,Estrogen Response Late,0.13591504,-0.023961186,0.20021558,3,1,4,False,False
+direct_ssgsea,Axis A,Androgen Response,0.24758196,0.08567944,0.51883984,4,0,4,True,False
+direct_ssgsea,Axis A,Myogenesis,0.10696769,0.014879227,0.28470182,4,0,4,True,False
+direct_ssgsea,Axis A,Protein Secretion,0.021577789,-0.046509027,0.09710612,2,2,4,False,False
+direct_ssgsea,Axis A,Interferon Alpha Response,-0.04401572,-0.16939849,0.07274866,1,3,4,False,False
+direct_ssgsea,Axis A,Interferon Gamma Response,0.029897198,-0.012986988,0.088264585,3,1,4,False,False
+direct_ssgsea,Axis A,Apical Junction,0.14372794,-0.024595618,0.26249903,3,1,4,False,False
+direct_ssgsea,Axis A,Apical Surface,0.14153175,-0.07049245,0.27412546,3,1,4,False,False
+direct_ssgsea,Axis A,Hedgehog Signaling,0.16238289,0.0711776,0.27595517,4,0,4,True,False
+direct_ssgsea,Axis A,Complement,0.11068515,-0.11043534,0.2825477,3,1,4,False,False
+direct_ssgsea,Axis A,Unfolded Protein Response,0.27162716,0.19544744,0.35284805,4,0,4,True,False
+direct_ssgsea,Axis A,PI3K/AKT/mTOR  Signaling,0.1184624,0.029318392,0.33449844,4,0,4,True,False
+direct_ssgsea,Axis A,mTORC1 Signaling,0.13320088,0.021489382,0.30918467,4,0,4,True,False
+direct_ssgsea,Axis A,E2F Targets,-0.0041387975,-0.033935785,0.03167975,2,2,4,False,False
+direct_ssgsea,Axis A,Myc Targets V1,0.0309605,-0.017552614,0.061249495,3,1,4,False,False
+direct_ssgsea,Axis A,Myc Targets V2,0.073505655,0.041418314,0.11939466,4,0,4,True,False
+direct_ssgsea,Axis A,Epithelial Mesenchymal Transition,0.1564256,-0.058778226,0.37315524,3,1,4,False,False
+direct_ssgsea,Axis A,Inflammatory Response,0.17094329,-0.032105982,0.26909438,3,1,4,False,False
+direct_ssgsea,Axis A,Xenobiotic Metabolism,0.0829009,-0.006715417,0.15432215,3,1,4,False,False
+direct_ssgsea,Axis A,Fatty Acid Metabolism,-0.06823599,-0.17131114,0.03706956,1,3,4,False,False
+direct_ssgsea,Axis A,Oxidative Phosphorylation,-0.04807663,-0.10073304,0.008021355,1,3,4,False,False
+direct_ssgsea,Axis A,Glycolysis,0.08776274,-0.018122315,0.19977373,3,1,4,False,False
+direct_ssgsea,Axis A,Reactive Oxygen Species Pathway,0.12678088,-0.042009234,0.2375007,3,1,4,False,False
+direct_ssgsea,Axis A,p53 Pathway,0.22150198,0.040765405,0.407517,4,0,4,True,False
+direct_ssgsea,Axis A,UV Response Up,0.2847216,-0.055253744,0.558671,3,1,4,False,False
+direct_ssgsea,Axis A,UV Response Dn,0.10572614,0.018792033,0.16971707,4,0,4,True,False
+direct_ssgsea,Axis A,Angiogenesis,0.12917355,-0.06614959,0.37627983,3,1,4,False,False
+direct_ssgsea,Axis A,heme Metabolism,0.0058187246,-0.09629738,0.10865492,2,2,4,False,False
+direct_ssgsea,Axis A,Coagulation,0.13147444,-0.07994306,0.25468087,3,1,4,False,False
+direct_ssgsea,Axis A,IL-2/STAT5 Signaling,0.21583174,-0.02449691,0.30925062,3,1,4,False,False
+direct_ssgsea,Axis A,Bile Acid Metabolism,-0.07859969,-0.16373408,-0.019847512,0,4,4,False,True
+direct_ssgsea,Axis A,Pperoxisome,-0.113912724,-0.21404257,-0.024145901,0,4,4,False,True
+direct_ssgsea,Axis A,Allograft Rejection,0.048636764,-0.061817646,0.11651039,3,1,4,False,False
+direct_ssgsea,Axis A,Spermatogenesis,-0.11162863,-0.28712046,-0.021790653,0,4,4,False,True
+direct_ssgsea,Axis A,KRAS Signaling Up,0.10477043,-0.004292488,0.23778564,3,1,4,False,False
+direct_ssgsea,Axis A,KRAS Signaling Dn,0.037303537,-0.0450778,0.13168383,2,2,4,False,False
+direct_ssgsea,Axis A,Pancreas Beta Cells,0.050774783,-0.022550464,0.19632578,2,2,4,False,False
+direct_ssgsea,Axis B,TNF-alpha Signaling via NF-kB,0.24398851,0.0056211352,0.70419055,3,0,3,True,False
+direct_ssgsea,Axis B,Hypoxia,0.14444356,-0.042025045,0.4226539,2,1,3,False,False
+direct_ssgsea,Axis B,Cholesterol Homeostasis,0.059364915,-0.09155977,0.21954763,2,1,3,False,False
+direct_ssgsea,Axis B,Mitotic Spindle,-0.010722597,-0.15499616,0.09103155,2,1,3,False,False
+direct_ssgsea,Axis B,Wnt-beta Catenin Signaling,0.060488384,-0.056628704,0.13587177,2,1,3,False,False
+direct_ssgsea,Axis B,TGF-beta Signaling,0.18891849,-0.15008771,0.64409155,2,1,3,False,False
+direct_ssgsea,Axis B,IL-6/JAK/STAT3 Signaling,0.053235035,-0.07194424,0.13020205,2,1,3,False,False
+direct_ssgsea,Axis B,DNA Repair,-0.023056507,-0.09462011,0.11553049,1,2,3,False,False
+direct_ssgsea,Axis B,G2-M Checkpoint,0.0061290264,-0.031929255,0.05674267,1,2,3,False,False
+direct_ssgsea,Axis B,Apoptosis,0.12361417,-0.012767315,0.38689536,1,2,3,False,False
+direct_ssgsea,Axis B,Notch Signaling,-0.024299175,-0.25359988,0.102015376,2,1,3,False,False
+direct_ssgsea,Axis B,Adipogenesis,0.008222262,-0.09553838,0.13951564,1,2,3,False,False
+direct_ssgsea,Axis B,Estrogen Response Early,0.10649509,0.01447618,0.2768731,3,0,3,True,False
+direct_ssgsea,Axis B,Estrogen Response Late,0.072752714,-0.00020563602,0.21102738,2,1,3,False,False
+direct_ssgsea,Axis B,Androgen Response,0.11600551,-0.048442483,0.39928323,1,2,3,False,False
+direct_ssgsea,Axis B,Myogenesis,-0.014098962,-0.027017117,0.008525372,1,2,3,False,False
+direct_ssgsea,Axis B,Protein Secretion,-0.025913283,-0.07467648,0.022406109,1,2,3,False,False
+direct_ssgsea,Axis B,Interferon Alpha Response,-0.077453695,-0.11584294,-0.039502442,0,3,3,False,True
+direct_ssgsea,Axis B,Interferon Gamma Response,-0.031117281,-0.047987103,-0.01090312,0,3,3,False,True
+direct_ssgsea,Axis B,Apical Junction,-0.03691372,-0.2513752,0.124786496,2,1,3,False,False
+direct_ssgsea,Axis B,Apical Surface,0.14505284,-0.14135861,0.4183014,2,1,3,False,False
+direct_ssgsea,Axis B,Hedgehog Signaling,0.075366266,-0.01720336,0.12387092,2,1,3,False,False
+direct_ssgsea,Axis B,Complement,-0.0076577165,-0.055983663,0.08895111,1,2,3,False,False
+direct_ssgsea,Axis B,Unfolded Protein Response,0.147403,0.08877182,0.23191941,3,0,3,True,False
+direct_ssgsea,Axis B,PI3K/AKT/mTOR  Signaling,0.108714275,0.043028057,0.21063626,3,0,3,True,False
+direct_ssgsea,Axis B,mTORC1 Signaling,0.020131946,-0.08230579,0.1697408,1,2,3,False,False
+direct_ssgsea,Axis B,E2F Targets,-0.0061457157,-0.035775185,0.016039968,2,1,3,False,False
+direct_ssgsea,Axis B,Myc Targets V1,0.012815197,-0.005230546,0.027686298,2,1,3,False,False
+direct_ssgsea,Axis B,Myc Targets V2,0.0497455,-0.013328254,0.14501595,2,1,3,False,False
+direct_ssgsea,Axis B,Epithelial Mesenchymal Transition,0.010411541,-0.08140753,0.076465204,2,1,3,False,False
+direct_ssgsea,Axis B,Inflammatory Response,0.055216152,-0.025247633,0.20752072,1,2,3,False,False
+direct_ssgsea,Axis B,Xenobiotic Metabolism,-0.016830811,-0.09882355,0.04693532,2,1,3,False,False
+direct_ssgsea,Axis B,Fatty Acid Metabolism,-0.03276086,-0.11983919,0.100037575,1,2,3,False,False
+direct_ssgsea,Axis B,Oxidative Phosphorylation,-0.0021171172,-0.09890139,0.06740308,2,1,3,False,False
+direct_ssgsea,Axis B,Glycolysis,0.0038721561,-0.0043934584,0.010693312,2,1,3,False,False
+direct_ssgsea,Axis B,Reactive Oxygen Species Pathway,0.07039412,-0.07027918,0.18393962,2,1,3,False,False
+direct_ssgsea,Axis B,p53 Pathway,0.11626013,-0.041184545,0.3762411,2,1,3,False,False
+direct_ssgsea,Axis B,UV Response Up,0.19661969,-0.07910442,0.5677187,2,1,3,False,False
+direct_ssgsea,Axis B,UV Response Dn,0.012327115,-0.1689995,0.15292037,2,1,3,False,False
+direct_ssgsea,Axis B,Angiogenesis,-0.022914127,-0.040320635,-0.0063343793,0,3,3,False,True
+direct_ssgsea,Axis B,heme Metabolism,0.027199486,-0.0057280064,0.059418082,2,1,3,False,False
+direct_ssgsea,Axis B,Coagulation,-0.02829961,-0.07627229,0.024519421,1,2,3,False,False
+direct_ssgsea,Axis B,IL-2/STAT5 Signaling,0.06932817,0.0063016415,0.19247508,3,0,3,True,False
+direct_ssgsea,Axis B,Bile Acid Metabolism,-0.04702151,-0.17250252,0.019495249,2,1,3,False,False
+direct_ssgsea,Axis B,Pperoxisome,-0.04551962,-0.15826085,0.036611676,1,2,3,False,False
+direct_ssgsea,Axis B,Allograft Rejection,0.00011995435,-0.01960364,0.018550873,2,1,3,False,False
+direct_ssgsea,Axis B,Spermatogenesis,-0.012112339,-0.052698493,0.008828908,2,1,3,False,False
+direct_ssgsea,Axis B,KRAS Signaling Up,-0.019277846,-0.07479809,0.06749463,1,2,3,False,False
+direct_ssgsea,Axis B,KRAS Signaling Dn,-0.00519073,-0.117889166,0.17122388,1,2,3,False,False
+direct_ssgsea,Axis B,Pancreas Beta Cells,0.17216484,0.15689528,0.18860447,3,0,3,True,False

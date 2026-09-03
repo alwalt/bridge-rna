@@ -1,0 +1,24 @@
+  pattern                                 theme  Full-transcriptome DE  Human IG  Mouse IG  Conserved human–mouse IG
+Pattern A                    Muscle contraction                    NaN  7.557581  2.837088                  3.560335
+Pattern A       Muscle structure / cytoskeleton               6.313349  6.764297  5.736868                  2.289358
+Pattern A  Cardiac contraction / cardiomyopathy                    NaN       NaN  2.430126                       NaN
+Pattern A    Vascular / circulatory development               8.587500       NaN       NaN                       NaN
+Pattern A           Immune / cytokine signaling               4.712450       NaN       NaN                       NaN
+Pattern A           Lipid / fatty-acid response               1.444140       NaN       NaN                       NaN
+Pattern A Oxidative / mitochondrial respiration                    NaN       NaN       NaN                       NaN
+Pattern A    Glycogen / carbohydrate metabolism                    NaN       NaN  1.622593                       NaN
+Pattern A                  Metabolic regulation               6.900344       NaN       NaN                       NaN
+Pattern A     Oxygen / cellular stress response                    NaN       NaN       NaN                       NaN
+Pattern A    General tissue / organ development              10.138629       NaN       NaN                       NaN
+Pattern B                    Muscle contraction                    NaN  2.837088  4.679103                  1.948341
+Pattern B       Muscle structure / cytoskeleton                    NaN  4.750543  6.764297                  2.593798
+Pattern B  Cardiac contraction / cardiomyopathy                    NaN       NaN  3.757071                       NaN
+Pattern B    Vascular / circulatory development               4.981072       NaN       NaN                       NaN
+Pattern B           Immune / cytokine signaling               3.364528       NaN  1.408059                       NaN
+Pattern B           Lipid / fatty-acid response               8.362754       NaN       NaN                       NaN
+Pattern B Oxidative / mitochondrial respiration                    NaN       NaN  2.299767                       NaN
+Pattern B    Glycogen / carbohydrate metabolism                    NaN       NaN       NaN                       NaN
+Pattern B                  Metabolic regulation               1.611678       NaN       NaN                       NaN
+Pattern B     Oxygen / cellular stress response               9.188333       NaN       NaN                       NaN
+Pattern B    General tissue / organ development               6.369868       NaN       NaN                       NaN
+DE backgrounds {'Pattern A': 16076, 'Pattern B': 17029}

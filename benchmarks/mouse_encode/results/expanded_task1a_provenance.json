@@ -1,0 +1,32 @@
+{
+  "cohorts": {
+    "complete_11_tissue": [
+      "adrenal",
+      "subcutaneous adipose",
+      "cerebellum",
+      "heart",
+      "liver",
+      "lung",
+      "mammary gland",
+      "ovary",
+      "spleen",
+      "stomach",
+      "testis"
+    ],
+    "replicated_5_tissue": [
+      "heart",
+      "liver",
+      "lung",
+      "spleen",
+      "testis"
+    ]
+  },
+  "mouse_profiles": 17,
+  "human_samples": 4260,
+  "genes": 15165,
+  "preprocessing": "species-specific counts -> TPM -> natural log1p; no alignment/centering/batch correction",
+  "pca_fit": "joint human+mouse log1p(TPM)",
+  "model": "model/r7hnr92k/best_model.pt",
+  "frozen": true,
+  "mouse_centroid_weighting": "equal weight per independent experiment"
+}

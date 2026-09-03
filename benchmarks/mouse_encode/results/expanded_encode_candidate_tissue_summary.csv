@@ -1,0 +1,24 @@
+encode_tissue,gtex_tissue,assay_type,eligible_experiments,eligible_mouse_samples,underlying_biosamples,expression_ready_samples,missing_gene_quantification,exact_sample_seen,same_study_seen,fully_unseen,unresolved
+spleen,Spleen,polyA plus RNA-seq,4,4,6,3,1,0,0,4,0
+heart,Heart - Atrial Appendage; Heart - Left Ventricle,polyA plus RNA-seq,4,4,6,3,1,0,1,3,0
+liver,Liver,polyA plus RNA-seq,4,4,7,3,1,0,1,3,0
+lung,Lung,polyA plus RNA-seq,4,4,6,3,1,0,1,3,0
+cerebellum,Brain - Cerebellum,polyA plus RNA-seq,3,3,5,2,1,1,0,2,0
+testis,Testis,polyA plus RNA-seq,3,3,5,3,0,0,1,2,0
+adrenal gland,Adrenal Gland,polyA plus RNA-seq,2,2,3,2,0,0,1,1,0
+ovary,Ovary,polyA plus RNA-seq,2,2,3,2,0,0,1,1,0
+mammary gland,Breast - Mammary Tissue,polyA plus RNA-seq,1,1,2,1,0,0,0,1,0
+skeletal muscle tissue,Muscle - Skeletal,polyA plus RNA-seq,1,1,1,0,1,0,0,1,0
+stomach,Stomach,polyA plus RNA-seq,1,1,2,1,0,0,0,1,0
+subcutaneous adipose tissue,Adipose - Subcutaneous,polyA plus RNA-seq,1,1,2,1,0,0,0,1,0
+adrenal gland,Adrenal Gland,total RNA-seq,6,6,11,6,0,0,6,0,0
+gastrocnemius,Muscle - Skeletal,total RNA-seq,6,6,12,6,0,0,6,0,0
+heart,Heart - Atrial Appendage; Heart - Left Ventricle,total RNA-seq,6,6,12,6,0,0,6,0,0
+layer of hippocampus,Brain - Hippocampus,total RNA-seq,6,6,12,6,0,0,6,0,0
+left cerebral cortex,Brain - Cortex,total RNA-seq,6,6,12,6,0,0,6,0,0
+frontal cortex,Brain - Frontal Cortex (BA9),polyA plus RNA-seq,1,1,2,1,0,1,0,0,0
+layer of hippocampus,Brain - Hippocampus,polyA plus RNA-seq,1,1,2,1,0,0,1,0,0
+left cerebral cortex,Brain - Cortex,polyA plus RNA-seq,1,1,2,1,0,0,1,0,0
+liver,Liver,total RNA-seq,1,1,2,1,0,0,1,0,0
+pancreas,Pancreas,polyA plus RNA-seq,1,1,1,1,0,0,1,0,0
+sigmoid colon,Colon - Sigmoid,polyA plus RNA-seq,1,1,1,1,0,0,1,0,0

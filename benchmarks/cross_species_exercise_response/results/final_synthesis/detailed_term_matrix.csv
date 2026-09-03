@@ -1,0 +1,28 @@
+pattern,source,term,Full-transcriptome DE,Human IG,Mouse IG,Conserved human–mouse IG
+Pattern A,GO:BP,GO:BP | tissue development,10.138629078901946,,,
+Pattern A,GO:BP,GO:BP | animal organ development,8.619510787789887,,,
+Pattern A,GO:BP,GO:BP | circulatory system development,8.58750022425929,,,
+Pattern A,GO:BP,GO:BP | myofibril assembly,,,3.110474108703027,
+Pattern A,GO:BP,GO:BP | muscle system process,,1.715102718277222,,
+Pattern A,GO:BP,GO:BP | actomyosin structure organization,,,1.4467671980874979,
+Pattern A,KEGG,KEGG | Cytoskeleton in muscle cells,2.2388018588459246,6.764296884473227,5.736868009663628,2.2893580706180305
+Pattern A,KEGG,KEGG | Hypertrophic cardiomyopathy,,,2.430125932902907,
+Pattern A,KEGG,KEGG | Dilated cardiomyopathy,,,2.332331659801232,
+Pattern A,REAC,REAC | Striated Muscle Contraction,,7.557580626284567,2.8370877218024013,3.5603346930655833
+Pattern A,REAC,REAC | Interleukin-4 and Interleukin-13 signaling,4.712449893275622,,,
+Pattern A,REAC,REAC | Muscle contraction,,4.679103327098613,1.8058049077173266,3.136230699736604
+Pattern A,REAC,REAC | Cytokine Signaling in Immune system,3.195741474234434,,,
+Pattern A,REAC,REAC | Immune System,2.417599155163322,,,
+Pattern A,REAC,REAC | Glycogen synthesis,,,1.6225929904950358,
+Pattern B,GO:BP,GO:BP | response to oxygen-containing compound,9.188333267165229,,,
+Pattern B,GO:BP,GO:BP | response to lipid,8.362754151899741,,,
+Pattern B,GO:BP,GO:BP | cellular response to lipid,6.7546372288427445,,,
+Pattern B,GO:BP,GO:BP | muscle structure development,,4.3047429668146,,
+Pattern B,GO:BP,GO:BP | muscle organ development,,3.397764185172859,,
+Pattern B,GO:BP,GO:BP | muscle system process,,,1.715102718277222,
+Pattern B,KEGG,KEGG | Cytoskeleton in muscle cells,,4.750542915967735,6.764296884473227,2.5937979641407973
+Pattern B,KEGG,KEGG | Diabetic cardiomyopathy,,,3.7570710685987576,
+Pattern B,KEGG,KEGG | Cardiac muscle contraction,,,2.9333163432400853,
+Pattern B,REAC,REAC | Muscle contraction,,1.8058049077173266,4.679103327098613,
+Pattern B,REAC,REAC | Striated Muscle Contraction,,2.8370877218024013,4.328162312691181,1.9483405451111002
+Pattern B,REAC,REAC | Aerobic respiration and respiratory electron transport,,,2.2997665235934606,

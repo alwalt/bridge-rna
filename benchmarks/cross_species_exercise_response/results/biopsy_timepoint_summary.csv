@@ -1,0 +1,32 @@
+species,biopsy_timepoint,samples,studies
+human,pre,367,19
+human,post,75,6
+human,post(4h),65,4
+human,post(0h),62,3
+human,post(1h),55,2
+human,post(3d),52,2
+human,post(72h),51,1
+human,post(3h),50,3
+human,<missing>,31,1
+human,T1: pre-training period 1,30,2
+human,post(24h),24,1
+human,T2: post-training period 1 in trained leg,18,1
+human,U2: post-training period 1 in untrained leg,16,1
+human,T3: pre-training period 2 in previously(period 1) trained leg,13,1
+human,U4: post-training period 2 in previously(period 1) untrained leg,11,1
+human,pre(Ninth session),10,1
+human,U3: pre-training period 2 in previously(period 1) untrained leg,8,1
+human,T4: post-training period 2 in previously(period 1) trained leg,7,1
+human,post(8h),2,1
+mouse,post,188,12
+mouse,<missing>,58,3
+mouse,post(6d),30,1
+mouse,post(3h),16,2
+mouse,post(4h),7,1
+mouse,post(4–6h),5,1
+mouse,post(8h),5,1
+mouse,post(0h),4,1
+mouse,post(12h),3,1
+mouse,post(1d),3,1
+mouse,post(20h),3,1
+mouse,post(16h),1,1

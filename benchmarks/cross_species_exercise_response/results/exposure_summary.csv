@@ -1,0 +1,5 @@
+species,exposure_status,samples,studies
+human,exact_sample_seen,744,22
+human,same_study_seen,203,20
+mouse,exact_sample_seen,262,14
+mouse,same_study_seen,61,13

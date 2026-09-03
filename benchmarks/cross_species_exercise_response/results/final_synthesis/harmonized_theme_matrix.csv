@@ -1,0 +1,23 @@
+pattern,theme,Full-transcriptome DE,Human IG,Mouse IG,Conserved human–mouse IG
+Pattern A,Muscle contraction,,7.557580626284567,2.8370877218024013,3.5603346930655833
+Pattern A,Muscle structure / cytoskeleton,6.313349342969816,6.764296884473227,5.736868009663628,2.2893580706180305
+Pattern A,Cardiac contraction / cardiomyopathy,,,2.430125932902907,
+Pattern A,Vascular / circulatory development,8.58750022425929,,,
+Pattern A,Immune / cytokine signaling,4.712449893275622,,,
+Pattern A,Lipid / fatty-acid response,1.4441396558580841,,,
+Pattern A,Oxidative / mitochondrial respiration,,,,
+Pattern A,Glycogen / carbohydrate metabolism,,,1.6225929904950358,
+Pattern A,Metabolic regulation,6.900343641782576,,,
+Pattern A,Oxygen / cellular stress response,,,,
+Pattern A,General tissue / organ development,10.138629078901946,,,
+Pattern B,Muscle contraction,,2.8370877218024013,4.679103327098613,1.9483405451111002
+Pattern B,Muscle structure / cytoskeleton,,4.750542915967735,6.764296884473227,2.5937979641407973
+Pattern B,Cardiac contraction / cardiomyopathy,,,3.7570710685987576,
+Pattern B,Vascular / circulatory development,4.98107239681203,,,
+Pattern B,Immune / cytokine signaling,3.364527677919833,,1.4080590632295567,
+Pattern B,Lipid / fatty-acid response,8.362754151899741,,,
+Pattern B,Oxidative / mitochondrial respiration,,,2.2997665235934606,
+Pattern B,Glycogen / carbohydrate metabolism,,,,
+Pattern B,Metabolic regulation,1.6116782972300425,,,
+Pattern B,Oxygen / cellular stress response,9.188333267165229,,,
+Pattern B,General tissue / organ development,6.369868347604943,,,

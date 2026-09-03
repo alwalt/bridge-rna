@@ -1,0 +1,19 @@
+encode_tissue,gtex_tissue,analysis_tissue,included_expanded_replicated,included_fixed_11,included_fixed_5
+heart,Heart - Atrial Appendage; Heart - Left Ventricle,heart,True,True,True
+adrenal gland,Adrenal Gland,adrenal,True,True,False
+left cerebral cortex,Brain - Cortex,cortex,True,False,False
+layer of hippocampus,Brain - Hippocampus,hippocampus,True,False,False
+gastrocnemius,Muscle - Skeletal,skeletal muscle,True,False,False
+liver,Liver,liver,True,True,True
+lung,Lung,lung,True,True,True
+spleen,Spleen,spleen,True,True,True
+testis,Testis,testis,True,True,True
+cerebellum,Brain - Cerebellum,cerebellum,True,True,False
+ovary,Ovary,ovary,True,True,False
+frontal cortex,Brain - Frontal Cortex (BA9),frontal cortex,False,False,False
+mammary gland,Breast - Mammary Tissue,mammary gland,False,True,False
+pancreas,Pancreas,pancreas,False,False,False
+sigmoid colon,Colon - Sigmoid,sigmoid colon,False,False,False
+stomach,Stomach,stomach,False,True,False
+subcutaneous adipose tissue,Adipose - Subcutaneous,subcutaneous adipose,False,True,False
+skeletal muscle tissue,Muscle - Skeletal,skeletal muscle,False,False,False

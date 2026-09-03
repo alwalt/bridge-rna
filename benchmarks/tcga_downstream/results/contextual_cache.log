@@ -1,0 +1,31 @@
+[2026-08-31 23:47:14] verified FM input: log1p(TPM), shape=(9816, 15165), checkpoint=r7hnr92k
+[cache] pending=9,816/9,816 device=cuda:0 output=/home/walt/bridge-rna/embeddings/tcga/ours_r7hnr92k_contextual/contextual_tokens.float16.npy
+[cache heartbeat] new=372/9,816 total=372/9,816 rate=6.14/s elapsed=1.0m eta=25.6m
+[cache heartbeat] new=736/9,816 total=736/9,816 rate=6.10/s elapsed=2.0m eta=24.8m
+[cache heartbeat] new=1,084/9,816 total=1,084/9,816 rate=5.98/s elapsed=3.0m eta=24.3m
+[cache heartbeat] new=1,436/9,816 total=1,436/9,816 rate=5.94/s elapsed=4.0m eta=23.5m
+[cache heartbeat] new=1,776/9,816 total=1,776/9,816 rate=5.88/s elapsed=5.0m eta=22.8m
+[cache heartbeat] new=2,132/9,816 total=2,132/9,816 rate=5.88/s elapsed=6.0m eta=21.8m
+[cache heartbeat] new=2,480/9,816 total=2,480/9,816 rate=5.87/s elapsed=7.0m eta=20.8m
+[cache heartbeat] new=2,820/9,816 total=2,820/9,816 rate=5.84/s elapsed=8.0m eta=20.0m
+[cache heartbeat] new=3,156/9,816 total=3,156/9,816 rate=5.81/s elapsed=9.1m eta=19.1m
+[cache heartbeat] new=3,500/9,816 total=3,500/9,816 rate=5.80/s elapsed=10.1m eta=18.2m
+[cache heartbeat] new=3,868/9,816 total=3,868/9,816 rate=5.82/s elapsed=11.1m eta=17.0m
+[cache heartbeat] new=4,236/9,816 total=4,236/9,816 rate=5.85/s elapsed=12.1m eta=15.9m
+[cache heartbeat] new=4,608/9,816 total=4,608/9,816 rate=5.87/s elapsed=13.1m eta=14.8m
+[cache heartbeat] new=4,972/9,816 total=4,972/9,816 rate=5.88/s elapsed=14.1m eta=13.7m
+[cache heartbeat] new=5,340/9,816 total=5,340/9,816 rate=5.90/s elapsed=15.1m eta=12.6m
+[cache heartbeat] new=5,704/9,816 total=5,704/9,816 rate=5.91/s elapsed=16.1m eta=11.6m
+[cache heartbeat] new=6,076/9,816 total=6,076/9,816 rate=5.92/s elapsed=17.1m eta=10.5m
+[cache heartbeat] new=6,428/9,816 total=6,428/9,816 rate=5.92/s elapsed=18.1m eta=9.5m
+[cache heartbeat] new=6,800/9,816 total=6,800/9,816 rate=5.93/s elapsed=19.1m eta=8.5m
+[cache heartbeat] new=7,160/9,816 total=7,160/9,816 rate=5.94/s elapsed=20.1m eta=7.5m
+[cache heartbeat] new=7,520/9,816 total=7,520/9,816 rate=5.94/s elapsed=21.1m eta=6.4m
+[cache heartbeat] new=7,876/9,816 total=7,876/9,816 rate=5.93/s elapsed=22.1m eta=5.4m
+[cache heartbeat] new=8,244/9,816 total=8,244/9,816 rate=5.94/s elapsed=23.1m eta=4.4m
+[cache heartbeat] new=8,516/9,816 total=8,516/9,816 rate=5.88/s elapsed=24.1m eta=3.7m
+[cache heartbeat] new=8,804/9,816 total=8,804/9,816 rate=5.84/s elapsed=25.1m eta=2.9m
+[cache heartbeat] new=9,152/9,816 total=9,152/9,816 rate=5.84/s elapsed=26.1m eta=1.9m
+[cache heartbeat] new=9,488/9,816 total=9,488/9,816 rate=5.83/s elapsed=27.1m eta=0.9m
+[cache heartbeat] new=9,816/9,816 total=9,816/9,816 rate=5.82/s elapsed=28.1m eta=0.0m
+[cache] complete=True size=152.43 GB

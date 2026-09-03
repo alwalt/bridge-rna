@@ -1,0 +1,25 @@
+[00:52:53] prepared human_GSE108643: 67,186 genes x 56 samples
+[00:52:56] prepared human_GSE151066: 67,186 genes x 38 samples
+[00:52:57] prepared human_GSE71972: 67,186 genes x 12 samples
+[00:52:57] prepared human_GSE86931: 67,186 genes x 4 samples
+[00:52:58] prepared human_GSE87748: 67,186 genes x 16 samples
+[00:53:00] prepared mouse_GSE126962: 53,511 genes x 4 samples
+[00:53:01] prepared mouse_GSE132520: 53,511 genes x 8 samples
+[00:53:01] prepared mouse_GSE97718: 53,511 genes x 8 samples
+edgeR complete: samples=56 genes_available=67186 genes_tested=13374 paired=TRUE
+[00:53:50] edgeR human_GSE108643: 13,374/67,186 genes tested
+edgeR complete: samples=38 genes_available=67186 genes_tested=23962 paired=TRUE
+[00:54:37] edgeR human_GSE151066: 23,962/67,186 genes tested
+edgeR complete: samples=12 genes_available=67186 genes_tested=19762 paired=TRUE
+[00:54:43] edgeR human_GSE71972: 19,762/67,186 genes tested
+edgeR complete: samples=4 genes_available=67186 genes_tested=17273 paired=TRUE
+[00:54:47] edgeR human_GSE86931: 17,273/67,186 genes tested
+edgeR complete: samples=16 genes_available=67186 genes_tested=18261 paired=TRUE
+[00:54:56] edgeR human_GSE87748: 18,261/67,186 genes tested
+edgeR complete: samples=4 genes_available=53511 genes_tested=15911 paired=FALSE
+[00:54:58] edgeR mouse_GSE126962: 15,911/53,511 genes tested
+edgeR complete: samples=8 genes_available=53511 genes_tested=14301 paired=FALSE
+[00:55:01] edgeR mouse_GSE132520: 14,301/53,511 genes tested
+edgeR complete: samples=8 genes_available=53511 genes_tested=12543 paired=FALSE
+[00:55:03] edgeR mouse_GSE97718: 12,543/53,511 genes tested
+[00:55:09] analysis complete

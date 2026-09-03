@@ -1,0 +1,78 @@
+[2026-09-01 00:15:35] cohort: 9,816 primary-tumor patients; classification=3,227; survival=9,668; cohorts=32
+[2026-09-01 00:15:35] reusing prepared native expression matrices
+[2026-09-01 00:15:35] verified FM input: log1p(TPM), shape=(9816, 15165), checkpoint=r7hnr92k
+[2026-09-01 00:15:35] using DataParallel attention head across 2 GPUs
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/torch/nn/modules/linear.py:134: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /pytorch/aten/src/ATen/cuda/CublasHandlePool.cpp:370.)
+  return F.linear(input, self.weight, self.bias)
+/home/walt/bridge-rna/benchmarks/tcga_downstream/pipeline/run_attention_pooling.py:203: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:838.)
+  total_loss += float(loss) * len(batch); seen += len(batch)
+[2026-09-01 00:16:37] heartbeat attention classification seed=0 epoch=1 samples=1,432/2,258 elapsed=1.0m
+[2026-09-01 00:17:33] attention classification seed=0 epoch=1 train_loss=0.28814 val_loss=0.12462 stale=0/20 elapsed=1.9m
+[2026-09-01 00:17:37] heartbeat attention classification seed=0 epoch=2 samples=472/2,258 elapsed=2.0m
+[2026-09-01 00:17:56] attention classification seed=0 epoch=2 train_loss=0.15812 val_loss=0.18488 stale=1/20 elapsed=2.3m
+[2026-09-01 00:18:19] attention classification seed=0 epoch=3 train_loss=0.11188 val_loss=0.05576 stale=0/20 elapsed=2.7m
+[2026-09-01 00:18:37] heartbeat attention classification seed=0 epoch=4 samples=2,040/2,258 elapsed=3.0m
+[2026-09-01 00:18:42] attention classification seed=0 epoch=4 train_loss=0.11237 val_loss=0.24065 stale=1/20 elapsed=3.1m
+[2026-09-01 00:19:05] attention classification seed=0 epoch=5 train_loss=0.09793 val_loss=0.09070 stale=2/20 elapsed=3.5m
+[2026-09-01 00:19:28] attention classification seed=0 epoch=6 train_loss=0.08282 val_loss=0.07395 stale=3/20 elapsed=3.8m
+[2026-09-01 00:19:37] heartbeat attention classification seed=0 epoch=7 samples=1,072/2,258 elapsed=4.0m
+[2026-09-01 00:19:51] attention classification seed=0 epoch=7 train_loss=0.08434 val_loss=0.08207 stale=4/20 elapsed=4.2m
+[2026-09-01 00:20:14] attention classification seed=0 epoch=8 train_loss=0.05526 val_loss=0.06842 stale=5/20 elapsed=4.6m
+[2026-09-01 00:20:37] attention classification seed=0 epoch=9 train_loss=0.06072 val_loss=0.04455 stale=0/20 elapsed=5.0m
+[2026-09-01 00:20:37] heartbeat attention classification seed=0 epoch=10 samples=48/2,258 elapsed=5.0m
+[2026-09-01 00:21:00] attention classification seed=0 epoch=10 train_loss=0.08736 val_loss=0.12808 stale=1/20 elapsed=5.4m
+[2026-09-01 00:21:23] attention classification seed=0 epoch=11 train_loss=0.05869 val_loss=0.08167 stale=2/20 elapsed=5.8m
+[2026-09-01 00:21:37] heartbeat attention classification seed=0 epoch=12 samples=1,648/2,258 elapsed=6.0m
+[2026-09-01 00:21:45] attention classification seed=0 epoch=12 train_loss=0.07178 val_loss=0.08844 stale=3/20 elapsed=6.1m
+[2026-09-01 00:22:08] attention classification seed=0 epoch=13 train_loss=0.20534 val_loss=0.07901 stale=4/20 elapsed=6.5m
+[2026-09-01 00:22:31] attention classification seed=0 epoch=14 train_loss=0.05508 val_loss=0.07659 stale=5/20 elapsed=6.9m
+[2026-09-01 00:22:37] heartbeat attention classification seed=0 epoch=15 samples=664/2,258 elapsed=7.0m
+[2026-09-01 00:22:55] attention classification seed=0 epoch=15 train_loss=0.03729 val_loss=0.07141 stale=6/20 elapsed=7.3m
+[2026-09-01 00:23:18] attention classification seed=0 epoch=16 train_loss=0.05275 val_loss=0.07059 stale=7/20 elapsed=7.7m
+[2026-09-01 00:23:37] heartbeat attention classification seed=0 epoch=17 samples=2,168/2,258 elapsed=8.0m
+[2026-09-01 00:23:41] attention classification seed=0 epoch=17 train_loss=0.04133 val_loss=0.13384 stale=8/20 elapsed=8.1m
+[2026-09-01 00:24:04] attention classification seed=0 epoch=18 train_loss=0.03312 val_loss=0.11719 stale=9/20 elapsed=8.4m
+[2026-09-01 00:24:27] attention classification seed=0 epoch=19 train_loss=0.03834 val_loss=0.05828 stale=10/20 elapsed=8.8m
+[2026-09-01 00:24:38] heartbeat attention classification seed=0 epoch=20 samples=1,208/2,258 elapsed=9.0m
+[2026-09-01 00:24:50] attention classification seed=0 epoch=20 train_loss=0.06172 val_loss=0.04676 stale=11/20 elapsed=9.2m
+[2026-09-01 00:25:13] attention classification seed=0 epoch=21 train_loss=0.04535 val_loss=0.03108 stale=0/20 elapsed=9.6m
+[2026-09-01 00:25:36] attention classification seed=0 epoch=22 train_loss=0.03888 val_loss=0.03078 stale=0/20 elapsed=10.0m
+[2026-09-01 00:25:38] heartbeat attention classification seed=0 epoch=23 samples=216/2,258 elapsed=10.0m
+[2026-09-01 00:25:59] attention classification seed=0 epoch=23 train_loss=0.04276 val_loss=0.07940 stale=1/20 elapsed=10.4m
+[2026-09-01 00:26:22] attention classification seed=0 epoch=24 train_loss=0.02606 val_loss=0.06010 stale=2/20 elapsed=10.7m
+[2026-09-01 00:26:38] heartbeat attention classification seed=0 epoch=25 samples=1,688/2,258 elapsed=11.0m
+[2026-09-01 00:26:45] attention classification seed=0 epoch=25 train_loss=0.03409 val_loss=0.08822 stale=3/20 elapsed=11.1m
+[2026-09-01 00:27:08] attention classification seed=0 epoch=26 train_loss=0.02873 val_loss=0.04124 stale=4/20 elapsed=11.5m
+[2026-09-01 00:27:31] attention classification seed=0 epoch=27 train_loss=0.07153 val_loss=0.05469 stale=5/20 elapsed=11.9m
+[2026-09-01 00:27:38] heartbeat attention classification seed=0 epoch=28 samples=688/2,258 elapsed=12.0m
+[2026-09-01 00:27:55] attention classification seed=0 epoch=28 train_loss=0.03327 val_loss=0.04735 stale=6/20 elapsed=12.3m
+[2026-09-01 00:28:18] attention classification seed=0 epoch=29 train_loss=0.03367 val_loss=0.06976 stale=7/20 elapsed=12.7m
+[2026-09-01 00:28:38] heartbeat attention classification seed=0 epoch=30 samples=2,072/2,258 elapsed=13.0m
+[2026-09-01 00:28:42] attention classification seed=0 epoch=30 train_loss=0.07021 val_loss=0.10287 stale=8/20 elapsed=13.1m
+[2026-09-01 00:29:06] attention classification seed=0 epoch=31 train_loss=0.02749 val_loss=0.04717 stale=9/20 elapsed=13.5m
+[2026-09-01 00:29:29] attention classification seed=0 epoch=32 train_loss=0.03254 val_loss=0.07821 stale=10/20 elapsed=13.9m
+[2026-09-01 00:29:38] heartbeat attention classification seed=0 epoch=33 samples=944/2,258 elapsed=14.0m
+[2026-09-01 00:29:52] attention classification seed=0 epoch=33 train_loss=0.03193 val_loss=0.06266 stale=11/20 elapsed=14.3m
+[2026-09-01 00:30:16] attention classification seed=0 epoch=34 train_loss=0.02428 val_loss=0.05154 stale=12/20 elapsed=14.6m
+[2026-09-01 00:30:40] attention classification seed=0 epoch=35 train_loss=0.01437 val_loss=0.03963 stale=13/20 elapsed=15.0m
+[2026-09-01 00:30:40] heartbeat attention classification seed=0 epoch=36 samples=8/2,258 elapsed=15.0m
+[2026-09-01 00:31:04] attention classification seed=0 epoch=36 train_loss=0.01561 val_loss=0.04471 stale=14/20 elapsed=15.4m
+[2026-09-01 00:31:28] attention classification seed=0 epoch=37 train_loss=0.06133 val_loss=0.15083 stale=15/20 elapsed=15.8m
+[2026-09-01 00:31:40] heartbeat attention classification seed=0 epoch=38 samples=1,264/2,258 elapsed=16.0m
+[2026-09-01 00:31:52] attention classification seed=0 epoch=38 train_loss=0.02814 val_loss=0.11777 stale=16/20 elapsed=16.2m
+[2026-09-01 00:32:15] attention classification seed=0 epoch=39 train_loss=0.03368 val_loss=0.05725 stale=17/20 elapsed=16.6m
+[2026-09-01 00:32:39] attention classification seed=0 epoch=40 train_loss=0.01545 val_loss=0.09499 stale=18/20 elapsed=17.0m
+[2026-09-01 00:32:40] heartbeat attention classification seed=0 epoch=41 samples=160/2,258 elapsed=17.0m
+[2026-09-01 00:33:02] attention classification seed=0 epoch=41 train_loss=0.02508 val_loss=0.10234 stale=19/20 elapsed=17.4m
+[2026-09-01 00:33:25] attention classification seed=0 epoch=42 train_loss=0.06101 val_loss=0.07587 stale=20/20 elapsed=17.8m
+[2026-09-01 00:33:57] attention classification seed=0 weighted_f1=0.9735
+
+classification
+          pooling  splits  macro_f1_mean  macro_f1_sd  weighted_f1_mean  weighted_f1_sd  balanced_accuracy_mean  balanced_accuracy_sd
+learned_attention       1       0.966247          NaN          0.973470             NaN                0.963006                   NaN
+             mean       5       0.979579     0.006812          0.982963        0.005694                0.979399              0.007868
+
+survival
+pooling  splits  c_index_mean  c_index_sd  weighted_c_index_mean  weighted_c_index_sd  macro_c_index_mean  macro_c_index_sd
+   mean       5      0.759667    0.011053               0.599538             0.026024            0.596277          0.034951

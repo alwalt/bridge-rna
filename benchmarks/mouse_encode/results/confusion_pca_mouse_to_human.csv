@@ -1,0 +1,7 @@
+,adrenal,skeletal muscle,heart,cortex,hippocampus,liver
+adrenal,6,0,0,0,0,0
+skeletal muscle,0,6,0,0,0,0
+heart,0,0,6,0,0,0
+cortex,0,0,0,6,0,0
+hippocampus,0,0,0,6,0,0
+liver,0,0,0,0,0,1

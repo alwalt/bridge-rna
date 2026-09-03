@@ -1,0 +1,13 @@
+gene_set,source,query_genes,background_genes,tested_terms,significant_terms
+axis_a_top100,GO:BP,100,15165,24546,1
+axis_a_top100,KEGG,100,15165,586,3
+axis_a_top100,REAC,100,15165,2849,2
+axis_b_top100,GO:BP,100,15165,24546,2
+axis_b_top100,KEGG,100,15165,586,4
+axis_b_top100,REAC,100,15165,2849,2
+axis_a_conserved_human_mouse,GO:BP,25,15165,24546,0
+axis_a_conserved_human_mouse,KEGG,25,15165,586,2
+axis_a_conserved_human_mouse,REAC,25,15165,2849,2
+axis_b_conserved_human_mouse,GO:BP,31,15165,24546,0
+axis_b_conserved_human_mouse,KEGG,31,15165,586,1
+axis_b_conserved_human_mouse,REAC,31,15165,2849,1

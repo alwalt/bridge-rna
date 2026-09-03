@@ -1,0 +1,33 @@
+{
+  "dataset": "ENCODE adult mouse tissue total RNA-seq",
+  "batch_manifest": "data/encode/files.txt",
+  "metadata": "data/encode/metadata.tsv",
+  "download_directory": "data/encode/files",
+  "organism": "Mus musculus",
+  "life_stage": "adult",
+  "assay": "total RNA-seq",
+  "perturbed": false,
+  "expected_files": 123,
+  "expected_experiments": 41,
+  "verify_md5": true,
+  "task": "Task 1A: zero-shot human-mouse tissue retrieval",
+  "seed": 42,
+  "batch_size": 8,
+  "pca_components": 512,
+  "tissues": [
+    "adrenal",
+    "skeletal muscle",
+    "heart",
+    "cortex",
+    "hippocampus",
+    "liver"
+  ],
+  "gtex_counts": "/home/walt/Attention/data/gtex/GTEx_Analysis_2026-05-19_v11_RNASeQCv2.4.3_gene_reads.parquet",
+  "gtex_sample_attributes": "data/gtex/GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt",
+  "gtex_subject_phenotypes": "data/gtex/GTEx_Analysis_v8_Annotations_SubjectPhenotypesDS.txt",
+  "human_gene_lengths": "data/gencode/gencode_v49_gene_exon_lengths.csv",
+  "orthologs": "data/ensembl/orthologs_one2one.txt",
+  "canonical_genes": "data/ensembl/canonical_genes.csv",
+  "checkpoint": "model/r7hnr92k/best_model.pt",
+  "model_config": "model/r7hnr92k/config.json"
+}

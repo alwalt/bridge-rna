@@ -1,0 +1,9 @@
+{
+  "hallmark_head": "frozen; no retraining",
+  "contrast_definitions": "unchanged Task 2 contrast_members.parquet",
+  "scale": "ARCHS4 Hallmark-head training target SD units",
+  "bootstrap_replicates": 1000,
+  "human_bootstrap": "paired subjects",
+  "mouse_bootstrap": "independent within-role samples",
+  "seed": 42
+}

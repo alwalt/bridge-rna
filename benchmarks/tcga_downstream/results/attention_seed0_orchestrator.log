@@ -1,0 +1,4 @@
+[orchestrator] waiting for complete contextual-token cache
+[orchestrator] cache complete; launching classification seed 0 across both GPUs
+[orchestrator] classification complete status=0; launching survival across both GPUs
+[orchestrator] complete classification_status=0 survival_status=0

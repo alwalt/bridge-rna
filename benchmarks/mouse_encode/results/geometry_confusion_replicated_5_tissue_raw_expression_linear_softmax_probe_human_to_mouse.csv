@@ -1,0 +1,6 @@
+,heart,liver,lung,spleen,testis
+heart,2,0,0,0,0
+liver,0,2,0,0,0
+lung,0,0,2,0,0
+spleen,0,0,0,3,0
+testis,0,0,0,0,2

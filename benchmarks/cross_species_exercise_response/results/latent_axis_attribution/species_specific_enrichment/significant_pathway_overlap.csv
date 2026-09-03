@@ -1,0 +1,26 @@
+axis,source,native,name,human_significant,mouse_significant
+Axis A,GO:BP,GO:0003012,muscle system process,True,False
+Axis A,GO:BP,GO:0030239,myofibril assembly,False,True
+Axis A,GO:BP,GO:0031032,actomyosin structure organization,False,True
+Axis A,KEGG,KEGG:00000,KEGG root term,False,True
+Axis A,KEGG,KEGG:04820,Cytoskeleton in muscle cells,True,True
+Axis A,KEGG,KEGG:05410,Hypertrophic cardiomyopathy,False,True
+Axis A,KEGG,KEGG:05414,Dilated cardiomyopathy,False,True
+Axis A,REAC,REAC:R-HSA-3322077,Glycogen synthesis,False,True
+Axis A,REAC,REAC:R-HSA-390522,Striated Muscle Contraction,True,True
+Axis A,REAC,REAC:R-HSA-397014,Muscle contraction,True,True
+Axis B,GO:BP,GO:0003012,muscle system process,False,True
+Axis B,GO:BP,GO:0007517,muscle organ development,True,False
+Axis B,GO:BP,GO:0061061,muscle structure development,True,False
+Axis B,KEGG,KEGG:00000,KEGG root term,False,True
+Axis B,KEGG,KEGG:04260,Cardiac muscle contraction,False,True
+Axis B,KEGG,KEGG:04820,Cytoskeleton in muscle cells,True,True
+Axis B,KEGG,KEGG:05020,Prion disease,False,True
+Axis B,KEGG,KEGG:05208,Chemical carcinogenesis - reactive oxygen species,False,True
+Axis B,KEGG,KEGG:05415,Diabetic cardiomyopathy,False,True
+Axis B,REAC,REAC:R-HSA-1428517,Aerobic respiration and respiratory electron transport,False,True
+Axis B,REAC,REAC:R-HSA-166663,Initial triggering of complement,False,True
+Axis B,REAC,REAC:R-HSA-390522,Striated Muscle Contraction,True,True
+Axis B,REAC,REAC:R-HSA-397014,Muscle contraction,True,True
+Axis B,REAC,REAC:R-HSA-611105,Respiratory electron transport,False,True
+Axis B,REAC,REAC:R-HSA-6799198,Complex I biogenesis,False,True

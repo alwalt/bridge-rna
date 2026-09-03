@@ -1,0 +1,12 @@
+{
+  "encoder": "frozen r7hnr92k",
+  "target": "dot product of mean-pooled sample embedding with unit latent-axis direction",
+  "direction": "normalized mean of normalized fixed study post-minus-pre response vectors",
+  "ig_baseline": "all-zero log1p(TPM) input",
+  "ig_steps": 8,
+  "ig_rule": "midpoint Riemann",
+  "deletion": "native -10 mask token",
+  "random_panels": 3,
+  "contrasts": "unchanged",
+  "GSE151066": "unassigned/intermediate; attributed to nearer fixed direction by absolute projection and excluded from consensus"
+}

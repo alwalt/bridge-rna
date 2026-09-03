@@ -1,0 +1,73 @@
+/home/walt/bridge-rna/benchmarks/cross_species_exercise_response/pipeline/run_gene_context_hallmark.py:73: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  values=torch.as_tensor(np.asarray(expression[row:row+1]),dtype=torch.float32,device=device)
+/home/walt/bridge-rna/benchmarks/cross_species_exercise_response/pipeline/run_gene_context_hallmark.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:838.)
+  loss=loss_fn(model(token[idx]),y[idx]); loss.backward(); optimizer.step(); total_loss+=float(loss); steps+=1
+[20:23:24] train epoch=1 studies=10/192 loss=1.0298 elapsed=0.0m
+[20:23:26] train epoch=1 studies=20/192 loss=0.9080 elapsed=0.1m
+[20:23:27] train epoch=1 studies=30/192 loss=0.8341 elapsed=0.1m
+[20:23:29] train epoch=1 studies=40/192 loss=0.7781 elapsed=0.1m
+[20:23:31] train epoch=1 studies=50/192 loss=0.7363 elapsed=0.1m
+[20:23:32] train epoch=1 studies=60/192 loss=0.6951 elapsed=0.2m
+[20:23:34] train epoch=1 studies=70/192 loss=0.6656 elapsed=0.2m
+[20:23:35] train epoch=1 studies=80/192 loss=0.6376 elapsed=0.2m
+[20:23:37] train epoch=1 studies=90/192 loss=0.6151 elapsed=0.3m
+[20:23:39] train epoch=1 studies=100/192 loss=0.5922 elapsed=0.3m
+[20:23:40] train epoch=1 studies=110/192 loss=0.5701 elapsed=0.3m
+[20:23:42] train epoch=1 studies=120/192 loss=0.5511 elapsed=0.3m
+[20:23:43] train epoch=1 studies=130/192 loss=0.5327 elapsed=0.4m
+[20:23:45] train epoch=1 studies=140/192 loss=0.5168 elapsed=0.4m
+[20:23:47] train epoch=1 studies=150/192 loss=0.5060 elapsed=0.4m
+[20:23:48] train epoch=1 studies=160/192 loss=0.4903 elapsed=0.4m
+[20:23:50] train epoch=1 studies=170/192 loss=0.4780 elapsed=0.5m
+[20:23:52] train epoch=1 studies=180/192 loss=0.4663 elapsed=0.5m
+[20:23:53] train epoch=1 studies=190/192 loss=0.4536 elapsed=0.5m
+[20:23:54] train epoch=1 studies=192/192 loss=0.4516 elapsed=0.5m
+[20:23:59] evaluate val: 10/32 studies
+[20:24:04] evaluate val: 20/32 studies
+[20:24:10] evaluate val: 30/32 studies
+[20:24:11] evaluate val: 32/32 studies
+[20:24:12] train epoch=2 studies=10/192 loss=0.2490 elapsed=0.0m
+[20:24:14] train epoch=2 studies=20/192 loss=0.2360 elapsed=0.1m
+[20:24:16] train epoch=2 studies=30/192 loss=0.2329 elapsed=0.1m
+[20:24:17] train epoch=2 studies=40/192 loss=0.2207 elapsed=0.1m
+[20:24:19] train epoch=2 studies=50/192 loss=0.2190 elapsed=0.1m
+[20:24:20] train epoch=2 studies=60/192 loss=0.2152 elapsed=0.2m
+[20:24:22] train epoch=2 studies=70/192 loss=0.2132 elapsed=0.2m
+[20:24:24] train epoch=2 studies=80/192 loss=0.2104 elapsed=0.2m
+[20:24:25] train epoch=2 studies=90/192 loss=0.2075 elapsed=0.2m
+[20:24:27] train epoch=2 studies=100/192 loss=0.2046 elapsed=0.3m
+[20:24:28] train epoch=2 studies=110/192 loss=0.1984 elapsed=0.3m
+[20:24:30] train epoch=2 studies=120/192 loss=0.1942 elapsed=0.3m
+[20:24:32] train epoch=2 studies=130/192 loss=0.1924 elapsed=0.4m
+[20:24:33] train epoch=2 studies=140/192 loss=0.1904 elapsed=0.4m
+[20:24:35] train epoch=2 studies=150/192 loss=0.1883 elapsed=0.4m
+[20:24:37] train epoch=2 studies=160/192 loss=0.1841 elapsed=0.4m
+[20:24:38] train epoch=2 studies=170/192 loss=0.1808 elapsed=0.5m
+[20:24:40] train epoch=2 studies=180/192 loss=0.1812 elapsed=0.5m
+[20:24:41] train epoch=2 studies=190/192 loss=0.1790 elapsed=0.5m
+[20:24:42] train epoch=2 studies=192/192 loss=0.1786 elapsed=0.5m
+[20:24:47] evaluate val: 10/32 studies
+[20:24:52] evaluate val: 20/32 studies
+[20:24:57] evaluate val: 30/32 studies
+[20:24:58] evaluate val: 32/32 studies
+[20:25:04] evaluate test: 10/32 studies
+[20:25:09] evaluate test: 20/32 studies
+[20:25:14] evaluate test: 30/32 studies
+[20:25:15] evaluate test: 32/32 studies
+[20:25:17] exercise contextual scoring: 10/146 samples
+[20:25:18] exercise contextual scoring: 20/146 samples
+[20:25:20] exercise contextual scoring: 30/146 samples
+[20:25:21] exercise contextual scoring: 40/146 samples
+[20:25:23] exercise contextual scoring: 50/146 samples
+[20:25:24] exercise contextual scoring: 60/146 samples
+[20:25:26] exercise contextual scoring: 70/146 samples
+[20:25:28] exercise contextual scoring: 80/146 samples
+[20:25:29] exercise contextual scoring: 90/146 samples
+[20:25:31] exercise contextual scoring: 100/146 samples
+[20:25:32] exercise contextual scoring: 110/146 samples
+[20:25:34] exercise contextual scoring: 120/146 samples
+[20:25:35] exercise contextual scoring: 130/146 samples
+[20:25:37] exercise contextual scoring: 140/146 samples
+[20:25:38] exercise contextual scoring: 146/146 samples
+[20:25:39] Gene-context Hallmark experiment complete

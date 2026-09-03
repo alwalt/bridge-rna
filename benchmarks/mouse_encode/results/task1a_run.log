@@ -1,0 +1,45 @@
+[19:57:32] Cohort sizes:
+species  tissue         
+human    adrenal            250
+         cortex             243
+         heart              823
+         hippocampus        181
+         liver              222
+         skeletal muscle    756
+mouse    adrenal              6
+         cortex               6
+         heart                6
+         hippocampus          6
+         liver                1
+         skeletal muscle      6
+[19:57:32] Fitting 512-component PCA on combined log1p(TPM)
+[19:58:00] Loading frozen BridgeRNA checkpoint
+[19:58:02] BridgeRNA inference: samples=2,506, batch_size=4, device=cuda:0
+[19:59:02] BridgeRNA heartbeat: 512/2,506, elapsed=1.0m, rate=8.52/s
+[20:00:02] BridgeRNA heartbeat: 1,032/2,506, elapsed=2.0m, rate=8.57/s
+[20:01:03] BridgeRNA heartbeat: 1,560/2,506, elapsed=3.0m, rate=8.62/s
+[20:02:03] BridgeRNA heartbeat: 2,084/2,506, elapsed=4.0m, rate=8.65/s
+[20:02:51] BridgeRNA heartbeat: 2,506/2,506, elapsed=4.8m, rate=8.66/s
+[20:02:51] Retrieval: raw_expression
+[20:03:17] Retrieval: pca
+[20:03:18] Retrieval: bridgerna
+[20:03:21] Final metrics:
+representation      direction        metric    value    n
+raw_expression human_to_mouse top1_accuracy 0.883636 2475
+raw_expression human_to_mouse           mrr 0.938296 2475
+raw_expression mouse_to_human top1_accuracy 0.806452   31
+raw_expression mouse_to_human           mrr 0.903226   31
+raw_expression   within_human top1_accuracy 0.988283 2475
+raw_expression   within_mouse top1_accuracy 1.000000   30
+           pca human_to_mouse top1_accuracy 0.842020 2475
+           pca human_to_mouse           mrr 0.908189 2475
+           pca mouse_to_human top1_accuracy 0.806452   31
+           pca mouse_to_human           mrr 0.903226   31
+           pca   within_human top1_accuracy 0.968889 2475
+           pca   within_mouse top1_accuracy 1.000000   30
+     bridgerna human_to_mouse top1_accuracy 0.732525 2475
+     bridgerna human_to_mouse           mrr 0.838323 2475
+     bridgerna mouse_to_human top1_accuracy 0.806452   31
+     bridgerna mouse_to_human           mrr 0.892473   31
+     bridgerna   within_human top1_accuracy 0.947475 2475
+     bridgerna   within_mouse top1_accuracy 1.000000   30

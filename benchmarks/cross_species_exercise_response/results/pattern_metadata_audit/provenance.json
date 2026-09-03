@@ -1,0 +1,26 @@
+{
+  "source": "curated GEPREP human/mouse metadata restricted to exact saved contrast GSMs",
+  "order": [
+    "GSE108643",
+    "GSE86931",
+    "GSE126962",
+    "GSE132520",
+    "GSE151066",
+    "GSE71972",
+    "GSE87748",
+    "GSE97718"
+  ],
+  "patterns": {
+    "GSE108643": "A",
+    "GSE86931": "A",
+    "GSE126962": "A",
+    "GSE132520": "A",
+    "GSE151066": "Intermediate",
+    "GSE71972": "B",
+    "GSE87748": "B",
+    "GSE97718": "B"
+  },
+  "missing_values": "reported explicitly; not inferred",
+  "statistical_testing": false,
+  "flagging": "descriptive manual audit of obvious perfect or strong tracking"
+}

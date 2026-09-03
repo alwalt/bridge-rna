@@ -1,0 +1,25 @@
+species,protocol,samples,studies
+human,baseline,331,18
+human,<missing>,151,7
+human,"unilateral knee extensions, exercised leg",147,4
+human,cycling,91,4
+human,resistance exercise sets,52,2
+human,"unilateral knee extensions, non-exercised leg",44,2
+human,bed rest,31,2
+human,"cycling, treadmill walking",19,1
+human,bilateral knee extensions,18,1
+human,weight lifting,18,1
+human,"cycling, weight lifting",14,1
+human,bed rest with exercise,7,1
+human,"leg press, leg extensions, dumbbell squats",7,1
+human,bed rest only,6,1
+human,"strength exercises, treadmill walking",6,1
+human,rehabilitation training,5,1
+mouse,<missing>,139,8
+mouse,treadmill,80,7
+mouse,voluntary wheel running,59,4
+mouse,sedentary,17,3
+mouse,sedentary (sham-exercise),13,1
+mouse,forced downhill running,6,1
+mouse,swimming,6,1
+mouse,forced wheel running,3,1

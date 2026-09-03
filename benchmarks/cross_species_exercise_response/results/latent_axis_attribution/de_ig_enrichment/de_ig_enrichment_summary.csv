@@ -1,0 +1,25 @@
+query,axis,gene_set,query_genes,source,tested_terms,significant_terms
+axis_a__de_top100,Axis A,de_top100,100,GO:BP,24546,40
+axis_a__de_top100,Axis A,de_top100,100,KEGG,586,5
+axis_a__de_top100,Axis A,de_top100,100,REAC,2849,3
+axis_a__ig_top100,Axis A,ig_top100,100,GO:BP,24546,1
+axis_a__ig_top100,Axis A,ig_top100,100,KEGG,586,3
+axis_a__ig_top100,Axis A,ig_top100,100,REAC,2849,2
+axis_a__shared,Axis A,shared,9,GO:BP,24546,0
+axis_a__shared,Axis A,shared,9,KEGG,586,1
+axis_a__shared,Axis A,shared,9,REAC,2849,0
+axis_a__high_ig_low_de,Axis A,high_ig_low_de,79,GO:BP,24546,1
+axis_a__high_ig_low_de,Axis A,high_ig_low_de,79,KEGG,586,3
+axis_a__high_ig_low_de,Axis A,high_ig_low_de,79,REAC,2849,2
+axis_b__de_top100,Axis B,de_top100,100,GO:BP,24546,14
+axis_b__de_top100,Axis B,de_top100,100,KEGG,586,1
+axis_b__de_top100,Axis B,de_top100,100,REAC,2849,0
+axis_b__ig_top100,Axis B,ig_top100,100,GO:BP,24546,2
+axis_b__ig_top100,Axis B,ig_top100,100,KEGG,586,4
+axis_b__ig_top100,Axis B,ig_top100,100,REAC,2849,2
+axis_b__shared,Axis B,shared,8,GO:BP,24546,0
+axis_b__shared,Axis B,shared,8,KEGG,586,0
+axis_b__shared,Axis B,shared,8,REAC,2849,0
+axis_b__high_ig_low_de,Axis B,high_ig_low_de,85,GO:BP,24546,0
+axis_b__high_ig_low_de,Axis B,high_ig_low_de,85,KEGG,586,4
+axis_b__high_ig_low_de,Axis B,high_ig_low_de,85,REAC,2849,2

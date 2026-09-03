@@ -1,0 +1,97 @@
+cohort,representation,direction,query_tissue,nearest_cross_species_tissue,anatomical_match_rank,nearest_cosine,anatomical_match_cosine
+complete_11_tissue,raw_expression,human_to_mouse,adrenal,subcutaneous adipose,6,0.9156247973442078,0.8924021124839783
+complete_11_tissue,raw_expression,human_to_mouse,subcutaneous adipose,subcutaneous adipose,1,0.9315005540847778,0.9315005540847778
+complete_11_tissue,raw_expression,human_to_mouse,cerebellum,cerebellum,1,0.9384680986404419,0.9384680986404419
+complete_11_tissue,raw_expression,human_to_mouse,heart,heart,1,0.9275762438774109,0.9275762438774109
+complete_11_tissue,raw_expression,human_to_mouse,liver,liver,1,0.9182431697845459,0.9182431697845459
+complete_11_tissue,raw_expression,human_to_mouse,lung,lung,1,0.9420540928840637,0.9420540928840637
+complete_11_tissue,raw_expression,human_to_mouse,mammary gland,subcutaneous adipose,3,0.9362542629241943,0.9201722145080566
+complete_11_tissue,raw_expression,human_to_mouse,ovary,subcutaneous adipose,3,0.9222385883331299,0.908495306968689
+complete_11_tissue,raw_expression,human_to_mouse,spleen,spleen,1,0.934776246547699,0.934776246547699
+complete_11_tissue,raw_expression,human_to_mouse,stomach,subcutaneous adipose,7,0.927055835723877,0.8853190541267395
+complete_11_tissue,raw_expression,human_to_mouse,testis,subcutaneous adipose,9,0.878121018409729,0.8179841637611389
+complete_11_tissue,raw_expression,mouse_to_human,adrenal,adrenal,1,0.8924021124839783,0.8924021124839783
+complete_11_tissue,raw_expression,mouse_to_human,subcutaneous adipose,mammary gland,2,0.9362542629241943,0.9315005540847778
+complete_11_tissue,raw_expression,mouse_to_human,cerebellum,cerebellum,1,0.9384680986404419,0.9384680986404419
+complete_11_tissue,raw_expression,mouse_to_human,heart,heart,1,0.9275762438774109,0.9275762438774109
+complete_11_tissue,raw_expression,mouse_to_human,liver,liver,1,0.9182431697845459,0.9182431697845459
+complete_11_tissue,raw_expression,mouse_to_human,lung,lung,1,0.9420540928840637,0.9420540928840637
+complete_11_tissue,raw_expression,mouse_to_human,mammary gland,mammary gland,1,0.9201722145080566,0.9201722145080566
+complete_11_tissue,raw_expression,mouse_to_human,ovary,mammary gland,4,0.9132200479507446,0.908495306968689
+complete_11_tissue,raw_expression,mouse_to_human,spleen,spleen,1,0.934776246547699,0.934776246547699
+complete_11_tissue,raw_expression,mouse_to_human,stomach,stomach,1,0.8853190541267395,0.8853190541267395
+complete_11_tissue,raw_expression,mouse_to_human,testis,testis,1,0.8179841637611389,0.8179841637611389
+complete_11_tissue,joint_pca,human_to_mouse,adrenal,liver,2,0.18590499460697174,0.16919688880443573
+complete_11_tissue,joint_pca,human_to_mouse,subcutaneous adipose,subcutaneous adipose,1,0.1528877317905426,0.1528877317905426
+complete_11_tissue,joint_pca,human_to_mouse,cerebellum,cerebellum,1,0.6741122007369995,0.6741122007369995
+complete_11_tissue,joint_pca,human_to_mouse,heart,heart,1,0.6823837757110596,0.6823837757110596
+complete_11_tissue,joint_pca,human_to_mouse,liver,liver,1,0.7407126426696777,0.7407126426696777
+complete_11_tissue,joint_pca,human_to_mouse,lung,lung,1,0.24174468219280243,0.24174468219280243
+complete_11_tissue,joint_pca,human_to_mouse,mammary gland,subcutaneous adipose,3,0.19998668134212494,0.06734068691730499
+complete_11_tissue,joint_pca,human_to_mouse,ovary,ovary,1,0.14447340369224548,0.14447340369224548
+complete_11_tissue,joint_pca,human_to_mouse,spleen,spleen,1,0.3716709017753601,0.3716709017753601
+complete_11_tissue,joint_pca,human_to_mouse,stomach,stomach,1,0.4169657528400421,0.4169657528400421
+complete_11_tissue,joint_pca,human_to_mouse,testis,testis,1,0.33043164014816284,0.33043164014816284
+complete_11_tissue,joint_pca,mouse_to_human,adrenal,adrenal,1,0.16919688880443573,0.16919688880443573
+complete_11_tissue,joint_pca,mouse_to_human,subcutaneous adipose,mammary gland,3,0.19998668134212494,0.1528877317905426
+complete_11_tissue,joint_pca,mouse_to_human,cerebellum,cerebellum,1,0.6741122007369995,0.6741122007369995
+complete_11_tissue,joint_pca,mouse_to_human,heart,heart,1,0.6823837757110596,0.6823837757110596
+complete_11_tissue,joint_pca,mouse_to_human,liver,liver,1,0.7407126426696777,0.7407126426696777
+complete_11_tissue,joint_pca,mouse_to_human,lung,lung,1,0.24174468219280243,0.24174468219280243
+complete_11_tissue,joint_pca,mouse_to_human,mammary gland,spleen,2,0.0817946121096611,0.06734068691730499
+complete_11_tissue,joint_pca,mouse_to_human,ovary,ovary,1,0.14447340369224548,0.14447340369224548
+complete_11_tissue,joint_pca,mouse_to_human,spleen,spleen,1,0.3716709017753601,0.3716709017753601
+complete_11_tissue,joint_pca,mouse_to_human,stomach,stomach,1,0.4169657528400421,0.4169657528400421
+complete_11_tissue,joint_pca,mouse_to_human,testis,testis,1,0.33043164014816284,0.33043164014816284
+complete_11_tissue,bridgerna,human_to_mouse,adrenal,adrenal,1,0.9805374145507812,0.9805374145507812
+complete_11_tissue,bridgerna,human_to_mouse,subcutaneous adipose,mammary gland,2,0.969860315322876,0.9598655700683594
+complete_11_tissue,bridgerna,human_to_mouse,cerebellum,cerebellum,1,0.9594417810440063,0.9594417810440063
+complete_11_tissue,bridgerna,human_to_mouse,heart,heart,1,0.9824025630950928,0.9824025630950928
+complete_11_tissue,bridgerna,human_to_mouse,liver,liver,1,0.9779430627822876,0.9779430627822876
+complete_11_tissue,bridgerna,human_to_mouse,lung,subcutaneous adipose,2,0.9690365791320801,0.9616085290908813
+complete_11_tissue,bridgerna,human_to_mouse,mammary gland,mammary gland,1,0.9747557640075684,0.9747557640075684
+complete_11_tissue,bridgerna,human_to_mouse,ovary,subcutaneous adipose,2,0.9769017696380615,0.9715579748153687
+complete_11_tissue,bridgerna,human_to_mouse,spleen,mammary gland,2,0.9736232757568359,0.9713037014007568
+complete_11_tissue,bridgerna,human_to_mouse,stomach,spleen,2,0.9831928014755249,0.9831547737121582
+complete_11_tissue,bridgerna,human_to_mouse,testis,ovary,9,0.9394797086715698,0.8478903770446777
+complete_11_tissue,bridgerna,mouse_to_human,adrenal,adrenal,1,0.9805374145507812,0.9805374145507812
+complete_11_tissue,bridgerna,mouse_to_human,subcutaneous adipose,ovary,7,0.9769017696380615,0.9598655700683594
+complete_11_tissue,bridgerna,mouse_to_human,cerebellum,cerebellum,1,0.9594417810440063,0.9594417810440063
+complete_11_tissue,bridgerna,mouse_to_human,heart,heart,1,0.9824025630950928,0.9824025630950928
+complete_11_tissue,bridgerna,mouse_to_human,liver,liver,1,0.9779430627822876,0.9779430627822876
+complete_11_tissue,bridgerna,mouse_to_human,lung,lung,1,0.9616085290908813,0.9616085290908813
+complete_11_tissue,bridgerna,mouse_to_human,mammary gland,stomach,2,0.9767563343048096,0.9747557640075684
+complete_11_tissue,bridgerna,mouse_to_human,ovary,ovary,1,0.9715579748153687,0.9715579748153687
+complete_11_tissue,bridgerna,mouse_to_human,spleen,stomach,3,0.9831928014755249,0.9713037014007568
+complete_11_tissue,bridgerna,mouse_to_human,stomach,stomach,1,0.9831547737121582,0.9831547737121582
+complete_11_tissue,bridgerna,mouse_to_human,testis,heart,10,0.8999104499816895,0.8478903770446777
+replicated_5_tissue,raw_expression,human_to_mouse,heart,heart,1,0.9275761842727661,0.9275761842727661
+replicated_5_tissue,raw_expression,human_to_mouse,liver,liver,1,0.9182431101799011,0.9182431101799011
+replicated_5_tissue,raw_expression,human_to_mouse,lung,lung,1,0.9420540928840637,0.9420540928840637
+replicated_5_tissue,raw_expression,human_to_mouse,spleen,spleen,1,0.934776246547699,0.934776246547699
+replicated_5_tissue,raw_expression,human_to_mouse,testis,lung,4,0.877293050289154,0.8179841637611389
+replicated_5_tissue,raw_expression,mouse_to_human,heart,heart,1,0.9275761842727661,0.9275761842727661
+replicated_5_tissue,raw_expression,mouse_to_human,liver,liver,1,0.9182431101799011,0.9182431101799011
+replicated_5_tissue,raw_expression,mouse_to_human,lung,lung,1,0.9420540928840637,0.9420540928840637
+replicated_5_tissue,raw_expression,mouse_to_human,spleen,spleen,1,0.934776246547699,0.934776246547699
+replicated_5_tissue,raw_expression,mouse_to_human,testis,testis,1,0.8179841637611389,0.8179841637611389
+replicated_5_tissue,joint_pca,human_to_mouse,heart,heart,1,0.68238365650177,0.68238365650177
+replicated_5_tissue,joint_pca,human_to_mouse,liver,liver,1,0.7407125234603882,0.7407125234603882
+replicated_5_tissue,joint_pca,human_to_mouse,lung,lung,1,0.24174468219280243,0.24174468219280243
+replicated_5_tissue,joint_pca,human_to_mouse,spleen,spleen,1,0.3716709017753601,0.3716709017753601
+replicated_5_tissue,joint_pca,human_to_mouse,testis,testis,1,0.33043164014816284,0.33043164014816284
+replicated_5_tissue,joint_pca,mouse_to_human,heart,heart,1,0.68238365650177,0.68238365650177
+replicated_5_tissue,joint_pca,mouse_to_human,liver,liver,1,0.7407125234603882,0.7407125234603882
+replicated_5_tissue,joint_pca,mouse_to_human,lung,lung,1,0.24174468219280243,0.24174468219280243
+replicated_5_tissue,joint_pca,mouse_to_human,spleen,spleen,1,0.3716709017753601,0.3716709017753601
+replicated_5_tissue,joint_pca,mouse_to_human,testis,testis,1,0.33043164014816284,0.33043164014816284
+replicated_5_tissue,bridgerna,human_to_mouse,heart,heart,1,0.9824023842811584,0.9824023842811584
+replicated_5_tissue,bridgerna,human_to_mouse,liver,liver,1,0.9779433012008667,0.9779433012008667
+replicated_5_tissue,bridgerna,human_to_mouse,lung,lung,1,0.9616087675094604,0.9616087675094604
+replicated_5_tissue,bridgerna,human_to_mouse,spleen,spleen,1,0.9713037014007568,0.9713037014007568
+replicated_5_tissue,bridgerna,human_to_mouse,testis,lung,3,0.8908240795135498,0.8478903770446777
+replicated_5_tissue,bridgerna,mouse_to_human,heart,heart,1,0.9824023842811584,0.9824023842811584
+replicated_5_tissue,bridgerna,mouse_to_human,liver,liver,1,0.9779433012008667,0.9779433012008667
+replicated_5_tissue,bridgerna,mouse_to_human,lung,lung,1,0.9616087675094604,0.9616087675094604
+replicated_5_tissue,bridgerna,mouse_to_human,spleen,spleen,1,0.9713037014007568,0.9713037014007568
+replicated_5_tissue,bridgerna,mouse_to_human,testis,heart,4,0.8999104499816895,0.8478903770446777

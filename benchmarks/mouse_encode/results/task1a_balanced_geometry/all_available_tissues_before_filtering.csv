@@ -1,0 +1,19 @@
+encode_tissue,gtex_tissue,analysis_tissue,eligible_expression_ready_mouse_experiments,available_gtex_profiles,exact_sample_seen,same_study_seen,fully_unseen,unresolved,included_expanded_replicated,included_fixed_11,included_fixed_5
+heart,Heart - Atrial Appendage; Heart - Left Ventricle,heart,9,823,0,7,2,0,True,True,True
+adrenal gland,Adrenal Gland,adrenal,8,250,0,7,1,0,True,True,False
+left cerebral cortex,Brain - Cortex,cortex,7,243,0,7,0,0,True,False,False
+layer of hippocampus,Brain - Hippocampus,hippocampus,7,181,0,7,0,0,True,False,False
+gastrocnemius,Muscle - Skeletal,skeletal muscle,6,756,0,6,0,0,True,False,False
+liver,Liver,liver,4,222,0,2,2,0,True,True,True
+lung,Lung,lung,3,532,0,1,2,0,True,True,True
+spleen,Spleen,spleen,3,239,0,0,3,0,True,True,True
+testis,Testis,testis,3,361,0,1,2,0,True,True,True
+cerebellum,Brain - Cerebellum,cerebellum,2,236,1,0,1,0,True,True,False
+ovary,Ovary,ovary,2,173,0,1,1,0,True,True,False
+frontal cortex,Brain - Frontal Cortex (BA9),frontal cortex,1,195,1,0,0,0,False,False,False
+mammary gland,Breast - Mammary Tissue,mammary gland,1,445,0,0,1,0,False,True,False
+pancreas,Pancreas,pancreas,1,314,0,1,0,0,False,False,False
+sigmoid colon,Colon - Sigmoid,sigmoid colon,1,365,0,1,0,0,False,False,False
+stomach,Stomach,stomach,1,347,0,0,1,0,False,True,False
+subcutaneous adipose tissue,Adipose - Subcutaneous,subcutaneous adipose,1,632,0,0,1,0,False,True,False
+skeletal muscle tissue,Muscle - Skeletal,skeletal muscle,0,756,0,0,0,0,False,False,False

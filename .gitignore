@@ -96,6 +96,10 @@ embeddings/
 cache/
 .cache/
 
+# Reproducible Task 2 caches, extracted count matrices, and local R library
+benchmarks/cross_species_exercise_response/work/
+benchmarks/mouse_encode/work/
+
 # ============================================================
 # Frontend / Node
 # ============================================================

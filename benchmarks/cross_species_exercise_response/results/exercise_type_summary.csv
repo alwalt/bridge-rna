@@ -1,0 +1,8 @@
+species,exercise_type,samples,studies
+human,<missing>,509,22
+human,resistance exercise,214,7
+human,aerobic exercise,157,7
+human,high-intensity interval training,40,2
+human,combined exercise,27,3
+mouse,<missing>,169,12
+mouse,aerobic exercise,154,14

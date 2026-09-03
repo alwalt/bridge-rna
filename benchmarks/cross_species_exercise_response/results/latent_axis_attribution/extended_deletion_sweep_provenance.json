@@ -1,0 +1,25 @@
+{
+  "sizes": [
+    25,
+    50,
+    100,
+    250,
+    500,
+    1000
+  ],
+  "panels": [
+    "IG-ranked",
+    "edgeR DE-ranked within 15,165",
+    "5 deterministic random panels"
+  ],
+  "seed": 20260903,
+  "mask_value": -10.0,
+  "outcome": "post-minus-pre latent-axis projection after deletion divided by original projection",
+  "IG_recomputed": false,
+  "model_retrained": false,
+  "reused": "IG-ranked 25/50/100 results from deletion_test_results.parquet",
+  "devices": [
+    "cuda:0",
+    "cuda:1"
+  ]
+}

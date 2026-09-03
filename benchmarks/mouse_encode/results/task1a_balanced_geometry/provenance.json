@@ -1,0 +1,81 @@
+{
+  "analysis": "Task 1A balanced representation geometry",
+  "genes": 15165,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "cohorts": {
+    "expanded_replicated": [
+      "adrenal",
+      "cerebellum",
+      "cortex",
+      "heart",
+      "hippocampus",
+      "liver",
+      "lung",
+      "ovary",
+      "skeletal muscle",
+      "spleen",
+      "testis"
+    ],
+    "fixed_11": [
+      "adrenal",
+      "subcutaneous adipose",
+      "cerebellum",
+      "heart",
+      "liver",
+      "lung",
+      "mammary gland",
+      "ovary",
+      "spleen",
+      "stomach",
+      "testis"
+    ],
+    "fixed_5": [
+      "heart",
+      "liver",
+      "lung",
+      "spleen",
+      "testis"
+    ]
+  },
+  "representations": [
+    "raw_expression",
+    "joint_pca",
+    "bridgerna"
+  ],
+  "readouts": [
+    "centroid_cosine",
+    "knn_cosine_k1",
+    "linear_softmax_probe"
+  ],
+  "mouse_inclusion": "all healthy adult unperturbed direct-match expression-ready experiments; exposure retained",
+  "balanced_sampling": "per tissue GTEx n equals eligible mouse experiment n; without replacement",
+  "pca": "fit once jointly on all cached eligible human and mouse profiles; no per-seed refitting",
+  "bridgerna": {
+    "checkpoint": "model/r7hnr92k/best_model.pt",
+    "frozen": true,
+    "input": "natural log1p(TPM)"
+  },
+  "linear_probe": "source-species-only linear softmax; fixed 50 epochs; balanced loss; no feature scaling",
+  "forbidden_transformations": "no alignment, fine-tuning, target supervision, batch correction, or species normalization"
+}

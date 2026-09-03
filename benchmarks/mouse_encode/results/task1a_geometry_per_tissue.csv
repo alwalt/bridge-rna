@@ -1,0 +1,673 @@
+cohort,representation,readout,direction,tissue,samples,accuracy_recall,precision,f1,mrr,mean_correct_tissue_margin
+complete_11_tissue,raw_expression,centroid_cosine,human_to_mouse,adrenal,250,0.0,0.0,0.0,0.17642857142857138,-0.022905228659510612
+complete_11_tissue,raw_expression,centroid_cosine,human_to_mouse,subcutaneous adipose,632,0.9984177215189873,0.35036091060521934,0.5187011919441019,0.9992088607594937,0.006758758332580328
+complete_11_tissue,raw_expression,centroid_cosine,human_to_mouse,cerebellum,236,1.0,1.0,1.0,1.0,0.07030923664569855
+complete_11_tissue,raw_expression,centroid_cosine,human_to_mouse,heart,823,0.9416767922235723,0.9987113402061856,0.9693558474046279,0.9607027136492506,0.024580445140600204
+complete_11_tissue,raw_expression,centroid_cosine,human_to_mouse,liver,222,0.9864864864864865,1.0,0.9931972789115646,0.989039039039039,0.05110457167029381
+complete_11_tissue,raw_expression,centroid_cosine,human_to_mouse,lung,532,0.9943609022556391,0.5781420765027322,0.7311679336558397,0.9971804511278195,0.01286677923053503
+complete_11_tissue,raw_expression,centroid_cosine,human_to_mouse,mammary gland,445,0.0,0.0,0.0,0.3305243445692884,-0.015954725444316864
+complete_11_tissue,raw_expression,centroid_cosine,human_to_mouse,ovary,173,0.0,0.0,0.0,0.3439306358381503,-0.013684818521142006
+complete_11_tissue,raw_expression,centroid_cosine,human_to_mouse,spleen,239,1.0,1.0,1.0,1.0,0.021573657169938087
+complete_11_tissue,raw_expression,centroid_cosine,human_to_mouse,stomach,347,0.0,0.0,0.0,0.15671858560907553,-0.04134750738739967
+complete_11_tissue,raw_expression,centroid_cosine,human_to_mouse,testis,361,0.0,0.0,0.0,0.1140809559784629,-0.06027805060148239
+complete_11_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,adrenal,250,0.428,0.9907407407407407,0.5977653631284916,0.6582,-0.03595062345266342
+complete_11_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,subcutaneous adipose,632,0.9541139240506329,0.5062972292191436,0.6615469007131103,0.9696328109302794,0.08172351866960526
+complete_11_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,cerebellum,236,1.0,0.8805970149253731,0.9365079365079365,1.0,0.5296115279197693
+complete_11_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,heart,823,0.9866342648845686,0.9609467455621302,0.973621103117506,0.9897003799494687,0.2965632677078247
+complete_11_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,liver,222,1.0,0.6149584487534626,0.7615780445969125,1.0,0.38024866580963135
+complete_11_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,lung,532,0.825187969924812,0.9977272727272727,0.9032921810699589,0.9050751879699248,0.05550030246376991
+complete_11_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,mammary gland,445,0.038202247191011236,0.5151515151515151,0.07112970711297072,0.37903691813804175,-0.09769479185342789
+complete_11_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,ovary,173,0.8439306358381503,0.8538011695906432,0.8488372093023255,0.9182080924855491,0.014359901659190655
+complete_11_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,spleen,239,0.9874476987447699,0.959349593495935,0.9731958762886598,0.9916317991631799,0.2539115846157074
+complete_11_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,stomach,347,0.7521613832853026,0.9849056603773585,0.8529411764705882,0.7926467224738117,0.05049000307917595
+complete_11_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,testis,361,0.9196675900277008,1.0,0.9581529581529582,0.9456602031394274,0.15501055121421814
+complete_11_tissue,raw_expression,knn_cosine_k1,human_to_mouse,adrenal,250,0.0,0.0,0.0,,-1.000907886918783
+complete_11_tissue,raw_expression,knn_cosine_k1,human_to_mouse,subcutaneous adipose,632,1.0,0.3114834894036471,0.4750093949642991,,1.000924851274283
+complete_11_tissue,raw_expression,knn_cosine_k1,human_to_mouse,cerebellum,236,1.0,1.0,1.0,,1.0009348895751824
+complete_11_tissue,raw_expression,knn_cosine_k1,human_to_mouse,heart,823,0.8979343863912516,1.0,0.9462227912932138,,0.7965910056028447
+complete_11_tissue,raw_expression,knn_cosine_k1,human_to_mouse,liver,222,0.9774774774774775,1.0,0.9886104783599089,,0.9558153639935159
+complete_11_tissue,raw_expression,knn_cosine_k1,human_to_mouse,lung,532,0.8984962406015038,0.9157088122605364,0.9070208728652751,,0.7977318923388209
+complete_11_tissue,raw_expression,knn_cosine_k1,human_to_mouse,mammary gland,445,0.0,0.0,0.0,,-1.0009254013582563
+complete_11_tissue,raw_expression,knn_cosine_k1,human_to_mouse,ovary,173,0.0,0.0,0.0,,-1.0009151133229968
+complete_11_tissue,raw_expression,knn_cosine_k1,human_to_mouse,spleen,239,0.8744769874476988,1.0,0.9330357142857143,,0.749642522735077
+complete_11_tissue,raw_expression,knn_cosine_k1,human_to_mouse,stomach,347,0.0,0.0,0.0,,-1.0009113258472093
+complete_11_tissue,raw_expression,knn_cosine_k1,human_to_mouse,testis,361,0.853185595567867,1.0,0.9207772795216741,,0.7070089475301164
+complete_11_tissue,raw_expression,knn_cosine_k3,human_to_mouse,adrenal,250,0.0,0.0,0.0,,-0.9848868864672183
+complete_11_tissue,raw_expression,knn_cosine_k3,human_to_mouse,subcutaneous adipose,632,0.7246835443037974,0.40210711150131695,0.5172219085262564,,-0.2753040604482912
+complete_11_tissue,raw_expression,knn_cosine_k3,human_to_mouse,cerebellum,236,1.0,1.0,1.0,,7.030923058420808e-05
+complete_11_tissue,raw_expression,knn_cosine_k3,human_to_mouse,heart,823,0.9356014580801945,0.9987029831387808,0.9661229611041405,,0.8505242739724648
+complete_11_tissue,raw_expression,knn_cosine_k3,human_to_mouse,liver,222,0.9774774774774775,1.0,0.9886104783599089,,0.9369628236669677
+complete_11_tissue,raw_expression,knn_cosine_k3,human_to_mouse,lung,532,0.9981203007518797,0.39015429831006615,0.561014263074485,,0.9943639620644482
+complete_11_tissue,raw_expression,knn_cosine_k3,human_to_mouse,mammary gland,445,0.0,0.0,0.0,,-1.2320304354342182
+complete_11_tissue,raw_expression,knn_cosine_k3,human_to_mouse,ovary,173,0.0,0.0,0.0,,-0.04627684391957488
+complete_11_tissue,raw_expression,knn_cosine_k3,human_to_mouse,spleen,239,0.9539748953974896,1.0,0.9764453961456103,,2.10094424859026
+complete_11_tissue,raw_expression,knn_cosine_k3,human_to_mouse,stomach,347,0.0,0.0,0.0,,-1.974966505138606
+complete_11_tissue,raw_expression,knn_cosine_k3,human_to_mouse,testis,361,0.853185595567867,1.0,0.9207772795216741,,-0.11919265186819673
+complete_11_tissue,raw_expression,knn_cosine_k5,human_to_mouse,adrenal,250,0.0,0.0,0.0,,-1.7807932094380858
+complete_11_tissue,raw_expression,knn_cosine_k5,human_to_mouse,subcutaneous adipose,632,0.0,0.0,0.0,,-0.9999853042492383
+complete_11_tissue,raw_expression,knn_cosine_k5,human_to_mouse,cerebellum,236,0.00423728813559322,1.0,0.008438818565400843,,-0.9956789728170735
+complete_11_tissue,raw_expression,knn_cosine_k5,human_to_mouse,heart,823,0.945321992709599,0.9987163029525032,0.9712858926342073,,0.817748413968854
+complete_11_tissue,raw_expression,knn_cosine_k5,human_to_mouse,liver,222,0.972972972972973,1.0,0.9863013698630136,,0.9324583914432977
+complete_11_tissue,raw_expression,knn_cosine_k5,human_to_mouse,lung,532,0.9981203007518797,0.1779490616621984,0.30204778156996587,,0.998125046763093
+complete_11_tissue,raw_expression,knn_cosine_k5,human_to_mouse,mammary gland,445,0.0,0.0,0.0,,-1.0000035759971382
+complete_11_tissue,raw_expression,knn_cosine_k5,human_to_mouse,ovary,173,0.0,0.0,0.0,,-0.9999966287774847
+complete_11_tissue,raw_expression,knn_cosine_k5,human_to_mouse,spleen,239,0.9665271966527197,1.0,0.9829787234042553,,1.8577465408930718
+complete_11_tissue,raw_expression,knn_cosine_k5,human_to_mouse,stomach,347,0.0,0.0,0.0,,-1.9720588481051775
+complete_11_tissue,raw_expression,knn_cosine_k5,human_to_mouse,testis,361,0.060941828254847646,1.0,0.11488250652741515,,-1.0027945691398306
+complete_11_tissue,raw_expression,linear_softmax_probe,human_to_mouse,adrenal,1,1.0,1.0,1.0,,7.0491943359375
+complete_11_tissue,raw_expression,linear_softmax_probe,human_to_mouse,subcutaneous adipose,1,0.0,0.0,0.0,,-2.17083740234375
+complete_11_tissue,raw_expression,linear_softmax_probe,human_to_mouse,cerebellum,1,1.0,1.0,1.0,,14.271697998046875
+complete_11_tissue,raw_expression,linear_softmax_probe,human_to_mouse,heart,2,1.0,1.0,1.0,,14.572803497314453
+complete_11_tissue,raw_expression,linear_softmax_probe,human_to_mouse,liver,2,1.0,1.0,1.0,,41.02711486816406
+complete_11_tissue,raw_expression,linear_softmax_probe,human_to_mouse,lung,2,1.0,0.5,0.6666666666666666,,20.632022857666016
+complete_11_tissue,raw_expression,linear_softmax_probe,human_to_mouse,mammary gland,1,0.0,0.0,0.0,,-1.8584365844726562
+complete_11_tissue,raw_expression,linear_softmax_probe,human_to_mouse,ovary,1,1.0,1.0,1.0,,1.3210830688476562
+complete_11_tissue,raw_expression,linear_softmax_probe,human_to_mouse,spleen,3,1.0,1.0,1.0,,23.616912841796875
+complete_11_tissue,raw_expression,linear_softmax_probe,human_to_mouse,stomach,1,1.0,1.0,1.0,,7.784084320068359
+complete_11_tissue,raw_expression,linear_softmax_probe,human_to_mouse,testis,2,1.0,1.0,1.0,,60.573089599609375
+complete_11_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,adrenal,1,1.0,1.0,1.0,,1.6587004661560059
+complete_11_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,subcutaneous adipose,1,0.0,0.0,0.0,,-1.7732058763504028
+complete_11_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,cerebellum,1,1.0,1.0,1.0,,3.9973630905151367
+complete_11_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,heart,2,1.0,0.5,0.6666666666666666,,5.874732494354248
+complete_11_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,liver,2,1.0,1.0,1.0,,4.819725036621094
+complete_11_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,lung,2,1.0,1.0,1.0,,2.517808437347412
+complete_11_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,mammary gland,1,0.0,0.0,0.0,,-5.653696537017822
+complete_11_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,ovary,1,0.0,0.0,0.0,,-4.274820327758789
+complete_11_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,spleen,3,1.0,1.0,1.0,,4.273401260375977
+complete_11_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,stomach,1,1.0,1.0,1.0,,4.4019012451171875
+complete_11_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,testis,2,1.0,1.0,1.0,,4.063023567199707
+complete_11_tissue,raw_expression,centroid_cosine,mouse_to_human,adrenal,1,1.0,1.0,1.0,1.0,0.005922853946685791
+complete_11_tissue,raw_expression,centroid_cosine,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,0.5,-0.004753768444061279
+complete_11_tissue,raw_expression,centroid_cosine,mouse_to_human,cerebellum,1,1.0,1.0,1.0,1.0,0.06498706340789795
+complete_11_tissue,raw_expression,centroid_cosine,mouse_to_human,heart,2,1.0,1.0,1.0,1.0,0.03707528114318848
+complete_11_tissue,raw_expression,centroid_cosine,mouse_to_human,liver,2,1.0,1.0,1.0,1.0,0.0641038715839386
+complete_11_tissue,raw_expression,centroid_cosine,mouse_to_human,lung,2,1.0,1.0,1.0,1.0,0.009900033473968506
+complete_11_tissue,raw_expression,centroid_cosine,mouse_to_human,mammary gland,1,1.0,0.3333333333333333,0.5,1.0,0.004730165004730225
+complete_11_tissue,raw_expression,centroid_cosine,mouse_to_human,ovary,1,0.0,0.0,0.0,0.25,-0.004724740982055664
+complete_11_tissue,raw_expression,centroid_cosine,mouse_to_human,spleen,3,1.0,1.0,1.0,1.0,0.022790908813476562
+complete_11_tissue,raw_expression,centroid_cosine,mouse_to_human,stomach,1,1.0,1.0,1.0,1.0,0.026605844497680664
+complete_11_tissue,raw_expression,centroid_cosine,mouse_to_human,testis,2,1.0,1.0,1.0,1.0,0.08299660682678223
+complete_11_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,adrenal,1,0.0,0.0,0.0,0.5,-0.021211013197898865
+complete_11_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,0.3333333333333333,-0.010207831859588623
+complete_11_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,cerebellum,1,1.0,1.0,1.0,1.0,0.4464339017868042
+complete_11_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,1.0,0.39465612173080444
+complete_11_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,liver,2,1.0,1.0,1.0,1.0,0.4762272238731384
+complete_11_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,lung,2,1.0,0.5,0.6666666666666666,1.0,0.13640078902244568
+complete_11_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,mammary gland,1,0.0,0.0,0.0,0.5,-0.002513483166694641
+complete_11_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,ovary,1,1.0,0.5,0.6666666666666666,1.0,0.013803452253341675
+complete_11_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,spleen,3,1.0,1.0,1.0,1.0,0.22191673517227173
+complete_11_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,stomach,1,1.0,1.0,1.0,1.0,0.0929238423705101
+complete_11_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,0.6666666666666666,0.13034038245677948
+complete_11_tissue,raw_expression,knn_cosine_k1,mouse_to_human,adrenal,1,1.0,1.0,1.0,,1.0008968797922135
+complete_11_tissue,raw_expression,knn_cosine_k1,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,,-1.0009368945360184
+complete_11_tissue,raw_expression,knn_cosine_k1,mouse_to_human,cerebellum,1,1.0,1.0,1.0,,1.0009465003609657
+complete_11_tissue,raw_expression,knn_cosine_k1,mouse_to_human,heart,2,1.0,1.0,1.0,,1.000921396881342
+complete_11_tissue,raw_expression,knn_cosine_k1,mouse_to_human,liver,2,1.0,1.0,1.0,,1.0009089980125427
+complete_11_tissue,raw_expression,knn_cosine_k1,mouse_to_human,lung,2,1.0,1.0,1.0,,1.0009344751834868
+complete_11_tissue,raw_expression,knn_cosine_k1,mouse_to_human,mammary gland,1,1.0,0.3333333333333333,0.5,,1.0009222208857536
+complete_11_tissue,raw_expression,knn_cosine_k1,mouse_to_human,ovary,1,0.0,0.0,0.0,,-1.0009171079993249
+complete_11_tissue,raw_expression,knn_cosine_k1,mouse_to_human,spleen,3,1.0,1.0,1.0,,1.0009251962502796
+complete_11_tissue,raw_expression,knn_cosine_k1,mouse_to_human,stomach,1,1.0,1.0,1.0,,1.0008906790614127
+complete_11_tissue,raw_expression,knn_cosine_k1,mouse_to_human,testis,2,1.0,1.0,1.0,,1.000699188426137
+complete_11_tissue,raw_expression,knn_cosine_k3,mouse_to_human,adrenal,1,1.0,1.0,1.0,,3.000895892560482
+complete_11_tissue,raw_expression,knn_cosine_k3,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,,-3.0009365327358246
+complete_11_tissue,raw_expression,knn_cosine_k3,mouse_to_human,cerebellum,1,1.0,1.0,1.0,,3.000944894850254
+complete_11_tissue,raw_expression,knn_cosine_k3,mouse_to_human,heart,2,1.0,1.0,1.0,,3.000920584768057
+complete_11_tissue,raw_expression,knn_cosine_k3,mouse_to_human,liver,2,1.0,1.0,1.0,,3.000907726109028
+complete_11_tissue,raw_expression,knn_cosine_k3,mouse_to_human,lung,2,1.0,1.0,1.0,,3.000934400320053
+complete_11_tissue,raw_expression,knn_cosine_k3,mouse_to_human,mammary gland,1,1.0,0.3333333333333333,0.5,,3.000921044290066
+complete_11_tissue,raw_expression,knn_cosine_k3,mouse_to_human,ovary,1,0.0,0.0,0.0,,-3.000916486799717
+complete_11_tissue,raw_expression,knn_cosine_k3,mouse_to_human,spleen,3,1.0,1.0,1.0,,3.000924438158671
+complete_11_tissue,raw_expression,knn_cosine_k3,mouse_to_human,stomach,1,1.0,1.0,1.0,,3.000889769077301
+complete_11_tissue,raw_expression,knn_cosine_k3,mouse_to_human,testis,2,1.0,1.0,1.0,,3.0006979930698874
+complete_11_tissue,raw_expression,knn_cosine_k5,mouse_to_human,adrenal,1,1.0,1.0,1.0,,5.000895204186439
+complete_11_tissue,raw_expression,knn_cosine_k5,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,,-5.00093614256382
+complete_11_tissue,raw_expression,knn_cosine_k5,mouse_to_human,cerebellum,1,1.0,1.0,1.0,,5.000944192886353
+complete_11_tissue,raw_expression,knn_cosine_k5,mouse_to_human,heart,2,1.0,1.0,1.0,,5.000920173466206
+complete_11_tissue,raw_expression,knn_cosine_k5,mouse_to_human,liver,2,1.0,1.0,1.0,,5.000906953305006
+complete_11_tissue,raw_expression,knn_cosine_k5,mouse_to_human,lung,2,1.0,1.0,1.0,,5.000934233188629
+complete_11_tissue,raw_expression,knn_cosine_k5,mouse_to_human,mammary gland,1,1.0,0.3333333333333333,0.5,,5.000920630455017
+complete_11_tissue,raw_expression,knn_cosine_k5,mouse_to_human,ovary,1,0.0,0.0,0.0,,-5.000915837466716
+complete_11_tissue,raw_expression,knn_cosine_k5,mouse_to_human,spleen,3,1.0,1.0,1.0,,5.00092378471295
+complete_11_tissue,raw_expression,knn_cosine_k5,mouse_to_human,stomach,1,1.0,1.0,1.0,,5.00088921135664
+complete_11_tissue,raw_expression,knn_cosine_k5,mouse_to_human,testis,2,1.0,1.0,1.0,,5.000697485387326
+complete_11_tissue,raw_expression,linear_softmax_probe,mouse_to_human,adrenal,250,0.0,0.0,0.0,,-25.353811264038086
+complete_11_tissue,raw_expression,linear_softmax_probe,mouse_to_human,subcutaneous adipose,632,0.2848101265822785,0.7894736842105263,0.4186046511627907,,-0.7743925452232361
+complete_11_tissue,raw_expression,linear_softmax_probe,mouse_to_human,cerebellum,236,0.0,0.0,0.0,,-32.10307693481445
+complete_11_tissue,raw_expression,linear_softmax_probe,mouse_to_human,heart,823,0.0959902794653706,1.0,0.17516629711751663,,-7.064525604248047
+complete_11_tissue,raw_expression,linear_softmax_probe,mouse_to_human,liver,222,0.0,0.0,0.0,,-24.213682174682617
+complete_11_tissue,raw_expression,linear_softmax_probe,mouse_to_human,lung,532,0.8665413533834586,0.9624217118997912,0.9119683481701286,,3.4245381355285645
+complete_11_tissue,raw_expression,linear_softmax_probe,mouse_to_human,mammary gland,445,0.0,0.0,0.0,,-15.10156536102295
+complete_11_tissue,raw_expression,linear_softmax_probe,mouse_to_human,ovary,173,0.09826589595375723,0.06563706563706563,0.0787037037037037,,-3.407395839691162
+complete_11_tissue,raw_expression,linear_softmax_probe,mouse_to_human,spleen,239,0.0,0.0,0.0,,-20.03156852722168
+complete_11_tissue,raw_expression,linear_softmax_probe,mouse_to_human,stomach,347,0.0,0.0,0.0,,-35.90779495239258
+complete_11_tissue,raw_expression,linear_softmax_probe,mouse_to_human,testis,361,1.0,0.11228615863141524,0.20190156599552572,,72.98318481445312
+complete_11_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,adrenal,250,0.988,0.17642857142857143,0.2993939393939394,,1.1514760255813599
+complete_11_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,subcutaneous adipose,632,0.023734177215189875,0.025817555938037865,0.0247320692497939,,-0.7655498385429382
+complete_11_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,cerebellum,236,1.0,0.9874476987447699,0.9936842105263158,,3.1551854610443115
+complete_11_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,heart,823,0.9793438639125152,0.9987608426270136,0.9889570552147239,,1.2547653913497925
+complete_11_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,liver,222,0.0,0.0,0.0,,-1.4214460849761963
+complete_11_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,lung,532,0.9342105263157895,0.8765432098765432,0.9044585987261147,,0.8849266767501831
+complete_11_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,mammary gland,445,0.0022471910112359553,1.0,0.004484304932735426,,-1.2568001747131348
+complete_11_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,ovary,173,0.005780346820809248,0.5,0.011428571428571429,,-1.4973268508911133
+complete_11_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,spleen,239,1.0,0.7071005917159763,0.82842287694974,,3.6512906551361084
+complete_11_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,stomach,347,0.0,0.0,0.0,,-1.4534180164337158
+complete_11_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,testis,361,0.8670360110803325,0.963076923076923,0.9125364431486881,,0.85103839635849
+complete_11_tissue,joint_pca,centroid_cosine,human_to_mouse,adrenal,250,0.428,0.9907407407407407,0.5977653631284916,0.6578666666666667,-0.03653717786073685
+complete_11_tissue,joint_pca,centroid_cosine,human_to_mouse,subcutaneous adipose,632,0.9556962025316456,0.5067114093959731,0.6622807017543859,0.9704616234679525,0.08395161479711533
+complete_11_tissue,joint_pca,centroid_cosine,human_to_mouse,cerebellum,236,1.0,0.8805970149253731,0.9365079365079365,1.0,0.5334926247596741
+complete_11_tissue,joint_pca,centroid_cosine,human_to_mouse,heart,823,0.9866342648845686,0.9620853080568721,0.9742051589682064,0.9896396266080348,0.3002832531929016
+complete_11_tissue,joint_pca,centroid_cosine,human_to_mouse,liver,222,1.0,0.6132596685082873,0.7602739726027398,1.0,0.38423478603363037
+complete_11_tissue,joint_pca,centroid_cosine,human_to_mouse,lung,532,0.825187969924812,0.9977272727272727,0.9032921810699589,0.9050751879699248,0.055876828730106354
+complete_11_tissue,joint_pca,centroid_cosine,human_to_mouse,mammary gland,445,0.038202247191011236,0.53125,0.07127882599580712,0.37828785446762975,-0.10037679970264435
+complete_11_tissue,joint_pca,centroid_cosine,human_to_mouse,ovary,173,0.8439306358381503,0.8538011695906432,0.8488372093023255,0.9182080924855491,0.014403906650841236
+complete_11_tissue,joint_pca,centroid_cosine,human_to_mouse,spleen,239,0.9874476987447699,0.959349593495935,0.9731958762886598,0.9916317991631799,0.2569935619831085
+complete_11_tissue,joint_pca,centroid_cosine,human_to_mouse,stomach,347,0.7521613832853026,0.9849056603773585,0.8529411764705882,0.7926467224738117,0.05095021426677704
+complete_11_tissue,joint_pca,centroid_cosine,human_to_mouse,testis,361,0.9196675900277008,1.0,0.9581529581529582,0.9455678670360111,0.1554752141237259
+complete_11_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,adrenal,250,0.428,0.9907407407407407,0.5977653631284916,0.6582,-0.03643734008073807
+complete_11_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,subcutaneous adipose,632,0.9541139240506329,0.5071488645920942,0.6622734761120264,0.9696328109302794,0.08351150900125504
+complete_11_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,cerebellum,236,1.0,0.8805970149253731,0.9365079365079365,1.0,0.5324150919914246
+complete_11_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,heart,823,0.9866342648845686,0.9620853080568721,0.9742051589682064,0.9896396266080348,0.2996464967727661
+complete_11_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,liver,222,1.0,0.6115702479338843,0.7589743589743589,1.0,0.38317787647247314
+complete_11_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,lung,532,0.825187969924812,0.9977272727272727,0.9032921810699589,0.9050751879699248,0.05611701309680939
+complete_11_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,mammary gland,445,0.04269662921348315,0.5588235294117647,0.07933194154488518,0.3808346709470305,-0.09982927143573761
+complete_11_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,ovary,173,0.8439306358381503,0.8538011695906432,0.8488372093023255,0.9182080924855491,0.014493652619421482
+complete_11_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,spleen,239,0.9874476987447699,0.959349593495935,0.9731958762886598,0.9916317991631799,0.2567381262779236
+complete_11_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,stomach,347,0.7521613832853026,0.9849056603773585,0.8529411764705882,0.7926467224738117,0.05096931383013725
+complete_11_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,testis,361,0.9196675900277008,1.0,0.9581529581529582,0.9455678670360111,0.15566828846931458
+complete_11_tissue,joint_pca,knn_cosine_k1,human_to_mouse,adrenal,250,0.392,0.98989898989899,0.5616045845272206,,-0.216087646777004
+complete_11_tissue,joint_pca,knn_cosine_k1,human_to_mouse,subcutaneous adipose,632,0.8939873417721519,0.5401529636711281,0.6734207389749702,,0.7880876792656035
+complete_11_tissue,joint_pca,knn_cosine_k1,human_to_mouse,cerebellum,236,1.0,0.9007633587786259,0.9477911646586346,,1.0006525978648055
+complete_11_tissue,joint_pca,knn_cosine_k1,human_to_mouse,heart,823,0.9890643985419199,0.9678953626634959,0.9783653846153846,,0.9787091739507485
+complete_11_tissue,joint_pca,knn_cosine_k1,human_to_mouse,liver,222,1.0,0.5826771653543307,0.736318407960199,,1.000681945740237
+complete_11_tissue,joint_pca,knn_cosine_k1,human_to_mouse,lung,532,0.9661654135338346,0.982791586998088,0.9744075829383886,,0.9325758157746684
+complete_11_tissue,joint_pca,knn_cosine_k1,human_to_mouse,mammary gland,445,0.03146067415730337,0.5384615384615384,0.059447983014861996,,-0.9372251449399821
+complete_11_tissue,joint_pca,knn_cosine_k1,human_to_mouse,ovary,173,0.8439306358381503,0.9864864864864865,0.9096573208722741,,0.6879489078763549
+complete_11_tissue,joint_pca,knn_cosine_k1,human_to_mouse,spleen,239,1.0,0.7635782747603834,0.8659420289855072,,1.0003621772172313
+complete_11_tissue,joint_pca,knn_cosine_k1,human_to_mouse,stomach,347,0.729106628242075,0.9844357976653697,0.8377483443708609,,0.4584606002637424
+complete_11_tissue,joint_pca,knn_cosine_k1,human_to_mouse,testis,361,1.0,0.9917582417582418,0.9958620689655172,,1.0005647047049369
+complete_11_tissue,joint_pca,knn_cosine_k3,human_to_mouse,adrenal,250,0.244,0.9838709677419355,0.391025641025641,,-0.8200695633935556
+complete_11_tissue,joint_pca,knn_cosine_k3,human_to_mouse,subcutaneous adipose,632,0.8939873417721519,0.5411877394636015,0.6742243436754176,,-0.03790495790538887
+complete_11_tissue,joint_pca,knn_cosine_k3,human_to_mouse,cerebellum,236,0.923728813559322,0.8934426229508197,0.9083333333333333,,-0.07576320756611934
+complete_11_tissue,joint_pca,knn_cosine_k3,human_to_mouse,heart,823,0.9890643985419199,0.9644549763033176,0.9766046790641871,,0.8945007405694266
+complete_11_tissue,joint_pca,knn_cosine_k3,human_to_mouse,liver,222,1.0,0.42610364683301344,0.5975773889636609,,0.9957989096404934
+complete_11_tissue,joint_pca,knn_cosine_k3,human_to_mouse,lung,532,0.9718045112781954,0.9791666666666666,0.9754716981132076,,0.4794000061679477
+complete_11_tissue,joint_pca,knn_cosine_k3,human_to_mouse,mammary gland,445,0.03146067415730337,0.56,0.059574468085106386,,-0.6877708688401921
+complete_11_tissue,joint_pca,knn_cosine_k3,human_to_mouse,ovary,173,0.8439306358381503,0.9864864864864865,0.9096573208722741,,-0.011546328915067745
+complete_11_tissue,joint_pca,knn_cosine_k3,human_to_mouse,spleen,239,1.0,0.7587301587301587,0.8628158844765343,,2.8789682810056845
+complete_11_tissue,joint_pca,knn_cosine_k3,human_to_mouse,stomach,347,0.41786743515850144,0.9863945578231292,0.5870445344129555,,-0.5618829743702425
+complete_11_tissue,joint_pca,knn_cosine_k3,human_to_mouse,testis,361,1.0,0.9450261780104712,0.971736204576043,,0.36874455076443685
+complete_11_tissue,joint_pca,knn_cosine_k5,human_to_mouse,adrenal,250,0.132,1.0,0.2332155477031802,,-0.9960459037375077
+complete_11_tissue,joint_pca,knn_cosine_k5,human_to_mouse,subcutaneous adipose,632,0.870253164556962,0.6077348066298343,0.715679895901106,,-0.13441693637258875
+complete_11_tissue,joint_pca,knn_cosine_k5,human_to_mouse,cerebellum,236,0.6186440677966102,0.8795180722891566,0.7263681592039801,,-0.380831370987661
+complete_11_tissue,joint_pca,knn_cosine_k5,human_to_mouse,heart,823,0.9890643985419199,0.925,0.9559600704638873,,0.9673986015182648
+complete_11_tissue,joint_pca,knn_cosine_k5,human_to_mouse,liver,222,1.0,0.3535031847133758,0.5223529411764706,,0.9372443003482647
+complete_11_tissue,joint_pca,knn_cosine_k5,human_to_mouse,lung,532,0.9642857142857143,0.7402597402597403,0.8375510204081633,,0.8365085016988653
+complete_11_tissue,joint_pca,knn_cosine_k5,human_to_mouse,mammary gland,445,0.017977528089887642,0.6666666666666666,0.0350109409190372,,-0.49444694243342807
+complete_11_tissue,joint_pca,knn_cosine_k5,human_to_mouse,ovary,173,0.838150289017341,0.9863945578231292,0.90625,,-0.023104983762154252
+complete_11_tissue,joint_pca,knn_cosine_k5,human_to_mouse,spleen,239,1.0,0.7563291139240507,0.8612612612612612,,1.9541972045412397
+complete_11_tissue,joint_pca,knn_cosine_k5,human_to_mouse,stomach,347,0.09221902017291066,1.0,0.16886543535620052,,-0.8932759074373837
+complete_11_tissue,joint_pca,knn_cosine_k5,human_to_mouse,testis,361,1.0,0.8058035714285714,0.892459826946848,,0.8340026472475885
+complete_11_tissue,joint_pca,linear_softmax_probe,human_to_mouse,adrenal,1,1.0,0.5,0.6666666666666666,,3.244006872177124
+complete_11_tissue,joint_pca,linear_softmax_probe,human_to_mouse,subcutaneous adipose,1,0.0,0.0,0.0,,-5.499069690704346
+complete_11_tissue,joint_pca,linear_softmax_probe,human_to_mouse,cerebellum,1,0.0,0.0,0.0,,-0.24429583549499512
+complete_11_tissue,joint_pca,linear_softmax_probe,human_to_mouse,heart,2,1.0,0.6666666666666666,0.8,,3.654021739959717
+complete_11_tissue,joint_pca,linear_softmax_probe,human_to_mouse,liver,2,0.0,0.0,0.0,,-1.1246960163116455
+complete_11_tissue,joint_pca,linear_softmax_probe,human_to_mouse,lung,2,0.0,0.0,0.0,,-4.1398539543151855
+complete_11_tissue,joint_pca,linear_softmax_probe,human_to_mouse,mammary gland,1,0.0,0.0,0.0,,-2.493147850036621
+complete_11_tissue,joint_pca,linear_softmax_probe,human_to_mouse,ovary,1,0.0,0.0,0.0,,-2.0648555755615234
+complete_11_tissue,joint_pca,linear_softmax_probe,human_to_mouse,spleen,3,1.0,0.75,0.8571428571428571,,1.8415652513504028
+complete_11_tissue,joint_pca,linear_softmax_probe,human_to_mouse,stomach,1,0.0,0.0,0.0,,-1.0794692039489746
+complete_11_tissue,joint_pca,linear_softmax_probe,human_to_mouse,testis,2,0.0,0.0,0.0,,-13.8101167678833
+complete_11_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,adrenal,1,0.0,0.0,0.0,,-4.009005069732666
+complete_11_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,subcutaneous adipose,1,0.0,0.0,0.0,,-5.121319770812988
+complete_11_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,cerebellum,1,1.0,1.0,1.0,,3.7726809978485107
+complete_11_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,heart,2,1.0,1.0,1.0,,6.65664529800415
+complete_11_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,liver,2,1.0,1.0,1.0,,2.736624240875244
+complete_11_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,lung,2,1.0,1.0,1.0,,1.595067024230957
+complete_11_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,mammary gland,1,1.0,0.3333333333333333,0.5,,3.2007346153259277
+complete_11_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,ovary,1,1.0,0.5,0.6666666666666666,,1.9037158489227295
+complete_11_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,spleen,3,0.6666666666666666,1.0,0.8,,1.1348414421081543
+complete_11_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,stomach,1,1.0,1.0,1.0,,2.6714272499084473
+complete_11_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,testis,2,0.5,1.0,0.6666666666666666,,-0.10891205072402954
+complete_11_tissue,joint_pca,centroid_cosine,mouse_to_human,adrenal,1,1.0,1.0,1.0,1.0,0.07142166793346405
+complete_11_tissue,joint_pca,centroid_cosine,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,0.3333333333333333,-0.047098949551582336
+complete_11_tissue,joint_pca,centroid_cosine,mouse_to_human,cerebellum,1,1.0,1.0,1.0,1.0,0.5171071290969849
+complete_11_tissue,joint_pca,centroid_cosine,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,1.0,0.3411256670951843
+complete_11_tissue,joint_pca,centroid_cosine,mouse_to_human,liver,2,1.0,1.0,1.0,1.0,0.4000154733657837
+complete_11_tissue,joint_pca,centroid_cosine,mouse_to_human,lung,2,1.0,1.0,1.0,1.0,0.13045577704906464
+complete_11_tissue,joint_pca,centroid_cosine,mouse_to_human,mammary gland,1,0.0,0.0,0.0,0.5,-0.0144539475440979
+complete_11_tissue,joint_pca,centroid_cosine,mouse_to_human,ovary,1,1.0,1.0,1.0,1.0,0.01975196599960327
+complete_11_tissue,joint_pca,centroid_cosine,mouse_to_human,spleen,3,1.0,0.75,0.8571428571428571,1.0,0.17254674434661865
+complete_11_tissue,joint_pca,centroid_cosine,mouse_to_human,stomach,1,1.0,1.0,1.0,1.0,0.1279805600643158
+complete_11_tissue,joint_pca,centroid_cosine,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,0.625,0.060087651014328
+complete_11_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,adrenal,1,0.0,0.0,0.0,0.5,-0.02122240513563156
+complete_11_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,0.3333333333333333,-0.010235875844955444
+complete_11_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,cerebellum,1,1.0,1.0,1.0,1.0,0.44658637046813965
+complete_11_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,1.0,0.39876770973205566
+complete_11_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,liver,2,1.0,1.0,1.0,1.0,0.4784044921398163
+complete_11_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,lung,2,1.0,0.5,0.6666666666666666,1.0,0.13776947557926178
+complete_11_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,mammary gland,1,0.0,0.0,0.0,0.5,-0.002511739730834961
+complete_11_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,ovary,1,1.0,0.5,0.6666666666666666,1.0,0.013823121786117554
+complete_11_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,spleen,3,1.0,1.0,1.0,1.0,0.22439752519130707
+complete_11_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,stomach,1,1.0,1.0,1.0,1.0,0.09302785992622375
+complete_11_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,0.6666666666666666,0.1303567886352539
+complete_11_tissue,joint_pca,knn_cosine_k1,mouse_to_human,adrenal,1,1.0,1.0,1.0,,1.0002342403531075
+complete_11_tissue,joint_pca,knn_cosine_k1,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,,-1.000314822137356
+complete_11_tissue,joint_pca,knn_cosine_k1,mouse_to_human,cerebellum,1,1.0,1.0,1.0,,1.0007096697092057
+complete_11_tissue,joint_pca,knn_cosine_k1,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,,1.0006950329542161
+complete_11_tissue,joint_pca,knn_cosine_k1,mouse_to_human,liver,2,1.0,1.0,1.0,,1.0007490454614163
+complete_11_tissue,joint_pca,knn_cosine_k1,mouse_to_human,lung,2,1.0,1.0,1.0,,1.0002965095490217
+complete_11_tissue,joint_pca,knn_cosine_k1,mouse_to_human,mammary gland,1,1.0,0.3333333333333333,0.5,,1.000189758092165
+complete_11_tissue,joint_pca,knn_cosine_k1,mouse_to_human,ovary,1,0.0,0.0,0.0,,-1.0002517296373845
+complete_11_tissue,joint_pca,knn_cosine_k1,mouse_to_human,spleen,3,1.0,1.0,1.0,,1.0005238465170065
+complete_11_tissue,joint_pca,knn_cosine_k1,mouse_to_human,stomach,1,1.0,1.0,1.0,,1.0005468386411667
+complete_11_tissue,joint_pca,knn_cosine_k1,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,,-2.054899930881149e-06
+complete_11_tissue,joint_pca,knn_cosine_k3,mouse_to_human,adrenal,1,1.0,1.0,1.0,,3.0002293186783793
+complete_11_tissue,joint_pca,knn_cosine_k3,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,,-3.000297644764185
+complete_11_tissue,joint_pca,knn_cosine_k3,mouse_to_human,cerebellum,1,1.0,1.0,1.0,,3.0007015892863276
+complete_11_tissue,joint_pca,knn_cosine_k3,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,,3.00069250151515
+complete_11_tissue,joint_pca,knn_cosine_k3,mouse_to_human,liver,2,1.0,1.0,1.0,,3.0007406752109524
+complete_11_tissue,joint_pca,knn_cosine_k3,mouse_to_human,lung,2,1.0,1.0,1.0,,3.0002908090278506
+complete_11_tissue,joint_pca,knn_cosine_k3,mouse_to_human,mammary gland,1,1.0,0.3333333333333333,0.5,,3.0001671490222215
+complete_11_tissue,joint_pca,knn_cosine_k3,mouse_to_human,ovary,1,0.0,0.0,0.0,,-3.000240405037999
+complete_11_tissue,joint_pca,knn_cosine_k3,mouse_to_human,spleen,3,1.0,1.0,1.0,,3.0005072852869827
+complete_11_tissue,joint_pca,knn_cosine_k3,mouse_to_human,stomach,1,1.0,1.0,1.0,,3.0005413112044335
+complete_11_tissue,joint_pca,knn_cosine_k3,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,,-2.719044685406402e-06
+complete_11_tissue,joint_pca,knn_cosine_k5,mouse_to_human,adrenal,1,1.0,1.0,1.0,,5.000222974106669
+complete_11_tissue,joint_pca,knn_cosine_k5,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,,-4.000291267037392
+complete_11_tissue,joint_pca,knn_cosine_k5,mouse_to_human,cerebellum,1,1.0,1.0,1.0,,5.000699719667435
+complete_11_tissue,joint_pca,knn_cosine_k5,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,,5.000690642207861
+complete_11_tissue,joint_pca,knn_cosine_k5,mouse_to_human,liver,2,1.0,1.0,1.0,,5.000736121177674
+complete_11_tissue,joint_pca,knn_cosine_k5,mouse_to_human,lung,2,1.0,1.0,1.0,,5.000287758029997
+complete_11_tissue,joint_pca,knn_cosine_k5,mouse_to_human,mammary gland,1,1.0,0.3333333333333333,0.5,,5.000160964086652
+complete_11_tissue,joint_pca,knn_cosine_k5,mouse_to_human,ovary,1,0.0,0.0,0.0,,-5.000235700443387
+complete_11_tissue,joint_pca,knn_cosine_k5,mouse_to_human,spleen,3,1.0,1.0,1.0,,5.000493951668342
+complete_11_tissue,joint_pca,knn_cosine_k5,mouse_to_human,stomach,1,1.0,1.0,1.0,,5.000537811338901
+complete_11_tissue,joint_pca,knn_cosine_k5,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,,-2.99006700510418e-06
+complete_11_tissue,joint_pca,linear_softmax_probe,mouse_to_human,adrenal,250,0.0,0.0,0.0,,-5.637859344482422
+complete_11_tissue,joint_pca,linear_softmax_probe,mouse_to_human,subcutaneous adipose,632,0.3924050632911392,0.3993558776167472,0.39584996009577017,,-0.5492636561393738
+complete_11_tissue,joint_pca,linear_softmax_probe,mouse_to_human,cerebellum,236,0.012711864406779662,0.016483516483516484,0.014354066985645933,,-2.7255876064300537
+complete_11_tissue,joint_pca,linear_softmax_probe,mouse_to_human,heart,823,0.004860267314702308,0.05063291139240506,0.008869179600886918,,-2.160857915878296
+complete_11_tissue,joint_pca,linear_softmax_probe,mouse_to_human,liver,222,0.30180180180180183,0.1614457831325301,0.21036106750392464,,-1.0282114744186401
+complete_11_tissue,joint_pca,linear_softmax_probe,mouse_to_human,lung,532,0.5300751879699248,0.6844660194174758,0.597457627118644,,-0.010112037882208824
+complete_11_tissue,joint_pca,linear_softmax_probe,mouse_to_human,mammary gland,445,0.060674157303370786,0.20610687022900764,0.09375,,-1.8998327255249023
+complete_11_tissue,joint_pca,linear_softmax_probe,mouse_to_human,ovary,173,0.3063583815028902,0.11674008810572688,0.16905901116427433,,-0.8090197443962097
+complete_11_tissue,joint_pca,linear_softmax_probe,mouse_to_human,spleen,239,0.6694560669456067,0.2867383512544803,0.4015056461731493,,0.36498042941093445
+complete_11_tissue,joint_pca,linear_softmax_probe,mouse_to_human,stomach,347,0.6455331412103746,0.47157894736842104,0.5450121654501217,,0.34415724873542786
+complete_11_tissue,joint_pca,linear_softmax_probe,mouse_to_human,testis,361,0.0,0.0,0.0,,-10.333771705627441
+complete_11_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,adrenal,250,0.364,0.16308243727598568,0.22524752475247525,,-0.29056599736213684
+complete_11_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,subcutaneous adipose,632,0.4287974683544304,0.47130434782608693,0.4490472245236123,,-0.09100229293107986
+complete_11_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,cerebellum,236,1.0,0.8109965635738832,0.8956356736242884,,2.9266414642333984
+complete_11_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,heart,823,0.5273390036452005,0.9517543859649122,0.6786551993745114,,0.02826773189008236
+complete_11_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,liver,222,0.918918918918919,0.8031496062992126,0.8571428571428571,,1.5649133920669556
+complete_11_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,lung,532,0.14661654135338345,1.0,0.25573770491803277,,-1.0717443227767944
+complete_11_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,mammary gland,445,0.0,0.0,0.0,,-2.4623770713806152
+complete_11_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,ovary,173,0.6763005780346821,0.0896551724137931,0.15832205683355885,,0.2364519089460373
+complete_11_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,spleen,239,0.9456066945606695,0.773972602739726,0.8512241054613936,,1.852749228477478
+complete_11_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,stomach,347,0.2420749279538905,0.7706422018348624,0.3684210526315789,,-1.3392045497894287
+complete_11_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,testis,361,0.7008310249307479,0.8006329113924051,0.7474150664697193,,0.08543162792921066
+complete_11_tissue,bridgerna,centroid_cosine,human_to_mouse,adrenal,250,0.652,0.8190954773869347,0.7260579064587973,0.7734666666666666,0.0006165604572743177
+complete_11_tissue,bridgerna,centroid_cosine,human_to_mouse,subcutaneous adipose,632,0.10759493670886076,0.06910569105691057,0.08415841584158416,0.4697992013261001,-0.009492523968219757
+complete_11_tissue,bridgerna,centroid_cosine,human_to_mouse,cerebellum,236,0.902542372881356,1.0,0.9487750556792873,0.9203742937853107,0.014620439149439335
+complete_11_tissue,bridgerna,centroid_cosine,human_to_mouse,heart,823,0.8784933171324423,1.0,0.9353169469598965,0.9178335165576964,0.009562457911670208
+complete_11_tissue,bridgerna,centroid_cosine,human_to_mouse,liver,222,0.9819819819819819,1.0,0.990909090909091,0.9866366366366368,0.012230029329657555
+complete_11_tissue,bridgerna,centroid_cosine,human_to_mouse,lung,532,0.12218045112781954,1.0,0.21775544388609716,0.44428481919083423,-0.008728527463972569
+complete_11_tissue,bridgerna,centroid_cosine,human_to_mouse,mammary gland,445,0.5078651685393258,0.23541666666666666,0.3217081850533808,0.7089887640449438,-0.001752926385961473
+complete_11_tissue,bridgerna,centroid_cosine,human_to_mouse,ovary,173,0.023121387283236993,0.011267605633802818,0.015151515151515152,0.44013900357831,-0.00599721958860755
+complete_11_tissue,bridgerna,centroid_cosine,human_to_mouse,spleen,239,0.3514644351464435,0.30996309963099633,0.32941176470588235,0.5732217573221757,-0.005394608713686466
+complete_11_tissue,bridgerna,centroid_cosine,human_to_mouse,stomach,347,0.5677233429394812,0.7242647058823529,0.6365105008077544,0.6825717030327981,-0.004281037487089634
+complete_11_tissue,bridgerna,centroid_cosine,human_to_mouse,testis,361,0.0,0.0,0.0,0.11659441666366874,-0.0920700877904892
+complete_11_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,adrenal,250,0.268,0.9436619718309859,0.4174454828660436,0.41426666666666667,-0.3073248863220215
+complete_11_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,subcutaneous adipose,632,0.7911392405063291,0.3855050115651503,0.5184033177812338,0.8463821076953989,-0.015921808779239655
+complete_11_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,cerebellum,236,0.9067796610169492,0.9907407407407407,0.9469026548672567,0.9286723163841808,0.16248838603496552
+complete_11_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,heart,823,0.9696233292831106,0.9755501222493888,0.9725776965265083,0.9775392354371698,0.13718202710151672
+complete_11_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,liver,222,0.9954954954954955,0.53125,0.6927899686520376,0.9961389961389961,0.10579503327608109
+complete_11_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,lung,532,0.06015037593984962,0.8648648648648649,0.11247803163444639,0.36362781954887213,-0.2578693628311157
+complete_11_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,mammary gland,445,0.1146067415730337,0.42857142857142855,0.18085106382978725,0.3315355805243446,-0.35370489954948425
+complete_11_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,ovary,173,0.9479768786127167,0.1909196740395809,0.3178294573643411,0.9696969696969696,0.0170072540640831
+complete_11_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,spleen,239,0.19246861924686193,0.9387755102040817,0.3194444444444444,0.31636780235106604,-0.5576699376106262
+complete_11_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,stomach,347,0.7060518731988472,0.6940509915014165,0.7,0.7415008462558893,-0.2381392866373062
+complete_11_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,testis,361,0.0,0.0,0.0,0.14425207756232683,-0.6791800260543823
+complete_11_tissue,bridgerna,knn_cosine_k1,human_to_mouse,adrenal,250,0.636,0.8457446808510638,0.726027397260274,,0.2722662951450348
+complete_11_tissue,bridgerna,knn_cosine_k1,human_to_mouse,subcutaneous adipose,632,0.10759493670886076,0.07423580786026202,0.08785529715762273,,-0.7855695885183126
+complete_11_tissue,bridgerna,knn_cosine_k1,human_to_mouse,cerebellum,236,0.9067796610169492,1.0,0.9511111111111111,,0.8143362415483442
+complete_11_tissue,bridgerna,knn_cosine_k1,human_to_mouse,heart,823,0.8845686512758202,1.0,0.938749194068343,,0.7698908568320848
+complete_11_tissue,bridgerna,knn_cosine_k1,human_to_mouse,liver,222,0.9864864864864865,0.8938775510204081,0.9379014989293362,,0.9739228944746224
+complete_11_tissue,bridgerna,knn_cosine_k1,human_to_mouse,lung,532,0.13721804511278196,1.0,0.2413223140495868,,-0.7262653957436184
+complete_11_tissue,bridgerna,knn_cosine_k1,human_to_mouse,mammary gland,445,0.5191011235955056,0.27898550724637683,0.3629222309505106,,0.03823783398290698
+complete_11_tissue,bridgerna,knn_cosine_k1,human_to_mouse,ovary,173,0.023121387283236993,0.011869436201780416,0.01568627450980392,,-0.9546872454588814
+complete_11_tissue,bridgerna,knn_cosine_k1,human_to_mouse,spleen,239,0.7405857740585774,0.37341772151898733,0.4964936886395512,,0.4816432071607482
+complete_11_tissue,bridgerna,knn_cosine_k1,human_to_mouse,stomach,347,0.5936599423631124,0.8619246861924686,0.7030716723549488,,0.1875087011865305
+complete_11_tissue,bridgerna,knn_cosine_k1,human_to_mouse,testis,361,0.04986149584487535,1.0,0.09498680738786279,,-0.9011190325203365
+complete_11_tissue,bridgerna,knn_cosine_k3,human_to_mouse,adrenal,250,0.268,0.7204301075268817,0.39067055393586003,,-0.8922325958373547
+complete_11_tissue,bridgerna,knn_cosine_k3,human_to_mouse,subcutaneous adipose,632,0.10759493670886076,0.07423580786026202,0.08785529715762273,,-0.4290992413130175
+complete_11_tissue,bridgerna,knn_cosine_k3,human_to_mouse,cerebellum,236,0.902542372881356,1.0,0.9487750556792873,,-0.22464138058535127
+complete_11_tissue,bridgerna,knn_cosine_k3,human_to_mouse,heart,823,0.8845686512758202,1.0,0.938749194068343,,0.7107599838651979
+complete_11_tissue,bridgerna,knn_cosine_k3,human_to_mouse,liver,222,0.9864864864864865,0.8938775510204081,0.9379014989293362,,0.9639617237953452
+complete_11_tissue,bridgerna,knn_cosine_k3,human_to_mouse,lung,532,0.14097744360902256,1.0,0.2471169686985173,,-0.24267596645193887
+complete_11_tissue,bridgerna,knn_cosine_k3,human_to_mouse,mammary gland,445,0.3438202247191011,0.22734026745913818,0.2737030411449016,,-0.22024617735401966
+complete_11_tissue,bridgerna,knn_cosine_k3,human_to_mouse,ovary,173,0.023121387283236993,0.011869436201780416,0.01568627450980392,,-0.15042246041787155
+complete_11_tissue,bridgerna,knn_cosine_k3,human_to_mouse,spleen,239,0.7405857740585774,0.1861198738170347,0.29747899159663865,,0.5983397815778664
+complete_11_tissue,bridgerna,knn_cosine_k3,human_to_mouse,stomach,347,0.002881844380403458,0.09090909090909091,0.00558659217877095,,-1.043543515076555
+complete_11_tissue,bridgerna,knn_cosine_k3,human_to_mouse,testis,361,0.04986149584487535,1.0,0.09498680738786279,,-0.5129560827796149
+complete_11_tissue,bridgerna,knn_cosine_k5,human_to_mouse,adrenal,250,0.028,0.4375,0.05263157894736842,,-1.5960673141460417
+complete_11_tissue,bridgerna,knn_cosine_k5,human_to_mouse,subcutaneous adipose,632,0.1060126582278481,0.07882352941176471,0.09041835357624832,,-0.8086822678943789
+complete_11_tissue,bridgerna,knn_cosine_k5,human_to_mouse,cerebellum,236,0.7711864406779662,1.0,0.8708133971291866,,-0.37294183268562214
+complete_11_tissue,bridgerna,knn_cosine_k5,human_to_mouse,heart,823,0.8894289185905225,1.0,0.9414790996784566,,0.289172874842423
+complete_11_tissue,bridgerna,knn_cosine_k5,human_to_mouse,liver,222,0.9819819819819819,1.0,0.990909090909091,,0.23423683414776045
+complete_11_tissue,bridgerna,knn_cosine_k5,human_to_mouse,lung,532,0.2593984962406015,1.0,0.41194029850746267,,0.09772098459807554
+complete_11_tissue,bridgerna,knn_cosine_k5,human_to_mouse,mammary gland,445,0.04719101123595506,0.09905660377358491,0.0639269406392694,,-0.6404499901014767
+complete_11_tissue,bridgerna,knn_cosine_k5,human_to_mouse,ovary,173,0.023121387283236993,0.011869436201780416,0.01568627450980392,,-0.1272338365712607
+complete_11_tissue,bridgerna,knn_cosine_k5,human_to_mouse,spleen,239,0.8242677824267782,0.12652536929993577,0.21937639198218262,,1.1631533226131399
+complete_11_tissue,bridgerna,knn_cosine_k5,human_to_mouse,stomach,347,0.0,0.0,0.0,,-1.7841141088732038
+complete_11_tissue,bridgerna,knn_cosine_k5,human_to_mouse,testis,361,0.04986149584487535,1.0,0.09498680738786279,,-0.32718974286466423
+complete_11_tissue,bridgerna,linear_softmax_probe,human_to_mouse,adrenal,1,1.0,0.5,0.6666666666666666,,2.3504695892333984
+complete_11_tissue,bridgerna,linear_softmax_probe,human_to_mouse,subcutaneous adipose,1,0.0,0.0,0.0,,-2.8215136528015137
+complete_11_tissue,bridgerna,linear_softmax_probe,human_to_mouse,cerebellum,1,1.0,1.0,1.0,,4.636726379394531
+complete_11_tissue,bridgerna,linear_softmax_probe,human_to_mouse,heart,2,1.0,1.0,1.0,,3.1784048080444336
+complete_11_tissue,bridgerna,linear_softmax_probe,human_to_mouse,liver,2,1.0,1.0,1.0,,1.2969777584075928
+complete_11_tissue,bridgerna,linear_softmax_probe,human_to_mouse,lung,2,1.0,1.0,1.0,,4.841466903686523
+complete_11_tissue,bridgerna,linear_softmax_probe,human_to_mouse,mammary gland,1,1.0,1.0,1.0,,0.2699834108352661
+complete_11_tissue,bridgerna,linear_softmax_probe,human_to_mouse,ovary,1,1.0,0.5,0.6666666666666666,,1.4899649620056152
+complete_11_tissue,bridgerna,linear_softmax_probe,human_to_mouse,spleen,3,0.6666666666666666,1.0,0.8,,0.03502066805958748
+complete_11_tissue,bridgerna,linear_softmax_probe,human_to_mouse,stomach,1,1.0,0.5,0.6666666666666666,,3.536647319793701
+complete_11_tissue,bridgerna,linear_softmax_probe,human_to_mouse,testis,2,0.5,1.0,0.6666666666666666,,-4.275637149810791
+complete_11_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,adrenal,1,1.0,0.5,0.6666666666666666,,3.5864076614379883
+complete_11_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,subcutaneous adipose,1,0.0,0.0,0.0,,-7.7781829833984375
+complete_11_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,cerebellum,1,1.0,1.0,1.0,,7.239418983459473
+complete_11_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,heart,2,1.0,1.0,1.0,,5.075831413269043
+complete_11_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,liver,2,1.0,1.0,1.0,,0.7084701061248779
+complete_11_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,lung,2,1.0,1.0,1.0,,7.621545791625977
+complete_11_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,mammary gland,1,1.0,1.0,1.0,,0.5998179912567139
+complete_11_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,ovary,1,1.0,1.0,1.0,,1.3784422874450684
+complete_11_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,spleen,3,0.3333333333333333,1.0,0.5,,-0.3386101722717285
+complete_11_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,stomach,1,1.0,0.25,0.4,,5.655325889587402
+complete_11_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,testis,2,0.5,1.0,0.6666666666666666,,-5.10274600982666
+complete_11_tissue,bridgerna,centroid_cosine,mouse_to_human,adrenal,1,1.0,1.0,1.0,1.0,0.00681149959564209
+complete_11_tissue,bridgerna,centroid_cosine,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,0.14285714285714285,-0.01703619956970215
+complete_11_tissue,bridgerna,centroid_cosine,mouse_to_human,cerebellum,1,1.0,1.0,1.0,1.0,0.03951859474182129
+complete_11_tissue,bridgerna,centroid_cosine,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,1.0,0.01757720112800598
+complete_11_tissue,bridgerna,centroid_cosine,mouse_to_human,liver,2,1.0,1.0,1.0,1.0,0.009241729974746704
+complete_11_tissue,bridgerna,centroid_cosine,mouse_to_human,lung,2,0.5,1.0,0.6666666666666666,0.625,0.0017621815204620361
+complete_11_tissue,bridgerna,centroid_cosine,mouse_to_human,mammary gland,1,0.0,0.0,0.0,0.5,-0.002000570297241211
+complete_11_tissue,bridgerna,centroid_cosine,mouse_to_human,ovary,1,1.0,0.5,0.6666666666666666,1.0,0.012544333934783936
+complete_11_tissue,bridgerna,centroid_cosine,mouse_to_human,spleen,3,0.0,0.0,0.0,0.2888888888888889,-0.01138991117477417
+complete_11_tissue,bridgerna,centroid_cosine,mouse_to_human,stomach,1,1.0,0.16666666666666666,0.2857142857142857,1.0,0.006135225296020508
+complete_11_tissue,bridgerna,centroid_cosine,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,0.5454545454545454,-0.0407184362411499
+complete_11_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,adrenal,1,0.0,0.0,0.0,0.125,-0.4259677827358246
+complete_11_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,0.16666666666666666,-0.18384170532226562
+complete_11_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,cerebellum,1,1.0,1.0,1.0,1.0,0.22981691360473633
+complete_11_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,heart,2,1.0,0.3333333333333333,0.5,1.0,0.21498391032218933
+complete_11_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,liver,2,1.0,1.0,1.0,1.0,0.1572631299495697
+complete_11_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,lung,2,1.0,1.0,1.0,1.0,0.1305604875087738
+complete_11_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,mammary gland,1,1.0,1.0,1.0,1.0,0.03860968351364136
+complete_11_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,ovary,1,1.0,0.3333333333333333,0.5,1.0,0.04644477367401123
+complete_11_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,spleen,3,0.3333333333333333,1.0,0.5,0.4666666666666666,-0.37801340222358704
+complete_11_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,stomach,1,0.0,0.0,0.0,0.3333333333333333,-0.30008769035339355
+complete_11_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,0.6,-0.16380389034748077
+complete_11_tissue,bridgerna,knn_cosine_k1,mouse_to_human,adrenal,1,1.0,1.0,1.0,,1.0009830682277678
+complete_11_tissue,bridgerna,knn_cosine_k1,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,,-1.0009800717830657
+complete_11_tissue,bridgerna,knn_cosine_k1,mouse_to_human,cerebellum,1,1.0,1.0,1.0,,1.0009610733389855
+complete_11_tissue,bridgerna,knn_cosine_k1,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,,1.0009841462373732
+complete_11_tissue,bridgerna,knn_cosine_k1,mouse_to_human,liver,2,1.0,1.0,1.0,,1.00098104429245
+complete_11_tissue,bridgerna,knn_cosine_k1,mouse_to_human,lung,2,1.0,1.0,1.0,,1.0009705844223498
+complete_11_tissue,bridgerna,knn_cosine_k1,mouse_to_human,mammary gland,1,0.0,0.0,0.0,,-1.000978545486927
+complete_11_tissue,bridgerna,knn_cosine_k1,mouse_to_human,ovary,1,1.0,0.3333333333333333,0.5,,1.0009755048751832
+complete_11_tissue,bridgerna,knn_cosine_k1,mouse_to_human,spleen,3,1.0,1.0,1.0,,1.0009851105014482
+complete_11_tissue,bridgerna,knn_cosine_k1,mouse_to_human,stomach,1,1.0,1.0,1.0,,1.0009898110628128
+complete_11_tissue,bridgerna,knn_cosine_k1,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,,1.062360405923446e-05
+complete_11_tissue,bridgerna,knn_cosine_k3,mouse_to_human,adrenal,1,1.0,1.0,1.0,,3.0009829562306405
+complete_11_tissue,bridgerna,knn_cosine_k3,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,,-3.000979137122631
+complete_11_tissue,bridgerna,knn_cosine_k3,mouse_to_human,cerebellum,1,1.0,1.0,1.0,,3.0009609070420264
+complete_11_tissue,bridgerna,knn_cosine_k3,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,,3.0009839436113834
+complete_11_tissue,bridgerna,knn_cosine_k3,mouse_to_human,liver,2,1.0,1.0,1.0,,3.000980636537075
+complete_11_tissue,bridgerna,knn_cosine_k3,mouse_to_human,lung,2,1.0,1.0,1.0,,3.000969487458468
+complete_11_tissue,bridgerna,knn_cosine_k3,mouse_to_human,mammary gland,1,0.0,0.0,0.0,,-2.0009777244925497
+complete_11_tissue,bridgerna,knn_cosine_k3,mouse_to_human,ovary,1,1.0,0.5,0.6666666666666666,,3.000975130558014
+complete_11_tissue,bridgerna,knn_cosine_k3,mouse_to_human,spleen,3,0.6666666666666666,1.0,0.8,,1.0003275548219681
+complete_11_tissue,bridgerna,knn_cosine_k3,mouse_to_human,stomach,1,1.0,0.3333333333333333,0.5,,3.0009896715283393
+complete_11_tissue,bridgerna,knn_cosine_k3,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,,9.82731580734253e-06
+complete_11_tissue,bridgerna,knn_cosine_k5,mouse_to_human,adrenal,1,1.0,1.0,1.0,,5.000982830405236
+complete_11_tissue,bridgerna,knn_cosine_k5,mouse_to_human,subcutaneous adipose,1,0.0,0.0,0.0,,-4.0009789340496065
+complete_11_tissue,bridgerna,knn_cosine_k5,mouse_to_human,cerebellum,1,1.0,1.0,1.0,,5.00096076643467
+complete_11_tissue,bridgerna,knn_cosine_k5,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,,5.000983827710151
+complete_11_tissue,bridgerna,knn_cosine_k5,mouse_to_human,liver,2,1.0,1.0,1.0,,5.000980436146259
+complete_11_tissue,bridgerna,knn_cosine_k5,mouse_to_human,lung,2,1.0,1.0,1.0,,5.000969127565622
+complete_11_tissue,bridgerna,knn_cosine_k5,mouse_to_human,mammary gland,1,0.0,0.0,0.0,,-4.000977638065815
+complete_11_tissue,bridgerna,knn_cosine_k5,mouse_to_human,ovary,1,1.0,0.5,0.6666666666666666,,5.000974775195122
+complete_11_tissue,bridgerna,knn_cosine_k5,mouse_to_human,spleen,3,0.3333333333333333,1.0,0.5,,0.33366089691718415
+complete_11_tissue,bridgerna,knn_cosine_k5,mouse_to_human,stomach,1,1.0,0.25,0.4,,5.00098959159851
+complete_11_tissue,bridgerna,knn_cosine_k5,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,,9.470969438485355e-06
+complete_11_tissue,bridgerna,linear_softmax_probe,mouse_to_human,adrenal,250,0.66,0.9269662921348315,0.7710280373831776,,0.012758615426719189
+complete_11_tissue,bridgerna,linear_softmax_probe,mouse_to_human,subcutaneous adipose,632,0.13924050632911392,0.08110599078341015,0.1025043680838672,,-0.33495619893074036
+complete_11_tissue,bridgerna,linear_softmax_probe,mouse_to_human,cerebellum,236,0.9533898305084746,1.0,0.9761388286334056,,0.7015557885169983
+complete_11_tissue,bridgerna,linear_softmax_probe,mouse_to_human,heart,823,0.8979343863912516,0.9986486486486487,0.945617402431222,,0.46845459938049316
+complete_11_tissue,bridgerna,linear_softmax_probe,mouse_to_human,liver,222,0.9954954954954955,0.973568281938326,0.9844097995545658,,0.7095221281051636
+complete_11_tissue,bridgerna,linear_softmax_probe,mouse_to_human,lung,532,0.19924812030075187,1.0,0.3322884012539185,,-0.24640214443206787
+complete_11_tissue,bridgerna,linear_softmax_probe,mouse_to_human,mammary gland,445,0.4966292134831461,0.273176761433869,0.3524720893141946,,-0.005044079851359129
+complete_11_tissue,bridgerna,linear_softmax_probe,mouse_to_human,ovary,173,0.0,0.0,0.0,,-0.1841089427471161
+complete_11_tissue,bridgerna,linear_softmax_probe,mouse_to_human,spleen,239,0.41841004184100417,0.3816793893129771,0.3992015968063872,,-0.1459641456604004
+complete_11_tissue,bridgerna,linear_softmax_probe,mouse_to_human,stomach,347,0.5417867435158501,0.6886446886446886,0.6064516129032258,,-0.1654854267835617
+complete_11_tissue,bridgerna,linear_softmax_probe,mouse_to_human,testis,361,0.002770083102493075,1.0,0.0055248618784530384,,-1.1020023822784424
+complete_11_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,adrenal,250,0.66,0.8461538461538461,0.7415730337078652,,0.0038222712464630604
+complete_11_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,subcutaneous adipose,632,0.09335443037974683,0.10746812386156648,0.09991532599491956,,-0.27698197960853577
+complete_11_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,cerebellum,236,0.9322033898305084,1.0,0.9649122807017544,,0.6932278275489807
+complete_11_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,heart,823,0.951397326852977,0.9987244897959183,0.9744866210329807,,0.6815252304077148
+complete_11_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,liver,222,0.990990990990991,0.995475113122172,0.9932279909706546,,0.7048376798629761
+complete_11_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,lung,532,0.2575187969924812,1.0,0.40956651718983555,,-0.14600928127765656
+complete_11_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,mammary gland,445,0.5573033707865168,0.19855884707766214,0.29279811097992914,,0.011353522539138794
+complete_11_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,ovary,173,0.6994219653179191,0.24493927125506074,0.36281859070464767,,-0.00765720522031188
+complete_11_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,spleen,239,0.0794979079497908,0.20212765957446807,0.11411411411411411,,-0.46597105264663696
+complete_11_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,stomach,347,0.6426512968299711,0.7034700315457413,0.6716867469879518,,-0.08504120260477066
+complete_11_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,testis,361,0.0,0.0,0.0,,-1.5401033163070679
+replicated_5_tissue,raw_expression,centroid_cosine,human_to_mouse,heart,823,0.9441069258809235,0.9987146529562982,0.9706433479075578,0.9712434183880114,0.025005105882883072
+replicated_5_tissue,raw_expression,centroid_cosine,human_to_mouse,liver,222,0.9864864864864865,1.0,0.9931972789115646,0.9924924924924924,0.05518406629562378
+replicated_5_tissue,raw_expression,centroid_cosine,human_to_mouse,lung,532,0.9981203007518797,0.5642933049946866,0.7209775967413442,0.9990601503759399,0.02992718480527401
+replicated_5_tissue,raw_expression,centroid_cosine,human_to_mouse,spleen,239,1.0,1.0,1.0,1.0,0.02220742776989937
+replicated_5_tissue,raw_expression,centroid_cosine,human_to_mouse,testis,361,0.0,0.0,0.0,0.2707294552169898,-0.05897163599729538
+replicated_5_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,heart,823,0.982989064398542,0.9987654320987654,0.9908144519289651,0.9897124341838801,0.3197762072086334
+replicated_5_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,liver,222,1.0,0.9955156950672646,0.9977528089887641,1.0,0.4407567083835602
+replicated_5_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,lung,532,0.9981203007518797,0.9516129032258065,0.9743119266055046,0.9987468671679198,0.2535415291786194
+replicated_5_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,spleen,239,1.0,1.0,1.0,1.0,0.2834183871746063
+replicated_5_tissue,raw_expression,centroid_cosine_centered,human_to_mouse,testis,361,0.961218836565097,1.0,0.980225988700565,0.9806094182825484,0.2863706946372986
+replicated_5_tissue,raw_expression,knn_cosine_k1,human_to_mouse,heart,823,0.9477521263669502,0.998719590268886,0.972568578553616,,0.8963169047026412
+replicated_5_tissue,raw_expression,knn_cosine_k1,human_to_mouse,liver,222,0.9864864864864865,1.0,0.9931972789115646,,0.9738496103968708
+replicated_5_tissue,raw_expression,knn_cosine_k1,human_to_mouse,lung,532,0.9981203007518797,0.8428571428571429,0.9139414802065404,,0.9971643377655655
+replicated_5_tissue,raw_expression,knn_cosine_k1,human_to_mouse,spleen,239,0.9623430962343096,1.0,0.9808102345415778,,0.9255352571893438
+replicated_5_tissue,raw_expression,knn_cosine_k1,human_to_mouse,testis,361,0.8781163434903048,1.0,0.9351032448377581,,0.7569158664263186
+replicated_5_tissue,raw_expression,knn_cosine_k3,human_to_mouse,heart,823,0.9465370595382746,0.9987179487179487,0.9719276356830941,,0.8894494912669263
+replicated_5_tissue,raw_expression,knn_cosine_k3,human_to_mouse,liver,222,0.972972972972973,1.0,0.9863013698630136,,0.941483463062091
+replicated_5_tissue,raw_expression,knn_cosine_k3,human_to_mouse,lung,532,0.9981203007518797,0.5589473684210526,0.7165991902834008,,0.9962762193559928
+replicated_5_tissue,raw_expression,knn_cosine_k3,human_to_mouse,spleen,239,0.9665271966527197,1.0,0.9829787234042553,,2.682808316625312
+replicated_5_tissue,raw_expression,knn_cosine_k3,human_to_mouse,testis,361,0.0,0.0,0.0,,-1.0415534414378231
+replicated_5_tissue,raw_expression,knn_cosine_k5,human_to_mouse,heart,823,0.9465370595382746,0.9987179487179487,0.9719276356830941,,-0.006051124713762718
+replicated_5_tissue,raw_expression,knn_cosine_k5,human_to_mouse,liver,222,0.9774774774774775,1.0,0.9886104783599089,,-0.004455653138525844
+replicated_5_tissue,raw_expression,knn_cosine_k5,human_to_mouse,lung,532,0.0018796992481203006,0.0024937655860349127,0.0021436227224008574,,-0.9962023178113807
+replicated_5_tissue,raw_expression,knn_cosine_k5,human_to_mouse,spleen,239,1.0,0.306803594351733,0.46954813359528486,,1.0000133734452674
+replicated_5_tissue,raw_expression,knn_cosine_k5,human_to_mouse,testis,361,0.0,0.0,0.0,,-1.0498486073596656
+replicated_5_tissue,raw_expression,linear_softmax_probe,human_to_mouse,heart,2,1.0,1.0,1.0,,18.9350528717041
+replicated_5_tissue,raw_expression,linear_softmax_probe,human_to_mouse,liver,2,1.0,1.0,1.0,,34.179595947265625
+replicated_5_tissue,raw_expression,linear_softmax_probe,human_to_mouse,lung,2,1.0,1.0,1.0,,30.76811981201172
+replicated_5_tissue,raw_expression,linear_softmax_probe,human_to_mouse,spleen,3,1.0,1.0,1.0,,30.716873168945312
+replicated_5_tissue,raw_expression,linear_softmax_probe,human_to_mouse,testis,2,1.0,1.0,1.0,,39.997718811035156
+replicated_5_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,heart,2,1.0,1.0,1.0,,5.4869279861450195
+replicated_5_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,liver,2,1.0,1.0,1.0,,9.534521102905273
+replicated_5_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,lung,2,1.0,1.0,1.0,,5.898767471313477
+replicated_5_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,spleen,3,1.0,1.0,1.0,,3.910905122756958
+replicated_5_tissue,raw_expression,shallow_mlp_probe,human_to_mouse,testis,2,1.0,1.0,1.0,,10.882768630981445
+replicated_5_tissue,raw_expression,centroid_cosine,mouse_to_human,heart,2,1.0,1.0,1.0,1.0,0.04768025875091553
+replicated_5_tissue,raw_expression,centroid_cosine,mouse_to_human,liver,2,1.0,1.0,1.0,1.0,0.0862429141998291
+replicated_5_tissue,raw_expression,centroid_cosine,mouse_to_human,lung,2,1.0,1.0,1.0,1.0,0.029233038425445557
+replicated_5_tissue,raw_expression,centroid_cosine,mouse_to_human,spleen,3,1.0,1.0,1.0,1.0,0.022790908813476562
+replicated_5_tissue,raw_expression,centroid_cosine,mouse_to_human,testis,2,1.0,1.0,1.0,1.0,0.09368833899497986
+replicated_5_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,1.0,0.4473041892051697
+replicated_5_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,liver,2,1.0,1.0,1.0,1.0,0.5380008816719055
+replicated_5_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,lung,2,1.0,1.0,1.0,1.0,0.227029949426651
+replicated_5_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,spleen,3,1.0,1.0,1.0,1.0,0.17601041495800018
+replicated_5_tissue,raw_expression,centroid_cosine_centered,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,0.6666666666666666,0.23113594949245453
+replicated_5_tissue,raw_expression,knn_cosine_k1,mouse_to_human,heart,2,1.0,1.0,1.0,,1.000921396881342
+replicated_5_tissue,raw_expression,knn_cosine_k1,mouse_to_human,liver,2,1.0,1.0,1.0,,1.000908997952938
+replicated_5_tissue,raw_expression,knn_cosine_k1,mouse_to_human,lung,2,1.0,1.0,1.0,,1.0009344751834868
+replicated_5_tissue,raw_expression,knn_cosine_k1,mouse_to_human,spleen,3,1.0,1.0,1.0,,1.000925196290016
+replicated_5_tissue,raw_expression,knn_cosine_k1,mouse_to_human,testis,2,1.0,1.0,1.0,,1.0006991884559393
+replicated_5_tissue,raw_expression,knn_cosine_k3,mouse_to_human,heart,2,1.0,1.0,1.0,,3.0009205847382545
+replicated_5_tissue,raw_expression,knn_cosine_k3,mouse_to_human,liver,2,1.0,1.0,1.0,,3.0009077260792254
+replicated_5_tissue,raw_expression,knn_cosine_k3,mouse_to_human,lung,2,1.0,1.0,1.0,,3.000934400320053
+replicated_5_tissue,raw_expression,knn_cosine_k3,mouse_to_human,spleen,3,1.0,1.0,1.0,,3.0009244381785396
+replicated_5_tissue,raw_expression,knn_cosine_k3,mouse_to_human,testis,2,1.0,1.0,1.0,,3.0006979930698874
+replicated_5_tissue,raw_expression,knn_cosine_k5,mouse_to_human,heart,2,1.0,1.0,1.0,,5.000920173406601
+replicated_5_tissue,raw_expression,knn_cosine_k5,mouse_to_human,liver,2,1.0,1.0,1.0,,5.000906953305006
+replicated_5_tissue,raw_expression,knn_cosine_k5,mouse_to_human,lung,2,1.0,1.0,1.0,,5.000934233188629
+replicated_5_tissue,raw_expression,knn_cosine_k5,mouse_to_human,spleen,3,1.0,1.0,1.0,,5.00092378471295
+replicated_5_tissue,raw_expression,knn_cosine_k5,mouse_to_human,testis,2,1.0,1.0,1.0,,5.000697485387326
+replicated_5_tissue,raw_expression,linear_softmax_probe,mouse_to_human,heart,823,0.0,0.0,0.0,,-14.8190279006958
+replicated_5_tissue,raw_expression,linear_softmax_probe,mouse_to_human,liver,222,0.0,0.0,0.0,,-15.11308765411377
+replicated_5_tissue,raw_expression,linear_softmax_probe,mouse_to_human,lung,532,1.0,0.2750775594622544,0.43146796431467965,,31.690723419189453
+replicated_5_tissue,raw_expression,linear_softmax_probe,mouse_to_human,spleen,239,0.9832635983263598,0.9832635983263598,0.9832635983263598,,15.279441833496094
+replicated_5_tissue,raw_expression,linear_softmax_probe,mouse_to_human,testis,361,0.0110803324099723,1.0,0.021917808219178082,,-14.391261100769043
+replicated_5_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,heart,823,0.4738760631834751,1.0,0.6430338004946414,,-0.2671408951282501
+replicated_5_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,liver,222,1.0,1.0,1.0,,7.623810291290283
+replicated_5_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,lung,532,0.8308270676691729,0.5224586288416075,0.6415094339622641,,1.7025337219238281
+replicated_5_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,spleen,239,1.0,0.7091988130563798,0.8298611111111112,,4.892082214355469
+replicated_5_tissue,raw_expression,shallow_mlp_probe,mouse_to_human,testis,361,1.0,0.9450261780104712,0.971736204576043,,16.33789825439453
+replicated_5_tissue,joint_pca,centroid_cosine,human_to_mouse,heart,823,0.9927095990279465,0.9987775061124694,0.9957343083485679,0.9953827460510328,0.31177040934562683
+replicated_5_tissue,joint_pca,centroid_cosine,human_to_mouse,liver,222,1.0,0.9955156950672646,0.9977528089887641,1.0,0.38666361570358276
+replicated_5_tissue,joint_pca,centroid_cosine,human_to_mouse,lung,532,0.9981203007518797,0.9906716417910447,0.9943820224719101,0.9985902255639098,0.23687554895877838
+replicated_5_tissue,joint_pca,centroid_cosine,human_to_mouse,spleen,239,1.0,1.0,1.0,1.0,0.3196693956851959
+replicated_5_tissue,joint_pca,centroid_cosine,human_to_mouse,testis,361,1.0,1.0,1.0,1.0,0.3357253074645996
+replicated_5_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,heart,823,0.982989064398542,0.9987654320987654,0.9908144519289651,0.9897124341838801,0.3238476514816284
+replicated_5_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,liver,222,1.0,0.9955156950672646,0.9977528089887641,1.0,0.44453030824661255
+replicated_5_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,lung,532,0.9981203007518797,0.9516129032258065,0.9743119266055046,0.9987468671679198,0.257009357213974
+replicated_5_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,spleen,239,1.0,1.0,1.0,1.0,0.2866269648075104
+replicated_5_tissue,joint_pca,centroid_cosine_centered,human_to_mouse,testis,361,0.961218836565097,1.0,0.980225988700565,0.9806094182825484,0.2878921926021576
+replicated_5_tissue,joint_pca,knn_cosine_k1,human_to_mouse,heart,823,0.991494532199271,0.9987760097919217,0.9951219512195122,,0.9835703504055932
+replicated_5_tissue,joint_pca,knn_cosine_k1,human_to_mouse,liver,222,1.0,0.9955156950672646,0.9977528089887641,,1.0006819457494998
+replicated_5_tissue,joint_pca,knn_cosine_k1,human_to_mouse,lung,532,0.9830827067669173,0.9886578449905482,0.9858623939679547,,0.966417610532387
+replicated_5_tissue,joint_pca,knn_cosine_k1,human_to_mouse,spleen,239,1.0,0.9676113360323887,0.9835390946502057,,1.0003621772293267
+replicated_5_tissue,joint_pca,knn_cosine_k1,human_to_mouse,testis,361,1.0,1.0,1.0,,1.000564704706753
+replicated_5_tissue,joint_pca,knn_cosine_k3,human_to_mouse,heart,823,0.9939246658566221,0.9987789987789988,0.9963459196102314,,0.8993630879003378
+replicated_5_tissue,joint_pca,knn_cosine_k3,human_to_mouse,liver,222,1.0,0.9955156950672646,0.9977528089887641,,0.9957997186787779
+replicated_5_tissue,joint_pca,knn_cosine_k3,human_to_mouse,lung,532,0.9736842105263158,0.9942418426103646,0.9838556505223172,,0.9456066735904969
+replicated_5_tissue,joint_pca,knn_cosine_k3,human_to_mouse,spleen,239,1.0,0.9446640316205533,0.9715447154471545,,2.9166262805511756
+replicated_5_tissue,joint_pca,knn_cosine_k3,human_to_mouse,testis,361,1.0,1.0,1.0,,0.8895475057926315
+replicated_5_tissue,joint_pca,knn_cosine_k5,human_to_mouse,heart,823,0.9951397326852977,0.998780487804878,0.996956786366403,,0.2031983074382252
+replicated_5_tissue,joint_pca,knn_cosine_k5,human_to_mouse,liver,222,0.9954954954954955,0.9954954954954955,0.9954954954954955,,0.21656793307816302
+replicated_5_tissue,joint_pca,knn_cosine_k5,human_to_mouse,lung,532,0.212406015037594,0.9576271186440678,0.3476923076923077,,-0.7892686609475177
+replicated_5_tissue,joint_pca,knn_cosine_k5,human_to_mouse,spleen,239,1.0,0.3626707132018209,0.532293986636971,,1.1969343697315482
+replicated_5_tissue,joint_pca,knn_cosine_k5,human_to_mouse,testis,361,0.9916897506925207,1.0,0.9958275382475661,,0.005886728643704141
+replicated_5_tissue,joint_pca,linear_softmax_probe,human_to_mouse,heart,2,1.0,1.0,1.0,,1.7937123775482178
+replicated_5_tissue,joint_pca,linear_softmax_probe,human_to_mouse,liver,2,1.0,0.5,0.6666666666666666,,5.728808403015137
+replicated_5_tissue,joint_pca,linear_softmax_probe,human_to_mouse,lung,2,0.0,0.0,0.0,,-1.962002158164978
+replicated_5_tissue,joint_pca,linear_softmax_probe,human_to_mouse,spleen,3,0.6666666666666666,0.5,0.5714285714285714,,0.28851020336151123
+replicated_5_tissue,joint_pca,linear_softmax_probe,human_to_mouse,testis,2,0.5,1.0,0.6666666666666666,,-1.6774811744689941
+replicated_5_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,heart,2,1.0,1.0,1.0,,4.335947036743164
+replicated_5_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,liver,2,1.0,0.3333333333333333,0.5,,5.606983184814453
+replicated_5_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,lung,2,0.5,1.0,0.6666666666666666,,0.16060028970241547
+replicated_5_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,spleen,3,0.3333333333333333,1.0,0.5,,-0.27416521310806274
+replicated_5_tissue,joint_pca,shallow_mlp_probe,human_to_mouse,testis,2,0.5,1.0,0.6666666666666666,,-4.1672043800354
+replicated_5_tissue,joint_pca,centroid_cosine,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,1.0,0.3411256670951843
+replicated_5_tissue,joint_pca,centroid_cosine,mouse_to_human,liver,2,1.0,1.0,1.0,1.0,0.4000154733657837
+replicated_5_tissue,joint_pca,centroid_cosine,mouse_to_human,lung,2,1.0,1.0,1.0,1.0,0.14785607159137726
+replicated_5_tissue,joint_pca,centroid_cosine,mouse_to_human,spleen,3,1.0,1.0,1.0,1.0,0.17254674434661865
+replicated_5_tissue,joint_pca,centroid_cosine,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,0.6666666666666666,0.10746069252490997
+replicated_5_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,1.0,0.45236992835998535
+replicated_5_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,liver,2,1.0,1.0,1.0,1.0,0.5409010052680969
+replicated_5_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,lung,2,1.0,1.0,1.0,1.0,0.22900758683681488
+replicated_5_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,spleen,3,1.0,1.0,1.0,1.0,0.17826199531555176
+replicated_5_tissue,joint_pca,centroid_cosine_centered,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,0.6666666666666666,0.23116657137870789
+replicated_5_tissue,joint_pca,knn_cosine_k1,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,,1.000695032775402
+replicated_5_tissue,joint_pca,knn_cosine_k1,mouse_to_human,liver,2,1.0,1.0,1.0,,1.0007490451037884
+replicated_5_tissue,joint_pca,knn_cosine_k1,mouse_to_human,lung,2,1.0,1.0,1.0,,1.0002965095490217
+replicated_5_tissue,joint_pca,knn_cosine_k1,mouse_to_human,spleen,3,1.0,1.0,1.0,,1.0005238465269406
+replicated_5_tissue,joint_pca,knn_cosine_k1,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,,-2.0551085471165464e-06
+replicated_5_tissue,joint_pca,knn_cosine_k3,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,,3.0006925014853474
+replicated_5_tissue,joint_pca,knn_cosine_k3,mouse_to_human,liver,2,1.0,1.0,1.0,,3.000740675061941
+replicated_5_tissue,joint_pca,knn_cosine_k3,mouse_to_human,lung,2,1.0,1.0,1.0,,3.0002908090278506
+replicated_5_tissue,joint_pca,knn_cosine_k3,mouse_to_human,spleen,3,1.0,1.0,1.0,,3.0005072852869827
+replicated_5_tissue,joint_pca,knn_cosine_k3,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,,-2.719134092332709e-06
+replicated_5_tissue,joint_pca,knn_cosine_k5,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,,5.000690642148256
+replicated_5_tissue,joint_pca,knn_cosine_k5,mouse_to_human,liver,2,1.0,1.0,1.0,,5.000736121028662
+replicated_5_tissue,joint_pca,knn_cosine_k5,mouse_to_human,lung,2,1.0,1.0,1.0,,5.000287758029997
+replicated_5_tissue,joint_pca,knn_cosine_k5,mouse_to_human,spleen,3,1.0,1.0,1.0,,5.000493951678276
+replicated_5_tissue,joint_pca,knn_cosine_k5,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,,-2.990037202721396e-06
+replicated_5_tissue,joint_pca,linear_softmax_probe,mouse_to_human,heart,823,0.9720534629404617,0.9378663540445487,0.954653937947494,,3.5171241760253906
+replicated_5_tissue,joint_pca,linear_softmax_probe,mouse_to_human,liver,222,0.509009009009009,0.9262295081967213,0.6569767441860465,,0.1977687031030655
+replicated_5_tissue,joint_pca,linear_softmax_probe,mouse_to_human,lung,532,0.4680451127819549,0.5040485829959515,0.4853801169590643,,-0.05998007580637932
+replicated_5_tissue,joint_pca,linear_softmax_probe,mouse_to_human,spleen,239,0.3514644351464435,0.23333333333333334,0.28046744574290483,,-0.5504210591316223
+replicated_5_tissue,joint_pca,linear_softmax_probe,mouse_to_human,testis,361,0.853185595567867,0.8850574712643678,0.8688293370944993,,0.7165796160697937
+replicated_5_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,heart,823,0.7812879708383961,0.9625748502994012,0.8625083836351441,,0.3713321387767792
+replicated_5_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,liver,222,0.990990990990991,0.9649122807017544,0.9777777777777777,,2.8396694660186768
+replicated_5_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,lung,532,0.5958646616541353,0.9005681818181818,0.7171945701357466,,0.34177324175834656
+replicated_5_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,spleen,239,0.9832635983263598,0.5365296803652968,0.6942392909896603,,2.3203530311584473
+replicated_5_tissue,joint_pca,shallow_mlp_probe,mouse_to_human,testis,361,0.9722991689750693,0.714867617107943,0.823943661971831,,3.6198365688323975
+replicated_5_tissue,bridgerna,centroid_cosine,human_to_mouse,heart,823,0.9100850546780073,1.0,0.9529262086513995,0.9520048602673147,0.011431366205215454
+replicated_5_tissue,bridgerna,centroid_cosine,human_to_mouse,liver,222,0.9864864864864865,0.9690265486725663,0.9776785714285714,0.9932432432432432,0.012526219710707664
+replicated_5_tissue,bridgerna,centroid_cosine,human_to_mouse,lung,532,0.943609022556391,0.5810185185185185,0.7191977077363897,0.9713345864661654,0.013461717404425144
+replicated_5_tissue,bridgerna,centroid_cosine,human_to_mouse,spleen,239,0.9456066945606695,0.6686390532544378,0.7833622183708839,0.9728033472803347,0.013311315327882767
+replicated_5_tissue,bridgerna,centroid_cosine,human_to_mouse,testis,361,0.0,0.0,0.0,0.31445060018467225,-0.04332540184259415
+replicated_5_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,heart,823,0.9611178614823815,0.9987373737373737,0.9795665634674923,0.9743823410287565,0.1613931506872177
+replicated_5_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,liver,222,0.990990990990991,0.9777777777777777,0.9843400447427293,0.9947447447447446,0.14416667819023132
+replicated_5_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,lung,532,0.9962406015037594,0.4690265486725664,0.6377858002406739,0.9975563909774436,0.7807722687721252
+replicated_5_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,spleen,239,0.11297071129707113,0.9310344827586207,0.20149253731343283,0.5488145048814506,-0.3642987310886383
+replicated_5_tissue,bridgerna,centroid_cosine_centered,human_to_mouse,testis,361,0.002770083102493075,1.0,0.0055248618784530384,0.5009233610341643,-0.30009645223617554
+replicated_5_tissue,bridgerna,knn_cosine_k1,human_to_mouse,heart,823,0.8906439854191981,1.0,0.9421593830334191,,0.7820534739048194
+replicated_5_tissue,bridgerna,knn_cosine_k1,human_to_mouse,liver,222,0.9864864864864865,0.8938775510204081,0.9379014989293362,,0.9739229148355154
+replicated_5_tissue,bridgerna,knn_cosine_k1,human_to_mouse,lung,532,0.7274436090225563,0.797938144329897,0.7610619469026548,,0.4553221176201688
+replicated_5_tissue,bridgerna,knn_cosine_k1,human_to_mouse,spleen,239,0.9707112970711297,0.49361702127659574,0.6544428772919605,,0.9423406389325734
+replicated_5_tissue,bridgerna,knn_cosine_k1,human_to_mouse,testis,361,0.6759002770083102,1.0,0.8066115702479338,,0.35211831904695967
+replicated_5_tissue,bridgerna,knn_cosine_k3,human_to_mouse,heart,823,0.8651275820170109,1.0,0.9276872964169381,,0.7059386204780235
+replicated_5_tissue,bridgerna,knn_cosine_k3,human_to_mouse,liver,222,0.9819819819819819,0.897119341563786,0.9376344086021505,,0.9639748456091493
+replicated_5_tissue,bridgerna,knn_cosine_k3,human_to_mouse,lung,532,0.8759398496240601,0.8978805394990366,0.8867745004757374,,0.7311922419684049
+replicated_5_tissue,bridgerna,knn_cosine_k3,human_to_mouse,spleen,239,1.0,0.5206971677559913,0.6848137535816619,,2.515381334447711
+replicated_5_tissue,bridgerna,knn_cosine_k3,human_to_mouse,testis,361,0.6759002770083102,1.0,0.8066115702479338,,-0.3741168260146707
+replicated_5_tissue,bridgerna,knn_cosine_k5,human_to_mouse,heart,823,0.7594167679222357,1.0,0.8632596685082873,,-0.2357155598781523
+replicated_5_tissue,bridgerna,knn_cosine_k5,human_to_mouse,liver,222,0.954954954954955,1.0,0.9769585253456221,,-0.049537921902027215
+replicated_5_tissue,bridgerna,knn_cosine_k5,human_to_mouse,lung,532,0.0,0.0,0.0,,-1.0075085955766359
+replicated_5_tissue,bridgerna,knn_cosine_k5,human_to_mouse,spleen,239,1.0,0.22848948374760994,0.3719844357976654,,1.2301395276243714
+replicated_5_tissue,bridgerna,knn_cosine_k5,human_to_mouse,testis,361,0.0,0.0,0.0,,-1.288198131572837
+replicated_5_tissue,bridgerna,linear_softmax_probe,human_to_mouse,heart,2,1.0,0.6666666666666666,0.8,,3.798494815826416
+replicated_5_tissue,bridgerna,linear_softmax_probe,human_to_mouse,liver,2,1.0,1.0,1.0,,1.387547254562378
+replicated_5_tissue,bridgerna,linear_softmax_probe,human_to_mouse,lung,2,1.0,1.0,1.0,,2.489825487136841
+replicated_5_tissue,bridgerna,linear_softmax_probe,human_to_mouse,spleen,3,1.0,1.0,1.0,,1.6811761856079102
+replicated_5_tissue,bridgerna,linear_softmax_probe,human_to_mouse,testis,2,0.5,1.0,0.6666666666666666,,-2.114877700805664
+replicated_5_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,heart,2,1.0,0.6666666666666666,0.8,,5.440467834472656
+replicated_5_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,liver,2,1.0,1.0,1.0,,3.2096731662750244
+replicated_5_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,lung,2,1.0,1.0,1.0,,5.591943740844727
+replicated_5_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,spleen,3,1.0,1.0,1.0,,1.9798096418380737
+replicated_5_tissue,bridgerna,shallow_mlp_probe,human_to_mouse,testis,2,0.5,1.0,0.6666666666666666,,-2.5217957496643066
+replicated_5_tissue,bridgerna,centroid_cosine,mouse_to_human,heart,2,1.0,0.5,0.6666666666666666,1.0,0.017841041088104248
+replicated_5_tissue,bridgerna,centroid_cosine,mouse_to_human,liver,2,1.0,1.0,1.0,1.0,0.009985893964767456
+replicated_5_tissue,bridgerna,centroid_cosine,mouse_to_human,lung,2,0.5,1.0,0.6666666666666666,0.75,0.005299866199493408
+replicated_5_tissue,bridgerna,centroid_cosine,mouse_to_human,spleen,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.7777777777777777,0.003311236621811986
+replicated_5_tissue,bridgerna,centroid_cosine,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,0.6,-0.03082713484764099
+replicated_5_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,heart,2,1.0,0.5,0.6666666666666666,1.0,0.2875407934188843
+replicated_5_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,liver,2,1.0,1.0,1.0,1.0,0.2580358386039734
+replicated_5_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,lung,2,1.0,1.0,1.0,1.0,0.10785892605781555
+replicated_5_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,spleen,3,0.6666666666666666,1.0,0.8,0.7777777777777777,-0.036406274884939194
+replicated_5_tissue,bridgerna,centroid_cosine_centered,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,0.6666666666666666,-0.01711954176425934
+replicated_5_tissue,bridgerna,knn_cosine_k1,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,,1.0009841462373732
+replicated_5_tissue,bridgerna,knn_cosine_k1,mouse_to_human,liver,2,1.0,1.0,1.0,,1.00098104429245
+replicated_5_tissue,bridgerna,knn_cosine_k1,mouse_to_human,lung,2,1.0,1.0,1.0,,1.0009705844223498
+replicated_5_tissue,bridgerna,knn_cosine_k1,mouse_to_human,spleen,3,1.0,1.0,1.0,,1.0009851105411847
+replicated_5_tissue,bridgerna,knn_cosine_k1,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,,1.0623663663889005e-05
+replicated_5_tissue,bridgerna,knn_cosine_k3,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,,3.000983943581581
+replicated_5_tissue,bridgerna,knn_cosine_k3,mouse_to_human,liver,2,1.0,1.0,1.0,,3.0009806365966796
+replicated_5_tissue,bridgerna,knn_cosine_k3,mouse_to_human,lung,2,1.0,1.0,1.0,,3.000969487458468
+replicated_5_tissue,bridgerna,knn_cosine_k3,mouse_to_human,spleen,3,1.0,1.0,1.0,,3.000984128534794
+replicated_5_tissue,bridgerna,knn_cosine_k3,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,,9.82731580734253e-06
+replicated_5_tissue,bridgerna,knn_cosine_k5,mouse_to_human,heart,2,1.0,0.6666666666666666,0.8,,5.000983827710151
+replicated_5_tissue,bridgerna,knn_cosine_k5,mouse_to_human,liver,2,1.0,1.0,1.0,,5.0009804362058645
+replicated_5_tissue,bridgerna,knn_cosine_k5,mouse_to_human,lung,2,1.0,1.0,1.0,,5.000969127565622
+replicated_5_tissue,bridgerna,knn_cosine_k5,mouse_to_human,spleen,3,1.0,1.0,1.0,,4.333989554087322
+replicated_5_tissue,bridgerna,knn_cosine_k5,mouse_to_human,testis,2,0.5,1.0,0.6666666666666666,,9.470939636102571e-06
+replicated_5_tissue,bridgerna,linear_softmax_probe,mouse_to_human,heart,823,0.9234507897934386,0.9986859395532195,0.9595959595959596,,0.5276626944541931
+replicated_5_tissue,bridgerna,linear_softmax_probe,mouse_to_human,liver,222,0.990990990990991,0.9128630705394191,0.9503239740820735,,0.8709184527397156
+replicated_5_tissue,bridgerna,linear_softmax_probe,mouse_to_human,lung,532,0.9530075187969925,0.6115802171290712,0.7450404114621602,,0.3096201717853546
+replicated_5_tissue,bridgerna,linear_softmax_probe,mouse_to_human,spleen,239,0.9707112970711297,0.7508090614886731,0.8467153284671532,,0.42568209767341614
+replicated_5_tissue,bridgerna,linear_softmax_probe,mouse_to_human,testis,361,0.10249307479224377,1.0,0.18592964824120603,,-0.44119203090667725
+replicated_5_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,heart,823,0.9076549210206561,1.0,0.9515923566878981,,0.6721266508102417
+replicated_5_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,liver,222,0.9864864864864865,1.0,0.9931972789115646,,1.1743505001068115
+replicated_5_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,lung,532,0.9906015037593985,0.6266349583828775,0.7676620538965768,,0.7170661687850952
+replicated_5_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,spleen,239,0.8326359832635983,0.6815068493150684,0.7495291902071564,,0.28902024030685425
+replicated_5_tissue,bridgerna,shallow_mlp_probe,mouse_to_human,testis,361,0.21606648199445982,1.0,0.3553530751708428,,-0.48537006974220276

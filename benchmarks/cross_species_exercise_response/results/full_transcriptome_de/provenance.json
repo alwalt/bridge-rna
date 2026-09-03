@@ -1,0 +1,9 @@
+{
+  "source": "ARCHS4 v2.5 gene-level integer raw counts",
+  "method": "edgeR quasi-likelihood GLM, TMM, filterByExpr",
+  "direction": "post/exercise minus pre/control",
+  "paired_human_design": "subject + condition where complete pairing exists",
+  "mouse_design": "condition",
+  "manufactured_counts_from_TPM": false,
+  "contrasts": "unchanged results/contrast_members.parquet"
+}

@@ -1,0 +1,186 @@
+[23:45:33] Expanded cohort tissues
+             cohort          tissue  mouse_experiments  gtex_profiles_available
+expanded_replicated         adrenal                  8                      250
+expanded_replicated      cerebellum                  2                      236
+expanded_replicated          cortex                  7                      243
+expanded_replicated           heart                  9                      823
+expanded_replicated     hippocampus                  7                      181
+expanded_replicated           liver                  4                      222
+expanded_replicated            lung                  3                      532
+expanded_replicated           ovary                  2                      173
+expanded_replicated skeletal muscle                  6                      756
+expanded_replicated          spleen                  3                      239
+expanded_replicated          testis                  3                      361
+[23:45:33] Expression cache reuse: human=4,260, mouse=17; compute human=2,054, mouse=43
+[23:45:33] Reading GTEx raw counts for 2,054 selected samples
+[23:45:35] GTEx TPM 64/2054
+[23:45:35] GTEx TPM 128/2054
+[23:45:36] GTEx TPM 192/2054
+[23:45:37] GTEx TPM 256/2054
+[23:45:37] GTEx TPM 320/2054
+[23:45:38] GTEx TPM 384/2054
+[23:45:38] GTEx TPM 448/2054
+[23:45:39] GTEx TPM 512/2054
+[23:45:40] GTEx TPM 576/2054
+[23:45:40] GTEx TPM 640/2054
+[23:45:41] GTEx TPM 704/2054
+[23:45:41] GTEx TPM 768/2054
+[23:45:42] GTEx TPM 832/2054
+[23:45:42] GTEx TPM 896/2054
+[23:45:43] GTEx TPM 960/2054
+[23:45:44] GTEx TPM 1024/2054
+[23:45:44] GTEx TPM 1088/2054
+[23:45:45] GTEx TPM 1152/2054
+[23:45:45] GTEx TPM 1216/2054
+[23:45:46] GTEx TPM 1280/2054
+[23:45:46] GTEx TPM 1344/2054
+[23:45:47] GTEx TPM 1408/2054
+[23:45:47] GTEx TPM 1472/2054
+[23:45:48] GTEx TPM 1536/2054
+[23:45:49] GTEx TPM 1600/2054
+[23:45:49] GTEx TPM 1664/2054
+[23:45:50] GTEx TPM 1728/2054
+[23:45:50] GTEx TPM 1792/2054
+[23:45:51] GTEx TPM 1856/2054
+[23:45:51] GTEx TPM 1920/2054
+[23:45:52] GTEx TPM 1984/2054
+[23:45:52] GTEx TPM 2048/2054
+[23:45:53] GTEx TPM 2054/2054
+[23:45:53] GTEx TPM complete: 15,146/15,165 vocabulary genes observed
+[23:45:55] ENCODE TPM 5/43
+[23:45:57] ENCODE TPM 10/43
+[23:45:58] ENCODE TPM 15/43
+[23:46:00] ENCODE TPM 20/43
+[23:46:02] ENCODE TPM 25/43
+[23:46:03] ENCODE TPM 30/43
+[23:46:05] ENCODE TPM 35/43
+[23:46:07] ENCODE TPM 40/43
+[23:46:08] ENCODE TPM 43/43
+[23:46:08] ENCODE TPM complete: 15,155/15,165 vocabulary genes observed
+[23:46:08] Fitting one joint PCA (512 components) on the expanded representation cohort
+[23:46:44] BridgeRNA embedding cache: reused=4,277; infer=2,097
+[23:46:46] BridgeRNA inference: samples=2,097, batch_size=8, device=cuda:0
+[23:47:47] BridgeRNA heartbeat: 440/2,097, elapsed=1.0m, rate=7.28/s
+[23:48:47] BridgeRNA heartbeat: 872/2,097, elapsed=2.0m, rate=7.23/s
+[23:49:48] BridgeRNA heartbeat: 1,304/2,097, elapsed=3.0m, rate=7.19/s
+[23:50:49] BridgeRNA heartbeat: 1,736/2,097, elapsed=4.0m, rate=7.16/s
+[23:51:39] BridgeRNA heartbeat: 2,097/2,097, elapsed=4.9m, rate=7.17/s
+[23:51:39] Balanced evaluation expanded_replicated: seed=42 (1/20)
+[23:51:41] Balanced evaluation expanded_replicated: seed=43 (2/20)
+[23:51:42] Balanced evaluation expanded_replicated: seed=44 (3/20)
+[23:51:43] Balanced evaluation expanded_replicated: seed=45 (4/20)
+[23:51:44] Balanced evaluation expanded_replicated: seed=46 (5/20)
+[23:51:45] Balanced evaluation expanded_replicated: seed=47 (6/20)
+[23:51:45] Balanced evaluation expanded_replicated: seed=48 (7/20)
+[23:51:46] Balanced evaluation expanded_replicated: seed=49 (8/20)
+[23:51:47] Balanced evaluation expanded_replicated: seed=50 (9/20)
+[23:51:48] Balanced evaluation expanded_replicated: seed=51 (10/20)
+[23:51:49] Balanced evaluation expanded_replicated: seed=52 (11/20)
+[23:51:50] Balanced evaluation expanded_replicated: seed=53 (12/20)
+[23:51:51] Balanced evaluation expanded_replicated: seed=54 (13/20)
+[23:51:51] Balanced evaluation expanded_replicated: seed=55 (14/20)
+[23:51:52] Balanced evaluation expanded_replicated: seed=56 (15/20)
+[23:51:53] Balanced evaluation expanded_replicated: seed=57 (16/20)
+[23:51:54] Balanced evaluation expanded_replicated: seed=58 (17/20)
+[23:51:55] Balanced evaluation expanded_replicated: seed=59 (18/20)
+[23:51:56] Balanced evaluation expanded_replicated: seed=60 (19/20)
+[23:51:56] Balanced evaluation expanded_replicated: seed=61 (20/20)
+[23:51:57] Unbalanced full-GTEx reference: expanded_replicated
+[23:52:08] Balanced evaluation fixed_11: seed=42 (1/20)
+[23:52:09] Balanced evaluation fixed_11: seed=43 (2/20)
+[23:52:10] Balanced evaluation fixed_11: seed=44 (3/20)
+[23:52:10] Balanced evaluation fixed_11: seed=45 (4/20)
+[23:52:11] Balanced evaluation fixed_11: seed=46 (5/20)
+[23:52:12] Balanced evaluation fixed_11: seed=47 (6/20)
+[23:52:13] Balanced evaluation fixed_11: seed=48 (7/20)
+[23:52:13] Balanced evaluation fixed_11: seed=49 (8/20)
+[23:52:14] Balanced evaluation fixed_11: seed=50 (9/20)
+[23:52:15] Balanced evaluation fixed_11: seed=51 (10/20)
+[23:52:16] Balanced evaluation fixed_11: seed=52 (11/20)
+[23:52:17] Balanced evaluation fixed_11: seed=53 (12/20)
+[23:52:18] Balanced evaluation fixed_11: seed=54 (13/20)
+[23:52:18] Balanced evaluation fixed_11: seed=55 (14/20)
+[23:52:19] Balanced evaluation fixed_11: seed=56 (15/20)
+[23:52:20] Balanced evaluation fixed_11: seed=57 (16/20)
+[23:52:21] Balanced evaluation fixed_11: seed=58 (17/20)
+[23:52:22] Balanced evaluation fixed_11: seed=59 (18/20)
+[23:52:22] Balanced evaluation fixed_11: seed=60 (19/20)
+[23:52:23] Balanced evaluation fixed_11: seed=61 (20/20)
+[23:52:24] Unbalanced full-GTEx reference: fixed_11
+[23:52:34] Balanced evaluation fixed_5: seed=42 (1/20)
+[23:52:35] Balanced evaluation fixed_5: seed=43 (2/20)
+[23:52:36] Balanced evaluation fixed_5: seed=44 (3/20)
+[23:52:37] Balanced evaluation fixed_5: seed=45 (4/20)
+[23:52:37] Balanced evaluation fixed_5: seed=46 (5/20)
+[23:52:38] Balanced evaluation fixed_5: seed=47 (6/20)
+[23:52:39] Balanced evaluation fixed_5: seed=48 (7/20)
+[23:52:40] Balanced evaluation fixed_5: seed=49 (8/20)
+[23:52:40] Balanced evaluation fixed_5: seed=50 (9/20)
+[23:52:41] Balanced evaluation fixed_5: seed=51 (10/20)
+[23:52:42] Balanced evaluation fixed_5: seed=52 (11/20)
+[23:52:43] Balanced evaluation fixed_5: seed=53 (12/20)
+[23:52:43] Balanced evaluation fixed_5: seed=54 (13/20)
+[23:52:44] Balanced evaluation fixed_5: seed=55 (14/20)
+[23:52:45] Balanced evaluation fixed_5: seed=56 (15/20)
+[23:52:45] Balanced evaluation fixed_5: seed=57 (16/20)
+[23:52:46] Balanced evaluation fixed_5: seed=58 (17/20)
+[23:52:47] Balanced evaluation fixed_5: seed=59 (18/20)
+[23:52:47] Balanced evaluation fixed_5: seed=60 (19/20)
+[23:52:48] Balanced evaluation fixed_5: seed=61 (20/20)
+[23:52:49] Unbalanced full-GTEx reference: fixed_5
+[23:53:12] Balanced Task 1A complete
+             cohort  balance representation              readout      direction  accuracy_mean  accuracy_sd  macro_f1_mean  macro_f1_sd  mrr_mean   mrr_sd  seeds  train_samples  test_samples
+expanded_replicated balanced      bridgerna      centroid_cosine human_to_mouse       0.642593     0.054770       0.625091     0.043368  0.759394 0.033445     20             54            54
+expanded_replicated balanced      bridgerna      centroid_cosine mouse_to_human       0.575926     0.048774       0.540286     0.038243  0.700236 0.033701     20             54            54
+expanded_replicated balanced      bridgerna        knn_cosine_k1 human_to_mouse       0.750000     0.073216       0.718275     0.076604       NaN      NaN     20             54            54
+expanded_replicated balanced      bridgerna        knn_cosine_k1 mouse_to_human       0.683333     0.045321       0.611701     0.041442       NaN      NaN     20             54            54
+expanded_replicated balanced      bridgerna linear_softmax_probe human_to_mouse       0.716667     0.045797       0.687546     0.043381       NaN      NaN     20             54            54
+expanded_replicated balanced      bridgerna linear_softmax_probe mouse_to_human       0.610185     0.043106       0.585515     0.035033       NaN      NaN     20             54            54
+expanded_replicated balanced      joint_pca      centroid_cosine human_to_mouse       0.732407     0.021221       0.706191     0.035104  0.827962 0.015880     20             54            54
+expanded_replicated balanced      joint_pca      centroid_cosine mouse_to_human       0.855556     0.037809       0.850818     0.054136  0.913198 0.021393     20             54            54
+expanded_replicated balanced      joint_pca        knn_cosine_k1 human_to_mouse       0.743519     0.039524       0.723304     0.040901       NaN      NaN     20             54            54
+expanded_replicated balanced      joint_pca        knn_cosine_k1 mouse_to_human       0.825000     0.028484       0.854058     0.030280       NaN      NaN     20             54            54
+expanded_replicated balanced      joint_pca linear_softmax_probe human_to_mouse       0.126852     0.062229       0.105590     0.054047       NaN      NaN     20             54            54
+expanded_replicated balanced      joint_pca linear_softmax_probe mouse_to_human       0.611111     0.060680       0.465088     0.064471       NaN      NaN     20             54            54
+expanded_replicated balanced raw_expression      centroid_cosine human_to_mouse       0.853704     0.011865       0.845859     0.028654  0.921451 0.010714     20             54            54
+expanded_replicated balanced raw_expression      centroid_cosine mouse_to_human       0.845370     0.035684       0.768646     0.034161  0.900912 0.021113     20             54            54
+expanded_replicated balanced raw_expression        knn_cosine_k1 human_to_mouse       0.858333     0.028357       0.837469     0.053967       NaN      NaN     20             54            54
+expanded_replicated balanced raw_expression        knn_cosine_k1 mouse_to_human       0.759259     0.048066       0.702919     0.045307       NaN      NaN     20             54            54
+expanded_replicated balanced raw_expression linear_softmax_probe human_to_mouse       0.633333     0.124386       0.587057     0.131929       NaN      NaN     20             54            54
+expanded_replicated balanced raw_expression linear_softmax_probe mouse_to_human       0.645370     0.036682       0.605849     0.053486       NaN      NaN     20             54            54
+           fixed_11 balanced      bridgerna      centroid_cosine human_to_mouse       0.697297     0.056557       0.507149     0.031076  0.780335 0.035172     20             37            37
+           fixed_11 balanced      bridgerna      centroid_cosine mouse_to_human       0.532432     0.060815       0.420649     0.066826  0.693759 0.040458     20             37            37
+           fixed_11 balanced      bridgerna        knn_cosine_k1 human_to_mouse       0.727027     0.038121       0.531451     0.037977       NaN      NaN     20             37            37
+           fixed_11 balanced      bridgerna        knn_cosine_k1 mouse_to_human       0.693243     0.051336       0.529936     0.074383       NaN      NaN     20             37            37
+           fixed_11 balanced      bridgerna linear_softmax_probe human_to_mouse       0.694595     0.077493       0.517959     0.039588       NaN      NaN     20             37            37
+           fixed_11 balanced      bridgerna linear_softmax_probe mouse_to_human       0.562162     0.054479       0.433736     0.066396       NaN      NaN     20             37            37
+           fixed_11 balanced      joint_pca      centroid_cosine human_to_mouse       0.745946     0.035511       0.622471     0.062219  0.833386 0.020745     20             37            37
+           fixed_11 balanced      joint_pca      centroid_cosine mouse_to_human       0.779730     0.057014       0.647074     0.055747  0.873030 0.031793     20             37            37
+           fixed_11 balanced      joint_pca        knn_cosine_k1 human_to_mouse       0.752703     0.050582       0.613858     0.064891       NaN      NaN     20             37            37
+           fixed_11 balanced      joint_pca        knn_cosine_k1 mouse_to_human       0.850000     0.055787       0.748965     0.061982       NaN      NaN     20             37            37
+           fixed_11 balanced      joint_pca linear_softmax_probe human_to_mouse       0.170270     0.052685       0.127333     0.054840       NaN      NaN     20             37            37
+           fixed_11 balanced      joint_pca linear_softmax_probe mouse_to_human       0.539189     0.057817       0.346832     0.073769       NaN      NaN     20             37            37
+           fixed_11 balanced raw_expression      centroid_cosine human_to_mouse       0.912162     0.030217       0.757763     0.085118  0.946351 0.019667     20             37            37
+           fixed_11 balanced raw_expression      centroid_cosine mouse_to_human       0.818919     0.042145       0.614851     0.035012  0.858488 0.029683     20             37            37
+           fixed_11 balanced raw_expression        knn_cosine_k1 human_to_mouse       0.927027     0.037306       0.783950     0.098653       NaN      NaN     20             37            37
+           fixed_11 balanced raw_expression        knn_cosine_k1 mouse_to_human       0.829730     0.034074       0.622310     0.024252       NaN      NaN     20             37            37
+           fixed_11 balanced raw_expression linear_softmax_probe human_to_mouse       0.682432     0.114624       0.522010     0.108749       NaN      NaN     20             37            37
+           fixed_11 balanced raw_expression linear_softmax_probe mouse_to_human       0.247297     0.034271       0.227193     0.054349       NaN      NaN     20             37            37
+            fixed_5 balanced      bridgerna      centroid_cosine human_to_mouse       0.802273     0.069602       0.739594     0.100755  0.878902 0.039503     20             22            22
+            fixed_5 balanced      bridgerna      centroid_cosine mouse_to_human       0.765909     0.077019       0.680298     0.085022  0.866402 0.041655     20             22            22
+            fixed_5 balanced      bridgerna        knn_cosine_k1 human_to_mouse       0.795455     0.071491       0.756922     0.092827       NaN      NaN     20             22            22
+            fixed_5 balanced      bridgerna        knn_cosine_k1 mouse_to_human       0.840909     0.084073       0.801638     0.097319       NaN      NaN     20             22            22
+            fixed_5 balanced      bridgerna linear_softmax_probe human_to_mouse       0.852273     0.073552       0.825736     0.084662       NaN      NaN     20             22            22
+            fixed_5 balanced      bridgerna linear_softmax_probe mouse_to_human       0.777273     0.069014       0.712810     0.084140       NaN      NaN     20             22            22
+            fixed_5 balanced      joint_pca      centroid_cosine human_to_mouse       0.938636     0.022244       0.931401     0.021758  0.961742 0.011122     20             22            22
+            fixed_5 balanced      joint_pca      centroid_cosine mouse_to_human       0.938636     0.063044       0.954384     0.045435  0.968182 0.032478     20             22            22
+            fixed_5 balanced      joint_pca        knn_cosine_k1 human_to_mouse       0.925000     0.030492       0.922128     0.025989       NaN      NaN     20             22            22
+            fixed_5 balanced      joint_pca        knn_cosine_k1 mouse_to_human       0.915909     0.061295       0.937316     0.043792       NaN      NaN     20             22            22
+            fixed_5 balanced      joint_pca linear_softmax_probe human_to_mouse       0.563636     0.157735       0.545310     0.115469       NaN      NaN     20             22            22
+            fixed_5 balanced      joint_pca linear_softmax_probe mouse_to_human       0.706818     0.085325       0.631368     0.063489       NaN      NaN     20             22            22
+            fixed_5 balanced raw_expression      centroid_cosine human_to_mouse       1.000000     0.000000       1.000000     0.000000  1.000000 0.000000     20             22            22
+            fixed_5 balanced raw_expression      centroid_cosine mouse_to_human       0.813636     0.048689       0.721690     0.057563  0.890985 0.026409     20             22            22
+            fixed_5 balanced raw_expression        knn_cosine_k1 human_to_mouse       1.000000     0.000000       1.000000     0.000000       NaN      NaN     20             22            22
+            fixed_5 balanced raw_expression        knn_cosine_k1 mouse_to_human       0.945455     0.052348       0.936728     0.064403       NaN      NaN     20             22            22
+            fixed_5 balanced raw_expression linear_softmax_probe human_to_mouse       0.877273     0.125223       0.803822     0.153958       NaN      NaN     20             22            22
+            fixed_5 balanced raw_expression linear_softmax_probe mouse_to_human       0.834091     0.087589       0.865410     0.070269       NaN      NaN     20             22            22

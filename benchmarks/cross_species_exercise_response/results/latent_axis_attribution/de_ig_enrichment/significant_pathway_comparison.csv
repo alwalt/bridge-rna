@@ -1,0 +1,91 @@
+query,source,native,name,p_value,intersection_size,query_size
+axis_a__de_top100,GO:BP,GO:0072359,circulatory system development,8.12334909733058e-07,29,98
+axis_a__de_top100,GO:BP,GO:0001568,blood vessel development,1.565041111842901e-05,22,98
+axis_a__de_top100,GO:BP,GO:0001944,vasculature development,3.4081743676605677e-05,22,98
+axis_a__de_top100,GO:BP,GO:0060537,muscle tissue development,4.3366884697122965e-05,17,98
+axis_a__de_top100,GO:BP,GO:0051240,positive regulation of multicellular organismal process,6.574113381744823e-05,31,98
+axis_a__de_top100,GO:BP,GO:0009891,positive regulation of biosynthetic process,7.746707993594889e-05,40,98
+axis_a__de_top100,GO:BP,GO:0010557,positive regulation of macromolecule biosynthetic process,8.043678340745584e-05,39,98
+axis_a__de_top100,GO:BP,GO:0009888,tissue development,8.162515473685871e-05,35,98
+axis_a__de_top100,GO:BP,GO:0014706,striated muscle tissue development,0.00015501596907055887,16,98
+axis_a__de_top100,GO:BP,GO:0048513,animal organ development,0.00021958743947339302,43,98
+axis_a__de_top100,GO:BP,GO:0048514,blood vessel morphogenesis,0.00032317293449012926,19,98
+axis_a__de_top100,GO:BP,GO:0051239,regulation of multicellular organismal process,0.00044376611501820254,41,98
+axis_a__de_top100,GO:BP,GO:0009893,positive regulation of metabolic process,0.0008403585377245216,44,98
+axis_a__de_top100,GO:BP,GO:0010604,positive regulation of macromolecule metabolic process,0.0008785008312306045,42,98
+axis_a__de_top100,GO:BP,GO:0035239,tube morphogenesis,0.002947942474248553,21,98
+axis_a__de_top100,GO:BP,GO:0048518,positive regulation of biological process,0.0032244338186788327,61,98
+axis_a__de_top100,GO:BP,GO:0010628,positive regulation of gene expression,0.003754112136613522,23,98
+axis_a__de_top100,GO:BP,GO:0002376,immune system process,0.004494276026364057,34,98
+axis_a__de_top100,GO:BP,GO:0009628,response to abiotic stimulus,0.006054419522911599,23,98
+axis_a__de_top100,GO:BP,GO:0048646,anatomical structure formation involved in morphogenesis,0.006128515726682418,24,98
+axis_a__de_top100,GO:BP,GO:0048522,positive regulation of cellular process,0.00668056688633246,58,98
+axis_a__de_top100,GO:BP,GO:0001525,angiogenesis,0.0075266839798905005,16,98
+axis_a__de_top100,GO:BP,GO:0045595,regulation of cell differentiation,0.007559180531934413,27,98
+axis_a__de_top100,GO:BP,GO:0009892,negative regulation of metabolic process,0.009235215415362437,36,98
+axis_a__de_top100,GO:BP,GO:0019222,regulation of metabolic process,0.012140670379381036,58,98
+axis_a__de_top100,GO:BP,GO:0033002,muscle cell proliferation,0.012962543908447758,10,98
+axis_a__de_top100,GO:BP,GO:0030154,cell differentiation,0.019518020923454355,49,98
+axis_a__de_top100,GO:BP,GO:2000026,regulation of multicellular organismal development,0.01965049694464204,25,98
+axis_a__de_top100,GO:BP,GO:0048869,cellular developmental process,0.0196774191032194,49,98
+axis_a__de_top100,GO:BP,GO:0045936,negative regulation of phosphate metabolic process,0.020273383310937167,10,98
+axis_a__de_top100,GO:BP,GO:0010563,negative regulation of phosphorus metabolic process,0.020273383310937167,10,98
+axis_a__de_top100,GO:BP,GO:0030335,positive regulation of cell migration,0.022505770434548586,15,98
+axis_a__de_top100,GO:BP,GO:0048856,anatomical structure development,0.028648963692214417,59,98
+axis_a__de_top100,GO:BP,GO:0051094,positive regulation of developmental process,0.03300089756459487,24,98
+axis_a__de_top100,GO:BP,GO:0035914,skeletal muscle cell differentiation,0.03322021183050652,7,98
+axis_a__de_top100,GO:BP,GO:0035556,intracellular signal transduction,0.03415722521263954,38,98
+axis_a__de_top100,GO:BP,GO:0061061,muscle structure development,0.035844588923781985,17,98
+axis_a__de_top100,GO:BP,GO:2000147,positive regulation of cell motility,0.03749938247025961,15,98
+axis_a__de_top100,GO:BP,GO:0009889,regulation of biosynthetic process,0.04372577162837106,50,98
+axis_a__de_top100,GO:BP,GO:0010605,negative regulation of macromolecule metabolic process,0.04907051195874233,33,98
+axis_a__de_top100,KEGG,KEGG:05206,MicroRNAs in cancer,0.005473348505647675,7,98
+axis_a__de_top100,KEGG,KEGG:04380,Osteoclast differentiation,0.006677127262075271,6,98
+axis_a__de_top100,KEGG,KEGG:00000,KEGG root term,0.022063996292652842,62,98
+axis_a__de_top100,KEGG,KEGG:04066,HIF-1 signaling pathway,0.036926416238108134,5,98
+axis_a__de_top100,KEGG,KEGG:04010,MAPK signaling pathway,0.046817513163160344,8,98
+axis_a__de_top100,REAC,REAC:R-HSA-6785807,Interleukin-4 and Interleukin-13 signaling,9.388733268355546e-05,8,98
+axis_a__de_top100,REAC,REAC:R-HSA-1280215,Cytokine Signaling in Immune system,0.0009627724695025085,16,98
+axis_a__de_top100,REAC,REAC:R-HSA-168256,Immune System,0.007647140586382659,25,98
+axis_a__high_ig_low_de,GO:BP,GO:0003012,muscle system process,0.00728577151993089,13,79
+axis_a__high_ig_low_de,KEGG,KEGG:04820,Cytoskeleton in muscle cells,1.6352426108215842e-05,10,79
+axis_a__high_ig_low_de,KEGG,KEGG:05410,Hypertrophic cardiomyopathy,0.012455354585271613,5,79
+axis_a__high_ig_low_de,KEGG,KEGG:05414,Dilated cardiomyopathy,0.0150320844598581,5,79
+axis_a__high_ig_low_de,REAC,REAC:R-HSA-390522,Striated Muscle Contraction,2.2269547235829593e-07,7,79
+axis_a__high_ig_low_de,REAC,REAC:R-HSA-397014,Muscle contraction,2.1191202650895706e-05,10,79
+axis_a__ig_top100,GO:BP,GO:0003012,muscle system process,0.01927069073583982,14,100
+axis_a__ig_top100,KEGG,KEGG:04820,Cytoskeleton in muscle cells,1.7206919048262575e-07,13,100
+axis_a__ig_top100,KEGG,KEGG:05410,Hypertrophic cardiomyopathy,0.0037142751019012543,6,100
+axis_a__ig_top100,KEGG,KEGG:05414,Dilated cardiomyopathy,0.004652306728331124,6,100
+axis_a__ig_top100,REAC,REAC:R-HSA-390522,Striated Muscle Contraction,2.7696148155415305e-08,8,100
+axis_a__ig_top100,REAC,REAC:R-HSA-397014,Muscle contraction,2.0936142850590563e-05,11,100
+axis_a__shared,KEGG,KEGG:04820,Cytoskeleton in muscle cells,0.012376979652306398,3,9
+axis_b__de_top100,GO:BP,GO:1901700,response to oxygen-containing compound,1.3080525838583134e-06,34,100
+axis_b__de_top100,GO:BP,GO:0033993,response to lipid,1.3422515394799597e-06,25,100
+axis_b__de_top100,GO:BP,GO:0071396,cellular response to lipid,7.426226020782708e-06,20,100
+axis_b__de_top100,GO:BP,GO:0071398,cellular response to fatty acid,2.232445786412625e-05,7,100
+axis_b__de_top100,GO:BP,GO:0042221,response to chemical,2.344621445054745e-05,47,100
+axis_b__de_top100,GO:BP,GO:0070887,cellular response to chemical stimulus,0.00021584149472959026,35,100
+axis_b__de_top100,GO:BP,GO:0070542,response to fatty acid,0.0009165331675921553,7,100
+axis_b__de_top100,GO:BP,GO:0048514,blood vessel morphogenesis,0.002714313762289395,18,100
+axis_b__de_top100,GO:BP,GO:0051239,regulation of multicellular organismal process,0.0030123003309109816,40,100
+axis_b__de_top100,GO:BP,GO:1901701,cellular response to oxygen-containing compound,0.003815733504143598,24,100
+axis_b__de_top100,GO:BP,GO:0072359,circulatory system development,0.004164004638202265,24,100
+axis_b__de_top100,GO:BP,GO:0001568,blood vessel development,0.0045154934138134034,19,100
+axis_b__de_top100,GO:BP,GO:0001944,vasculature development,0.00858841859257373,19,100
+axis_b__de_top100,GO:BP,GO:0050896,response to stimulus,0.016632022150371354,72,100
+axis_b__de_top100,KEGG,KEGG:04933,AGE-RAGE signaling pathway in diabetic complications,0.03511114331143035,5,100
+axis_b__high_ig_low_de,KEGG,KEGG:04820,Cytoskeleton in muscle cells,3.0906672494797645e-06,11,85
+axis_b__high_ig_low_de,KEGG,KEGG:04260,Cardiac muscle contraction,0.00043488416057647537,6,85
+axis_b__high_ig_low_de,KEGG,KEGG:05410,Hypertrophic cardiomyopathy,0.017332027487298656,5,85
+axis_b__high_ig_low_de,KEGG,KEGG:05414,Dilated cardiomyopathy,0.02089061473471814,5,85
+axis_b__high_ig_low_de,REAC,REAC:R-HSA-397014,Muscle contraction,2.681434090025708e-07,12,85
+axis_b__high_ig_low_de,REAC,REAC:R-HSA-390522,Striated Muscle Contraction,1.724884699684431e-05,6,85
+axis_b__ig_top100,GO:BP,GO:0061061,muscle structure development,0.0003042531467520246,20,100
+axis_b__ig_top100,GO:BP,GO:0007517,muscle organ development,0.022413270894186012,13,100
+axis_b__ig_top100,KEGG,KEGG:04820,Cytoskeleton in muscle cells,1.8328713821342717e-06,12,100
+axis_b__ig_top100,KEGG,KEGG:04260,Cardiac muscle contraction,0.0011659600139672394,6,100
+axis_b__ig_top100,KEGG,KEGG:05410,Hypertrophic cardiomyopathy,0.038609205693461116,5,100
+axis_b__ig_top100,KEGG,KEGG:05414,Dilated cardiomyopathy,0.046386750309534826,5,100
+axis_b__ig_top100,REAC,REAC:R-HSA-397014,Muscle contraction,1.86135900440227e-06,12,100
+axis_b__ig_top100,REAC,REAC:R-HSA-390522,Striated Muscle Contraction,4.697185237663471e-05,6,100

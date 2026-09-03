@@ -1,0 +1,39 @@
+[20:55:56] Cohort
+species  tissue              
+human    adrenal                 250
+         cerebellum              236
+         heart                   823
+         liver                   222
+         lung                    532
+         mammary gland           445
+         ovary                   173
+         spleen                  239
+         stomach                 347
+         subcutaneous adipose    632
+         testis                  361
+mouse    adrenal                   1
+         cerebellum                1
+         heart                     2
+         liver                     2
+         lung                      2
+         mammary gland             1
+         ovary                     1
+         spleen                    3
+         stomach                   1
+         subcutaneous adipose      1
+         testis                    2
+[20:55:56] Fitting joint PCA with 512 components
+[20:56:42] Complete
+             cohort representation      direction  samples     top1      mrr  macro_tissue_top1  macro_tissue_mrr
+ complete_11_tissue raw_expression human_to_mouse     4260 0.617136 0.702695           0.538267          0.642529
+ complete_11_tissue raw_expression mouse_to_human       17 0.882353 0.926471           0.818182          0.886364
+ complete_11_tissue      joint_pca human_to_mouse     4260 0.800939 0.871446           0.794266          0.868126
+ complete_11_tissue      joint_pca mouse_to_human       17 0.823529 0.887255           0.772727          0.859848
+ complete_11_tissue      bridgerna human_to_mouse     4260 0.460329 0.639870           0.463179          0.639446
+ complete_11_tissue      bridgerna mouse_to_human       17 0.588235 0.697084           0.636364          0.736564
+replicated_5_tissue raw_expression human_to_mouse     2177 0.811208 0.867203           0.785743          0.846705
+replicated_5_tissue raw_expression mouse_to_human       11 1.000000 1.000000           1.000000          1.000000
+replicated_5_tissue      joint_pca human_to_mouse     2177 0.996785 0.997910           0.998166          0.998795
+replicated_5_tissue      joint_pca mouse_to_human       11 0.909091 0.939394           0.900000          0.933333
+replicated_5_tissue      bridgerna human_to_mouse     2177 0.779054 0.857495           0.757157          0.840767
+replicated_5_tissue      bridgerna mouse_to_human       11 0.727273 0.821212           0.733333          0.825556

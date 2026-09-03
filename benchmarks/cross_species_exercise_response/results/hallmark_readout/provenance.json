@@ -1,0 +1,10 @@
+{
+  "backbone": "frozen precomputed BridgeRNA embeddings",
+  "samples": 40000,
+  "gses": 20643,
+  "split_unit": "GSE",
+  "expression": "natural log1p(TPM), 15,165 canonical genes",
+  "ssgsea": "weighted rank-based ssGSEA running-sum integral, alpha=0.25",
+  "pca_fit": "ARCHS4 training GSE split only",
+  "seed": 42
+}

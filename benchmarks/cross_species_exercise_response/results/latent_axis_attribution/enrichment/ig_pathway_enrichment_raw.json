@@ -1,0 +1,3748 @@
+{
+  "result": [
+    {
+      "description": "Striated Muscle Contraction",
+      "effective_domain_size": 15246,
+      "goshv": 41777,
+      "intersection_size": 8,
+      "intersections": [
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Striated Muscle Contraction",
+      "native": "REAC:R-HSA-390522",
+      "p_value": 2.7696148155415305e-08,
+      "parents": [
+        "REAC:R-HSA-397014"
+      ],
+      "precision": 0.08,
+      "query": "axis_a_top100",
+      "query_size": 100,
+      "recall": 0.2222222222222222,
+      "significant": true,
+      "source": "REAC",
+      "term_size": 36,
+      "source_order": 2453,
+      "group_id": 7
+    },
+    {
+      "description": "Cytoskeleton in muscle cells",
+      "effective_domain_size": 15246,
+      "goshv": 39118,
+      "intersection_size": 13,
+      "intersections": [
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Cytoskeleton in muscle cells",
+      "native": "KEGG:04820",
+      "p_value": 1.7206919048262575e-07,
+      "parents": [
+        "KEGG:00000"
+      ],
+      "precision": 0.13,
+      "query": "axis_a_top100",
+      "query_size": 100,
+      "recall": 0.058823529411764705,
+      "significant": true,
+      "source": "KEGG",
+      "term_size": 221,
+      "source_order": 380,
+      "group_id": 3
+    },
+    {
+      "description": "Cytoskeleton in muscle cells",
+      "effective_domain_size": 15246,
+      "goshv": 39118,
+      "intersection_size": 12,
+      "intersections": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [
+          "KEGG"
+        ],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Cytoskeleton in muscle cells",
+      "native": "KEGG:04820",
+      "p_value": 1.8328713821342717e-06,
+      "parents": [
+        "KEGG:00000"
+      ],
+      "precision": 0.12,
+      "query": "axis_b_top100",
+      "query_size": 100,
+      "recall": 0.05429864253393665,
+      "significant": true,
+      "source": "KEGG",
+      "term_size": 221,
+      "source_order": 380,
+      "group_id": 3
+    },
+    {
+      "description": "Muscle contraction",
+      "effective_domain_size": 15246,
+      "goshv": 40884,
+      "intersection_size": 12,
+      "intersections": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [
+          "REAC"
+        ],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Muscle contraction",
+      "native": "REAC:R-HSA-397014",
+      "p_value": 1.86135900440227e-06,
+      "parents": [
+        "REAC:0000000"
+      ],
+      "precision": 0.12,
+      "query": "axis_b_top100",
+      "query_size": 100,
+      "recall": 0.0625,
+      "significant": true,
+      "source": "REAC",
+      "term_size": 192,
+      "source_order": 1560,
+      "group_id": 7
+    },
+    {
+      "description": "Muscle contraction",
+      "effective_domain_size": 15246,
+      "goshv": 40884,
+      "intersection_size": 11,
+      "intersections": [
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [
+          "REAC"
+        ],
+        [
+          "REAC"
+        ],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Muscle contraction",
+      "native": "REAC:R-HSA-397014",
+      "p_value": 2.0936142850590563e-05,
+      "parents": [
+        "REAC:0000000"
+      ],
+      "precision": 0.11,
+      "query": "axis_a_top100",
+      "query_size": 100,
+      "recall": 0.057291666666666664,
+      "significant": true,
+      "source": "REAC",
+      "term_size": 192,
+      "source_order": 1560,
+      "group_id": 7
+    },
+    {
+      "description": "Striated Muscle Contraction",
+      "effective_domain_size": 15246,
+      "goshv": 41777,
+      "intersection_size": 6,
+      "intersections": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [
+          "REAC"
+        ],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Striated Muscle Contraction",
+      "native": "REAC:R-HSA-390522",
+      "p_value": 4.697185237663471e-05,
+      "parents": [
+        "REAC:R-HSA-397014"
+      ],
+      "precision": 0.06,
+      "query": "axis_b_top100",
+      "query_size": 100,
+      "recall": 0.16666666666666666,
+      "significant": true,
+      "source": "REAC",
+      "term_size": 36,
+      "source_order": 2453,
+      "group_id": 7
+    },
+    {
+      "description": "Muscle contraction",
+      "effective_domain_size": 15246,
+      "goshv": 40884,
+      "intersection_size": 6,
+      "intersections": [
+        [
+          "REAC"
+        ],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ]
+      ],
+      "name": "Muscle contraction",
+      "native": "REAC:R-HSA-397014",
+      "p_value": 0.00018332889520869763,
+      "parents": [
+        "REAC:0000000"
+      ],
+      "precision": 0.24,
+      "query": "axis_a_conserved_human_mouse",
+      "query_size": 25,
+      "recall": 0.03125,
+      "significant": true,
+      "source": "REAC",
+      "term_size": 192,
+      "source_order": 1560,
+      "group_id": 7
+    },
+    {
+      "description": "\"The progression of a muscle structure over time, from its formation to its mature state. Muscle structures are contractile cells, tissues or organs that are found in multicellular organisms.\" [GOC:dph]",
+      "effective_domain_size": 15246,
+      "goshv": 24246,
+      "intersection_size": 20,
+      "intersections": [
+        [],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [
+          "IBA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [
+          "IMP",
+          "ISS",
+          "IBA",
+          "IEA"
+        ],
+        [
+          "TAS"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "NAS"
+        ],
+        [],
+        [
+          "IBA"
+        ],
+        [],
+        [],
+        [
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IMP",
+          "ISS",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IBA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "ISS",
+          "IEA"
+        ],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [
+          "TAS"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IBA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "ISS",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "ISS",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IMP",
+          "NAS",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "muscle structure development",
+      "native": "GO:0061061",
+      "p_value": 0.0003042531467520246,
+      "parents": [
+        "GO:0048856"
+      ],
+      "precision": 0.2,
+      "query": "axis_b_top100",
+      "query_size": 100,
+      "recall": 0.030864197530864196,
+      "significant": true,
+      "source": "GO:BP",
+      "term_size": 648,
+      "source_order": 14123,
+      "group_id": 1
+    },
+    {
+      "description": "Cytoskeleton in muscle cells",
+      "effective_domain_size": 15246,
+      "goshv": 39118,
+      "intersection_size": 6,
+      "intersections": [
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        []
+      ],
+      "name": "Cytoskeleton in muscle cells",
+      "native": "KEGG:04820",
+      "p_value": 0.0003168070329008741,
+      "parents": [
+        "KEGG:00000"
+      ],
+      "precision": 0.1935483870967742,
+      "query": "axis_b_conserved_human_mouse",
+      "query_size": 31,
+      "recall": 0.027149321266968326,
+      "significant": true,
+      "source": "KEGG",
+      "term_size": 221,
+      "source_order": 380,
+      "group_id": 3
+    },
+    {
+      "description": "Cardiac muscle contraction",
+      "effective_domain_size": 15246,
+      "goshv": 39043,
+      "intersection_size": 4,
+      "intersections": [
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ]
+      ],
+      "name": "Cardiac muscle contraction",
+      "native": "KEGG:04260",
+      "p_value": 0.0005457790313663128,
+      "parents": [
+        "KEGG:00000"
+      ],
+      "precision": 0.16,
+      "query": "axis_a_conserved_human_mouse",
+      "query_size": 25,
+      "recall": 0.05,
+      "significant": true,
+      "source": "KEGG",
+      "term_size": 80,
+      "source_order": 305,
+      "group_id": 4
+    },
+    {
+      "description": "Cardiac muscle contraction",
+      "effective_domain_size": 15246,
+      "goshv": 39043,
+      "intersection_size": 6,
+      "intersections": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Cardiac muscle contraction",
+      "native": "KEGG:04260",
+      "p_value": 0.0011659600139672394,
+      "parents": [
+        "KEGG:00000"
+      ],
+      "precision": 0.06,
+      "query": "axis_b_top100",
+      "query_size": 100,
+      "recall": 0.075,
+      "significant": true,
+      "source": "KEGG",
+      "term_size": 80,
+      "source_order": 305,
+      "group_id": 4
+    },
+    {
+      "description": "Cytoskeleton in muscle cells",
+      "effective_domain_size": 15246,
+      "goshv": 39118,
+      "intersection_size": 5,
+      "intersections": [
+        [
+          "KEGG"
+        ],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Cytoskeleton in muscle cells",
+      "native": "KEGG:04820",
+      "p_value": 0.0017123887073653107,
+      "parents": [
+        "KEGG:00000"
+      ],
+      "precision": 0.2,
+      "query": "axis_a_conserved_human_mouse",
+      "query_size": 25,
+      "recall": 0.02262443438914027,
+      "significant": true,
+      "source": "KEGG",
+      "term_size": 221,
+      "source_order": 380,
+      "group_id": 3
+    },
+    {
+      "description": "Hypertrophic cardiomyopathy",
+      "effective_domain_size": 15246,
+      "goshv": 39243,
+      "intersection_size": 6,
+      "intersections": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Hypertrophic cardiomyopathy",
+      "native": "KEGG:05410",
+      "p_value": 0.0037142751019012543,
+      "parents": [
+        "KEGG:00000"
+      ],
+      "precision": 0.06,
+      "query": "axis_a_top100",
+      "query_size": 100,
+      "recall": 0.061224489795918366,
+      "significant": true,
+      "source": "KEGG",
+      "term_size": 98,
+      "source_order": 505,
+      "group_id": 5
+    },
+    {
+      "description": "Dilated cardiomyopathy",
+      "effective_domain_size": 15246,
+      "goshv": 39245,
+      "intersection_size": 6,
+      "intersections": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Dilated cardiomyopathy",
+      "native": "KEGG:05414",
+      "p_value": 0.004652306728331124,
+      "parents": [
+        "KEGG:00000"
+      ],
+      "precision": 0.06,
+      "query": "axis_a_top100",
+      "query_size": 100,
+      "recall": 0.058823529411764705,
+      "significant": true,
+      "source": "KEGG",
+      "term_size": 102,
+      "source_order": 507,
+      "group_id": 6
+    },
+    {
+      "description": "Striated Muscle Contraction",
+      "effective_domain_size": 15246,
+      "goshv": 41777,
+      "intersection_size": 3,
+      "intersections": [
+        [
+          "REAC"
+        ],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Striated Muscle Contraction",
+      "native": "REAC:R-HSA-390522",
+      "p_value": 0.009189569840965334,
+      "parents": [
+        "REAC:R-HSA-397014"
+      ],
+      "precision": 0.12,
+      "query": "axis_a_conserved_human_mouse",
+      "query_size": 25,
+      "recall": 0.08333333333333333,
+      "significant": true,
+      "source": "REAC",
+      "term_size": 36,
+      "source_order": 2453,
+      "group_id": 7
+    },
+    {
+      "description": "Striated Muscle Contraction",
+      "effective_domain_size": 15246,
+      "goshv": 41777,
+      "intersection_size": 3,
+      "intersections": [
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "REAC"
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Striated Muscle Contraction",
+      "native": "REAC:R-HSA-390522",
+      "p_value": 0.018158724331992584,
+      "parents": [
+        "REAC:R-HSA-397014"
+      ],
+      "precision": 0.0967741935483871,
+      "query": "axis_b_conserved_human_mouse",
+      "query_size": 31,
+      "recall": 0.08333333333333333,
+      "significant": true,
+      "source": "REAC",
+      "term_size": 36,
+      "source_order": 2453,
+      "group_id": 7
+    },
+    {
+      "description": "\"An organ system process carried out at the level of a muscle. Muscle tissue is composed of contractile cells or fibers.\" [GOC:mtg_cardio]",
+      "effective_domain_size": 15246,
+      "goshv": 11537,
+      "intersection_size": 14,
+      "intersections": [
+        [
+          "ISS",
+          "IEA"
+        ],
+        [],
+        [
+          "IDA",
+          "NAS"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IBA",
+          "TAS"
+        ],
+        [],
+        [
+          "TAS"
+        ],
+        [],
+        [],
+        [
+          "TAS"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "ISS"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IBA",
+          "NAS",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "ISS"
+        ],
+        [
+          "NAS"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "TAS"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IDA",
+          "IMP",
+          "IBA",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IMP",
+          "ISS",
+          "IBA",
+          "TAS"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "ISS",
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IMP",
+          "ISS",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "muscle system process",
+      "native": "GO:0003012",
+      "p_value": 0.01927069073583982,
+      "parents": [
+        "GO:0003008"
+      ],
+      "precision": 0.14,
+      "query": "axis_a_top100",
+      "query_size": 100,
+      "recall": 0.0345679012345679,
+      "significant": true,
+      "source": "GO:BP",
+      "term_size": 405,
+      "source_order": 1414,
+      "group_id": 2
+    },
+    {
+      "description": "\"The process whose specific outcome is the progression of the muscle over time, from its formation to the mature structure. The muscle is an organ consisting of a tissue made up of various elongated cells that are specialized to contract and thus to produce movement and mechanical work.\" [GOC:jid, ISBN:0198506732]",
+      "effective_domain_size": 15246,
+      "goshv": 12986,
+      "intersection_size": 13,
+      "intersections": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [
+          "ISS",
+          "IEA"
+        ],
+        [
+          "TAS"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "ISS",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IBA"
+        ],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "ISS",
+          "IEA"
+        ],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [
+          "TAS"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "IEA"
+        ],
+        [],
+        [],
+        [
+          "IMP",
+          "IEA"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "muscle organ development",
+      "native": "GO:0007517",
+      "p_value": 0.022413270894186012,
+      "parents": [
+        "GO:0048513",
+        "GO:0061061"
+      ],
+      "precision": 0.13,
+      "query": "axis_b_top100",
+      "query_size": 100,
+      "recall": 0.03724928366762178,
+      "significant": true,
+      "source": "GO:BP",
+      "term_size": 349,
+      "source_order": 2863,
+      "group_id": 1
+    },
+    {
+      "description": "Hypertrophic cardiomyopathy",
+      "effective_domain_size": 15246,
+      "goshv": 39243,
+      "intersection_size": 5,
+      "intersections": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Hypertrophic cardiomyopathy",
+      "native": "KEGG:05410",
+      "p_value": 0.038609205693461116,
+      "parents": [
+        "KEGG:00000"
+      ],
+      "precision": 0.05,
+      "query": "axis_b_top100",
+      "query_size": 100,
+      "recall": 0.05102040816326531,
+      "significant": true,
+      "source": "KEGG",
+      "term_size": 98,
+      "source_order": 505,
+      "group_id": 5
+    },
+    {
+      "description": "Dilated cardiomyopathy",
+      "effective_domain_size": 15246,
+      "goshv": 39245,
+      "intersection_size": 5,
+      "intersections": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "KEGG"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "name": "Dilated cardiomyopathy",
+      "native": "KEGG:05414",
+      "p_value": 0.046386750309534826,
+      "parents": [
+        "KEGG:00000"
+      ],
+      "precision": 0.05,
+      "query": "axis_b_top100",
+      "query_size": 100,
+      "recall": 0.049019607843137254,
+      "significant": true,
+      "source": "KEGG",
+      "term_size": 102,
+      "source_order": 507,
+      "group_id": 6
+    }
+  ],
+  "meta": {
+    "query_metadata": {
+      "queries": {
+        "axis_a_top100": [
+          "FBXO32",
+          "NMRK2",
+          "MYL1",
+          "ASB5",
+          "MT-ND6",
+          "ENAH",
+          "FNBP1L",
+          "ACTC1",
+          "PVALB",
+          "SFXN4",
+          "GTPBP4",
+          "TMOD4",
+          "MUSK",
+          "ACTA1",
+          "SORBS1",
+          "LAMB2",
+          "DES",
+          "KIAA0513",
+          "PXDC1",
+          "RTN4",
+          "TMEM233",
+          "AGT",
+          "KPNA6",
+          "SMCO1",
+          "FNDC5",
+          "CAP2",
+          "TNNI1",
+          "ANXA3",
+          "OTUD1",
+          "C1QC",
+          "GPX4",
+          "RUNX1",
+          "NES",
+          "SLC43A1",
+          "SFRP1",
+          "MKRN1",
+          "ILK",
+          "TEAD4",
+          "XIRP1",
+          "SDHAF3",
+          "BCAR1",
+          "PLGRKT",
+          "LRRC20",
+          "ADAMTS1",
+          "TRIM69",
+          "ANKRD1",
+          "DDIT4L",
+          "ESRRG",
+          "FBXO3",
+          "NR4A3",
+          "CACNB1",
+          "TCIM",
+          "ZFHX3",
+          "CCN1",
+          "ZSWIM4",
+          "PIM3",
+          "SLC3A2",
+          "TRDN",
+          "HOXA13",
+          "OGFOD1",
+          "AQP4",
+          "GIMAP8",
+          "ATPAF1",
+          "ATOH8",
+          "MT-ND2",
+          "ZC3H6",
+          "MUSTN1",
+          "SPOCK1",
+          "TNNT1",
+          "PIGL",
+          "CISH",
+          "TPM1",
+          "PFKM",
+          "FKBP5",
+          "GTF3A",
+          "RHBDF1",
+          "SMOX",
+          "CLIC4",
+          "ITGA7",
+          "CHCHD10",
+          "EMP1",
+          "PEA15",
+          "P4HA1",
+          "MYOZ1",
+          "NEDD4",
+          "XRCC5",
+          "GSN",
+          "SPTB",
+          "CKM",
+          "KDM5B",
+          "FBP2",
+          "H2AC21",
+          "FBXO7",
+          "SLC25A4",
+          "GPR157",
+          "USF1",
+          "PLIN4",
+          "USP54",
+          "VGLL2",
+          "ZNF532"
+        ],
+        "axis_b_top100": [
+          "FBXO32",
+          "CFD",
+          "TOB2",
+          "USP54",
+          "NMRK2",
+          "NRAP",
+          "MB",
+          "MT-ND6",
+          "MYL1",
+          "TNNI1",
+          "ACTA1",
+          "TEAD4",
+          "SMOX",
+          "ULK2",
+          "IGIP",
+          "HLF",
+          "CYB561D2",
+          "PVALB",
+          "H2AC20",
+          "LAMB2",
+          "CISH",
+          "TMOD4",
+          "VOPP1",
+          "CACNB1",
+          "ALPK3",
+          "SLC43A1",
+          "VLDLR",
+          "CAP2",
+          "AQP4",
+          "AXIN2",
+          "ZC3H6",
+          "OTUD1",
+          "LRRC20",
+          "METTL17",
+          "ERBB2",
+          "C1QA",
+          "COLQ",
+          "RBM24",
+          "MUSK",
+          "KLF10",
+          "CBX5",
+          "DES",
+          "ZNF786",
+          "SERINC2",
+          "AOC3",
+          "ATF3",
+          "DTX3",
+          "ANXA7",
+          "PDK4",
+          "CD34",
+          "NEXN",
+          "TRIM63",
+          "MAP3K20",
+          "CROCC",
+          "SORBS1",
+          "TRIM69",
+          "ACTC1",
+          "CD36",
+          "NR4A1",
+          "MT-CYB",
+          "ITGA7",
+          "ADIG",
+          "TET1",
+          "ZNF366",
+          "PARP14",
+          "ATP2A1",
+          "SLC19A2",
+          "DDIT4L",
+          "OGFOD1",
+          "GPX4",
+          "PDLIM3",
+          "TRDN",
+          "HOXA13",
+          "NR4A3",
+          "CYP2R1",
+          "MYLK3",
+          "PIGG",
+          "XRCC5",
+          "ECHDC2",
+          "VGLL2",
+          "TMEM126A",
+          "PIGL",
+          "ABLIM3",
+          "NEDD4",
+          "NES",
+          "WDR35",
+          "DPP4",
+          "MUSTN1",
+          "ANGPTL2",
+          "PDE5A",
+          "ANKRD1",
+          "ZFHX4",
+          "ZBTB38",
+          "PRADC1",
+          "SPTB",
+          "ATP1A2",
+          "CX3CL1",
+          "UACA",
+          "CHCHD10",
+          "ADHFE1"
+        ],
+        "axis_a_conserved_human_mouse": [
+          "ACTA1",
+          "ACTC1",
+          "ANXA3",
+          "ASB5",
+          "ATF1",
+          "ATP1A2",
+          "ATPAF1",
+          "CACNB1",
+          "ENAH",
+          "FBXO32",
+          "GTPBP4",
+          "KPNA6",
+          "LAMB2",
+          "LRRC20",
+          "MT-ND2",
+          "MUSTN1",
+          "MYL1",
+          "NMRK2",
+          "NRAP",
+          "PGM1",
+          "SLC25A4",
+          "SMCO1",
+          "SPTB",
+          "TMEM233",
+          "TRDN"
+        ],
+        "axis_b_conserved_human_mouse": [
+          "ACTA1",
+          "ALDH1L1",
+          "ANXA7",
+          "C1QC",
+          "CACNB1",
+          "CBX5",
+          "CISH",
+          "CROCC",
+          "CTSS",
+          "CYB561D2",
+          "ENO3",
+          "FBXO32",
+          "GPX4",
+          "JPH1",
+          "LAMB2",
+          "LRRC20",
+          "MB",
+          "MYL1",
+          "NMRK2",
+          "NRAP",
+          "PLIN4",
+          "PLIN5",
+          "SETBP1",
+          "SLC25A4",
+          "SLC43A1",
+          "TMEM233",
+          "TNNI1",
+          "TOB2",
+          "TRIM63",
+          "ULK2",
+          "ZFHX4"
+        ]
+      },
+      "organism": "hsapiens",
+      "all_results": false,
+      "ordered": false,
+      "no_iea": false,
+      "sources": [
+        "GO:BP",
+        "KEGG",
+        "REAC"
+      ],
+      "combined": false,
+      "aresolve": {},
+      "numeric_ns": "ENTREZGENE_ACC",
+      "domain_scope": "custom",
+      "measure_underrepresentation": false,
+      "significance_threshold_method": "g_SCS",
+      "user_threshold": 0.05,
+      "no_evidences": false,
+      "highlight": null
+    },
+    "result_metadata": {
+      "GO:BP": {
+        "domain_size": 20972,
+        "number_of_terms": 24546,
+        "threshold": 1e-06
+      },
+      "KEGG": {
+        "domain_size": 8716,
+        "number_of_terms": 586,
+        "threshold": 0.000744
+      },
+      "REAC": {
+        "domain_size": 11056,
+        "number_of_terms": 2849,
+        "threshold": 0.000143
+      }
+    },
+    "genes_metadata": {
+      "failed": [],
+      "ambiguous": {},
+      "duplicates": [],
+      "query": {
+        "axis_a_top100": {
+          "mapping": {
+            "FBXO32": [
+              "ENSG00000156804"
+            ],
+            "NMRK2": [
+              "ENSG00000077009"
+            ],
+            "MYL1": [
+              "ENSG00000168530"
+            ],
+            "ASB5": [
+              "ENSG00000164122"
+            ],
+            "MT-ND6": [
+              "ENSG00000198695"
+            ],
+            "ENAH": [
+              "ENSG00000154380"
+            ],
+            "FNBP1L": [
+              "ENSG00000137942"
+            ],
+            "ACTC1": [
+              "ENSG00000159251"
+            ],
+            "PVALB": [
+              "ENSG00000100362"
+            ],
+            "SFXN4": [
+              "ENSG00000183605"
+            ],
+            "GTPBP4": [
+              "ENSG00000107937"
+            ],
+            "TMOD4": [
+              "ENSG00000163157"
+            ],
+            "MUSK": [
+              "ENSG00000030304"
+            ],
+            "ACTA1": [
+              "ENSG00000143632"
+            ],
+            "SORBS1": [
+              "ENSG00000095637"
+            ],
+            "LAMB2": [
+              "ENSG00000172037"
+            ],
+            "DES": [
+              "ENSG00000175084"
+            ],
+            "KIAA0513": [
+              "ENSG00000135709"
+            ],
+            "PXDC1": [
+              "ENSG00000168994"
+            ],
+            "RTN4": [
+              "ENSG00000115310"
+            ],
+            "TMEM233": [
+              "ENSG00000224982"
+            ],
+            "AGT": [
+              "ENSG00000135744"
+            ],
+            "KPNA6": [
+              "ENSG00000025800"
+            ],
+            "SMCO1": [
+              "ENSG00000214097"
+            ],
+            "FNDC5": [
+              "ENSG00000160097"
+            ],
+            "CAP2": [
+              "ENSG00000112186"
+            ],
+            "TNNI1": [
+              "ENSG00000159173"
+            ],
+            "ANXA3": [
+              "ENSG00000138772"
+            ],
+            "OTUD1": [
+              "ENSG00000165312"
+            ],
+            "C1QC": [
+              "ENSG00000159189"
+            ],
+            "GPX4": [
+              "ENSG00000167468"
+            ],
+            "RUNX1": [
+              "ENSG00000159216"
+            ],
+            "NES": [
+              "ENSG00000132688"
+            ],
+            "SLC43A1": [
+              "ENSG00000149150"
+            ],
+            "SFRP1": [
+              "ENSG00000104332"
+            ],
+            "MKRN1": [
+              "ENSG00000133606"
+            ],
+            "ILK": [
+              "ENSG00000166333"
+            ],
+            "TEAD4": [
+              "ENSG00000197905"
+            ],
+            "XIRP1": [
+              "ENSG00000168334"
+            ],
+            "SDHAF3": [
+              "ENSG00000196636"
+            ],
+            "BCAR1": [
+              "ENSG00000050820"
+            ],
+            "PLGRKT": [
+              "ENSG00000107020"
+            ],
+            "LRRC20": [
+              "ENSG00000172731"
+            ],
+            "ADAMTS1": [
+              "ENSG00000154734"
+            ],
+            "TRIM69": [
+              "ENSG00000185880"
+            ],
+            "ANKRD1": [
+              "ENSG00000148677"
+            ],
+            "DDIT4L": [
+              "ENSG00000145358"
+            ],
+            "ESRRG": [
+              "ENSG00000196482"
+            ],
+            "FBXO3": [
+              "ENSG00000110429"
+            ],
+            "NR4A3": [
+              "ENSG00000119508"
+            ],
+            "CACNB1": [
+              "ENSG00000067191"
+            ],
+            "TCIM": [
+              "ENSG00000176907"
+            ],
+            "ZFHX3": [
+              "ENSG00000140836"
+            ],
+            "CCN1": [
+              "ENSG00000142871"
+            ],
+            "ZSWIM4": [
+              "ENSG00000132003"
+            ],
+            "PIM3": [
+              "ENSG00000198355"
+            ],
+            "SLC3A2": [
+              "ENSG00000168003"
+            ],
+            "TRDN": [
+              "ENSG00000186439"
+            ],
+            "HOXA13": [
+              "ENSG00000106031"
+            ],
+            "OGFOD1": [
+              "ENSG00000087263"
+            ],
+            "AQP4": [
+              "ENSG00000171885"
+            ],
+            "GIMAP8": [
+              "ENSG00000171115"
+            ],
+            "ATPAF1": [
+              "ENSG00000123472"
+            ],
+            "ATOH8": [
+              "ENSG00000168874"
+            ],
+            "MT-ND2": [
+              "ENSG00000198763"
+            ],
+            "ZC3H6": [
+              "ENSG00000188177"
+            ],
+            "MUSTN1": [
+              "ENSG00000272573"
+            ],
+            "SPOCK1": [
+              "ENSG00000152377"
+            ],
+            "TNNT1": [
+              "ENSG00000105048"
+            ],
+            "PIGL": [
+              "ENSG00000108474"
+            ],
+            "CISH": [
+              "ENSG00000114737"
+            ],
+            "TPM1": [
+              "ENSG00000140416"
+            ],
+            "PFKM": [
+              "ENSG00000152556"
+            ],
+            "FKBP5": [
+              "ENSG00000096060"
+            ],
+            "GTF3A": [
+              "ENSG00000122034"
+            ],
+            "RHBDF1": [
+              "ENSG00000007384"
+            ],
+            "SMOX": [
+              "ENSG00000088826"
+            ],
+            "CLIC4": [
+              "ENSG00000169504"
+            ],
+            "ITGA7": [
+              "ENSG00000135424"
+            ],
+            "CHCHD10": [
+              "ENSG00000250479"
+            ],
+            "EMP1": [
+              "ENSG00000134531"
+            ],
+            "PEA15": [
+              "ENSG00000162734"
+            ],
+            "P4HA1": [
+              "ENSG00000122884"
+            ],
+            "MYOZ1": [
+              "ENSG00000177791"
+            ],
+            "NEDD4": [
+              "ENSG00000069869"
+            ],
+            "XRCC5": [
+              "ENSG00000079246"
+            ],
+            "GSN": [
+              "ENSG00000148180"
+            ],
+            "SPTB": [
+              "ENSG00000070182"
+            ],
+            "CKM": [
+              "ENSG00000104879"
+            ],
+            "KDM5B": [
+              "ENSG00000117139"
+            ],
+            "FBP2": [
+              "ENSG00000130957"
+            ],
+            "H2AC21": [
+              "ENSG00000184270"
+            ],
+            "FBXO7": [
+              "ENSG00000100225"
+            ],
+            "SLC25A4": [
+              "ENSG00000151729"
+            ],
+            "GPR157": [
+              "ENSG00000180758"
+            ],
+            "USF1": [
+              "ENSG00000158773"
+            ],
+            "PLIN4": [
+              "ENSG00000167676"
+            ],
+            "USP54": [
+              "ENSG00000166348"
+            ],
+            "VGLL2": [
+              "ENSG00000170162"
+            ],
+            "ZNF532": [
+              "ENSG00000074657"
+            ]
+          },
+          "ensgs": [
+            "ENSG00000156804",
+            "ENSG00000077009",
+            "ENSG00000168530",
+            "ENSG00000164122",
+            "ENSG00000198695",
+            "ENSG00000154380",
+            "ENSG00000137942",
+            "ENSG00000159251",
+            "ENSG00000100362",
+            "ENSG00000183605",
+            "ENSG00000107937",
+            "ENSG00000163157",
+            "ENSG00000030304",
+            "ENSG00000143632",
+            "ENSG00000095637",
+            "ENSG00000172037",
+            "ENSG00000175084",
+            "ENSG00000135709",
+            "ENSG00000168994",
+            "ENSG00000115310",
+            "ENSG00000224982",
+            "ENSG00000135744",
+            "ENSG00000025800",
+            "ENSG00000214097",
+            "ENSG00000160097",
+            "ENSG00000112186",
+            "ENSG00000159173",
+            "ENSG00000138772",
+            "ENSG00000165312",
+            "ENSG00000159189",
+            "ENSG00000167468",
+            "ENSG00000159216",
+            "ENSG00000132688",
+            "ENSG00000149150",
+            "ENSG00000104332",
+            "ENSG00000133606",
+            "ENSG00000166333",
+            "ENSG00000197905",
+            "ENSG00000168334",
+            "ENSG00000196636",
+            "ENSG00000050820",
+            "ENSG00000107020",
+            "ENSG00000172731",
+            "ENSG00000154734",
+            "ENSG00000185880",
+            "ENSG00000148677",
+            "ENSG00000145358",
+            "ENSG00000196482",
+            "ENSG00000110429",
+            "ENSG00000119508",
+            "ENSG00000067191",
+            "ENSG00000176907",
+            "ENSG00000140836",
+            "ENSG00000142871",
+            "ENSG00000132003",
+            "ENSG00000198355",
+            "ENSG00000168003",
+            "ENSG00000186439",
+            "ENSG00000106031",
+            "ENSG00000087263",
+            "ENSG00000171885",
+            "ENSG00000171115",
+            "ENSG00000123472",
+            "ENSG00000168874",
+            "ENSG00000198763",
+            "ENSG00000188177",
+            "ENSG00000272573",
+            "ENSG00000152377",
+            "ENSG00000105048",
+            "ENSG00000108474",
+            "ENSG00000114737",
+            "ENSG00000140416",
+            "ENSG00000152556",
+            "ENSG00000096060",
+            "ENSG00000122034",
+            "ENSG00000007384",
+            "ENSG00000088826",
+            "ENSG00000169504",
+            "ENSG00000135424",
+            "ENSG00000250479",
+            "ENSG00000134531",
+            "ENSG00000162734",
+            "ENSG00000122884",
+            "ENSG00000177791",
+            "ENSG00000069869",
+            "ENSG00000079246",
+            "ENSG00000148180",
+            "ENSG00000070182",
+            "ENSG00000104879",
+            "ENSG00000117139",
+            "ENSG00000130957",
+            "ENSG00000184270",
+            "ENSG00000100225",
+            "ENSG00000151729",
+            "ENSG00000180758",
+            "ENSG00000158773",
+            "ENSG00000167676",
+            "ENSG00000166348",
+            "ENSG00000170162",
+            "ENSG00000074657"
+          ]
+        },
+        "axis_b_top100": {
+          "mapping": {
+            "FBXO32": [
+              "ENSG00000156804"
+            ],
+            "CFD": [
+              "ENSG00000197766"
+            ],
+            "TOB2": [
+              "ENSG00000183864"
+            ],
+            "USP54": [
+              "ENSG00000166348"
+            ],
+            "NMRK2": [
+              "ENSG00000077009"
+            ],
+            "NRAP": [
+              "ENSG00000197893"
+            ],
+            "MB": [
+              "ENSG00000198125"
+            ],
+            "MT-ND6": [
+              "ENSG00000198695"
+            ],
+            "MYL1": [
+              "ENSG00000168530"
+            ],
+            "TNNI1": [
+              "ENSG00000159173"
+            ],
+            "ACTA1": [
+              "ENSG00000143632"
+            ],
+            "TEAD4": [
+              "ENSG00000197905"
+            ],
+            "SMOX": [
+              "ENSG00000088826"
+            ],
+            "ULK2": [
+              "ENSG00000083290"
+            ],
+            "IGIP": [
+              "ENSG00000182700"
+            ],
+            "HLF": [
+              "ENSG00000108924"
+            ],
+            "CYB561D2": [
+              "ENSG00000114395"
+            ],
+            "PVALB": [
+              "ENSG00000100362"
+            ],
+            "H2AC20": [
+              "ENSG00000184260"
+            ],
+            "LAMB2": [
+              "ENSG00000172037"
+            ],
+            "CISH": [
+              "ENSG00000114737"
+            ],
+            "TMOD4": [
+              "ENSG00000163157"
+            ],
+            "VOPP1": [
+              "ENSG00000154978"
+            ],
+            "CACNB1": [
+              "ENSG00000067191"
+            ],
+            "ALPK3": [
+              "ENSG00000136383"
+            ],
+            "SLC43A1": [
+              "ENSG00000149150"
+            ],
+            "VLDLR": [
+              "ENSG00000147852"
+            ],
+            "CAP2": [
+              "ENSG00000112186"
+            ],
+            "AQP4": [
+              "ENSG00000171885"
+            ],
+            "AXIN2": [
+              "ENSG00000168646"
+            ],
+            "ZC3H6": [
+              "ENSG00000188177"
+            ],
+            "OTUD1": [
+              "ENSG00000165312"
+            ],
+            "LRRC20": [
+              "ENSG00000172731"
+            ],
+            "METTL17": [
+              "ENSG00000165792"
+            ],
+            "ERBB2": [
+              "ENSG00000141736"
+            ],
+            "C1QA": [
+              "ENSG00000173372"
+            ],
+            "COLQ": [
+              "ENSG00000206561"
+            ],
+            "RBM24": [
+              "ENSG00000112183"
+            ],
+            "MUSK": [
+              "ENSG00000030304"
+            ],
+            "KLF10": [
+              "ENSG00000155090"
+            ],
+            "CBX5": [
+              "ENSG00000094916"
+            ],
+            "DES": [
+              "ENSG00000175084"
+            ],
+            "ZNF786": [
+              "ENSG00000197362"
+            ],
+            "SERINC2": [
+              "ENSG00000168528"
+            ],
+            "AOC3": [
+              "ENSG00000131471"
+            ],
+            "ATF3": [
+              "ENSG00000162772"
+            ],
+            "DTX3": [
+              "ENSG00000178498"
+            ],
+            "ANXA7": [
+              "ENSG00000138279"
+            ],
+            "PDK4": [
+              "ENSG00000004799"
+            ],
+            "CD34": [
+              "ENSG00000174059"
+            ],
+            "NEXN": [
+              "ENSG00000162614"
+            ],
+            "TRIM63": [
+              "ENSG00000158022"
+            ],
+            "MAP3K20": [
+              "ENSG00000091436"
+            ],
+            "CROCC": [
+              "ENSG00000058453"
+            ],
+            "SORBS1": [
+              "ENSG00000095637"
+            ],
+            "TRIM69": [
+              "ENSG00000185880"
+            ],
+            "ACTC1": [
+              "ENSG00000159251"
+            ],
+            "CD36": [
+              "ENSG00000135218"
+            ],
+            "NR4A1": [
+              "ENSG00000123358"
+            ],
+            "MT-CYB": [
+              "ENSG00000198727"
+            ],
+            "ITGA7": [
+              "ENSG00000135424"
+            ],
+            "ADIG": [
+              "ENSG00000182035"
+            ],
+            "TET1": [
+              "ENSG00000138336"
+            ],
+            "ZNF366": [
+              "ENSG00000178175"
+            ],
+            "PARP14": [
+              "ENSG00000173193"
+            ],
+            "ATP2A1": [
+              "ENSG00000196296"
+            ],
+            "SLC19A2": [
+              "ENSG00000117479"
+            ],
+            "DDIT4L": [
+              "ENSG00000145358"
+            ],
+            "OGFOD1": [
+              "ENSG00000087263"
+            ],
+            "GPX4": [
+              "ENSG00000167468"
+            ],
+            "PDLIM3": [
+              "ENSG00000154553"
+            ],
+            "TRDN": [
+              "ENSG00000186439"
+            ],
+            "HOXA13": [
+              "ENSG00000106031"
+            ],
+            "NR4A3": [
+              "ENSG00000119508"
+            ],
+            "CYP2R1": [
+              "ENSG00000186104"
+            ],
+            "MYLK3": [
+              "ENSG00000140795"
+            ],
+            "PIGG": [
+              "ENSG00000174227"
+            ],
+            "XRCC5": [
+              "ENSG00000079246"
+            ],
+            "ECHDC2": [
+              "ENSG00000121310"
+            ],
+            "VGLL2": [
+              "ENSG00000170162"
+            ],
+            "TMEM126A": [
+              "ENSG00000171202"
+            ],
+            "PIGL": [
+              "ENSG00000108474"
+            ],
+            "ABLIM3": [
+              "ENSG00000173210"
+            ],
+            "NEDD4": [
+              "ENSG00000069869"
+            ],
+            "NES": [
+              "ENSG00000132688"
+            ],
+            "WDR35": [
+              "ENSG00000118965"
+            ],
+            "DPP4": [
+              "ENSG00000197635"
+            ],
+            "MUSTN1": [
+              "ENSG00000272573"
+            ],
+            "ANGPTL2": [
+              "ENSG00000136859"
+            ],
+            "PDE5A": [
+              "ENSG00000138735"
+            ],
+            "ANKRD1": [
+              "ENSG00000148677"
+            ],
+            "ZFHX4": [
+              "ENSG00000091656"
+            ],
+            "ZBTB38": [
+              "ENSG00000177311"
+            ],
+            "PRADC1": [
+              "ENSG00000135617"
+            ],
+            "SPTB": [
+              "ENSG00000070182"
+            ],
+            "ATP1A2": [
+              "ENSG00000018625"
+            ],
+            "CX3CL1": [
+              "ENSG00000006210"
+            ],
+            "UACA": [
+              "ENSG00000137831"
+            ],
+            "CHCHD10": [
+              "ENSG00000250479"
+            ],
+            "ADHFE1": [
+              "ENSG00000147576"
+            ]
+          },
+          "ensgs": [
+            "ENSG00000156804",
+            "ENSG00000197766",
+            "ENSG00000183864",
+            "ENSG00000166348",
+            "ENSG00000077009",
+            "ENSG00000197893",
+            "ENSG00000198125",
+            "ENSG00000198695",
+            "ENSG00000168530",
+            "ENSG00000159173",
+            "ENSG00000143632",
+            "ENSG00000197905",
+            "ENSG00000088826",
+            "ENSG00000083290",
+            "ENSG00000182700",
+            "ENSG00000108924",
+            "ENSG00000114395",
+            "ENSG00000100362",
+            "ENSG00000184260",
+            "ENSG00000172037",
+            "ENSG00000114737",
+            "ENSG00000163157",
+            "ENSG00000154978",
+            "ENSG00000067191",
+            "ENSG00000136383",
+            "ENSG00000149150",
+            "ENSG00000147852",
+            "ENSG00000112186",
+            "ENSG00000171885",
+            "ENSG00000168646",
+            "ENSG00000188177",
+            "ENSG00000165312",
+            "ENSG00000172731",
+            "ENSG00000165792",
+            "ENSG00000141736",
+            "ENSG00000173372",
+            "ENSG00000206561",
+            "ENSG00000112183",
+            "ENSG00000030304",
+            "ENSG00000155090",
+            "ENSG00000094916",
+            "ENSG00000175084",
+            "ENSG00000197362",
+            "ENSG00000168528",
+            "ENSG00000131471",
+            "ENSG00000162772",
+            "ENSG00000178498",
+            "ENSG00000138279",
+            "ENSG00000004799",
+            "ENSG00000174059",
+            "ENSG00000162614",
+            "ENSG00000158022",
+            "ENSG00000091436",
+            "ENSG00000058453",
+            "ENSG00000095637",
+            "ENSG00000185880",
+            "ENSG00000159251",
+            "ENSG00000135218",
+            "ENSG00000123358",
+            "ENSG00000198727",
+            "ENSG00000135424",
+            "ENSG00000182035",
+            "ENSG00000138336",
+            "ENSG00000178175",
+            "ENSG00000173193",
+            "ENSG00000196296",
+            "ENSG00000117479",
+            "ENSG00000145358",
+            "ENSG00000087263",
+            "ENSG00000167468",
+            "ENSG00000154553",
+            "ENSG00000186439",
+            "ENSG00000106031",
+            "ENSG00000119508",
+            "ENSG00000186104",
+            "ENSG00000140795",
+            "ENSG00000174227",
+            "ENSG00000079246",
+            "ENSG00000121310",
+            "ENSG00000170162",
+            "ENSG00000171202",
+            "ENSG00000108474",
+            "ENSG00000173210",
+            "ENSG00000069869",
+            "ENSG00000132688",
+            "ENSG00000118965",
+            "ENSG00000197635",
+            "ENSG00000272573",
+            "ENSG00000136859",
+            "ENSG00000138735",
+            "ENSG00000148677",
+            "ENSG00000091656",
+            "ENSG00000177311",
+            "ENSG00000135617",
+            "ENSG00000070182",
+            "ENSG00000018625",
+            "ENSG00000006210",
+            "ENSG00000137831",
+            "ENSG00000250479",
+            "ENSG00000147576"
+          ]
+        },
+        "axis_a_conserved_human_mouse": {
+          "mapping": {
+            "ACTA1": [
+              "ENSG00000143632"
+            ],
+            "ACTC1": [
+              "ENSG00000159251"
+            ],
+            "ANXA3": [
+              "ENSG00000138772"
+            ],
+            "ASB5": [
+              "ENSG00000164122"
+            ],
+            "ATF1": [
+              "ENSG00000123268"
+            ],
+            "ATP1A2": [
+              "ENSG00000018625"
+            ],
+            "ATPAF1": [
+              "ENSG00000123472"
+            ],
+            "CACNB1": [
+              "ENSG00000067191"
+            ],
+            "ENAH": [
+              "ENSG00000154380"
+            ],
+            "FBXO32": [
+              "ENSG00000156804"
+            ],
+            "GTPBP4": [
+              "ENSG00000107937"
+            ],
+            "KPNA6": [
+              "ENSG00000025800"
+            ],
+            "LAMB2": [
+              "ENSG00000172037"
+            ],
+            "LRRC20": [
+              "ENSG00000172731"
+            ],
+            "MT-ND2": [
+              "ENSG00000198763"
+            ],
+            "MUSTN1": [
+              "ENSG00000272573"
+            ],
+            "MYL1": [
+              "ENSG00000168530"
+            ],
+            "NMRK2": [
+              "ENSG00000077009"
+            ],
+            "NRAP": [
+              "ENSG00000197893"
+            ],
+            "PGM1": [
+              "ENSG00000079739"
+            ],
+            "SLC25A4": [
+              "ENSG00000151729"
+            ],
+            "SMCO1": [
+              "ENSG00000214097"
+            ],
+            "SPTB": [
+              "ENSG00000070182"
+            ],
+            "TMEM233": [
+              "ENSG00000224982"
+            ],
+            "TRDN": [
+              "ENSG00000186439"
+            ]
+          },
+          "ensgs": [
+            "ENSG00000143632",
+            "ENSG00000159251",
+            "ENSG00000138772",
+            "ENSG00000164122",
+            "ENSG00000123268",
+            "ENSG00000018625",
+            "ENSG00000123472",
+            "ENSG00000067191",
+            "ENSG00000154380",
+            "ENSG00000156804",
+            "ENSG00000107937",
+            "ENSG00000025800",
+            "ENSG00000172037",
+            "ENSG00000172731",
+            "ENSG00000198763",
+            "ENSG00000272573",
+            "ENSG00000168530",
+            "ENSG00000077009",
+            "ENSG00000197893",
+            "ENSG00000079739",
+            "ENSG00000151729",
+            "ENSG00000214097",
+            "ENSG00000070182",
+            "ENSG00000224982",
+            "ENSG00000186439"
+          ]
+        },
+        "axis_b_conserved_human_mouse": {
+          "mapping": {
+            "ACTA1": [
+              "ENSG00000143632"
+            ],
+            "ALDH1L1": [
+              "ENSG00000144908"
+            ],
+            "ANXA7": [
+              "ENSG00000138279"
+            ],
+            "C1QC": [
+              "ENSG00000159189"
+            ],
+            "CACNB1": [
+              "ENSG00000067191"
+            ],
+            "CBX5": [
+              "ENSG00000094916"
+            ],
+            "CISH": [
+              "ENSG00000114737"
+            ],
+            "CROCC": [
+              "ENSG00000058453"
+            ],
+            "CTSS": [
+              "ENSG00000163131"
+            ],
+            "CYB561D2": [
+              "ENSG00000114395"
+            ],
+            "ENO3": [
+              "ENSG00000108515"
+            ],
+            "FBXO32": [
+              "ENSG00000156804"
+            ],
+            "GPX4": [
+              "ENSG00000167468"
+            ],
+            "JPH1": [
+              "ENSG00000104369"
+            ],
+            "LAMB2": [
+              "ENSG00000172037"
+            ],
+            "LRRC20": [
+              "ENSG00000172731"
+            ],
+            "MB": [
+              "ENSG00000198125"
+            ],
+            "MYL1": [
+              "ENSG00000168530"
+            ],
+            "NMRK2": [
+              "ENSG00000077009"
+            ],
+            "NRAP": [
+              "ENSG00000197893"
+            ],
+            "PLIN4": [
+              "ENSG00000167676"
+            ],
+            "PLIN5": [
+              "ENSG00000214456"
+            ],
+            "SETBP1": [
+              "ENSG00000152217"
+            ],
+            "SLC25A4": [
+              "ENSG00000151729"
+            ],
+            "SLC43A1": [
+              "ENSG00000149150"
+            ],
+            "TMEM233": [
+              "ENSG00000224982"
+            ],
+            "TNNI1": [
+              "ENSG00000159173"
+            ],
+            "TOB2": [
+              "ENSG00000183864"
+            ],
+            "TRIM63": [
+              "ENSG00000158022"
+            ],
+            "ULK2": [
+              "ENSG00000083290"
+            ],
+            "ZFHX4": [
+              "ENSG00000091656"
+            ]
+          },
+          "ensgs": [
+            "ENSG00000143632",
+            "ENSG00000144908",
+            "ENSG00000138279",
+            "ENSG00000159189",
+            "ENSG00000067191",
+            "ENSG00000094916",
+            "ENSG00000114737",
+            "ENSG00000058453",
+            "ENSG00000163131",
+            "ENSG00000114395",
+            "ENSG00000108515",
+            "ENSG00000156804",
+            "ENSG00000167468",
+            "ENSG00000104369",
+            "ENSG00000172037",
+            "ENSG00000172731",
+            "ENSG00000198125",
+            "ENSG00000168530",
+            "ENSG00000077009",
+            "ENSG00000197893",
+            "ENSG00000167676",
+            "ENSG00000214456",
+            "ENSG00000152217",
+            "ENSG00000151729",
+            "ENSG00000149150",
+            "ENSG00000224982",
+            "ENSG00000159173",
+            "ENSG00000183864",
+            "ENSG00000158022",
+            "ENSG00000083290",
+            "ENSG00000091656"
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-09-03T08:06:35.855374+00:00",
+    "version": "e114_eg62_p19_27110d83"
+  }
+}

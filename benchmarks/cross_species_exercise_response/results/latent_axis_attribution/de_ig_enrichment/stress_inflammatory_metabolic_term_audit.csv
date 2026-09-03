@@ -1,0 +1,25 @@
+axis,gene_set,program,significant_matching_terms
+Axis A,de_top100,stress,0
+Axis A,ig_top100,stress,0
+Axis A,shared,stress,0
+Axis A,high_ig_low_de,stress,0
+Axis A,de_top100,inflammatory,4
+Axis A,ig_top100,inflammatory,0
+Axis A,shared,inflammatory,0
+Axis A,high_ig_low_de,inflammatory,0
+Axis A,de_top100,metabolic,7
+Axis A,ig_top100,metabolic,0
+Axis A,shared,metabolic,0
+Axis A,high_ig_low_de,metabolic,0
+Axis B,de_top100,stress,0
+Axis B,ig_top100,stress,0
+Axis B,shared,stress,0
+Axis B,high_ig_low_de,stress,0
+Axis B,de_top100,inflammatory,0
+Axis B,ig_top100,inflammatory,0
+Axis B,shared,inflammatory,0
+Axis B,high_ig_low_de,inflammatory,0
+Axis B,de_top100,metabolic,2
+Axis B,ig_top100,metabolic,0
+Axis B,shared,metabolic,0
+Axis B,high_ig_low_de,metabolic,0

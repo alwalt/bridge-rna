@@ -1,0 +1,36 @@
+                    gene_set source  query_genes  background_genes  tested_terms  significant_terms
+               axis_a_top100  GO:BP          100             15165         24546                  1
+               axis_a_top100   KEGG          100             15165           586                  3
+               axis_a_top100   REAC          100             15165          2849                  2
+               axis_b_top100  GO:BP          100             15165         24546                  2
+               axis_b_top100   KEGG          100             15165           586                  4
+               axis_b_top100   REAC          100             15165          2849                  2
+axis_a_conserved_human_mouse  GO:BP           25             15165         24546                  0
+axis_a_conserved_human_mouse   KEGG           25             15165           586                  2
+axis_a_conserved_human_mouse   REAC           25             15165          2849                  2
+axis_b_conserved_human_mouse  GO:BP           31             15165         24546                  0
+axis_b_conserved_human_mouse   KEGG           31             15165           586                  1
+axis_b_conserved_human_mouse   REAC           31             15165          2849                  1
+
+Top terms
+                        query source            native                         name      p_value  intersection_size
+               axis_b_top100   KEGG        KEGG:05414       Dilated cardiomyopathy 4.638675e-02                  5
+               axis_b_top100   KEGG        KEGG:05410  Hypertrophic cardiomyopathy 3.860921e-02                  5
+               axis_b_top100  GO:BP        GO:0007517     muscle organ development 2.241327e-02                 13
+               axis_a_top100  GO:BP        GO:0003012        muscle system process 1.927069e-02                 14
+axis_b_conserved_human_mouse   REAC REAC:R-HSA-390522  Striated Muscle Contraction 1.815872e-02                  3
+axis_a_conserved_human_mouse   REAC REAC:R-HSA-390522  Striated Muscle Contraction 9.189570e-03                  3
+               axis_a_top100   KEGG        KEGG:05414       Dilated cardiomyopathy 4.652307e-03                  6
+               axis_a_top100   KEGG        KEGG:05410  Hypertrophic cardiomyopathy 3.714275e-03                  6
+axis_a_conserved_human_mouse   KEGG        KEGG:04820 Cytoskeleton in muscle cells 1.712389e-03                  5
+               axis_b_top100   KEGG        KEGG:04260   Cardiac muscle contraction 1.165960e-03                  6
+axis_a_conserved_human_mouse   KEGG        KEGG:04260   Cardiac muscle contraction 5.457790e-04                  4
+axis_b_conserved_human_mouse   KEGG        KEGG:04820 Cytoskeleton in muscle cells 3.168070e-04                  6
+               axis_b_top100  GO:BP        GO:0061061 muscle structure development 3.042531e-04                 20
+axis_a_conserved_human_mouse   REAC REAC:R-HSA-397014           Muscle contraction 1.833289e-04                  6
+               axis_b_top100   REAC REAC:R-HSA-390522  Striated Muscle Contraction 4.697185e-05                  6
+               axis_a_top100   REAC REAC:R-HSA-397014           Muscle contraction 2.093614e-05                 11
+               axis_b_top100   REAC REAC:R-HSA-397014           Muscle contraction 1.861359e-06                 12
+               axis_b_top100   KEGG        KEGG:04820 Cytoskeleton in muscle cells 1.832871e-06                 12
+               axis_a_top100   KEGG        KEGG:04820 Cytoskeleton in muscle cells 1.720692e-07                 13
+               axis_a_top100   REAC REAC:R-HSA-390522  Striated Muscle Contraction 2.769615e-08                  8

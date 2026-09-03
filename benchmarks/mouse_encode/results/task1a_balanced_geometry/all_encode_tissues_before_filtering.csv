@@ -1,0 +1,36 @@
+encode_tissue,experiments_in_expanded_pool,healthy_adult_unperturbed_experiments,healthy_expression_ready_experiments,direct_gtex_match,proposed_gtex_tissue,analysis_tissue,eligible_for_matched_benchmark
+heart,12,10,9,True,Heart - Atrial Appendage; Heart - Left Ventricle,heart,True
+adrenal gland,10,8,8,True,Adrenal Gland,adrenal,True
+layer of hippocampus,9,7,7,True,Brain - Hippocampus,hippocampus,True
+left cerebral cortex,9,7,7,True,Brain - Cortex,cortex,True
+gastrocnemius,8,6,6,True,Muscle - Skeletal,skeletal muscle,True
+liver,5,5,4,True,Liver,liver,True
+lung,4,4,3,True,Lung,lung,True
+spleen,4,4,3,True,Spleen,spleen,True
+testis,3,3,3,True,Testis,testis,True
+cerebellum,3,3,2,True,Brain - Cerebellum,cerebellum,True
+ovary,2,2,2,True,Ovary,ovary,True
+frontal cortex,1,1,1,True,Brain - Frontal Cortex (BA9),frontal cortex,True
+mammary gland,1,1,1,True,Breast - Mammary Tissue,mammary gland,True
+pancreas,1,1,1,True,Pancreas,pancreas,True
+sigmoid colon,1,1,1,True,Colon - Sigmoid,sigmoid colon,True
+stomach,1,1,1,True,Stomach,stomach,True
+subcutaneous adipose tissue,1,1,1,True,Adipose - Subcutaneous,subcutaneous adipose,True
+skeletal muscle tissue,1,1,0,True,Muscle - Skeletal,skeletal muscle,True
+kidney,4,4,3,False,,,False
+small intestine,3,3,3,False,,,False
+cortical plate,2,2,2,False,,,False
+placenta,2,2,2,False,,,False
+thymus,3,3,2,False,,,False
+adipose tissue,1,1,1,False,,,False
+bone marrow,1,1,1,False,,,False
+brain,1,1,1,False,,,False
+brown adipose tissue,1,1,1,False,,,False
+colon,1,1,1,False,,,False
+duodenum,1,1,1,False,,,False
+gonadal fat pad,2,2,1,False,,,False
+large intestine,2,2,1,False,,,False
+olfactory bulb,1,1,1,False,,,False
+urinary bladder,1,1,1,False,,,False
+fat pad,1,1,0,False,,,False
+telencephalon,1,1,0,False,,,False

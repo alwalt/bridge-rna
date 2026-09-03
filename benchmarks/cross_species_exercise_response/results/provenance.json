@@ -1,0 +1,10 @@
+{
+  "genes": 15165,
+  "expression": "natural log1p of existing ARCHS4 shard TPM",
+  "pca": "joint PCA over 1270 matched skeletal-muscle profiles",
+  "embeddings": "existing frozen 512-D BridgeRNA memmap",
+  "exposure_filter": "none; informational only",
+  "response_focus": "acute aerobic exercise",
+  "alignment": "none",
+  "seed": 42
+}
