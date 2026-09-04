@@ -1,0 +1,30 @@
+{
+  "sizes": [
+    25,
+    50,
+    100,
+    250,
+    500,
+    1000
+  ],
+  "random_replicates": 10,
+  "random_seed": 20260903,
+  "mask_value": -10.0,
+  "panels": [
+    "fixed Task 3D IG ranking",
+    "deterministic size-matched random"
+  ],
+  "representations_recomputed": "full 512-D frozen BridgeRNA embeddings for all 112 samples per panel",
+  "response": "strict Task 3B within-contrast mean(FLT) minus mean(GC)",
+  "outcome": "mean masked mode projection divided by mean original mode projection across the seven assigned contrasts",
+  "excluded": [
+    "edgeR",
+    "DE-ranked deletion",
+    "GSEA",
+    "additional enrichment"
+  ],
+  "devices": [
+    "cuda:0",
+    "cuda:1"
+  ]
+}

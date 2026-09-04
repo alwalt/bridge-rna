@@ -1,0 +1,323 @@
+[estimate] modes=2 conditions_per_mode=66 total=132 samples_per_condition=112 GPUs=2 approximate_runtime=20-35m
+[heartbeat] completed=0/132 elapsed=0.5m ETA=nanm
+[heartbeat] completed=0/132 elapsed=1.0m ETA=nanm
+[heartbeat] completed=0/132 elapsed=1.5m ETA=nanm
+[progress] completed=1/132 mode=2 panel=ig_ranked size=25 replicate=0 elapsed=1.9m ETA=245.6m
+[progress] completed=2/132 mode=1 panel=ig_ranked size=25 replicate=0 elapsed=2.0m ETA=129.1m
+[heartbeat] completed=2/132 elapsed=2.5m ETA=161.6m
+[heartbeat] completed=2/132 elapsed=3.0m ETA=194.1m
+[heartbeat] completed=2/132 elapsed=3.5m ETA=226.7m
+[progress] completed=3/132 mode=2 panel=random size=25 replicate=0 elapsed=3.7m ETA=157.0m
+[progress] completed=4/132 mode=1 panel=random size=25 replicate=0 elapsed=3.9m ETA=124.4m
+[heartbeat] completed=4/132 elapsed=4.4m ETA=140.4m
+[heartbeat] completed=4/132 elapsed=4.9m ETA=156.4m
+[heartbeat] completed=4/132 elapsed=5.4m ETA=172.4m
+[progress] completed=5/132 mode=2 panel=random size=25 replicate=1 elapsed=5.4m ETA=137.9m
+[progress] completed=6/132 mode=1 panel=random size=25 replicate=1 elapsed=5.8m ETA=121.5m
+[heartbeat] completed=6/132 elapsed=6.3m ETA=132.0m
+[heartbeat] completed=6/132 elapsed=6.8m ETA=142.5m
+[progress] completed=7/132 mode=2 panel=random size=25 replicate=2 elapsed=7.2m ETA=128.8m
+[progress] completed=8/132 mode=1 panel=random size=25 replicate=2 elapsed=7.7m ETA=119.2m
+[heartbeat] completed=8/132 elapsed=8.2m ETA=126.9m
+[heartbeat] completed=8/132 elapsed=8.7m ETA=134.7m
+[progress] completed=9/132 mode=2 panel=random size=25 replicate=3 elapsed=9.0m ETA=122.9m
+[heartbeat] completed=9/132 elapsed=9.5m ETA=129.7m
+[progress] completed=10/132 mode=1 panel=random size=25 replicate=3 elapsed=9.6m ETA=117.0m
+[heartbeat] completed=10/132 elapsed=10.1m ETA=123.1m
+[heartbeat] completed=10/132 elapsed=10.6m ETA=129.2m
+[progress] completed=11/132 mode=2 panel=random size=25 replicate=4 elapsed=10.8m ETA=118.4m
+[heartbeat] completed=11/132 elapsed=11.3m ETA=123.9m
+[progress] completed=12/132 mode=1 panel=random size=25 replicate=4 elapsed=11.4m ETA=114.4m
+[heartbeat] completed=12/132 elapsed=11.9m ETA=119.4m
+[progress] completed=13/132 mode=2 panel=random size=25 replicate=5 elapsed=12.4m ETA=113.1m
+[heartbeat] completed=13/132 elapsed=12.9m ETA=117.7m
+[progress] completed=14/132 mode=1 panel=random size=25 replicate=5 elapsed=13.2m ETA=110.8m
+[heartbeat] completed=14/132 elapsed=13.7m ETA=115.1m
+[progress] completed=15/132 mode=2 panel=random size=25 replicate=6 elapsed=14.0m ETA=109.0m
+[heartbeat] completed=15/132 elapsed=14.5m ETA=112.9m
+[progress] completed=16/132 mode=1 panel=random size=25 replicate=6 elapsed=14.8m ETA=107.5m
+[heartbeat] completed=16/132 elapsed=15.3m ETA=111.1m
+[progress] completed=17/132 mode=2 panel=random size=25 replicate=7 elapsed=15.6m ETA=105.3m
+[heartbeat] completed=17/132 elapsed=16.1m ETA=108.7m
+[progress] completed=18/132 mode=1 panel=random size=25 replicate=7 elapsed=16.5m ETA=104.4m
+[heartbeat] completed=18/132 elapsed=17.0m ETA=107.5m
+[progress] completed=19/132 mode=2 panel=random size=25 replicate=8 elapsed=17.1m ETA=101.9m
+[heartbeat] completed=19/132 elapsed=17.6m ETA=104.9m
+[progress] completed=20/132 mode=1 panel=random size=25 replicate=8 elapsed=18.1m ETA=101.5m
+[heartbeat] completed=20/132 elapsed=18.6m ETA=104.3m
+[progress] completed=21/132 mode=2 panel=random size=25 replicate=9 elapsed=18.7m ETA=98.8m
+[heartbeat] completed=21/132 elapsed=19.2m ETA=101.4m
+[heartbeat] completed=21/132 elapsed=19.7m ETA=104.1m
+[progress] completed=22/132 mode=1 panel=random size=25 replicate=9 elapsed=19.8m ETA=98.8m
+[progress] completed=23/132 mode=2 panel=ig_ranked size=50 replicate=0 elapsed=20.3m ETA=96.0m
+[heartbeat] completed=23/132 elapsed=20.8m ETA=98.3m
+[heartbeat] completed=23/132 elapsed=21.3m ETA=100.7m
+[progress] completed=24/132 mode=1 panel=ig_ranked size=50 replicate=0 elapsed=21.4m ETA=96.3m
+[progress] completed=25/132 mode=2 panel=random size=50 replicate=0 elapsed=21.8m ETA=93.4m
+[heartbeat] completed=25/132 elapsed=22.3m ETA=95.5m
+[heartbeat] completed=25/132 elapsed=22.8m ETA=97.6m
+[progress] completed=26/132 mode=1 panel=random size=50 replicate=0 elapsed=23.0m ETA=93.9m
+[progress] completed=27/132 mode=2 panel=random size=50 replicate=1 elapsed=23.4m ETA=90.9m
+[heartbeat] completed=27/132 elapsed=23.9m ETA=92.8m
+[heartbeat] completed=27/132 elapsed=24.4m ETA=94.8m
+[progress] completed=28/132 mode=1 panel=random size=50 replicate=1 elapsed=24.7m ETA=91.8m
+[progress] completed=29/132 mode=2 panel=random size=50 replicate=2 elapsed=24.9m ETA=88.5m
+[heartbeat] completed=29/132 elapsed=25.4m ETA=90.3m
+[heartbeat] completed=29/132 elapsed=25.9m ETA=92.1m
+[progress] completed=30/132 mode=1 panel=random size=50 replicate=2 elapsed=26.4m ETA=89.8m
+[progress] completed=31/132 mode=2 panel=random size=50 replicate=3 elapsed=26.5m ETA=86.3m
+[heartbeat] completed=31/132 elapsed=27.0m ETA=87.9m
+[heartbeat] completed=31/132 elapsed=27.5m ETA=89.6m
+[heartbeat] completed=31/132 elapsed=28.0m ETA=91.2m
+[progress] completed=32/132 mode=2 panel=random size=50 replicate=4 elapsed=28.0m ETA=87.6m
+[progress] completed=33/132 mode=1 panel=random size=50 replicate=3 elapsed=28.1m ETA=84.2m
+[heartbeat] completed=33/132 elapsed=28.6m ETA=85.7m
+[heartbeat] completed=33/132 elapsed=29.1m ETA=87.2m
+[heartbeat] completed=33/132 elapsed=29.6m ETA=88.8m
+[progress] completed=34/132 mode=2 panel=random size=50 replicate=5 elapsed=29.6m ETA=85.4m
+[progress] completed=35/132 mode=1 panel=random size=50 replicate=4 elapsed=29.8m ETA=82.5m
+[heartbeat] completed=35/132 elapsed=30.3m ETA=83.9m
+[heartbeat] completed=35/132 elapsed=30.8m ETA=85.3m
+[progress] completed=36/132 mode=2 panel=random size=50 replicate=6 elapsed=31.2m ETA=83.2m
+[progress] completed=37/132 mode=1 panel=random size=50 replicate=5 elapsed=31.5m ETA=80.8m
+[heartbeat] completed=37/132 elapsed=32.0m ETA=82.0m
+[heartbeat] completed=37/132 elapsed=32.5m ETA=83.3m
+[progress] completed=38/132 mode=2 panel=random size=50 replicate=7 elapsed=32.8m ETA=81.1m
+[progress] completed=39/132 mode=1 panel=random size=50 replicate=6 elapsed=33.2m ETA=79.1m
+[heartbeat] completed=39/132 elapsed=33.7m ETA=80.3m
+[heartbeat] completed=39/132 elapsed=34.2m ETA=81.5m
+[progress] completed=40/132 mode=2 panel=random size=50 replicate=8 elapsed=34.4m ETA=79.1m
+[progress] completed=41/132 mode=1 panel=random size=50 replicate=7 elapsed=34.9m ETA=77.4m
+[heartbeat] completed=41/132 elapsed=35.4m ETA=78.5m
+[heartbeat] completed=41/132 elapsed=35.9m ETA=79.6m
+[progress] completed=42/132 mode=2 panel=random size=50 replicate=9 elapsed=36.0m ETA=77.1m
+[heartbeat] completed=42/132 elapsed=36.5m ETA=78.1m
+[progress] completed=43/132 mode=1 panel=random size=50 replicate=8 elapsed=36.5m ETA=75.6m
+[heartbeat] completed=43/132 elapsed=37.0m ETA=76.6m
+[heartbeat] completed=43/132 elapsed=37.5m ETA=77.6m
+[progress] completed=44/132 mode=2 panel=ig_ranked size=100 replicate=0 elapsed=37.5m ETA=75.1m
+[heartbeat] completed=44/132 elapsed=38.0m ETA=76.1m
+[progress] completed=45/132 mode=1 panel=random size=50 replicate=9 elapsed=38.2m ETA=73.8m
+[heartbeat] completed=45/132 elapsed=38.7m ETA=74.7m
+[progress] completed=46/132 mode=2 panel=random size=100 replicate=0 elapsed=39.1m ETA=73.1m
+[heartbeat] completed=46/132 elapsed=39.6m ETA=74.0m
+[progress] completed=47/132 mode=1 panel=ig_ranked size=100 replicate=0 elapsed=39.8m ETA=72.0m
+[heartbeat] completed=47/132 elapsed=40.3m ETA=72.9m
+[progress] completed=48/132 mode=2 panel=random size=100 replicate=1 elapsed=40.7m ETA=71.1m
+[heartbeat] completed=48/132 elapsed=41.2m ETA=72.0m
+[progress] completed=49/132 mode=1 panel=random size=100 replicate=0 elapsed=41.4m ETA=70.2m
+[heartbeat] completed=49/132 elapsed=41.9m ETA=71.0m
+[progress] completed=50/132 mode=2 panel=random size=100 replicate=2 elapsed=42.2m ETA=69.2m
+[heartbeat] completed=50/132 elapsed=42.7m ETA=70.1m
+[progress] completed=51/132 mode=1 panel=random size=100 replicate=1 elapsed=43.1m ETA=68.4m
+[heartbeat] completed=51/132 elapsed=43.6m ETA=69.2m
+[progress] completed=52/132 mode=2 panel=random size=100 replicate=3 elapsed=43.8m ETA=67.4m
+[heartbeat] completed=52/132 elapsed=44.3m ETA=68.1m
+[progress] completed=53/132 mode=1 panel=random size=100 replicate=2 elapsed=44.7m ETA=66.7m
+[heartbeat] completed=53/132 elapsed=45.2m ETA=67.4m
+[progress] completed=54/132 mode=2 panel=random size=100 replicate=4 elapsed=45.3m ETA=65.5m
+[heartbeat] completed=54/132 elapsed=45.8m ETA=66.2m
+[heartbeat] completed=54/132 elapsed=46.3m ETA=66.9m
+[progress] completed=55/132 mode=1 panel=random size=100 replicate=3 elapsed=46.4m ETA=64.9m
+[heartbeat] completed=55/132 elapsed=46.9m ETA=65.6m
+[progress] completed=56/132 mode=2 panel=random size=100 replicate=5 elapsed=46.9m ETA=63.7m
+[heartbeat] completed=56/132 elapsed=47.4m ETA=64.3m
+[heartbeat] completed=56/132 elapsed=47.9m ETA=65.0m
+[progress] completed=57/132 mode=1 panel=random size=100 replicate=4 elapsed=48.0m ETA=63.2m
+[progress] completed=58/132 mode=2 panel=random size=100 replicate=6 elapsed=48.5m ETA=61.8m
+[heartbeat] completed=58/132 elapsed=49.0m ETA=62.5m
+[heartbeat] completed=58/132 elapsed=49.5m ETA=63.1m
+[progress] completed=59/132 mode=1 panel=random size=100 replicate=5 elapsed=49.7m ETA=61.5m
+[progress] completed=60/132 mode=2 panel=random size=100 replicate=7 elapsed=50.0m ETA=60.0m
+[heartbeat] completed=60/132 elapsed=50.5m ETA=60.6m
+[heartbeat] completed=60/132 elapsed=51.0m ETA=61.2m
+[progress] completed=61/132 mode=1 panel=random size=100 replicate=6 elapsed=51.4m ETA=59.8m
+[progress] completed=62/132 mode=2 panel=random size=100 replicate=8 elapsed=51.6m ETA=58.3m
+[heartbeat] completed=62/132 elapsed=52.1m ETA=58.9m
+[heartbeat] completed=62/132 elapsed=52.6m ETA=59.4m
+[progress] completed=63/132 mode=1 panel=random size=100 replicate=7 elapsed=53.1m ETA=58.2m
+[progress] completed=64/132 mode=2 panel=random size=100 replicate=9 elapsed=53.3m ETA=56.6m
+[heartbeat] completed=64/132 elapsed=53.8m ETA=57.1m
+[heartbeat] completed=64/132 elapsed=54.3m ETA=57.7m
+[heartbeat] completed=64/132 elapsed=54.8m ETA=58.2m
+[progress] completed=65/132 mode=1 panel=random size=100 replicate=8 elapsed=54.9m ETA=56.6m
+[progress] completed=66/132 mode=2 panel=ig_ranked size=250 replicate=0 elapsed=54.9m ETA=54.9m
+[heartbeat] completed=66/132 elapsed=55.4m ETA=55.4m
+[heartbeat] completed=66/132 elapsed=55.9m ETA=55.9m
+[heartbeat] completed=66/132 elapsed=56.4m ETA=56.4m
+[progress] completed=67/132 mode=2 panel=random size=250 replicate=0 elapsed=56.6m ETA=54.9m
+[progress] completed=68/132 mode=1 panel=random size=100 replicate=9 elapsed=56.7m ETA=53.3m
+[heartbeat] completed=68/132 elapsed=57.2m ETA=53.8m
+[heartbeat] completed=68/132 elapsed=57.7m ETA=54.3m
+[heartbeat] completed=68/132 elapsed=58.2m ETA=54.7m
+[progress] completed=69/132 mode=2 panel=random size=250 replicate=1 elapsed=58.2m ETA=53.1m
+[progress] completed=70/132 mode=1 panel=ig_ranked size=250 replicate=0 elapsed=58.4m ETA=51.7m
+[heartbeat] completed=70/132 elapsed=58.9m ETA=52.2m
+[heartbeat] completed=70/132 elapsed=59.4m ETA=52.6m
+[progress] completed=71/132 mode=2 panel=random size=250 replicate=2 elapsed=59.8m ETA=51.4m
+[progress] completed=72/132 mode=1 panel=random size=250 replicate=0 elapsed=60.1m ETA=50.1m
+[heartbeat] completed=72/132 elapsed=60.6m ETA=50.5m
+[heartbeat] completed=72/132 elapsed=61.1m ETA=50.9m
+[progress] completed=73/132 mode=2 panel=random size=250 replicate=3 elapsed=61.4m ETA=49.6m
+[progress] completed=74/132 mode=1 panel=random size=250 replicate=1 elapsed=61.8m ETA=48.4m
+[heartbeat] completed=74/132 elapsed=62.3m ETA=48.8m
+[heartbeat] completed=74/132 elapsed=62.8m ETA=49.2m
+[progress] completed=75/132 mode=2 panel=random size=250 replicate=4 elapsed=62.9m ETA=47.8m
+[heartbeat] completed=75/132 elapsed=63.4m ETA=48.2m
+[progress] completed=76/132 mode=1 panel=random size=250 replicate=2 elapsed=63.5m ETA=46.8m
+[heartbeat] completed=76/132 elapsed=64.0m ETA=47.1m
+[heartbeat] completed=76/132 elapsed=64.5m ETA=47.5m
+[progress] completed=77/132 mode=2 panel=random size=250 replicate=5 elapsed=64.6m ETA=46.1m
+[heartbeat] completed=77/132 elapsed=65.1m ETA=46.5m
+[progress] completed=78/132 mode=1 panel=random size=250 replicate=3 elapsed=65.2m ETA=45.1m
+[heartbeat] completed=78/132 elapsed=65.7m ETA=45.5m
+[heartbeat] completed=78/132 elapsed=66.2m ETA=45.8m
+[progress] completed=79/132 mode=2 panel=random size=250 replicate=6 elapsed=66.2m ETA=44.4m
+[heartbeat] completed=79/132 elapsed=66.7m ETA=44.7m
+[progress] completed=80/132 mode=1 panel=random size=250 replicate=4 elapsed=66.9m ETA=43.5m
+[heartbeat] completed=80/132 elapsed=67.4m ETA=43.8m
+[progress] completed=81/132 mode=2 panel=random size=250 replicate=7 elapsed=67.8m ETA=42.7m
+[heartbeat] completed=81/132 elapsed=68.3m ETA=43.0m
+[progress] completed=82/132 mode=1 panel=random size=250 replicate=5 elapsed=68.6m ETA=41.8m
+[heartbeat] completed=82/132 elapsed=69.1m ETA=42.1m
+[progress] completed=83/132 mode=2 panel=random size=250 replicate=8 elapsed=69.3m ETA=40.9m
+[heartbeat] completed=83/132 elapsed=69.8m ETA=41.2m
+[progress] completed=84/132 mode=1 panel=random size=250 replicate=6 elapsed=70.2m ETA=40.1m
+[heartbeat] completed=84/132 elapsed=70.7m ETA=40.4m
+[progress] completed=85/132 mode=2 panel=random size=250 replicate=9 elapsed=70.9m ETA=39.2m
+[heartbeat] completed=85/132 elapsed=71.4m ETA=39.5m
+[progress] completed=86/132 mode=1 panel=random size=250 replicate=7 elapsed=71.9m ETA=38.4m
+[heartbeat] completed=86/132 elapsed=72.4m ETA=38.7m
+[progress] completed=87/132 mode=2 panel=ig_ranked size=500 replicate=0 elapsed=72.5m ETA=37.5m
+[heartbeat] completed=87/132 elapsed=73.0m ETA=37.8m
+[heartbeat] completed=87/132 elapsed=73.5m ETA=38.0m
+[progress] completed=88/132 mode=1 panel=random size=250 replicate=8 elapsed=73.5m ETA=36.8m
+[heartbeat] completed=88/132 elapsed=74.0m ETA=37.0m
+[progress] completed=89/132 mode=2 panel=random size=500 replicate=0 elapsed=74.1m ETA=35.8m
+[heartbeat] completed=89/132 elapsed=74.6m ETA=36.0m
+[heartbeat] completed=89/132 elapsed=75.1m ETA=36.3m
+[progress] completed=90/132 mode=1 panel=random size=250 replicate=9 elapsed=75.3m ETA=35.1m
+[progress] completed=91/132 mode=2 panel=random size=500 replicate=1 elapsed=75.7m ETA=34.1m
+[heartbeat] completed=91/132 elapsed=76.2m ETA=34.3m
+[heartbeat] completed=91/132 elapsed=76.7m ETA=34.6m
+[progress] completed=92/132 mode=1 panel=ig_ranked size=500 replicate=0 elapsed=77.0m ETA=33.5m
+[progress] completed=93/132 mode=2 panel=random size=500 replicate=2 elapsed=77.4m ETA=32.4m
+[heartbeat] completed=93/132 elapsed=77.9m ETA=32.6m
+[heartbeat] completed=93/132 elapsed=78.4m ETA=32.9m
+[progress] completed=94/132 mode=1 panel=random size=500 replicate=0 elapsed=78.7m ETA=31.8m
+[progress] completed=95/132 mode=2 panel=random size=500 replicate=3 elapsed=79.0m ETA=30.8m
+[heartbeat] completed=95/132 elapsed=79.5m ETA=31.0m
+[heartbeat] completed=95/132 elapsed=80.0m ETA=31.2m
+[progress] completed=96/132 mode=1 panel=random size=500 replicate=1 elapsed=80.4m ETA=30.2m
+[progress] completed=97/132 mode=2 panel=random size=500 replicate=4 elapsed=80.6m ETA=29.1m
+[heartbeat] completed=97/132 elapsed=81.1m ETA=29.2m
+[heartbeat] completed=97/132 elapsed=81.6m ETA=29.4m
+[progress] completed=98/132 mode=1 panel=random size=500 replicate=2 elapsed=82.1m ETA=28.5m
+[progress] completed=99/132 mode=2 panel=random size=500 replicate=5 elapsed=82.2m ETA=27.4m
+[heartbeat] completed=99/132 elapsed=82.7m ETA=27.6m
+[heartbeat] completed=99/132 elapsed=83.2m ETA=27.7m
+[heartbeat] completed=99/132 elapsed=83.7m ETA=27.9m
+[progress] completed=100/132 mode=1 panel=random size=500 replicate=3 elapsed=83.7m ETA=26.8m
+[progress] completed=101/132 mode=2 panel=random size=500 replicate=6 elapsed=83.7m ETA=25.7m
+[heartbeat] completed=101/132 elapsed=84.2m ETA=25.8m
+[heartbeat] completed=101/132 elapsed=84.7m ETA=26.0m
+[heartbeat] completed=101/132 elapsed=85.2m ETA=26.2m
+[progress] completed=102/132 mode=2 panel=random size=500 replicate=7 elapsed=85.3m ETA=25.1m
+[progress] completed=103/132 mode=1 panel=random size=500 replicate=4 elapsed=85.3m ETA=24.0m
+[heartbeat] completed=103/132 elapsed=85.8m ETA=24.2m
+[heartbeat] completed=103/132 elapsed=86.3m ETA=24.3m
+[progress] completed=104/132 mode=2 panel=random size=500 replicate=8 elapsed=86.8m ETA=23.4m
+[progress] completed=105/132 mode=1 panel=random size=500 replicate=5 elapsed=87.0m ETA=22.4m
+[heartbeat] completed=105/132 elapsed=87.5m ETA=22.5m
+[heartbeat] completed=105/132 elapsed=88.0m ETA=22.6m
+[progress] completed=106/132 mode=2 panel=random size=500 replicate=9 elapsed=88.4m ETA=21.7m
+[progress] completed=107/132 mode=1 panel=random size=500 replicate=6 elapsed=88.6m ETA=20.7m
+[heartbeat] completed=107/132 elapsed=89.1m ETA=20.8m
+[heartbeat] completed=107/132 elapsed=89.6m ETA=20.9m
+[progress] completed=108/132 mode=2 panel=ig_ranked size=1000 replicate=0 elapsed=89.9m ETA=20.0m
+[progress] completed=109/132 mode=1 panel=random size=500 replicate=7 elapsed=90.3m ETA=19.0m
+[heartbeat] completed=109/132 elapsed=90.8m ETA=19.2m
+[heartbeat] completed=109/132 elapsed=91.3m ETA=19.3m
+[progress] completed=110/132 mode=2 panel=random size=1000 replicate=0 elapsed=91.5m ETA=18.3m
+[progress] completed=111/132 mode=1 panel=random size=500 replicate=8 elapsed=91.9m ETA=17.4m
+[heartbeat] completed=111/132 elapsed=92.4m ETA=17.5m
+[heartbeat] completed=111/132 elapsed=92.9m ETA=17.6m
+[progress] completed=112/132 mode=2 panel=random size=1000 replicate=1 elapsed=93.0m ETA=16.6m
+[heartbeat] completed=112/132 elapsed=93.5m ETA=16.7m
+[progress] completed=113/132 mode=1 panel=random size=500 replicate=9 elapsed=93.6m ETA=15.7m
+[heartbeat] completed=113/132 elapsed=94.1m ETA=15.8m
+[heartbeat] completed=113/132 elapsed=94.6m ETA=15.9m
+[progress] completed=114/132 mode=2 panel=random size=1000 replicate=2 elapsed=94.6m ETA=14.9m
+[heartbeat] completed=114/132 elapsed=95.1m ETA=15.0m
+[progress] completed=115/132 mode=1 panel=ig_ranked size=1000 replicate=0 elapsed=95.3m ETA=14.1m
+[heartbeat] completed=115/132 elapsed=95.8m ETA=14.2m
+[progress] completed=116/132 mode=2 panel=random size=1000 replicate=3 elapsed=96.2m ETA=13.3m
+[heartbeat] completed=116/132 elapsed=96.7m ETA=13.3m
+[progress] completed=117/132 mode=1 panel=random size=1000 replicate=0 elapsed=97.0m ETA=12.4m
+[heartbeat] completed=117/132 elapsed=97.5m ETA=12.5m
+[progress] completed=118/132 mode=2 panel=random size=1000 replicate=4 elapsed=97.9m ETA=11.6m
+[heartbeat] completed=118/132 elapsed=98.4m ETA=11.7m
+[progress] completed=119/132 mode=1 panel=random size=1000 replicate=1 elapsed=98.8m ETA=10.8m
+[heartbeat] completed=119/132 elapsed=99.3m ETA=10.8m
+[progress] completed=120/132 mode=2 panel=random size=1000 replicate=5 elapsed=99.5m ETA=10.0m
+[heartbeat] completed=120/132 elapsed=100.0m ETA=10.0m
+[heartbeat] completed=120/132 elapsed=100.5m ETA=10.1m
+[progress] completed=121/132 mode=1 panel=random size=1000 replicate=2 elapsed=100.5m ETA=9.1m
+[heartbeat] completed=121/132 elapsed=101.0m ETA=9.2m
+[progress] completed=122/132 mode=2 panel=random size=1000 replicate=6 elapsed=101.1m ETA=8.3m
+[heartbeat] completed=122/132 elapsed=101.6m ETA=8.3m
+[heartbeat] completed=122/132 elapsed=102.1m ETA=8.4m
+[progress] completed=123/132 mode=1 panel=random size=1000 replicate=3 elapsed=102.3m ETA=7.5m
+[progress] completed=124/132 mode=2 panel=random size=1000 replicate=7 elapsed=102.8m ETA=6.6m
+[heartbeat] completed=124/132 elapsed=103.3m ETA=6.7m
+[heartbeat] completed=124/132 elapsed=103.8m ETA=6.7m
+[progress] completed=125/132 mode=1 panel=random size=1000 replicate=4 elapsed=104.1m ETA=5.8m
+[progress] completed=126/132 mode=2 panel=random size=1000 replicate=8 elapsed=104.4m ETA=5.0m
+[heartbeat] completed=126/132 elapsed=104.9m ETA=5.0m
+[heartbeat] completed=126/132 elapsed=105.4m ETA=5.0m
+[progress] completed=127/132 mode=1 panel=random size=1000 replicate=5 elapsed=105.8m ETA=4.2m
+[progress] completed=128/132 mode=2 panel=random size=1000 replicate=9 elapsed=106.0m ETA=3.3m
+[worker] Mode 2 finished (1/2)
+[heartbeat] completed=128/132 elapsed=106.5m ETA=3.3m
+[heartbeat] completed=128/132 elapsed=107.0m ETA=3.3m
+[heartbeat] completed=128/132 elapsed=107.5m ETA=3.4m
+[progress] completed=129/132 mode=1 panel=random size=1000 replicate=6 elapsed=107.6m ETA=2.5m
+[heartbeat] completed=129/132 elapsed=108.1m ETA=2.5m
+[heartbeat] completed=129/132 elapsed=108.6m ETA=2.5m
+[heartbeat] completed=129/132 elapsed=109.1m ETA=2.5m
+[progress] completed=130/132 mode=1 panel=random size=1000 replicate=7 elapsed=109.3m ETA=1.7m
+[heartbeat] completed=130/132 elapsed=109.8m ETA=1.7m
+[heartbeat] completed=130/132 elapsed=110.3m ETA=1.7m
+[heartbeat] completed=130/132 elapsed=110.8m ETA=1.7m
+[progress] completed=131/132 mode=1 panel=random size=1000 replicate=8 elapsed=111.0m ETA=0.8m
+[heartbeat] completed=131/132 elapsed=111.5m ETA=0.9m
+[heartbeat] completed=131/132 elapsed=112.0m ETA=0.9m
+[heartbeat] completed=131/132 elapsed=112.5m ETA=0.9m
+[progress] completed=132/132 mode=1 panel=random size=1000 replicate=9 elapsed=112.7m ETA=0.0m
+[worker] Mode 1 finished (2/2)
+[complete] Task 3D deletion validation complete
+ mode panel_type  genes_masked  fraction_remaining_mean  fraction_remaining_sd  mean_contrast_fraction_remaining  mean_absolute_signal_change  replicates  contrasts
+    1  ig_ranked            25                 0.986843                    NaN                          0.980660                     0.006627           1          7
+    1  ig_ranked            50                 0.974848                    NaN                          0.971724                     0.012641           1          7
+    1  ig_ranked           100                 0.949532                    NaN                          0.944919                     0.025156           1          7
+    1  ig_ranked           250                 0.874342                    NaN                          0.866111                     0.061092           1          7
+    1  ig_ranked           500                 0.804026                    NaN                          0.777447                     0.095279           1          7
+    1  ig_ranked          1000                 0.713542                    NaN                          0.635090                     0.139271           1          7
+    1     random            25                 0.999358               0.001269                          0.997936                     0.000716          10          7
+    1     random            50                 0.999649               0.001393                          0.998852                     0.000984          10          7
+    1     random           100                 0.996919               0.002152                          0.996472                     0.002328          10          7
+    1     random           250                 0.993299               0.003900                          0.988894                     0.003740          10          7
+    1     random           500                 0.989612               0.006950                          0.985998                     0.006703          10          7
+    1     random          1000                 0.976935               0.008455                          0.979877                     0.012000          10          7
+    2  ig_ranked            25                 0.977423                    NaN                          0.984391                     0.012759           1          7
+    2  ig_ranked            50                 0.951798                    NaN                          0.950262                     0.017182           1          7
+    2  ig_ranked           100                 0.920247                    NaN                          0.910708                     0.028428           1          7
+    2  ig_ranked           250                 0.868849                    NaN                          0.857242                     0.046750           1          7
+    2  ig_ranked           500                 0.794769                    NaN                          0.777780                     0.073156           1          7
+    2  ig_ranked          1000                 0.717489                    NaN                          0.695333                     0.100703           1          7
+    2     random            25                 0.999638               0.000534                          0.999809                     0.000406          10          7
+    2     random            50                 0.998493               0.002203                          0.998361                     0.000895          10          7
+    2     random           100                 0.998494               0.001829                          0.998033                     0.001261          10          7
+    2     random           250                 0.993552               0.003500                          0.993938                     0.002723          10          7
+    2     random           500                 0.989929               0.004574                          0.989714                     0.005303          10          7
+    2     random          1000                 0.974265               0.006925                          0.970782                     0.009451          10          7

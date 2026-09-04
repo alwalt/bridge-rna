@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-09-04T01:53:31.260919+00:00",
+  "checkpoint": "model/r7hnr92k/best_model.pt",
+  "encoder_frozen": true,
+  "target": "dot product of mean-pooled 512-D embedding and fixed unit mode direction",
+  "mode_direction": "unit-normalized mean of unit-normalized Task 3B FLT-minus-GC vectors in each fixed Task 3C cluster",
+  "ig_input": "15,165-gene natural log1p(TPM) model input",
+  "ig_baseline": "all-zero log1p(TPM) profile",
+  "ig_steps": 16,
+  "integration_rule": "midpoint Riemann",
+  "contrast_attribution": "IG(mean FLT profile) minus IG(mean GC profile)",
+  "enrichment": "g:Profiler GO:BP, KEGG, Reactome with custom exact 15,165-gene background",
+  "multiple_testing": "g:SCS",
+  "no_edgeR_GSEA_batch_correction_or_deletion": true,
+  "worker_commands": [
+    [
+      "/home/walt/bridge-rna/.venv/bin/python",
+      "/home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/pipeline/run_task3d_mode_ig.py",
+      "--worker-mode",
+      "1",
+      "--device",
+      "cuda:0",
+      "--ig-steps",
+      "16",
+      "--path-batch",
+      "4"
+    ],
+    [
+      "/home/walt/bridge-rna/.venv/bin/python",
+      "/home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/pipeline/run_task3d_mode_ig.py",
+      "--worker-mode",
+      "2",
+      "--device",
+      "cuda:1",
+      "--ig-steps",
+      "16",
+      "--path-batch",
+      "4"
+    ]
+  ]
+}

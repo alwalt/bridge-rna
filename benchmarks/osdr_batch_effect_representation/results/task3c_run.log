@@ -1,0 +1,24 @@
+Task 3C complete
+Contrasts: 14; all pairs: 91; different-OSD pairs: 82
+
+Different-OSD concordance:
+   pair_scope representation  n_pairs  mean_cosine  sd_cosine  median_cosine  q25_cosine  q75_cosine  positive_fraction
+different_OSD     expression       82     0.010874   0.086306      -0.001106   -0.041780    0.034893           0.487805
+different_OSD            pca       82     0.021102   0.273071       0.000444   -0.163861    0.181334           0.500000
+different_OSD      bridgerna       82    -0.032507   0.683938      -0.130380   -0.712129    0.697281           0.475610
+
+BridgeRNA boundary comparisons:
+representation                factor  n_same_pairs  n_different_pairs  same_mean_cosine  same_sd_cosine  different_mean_cosine  different_sd_cosine  same_minus_different  permutation_pvalue_exploratory
+     bridgerna               mission            13                 69          0.082372        0.792302              -0.054151             0.665899              0.136523                          0.3565
+     bridgerna   library_preparation            42                 40          0.006611        0.702682              -0.073582             0.670121              0.080193                          0.4278
+     bridgerna sequencing_parameters            21                 61         -0.039011        0.731870              -0.030268             0.672998             -0.008743                          0.9564
+     bridgerna   sequencing_facility            49                 33         -0.052699        0.704186              -0.002525             0.662327             -0.050174                          0.5918
+     bridgerna                strain            15                 67         -0.139649        0.668423              -0.008520             0.690012             -0.131129                          0.4326
+
+BridgeRNA exploratory cluster scan:
+ n_clusters  silhouette_cosine
+          2           0.762998
+          3           0.634984
+          4           0.593174
+          5           0.456237
+          6           0.448445

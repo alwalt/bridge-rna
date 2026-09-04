@@ -1,3 +1,3 @@
 [NbConvertApp] Converting notebook benchmarks/osdr_batch_effect_representation/osdr_batch_effect_representation.ipynb to notebook
 [IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
-[NbConvertApp] Writing 8473421 bytes to benchmarks/osdr_batch_effect_representation/osdr_batch_effect_representation.ipynb
+[NbConvertApp] Writing 15093759 bytes to benchmarks/osdr_batch_effect_representation/osdr_batch_effect_representation.ipynb

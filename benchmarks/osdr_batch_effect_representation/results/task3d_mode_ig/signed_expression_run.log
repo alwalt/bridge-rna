@@ -1,0 +1,30 @@
+Signed Task 3D analysis complete
+  level                    set  features  mode1_vs_mode2_spearman  same_direction_fraction  opposite_direction_fraction
+   gene mode_1_specific_top100        68                -0.242738                 0.382353                     0.617647
+   gene mode_2_specific_top100        68                -0.368783                 0.294118                     0.705882
+   gene          shared_top100        32                -0.632331                 0.218750                     0.781250
+pathway   selected_major_terms        12                 0.027972                 0.416667                     0.583333
+
+Gene direction consistency
+               gene_set  mode  genes  median_direction_consistency  genes_consistent_at_least_5_of_7  genes_consistent_at_least_6_of_7  genes_consistent_7_of_7
+mode_1_specific_top100     1     68                      0.714286                                49                                27                       12
+mode_1_specific_top100     2     68                      0.571429                                22                                 6                        1
+mode_2_specific_top100     1     68                      0.714286                                35                                 7                        1
+mode_2_specific_top100     2     68                      0.714286                                44                                22                        6
+         shared_top100     1     32                      0.714286                                18                                 8                        2
+         shared_top100     2     32                      0.714286                                21                                11                        4
+
+Pathway direction summary
+           term_id                                                 term source  discovery_mode  adjusted_p  member_genes  mode_1_median_change  mode_1_direction_consistency  mode_2_median_change  mode_2_direction_consistency  mode_medians_same_sign
+        GO:0009636                          response to toxic substance  GO:BP               1    0.000021            13              0.017507                      0.571429             -0.019956                      0.714286                   False
+        GO:0044282                     small molecule catabolic process  GO:BP               1    0.000061            15              0.073811                      0.714286             -0.008238                      0.571429                   False
+        GO:0043436                            oxoacid metabolic process  GO:BP               1    0.000127            22              0.089547                      0.714286              0.008340                      0.571429                    True
+        GO:0009056                                    catabolic process  GO:BP               1    0.009969            36              0.003697                      0.571429              0.013329                      0.571429                    True
+ REAC:R-HSA-977606                     Regulation of Complement cascade   REAC               1    0.010470             4             -0.100635                      0.857143             -0.055986                      0.571429                    True
+        KEGG:03272                           Virion - Hepatitis viruses   KEGG               2    0.010473             4             -0.038274                      0.571429              0.027058                      0.571429                   False
+        KEGG:04146                                           Peroxisome   KEGG               1    0.013979             5              0.033580                      0.714286              0.035384                      0.571429                    True
+        GO:0010876                                   lipid localization  GO:BP               1    0.015991            14              0.039769                      0.714286             -0.027732                      0.571429                   False
+REAC:R-HSA-8978868                                Fatty acid metabolism   REAC               1    0.016716             7              0.080178                      0.714286             -0.045555                      0.714286                   False
+REAC:R-HSA-2173782 Binding and Uptake of Ligands by Scavenger Receptors   REAC               1    0.020925             4              0.023556                      0.571429             -0.048869                      0.857143                   False
+        GO:0044281                     small molecule metabolic process  GO:BP               2    0.021040            27              0.000000                      0.142857              0.023053                      0.571429                   False
+        KEGG:04979                               Cholesterol metabolism   KEGG               1    0.023218             4              0.048056                      0.714286              0.048427                      0.571429                    True

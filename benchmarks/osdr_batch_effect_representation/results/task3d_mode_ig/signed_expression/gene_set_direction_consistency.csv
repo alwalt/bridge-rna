@@ -1,0 +1,7 @@
+gene_set,mode,genes,median_direction_consistency,genes_consistent_at_least_5_of_7,genes_consistent_at_least_6_of_7,genes_consistent_7_of_7
+mode_1_specific_top100,1,68,0.7142857142857143,49,27,12
+mode_1_specific_top100,2,68,0.5714285714285714,22,6,1
+mode_2_specific_top100,1,68,0.7142857142857143,35,7,1
+mode_2_specific_top100,2,68,0.7142857142857143,44,22,6
+shared_top100,1,32,0.7142857142857143,18,8,2
+shared_top100,2,32,0.7142857142857143,21,11,4

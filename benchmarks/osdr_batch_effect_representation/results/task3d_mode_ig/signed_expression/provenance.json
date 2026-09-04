@@ -1,0 +1,18 @@
+{
+  "expression": "cached exact 15,165-gene natural log1p(TPM) BridgeRNA input",
+  "contrast": "strict Task 3B mean(FLT) minus mean(GC)",
+  "gene_sets": {
+    "shared_top100": 32,
+    "mode_1_specific_top100": 68,
+    "mode_2_specific_top100": 68
+  },
+  "pathway_direction": "median signed expression change among enriched-term genes present in its Top-100 IG query",
+  "pathway_selection": "12 adjusted-p-ranked actual terms with greedy gene-set Jaccard <0.6; generic roots removed",
+  "heatmap_scaling": "row divided by row maximum absolute value for display only; raw changes saved separately",
+  "rerun": {
+    "IG": false,
+    "deletion": false,
+    "edgeR": false,
+    "batch_correction": false
+  }
+}
