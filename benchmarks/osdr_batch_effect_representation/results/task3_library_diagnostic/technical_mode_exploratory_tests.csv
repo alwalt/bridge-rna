@@ -1,0 +1,3 @@
+test,effect,permutation_or_exact_p,note
+polyA vs ribodepleted fixed mode membership,4.5,0.5594405594405594,Fisher exact; studies not independent
+polyA vs ribodepleted mode-position mean difference,0.5564722418785095,0.0939060939060939,exact label permutation; descriptive because library is study-nested

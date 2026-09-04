@@ -1,0 +1,5 @@
+representation_a,representation_b,identity_control,cosine,spearman,euclidean_distance
+RR1_OSD168_no-ERCC,RR1_OSD168_all_ERCC,"same animals, spike-in differs",0.9980614185333252,0.9928366864650211,0.03773197
+RR1_OSD168_Mix 1,RR1_OSD168_Mix 2,different documented animal subsets,0.802582323551178,0.6122490873301977,0.5182772
+C01_OSD168_Mix 1,C01_OSD168_Mix 2,different documented animal subsets,-0.3168189525604248,-0.22927350839999544,0.49709344
+C02_OSD168_Mix 1,C02_OSD168_Mix 2,different documented animal subsets,-0.6940188407897949,-0.4956642819949416,0.6411623

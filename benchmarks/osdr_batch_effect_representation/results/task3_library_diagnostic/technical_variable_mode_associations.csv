@@ -1,0 +1,13 @@
+variable,level,contrasts,mode1,mode2,mean_mode_position,sd_mode_position
+library_preparation,polyA,4,3,1,0.4647575,0.79609936
+library_preparation,ribodepleted,10,4,6,-0.09171472,0.39882162
+layout,PE,10,4,6,-0.09171472,0.39882162
+layout,SE,4,3,1,0.4647575,0.79609936
+read_length_bp,50,4,3,1,0.4647575,0.79609936
+read_length_bp,149,3,1,2,-0.21787985,0.45459053
+read_length_bp,150,7,3,4,-0.037643936,0.39791217
+depth_M,30,4,3,1,0.4647575,0.79609936
+depth_M,60,3,1,2,-0.21787985,0.45459053
+depth_M,100,7,3,4,-0.037643936,0.39791217
+sequencing_facility,GeneLab SPL,3,1,2,-0.21787985,0.45459053
+sequencing_facility,UC Davis,11,6,5,0.14504749,0.5910853

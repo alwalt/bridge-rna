@@ -1,0 +1,24 @@
+rna_animal rna_condition metabolomics_sample_name  exact_animal_match     evidence_level
+       F58           FLT               LOMA-00094                True     A_exact_animal
+       F64           FLT               LOMA-00096                True     A_exact_animal
+       G40            GC                                        False B_same_cohort_only
+       G44            GC               LOMA-00092                True     A_exact_animal
+
+             analysis                          process  metabolites  median_log2FC  mean_log2FC  increased  decreased
+exact_animal_primary    Fatty-acid / lipid metabolism          109      -0.169194    -0.552974         47         62
+exact_animal_primary Energy / carbohydrate metabolism           38      -0.679490    -0.783676          8         30
+exact_animal_primary                       Bile acids           11      -0.039939    -0.006546          5          6
+exact_animal_primary        Other measured metabolism          132      -0.170074    -0.196474         53         78
+exact_animal_primary   Glutathione / oxidative stress            8      -0.271866    -0.250650          2          6
+exact_animal_primary                   Corticosterone            1       0.381075     0.381075          1          0
+
+                          process  metabolomics_metabolites  metabolomics_median_log2FC                                                                                          BridgeRNA_supporting_terms  BridgeRNA_median_member_expression_change direction_compatible                        interpretation
+   Fatty-acid / lipid metabolism                       109                   -0.169194                                                 lipid localization | Fatty acid metabolism | Cholesterol metabolism                                   0.387218                False    both implicated, directions differ
+                      Bile acids                        11                   -0.039939                                                                                                                                                            NaN                 <NA> no direct saved BridgeRNA counterpart
+  Glutathione / oxidative stress                         8                   -0.271866                                                                            response to toxic substance | Peroxisome                                   0.172742                False    both implicated, directions differ
+      Retinol-related metabolism                         0                         NaN                                                                                                                                                            NaN                 <NA> no direct saved BridgeRNA counterpart
+Energy / carbohydrate metabolism                        38                   -0.679490 small molecule catabolic process | oxoacid metabolic process | catabolic process | small molecule metabolic process                                   0.105386                False    both implicated, directions differ
+                  Corticosterone                         1                    0.381075                                                                                                                                                            NaN                 <NA> no direct saved BridgeRNA counterpart
+
+Primary/cohort rho=0.731
+Conclusion: C — inconclusive

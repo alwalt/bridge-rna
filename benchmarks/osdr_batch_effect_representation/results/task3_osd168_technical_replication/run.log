@@ -1,0 +1,18 @@
+              source_contrast  technical_versions  cosine_mean  cosine_min  spearman_mean  mode_preservation_rate
+    C01__OSD-137__RR3__39-day                   3     0.794097    0.676825       0.672192                0.666667
+    C02__OSD-137__RR3__40-day                   3     0.926740    0.875871       0.877074                0.666667
+C14__OSD-48__RR1-NASA__37-day                   4    -0.764848   -0.878613      -0.145760                0.000000
+
+               source_contrast     original_representation OSD168_representation technical_condition  assigned_mode    cosine  spearman  euclidean_distance  relative_euclidean_distance  mode1_projection  mode2_projection  predicted_fixed_mode  mode_preserved
+C14__OSD-48__RR1-NASA__37-day  RR1_OSD48_original_matched    RR1_OSD168_no-ERCC             no-ERCC              1 -0.804119 -0.170199            1.352972                     1.452232         -0.921437          0.925512                     2           False
+C14__OSD-48__RR1-NASA__37-day  RR1_OSD48_original_matched      RR1_OSD168_Mix 1               Mix 1              1 -0.878613 -0.368180            1.640457                     1.760808         -0.929301          0.967159                     2           False
+C14__OSD-48__RR1-NASA__37-day  RR1_OSD48_original_matched      RR1_OSD168_Mix 2               Mix 2              1 -0.568228  0.117955            1.173905                     1.260028         -0.781319          0.731379                     2           False
+C14__OSD-48__RR1-NASA__37-day  RR1_OSD48_original_matched   RR1_OSD168_all_ERCC      all ERCC mixes              1 -0.808434 -0.162616            1.374263                     1.475084         -0.916915          0.929631                     2           False
+    C01__OSD-137__RR3__39-day C01_OSD137_original_matched   C01_OSD168_all_ERCC      all ERCC mixes              1  0.790003  0.508695            0.144012                     0.613616          0.885220         -0.793096                     1            True
+    C01__OSD-137__RR3__39-day   C01_OSD137_original_Mix 1      C01_OSD168_Mix 1               Mix 1              1  0.915461  0.772554            0.167949                     0.403980          0.888788         -0.897359                     1            True
+    C01__OSD-137__RR3__39-day   C01_OSD137_original_Mix 2      C01_OSD168_Mix 2               Mix 2              1  0.676825  0.735327            0.156944                     0.833183         -0.063387          0.255608                     2           False
+    C02__OSD-137__RR3__40-day C02_OSD137_original_matched   C02_OSD168_all_ERCC      all ERCC mixes              2  0.916649  0.878270            0.073196                     0.492636         -0.677020          0.828453                     2            True
+    C02__OSD-137__RR3__40-day   C02_OSD137_original_Mix 1      C02_OSD168_Mix 1               Mix 1              2  0.987700  0.949922            0.114502                     0.302157         -0.801576          0.934804                     2            True
+    C02__OSD-137__RR3__40-day   C02_OSD137_original_Mix 2      C02_OSD168_Mix 2               Mix 2              2  0.875871  0.803030            0.109445                     0.491482          0.631124         -0.671489                     1           False
+
+Classification: B — partial/mixed preservation

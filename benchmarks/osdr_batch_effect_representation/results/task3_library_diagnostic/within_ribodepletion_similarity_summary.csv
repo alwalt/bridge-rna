@@ -1,0 +1,3 @@
+relation,count,mean,median,std
+different_mode,24,-0.6430449,-0.67356944,0.20632266
+same_mode,21,0.7191571,0.7873959,0.16671368

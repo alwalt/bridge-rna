@@ -1,0 +1,7 @@
+process,metabolomics_metabolites,metabolomics_median_log2FC,BridgeRNA_supporting_terms,BridgeRNA_median_member_expression_change,direction_compatible,interpretation
+Fatty-acid / lipid metabolism,109,-0.16919385071443252,lipid localization | Fatty acid metabolism | Cholesterol metabolism,0.3872182369232178,False,"both implicated, directions differ"
+Bile acids,11,-0.03993905986505578,,,,no direct saved BridgeRNA counterpart
+Glutathione / oxidative stress,8,-0.2718658814557082,response to toxic substance | Peroxisome,0.17274236679077148,False,"both implicated, directions differ"
+Retinol-related metabolism,0,,,,,no direct saved BridgeRNA counterpart
+Energy / carbohydrate metabolism,38,-0.6794897498538415,small molecule catabolic process | oxoacid metabolic process | catabolic process | small molecule metabolic process,0.10538625717163086,False,"both implicated, directions differ"
+Corticosterone,1,0.38107488934575795,,,,no direct saved BridgeRNA counterpart

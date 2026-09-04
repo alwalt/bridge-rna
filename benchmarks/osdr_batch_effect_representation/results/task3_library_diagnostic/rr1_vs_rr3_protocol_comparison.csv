@@ -1,0 +1,5 @@
+representation,OSD,library_selection,library_kit,layout,read_length,read_depth_min,read_depth_median,read_depth_max,instrument,facility,ERCC,ERCC_mix,samples,comparison_context
+OSD-48 original RR-1,OSD-48,polyA enrichment,Illumina TruSeq stranded RNA library prep kit,SINGLE,50 {base pair},30340583,36449032.5,43556444,Illumina HiSeq 3000,UC Davis,none declared,not applicable,14,RR1 original comparator
+OSD-168 RR-1 no-ERCC,OSD-168,ribo-depletion,KAPA RNA HyperPrep Kit,PAIRED,150 {base pair},91800703,99405049.5,113789479,Illumina HiSeq 4000,UC Davis,Without Spike-in,not applicable,20,RR1 technical replicate
+OSD-137 original RR-3,OSD-137,ribo-depletion,not reported,PAIRED,150 {base pair},80870328,87878911.0,97275972,Illumina HiSeq 4000,UC Davis,none declared,not applicable,18,RR3 original comparator
+OSD-168 RR-3 ERCC,OSD-168,ribo-depletion,KAPA RNA HyperPrep Kit,PAIRED,150 {base pair},107440429,122398254.5,155912628,Illumina HiSeq 4000,UC Davis,With Spike-in,Mix 1 | Mix 2,12,RR3 technical replicate

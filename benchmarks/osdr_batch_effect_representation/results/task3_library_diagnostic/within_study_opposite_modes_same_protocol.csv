@@ -1,0 +1,4 @@
+OSD,library_preparation,sequencing_parameters,mode1_contrasts,mode2_contrasts
+OSD-137,ribodepleted,PE 150bp 100M,1,2
+OSD-168,ribodepleted,PE 150bp 100M,1,2
+OSD-48,polyA,SE 50bp 30M,1,1

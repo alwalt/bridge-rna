@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-09-04T08:08:37.235264+00:00",
+  "full_common_genes": 51486,
+  "bridge_genes": 15165,
+  "PCA_fit_samples": 112,
+  "maximum_nonzero_PCs": 111,
+  "classification": "D_Bridge_stronger_geometry_but_worse_RR1_technical_reproducibility",
+  "PCA_fit": "once per sample-level expression matrix; contrasts computed after transform",
+  "normalization": "species-correct mouse exon-length TPM followed by natural log1p; no batch correction"
+}

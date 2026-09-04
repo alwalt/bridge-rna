@@ -1,0 +1,28 @@
+{
+  "OSD-47": {
+    "file": "work/task3_oro/LSDS-29_Histology_OSD_47_Histology_TRANSFORMED.csv",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-47/download?source=datamanager&file=LSDS-29_Histology_OSD_47_Histology_TRANSFORMED.csv",
+    "sha256": "935729de5075a3959c370af36cf71e373c62270791361dfc3ed8e4d6e36075cf"
+  },
+  "OSD-48": {
+    "file": "work/task3_oro/LSDS-2_Histology_OSD_48_Histology_TRANSFORMED.csv",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-48/download?source=datamanager&file=LSDS-2_Histology_OSD_48_Histology_TRANSFORMED.csv",
+    "sha256": "1b1adeb1a452b8c238979382b21318433f5239342b2951f5e36547f5a0186c24"
+  },
+  "OSD-137": {
+    "file": "work/task3_oro/LSDS-28_Histology_OSD_137_Histology_TRANSFORMED.csv",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-137/download?source=datamanager&file=LSDS-28_Histology_OSD_137_Histology_TRANSFORMED.csv",
+    "sha256": "2f67a1885120e0bb708271d58fd65cb8f39b2fb989b87d16e98644712dfa5ef3"
+  },
+  "analysis": {
+    "effect_direction": "FLT minus GC",
+    "standardized_effect": "Hedges g using pooled within-contrast SD",
+    "relative_effects": [
+      "percent change from GC mean",
+      "natural-log response ratio"
+    ],
+    "mode_assignments": "unchanged task3c_cluster_assignments.csv",
+    "OSD-168": "excluded as non-independent ERCC/resequencing material",
+    "inference_or_training": "none"
+  }
+}

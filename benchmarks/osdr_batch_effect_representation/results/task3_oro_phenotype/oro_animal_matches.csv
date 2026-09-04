@@ -1,0 +1,33 @@
+contrast_id,sample_id,OSD,condition,oro_condition,oro_positivity_percent,Space mission,Dissection,geometry_cluster,mode,condition_match,matching_confidence
+C01__OSD-137__RR3__39-day,Mmus_BAL-TAL_LVR_FLT_Rep1_F1,OSD-137,FLT,FLT,21.68,RR-3,Frozen carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C01__OSD-137__RR3__39-day,Mmus_BAL-TAL_LVR_FLT_Rep2_F2,OSD-137,FLT,FLT,21.92,RR-3,Frozen carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C01__OSD-137__RR3__39-day,Mmus_BAL-TAL_LVR_GC_Rep1_G1,OSD-137,GC,GC,9.65,RR-3,Frozen carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C01__OSD-137__RR3__39-day,Mmus_BAL-TAL_LVR_GC_Rep2_G2,OSD-137,GC,GC,6.68,RR-3,Frozen carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C02__OSD-137__RR3__40-day,Mmus_BAL-TAL_LVR_FLT_Rep3_F3,OSD-137,FLT,FLT,21.94,RR-3,Frozen carcass,2,Mode 2,True,exact sample/animal identifier; condition concordant
+C02__OSD-137__RR3__40-day,Mmus_BAL-TAL_LVR_FLT_Rep4_F4,OSD-137,FLT,FLT,13.62,RR-3,Frozen carcass,2,Mode 2,True,exact sample/animal identifier; condition concordant
+C02__OSD-137__RR3__40-day,Mmus_BAL-TAL_LVR_FLT_Rep5_F5,OSD-137,FLT,FLT,13.52,RR-3,Frozen carcass,2,Mode 2,True,exact sample/animal identifier; condition concordant
+C02__OSD-137__RR3__40-day,Mmus_BAL-TAL_LVR_GC_Rep3_G3,OSD-137,GC,GC,21.84,RR-3,Frozen carcass,2,Mode 2,True,exact sample/animal identifier; condition concordant
+C02__OSD-137__RR3__40-day,Mmus_BAL-TAL_LVR_GC_Rep4_G5,OSD-137,GC,GC,3.82,RR-3,Frozen carcass,2,Mode 2,True,exact sample/animal identifier; condition concordant
+C03__OSD-137__RR3__41-day,Mmus_BAL-TAL_LVR_FLT_Rep6_F6,OSD-137,FLT,FLT,15.6,RR-3,Frozen carcass,2,Mode 2,True,exact sample/animal identifier; condition concordant
+C03__OSD-137__RR3__41-day,Mmus_BAL-TAL_LVR_GC_Rep5_G6,OSD-137,GC,GC,12.98,RR-3,Frozen carcass,2,Mode 2,True,exact sample/animal identifier; condition concordant
+C03__OSD-137__RR3__41-day,Mmus_BAL-TAL_LVR_GC_Rep6_G7,OSD-137,GC,GC,13.86,RR-3,Frozen carcass,2,Mode 2,True,exact sample/animal identifier; condition concordant
+C11__OSD-47__RR1-CASIS__21-day,Mmus_C57-6T_LVR_FLT_Rep1_F1,OSD-47,FLT,FLT,23.56,CASIS-rr1,Immediate,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C11__OSD-47__RR1-CASIS__21-day,Mmus_C57-6T_LVR_FLT_Rep2_F2,OSD-47,FLT,FLT,25.56,CASIS-rr1,Immediate,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C11__OSD-47__RR1-CASIS__21-day,Mmus_C57-6T_LVR_GC_Rep1_G2,OSD-47,GC,GC,14.49,CASIS-rr1,Immediate,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C11__OSD-47__RR1-CASIS__21-day,Mmus_C57-6T_LVR_GC_Rep2_G3,OSD-47,GC,GC,13.96,CASIS-rr1,Immediate,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C12__OSD-47__RR1-CASIS__22-day,Mmus_C57-6T_LVR_FLT_Rep3_F4,OSD-47,FLT,FLT,16.28,CASIS-rr1,Immediate,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C12__OSD-47__RR1-CASIS__22-day,Mmus_C57-6T_LVR_GC_Rep3_G5,OSD-47,GC,GC,17.35,CASIS-rr1,Immediate,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C13__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_FLT_I_Rep1_M21,OSD-48,FLT,FLT,14.4,RR1,Upon euthanasia,2,Mode 2,True,exact sample/animal identifier; condition concordant
+C13__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_FLT_I_Rep2_M22,OSD-48,FLT,FLT,24.7,RR1,Upon euthanasia,2,Mode 2,True,exact sample/animal identifier; condition concordant
+C13__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_GC_I_Rep1_M31,OSD-48,GC,GC,1.34,RR1,Upon euthanasia,2,Mode 2,True,exact sample/animal identifier; condition concordant
+C13__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_GC_I_Rep2_M32,OSD-48,GC,GC,0.91,RR1,Upon euthanasia,2,Mode 2,True,exact sample/animal identifier; condition concordant
+C14__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_FLT_C_Rep1_M25,OSD-48,FLT,FLT,7.11,RR1,Carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C14__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_FLT_C_Rep2_M26,OSD-48,FLT,FLT,6.68,RR1,Carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C14__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_FLT_C_Rep3_M27,OSD-48,FLT,FLT,13.45,RR1,Carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C14__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_FLT_C_Rep4_M28,OSD-48,FLT,FLT,26.94,RR1,Carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C14__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_FLT_C_Rep5_M30,OSD-48,FLT,FLT,23.72,RR1,Carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C14__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_GC_C_Rep1_M36,OSD-48,GC,GC,3.82,RR1,Carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C14__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_GC_C_Rep2_M37,OSD-48,GC,GC,4.79,RR1,Carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C14__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_GC_C_Rep3_M38,OSD-48,GC,GC,11.66,RR1,Carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C14__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_GC_C_Rep4_M39,OSD-48,GC,GC,5.35,RR1,Carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant
+C14__OSD-48__RR1-NASA__37-day,Mmus_C57-6J_LVR_GC_C_Rep5_M40,OSD-48,GC,GC,10.57,RR1,Carcass,1,Mode 1,True,exact sample/animal identifier; condition concordant

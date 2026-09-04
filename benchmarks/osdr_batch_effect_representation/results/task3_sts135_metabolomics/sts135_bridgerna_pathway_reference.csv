@@ -1,0 +1,13 @@
+term_id,term,source,discovery_mode,contrast_id,OSD,mode,member_genes,median_member_expression_change
+GO:0009636,response to toxic substance,GO:BP,1,C07__OSD-173__STS-135__not-reported,OSD-173,1,13,0.079125404
+GO:0044282,small molecule catabolic process,GO:BP,1,C07__OSD-173__STS-135__not-reported,OSD-173,1,15,0.24457216
+GO:0043436,oxoacid metabolic process,GO:BP,1,C07__OSD-173__STS-135__not-reported,OSD-173,1,22,0.16213131
+GO:0009056,catabolic process,GO:BP,1,C07__OSD-173__STS-135__not-reported,OSD-173,1,36,0.048641205
+REAC:R-HSA-977606,Regulation of Complement cascade,REAC,1,C07__OSD-173__STS-135__not-reported,OSD-173,1,4,-0.3101344
+KEGG:03272,Virion - Hepatitis viruses,KEGG,2,C07__OSD-173__STS-135__not-reported,OSD-173,1,4,0.0512743
+KEGG:04146,Peroxisome,KEGG,1,C07__OSD-173__STS-135__not-reported,OSD-173,1,5,0.26635933
+GO:0010876,lipid localization,GO:BP,1,C07__OSD-173__STS-135__not-reported,OSD-173,1,14,0.53968644
+REAC:R-HSA-8978868,Fatty acid metabolism,REAC,1,C07__OSD-173__STS-135__not-reported,OSD-173,1,7,0.26635933
+REAC:R-HSA-2173782,Binding and Uptake of Ligands by Scavenger Receptors,REAC,1,C07__OSD-173__STS-135__not-reported,OSD-173,1,4,0.023556232
+GO:0044281,small molecule metabolic process,GO:BP,2,C07__OSD-173__STS-135__not-reported,OSD-173,1,27,0.0
+KEGG:04979,Cholesterol metabolism,KEGG,1,C07__OSD-173__STS-135__not-reported,OSD-173,1,4,0.38721824

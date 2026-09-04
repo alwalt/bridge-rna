@@ -1,0 +1,19 @@
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Unknown extension is not supported and will be removed
+  warn(msg)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Unknown extension is not supported and will be removed
+  warn(msg)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Unknown extension is not supported and will be removed
+  warn(msg)
+                  profile     OSD           mode           resolution                                           constituent_contrasts  proteins                                           limitation
+            OSD-47_pooled  OSD-47         Mode 1 mission-level pooled C11__OSD-47__RR1-CASIS__21-day | C12__OSD-47__RR1-CASIS__22-day      4903          cannot separate 21-day and 22-day contrasts
+            OSD-48_pooled  OSD-48 Mixed Mode 1/2 mission-level pooled   C13__OSD-48__RR1-NASA__37-day | C14__OSD-48__RR1-NASA__37-day      4501 cannot separate immediate Mode 2 from carcass Mode 1
+C01__OSD-137__RR3__39-day OSD-137         Mode 1         animal-level                                       C01__OSD-137__RR3__39-day      3248                                                 none
+C02__OSD-137__RR3__40-day OSD-137         Mode 2         animal-level                                       C02__OSD-137__RR3__40-day      3590                                                 none
+C03__OSD-137__RR3__41-day OSD-137         Mode 2         animal-level                                       C03__OSD-137__RR3__41-day      3179                                                 none
+
+  mode_relation  pairs  cosine_mean  cosine_median  spearman_mean  spearman_median
+different_mode      4    -0.110644       0.008039       0.008457         0.015591
+    mixed_mode      4     0.082717       0.070046       0.019339         0.015582
+     same_mode      2     0.083796       0.083796       0.060184         0.060184
+
+CONCLUSION: inconclusive: only OSD-137 retains animal-level quantitative reporter channels; OSD-47 and OSD-48 published tables are mission-level aggregates, and OSD-48 pools one contrast from each mode

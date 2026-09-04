@@ -1,0 +1,13 @@
+analysis,process,metabolites,median_log2FC,mean_log2FC,increased,decreased
+exact_animal_primary,Fatty-acid / lipid metabolism,109,-0.16919385071443252,-0.55297424849833,47,62
+exact_animal_primary,Energy / carbohydrate metabolism,38,-0.6794897498538415,-0.7836756749395013,8,30
+exact_animal_primary,Bile acids,11,-0.03993905986505578,-0.0065463516486171,5,6
+exact_animal_primary,Other measured metabolism,132,-0.1700738443266247,-0.1964739730864049,53,78
+exact_animal_primary,Glutathione / oxidative stress,8,-0.2718658814557082,-0.25064959625087135,2,6
+exact_animal_primary,Corticosterone,1,0.38107488934575795,0.38107488934575795,1,0
+same_cohort_sensitivity,Fatty-acid / lipid metabolism,109,0.07787814487438849,0.04637729955002613,66,43
+same_cohort_sensitivity,Energy / carbohydrate metabolism,38,-0.008878299541797316,-0.24429924583422724,19,19
+same_cohort_sensitivity,Bile acids,11,0.44676041842889125,0.6260940396479535,10,1
+same_cohort_sensitivity,Other measured metabolism,132,-0.005175877713507783,0.0077645407103475094,63,68
+same_cohort_sensitivity,Glutathione / oxidative stress,8,-0.0554404308483956,-0.02653325398532648,3,5
+same_cohort_sensitivity,Corticosterone,1,0.5956113030468067,0.5956113030468067,1,0

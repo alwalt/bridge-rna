@@ -1,0 +1,29 @@
+       representation     OSD library_selection                                   library_kit layout     read_length  read_depth_min  read_depth_median  read_depth_max          instrument facility             ERCC       ERCC_mix  samples
+ OSD-48 original RR-1  OSD-48  polyA enrichment Illumina TruSeq stranded RNA library prep kit SINGLE  50 {base pair}        30340583         36449032.5        43556444 Illumina HiSeq 3000 UC Davis    none declared not applicable       14
+ OSD-168 RR-1 no-ERCC OSD-168    ribo-depletion                        KAPA RNA HyperPrep Kit PAIRED 150 {base pair}        91800703         99405049.5       113789479 Illumina HiSeq 4000 UC Davis Without Spike-in not applicable       20
+    OSD-168 RR-1 ERCC OSD-168    ribo-depletion                        KAPA RNA HyperPrep Kit PAIRED 150 {base pair}        91722516        103101794.0       119797336 Illumina HiSeq 4000 UC Davis    With Spike-in  Mix 1 | Mix 2       20
+OSD-137 original RR-3 OSD-137    ribo-depletion                                  not reported PAIRED 150 {base pair}        80870328         87878911.0        97275972 Illumina HiSeq 4000 UC Davis    none declared not applicable       18
+    OSD-168 RR-3 ERCC OSD-168    ribo-depletion                        KAPA RNA HyperPrep Kit PAIRED 150 {base pair}       107440429        122398254.5       155912628 Illumina HiSeq 4000 UC Davis    With Spike-in  Mix 1 | Mix 2       12
+
+RR1
+             representation  response_norm  mode1_projection  mode2_projection  fixed_mode_assignment
+RR1_OSD48_original_matched       0.931650          0.864694         -0.938512                      1
+        RR1_OSD168_no-ERCC       0.485264         -0.921437          0.925512                      2
+       RR1_OSD168_all_ERCC       0.506942         -0.916915          0.929631                      2
+
+Shift alignment
+ technical_condition  matched_animals  FLT_animals  GC_animals  mean_sample_shift_norm  response_change_norm  response_change_vs_mean_technical_shift_cosine  response_change_vs_paired_shift_PC1_abs_cosine                                                                      note
+            no-ERCC                9            4           5                3.248422              1.352972                                        0.974456                                        0.999504 paired same-animal estimate; PC1 is descriptive and fitted on these pairs
+               ERCC                9            4           5                3.271363              1.374263                                        0.974715                                        0.999564 paired same-animal estimate; PC1 is descriptive and fitted on these pairs
+
+Tests
+                                                test   effect  permutation_or_exact_p                                                                 note
+        polyA vs ribodepleted fixed mode membership 4.500000                0.559441                                Fisher exact; studies not independent
+polyA vs ribodepleted mode-position mean difference 0.556472                0.093906 exact label permutation; descriptive because library is study-nested
+
+Ribo
+       relation  count      mean    median      std
+different_mode     24 -0.643045 -0.673569 0.206323
+     same_mode     21  0.719157  0.787396 0.166714
+
+Classification B; ribo ARI=1.000

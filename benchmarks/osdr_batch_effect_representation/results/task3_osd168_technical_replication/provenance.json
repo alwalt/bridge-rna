@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-09-04T07:43:02.600575+00:00",
+  "classification": "B_partial_mixed_preservation",
+  "OSD168_independent_biological_replication": false,
+  "exact_animal_matches": 30,
+  "OSD168_samples_audited": 52,
+  "technical_comparisons": 10,
+  "mean_cosine": 0.21031149625778198,
+  "median_cosine": 0.7334142029285431,
+  "mode_preservation_rate": 0.4
+}

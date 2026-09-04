@@ -1,0 +1,6 @@
+profile,OSD,mode,resolution,constituent_contrasts,proteins,limitation
+OSD-47_pooled,OSD-47,Mode 1,mission-level pooled,C11__OSD-47__RR1-CASIS__21-day | C12__OSD-47__RR1-CASIS__22-day,4903,cannot separate 21-day and 22-day contrasts
+OSD-48_pooled,OSD-48,Mixed Mode 1/2,mission-level pooled,C13__OSD-48__RR1-NASA__37-day | C14__OSD-48__RR1-NASA__37-day,4501,cannot separate immediate Mode 2 from carcass Mode 1
+C01__OSD-137__RR3__39-day,OSD-137,Mode 1,animal-level,C01__OSD-137__RR3__39-day,3248,none
+C02__OSD-137__RR3__40-day,OSD-137,Mode 2,animal-level,C02__OSD-137__RR3__40-day,3590,none
+C03__OSD-137__RR3__41-day,OSD-137,Mode 2,animal-level,C03__OSD-137__RR3__41-day,3179,none

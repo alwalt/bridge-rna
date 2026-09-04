@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-04T07:32:49.211988+00:00",
+  "RNA_OSD": "OSD-173",
+  "metabolomics_OSD": "OSD-108",
+  "primary_FLT_animals": [
+    "F58",
+    "F64"
+  ],
+  "primary_GC_animals": [
+    "G44"
+  ],
+  "unmatched_RNA_animal": [
+    "G40"
+  ],
+  "metabolites": 299,
+  "data": "Metabolon median-scaled, minimum-imputed released table",
+  "primary_inference": "descriptive; n=2 FLT vs n=1 GC",
+  "same_cohort_sensitivity_Spearman_with_primary": 0.7311808938070975,
+  "classification": "C_inconclusive_due_to_small_exact_matched_sample_size"
+}

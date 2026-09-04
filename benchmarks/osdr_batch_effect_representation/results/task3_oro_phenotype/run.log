@@ -1,0 +1,21 @@
+Matched 32/32 Task 3 animals across 7 biological contrasts
+    OSD   mission                    contrast_id BridgeRNA_mode  n_FLT  n_GC  mean_ORO_FLT  mean_ORO_GC  delta_ORO  percent_change_vs_GC  log_response_ratio  hedges_g                                      matching_confidence      dissection
+OSD-137       RR3      C01__OSD-137__RR3__39-day         Mode 1      2     2         21.80        8.165     13.635            166.993264            0.982053  5.229706 all animals exact by OSDR sample name; FLT/GC concordant  Frozen carcass
+ OSD-47 RR1_CASIS C11__OSD-47__RR1-CASIS__21-day         Mode 1      2     2         24.56       14.225     10.335             72.653779            0.546118  5.708669 all animals exact by OSDR sample name; FLT/GC concordant       Immediate
+ OSD-47 RR1_CASIS C12__OSD-47__RR1-CASIS__22-day         Mode 1      1     1         16.28       17.350     -1.070             -6.167147           -0.063655       NaN all animals exact by OSDR sample name; FLT/GC concordant       Immediate
+ OSD-48  RR1_NASA  C14__OSD-48__RR1-NASA__37-day         Mode 1      5     5         15.58        7.238      8.342            115.252832            0.766643  1.062000 all animals exact by OSDR sample name; FLT/GC concordant         Carcass
+OSD-137       RR3      C02__OSD-137__RR3__40-day         Mode 2      3     2         16.36       12.830      3.530             27.513640            0.243053  0.307530 all animals exact by OSDR sample name; FLT/GC concordant  Frozen carcass
+OSD-137       RR3      C03__OSD-137__RR3__41-day         Mode 2      1     2         15.60       13.420      2.180             16.244411            0.150525       NaN all animals exact by OSDR sample name; FLT/GC concordant  Frozen carcass
+ OSD-48  RR1_NASA  C13__OSD-48__RR1-NASA__37-day         Mode 2      2     2         19.55        1.125     18.425           1637.777778            2.855192  2.042604 all animals exact by OSDR sample name; FLT/GC concordant Upon euthanasia
+
+Mode summary:
+                mode               metric  contrasts        mean    median       min         max  positive  negative  exact_label_permutation_p
+             Mode 1            delta_ORO          4    7.810500  9.338500 -1.070000   13.635000       3.0       1.0                        NaN
+             Mode 1 percent_change_vs_GC          4   87.183182 93.953305 -6.167147  166.993264       3.0       1.0                        NaN
+             Mode 1             hedges_g          4    4.000125  5.229706  1.062000    5.708669       3.0       0.0                        NaN
+             Mode 2            delta_ORO          3    8.045000  3.530000  2.180000   18.425000       3.0       0.0                        NaN
+             Mode 2 percent_change_vs_GC          3  560.511943 27.513640 16.244411 1637.777778       3.0       0.0                        NaN
+             Mode 2             hedges_g          3    1.175067  1.175067  0.307530    2.042604       2.0       0.0                        NaN
+Mode 1 minus Mode 2            delta_ORO          7   -0.234500       NaN       NaN         NaN       NaN       NaN                        1.0
+Mode 1 minus Mode 2 percent_change_vs_GC          7 -473.328761       NaN       NaN         NaN       NaN       NaN                        0.4
+Mode 1 minus Mode 2             hedges_g          7    2.825058       NaN       NaN         NaN       NaN       NaN                        0.3

@@ -1,0 +1,3 @@
+vocabulary,genes,samples,maximum_nonzero_PCs,PCA20_actual,PCA20_cumulative_variance,high_dim_actual,high_dim_cumulative_variance
+full,51486,112,111,20,0.9264658689498901,111,1.0
+BridgeRNA,15165,112,111,20,0.9376005530357361,111,0.9999999403953552

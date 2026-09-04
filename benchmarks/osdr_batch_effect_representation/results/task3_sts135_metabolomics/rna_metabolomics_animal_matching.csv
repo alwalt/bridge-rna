@@ -1,0 +1,5 @@
+contrast_id,rna_sample_id,rna_animal,rna_condition,metabolomics_OSD,metabolomics_source_name,metabolomics_sample_name,metabolomics_extract_name,exact_animal_match,evidence_level,included_primary,linkage_basis
+C07__OSD-173__STS-135__not-reported,Mmus_C57-6CR_LVR_FLT_Rep1_F58,F58,FLT,OSD-108,Flight 58,LOMA-00094,LOMA-00094 Extract,True,A_exact_animal,True,OSD-173 animal token equals OSD-108 ISA Source Name animal number
+C07__OSD-173__STS-135__not-reported,Mmus_C57-6CR_LVR_FLT_Rep2_F64,F64,FLT,OSD-108,Flight 64,LOMA-00096,LOMA-00096 Extract,True,A_exact_animal,True,OSD-173 animal token equals OSD-108 ISA Source Name animal number
+C07__OSD-173__STS-135__not-reported,Mmus_C57-6CR_LVR_GC_Rep1_G40,G40,GC,OSD-108,,,,False,B_same_cohort_only,False,No identical animal number in OSD-108 ISA source table
+C07__OSD-173__STS-135__not-reported,Mmus_C57-6CR_LVR_GC_Rep2_G44,G44,GC,OSD-108,AEM Control 44,LOMA-00092,LOMA-00092 Extract,True,A_exact_animal,True,OSD-173 animal token equals OSD-108 ISA Source Name animal number

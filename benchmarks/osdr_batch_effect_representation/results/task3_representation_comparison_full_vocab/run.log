@@ -1,0 +1,17 @@
+vocabulary  genes  samples  maximum_nonzero_PCs  PCA20_actual  PCA20_cumulative_variance  high_dim_actual  high_dim_cumulative_variance
+      full  51486      112                  111            20                   0.926466              111                           1.0
+ BridgeRNA  15165      112                  111            20                   0.937601              111                           1.0
+
+       representation  Genes  Dimensions  RR1_preservation  RR1_ERCC_preservation  OSD168_noERCC_vs_ERCC  RR3_39_preservation  RR3_40_preservation  same_mode_cosine  same_mode_median  different_mode_cosine  different_mode_median  same_minus_different  silhouette      ARI
+     full_expression  51486       51486          0.255206               0.217402               0.909664             0.508765             0.646729          0.136457          0.106843              -0.088379              -0.102854              0.224836    0.196666 0.601770
+          full_pca20  51486          20          0.334680               0.294025               0.995005             0.774344             0.947715          0.182588          0.251842              -0.181881              -0.203579              0.364468    0.292002 0.285714
+        full_pca_max  51486         111          0.255208               0.217402               0.909665             0.508765             0.646728          0.136457          0.106842              -0.088379              -0.102853              0.224835    0.196665 0.601770
+  bridge_vocab_pca20  15165          20          0.414249               0.406719               0.995639             0.774976             0.981328          0.193757          0.251009              -0.215992              -0.295746              0.409750    0.336925 0.285714
+bridge_vocab_pca_max  15165         111          0.369168               0.360599               0.956406             0.652304             0.822429          0.165036          0.155396              -0.127024              -0.159108              0.292060    0.256546 0.285714
+        BridgeRNA512  15165         512         -0.804119              -0.808434               0.998061             0.790003             0.916649          0.719157          0.787396              -0.643045              -0.673569              1.362202    0.816235 1.000000
+
+        space  max_abs_cosine_difference_expression_vs_all_PC
+        full                                        0.000002
+bridge_vocab                                        0.000001
+
+Classification: D_Bridge_stronger_geometry_but_worse_RR1_technical_reproducibility
