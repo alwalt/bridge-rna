@@ -1,0 +1,6 @@
+stage,evidence,finding
+API dataset metadata,OSD-245 project identifier and project title identify RR-6; SpaceX-13 mission.,RR-6
+API sample metadata,"ISS-T rows have ~60 day duration, carcass dissection, and FLT euthanasia on ISS; LAR rows have ~30 day duration and upon-euthanasia dissection on Earth.",ISS-T and LAR are within-RR-6 strata
+Original local parser,"mission(245, sample) returned RR3 when 'ISS-T' occurred, else RR6.",local parsing/mapping bug: ISS-T was incorrectly interpreted as a mission
+Impact,The same 20 ISS-T and 19 LAR FLT/GC samples remained paired within separate strata; only the mission label was wrong.,"annotation and mission-boundary summaries affected; sample membership, FLT/GC, and contrast construction unaffected"
+Corrected parser,OSD-245 now maps to RR6_ISS_T or RR6_LAR.,consistent with API; no discrepancy silently altered by this audit

@@ -1,0 +1,142 @@
+{
+  "REST_URL": "https://visualization.osdr.nasa.gov/biodata/api/v2/dataset/OSD-168/",
+  "assays": {
+    "REST_URL": "https://visualization.osdr.nasa.gov/biodata/api/v2/dataset/OSD-168/assays/"
+  },
+  "files": {
+    "REST_URL": "https://visualization.osdr.nasa.gov/biodata/api/v2/dataset/OSD-168/files/"
+  },
+  "metadata": {
+    "authoritative source url": "OSD-168/",
+    "flight program": "International Space Station (ISS)",
+    "mission": {
+      "end date": [
+        "10/25/2014",
+        "05/11/2016"
+      ],
+      "start date": [
+        "09/21/2014",
+        "04/08/2016"
+      ],
+      "name": [
+        "SpaceX-4",
+        "SpaceX-8"
+      ]
+    },
+    "material type": "Liver",
+    "project identifier": "RR-1, RR-3",
+    "accession": "OSD-168",
+    "identifiers": "GLDS-168",
+    "study identifier": "OSD-168",
+    "study protocol name": [
+      "Animal Husbandry",
+      "Sample Collection",
+      "radiation dosimetry",
+      "nucleic acid extraction",
+      "spike-in control protocol",
+      "RNA sequencing library construction",
+      "nucleic acid sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "study assay technology type": "RNA Sequencing (RNA-Seq)",
+    "acknowledgments": "",
+    "study assay technology platform": "Illumina HiSeq 4000",
+    "study person": {
+      "last name": "Galazka",
+      "middle initials": "",
+      "first name": "Jonathan"
+    },
+    "study protocol type": [
+      "Animal Husbandry",
+      "sample collection protocol",
+      "chronic",
+      "nucleic acid extraction",
+      "spike-in control",
+      "library construction",
+      "nucleic acid sequencing",
+      "data transformation",
+      "data transformation"
+    ],
+    "space program": "NASA",
+    "study title": "RR-1 and RR-3 mouse liver transcriptomics with and without ERCC control RNA spike-ins",
+    "study factor type": [
+      "Space Flight",
+      "ERCC RNA spike-in",
+      "Space Mission"
+    ],
+    "study public release date": 1584316800,
+    "parameter value": "",
+    "thumbnail": "/geode-py/ws/studies/OSD-168/image",
+    "study factor name": [
+      "Spaceflight",
+      "Spike-in Quality Control",
+      "Space Mission"
+    ],
+    "study assay measurement type": "transcription profiling",
+    "project type": "Spaceflight Study",
+    "factor value": "",
+    "data source accession": "",
+    "project title": "Rodent Research",
+    "study funding agency": "This investigation was funded by the NASA Space Biology Program Office, Space Life and Physical Sciences Research and Applications Division, and additional funding from the International Space Station Research Integration Office to the Space Biology GeneLab Project.",
+    "study protocol description": [
+      "RR-1: A cohort of 16-week-old female C57BL/6J mice (Jackson Lab) were flown to the ISS, housed in the Rodent Habitat and were subjected to microgravity for 37 days. Mice of similar age, sex and strain were used for ground controls housed in identical hardware and matching ISS environmental conditions. Additionally, mice from the same cohort were used as basal control and vivarium control. Basal control mice were euthanized the day after launch as baseline references. Vivarium animals were housed in standard vivarium cages for the same amount of time as spaceflight and ground control animals. The flight animals were euthanized by ISS crew with Euthasol injection followed by cervical dislocation, frozen in a pre-chilled Mini Cold Bag (MCB) before transfer to the MELFI freezer (-80 C) and brought back to Earth. All the control group mice were processed with the same protocol of flight mice. RR-3:A cohort of 12-week-old female BALB/c mice were flown to the ISS, housed in the Rodent Habitat and were subjected to microgravity for 39-42 days. Mice of similar age, sex and strain were used for ground controls housed in identical hardware and matching ISS environmental conditions. Basal mice were from the same cohort and were dissected at time of launch.",
+      "At the end of the mission, spaceflight and ground controls had blood collected, were euthanized and one hindlimb removed and whole carcasses were stored at -80 C until BSP (Biospecimen Sharing Program) dissection on earth. [Spaceflight and ground control mice- untreated, injected with control Ig-G (sham treated). Basal mice received no injections.]",
+      "RR-1: Samples were collected and processed as described in GLDS-48 (https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-48). Mouse carcasses were removed from -80 C storage and thawed at room temperature for 15-20 minutes. Multiple tissues, including liver, were collected from each carcass. Total dissection time for each carcass was no longer than 30 minutes since collection of the first tissue.",
+      "Liver was preserved in RLT buffer, homogenized and snap frozen with liquid nitrogen. RR-3: Samples were collected and processed as described in GLDS-137 (https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-137). Mouse carcasses were removed from -80 C storage and thawed at room temperature for 15-20 minutes for dissection. Each carcass dissection time was no longer than 1 hour from collection of the first tissue. Multiple tissues, including the liver tissue, were collected from each carcass. Liver tissues were harvested and snap frozen in LN2, then stored separately in -80 C freezer for sample processing. GeneLab Sample Processing Lab processed the liver tissues from spaceflight, ground control, and basal control groups for transcriptomics.",
+      "The absorbed dose of ionizing radiation received by biological payloads on the International Space Station (ISS) depends on a number of factors, including date and duration of exposure and location of the payload on the ISS. Some of the factors that lead to variations in the absorbed dose rate in orbit are ISS altitude, period during the solar cycle, and location of the sample\u2014the ISS module and the specific location within that module. Shielding effects from the biological payload container or habitat have not been taken into account. The measured absorbed dose can vary based on the dosimetry instrument(s) used. Radiation monitoring on the ISS is not standardized across modules; each international partner has its own suite of instruments, with differing technologies, sensitivities and analysis methodologies, including criteria for distinguishing between lightly ionizing particles (mainly protons) and highly ionizing particles (mainly galactic cosmic ray nuclei). Both active and passive dosimeters are used. Active dosimeters are powered and data are read out and stored and/or telemetered to ground. Some active dosimeters provide additional levels of detail such as time resolution, energy deposition and particle identification. Passive dosimeters are unpowered, record constantly and are read out upon return to the ground. The dose in the metadata is the dose recorded by the radiation detector closest to the sample. In most cases that detector will be in the same ISS module; in cases where data from a detector in the same module are not available, the dose is extrapolated using data from periods where data are available from detectors in multiple modules, including the module containing the payload. The duration of the experiment is defined as the time in space during which the specimen was \u201cliving\u201d, including the time on the delivery vehicle (e.g. SpaceX Dragon). Once the specimen was frozen or fixed, the experiment was considered stopped. Details of ISS dosimetry and a table with doses for all GeneLab ISS experiment ISS datasets are available at https://genelab.nasa.gov/environmental/radiation.",
+      "Samples were generated at the time of sample collection for GLDS-48 (https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-48) and GLDS-137 (https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-137) studies. Extracted RNA aliquots were stored at -80 C. RNA was extracted using the AllPrep DNA/RNA Mini Kit (Qiagen, Valencia, CA). Briefly, homogenization buffer for RNA purification was made by adding 1:100 volumes beta-mercaptoethanol to Buffer RLT and kept on ice until use. Approximately 25 mg of frozen liver tissue was immediately placed in 600 uL of the Buffer RLT solution. Each sample was then homogenized for approximately 20 seconds at 21,000 RPM using a Polytron PT1300D handheld homogenizer with a 5 mm standard dispersing aggregate tip (Kinematica, Bohemia, NY). Homogenates were centrifuged for 3 minutes at room temperature at 21,300 g to remove cell debris. Following the manufacturer's protocol, RNA were isolated and purified from the supernatant. RNA was eluted in 40 uL RNase-free H2O. RNA concentrations were measured using Qubit 3.0 Fluorometer (ThermoFisher Scientific, Waltham, MA). RNA quality was assessed using the Agilent 2100 Bioanalyzer with the Agilent RNA 6000 Nano Kit or Agilent RNA 6000 Pico Kit (Agilent Technologies, Santa Clara, CA).",
+      "After nucleic acid extraction, samples were aliquoted and stored at -80 C . Samples designated for sequencing were transferred to dry ice to avoid thawing. ERCC ExFold RNA Spike-In Mixes 1 or 2 (Thermo Fisher Scientific, Waltham, MA, cat# 4456739) at 1:100 dilution were then pipetted on top of the frozen samples at the concentrations suggested by the manufacturer. Samples were returned to the -80 C freezer until transfer to omics core facility.",
+      "RNA sequencing library construction was peroformed by UC Davis Genome Center. Ribosomal RNA was removed with the Illumina RiboZero Gold ribo-depletion kit before RNA sequencing libraries were constructred using the Kapa RNA Hyper strand-specific kit. The libraries were QC-ed by bioanalyzer and quantified by fluorometric Qubit measurements.",
+      "The RNA library sequencing was performed on the Illumina HiSeq 4000 platform, across 40 libraries with 150 bp paired end reads (forward anti-sense strand; reverse read sense strand). 100 million reads per sample was requested. Performed by UC Davis Genome Center.",
+      "Raw fastq files from each sample were assessed for % rRNA using HTStream SeqScreener (version 1.0.0) screened against a fasta file of Mus musculus rRNA sequences retrieved from NCBI on 01-Sep-2021. Raw fastq file quality was evaluated with FastQC (version 0.12.1) and MultiQC (version 1.26) was used to generate MultiQC reports.",
+      "Data were processed as described in GL-DPPD-7101-G (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-G.md), using NF_RCP version 2.1.0 (https://github.com/nasa/GeneLab_RNASeq_Workflow/tree/NF_RCP_2.1.0). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.2). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports. Mus Musculus STAR and RSEM references were built using STAR (version 2.7.11b) and RSEM (version 1.3.3), respectively, Ensembl release 112, genome assembly GRCm39 (Mus_musculus.GRCm39.dna.primary_assembly.fa) concatenated with ERCC92.fa from ThermoFisher (https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip), and the following gtf annotation file: Mus_musculus.GRCm39.112.gtf concatenated with the ERCC92.gtf file from ThermoFisher (https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip). Trimmed reads were aligned to the Mus Musculus + ERCC STAR reference with STAR (version 2.7.11b) and alignment log files were compiled with MultiQC (version 1.26). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 5.0.4), gene body coverage using RSeQC geneBody_coverage.py (version 5.0.4), inner distance was assessed using RSeQC inner_distance.py (version 5.0.4), and distribution of RNA features using RSeQC read_distribution.py (version 5.0.4). Aligned reads from all samples were quantified using RSEM (version 1.3.3), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.26). To create a set of rRNA-removed quantification data, Ensembl IDs mapping to ribosomal RNA (rRNA) were removed from the RSEM gene count data. Both the original set of RSEM quantification data and the rRNA-removed data were subject to differential gene expression analysis as follows. A runsheet was generated with dp_tools (version 1.3.8) and the runsheet and quantification data were imported to R (version 4.4.2) with tximport (version 1.34.0), ERCC genes were removed, and the non-ERCC genes were normalized with DESeq2 (version 1.46.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.4.2) using DESeq2 (version 1.46.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110-A (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable-A_1.1.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110-A/GL-DPPD-7110-A.md), with STRINGdb (version 2.16.4), PANTHER.db (version 1.0.12), and org.Mm.eg.db (version 3.19.1). Assessment of ERCC spiked genes was performed as detailed in the ERCC_analysis_GLbulkRNAseq.html report."
+    ],
+    "experiment platform": "Rodent Habitat",
+    "characteristics": "",
+    "study grant number": "",
+    "study publication author list": [
+      "Jiang P",
+      "Green SJ",
+      "Chlipala GE",
+      "Turek FW",
+      "Vitaterna MH",
+      "Beheshti A",
+      "Chakravarty K",
+      "Fogle H",
+      "Fazelinia H",
+      "Silveira WAD",
+      "Boyko V",
+      "Lai Polo S",
+      "Saravia-Butler AM",
+      "Hardiman G",
+      "Taylor D",
+      "Galazka JM",
+      "Costes SV",
+      "McDonald TJ",
+      "Stainforth R",
+      "Miller J",
+      "Cahill T",
+      "da Silveira WA",
+      "Rathi",
+      "KS",
+      "Hardiman G",
+      "Taylor D",
+      "Costes SV",
+      "Chauhan V",
+      "Meller R",
+      "Beheshti A"
+    ],
+    "project link": "",
+    "study publication title": [
+      "Reproducible changes in the gut microbiome suggest a shift in microbial and host metabolism during spaceflight",
+      "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver",
+      "NASA GeneLab Platform Utilized for Biological Response to Space Radiation in Animal Models"
+    ],
+    "managing nasa center": "Ames Research Center (ARC)",
+    "study description": "Proper interpretation of RNA sequencing data requires an understanding of assay sensitivity and sources of variability. To this end, the External RNA Control Consortium (ERCC) developed a standard set of 92 poly-adenylated RNA transcripts that are orthogonal to mammalian RNA that can be added to RNA extracts before library generation and sequencing. The presence of these RNA standards at known ratios improves interpretation of RNA sequencing datasets. To test the utility of the ERCC RNA controls, total RNA extracted from mouse livers from the Rodent Research 1 (flight, ground control, basal control and vivarium control groups) and Rodent Research 3 (flight, ground control and basal control groups) missions were sequenced with and without the ERCC control RNA (RR-3 liver samples without ERCC control have been sequenced previously and the dataset is released in the GLDS-137). To allow comparison within and between groups, ERCC Mix 1 or Mix 2 were added to half of the samples from each group, respectively.",
+    "organism": "Mus musculus",
+    "data source type": "cgene",
+    "esa acronym": ""
+  }
+}

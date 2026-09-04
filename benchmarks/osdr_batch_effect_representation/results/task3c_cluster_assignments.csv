@@ -2,10 +2,10 @@ contrast_id,geometry_cluster,heatmap_order,OSD,mission,strain,age_at_launch,sex,
 C02__OSD-137__RR3__40-day,2,0,OSD-137,RR3,BALB/c,12 {week},Female,Liver,40 {day},ribodepleted,UC Davis,PE 150bp 100M,not_reported,Liquid Nitrogen,sample=Liquid Nitrogen,3,2,5
 C06__OSD-168__RR3__40-day,2,1,OSD-168,RR3,BALB/c,12 {week},Female,Liver,40 {day},ribodepleted,UC Davis,PE 150bp 100M,not_reported,Liquid Nitrogen,sample=Liquid Nitrogen,2,2,4
 C13__OSD-48__RR1-NASA__37-day,2,2,OSD-48,RR1_NASA,C57BL/6J,16 {week},Female,Liver,37 {day},polyA,UC Davis,SE 50bp 30M,Mini Cold Bag to -80C freezer,Mini Cold Bag to -80C freezer,carcass=Mini Cold Bag to -80C freezer; sample=Mini Cold Bag to -80C freezer,2,2,4
-C10__OSD-245__RR6__not-reported,2,3,OSD-245,RR6,C57BL/6NTac,36 {week},Female,Liver,not_reported,ribodepleted,GeneLab SPL,PE 149bp 60M,{Not Available},Liquid Nitrogen,sample=Liquid Nitrogen,10,9,19
+C10__OSD-245__RR6-LAR__not-reported,2,3,OSD-245,RR6_LAR,C57BL/6NTac,36 {week},Female,Liver,not_reported,ribodepleted,GeneLab SPL,PE 149bp 60M,{Not Available},Liquid Nitrogen,sample=Liquid Nitrogen,10,9,19
 C03__OSD-137__RR3__41-day,2,4,OSD-137,RR3,BALB/c,12 {week},Female,Liver,41 {day},ribodepleted,UC Davis,PE 150bp 100M,not_reported,Liquid Nitrogen,sample=Liquid Nitrogen,1,2,3
 C04__OSD-168__RR1-NASA__37-day,2,5,OSD-168,RR1_NASA,C57BL/6J,16 {week},Female,Liver,37 {day},ribodepleted,UC Davis,PE 150bp 100M,not_reported,Liquid Nitrogen,sample=Liquid Nitrogen,10,10,20
-C09__OSD-245__RR3__not-reported,2,6,OSD-245,RR3,C57BL/6NTac,36 {week},Female,Liver,not_reported,ribodepleted,GeneLab SPL,PE 149bp 60M,-80 {degree Celsius},Liquid Nitrogen,carcass=-80 {degree Celsius}; sample=Liquid Nitrogen,10,10,20
+C09__OSD-245__RR6-ISS-T__not-reported,2,6,OSD-245,RR6_ISS_T,C57BL/6NTac,36 {week},Female,Liver,not_reported,ribodepleted,GeneLab SPL,PE 149bp 60M,-80 {degree Celsius},Liquid Nitrogen,carcass=-80 {degree Celsius}; sample=Liquid Nitrogen,10,10,20
 C11__OSD-47__RR1-CASIS__21-day,1,7,OSD-47,RR1_CASIS,C57BL/6NTac,8 {month},Female,Liver,21 {day},polyA,UC Davis,SE 50bp 30M,not_reported,Mini Cold Bag,sample=Mini Cold Bag,2,2,4
 C08__OSD-242__RR9__not-reported,1,8,OSD-242,RR9,C57BL/6J,10 {week},Male,Liver,not_reported,ribodepleted,GeneLab SPL,PE 149bp 60M,not_reported,Liquid Nitrogen,sample=Liquid Nitrogen,5,4,9
 C05__OSD-168__RR3__39-day,1,9,OSD-168,RR3,BALB/c,12 {week},Female,Liver,39 {day},ribodepleted,UC Davis,PE 150bp 100M,not_reported,Liquid Nitrogen,sample=Liquid Nitrogen,2,2,4

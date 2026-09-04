@@ -15,7 +15,8 @@ RESULTS = HERE / "results"
 WORK = HERE / "work"
 MISSION_COLORS = {
     "RR1_CASIS": "#F8766D", "RR1_NASA": "#B79F00", "RR3": "#00BA38",
-    "RR6": "#00BFC4", "RR9": "#619CFF", "STS_135": "#F564E3",
+    "RR6_ISS_T": "#00BFC4", "RR6_LAR": "#00BFC4",
+    "RR9": "#619CFF", "STS_135": "#F564E3",
 }
 
 RAW_META_COLUMNS = {

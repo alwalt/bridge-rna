@@ -1,0 +1,89 @@
+{
+  "REST_URL": "https://visualization.osdr.nasa.gov/biodata/api/v2/dataset/OSD-242/",
+  "assays": {
+    "REST_URL": "https://visualization.osdr.nasa.gov/biodata/api/v2/dataset/OSD-242/assays/"
+  },
+  "files": {
+    "REST_URL": "https://visualization.osdr.nasa.gov/biodata/api/v2/dataset/OSD-242/files/"
+  },
+  "metadata": {
+    "authoritative source url": "OSD-242/",
+    "flight program": "International Space Station (ISS)",
+    "mission": {
+      "end date": "9/17/17",
+      "start date": "8/14/17",
+      "name": "SpaceX-12"
+    },
+    "material type": "Liver",
+    "project identifier": "RR-9",
+    "accession": "OSD-242",
+    "identifiers": "GLDS-242",
+    "study identifier": "OSD-242",
+    "study protocol name": [
+      "animal husbandry",
+      "sample collection",
+      "nucleic acid extraction",
+      "spike-in protocol",
+      "library construction",
+      "nucleic acid sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "study assay technology type": "RNA Sequencing (RNA-Seq)",
+    "acknowledgments": "",
+    "study assay technology platform": "Illumina NovaSeq 6000",
+    "study person": {
+      "last name": "Galazka Lai Polo Vallota-Eastman Saravia-Butler Fogle Bense Torres Yehia Chen Narang Dinh Costes Gebre",
+      "middle initials": "M M W T V G",
+      "first name": "Jonathan San-Huei Alec Amanda Homer Nicholas Alexis Jihan Yi-Chun Shyamli Marie Sylvain Samrawit"
+    },
+    "study protocol type": [
+      "Animal Husbandry",
+      "sample collection",
+      "nucleic acid extraction",
+      "spike-in protocol",
+      "library construction",
+      "nucleic acid sequencing",
+      "data transformation",
+      "data transformation"
+    ],
+    "space program": "NASA",
+    "study title": "Effect of spaceflight on liver from mice flown on the ISS for 33 days: transcriptional analysis",
+    "study factor type": "Space Flight",
+    "study public release date": 1564358400,
+    "parameter value": "",
+    "thumbnail": "/geode-py/ws/studies/OSD-242/image",
+    "study factor name": "Spaceflight",
+    "study assay measurement type": "transcription profiling",
+    "project type": "Spaceflight Study",
+    "factor value": "",
+    "data source accession": "",
+    "project title": "Rodent Research-9",
+    "study funding agency": "The sequencing analysis was funded by NASA Space Biology Program Office, Space Life and Physical Sciences Research and Applications Division through a collaborative effort with GeneLab.",
+    "study protocol description": [
+      "A cohort of 10 week-old male C57BL/6J mice (Jackson Laboratory) were launched in one Transporter (10 mice per side), transferred to Rodent Habitats onboard the International Space Station (ISS) and maintained in microgravity for ~33 days (the SpaceX Dragon docked period). No crew activities were required except for standard animal transfers between the Transporter and Habitats, and other activities required to ensure animal welfare, such as health checks and NuRFB replenishments.",
+      "Prior to Dragon unberth, all mice were transferred into a clean Transporter followed by transfer to a Dragon capsule and then returned to Earth alive. The duration from splashdown to handover of the mice payload at the pier was approximately 24 hours. After handover of mice to the NASA Rodent Research team, the mice were immediately transported to the animal facility at Loma Linda University for conducting post-flight rodent gait assessment and dissections. The primary investigator teams, BSP teams, and Rodent Research dissection Lead and team conducted the dissection process at LLU immediately following a health check and specimen sampling and acquisition of walking kinematic data and intraocular pressure (IOP) measurements.",
+      "A Basal Control (BSL) was housed in standard cages at Kennedy Space Center (KSC) and euthanized one day after launch of the FLT animals. Ground Control (GC) and Vivarium Control (VIV) studies were planned to commence at KSC approximately one-week after the conclusion of the flight experiments.",
+      "Early termination of RR-9 Ground Control (GC): Due to Hurricane Irma in September 2017 in Florida, the RR9 GC experiments were prematurely terminated. The experiment was repeated in May 2018 using the same strain of mice that was used for the flight experiment to match with flight animals. Besides Ground Control and Vivarium groups, an additional group of animals was used as Cohort Controls (Cohort Control #2) to normalize the variation due to differences in the cohorts.",
+      "Cohort control #1 and #2 animals (CC) were not provided with the rodent food bars, lixits, or raised wire floors.",
+      "Mice were euthanized, upon live animal return and dissected immediately. Each carcass dissection time was no longer than 1 hour from collection of the first tissue. Multiple tissues, including the liver tissue, were collected from each carcass.",
+      "RNA was extracted using the AllPrep DNA/RNA Mini Kit (Qiagen, Valencia, CA). Homogenization buffer for RNA purification was made by adding 1:100 beta-mercaptoethanol to Buffer RLT (Qiagen, Valencia, CA) and kept on ice until use. After thawing on ice, approximately 30 mg of tissue was isolated using a scalpel, weighed and immediately placed in 600 uL of the Buffer RLT solution. Each sample was then homogenized for approximately 20 seconds at 20,000 RPM using a Polytron PT1300D handheld homogenizer with a 5 mm standard dispersing aggregate tip (Kinematica, Bohemia, NY). Homogenates were centrifuged for 3 minutes at RT and at 14,000 X g to remove cell debris. The supernatant from each sample was then used to isolate and purify RNA following the manufacturer protocol. RNA was eluted in 50 uL H2O. Concentration for all RNA samples were measured using Qubit 3.0 Fluorometer (Thermo Fisher Scientific, Waltham, MA). RNA quality was assessed using the Agilent 2100 Bioanalyzer with the Agilent RNA 6000 Nano Kit or Agilent RNA 6000 Pico Kit (Agilent Technologies, Santa Clara, CA).",
+      "ERCC ExFold RNA Spike-In Mixes (Thermo Fisher Scientific, Waltham, MA Cat # 4456739, v92) at 1:100 dilution of either Mix 1 or Mix 2 were added immediately after RNA extractions at the concentrations suggested by the manufacturer protocol.",
+      "RNA ribo depletion was done with Illumina TruSeq Stranded Total RNA Library Prep Gold. Input RNA were approximately 500 ng with RIN greater than 4. Index adapters were 1.5 uM (IDT, 384-well xGen Dual Index UMI Adapters). 15 cycles PCR were performed. Library fragment size ~300 bp was assessed using Agilent 4200 TapeStation with D1000 DNA ScreenTape (Agilent Technologies, Santa Clara, CA). Pooled library concentration was measured by Universal qPCR Master Mix (Kapa Biosystems, Wilmington, MA). Library quality control was determined by iSeq100 (Illumina, San Diego, CA).",
+      "RNA sequencing was performed by GeneLab Sample Processing Lab on Illumina NovaSeq 6000. Paired end 149bp. PhiX included as control.",
+      "Quality assessment of reads was performed with FastQC v0.12.1 and reports were combined with MultiQC v1.26. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.0.0.",
+      "Data were processed as described in GL-DPPD-7101-G (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-G.md), using NF_RCP version 2.1.0 (https://github.com/nasa/GeneLab_RNASeq_Workflow/tree/NF_RCP_2.1.0). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.2). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports. Mus Musculus STAR and RSEM references were built using STAR (version 2.7.11b) and RSEM (version 1.3.3), respectively, Ensembl release 112, genome assembly GRCm39 (Mus_musculus.GRCm39.dna.primary_assembly.fa) concatenated with ERCC92.fa from ThermoFisher (https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip), and the following gtf annotation file: Mus_musculus.GRCm39.112.gtf concatenated with the ERCC92.gtf file from ThermoFisher (https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip). Trimmed reads were aligned to the Mus Musculus + ERCC STAR reference with STAR (version 2.7.11b) and alignment log files were compiled with MultiQC (version 1.26). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 5.0.4), gene body coverage using RSeQC geneBody_coverage.py (version 5.0.4), inner distance was assessed using RSeQC inner_distance.py (version 5.0.4), and distribution of RNA features using RSeQC read_distribution.py (version 5.0.4). Aligned reads from all samples were quantified using RSEM (version 1.3.3), with strandedness set to forward and RSEM count log files were compiled with MultiQC (version 1.26). To create a set of rRNA-removed quantification data, Ensembl IDs mapping to ribosomal RNA (rRNA) were removed from the RSEM gene count data. Both the original set of RSEM quantification data and the rRNA-removed data were subject to differential gene expression analysis as follows. A runsheet was generated with dp_tools (version 1.3.8) and the runsheet and quantification data were imported to R (version 4.4.2) with tximport (version 1.34.0), ERCC genes were removed, and the non-ERCC genes were normalized with DESeq2 (version 1.46.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.4.2) using DESeq2 (version 1.46.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110-A (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable-A_1.1.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110-A/GL-DPPD-7110-A.md), with STRINGdb (version 2.16.4), PANTHER.db (version 1.0.12), and org.Mm.eg.db (version 3.19.1). Assessment of ERCC spiked genes was performed as detailed in the ERCC_analysis_GLbulkRNAseq.html report."
+    ],
+    "experiment platform": "Rodent Habitat",
+    "characteristics": "",
+    "study grant number": "",
+    "study publication author list": "",
+    "project link": "https://lsda.jsc.nasa.gov/Experiment/exper/13964",
+    "study publication title": "",
+    "managing nasa center": "NASA Ames Research Center (ARC)",
+    "study description": "The objective of the Rodent Research-9 (RR-9) mission was to use mice to understand the molecular basis of phenomena that affect astronauts during long-duration spaceflight, particularly visual impairment and joint tissue degradation. To this end, a flight group (FLT) of 10 week-old male C57BL/6J mice were launched from Kennedy Space Center (KSC) on 8/14/2017 and housed in Rodent Habitats on the ISS for 33 days before being returned alive to Earth. After splashdown in the Pacific Ocean, the animals were transported to Loma Linda University (LLU) for testing, euthanasia and dissection on 9/18/2018. A Basal Control (BSL) was housed in standard cages at Kennedy Space Center (KSC) and euthanized one day after launch of the FLT animals (8/15/2017). Ground Control (GC) and Vivarium Control (VIV) studies were planned to commence at KSC approximately one-week after the conclusion of the flight experiments. However, all the GC and VIV mouse studies at KSC had to be cancelled due to Hurricane Irma and potential adverse effects on the animal housing facility. The GC and VIV studies were therefore rescheduled and begun in May, 2018. The GC was euthanized and dissected 6/18/2018 - 6/20/2018, while the VIV was euthanized and dissected 6/22/2018 - 6/23/2018. Because this resulted in a different cohort of mice being used for the GC and VIV controls as compared to the flight (FLT) and basal (BSL) groups, two cohort controls were included in the study. The first, Cohort Control 1 (CC_C1), was from the same cohort as the FLT and BSL animals, and was sacrificed and dissected 4 days after the FLT group (9/22/2017). The second, Cohort Control 2 (CC_C2), was from the same cohort as the GC and VIV animals, and was sacrificed and dissected 2-8 days after the GC and VIV groups, (6/24/2018 - 6/26/2018). The CC_C1 and CC_C2 groups were housed in standard cages and fed standard chow in contrast to all other groups which received Rodent Foodbars. To clarify the connections between treatment groups and animal cohorts, the following group abbreviations are used in the sample metadata: Flight (FLT_C1); Basal (BSL_C1); Ground Control (GC_C2); Vivarium Control (VIV_C2), Cohort Control 1 (CC_C1); Cohort Control 2 (CC_C2). Upon dissection, livers were preserved in liquid nitrogen and stored at -80 C before RNA was extracted, libraries generated (stranded, ribodepleted) and sequenced (target 60 M clusters at PE 150 bp).",
+    "organism": "Mus musculus",
+    "data source type": "cgene",
+    "esa acronym": ""
+  }
+}

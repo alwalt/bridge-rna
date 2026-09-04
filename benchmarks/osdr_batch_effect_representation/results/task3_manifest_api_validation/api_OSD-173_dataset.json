@@ -1,0 +1,86 @@
+{
+  "REST_URL": "https://visualization.osdr.nasa.gov/biodata/api/v2/dataset/OSD-173/",
+  "assays": {
+    "REST_URL": "https://visualization.osdr.nasa.gov/biodata/api/v2/dataset/OSD-173/assays/"
+  },
+  "files": {
+    "REST_URL": "https://visualization.osdr.nasa.gov/biodata/api/v2/dataset/OSD-173/files/"
+  },
+  "metadata": {
+    "authoritative source url": "OSD-173/",
+    "flight program": "Space Transportation System (STS)",
+    "mission": {
+      "end date": "07/21/2011",
+      "start date": "07/08/2011",
+      "name": "STS-135"
+    },
+    "material type": "Liver",
+    "project identifier": "BSP135",
+    "accession": "OSD-173",
+    "identifiers": "GLDS-173",
+    "study identifier": "OSD-173",
+    "study protocol name": [
+      "sample collection",
+      "radiation dosimetry",
+      "nucleic acid extraction",
+      "spike-in protocol",
+      "library construction",
+      "nucleic acid sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "study assay technology type": "RNA Sequencing (RNA-Seq)",
+    "acknowledgments": "GeneLab would like to thank Karen Jonscher for providing purified liver RNA samples from the STS-135 mission.",
+    "study assay technology platform": "Illumina",
+    "study person": {
+      "last name": "Chakravarty Gebre Saravia-Butler Fogle Boyko Lai Polo Genome Center Costes Jonscher Galazka Vallota-Eastman Torres Yehia",
+      "middle initials": " G M W V M",
+      "first name": "Kaushik Samrawit Amanda Homer Valery San-Huei UC Davis Sylvain Karen Jonathan Alec Alexis Jihan"
+    },
+    "study protocol type": [
+      "sample collection",
+      "chronic",
+      "nucleic acid extraction",
+      "Spike-in Control",
+      "library construction",
+      "nucleic acid sequencing",
+      "data transformation",
+      "data transformation"
+    ],
+    "space program": "NASA",
+    "study title": "STS-135: Mouse Liver Transcriptomics using RNA-Seq",
+    "study factor type": "Space Flight",
+    "study public release date": 1525392000,
+    "parameter value": "",
+    "thumbnail": "/geode-py/ws/studies/OSD-173/image",
+    "study factor name": "Spaceflight",
+    "study assay measurement type": "transcription profiling",
+    "project type": "Spaceflight Study",
+    "factor value": "",
+    "data source accession": "",
+    "project title": "Commercial Biomedical Test Module-3",
+    "study funding agency": "This investigation was funded by the ISS National Lab, the NASA Space Biology Program Office, Space Life and Physical Sciences Research and Applications Division and additional funding from the International Space Station Research Integration Office to the Space Biology GeneLab Project",
+    "study protocol description": [
+      "For this study, GeneLab received liver samples from the original CBTM-3 payload flown on STS-135. These liver samples were collected and processed as described in GLDS-25 (https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-25). This protocol is repeated here. On July 8, 2011, age- and weight-matched female C57BL/6CR mice (n equals15/group) were placed into three Animal Enclosure Modules (AEMs, 2 groups of 5 per AEM separated by a wire mesh) and flown on the Space Shuttle Atlantis (STS-135) for 13 days. There were two sets of ground controls housed at the Space Life Science Laboratory (SLSL) at KSC. Due to the nature of the NASA BSP program, we did not receive tissues from all mice for all assays. Ground AEM control mice were placed into the same hardware used in flight and environmental parameters such as temperature and CO2 levels were matched as closely as possible based on 48-hour delayed telemetry data. Conditions were controlled for temperature, humidity, and a 12:12 hr light:dark cycle; food (food bars developed by NASA Ames) and water was provided ad libitum. Vivarium control mice were housed in standard shoebox cages and fed standard rodent chow. Vivarium mice were used to normalize cell counts, minimizing day-to-day variability. Mice were euthanized and dissected within 3-5 hours of landing. As part of the primary science, all mice underwent dual energy X-ray absorptiometry (DEXA) densitometry (Piximus, Inc., Fitchburg, WI) immediately prior to anesthesia and euthanization. Mice were anesthetized with 3-5% isoflurane and euthanized with 100% CO2 and exsanguination. Livers were collected within 3-4 hours of landing, snap frozen in liquid nitrogen and stored in -80C freezer.",
+      "The absorbed dose from ionizing radiation received by the flight specimens was estimated using TLD passive dosimeters located in the middeck of the space shuttle, where the payload was located. More specifically, we computed the average between three dosimeters (DLOC1, DLOC2, and DLOC3) for the mission and we divided it by the total duration of the mission to estimate the average absorbed dose rate in mGy/day. This dose rate did not include any shielding effects from the hardware where the specimens resided. The total absorbed dose in water was then computed by simply multiplying the average dose rate with the duration of the experiment. The duration of the experiment was defined as the time in space during which the specimen was \u201cliving\u201d. Once the specimen was frozen or fixed, the experiment was considered stopped. A table with these detailed computations for all space shuttle datasets is available on GeneLab at https://visualization.osdr.nasa.gov/eda/. The ground samples were not assessed for radiation exposure.",
+      "RNA was extracted from liver tissue using the AllPrep DNA/RNA Mini Kit (Qiagen, Valencia, CA). Homogenization buffer for RNA purification was made by adding 1:100 beta-mercaptoethanol to Buffer RLT and kept on ice until use. Approximately 20 mg of frozen liver tissue was immediately placed in 800 uL of the Buffer RLT solution. Each sample was then homogenized for approximately 20 seconds at 21,000 RPM using a Polytron PT1300D handheld homogenizer with a 5 mm standard dispersing aggregate tip (Kinematica, Bohemia, NY). Homogenates were centrifuged for 3 minutes at room temperature at 21,300 g to remove cell debris. Following the manufacturer\u2019s protocol, RNA was isolated and purified from the supernatant. RNA was eluted in 50 uL RNase-free H2O. RNA concentration was measured using Qubit 3.0 Fluorometer (Thermo Fisher Scientific, Waltham, MA). RNA quality was assessed using the Agilent 2100 Bioanalyzer with the Agilent RNA 6000 Nano Kit (Agilent Technologies, Santa Clara, CA).",
+      "After nucleic acid extraction was completed, samples were aliquoted and stored in -80C freezer. At the time of the spike in, samples designated for sequencing were selected and pulled out of the freezer on dry ice to avoid thaw. ERCC ExFold RNA Spike-In Mixes (Thermo Fisher Scientific, Waltham, MA cat",
+      "4456739) at 1:100 dilution of either Mix 1 or Mix 2 were added on to the samples at the concentrations suggested by the manufacturer protocol. Samples were placed at -80 C freezer until transfer to omics core facility.",
+      "RNA sequencing library construction was peroformed by UC Davis Genome Center. Ribosomal RNA was depleted using a Illumina Ribo Zero Gold Human/Mouse/Rat kit. Libraries were prepared using the KAPA Stranded kit with 10 cycles of PCR.",
+      "RNA sequencing performed on Illumina HiSeq 4000. Paired end, 150bp at 100 million reads per sample. Performed by UC Davis Genome Center.",
+      "Raw fastq files from each sample were assessed for % rRNA using HTStream SeqScreener (version 1.0.0) screened against a fasta file of Mus musculus rRNA sequences retrieved from NCBI on 01-June-2019. Raw fastq file quality was evaluated with FastQC (version 0.12.1) and MultiQC (version 1.26) was used to generate MultiQC reports.",
+      "Data were processed as described in GL-DPPD-7101-G (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-G.md), using NF_RCP version 2.1.0 (https://github.com/nasa/GeneLab_RNASeq_Workflow/tree/NF_RCP_2.1.0). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.2). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports. Mus Musculus STAR and RSEM references were built using STAR (version 2.7.11b) and RSEM (version 1.3.3), respectively, Ensembl release 112, genome assembly GRCm39 (Mus_musculus.GRCm39.dna.primary_assembly.fa) concatenated with ERCC92.fa from ThermoFisher (https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip), and the following gtf annotation file: Mus_musculus.GRCm39.112.gtf concatenated with the ERCC92.gtf file from ThermoFisher (https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip). Trimmed reads were aligned to the Mus Musculus + ERCC STAR reference with STAR (version 2.7.11b) and alignment log files were compiled with MultiQC (version 1.26). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 5.0.4), gene body coverage using RSeQC geneBody_coverage.py (version 5.0.4), inner distance was assessed using RSeQC inner_distance.py (version 5.0.4), and distribution of RNA features using RSeQC read_distribution.py (version 5.0.4). Aligned reads from all samples were quantified using RSEM (version 1.3.3), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.26). To create a set of rRNA-removed quantification data, Ensembl IDs mapping to ribosomal RNA (rRNA) were removed from the RSEM gene count data. Both the original set of RSEM quantification data and the rRNA-removed data were subject to differential gene expression analysis as follows. A runsheet was generated with dp_tools (version 1.3.8) and the runsheet and quantification data were imported to R (version 4.4.2) with tximport (version 1.34.0), ERCC genes were removed, and the non-ERCC genes were normalized with DESeq2 (version 1.46.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.4.2) using DESeq2 (version 1.46.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110-A (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable-A_1.1.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110-A/GL-DPPD-7110-A.md), with STRINGdb (version 2.16.4), PANTHER.db (version 1.0.12), and org.Mm.eg.db (version 3.19.1). Assessment of ERCC spiked genes was performed as detailed in the ERCC_analysis_GLbulkRNAseq.html report."
+    ],
+    "experiment platform": "Animal Enclosure Module (AEM)",
+    "characteristics": "",
+    "study grant number": "",
+    "study publication author list": "",
+    "project link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=1983",
+    "study publication title": "",
+    "managing nasa center": "Ames Research Center (ARC)",
+    "study description": "Female C57BL/6CR mice were flown onboard STS-135 for 13 days and returned to Earth for analysis. Livers were collected within 3-4 hours of landing and snap frozen in liquid nitrogen. Liver tissue samples that were used for microarray analysis for GLDS-25 were provided to GeneLab. GeneLab extracted RNA, added ERCC control spike-in to the samples, and performed RNA-Seq analysis.",
+    "organism": "Mus musculus",
+    "data source type": "cgene",
+    "esa acronym": ""
+  }
+}

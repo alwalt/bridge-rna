@@ -9,7 +9,7 @@ different_OSD      bridgerna       82    -0.032507   0.683938      -0.130380   -
 
 BridgeRNA boundary comparisons:
 representation                factor  n_same_pairs  n_different_pairs  same_mean_cosine  same_sd_cosine  different_mean_cosine  different_sd_cosine  same_minus_different  permutation_pvalue_exploratory
-     bridgerna               mission            13                 69          0.082372        0.792302              -0.054151             0.665899              0.136523                          0.3565
+     bridgerna               mission             8                 74          0.033201        0.805609              -0.039611             0.675482              0.072811                          0.7033
      bridgerna   library_preparation            42                 40          0.006611        0.702682              -0.073582             0.670121              0.080193                          0.4278
      bridgerna sequencing_parameters            21                 61         -0.039011        0.731870              -0.030268             0.672998             -0.008743                          0.9564
      bridgerna   sequencing_facility            49                 33         -0.052699        0.704186              -0.002525             0.662327             -0.050174                          0.5918

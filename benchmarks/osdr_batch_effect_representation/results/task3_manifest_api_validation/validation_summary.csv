@@ -1,0 +1,15 @@
+field,match_status,contrast_fields
+OSD,match,14
+animal_identifier,not_comparable,14
+condition,match,14
+flight_duration,match,10
+flight_duration,mismatch,3
+flight_duration,not_comparable,1
+library_preparation,match,14
+mission,match,14
+sample_identifier,match,14
+sequencing_configuration,partial_match,14
+sequencing_facility,match,14
+sex,match,14
+strain,match,14
+within_study_stratum,match,14

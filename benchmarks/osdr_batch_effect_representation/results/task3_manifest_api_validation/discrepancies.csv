@@ -1,0 +1,33 @@
+contrast_id,field,local_value,api_value,match_status,discrepancy_source,impact,samples
+C11__OSD-47__RR1-CASIS__21-day,sequencing_configuration,SE 50bp 30M,SINGLE; 50 {base pair}; Illumina HiSeq 3000,partial_match,missing/ambiguous API metadata,annotation_only,4
+C11__OSD-47__RR1-CASIS__21-day,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,4
+C12__OSD-47__RR1-CASIS__22-day,sequencing_configuration,SE 50bp 30M,SINGLE; 50 {base pair}; Illumina HiSeq 3000,partial_match,missing/ambiguous API metadata,annotation_only,2
+C12__OSD-47__RR1-CASIS__22-day,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,2
+C14__OSD-48__RR1-NASA__37-day,sequencing_configuration,SE 50bp 30M,SINGLE; 50 {base pair}; Illumina HiSeq 3000,partial_match,missing/ambiguous API metadata,annotation_only,10
+C14__OSD-48__RR1-NASA__37-day,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,10
+C13__OSD-48__RR1-NASA__37-day,sequencing_configuration,SE 50bp 30M,SINGLE; 50 {base pair}; Illumina HiSeq 3000,partial_match,missing/ambiguous API metadata,annotation_only,4
+C13__OSD-48__RR1-NASA__37-day,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,4
+C01__OSD-137__RR3__39-day,sequencing_configuration,PE 150bp 100M,PAIRED; 150 {base pair}; Illumina HiSeq 4000,partial_match,missing/ambiguous API metadata,annotation_only,4
+C01__OSD-137__RR3__39-day,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,4
+C02__OSD-137__RR3__40-day,sequencing_configuration,PE 150bp 100M,PAIRED; 150 {base pair}; Illumina HiSeq 4000,partial_match,missing/ambiguous API metadata,annotation_only,5
+C02__OSD-137__RR3__40-day,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,5
+C03__OSD-137__RR3__41-day,sequencing_configuration,PE 150bp 100M,PAIRED; 150 {base pair}; Illumina HiSeq 4000,partial_match,missing/ambiguous API metadata,annotation_only,3
+C03__OSD-137__RR3__41-day,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,3
+C05__OSD-168__RR3__39-day,sequencing_configuration,PE 150bp 100M,PAIRED; 150 {base pair}; Illumina HiSeq 4000,partial_match,missing/ambiguous API metadata,annotation_only,4
+C05__OSD-168__RR3__39-day,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,4
+C06__OSD-168__RR3__40-day,sequencing_configuration,PE 150bp 100M,PAIRED; 150 {base pair}; Illumina HiSeq 4000,partial_match,missing/ambiguous API metadata,annotation_only,4
+C06__OSD-168__RR3__40-day,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,4
+C04__OSD-168__RR1-NASA__37-day,sequencing_configuration,PE 150bp 100M,PAIRED; 150 {base pair}; Illumina HiSeq 4000,partial_match,missing/ambiguous API metadata,annotation_only,20
+C04__OSD-168__RR1-NASA__37-day,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,20
+C07__OSD-173__STS-135__not-reported,flight_duration,not_reported,12.76 {day} | not_reported,mismatch,missing/ambiguous API metadata | our parsing/mapping logic,annotation_only,4
+C07__OSD-173__STS-135__not-reported,sequencing_configuration,PE 150bp 100M,PAIRED; 150 {base pair}; Illumina HiSeq 4000,partial_match,missing/ambiguous API metadata,annotation_only,4
+C07__OSD-173__STS-135__not-reported,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,4
+C08__OSD-242__RR9__not-reported,flight_duration,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,9
+C08__OSD-242__RR9__not-reported,sequencing_configuration,PE 149bp 60M,PAIRED; 149 {base pair}; Illumina NovaSeq 6000,partial_match,missing/ambiguous API metadata,annotation_only,9
+C08__OSD-242__RR9__not-reported,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,9
+C09__OSD-245__RR6-ISS-T__not-reported,flight_duration,not_reported,~60 {day},mismatch,our parsing/mapping logic,annotation_only,20
+C09__OSD-245__RR6-ISS-T__not-reported,sequencing_configuration,PE 149bp 60M,PAIRED; 149 {base pair}; Illumina NovaSeq 6000,partial_match,missing/ambiguous API metadata,annotation_only,20
+C09__OSD-245__RR6-ISS-T__not-reported,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,20
+C10__OSD-245__RR6-LAR__not-reported,flight_duration,not_reported,~30 {day},mismatch,our parsing/mapping logic,annotation_only,19
+C10__OSD-245__RR6-LAR__not-reported,sequencing_configuration,PE 149bp 60M,PAIRED; 149 {base pair}; Illumina NovaSeq 6000 | PAIRED; 149 {base pair}; Illumina NovaSeq 6001 | PAIRED; 149 {base pair}; Illumina NovaSeq 6002 | PAIRED; 149 {base pair}; Illumina NovaSeq 6003 | PAIRED; 149 {base pair}; Illumina NovaSeq 6004 | PAIRED; 149 {base pair}; Illumina NovaSeq 6005 | PAIRED; 149 {base pair}; Illumina NovaSeq 6006,partial_match,missing/ambiguous API metadata,annotation_only,19
+C10__OSD-245__RR6-LAR__not-reported,animal_identifier,not_reported,not_reported,not_comparable,missing/ambiguous API metadata,annotation_only,19

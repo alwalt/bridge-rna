@@ -1,0 +1,164 @@
+{
+  "REST_URL": "https://visualization.osdr.nasa.gov/biodata/api/v2/dataset/OSD-47/",
+  "assays": {
+    "REST_URL": "https://visualization.osdr.nasa.gov/biodata/api/v2/dataset/OSD-47/assays/"
+  },
+  "files": {
+    "REST_URL": "https://visualization.osdr.nasa.gov/biodata/api/v2/dataset/OSD-47/files/"
+  },
+  "metadata": {
+    "authoritative source url": "OSD-47/",
+    "flight program": "International Space Station (ISS)",
+    "mission": {
+      "end date": "10/25/2014",
+      "start date": "09/21/2014",
+      "name": "SpaceX-4"
+    },
+    "material type": "Liver",
+    "project identifier": "RR-1",
+    "accession": "OSD-47",
+    "identifiers": [
+      "GLDS-47",
+      "LSDS-29"
+    ],
+    "study identifier": "OSD-47",
+    "study protocol name": [
+      "Nucleic Acid Extraction 1",
+      "Library Construction 1",
+      "Nucleic Acid Sequencing 1",
+      "GeneLab raw data processing protocol",
+      "GeneLab wgbs data processing protocol",
+      "Labeling Protocol",
+      "ALSDA Processed Data",
+      "Extraction",
+      "TMT isobaric labeling",
+      "Mass Spectrometry",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol - bulk RNAseq",
+      "GeneLab RNAseq data processing protocol",
+      "Animal Husbandry",
+      "sample collection",
+      "radiation dosimetry"
+    ],
+    "study assay technology type": [
+      "RNA Sequencing (RNA-Seq)",
+      "mass spectrometry",
+      "Whole Genome Bisulfite Sequencing",
+      "Microscopy"
+    ],
+    "acknowledgments": "",
+    "study assay technology platform": [
+      "Illumina",
+      "LTQ Orbitrap Velos(Thermo Scientific)",
+      "Illumina",
+      "Pannoramic Scan (3D Histech)"
+    ],
+    "study person": {
+      "last name": "Galazka Cadena Globus",
+      "middle initials": "M",
+      "first name": "Jonathan Sam Ruth"
+    },
+    "study protocol type": [
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "data transformation",
+      "data transformation",
+      "Labeling Protocol",
+      "data transformation",
+      "Extraction",
+      "Labeling",
+      "Mass Spectrometry",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "data transformation",
+      "data transformation",
+      "Animal Husbandry",
+      "sample collection",
+      "chronic"
+    ],
+    "space program": "NASA",
+    "study title": "Rodent Research-1 (RR1) National Lab Validation Flight: Mouse liver transcriptomic, proteomic, epigenomic and histology data",
+    "study factor type": "Space Flight",
+    "study public release date": 1450137600,
+    "parameter value": "",
+    "thumbnail": "/geode-py/ws/studies/OSD-47/image",
+    "study factor name": "Spaceflight",
+    "study assay measurement type": [
+      "transcription profiling",
+      "protein expression profiling",
+      "DNA methylation profiling",
+      "Molecular Cellular Imaging"
+    ],
+    "project type": "Spaceflight Study",
+    "factor value": "",
+    "data source accession": "",
+    "project title": [
+      "Rodent Research-1(RR-1)",
+      "Muscle Atrophy of Muscle Sparing in Transgenic Mice (CASIS RR1)"
+    ],
+    "study funding agency": "This investigation was funded by the ISS National Lab, the NASA Space Biology Program Office, Space Life and Physical Sciences Research and Applications Division and additional funding from the International Space Station Research Integration Office to the Space Biology GeneLab Project",
+    "study protocol description": [
+      "DNA was extracted using the AllPrep DNA/RNA Mini Kit (Qiagen, Valencia, CA). Briefly, homogenization buffer for DNA purification was made by adding 1:100 volumes of beta-mercaptoethanol to Buffer RLT (Qiagen, Valencia, CA) and kept on ice until use. A piece of liver weighing between 20-30 mg was cut from each frozen liver sample and immediately placed in 800 uL of the Buffer RLT solution. Each sample was then homogenized for approximately 20 seconds at 21,000 RPM using a Polytron PT1300D handheld homogenizer with a 5 mm standard dispersing aggregate tip (Kinematica, Bohemia, NY). Homogenates were centrifuged for 3 minutes at room temperature and at 15,000 RPM to remove cell debris. The supernatant from each sample was then used to purify DNA following the manufacturer's protocol. DNA concentration and purity were measured using the NanoDrop 2000 spectrophotometer (Thermo Fisher Scientific, Waltham, MA).",
+      "DNA sequencing library construction was performed by UC Davis Genome Center. Aliquots of each DNA sample were bisulfite-converted with the EZ DNA Methylation-Gold kit (Zymo Research). Sequencing libraries was generated from the converted DNA sample with the EpiGnome Methyl-Seq kit (Epicentre). The resulting libraries were QC-ed by bioanalyzer and quantified by fluorometric Qubic measurements and RT-PCR.",
+      "The BS-sequencing was performed on the Illumina HiSeq 3000 at UC Davis Genome Center. Each library was sequenced on one HiSeq lane by itself with paired end 100bp reads.",
+      "Merged fastq files were generated by concatenating the forward and reverse raw reads data for each sample into one forward and one reverse fastq file per sample. Quality assessment of reads was performed with FastQC (version 0.12.1) and reports were combined with MultiQC (version 1.22.1).",
+      "Data were processed as described in GL-DPPD-7113 (https://github.com/nasa/GeneLab_Data_Processing/blob/DEV_Methyl-Seq/Methyl-Seq/Pipeline_GL-DPPD-7113_Versions/GL-DPPD-7113.md). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.8). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports. Mus musculus Bismark references were built using Bismark (version 0.24.2) and Bowtie2 (version 2.5.4), with the Ensembl release 112, genome version GRCm39 reference (Mus_musculus.GRCm39.dna.primary_assembly.fa). Trimmed reads were aligned to the Mus musculus Bismark reference using Bismark (version 0.24.2) and Bowtie2 (version 2.5.4), the aligned data were sorted with samtools (version 1.21), and alignment quality was assessed with QualiMap (version 2.3). Bismark (version 0.24.2) was used to deduplicate the aligned (unsorted) data, then methylation calls were extracted from the deduplicated aligned data, and bismark reports were generated for each sample with Bismark (version 0.24.2). Bismark reports for each sample were combined into a bismark summary report with Bismark (version 0.24.2). Alignment qualiMap reports and Bismark reports were compiled with MultiQC (version 1.26). A runsheet containing sample group information was generated with dp_tools (version 1.3.4) and imported into R (version 4.4.2), and methylation call data was imported into R using methylkit (version 1.32.0). Pair-wise differential methylation analysis was performed in R at both the base and tile level using methylkit (version 1.32.0). Gene annotations were assigned to the differential methylation results using genomation (version 1.38.0) and custom annotation tables generated using UCSC gtfToGenePred (version 469) and UCSC genePredToBed (version 469) from the following gtf annotation file: Mus_musculus.GRCm39.112.gtf (Ensembl release 112).",
+      "Histology on samples was performed by Triangulum Biopharma LLC (San Diego, CA) on archived tissues available from NASA Ames Life Sciences Data Archive (ALSDA). In brief, for each sample, one half was embedded in paraffin, while the second half was embedded in Optimal cutting temperature compound (OCT) for cryosectioning. Paraffin embedded samples were sectioned at 4 um and stained with hematoxylin and eosin (H and E). OCT-embedded samples were cryosectioned at 5 um and lipids stained with Oil Red O (ORO). Whole slide imaging was performed in bright field using a Pannoramic Scan from 3D Histech (a Perkin Elmer Company). Raw files were converted to .tiff and .jpg files using QuPath (https://qupath.github.io/). There are multiple sections per slide, one section from each animal. The order of animal IDs in the file names corresponds to the sections from top to bottom of each slide image.",
+      "To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a Molecular Cellular Imaging data reuse template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures/qualities). This enables all histology results to be identically structured for efficient data mining. In the transformation of the data sheet, Triangulum Task and Triangulum ID columns were removed as these are particular to the company who performed the histology. The remaining columns were left to allow efficient sorting by sample groups, dissection context, NASA ID, H and E File ID, and Oil Red O positivity staining percent.",
+      "For protein homogenization the urea based protein lysis buffer consisted of 8M urea, with 50 mM ammonium bicarbonate, at pH 8.5 in DNase- and RNase-free H2O and was custom ordered from Teknova, Hollister, CA. This recipe was initially provided by Stanford University Mass Spectrometry (SUMS). Protease inhibitors, 1:100 volumes of 0.1 M phenylmethanesulfonyl fluoride solution in ethanol (Sigma-Aldrich, St. Louis, Missouri) and 1:100 volumes of complete EDTA-free tablets (Roche, Indianapolis, IN), was added to the lysis buffer kept on ice. A piece of liver weighing between 20-30 mg was cut from each liver sample and immediately added to 650 uL protein lysis buffer. Each sample was homogenized for approximately 20 seconds at 21,000 RPM using a Polytron PT1300D handheld homogenizer with a 5 mm standard dispersing aggregate tip (Kinematica, Bohemia, NY). Homogenates were centrifuged for 15 minutes at 4 C and at 14,000 X g to remove cell debris. A 30 uL sample of each supernatant was kept on ice for total protein concentration assay, and the rest of the supernatant was snap-frozen with liquid nitrogen in aliquots. The Pierce BCA Protein Assay Kit (Thermo Fisher Scientific, Waltham, MA) was used to measure the total protein concentration of each protein sample.",
+      "Samples were processed at the Stanford University Mass Spectrometry (SUMS) omics core facility using the following SUMS protocol: 50 ug were drawn from each samples defrosted on ice (samples",
+      "1-9) and for the pool sample (sample",
+      "10). The remaining sample was immediately placed back in -80 C. 25 uL of 50mM ammonium bicarbonate, pH 8.0 was added to each sample, followed by 1.5 uL of 500mM DTT, incubated at 50 C for 30 minutes and cooled to room temperature. 3 uL of 1 M propionamide was added to each sample and incubated at room temperature for 1hr. 75 uL of 50mM ammonium bicarbonate, 0.02% protease max was added to each sample followed by 1.5 ug of trypsin/lysC (Promega) and overnight incubation at 37 C. 10 uL of 10% formic acid, 90% water was added to each sample to quench the digest. The samples were incubated at 37 C for 10 minutes, followed by centrifugation at 10,000 x g for 5 minutes. Microspin C18 columns (NEST group, p/n SEM SS18V) were equilibrated with acetonitrile followed by 2 times wash with 0.1% formic acid/water and each sample was cleaned and concentrated independently per vendor protocol. The eluant peptides were dried in a speed vac to less than 2 uL volume and stored at 4 C prior to TMT isobaric labeling. Each peptide pool was reconstituted in 100 uL, 100mM HEPES, pH 8.0. The TMT isobaric labels were reconstituted in 40 uL absolute ethyl alcohol and 20 uL of each isobaric tag as described above was added to the corresponding sample. The samples incubated at room temperature for 1.5hr, followed by the addition of 5 uL hydroxylamine to quench the reaction. 50 uL of each isobaric tagged peptide pool was drawn and pooled to a final volume of 500 uL, 500 uL of 0.1 % formic acid water was added to a final volume of 1 mL. This fraction (~250 ug total peptide) was purified on a Water Oasis HLB 3cc C18 cartridge per vendor protocol and the final eluant dried to completion in a speed vac. SCX offline fractionation was performed using a Protea SCX column (p/n SP-155) and the provided buffers. In brief, the previously dried 10plex peptide pool was dissolved in 150 uL reconstitution solution and loaded onto the equilibrated SCX column (3 times) followed by 2 sequential washes. The elution solution provided in the kit was diluted in series to 50 mM, 100 mM, 150 mM, 200 mM, 300 mM and 400 mM (stock) concentrations. The peptides were then eluted starting with the 50 mM salt concentration and collected in a new tube for the entire series. 200 uL of 0.1 % formic acid water was added to each SCX eluted fraction and each was microspin C18 purified as previously described.",
+      "Each fraction was reconstituted in 20 uL 0.2 % formic acid, 2 % acetonitrile, 97.8 % water and injected for liquid chromatography mass spectrometry analysis.",
+      "RNA of RR-1 CASIS samples were purified and provided by Rodent Research project. RNA was extracted from homogenized tissues using TRIzol reagent (Thermo Fisher Scientific, Waltham, MA). RNA concentration and purity were measured using the NanoDrop 2000 spectrophotometer (Thermo Fisher Scientific, Waltham, MA). RNA quality was measured using the Agilent 2100 Bioanalyzer with the Agilent RNA 6000 Nano Kit (Agilent Technologies, Santa Clara, CA).",
+      "RNA library construction was performed by UC Davis Genome Center using the Illumina TruSeq stranded RNA library prep kit after mRNA enrichment (poly-A specific). The libraries were QC-ed by bioanalyzer and quantified by fluorometric Qubit measurements.",
+      "The RNA library sequencing was performed on the Illumina HiSeq 3000 platform, three high output HiSeq lanes with 50 bp single end reads and index reads. 30 miliion reads per sample was requested. Performed by UC Davis Genome Center.",
+      "Raw fastq files were assessed for % rRNA using HTStream SeqScreener (version 1.0.0) and filtered using Trim Galore! (version 0.6.10). Raw and trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports.",
+      "Data were processed as described in GL-DPPD-7101-G (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-G.md), using NF_RCP version 2.0.2 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_RCP-2.0.2/RNAseq/Workflow_Documentation/NF_RCP). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.2). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports. Mus Musculus STAR and RSEM references were built using STAR (version 2.7.11b) and RSEM (version 1.3.3), respectively, Ensembl release 112, genome assembly GRCm39 (Mus_musculus.GRCm39.dna.primary_assembly.fa) and the following gtf annotation file: Mus_musculus.GRCm39.112.gtf. Trimmed reads were aligned to the Mus Musculus STAR reference with STAR (version 2.7.11b) and alignment log files were compiled with MultiQC (version 1.26). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 5.0.4), gene body coverage using RSeQC geneBody_coverage.py (version 5.0.4), and distribution of RNA features using RSeQC read_distribution.py (version 5.0.4). Aligned reads from all samples were quantified using RSEM (version 1.3.3), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.26). To create a set of rRNA-removed quantification data, Ensembl IDs mapping to ribosomal RNA (rRNA) were removed from the RSEM gene count data. Both the original set of RSEM quantification data and the rRNA-removed data were subject to differential gene expression analysis as follows. A runsheet was generated with dp_tools (version 1.3.8) and the runsheet and quantification data were imported to R (version 4.4.2) with tximport (version 1.34.0) and normalized with DESeq2 (version 1.46.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.4.2) using DESeq2 (version 1.46.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110-A (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable-A_1.1.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110-A/GL",
+      "A cohort of eight-month-old female C57BL/6Tac mice (Taconic Biosciences) were flown to the ISS, housed in the Rodent Habitat and were subjected to microgravity for 21 -22 days. Mice of similar age, sex and strain were used for ground controls (GC) housed in identical hardware and matching ISS environmental conditions. Additionally, a group of mice from the same cohort was used as basal control (BC) which were euthanized the day after launch as baseline references. The study followed recommendations in the Guide for the Care and Use of Laboratory Animals and the protocol was approved by the NASA Flight Institutional Animal Care and Use Committee (IACUC).",
+      "The flight group mice were euthanized by ISS crew with Euthasol injection followed by cervical dislocation and liver collection on Launch +21 and +22 days. Left hindlimb and spleen were collected prior to liver collection. Each whole liver sample was placed in an 1.8 ml cryovial and frozen in a pre-chilled Mini Cold Bag (MCB) before transfer to the MELFI freezer. Ground and Basal controls were processed following the same protocol.",
+      "The absorbed dose of ionizing radiation received by biological payloads on the International Space Station (ISS) depends on a number of factors, including date and duration of exposure and location of the payload on the ISS. Some of the factors that lead to variations in the absorbed dose rate in orbit are ISS altitude, period during the solar cycle, and location of the sample\u2014the ISS module and the specific location within that module. Shielding effects from the biological payload container or habitat have not been taken into account. The measured absorbed dose can vary based on the dosimetry instrument(s) used. Radiation monitoring on the ISS is not standardized across modules; each international partner has its own suite of instruments, with differing technologies, sensitivities and analysis methodologies, including criteria for distinguishing between lightly ionizing particles (mainly protons) and highly ionizing particles (mainly galactic cosmic ray nuclei). Both active and passive dosimeters are used. Active dosimeters are powered and data are read out and stored and/or telemetered to ground. Some active dosimeters provide additional levels of detail such as time resolution, energy deposition and particle identification. Passive dosimeters are unpowered, record constantly and are read out upon return to the ground. The dose in the metadata is the dose recorded by the radiation detector closest to the sample. In most cases that detector will be in the same ISS module; in cases where data from a detector in the same module are not available, the dose is extrapolated using data from periods where data are available from detectors in multiple modules, including the module containing the payload. The duration of the experiment is defined as the time in space during which the specimen was \u201cliving\u201d, including the time on the delivery vehicle (e.g. SpaceX Dragon). Once the specimen was frozen or fixed, the experiment was considered stopped. Details of ISS dosimetry and a table with doses for all GeneLab ISS experiment ISS datasets are available at https://visualization.osdr.nasa.gov/eda/."
+    ],
+    "experiment platform": "Rodent Habitat",
+    "characteristics": "",
+    "study grant number": "",
+    "study publication author list": [
+      "McDonald J. Tyson",
+      "Stainforth Robert",
+      "Miller Jack",
+      "Cahill Thomas",
+      "Silveira Willian A. da",
+      "Rathi Komal S.",
+      "Hardiman Gary",
+      "Taylor Deanne",
+      "Costes Sylvain V.",
+      "Chauhan Vinita",
+      "Meller Robert",
+      "Beheshti Afshin",
+      "Rettig TA",
+      "Ward C",
+      "Pecaut MJ",
+      "Chapes SK."
+    ],
+    "project link": [
+      "https://osdr.nasa.gov/bio/repo/data/experiments/OS-767",
+      "https://osdr.nasa.gov/bio/repo/data/experiments/OS-786"
+    ],
+    "study publication title": [
+      "NASA GeneLab Platform Utilized for Biological Response to Space Radiation in Animal Models",
+      "Validation of Methods to Assess the Immunoglobulin Gene Repertoire in Tissues Obtained from Mice on the International Space Station."
+    ],
+    "managing nasa center": "Ames Research Center (ARC)",
+    "study description": "The Rodent Reasearch-1 National Lab (RR-1 CASIS) experiment was performed to study the effect of microgravity on muscle wasting. RNA, DNA, and protein were purified from RR-1 CASIS (the Center for the Advancement of Science in Space) liver samples. Groups included: Flight (FLT) dissected on-orbit (21 or 22 days after launch); age-matched Ground Controls (GC); and Basal Controls (BC, euthanized at time of launch). RNA-Seq, whole genome BS-Seq (bisulfite sequencing) and proteomic expression profiling were performed.",
+    "organism": "Mus musculus",
+    "data source type": [
+      "cgene",
+      "alsda"
+    ],
+    "esa acronym": ""
+  }
+}

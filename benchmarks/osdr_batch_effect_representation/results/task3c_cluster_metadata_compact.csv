@@ -1,7 +1,7 @@
 variable,cluster_1_values_n,cluster_2_values_n
 OSD,OSD-47 (n=2); OSD-242 (n=1); OSD-168 (n=1); OSD-137 (n=1); OSD-48 (n=1); OSD-173 (n=1),OSD-137 (n=2); OSD-168 (n=2); OSD-245 (n=2); OSD-48 (n=1)
-mission,RR1_CASIS (n=2); RR3 (n=2); RR9 (n=1); RR1_NASA (n=1); STS_135 (n=1),RR3 (n=4); RR1_NASA (n=2); RR6 (n=1)
-rr_experiment,RR1 (n=3); RR3 (n=2); RR9 (n=1); STS_135 (n=1),RR3 (n=4); RR1 (n=2); RR6 (n=1)
+mission,RR1_CASIS (n=2); RR3 (n=2); RR9 (n=1); RR1_NASA (n=1); STS_135 (n=1),RR3 (n=3); RR1_NASA (n=2); RR6_LAR (n=1); RR6_ISS_T (n=1)
+rr_experiment,RR1 (n=3); RR3 (n=2); RR9 (n=1); STS_135 (n=1),RR3 (n=3); RR1 (n=2); RR6_LAR (n=1); RR6_ISS_T (n=1)
 strain,C57BL/6NTac (n=2); C57BL/6J (n=2); BALB/c (n=2); C57BL/6NCrl (n=1),BALB/c (n=3); C57BL/6J (n=2); C57BL/6NTac (n=2)
 flight_duration,not_reported (n=2); 39 {day} (n=2); 21 {day} (n=1); 37 {day} (n=1); 22 {day} (n=1),40 {day} (n=2); 37 {day} (n=2); not_reported (n=2); 41 {day} (n=1)
 sex,female (n=6); male (n=1),female (n=7)

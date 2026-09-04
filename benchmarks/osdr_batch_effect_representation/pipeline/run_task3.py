@@ -34,7 +34,8 @@ MISSION_COLORS = {
     "RR1_CASIS": "#F8766D",
     "RR1_NASA": "#B79F00",
     "RR3": "#00BA38",
-    "RR6": "#00BFC4",
+    "RR6_ISS_T": "#00BFC4",
+    "RR6_LAR": "#00BFC4",
     "RR9": "#619CFF",
     "STS_135": "#F564E3",
 }
@@ -62,7 +63,9 @@ def mission(study: int, sample: str) -> str:
     if study == 168: return "RR3" if "_RR3_" in sample else "RR1_NASA"
     if study == 173: return "STS_135"
     if study == 242: return "RR9"
-    if study == 245: return "RR3" if "ISS-T" in sample else "RR6"
+    # OSD-245 is entirely Rodent Research-6. ISS-T and LAR identify its
+    # terminal-on-orbit and live-animal-return strata; ISS-T is not RR-3.
+    if study == 245: return "RR6_ISS_T" if "ISS-T" in sample else "RR6_LAR"
     raise ValueError(study)
 
 
@@ -287,7 +290,7 @@ def main() -> None:
     plot_structure_metrics(assoc, pc_assoc)
     cohort = manifest.groupby(["OSD", "mission", "library_preparation", "condition"], as_index=False).size().rename(columns={"size":"samples"})
     cohort.to_csv(OUT / "cohort_summary.csv", index=False)
-    notes = f"""# Reproduction notes\n\n- Sanders et al. report 112 liver samples: 57 FLT and 55 GC. This pipeline matches those totals exactly.\n- The seven local GeneLab unnormalized count tables were restricted to FLT and respective GC samples.\n- Counts were inner-joined on version-stripped Ensembl IDs, retaining {len(intersect_genes):,} genes.\n- The paper states DESeq2 v1.30.1 median-of-ratios normalization, followed by R `prcomp()` v4.1.0. Local R does not have DESeq2, so its default `ratio` size-factor algorithm was reproduced directly: genes containing any zero were excluded from geometric-mean estimation; each sample size factor is the median ratio to gene geometric means. {eligible_sf:,} genes contributed to size-factor estimation.\n- Before PCA, we apply `log2(DESeq2-normalized counts + 1)`, then centered, unscaled PCA matching `prcomp(center=TRUE, scale.=FALSE)`. The article does not explicitly state the log step, but it is required to reproduce Figure 1's reported variance: our PC1/PC2 are {expr_pca.explained_variance_ratio_[0]:.2%}/{expr_pca.explained_variance_ratio_[1]:.2%}, versus 25.2%/12.75% in the paper. This inferred step is disclosed rather than presented as directly documented. No batch correction is applied.\n- Mission assignments for multi-mission OSD-168 and OSD-245 use sample-name mission/return annotations consistent with Table 1: OSD-168 RR3 versus RR1 NASA; OSD-245 ISS-T as RR3 versus LAR as RR6.\n- The supplementary payload filenames are declared in the publisher XML, but direct publisher downloads returned 404 during this run. The local OSDR sample metadata plus paper Table 1 were therefore used; this limitation is explicit.\n- BridgeRNA inputs are independently generated as mouse-annotation TPM, mapped to the frozen 15,165 one-to-one vocabulary, then natural log1p(TPM). The exact same 112 samples are used, but this representation necessarily uses the model's native preprocessing rather than DESeq2-normalized full counts.\n- BridgeRNA is frozen; sample embeddings are 512-D mean-pooled contextual representations. No correction, alignment, fine-tuning, or target-label use occurs.\n"""
+    notes = f"""# Reproduction notes\n\n- Sanders et al. report 112 liver samples: 57 FLT and 55 GC. This pipeline matches those totals exactly.\n- The seven local GeneLab unnormalized count tables were restricted to FLT and respective GC samples.\n- Counts were inner-joined on version-stripped Ensembl IDs, retaining {len(intersect_genes):,} genes.\n- The paper states DESeq2 v1.30.1 median-of-ratios normalization, followed by R `prcomp()` v4.1.0. Local R does not have DESeq2, so its default `ratio` size-factor algorithm was reproduced directly: genes containing any zero were excluded from geometric-mean estimation; each sample size factor is the median ratio to gene geometric means. {eligible_sf:,} genes contributed to size-factor estimation.\n- Before PCA, we apply `log2(DESeq2-normalized counts + 1)`, then centered, unscaled PCA matching `prcomp(center=TRUE, scale.=FALSE)`. The article does not explicitly state the log step, but it is required to reproduce Figure 1's reported variance: our PC1/PC2 are {expr_pca.explained_variance_ratio_[0]:.2%}/{expr_pca.explained_variance_ratio_[1]:.2%}, versus 25.2%/12.75% in the paper. This inferred step is disclosed rather than presented as directly documented. No batch correction is applied.\n- Mission assignments use sample annotations: OSD-168 contains RR3 and RR1 NASA samples; OSD-245 is entirely RR6 and is separated into ISS-terminal (`RR6_ISS_T`) and live-animal-return (`RR6_LAR`) strata. ISS-T is not RR3.\n- The supplementary payload filenames are declared in the publisher XML, but direct publisher downloads returned 404 during this run. The local OSDR sample metadata plus paper Table 1 were therefore used; this limitation is explicit.\n- BridgeRNA inputs are independently generated as mouse-annotation TPM, mapped to the frozen 15,165 one-to-one vocabulary, then natural log1p(TPM). The exact same 112 samples are used, but this representation necessarily uses the model's native preprocessing rather than DESeq2-normalized full counts.\n- BridgeRNA is frozen; sample embeddings are 512-D mean-pooled contextual representations. No correction, alignment, fine-tuning, or target-label use occurs.\n"""
     (OUT / "reproduction_notes.md").write_text(notes)
     provenance = {"created_utc": datetime.now(timezone.utc).isoformat(), "paper_doi": "10.3389/fspas.2023.1200132", "samples": len(manifest), "FLT": 57, "GC": 55,
                   "intersected_genes": len(intersect_genes), "size_factor_genes": eligible_sf, "paper_expression": "inner-joined raw counts; DESeq2 median-of-ratios; inferred log2(count+1); centered unscaled PCA",
