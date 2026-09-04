@@ -12,6 +12,7 @@ the folder README documents provenance and rerun instructions.
 | TCGA expression imputation | How does frozen masked-expression reconstruction compare with BulkFormer-50M and BulkFormer-147M? | [`tcga_imputation/tcga_imputation_benchmark.ipynb`](tcga_imputation/tcga_imputation_benchmark.ipynb) | One-sample validation passed; full run pending |
 | Landmark-gene sufficiency | Do L1000 or other fixed reduced gene panels preserve disproportionate information for masked transcriptome reconstruction? | [`landmark_gene_sufficiency/landmark_gene_sufficiency_benchmark.ipynb`](landmark_gene_sufficiency/landmark_gene_sufficiency_benchmark.ipynb) | Reproducible pilot complete |
 | Mouse ENCODE | Does tissue identity retrieve across GTEx human and fully unseen ENCODE mouse profiles without alignment? | [`mouse_encode/mouse_encode_benchmark.ipynb`](mouse_encode/mouse_encode_benchmark.ipynb) | Task 1A complete |
+| Library-prep disentanglement | Can a frozen BridgeRNA embedding be decomposed into library-invariant and library-associated representations? | [`library_prep_disentanglement/library_prep_disentanglement_benchmark.ipynb`](library_prep_disentanglement/library_prep_disentanglement_benchmark.ipynb) | Data audit and controlled-pair pipeline |
 
 ## Folder convention
 

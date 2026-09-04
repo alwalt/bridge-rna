@@ -1,0 +1,32 @@
+{
+  "datasets": [
+    "benchmarks/library_prep_disentanglement/work/datasets/chen_2020_tcells",
+    "benchmarks/library_prep_disentanglement/work/datasets/zhao_2018_srp127360"
+  ],
+  "config": {
+    "seed": 20260904,
+    "canonical_genes": "data/ensembl/canonical_genes.csv",
+    "checkpoint": "model/r7hnr92k/best_model.pt",
+    "model_config": "model/r7hnr92k/config.json",
+    "archs4_metadata": "data/manifests/archs4_sample_metadata_v2.5.parquet",
+    "primary_controlled_dataset": "chen_2020_tcells",
+    "external_test_dataset": "zhao_2018_srp127360",
+    "split_unit": "dataset",
+    "fe_dim": 64,
+    "re_dim": 64,
+    "hidden_dim": 256,
+    "dropout": 0.1,
+    "epochs": 250,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_reconstruction": 1.0,
+    "weight_re_classifier": 0.5,
+    "weight_adversarial": 0.2,
+    "weight_pair": 1.0,
+    "gradient_reversal_lambda": 1.0
+  },
+  "limitations": [
+    "Task 3 is an independent downstream challenge and is not used here.",
+    "Only two verified controlled human datasets were available; training used a fixed epoch count with no validation-driven model selection, and SRP127360 remained completely held out."
+  ]
+}

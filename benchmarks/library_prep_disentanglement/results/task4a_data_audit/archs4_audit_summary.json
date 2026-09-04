@@ -1,0 +1,11 @@
+{
+  "metadata_rows": 940455,
+  "explicitly_labeled_samples": 180015,
+  "explicit_polya_samples": 178770,
+  "explicit_ribo_samples": 1201,
+  "conflicting_samples": 44,
+  "studies_with_both_labels": 31,
+  "verified_same_rna_pairs": 0,
+  "classification": "OBSERVATIONAL",
+  "reason": "Explicit labels exist, but ARCHS4 metadata do not encode authoritative same-RNA pair identifiers; total RNA alone was not called rRNA-depleted."
+}

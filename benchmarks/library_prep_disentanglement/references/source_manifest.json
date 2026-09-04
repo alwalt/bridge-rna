@@ -1,0 +1,27 @@
+{
+  "chen_2020_tcells": {
+    "paper_doi": "10.1038/s41597-020-00719-4",
+    "pmcid": "PMC7652884",
+    "processed_data_doi": "10.6084/m9.figshare.12646238.v5",
+    "raw_data_doi": "10.7303/syn22250947",
+    "design": "The same RNA from each of 40 naive CD4+ T-cell donors was processed with TruSeq poly(A) selection and TruSeq Stranded Total RNA with Ribo-Zero Gold."
+  },
+  "zhao_2018_blood_colon": {
+    "paper_doi": "10.1038/s41598-018-23226-4",
+    "sra": "SRP127360",
+    "design": "The same pooled blood RNA and the same colon RNA were processed by both methods, with four technical libraries per method and tissue.",
+    "limitation": "Two biological source RNAs only; technical libraries are not independent biological pairs."
+  },
+  "gse150097_candidate": {
+    "paper_doi": "10.1186/s12864-021-07381-z",
+    "geo": "GSE150097",
+    "sra": "SRP257988",
+    "status": "not used",
+    "reason": "Both protocols are present, but the deposited sample-level records do not provide a complete authoritative same-RNA cross-protocol pair map; protocol is additionally confounded with read layout/read length/depth."
+  },
+  "archs4": {
+    "local_metadata": "data/manifests/archs4_sample_metadata_v2.5.parquet",
+    "classification": "OBSERVATIONAL",
+    "rule": "total RNA alone is not proof of rRNA depletion"
+  }
+}

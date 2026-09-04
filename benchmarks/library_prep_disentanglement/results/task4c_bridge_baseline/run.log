@@ -1,0 +1,23 @@
+       polyA_libraries  ribo_libraries  paired_cosine  euclidean_distance  difference_norm
+count        42.000000       42.000000      42.000000           42.000000        42.000000
+mean          1.142857        1.142857       0.992018            1.172711         1.172711
+std           0.646621        0.646621       0.026622            0.987976         0.987976
+min           1.000000        1.000000       0.838735            0.730057         0.730057
+25%           1.000000        1.000000       0.997031            0.844338         0.844338
+50%           1.000000        1.000000       0.997634            0.928824         0.928824
+75%           1.000000        1.000000       0.997985            1.067124         1.067124
+max           4.000000        4.000000       0.998555            6.447126         6.447126
+{
+  "samples": 96,
+  "datasets": 2,
+  "verified_pairs": 42,
+  "median_pair_cosine": 0.9976336656538856,
+  "mean_pair_cosine": 0.9920183829504952,
+  "pair_recall_at_1": 0.10714285714285714,
+  "pair_recall_at_5": 0.2976190476190476,
+  "pair_recall_at_10": 0.5119047619047619,
+  "pair_mrr": 0.22279313144214224,
+  "median_pair_rank": 9.5,
+  "difference_pc1_variance": 0.963136345159842,
+  "interpretation": "A dominant direction is descriptive, not evidence of a universal causal library effect."
+}

@@ -1,0 +1,22 @@
+{
+  "seed": 20260904,
+  "canonical_genes": "data/ensembl/canonical_genes.csv",
+  "checkpoint": "model/r7hnr92k/best_model.pt",
+  "model_config": "model/r7hnr92k/config.json",
+  "archs4_metadata": "data/manifests/archs4_sample_metadata_v2.5.parquet",
+  "primary_controlled_dataset": "chen_2020_tcells",
+  "external_test_dataset": "zhao_2018_srp127360",
+  "split_unit": "dataset",
+  "fe_dim": 64,
+  "re_dim": 64,
+  "hidden_dim": 256,
+  "dropout": 0.1,
+  "epochs": 250,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_reconstruction": 1.0,
+  "weight_re_classifier": 0.5,
+  "weight_adversarial": 0.2,
+  "weight_pair": 1.0,
+  "gradient_reversal_lambda": 1.0
+}

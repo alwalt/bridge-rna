@@ -1,0 +1,22 @@
+ representation   comparison                        left               right    cosine  spearman  left_norm  right_norm
+         Bridge          RR1  RR1_OSD48_original_matched  RR1_OSD168_no-ERCC -0.804119 -0.170199   0.931650    0.485264
+         Bridge     RR1 ERCC  RR1_OSD48_original_matched RR1_OSD168_all_ERCC -0.808434 -0.162616   0.931650    0.506942
+         Bridge       RR3-39 C01_OSD137_original_matched C01_OSD168_all_ERCC  0.790003  0.508695   0.234695    0.191301
+         Bridge       RR3-40 C02_OSD137_original_matched C02_OSD168_all_ERCC  0.916649  0.878270   0.148579    0.178983
+         Bridge ERCC/no-ERCC          RR1_OSD168_no-ERCC RR1_OSD168_all_ERCC  0.998061  0.992837   0.485264    0.506942
+Linear baseline          RR1  RR1_OSD48_original_matched  RR1_OSD168_no-ERCC -0.708625 -0.591162   0.607293    0.404390
+Linear baseline     RR1 ERCC  RR1_OSD48_original_matched RR1_OSD168_all_ERCC -0.707995 -0.585877   0.607293    0.418911
+Linear baseline       RR3-39 C01_OSD137_original_matched C01_OSD168_all_ERCC  0.724120  0.637015   0.192775    0.170043
+Linear baseline       RR3-40 C02_OSD137_original_matched C02_OSD168_all_ERCC  0.881352  0.866172   0.124266    0.136326
+Linear baseline ERCC/no-ERCC          RR1_OSD168_no-ERCC RR1_OSD168_all_ERCC  0.997299  0.996096   0.404390    0.418911
+             FE          RR1  RR1_OSD48_original_matched  RR1_OSD168_no-ERCC -0.994360 -0.993132  81.293556   36.413555
+             FE     RR1 ERCC  RR1_OSD48_original_matched RR1_OSD168_all_ERCC -0.995232 -0.994139  81.293556   38.527336
+             FE       RR3-39 C01_OSD137_original_matched C01_OSD168_all_ERCC  0.997844  0.996383  16.313250   12.336147
+             FE       RR3-40 C02_OSD137_original_matched C02_OSD168_all_ERCC  0.995098  0.994460   9.695157   13.939859
+             FE ERCC/no-ERCC          RR1_OSD168_no-ERCC RR1_OSD168_all_ERCC  0.999963  0.999771  36.413555   38.527336
+             RE          RR1  RR1_OSD48_original_matched  RR1_OSD168_no-ERCC -0.902122 -0.926832   4.381973    0.411689
+             RE     RR1 ERCC  RR1_OSD48_original_matched RR1_OSD168_all_ERCC -0.948659 -0.941941   4.381973    0.551223
+             RE       RR3-39 C01_OSD137_original_matched C01_OSD168_all_ERCC  0.579762  0.711538   0.598142    0.083756
+             RE       RR3-40 C02_OSD137_original_matched C02_OSD168_all_ERCC  0.999496  0.995330   0.843286    0.839235
+             RE ERCC/no-ERCC          RR1_OSD168_no-ERCC RR1_OSD168_all_ERCC  0.992256  0.996978   0.411689    0.551223
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4g_task3_challenge

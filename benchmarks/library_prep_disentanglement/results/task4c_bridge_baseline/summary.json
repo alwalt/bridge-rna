@@ -1,0 +1,14 @@
+{
+  "samples": 96,
+  "datasets": 2,
+  "verified_pairs": 42,
+  "median_pair_cosine": 0.9976336656538856,
+  "mean_pair_cosine": 0.9920183829504952,
+  "pair_recall_at_1": 0.10714285714285714,
+  "pair_recall_at_5": 0.2976190476190476,
+  "pair_recall_at_10": 0.5119047619047619,
+  "pair_mrr": 0.22279313144214224,
+  "median_pair_rank": 9.5,
+  "difference_pc1_variance": 0.963136345159842,
+  "interpretation": "A dominant direction is descriptive, not evidence of a universal causal library effect."
+}

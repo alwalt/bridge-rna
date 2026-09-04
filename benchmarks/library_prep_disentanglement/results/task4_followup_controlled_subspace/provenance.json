@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-04T20:57:36.496022+00:00",
+  "frozen_bridge_only": true,
+  "FE_RE_retrained": false,
+  "OSDR_used_for_fit": false,
+  "controlled_pairs": 40,
+  "permutation_replicates": 1000,
+  "random_subspace_replicates_per_k": 500,
+  "subspace_definition": "right singular vectors of uncentered donor-wise Ribo-minus-PolyA differences",
+  "external_orientation_consistent": false,
+  "pc1_5_geometry_damage_acceptable": false,
+  "conclusion_class": "B_partial_context_dependent_overlap"
+}

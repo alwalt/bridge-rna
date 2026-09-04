@@ -1,0 +1,4 @@
+dataset,accession,species,tissue,n_pairs,same_rna,polyA_protocol,ribo_protocol,platform,role
+Chen 2020 T cells,doi:10.1038/s41597-020-00719-4; syn22250947; figshare 12646238.v5,human,naive CD4+ T cells,40,yes,TruSeq RNA Library Prep v2,TruSeq Stranded Total RNA + Ribo-Zero Gold,Illumina paired-end,TRAIN
+GSE150097 freeze-thaw,GSE150097 / SRP257988,human,blood leukocytes,pending authoritative pair map,candidate; verify pair IDs,TruSeq Stranded mRNA,TruSeq Stranded Total RNA + Ribo-Zero Gold,HiSeq 4000 (SE50 vs PE100 confounded),VALIDATION candidate
+Zhao 2018 blood/colon,SRP127360,human,pooled blood; colon,2,yes; four technical libraries/arm,TruSeq Stranded mRNA,Globin-Zero blood; Ribo-Zero Gold colon,NextSeq 500 PE,TEST

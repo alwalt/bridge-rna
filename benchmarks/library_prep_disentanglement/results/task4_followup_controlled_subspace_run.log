@@ -1,0 +1,23 @@
+                                                metric    result
+              Median controlled PolyA/Ribo pair cosine  0.997636
+                               Median cosine among d_i  0.980222
+                   Mean LOO technical-direction cosine  0.986005
+                       LOO mismatched-null empirical p  0.000999
+                     Uncentered PC1 variance explained  0.974709
+                  Uncentered PC1-5 cumulative variance  0.995201
+                           Independent blood alignment -0.657206
+                           Independent colon alignment -0.761167
+  RR1 sample displacement median cosine with d_library  0.788547
+  RR1 sample displacement median variance captured PC1  0.640972
+RR1 sample displacement median variance captured PC1-5  0.952596
+                          Original RR1 response cosine -0.804119
+                      RR1 after controlled PC1 removal -0.699396
+                    RR1 after controlled PC1-5 removal  0.194530
+                                       RR3-39 original  0.790003
+                 RR3-39 after controlled PC1-5 removal  0.497417
+                                       RR3-40 original  0.916648
+                 RR3-40 after controlled PC1-5 removal  0.894097
+                          Random PC1-5 RR1 cosine mean -0.804188
+            Random PC1-5 at least as improved fraction  0.000000
+
+Conclusion class: B_partial_context_dependent_overlap

@@ -1,0 +1,14 @@
+[download] recount3 SRP127360
+2026-09-04 12:03:30 downloading and reading the metadata.
+2026-09-04 12:03:30 caching file sra.sra.SRP127360.MD.gz.
+2026-09-04 12:03:31 caching file sra.recount_project.SRP127360.MD.gz.
+2026-09-04 12:03:32 caching file sra.recount_qc.SRP127360.MD.gz.
+2026-09-04 12:03:32 caching file sra.recount_seq_qc.SRP127360.MD.gz.
+2026-09-04 12:03:33 caching file sra.recount_pred.SRP127360.MD.gz.
+2026-09-04 12:03:33 downloading and reading the feature information.
+2026-09-04 12:03:33 caching file human.gene_sums.G029.gtf.gz.
+2026-09-04 12:03:34 downloading and reading the counts: 16 samples across 64837 features.
+2026-09-04 12:03:35 caching file sra.gene_sums.SRP127360.G029.gz.
+2026-09-04 12:03:36 construcing the RangedSummarizedExperiment (rse) object.
+NULL
+[complete] 64837 genes x 16 runs

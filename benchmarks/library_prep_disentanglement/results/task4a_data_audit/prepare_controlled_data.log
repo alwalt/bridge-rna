@@ -1,0 +1,25 @@
+[download] https://ndownloader.figshare.com/files/23820140 -> /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/sources/chen_2020_tcells/counts.txt
+[download] https://ndownloader.figshare.com/files/24668162 -> /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/sources/chen_2020_tcells/metadata.xlsx
+[download] https://ndownloader.figshare.com/files/24668165 -> /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/sources/chen_2020_tcells/readme.txt
+[chen BridgeRNA] 4/80 (5.0%) | elapsed=0.0s
+[chen BridgeRNA] 8/80 (10.0%) | elapsed=4.2s
+[chen BridgeRNA] 12/80 (15.0%) | elapsed=8.3s
+[chen BridgeRNA] 16/80 (20.0%) | elapsed=12.4s
+[chen BridgeRNA] 20/80 (25.0%) | elapsed=16.5s
+[chen BridgeRNA] 24/80 (30.0%) | elapsed=20.6s
+[chen BridgeRNA] 28/80 (35.0%) | elapsed=24.7s
+[chen BridgeRNA] 32/80 (40.0%) | elapsed=28.8s
+[chen BridgeRNA] 36/80 (45.0%) | elapsed=32.9s
+[chen BridgeRNA] 40/80 (50.0%) | elapsed=37.1s
+[chen BridgeRNA] 44/80 (55.0%) | elapsed=41.1s
+[chen BridgeRNA] 48/80 (60.0%) | elapsed=45.2s
+[chen BridgeRNA] 52/80 (65.0%) | elapsed=49.3s
+[chen BridgeRNA] 56/80 (70.0%) | elapsed=53.4s
+[chen BridgeRNA] 60/80 (75.0%) | elapsed=57.5s
+[chen BridgeRNA] 64/80 (80.0%) | elapsed=61.6s
+[chen BridgeRNA] 68/80 (85.0%) | elapsed=65.8s
+[chen BridgeRNA] 72/80 (90.0%) | elapsed=69.9s
+[chen BridgeRNA] 76/80 (95.0%) | elapsed=74.0s
+[chen BridgeRNA] 80/80 (100.0%) | elapsed=78.2s
+[complete] manifest=/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/datasets/chen_2020_tcells/manifest.parquet
+[complete] embeddings=/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/datasets/chen_2020_tcells/bridgerna_embeddings.npy

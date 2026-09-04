@@ -1,0 +1,7 @@
+library_label,species,samples,studies
+conflict,human,28,2
+conflict,mouse,16,2
+polyA,human,91554,4018
+polyA,mouse,87216,4150
+ribo,human,768,76
+ribo,mouse,433,45

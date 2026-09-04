@@ -1,0 +1,9 @@
+[cache] Chen 2020 prepared dataset
+[complete] manifest=/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/datasets/chen_2020_tcells/manifest.parquet
+[complete] embeddings=/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/datasets/chen_2020_tcells/bridgerna_embeddings.npy
+[SRP127360 BridgeRNA] 4/16 (25.0%) | elapsed=0.0s
+[SRP127360 BridgeRNA] 8/16 (50.0%) | elapsed=4.1s
+[SRP127360 BridgeRNA] 12/16 (75.0%) | elapsed=8.2s
+[SRP127360 BridgeRNA] 16/16 (100.0%) | elapsed=12.3s
+[complete] manifest=/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/datasets/zhao_2018_srp127360/manifest.parquet
+[complete] embeddings=/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/datasets/zhao_2018_srp127360/bridgerna_embeddings.npy

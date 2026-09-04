@@ -100,6 +100,10 @@ cache/
 benchmarks/cross_species_exercise_response/work/
 benchmarks/mouse_encode/work/
 benchmarks/osdr_batch_effect_representation/work/
+benchmarks/library_prep_disentanglement/work/
+benchmarks/library_prep_disentanglement/results/**/sample_representations.npz
+benchmarks/library_prep_disentanglement/results/**/task3_fe_re_sample_embeddings.npz
+benchmarks/library_prep_disentanglement/results/**/*.joblib
 
 # ============================================================
 # Frontend / Node

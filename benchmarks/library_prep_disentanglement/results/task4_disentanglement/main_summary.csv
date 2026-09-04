@@ -1,0 +1,9 @@
+representation,auroc,balanced_accuracy,macro_f1,pairs,pair_cosine,pair_r1,pair_r5,pair_r10,pair_mrr,median_rank,biology_metric,biology_metric_value
+Bridge,0.0,0.25,0.2,2,0.8824248313903809,0.75,1.0,1.0,0.875,1.0,cross_library_source_identity_mrr,0.875
+Linear baseline,0.5,0.5,0.3333333333333333,2,0.8828907608985901,0.75,1.0,1.0,0.875,1.0,cross_library_source_identity_mrr,0.875
+FE,0.0,0.5,0.3333333333333333,2,0.7859833240509033,0.5,1.0,1.0,0.75,1.5,cross_library_source_identity_mrr,0.75
+RE,0.0,0.25,0.2,2,0.16501891613006592,0.5,1.0,1.0,0.75,1.5,cross_library_source_identity_mrr,0.75
+FE without_pair,0.0,0.5,0.3333333333333333,2,0.8383415341377258,0.5,1.0,1.0,0.75,1.5,cross_library_source_identity_mrr,0.75
+FE without_adversarial,0.078125,0.25,0.2,2,0.9961804151535034,0.5,1.0,1.0,0.75,1.5,cross_library_source_identity_mrr,0.75
+FE shuffled_labels,0.0,0.0,0.0,2,0.9995043277740479,0.5,1.0,1.0,0.75,1.5,cross_library_source_identity_mrr,0.75
+FE shuffled_pairs,0.0,0.5,0.3333333333333333,2,0.9859093427658081,0.5,1.0,1.0,0.75,1.5,cross_library_source_identity_mrr,0.75
