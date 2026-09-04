@@ -1,0 +1,2159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article article-type="research-article" dtd-version="2.3" xml:lang="EN" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">Front. Astron. Space Sci.</journal-id>
+<journal-title>Frontiers in Astronomy and Space Sciences</journal-title>
+<abbrev-journal-title abbrev-type="pubmed">Front. Astron. Space Sci.</abbrev-journal-title>
+<issn pub-type="epub">2296-987X</issn>
+<publisher>
+<publisher-name>Frontiers Media S.A.</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">1200132</article-id>
+<article-id pub-id-type="doi">10.3389/fspas.2023.1200132</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Astronomy and Space Sciences</subject>
+<subj-group>
+<subject>Original Research</subject>
+</subj-group>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Batch effect correction methods for NASA GeneLab transcriptomic datasets</article-title>
+<alt-title alt-title-type="left-running-head">Sanders et&#xa0;al.</alt-title>
+<alt-title alt-title-type="right-running-head">
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fspas.2023.1200132">10.3389/fspas.2023.1200132</ext-link>
+</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+<surname>Sanders</surname>
+<given-names>Lauren M.</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/2317415/overview"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Chok</surname>
+<given-names>Hamed</given-names>
+</name>
+<xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Samson</surname>
+<given-names>Finsam</given-names>
+</name>
+<xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Acuna</surname>
+<given-names>Ana Uriarte</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Polo</surname>
+<given-names>San-Huei Lai</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Boyko</surname>
+<given-names>Valery</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Chen</surname>
+<given-names>Yi-Chun</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Dinh</surname>
+<given-names>Marie</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<xref ref-type="aff" rid="aff7">
+<sup>7</sup>
+</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Gebre</surname>
+<given-names>Samrawit</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Galazka</surname>
+<given-names>Jonathan M.</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/1632208/overview"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Costes</surname>
+<given-names>Sylvain V.</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/1376828/overview"/>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name>
+<surname>Saravia-Butler</surname>
+<given-names>Amanda M.</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+<xref ref-type="corresp" rid="c001">&#x2a;</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/2270395/overview"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<sup>1</sup>
+<institution>Blue Marble Space Institute of Science</institution>, <institution>NASA Ames</institution>, <addr-line>Seattle</addr-line>, <country>United States</country>
+</aff>
+<aff id="aff2">
+<sup>2</sup>
+<institution>NASA Ames Research Center</institution>, <addr-line>Moffett Field</addr-line>, <addr-line>CA</addr-line>, <country>United States</country>
+</aff>
+<aff id="aff3">
+<sup>3</sup>
+<institution>GeneLab Multi-Omics Analysis Working Group</institution>, <addr-line>Houston</addr-line>, <addr-line>TX</addr-line>, <country>United States</country>
+</aff>
+<aff id="aff4">
+<sup>4</sup>
+<institution>Department of Computer Science</institution>, <institution>Stanford University</institution>, <addr-line>Stanford</addr-line>, <addr-line>CA</addr-line>, <country>United States</country>
+</aff>
+<aff id="aff5">
+<sup>5</sup>
+<institution>KBR</institution>, <institution>Space Biosciences Division</institution>, <institution>NASA Ames Research Center</institution>, <addr-line>Moffett Field</addr-line>, <addr-line>CA</addr-line>, <country>United States</country>
+</aff>
+<aff id="aff6">
+<sup>6</sup>
+<institution>The Bionetics Corporation</institution>, <institution>NASA Ames Research Center</institution>, <addr-line>Moffett Field</addr-line>, <addr-line>CA</addr-line>, <country>United States</country>
+</aff>
+<aff id="aff7">
+<sup>7</sup>
+<institution>Logyx, LLC</institution>, <addr-line>Mountain View</addr-line>, <addr-line>CA</addr-line>, <country>United States</country>
+</aff>
+<author-notes>
+<fn fn-type="edited-by">
+<p>
+<bold>Edited by:</bold>
+<ext-link ext-link-type="uri" xlink:href="https://loop.frontiersin.org/people/668504/overview">Joseph Borg</ext-link>, University of Malta, Malta</p>
+</fn>
+<fn fn-type="edited-by">
+<p>
+<bold>Reviewed by:</bold>
+<ext-link ext-link-type="uri" xlink:href="https://loop.frontiersin.org/people/506055/overview">Nathaniel J. Szewczyk</ext-link>, Ohio University, United States</p>
+<p>
+<ext-link ext-link-type="uri" xlink:href="https://loop.frontiersin.org/people/2281095/overview">Josef Borg</ext-link>, University of Malta, Malta</p>
+</fn>
+<corresp id="c001">&#x2a;Correspondence: Amanda M. Saravia-Butler, <email>amanda.m.saravia-butler@nasa.gov</email>
+</corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>01</day>
+<month>06</month>
+<year>2023</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2023</year>
+</pub-date>
+<volume>10</volume>
+<elocation-id>1200132</elocation-id>
+<history>
+<date date-type="received">
+<day>04</day>
+<month>04</month>
+<year>2023</year>
+</date>
+<date date-type="accepted">
+<day>10</day>
+<month>05</month>
+<year>2023</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>Copyright &#xa9; 2023 Sanders, Chok, Samson, Acuna, Polo, Boyko, Chen, Dinh, Gebre, Galazka, Costes and Saravia-Butler.</copyright-statement>
+<copyright-year>2023</copyright-year>
+<copyright-holder>Sanders, Chok, Samson, Acuna, Polo, Boyko, Chen, Dinh, Gebre, Galazka, Costes and Saravia-Butler</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p>
+</license>
+</permissions>
+<abstract>
+<p>
+<bold>Introduction:</bold> RNA sequencing (RNA-seq) data from space biology experiments promise to yield invaluable insights into the effects of spaceflight on terrestrial biology. However, sample numbers from each study are low due to limited crew availability, hardware, and space. To increase statistical power, spaceflight RNA-seq datasets from different missions are often aggregated together. However, this can introduce technical variation or &#x201c;batch effects&#x201d;, often due to differences in sample handling, sample processing, and sequencing platforms. Several computational methods have been developed to correct for technical batch effects, thereby reducing their impact on true biological signals.</p>
+<p>
+<bold>Methods:</bold> In this study, we combined 7 mouse liver RNA-seq datasets from NASA GeneLab (part of the NASA Open Science Data Repository) to evaluate several common batch effect correction methods (ComBat and ComBat-seq from the sva R package, and Median Polish, Empirical Bayes, and ANOVA from the MBatch R package). Principal component analysis (PCA) was used to identify library preparation method and mission as the primary sources of batch effect among the technical variables in the combined dataset. We next quantitatively evaluated the ability of each of the indicated methods to correct for each identified technical batch variable using the following criteria: BatchQC, PCA, dispersion separability criterion, log fold change correlation, and differential gene expression analysis. Each batch variable/correction method combination was then assessed using a custom scoring approach to identify the optimal correction method for the combined dataset, by geometrically probing the space of all allowable scoring functions to yield an aggregate volume-based scoring measure.</p>
+<p>
+<bold>Results and Discussion:</bold> Using the method described for the combined dataset in this study, the library preparation variable/ComBat correction method pair out ranked the other candidate pairs, suggesting that this combined dataset should be corrected for library preparation using the ComBat correction method prior to downstream analysis. We describe the GeneLab multi-study analysis and visualization portal which will allow users to access the publicly available space biology &#x2018;omics data, select multiple studies to combine for analysis, and examine the presence or absence of batch effects using multiple metrics. If the user chooses to perform batch effect correction, the scoring approach described here can be implemented to identify the optimal correction method to use for their specific combined dataset prior to analysis.</p>
+</abstract>
+<kwd-group>
+<kwd>RNA-seq</kwd>
+<kwd>batch effect correction</kwd>
+<kwd>NASA genelab</kwd>
+<kwd>space biology</kwd>
+<kwd>transcriptomics</kwd>
+<kwd>combat</kwd>
+<kwd>combat-seq</kwd>
+<kwd>MBatch</kwd>
+</kwd-group>
+<custom-meta-wrap>
+<custom-meta>
+<meta-name>section-at-acceptance</meta-name>
+<meta-value>Astrobiology</meta-value>
+</custom-meta>
+</custom-meta-wrap>
+</article-meta>
+</front>
+<body>
+<sec id="s1">
+<title>1 Introduction</title>
+<p>Space biology research is essential for understanding physiological responses to spaceflight, and offers key insights into biological pathways that are impacted by the unique conditions of low Earth orbit and beyond (<xref ref-type="bibr" rid="B16">Institute of Medicine, Board on Health Sciences Policy and Committee on NASA&#x2019;s Research on Human Health Risks, 2008</xref>; <xref ref-type="bibr" rid="B14">Garrett-Bakelman&#xa0;et&#xa0;al., 2019</xref>; <xref ref-type="bibr" rid="B8">da&#xa0;Silveira&#xa0;et&#xa0;al., 2020</xref>; <xref ref-type="bibr" rid="B24">Malkani&#xa0;et&#xa0;al., 2020</xref>). Resources aboard the International Space Station have allowed for multi-omic space biology studies involving complex model organisms, such as those conducted within the Rodent Research project (<xref ref-type="bibr" rid="B32">Rizzo&#xa0;et&#xa0;al., 2012</xref>; <xref ref-type="bibr" rid="B18">Jonscher&#xa0;et&#xa0;al., 2016</xref>; <xref ref-type="bibr" rid="B4">Chakravarty&#xa0;et&#xa0;al., 2017</xref>; <xref ref-type="bibr" rid="B28">Pecaut&#xa0;et&#xa0;al., 2017</xref>; <xref ref-type="bibr" rid="B31">Rettig&#xa0;et&#xa0;al., 2017</xref>; <xref ref-type="bibr" rid="B34">Shen&#xa0;et&#xa0;al., 2017</xref>; <xref ref-type="bibr" rid="B36">Tascher&#xa0;et&#xa0;al., 2017</xref>; <xref ref-type="bibr" rid="B37">Ward&#xa0;et&#xa0;al., 2018</xref>; <xref ref-type="bibr" rid="B2">Beheshti&#xa0;et&#xa0;al., 2019</xref>; <xref ref-type="bibr" rid="B33">Ronca&#xa0;et&#xa0;al., 2019</xref>; <xref ref-type="bibr" rid="B5">Choi&#xa0;et&#xa0;al., 2020</xref>). However, such research is often constrained by high costs, limited crew time and available space to conduct research. Thus, sample numbers from such studies are often low, limiting the statistical power of each individual experiment. To increase statistical power of a study, researchers often combine individual datasets with similar experimental conditions (<xref ref-type="bibr" rid="B2">Beheshti&#xa0;et&#xa0;al., 2019</xref>; <xref ref-type="bibr" rid="B8">da&#xa0;Silveira&#xa0;et&#xa0;al., 2020</xref>; <xref ref-type="bibr" rid="B24">Malkani&#xa0;et&#xa0;al., 2020</xref>).</p>
+<p>However, merging datasets can introduce unwanted data variation due to technical differences between datasets, including variation in sample handling, processing, and sequencing platforms (<xref ref-type="bibr" rid="B17">Johnson&#xa0;et&#xa0;al., 2007</xref>; <xref ref-type="bibr" rid="B19">Lai&#xa0;Polo&#xa0;et&#xa0;al., 2020</xref>; <xref ref-type="bibr" rid="B9">Foox&#xa0;et&#xa0;al., 2021</xref>). Artificially introduced variation, or &#x201c;batch effects&#x201d;, can affect biologically relevant comparisons, such as spaceflight (FLT) vs ground control (GC) samples. Therefore, prior to any downstream analysis of a combined dataset, it is appropriate to first identify potential sources of technical batch effects and then if necessary, perform a statistical adjustment to correct the data values (<xref ref-type="bibr" rid="B22">Leek and Storey, 2007</xref>; <xref ref-type="bibr" rid="B21">Leek&#xa0;et&#xa0;al., 2010</xref>; <xref ref-type="bibr" rid="B7">&#x10c;uklina&#xa0;et&#xa0;al., 2020</xref>). Several statistical methods exist to correct for batch effects in genomics and transcriptomics data (<xref ref-type="bibr" rid="B17">Johnson&#xa0;et&#xa0;al., 2007</xref>; <xref ref-type="bibr" rid="B1">Akbani&#xa0;et&#xa0;al., 2018</xref>; <xref ref-type="bibr" rid="B38">Zhang&#xa0;et&#xa0;al., 2018</xref>; <xref ref-type="bibr" rid="B39">Zhang&#xa0;et&#xa0;al., 2020</xref>).</p>
+<p>In the present work, we utilized publicly available transcriptomics data sourced from NASA GeneLab to evaluate the performance of five common batch effect correction methods (ComBat and ComBat-seq from the <italic>sva</italic> R package, and Median Polish, Empirical Bayes, and ANOVA from the <italic>MBatch</italic> R package) on combined RNA sequencing (RNA-seq) datasets. As part of the NASA Open Science Data Repository (<ext-link ext-link-type="uri" xlink:href="https://osdr.nasa.gov/bio/repo/">https://osdr.nasa.gov/bio/repo/</ext-link>), GeneLab is an open access database that hosts datasets containing both raw and processed multi-omics data from spaceflight and ground-based analogue experiments (<xref ref-type="bibr" rid="B30">Ray&#xa0;et&#xa0;al., 2019</xref>; <xref ref-type="bibr" rid="B3">Berrios et al., 2021</xref>). In this study, we combined seven RNA-seq datasets containing spaceflown and ground control mouse liver samples. We selected only liver tissue datasets to limit additional biological sources of variation, such as tissue type. The seven datasets used spanned multiple different rodent research missions, sequencing facilities, and RNA-seq library preparation methods. We identified two primary sources of technical variation among the combined samples, and evaluated the performance of the five batch effect correction methods to correct for these technical batch variables using several criteria: BatchQC (<xref ref-type="bibr" rid="B25">Manimaran&#xa0;et&#xa0;al., 2016</xref>), principal component analysis (PCA), dispersion separability criterion (DSC) (<xref ref-type="bibr" rid="B27">Oseni&#xa0;et&#xa0;al., 2021</xref>), log&#xa0;fold change (LFC) correlation, and differential gene expression (DGE) analysis.</p>
+<p>We also present the development of a standardized scoring approach to identify the optimal correction method for each technical batch variable in a combined dataset. The standardized scoring approach described herein iterates through the five batch effect correction methods listed above and geometrically probes the space of all allowable scoring functions to yield an aggregate volume-based scoring measure.</p>
+<p>Lastly, we describe the implementation of an open-access, user-friendly multi-study analysis and visualization portal for GeneLab RNA-seq data, which allows users to select multiple studies, examine batch effects, choose whether to correct batch effects based on the scoring method, and then performs batch effect correction prior to downstream analysis.</p>
+</sec>
+<sec sec-type="methods" id="s2">
+<title>2 Methods</title>
+<sec id="s2-1">
+<title>2.1 GeneLab RNA-seq datasets</title>
+<p>Unnormalized RNA sequencing counts tables for Open Science Datasets 47(<xref ref-type="bibr" rid="B10">Galazka&#xa0;et&#xa0;al., 2015</xref>), 48(<xref ref-type="bibr" rid="B15">Globus&#xa0;et&#xa0;al., 2015</xref>), 137(<xref ref-type="bibr" rid="B35">Smith&#xa0;et&#xa0;al., 2017</xref>), 168(<xref ref-type="bibr" rid="B11">Galazka, 2020</xref>), 173(<xref ref-type="bibr" rid="B6">Costes&#xa0;et&#xa0;al., 2018</xref>), 242(<xref ref-type="bibr" rid="B13">Galazka&#xa0;et&#xa0;al., 2019a</xref>), and 245 (<xref ref-type="bibr" rid="B12">Galazka&#xa0;et&#xa0;al., 2019b</xref>) were downloaded from the Open Science Data Repository (<ext-link ext-link-type="uri" xlink:href="https://osdr.nasa.gov/bio/repo/">https://osdr.nasa.gov/bio/repo/</ext-link>). These counts tables were merged on the ENSEMBL ID column, non-overlapping genes were eliminated, and only spaceflight and respective ground control samples were used. The combined counts table was normalized using the DESeq2 (v1.30.1) (<xref ref-type="bibr" rid="B23">Love&#xa0;et&#xa0;al., 2014</xref>) median of ratios method prior to analysis and batch effect correction. For the log&#xa0;fold change correlation and DGE comparison evaluation criteria, FLT and GC samples from datasets GLDS-48 and GLDS-245 were each split into two sub-datasets. GLDS-48&#x5f;C &#x3d; samples derived via tissues extracted from frozen carcasses, GLDS-48&#x5f;I &#x3d; samples derived via tissues extracted immediately after euthanasia on the ISS (FLT) or on Earth (GC), GLDS-245&#x5f;ISST &#x3d; samples derived via tissues extracted immediately after euthanasia on the ISS (FLT) or on Earth (GC), GLDS-245&#x5f;LAR &#x3d; samples derived via tissues extracted immediately after euthanasia post live animal return to Earth.</p>
+</sec>
+<sec id="s2-2">
+<title>2.2 Batch effect correction</title>
+<p>All batch effect correction was performed in R v4.0.4. ComBat(<xref ref-type="bibr" rid="B17">Johnson&#xa0;et&#xa0;al., 2007</xref>) and ComBat-seq&#xa0;(<xref ref-type="bibr" rid="B39">Zhang&#xa0;et&#xa0;al., 2020</xref>) were accessed through the sva R package v3.38.0 (<xref ref-type="bibr" rid="B20">Leek&#xa0;et&#xa0;al., 2020</xref>), and MBatch Empirical Bayes, ANOVA, and Median Polish were accessed through the MBatch R package v5.4.7 (<xref ref-type="bibr" rid="B1">Akbani&#xa0;et&#xa0;al., 2018</xref>). Each batch effect correction was performed on the DESeq2-normalized combined counts table. Each correction algorithm was provided with the combined counts table and a metadata file specifying the batch assignment for each sample (<xref ref-type="sec" rid="s10">Supplementary&#xa0;Table&#xa0;S1</xref>). After correction with each MBatch algorithm, negative counts were converted to zero for downstream processing.</p>
+</sec>
+<sec id="s2-3">
+<title>2.3 Evaluation metrics</title>
+<sec id="s2-3-1">
+<title>2.3.1 BatchQC</title>
+<p>BatchQC (<xref ref-type="bibr" rid="B25">Manimaran&#xa0;et&#xa0;al., 2016</xref>) was run on the uncorrected and batch corrected counts tables, using the BatchQC R package v1.18.0. We calculated the skew and kurtosis values for each sample using scipy. stats (v1.7.3) skew and kurtosis implementations. A BatchQC improvement score was calculated as follows:<disp-formula id="equ1">
+<mml:math id="m1">
+<mml:mrow>
+<mml:mtable columnalign="center">
+<mml:mtr>
+<mml:mtd>
+<mml:mrow>
+<mml:mi mathvariant="normal">F</mml:mi>
+<mml:mi mathvariant="normal">o</mml:mi>
+<mml:mi mathvariant="normal">r</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi mathvariant="normal">e</mml:mi>
+<mml:mi mathvariant="normal">a</mml:mi>
+<mml:mi mathvariant="normal">c</mml:mi>
+<mml:mi mathvariant="normal">h</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi mathvariant="normal">s</mml:mi>
+<mml:mi mathvariant="normal">a</mml:mi>
+<mml:mi mathvariant="normal">m</mml:mi>
+<mml:mi mathvariant="normal">p</mml:mi>
+<mml:mi mathvariant="normal">l</mml:mi>
+<mml:mi mathvariant="normal">e</mml:mi>
+<mml:mo>:</mml:mo>
+<mml:mspace width=".17em"/>
+<mml:mi>d</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>f</mml:mi>
+<mml:mi>f</mml:mi>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mrow>
+<mml:mfenced open="|" close="|" separators="|">
+<mml:mrow>
+<mml:mn>0</mml:mn>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mo>&#x2013;</mml:mo>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>u</mml:mi>
+<mml:mi>n</mml:mi>
+<mml:mi>c</mml:mi>
+<mml:mi>o</mml:mi>
+<mml:mi>r</mml:mi>
+<mml:mi>r</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>c</mml:mi>
+<mml:mi>t</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>d</mml:mi>
+</mml:mrow>
+</mml:mfenced>
+</mml:mrow>
+<mml:mo>&#x2212;</mml:mo>
+<mml:mrow>
+<mml:mfenced open="|" close="|" separators="|">
+<mml:mrow>
+<mml:mn>0</mml:mn>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mo>&#x2013;</mml:mo>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>c</mml:mi>
+<mml:mi>o</mml:mi>
+<mml:mi>r</mml:mi>
+<mml:mi>r</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>c</mml:mi>
+<mml:mi>t</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>d</mml:mi>
+</mml:mrow>
+</mml:mfenced>
+</mml:mrow>
+</mml:mrow>
+</mml:mtd>
+</mml:mtr>
+<mml:mtr>
+<mml:mtd>
+<mml:mrow>
+<mml:mi mathvariant="normal">W</mml:mi>
+<mml:mi mathvariant="normal">i</mml:mi>
+<mml:mi mathvariant="normal">t</mml:mi>
+<mml:mi mathvariant="normal">h</mml:mi>
+<mml:mi mathvariant="normal">i</mml:mi>
+<mml:mi mathvariant="normal">n</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi mathvariant="normal">e</mml:mi>
+<mml:mi mathvariant="normal">a</mml:mi>
+<mml:mi mathvariant="normal">c</mml:mi>
+<mml:mi mathvariant="normal">h</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi mathvariant="normal">b</mml:mi>
+<mml:mi mathvariant="normal">a</mml:mi>
+<mml:mi mathvariant="normal">t</mml:mi>
+<mml:mi mathvariant="normal">c</mml:mi>
+<mml:mi mathvariant="normal">h</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi mathvariant="normal">t</mml:mi>
+<mml:mi mathvariant="normal">y</mml:mi>
+<mml:mi mathvariant="normal">p</mml:mi>
+<mml:mi mathvariant="normal">e</mml:mi>
+<mml:mo>:</mml:mo>
+<mml:mspace width=".17em"/>
+<mml:mi>b</mml:mi>
+<mml:mi>a</mml:mi>
+<mml:mi>t</mml:mi>
+<mml:mi>c</mml:mi>
+<mml:mi>h</mml:mi>
+<mml:mi>d</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>f</mml:mi>
+<mml:mi>f</mml:mi>
+<mml:mi>s</mml:mi>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mi>a</mml:mi>
+<mml:mi>v</mml:mi>
+<mml:mi>g</mml:mi>
+<mml:mrow>
+<mml:mfenced open="(" close=")" separators="|">
+<mml:mrow>
+<mml:mi>d</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>f</mml:mi>
+<mml:mi>f</mml:mi>
+<mml:mi>s</mml:mi>
+</mml:mrow>
+</mml:mfenced>
+</mml:mrow>
+</mml:mrow>
+</mml:mtd>
+</mml:mtr>
+<mml:mtr>
+<mml:mtd>
+<mml:mrow>
+<mml:mi mathvariant="normal">A</mml:mi>
+<mml:mi mathvariant="normal">c</mml:mi>
+<mml:mi mathvariant="normal">r</mml:mi>
+<mml:mi mathvariant="normal">o</mml:mi>
+<mml:mi mathvariant="normal">s</mml:mi>
+<mml:mi mathvariant="normal">s</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi mathvariant="normal">a</mml:mi>
+<mml:mi mathvariant="normal">l</mml:mi>
+<mml:mi mathvariant="normal">l</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi mathvariant="normal">b</mml:mi>
+<mml:mi mathvariant="normal">a</mml:mi>
+<mml:mi mathvariant="normal">t</mml:mi>
+<mml:mi mathvariant="normal">c</mml:mi>
+<mml:mi mathvariant="normal">h</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi mathvariant="normal">t</mml:mi>
+<mml:mi mathvariant="normal">y</mml:mi>
+<mml:mi mathvariant="normal">p</mml:mi>
+<mml:mi mathvariant="normal">e</mml:mi>
+<mml:mi mathvariant="normal">s</mml:mi>
+<mml:mo>:</mml:mo>
+<mml:mspace width=".17em"/>
+<mml:mi>s</mml:mi>
+<mml:mi>c</mml:mi>
+<mml:mi>o</mml:mi>
+<mml:mi>r</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mi>a</mml:mi>
+<mml:mi>v</mml:mi>
+<mml:mi>g</mml:mi>
+<mml:mrow>
+<mml:mfenced open="(" close=")" separators="|">
+<mml:mrow>
+<mml:mi>b</mml:mi>
+<mml:mi>a</mml:mi>
+<mml:mi>t</mml:mi>
+<mml:mi>c</mml:mi>
+<mml:mi>h</mml:mi>
+<mml:mi>d</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>f</mml:mi>
+<mml:mi>f</mml:mi>
+<mml:mi>s</mml:mi>
+</mml:mrow>
+</mml:mfenced>
+</mml:mrow>
+</mml:mrow>
+</mml:mtd>
+</mml:mtr>
+</mml:mtable>
+</mml:mrow>
+</mml:math>
+</disp-formula>
+</p>
+<p>Where <italic>uncorrected</italic> &#x3d; the skew or kurtosis value from the uncorrect data, and <italic>corrected</italic> &#x3d; the skew or kurtosis value from the corrected data.</p>
+</sec>
+<sec id="s2-3-2">
+<title>2.3.2 Principal component analysis (PCA)</title>
+<p>PCA was run on the uncorrected and batch corrected counts tables, using the prcomp() function from the stats R package (v4.1.0) (<xref ref-type="bibr" rid="B29">R&#xa0;Core&#xa0;Team, 2021</xref>). In order to quantify the relationships within- and between-batches before <italic>versus</italic> after batch effect correction, we calculate two PCA improvement scores as follows:<disp-formula id="equ2">
+<mml:math id="m2">
+<mml:mrow>
+<mml:mtable columnalign="center">
+<mml:mtr>
+<mml:mtd>
+<mml:mrow>
+<mml:mi>t</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>c</mml:mi>
+<mml:mi>h</mml:mi>
+<mml:mo>_</mml:mo>
+<mml:mi>s</mml:mi>
+<mml:mi>c</mml:mi>
+<mml:mi>o</mml:mi>
+<mml:mi>r</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mi>a</mml:mi>
+<mml:mi>v</mml:mi>
+<mml:mi>g</mml:mi>
+<mml:mrow>
+<mml:mfenced open="(" close=")" separators="|">
+<mml:mrow>
+<mml:mi>d</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>s</mml:mi>
+<mml:mi>t</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>b</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>t</mml:mi>
+<mml:mi>w</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>n</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>s</mml:mi>
+<mml:mi>a</mml:mi>
+<mml:mi>m</mml:mi>
+<mml:mi>p</mml:mi>
+<mml:mi>l</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>s</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>f</mml:mi>
+<mml:mi>r</mml:mi>
+<mml:mi>o</mml:mi>
+<mml:mi>m</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>d</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>f</mml:mi>
+<mml:mi>f</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>r</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>n</mml:mi>
+<mml:mi>t</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>t</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>c</mml:mi>
+<mml:mi>h</mml:mi>
+<mml:mi>n</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>c</mml:mi>
+<mml:mi>a</mml:mi>
+<mml:mi>l</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>b</mml:mi>
+<mml:mi>a</mml:mi>
+<mml:mi>t</mml:mi>
+<mml:mi>c</mml:mi>
+<mml:mi>h</mml:mi>
+</mml:mrow>
+</mml:mfenced>
+</mml:mrow>
+</mml:mrow>
+</mml:mtd>
+</mml:mtr>
+<mml:mtr>
+<mml:mtd>
+<mml:mrow>
+<mml:mi>b</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>o</mml:mi>
+<mml:mo>_</mml:mo>
+<mml:mi>s</mml:mi>
+<mml:mi>c</mml:mi>
+<mml:mi>o</mml:mi>
+<mml:mi>r</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mi>a</mml:mi>
+<mml:mi>v</mml:mi>
+<mml:mi>g</mml:mi>
+<mml:mrow>
+<mml:mfenced open="(" close=")" separators="|">
+<mml:mrow>
+<mml:mi>d</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>s</mml:mi>
+<mml:mi>t</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>b</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>t</mml:mi>
+<mml:mi>w</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>n</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>s</mml:mi>
+<mml:mi>a</mml:mi>
+<mml:mi>m</mml:mi>
+<mml:mi>p</mml:mi>
+<mml:mi>l</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>s</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>f</mml:mi>
+<mml:mi>r</mml:mi>
+<mml:mi>o</mml:mi>
+<mml:mi>m</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>d</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>f</mml:mi>
+<mml:mi>f</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>r</mml:mi>
+<mml:mi>e</mml:mi>
+<mml:mi>n</mml:mi>
+<mml:mi>t</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>b</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>o</mml:mi>
+<mml:mi>l</mml:mi>
+<mml:mi>o</mml:mi>
+<mml:mi>g</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>c</mml:mi>
+<mml:mi>a</mml:mi>
+<mml:mi>l</mml:mi>
+<mml:mtext>&#x2009;</mml:mtext>
+<mml:mi>c</mml:mi>
+<mml:mi>o</mml:mi>
+<mml:mi>n</mml:mi>
+<mml:mi>d</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>t</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>o</mml:mi>
+<mml:mi>n</mml:mi>
+</mml:mrow>
+</mml:mfenced>
+</mml:mrow>
+</mml:mrow>
+</mml:mtd>
+</mml:mtr>
+</mml:mtable>
+</mml:mrow>
+</mml:math>
+</disp-formula>
+</p>
+<p>For quantifying how effective a batch effect correction was, tech&#x5f;score must be minimized and bio&#x5f;score must be maximized.</p>
+</sec>
+<sec id="s2-3-3">
+<title>2.3.3 Dispersion separability criterion (DSC)</title>
+<p>We calculate the DSC metric on the pre- and post-corrected combined dataset using the PCA&#x5f;Regular&#x5f;Structures function in the R MBatch library (v1.7.6). DSC quantifies the amount of batch effect in data from a specific variable by measuring the ratio of dispersion between batches and within batches (<xref ref-type="bibr" rid="B27">Oseni&#xa0;et&#xa0;al., 2021</xref>). A higher DSC value indicates more batch effect because it means greater dispersion between the batches than within the batches. We calculate DSC values for each variable, take the mean across all biological variables and all technical variables, then calculate the difference in overall DSC values post-correction <italic>versus</italic> pre-correction. To assess the effectiveness of batch effect correction, the post-correction <italic>versus</italic> pre-correction differences in technical variables should be maximized while the differences in biological variables should be minimized.</p>
+</sec>
+<sec id="s2-3-4">
+<title>2.3.4 Log fold change correlation</title>
+<p>We calculate log<sub>2</sub> fold change (LFC) for all genes in the FLT <italic>versus</italic> GC groups, then calculate the correlation of LFC pairwise between all datasets. We set pairwise comparisons from the same batch to 0, and calculate the average value across all pairwise datasets from different batches. This value should be maximized in an effective batch effect correction.</p>
+</sec>
+<sec id="s2-3-5">
+<title>2.3.5 Differential gene expression (DGE) analysis</title>
+<p>DGE analysis was performed between FLT and GC samples using DESeq2, from the DESeq2 R package v1.30.1. Genes with fewer than 10 counts across all samples were filtered before running size normalization. We perform two types of evaluation using this criterion: DGE within-dataset and DGE across-dataset comparisons.</p>
+<p>For the DGE within-dataset evaluation we calculate the number of differentially expressed genes (DEGs) per dataset post-correction that match the pre-correction DEGs, or that are in addition (extra) to the pre-correction DEGs. We represent the match and extra DEGs as a fraction of the original for each dataset and then take the mean across all datasets. To quantify the effectiveness of a batch effect correction, the number of DEGs that match between pre- and post-correction should be maximized and the number of DEGs that are extra in post-correction compared to pre-correction should be minimized.</p>
+<p>For the DGE across-dataset evaluation we assess whether DEGs are better preserved between datasets from different batches post-correction. In a pairwise manner, we calculate the percent overlapping DEGs which are preserved between each dataset from pre-to post-correction. We scale the values between 0&#x2013;1, set pairwise comparisons from the same batch to 0, and calculate the average value across all pairwise datasets from different batches. This value should be maximized in an effective batch effect correction.</p>
+<p>The values from each evaluation metric for each batch variable/correction method pair are used as input to the scoring method (see next section).</p>
+</sec>
+</sec>
+<sec id="s2-4">
+<title>2.4 Scoring method</title>
+<p>We developed a standardized scoring approach to identify the optimal correction method for technical batch variables for a specific dataset by geometrically probing the space of all allowable scoring functions from the evaluation criteria to yield an aggregate volume-based scoring measure.</p>
+<p>The data may be interpreted as a point cloud in a multi-dimensional vector space with the number of points being the number of competing batch variable/correction method pair candidates. The evaluation criteria are evaluated across all candidate pairs. A linear scoring function in terms of the evaluation scores may be viewed as a hyperplane in the underlying vector space. In the case that all evaluation scores are to be maximized, then seeking the one or more candidate pairs that are optimized by any given choice of scoring function (weighted combination of evaluation criteria) amounts to maximizing the hyperplane offset over the point cloud. Additional details are available in the <xref ref-type="sec" rid="s10">Supplementary&#xa0;Methods</xref>.</p>
+<p>The scoring method was implemented using MATLAB version 9.10.0.1684407 with libraries convhulln (convex hull computation), delaunayn (simplicial decomposition), and vert2lcon (constraint generation) and lcon2vert (vertex enumeration) libraries from the Analyze N-dimensional Convex Polyhedra package (version 1.9.0.2).</p>
+</sec>
+</sec>
+<sec sec-type="results" id="s3">
+<title>3 Results</title>
+<sec id="s3-1">
+<title>3.1 Identification of primary sources of batch effect in multi-study dataset</title>
+<p>Seven RNA-seq datasets containing liver samples from spaceflown (FLT) and respective ground control (GC) mice were downloaded from the NASA Open Science Data Repository (processed GeneLab data) and combined as described in the Methods (OSD/GLDS-47, -48, -137, -168, -173, -242 and -245). The total sample number was 112 after combining datasets (57 FLT samples and 55&#xa0;GC samples). These datasets differ from each other in key ways, including biological variables such as differences in age, strain, and sex, as well as technical variables, including differences in mission, preservation methods, and RNA library preparation methods that could be sources of batch effect (<xref ref-type="table" rid="T1">Table&#xa0;1</xref>). Full sample-level metadata are available in <xref ref-type="sec" rid="s10">Supplementary&#xa0;Table&#xa0;S1</xref>.</p>
+<table-wrap id="T1" position="float">
+<label>TABLE 1</label>
+<caption>
+<p>Metadata associated with seven GeneLab RNA-seq liver datasets from space flown and ground control mice. RR &#x3d; Rodent Research. CASIS &#x3d; Center for the Advancement of Science in Space. STS &#x3d; Space Transportation System. F &#x3d; Female. M &#x3d; Male. LAR &#x3d; live animal return; animals returned to Earth prior to euthanization. ISS-T &#x3d; International Space Station Terminal; animals euthanized in orbit. Carcass &#x3d; tissue extraction from animals after freezing and returning to Earth. Immediate &#x3d; tissue extraction immediately after euthanasia, either on the ISS or after live animal return to Earth. SE&#xa0;&#x3d; single end. PE &#x3d; paired end. Bp &#x3d; base pairs. SPL &#x3d; Sample Processing Lab. &#x2a; indicates biological variables. &#x2a;&#x2a; indicates technical variables.</p>
+</caption>
+<table>
+<thead valign="top">
+<tr>
+<th align="center">Dataset accession (osd/glds)</th>
+<th align="center">47</th>
+<th align="center">48</th>
+<th align="center">137</th>
+<th align="center">168</th>
+<th align="center">173</th>
+<th align="center">242</th>
+<th align="center">245</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr>
+<td rowspan="2" align="center">&#x2a;Age at Launch (weeks)</td>
+<td rowspan="2" align="center">32</td>
+<td rowspan="2" align="center">16</td>
+<td rowspan="2" align="center">12</td>
+<td align="center">16</td>
+<td rowspan="2" align="center">9</td>
+<td rowspan="2" align="center">10</td>
+<td rowspan="2" align="center">36</td>
+</tr>
+<tr>
+<td align="center">12</td>
+</tr>
+<tr>
+<td rowspan="2" align="center">&#x2a;Mission Duration (days)</td>
+<td rowspan="2" align="center">21</td>
+<td rowspan="2" align="center">37</td>
+<td rowspan="2" align="center">42</td>
+<td align="center">37</td>
+<td rowspan="2" align="center">13</td>
+<td rowspan="2" align="center">33</td>
+<td align="center">29</td>
+</tr>
+<tr>
+<td align="center">42</td>
+<td align="center">53&#x2013;56</td>
+</tr>
+<tr>
+<td align="center">&#x2a;Sex</td>
+<td align="center">F</td>
+<td align="center">F</td>
+<td align="center">F</td>
+<td align="center">F</td>
+<td align="center">F</td>
+<td align="center">M</td>
+<td align="center">F</td>
+</tr>
+<tr>
+<td rowspan="2" align="center">&#x2a;Strain</td>
+<td rowspan="2" align="center">C57BL/6Tac</td>
+<td rowspan="2" align="center">C57BL/6&#xa0;J</td>
+<td rowspan="2" align="center">BALB/c</td>
+<td align="center">C57BL/6&#xa0;J</td>
+<td rowspan="2" align="center">C57BL/6NCrl</td>
+<td rowspan="2" align="center">C57BL/6&#xa0;J</td>
+<td rowspan="2" align="center">C57BL/6NTac</td>
+</tr>
+<tr>
+<td align="center">BALB/c</td>
+</tr>
+<tr>
+<td rowspan="2" align="center">&#x2a;&#x2a;Animal Return</td>
+<td rowspan="2" align="center">LAR</td>
+<td rowspan="2" align="center">LAR</td>
+<td rowspan="2" align="center">LAR</td>
+<td rowspan="2" align="center">LAR</td>
+<td rowspan="2" align="center">LAR</td>
+<td rowspan="2" align="center">LAR</td>
+<td align="center">LAR</td>
+</tr>
+<tr>
+<td align="center">ISS-T</td>
+</tr>
+<tr>
+<td align="center">&#x2a;&#x2a;Library Preparation Method</td>
+<td align="center">polyA</td>
+<td align="center">polyA</td>
+<td align="center">ribo-deplete</td>
+<td align="center">ribo-deplete</td>
+<td align="center">ribo-deplete</td>
+<td align="center">ribo-deplete</td>
+<td align="center">ribo-deplete</td>
+</tr>
+<tr>
+<td rowspan="2" align="center">&#x2a;&#x2a;Mission</td>
+<td rowspan="2" align="center">RR1 CASIS</td>
+<td rowspan="2" align="center">RR1 NASA</td>
+<td rowspan="2" align="center">RR3 ASIS</td>
+<td align="center">RR1 NASA</td>
+<td rowspan="2" align="center">STS-135</td>
+<td rowspan="2" align="center">RR-9</td>
+<td rowspan="2" align="center">RR-6</td>
+</tr>
+<tr>
+<td align="center">RR3 CASIS</td>
+</tr>
+<tr>
+<td rowspan="2" align="center">&#x2a;&#x2a;Preservation Method</td>
+<td rowspan="2" align="center">Immediate</td>
+<td align="center">Immediate</td>
+<td rowspan="2" align="center">Carcass</td>
+<td rowspan="2" align="center">Carcass</td>
+<td rowspan="2" align="center">Immediate</td>
+<td rowspan="2" align="center">Immediate</td>
+<td align="center">Immediate</td>
+</tr>
+<tr>
+<td align="center">Carcass</td>
+<td align="center">Carcass</td>
+</tr>
+<tr>
+<td align="center">&#x2a;&#x2a;Sequencing Facility</td>
+<td align="center">UC Davis</td>
+<td align="center">UC Davis</td>
+<td align="center">UC Davis</td>
+<td align="center">UC Davis</td>
+<td align="center">UC Davis</td>
+<td align="center">GeneLab SPL</td>
+<td align="center">GeneLab SPL</td>
+</tr>
+<tr>
+<td align="center">&#x2a;&#x2a;Sequencing Parameters</td>
+<td align="center">SE 50bp 30&#xa0;M reads</td>
+<td align="center">SE 50bp 30&#xa0;M reads</td>
+<td align="center">PE 150bp 100&#xa0;M reads</td>
+<td align="center">PE 150bp 100&#xa0;M reads</td>
+<td align="center">PE 150bp 100&#xa0;M reads</td>
+<td align="center">PE 149bp 60&#xa0;M reads</td>
+<td align="center">PE 149bp 60&#xa0;M reads</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>After read depth normalization with DESeq2 (see Methods), we performed principal component analysis (PCA) to identify potential sources of batch effect among the technical variables. We found that the library preparation method used was the primary source of variation among samples, and the mission the samples were derived from was an additional source of sample grouping (<xref ref-type="fig" rid="F1">Figure&#xa0;1</xref>, <xref ref-type="sec" rid="s10">Supplementary&#xa0;Figure&#xa0;S1</xref>).</p>
+<fig id="F1" position="float">
+<label>FIGURE 1</label>
+<caption>
+<p>Principal Component Analysis (PCA) of the combined dataset. PCA plots with shapes representing either spaceflown (FLT) or ground control (GC) groups and samples colored by <bold>(A)</bold> library preparation method (LibPrep) or <bold>(B)</bold> by mission.</p>
+</caption>
+<graphic xlink:href="fspas-10-1200132-g001.tif"/>
+</fig>
+<p>Based on the PCA plots in <xref ref-type="fig" rid="F1">Figure&#xa0;1</xref> and <xref ref-type="sec" rid="s10">Supplementary Figure S1</xref>, we concluded that library preparation method and mission were primary sources of batch effect in this combined dataset, which may be masking potential differences in gene expression between FLT and GC samples. We therefore sought to identify the most effective tool to correct for each source of batch effect while preserving biological differences. Five commonly used batch effect correction tools/algorithms (<xref ref-type="bibr" rid="B17">Johnson&#xa0;et&#xa0;al., 2007</xref>; <xref ref-type="bibr" rid="B1">Akbani&#xa0;et&#xa0;al., 2018</xref>; <xref ref-type="bibr" rid="B39">Zhang&#xa0;et&#xa0;al., 2020</xref>) were selected to independently correct for the two sources of batch effect (<xref ref-type="table" rid="T2">Table&#xa0;2</xref>, Methods).</p>
+<table-wrap id="T2" position="float">
+<label>TABLE 2</label>
+<caption>
+<p>Batch effect correction tools and associated algorithms and batch variables. Five batch effect correction methods, including tools and their associated algorithms were used to correct for each of the main sources of batch effect in the combined dataset.</p>
+</caption>
+<table>
+<thead valign="top">
+<tr>
+<th align="center">Tool</th>
+<th align="center">Algorithm</th>
+<th align="center">Sources of batch effect corrected</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr>
+<td align="center">Combat</td>
+<td align="center">Empirical Bayes</td>
+<td rowspan="5" align="center">Library Preparation Mission</td>
+</tr>
+<tr>
+<td align="center">ComBat-seq</td>
+<td align="center">Negative Binomial</td>
+</tr>
+<tr>
+<td align="center">MBatch</td>
+<td align="center">Empirical Bayes</td>
+</tr>
+<tr>
+<td align="center">MBatch</td>
+<td align="center">ANOVA</td>
+</tr>
+<tr>
+<td align="center">MBatch</td>
+<td align="center">Median Polish</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>To assess the effectiveness of each correction method for removing batch effect while preserving biological signal, the following six criteria were evaluated before and after correction (as detailed in Methods): BatchQC, PCA, Dispersion Separability Criterion (DSC), FLT vs. GC log2 fold change (LFC) correlation across datasets and differentially expressed genes (DEGs) within and across datasets. For each of the evaluation criteria, we calculated an improvement score (see Methods) to quantify how well each correction method removed batch effects according to the given technical source of batch effect. Lastly, a custom scoring methodology was developed and implemented to collectively compare all 10 batch variable/correction method combinations based on all the evaluation criteria.</p>
+</sec>
+<sec id="s3-2">
+<title>3.2 Evaluation of batch effect correction with BatchQC, PCA, and DSC</title>
+<p>BatchQC (<xref ref-type="bibr" rid="B25">Manimaran&#xa0;et&#xa0;al., 2016</xref>) was used to evaluate the skew and kurtosis of each sample before <italic>versus</italic> after correction (see Methods). Skew and kurtosis are mathematical assessments of how each data point deviates from the normal distribution (<xref ref-type="bibr" rid="B26">Okrah and Corrada&#xa0;Bravo, 2015</xref>). Here, the assumption is that deviance from normal may be caused by batch effects, so we expect samples from different technical batches to have more similar skew and kurtosis values after correction. For this evaluation, correcting for library preparation with MBatch Median Polish and correcting for mission with ComBat-seq, outperformed the other correction methods as evident by skewness and kurtosis values for samples from different respective batches becoming more similar post-correction (<xref ref-type="sec" rid="s10">Supplementary&#xa0;Figure&#xa0;S2</xref>).</p>
+<p>PCA was used to evaluate how samples cluster before and after correction. If technical variables are successfully corrected, samples in different technical variable batches would cluster closer together post-correction and allow for samples in different biological conditions (FLT or GC in the case presented here) to cluster further apart. For this evaluation, correcting for library preparation with MBatch ANOVA and correcting for mission with MBatch Median Polish, outperformed the other correction methods as evident by the reduced distance between samples in different respective technical variable batches and increased distance between samples in different biological conditions post-correction (<xref ref-type="fig" rid="F2">Figure&#xa0;2</xref>, <xref ref-type="sec" rid="s10">Supplementary&#xa0;Figure&#xa0;S3</xref>).</p>
+<fig id="F2" position="float">
+<label>FIGURE 2</label>
+<caption>
+<p>PCA plots of corrected data. PCA plots of sample data <bold>(A)</bold> after correcting for the library preparation batch variable using ComBat, samples colored by library preparation method (LibPrep); <bold>(B)</bold> after correcting for the library preparation batch variable using ComBat-seq, samples colored by library preparation method (LibPrep); <bold>(C)</bold> after correcting for the mission batch variable using ComBat, samples colored by Mission; <bold>(D)</bold> after correcting for the mission batch variable using ComBat-seq, samples colored by Mission. For each PCA plot, shapes represent either space flown (FLT) or ground control (GC) groups.</p>
+</caption>
+<graphic xlink:href="fspas-10-1200132-g002.tif"/>
+</fig>
+<p>DSC (<xref ref-type="bibr" rid="B27">Oseni&#xa0;et&#xa0;al., 2021</xref>) was used to quantify the amount of batch effect within the data by calculating the ratio of dispersion between groups <italic>versus</italic> within groups before and after correction. Samples were grouped multiple ways, based on technical variables or biological variables, and the DSC metric was calculated for each type of grouping before batch correction and after batch correction using either library preparation or mission as the batch variable (see Methods). An effective batch correction method should result in a reduced DSC value for technical variable groupings and an elevated DSC value for biological variable groupings. For this evaluation, correcting for library preparation with MBatch Empirical Bayes and correcting for mission with MBatch ANOVA, outperformed the other correction methods as evident by minimizing the DSC value for technical variable groupings and maximizing the DSC value for biological variable groupings post-correction (<xref ref-type="fig" rid="F3">Figure&#xa0;3</xref>, <xref ref-type="sec" rid="s10">Supplementary&#xa0;Figure&#xa0;S4</xref>).</p>
+<fig id="F3" position="float">
+<label>FIGURE 3</label>
+<caption>
+<p>DSC scores of corrected data compared to uncorrected data. Barplots of sample data grouped by biological (blue) or technical (orange) variables for uncorrected DSC values subtracted from corrected DSC values <bold>(A)</bold> after correcting for the library preparation (LibPrep) batch variable using ComBat; <bold>(B)</bold> after correcting for the library preparation batch variable using ComBat-seq; <bold>(C)</bold> after correcting for the mission batch variable using ComBat; <bold>(D)</bold> after correcting for the mission batch variable using ComBat-seq. A blue star indicates the biological condition of interest (FLT or GC) and the orange star indicates the technical batch variable that was corrected for.</p>
+</caption>
+<graphic xlink:href="fspas-10-1200132-g003.tif"/>
+</fig>
+</sec>
+<sec id="s3-3">
+<title>3.3 Evaluation of batch effect correction with LFC and DGE</title>
+<p>All samples in the combined dataset were derived from livers of mice that were flown in space (FLT) and their respective ground controls (GC); we therefore expect the relative changes in gene expression in FLT <italic>versus</italic> GC samples in each original dataset to be similar. However, differences in technical variables among the original GLDS datasets (<xref ref-type="table" rid="T1">Table&#xa0;1</xref>) may mask the correlation of relative FLT <italic>versus</italic> GC gene expression changes. Therefore the FLT <italic>versus</italic> GC gene expression changes were compared, pairwise, between original datasets to assess dataset to dataset correlation before and after batch correction. For this evaluation, correcting for library preparation with ComBat and correcting for mission with ComBat, outperformed the other correction methods as evident by the greatest overall increase in FLT <italic>versus</italic> GC log<sub>2</sub> fold change (LFC) correlation for pairwise dataset comparisons post-correction (<xref ref-type="fig" rid="F4">Figure&#xa0;4</xref>, <xref ref-type="sec" rid="s10">Supplementary&#xa0;Figure&#xa0;S5</xref>).</p>
+<fig id="F4" position="float">
+<label>FIGURE 4</label>
+<caption>
+<p>FLT vs. GC LFC correlation between liver datasets before and after batch correction. Correlation plots comparing space flight (FLT) <italic>versus</italic> ground control (GC) log<sub>2</sub> fold change (LFC) in gene expression between original datasets <bold>(A)</bold> before batch correction; <bold>(B)</bold> after correcting for the library preparation (LibPrep) batch variable using ComBat; <bold>(C)</bold> after correcting for the library preparation batch variable using ComBat-seq; <bold>(D)</bold> after correcting for the mission batch variable using ComBat; <bold>(E)</bold> after correcting for the mission batch variable using ComBat-seq. FLT and GC samples from datasets GLDS-48 and GLDS-245 were each split into two sub-datasets as described in Methods.</p>
+</caption>
+<graphic xlink:href="fspas-10-1200132-g004.tif"/>
+</fig>
+<p>We next evaluated differentially expressed genes (DEGs) between FLT and GC groups (adjusted <italic>p</italic>-value &#x3c;0.05 and &#x7c;LFC&#x7c; &#x3e; 1) for all GLDS datasets before and after batch correction. Changes in DEGs before and after correction were quantified within each dataset and across datasets.</p>
+<p>We expect the DEGs within each dataset to be preserved after combining samples across datasets and correcting for technical differences. The number of preserved and newly identified DEGs within each dataset was calculated after correction and reported in <xref ref-type="table" rid="T3">Table&#xa0;3</xref> and <xref ref-type="sec" rid="s10">Supplementary&#xa0;Table&#xa0;S2</xref>. For this evaluation, correcting for library preparation with MBatch Empirical Bayes and correcting for mission with ComBat, outperformed the other correction methods as evident by the most preserved DEGs within each dataset, and least additional DEGs, post-correction (<xref ref-type="table" rid="T3">Table&#xa0;3</xref> and <xref ref-type="sec" rid="s10">Supplementary Table&#xa0;S2</xref>).</p>
+<table-wrap id="T3" position="float">
+<label>TABLE 3</label>
+<caption>
+<p>Comparison of DEGs in FLT vs GC groups within each dataset before and after correction. The &#x201c;Uncorrected&#x201d; row shows the number of differentially expressed genes (DEGs) in each dataset before correction. For each batch variable and correction method combination, the number of DEGs that match the original uncorrected DEGs are shown outside of the parentheses, while the number of DEGs that were identified only after correction are shown within parentheses.</p>
+</caption>
+<table>
+<thead valign="top">
+<tr>
+<th colspan="2" align="center"/>
+<th align="center">GLDS 47</th>
+<th align="center">GLDS 48&#x5f;I</th>
+<th align="center">GLDS 48&#x5f;C</th>
+<th align="center">GLDS 137</th>
+<th align="center">GLDS 168</th>
+<th align="center">GLDS 173</th>
+<th align="center">GLDS 242</th>
+<th align="center">GLDS 245&#x5f;LAR</th>
+<th align="center">GLDS 245&#x5f;ISST</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr>
+<td align="left"/>
+<td align="center">Uncorrected</td>
+<td align="center">14</td>
+<td align="center">63</td>
+<td align="center">197</td>
+<td align="center">3</td>
+<td align="center">1,401</td>
+<td align="center">520</td>
+<td align="center">321</td>
+<td align="center">39</td>
+<td align="center">539</td>
+</tr>
+<tr>
+<td rowspan="2" align="center">LibPrep as Batch</td>
+<td align="center">ComBat-seq</td>
+<td align="center">5 (107)</td>
+<td align="center">13 (170)</td>
+<td align="center">135 (465)</td>
+<td align="center">1 (6)</td>
+<td align="center">145 (29)</td>
+<td align="center">92 (47)</td>
+<td align="center">160 (188)</td>
+<td align="center">20 (37)</td>
+<td align="center">354 (229)</td>
+</tr>
+<tr>
+<td align="center">ComBat</td>
+<td align="center">2 (56)</td>
+<td align="center">21 (155)</td>
+<td align="center">91 (158)</td>
+<td align="center">0 (7)</td>
+<td align="center">303 (35)</td>
+<td align="center">117 (62)</td>
+<td align="center">173 (206)</td>
+<td align="center">24 (43)</td>
+<td align="center">413 (201)</td>
+</tr>
+<tr>
+<td rowspan="2" align="center">Mission as Batch</td>
+<td align="center">ComBat-seq</td>
+<td align="center">1 (114)</td>
+<td align="center">30 (268)</td>
+<td align="center">33 (77)</td>
+<td align="center">1 (30)</td>
+<td align="center">11 (4)</td>
+<td align="center">2 (12)</td>
+<td align="center">25 (84)</td>
+<td align="center">11 (24)</td>
+<td align="center">244 (98)</td>
+</tr>
+<tr>
+<td align="center">ComBat</td>
+<td align="center">3 (79)</td>
+<td align="center">11 (35)</td>
+<td align="center">35 (61)</td>
+<td align="center">0 (9)</td>
+<td align="center">26 (22)</td>
+<td align="center">5 (5)</td>
+<td align="center">29 (17)</td>
+<td align="center">17 (24)</td>
+<td align="center">277 (102)</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>For cross dataset comparison of DEGs, the number of overlapping DEGs between pairwise GLDS datasets were quantified before and after batch correction and the percent of overlapping DEGs preserved after batch correction was calculated. For this evaluation, correcting for library preparation with ComBat-seq and correcting for mission with MBatch Median Polish, outperformed the other correction methods as evident by the greatest percent of overlapping DEGs preserved post-correction (<xref ref-type="fig" rid="F5">Figure&#xa0;5</xref>, <xref ref-type="sec" rid="s10">Supplementary&#xa0;Figure&#xa0;S6</xref>).</p>
+<fig id="F5" position="float">
+<label>FIGURE 5</label>
+<caption>
+<p>Comparison of preserved DEGs in FLT vs GC groups across datasets after correction. Plots showing the pairwise comparisons of the percent overlapping DEGs preserved in FLT <italic>versus</italic> GC groups across datasets after <bold>(A)</bold> correcting for the library preparation (LibPrep) batch variable using ComBat; <bold>(B)</bold> correcting for the library preparation batch variable using ComBat-seq; <bold>(C)</bold> correcting for the mission batch variable using ComBat; <bold>(D)</bold> correcting for the mission batch variable using ComBat-seq. FLT and GC samples from datasets GLDS-48 and GLDS-245 were each split into two sub-datasets as described in Methods.</p>
+</caption>
+<graphic xlink:href="fspas-10-1200132-g005.tif"/>
+</fig>
+</sec>
+<sec id="s3-4">
+<title>3.4 Identifying optimum correction via a custom scoring categorization scheme</title>
+<p>Thus far, improvement scores were calculated for each of the evaluation criteria described above to quantify the performance of each of the 10 batch variable/correction method pairs (2 batch variables, library preparation and mission, each corrected with one of five correction methods described in <xref ref-type="table" rid="T2">Table&#xa0;2</xref>). To collectively compare all 10 batch variable/correction method pairs, a geometry-based categorization scheme for ranking the candidate pairs using their evaluation criteria performance scores was developed (<xref ref-type="fig" rid="F6">Figure&#xa0;6</xref>).</p>
+<fig id="F6" position="float">
+<label>FIGURE 6</label>
+<caption>
+<p>A geometry-based categorization scheme for ranking candidates against performance measures. In the schematic, dimensions F1 and F2 each represent one of the evaluation criteria. In reality, our study uses six evaluation criteria, but this figure represents only two for illustration purposes. Each point on the plot represents a competing batch variable/correction method pair. Each pair&#x2019;s performance is dependent on the criterion. <bold>(A)</bold> The lines on the plot represent linear criteria tradeoff functions. There are an infinite number of these functions, but we show two for illustration purposes. <bold>(B)</bold> The batch variable/correction method pair that maximizes (optimizes) a given tradeoff function is identified. In this illustration, the candidate pair that maximizes the F1 criterion is circled in red and the candidate pair that maximizes the F2 criterion is circled in green. <bold>(C)</bold> The percent volume of criteria tradeoffs optimized by each candidate pair is calculated geometrically and used to rank all candidate pairs; the underlying geometric approach also yields a quantification of the contribution from each evaluation criterion (Methods, <xref ref-type="sec" rid="s10">Supplementary&#xa0;Table&#xa0;S3</xref>).</p>
+</caption>
+<graphic xlink:href="fspas-10-1200132-g006.tif"/>
+</fig>
+<p>After implementing the scoring categorization scheme, each batch variable/correction method pair was assigned a % volume related to the percentage of criteria tradeoffs (scoring functions) under which it is maximized. Using this method, the library preparation variable/ComBat correction method pair out ranked the other nine candidate pairs (<xref ref-type="table" rid="T4">Table&#xa0;4</xref>). These results indicate that the best approach for minimizing batch effects, and thus maximizing biological signal, in the combined dataset is to correct for the library preparation technical variable using the ComBat batch correction method.</p>
+<table-wrap id="T4" position="float">
+<label>TABLE 4</label>
+<caption>
+<p>Scoring categorization scheme results for all batch variable/correction method pairs. The table reports the final ranking of the batch variable/correction method pairs based on the percent volume assigned to each after applying the scoring categorization scheme.</p>
+</caption>
+<table>
+<thead valign="top">
+<tr>
+<th align="center">Method</th>
+<th align="center">Correction variable</th>
+<th align="center">% volume assigned</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr>
+<td align="center">ComBat</td>
+<td align="center">Library preparation</td>
+<td align="center">34.69</td>
+</tr>
+<tr>
+<td align="center">ComBat-seq</td>
+<td align="center">Library preparation</td>
+<td align="center">19.31</td>
+</tr>
+<tr>
+<td align="center">ComBat</td>
+<td align="center">Mission</td>
+<td align="center">18.58</td>
+</tr>
+<tr>
+<td align="center">MBatch Median Polish</td>
+<td align="center">Mission</td>
+<td align="center">13.06</td>
+</tr>
+<tr>
+<td align="center">MBatch Empirical Bayes</td>
+<td align="center">Library preparation</td>
+<td align="center">8.17</td>
+</tr>
+<tr>
+<td align="center">ComBat-seq</td>
+<td align="center">Mission</td>
+<td align="center">3.41</td>
+</tr>
+<tr>
+<td align="center">MBatch ANOVA</td>
+<td align="center">Library preparation</td>
+<td align="center">1.95</td>
+</tr>
+<tr>
+<td align="center">MBatch Empirical Bayes</td>
+<td align="center">Mission</td>
+<td align="center">0.79</td>
+</tr>
+<tr>
+<td align="center">MBatch Median Polish</td>
+<td align="center">Library preparation</td>
+<td align="center">0.00</td>
+</tr>
+<tr>
+<td align="center">MBatch ANOVA</td>
+<td align="center">Mission</td>
+<td align="center">0.00</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</sec>
+<sec id="s3-5">
+<title>3.5 GeneLab user portal for multi-study data analysis with batch effect correction</title>
+<p>Providing a means to allow users to combine samples from various space-relevant GeneLab transcriptomics datasets hosted on the NASA Open Science Data Repository (<xref ref-type="bibr" rid="B30">Ray&#xa0;et&#xa0;al., 2019</xref>; <xref ref-type="bibr" rid="B3">Berrios&#xa0;et&#xa0;al., 2021</xref>) will undoubtedly enable more insights into how the space environment alters gene expression. The current GeneLab multi-study visualization portal allows users to combine samples from different transcriptomics datasets then perform differential gene expression analysis and visualize their results (<xref ref-type="fig" rid="F7">Figure&#xa0;7</xref>). Subsequent versions of the multi-study portal will also provide users the option to identify and correct for batch effects thereby reducing the likelihood of introducing artificial variation in the combined dataset. Implementation of the batch correction methodology described here will enhance user confidence in the results of their multi-study analyses. <xref ref-type="fig" rid="F8">Figure&#xa0;8</xref> outlines a schematic of how we plan to implement the batch effect correction feature in the GeneLab multi-study data analysis and visualization portal.</p>
+<fig id="F7" position="float">
+<label>FIGURE 7</label>
+<caption>
+<p>Representative capabilities of the GeneLab Multi-Study Visualization Portal. <bold>(A)</bold> The search dashboard presents options for filtering datasets by multiple factors including assay type, organism, and tissue type. <bold>(B)</bold> After combining datasets, the platform automatically identifies all factors and characteristics represented in the combined dataset and provides users the ability to further select specific samples from each dataset. The platform will then automatically calculate the principal components of the combined data and using a series of drop-down menus, users can choose which factors or characteristics to use for labeling samples in the PCA plots. <bold>(C)</bold> Differential gene expression analysis results are automatically computed and displayed in a sortable table. <bold>(D)</bold> Gene set enrichment analysis is performed on significantly differentially expressed genes and represented in a variety of plots, including pathway normalized enrichment score (NES) plots.</p>
+</caption>
+<graphic xlink:href="fspas-10-1200132-g007.tif"/>
+</fig>
+<fig id="F8" position="float">
+<label>FIGURE 8</label>
+<caption>
+<p>Overview of the GeneLab user portal for multi-study data analysis with batch effect correction. This batch effect correction pipeline will be publicly available to users in GeneLab&#x2019;s upcoming multi-study analysis and visualization portal. Blue indicates user choices, while green indicates automated actions. Users can select datasets and samples and if they wish, bypass the correction and go straight to multi-study analysis. Otherwise users can evaluate potential batch effects using PCA. Users can manually select the variable or variables for correction, or the variable with the greatest first principal component will be selected by default. The user can then select which batch correction method(s) to evaluate, or the default is to evaluate all 5. After the batch variable/correction method pairs are selected, the categorization scoring function is run, and the candidate pair with highest ranked volume is selected automatically unless the user makes a manual selection. The data are then corrected and subsequently fed into the multi study analysis.</p>
+</caption>
+<graphic xlink:href="fspas-10-1200132-g008.tif"/>
+</fig>
+</sec>
+</sec>
+<sec sec-type="discussion" id="s4">
+<title>4 Discussion</title>
+<p>Here we present a standardized approach for evaluating the effectiveness of computational batch effect correction in RNA-seq data. The introduction of technical batch effects is a particular concern for space biology research and analysis, as spaceflight experiments are expensive and time-consuming, which leads to small datasets that are often combined to increase statistical power (<xref ref-type="bibr" rid="B2">Beheshti&#xa0;et&#xa0;al., 2019</xref>; <xref ref-type="bibr" rid="B8">da&#xa0;Silveira&#xa0;et&#xa0;al., 2020</xref>; <xref ref-type="bibr" rid="B24">Malkani&#xa0;et&#xa0;al., 2020</xref>). Therefore, we demonstrate our standardized evaluation approach on a use-case of seven combined GeneLab RNA-seq datasets from the NASA Open Science Data Repository (<ext-link ext-link-type="uri" xlink:href="https://osdr.nasa.gov/bio/repo/">https://osdr.nasa.gov/bio/repo/</ext-link>).</p>
+<p>We show that our evaluation and scoring approach solves several common issues. First, there are many different batch correction methods available (<xref ref-type="bibr" rid="B17">Johnson&#xa0;et&#xa0;al., 2007</xref>; <xref ref-type="bibr" rid="B1">Akbani&#xa0;et&#xa0;al., 2018</xref>; <xref ref-type="bibr" rid="B20">Leek&#xa0;et&#xa0;al., 2020</xref>; <xref ref-type="bibr" rid="B39">Zhang&#xa0;et&#xa0;al., 2020</xref>) and several options for how to evaluate the performance of a selected correction method on a given dataset. However, many of these evaluation metrics are commonly evaluated visually, adding issues of subjectivity. Our approach converts metrics such as BatchQC (<xref ref-type="bibr" rid="B25">Manimaran&#xa0;et&#xa0;al., 2016</xref>) and PCA(<xref ref-type="bibr" rid="B29">R&#xa0;Core&#xa0;Team, 2021</xref>) that are commonly evaluated visually into quantifiable metrics that can be used in a scoring evaluation. Our approach also facilitates the incorporation of additional quantifiable evaluation metrics including dispersion separability criterion (DSC) (<xref ref-type="bibr" rid="B27">Oseni&#xa0;et&#xa0;al., 2021</xref>), log&#xa0;fold change correlation, and differential gene expression across datasets. Second, many computational batch effect correction methods have been developed over the past decade, and it is difficult and time-consuming to evaluate the performance of multiple correction methods as well as multiple options of technical variables to assess for batch effect. Our approach rapidly calculates the effectiveness of each batch variable/correction method pair according to several evaluation metrics, standardizing the output and removing subjectivity.</p>
+<p>We also present a user portal which will make our approach easy to implement for users who wish to combine RNA-seq data from the Open Science Data Repository, evaluate the presence of batch effects, and identify and implement the most effective correction method. This user portal is a natural extension of the current GeneLab Multi-Study Visualization portal and will enhance the accessibility and reusability of space biology RNA-seq datasets in the Open Science Data Repository.</p>
+<p>Although we demonstrate our approach on a space biology use-case, our approach is broadly applicable to scenarios in which multiple RNA-seq datasets are combined or when a large dataset must be processed in several batches, introducing technical variation. Furthermore, here we evaluate five commonly used computational methods for correcting batch effect but our approach can be used to evaluate and compare future methods that have not yet been developed, in order to benchmark the performance of new methods against previous ones.</p>
+<p>With the low cost of high-throughput sequencing and the demonstrable influx of RNA-seq datasets in both space biology and the larger life sciences and biomedical fields, standardizing our approach to data sharing and data re-use is essential for reproducible research. We believe that the approach we present here is a vital addition to the open science and data sharing communities as it facilitates re-use of small and precious datasets and provides transparent, rigorous evaluation of computational batch correction methods.</p>
+</sec>
+</body>
+<back>
+<sec sec-type="data-availability" id="s5">
+<title>Data availability statement</title>
+<p>The datasets presented in this study can be found in online repositories. The names of the repository/repositories and accession number(s) can be found in the article/<xref ref-type="sec" rid="s10">Supplementary&#xa0;Material</xref>.</p>
+</sec>
+<sec id="s6">
+<title>Author contributions</title>
+<p>LS, FS, JG, SC, and A-SB contributed to conception and design of the study. S-HP, VB, YC, and MD processed samples used in the study. S-HP and SG curated study metadata. FS performed initial combat and combat-seq correction and analyses. LS generated batch corrected data, performed statistical analysis for evaluation criteria, created most fingers and tables. HC developed and implemented the custom scoring categorization scheme, including respective figure and statistical analysis of the batch variable/correction method pairs. AA developed the GeneLab multi-study visualization portal. A-SB generated individual and combined un-corrected data, created some figures and tables. LS and A-SB co-wrote the first draft of the manuscript. All authors contributed to the article and approved the submitted version.</p>
+</sec>
+<sec id="s7">
+<title>Funding</title>
+<p>This work was funded by the NASA Space Biology Program within the NASA Science Mission Directorate&#x2019;s (SMD) Biological and Physical Sciences (BPS) Division.</p>
+</sec>
+<ack>
+<p>We thank the GeneLab Analysis Working Group members for their suggestions and feedback; all NASA GeneLab members for generating, hosting, and maintaining the datasets used in this study.</p>
+</ack>
+<sec sec-type="COI-statement" id="s8">
+<title>Conflict of interest</title>
+<p>Author MD, was employed by the company Logyx, LLC.</p>
+<p>The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+</sec>
+<sec sec-type="disclaimer" id="s9">
+<title>Publisher&#x2019;s note</title>
+<p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p>
+</sec>
+<sec id="s10">
+<title>Supplementary material</title>
+<p>The Supplementary Material for this article can be found online at:<ext-link ext-link-type="uri" xlink:href="https://www.frontiersin.org/articles/10.3389/fspas.2023.1200132/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/fspas.2023.1200132/full&#x23;supplementary-material</ext-link>
+</p>
+<supplementary-material xlink:href="DataSheet2.PDF" id="SM1" mimetype="application/PDF" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+<supplementary-material xlink:href="DataSheet1.pdf" id="SM2" mimetype="application/pdf" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+<supplementary-material xlink:href="Table1.CSV" id="SM3" mimetype="application/CSV" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</sec>
+<ref-list>
+<title>References</title>
+<ref id="B1">
+<citation citation-type="web">
+<person-group person-group-type="author">
+<name>
+<surname>Akbani</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Casasent</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Bradley</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>Weinstein</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2018</year>). <article-title>MBatch: MD anderson batch assessment tools (MBatch) package. R package version 1.4.17</article-title>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="https://bioinformatics.mdanderson.org/public-software/mbatch/">https://bioinformatics.mdanderson.org/public-software/mbatch/</ext-link>
+</comment>.</citation>
+</ref>
+<ref id="B2">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Beheshti</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Chakravarty</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Fogle</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Fazelinia</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Silveira</surname>
+<given-names>W. A. D.</given-names>
+</name>
+<name>
+<surname>Boyko</surname>
+<given-names>V.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2019</year>). <article-title>Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver</article-title>. <source>Sci. Rep.</source>
+<volume>9</volume> (<issue>1</issue>), <fpage>19195</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-019-55869-2</pub-id>
+</citation>
+</ref>
+<ref id="B3">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Berrios</surname>
+<given-names>D. C.</given-names>
+</name>
+<name>
+<surname>Galazka</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Grigorev</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Gebre</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Costes</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2021</year>). <article-title>NASA GeneLab: Interfaces for the exploration of space omics data</article-title>. <source>Nucleic acids Res.</source>
+<volume>49</volume> (<issue>1</issue>), <fpage>D1515</fpage>&#x2013;<lpage>D1522</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkaa887</pub-id>
+</citation>
+</ref>
+<ref id="B4">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Chakravarty</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Lai</surname>
+<given-names>S.-H.</given-names>
+</name>
+<name>
+<surname>Boyko</surname>
+<given-names>V.</given-names>
+</name>
+<name>
+<surname>Berrios</surname>
+<given-names>D. C.</given-names>
+</name>
+<name>
+<surname>Fogle</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Reinsch</surname>
+<given-names>S.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2017</year>). <article-title>GeneLab: Multi-Omics investigation of rodent research-1 biobanked tissues</article-title>. <source>FASEB J.</source>
+<volume>31</volume> (<issue>1</issue>), <fpage>722</fpage>. </citation>
+</ref>
+<ref id="B5">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Choi</surname>
+<given-names>S. Y.</given-names>
+</name>
+<name>
+<surname>Saravia-Butler</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Shirazi-Fard</surname>
+<given-names>Y.</given-names>
+</name>
+<name>
+<surname>Leveson-Gower</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Stodieck</surname>
+<given-names>L. S.</given-names>
+</name>
+<name>
+<surname>Cadena</surname>
+<given-names>S. M.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2020</year>). <article-title>Validation of a new rodent experimental System to investigate consequences of long duration space habitation</article-title>. <source>Sci. Rep.</source>
+<volume>10</volume> (<issue>1</issue>), <fpage>2336</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-020-58898-4</pub-id>
+</citation>
+</ref>
+<ref id="B6">
+<citation citation-type="web">
+<person-group person-group-type="author">
+<name>
+<surname>Costes</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Chakravarty</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Gebre</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Lai Polo</surname>
+<given-names>S.-H.</given-names>
+</name>
+<name>
+<surname>Butler</surname>
+<given-names>A. S.</given-names>
+</name>
+<name>
+<surname>Fogle</surname>
+<given-names>H.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2018</year>). <article-title>OSD-173: STS-135: Mouse liver transcriptomics using RNA-seq</article-title>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="https://osdr.nasa.gov/bio/repo/data/studies/OSD-173">https://osdr.nasa.gov/bio/repo/data/studies/OSD-173</ext-link> (Accessed March 28, 2018)</comment>.</citation>
+</ref>
+<ref id="B7">
+<citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>&#x10c;uklina</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Pedrioli</surname>
+<given-names>P. G. A.</given-names>
+</name>
+<name>
+<surname>Aebersold</surname>
+<given-names>R.</given-names>
+</name>
+</person-group> (<year>2020</year>). &#x201c;<article-title>Review of batch effects prevention, diagnostics, and correction approaches</article-title>,&#x201d; in <source>Mass spectrometry data analysis in proteomics</source>. Editor <person-group person-group-type="editor">
+<name>
+<surname>Matthiesen</surname>
+<given-names>R.</given-names>
+</name>
+</person-group> (<publisher-loc>New York, NY</publisher-loc>: <publisher-name>Springer New York</publisher-name>), <fpage>373</fpage>&#x2013;<lpage>387</lpage>.</citation>
+</ref>
+<ref id="B8">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>da Silveira</surname>
+<given-names>W. A.</given-names>
+</name>
+<name>
+<surname>Fazelinia</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Rosenthal</surname>
+<given-names>S. B.</given-names>
+</name>
+<name>
+<surname>Laiakis</surname>
+<given-names>E. C.</given-names>
+</name>
+<name>
+<surname>Kim</surname>
+<given-names>M. S.</given-names>
+</name>
+<name>
+<surname>Meydan</surname>
+<given-names>C.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2020</year>). <article-title>Comprehensive multi-omics analysis reveals mitochondrial stress as a central biological hub for spaceflight impact</article-title>. <source>Cell.</source>
+<volume>183</volume> (<issue>5</issue>), <fpage>1185</fpage>&#x2013;<lpage>1201.e20</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2020.11.002</pub-id>
+</citation>
+</ref>
+<ref id="B9">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Foox</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Tighe</surname>
+<given-names>S. W.</given-names>
+</name>
+<name>
+<surname>Nicolet</surname>
+<given-names>C. M.</given-names>
+</name>
+<name>
+<surname>Zook</surname>
+<given-names>J. M.</given-names>
+</name>
+<name>
+<surname>Byrska-Bishop</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Clarke</surname>
+<given-names>W. E.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2021</year>). <article-title>Performance assessment of DNA sequencing platforms in the ABRF next-generation sequencing study</article-title>. <source>Nat. Biotechnol.</source>
+<volume>39</volume> (<issue>9</issue>), <fpage>1129</fpage>&#x2013;<lpage>1140</lpage>. <pub-id pub-id-type="doi">10.1038/s41587-021-01049-5</pub-id>
+</citation>
+</ref>
+<ref id="B10">
+<citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Galazka</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Globus</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Cadena</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2015</year>). <source>OSD-47: Rodent research-1 (RR1) national Lab validation flight: Mouse liver transcriptomic, proteomic, and epigenomic data</source>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="https://osdr.nasa.gov/bio/repo/data/studies/OSD-47">https://osdr.nasa.gov/bio/repo/data/studies/OSD-47</ext-link>
+</comment> (<comment>Accessed January 15, 2018</comment>).</citation>
+</ref>
+<ref id="B11">
+<citation citation-type="web">
+<person-group person-group-type="author">
+<name>
+<surname>Galazka</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2020</year>). <article-title>OSD-168: RR-1 and RR-3 mouse liver transcriptomics with and without ERCC control RNA spike-ins</article-title>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="https://osdr.nasa.gov/bio/repo/data/studies/OSD-168">https://osdr.nasa.gov/bio/repo/data/studies/OSD-168</ext-link> (Accessed January 15, 2018)</comment>.</citation>
+</ref>
+<ref id="B12">
+<citation citation-type="web">
+<person-group person-group-type="author">
+<name>
+<surname>Galazka</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Polo</surname>
+<given-names>S.-H. L.</given-names>
+</name>
+<name>
+<surname>Saravia-Butler</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Fogle</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Bense</surname>
+<given-names>N.</given-names>
+</name>
+<name>
+<surname>Boyko</surname>
+<given-names>V.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2019b</year>). <article-title>OSD-245: Transcriptional analysis of liver from mice flown on the RR-6 mission</article-title>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="https://data.nasa.gov/Earth-Science/Transcriptional-analysis-of-liver-from-mice-flown-/qakd-nw8w">https://data.nasa.gov/Earth-Science/Transcriptional-analysis-of-liver-from-mice-flown-/qakd-nw8w</ext-link> (Accessed January 27, 2023)</comment>.</citation>
+</ref>
+<ref id="B13">
+<citation citation-type="web">
+<person-group person-group-type="author">
+<name>
+<surname>Galazka</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Polo</surname>
+<given-names>S.-H. L.</given-names>
+</name>
+<name>
+<surname>Saravia-Butler</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Fogle</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Bense</surname>
+<given-names>N.</given-names>
+</name>
+<name>
+<surname>Chen</surname>
+<given-names>Y.-C.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2019a</year>). <article-title>OSD-242: Effect of spaceflight on liver from mice flown on the ISS for 33 days: Transcriptional analysis</article-title>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="https://osdr.nasa.gov/bio/repo/data/studies/OSD-242">https://osdr.nasa.gov/bio/repo/data/studies/OSD-242</ext-link> (Accessed June 28, 2019)</comment>.</citation>
+</ref>
+<ref id="B14">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Garrett-Bakelman</surname>
+<given-names>F. E.</given-names>
+</name>
+<name>
+<surname>Darshi</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Green</surname>
+<given-names>S. J.</given-names>
+</name>
+<name>
+<surname>Gur</surname>
+<given-names>R. C.</given-names>
+</name>
+<name>
+<surname>Lin</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Macias</surname>
+<given-names>B. R.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2019</year>). <article-title>The nasa twins study: A multidimensional analysis of a year-long human spaceflight</article-title>. <source>Science</source>
+<volume>364</volume> (<issue>6436</issue>), <fpage>eaau8650</fpage>. <pub-id pub-id-type="doi">10.1126/science.aau8650</pub-id>
+</citation>
+</ref>
+<ref id="B15">
+<citation citation-type="web">
+<person-group person-group-type="author">
+<name>
+<surname>Globus</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Galazkaemail</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Marcu</surname>
+<given-names>O.</given-names>
+</name>
+<name>
+<surname>Saravia-Butler</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Fogle</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Bense</surname>
+<given-names>N.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2015</year>). <article-title>OSD-48: Rodent Research-1 (RR1) NASA Validation Flight: Mouse liver transcriptomic, proteomic, and epigenomic data</article-title>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="https://osdr.nasa.gov/bio/repo/data/studies/OSD-48">https://osdr.nasa.gov/bio/repo/data/studies/OSD-48</ext-link> (Accessed December 11, 2015)</comment>.</citation>
+</ref>
+<ref id="B16">
+<citation citation-type="book">
+<collab>Institute of Medicine, Board on Health Sciences Policy and Committee on NASA&#x2019;s Research on Human Health Risks</collab> (<year>2008</year>). <source>Review of NASA&#x2019;s human research Program evidence books</source>. <publisher-loc>Washington, DC</publisher-loc>: <publisher-name>National Academies Sciences Engineering Medicine</publisher-name>.</citation>
+</ref>
+<ref id="B17">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Johnson</surname>
+<given-names>W. E.</given-names>
+</name>
+<name>
+<surname>Li</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Rabinovic</surname>
+<given-names>A.</given-names>
+</name>
+</person-group> (<year>2007</year>). <article-title>Adjusting batch effects in microarray expression data using empirical Bayes methods</article-title>. <source>Biostatistics</source>
+<volume>8</volume> (<issue>1</issue>), <fpage>118</fpage>&#x2013;<lpage>127</lpage>. <pub-id pub-id-type="doi">10.1093/biostatistics/kxj037</pub-id>
+</citation>
+</ref>
+<ref id="B18">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Jonscher</surname>
+<given-names>K. R.</given-names>
+</name>
+<name>
+<surname>Alfonso-Garcia</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Suhalim</surname>
+<given-names>J. L.</given-names>
+</name>
+<name>
+<surname>Orlicky</surname>
+<given-names>D. J.</given-names>
+</name>
+<name>
+<surname>Potma</surname>
+<given-names>E. O.</given-names>
+</name>
+<name>
+<surname>Ferguson</surname>
+<given-names>V. L.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2016</year>). <article-title>Spaceflight activates lipotoxic pathways in mouse liver</article-title>. <source>PloS one</source>
+<volume>11</volume> (<issue>4</issue>), <fpage>e0152877</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0152877</pub-id>
+</citation>
+</ref>
+<ref id="B19">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Lai Polo</surname>
+<given-names>S. H.</given-names>
+</name>
+<name>
+<surname>Saravia-Butler</surname>
+<given-names>A. M.</given-names>
+</name>
+<name>
+<surname>Boyko</surname>
+<given-names>V.</given-names>
+</name>
+<name>
+<surname>Dinh</surname>
+<given-names>M. T.</given-names>
+</name>
+<name>
+<surname>Chen</surname>
+<given-names>Y. C.</given-names>
+</name>
+<name>
+<surname>Fogle</surname>
+<given-names>H.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2020</year>). <article-title>RNAseq analysis of rodent spaceflight experiments is confounded by sample collection techniques</article-title>. <source>iScience</source>
+<volume>23</volume> (<issue>12</issue>), <fpage>101733</fpage>. <pub-id pub-id-type="doi">10.1016/j.isci.2020.101733</pub-id>
+</citation>
+</ref>
+<ref id="B20">
+<citation citation-type="web">
+<person-group person-group-type="author">
+<name>
+<surname>Leek</surname>
+<given-names>J. T.</given-names>
+</name>
+<name>
+<surname>Johnson</surname>
+<given-names>W. E.</given-names>
+</name>
+<name>
+<surname>Parker</surname>
+<given-names>H. S.</given-names>
+</name>
+<name>
+<surname>Fertig</surname>
+<given-names>E. J.</given-names>
+</name>
+<name>
+<surname>Jaffe</surname>
+<given-names>A. E.</given-names>
+</name>
+<name>
+<surname>Zhang</surname>
+<given-names>Y.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2020</year>). <article-title>sva: Surrogate Variable Analysis. R package version 3.38.0</article-title>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="https://bioconductor.org/packages/release/bioc/html/sva.html">https://bioconductor.org/packages/release/bioc/html/sva.html</ext-link>
+</comment>. </citation>
+</ref>
+<ref id="B21">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Leek</surname>
+<given-names>J. T.</given-names>
+</name>
+<name>
+<surname>Scharpf</surname>
+<given-names>R. B.</given-names>
+</name>
+<name>
+<surname>Bravo</surname>
+<given-names>H. C.</given-names>
+</name>
+<name>
+<surname>Simcha</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Langmead</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>Johnson</surname>
+<given-names>W. E.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2010</year>). <article-title>Tackling the widespread and critical impact of batch effects in high-throughput data</article-title>. <source>Nat. Rev. Genet.</source>
+<volume>11</volume> (<issue>10</issue>), <fpage>733</fpage>&#x2013;<lpage>739</lpage>. <pub-id pub-id-type="doi">10.1038/nrg2825</pub-id>
+</citation>
+</ref>
+<ref id="B22">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Leek</surname>
+<given-names>J. T.</given-names>
+</name>
+<name>
+<surname>Storey</surname>
+<given-names>J. D.</given-names>
+</name>
+</person-group> (<year>2007</year>). <article-title>Capturing heterogeneity in gene expression studies by surrogate variable analysis</article-title>. <source>PLoS Genet.</source>
+<volume>3</volume> (<issue>9</issue>), <fpage>e161</fpage>&#x2013;<lpage>e1735</lpage>. <pub-id pub-id-type="doi">10.1371/journal.pgen.0030161</pub-id>
+</citation>
+</ref>
+<ref id="B23">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Love</surname>
+<given-names>M. I.</given-names>
+</name>
+<name>
+<surname>Huber</surname>
+<given-names>W.</given-names>
+</name>
+<name>
+<surname>Anders</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2014</year>). <article-title>Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2</article-title>. <source>Genome Biol.</source>
+<volume>15</volume> (<issue>12</issue>), <fpage>550</fpage>. <pub-id pub-id-type="doi">10.1186/s13059-014-0550-8</pub-id>
+</citation>
+</ref>
+<ref id="B24">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Malkani</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Chin</surname>
+<given-names>C. R.</given-names>
+</name>
+<name>
+<surname>Cekanaviciute</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Mortreux</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Okinula</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Tarbier</surname>
+<given-names>M.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2020</year>). <article-title>Circulating miRNA spaceflight signature reveals targets for countermeasure development</article-title>. <source>Cell. Rep.</source>
+<volume>33</volume> (<issue>10</issue>), <fpage>108448</fpage>. <pub-id pub-id-type="doi">10.1016/j.celrep.2020.108448</pub-id>
+</citation>
+</ref>
+<ref id="B25">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Manimaran</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Selby</surname>
+<given-names>H. M.</given-names>
+</name>
+<name>
+<surname>Okrah</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Ruberman</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Leek</surname>
+<given-names>J. T.</given-names>
+</name>
+<name>
+<surname>Quackenbush</surname>
+<given-names>J.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2016</year>). <article-title>BatchQC: Interactive software for evaluating sample and batch effects in genomic data</article-title>. <source>Bioinformatics</source>
+<volume>32</volume> (<issue>24</issue>), <fpage>3836</fpage>&#x2013;<lpage>3838</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/btw538</pub-id>
+</citation>
+</ref>
+<ref id="B26">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Okrah</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Corrada Bravo</surname>
+<given-names>H.</given-names>
+</name>
+</person-group> (<year>2015</year>). <article-title>Shape analysis of high-throughput transcriptomics experiment data</article-title>. <source>Biostatistics</source>
+<volume>16</volume> (<issue>4</issue>), <fpage>627</fpage>&#x2013;<lpage>640</lpage>. <pub-id pub-id-type="doi">10.1093/biostatistics/kxv018</pub-id>
+</citation>
+</ref>
+<ref id="B27">
+<citation citation-type="web">
+<person-group person-group-type="author">
+<name>
+<surname>Oseni</surname>
+<given-names>S. O.</given-names>
+</name>
+<name>
+<surname>Adebayo</surname>
+<given-names>O.</given-names>
+</name>
+<name>
+<surname>Adebayo</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Kwakye</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Pavlovic</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Asghar</surname>
+<given-names>W.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2021</year>). <article-title>Integrative genomic and epigenomic analyses identified IRAK1 as a novel target for chronic inflammation-driven prostate tumorigenesis</article-title>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="https://www.biorxiv.org/content/10.1101/2021.06.16.447920v1">https://www.biorxiv.org/content/10.1101/2021.06.16.447920v1</ext-link> (Accessed June 16, 2021)</comment>.</citation>
+</ref>
+<ref id="B28">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Pecaut</surname>
+<given-names>M. J.</given-names>
+</name>
+<name>
+<surname>Mao</surname>
+<given-names>X. W.</given-names>
+</name>
+<name>
+<surname>Bellinger</surname>
+<given-names>D. L.</given-names>
+</name>
+<name>
+<surname>Jonscher</surname>
+<given-names>K. R.</given-names>
+</name>
+<name>
+<surname>Stodieck</surname>
+<given-names>L. S.</given-names>
+</name>
+<name>
+<surname>Ferguson</surname>
+<given-names>V. L.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2017</year>). <article-title>Is spaceflight-induced immune dysfunction linked to systemic changes in metabolism?</article-title>
+<source>PloS one</source>
+<volume>12</volume> (<issue>5</issue>), <fpage>e0174174</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0174174</pub-id>
+</citation>
+</ref>
+<ref id="B29">
+<citation citation-type="web">
+<collab>R Core Team</collab> (<year>2021</year>). <article-title>R: A language and environment for statistical computing</article-title>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="https://www.R-project.org/">https://www.R-project.org/</ext-link>
+</comment>.</citation>
+</ref>
+<ref id="B30">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ray</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Gebre</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Fogle</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Berrios</surname>
+<given-names>D. C.</given-names>
+</name>
+<name>
+<surname>Tran</surname>
+<given-names>P. B.</given-names>
+</name>
+<name>
+<surname>Galazka</surname>
+<given-names>J. M.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2019</year>). <article-title>GeneLab: Omics database for spaceflight experiments</article-title>. <source>Bioinformatics</source>
+<volume>35</volume> (<issue>10</issue>), <fpage>1753</fpage>&#x2013;<lpage>1759</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/bty884</pub-id>
+</citation>
+</ref>
+<ref id="B31">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rettig</surname>
+<given-names>T. A.</given-names>
+</name>
+<name>
+<surname>Ward</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Pecaut</surname>
+<given-names>M. J.</given-names>
+</name>
+<name>
+<surname>Chapes</surname>
+<given-names>S. K.</given-names>
+</name>
+</person-group> (<year>2017</year>). <article-title>Validation of methods to assess the immunoglobulin gene repertoire in tissues obtained from mice on the international space station</article-title>. <source>Gravitational space Res.</source>
+<volume>5</volume> (<issue>1</issue>), <fpage>2</fpage>&#x2013;<lpage>23</lpage>.</citation>
+</ref>
+<ref id="B32">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rizzo</surname>
+<given-names>A. M.</given-names>
+</name>
+<name>
+<surname>Corsetto</surname>
+<given-names>P. A.</given-names>
+</name>
+<name>
+<surname>Montorfano</surname>
+<given-names>G.</given-names>
+</name>
+<name>
+<surname>Milani</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Zava</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Tavella</surname>
+<given-names>S.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2012</year>). <article-title>Effects of long-term space flight on erythrocytes and oxidative stress of rodents</article-title>. <source>PloS one</source>
+<volume>7</volume> (<issue>3</issue>), <fpage>e32361</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0032361</pub-id>
+</citation>
+</ref>
+<ref id="B33">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ronca</surname>
+<given-names>A. E.</given-names>
+</name>
+<name>
+<surname>Moyer</surname>
+<given-names>E. L.</given-names>
+</name>
+<name>
+<surname>Talyansky</surname>
+<given-names>Y.</given-names>
+</name>
+<name>
+<surname>Lowe</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Padmanabhan</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Choi</surname>
+<given-names>S.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2019</year>). <article-title>Behavior of mice aboard the international space station</article-title>. <source>Sci. Rep.</source>
+<volume>9</volume> (<issue>1</issue>), <fpage>4717</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-019-40789-y</pub-id>
+</citation>
+</ref>
+<ref id="B34">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Shen</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Lim</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Schwartz</surname>
+<given-names>A. G.</given-names>
+</name>
+<name>
+<surname>Andreev&#x2010;Andrievskiy</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Deymier</surname>
+<given-names>A. C.</given-names>
+</name>
+<name>
+<surname>Thomopoulos</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2017</year>). <article-title>Effects of spaceflight on the muscles of the murine shoulder</article-title>. <source>FASEB J. official Publ. Fed. Am. Soc. Exp. Biol.</source>
+<volume>31</volume> (<issue>12</issue>), <fpage>5466</fpage>&#x2013;<lpage>5477</lpage>. <pub-id pub-id-type="doi">10.1096/fj.201700320r</pub-id>
+</citation>
+</ref>
+<ref id="B35">
+<citation citation-type="web">
+<person-group person-group-type="author">
+<name>
+<surname>Smith</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Cramer</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Globus</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Galazka</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2017</year>). <article-title>OSD-137: Rodent Research-3-CASIS: Mouse liver transcriptomic, proteomic, and epigenomic data</article-title>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="https://osdr.nasa.gov/bio/repo/data/studies/OSD-137">https://osdr.nasa.gov/bio/repo/data/studies/OSD-137</ext-link> (Accessed March 4, 2017).</comment>
+</citation>
+</ref>
+<ref id="B36">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Tascher</surname>
+<given-names>G.</given-names>
+</name>
+<name>
+<surname>Brioche</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Maes</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Chopard</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>O&#x2019;Gorman</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Gauquelin-Koch</surname>
+<given-names>G.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2017</year>). <article-title>Proteome-wide adaptations of mouse skeletal muscles during a Full month in space</article-title>. <source>J. proteome Res.</source>
+<volume>16</volume> (<issue>7</issue>), <fpage>2623</fpage>&#x2013;<lpage>2638</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jproteome.7b00201</pub-id>
+</citation>
+</ref>
+<ref id="B37">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ward</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Rettig</surname>
+<given-names>T. A.</given-names>
+</name>
+<name>
+<surname>Hlavacek</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Bye</surname>
+<given-names>B. A.</given-names>
+</name>
+<name>
+<surname>Pecaut</surname>
+<given-names>M. J.</given-names>
+</name>
+<name>
+<surname>Chapes</surname>
+<given-names>S. K.</given-names>
+</name>
+</person-group> (<year>2018</year>). <article-title>Effects of spaceflight on the immunoglobulin repertoire of unimmunized C57BL/6 mice</article-title>. <source>Life Sci. space Res.</source>
+<volume>16</volume>, <fpage>63</fpage>&#x2013;<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1016/j.lssr.2017.11.003</pub-id>
+</citation>
+</ref>
+<ref id="B38">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Zhang</surname>
+<given-names>Y.</given-names>
+</name>
+<name>
+<surname>Jenkins</surname>
+<given-names>D. F.</given-names>
+</name>
+<name>
+<surname>Manimaran</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Johnson</surname>
+<given-names>W. E.</given-names>
+</name>
+</person-group> (<year>2018</year>). <article-title>Alternative empirical Bayes models for adjusting for batch effects in genomic studies</article-title>. <source>BMC Bioinforma.</source>
+<volume>19</volume> (<issue>1</issue>), <fpage>262</fpage>. <pub-id pub-id-type="doi">10.1186/s12859-018-2263-6</pub-id>
+</citation>
+</ref>
+<ref id="B39">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Zhang</surname>
+<given-names>Y.</given-names>
+</name>
+<name>
+<surname>Parmigiani</surname>
+<given-names>G.</given-names>
+</name>
+<name>
+<surname>Johnson</surname>
+<given-names>W. E.</given-names>
+</name>
+</person-group> (<year>2020</year>). <article-title>ComBat-seq: Batch effect adjustment for RNA-seq count data</article-title>. <source>NAR genomics Bioinforma.</source>
+<volume>2</volume> (<issue>3</issue>), <fpage>lqaa078</fpage>. <pub-id pub-id-type="doi">10.1093/nargab/lqaa078</pub-id>
+</citation>
+</ref>
+</ref-list>
+</back>
+</article>

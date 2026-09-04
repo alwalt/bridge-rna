@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-09-03T21:39:00.231923+00:00",
+  "paper_doi": "10.3389/fspas.2023.1200132",
+  "samples": 112,
+  "FLT": 57,
+  "GC": 55,
+  "intersected_genes": 51929,
+  "size_factor_genes": 13609,
+  "paper_expression": "inner-joined raw counts; DESeq2 median-of-ratios; inferred log2(count+1); centered unscaled PCA",
+  "model_expression": "mouse exon-length TPM; one-to-one ortholog vocabulary; natural log1p",
+  "canonical_genes": 15165,
+  "embedding_dim": 512,
+  "checkpoint": "model/r7hnr92k/best_model.pt",
+  "checkpoint_sha256": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541",
+  "batch_correction": false,
+  "source_files": [
+    {
+      "path": "data/osdr/raw/GLDS-47_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+      "sha256": "68c90fd063aa8f1a4521955eddaaee4c741b5f85fd2bc2b51ce33b9ac8957957"
+    },
+    {
+      "path": "data/osdr/raw/GLDS-48_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+      "sha256": "73099603ab95210df5274f01eb10c19d612a62e9a6ad8530d5d3322ca86c78a3"
+    },
+    {
+      "path": "data/osdr/raw/GLDS-137_rna_seq_Unnormalized_Counts.csv",
+      "sha256": "1996afb801ed1658c731a188467b6091281cb66cc7c63d78e02ed04aee6c4733"
+    },
+    {
+      "path": "data/osdr/raw/GLDS-168_rna_seq_Unnormalized_Counts.csv",
+      "sha256": "feb7a16a996baa2923e99c47851f1be3c3b2bf466cdb129045f099fec6f88fc3"
+    },
+    {
+      "path": "data/osdr/raw/GLDS-173_rna_seq_Unnormalized_Counts.csv",
+      "sha256": "c9b10b81f80b88e4db2e4135ae5bb28981fa9d9d3175e20ddb500e9a995a8ff2"
+    },
+    {
+      "path": "data/osdr/raw/GLDS-242_rna_seq_Unnormalized_Counts.csv",
+      "sha256": "6013530ec134c918c589e0cb7ed92963692a0d217c9bb3f435283e76caf50e15"
+    },
+    {
+      "path": "data/osdr/raw/GLDS-245_rna_seq_Unnormalized_Counts.csv",
+      "sha256": "3cbddedc563f1d269d132565563f3fb0b6141ef3da55265d29faff69523f6371"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+Cohort: 112 samples (57 FLT, 55 GC)
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+[task3_embedding] 4/112 (3.6%) | elapsed=0.0s
+[task3_embedding] 8/112 (7.1%) | elapsed=4.3s
+[task3_embedding] 12/112 (10.7%) | elapsed=8.7s
+[task3_embedding] 16/112 (14.3%) | elapsed=12.9s
+[task3_embedding] 20/112 (17.9%) | elapsed=17.2s
+[task3_embedding] 24/112 (21.4%) | elapsed=21.6s
+[task3_embedding] 28/112 (25.0%) | elapsed=25.9s
+[task3_embedding] 32/112 (28.6%) | elapsed=30.2s
+[task3_embedding] 36/112 (32.1%) | elapsed=34.5s
+[task3_embedding] 40/112 (35.7%) | elapsed=38.9s
+[task3_embedding] 44/112 (39.3%) | elapsed=43.2s
+[task3_embedding] 48/112 (42.9%) | elapsed=47.5s
+[task3_embedding] 52/112 (46.4%) | elapsed=51.9s
+[task3_embedding] 56/112 (50.0%) | elapsed=56.2s
+[task3_embedding] 60/112 (53.6%) | elapsed=60.6s
+[task3_embedding] 64/112 (57.1%) | elapsed=65.0s
+[task3_embedding] 68/112 (60.7%) | elapsed=69.3s
+[task3_embedding] 72/112 (64.3%) | elapsed=73.8s
+[task3_embedding] 76/112 (67.9%) | elapsed=78.3s
+[task3_embedding] 80/112 (71.4%) | elapsed=82.6s
+[task3_embedding] 84/112 (75.0%) | elapsed=87.0s
+[task3_embedding] 88/112 (78.6%) | elapsed=91.4s
+[task3_embedding] 92/112 (82.1%) | elapsed=95.7s
+[task3_embedding] 96/112 (85.7%) | elapsed=100.1s
+[task3_embedding] 100/112 (89.3%) | elapsed=104.5s
+[task3_embedding] 104/112 (92.9%) | elapsed=108.9s
+[task3_embedding] 108/112 (96.4%) | elapsed=113.3s
+[task3_embedding] 112/112 (100.0%) | elapsed=117.7s
+
+PCA variance: expression [0.24687715 0.12730028] BridgeRNA [0.8737667  0.05989351]
+
+Categorical structure
+ representation              variable  groups  categorical_r2  permutation_p  silhouette_pc1_pc10
+     BridgeRNA                   OSD       7        0.482566          0.001            -0.095515
+     BridgeRNA sequencing_parameters       3        0.293508          0.001             0.146037
+     BridgeRNA          preservation       4        0.292995          0.001            -0.045453
+     BridgeRNA   library_preparation       2        0.129791          0.001             0.314055
+     BridgeRNA               mission       6        0.090529          0.061            -0.183404
+     BridgeRNA   sequencing_facility       2        0.071484          0.005             0.111306
+     BridgeRNA                strain       4        0.061465          0.059            -0.196534
+     BridgeRNA                   sex       3        0.014920          0.443            -0.195679
+     BridgeRNA             condition       2        0.004246          0.539             0.005091
+    expression                   OSD       7        0.416643          0.001             0.232226
+    expression sequencing_parameters       3        0.302256          0.001             0.279106
+    expression          preservation       4        0.291073          0.001             0.173217
+    expression               mission       6        0.257545          0.001             0.088635
+    expression   library_preparation       2        0.222268          0.001             0.421127
+    expression                strain       4        0.193476          0.001             0.143349
+    expression   sequencing_facility       2        0.120185          0.001             0.186198
+    expression                   sex       3        0.062044          0.001            -0.016411
+    expression             condition       2        0.008640          0.429            -0.001371

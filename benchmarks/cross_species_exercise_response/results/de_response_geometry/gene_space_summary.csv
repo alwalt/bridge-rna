@@ -1,0 +1,4 @@
+analysis,studies,common_genes,gene_space
+all_8_orthologs,8,9309,human–mouse one-to-one orthologs
+human_only,5,13020,human native edgeR genes
+mouse_only,3,12431,mouse native edgeR genes

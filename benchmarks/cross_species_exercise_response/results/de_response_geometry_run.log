@@ -1,0 +1,32 @@
+       analysis  studies  common_genes                       gene_space
+all_8_orthologs        8          9309 human–mouse one-to-one orthologs
+     human_only        5         13020         human native edgeR genes
+     mouse_only        3         12431         mouse native edgeR genes
+
+DE summary
+        analysis   metric pair_category  mean_similarity  sd_similarity  pairs
+all_8_orthologs   cosine   between_A_B         0.158937       0.212766     12
+all_8_orthologs   cosine      within_A         0.172083       0.143473      6
+all_8_orthologs   cosine      within_B         0.021997       0.064568      3
+all_8_orthologs spearman   between_A_B         0.107794       0.168006     12
+all_8_orthologs spearman      within_A         0.131963       0.122642      6
+all_8_orthologs spearman      within_B         0.063472       0.092889      3
+     human_only   cosine   between_A_B         0.306226       0.205161      4
+     human_only   cosine      within_A         0.350576            NaN      1
+     human_only   cosine      within_B         0.087607            NaN      1
+     human_only spearman   between_A_B         0.264596       0.177314      4
+     human_only spearman      within_A         0.341953            NaN      1
+     human_only spearman      within_B         0.129213            NaN      1
+     mouse_only   cosine   between_A_B         0.023996       0.045611      2
+     mouse_only   cosine      within_A         0.047964            NaN      1
+     mouse_only spearman   between_A_B         0.027930       0.044602      2
+     mouse_only spearman      within_A         0.038989            NaN      1
+
+Comparison
+   metric pair_category  BridgeRNA  edgeR logFC  BridgeRNA_minus_edgeR
+  cosine   between_A_B  -0.783425     0.158937              -0.942362
+  cosine      within_A   0.785544     0.172083               0.613461
+  cosine      within_B   0.858615     0.021997               0.836619
+spearman   between_A_B  -0.280737     0.107794              -0.388531
+spearman      within_A   0.364836     0.131963               0.232873
+spearman      within_B   0.438173     0.063472               0.374701

@@ -1,0 +1,147 @@
+[GSEA 1/24] GSE108643 GO:BP: 12,077 ranked genes
+2026-09-03 02:44:59,893 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 2/24] GSE108643 KEGG: 12,077 ranked genes
+2026-09-03 02:45:38,937 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 3/24] GSE108643 REAC: 12,077 ranked genes
+2026-09-03 02:45:44,308 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 4/24] GSE86931 GO:BP: 15,000 ranked genes
+2026-09-03 02:46:01,727 [WARNING] Duplicated values found in preranked stats: 0.09% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 5/24] GSE86931 KEGG: 15,000 ranked genes
+2026-09-03 02:46:56,097 [WARNING] Duplicated values found in preranked stats: 0.09% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 6/24] GSE86931 REAC: 15,000 ranked genes
+2026-09-03 02:47:01,980 [WARNING] Duplicated values found in preranked stats: 0.09% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 7/24] GSE126962 GO:BP: 12,064 ranked genes
+2026-09-03 02:47:25,746 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 8/24] GSE126962 KEGG: 12,064 ranked genes
+2026-09-03 02:48:06,656 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 9/24] GSE126962 REAC: 12,064 ranked genes
+2026-09-03 02:48:11,735 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 10/24] GSE132520 GO:BP: 11,511 ranked genes
+[GSEA 11/24] GSE132520 KEGG: 11,511 ranked genes
+[GSEA 12/24] GSE132520 REAC: 11,511 ranked genes
+[GSEA 13/24] GSE151066 GO:BP: 18,540 ranked genes
+2026-09-03 02:49:30,425 [WARNING] Duplicated values found in preranked stats: 0.20% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 14/24] GSE151066 KEGG: 18,540 ranked genes
+2026-09-03 02:50:36,998 [WARNING] Duplicated values found in preranked stats: 0.20% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 15/24] GSE151066 REAC: 18,540 ranked genes
+2026-09-03 02:50:45,126 [WARNING] Duplicated values found in preranked stats: 0.20% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 16/24] GSE71972 GO:BP: 16,103 ranked genes
+2026-09-03 02:51:15,882 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 17/24] GSE71972 KEGG: 16,103 ranked genes
+2026-09-03 02:52:11,074 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 18/24] GSE71972 REAC: 16,103 ranked genes
+2026-09-03 02:52:18,019 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 19/24] GSE87748 GO:BP: 15,417 ranked genes
+2026-09-03 02:52:45,563 [WARNING] Duplicated values found in preranked stats: 0.23% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 20/24] GSE87748 KEGG: 15,417 ranked genes
+2026-09-03 02:53:38,135 [WARNING] Duplicated values found in preranked stats: 0.23% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 21/24] GSE87748 REAC: 15,417 ranked genes
+2026-09-03 02:53:44,289 [WARNING] Duplicated values found in preranked stats: 0.23% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 22/24] GSE97718 GO:BP: 10,665 ranked genes
+[GSEA 23/24] GSE97718 KEGG: 10,665 ranked genes
+[GSEA 24/24] GSE97718 REAC: 10,665 ranked genes
+
+Per-study summary
+       GSE species      pattern source  tested_pathways  significant_pathways  positive_significant  negative_significant
+GSE108643   human            A  GO:BP             2870                    92                    74                    18
+GSE108643   human            A   KEGG              330                    38                    23                    15
+GSE108643   human            A   REAC             1396                    99                    59                    40
+GSE126962   mouse            A  GO:BP             3072                    12                     4                     8
+GSE126962   mouse            A   KEGG              327                     3                     1                     2
+GSE126962   mouse            A   REAC             1430                    17                     3                    14
+GSE132520   mouse            A  GO:BP             2973                   249                   249                     0
+GSE132520   mouse            A   KEGG              325                    30                    30                     0
+GSE132520   mouse            A   REAC             1413                    84                    83                     1
+GSE151066   human Intermediate  GO:BP             3481                   569                   515                    54
+GSE151066   human Intermediate   KEGG              340                   112                    89                    23
+GSE151066   human Intermediate   REAC             1541                   139                    70                    69
+ GSE71972   human            B  GO:BP             3275                   131                   131                     0
+ GSE71972   human            B   KEGG              337                    40                    27                    13
+ GSE71972   human            B   REAC             1493                    63                    55                     8
+ GSE86931   human            A  GO:BP             3230                    61                    35                    26
+ GSE86931   human            A   KEGG              336                    19                     6                    13
+ GSE86931   human            A   REAC             1486                   137                    77                    60
+ GSE87748   human            B  GO:BP             3213                    59                    13                    46
+ GSE87748   human            B   KEGG              335                    67                     1                    66
+ GSE87748   human            B   REAC             1481                    90                    47                    43
+ GSE97718   mouse            B  GO:BP             2834                    18                    13                     5
+ GSE97718   mouse            B   KEGG              322                    14                     6                     8
+ GSE97718   mouse            B   REAC             1388                    40                    13                    27
+
+Recurring pathways
+     group source                                                                           pathway  significant_studies  eligible_studies  median_nes  direction_consistent                      studies
+Pattern A  GO:BP                                     Aerobic Electron Transport Chain (GO:0019646)                    3                 4   -2.139921                  True GSE108643;GSE86931;GSE126962
+Pattern A  GO:BP                                         Collagen Fibril Organization (GO:0030199)                    3                 4    2.049966                 False GSE86931;GSE126962;GSE132520
+Pattern A  GO:BP                                              Cytoplasmic Translation (GO:0002181)                    3                 4   -2.046153                 False GSE108643;GSE86931;GSE132520
+Pattern A  GO:BP                                         Homotypic Cell-Cell Adhesion (GO:0034109)                    3                 4    2.136451                  True GSE108643;GSE86931;GSE132520
+Pattern A  GO:BP               Mitochondrial ATP Synthesis Coupled Electron Transport (GO:0042775)                    3                 4   -2.148926                  True GSE108643;GSE86931;GSE126962
+Pattern A  GO:BP                Negative Regulation of Carbohydrate Metabolic Process (GO:0045912)                    3                 4    1.922682                  True GSE108643;GSE86931;GSE132520
+Pattern A  GO:BP                               Negative Regulation of Myoblast Fusion (GO:1901740)                    3                 4   -2.046561                 False GSE108643;GSE86931;GSE132520
+Pattern A  GO:BP Negative Regulation of Syncytium Formation by Plasma Membrane Fusion (GO:0034242)                    3                 4   -2.100379                 False GSE108643;GSE86931;GSE132520
+Pattern A  GO:BP                                            Oxidative Phosphorylation (GO:0006119)                    3                 4   -2.235899                  True GSE108643;GSE86931;GSE126962
+Pattern A  GO:BP                                                 Platelet Aggregation (GO:0070527)                    3                 4    2.119008                  True GSE108643;GSE86931;GSE132520
+Pattern A  GO:BP                          Positive Regulation of Biosynthetic Process (GO:0009891)                    3                 4    2.020959                  True GSE108643;GSE86931;GSE132520
+Pattern A  GO:BP                             Proton Motive Force-Driven ATP Synthesis (GO:0015986)                    3                 4   -2.197099                  True GSE108643;GSE86931;GSE126962
+Pattern A  GO:BP               Proton Motive Force-Driven Mitochondrial ATP Synthesis (GO:0042776)                    3                 4   -2.213683                  True GSE108643;GSE86931;GSE126962
+Pattern A   KEGG                                                                IGSF CAM SIGNALING                    3                 4    1.830733                  True GSE108643;GSE86931;GSE132520
+Pattern A   REAC                      Assembly of Collagen Fibrils and Other Multimeric Structures                    3                 4    2.051441                 False GSE86931;GSE126962;GSE132520
+Pattern A   REAC                                              Cap-dependent Translation Initiation                    3                 4   -2.126757                 False GSE108643;GSE86931;GSE132520
+Pattern A   REAC                                       Collagen Biosynthesis and Modifying Enzymes                    3                 4    2.121464                 False GSE86931;GSE126962;GSE132520
+Pattern A   REAC                                                                Collagen Formation                    3                 4    2.178938                 False GSE86931;GSE126962;GSE132520
+Pattern A   REAC                                                              Complex I Biogenesis                    3                 4   -2.211890                  True GSE108643;GSE86931;GSE126962
+Pattern A   REAC                                           Degradation of the Extracellular Matrix                    3                 4    2.165762                 False GSE86931;GSE126962;GSE132520
+Pattern A   REAC                                                 Eukaryotic Translation Elongation                    3                 4   -2.492479                 False GSE108643;GSE86931;GSE132520
+Pattern A   REAC                                                 Eukaryotic Translation Initiation                    3                 4   -2.126757                 False GSE108643;GSE86931;GSE132520
+Pattern A   REAC                                                Eukaryotic Translation Termination                    3                 4   -2.294755                 False GSE108643;GSE86931;GSE132520
+Pattern A   REAC                                                 Extracellular Matrix Organization                    3                 4    2.268621                 False GSE86931;GSE126962;GSE132520
+Pattern A   REAC                                          Formation of a Pool of Free 40S Subunits                    3                 4   -2.417607                 False GSE108643;GSE86931;GSE132520
+Pattern A   REAC                           GTP Hydrolysis and Joining of the 60S Ribosomal Subunit                    3                 4   -2.184269                 False GSE108643;GSE86931;GSE132520
+Pattern A   REAC                                                                        Hemostasis                    3                 4    1.896270                  True GSE108643;GSE86931;GSE132520
+Pattern A   REAC                                                Integrin Cell Surface Interactions                    3                 4    1.985541                 False GSE86931;GSE126962;GSE132520
+Pattern A   REAC                                        Interleukin-4 and Interleukin-13 Signaling                    3                 4    2.059919                  True GSE108643;GSE86931;GSE132520
+Pattern A   REAC                 L13a-mediated Translational Silencing of Ceruloplasmin Expression                    3                 4   -2.151296                 False GSE108643;GSE86931;GSE132520
+Pattern A   REAC      Nonsense Mediated Decay (NMD) Independent of the Exon Junction Complex (EJC)                    3                 4   -2.212857                 False GSE108643;GSE86931;GSE132520
+Pattern A   REAC                                                          Peptide Chain Elongation                    3                 4   -2.497570                 False GSE108643;GSE86931;GSE132520
+Pattern A   REAC                                                            Platelet Degranulation                    3                 4    2.030556                  True GSE108643;GSE86931;GSE132520
+Pattern A   REAC                               Response of EIF2AK4 (GCN2) to Amino Acid Deficiency                    3                 4   -1.940726                 False GSE108643;GSE86931;GSE132520
+Pattern A   REAC                                      Response to Elevated Platelet Cytosolic Ca2+                    3                 4    1.993224                  True GSE108643;GSE86931;GSE132520
+Pattern A   REAC                       SRP-dependent Cotranslational Protein Targeting to Membrane                    3                 4   -1.941353                 False GSE108643;GSE86931;GSE132520
+Pattern A   REAC                                                       Selenoamino Acid Metabolism                    3                 4   -1.965395                 False GSE108643;GSE86931;GSE132520
+Pattern A   REAC                                                          Selenocysteine Synthesis                    3                 4   -2.175216                 False GSE108643;GSE86931;GSE132520
+Pattern A   REAC                                                            Viral mRNA Translation                    3                 4   -2.354536                 False GSE108643;GSE86931;GSE132520
+Pattern A  GO:BP                                          Actin Filament Organization (GO:0007015)                    2                 4    1.977908                  True          GSE108643;GSE132520
+Pattern A  GO:BP                                                  Aerobic Respiration (GO:0009060)                    2                 4   -2.289624                  True           GSE108643;GSE86931
+Pattern A  GO:BP                                             Cardiac Cell Development (GO:0055006)                    2                 4    1.873057                  True           GSE86931;GSE132520
+Pattern A  GO:BP                         Cardiac Epithelial to Mesenchymal Transition (GO:0060317)                    2                 4    1.850128                  True          GSE108643;GSE132520
+Pattern A  GO:BP                                                 Cell-matrix Adhesion (GO:0007160)                    2                 4    1.922177                  True           GSE86931;GSE132520
+Pattern A  GO:BP                        External Encapsulating Structure Organization (GO:0045229)                    2                 4    2.049876                  True           GSE86931;GSE132520
+Pattern A  GO:BP                                    Extracellular Matrix Organization (GO:0030198)                    2                 4    2.271001                  True           GSE86931;GSE132520
+Pattern A  GO:BP                                 Extracellular Structure Organization (GO:0043062)                    2                 4    2.040251                  True           GSE86931;GSE132520
+Pattern A  GO:BP                                            Fatty Acid Beta-Oxidation (GO:0006635)                    2                 4   -2.107286                  True           GSE108643;GSE86931
+Pattern A  GO:BP                                               Granulocyte Chemotaxis (GO:0071621)                    2                 4    2.068464                  True           GSE108643;GSE86931
+Pattern A  GO:BP                                                  Heart Morphogenesis (GO:0003007)                    2                 4    1.966586                  True          GSE108643;GSE132520
+
+Exact-term comparison with IG ORA
+ pattern IG_gene_set  significant_GSEA_terms  significant_IG_ORA_terms  exact_shared_terms                shared_terms
+      A    Human IG                     641                         4                   0                            
+      A    Mouse IG                     641                         9                   0                            
+      B    Human IG                     472                         5                   1 Striated Muscle Contraction
+      B    Mouse IG                     472                        13                   1 Striated Muscle Contraction

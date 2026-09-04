@@ -1,0 +1,17 @@
+analysis,metric,pair_category,mean_similarity,sd_similarity,pairs
+all_8_orthologs,cosine,between_A_B,0.1589370441212513,0.2127655704332981,12
+all_8_orthologs,cosine,within_A,0.1720831089490673,0.14347274803070806,6
+all_8_orthologs,cosine,within_B,0.021996543957182483,0.06456782499502883,3
+all_8_orthologs,spearman,between_A_B,0.10779440657721047,0.16800584419055808,12
+all_8_orthologs,spearman,within_A,0.13196326008058032,0.12264193181953792,6
+all_8_orthologs,spearman,within_B,0.06347160335126811,0.09288901496223198,3
+human_only,cosine,between_A_B,0.30622572322197605,0.20516136538146593,4
+human_only,cosine,within_A,0.3505756139218261,,1
+human_only,cosine,within_B,0.08760681903247534,,1
+human_only,spearman,between_A_B,0.2645959518293569,0.1773135939349939,4
+human_only,spearman,within_A,0.3419531276742406,,1
+human_only,spearman,within_B,0.12921268105590578,,1
+mouse_only,cosine,between_A_B,0.023996451867102718,0.045611176731438885,2
+mouse_only,cosine,within_A,0.04796397095833614,,1
+mouse_only,spearman,between_A_B,0.027930087440073914,0.044602080035195626,2
+mouse_only,spearman,within_A,0.03898948738583458,,1

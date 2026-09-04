@@ -1,0 +1,28 @@
+{
+  "DE_source": "saved edgeR post/exercise-minus-pre/control log2 fold changes",
+  "all_8_gene_space": "one-to-one ortholog genes present in BridgeRNA vocabulary and tested in every study",
+  "within_species_gene_space": "native Ensembl genes tested in every study of that species",
+  "order": [
+    "GSE108643",
+    "GSE86931",
+    "GSE126962",
+    "GSE132520",
+    "GSE151066",
+    "GSE71972",
+    "GSE87748",
+    "GSE97718"
+  ],
+  "pattern_labels": {
+    "GSE108643": "A",
+    "GSE86931": "A",
+    "GSE126962": "A",
+    "GSE132520": "A",
+    "GSE151066": "Intermediate",
+    "GSE71972": "B",
+    "GSE87748": "B",
+    "GSE97718": "B"
+  },
+  "intermediate_excluded_from_group_means": true,
+  "BridgeRNA": "existing frozen study-level response_effects_bridgerna.npy",
+  "statistical_testing": false
+}

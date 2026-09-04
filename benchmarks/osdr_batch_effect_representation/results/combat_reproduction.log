@@ -1,0 +1,40 @@
+[export] combat_raw_counts.csv.gz: genes=51,929, samples=112
+[export] combat_log2_normalized.csv.gz: genes=51,929, samples=112
+[run] Rscript /home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/pipeline/run_combat_reproduction.R /home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/work /home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/results /home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/.r-lib
+[ComBat] loading matrices
+[ComBat] library_preparation
+Found 12733 genes with uniform expression within a single batch (all zeros); these will not be adjusted for batch.
+Found2batches
+Adjusting for1covariate(s) or covariate level(s)
+Standardizing Data across genes
+Fitting L/S model and finding priors
+Finding parametric adjustments
+Adjusting the Data
+
+[ComBat-seq] library_preparation
+Found 2 batches
+Using full model in ComBat-seq.
+Adjusting for 1 covariate(s) or covariate level(s)
+Estimating dispersions
+Fitting the GLM model
+Shrinkage off - using GLM estimates for parameters
+Adjusting the data
+[ComBat] mission
+Found 21830 genes with uniform expression within a single batch (all zeros); these will not be adjusted for batch.
+Found6batches
+Adjusting for1covariate(s) or covariate level(s)
+Standardizing Data across genes
+Fitting L/S model and finding priors
+Finding parametric adjustments
+Adjusting the Data
+
+[ComBat-seq] mission
+Found 6 batches
+Using full model in ComBat-seq.
+Adjusting for 1 covariate(s) or covariate level(s)
+Estimating dispersions
+Fitting the GLM model
+Shrinkage off - using GLM estimates for parameters
+Adjusting the data
+[complete] wrote ComBat reproduction coordinates and variance
+[complete] /home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/results/combat_four_panel_reproduction.png

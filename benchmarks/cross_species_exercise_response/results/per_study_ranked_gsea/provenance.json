@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-09-03T09:55:03.158919+00:00",
+  "edgeR_rerun": false,
+  "ranking": "sign(log2_fold_change) * sqrt(quasi_likelihood_f)",
+  "genes": "all edgeR-tested genes with a unique usable human symbol; mouse genes mapped through one-to-one orthology",
+  "gsea": {
+    "implementation": "gseapy 1.2.1",
+    "permutations": 1000,
+    "seed": 20260903,
+    "min_size": 10,
+    "max_size": 500,
+    "weight": 1.0,
+    "fdr_threshold": 0.05
+  },
+  "libraries": [
+    {
+      "source": "GO:BP",
+      "library": "GO_Biological_Process_2026",
+      "terms": 5952,
+      "sha256": "dc36066907e2de6d5c2a58da4afd881749779022b2c00eb7f4d1bc75c303ece9"
+    },
+    {
+      "source": "KEGG",
+      "library": "KEGG_2026",
+      "terms": 352,
+      "sha256": "d44dddd6d91b1f8e12bc6ec6e0908f81589ef8ba9af41e29f75f151c49f7c72c"
+    },
+    {
+      "source": "REAC",
+      "library": "Reactome_Pathways_2024",
+      "terms": 2100,
+      "sha256": "11212f0303dedfd8334fc3ac5c581b50cf168a2af73dd09d792101e4a0c8b2a1"
+    }
+  ],
+  "study_order": [
+    "GSE108643",
+    "GSE86931",
+    "GSE126962",
+    "GSE132520",
+    "GSE151066",
+    "GSE71972",
+    "GSE87748",
+    "GSE97718"
+  ],
+  "patterns": {
+    "GSE108643": "A",
+    "GSE86931": "A",
+    "GSE126962": "A",
+    "GSE132520": "A",
+    "GSE151066": "Intermediate",
+    "GSE71972": "B",
+    "GSE87748": "B",
+    "GSE97718": "B"
+  },
+  "recurrence": "at least two FDR-significant studies per named group; human_and_mouse requires >=1 significant study of each species",
+  "IG_comparison": "exact native pathway-name overlap with existing ORA; GSEA and top-gene ORA answer different questions"
+}

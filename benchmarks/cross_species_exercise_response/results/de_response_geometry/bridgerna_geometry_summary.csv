@@ -1,0 +1,7 @@
+analysis,metric,pair_category,mean_similarity,sd_similarity,pairs
+bridgerna,cosine,between_A_B,-0.783425435423851,0.10860284278801037,12
+bridgerna,cosine,within_A,0.7855436404546102,0.11311728749166851,6
+bridgerna,cosine,within_B,0.8586152394612631,0.03557416756957273,3
+bridgerna,spearman,between_A_B,-0.280736983492162,0.24332324064480726,12
+bridgerna,spearman,within_A,0.3648360655306493,0.24172645598586487,6
+bridgerna,spearman,within_B,0.43817290081920657,0.12653154401334304,3

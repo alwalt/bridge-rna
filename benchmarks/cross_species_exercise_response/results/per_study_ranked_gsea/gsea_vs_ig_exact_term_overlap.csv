@@ -1,0 +1,5 @@
+pattern,IG_gene_set,significant_GSEA_terms,significant_IG_ORA_terms,exact_shared_terms,shared_terms
+A,Human IG,641,4,0,
+A,Mouse IG,641,9,0,
+B,Human IG,472,5,1,Striated Muscle Contraction
+B,Mouse IG,472,13,1,Striated Muscle Contraction

@@ -123,3 +123,24 @@ Run the two-GPU extended latent-axis deletion sweep:
   --devices cuda:0 cuda:1 --heartbeat-seconds 30 \
   2>&1 | tee benchmarks/cross_species_exercise_response/results/latent_axis_attribution/extended_deletion_sweep.log
 ```
+
+Compare conventional edgeR response geometry with the frozen BridgeRNA geometry:
+
+```bash
+.venv/bin/python benchmarks/cross_species_exercise_response/pipeline/compare_de_response_geometry.py \
+  2>&1 | tee benchmarks/cross_species_exercise_response/results/de_response_geometry_run.log
+```
+
+Run per-study preranked GSEA on the saved edgeR results (no DE or model
+inference is rerun):
+
+```bash
+.venv/bin/python benchmarks/cross_species_exercise_response/pipeline/run_per_study_ranked_gsea.py \
+  2>&1 | tee benchmarks/cross_species_exercise_response/results/per_study_ranked_gsea_run.log
+```
+
+This ranks all tested, symbol-mappable genes by signed edgeR quasi-likelihood
+statistic and runs GO BP, KEGG, and Reactome independently for every study.
+Mouse genes are mapped to human pathway symbols through the existing one-to-one
+ortholog table. Exact library versions, hashes, GSEA parameters, and recurrence
+definitions are recorded in `results/per_study_ranked_gsea/provenance.json`.
