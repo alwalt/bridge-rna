@@ -1,0 +1,98 @@
+Error in fitFDistRobustly(var, df1 = df, covariate = covariate, winsor.tail.p = winsor.tail.p) : 
+  statmod package required but is not installed
+Calls: estimateDisp ... squeezeVar -> fitFDistRobustly -> Recall -> fitFDistRobustly
+Execution halted
+Traceback (most recent call last):
+  File "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_conventional_expression_baseline.py", line 150, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_conventional_expression_baseline.py", line 138, in main
+    OUT.mkdir(parents=True,exist_ok=True);FIG.mkdir(exist_ok=True);ng,na,nb=prepare_counts();run_edger();conv=gsea()
+                                                                                             ^^^^^^^^^^^
+  File "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_conventional_expression_baseline.py", line 67, in run_edger
+    if not out.exists():subprocess.run(['Rscript',str(script),str(WORK/f'{analysis}_counts.csv'),str(WORK/f'{analysis}_metadata.csv'),analysis,str(out)],check=True)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/subprocess.py", line 569, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['Rscript', '/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/run_conventional_expression_edger.R', '/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/task4_conventional_expression_baseline/tcell_counts.csv', '/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/task4_conventional_expression_baseline/tcell_metadata.csv', 'tcell', '/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/conventional_expression_baseline/tcell_edger.csv']' returned non-zero exit status 1.
+[tcell] samples=80 genes_input=15165 genes_tested=11373 coefficient=library_prepribo
+Warning message:
+In sqrt(tab$F) : NaNs produced
+Warning message:
+In sqrt(tab$F) : NaNs produced
+[rr1] samples=18 genes_input=15165 genes_tested=11916 coefficient=interaction
+[GSEA] tcell_conventional GO:BP
+[GSEA] tcell_conventional KEGG
+[GSEA] tcell_conventional REAC
+[GSEA] rr1_conventional_instability GO:BP
+2026-09-04 22:00:04,051 [WARNING] Input gene rankings contains NA values(gene name and ranking value), drop them all!
+[GSEA] rr1_conventional_instability KEGG
+2026-09-04 22:00:40,190 [WARNING] Input gene rankings contains NA values(gene name and ranking value), drop them all!
+[GSEA] rr1_conventional_instability REAC
+2026-09-04 22:00:44,923 [WARNING] Input gene rankings contains NA values(gene name and ranking value), drop them all!
+{
+  "method_tcell": "edgeR quasi-likelihood paired model: ~ donor + library_prep; Ribo vs PolyA",
+  "method_rr1": "edgeR quasi-likelihood paired animal-blocked model; OSD48-vs-OSD168 FLT-GC interaction",
+  "tcell_samples": 80,
+  "tcell_donors": 40,
+  "tcell_genes_input": 15165,
+  "tcell_genes_tested": 11373,
+  "rr1_samples": 18,
+  "rr1_animals": 9,
+  "rr1_genes_input": 15165,
+  "rr1_genes_tested": 11916,
+  "tcell_expression_context_spearman": 0.5806465204694726,
+  "rr1_expression_context_spearman": NaN,
+  "predefined_families_shared_conventional": 1,
+  "predefined_families_shared_bridge_context": 3,
+  "classification": "AMPLIFICATION/REORGANIZATION OF CONVENTIONAL SIGNAL"
+}
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/conventional_expression_baseline
+[GSEA] tcell_conventional GO:BP
+[GSEA] tcell_conventional KEGG
+[GSEA] tcell_conventional REAC
+[GSEA] rr1_conventional_instability GO:BP
+2026-09-04 22:02:39,186 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA] rr1_conventional_instability KEGG
+2026-09-04 22:03:21,998 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA] rr1_conventional_instability REAC
+2026-09-04 22:03:27,411 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+{
+  "method_tcell": "edgeR quasi-likelihood paired model: ~ donor + library_prep; Ribo vs PolyA",
+  "method_rr1": "edgeR quasi-likelihood paired animal-blocked model; OSD48-vs-OSD168 FLT-GC interaction",
+  "tcell_samples": 80,
+  "tcell_donors": 40,
+  "tcell_genes_input": 15165,
+  "tcell_genes_tested": 11373,
+  "rr1_samples": 18,
+  "rr1_animals": 9,
+  "rr1_genes_input": 15165,
+  "rr1_genes_tested": 11916,
+  "tcell_expression_context_spearman": 0.5806465204694726,
+  "rr1_expression_context_spearman": 0.0752233085925113,
+  "predefined_families_shared_conventional": 1,
+  "predefined_families_shared_bridge_context": 3,
+  "classification": "AMPLIFICATION/REORGANIZATION OF CONVENTIONAL SIGNAL"
+}
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/conventional_expression_baseline
+{
+  "method_tcell": "edgeR quasi-likelihood paired model: ~ donor + library_prep; Ribo vs PolyA",
+  "method_rr1": "edgeR quasi-likelihood paired animal-blocked model; OSD48-vs-OSD168 FLT-GC interaction",
+  "tcell_samples": 80,
+  "tcell_donors": 40,
+  "tcell_genes_input": 15165,
+  "tcell_genes_tested": 11373,
+  "rr1_samples": 18,
+  "rr1_animals": 9,
+  "rr1_genes_input": 15165,
+  "rr1_genes_tested": 11916,
+  "tcell_expression_context_spearman": 0.5806465204694726,
+  "rr1_expression_context_spearman": 0.0752233085925113,
+  "predefined_families_shared_conventional": 1,
+  "predefined_families_shared_bridge_context": 3,
+  "classification": "AMPLIFICATION/REORGANIZATION OF CONVENTIONAL SIGNAL"
+}
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/conventional_expression_baseline

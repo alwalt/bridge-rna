@@ -1,0 +1,19 @@
+experiment,family,signal,significant_terms,best_positive_nes,best_abs_nes,best_fdr
+controlled_tcell,RNA processing / splicing,conventional,1,-2.0100022348578848,2.0100022348578848,0.0170218473983985
+controlled_tcell,RNA processing / splicing,original_contextual,2,3.0165103082544995,3.0165103082544995,0.001
+controlled_tcell,RNA processing / splicing,expression_adjusted,2,2.493024655735971,2.493024655735971,0.001
+controlled_tcell,Chromatin organization / remodeling,conventional,1,2.0133042949003093,2.0133042949003093,0.0340853519381866
+controlled_tcell,Chromatin organization / remodeling,original_contextual,1,2.663514490641957,2.663514490641957,0.001
+controlled_tcell,Chromatin organization / remodeling,expression_adjusted,0,,,
+controlled_tcell,DNA repair / DNA metabolism,conventional,1,2.4024512460524976,2.4024512460524976,0.001
+controlled_tcell,DNA repair / DNA metabolism,original_contextual,1,2.386298301732426,2.386298301732426,0.0042521874233379
+controlled_tcell,DNA repair / DNA metabolism,expression_adjusted,0,,,
+RR1,RNA processing / splicing,conventional,3,2.0709647190293863,2.0709647190293863,0.001
+RR1,RNA processing / splicing,original_contextual,78,3.948778755048646,4.8784705650965705,0.001
+RR1,RNA processing / splicing,expression_adjusted,50,3.266474199939341,3.266474199939341,0.001
+RR1,Chromatin organization / remodeling,conventional,0,,,
+RR1,Chromatin organization / remodeling,original_contextual,15,3.9730530297932547,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,expression_adjusted,10,3.232619001693718,3.232619001693718,0.001
+RR1,DNA repair / DNA metabolism,conventional,0,,,
+RR1,DNA repair / DNA metabolism,original_contextual,6,4.160737463374455,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,expression_adjusted,2,2.3471003138870308,2.3471003138870308,0.0017892402757986082

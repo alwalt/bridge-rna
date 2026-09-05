@@ -1,0 +1,13 @@
+family,analysis,significant_terms,best_abs_nes,best_fdr,supported
+RNA processing / splicing,tcell_conventional,1,2.0100022348578848,0.01702184739839859,True
+RNA processing / splicing,tcell_bridge_context,2,3.0165103082544995,0.001,True
+RNA processing / splicing,rr1_conventional_instability,3,2.0709647190293863,0.001,True
+RNA processing / splicing,rr1_bridge_context,78,4.8784705650965705,0.001,True
+Chromatin organization / remodeling,tcell_conventional,1,2.0133042949003093,0.03408535193818668,True
+Chromatin organization / remodeling,tcell_bridge_context,1,2.663514490641957,0.001,True
+Chromatin organization / remodeling,rr1_conventional_instability,0,,,False
+Chromatin organization / remodeling,rr1_bridge_context,15,3.9730530297932547,0.001,True
+DNA repair / DNA metabolism,tcell_conventional,1,2.4024512460524976,0.001,True
+DNA repair / DNA metabolism,tcell_bridge_context,1,2.386298301732426,0.0042521874233379,True
+DNA repair / DNA metabolism,rr1_conventional_instability,0,,,False
+DNA repair / DNA metabolism,rr1_bridge_context,6,4.160737463374455,0.001,True

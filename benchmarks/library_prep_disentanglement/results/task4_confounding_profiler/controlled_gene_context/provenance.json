@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-05T04:25:25.847102+00:00",
+  "checkpoint": "model/r7hnr92k/best_model.pt",
+  "frozen": true,
+  "donors": 40,
+  "libraries": 80,
+  "genes": 15165,
+  "dimensions": 512,
+  "displacement": "Ribo minus PolyA per same-RNA donor",
+  "gsea_permutations": 1000,
+  "seed": 42731,
+  "elapsed_minutes": 2.8529388586680096
+}

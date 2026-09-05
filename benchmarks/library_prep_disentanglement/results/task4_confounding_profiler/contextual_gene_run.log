@@ -1,0 +1,30 @@
+[start] contextual inference representations=6 unique_samples=34 device=cuda:0
+[heartbeat] response=1/6 RR1_OSD48_original_matched samples=9 elapsed=0.0m
+[heartbeat] response=2/6 RR1_OSD168_no-ERCC samples=9 elapsed=0.1m
+[heartbeat] response=3/6 C01_OSD137_original_matched samples=4 elapsed=0.1m
+[heartbeat] response=4/6 C01_OSD168_all_ERCC samples=4 elapsed=0.1m
+[heartbeat] response=5/6 C02_OSD137_original_matched samples=4 elapsed=0.1m
+[heartbeat] response=6/6 C02_OSD168_all_ERCC samples=4 elapsed=0.1m
+2026-09-04 18:44:16,275 [WARNING] Duplicated values found in preranked stats: 0.09% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-04 18:44:35,828 [WARNING] Duplicated values found in preranked stats: 0.09% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-04 18:44:38,200 [WARNING] Duplicated values found in preranked stats: 0.09% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-04 18:44:46,390 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-04 18:45:04,256 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-04 18:45:06,966 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-04 18:45:15,108 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-04 18:45:31,527 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-04 18:45:33,940 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+comparison  genes  median_context_reproducibility       q25      q75  fraction_context_reproducibility_lt_0  fraction_context_reproducibility_lt_0_5  median_normalized_context_discrepancy
+       RR1  15165                       -0.124629 -0.375383 0.189998                               0.615562                                 0.886977                               0.765835
+    RR3-39  15165                        0.782674  0.509995 0.906886                               0.075173                                 0.244576                               0.373542
+    RR3-40  15165                        0.863585  0.664356 0.947935                               0.066337                                 0.169205                               0.296699
+[complete] elapsed=1.5m

@@ -1,0 +1,7 @@
+comparison,rr_metric,spearman,genes
+RR1,normalized_context_discrepancy,0.16321774635859992,15165
+RR1,directional_instability,0.15618269492593823,15165
+RR3-39,normalized_context_discrepancy,-0.11104093430985779,15165
+RR3-39,directional_instability,-0.10913520949450693,15165
+RR3-40,normalized_context_discrepancy,-0.044281737406319105,15165
+RR3-40,directional_instability,-0.04844000162058623,15165

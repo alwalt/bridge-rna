@@ -1,0 +1,16 @@
+gene_set,family,tested_terms,significant_terms,best_pathway,best_overlap,best_fold_enrichment,best_fdr,supported
+DE_associated_positive_residual,RNA processing / splicing,108,12,"Regulation of mRNA Splicing, via Spliceosome (GO:0048024)",15,7.3014705882352935,4.746579617205297e-06,True
+DE_associated_positive_residual,Chromatin organization / remodeling,20,0,Chromatin Modifying Enzymes,10,2.2698872295032,1.0,False
+DE_associated_positive_residual,DNA repair / DNA metabolism,14,0,Regulation of DNA Metabolic Process (GO:0051052),5,1.9214396284829722,1.0,False
+nonDE_top100,RNA processing / splicing,108,2,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381)",7,15.165818181818182,0.0010257006700232147,True
+nonDE_top100,Chromatin organization / remodeling,20,2,Chromatin Modifying Enzymes,10,6.174093264248705,0.003388711417447948,True
+nonDE_top100,DNA repair / DNA metabolism,14,0,Regulation of DNA Repair (GO:0006282),7,7.129230769230769,0.05469872167961356,False
+nonDE_top250,RNA processing / splicing,108,4,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381)",9,7.7995636363636365,0.0013843196819061363,True
+nonDE_top250,Chromatin organization / remodeling,20,5,Chromatin Modifying Enzymes,22,5.433202072538861,6.830799413790061e-08,True
+nonDE_top250,DNA repair / DNA metabolism,14,2,Regulation of DNA Repair (GO:0006282),18,7.332923076923077,1.0414287324701632e-07,True
+nonDE_top500,RNA processing / splicing,108,14,MRNA Processing (GO:0006397),32,3.2178227848101266,3.2972633962016984e-06,True
+nonDE_top500,Chromatin organization / remodeling,20,5,Chromatin Modifying Enzymes,34,4.19838341968912,5.627864542147276e-10,True
+nonDE_top500,DNA repair / DNA metabolism,14,3,Regulation of DNA Repair (GO:0006282),26,5.296,2.5290714009287037e-09,True
+nonDE_top5pct,RNA processing / splicing,108,23,MRNA Processing (GO:0006397),40,3.374394698836123,1.3348103780405595e-08,True
+nonDE_top5pct,Chromatin organization / remodeling,20,5,Chromatin Modifying Enzymes,38,3.936502416802865,1.5411484497949776e-10,True
+nonDE_top5pct,DNA repair / DNA metabolism,14,2,Regulation of DNA Repair (GO:0006282),27,4.613835828600929,1.4657532771307735e-08,True

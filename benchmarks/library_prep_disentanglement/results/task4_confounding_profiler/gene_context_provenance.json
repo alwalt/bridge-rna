@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-05T01:45:43.286990+00:00",
+  "frozen_bridge": true,
+  "sample_inputs": "/home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/work/bridgerna_log1p_tpm_inputs.npy",
+  "samples": 34,
+  "genes": 15165,
+  "context_response": "mean contextual embedding FLT minus mean contextual embedding GC",
+  "context_reproducibility": "cosine between original and remeasurement gene-context responses",
+  "normalized_discrepancy": "norm(A-B)/(norm(A)+norm(B))",
+  "gsea_permutations": 250,
+  "embeddings_retrained": false,
+  "full_context_tensor_cached": false
+}

@@ -1,0 +1,5 @@
+family,controlled_significant_terms,rr1_significant_terms,controlled_best_nes,controlled_best_fdr,rr1_best_nes,rr1_best_fdr
+RNA processing / splicing,2,78,3.0165103082544995,0.001,3.948778755048646,0.001
+Chromatin organization / remodeling,1,15,2.6635144906419566,0.001,3.9730530297932547,0.001
+DNA repair / DNA metabolism,1,6,2.386298301732426,0.004252187423337967,4.160737463374455,0.001
+Fatty-acid / lipid metabolism,0,34,,,-1.5739941500855692,0.001

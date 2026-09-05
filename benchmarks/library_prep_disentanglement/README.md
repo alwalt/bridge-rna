@@ -268,16 +268,198 @@ The profiler remains diagnostic. Its T-cell reference is not established as
 universal across tissues, and alignment is neither causal attribution nor batch
 correction.
 
-The notebook's user-facing profiler is organized around two primary values:
-Response Reproducibility (`R`) and PC1–2 Technical Alignment (`T`). A separate
-qualitative Biological Overlap field summarizes the existing removal experiment
-without inventing an overlap score. The Technical Sensitivity Map plots `T`
-against `R`, making clear that RR3-40 retains a reproducible response despite
-nonzero technical-associated discrepancy structure, whereas RR1 combines a
-reversal with very high alignment. Bootstrap/random/reference-stability details
-and existing IG/pathway evidence are presented as secondary evidence.
+The notebook's primary display now uses separate bar graphs for Response
+Reproducibility (`R`), PC1–2 Technical Alignment (`T`), and global Biological
+Preservation. At the PC1–5 operating point that makes RR1 positive, response-
+matrix preservation is 0.559 and mode ARI is 0.116. This correlation is not a
+percentage of biology. Bootstrap/random/reference-stability details and IG
+results are secondary evidence.
 
-No Task 3 per-sample contextual gene-embedding tensors were cached, so the
-optional contextual-gene remeasurement analysis was not performed. Unrelated
-exercise contextual artifacts were not reused, and embeddings were not
-recomputed.
+The contextual-gene extension uses frozen inference on the exact 34 cached Task
+3 log1p(TPM) inputs and streams contrast means without saving a multi-gigabyte
+per-sample contextual tensor:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 .venv/bin/python \
+  benchmarks/library_prep_disentanglement/pipeline/analyze_contextual_gene_reproducibility.py \
+  --device cuda:0 --batch-size 1 2>&1 | \
+  tee benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/contextual_gene_run.log
+```
+
+RR1 median gene-context reproducibility is −0.125, with 61.6% of genes showing
+reversed contextual responses. RR3-39 and RR3-40 medians are 0.783 and 0.864,
+with reversal fractions 7.5% and 6.6%. RR1's contextually unstable Top-100 has
+little overlap with high-IG genes, so contextual instability and input
+influence are complementary. Exploratory ranked GSEA associates RR1 contextual
+instability with RNA-processing/splicing, chromatin, and DNA-repair programs;
+fatty-acid oxidation ranks toward relative contextual stability. These scores
+do not prove altered gene regulation or make the pathways technical artifacts.
+
+### Contextual-gene robustness audit
+
+The contextual result was audited without repeating BridgeRNA inference:
+
+```bash
+.venv/bin/python benchmarks/library_prep_disentanglement/pipeline/audit_contextual_gene_robustness.py \
+  2>&1 | tee benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/contextual_robustness/run.log
+```
+
+Outputs are under `results/task4_confounding_profiler/contextual_robustness/`.
+The audit verifies the exact 34 samples, FLT-minus-GC direction, 15,165 genes,
+512 contextual dimensions, and absence of zero response vectors. It adds the
+symmetric response magnitude `sqrt(norm_A * norm_B)` and normalized discrepancy
+`norm(A-B)/(norm(A)+norm(B)+epsilon)`.
+
+RR1 remains strongly abnormal after excluding the lowest 10% of genes by
+response magnitude: median contextual cosine is -0.089 and 57.8% of retained
+genes remain reversed, versus medians 0.793 and 0.878 for RR3-39 and RR3-40.
+RR1 median normalized discrepancy is 0.766 (0.756 after filtering), versus
+0.374 and 0.297 for RR3. The contextual instability result is therefore
+classified **ROBUST**, rather than a low-norm cosine artifact.
+
+The initial 250-permutation GSEA had an empirical probability floor near
+0.004. The audit reruns enrichment only, using 1,000 permutations and two
+rankings: normalized discrepancy and negative cosine after removing the bottom
+10% by response magnitude. GO BP, KEGG, and Reactome sets are intersected with
+the tested BridgeRNA vocabulary (10--500 represented genes). RNA
+processing/splicing, chromatin organization/remodeling, and DNA repair/metabolic
+processes remain robustly enriched toward RR1 contextual instability under both
+rankings. Fatty-acid beta-oxidation and related hepatic metabolic programs
+remain toward relative contextual stability.
+
+RR3-39 visual/phototransduction terms are driven by a small, redundant set of
+low-expression genes; epidermal terms are likewise low-expression and fail the
+two-ranking robustness criterion. These are retained in the machine-readable
+audit but are not interpreted as liver biology. Enrichment is limited to
+programs represented in BridgeRNA's 15,165-gene universe and does not describe
+the complete mouse transcriptome.
+
+### Final controlled contextual-gene validation
+
+The final planned Task 4 analysis independently tests the RR1 contextual
+pathway hypotheses in the 40-donor Chen et al. same-RNA T-cell experiment:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 .venv/bin/python \
+  benchmarks/library_prep_disentanglement/pipeline/analyze_controlled_gene_context.py \
+  --device cuda:0 --batch-size 2 2>&1 | \
+  tee benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/controlled_gene_context_run.log
+```
+
+Results are under
+`results/task4_confounding_profiler/controlled_gene_context/`. The frozen
+checkpoint and established count-to-gene-length-TPM-to-natural-log1p pipeline
+were used for 80 libraries (40 authoritative same-RNA PolyA/Ribo pairs), 15,165
+model genes, and 512-dimensional contextual gene representations.
+
+For every gene, the analysis calculates donor-specific Ribo-minus-PolyA
+contextual displacement. Its primary sensitivity score is median displacement
+magnitude multiplied by positive mean leave-one-donor-out directional
+consistency; `norm(mean donor displacement)` provides a second magnitude-aware
+ranking. Median leave-one-out consistency is 0.959. Across 250 donor
+bootstraps, median ranking Spearman is 0.993 and median Top-500 overlap is
+485/500. A 1,000-replicate sign-flip control gives empirical `p=0.001` for
+median directional consistency.
+
+Using the same 15,165-gene universe, pathway resources, size limits, and 1,000
+GSEA permutations as the RR1 robustness audit, RNA processing/splicing,
+chromatin organization/remodeling, and DNA repair/metabolism are independently
+supported under both controlled rankings. However, RR1-versus-controlled gene
+ranking Spearman is only 0.163. Top-N overlap is not significant at 100, 250,
+or 500 genes and becomes modestly enriched only at Top-1000 (85 observed versus
+65.9 expected; `p=0.0088`). Representative pathway leading edges do not share
+individual genes. The result is therefore **PARTIAL CONCORDANCE** at the
+pathway-family level, not strong same-gene concordance.
+
+Fatty-acid/lipid metabolism is not consistently enriched as controlled
+technical sensitivity. Its behavior is mixed in T cells, so the liver-specific
+relative stability result cannot be generalized across tissues. RR1 changed
+multiple workflow variables beyond library selection; these controlled results
+strengthen but do not causally prove the PolyA/Ribo hypothesis.
+
+This completes the planned Task 4 analyses. The benchmark can be frozen for
+paper use with conservative diagnostic language: the analysis does not show
+batch correction, purified biology, a universal T-cell technical reference, or
+that PolyA/Ribo alone caused RR1 instability.
+
+### Conventional expression baseline
+
+The final baseline uses raw counts and edgeR quasi-likelihood models rather
+than differential testing on `log1p(TPM)`:
+
+```bash
+.venv/bin/python \
+  benchmarks/library_prep_disentanglement/pipeline/analyze_conventional_expression_baseline.py \
+  2>&1 | tee \
+  benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/conventional_expression_baseline_run.log
+```
+
+Controlled T cells use a paired `~ donor + library_prep` model. RR1 uses the
+exact nine animal-matched OSD-48/OSD-168 pairs with animal blocking and a
+measurement-by-flight-status interaction, reporting
+`(FLT-GC)_OSD48 - (FLT-GC)_OSD168`. edgeR tests 11,373 expressed T-cell genes
+and 11,916 RR1 genes from the 15,165-gene input universe.
+
+The controlled conventional-versus-contextual gene rankings correlate at
+Spearman 0.581 and strongly overlap at every Top-N cutoff, showing that
+BridgeRNA preserves much of the large controlled library-selection expression
+effect. RR1 correlation is only 0.075, although top-ranked overlap remains
+enriched (31/100, 124/500, and 248/1000), indicating substantial contextual
+reorganization rather than independence from expression.
+
+Conventional T-cell DE identifies RNA processing/splicing, chromatin, and DNA
+repair. The conventional RR1 interaction identifies RNA processing but not
+chromatin or DNA repair at FDR < 0.05. Conventional expression therefore
+reproduces one of three predefined cross-context families and no exact
+significant pathways, whereas the BridgeRNA contextual analysis reproduces all
+three families and nine exact significant pathways. At a 10% rank threshold,
+902 RR1 genes have strong contextual but weaker conventional instability; this
+conclusion persists at 5% and 20% thresholds.
+
+The result is classified **AMPLIFICATION/REORGANIZATION OF CONVENTIONAL
+SIGNAL**. BridgeRNA exposes coherent RR1 contextual pathway organization beyond
+the standard interaction ranking, but it retains substantial conventional
+signal and does not establish a wholly novel or causal biological program.
+Outputs are under
+`results/task4_confounding_profiler/conventional_expression_baseline/`.
+
+### Expression-adjusted contextual sensitivity
+
+The final gene-level control models contextual sensitivity conditional on the
+continuous conventional edgeR statistic rather than subtracting Top-N DE genes:
+
+```bash
+.venv/bin/python \
+  benchmarks/library_prep_disentanglement/pipeline/analyze_expression_adjusted_context.py \
+  2>&1 | tee \
+  benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/expression_adjusted_context_run.log
+```
+
+Within each experiment, robust LOWESS (`frac=0.20`, three robustifying
+iterations) predicts contextual sensitivity from `log1p(sqrt(edgeR QL F))`.
+The positive residual means that contextual representation changed more than
+expected from conventional expression behavior. Percentile-rank LOWESS is an
+independent sensitivity analysis. The matched tables contain 11,373 controlled
+T-cell and 11,916 RR1 genes.
+
+Residuals are effectively uncorrelated with the fitted expression statistic
+(Spearman 0.011 in T cells and -0.003 in RR1), are not dominated by the lowest
+expression or contextual-magnitude deciles, and remain stable after excluding
+the lowest 5--20% by both features. Residual GSEA uses the same pathway files,
+gene-set limits, tested universe, and 1,000 permutations as the preceding
+analyses.
+
+RNA processing/splicing remains expression-adjusted in both experiments.
+Chromatin and DNA repair remain strongly expression-adjusted in RR1 but not in
+the controlled T cells, where their contextual enrichment is explained by
+conventional expression. Cross-context residual gene Spearman is 0.005, with no
+Top-100 overlap and no significant Top-250/500/1000 overlap. The surviving RNA
+pathway concordance is therefore driven by different genes.
+
+A 1,000-shuffle competitive family control supports nonrandom broad-family
+rank concentration, but the stricter residual GSEA criterion is primary. The
+result is classified **PARTIAL ADDITIONAL CONTEXTUAL ORGANIZATION**: BridgeRNA
+contains coherent context organization not predicted by the per-gene edgeR
+statistic, particularly within RR1, while part of the original cross-context
+three-family result is conventional-expression-associated. Outputs are under
+`results/task4_confounding_profiler/expression_adjusted_context/`.

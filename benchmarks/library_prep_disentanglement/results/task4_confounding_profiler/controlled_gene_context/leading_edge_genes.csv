@@ -1,0 +1,389 @@
+origin,family,ranking,source,pathway,gene_symbol,nes,fdr
+controlled,RNA processing / splicing,magnitude_x_reproducibility,REAC,tRNA Processing in the Mitochondrion,MT-ND6,2.905921056812695,0.001
+controlled,RNA processing / splicing,magnitude_x_reproducibility,REAC,tRNA Processing in the Mitochondrion,MT-CYB,2.905921056812695,0.001
+controlled,RNA processing / splicing,magnitude_x_reproducibility,REAC,tRNA Processing in the Mitochondrion,MT-ND5,2.905921056812695,0.001
+controlled,RNA processing / splicing,magnitude_x_reproducibility,REAC,tRNA Processing in the Mitochondrion,MT-ND2,2.905921056812695,0.001
+controlled,RNA processing / splicing,magnitude_x_reproducibility,REAC,tRNA Processing in the Mitochondrion,MT-ATP6,2.905921056812695,0.001
+controlled,RNA processing / splicing,magnitude_x_reproducibility,REAC,tRNA Processing in the Mitochondrion,MT-ND1,2.905921056812695,0.001
+controlled,RNA processing / splicing,magnitude_x_reproducibility,REAC,tRNA Processing in the Mitochondrion,MT-ND4,2.905921056812695,0.001
+controlled,RNA processing / splicing,magnitude_x_reproducibility,REAC,tRNA Processing in the Mitochondrion,MT-ND4L,2.905921056812695,0.001
+controlled,RNA processing / splicing,magnitude_x_reproducibility,REAC,tRNA Processing in the Mitochondrion,MT-CO2,2.905921056812695,0.001
+controlled,RNA processing / splicing,magnitude_x_reproducibility,REAC,tRNA Processing in the Mitochondrion,MT-CO1,2.905921056812695,0.001
+controlled,RNA processing / splicing,magnitude_x_reproducibility,REAC,tRNA Processing in the Mitochondrion,MT-ND3,2.905921056812695,0.001
+controlled,RNA processing / splicing,magnitude_x_reproducibility,REAC,tRNA Processing in the Mitochondrion,MT-CO3,2.905921056812695,0.001
+controlled,Chromatin organization / remodeling,magnitude_x_reproducibility,REAC,Formation of Senescence-Associated Heterochromatin Foci (SAHF),H1-4,2.621697830908403,0.001
+controlled,Chromatin organization / remodeling,magnitude_x_reproducibility,REAC,Formation of Senescence-Associated Heterochromatin Foci (SAHF),H1-3,2.621697830908403,0.001
+controlled,Chromatin organization / remodeling,magnitude_x_reproducibility,REAC,Formation of Senescence-Associated Heterochromatin Foci (SAHF),H1-2,2.621697830908403,0.001
+controlled,Chromatin organization / remodeling,magnitude_x_reproducibility,REAC,Formation of Senescence-Associated Heterochromatin Foci (SAHF),H1-5,2.621697830908403,0.001
+controlled,Chromatin organization / remodeling,magnitude_x_reproducibility,REAC,Formation of Senescence-Associated Heterochromatin Foci (SAHF),H1-1,2.621697830908403,0.001
+controlled,DNA repair / DNA metabolism,magnitude_x_reproducibility,GO:BP,Negative Regulation of DNA Metabolic Process (GO:0051053),H1-4,2.362707824397051,0.004252187423337967
+controlled,DNA repair / DNA metabolism,magnitude_x_reproducibility,GO:BP,Negative Regulation of DNA Metabolic Process (GO:0051053),H1-3,2.362707824397051,0.004252187423337967
+controlled,DNA repair / DNA metabolism,magnitude_x_reproducibility,GO:BP,Negative Regulation of DNA Metabolic Process (GO:0051053),H1-2,2.362707824397051,0.004252187423337967
+controlled,DNA repair / DNA metabolism,magnitude_x_reproducibility,GO:BP,Negative Regulation of DNA Metabolic Process (GO:0051053),H1-5,2.362707824397051,0.004252187423337967
+controlled,DNA repair / DNA metabolism,magnitude_x_reproducibility,GO:BP,Negative Regulation of DNA Metabolic Process (GO:0051053),H1-1,2.362707824397051,0.004252187423337967
+controlled,DNA repair / DNA metabolism,magnitude_x_reproducibility,GO:BP,Negative Regulation of DNA Metabolic Process (GO:0051053),MSH3,2.362707824397051,0.004252187423337967
+controlled,DNA repair / DNA metabolism,magnitude_x_reproducibility,GO:BP,Negative Regulation of DNA Metabolic Process (GO:0051053),MSH6,2.362707824397051,0.004252187423337967
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),UBE2V1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SUPT20H,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SIRT7,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),EP300,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),ATXN7,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),EPC1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),PHF10,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),ARID1A,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),EYA3,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),TADA3,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),BCL7A,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),ARID2,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),DHX9,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),TAF4,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SF3B3,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),DPF2,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),CEBPG,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),TRRAP,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),ERCC6,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),CDK9,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),BRD8,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),EPC2,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),VPS72,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),MBTD1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),TAF2,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),DMAP1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),EP400,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),TAF6,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SMARCA2,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SMARCC1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),ARID1B,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),PARP1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),PPP4R3B,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SMARCB1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),RNF8,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),PBRM1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),BCL7B,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),XRCC1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SMARCD2,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),TMEM161A,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SMCHD1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),BRD7,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),TAF6L,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SMARCE1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),MRGBP,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),PPP4R3A,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),PARG,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),ERCC8,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),KAT7,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),POLH,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),PNKP,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),TADA1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),RNF168,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),BABAM2,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),PRKCD,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),ING3,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),UBE2V2,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),ACTL6A,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),MEAF6,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),UIMC1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),TADA2B,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),APLF,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),RUVBL2,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),ATRIP,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SMARCC2,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SUPT7L,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),TAF10,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),PPP4C,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),KAT5,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),TAF5L,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SGF29,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),RUVBL1,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),ENY2,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),ATR,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),RAD52,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),ATXN7L3,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SUPT3H,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),SMARCD3,4.160737463374455,0.001
+RR1,DNA repair / DNA metabolism,normalized_discrepancy,GO:BP,Regulation of DNA Repair (GO:0006282),TAF5,4.160737463374455,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,OGT,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,BRD1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,NSD1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SUPT20H,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KMT2D,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,EP300,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ATXN7,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,BRWD1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,JMJD6,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ARID5B,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,NCOR1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,EPC1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ARID1A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,EHMT1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KDM5D,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,EED,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,HCFC1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,TADA3,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ING4,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,MTA1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KDM2A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,NSD3,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,BRPF1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ARID2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KMT2C,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,MSL2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,TRRAP,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ARID4A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,BRD8,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ATF7IP,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,YEATS2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KANSL2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ASH1L,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,NCOA2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,GATAD2B,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,DMAP1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,EP400,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,MSL1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SUZ12,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SETDB1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ZZZ3,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,HDAC10,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KMT5B,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KMT2A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KDM3A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SMARCA2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,BRPF3,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SMARCC1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,GATAD2A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ARID1B,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,NFKB1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,HDAC1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KAT6A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KANSL1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,WDR77,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SMARCB1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,PHF2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,DR1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,PBRM1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,AEBP2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ATF2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KDM4C,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ARID4B,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SMARCD2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ASH2L,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,REST,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,DNMT3A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,TAF6L,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KDM6A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,RCOR1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SMARCE1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,MRGBP,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KDM3B,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,MTA2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,MCRS1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KMT2B,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KAT7,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,TADA1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,RELA,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,RBBP5,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KDM5B,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,HDAC3,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ING3,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KDM7A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KDM4B,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ACTL6A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KDM4A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KAT14,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KMT5C,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,PHF21A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,MEAF6,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,PHF8,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,CHD4,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KDM1B,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,HDAC8,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,TADA2B,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,RUVBL2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,TBL1XR1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SMARCC2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SUPT7L,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,MTA3,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SETD2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,TAF10,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,DOT1L,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KAT5,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,TAF5L,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,HDAC2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SGF29,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,CHD3,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,RUVBL1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ENY2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,PRMT6,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,CARM1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,HMG20B,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,MSL3,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ATXN7L3,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,H2AC20,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,PRMT7,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SMYD2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SUPT3H,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,NCOR2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SMARCD3,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,NCOA1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KDM4D,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,PRMT5,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,NFKB2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KAT8,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KAT2A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,CCND1,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,EZH2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,KDM5A,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,NSD2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ELP6,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,ELP2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,PADI2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SETDB2,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,SETD6,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,PHF20,3.9730530297932547,0.001
+RR1,Chromatin organization / remodeling,normalized_discrepancy,REAC,Chromatin Organization,H2BC18,3.9730530297932547,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CPSF6,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RNPC3,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SFPQ,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),YTHDC1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),HNRNPU,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RNPS1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),DDX5,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RBMX,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),HNRNPH1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),HNRNPM,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),WTAP,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CPSF7,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),HNRNPA1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SRRM1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SRSF5,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RBM22,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SNRNP48,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RBM6,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SRSF1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),ZCCHC8,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RBM48,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),USP49,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RBM5,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CELF1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SF1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SRSF2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SRSF7,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PNN,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),NSUN2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RPRD1A,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CASC3,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PAPOLA,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),TRA2A,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SF3B3,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),ZBTB8OS,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SART1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SNRNP70,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),ZNF830,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SRSF9,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PTBP1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),ZC3H13,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PRPF40B,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SNRPA1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),WDR33,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CPSF1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),TCERG1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),DDX46,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),WBP4,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),HNRNPK,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),DHX8,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CWC25,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),KHDRBS1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),MTREX,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CHD8,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),NCBP1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),U2AF2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CACTIN,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PPWD1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SF3B1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SF3A3,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),TENT2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),NKAP,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CDC73,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RNMT,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CBLL1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RBM10,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SRRM2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),AQR,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RSRC1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CD2BP2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),ESS2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SON,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SCNM1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),NCBP2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),GPKOW,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SYNCRIP,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),METTL3,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SNRNP40,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),KIN,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),TENT4B,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),HNRNPH3,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),TUT1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RNGTT,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),HNRNPR,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),DHX15,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RBMX2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PRPF38A,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),U2AF1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),WDR70,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),METTL14,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PRKRIP1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CRNKL1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),DHX16,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),EFTUD2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SNRNP35,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),TRA2B,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PDCD7,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SYMPK,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RPRD1B,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),USP39,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SRSF10,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SART3,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),LSM2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),GEMIN5,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PRPF3,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),TFIP11,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PPIL4,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SF3A2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),U2AF1L4,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PRMT9,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),FRA10AC1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),ARMC7,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RBM41,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SNRPB2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),HTATSF1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CWF19L1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PRPF4,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),METTL16,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),VIRMA,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PSME3IP1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SF3A1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CMTR2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SNRPA,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SRSF11,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PHF5A,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),DHX35,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),WDR83,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SF3B4,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SRSF4,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PPIL2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),NONO,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PRPF18,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CPSF2,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),TRMT6,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),DBR1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SNRPC,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PRKACA,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CWC27,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PPIL1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),DDX23,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CPSF3,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),CPSF4,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),SNW1,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),PRPF31,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),RBM42,3.948778755048646,0.001
+RR1,RNA processing / splicing,normalized_discrepancy,GO:BP,MRNA Processing (GO:0006397),DDX39B,3.948778755048646,0.001

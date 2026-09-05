@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-09-05T01:29:39.539541+00:00",
+  "created_utc": "2026-09-05T01:45:56.293957+00:00",
   "operational_reference": "uncentered T-cell PolyA/Ribo PC1-2",
   "reference_robustness": {
     "PC1_projection_similarity_median": 0.9995347370796624,
@@ -38,6 +38,8 @@
       "Measurement-Specific Top100 Union": 94,
       "Biological Overlap": "HIGH",
       "Biological Overlap Evidence": "Removing enough technical-associated structure to resolve the reversal substantially disrupts the broader spaceflight-response organization; technical and biological structure are not cleanly separable.",
+      "Biological Preservation": 0.5591813983118332,
+      "Biological Preservation Scope": "Global Task 3 response-similarity matrix after PC1-5 removal; not comparison-specific",
       "Existing Pathway Summary": "Shared same-sign genes: small-molecule catabolism, cholesterol and related hepatic metabolism.",
       "Overall Interpretation": "Opposing response; discrepancy is strongly aligned with the controlled reference, with broad influential-gene reweighting rather than simple shared-gene sign reversal."
     },
@@ -68,6 +70,8 @@
       "Measurement-Specific Top100 Union": 58,
       "Biological Overlap": "EVIDENT",
       "Biological Overlap Evidence": "Strong PC1\u20135 removal reduces response reproducibility, while the same removal also reorganizes the broader response geometry.",
+      "Biological Preservation": 0.5591813983118332,
+      "Biological Preservation Scope": "Global Task 3 response-similarity matrix after PC1-5 removal; not comparison-specific",
       "Existing Pathway Summary": "Reproducible genes: hepatic small-molecule, organic-acid, lipid and broader metabolic programs.",
       "Overall Interpretation": "Response remains reproducible despite detectable alignment of its smaller replication discrepancy with the controlled reference."
     },
@@ -98,6 +102,8 @@
       "Measurement-Specific Top100 Union": 48,
       "Biological Overlap": "LIMITED IN THIS COMPARISON",
       "Biological Overlap Evidence": "The response remains highly reproducible after PC1\u20135 removal, although the broader reference-removal experiment still shows nonseparability.",
+      "Biological Preservation": 0.5591813983118332,
+      "Biological Preservation Scope": "Global Task 3 response-similarity matrix after PC1-5 removal; not comparison-specific",
       "Existing Pathway Summary": "Reproducible genes: hepatic small-molecule, organic-acid, lipid and broader metabolic programs.",
       "Overall Interpretation": "Response remains reproducible despite detectable alignment of its smaller replication discrepancy with the controlled reference."
     }

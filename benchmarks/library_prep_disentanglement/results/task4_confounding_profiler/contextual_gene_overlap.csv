@@ -1,0 +1,10 @@
+comparison,unstable_top_n,reference,reference_genes,overlap,genes
+RR1,100,IG_Top100_union,147,1,SLC39A2
+RR1,100,controlled_Top100,100,3,HSD17B1;LENG8;RBM15
+RR1,100,existing_interpretation_sets,147,1,SLC39A2
+RR3-39,100,IG_Top100_union,129,0,
+RR3-39,100,controlled_Top100,100,1,CXCR5
+RR3-39,100,existing_interpretation_sets,0,0,
+RR3-40,100,IG_Top100_union,124,0,
+RR3-40,100,controlled_Top100,100,1,LRRC75A
+RR3-40,100,existing_interpretation_sets,0,0,

@@ -1,0 +1,143 @@
+[heartbeat] contextual pairs=1/40 elapsed=0.0m
+[heartbeat] contextual pairs=2/40 elapsed=0.0m
+[heartbeat] contextual pairs=3/40 elapsed=0.0m
+[heartbeat] contextual pairs=4/40 elapsed=0.0m
+[heartbeat] contextual pairs=5/40 elapsed=0.0m
+[heartbeat] contextual pairs=6/40 elapsed=0.0m
+[heartbeat] contextual pairs=7/40 elapsed=0.1m
+[heartbeat] contextual pairs=8/40 elapsed=0.1m
+[heartbeat] contextual pairs=9/40 elapsed=0.1m
+[heartbeat] contextual pairs=10/40 elapsed=0.1m
+[heartbeat] contextual pairs=11/40 elapsed=0.1m
+[heartbeat] contextual pairs=12/40 elapsed=0.1m
+[heartbeat] contextual pairs=13/40 elapsed=0.1m
+[heartbeat] contextual pairs=14/40 elapsed=0.1m
+[heartbeat] contextual pairs=15/40 elapsed=0.1m
+[heartbeat] contextual pairs=16/40 elapsed=0.1m
+[heartbeat] contextual pairs=17/40 elapsed=0.1m
+[heartbeat] contextual pairs=18/40 elapsed=0.2m
+[heartbeat] contextual pairs=19/40 elapsed=0.2m
+[heartbeat] contextual pairs=20/40 elapsed=0.2m
+[heartbeat] contextual pairs=21/40 elapsed=0.2m
+[heartbeat] contextual pairs=22/40 elapsed=0.2m
+[heartbeat] contextual pairs=23/40 elapsed=0.2m
+[heartbeat] contextual pairs=24/40 elapsed=0.2m
+[heartbeat] contextual pairs=25/40 elapsed=0.2m
+[heartbeat] contextual pairs=26/40 elapsed=0.2m
+[heartbeat] contextual pairs=27/40 elapsed=0.2m
+[heartbeat] contextual pairs=28/40 elapsed=0.2m
+[heartbeat] contextual pairs=29/40 elapsed=0.2m
+[heartbeat] contextual pairs=30/40 elapsed=0.2m
+[heartbeat] contextual pairs=31/40 elapsed=0.2m
+[heartbeat] contextual pairs=32/40 elapsed=0.3m
+[heartbeat] contextual pairs=33/40 elapsed=0.3m
+[heartbeat] contextual pairs=34/40 elapsed=0.3m
+[heartbeat] contextual pairs=35/40 elapsed=0.3m
+[heartbeat] contextual pairs=36/40 elapsed=0.3m
+[heartbeat] contextual pairs=37/40 elapsed=0.3m
+[heartbeat] contextual pairs=38/40 elapsed=0.3m
+[heartbeat] contextual pairs=39/40 elapsed=0.3m
+[heartbeat] contextual pairs=40/40 elapsed=0.3m
+[GSEA] magnitude_x_reproducibility GO:BP
+2026-09-04 21:18:31,013 [WARNING] Duplicated values found in preranked stats: 0.04% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA] magnitude_x_reproducibility KEGG
+2026-09-04 21:19:25,475 [WARNING] Duplicated values found in preranked stats: 0.04% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA] magnitude_x_reproducibility REAC
+2026-09-04 21:19:31,958 [WARNING] Duplicated values found in preranked stats: 0.04% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA] consensus_strength GO:BP
+2026-09-04 21:19:55,954 [WARNING] Duplicated values found in preranked stats: 0.43% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA] consensus_strength KEGG
+2026-09-04 21:20:48,489 [WARNING] Duplicated values found in preranked stats: 0.43% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA] consensus_strength REAC
+2026-09-04 21:20:54,452 [WARNING] Duplicated values found in preranked stats: 0.43% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+Traceback (most recent call last):
+  File "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_controlled_gene_context.py", line 240, in <module>
+    if __name__ == "__main__": main()
+                               ^^^^^^
+  File "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_controlled_gene_context.py", line 234, in main
+    plots(summary,enr,overlaps,concordance)
+  File "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_controlled_gene_context.py", line 180, in plots
+    ax[1].hist(controlled.loo_directional_consistency,bins=40,color="#4477AA");ax[1].set(xlabel="Gene LOO directional consistency",ylabel="Genes",title="Across 40 same-RNA donor pairs")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/core/generic.py", line 6321, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'loo_directional_consistency'
+[cache] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/task4_controlled_gene_context/controlled_context_displacements.float16.dat
+{
+  "donors": 40,
+  "libraries": 80,
+  "genes": 15165,
+  "genes_observed": 15120,
+  "context_dimensions": 512,
+  "median_loo_consistency": 0.9592007398605347,
+  "fraction_genes_consistency_positive": 1.0,
+  "fraction_genes_majority_aligned": 1.0,
+  "bootstrap_median_score_spearman": 0.9934182736680024,
+  "bootstrap_median_top500_overlap": 485.0,
+  "permutation_p_median_consistency": 0.000999000999000999,
+  "rr1_controlled_gene_rank_spearman": 0.16321774635859992,
+  "overall_classification": "PARTIAL CONCORDANCE",
+  "supported_families": [
+    "RNA processing / splicing",
+    "Chromatin organization / remodeling",
+    "DNA repair / DNA metabolism"
+  ],
+  "checkpoint": "model/r7hnr92k/best_model.pt",
+  "preprocessing": "counts -> gene-length TPM -> natural log1p; canonical order; absent genes zero-filled",
+  "pairing": "40 authoritative same-RNA donor pairs",
+  "ranking": "median displacement magnitude * max(mean LOO directional cosine, 0)",
+  "caveat": "Controlled T-cell library-selection sensitivity is independent evidence, not causal identification of the multi-factor RR1 protocol transition."
+}
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/controlled_gene_context
+[cache] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/task4_controlled_gene_context/controlled_context_displacements.float16.dat
+[GSEA] magnitude_x_reproducibility GO:BP
+2026-09-04 21:22:39,924 [WARNING] Duplicated values found in preranked stats: 0.04% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA] magnitude_x_reproducibility KEGG
+2026-09-04 21:23:34,316 [WARNING] Duplicated values found in preranked stats: 0.04% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA] magnitude_x_reproducibility REAC
+2026-09-04 21:23:40,519 [WARNING] Duplicated values found in preranked stats: 0.04% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA] mean_consensus_displacement GO:BP
+2026-09-04 21:24:04,417 [WARNING] Duplicated values found in preranked stats: 0.07% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA] mean_consensus_displacement KEGG
+2026-09-04 21:24:55,306 [WARNING] Duplicated values found in preranked stats: 0.07% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA] mean_consensus_displacement REAC
+2026-09-04 21:25:01,410 [WARNING] Duplicated values found in preranked stats: 0.07% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+{
+  "donors": 40,
+  "libraries": 80,
+  "genes": 15165,
+  "genes_observed": 15120,
+  "context_dimensions": 512,
+  "median_loo_consistency": 0.9592007398605347,
+  "fraction_genes_consistency_positive": 1.0,
+  "fraction_genes_majority_aligned": 1.0,
+  "bootstrap_median_score_spearman": 0.9934182736680024,
+  "bootstrap_median_top500_overlap": 485.0,
+  "permutation_p_median_consistency": 0.000999000999000999,
+  "rr1_controlled_gene_rank_spearman": 0.16321774635859992,
+  "overall_classification": "PARTIAL CONCORDANCE",
+  "supported_families": [
+    "RNA processing / splicing",
+    "Chromatin organization / remodeling",
+    "DNA repair / DNA metabolism"
+  ],
+  "checkpoint": "model/r7hnr92k/best_model.pt",
+  "preprocessing": "counts -> gene-length TPM -> natural log1p; canonical order; absent genes zero-filled",
+  "pairing": "40 authoritative same-RNA donor pairs",
+  "ranking": "primary: median displacement magnitude * max(mean LOO directional cosine, 0); sensitivity: norm(mean donor displacement)",
+  "caveat": "Controlled T-cell library-selection sensitivity is independent evidence, not causal identification of the multi-factor RR1 protocol transition."
+}
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/controlled_gene_context

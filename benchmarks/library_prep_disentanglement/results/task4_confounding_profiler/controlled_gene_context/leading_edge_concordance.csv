@@ -1,0 +1,4 @@
+family,rr1_leading_edge_genes,controlled_leading_edge_genes,overlap,expected_overlap,hypergeom_p
+RNA processing / splicing,146,12,0,0.1155291790306627,1.0
+Chromatin organization / remodeling,139,5,0,0.04582921200131883,1.0
+DNA repair / DNA metabolism,79,7,0,0.03646554566435872,1.0

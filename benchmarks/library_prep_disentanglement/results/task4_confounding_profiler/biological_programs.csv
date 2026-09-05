@@ -1,0 +1,13 @@
+query,source,native,name,p_value,minus_log10_adjusted_p
+RR3_reproducible,REAC,REAC:R-HSA-1430728,Metabolism,9.2278084952037e-12,11.034901426974882
+RR3_reproducible,GO:BP,GO:0044281,small molecule metabolic process,5.168645210615714e-10,9.286623277923244
+RR3_reproducible,GO:BP,GO:0006082,organic acid metabolic process,1.2106205166029664e-08,7.916991970294643
+RR1_shared_same_sign,GO:BP,GO:0044282,small molecule catabolic process,8.33081535725139e-07,6.079312491051085
+RR1_shared_same_sign,GO:BP,GO:0044281,small molecule metabolic process,2.450924498450039e-06,5.610670067128815
+RR1_shared_same_sign,KEGG,KEGG:01200,Carbon metabolism,3.411510881538431e-06,5.467053239132849
+RR1_shared_same_sign,KEGG,KEGG:04976,Bile secretion,4.812638817179181e-06,5.317616730384133
+RR1_shared_same_sign,REAC,REAC:R-HSA-1430728,Metabolism,1.1905950895962396e-05,4.924235912953134
+RR3_reproducible,GO:BP,GO:0044283,small molecule biosynthetic process,3.503057390215931e-05,4.455552747623807
+RR3_reproducible,KEGG,KEGG:04976,Bile secretion,6.407816825122539e-05,4.193289911557954
+RR1_shared_same_sign,GO:BP,GO:0006082,organic acid metabolic process,0.0001007630049426,3.9966988895013342
+RR3_reproducible,GO:BP,GO:0006629,lipid metabolic process,0.0005209389659293,3.283213156379632

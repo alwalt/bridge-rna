@@ -1,0 +1,119 @@
+[GSEA 1/18] RR1 normalized_discrepancy GO:BP
+2026-09-04 20:17:03,037 [WARNING] Duplicated values found in preranked stats: 0.09% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 2/18] RR1 normalized_discrepancy KEGG
+2026-09-04 20:17:58,112 [WARNING] Duplicated values found in preranked stats: 0.09% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 3/18] RR1 normalized_discrepancy REAC
+2026-09-04 20:18:04,404 [WARNING] Duplicated values found in preranked stats: 0.09% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 4/18] RR1 magnitude_filtered_negative_cosine GO:BP
+2026-09-04 20:18:27,395 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 5/18] RR1 magnitude_filtered_negative_cosine KEGG
+2026-09-04 20:19:11,140 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 6/18] RR1 magnitude_filtered_negative_cosine REAC
+2026-09-04 20:19:17,152 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 7/18] RR3-39 normalized_discrepancy GO:BP
+2026-09-04 20:19:36,953 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 8/18] RR3-39 normalized_discrepancy KEGG
+2026-09-04 20:20:27,283 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 9/18] RR3-39 normalized_discrepancy REAC
+2026-09-04 20:20:33,511 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 10/18] RR3-39 magnitude_filtered_negative_cosine GO:BP
+2026-09-04 20:20:56,592 [WARNING] Duplicated values found in preranked stats: 0.05% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 11/18] RR3-39 magnitude_filtered_negative_cosine KEGG
+2026-09-04 20:21:38,448 [WARNING] Duplicated values found in preranked stats: 0.05% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 12/18] RR3-39 magnitude_filtered_negative_cosine REAC
+2026-09-04 20:21:43,755 [WARNING] Duplicated values found in preranked stats: 0.05% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 13/18] RR3-40 normalized_discrepancy GO:BP
+2026-09-04 20:22:04,098 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 14/18] RR3-40 normalized_discrepancy KEGG
+2026-09-04 20:22:53,700 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 15/18] RR3-40 normalized_discrepancy REAC
+2026-09-04 20:22:59,915 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 16/18] RR3-40 magnitude_filtered_negative_cosine GO:BP
+2026-09-04 20:23:22,784 [WARNING] Duplicated values found in preranked stats: 0.10% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 17/18] RR3-40 magnitude_filtered_negative_cosine KEGG
+2026-09-04 20:24:04,762 [WARNING] Duplicated values found in preranked stats: 0.10% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA 18/18] RR3-40 magnitude_filtered_negative_cosine REAC
+2026-09-04 20:24:10,130 [WARNING] Duplicated values found in preranked stats: 0.10% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+Traceback (most recent call last):
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'median_context_reproducibility'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/audit_contextual_gene_robustness.py", line 122, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/audit_contextual_gene_robustness.py", line 114, in main
+    bar(metric_summary,'median_context_reproducibility','Median Context Reproducibility','median_context_reproducibility',(-.3,1));bar(metric_summary,'fraction_reversed','Fraction of Contextually Reversed Genes','context_reversal_fraction',(0,1));bar(metric_summary,'median_normalized_discrepancy','Median Normalized Contextual Discrepancy','median_normalized_discrepancy',(0,1))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/audit_contextual_gene_robustness.py", line 21, in bar
+    order=list(PAIRS);s=df.set_index('comparison').loc[order,col];colors=['#CC3311','#0077BB','#009988'];fig,ax=plt.subplots(figsize=(7,4.4),layout='constrained');b=ax.bar(order,s,color=colors);ax.set(ylim=ylim,title=title)
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1185, in __getitem__
+    return self._getitem_tuple(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1369, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1066, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1432, in _getitem_axis
+    return self._get_label(key, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1382, in _get_label
+    return self.obj.xs(label, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/core/generic.py", line 4309, in xs
+    return self[key]
+           ~~~~^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'median_context_reproducibility'
+[cache] loading /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/contextual_robustness/gsea_full_results.parquet
+comparison  genes  zero_norm_A  zero_norm_B  magnitude_vs_cosine_spearman  directional_vs_normalized_discrepancy_spearman  median_cosine  fraction_reversed  median_normalized_discrepancy
+       RR1  15165            0            0                      0.450295                                        0.987187      -0.124629           0.615562                       0.765835
+    RR3-39  15165            0            0                      0.247280                                        0.953470       0.782674           0.075173                       0.373542
+    RR3-40  15165            0            0                      0.442088                                        0.950867       0.863585           0.066337                       0.296699
+comparison  lowest_magnitude_fraction_excluded  genes_retained  magnitude_cutoff  median_context_reproducibility  fraction_reversed  median_normalized_discrepancy
+       RR1                                0.00           15165          0.676142                       -0.124629           0.615562                       0.765835
+       RR1                                0.05           14406          0.791835                       -0.106542           0.596279                       0.760778
+       RR1                                0.10           13648          0.821381                       -0.089402           0.577814                       0.756190
+       RR1                                0.20           12132          0.870111                       -0.052212           0.539565                       0.746574
+    RR3-39                                0.00           15165          0.250156                        0.782674           0.075173                       0.373542
+    RR3-39                                0.05           14406          0.326697                        0.788496           0.079134                       0.373379
+    RR3-39                                0.10           13648          0.354230                        0.792607           0.083455                       0.375363
+    RR3-39                                0.20           12132          0.393838                        0.804600           0.092648                       0.370882
+    RR3-40                                0.00           15165          0.223936                        0.863585           0.066337                       0.296699
+    RR3-40                                0.05           14406          0.296645                        0.870297           0.069832                       0.293464
+    RR3-40                                0.10           13648          0.320190                        0.877746           0.073710                       0.287980
+    RR3-40                                0.20           12132          0.358510                        0.892126           0.082262                       0.279091
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/contextual_robustness

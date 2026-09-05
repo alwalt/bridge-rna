@@ -1,0 +1,22 @@
+{
+  "ranking_statistics": {
+    "normalized_discrepancy": "norm(A-B)/(norm(A)+norm(B)+epsilon), descending",
+    "magnitude_filtered_negative_cosine": "-cosine(A,B), descending after excluding bottom 10% by sqrt(normA*normB)"
+  },
+  "gene_universe_full": 15165,
+  "gene_universe_filtered": 13648,
+  "databases": [
+    "GO:BP",
+    "KEGG",
+    "REAC"
+  ],
+  "min_gene_set_size": 10,
+  "max_gene_set_size": 500,
+  "permutations": 1000,
+  "seed": 42641,
+  "p_value": "gseapy phenotype-label permutation empirical nominal p",
+  "FDR": "gseapy permutation-based FDR q-value",
+  "previous_floor": 0.00398406374501992,
+  "current_nominal_resolution_approx": 0.000999000999000999,
+  "background_note": "Ranked universes are restricted to valid BridgeRNA canonical genes; gene sets are intersected with that tested universe. Results describe programs represented within the BridgeRNA vocabulary, not the complete mouse transcriptome."
+}

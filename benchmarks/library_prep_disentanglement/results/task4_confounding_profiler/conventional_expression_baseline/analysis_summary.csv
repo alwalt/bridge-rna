@@ -1,0 +1,3 @@
+analysis,T-cell result,RR1 result,Cross-context pathway concordance
+Conventional expression,"RNA, chromatin, and DNA-repair families detected",RNA processing detected; chromatin and DNA repair not detected,1/3 predefined families; 0 exact significant pathways
+BridgeRNA contextual genes,"RNA, chromatin, and DNA-repair families detected","RNA, chromatin, and DNA-repair families detected",3/3 predefined families; 9 exact significant pathways

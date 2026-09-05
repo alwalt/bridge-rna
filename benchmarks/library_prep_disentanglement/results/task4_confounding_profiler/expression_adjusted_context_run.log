@@ -1,0 +1,28 @@
+[GSEA] controlled_tcell lowess_residual GO:BP
+[GSEA] controlled_tcell lowess_residual KEGG
+[GSEA] controlled_tcell lowess_residual REAC
+[GSEA] controlled_tcell rank_residual GO:BP
+[GSEA] controlled_tcell rank_residual KEGG
+[GSEA] controlled_tcell rank_residual REAC
+[GSEA] RR1 lowess_residual GO:BP
+[GSEA] RR1 lowess_residual KEGG
+[GSEA] RR1 lowess_residual REAC
+[GSEA] RR1 rank_residual GO:BP
+[GSEA] RR1 rank_residual KEGG
+[GSEA] RR1 rank_residual REAC
+{
+  "tcell_genes": 11373,
+  "rr1_genes": 11916,
+  "tcell_expression_context_spearman": 0.5806465204694726,
+  "rr1_expression_context_spearman": 0.0752233085925113,
+  "cross_context_residual_spearman": 0.005110262962545151,
+  "shared_retained_pathway_families": [
+    "RNA processing / splicing"
+  ],
+  "classification": "PARTIAL ADDITIONAL CONTEXTUAL ORGANIZATION",
+  "lowess": "robust LOWESS frac=0.20, it=3 on log1p conventional statistic; log1p contextual score for T cells and normalized discrepancy for RR1",
+  "rank_sensitivity": "LOWESS on within-experiment percentile ranks",
+  "permutation_control": "1,000 independent gene-label shuffles; joint family mean percentile competitive statistic",
+  "elapsed_minutes": 3.9508824904759723
+}
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/expression_adjusted_context

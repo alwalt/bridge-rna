@@ -1,0 +1,15 @@
+source,pathway,ranking,leading_edge_genes,median_expression,median_combined_magnitude,median_context_cosine,median_normalized_discrepancy
+GO:BP,Detection of Light Stimulus Involved in Sensory Perception (GO:0050962),magnitude_filtered_negative_cosine,11,0.10706913,0.8728856,0.15835108,0.7582966
+GO:BP,Detection of Light Stimulus Involved in Sensory Perception (GO:0050962),normalized_discrepancy,9,0.10706913,0.8728856,-0.0037302114,0.8690958
+GO:BP,Detection of Light Stimulus Involved in Visual Perception (GO:0050908),magnitude_filtered_negative_cosine,11,0.10706913,0.8728856,0.15835108,0.7582966
+GO:BP,Detection of Light Stimulus Involved in Visual Perception (GO:0050908),normalized_discrepancy,9,0.10706913,0.8728856,-0.0037302114,0.8690958
+GO:BP,Intermediate Filament Organization (GO:0045109),normalized_discrepancy,35,0.029495817,0.82026297,0.28078097,0.72380185
+GO:BP,Sensory Perception of Light Stimulus (GO:0050953),normalized_discrepancy,82,0.14875916,0.78438133,0.1412426,0.77347153
+GO:BP,Visual Perception (GO:0007601),normalized_discrepancy,84,0.14875916,0.80206305,0.1412426,0.77170795
+KEGG,CORNIFIED ENVELOPE FORMATION,normalized_discrepancy,69,0.0579757,0.81643283,0.24880615,0.6903631
+KEGG,PHOTOTRANSDUCTION,normalized_discrepancy,16,0.1606667,1.0400237,-0.090370595,0.90397674
+REAC,Activation of the Phototransduction Cascade,normalized_discrepancy,8,0.44830382,1.3752675,-0.14813028,0.89152014
+REAC,Formation of the Cornified Envelope,normalized_discrepancy,45,0.016317863,0.9103516,0.30688107,0.7174697
+REAC,"Inactivation, Recovery and Regulation of the Phototransduction Cascade",normalized_discrepancy,20,0.30490845,1.0400237,0.17371085,0.84232986
+REAC,Keratinization,normalized_discrepancy,54,0.013290573,0.81834793,0.32257497,0.6867912
+REAC,The Phototransduction Cascade,normalized_discrepancy,21,0.2799558,0.98891443,0.14795418,0.8235172

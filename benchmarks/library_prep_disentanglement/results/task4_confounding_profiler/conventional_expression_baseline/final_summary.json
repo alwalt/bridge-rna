@@ -1,0 +1,17 @@
+{
+  "method_tcell": "edgeR quasi-likelihood paired model: ~ donor + library_prep; Ribo vs PolyA",
+  "method_rr1": "edgeR quasi-likelihood paired animal-blocked model; OSD48-vs-OSD168 FLT-GC interaction",
+  "tcell_samples": 80,
+  "tcell_donors": 40,
+  "tcell_genes_input": 15165,
+  "tcell_genes_tested": 11373,
+  "rr1_samples": 18,
+  "rr1_animals": 9,
+  "rr1_genes_input": 15165,
+  "rr1_genes_tested": 11916,
+  "tcell_expression_context_spearman": 0.5806465204694726,
+  "rr1_expression_context_spearman": 0.0752233085925113,
+  "predefined_families_shared_conventional": 1,
+  "predefined_families_shared_bridge_context": 3,
+  "classification": "AMPLIFICATION/REORGANIZATION OF CONVENTIONAL SIGNAL"
+}

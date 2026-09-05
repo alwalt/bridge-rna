@@ -1,0 +1,7 @@
+experiment,family,classification
+controlled_tcell,RNA processing / splicing,PARTIALLY RETAINED AFTER EXPRESSION ADJUSTMENT
+RR1,RNA processing / splicing,STRONGLY RETAINED AFTER EXPRESSION ADJUSTMENT
+controlled_tcell,Chromatin organization / remodeling,EXPLAINED BY CONVENTIONAL EXPRESSION
+RR1,Chromatin organization / remodeling,STRONGLY RETAINED AFTER EXPRESSION ADJUSTMENT
+controlled_tcell,DNA repair / DNA metabolism,EXPLAINED BY CONVENTIONAL EXPRESSION
+RR1,DNA repair / DNA metabolism,STRONGLY RETAINED AFTER EXPRESSION ADJUSTMENT
