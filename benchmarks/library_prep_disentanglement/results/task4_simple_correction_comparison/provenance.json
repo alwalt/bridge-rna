@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-09-04T23:51:43.201387+00:00",
+  "bridge_retrained": false,
+  "FE_RE_retrained": false,
+  "OSDR_used_for_fit_or_tuning": false,
+  "controlled_correction_validation": "leave-one-donor-out",
+  "paired_additive_definition": "subtract (library_indicator - 0.5) times paired mean Ribo-minus-PolyA effect",
+  "important_identity": "study-constant additive residualization cancels exactly in within-study FLT-minus-GC responses",
+  "probe_interpretation": "AUROC below 0.5 is retained as signed out-of-fold performance; orientation-free AUROC and chance proximity prevent systematic inversion from being mislabeled as removal",
+  "pareto_objectives": [
+    "pair cosine improvement",
+    "library accuracy chance proximity",
+    "RR1 improvement",
+    "RR3 mean cosine",
+    "response matrix preservation"
+  ]
+}

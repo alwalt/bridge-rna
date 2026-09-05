@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-09-04T23:15:28.187375+00:00",
+  "bridge_frozen": true,
+  "models_retrained": false,
+  "contrast_definitions_changed": false,
+  "target_axis": "original technical-pair response direction, fixed for original and remeasurement",
+  "controlled_signature": "IG(mean T-cell Ribo)-IG(mean T-cell PolyA) onto independently defined mean embedding displacement",
+  "ig_baseline": "all-zero log1p(TPM)",
+  "ig_steps": 16,
+  "enrichment_background_genes": 15165,
+  "enrichment_status": "ok:69 rows"
+}

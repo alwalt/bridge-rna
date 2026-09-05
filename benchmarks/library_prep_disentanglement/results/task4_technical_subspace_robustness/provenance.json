@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-09-05T00:53:47.589031+00:00",
+  "controlled_donors": 40,
+  "embedding_dimensions": 512,
+  "bootstrap_iterations": 1000,
+  "bootstrap_sample_size": 40,
+  "bootstrap_sampling": "donors with replacement, intact PolyA/Ribo pairs",
+  "holdout_splits": 250,
+  "holdout_train_donors": 32,
+  "holdout_test_donors": 8,
+  "leave_one_donor_out": true,
+  "components": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "random_seed": 42617,
+  "svd": "uncentered",
+  "reference_evr_first_five": [
+    0.9747093067406888,
+    0.01612276179248254,
+    0.001916721300494754,
+    0.001400183726499095,
+    0.0010524639691578466
+  ],
+  "embeddings_recomputed": false,
+  "correction_applied": false,
+  "prior_random_subspace_control_reused": "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_discrepancy_decomposition/random_subspace_calibration.csv"
+}

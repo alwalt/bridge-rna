@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-09-04T22:13:31.487346+00:00",
+  "controlled_basis_only": true,
+  "OSDR_used_for_fit": false,
+  "models_retrained": false,
+  "contrast_memberships_changed": false,
+  "technical_dimensions": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    10
+  ],
+  "random_replicates_per_k": 500,
+  "random_seed": 40241,
+  "original_metrics_verified": true
+}

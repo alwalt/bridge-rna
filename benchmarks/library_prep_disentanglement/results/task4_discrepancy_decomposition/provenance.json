@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-09-05T00:09:05.081256+00:00",
+  "random_seed": 42041,
+  "random_subspaces_per_k_per_comparison": 1000,
+  "basis": "uncentered SVD of 40 same-RNA T-cell Ribo-minus-PolyA displacements",
+  "NASA_discrepancy": "original FLT-GC response minus remeasurement FLT-GC response",
+  "correction_applied": false,
+  "embeddings_modified": false
+}

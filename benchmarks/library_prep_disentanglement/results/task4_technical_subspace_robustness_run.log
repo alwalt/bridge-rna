@@ -1,0 +1,44 @@
+[start] 1000 bootstraps + 250 32/8 splits + 40 LODO fits; cached 40x512 input
+[heartbeat] bootstrap 200/1000 elapsed=16.6s
+[heartbeat] bootstrap 400/1000 elapsed=53.9s
+[heartbeat] bootstrap 600/1000 elapsed=60.8s
+[heartbeat] bootstrap 800/1000 elapsed=64.0s
+[heartbeat] bootstrap 1000/1000 elapsed=68.3s
+/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_technical_subspace_robustness.py:101: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  bp = ax.boxplot(vals, labels=list(colors), showfliers=False, patch_artist=True)
+/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_technical_subspace_robustness.py:101: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  bp = ax.boxplot(vals, labels=list(colors), showfliers=False, patch_artist=True)
+
+Bootstrap profiler summary
+ comparison  components     mean   median       sd     q025     q975      min      max      n  original_full_data_score
+       RR1           1 0.538146 0.537274 0.021057 0.496907 0.577948 0.468150 0.620111 1000.0                  0.538998
+    RR3-39           1 0.105604 0.105633 0.003369 0.098998 0.112291 0.094704 0.117568 1000.0                  0.105709
+    RR3-40           1 0.231887 0.231562 0.010476 0.211706 0.250803 0.196504 0.269815 1000.0                  0.232318
+       RR1           2 0.945944 0.947648 0.008604 0.924996 0.957700 0.890968 0.961912 1000.0                  0.953069
+    RR3-39           2 0.140328 0.139981 0.009672 0.122116 0.159986 0.112453 0.175481 1000.0                  0.140970
+    RR3-40           2 0.464095 0.464262 0.017651 0.430994 0.499187 0.405285 0.525758 1000.0                  0.466257
+       RR1           3 0.948151 0.949420 0.007476 0.929304 0.959002 0.911976 0.962784 1000.0                  0.953259
+    RR3-39           3 0.191456 0.185051 0.038677 0.136289 0.275707 0.123706 0.331179 1000.0                  0.207474
+    RR3-40           3 0.481553 0.479043 0.022816 0.441726 0.531703 0.415032 0.568025 1000.0                  0.482264
+       RR1           5 0.955733 0.956635 0.005389 0.942964 0.963657 0.927344 0.966335 1000.0                  0.959699
+    RR3-39           5 0.242726 0.241919 0.048256 0.158598 0.340446 0.127641 0.419848 1000.0                  0.226214
+    RR3-40           5 0.543213 0.544405 0.035277 0.471626 0.607488 0.439851 0.640465 1000.0                  0.560292
+
+Ordering stability
+  components  fraction_RR1_gt_RR3_40_gt_RR3_39  iterations
+          1                               1.0        1000
+          2                               1.0        1000
+          3                               1.0        1000
+          5                               1.0        1000
+
+Held-out donor summary
+          validation  components     mean   median       sd     q025     q975      min      max      n
+      repeated_32_8           1 0.970893 0.979217 0.026945 0.895392 0.993192 0.839128 0.994102 2000.0
+      repeated_32_8           2 0.988151 0.989285 0.007197 0.965825 0.997015 0.955559 0.997397 2000.0
+      repeated_32_8           3 0.989682 0.991895 0.006831 0.967687 0.997064 0.957400 0.997443 2000.0
+      repeated_32_8           5 0.991828 0.993613 0.005552 0.973519 0.997372 0.965633 0.997909 2000.0
+leave_one_donor_out           1 0.971192 0.979694 0.027582 0.903717 0.992803 0.852357 0.993229   40.0
+leave_one_donor_out           2 0.988423 0.989564 0.007255 0.968791 0.996994 0.960483 0.997235   40.0
+leave_one_donor_out           3 0.989987 0.992561 0.006908 0.970093 0.997037 0.964551 0.997238   40.0
+leave_one_donor_out           5 0.992111 0.993852 0.005592 0.973920 0.997404 0.973182 0.997561   40.0
+[complete] elapsed=95.1s outputs=/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_technical_subspace_robustness

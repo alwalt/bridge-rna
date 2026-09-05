@@ -1,0 +1,4 @@
+comparison,original_response,remeasurement_response,original_norm,remeasurement_norm,recomputed_cosine,saved_cosine,absolute_difference,verified
+RR1,RR1_OSD48_original_matched,RR1_OSD168_no-ERCC,0.93165034,0.48526445,-0.804119348526001,-0.804119348526001,0.0,True
+RR3-39,C01_OSD137_original_matched,C01_OSD168_all_ERCC,0.23469472,0.19130117,0.7900034189224243,0.7900034189224243,0.0,True
+RR3-40,C02_OSD137_original_matched,C02_OSD168_all_ERCC,0.14857928,0.17898348,0.9166485667228699,0.91664856672287,1.1102230246251565e-16,True

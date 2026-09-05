@@ -1,0 +1,16 @@
+metric,result
+RR1 cosine original,-0.8041193090750477
+RR1 cosine PC1-5 removed,0.1945298339690897
+RR3-39 cosine original,0.7900035067531542
+RR3-39 cosine PC1-5 removed,0.4974171893713108
+RR3-40 cosine original,0.916648382577064
+RR3-40 cosine PC1-5 removed,0.8940973273942412
+Median response-vector preservation PC1-5,0.523210555094907
+Median response norm ratio PC1-5,0.5232105550948949
+Response-matrix Spearman preservation PC1-5,0.5591813983118332
+Mode silhouette original,0.7629976867824207
+Mode silhouette PC1-5 removed,0.200030915662765
+Mode ARI PC1-5 removed,0.11564625850340136
+Absolute Top-10 neighbor overlap PC1-5,0.31375
+Absolute sample cosine PC1-5,0.6589040054362043
+RR1 random-null one-sided p PC1-5,0.001996007984031936

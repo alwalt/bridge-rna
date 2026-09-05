@@ -1,0 +1,6 @@
+comparison,library_selection,preservation,biological_correspondence,preservation_effect_identifiable,library_effect_identifiable,interaction_identifiable,limitation
+OSD-48 C13 vs C14,polyA fixed,Mini Cold Bag vs RLT/snap frozen,different animals,partial,no,no,"Preservation differs within RR1, but biological material is not paired."
+OSD-48 C14 vs OSD-168 RR1,polyA vs ribodepleted,source C14 material,exact animals/RNA-derived material,held fixed,library-associated protocol transition,no,Library changes with read layout/depth and sequencing workflow; not an isolated causal library effect.
+OSD-168 RR1 no-ERCC vs ERCC,ribodepleted fixed,fixed,same source animals,no,no,no,Identifies ERCC-associated remeasurement only.
+OSD-137 vs OSD-168 RR3,ribodepleted fixed,liquid nitrogen,exact source material,no,no,no,Technical resequencing control; no library or preservation contrast.
+Across Lai Polo/OSDR studies,study-associated,study-associated,unpaired,confounded,confounded,not identifiable,"Mission, strain, duration, collection, library, and sequencing differ together."

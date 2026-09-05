@@ -1,0 +1,38 @@
+[start] /home/walt/bridge-rna/.venv/bin/python /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_technical_replication_gene_attributions.py --worker --names RR1_OSD48_original_matched C01_OSD137_original_matched C02_OSD137_original_matched --device cuda:0 --tag worker_0 --ig-steps 16 --path-batch 4
+[start] /home/walt/bridge-rna/.venv/bin/python /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_technical_replication_gene_attributions.py --worker --names RR1_OSD168_no-ERCC C01_OSD168_all_ERCC C02_OSD168_all_ERCC --device cuda:1 --tag worker_1 --ig-steps 16 --path-batch 4
+[heartbeat] worker_1 1/3 RR1_OSD168_no-ERCC elapsed=1.5m
+[heartbeat] worker_1 2/3 C01_OSD168_all_ERCC elapsed=3.0m
+[heartbeat] worker_1 3/3 C02_OSD168_all_ERCC elapsed=4.5m
+[heartbeat] worker_0 1/3 RR1_OSD48_original_matched elapsed=12.8m
+[heartbeat] worker_0 2/3 C01_OSD137_original_matched elapsed=14.7m
+[heartbeat] worker_0 3/3 C02_OSD137_original_matched elapsed=16.6m
+Traceback (most recent call last):
+  File "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_technical_replication_gene_attributions.py", line 149, in <module>
+    else:orchestrate(a)
+         ^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_technical_replication_gene_attributions.py", line 140, in orchestrate
+    figures(attrs,controlled,summary,overlap)
+  File "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_technical_replication_gene_attributions.py", line 120, in figures
+    for v in vectors.values():idx.update(np.argsort(-np.abs(v))[:25]);idx=sorted(idx,key=lambda i:-max(abs(v[i]) for v in vectors.values()))[:100];M=np.stack([vectors[n][idx] for n in names]);scale=np.max(np.abs(M),axis=0);Z=M/np.maximum(scale,1e-12)
+                              ^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'update'
+ top_n  shared  jaccard  expected_random_overlap  overlap_enrichment   hypergeom_p  same_sign_fraction  opposite_sign_fraction comparison  full_signed_spearman  top100_union_signed_spearman
+   100      53 0.360544                 0.659413             80.3745  7.518200e-95            0.962264                0.037736        RR1              0.193794                      0.654667
+   100      71 0.550388                 0.659413            107.6715 2.112635e-145            0.985915                0.014085     RR3-39              0.601230                      0.829685
+   100      76 0.612903                 0.659413            115.2540 2.514853e-161            1.000000                0.000000     RR3-40              0.597231                      0.873618
+
+Expression
+  top_n  shared  jaccard  expected_random_overlap  overlap_enrichment   hypergeom_p  same_sign_fraction  opposite_sign_fraction comparison  full_gene_cosine  full_gene_spearman
+   100      46 0.298701                 0.659413             69.7590  1.263161e-77                 1.0                     0.0        RR1          0.369167            0.424830
+   100      58 0.408451                 0.659413             87.9570 6.053850e-108                 1.0                     0.0     RR3-39          0.652304            0.618316
+   100      87 0.769912                 0.659413            131.9355 2.493782e-200                 1.0                     0.0     RR3-40          0.822429            0.672977
+ top_n  shared  jaccard  expected_random_overlap  overlap_enrichment   hypergeom_p  same_sign_fraction  opposite_sign_fraction comparison  full_signed_spearman  top100_union_signed_spearman
+   100      53 0.360544                 0.659413             80.3745  7.518200e-95            0.962264                0.037736        RR1              0.193794                      0.654667
+   100      71 0.550388                 0.659413            107.6715 2.112635e-145            0.985915                0.014085     RR3-39              0.601230                      0.829685
+   100      76 0.612903                 0.659413            115.2540 2.514853e-161            1.000000                0.000000     RR3-40              0.597231                      0.873618
+
+Expression
+  top_n  shared  jaccard  expected_random_overlap  overlap_enrichment   hypergeom_p  same_sign_fraction  opposite_sign_fraction comparison  full_gene_cosine  full_gene_spearman
+   100      46 0.298701                 0.659413             69.7590  1.263161e-77                 1.0                     0.0        RR1          0.369167            0.424830
+   100      58 0.408451                 0.659413             87.9570 6.053850e-108                 1.0                     0.0     RR3-39          0.652304            0.618316
+   100      87 0.769912                 0.659413            131.9355 2.493782e-200                 1.0                     0.0     RR3-40          0.822429            0.672977
