@@ -150,7 +150,15 @@ def main():
     for i,p in enumerate(selected):
         for j,(c,rname) in enumerate(cols):
             q=pathways[(pathways.cohort.eq(c))&pathways.pathway.eq(p)];M[i,j]=q.original_score.iloc[0] if rname==RESP[c][0] else q.remeasurement_score.iloc[0]
-    lim=np.nanpercentile(np.abs(M),95);fig,ax=plt.subplots(figsize=(11,10));im=ax.imshow(M,aspect='auto',cmap='RdBu_r',vmin=-lim,vmax=lim);ax.set_xticks(range(6),['RR1 original','RR1 remeasure','RR3-39 original','RR3-39 remeasure','RR3-40 original','RR3-40 remeasure'],rotation=35,ha='right');ax.set_yticks(range(len(selected)),selected,fontsize=7);fig.colorbar(im,ax=ax,label='Existing signed pathway score');ax.set_title('Robust and measurement-sensitive pathway profiles');fig.tight_layout()
+    lim=np.nanpercentile(np.abs(M),95);fig,ax=plt.subplots(figsize=(11,10));im=ax.imshow(M,aspect='auto',cmap='RdBu_r',vmin=-lim,vmax=lim,interpolation='nearest')
+    # Seaborn's axes grid bisected every heatmap cell and made six columns look
+    # like twelve. Disable it and retain only cohort-pair separators.
+    ax.grid(False)
+    ax.set_xticks(range(6),['Original','Remeasurement']*3,rotation=30,ha='right')
+    ax.set_yticks(range(len(selected)),selected,fontsize=7)
+    for boundary in (1.5,3.5): ax.axvline(boundary,color='#202020',lw=1.5)
+    top=ax.secondary_xaxis('top');top.set_xticks([.5,2.5,4.5],['RR1','RR3-39','RR3-40']);top.tick_params(length=0,pad=8);top.grid(False)
+    fig.colorbar(im,ax=ax,label='Existing signed pathway score');ax.set_title('Robust and measurement-sensitive pathway profiles',pad=12);fig.tight_layout()
     for e in ['png','pdf']:fig.savefig(FIG/f'pathway_profiles.{e}',dpi=300,bbox_inches='tight');plt.close(fig)
     prov={'bridge_inference_rerun':False,'ig_rerun':False,'gene_criteria':'mutual Top-500 same-direction expression/IG; Top-500 positive local graph cosine','pathway_criteria':'mutual Top-250 absolute score and same direction','enrichment_background':15165,'claims':'technical remeasurement concordance, not independent biological replication'};(OUT/'summary/provenance.json').write_text(json.dumps(prov,indent=2)+'\n')
     print(metrics.pivot(index='metric',columns='cohort',values='value').reindex(columns=COHORTS).to_string());print('\n',pcounts.to_string(index=False));print('\n',json.dumps(shared,indent=2))
