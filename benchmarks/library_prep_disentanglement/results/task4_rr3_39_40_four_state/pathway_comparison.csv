@@ -1,0 +1,3 @@
+comparison_A,comparison_B,pathway_pearson,pathway_spearman,top100_pathway_overlap,top100_direction_agreement
+GC39→GC40,FLT39→FLT40,0.7306962579426406,0.7364247521440681,25,1.0
+Δ39,Δ40,0.2457266032105626,0.18450693975308682,35,0.9142857142857143

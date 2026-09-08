@@ -1,0 +1,11 @@
+{
+  "parameters_frozen_from_general_validation": true,
+  "primary": "union k10",
+  "sensitivities": [
+    "union k5",
+    "union k20",
+    "mutual k5/10/20"
+  ],
+  "response_graph": "mean FLT weighted adjacency minus mean GC weighted adjacency",
+  "RR1_RR3_used_for_parameter_selection": false
+}

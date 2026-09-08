@@ -1,0 +1,9 @@
+{
+  "primary_contrasts": 20,
+  "median_E_PC1": 0.4225297782316595,
+  "median_E_PC2": 0.31579686255539774,
+  "global_PC1_variance_fraction": 0.30374146382883915,
+  "global_PC2_variance_fraction": 0.24924644182597203,
+  "basis": "unchanged controlled T-cell uncentered SVD PC1/PC2",
+  "contextual_inference_recomputed": false
+}

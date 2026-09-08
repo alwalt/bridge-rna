@@ -1,0 +1,10 @@
+{
+  "carcass_sufficient": false,
+  "reason": "RR1 carcass matches RR3-39 but opposes RR3-40 even though both RR3 cohorts share the same reported immediate liquid-nitrogen preservation and RNA protocol. RR1 upon-euthanasia instead matches RR3-40.",
+  "interpretation": "Mixed/non-identifiable: PC1-2 contains controlled protocol-associated structure and coherent biological/sample-state organization. Removing it improves RR1 technical replication because the discrepancy lies in this subspace, but destroys RR1-RR3 similarity because the same subspace also carries the cross-experiment response correspondence.",
+  "limitations": [
+    "RR3 postmortem interval and exact dissection timing/order are unavailable.",
+    "RIN correlations are descriptive at small n and confounded by cohort.",
+    "Full RR1 contextual outputs contain component magnitude, not signed vectors; shared genes are based on high component contribution, not signed concordance."
+  ]
+}

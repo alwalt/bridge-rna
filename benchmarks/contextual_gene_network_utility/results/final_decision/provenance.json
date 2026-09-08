@@ -1,0 +1,12 @@
+{
+  "thresholds": {
+    "low_moderate_DE": "at or below within-contrast median absolute DE",
+    "high_rewiring": "within-contrast top 5% graph turnover"
+  },
+  "primary_graph": "union k10",
+  "literature_style_graph": "prespecified union Top-20 contextual similarity network",
+  "genes": 15165,
+  "encoder_retrained": false,
+  "TF_target": "unavailable",
+  "note": "contextual token displacement reused where present for exercise; not recomputed"
+}

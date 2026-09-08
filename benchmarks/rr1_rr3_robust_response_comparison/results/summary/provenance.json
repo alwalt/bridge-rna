@@ -1,0 +1,8 @@
+{
+  "bridge_inference_rerun": false,
+  "ig_rerun": false,
+  "gene_criteria": "mutual Top-500 same-direction expression/IG; Top-500 positive local graph cosine",
+  "pathway_criteria": "mutual Top-250 absolute score and same direction",
+  "enrichment_background": 15165,
+  "claims": "technical remeasurement concordance, not independent biological replication"
+}

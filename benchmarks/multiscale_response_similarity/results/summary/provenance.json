@@ -1,0 +1,18 @@
+{
+  "source_only": true,
+  "bridge_inference_rerun": false,
+  "scales": [
+    "expression",
+    "global_bridgerna",
+    "hallmark_program",
+    "attribution",
+    "contextual_graph"
+  ],
+  "normalization_for_visualization": "within-domain percentile rank mapped to [-1,1]",
+  "raw_values_preserved": true,
+  "limitations": [
+    "exercise attribution uses saved signed Top-250 IG vectors",
+    "T-cell and recount3 controls are not response-pair compatible",
+    "discrimination is descriptive due to small/non-independent positive sets"
+  ]
+}

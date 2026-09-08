@@ -1,0 +1,12 @@
+Audit,PCA_15165,PCA_FULL_secondary,BridgeRNA_512,Interpretation
+Global PC1+2 variance,0.237,unavailable on same 40k samples,0.652,BridgeRNA strongly amplifies variance concentration
+Participation ratio,22.60 (estimated tail),unavailable,2.98,BridgeRNA is substantially lower dimensional
+T-cell displacement PC1+2,0.948,not applicable,0.991,Response was already extremely concentrated in expression
+PCA/Bridge distance geometry,Spearman 0.747,unavailable,reference,Substantial global preservation with reorganization
+10-NN overlap,0.473,unavailable,reference,Less than half of local neighbors preserved
+RR1 technical replication,-0.206,OSDR-fitted full PCA max 0.255,-0.807,BridgeRNA uniquely amplifies reversal
+RR3-39 technical replication,0.790,OSDR-fitted full PCA max 0.509,0.790,Global PCA and BridgeRNA are equivalent
+RR3-40 technical replication,0.914,OSDR-fitted full PCA max 0.647,0.917,Global PCA and BridgeRNA are equivalent
+RR1/RR3-39 false friend,0.361,not available as strict global baseline,0.811,BridgeRNA amplifies false similarity
+50% masked TCGA Pearson,0.944 (512 PCs),unavailable,0.939,Comparable; PCA slightly higher
+90% masked TCGA Pearson,0.924 (256 PCs),unavailable,0.678,PCA substantially higher

@@ -1,0 +1,5 @@
+model,ROC_AUC,PR_AUC,bootstrap_low,bootstrap_high
+expression_similarity,1.0,1.0,0.9999999999999999,1.0
+attribution_similarity,1.0,1.0,0.9999999999999999,1.0
+residual_similarity,1.0,1.0,0.9999999999999999,1.0
+expression_plus_residual,0.9999999999999999,1.0,0.9999999999999999,1.0

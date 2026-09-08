@@ -1,0 +1,7 @@
+representation,ground_truth,queries,R@1,R@5,R@10,MRR,median_rank
+Raw expression,previous exploratory Axis A/B; not independent of BridgeRNA discovery,8,0.625,0.875,1.0,0.7447916666666666,1.0
+PCA-15165,previous exploratory Axis A/B; not independent of BridgeRNA discovery,8,0.625,0.875,1.0,0.765625,1.0
+BridgeRNA global mean,previous exploratory Axis A/B; not independent of BridgeRNA discovery,8,0.875,0.875,1.0,0.890625,1.0
+Hallmark response fingerprint,previous exploratory Axis A/B; not independent of BridgeRNA discovery,8,0.125,0.75,1.0,0.421875,2.5
+Contextual gene-response fingerprint,previous exploratory Axis A/B; not independent of BridgeRNA discovery,8,0.125,0.875,1.0,0.43229166666666663,2.5
+Transparent Hallmark+context reranking,previous exploratory Axis A/B; not independent of BridgeRNA discovery,8,0.25,0.75,1.0,0.478125,2.5

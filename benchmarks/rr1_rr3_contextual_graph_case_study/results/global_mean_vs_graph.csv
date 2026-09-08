@@ -1,0 +1,9 @@
+representation,comparison,similarity,relationship
+Bridge mean,RR1,-0.8067149519920349,true replicate
+Graph signed-edge response,RR1,0.1834290307907626,true replicate
+Bridge mean,RR3-39,0.7900034189224243,true replicate
+Graph signed-edge response,RR3-39,0.3193086413506041,true replicate
+Bridge mean,RR3-40,0.91664856672287,true replicate
+Graph signed-edge response,RR3-40,0.3990236309144599,true replicate
+Bridge mean,RR1↔RR3-39 false friend,0.8107837438583374,unrelated
+Graph signed-edge response,RR1↔RR3-39 false friend,0.0117964445370137,unrelated

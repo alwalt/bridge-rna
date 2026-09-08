@@ -1,0 +1,2 @@
+representation,status,reason
+contextual/Hallmark reranking,unavailable,paired recount3 contextual tokens and Hallmark module fingerprints were not cached; no expensive regeneration authorized

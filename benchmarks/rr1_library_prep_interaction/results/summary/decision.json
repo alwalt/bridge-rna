@@ -1,0 +1,8 @@
+{
+  "primary_conclusion": "mixed_protocol_by_flight_interaction_and_deep_RR1_instability",
+  "causal_library_claim": false,
+  "reason": "FLT and GC protocol displacements differ, while OSD/library/read setup/preservation are structurally confounded",
+  "rin_interaction_supported": false,
+  "upon_euthanasia_remeasurement_available": false,
+  "bridge_inference_rerun": false
+}

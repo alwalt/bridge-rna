@@ -1,0 +1,16 @@
+{
+  "primary_graph": "layer12 contextual cosine directed kNN k=10; union symmetrization",
+  "sensitivities_k": [
+    5,
+    20
+  ],
+  "mutual_knn": true,
+  "parameter_selection": "prespecified without RR1/RR3",
+  "community_algorithm": "NetworkX Louvain, resolution=1, fixed seed",
+  "spectrum": "20 eigenvalues of symmetric normalized weighted adjacency, largest magnitude",
+  "PPI_regulatory": "not run; no local authoritative resource available",
+  "limitations": [
+    "degree/strength classifier is a derived graph profile",
+    "exercise role parser is saved for audit before interpretation"
+  ]
+}

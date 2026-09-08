@@ -1,0 +1,28 @@
+
+Compact summary
+ Metric FLT_GC_n_biological FLT_GC_n_technical_matched  conventional_RNA_processing_NES  conventional_RNA_processing_FDR  original_replication_cosine  cosine_after_PC1_2_removal  change_after_removal  original_total_response_norm  original_PC1_2_aligned_fraction  parallel_replication_cosine  orthogonal_replication_cosine                                                                                                                                                                        top_parallel_programs                                                                                                                                                                       top_orthogonal_programs  bootstrap_change_median bootstrap_change_95CI  random_subspace_p
+RR3-39                 2/2                        2/2                         2.270018                         0.001000                     0.790004                    0.480391             -0.309613                      0.234695                         0.677895                     0.995160                       0.480391 hepatic lipid/fatty-acid/peroxisomal metabolism (NES +1.43, FDR 0.377, NS); chromatin organization/remodeling (NES +1.32, FDR 0.796, NS); RNA processing/splicing (NES +1.20, FDR 0.843, NS) hepatic lipid/fatty-acid/peroxisomal metabolism (NES +1.48, FDR 0.261, NS); ribosome/rRNA processing (NES +1.22, FDR 0.536, NS); chromatin organization/remodeling (NES +1.36, FDR 0.735, NS)                -0.185977       -0.411 to 0.121           0.001996
+RR3-40                 3/2                        2/2                         2.003847                         0.008736                     0.916648                    0.875585             -0.041064                      0.148579                         0.446603                     0.997783                       0.875585     hepatic lipid/fatty-acid/peroxisomal metabolism (NES +1.33, FDR 0.364, NS); DNA repair/DNA-damage response (NES +1.33, FDR 0.67, NS); RNA processing/splicing (NES +1.27, FDR 0.699, NS)     hepatic lipid/fatty-acid/peroxisomal metabolism (NES +1.44, FDR 0.364, NS); ribosome/rRNA processing (NES +1.05, FDR 0.904, NS); DNA repair/DNA-damage response (NES +1.19, FDR 0.92, NS)                -0.041064       -0.117 to 0.019           0.001996
+
+Decision
+ {
+  "decision": "D. UNSTABLE / UNDERPOWERED",
+  "controlled_reference": "uncentered T-cell PolyA/Ribo PC1-2",
+  "PC1_variance_fraction": 0.9747093067406888,
+  "PC1_2_variance_fraction": 0.9908320685331713,
+  "RR3_39_change_after_removal": -0.30961279281290705,
+  "RR3_40_change_after_removal": -0.04106374854933592,
+  "RR3_39_random_subspace_p": 0.001996007984031936,
+  "RR3_40_random_subspace_p": 0.001996007984031936,
+  "RR3_39_RNA_parallel_preference": 0.02758603902929078,
+  "RR3_39_RNA_competitive_p": 0.0006999300069993001,
+  "RR3_40_RNA_parallel_preference": 0.004043308837684798,
+  "RR3_40_RNA_competitive_p": 0.5547445255474452,
+  "limitations": [
+    "RR3-39 has 2 FLT/2 GC; matched RR3-40 technical comparison has 2/2.",
+    "Component IG identifies input influence on a latent target; it does not label dimensions as technical-only.",
+    "Matched random 2D controls test geometric loss; functional specificity uses gene-set competitive permutations because random-subspace IG would require new gradients per subspace.",
+    "OSD metadata supports same RR3 RNA material and exact animal matches, but does not independently prove aliquot identity for every library."
+  ]
+}
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/rr3_functional_overlap

@@ -1,0 +1,12 @@
+Factor,RR3-39,RR3-40,Different?,Potential confound?,Separable?,Evidence
+Duration/exposure,39 day,40 day,yes,possible,no,Duration is perfectly tied to animal/collection cohort.
+Animal identity,F1/F2; G1/G2,F3/F4/F5; G3/G5,yes,possible,no,No animal appears in both groups.
+Collection/completion date,NA in authoritative sample table,NA in authoritative sample table,unknown,cannot determine,no,Exact dates/times are unavailable.
+Euthanasia/dissection date/time,NA,NA,unknown,cannot determine,no,Exact ordering and timestamps are unavailable.
+RIN,FLT 7.3; GC 7.2,FLT 7.13; GC 7.35,small difference,possible,partially,"Measured, but inseparable from cohort and animal."
+Preservation,Liquid Nitrogen,Liquid Nitrogen,no reported difference,unlikely,yes,Same reported method.
+RNA selection,ribo-depletion,ribo-depletion,no,unlikely,yes,Same reported class.
+Platform/facility,HiSeq 4000 / UC Davis,HiSeq 4000 / UC Davis,no,unlikely,yes,Same reported setup.
+Library batch/index,distinct indices,distinct indices,yes,possible,no,Index changes with animal; lane/batch not fully available.
+Habitat,Rodent Habitat,Rodent Habitat,no reported difference,unlikely,yes,Same reported habitat; cage position unavailable.
+Feeding/light cycle,ad libitum / same reported light cycle,ad libitum / same reported light cycle,no reported difference,possible,partially,Actual intake and sample collection phase unavailable.

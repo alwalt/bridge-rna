@@ -1,0 +1,7 @@
+{
+  "decision": "D. UNDERPOWERED/CONFOUNDED",
+  "finding": "Alignment varies strongly by stratum: OSD-47 21d=0.045, OSD-47 22d=0.789, OSD-48 upon-euthanasia=0.562, OSD-48 carcass=0.938.",
+  "interpretation": "The better-powered carcass stratum is highly aligned and the upon-euthanasia stratum is lower, but OSD-47/48 differ in animal, age, strain, duration, and collection context; the OSD-47 22d result is 1-vs-1. The design cannot isolate preservation from biology or protocol interactions.",
+  "reference_caveat": "PC1-2 is a controlled T-cell PolyA/Ribo-associated reference, not a technical-only batch space; aligned fraction is not percent artifact.",
+  "PC1_2_controlled_variance": 0.9908320685331713
+}

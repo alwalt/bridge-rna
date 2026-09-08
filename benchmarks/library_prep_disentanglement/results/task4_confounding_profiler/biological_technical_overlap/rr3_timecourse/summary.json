@@ -1,0 +1,12 @@
+{
+  "technical_replication_omission": "OSD-168 lacks the RR3 41-day F6, G6, and G7 biological material; only 39- and 40-day RR3 animals were technically remeasured.",
+  "aligned_fraction_pattern": "strictly increasing numerically, but effectively plateaus from day 40 to 41",
+  "aligned_fraction_values": {
+    "39": 0.6778951901206751,
+    "40": 0.7329167930837027,
+    "41": 0.734935230869232
+  },
+  "magnitude_pattern": "non-monotonic: lower at day 40 and highest at day 41",
+  "conventional_pattern": "non-monotonic: lower at day 40 and highest at day 41",
+  "caveat": "Only three time points; day 41 has 1 FLT and 2 GC samples. No inferential time-trend claim is supported."
+}

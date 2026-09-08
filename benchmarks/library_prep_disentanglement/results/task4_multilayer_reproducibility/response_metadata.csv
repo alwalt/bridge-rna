@@ -1,0 +1,7 @@
+response,study,species,tissue,biological_contrast,condition_A,condition_B,n_A,n_B,samples_identical_or_matched,library_preparation,technical_context
+RR1_original,OSD-48,mouse,liver,spaceflight FLT minus GC,FLT,GC,4,5,matched same animals,polyA,SE 50bp 30M
+RR1_remeasurement,OSD-168,mouse,liver,spaceflight FLT minus GC,FLT,GC,8,10,matched same animals,ribodepleted,PE 150bp 100M
+RR3_39_original,OSD-137,mouse,liver,spaceflight FLT minus GC,FLT,GC,2,2,matched same animals,ribodepleted,PE 150bp 100M
+RR3_39_remeasurement,OSD-168,mouse,liver,spaceflight FLT minus GC,FLT,GC,2,2,matched same animals,ribodepleted,PE 150bp 100M
+RR3_40_original,OSD-137,mouse,liver,spaceflight FLT minus GC,FLT,GC,2,2,matched same animals,ribodepleted,PE 150bp 100M
+RR3_40_remeasurement,OSD-168,mouse,liver,spaceflight FLT minus GC,FLT,GC,2,2,matched same animals,ribodepleted,PE 150bp 100M

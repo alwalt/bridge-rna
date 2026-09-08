@@ -1,0 +1,20 @@
+{
+  "checkpoint": "r7hnr92k",
+  "encoder": "frozen; no inference in this benchmark",
+  "genes": 15165,
+  "layer": 12,
+  "primary_graph": "cosine kNN k=10 union symmetrized weighted",
+  "sensitivity_k": [
+    5,
+    20
+  ],
+  "source_graph_cache": "benchmarks/frozen_sample_embedding_readout/work/graph_fingerprint",
+  "communities": "not used as primary due prior poor reproducibility",
+  "claim_discipline": "contextual relationships, not causal/regulatory edges",
+  "limitations": [
+    "Top-k graph cache censors non-neighbor contextual cosines",
+    "cross-study graph response is exploratory for small curated contrast sets",
+    "graph-guided deletion not run"
+  ],
+  "seed": 20260907
+}

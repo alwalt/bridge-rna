@@ -1,0 +1,22 @@
+                   contrast_id                        label    OSD  n_FLT  n_GC  underpowered  total_norm  projected_norm  orthogonal_norm  aligned_fraction
+C11__OSD-47__RR1-CASIS__21-day         OSD-47 CASIS, 21 day OSD-47      2     2         False    0.138724        0.029440         0.135564          0.045037
+C12__OSD-47__RR1-CASIS__22-day         OSD-47 CASIS, 22 day OSD-47      1     1          True    1.396305        1.240325         0.641297          0.789060
+ C13__OSD-48__RR1-NASA__37-day OSD-48 NASA, upon euthanasia OSD-48      2     2         False    0.484340        0.363182         0.320444          0.562274
+ C14__OSD-48__RR1-NASA__37-day         OSD-48 NASA, carcass OSD-48      5     5         False    0.959013        0.928690         0.239252          0.937761
+
+Component replication comparison
+                                     Metric       RR1   RR3-39   RR3-40
+                     Whole-response cosine -0.804119 0.790003 0.916648
+           PC1-2 parallel-component cosine -0.974401 0.995160 0.997783
+                      Outside-PC1-2 cosine  0.221041 0.480391 0.875585
+  Original response PC1-2 aligned fraction  0.932740 0.677895 0.446603
+Remeasured response PC1-2 aligned fraction  0.779807 0.548446 0.689438
+ Replication discrepancy captured by PC1-2  0.953069 0.140970 0.466257
+{
+  "decision": "D. UNDERPOWERED/CONFOUNDED",
+  "finding": "Alignment varies strongly by stratum: OSD-47 21d=0.045, OSD-47 22d=0.789, OSD-48 upon-euthanasia=0.562, OSD-48 carcass=0.938.",
+  "interpretation": "The better-powered carcass stratum is highly aligned and the upon-euthanasia stratum is lower, but OSD-47/48 differ in animal, age, strain, duration, and collection context; the OSD-47 22d result is 1-vs-1. The design cannot isolate preservation from biology or protocol interactions.",
+  "reference_caveat": "PC1-2 is a controlled T-cell PolyA/Ribo-associated reference, not a technical-only batch space; aligned fraction is not percent artifact.",
+  "PC1_2_controlled_variance": 0.9908320685331713
+}
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/rr1_preservation_context

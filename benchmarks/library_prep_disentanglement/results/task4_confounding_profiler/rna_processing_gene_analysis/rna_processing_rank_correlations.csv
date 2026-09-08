@@ -1,0 +1,7 @@
+ranking_A,ranking_B,genes,spearman
+T-cell sensitive,RR1 unstable,1108,0.13360707642135422
+T-cell sensitive,RR3-39 reproducible,1108,0.08759763886529831
+T-cell sensitive,RR3-40 reproducible,1108,-0.03969279203891192
+RR1 unstable,RR3-39 reproducible,1108,-0.019998474153012775
+RR1 unstable,RR3-40 reproducible,1108,-0.13699530506699145
+RR3-39 reproducible,RR3-40 reproducible,1108,0.11903280988590753

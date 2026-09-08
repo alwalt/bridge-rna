@@ -1,0 +1,13 @@
+{
+  "graph": "frozen layer12 union k10",
+  "WL_iterations": 2,
+  "shortest_path_landmarks": 8,
+  "graphlet_samples": {
+    "3_node": 1000,
+    "4_node": 1000
+  },
+  "spectral_eigenvalues": 16,
+  "hash_dimensions": 262144,
+  "seed": 20260907,
+  "RR1_RR3_parameter_selection": false
+}

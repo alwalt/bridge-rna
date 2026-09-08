@@ -1,0 +1,14 @@
+{
+  "primary_graph": "layer-12 contextual-cosine union-kNN, k=10",
+  "parameters_selected_without_rr1_rr3": true,
+  "global_mean_false_friend": 0.8107837438583374,
+  "global_mean_rr3_39": 0.7900034189224243,
+  "graph_false_friend": 0.0117964445370137,
+  "graph_rr3_39": 0.3193086413506041,
+  "graph_rr3_40": 0.3990236309144599,
+  "limitations": [
+    "graph and vector scores have different scales",
+    "contextual edges are not causal interactions",
+    "RR1 remains a cross-protocol failure"
+  ]
+}

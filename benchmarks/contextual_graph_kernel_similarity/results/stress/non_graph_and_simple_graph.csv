@@ -1,0 +1,21 @@
+representation,comparison,similarity
+Raw expression,RR1,0.36916732264397
+PCA-15165,RR1,-0.2061552167527837
+Bridge mean,RR1,-0.8067149519920349
+Graph signed-edge response,RR1,0.1834290307907626
+Hallmark mean+SD,RR1,-0.4236839368562251
+Raw expression,RR3-39,0.652303928254562
+PCA-15165,RR3-39,0.7898147896766341
+Bridge mean,RR3-39,0.7900034189224243
+Graph signed-edge response,RR3-39,0.3193086413506041
+Hallmark mean+SD,RR3-39,0.775130691895259
+Raw expression,RR3-40,0.8224292879502287
+PCA-15165,RR3-40,0.9141325600067964
+Bridge mean,RR3-40,0.91664856672287
+Graph signed-edge response,RR3-40,0.3990236309144599
+Hallmark mean+SD,RR3-40,0.9223665268471612
+Raw expression,false_friend,0.1207273760853808
+PCA-15165,false_friend,0.3607987376057052
+Bridge mean,false_friend,0.8107837438583374
+Graph signed-edge response,false_friend,0.0117964445370137
+Hallmark mean+SD,false_friend,0.509902231409743

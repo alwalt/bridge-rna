@@ -1,0 +1,290 @@
+[2026-09-06 21:12:51] estimated wall time: 3-5 hours on two RTX 3090 GPUs
+[2026-09-06 21:12:51] GPU0:  | GPU1: 
+[2026-09-06 21:13:51] GPU0: [2026-09-06 21:13:29] fold=0 epoch=1/8 samples=251/2097 elapsed=0.5m | GPU1: [2026-09-06 21:13:29] fold=1 epoch=1/8 samples=251/2094 elapsed=0.5m
+[2026-09-06 21:14:51] GPU0: [2026-09-06 21:14:36] fold=0 epoch=1/8 samples=751/2097 elapsed=1.6m | GPU1: [2026-09-06 21:14:32] fold=1 epoch=1/8 samples=751/2094 elapsed=1.6m
+[2026-09-06 21:15:51] GPU0: [2026-09-06 21:15:43] fold=0 epoch=1/8 samples=1251/2097 elapsed=2.8m | GPU1: [2026-09-06 21:15:35] fold=1 epoch=1/8 samples=1251/2094 elapsed=2.6m
+[2026-09-06 21:16:51] GPU0: [2026-09-06 21:16:51] fold=0 epoch=1/8 samples=1751/2097 elapsed=3.9m | GPU1: [2026-09-06 21:16:38] fold=1 epoch=1/8 samples=1751/2094 elapsed=3.7m
+[2026-09-06 21:17:51] GPU0: [2026-09-06 21:17:25] fold=0 epoch=1/8 samples=2001/2097 elapsed=4.5m | GPU1: [2026-09-06 21:17:10] fold=1 epoch=1/8 samples=2001/2094 elapsed=4.2m
+[2026-09-06 21:18:51] GPU0: [2026-09-06 21:18:49] fold=0 epoch=2/8 samples=1/2097 elapsed=5.9m | GPU1: [2026-09-06 21:18:25] fold=1 epoch=2/8 samples=1/2094 elapsed=5.5m
+[2026-09-06 21:19:51] GPU0: [2026-09-06 21:19:25] fold=0 epoch=2/8 samples=251/2097 elapsed=6.5m | GPU1: [2026-09-06 21:19:29] fold=1 epoch=2/8 samples=501/2094 elapsed=6.5m
+[2026-09-06 21:20:51] GPU0: [2026-09-06 21:20:36] fold=0 epoch=2/8 samples=751/2097 elapsed=7.6m | GPU1: [2026-09-06 21:20:32] fold=1 epoch=2/8 samples=1001/2094 elapsed=7.6m
+[2026-09-06 21:21:51] GPU0: [2026-09-06 21:21:47] fold=0 epoch=2/8 samples=1251/2097 elapsed=8.8m | GPU1: [2026-09-06 21:21:36] fold=1 epoch=2/8 samples=1501/2094 elapsed=8.6m
+[2026-09-06 21:22:51] GPU0: [2026-09-06 21:22:23] fold=0 epoch=2/8 samples=1501/2097 elapsed=9.4m | GPU1: [2026-09-06 21:22:40] fold=1 epoch=2/8 samples=2001/2094 elapsed=9.7m
+[2026-09-06 21:23:51] GPU0: [2026-09-06 21:23:34] fold=0 epoch=2/8 samples=2001/2097 elapsed=10.6m | GPU1: [2026-09-06 21:22:40] fold=1 epoch=2/8 samples=2001/2094 elapsed=9.7m
+[2026-09-06 21:24:51] GPU0: [2026-09-06 21:23:34] fold=0 epoch=2/8 samples=2001/2097 elapsed=10.6m | GPU1: [2026-09-06 21:24:27] fold=1 epoch=3/8 samples=251/2094 elapsed=11.5m
+[2026-09-06 21:25:51] GPU0: [2026-09-06 21:25:36] fold=0 epoch=3/8 samples=251/2097 elapsed=12.6m | GPU1: [2026-09-06 21:25:31] fold=1 epoch=3/8 samples=751/2094 elapsed=12.6m
+[2026-09-06 21:26:51] GPU0: [2026-09-06 21:26:49] fold=0 epoch=3/8 samples=751/2097 elapsed=13.9m | GPU1: [2026-09-06 21:26:34] fold=1 epoch=3/8 samples=1251/2094 elapsed=13.6m
+[2026-09-06 21:27:51] GPU0: [2026-09-06 21:27:23] fold=0 epoch=3/8 samples=1001/2097 elapsed=14.4m | GPU1: [2026-09-06 21:27:37] fold=1 epoch=3/8 samples=1751/2094 elapsed=14.7m
+[2026-09-06 21:28:51] GPU0: [2026-09-06 21:28:33] fold=0 epoch=3/8 samples=1501/2097 elapsed=15.6m | GPU1: [2026-09-06 21:28:08] fold=1 epoch=3/8 samples=2001/2094 elapsed=15.2m
+[2026-09-06 21:29:51] GPU0: [2026-09-06 21:29:41] fold=0 epoch=3/8 samples=2001/2097 elapsed=16.7m | GPU1: [2026-09-06 21:29:22] fold=1 epoch=4/8 samples=1/2094 elapsed=16.4m
+[2026-09-06 21:30:51] GPU0: [2026-09-06 21:29:41] fold=0 epoch=3/8 samples=2001/2097 elapsed=16.7m | GPU1: [2026-09-06 21:30:24] fold=1 epoch=4/8 samples=501/2094 elapsed=17.4m
+[2026-09-06 21:31:51] GPU0: [2026-09-06 21:31:40] fold=0 epoch=4/8 samples=251/2097 elapsed=18.7m | GPU1: [2026-09-06 21:31:26] fold=1 epoch=4/8 samples=1001/2094 elapsed=18.5m
+[2026-09-06 21:32:51] GPU0: [2026-09-06 21:32:49] fold=0 epoch=4/8 samples=751/2097 elapsed=19.9m | GPU1: [2026-09-06 21:32:28] fold=1 epoch=4/8 samples=1501/2094 elapsed=19.5m
+[2026-09-06 21:33:51] GPU0: [2026-09-06 21:33:23] fold=0 epoch=4/8 samples=1001/2097 elapsed=20.4m | GPU1: [2026-09-06 21:33:30] fold=1 epoch=4/8 samples=2001/2094 elapsed=20.5m
+[2026-09-06 21:34:51] GPU0: [2026-09-06 21:34:34] fold=0 epoch=4/8 samples=1501/2097 elapsed=21.6m | GPU1: [2026-09-06 21:34:45] fold=1 epoch=5/8 samples=1/2094 elapsed=21.8m
+[2026-09-06 21:35:51] GPU0: [2026-09-06 21:35:46] fold=0 epoch=4/8 samples=2001/2097 elapsed=22.8m | GPU1: [2026-09-06 21:35:48] fold=1 epoch=5/8 samples=501/2094 elapsed=22.8m
+[2026-09-06 21:36:51] GPU0: [2026-09-06 21:35:46] fold=0 epoch=4/8 samples=2001/2097 elapsed=22.8m | GPU1: [2026-09-06 21:36:49] fold=1 epoch=5/8 samples=1001/2094 elapsed=23.9m
+[2026-09-06 21:37:51] GPU0: [2026-09-06 21:37:44] fold=0 epoch=5/8 samples=251/2097 elapsed=24.8m | GPU1: [2026-09-06 21:37:20] fold=1 epoch=5/8 samples=1251/2094 elapsed=24.4m
+[2026-09-06 21:38:51] GPU0: [2026-09-06 21:38:21] fold=0 epoch=5/8 samples=501/2097 elapsed=25.4m | GPU1: [2026-09-06 21:38:25] fold=1 epoch=5/8 samples=1751/2094 elapsed=25.5m
+[2026-09-06 21:39:51] GPU0: [2026-09-06 21:39:30] fold=0 epoch=5/8 samples=1001/2097 elapsed=26.5m | GPU1: [2026-09-06 21:38:55] fold=1 epoch=5/8 samples=2001/2094 elapsed=26.0m
+[2026-09-06 21:40:51] GPU0: [2026-09-06 21:40:42] fold=0 epoch=5/8 samples=1501/2097 elapsed=27.7m | GPU1: [2026-09-06 21:40:40] fold=1 epoch=6/8 samples=251/2094 elapsed=27.7m
+[2026-09-06 21:41:51] GPU0: [2026-09-06 21:41:51] fold=0 epoch=5/8 samples=2001/2097 elapsed=28.9m | GPU1: [2026-09-06 21:41:42] fold=1 epoch=6/8 samples=751/2094 elapsed=28.7m
+[2026-09-06 21:42:51] GPU0: [2026-09-06 21:41:51] fold=0 epoch=5/8 samples=2001/2097 elapsed=28.9m | GPU1: [2026-09-06 21:42:43] fold=1 epoch=6/8 samples=1251/2094 elapsed=29.8m
+[2026-09-06 21:43:51] GPU0: [2026-09-06 21:43:50] fold=0 epoch=6/8 samples=251/2097 elapsed=30.9m | GPU1: [2026-09-06 21:43:46] fold=1 epoch=6/8 samples=1751/2094 elapsed=30.8m
+[2026-09-06 21:44:51] GPU0: [2026-09-06 21:44:25] fold=0 epoch=6/8 samples=501/2097 elapsed=31.5m | GPU1: [2026-09-06 21:44:17] fold=1 epoch=6/8 samples=2001/2094 elapsed=31.3m
+[2026-09-06 21:45:51] GPU0: [2026-09-06 21:45:35] fold=0 epoch=6/8 samples=1001/2097 elapsed=32.6m | GPU1: [2026-09-06 21:45:31] fold=1 epoch=7/8 samples=1/2094 elapsed=32.6m
+[2026-09-06 21:46:51] GPU0: [2026-09-06 21:46:43] fold=0 epoch=6/8 samples=1501/2097 elapsed=33.8m | GPU1: [2026-09-06 21:46:32] fold=1 epoch=7/8 samples=501/2094 elapsed=33.6m
+[2026-09-06 21:47:51] GPU0: [2026-09-06 21:47:19] fold=0 epoch=6/8 samples=1751/2097 elapsed=34.4m | GPU1: [2026-09-06 21:47:34] fold=1 epoch=7/8 samples=1001/2094 elapsed=34.6m
+[2026-09-06 21:48:52] GPU0: [2026-09-06 21:47:53] fold=0 epoch=6/8 samples=2001/2097 elapsed=34.9m | GPU1: [2026-09-06 21:48:36] fold=1 epoch=7/8 samples=1501/2094 elapsed=35.6m
+[2026-09-06 21:49:52] GPU0: [2026-09-06 21:49:16] fold=0 epoch=7/8 samples=1/2097 elapsed=36.3m | GPU1: [2026-09-06 21:49:40] fold=1 epoch=7/8 samples=2001/2094 elapsed=36.7m
+[2026-09-06 21:50:52] GPU0: [2026-09-06 21:50:28] fold=0 epoch=7/8 samples=501/2097 elapsed=37.5m | GPU1: [2026-09-06 21:49:40] fold=1 epoch=7/8 samples=2001/2094 elapsed=36.7m
+[2026-09-06 21:51:52] GPU0: [2026-09-06 21:51:39] fold=0 epoch=7/8 samples=1001/2097 elapsed=38.7m | GPU1: [2026-09-06 21:51:25] fold=1 epoch=8/8 samples=251/2094 elapsed=38.5m
+[2026-09-06 21:52:52] GPU0: [2026-09-06 21:52:49] fold=0 epoch=7/8 samples=1501/2097 elapsed=39.9m | GPU1: [2026-09-06 21:52:28] fold=1 epoch=8/8 samples=751/2094 elapsed=39.5m
+[2026-09-06 21:53:52] GPU0: [2026-09-06 21:53:24] fold=0 epoch=7/8 samples=1751/2097 elapsed=40.4m | GPU1: [2026-09-06 21:53:30] fold=1 epoch=8/8 samples=1251/2094 elapsed=40.5m
+[2026-09-06 21:54:52] GPU0: [2026-09-06 21:54:02] fold=0 epoch=7/8 samples=2001/2097 elapsed=41.1m | GPU1: [2026-09-06 21:54:36] fold=1 epoch=8/8 samples=1751/2094 elapsed=41.6m
+[2026-09-06 21:55:52] GPU0: [2026-09-06 21:55:27] fold=0 epoch=8/8 samples=1/2097 elapsed=42.5m | GPU1: [2026-09-06 21:55:07] fold=1 epoch=8/8 samples=2001/2094 elapsed=42.2m
+[2026-09-06 21:56:52] GPU0: [2026-09-06 21:56:38] fold=0 epoch=8/8 samples=501/2097 elapsed=43.7m | GPU1: [2026-09-06 21:55:07] fold=1 epoch=8/8 samples=2001/2094 elapsed=42.2m
+[2026-09-06 21:57:52] GPU0: [2026-09-06 21:57:17] fold=0 epoch=8/8 samples=751/2097 elapsed=44.3m | GPU1: [2026-09-06 21:57:44] fold=3 epoch=1/8 samples=1/2086 elapsed=0.0m
+[2026-09-06 21:58:52] GPU0: [2026-09-06 21:58:30] fold=0 epoch=8/8 samples=1251/2097 elapsed=45.5m | GPU1: [2026-09-06 21:58:48] fold=3 epoch=1/8 samples=501/2086 elapsed=1.1m
+[2026-09-06 21:59:52] GPU0: [2026-09-06 21:59:42] fold=0 epoch=8/8 samples=1751/2097 elapsed=46.7m | GPU1: [2026-09-06 21:59:20] fold=3 epoch=1/8 samples=751/2086 elapsed=1.6m
+[2026-09-06 22:00:52] GPU0: [2026-09-06 22:00:20] fold=0 epoch=8/8 samples=2001/2097 elapsed=47.4m | GPU1: [2026-09-06 22:00:26] fold=3 epoch=1/8 samples=1251/2086 elapsed=2.7m
+[2026-09-06 22:01:52] GPU0: [2026-09-06 22:00:20] fold=0 epoch=8/8 samples=2001/2097 elapsed=47.4m | GPU1: [2026-09-06 22:01:30] fold=3 epoch=1/8 samples=1751/2086 elapsed=3.8m
+[2026-09-06 22:02:52] GPU0: [2026-09-06 22:00:20] fold=0 epoch=8/8 samples=2001/2097 elapsed=47.4m | GPU1: [2026-09-06 22:02:01] fold=3 epoch=1/8 samples=2001/2086 elapsed=4.3m
+[2026-09-06 22:03:52] GPU0: [2026-09-06 22:03:50] fold=2 epoch=1/8 samples=251/2094 elapsed=0.6m | GPU1: [2026-09-06 22:03:46] fold=3 epoch=2/8 samples=251/2086 elapsed=6.0m
+[2026-09-06 22:04:52] GPU0: [2026-09-06 22:04:24] fold=2 epoch=1/8 samples=501/2094 elapsed=1.2m | GPU1: [2026-09-06 22:04:48] fold=3 epoch=2/8 samples=751/2086 elapsed=7.1m
+[2026-09-06 22:05:52] GPU0: [2026-09-06 22:05:34] fold=2 epoch=1/8 samples=1001/2094 elapsed=2.3m | GPU1: [2026-09-06 22:05:51] fold=3 epoch=2/8 samples=1251/2086 elapsed=8.1m
+[2026-09-06 22:06:52] GPU0: [2026-09-06 22:06:47] fold=2 epoch=1/8 samples=1501/2094 elapsed=3.5m | GPU1: [2026-09-06 22:06:24] fold=3 epoch=2/8 samples=1501/2086 elapsed=8.7m
+[2026-09-06 22:07:52] GPU0: [2026-09-06 22:07:22] fold=2 epoch=1/8 samples=1751/2094 elapsed=4.1m | GPU1: [2026-09-06 22:07:27] fold=3 epoch=2/8 samples=2001/2086 elapsed=9.7m
+[2026-09-06 22:08:52] GPU0: [2026-09-06 22:07:57] fold=2 epoch=1/8 samples=2001/2094 elapsed=4.7m | GPU1: [2026-09-06 22:08:39] fold=3 epoch=3/8 samples=1/2086 elapsed=10.9m
+[2026-09-06 22:09:52] GPU0: [2026-09-06 22:09:18] fold=2 epoch=2/8 samples=1/2094 elapsed=6.1m | GPU1: [2026-09-06 22:09:41] fold=3 epoch=3/8 samples=501/2086 elapsed=12.0m
+[2026-09-06 22:10:52] GPU0: [2026-09-06 22:10:27] fold=2 epoch=2/8 samples=501/2094 elapsed=7.2m | GPU1: [2026-09-06 22:10:43] fold=3 epoch=3/8 samples=1001/2086 elapsed=13.0m
+[2026-09-06 22:11:52] GPU0: [2026-09-06 22:11:36] fold=2 epoch=2/8 samples=1001/2094 elapsed=8.4m | GPU1: [2026-09-06 22:11:44] fold=3 epoch=3/8 samples=1501/2086 elapsed=14.0m
+[2026-09-06 22:12:52] GPU0: [2026-09-06 22:12:45] fold=2 epoch=2/8 samples=1501/2094 elapsed=9.5m | GPU1: [2026-09-06 22:12:46] fold=3 epoch=3/8 samples=2001/2086 elapsed=15.0m
+[2026-09-06 22:13:52] GPU0: [2026-09-06 22:13:19] fold=2 epoch=2/8 samples=1751/2094 elapsed=10.1m | GPU1: [2026-09-06 22:12:46] fold=3 epoch=3/8 samples=2001/2086 elapsed=15.0m
+[2026-09-06 22:14:52] GPU0: [2026-09-06 22:13:54] fold=2 epoch=2/8 samples=2001/2094 elapsed=10.7m | GPU1: [2026-09-06 22:14:29] fold=3 epoch=4/8 samples=251/2086 elapsed=16.8m
+[2026-09-06 22:15:52] GPU0: [2026-09-06 22:15:50] fold=2 epoch=3/8 samples=251/2094 elapsed=12.6m | GPU1: [2026-09-06 22:15:30] fold=3 epoch=4/8 samples=751/2086 elapsed=17.8m
+[2026-09-06 22:16:52] GPU0: [2026-09-06 22:16:24] fold=2 epoch=3/8 samples=501/2094 elapsed=13.2m | GPU1: [2026-09-06 22:16:32] fold=3 epoch=4/8 samples=1251/2086 elapsed=18.8m
+[2026-09-06 22:17:52] GPU0: [2026-09-06 22:17:33] fold=2 epoch=3/8 samples=1001/2094 elapsed=14.3m | GPU1: [2026-09-06 22:17:33] fold=3 epoch=4/8 samples=1751/2086 elapsed=19.8m
+[2026-09-06 22:18:52] GPU0: [2026-09-06 22:18:42] fold=2 epoch=3/8 samples=1501/2094 elapsed=15.5m | GPU1: [2026-09-06 22:18:04] fold=3 epoch=4/8 samples=2001/2086 elapsed=20.3m
+[2026-09-06 22:19:52] GPU0: [2026-09-06 22:19:50] fold=2 epoch=3/8 samples=2001/2094 elapsed=16.6m | GPU1: [2026-09-06 22:19:47] fold=3 epoch=5/8 samples=251/2086 elapsed=22.1m
+[2026-09-06 22:20:52] GPU0: [2026-09-06 22:19:50] fold=2 epoch=3/8 samples=2001/2094 elapsed=16.6m | GPU1: [2026-09-06 22:20:48] fold=3 epoch=5/8 samples=751/2086 elapsed=23.1m
+[2026-09-06 22:21:52] GPU0: [2026-09-06 22:21:46] fold=2 epoch=4/8 samples=251/2094 elapsed=18.5m | GPU1: [2026-09-06 22:21:50] fold=3 epoch=5/8 samples=1251/2086 elapsed=24.1m
+[2026-09-06 22:22:52] GPU0: [2026-09-06 22:22:20] fold=2 epoch=4/8 samples=501/2094 elapsed=19.1m | GPU1: [2026-09-06 22:22:52] fold=3 epoch=5/8 samples=1751/2086 elapsed=25.1m
+[2026-09-06 22:23:52] GPU0: [2026-09-06 22:23:29] fold=2 epoch=4/8 samples=1001/2094 elapsed=20.2m | GPU1: [2026-09-06 22:23:22] fold=3 epoch=5/8 samples=2001/2086 elapsed=25.6m
+[2026-09-06 22:24:52] GPU0: [2026-09-06 22:24:37] fold=2 epoch=4/8 samples=1501/2094 elapsed=21.4m | GPU1: [2026-09-06 22:24:34] fold=3 epoch=6/8 samples=1/2086 elapsed=26.8m
+[2026-09-06 22:25:52] GPU0: [2026-09-06 22:25:45] fold=2 epoch=4/8 samples=2001/2094 elapsed=22.5m | GPU1: [2026-09-06 22:25:35] fold=3 epoch=6/8 samples=501/2086 elapsed=27.9m
+[2026-09-06 22:26:52] GPU0: [2026-09-06 22:25:45] fold=2 epoch=4/8 samples=2001/2094 elapsed=22.5m | GPU1: [2026-09-06 22:26:36] fold=3 epoch=6/8 samples=1001/2086 elapsed=28.9m
+[2026-09-06 22:27:52] GPU0: [2026-09-06 22:27:40] fold=2 epoch=5/8 samples=251/2094 elapsed=24.4m | GPU1: [2026-09-06 22:27:37] fold=3 epoch=6/8 samples=1501/2086 elapsed=29.9m
+[2026-09-06 22:28:52] GPU0: [2026-09-06 22:28:47] fold=2 epoch=5/8 samples=751/2094 elapsed=25.6m | GPU1: [2026-09-06 22:28:38] fold=3 epoch=6/8 samples=2001/2086 elapsed=30.9m
+[2026-09-06 22:29:52] GPU0: [2026-09-06 22:29:21] fold=2 epoch=5/8 samples=1001/2094 elapsed=26.1m | GPU1: [2026-09-06 22:29:50] fold=3 epoch=7/8 samples=1/2086 elapsed=32.1m
+[2026-09-06 22:30:52] GPU0: [2026-09-06 22:30:29] fold=2 epoch=5/8 samples=1501/2094 elapsed=27.2m | GPU1: [2026-09-06 22:30:51] fold=3 epoch=7/8 samples=501/2086 elapsed=33.1m
+[2026-09-06 22:31:52] GPU0: [2026-09-06 22:31:37] fold=2 epoch=5/8 samples=2001/2094 elapsed=28.4m | GPU1: [2026-09-06 22:31:22] fold=3 epoch=7/8 samples=751/2086 elapsed=33.6m
+[2026-09-06 22:32:52] GPU0: [2026-09-06 22:31:37] fold=2 epoch=5/8 samples=2001/2094 elapsed=28.4m | GPU1: [2026-09-06 22:32:25] fold=3 epoch=7/8 samples=1251/2086 elapsed=34.7m
+[2026-09-06 22:33:52] GPU0: [2026-09-06 22:33:40] fold=2 epoch=6/8 samples=251/2094 elapsed=30.4m | GPU1: [2026-09-06 22:33:29] fold=3 epoch=7/8 samples=1751/2086 elapsed=35.8m
+[2026-09-06 22:34:52] GPU0: [2026-09-06 22:34:16] fold=2 epoch=6/8 samples=501/2094 elapsed=31.0m | GPU1: [2026-09-06 22:34:01] fold=3 epoch=7/8 samples=2001/2086 elapsed=36.3m
+[2026-09-06 22:35:52] GPU0: [2026-09-06 22:35:30] fold=2 epoch=6/8 samples=1001/2094 elapsed=32.3m | GPU1: [2026-09-06 22:35:49] fold=3 epoch=8/8 samples=251/2086 elapsed=38.1m
+[2026-09-06 22:36:52] GPU0: [2026-09-06 22:36:43] fold=2 epoch=6/8 samples=1501/2094 elapsed=33.5m | GPU1: [2026-09-06 22:36:21] fold=3 epoch=8/8 samples=501/2086 elapsed=38.6m
+[2026-09-06 22:37:52] GPU0: [2026-09-06 22:37:20] fold=2 epoch=6/8 samples=1751/2094 elapsed=34.1m | GPU1: [2026-09-06 22:37:26] fold=3 epoch=8/8 samples=1001/2086 elapsed=39.7m
+[2026-09-06 22:38:52] GPU0: [2026-09-06 22:37:57] fold=2 epoch=6/8 samples=2001/2094 elapsed=34.7m | GPU1: [2026-09-06 22:38:30] fold=3 epoch=8/8 samples=1501/2086 elapsed=40.8m
+[2026-09-06 22:39:52] GPU0: [2026-09-06 22:39:24] fold=2 epoch=7/8 samples=1/2094 elapsed=36.2m | GPU1: [2026-09-06 22:39:34] fold=3 epoch=8/8 samples=2001/2086 elapsed=41.8m
+[2026-09-06 22:40:52] GPU0: [2026-09-06 22:40:38] fold=2 epoch=7/8 samples=501/2094 elapsed=37.4m | GPU1: [2026-09-06 22:39:34] fold=3 epoch=8/8 samples=2001/2086 elapsed=41.8m
+[2026-09-06 22:41:52] GPU0: [2026-09-06 22:41:51] fold=2 epoch=7/8 samples=1001/2094 elapsed=38.6m | GPU1: [2026-09-06 22:39:34] fold=3 epoch=8/8 samples=2001/2086 elapsed=41.8m
+[2026-09-06 22:42:52] GPU0: [2026-09-06 22:42:28] fold=2 epoch=7/8 samples=1251/2094 elapsed=39.2m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:43:52] GPU0: [2026-09-06 22:43:41] fold=2 epoch=7/8 samples=1751/2094 elapsed=40.4m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:44:52] GPU0: [2026-09-06 22:44:16] fold=2 epoch=7/8 samples=2001/2094 elapsed=41.0m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:45:52] GPU0: [2026-09-06 22:45:39] fold=2 epoch=8/8 samples=1/2094 elapsed=42.4m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:46:52] GPU0: [2026-09-06 22:46:48] fold=2 epoch=8/8 samples=501/2094 elapsed=43.6m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:47:52] GPU0: [2026-09-06 22:47:23] fold=2 epoch=8/8 samples=751/2094 elapsed=44.1m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:48:52] GPU0: [2026-09-06 22:48:32] fold=2 epoch=8/8 samples=1251/2094 elapsed=45.3m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:49:52] GPU0: [2026-09-06 22:49:41] fold=2 epoch=8/8 samples=1751/2094 elapsed=46.5m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:50:52] GPU0: [2026-09-06 22:50:16] fold=2 epoch=8/8 samples=2001/2094 elapsed=47.0m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:51:52] GPU0: [2026-09-06 22:50:16] fold=2 epoch=8/8 samples=2001/2094 elapsed=47.0m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:52:52] GPU0: [2026-09-06 22:50:16] fold=2 epoch=8/8 samples=2001/2094 elapsed=47.0m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:53:52] GPU0: [2026-09-06 22:53:39] fold=4 epoch=1/8 samples=251/2092 elapsed=0.6m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:54:52] GPU0: [2026-09-06 22:54:47] fold=4 epoch=1/8 samples=751/2092 elapsed=1.7m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:55:52] GPU0: [2026-09-06 22:55:21] fold=4 epoch=1/8 samples=1001/2092 elapsed=2.3m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:56:52] GPU0: [2026-09-06 22:56:30] fold=4 epoch=1/8 samples=1501/2092 elapsed=3.4m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:57:52] GPU0: [2026-09-06 22:57:38] fold=4 epoch=1/8 samples=2001/2092 elapsed=4.6m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:58:52] GPU0: [2026-09-06 22:57:38] fold=4 epoch=1/8 samples=2001/2092 elapsed=4.6m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 22:59:51] GPU0: [2026-09-06 22:59:33] fold=4 epoch=2/8 samples=251/2092 elapsed=6.5m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:00:51] GPU0: [2026-09-06 23:00:42] fold=4 epoch=2/8 samples=751/2092 elapsed=7.6m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:01:51] GPU0: [2026-09-06 23:01:50] fold=4 epoch=2/8 samples=1251/2092 elapsed=8.8m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:02:51] GPU0: [2026-09-06 23:02:25] fold=4 epoch=2/8 samples=1501/2092 elapsed=9.3m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:03:51] GPU0: [2026-09-06 23:03:33] fold=4 epoch=2/8 samples=2001/2092 elapsed=10.5m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:04:51] GPU0: [2026-09-06 23:03:33] fold=4 epoch=2/8 samples=2001/2092 elapsed=10.5m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:05:51] GPU0: [2026-09-06 23:05:28] fold=4 epoch=3/8 samples=251/2092 elapsed=12.4m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:06:51] GPU0: [2026-09-06 23:06:37] fold=4 epoch=3/8 samples=751/2092 elapsed=13.5m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:07:51] GPU0: [2026-09-06 23:07:45] fold=4 epoch=3/8 samples=1251/2092 elapsed=14.7m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:08:51] GPU0: [2026-09-06 23:08:19] fold=4 epoch=3/8 samples=1501/2092 elapsed=15.2m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:09:51] GPU0: [2026-09-06 23:09:27] fold=4 epoch=3/8 samples=2001/2092 elapsed=16.4m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:10:51] GPU0: [2026-09-06 23:10:48] fold=4 epoch=4/8 samples=1/2092 elapsed=17.7m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:11:51] GPU0: [2026-09-06 23:11:22] fold=4 epoch=4/8 samples=251/2092 elapsed=18.3m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:12:51] GPU0: [2026-09-06 23:12:30] fold=4 epoch=4/8 samples=751/2092 elapsed=19.4m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:13:51] GPU0: [2026-09-06 23:13:39] fold=4 epoch=4/8 samples=1251/2092 elapsed=20.6m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:14:51] GPU0: [2026-09-06 23:14:47] fold=4 epoch=4/8 samples=1751/2092 elapsed=21.7m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:15:51] GPU0: [2026-09-06 23:15:21] fold=4 epoch=4/8 samples=2001/2092 elapsed=22.3m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:16:51] GPU0: [2026-09-06 23:16:42] fold=4 epoch=5/8 samples=1/2092 elapsed=23.6m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:17:51] GPU0: [2026-09-06 23:17:50] fold=4 epoch=5/8 samples=501/2092 elapsed=24.8m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:18:51] GPU0: [2026-09-06 23:18:24] fold=4 epoch=5/8 samples=751/2092 elapsed=25.3m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:19:51] GPU0: [2026-09-06 23:19:32] fold=4 epoch=5/8 samples=1251/2092 elapsed=26.5m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:20:51] GPU0: [2026-09-06 23:20:40] fold=4 epoch=5/8 samples=1751/2092 elapsed=27.6m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:21:51] GPU0: [2026-09-06 23:21:14] fold=4 epoch=5/8 samples=2001/2092 elapsed=28.2m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:22:51] GPU0: [2026-09-06 23:22:35] fold=4 epoch=6/8 samples=1/2092 elapsed=29.5m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:23:51] GPU0: [2026-09-06 23:23:44] fold=4 epoch=6/8 samples=501/2092 elapsed=30.6m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:24:51] GPU0: [2026-09-06 23:24:18] fold=4 epoch=6/8 samples=751/2092 elapsed=31.2m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:25:51] GPU0: [2026-09-06 23:25:26] fold=4 epoch=6/8 samples=1251/2092 elapsed=32.4m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:26:51] GPU0: [2026-09-06 23:26:34] fold=4 epoch=6/8 samples=1751/2092 elapsed=33.5m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:27:51] GPU0: [2026-09-06 23:27:09] fold=4 epoch=6/8 samples=2001/2092 elapsed=34.1m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:28:51] GPU0: [2026-09-06 23:28:30] fold=4 epoch=7/8 samples=1/2092 elapsed=35.4m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:29:51] GPU0: [2026-09-06 23:29:38] fold=4 epoch=7/8 samples=501/2092 elapsed=36.6m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:30:51] GPU0: [2026-09-06 23:30:46] fold=4 epoch=7/8 samples=1001/2092 elapsed=37.7m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:31:51] GPU0: [2026-09-06 23:31:20] fold=4 epoch=7/8 samples=1251/2092 elapsed=38.3m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:32:51] GPU0: [2026-09-06 23:32:28] fold=4 epoch=7/8 samples=1751/2092 elapsed=39.4m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:33:51] GPU0: [2026-09-06 23:33:02] fold=4 epoch=7/8 samples=2001/2092 elapsed=40.0m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:34:51] GPU0: [2026-09-06 23:34:23] fold=4 epoch=8/8 samples=1/2092 elapsed=41.3m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:35:51] GPU0: [2026-09-06 23:35:31] fold=4 epoch=8/8 samples=501/2092 elapsed=42.4m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:36:51] GPU0: [2026-09-06 23:36:40] fold=4 epoch=8/8 samples=1001/2092 elapsed=43.6m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:37:51] GPU0: [2026-09-06 23:37:48] fold=4 epoch=8/8 samples=1501/2092 elapsed=44.7m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:38:51] GPU0: [2026-09-06 23:38:22] fold=4 epoch=8/8 samples=1751/2092 elapsed=45.3m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:39:51] GPU0: [2026-09-06 23:38:56] fold=4 epoch=8/8 samples=2001/2092 elapsed=45.9m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:40:51] GPU0: [2026-09-06 23:38:56] fold=4 epoch=8/8 samples=2001/2092 elapsed=45.9m | GPU1: [2026-09-06 22:42:12] fold 3 complete
+[2026-09-06 23:42:19] combined fold 0
+[2026-09-06 23:43:11] combined fold 1
+[2026-09-06 23:43:37] combined fold 2
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+[2026-09-06 23:43:58] combined fold 3
+[2026-09-06 23:44:28] combined fold 4
+layer                  readout  dimensions  trainable_params  study_disjoint_f1    f1_sd  balanced_accuracy    PC1_2  participation_ratio  tissue_10nn_purity  study_10nn_purity
+   11            mean_plus_std        1024                 0           0.835513 0.033798           0.854017 0.726107             2.381282            0.755410           0.062164
+   12            mean_plus_std        1024                 0           0.833224 0.025356           0.853492 0.678845             2.786017            0.761369           0.064059
+   12   mean_plus_std_plus_max        1536                 0           0.827733 0.020575           0.832431 0.464715             6.801771            0.811553           0.073105
+11+12  mean_std_pca_projection         512           1049088           0.824613 0.020583           0.844106 0.699174             2.599720            0.638943           0.076071
+   11   mean_plus_std_plus_max        1536                 0           0.822532 0.028027           0.829277 0.504543             5.382433            0.812378           0.070813
+   11                      std         512                 0           0.814625 0.028293           0.840615 0.597228             4.457133            0.797433           0.072280
+   12                      std         512                 0           0.812751 0.026109           0.835009 0.558769             5.099463            0.792757           0.073075
+   12 expression_weighted_mean         512                 0           0.802098 0.023371           0.835890 0.665146             3.055065            0.760880           0.065648
+   11 expression_weighted_mean         512                 0           0.802061 0.025160           0.834170 0.710197             2.533639            0.768307           0.066993
+   12                     mean         512                 0           0.801920 0.030299           0.836096 0.688735             2.677915            0.773655           0.066290
+11+12      scalar_mixture_mean         512                 1           0.798120 0.025829           0.834036 0.716351             2.444603            0.658688           0.078364
+   11                     mean         512                 0           0.794473 0.022661           0.828684 0.735617             2.292892            0.787408           0.067451
+   12      multihead_attention         512              9234           0.732544 0.020984           0.714822 0.657751             2.916077            0.724246           0.075459
+   11   single_query_attention         512              7695           0.719479 0.043969           0.696215 0.570326             4.189241            0.719874           0.074481
+   11      multihead_attention         512              9234           0.713260 0.017320           0.693974 0.607793             3.471088            0.739741           0.077262
+   12   single_query_attention         512              7695           0.697340 0.030495           0.672349 0.626519             3.326714            0.711009           0.074329
+/home/walt/bridge-rna/benchmarks/frozen_sample_embedding_readout/frozen_sample_embedding_readout_benchmark.ipynb
+[NbConvertApp] Converting notebook benchmarks/frozen_sample_embedding_readout/frozen_sample_embedding_readout_benchmark.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+Traceback (most recent call last):
+  File "/home/walt/bridge-rna/.venv/bin/jupyter-nbconvert", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/jupyter_core/application.py", line 284, in launch_instance
+    super().launch_instance(argv=argv, **kwargs)
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/traitlets/config/application.py", line 1080, in launch_instance
+    app.start()
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbconvert/nbconvertapp.py", line 420, in start
+    self.convert_notebooks()
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbconvert/nbconvertapp.py", line 597, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbconvert/nbconvertapp.py", line 563, in convert_single_notebook
+    output, resources = self.export_single_notebook(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbconvert/nbconvertapp.py", line 487, in export_single_notebook
+    output, resources = self.exporter.from_filename(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbconvert/exporters/exporter.py", line 201, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbconvert/exporters/exporter.py", line 220, in from_file
+    return self.from_notebook_node(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbconvert/exporters/notebook.py", line 36, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbconvert/exporters/exporter.py", line 154, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbconvert/exporters/exporter.py", line 353, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbconvert/preprocessors/base.py", line 48, in __call__
+    return self.preprocess(nb, resources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbconvert/preprocessors/execute.py", line 103, in preprocess
+    self.preprocess_cell(cell, resources, index)
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbconvert/preprocessors/execute.py", line 124, in preprocess_cell
+    cell = self.execute_cell(cell, index, store_history=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 650, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbclient/client.py", line 1062, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/home/walt/bridge-rna/.venv/lib/python3.11/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+ranking=pd.read_csv(RESULTS/'ranked_summary.csv')
+display(ranking.style.format(precision=4).hide(axis='index'))
+fig,ax=plt.subplots(figsize=(11,7));q=ranking.sort_values('study_disjoint_f1')
+labels=['L'+r.layer.astype(str)+' '+r.readout.str.replace('_',' ') for _,r in q.iterrows()]
+ax.barh(labels,q.study_disjoint_f1,xerr=q.f1_sd,color='#326a9b')
+for x,label,color in [(0.8716,'Raw expression','#555555'),(0.8883,'PCA-15165','#b34d4d'),(0.800,'Current mean','#777777'),(0.8332,'L12 mean+SD','#3b8f62')]:ax.axvline(x,ls='--',lw=1.2,color=color,label=f'{label} ({x:.4f})')
+ax.set(xlabel='Study-disjoint macro F1',title='Frozen sample readout comparison');ax.legend(frameon=False,fontsize=8);fig.tight_layout();plt.show()
+------------------
+
+
+[31m---------------------------------------------------------------------------[39m
+[31mAttributeError[39m                            Traceback (most recent call last)
+[36mCell[39m[36m [39m[32mIn[3][39m[32m, line 4[39m
+[32m      1[39m ranking=pd.read_csv(RESULTS/[33m'ranked_summary.csv'[39m)
+[32m      2[39m display(ranking.style.format(precision=[32m4[39m).hide(axis=[33m'index'[39m))
+[32m      3[39m fig,ax=plt.subplots(figsize=([32m11[39m,[32m7[39m));q=ranking.sort_values([33m'study_disjoint_f1'[39m)
+[32m----> [39m[32m4[39m labels=[[33m'L'[39m+r.layer.astype(str)+[33m' '[39m+r.readout.str.replace([33m'_'[39m,[33m' '[39m) [38;5;28;01mfor[39;00m _,r [38;5;28;01min[39;00m q.iterrows()]
+[32m      5[39m ax.barh(labels,q.study_disjoint_f1,xerr=q.f1_sd,color=[33m'#326a9b'[39m)
+[32m      6[39m [38;5;28;01mfor[39;00m x,label,color [38;5;28;01min[39;00m [([32m0.8716[39m,[33m'Raw expression'[39m,[33m'#555555'[39m),([32m0.8883[39m,[33m'PCA-15165'[39m,[33m'#b34d4d'[39m),([32m0.800[39m,[33m'Current mean'[39m,[33m'#777777'[39m),([32m0.8332[39m,[33m'L12 mean+SD'[39m,[33m'#3b8f62'[39m)]:ax.axvline(x,ls=[33m'--'[39m,lw=[32m1.2[39m,color=color,label=[33mf'{label} ({x:.4f})'[39m)
+[32m      7[39m ax.set(xlabel=[33m'Study-disjoint macro F1'[39m,title=[33m'Frozen sample readout comparison'[39m);ax.legend(frameon=[38;5;28;01mFalse[39;00m,fontsize=[32m8[39m);fig.tight_layout();plt.show()
+
+[36mCell[39m[36m [39m[32mIn[3][39m[32m, line 4[39m, in [36m<listcomp>[39m[34m(.0)[39m
+[32m----> [39m[32m4[39m ranking=pd.read_csv(RESULTS/[33m'ranked_summary.csv'[39m)
+
+[31mAttributeError[39m: 'str' object has no attribute 'astype'
+

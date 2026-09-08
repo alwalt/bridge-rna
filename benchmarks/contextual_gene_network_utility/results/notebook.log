@@ -1,0 +1,4 @@
+[NbConvertApp] Converting notebook /home/walt/bridge-rna/benchmarks/contextual_gene_network_utility/contextual_gene_network_utility_benchmark.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 524162 bytes to /home/walt/bridge-rna/benchmarks/contextual_gene_network_utility/contextual_gene_network_utility_benchmark.ipynb
+/home/walt/bridge-rna/benchmarks/contextual_gene_network_utility/contextual_gene_network_utility_benchmark.ipynb

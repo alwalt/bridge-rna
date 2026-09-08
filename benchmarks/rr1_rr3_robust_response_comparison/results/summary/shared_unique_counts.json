@@ -1,0 +1,9 @@
+{
+  "all_three_genes": 5,
+  "shared_rr3_genes": 24,
+  "rr1_specific_genes": 90,
+  "rr3_39_specific_genes": 75,
+  "rr3_40_specific_genes": 134,
+  "all_three_pathways": 29,
+  "shared_rr3_pathways": 53
+}

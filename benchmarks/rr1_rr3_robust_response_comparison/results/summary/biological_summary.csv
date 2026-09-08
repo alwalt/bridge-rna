@@ -1,0 +1,681 @@
+feature_type,gene_or_pathway,interpretation,RR1_robust,RR1_expression_support,RR1_attribution_support,RR1_graph_support,RR3-39_robust,RR3-39_expression_support,RR3-39_attribution_support,RR3-39_graph_support,RR3-40_robust,RR3-40_expression_support,RR3-40_attribution_support,RR3-40_graph_support
+gene,AACS,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,AASS,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,ABCC3,RR3-40_specific,False,False,True,False,False,False,True,False,True,True,True,False
+gene,ABCG8,RR3-40_specific,False,False,True,False,False,False,False,False,True,True,True,True
+gene,ABLIM3,RR1_specific,True,True,True,True,False,True,False,False,False,False,False,False
+gene,ACAT1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,ACLY,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,ACMSD,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,ACO2,RR3-39_specific,False,False,False,False,True,False,True,True,False,False,False,False
+gene,ACSL4,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,ACSS2,shared_RR3,False,False,False,False,True,True,False,True,True,True,False,True
+gene,ACTN3,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,ADGRG2,RR1_specific,True,True,False,True,False,False,False,False,False,True,False,False
+gene,ADORA1,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,AGT,RR3-40_specific,False,False,False,False,False,False,True,False,True,False,True,True
+gene,AHSG,RR3-40_specific,False,False,True,False,False,False,True,False,True,True,False,True
+gene,ALAS1,RR3-39_specific,False,False,False,True,True,True,True,False,False,False,False,True
+gene,ALDH1L1,RR3-40_specific,False,False,True,False,False,False,False,False,True,True,True,False
+gene,ANGPTL4,RR3-40_specific,False,True,False,False,False,True,False,False,True,True,False,True
+gene,ANGPTL8,shared_RR3,False,False,False,False,True,True,True,False,True,True,True,False
+gene,APCS,RR3-40_specific,False,False,True,False,False,False,False,False,True,False,True,True
+gene,APOA1,RR3-40_specific,False,False,False,False,False,False,True,False,True,True,True,False
+gene,APOA4,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,True,False
+gene,APOA5,RR1_specific,True,True,True,True,False,False,True,False,False,False,False,False
+gene,AQP8,shared_subset,True,True,True,False,True,True,True,True,False,False,False,False
+gene,AQP9,RR3-40_specific,False,False,True,False,False,False,True,False,True,False,True,True
+gene,ARL4D,RR3-39_specific,False,False,False,True,True,True,False,True,False,False,False,False
+gene,ARRDC3,RR3-39_specific,False,True,False,False,True,True,True,True,False,False,False,False
+gene,ASL,RR3-40_specific,False,False,False,False,False,False,False,True,True,True,True,True
+gene,ASS1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,ATF5,RR1_specific,True,False,True,True,False,False,False,False,False,False,True,False
+gene,ATOH8,RR3-40_specific,False,False,False,False,False,False,True,False,True,True,True,False
+gene,ATP6V0D2,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,BHLHE40,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,BHLHE41,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,BHMT2,RR1_specific,True,False,True,True,False,False,False,False,False,False,True,False
+gene,BNIP3,RR1_specific,True,True,True,True,False,False,True,False,False,False,True,False
+gene,BRAP,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,C1QC,RR3-40_specific,False,False,True,False,False,False,False,True,True,False,True,True
+gene,C8A,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,C8B,RR1_specific,True,True,True,False,False,False,True,False,False,True,False,False
+gene,C9,RR1_specific,True,True,True,True,False,False,True,False,False,False,True,False
+gene,CA3,RR3-40_specific,False,False,True,False,False,False,False,False,True,True,True,False
+gene,CCN2,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,CD163,RR3-39_specific,False,False,False,False,True,True,True,True,False,True,False,False
+gene,CDKN1A,RR1_specific,True,True,True,True,False,True,False,False,False,True,False,False
+gene,CEBPB,RR3-39_specific,False,False,False,False,True,True,True,False,False,True,False,False
+gene,CFD,RR1_specific,True,True,True,False,False,False,False,False,False,False,False,False
+gene,CHKA,RR1_specific,True,True,True,True,False,False,False,False,False,False,False,False
+gene,CISD1,RR1_specific,True,True,True,False,False,False,False,False,False,False,True,False
+gene,CISH,RR3-39_specific,False,False,False,False,True,True,True,False,False,True,False,False
+gene,CLDN1,RR3-39_specific,False,False,True,False,True,True,True,False,False,False,False,False
+gene,CLDN15,RR3-39_specific,False,False,False,False,True,True,True,True,False,False,False,False
+gene,CLDN2,RR3-40_specific,False,False,False,False,False,False,False,False,True,False,True,True
+gene,CLDN3,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,True,False
+gene,CMIP,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,COL3A1,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,CPS1,RR3-40_specific,False,False,True,False,False,False,False,False,True,True,True,False
+gene,CPT1A,shared_subset,True,True,True,False,False,False,True,False,True,True,True,False
+gene,CREB3L3,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,True
+gene,CREG1,RR1_specific,True,False,True,True,False,False,False,False,False,False,True,False
+gene,CRELD2,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,CSAD,RR3-40_specific,False,True,False,False,False,False,False,False,True,True,True,True
+gene,CSRP2,RR1_specific,True,True,True,False,False,False,True,False,False,False,False,False
+gene,CSRP3,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,CSTB,RR1_specific,True,False,True,True,False,False,False,False,False,False,False,False
+gene,CTH,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,CUX2,shared_subset,True,True,True,False,False,False,False,False,True,True,False,True
+gene,CYP17A1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,CYP51A1,RR3-40_specific,False,False,False,False,False,False,False,True,True,True,False,True
+gene,CYP7A1,shared_RR3,False,False,False,False,True,True,True,False,True,True,True,False
+gene,CYP8B1,RR1_specific,True,True,True,True,False,False,False,False,False,False,False,False
+gene,DBP,RR1_specific,True,True,True,True,False,False,False,False,False,False,False,False
+gene,DDIT4,RR1_specific,True,True,False,True,False,True,False,False,False,False,False,False
+gene,DENND4A,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,DEPP1,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,DHX58,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,DIO1,RR3-40_specific,False,False,False,False,False,True,False,False,True,True,True,False
+gene,DNAJB4,RR1_specific,True,False,True,True,False,False,False,False,False,False,False,True
+gene,DTX4,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,ECHDC3,RR3-39_specific,False,False,True,False,True,False,True,True,False,False,True,False
+gene,EGLN3,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,ELOVL3,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,ELOVL5,RR3-39_specific,False,False,True,False,True,True,True,False,False,False,True,False
+gene,ELOVL6,RR3-40_specific,False,True,False,False,False,False,False,False,True,True,False,True
+gene,ENC1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,ENHO,RR3-40_specific,False,False,False,False,False,True,False,False,True,True,True,False
+gene,EPHX1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,ERN1,RR3-39_specific,False,False,False,False,True,False,True,True,False,False,False,False
+gene,F10,RR3-39_specific,False,False,True,False,True,False,True,True,False,False,True,False
+gene,FABP5,shared_subset,True,True,True,True,True,True,False,True,False,False,False,False
+gene,FADS6,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,FAM210B,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,FAM47E,RR3-39_specific,False,False,False,False,True,True,True,False,False,True,False,False
+gene,FASN,shared_subset,True,True,True,False,False,False,False,False,True,True,False,True
+gene,FDPS,shared_RR3,False,False,True,False,True,True,True,False,True,True,True,False
+gene,FGF21,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,FKBP4,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,FKBP5,RR3-40_specific,False,False,False,False,False,True,False,False,True,True,True,False
+gene,FLVCR2,RR3-40_specific,False,False,False,True,False,False,False,False,True,True,True,False
+gene,FMO2,RR1_specific,True,False,True,True,False,False,True,False,False,False,False,False
+gene,FMO3,RR1_specific,True,True,True,True,False,False,False,True,False,False,False,False
+gene,FMO5,shared_RR3,False,False,False,False,True,True,True,False,True,True,True,True
+gene,FOXA3,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,G0S2,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,GADD45G,shared_all_three,True,True,True,True,True,True,True,False,True,True,True,False
+gene,GCH1,RR3-39_specific,False,False,True,False,True,False,True,True,False,False,False,False
+gene,GCHFR,RR1_specific,True,False,True,True,False,False,False,False,False,False,False,False
+gene,GCK,RR3-40_specific,False,False,True,False,False,False,True,False,True,True,True,False
+gene,GCKR,RR3-40_specific,False,False,True,False,False,False,True,False,True,False,True,True
+gene,GGT6,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,GNMT,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,GPAM,RR3-40_specific,False,False,False,False,False,False,False,True,True,True,True,True
+gene,GPAT3,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,GPCPD1,RR1_specific,True,True,True,True,False,False,False,False,False,False,False,False
+gene,GPT,shared_subset,True,False,True,True,False,False,True,False,True,True,True,False
+gene,GPT2,shared_RR3,False,False,False,False,True,False,True,True,True,True,True,True
+gene,GYS2,RR1_specific,True,True,True,False,False,False,False,False,False,False,False,False
+gene,H1-2,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,True
+gene,H1-4,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,HAO2,shared_subset,True,True,True,True,True,True,True,False,False,True,False,False
+gene,HERPUD1,RR3-39_specific,False,False,False,False,True,True,True,False,False,True,False,False
+gene,HES6,shared_subset,True,False,True,True,False,False,False,False,True,True,True,False
+gene,HMGCS2,RR3-40_specific,False,False,False,False,False,False,True,False,True,True,True,False
+gene,HNMT,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,HSD17B6,shared_subset,True,True,False,True,False,False,False,True,True,True,True,False
+gene,HSPA13,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,HSPA5,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,HSPB8,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,ID1,RR1_specific,True,True,True,False,False,False,False,False,False,False,True,False
+gene,ID3,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,IDH1,RR3-40_specific,False,False,True,False,False,False,False,True,True,False,True,True
+gene,IER2,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,IGFBP1,shared_all_three,True,False,True,True,True,True,True,True,True,True,True,True
+gene,IGFBP2,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,IGFBP5,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,IGFBP6,shared_RR3,False,False,False,False,True,True,True,False,True,True,True,False
+gene,INHBE,RR1_specific,True,True,False,True,False,False,False,False,False,True,False,False
+gene,INMT,RR1_specific,True,True,False,True,False,False,False,False,False,True,False,False
+gene,INSIG1,RR3-40_specific,False,False,False,False,False,False,False,True,True,True,True,True
+gene,IP6K2,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,IRF6,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,JCHAIN,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,JUN,shared_RR3,False,False,False,False,True,True,True,False,True,True,True,False
+gene,JUNB,RR3-40_specific,False,False,False,False,False,False,False,True,True,True,True,False
+gene,KCNK5,RR3-39_specific,False,False,False,False,True,True,True,False,False,True,False,False
+gene,KIAA0319,RR3-40_specific,False,False,False,True,False,False,False,False,True,True,False,True
+gene,KLF1,RR1_specific,True,False,True,True,False,False,False,False,False,False,False,False
+gene,KLF3,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,KLHL33,RR3-40_specific,False,False,False,True,False,False,False,False,True,True,True,False
+gene,KRT23,shared_subset,True,True,False,True,False,False,False,False,True,True,True,False
+gene,KYAT3,RR3-39_specific,False,True,False,False,True,False,True,True,False,False,False,False
+gene,KYNU,RR3-40_specific,False,False,True,False,False,False,True,False,True,False,True,True
+gene,LAD1,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,LAMP1,RR1_specific,True,False,True,True,False,False,False,False,False,False,False,False
+gene,LARS2,RR3-40_specific,False,False,True,False,False,False,False,False,True,True,True,False
+gene,LCN2,RR1_specific,True,True,False,True,False,True,False,False,False,True,False,False
+gene,LDLRAD4,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,LEAP2,shared_RR3,False,False,False,True,True,True,True,True,True,True,True,False
+gene,LGALS4,RR1_specific,True,True,True,False,False,False,False,False,False,True,False,False
+gene,LIPG,RR1_specific,True,True,False,True,False,False,False,False,False,True,False,False
+gene,LOXL4,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,LPIN1,RR3-39_specific,False,False,True,False,True,True,True,True,False,False,False,False
+gene,LRFN3,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,LRTM1,RR1_specific,True,True,False,True,False,True,False,False,False,True,False,False
+gene,LSR,RR3-39_specific,False,False,True,False,True,False,True,True,False,False,False,False
+gene,LY6D,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,LY6E,RR1_specific,True,False,True,True,False,False,False,False,False,False,False,False
+gene,MAFB,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,MANF,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,MAT1A,RR3-40_specific,False,False,False,False,False,False,True,False,True,False,True,True
+gene,MCM10,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,MDH1,RR3-40_specific,False,False,True,False,False,False,True,False,True,False,True,True
+gene,MFSD2A,shared_subset,True,True,True,True,True,True,True,False,False,True,False,False
+gene,MID1IP1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,MIGA2,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,MIOX,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,MLX,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,MMD,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,MMD2,RR3-39_specific,False,False,False,False,True,True,True,False,False,True,False,False
+gene,MRPL24,RR3-39_specific,False,False,False,False,True,False,True,True,False,False,False,False
+gene,MSLN,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,MSMO1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,MTARC2,RR3-40_specific,False,False,True,False,False,False,True,False,True,False,True,True
+gene,MTHFR,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,MUSTN1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,MVD,RR3-40_specific,False,False,True,False,False,False,False,False,True,True,True,False
+gene,MYC,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,MYL1,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,MZB1,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,NARF,RR1_specific,True,True,True,False,False,False,True,False,False,False,False,False
+gene,NCEH1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,NGEF,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,NMRK1,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,NNMT,shared_RR3,False,False,False,False,True,True,True,True,True,True,True,False
+gene,NOCT,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,NOX4,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,NPAS2,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,NR1D1,RR1_specific,True,True,False,True,False,True,False,False,False,True,False,False
+gene,NR1D2,RR1_specific,True,True,True,False,False,False,False,True,False,False,False,True
+gene,NR1I3,RR3-40_specific,False,False,False,False,False,False,False,True,True,True,False,True
+gene,NREP,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,NRN1,shared_all_three,True,False,True,True,True,False,True,True,True,False,True,True
+gene,NSDHL,RR1_specific,True,False,True,True,False,True,False,False,False,False,False,True
+gene,NSMF,RR3-39_specific,False,False,True,False,True,False,True,True,False,False,False,True
+gene,NUDT7,RR3-40_specific,False,False,False,True,False,False,False,False,True,True,True,True
+gene,OAT,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,ONECUT1,RR3-39_specific,False,False,False,True,True,True,True,False,False,False,False,False
+gene,OPTN,RR3-40_specific,False,False,True,False,False,False,False,False,True,False,True,True
+gene,OSGIN1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,PAOX,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,PAXX,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,PC,RR3-39_specific,False,False,False,False,True,False,True,True,False,False,False,False
+gene,PCK1,RR3-40_specific,False,False,False,False,False,True,False,False,True,True,True,False
+gene,PCP4L1,shared_subset,True,True,True,False,False,False,False,False,True,True,True,False
+gene,PCSK9,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,PDE4B,RR3-40_specific,False,False,False,False,False,True,False,False,True,True,True,False
+gene,PDK4,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,PEG3,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,PER3,RR1_specific,True,True,True,True,False,False,False,False,False,False,False,False
+gene,PFKFB3,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,PHF14,RR3-39_specific,False,False,False,False,True,False,True,True,False,False,False,False
+gene,PIGR,RR3-40_specific,False,False,False,False,False,False,True,False,True,False,True,True
+gene,PINX1,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,PLA2G12A,RR1_specific,True,True,True,True,False,False,False,False,False,False,False,False
+gene,PLAC8,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,PLIN2,shared_subset,True,True,True,False,False,False,False,False,True,True,True,False
+gene,PLIN4,RR3-39_specific,False,False,False,False,True,True,True,False,False,True,False,False
+gene,PLIN5,RR3-39_specific,False,False,True,False,True,True,True,False,False,False,True,False
+gene,PLXNB1,RR3-40_specific,False,False,False,True,False,False,False,False,True,True,False,True
+gene,PNPLA5,RR1_specific,True,True,False,True,False,False,False,False,False,True,False,False
+gene,POR,RR1_specific,True,True,True,True,False,False,False,False,False,False,False,False
+gene,PPARA,RR3-40_specific,False,True,False,False,False,False,False,False,True,True,True,False
+gene,PPP1R3B,RR1_specific,True,True,True,True,False,False,False,True,False,True,False,False
+gene,PPP1R3G,RR1_specific,True,True,False,True,False,False,False,False,False,True,False,False
+gene,PROX1,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,PTS,RR3-40_specific,False,False,False,False,False,False,False,False,True,False,True,True
+gene,QDPR,RR3-40_specific,False,False,False,False,False,False,True,False,True,True,True,False
+gene,RAD51B,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,RAPGEF4,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,RARRES1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,RDH11,RR3-39_specific,False,False,True,False,True,True,True,False,False,False,False,False
+gene,RGS16,RR3-40_specific,False,False,False,False,False,True,False,False,True,True,True,False
+gene,RHOBTB1,RR3-39_specific,False,False,False,False,True,True,True,True,False,False,False,False
+gene,RNASE4,RR3-40_specific,False,False,False,False,False,False,False,False,True,False,True,True
+gene,RPL34,RR3-39_specific,False,False,False,False,True,False,True,True,False,False,False,False
+gene,RPL5,RR3-39_specific,False,False,False,False,True,True,True,True,False,False,False,False
+gene,RPS14,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,RSPO1,RR3-39_specific,False,False,False,False,True,True,True,True,False,False,False,False
+gene,S100A8,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,S1PR5,RR3-40_specific,False,False,False,False,False,False,True,False,True,True,True,False
+gene,SAA4,RR3-39_specific,False,False,True,False,True,True,True,True,False,False,True,False
+gene,SARDH,shared_RR3,False,False,True,False,True,False,True,True,True,False,True,True
+gene,SDC1,RR3-40_specific,False,False,False,False,False,False,False,True,True,False,True,True
+gene,SDF2L1,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,SDS,shared_RR3,False,False,False,True,True,True,True,True,True,True,True,False
+gene,SEC23B,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,SERPINA11,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,SERPINA12,RR1_specific,True,True,False,True,False,False,False,False,False,True,False,False
+gene,SERPINA6,RR3-40_specific,False,False,True,False,False,False,False,False,True,True,True,False
+gene,SERPINA7,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,SERPINE1,RR1_specific,True,True,False,True,False,False,False,False,False,True,False,False
+gene,SGK1,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,SGK2,shared_subset,True,True,True,False,False,False,False,False,True,True,True,False
+gene,SHLD2,RR3-40_specific,False,False,False,True,False,False,False,False,True,True,True,False
+gene,SIGMAR1,RR3-40_specific,False,False,True,False,False,False,False,True,True,True,True,True
+gene,SKIL,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,SLC10A2,RR1_specific,True,True,False,True,False,False,False,False,False,True,False,False
+gene,SLC17A9,RR3-40_specific,False,False,False,False,False,False,True,False,True,True,True,False
+gene,SLC1A4,RR1_specific,True,False,True,True,False,False,True,False,False,False,True,False
+gene,SLC22A7,RR1_specific,True,True,True,True,False,False,False,False,False,True,False,False
+gene,SLC25A25,RR3-40_specific,False,False,False,True,False,False,False,True,True,True,True,False
+gene,SLC25A30,RR3-40_specific,False,True,False,False,False,True,False,False,True,True,True,False
+gene,SLC25A34,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,SLC25A42,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,SLC25A47,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,SLC27A2,RR3-40_specific,False,False,True,False,False,False,True,False,True,False,True,True
+gene,SLC34A2,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,SLC38A2,RR3-39_specific,False,False,False,False,True,True,True,True,False,False,False,False
+gene,SLC39A2,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,SLC3A1,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,True
+gene,SLC41A2,shared_all_three,True,True,True,False,True,True,False,True,True,True,False,True
+gene,SLC43A1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,SLC45A3,RR1_specific,True,True,True,True,False,False,False,False,False,False,False,False
+gene,SLC4A4,RR3-40_specific,False,False,True,False,False,False,False,False,True,True,True,False
+gene,SLC4A9,RR1_specific,True,True,False,True,False,False,False,False,False,True,False,False
+gene,SLC5A6,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,SLC6A12,RR3-40_specific,False,False,False,False,False,False,True,False,True,True,True,False
+gene,SLC7A2,shared_subset,True,True,True,False,False,False,True,False,True,False,True,True
+gene,SLC8B1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,SMOC1,RR3-40_specific,False,False,False,False,False,False,True,False,True,True,True,False
+gene,SOCS2,shared_RR3,False,True,False,False,True,True,True,True,True,True,True,True
+gene,SOCS3,RR3-39_specific,False,False,False,False,True,True,False,True,False,True,False,False
+gene,SPATA2L,RR3-39_specific,False,False,False,True,True,True,False,True,False,False,False,False
+gene,SPON2,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,SPRY4,RR1_specific,True,False,True,True,False,False,True,False,False,False,True,False
+gene,SREBF1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,SRSF2,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,ST3GAL5,RR1_specific,True,False,True,True,False,False,False,True,False,True,False,False
+gene,STARD4,RR3-40_specific,False,False,False,False,False,False,True,False,True,True,True,True
+gene,STAT1,shared_RR3,False,False,False,False,True,True,False,True,True,True,False,True
+gene,STAT3,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,STIP1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,STMN1,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,SULF1,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,SULT1E1,RR1_specific,True,True,True,True,False,True,False,False,False,False,True,False
+gene,TAT,shared_RR3,False,False,True,False,True,True,True,False,True,True,True,True
+gene,TBL1XR1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,TBX3,shared_RR3,False,False,False,False,True,True,False,True,True,True,False,True
+gene,TCIM,shared_all_three,True,True,True,False,True,True,True,False,True,True,True,False
+gene,TENM3,shared_RR3,False,False,False,False,True,False,True,True,True,True,True,True
+gene,TFRC,shared_subset,True,True,False,True,False,False,False,False,True,True,False,True
+gene,THNSL2,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,False,True
+gene,THRSP,shared_subset,True,True,True,True,False,False,True,False,True,True,True,True
+gene,TKT,RR3-40_specific,False,False,False,False,False,False,False,False,True,False,True,True
+gene,TLCD4,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,True
+gene,TM4SF4,RR1_specific,True,True,True,False,False,False,False,True,False,False,False,False
+gene,TM7SF2,RR3-40_specific,False,False,False,False,False,False,False,False,True,False,True,True
+gene,TMIE,RR1_specific,True,True,True,True,False,False,False,False,False,False,False,False
+gene,TMTC2,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,TNFAIP8L1,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,TNS2,RR1_specific,True,True,True,True,False,False,False,False,False,False,False,False
+gene,TP53INP2,RR3-40_specific,False,False,False,False,False,False,False,False,True,True,True,False
+gene,TPST2,RR1_specific,True,False,True,True,False,False,False,False,False,False,True,False
+gene,TRIB3,RR1_specific,True,True,False,True,False,False,False,False,False,False,False,False
+gene,TRRAP,RR3-40_specific,False,False,False,False,False,False,True,False,True,False,True,True
+gene,TSC22D1,RR1_specific,True,True,False,True,False,False,False,False,False,True,False,False
+gene,TSC22D3,RR3-39_specific,False,False,False,False,True,True,True,False,False,True,False,False
+gene,TSPAN4,RR3-39_specific,False,False,False,False,True,True,False,True,False,False,False,False
+gene,TSTD1,RR1_specific,True,True,False,True,False,False,False,False,False,True,False,False
+gene,TTR,shared_RR3,False,False,False,False,True,False,True,True,True,True,True,False
+gene,TUBB2A,RR1_specific,True,True,True,True,False,False,False,False,False,True,False,False
+gene,TWIST1,RR3-39_specific,False,False,False,False,True,True,True,False,False,False,False,False
+gene,TXNIP,RR1_specific,True,True,False,True,False,False,False,False,False,True,False,False
+gene,UPK3B,RR3-39_specific,False,False,False,False,True,True,True,False,False,True,False,False
+gene,UPP2,shared_RR3,False,True,False,False,True,True,True,False,True,True,False,True
+gene,UQCRC1,RR1_specific,True,False,True,True,False,False,False,False,False,False,False,False
+gene,USP2,shared_subset,True,True,False,True,True,True,False,True,False,False,False,False
+gene,VLDLR,shared_subset,True,True,False,True,False,False,False,False,True,True,True,False
+gene,VNN1,RR3-40_specific,False,False,False,True,False,False,False,False,True,True,True,False
+gene,ZBTB16,RR1_specific,True,True,True,True,False,False,False,False,False,True,False,False
+gene,ZFYVE21,RR3-40_specific,False,False,True,False,False,False,True,False,True,True,True,True
+pathway,ABC-family Proteins Mediated Transport,RR1_specific,True,,,,False,,,,False,,,
+pathway,AMINOACYL-TRNA BIOSYNTHESIS,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,AMYOTROPHIC LATERAL SCLEROSIS,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,AUF1 (hnRNP D0) Binds and Destabilizes mRNA,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Acetyl-CoA Biosynthetic Process (GO:0006085),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Acetyl-CoA Metabolic Process (GO:0006084),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Activation of Gene Expression by SREBF (SREBP),shared_RR3,False,,,,True,,,,True,,,
+pathway,Activation of NF-kappaB in B Cells,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Acute Inflammatory Response (GO:0002526),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Acyl-CoA Biosynthetic Process (GO:0071616),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Aerobic Electron Transport Chain (GO:0019646),shared_RR3,False,,,,True,,,,True,,,
+pathway,Aerobic Respiration (GO:0009060),shared_all_three,True,,,,True,,,,True,,,
+pathway,Aerobic Respiration and Respiratory Electron Transport,shared_all_three,True,,,,True,,,,True,,,
+pathway,Alpha-beta T Cell Differentiation (GO:0046632),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Antigen processing-Cross Presentation,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Antiviral Mechanism by IFN-stimulated Genes,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Apoptotic Mitochondrial Changes (GO:0008637),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Artery Morphogenesis (GO:0048844),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Asparagine N-linked Glycosylation,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Autodegradation of the E3 Ubiquitin Ligase COP1,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,BREAST CANCER,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,CARDIAC MUSCLE CONTRACTION,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,"CD8-positive, Alpha-Beta T Cell Activation (GO:0036037)",RR3-39_specific,False,,,,True,,,,False,,,
+pathway,"CD8-positive, Alpha-Beta T Cell Differentiation (GO:0043374)",RR3-39_specific,False,,,,True,,,,False,,,
+pathway,"CD8-positive, Alpha-Beta T Cell Homeostasis (GO:0160165)",RR3-39_specific,False,,,,True,,,,False,,,
+pathway,CHEMICAL CARCINOGENESIS - REACTIVE OXYGEN SPECIES,shared_subset,True,,,,True,,,,False,,,
+pathway,CHOLESTEROL METABOLISM,RR1_specific,True,,,,False,,,,False,,,
+pathway,COPI-mediated Anterograde Transport,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,CORONAVIRUS DISEASE - COVID-19,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,CYTOKINE-CYTOKINE RECEPTOR INTERACTION,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Cap-dependent Translation Initiation,shared_all_three,True,,,,True,,,,True,,,
+pathway,"Cell Cycle, Mitotic",RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Cell Surface Receptor Protein Serine/Threonine Kinase Signaling Pathway (GO:0007178),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Cell Surface Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Cell Surface Receptor Signaling Pathway via STAT (GO:0097696),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Cellular Respiration (GO:0045333),shared_all_three,True,,,,True,,,,True,,,
+pathway,Cellular Response to Growth Factor Stimulus (GO:0071363),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Cellular Response to Starvation,shared_subset,True,,,,True,,,,False,,,
+pathway,Cholesterol Biosynthesis,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Cholesterol Biosynthetic Process (GO:0006695),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Cholesterol Homeostasis (GO:0042632),RR1_specific,True,,,,False,,,,False,,,
+pathway,Cholesterol Metabolic Process (GO:0008203),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Chromatin Remodeling (GO:0006338),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Citric Acid Cycle (TCA Cycle),RR1_specific,True,,,,False,,,,False,,,
+pathway,Class I Peroxisomal Membrane Protein Import,RR1_specific,True,,,,False,,,,False,,,
+pathway,Complex I Biogenesis,shared_RR3,False,,,,True,,,,True,,,
+pathway,Complex IV Assembly,shared_RR3,False,,,,True,,,,True,,,
+pathway,Cross-presentation of Soluble Exogenous Antigens (Endosomes),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Cytokine-mediated Signaling Pathway (GO:0019221),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Cytoplasmic Translation (GO:0002181),shared_all_three,True,,,,True,,,,True,,,
+pathway,Cytoplasmic Translational Initiation (GO:0002183),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,DIABETIC CARDIOMYOPATHY,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,DNA Replication,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Degradation of GLI1 by the Proteasome,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,ER to Golgi Anterograde Transport,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,ER-Phagosome Pathway,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,ER-nucleus Signaling Pathway (GO:0006984),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Enzyme-linked Receptor Protein Signaling Pathway (GO:0007167),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Eukaryotic Translation Elongation,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Eukaryotic Translation Initiation,shared_all_three,True,,,,True,,,,True,,,
+pathway,Eukaryotic Translation Termination,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Extracellular Matrix Organization,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,FATTY ACID BIOSYNTHESIS,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,FATTY ACID DEGRADATION,RR1_specific,True,,,,False,,,,False,,,
+pathway,FBXL7 Down-Regulates AURKA During Mitotic Entry and in Early Mitosis,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,FGFR2 Alternative Splicing,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Fatty Acid Beta-Oxidation (GO:0006635),RR1_specific,True,,,,False,,,,False,,,
+pathway,Fatty Acid Biosynthetic Process (GO:0006633),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Fatty Acid Catabolic Process (GO:0009062),shared_subset,True,,,,True,,,,False,,,
+pathway,Fatty Acid Metabolic Process (GO:0006631),shared_subset,True,,,,False,,,,True,,,
+pathway,Fatty Acid Metabolism,shared_subset,True,,,,False,,,,True,,,
+pathway,Fatty Acid Oxidation (GO:0019395),RR1_specific,True,,,,False,,,,False,,,
+pathway,Fatty acyl-CoA Biosynthesis,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Fatty-acyl-CoA Biosynthetic Process (GO:0046949),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Fatty-acyl-CoA Metabolic Process (GO:0035337),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Formation of a Pool of Free 40S Subunits,shared_all_three,True,,,,True,,,,True,,,
+pathway,"Formation of the Ternary Complex, and Subsequently, the 43S Complex",RR3-39_specific,False,,,,True,,,,False,,,
+pathway,GASTRIC CANCER,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,GLYOXYLATE AND DICARBOXYLATE METABOLISM,RR1_specific,True,,,,False,,,,False,,,
+pathway,GPCR Ligand Binding,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,GSK3B and BTRC CUL1-mediated-degradation of NFE2L2,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,GTP Hydrolysis and Joining of the 60S Ribosomal Subunit,shared_all_three,True,,,,True,,,,True,,,
+pathway,Gene Expression (GO:0010467),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Glycophagy (GO:0061723),RR1_specific,True,,,,False,,,,False,,,
+pathway,Growth Hormone Receptor Signaling,shared_RR3,False,,,,True,,,,True,,,
+pathway,Growth Hormone Receptor Signaling Pathway (GO:0060396),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,HIV Infection,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,HUNTINGTON DISEASE,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Heart Development (GO:0007507),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Heart Morphogenesis (GO:0003007),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Heme Signaling,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Heterochromatin Formation (GO:0031507),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,IL-17 SIGNALING PATHWAY,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,IRAK4 Deficiency (TLR2 4),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,ISG15 Antiviral Mechanism,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Influenza Infection,shared_RR3,False,,,,True,,,,True,,,
+pathway,Influenza Viral RNA Transcription and Replication,shared_RR3,False,,,,True,,,,True,,,
+pathway,Insulin-like Growth Factor Receptor Signaling Pathway (GO:0048009),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Integrated Stress Response Signaling (GO:0140467),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Interleukin-7 Signaling,shared_RR3,False,,,,True,,,,True,,,
+pathway,Intestinal Lipid Absorption (GO:0098856),RR1_specific,True,,,,False,,,,False,,,
+pathway,Intracellular Signaling Cassette (GO:0141124),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,JAK-STAT SIGNALING PATHWAY,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,L-amino Acid Catabolic Process (GO:0170035),RR1_specific,True,,,,False,,,,False,,,
+pathway,L13a-mediated Translational Silencing of Ceruloplasmin Expression,shared_all_three,True,,,,True,,,,True,,,
+pathway,Lipid Biosynthetic Process (GO:0008610),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Long-chain fatty-acyl-CoA Biosynthetic Process (GO:0035338),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,MAPK SIGNALING PATHWAY,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,MELANOMA,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,MICRORNAS IN CANCER,shared_RR3,False,,,,True,,,,True,,,
+pathway,MOTOR PROTEINS,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,MRNA Processing (GO:0006397),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,MRNA Splice Site Recognition (GO:0006376),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,"MRNA Splicing, via Spliceosome (GO:0000398)",RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Macromolecule Biosynthetic Process (GO:0009059),shared_all_three,True,,,,True,,,,True,,,
+pathway,Major Pathway of rRNA Processing in the Nucleolus and Cytosol,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Metabolism of Amino Acids and Derivatives,shared_all_three,True,,,,True,,,,True,,,
+pathway,Metabolism of Nucleotides,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Metabolism of Polyamines,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Metabolism of Steroids,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Mitochondrial ATP Synthesis Coupled Electron Transport (GO:0042775),shared_RR3,False,,,,True,,,,True,,,
+pathway,"Mitochondrial Electron Transport, NADH to Ubiquinone (GO:0006120)",shared_RR3,False,,,,True,,,,True,,,
+pathway,Mitochondrial Fatty Acid Beta-Oxidation,RR1_specific,True,,,,False,,,,False,,,
+pathway,Mitochondrial Gene Expression (GO:0140053),shared_all_three,True,,,,True,,,,True,,,
+pathway,Mitochondrial Protein Degradation,RR1_specific,True,,,,False,,,,False,,,
+pathway,Mitochondrial Protein Import,shared_all_three,True,,,,True,,,,True,,,
+pathway,Mitochondrial Respiratory Chain Complex Assembly (GO:0033108),shared_all_three,True,,,,True,,,,True,,,
+pathway,Mitochondrial Respiratory Chain Complex I Assembly (GO:0032981),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Mitochondrial Respiratory Chain Complex IV Assembly (GO:0033617),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Mitochondrial Translation,shared_all_three,True,,,,True,,,,True,,,
+pathway,Mitochondrial Translation (GO:0032543),shared_all_three,True,,,,True,,,,True,,,
+pathway,Mitochondrial Translation Elongation,shared_all_three,True,,,,True,,,,True,,,
+pathway,Mitochondrial Translation Initiation,shared_all_three,True,,,,True,,,,True,,,
+pathway,Mitochondrial Translation Termination,shared_all_three,True,,,,True,,,,True,,,
+pathway,Mitochondrial tRNA Aminoacylation,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Monocarboxylic Acid Biosynthetic Process (GO:0072330),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Muscle Contraction,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,MyD88 Deficiency (TLR2 4),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,NADH Dehydrogenase Complex Assembly (GO:0010257),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,NF-KAPPA B SIGNALING PATHWAY,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Negative Regulation of Cell Communication (GO:0010648),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Negative Regulation of Cell Differentiation (GO:0045596),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Negative Regulation of Cell Migration (GO:0030336),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Negative Regulation of Cell Population Proliferation (GO:0008285),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Negative Regulation of Cellular Process (GO:0048523),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,"Negative Regulation of Gene Expression, Epigenetic (GO:0045814)",RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Negative Regulation of Myoblast Differentiation (GO:0045662),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Negative Regulation of NOTCH4 Signaling,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Negative Regulation of RNA Biosynthetic Process (GO:1902679),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Negative Regulation of Receptor Signaling Pathway via STAT (GO:1904893),shared_RR3,False,,,,True,,,,True,,,
+pathway,Negative Regulation of Regulatory T Cell Differentiation (GO:0045590),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Negative Regulation of Response to Stimulus (GO:0048585),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Negative Regulation of Signal Transduction (GO:0009968),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Negative Regulation of T Cell Differentiation (GO:0045581),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Negative Regulation of Viral Genome Replication (GO:0045071),RR1_specific,True,,,,False,,,,False,,,
+pathway,Nicotinamide Nucleotide Metabolic Process (GO:0046496),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Nicotinamide Salvaging,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Nicotinate Metabolic Process (GO:1901847),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Nicotinate Metabolism,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Nonsense Mediated Decay (NMD) Enhanced by the Exon Junction Complex (EJC),shared_RR3,False,,,,True,,,,True,,,
+pathway,Nonsense Mediated Decay (NMD) Independent of the Exon Junction Complex (EJC),shared_RR3,False,,,,True,,,,True,,,
+pathway,Nonsense-Mediated Decay (NMD),shared_RR3,False,,,,True,,,,True,,,
+pathway,Nucleotide Biosynthesis,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Nucleotide Excision Repair,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,OXIDATIVE PHOSPHORYLATION,shared_all_three,True,,,,True,,,,True,,,
+pathway,Oxidative Phosphorylation (GO:0006119),shared_RR3,False,,,,True,,,,True,,,
+pathway,PANTOTHENATE AND COA BIOSYNTHESIS,shared_subset,True,,,,False,,,,True,,,
+pathway,PARKINSON DISEASE,shared_RR3,False,,,,True,,,,True,,,
+pathway,PATHWAYS IN CANCER,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,PEROXISOME,RR1_specific,True,,,,False,,,,False,,,
+pathway,PI3K AKT Signaling in Cancer,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,PI3K-AKT SIGNALING PATHWAY,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,POLYCOMB REPRESSIVE COMPLEX,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,PRION DISEASE,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,PROTEASOME,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,PROTEIN EXPORT,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,PROTEIN PROCESSING IN ENDOPLASMIC RETICULUM,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Peptide Chain Elongation,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Peroxisomal Lipid Metabolism,RR1_specific,True,,,,False,,,,False,,,
+pathway,Peroxisomal Protein Import,RR1_specific,True,,,,False,,,,False,,,
+pathway,"Plasma Lipoprotein Assembly, Remodeling, and Clearance",RR1_specific,True,,,,False,,,,False,,,
+pathway,Plasma Lipoprotein Clearance,RR1_specific,True,,,,False,,,,False,,,
+pathway,Pos Reg Phosphatidylinositol 3-Kinase/Protein Kinase B Signal Transduction (GO:0051897),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Pos Reg Transmembrane Rec Protein Serine/Threonine Kinase Signaling Pathway (GO:0090100),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of ATP-dependent Activity (GO:0032781),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Positive Regulation of Angiogenesis (GO:0045766),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Cell Differentiation (GO:0045597),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Cell Migration (GO:0030335),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Cell Motility (GO:2000147),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Cell Population Proliferation (GO:0008284),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Cold-Induced Thermogenesis (GO:0120162),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of D-glucose Import Across Plasma Membrane (GO:0046326),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of D-glucose Transmembrane Transport (GO:0010828),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Defense Response (GO:0031349),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Positive Regulation of ERK1 and ERK2 Cascade (GO:0070374),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Endothelial Cell Migration (GO:0010595),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Fatty Acid Oxidation (GO:0046321),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Inflammatory Response (GO:0050729),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Positive Regulation of MAPK Cascade (GO:0043410),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Macromolecule Biosynthetic Process (GO:0010557),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Multicellular Organismal Process (GO:0051240),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Osteoblast Differentiation (GO:0045669),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Response to External Stimulus (GO:0032103),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Positive Regulation of Signal Transduction (GO:0009967),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of Tumor Necrosis Factor Production (GO:0032760),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Positive Regulation of Tumor Necrosis Factor Superfamily Cytokine Production (GO:1903557),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Positive Regulation of Type II Interferon Production (GO:0032729),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Positive Regulation of Vasculature Development (GO:1904018),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of miRNA Metabolic Process (GO:2000630),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of miRNA Transcription (GO:1902895),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Positive Regulation of p38MAPK Cascade (GO:1900745),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Prefoldin Mediated Transfer of Substrate to CCT TriC,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Processing of Capped Intron-Containing Pre-mRNA,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Proteasome Assembly,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Protein Biosynthetic Process (GO:0160307),shared_all_three,True,,,,True,,,,True,,,
+pathway,Protein Localization,shared_all_three,True,,,,True,,,,True,,,
+pathway,Protein Localization to Mitochondrion (GO:0070585),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Protein Ubiquitination (GO:0016567),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Protein-RNA Complex Assembly (GO:0022618),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Proton Motive Force-Driven ATP Synthesis (GO:0015986),shared_RR3,False,,,,True,,,,True,,,
+pathway,Proton Motive Force-Driven Mitochondrial ATP Synthesis (GO:0042776),shared_RR3,False,,,,True,,,,True,,,
+pathway,RAS SIGNALING PATHWAY,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,RETROGRADE ENDOCANNABINOID SIGNALING,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,RIBOSOME,shared_all_three,True,,,,True,,,,True,,,
+pathway,RNA Polymerase II Transcription Termination,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,RNA Processing (GO:0006396),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,"RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)",RR3-40_specific,False,,,,False,,,,True,,,
+pathway,RRNA Metabolic Process (GO:0016072),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,RRNA Processing (GO:0006364),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of Activated PAK-2p34 by Proteasome Mediated Degradation,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381)",RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Regulation of Angiogenesis (GO:0045765),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of Apoptosis,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Regulation of Cell Migration (GO:0030334),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of Cell Motility (GO:2000145),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of Cholesterol Biosynthesis by SREBP (SREBF),shared_RR3,False,,,,True,,,,True,,,
+pathway,Regulation of DNA-templated Transcription Initiation (GO:2000142),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of ERK1 and ERK2 Cascade (GO:0070372),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of Endothelial Cell Migration (GO:0010594),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of Expression of SLITs and ROBOs,shared_RR3,False,,,,True,,,,True,,,
+pathway,Regulation of Fatty Acid Beta-Oxidation (GO:0031998),shared_subset,True,,,,False,,,,True,,,
+pathway,Regulation of Gene Expression in Late Stage (Branching Morphogenesis) Pancreatic Bud Precursor Cells,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Regulation of Interleukin-2 Production (GO:0032663),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Regulation of Intracellular Signal Transduction (GO:1902531),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of JNK Cascade (GO:0046328),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of MAPK Cascade (GO:0043408),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of Muscle Contraction (GO:0006937),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Regulation of Ornithine Decarboxylase (ODC),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Regulation of Osteoblast Differentiation (GO:0045667),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of Phosphatidylinositol 3-Kinase/Protein Kinase B Signal Transduction (GO:0051896),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of Primary Metabolic Process (GO:0080090),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Regulation of RNA Splicing (GO:0043484),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Regulation of RUNX2 Expression and Activity,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Regulation of Signal Transduction (GO:0009966),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of Striated Muscle Contraction (GO:0006942),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Regulation of T Cell Differentiation in Thymus (GO:0033081),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of T Cell Proliferation (GO:0042129),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Regulation of TLR by Endogenous Ligand,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Regulation of Transforming Growth Factor Beta Receptor Signaling Pathway (GO:0017015),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,"Regulation of mRNA Splicing, via Spliceosome (GO:0048024)",RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Regulation of miRNA Transcription (GO:1902893),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Regulation of p38MAPK Cascade (GO:1900744),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Relaxation of Muscle (GO:0090075),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Respiratory Chain Complex IV Assembly (GO:0008535),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Respiratory Electron Transport,shared_all_three,True,,,,True,,,,True,,,
+pathway,Response of EIF2AK4 (GCN2) to Amino Acid Deficiency,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Response to Fibroblast Growth Factor (GO:0071774),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Response to Interferon-Beta (GO:0035456),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Response to Steroid Hormone (GO:0048545),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Response to Type II Interferon (GO:0034341),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Response to Zinc Ion (GO:0010043),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,"Retrograde Vesicle-Mediated Transport, Golgi to Endoplasmic Reticulum (GO:0006890)",RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Ribonucleoprotein Complex Biogenesis (GO:0022613),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Ribosomal Large Subunit Biogenesis (GO:0042273),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Ribosomal Scanning and Start Codon Recognition,shared_all_three,True,,,,True,,,,True,,,
+pathway,Ribosomal Small Subunit Biogenesis (GO:0042274),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Ribosome Biogenesis (GO:0042254),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,SARS-CoV-1 Modulates Host Translation Machinery,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,SARS-CoV-1-host Interactions,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,SARS-CoV-2 Modulates Host Translation Machinery,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,SCF-beta-TrCP Mediated Degradation of Emi1,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,SIGNALING PATHWAYS REGULATING PLURIPOTENCY OF STEM CELLS,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,SMAD Protein Signal Transduction (GO:0060395),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,SPLICEOSOME,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,SRP-dependent Cotranslational Protein Targeting to Membrane,shared_RR3,False,,,,True,,,,True,,,
+pathway,SRP-dependent Cotranslational Protein Targeting to Membrane (GO:0006614),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,STEROID BIOSYNTHESIS,shared_RR3,False,,,,True,,,,True,,,
+pathway,Secondary Alcohol Biosynthetic Process (GO:1902653),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Selenoamino Acid Metabolism,shared_RR3,False,,,,True,,,,True,,,
+pathway,Selenocysteine Synthesis,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Signaling by Leptin,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Signaling by ROBO Receptors,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Signaling by TGFB Family Members,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Skeletal Muscle Contraction (GO:0003009),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Spliceosomal snRNP Assembly (GO:0000387),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Steroid Biosynthetic Process (GO:0006694),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Sterol Biosynthetic Process (GO:0016126),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Sterol Homeostasis (GO:0055092),RR1_specific,True,,,,False,,,,False,,,
+pathway,Striated Muscle Contraction,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Striated Muscle Contraction (GO:0006941),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,T Cell Homeostasis (GO:0043029),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,T-helper 1 Cell Differentiation (GO:0045063),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,T-helper 1 Type Immune Response (GO:0042088),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,T-helper 17 Cell Differentiation (GO:0072539),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,T-helper 17 Type Immune Response (GO:0072538),RR3-39_specific,False,,,,True,,,,False,,,
+pathway,TERPENOID BACKBONE BIOSYNTHESIS,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,TGF-BETA SIGNALING PATHWAY,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,TRNA Aminoacylation for Protein Translation (GO:0006418),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,TYPE II DIABETES MELLITUS,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Transcription-Coupled Nucleotide Excision Repair (TC-NER),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Transcriptional Regulation by the AP-2 (TFAP2) Family of Transcription Factors,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Transforming Growth Factor Beta Receptor Superfamily Signaling Pathway (GO:0141091),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Translation,shared_all_three,True,,,,True,,,,True,,,
+pathway,Translation (GO:0006412),shared_all_three,True,,,,True,,,,True,,,
+pathway,Translation Initiation Complex Formation,shared_all_three,True,,,,True,,,,True,,,
+pathway,Transport Across Blood-Brain Barrier (GO:0150104),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Transport of Mature Transcript to Cytoplasm,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Transport of Mature mRNA Derived From an Intron-Containing Transcript,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Transport to the Golgi and Subsequent Modification,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Ubiquitin Mediated Degradation of Phosphorylated Cdc25A,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Ubiquitin-dependent Degradation of Cyclin D,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,"VALINE, LEUCINE AND ISOLEUCINE DEGRADATION",RR1_specific,True,,,,False,,,,False,,,
+pathway,Vascular Transport (GO:0010232),RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Vif-mediated Degradation of APOBEC3G,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Viral mRNA Translation,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,Vitamin B5 (Pantothenate) Metabolism,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,Vpu Mediated Degradation of CD4,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,mRNA 3'-End Processing,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,"mRNA Activation Upon Binding of the Cap-Binding Complex and eIFs, and Subsequent Binding to 43S",shared_all_three,True,,,,True,,,,True,,,
+pathway,mRNA Splicing,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,mRNA Splicing - Major Pathway,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,mRNA Splicing - Minor Pathway,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,p53-Independent DNA Damage Response,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,p53-Independent G1 S DNA Damage Checkpoint,RR3-39_specific,False,,,,True,,,,False,,,
+pathway,rRNA Modification in the Nucleus and Cytosol,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,rRNA Processing,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,rRNA Processing in the Nucleus and Cytosol,RR3-40_specific,False,,,,False,,,,True,,,
+pathway,tRNA Aminoacylation,RR3-40_specific,False,,,,False,,,,True,,,

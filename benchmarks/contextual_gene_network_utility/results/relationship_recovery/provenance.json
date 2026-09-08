@@ -1,0 +1,12 @@
+{
+  "samples": 600,
+  "sampling": "one sample per GSE; deterministic cap 600",
+  "bridge_score": "mean union-k10 contextual edge weight; absent Top-10 edge scored zero",
+  "negative_matching": [
+    "expression mean ventile",
+    "aggregate graph degree ventile"
+  ],
+  "PPI_TF": "not evaluated: no authoritative local resource",
+  "PCA_gene_relationship": "not separately evaluated because full-rank gene cosine in PCA is a rotation/re-expression of centered coexpression; raw correlation is the interpretable conventional comparator",
+  "seed": 20260907
+}

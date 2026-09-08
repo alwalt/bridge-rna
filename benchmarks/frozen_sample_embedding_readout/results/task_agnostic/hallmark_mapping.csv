@@ -1,0 +1,51 @@
+module,source_genes,mapped_genes
+TNF-alpha Signaling via NF-kB,201,184
+Hypoxia,201,184
+Cholesterol Homeostasis,75,70
+Mitotic Spindle,200,196
+Wnt-beta Catenin Signaling,43,40
+TGF-beta Signaling,55,50
+IL-6/JAK/STAT3 Signaling,88,71
+DNA Repair,151,136
+G2-M Checkpoint,201,184
+Apoptosis,162,148
+Notch Signaling,33,32
+Adipogenesis,201,189
+Estrogen Response Early,201,190
+Estrogen Response Late,201,185
+Androgen Response,101,93
+Myogenesis,201,190
+Protein Secretion,97,92
+Interferon Alpha Response,98,71
+Interferon Gamma Response,201,155
+Apical Junction,201,188
+Apical Surface,45,44
+Hedgehog Signaling,37,36
+Complement,201,169
+Unfolded Protein Response,114,102
+PI3K/AKT/mTOR  Signaling,106,101
+mTORC1 Signaling,201,179
+E2F Targets,201,189
+Myc Targets V1,201,175
+Myc Targets V2,59,54
+Epithelial Mesenchymal Transition,201,188
+Inflammatory Response,201,177
+Xenobiotic Metabolism,201,179
+Fatty Acid Metabolism,159,137
+Oxidative Phosphorylation,201,173
+Glycolysis,201,183
+Reactive Oxygen Species Pathway,50,44
+p53 Pathway,201,186
+UV Response Up,159,137
+UV Response Dn,145,140
+Angiogenesis,37,34
+heme Metabolism,201,178
+Coagulation,139,123
+IL-2/STAT5 Signaling,200,180
+Bile Acid Metabolism,113,106
+Pperoxisome,105,94
+Allograft Rejection,201,161
+Spermatogenesis,136,127
+KRAS Signaling Up,201,189
+KRAS Signaling Dn,201,176
+Pancreas Beta Cells,41,39

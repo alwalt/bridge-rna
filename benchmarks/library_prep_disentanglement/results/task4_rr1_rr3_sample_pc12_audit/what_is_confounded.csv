@@ -1,0 +1,11 @@
+Factor,RR1 OSD-48,RR1 OSD-168,RR3-39,RR3-40,Could explain latent difference?,Separable from other factors?,Evidence
+Library preparation,polyA,ribodepletion,ribodepletion,ribodepletion,strongly associated,no / structurally confounded,Perfectly tracks OSD in RR1; RR3 provides a same-library stability control but not causal isolation.
+OSD,OSD-48,OSD-168,OSD-137,OSD-137/168,strongly associated,no / structurally confounded,"OSD changes together with protocol and, for RR1, sample representation."
+FLT/GC,both,both,both,both,possible,yes within cohort,Defines the response; interaction with dataset is directly estimable.
+Sample state,carcass/upon-euthanasia,not equivalent/unspecified,liquid-nitrogen collection,liquid-nitrogen collection,strongly associated,partially,OSD-168 has no valid carcass/euthanasia mapping.
+RIN,available,available,available,available,possible,partially,Continuous but cohort-associated and missing for some profiles.
+Preservation,carcass or immediate-state dependent,liquid nitrogen/source storage,liquid nitrogen,liquid nitrogen,possible,no / structurally confounded,RR1 preservation changes with OSD and library protocol.
+Platform/read setup,HiSeq 3000; SE50,HiSeq 4000; PE150,HiSeq 4000; PE150,HiSeq 4000; PE150,strongly associated,no / structurally confounded,Changes jointly with RR1 OSD/library; largely matched for RR3.
+Facility,UC Davis,UC Davis,UC Davis,UC Davis,unlikely,no variation,Facility is held constant in available metadata.
+Animal composition,distinct representation/subset,5 FLT + 5 GC animals duplicated by ERCC,duration-specific animals,duration-specific/matched subset,possible,partially,Animal identity differs across biological cohorts; technical matches exist only for defined subsets.
+Extraction/batch,incomplete,incomplete,incomplete,incomplete,cannot determine,no / structurally confounded,"Extraction, dissection, and sequencing batch fields are incomplete or unavailable."

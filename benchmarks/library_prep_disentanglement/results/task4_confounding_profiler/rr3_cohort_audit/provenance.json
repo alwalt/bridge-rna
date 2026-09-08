@@ -1,0 +1,15 @@
+{
+  "inputs": [
+    "/home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/results/task3_manifest_api_validation/api_OSD-137_sample_metadata.csv",
+    "/home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/results/task3b_contrast_sample_membership.csv",
+    "/home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/work/bridgerna_embeddings.npy",
+    "/home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/work/bridgerna_log1p_tpm_inputs.npy"
+  ],
+  "model_inference": false,
+  "classification": "G. MIXED / UNRESOLVED",
+  "limitations": [
+    "Duration, animal identity, and collection cohort are confounded.",
+    "RR3-39 has n=2/2; RR3-41 has n=1/2.",
+    "Unavailable metadata are reported as unavailable rather than inferred."
+  ]
+}

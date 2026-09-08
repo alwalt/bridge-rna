@@ -1,0 +1,4 @@
+comparison,original_dataset,remeasured_dataset,original_direction_cosine,remeasured_direction_cosine,original_signed_projection,remeasured_signed_projection,original_label,remeasured_label,direction_switched
+RR1 carcass,OSD-48,OSD-168,-0.7852309478507169,0.6259207865814291,-0.7065299442668174,0.26822010857487677,PolyA-directed,Ribo-directed,True
+RR3-39,OSD-137,OSD-168,-0.6929522675838728,-0.6187488443445367,-0.13390225833917174,-0.08765950992853465,PolyA-directed,PolyA-directed,False
+RR3-40,OSD-137,OSD-168,0.8202276488117529,0.7803381666862544,0.08144296265292442,0.11596940845526182,Ribo-directed,Ribo-directed,False

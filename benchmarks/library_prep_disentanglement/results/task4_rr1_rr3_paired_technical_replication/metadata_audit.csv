@@ -1,0 +1,58 @@
+cohort,factor,original_measurement,remeasurement,same_or_different,potentially_relevant
+RR1,strain,C57BL/6J,C57BL/6J,same,controlled/reported same
+RR1,sex,Female,Female,same,controlled/reported same
+RR1,age_at_launch,16 {week},16 {week},same,controlled/reported same
+RR1,duration_api,37 {day},37 {day},same,controlled/reported same
+RR1,sample_preservation_api,RLT buffer homogenized and snap frozen,Liquid Nitrogen,different,yes
+RR1,RNA_extraction_method,RR1_FLT_M25_LVR_RNA | RR1_FLT_M26_LVR_RNA | RR1_FLT_M28_LVR_RNA | RR1_FLT_M30_LVR_RNA | RR1_GC_M36_LVR_RNA | RR1_GC_M37_LVR_RNA | RR1_GC_M38_LVR_RNA | RR1_GC_M39_LVR_RNA | RR1_GC_M40_LVR_RNA,RR1_FLT_M25_LVR_RNA_ALQ3 | RR1_FLT_M26_LVR_RNA_ALQ3 | RR1_FLT_M28_LVR_RNA_ALQ3 | RR1_FLT_M30_LVR_RNA_ALQ3 | RR1_GC_M36_LVR_RNA_ALQ3 | RR1_GC_M37_LVR_RNA_ALQ3 | RR1_GC_M38_LVR_RNA_ALQ3 | RR1_GC_M39_LVR_RNA_ALQ3 | RR1_GC_M40_LVR_RNA_ALQ3,different,yes
+RR1,library_selection_api,polyA enrichment,ribo-depletion,different,yes
+RR1,library_kit,Illumina TruSeq stranded RNA library prep kit,KAPA RNA HyperPrep Kit,different,yes
+RR1,ERCC_condition,NA,Without Spike-in,different,yes
+RR1,sequencing_platform,Illumina HiSeq 3000,Illumina HiSeq 4000,different,yes
+RR1,library_layout,SINGLE,PAIRED,different,yes
+RR1,sequencing_facility,UC Davis,UC Davis,same,controlled/reported same
+RR1,RIN,7.7 {RNA Integrity Number} | 7.9 {RNA Integrity Number} | 8 {RNA Integrity Number} | 8.1 {RNA Integrity Number} | 9 {RNA Integrity Number} | 9.1 {RNA Integrity Number} | 9.2 {RNA Integrity Number},7.9 {RNA Integrity Number} | 8 {RNA Integrity Number} | 8.1 {RNA Integrity Number} | 9 {RNA Integrity Number} | 9.1 {RNA Integrity Number} | 9.2 {RNA Integrity Number},different,yes
+RR1,collection_time,NA,NA,same,controlled/reported same
+RR1,dissection_condition,Carcass,NA,different,yes
+RR1,postmortem_interval,NA,NA,same,controlled/reported same
+RR1,processing_batch,NA,NA,same,controlled/reported same
+RR1,RNA_extraction_batch,NA,NA,same,controlled/reported same
+RR1,sequencing_batch,NA,NA,same,controlled/reported same
+RR3-39,strain,BALB/c,BALB/c,same,controlled/reported same
+RR3-39,sex,Female,Female,same,controlled/reported same
+RR3-39,age_at_launch,12 {week},12 {week},same,controlled/reported same
+RR3-39,duration_api,39 {day},39 {day},same,controlled/reported same
+RR3-39,sample_preservation_api,Liquid Nitrogen,Liquid Nitrogen,same,controlled/reported same
+RR3-39,RNA_extraction_method,RR3_FLT_F1_LVR_RNA | RR3_FLT_F2_LVR_RNA | RR3_GC_G1_LVR_RNA | RR3_GC_G2_LVR_RNA,RR3_FLT_F1_LVR_RNA | RR3_FLT_F2_LVR_RNA | RR3_GC_G1_LVR_RNA | RR3_GC_G2_LVR_RNA,same,controlled/reported same
+RR3-39,library_selection_api,ribo-depletion,ribo-depletion,same,controlled/reported same
+RR3-39,library_kit,NA,KAPA RNA HyperPrep Kit,different,yes
+RR3-39,ERCC_condition,NA,With Spike-in,different,yes
+RR3-39,sequencing_platform,Illumina HiSeq 4000,Illumina HiSeq 4000,same,controlled/reported same
+RR3-39,library_layout,PAIRED,PAIRED,same,controlled/reported same
+RR3-39,sequencing_facility,UC Davis,UC Davis,same,controlled/reported same
+RR3-39,RIN,7.1 {RNA Integrity Number} | 7.3 {RNA Integrity Number},7.1 {RNA Integrity Number} | 7.3 {RNA Integrity Number},same,controlled/reported same
+RR3-39,collection_time,NA,NA,same,controlled/reported same
+RR3-39,dissection_condition,NA,NA,same,controlled/reported same
+RR3-39,postmortem_interval,NA,NA,same,controlled/reported same
+RR3-39,processing_batch,NA,NA,same,controlled/reported same
+RR3-39,RNA_extraction_batch,NA,NA,same,controlled/reported same
+RR3-39,sequencing_batch,NA,NA,same,controlled/reported same
+RR3-40,strain,BALB/c,BALB/c,same,controlled/reported same
+RR3-40,sex,Female,Female,same,controlled/reported same
+RR3-40,age_at_launch,12 {week},12 {week},same,controlled/reported same
+RR3-40,duration_api,40 {day},40 {day},same,controlled/reported same
+RR3-40,sample_preservation_api,Liquid Nitrogen,Liquid Nitrogen,same,controlled/reported same
+RR3-40,RNA_extraction_method,RR3_FLT_F3_LVR_RNA | RR3_FLT_F4_LVR_RNA | RR3_GC_G3_LVR_RNA | RR3_GC_G7_LVR_RNA,RR3_FLT_F3_LVR_RNA | RR3_FLT_F4_LVR_RNA | RR3_GC_G3_LVR_RNA | RR3_GC_G5_LVR_RNA,different,yes
+RR3-40,library_selection_api,ribo-depletion,ribo-depletion,same,controlled/reported same
+RR3-40,library_kit,NA,KAPA RNA HyperPrep Kit,different,yes
+RR3-40,ERCC_condition,NA,With Spike-in,different,yes
+RR3-40,sequencing_platform,Illumina HiSeq 4000,Illumina HiSeq 4000,same,controlled/reported same
+RR3-40,library_layout,PAIRED,PAIRED,same,controlled/reported same
+RR3-40,sequencing_facility,UC Davis,UC Davis,same,controlled/reported same
+RR3-40,RIN,6.7 {RNA Integrity Number} | 6.9 {RNA Integrity Number} | 7.5 {RNA Integrity Number} | 7.8 {RNA Integrity Number},6.7 {RNA Integrity Number} | 6.9 {RNA Integrity Number} | 7.5 {RNA Integrity Number} | 7.8 {RNA Integrity Number},same,controlled/reported same
+RR3-40,collection_time,NA,NA,same,controlled/reported same
+RR3-40,dissection_condition,NA,NA,same,controlled/reported same
+RR3-40,postmortem_interval,NA,NA,same,controlled/reported same
+RR3-40,processing_batch,NA,NA,same,controlled/reported same
+RR3-40,RNA_extraction_batch,NA,NA,same,controlled/reported same
+RR3-40,sequencing_batch,NA,NA,same,controlled/reported same

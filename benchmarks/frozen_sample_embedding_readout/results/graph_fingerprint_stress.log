@@ -1,0 +1,6 @@
+ k graph              comparison  signed_edge_cosine  signed_edge_correlation  edges_A  edges_B  discrimination_rank
+10 union                     RR1            0.183429                 0.184914   204759   209271                  3.0
+10 union                  RR3-39            0.319309                 0.319231   163894   163303                  2.0
+10 union                  RR3-40            0.399024                 0.399005   160472   161860                  1.0
+10 union RR1↔RR3-39 false friend            0.011796                 0.011390   204759   163894                  4.0
+[complete] /home/walt/bridge-rna/benchmarks/frozen_sample_embedding_readout/results/graph_fingerprint/rr1_rr3_stress

@@ -1,0 +1,15 @@
+# RR3 cohort audit summary
+
+- Samples: 39d 2 FLT/2 GC; 40d 3 FLT/2 GC; 41d 1 FLT/2 GC.
+- All cohorts share BALB/c female mouse liver, age, ribodepletion, paired 150-bp sequencing, UC Davis, liquid-nitrogen preservation, diet, habitat, euthanasia method, and stranded library processing.
+- Animal identity, duration/exposure, collection cohort, radiation dose for FLT animals, RIN, read depth, rRNA contamination, and library index differ. Exact euthanasia times/order and dissection times/order are unavailable locally.
+- Duration and collection/animal cohort are inseparable; no independent duration replication exists.
+- Leave-one-out directional ranges: {39: {'min': -0.7233469620987973, 'max': -0.6721378575898991, 'median': -0.6959761345313797}, 40: {'min': 0.5687291641775412, 'max': 0.8697095722201732, 'median': 0.7472355073231358}, 41: {'min': 0.19267101738868803, 'max': 0.6753825878841707, 'median': 0.43402680263642934}}.
+- Bridge response-vector cosine between 39d and 40d: -0.5674. The conventional expression response cosine is recorded separately in rr3_flt_gc_decomposition.csv.
+- Classification: **G. MIXED / UNRESOLVED**. The configurations are technically reproducible but not biologically explained as a duration transition.
+
+ duration_day  n_FLT  n_GC  FLT_direction_coordinate  GC_direction_coordinate  response_directional_cosine  response_pc12_occupancy  response_norm  FLT39_or_40_similarity  GC39_or_40_similarity  FLT_39_to_40_shift_norm  FLT_39_to_40_shift_pc12_fraction  GC_39_to_40_shift_norm  GC_39_to_40_shift_pc12_fraction  expression_response_norm  expression_response_rms  cosine_with_39d
+           39      2     2                 -9.350551                -9.216649                    -0.692952                 0.677895       0.234695                0.999803               0.999909                 0.357978                           0.62012                0.186223                         0.086863                 15.761523                 0.127990         1.000000
+           40      3     2                 -9.135610                -9.242339                     0.758922                 0.732917       0.164269                0.999803               0.999909                 0.357978                           0.62012                0.186223                         0.086863                 13.016501                 0.105700         0.081007
+           41      1     2                 -8.973508                -9.128746                     0.572914                 0.734935       0.316071                0.999803               0.999909                 0.357978                           0.62012                0.186223                         0.086863                 15.637713                 0.126985        -0.200511
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/rr3_cohort_audit

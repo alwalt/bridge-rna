@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-09-05T09:53:41.265310+00:00",
+  "embeddings_recomputed": false,
+  "basis": "uncentered SVD of 40 cached same-RNA T-cell Ribo-minus-PolyA displacements",
+  "primary_basis": "PC1-2",
+  "sensitivity_bases": [
+    "PC1",
+    "PC1-5"
+  ],
+  "random_subspaces": 1000,
+  "random_seed": 43111,
+  "DE_primary": "RMS edgeR log2FC among filterByExpr-tested genes",
+  "large_effect_threshold": "FDR < 0.05 and abs(log2FC) >= 1"
+}

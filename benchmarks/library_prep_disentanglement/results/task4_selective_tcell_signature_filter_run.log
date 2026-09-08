@@ -1,0 +1,8 @@
+       signature  genes  RR1_technical_cosine  technical_gain  RR1_carcass_RR3_39  RR1_carcass_RR3_40  RR1_euth_RR3_39  RR1_euth_RR3_40  random_empirical_p
+         top_100    100             -0.802224        0.002011            0.812239           -0.828057        -0.693750         0.616184            0.378109
+         top_250    250             -0.799229        0.005006            0.809271           -0.825848        -0.689957         0.611969            0.129353
+         top_500    500             -0.793665        0.010570            0.803669           -0.821628        -0.683306         0.604629            0.004975
+        top_1000   1000             -0.781862        0.022373            0.792502           -0.812074        -0.670158         0.589080            0.004975
+ paired_DE_FDR05  10329             -0.188529        0.615706            0.354954           -0.294848        -0.297780         0.084441                 NaN
+RNA_leading_edge     12             -0.803858        0.000377            0.813697           -0.829346        -0.695859         0.618775                 NaN
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_selective_tcell_signature_filter

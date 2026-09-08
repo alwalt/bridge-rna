@@ -1,0 +1,21 @@
+{
+  "contrasts": 11,
+  "samples": 84,
+  "median_tested_gene_coverage": 0.7509717013296966,
+  "median_nes_profile_spearman": 0.9610586152665532,
+  "min_nes_profile_spearman": 0.9428268626599746,
+  "max_nes_profile_spearman": 0.9870123185030772,
+  "median_shared_significant_fraction_of_union": 0.599290780141844,
+  "shared_significant_direction_agreement": 1.0,
+  "rna_processing_significant_contrasts_full": 9,
+  "rna_processing_significant_contrasts_bridge_vocab": 7,
+  "rr3_39_rna_processing_full": "NES +2.545; FDR 0.001",
+  "rr3_40_rna_processing_full": "NES +2.086; FDR 0.00195",
+  "rr3_39_rna_processing_bridge_vocab": "NES +2.270; FDR 0.001",
+  "rr3_40_rna_processing_bridge_vocab": "NES +2.004; FDR 0.00874",
+  "underpowered_contrasts": [
+    "C03__OSD-137__RR3__41-day (1 FLT / 2 GC)",
+    "C12__OSD-47__RR1-CASIS__22-day (1 FLT / 1 GC; descriptive fixed-BCV ranking)"
+  ],
+  "conclusion": "Vocabulary restriction preserves the global conventional pathway interpretation strongly, but can remove individual marginal pathway calls. RR3 39d retains a stronger RNA-processing signal than RR3 40d in both universes. Vocabulary restriction alone does not explain the conventional-versus-contextual differences."
+}

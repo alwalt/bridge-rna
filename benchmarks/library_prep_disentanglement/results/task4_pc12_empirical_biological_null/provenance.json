@@ -1,0 +1,13 @@
+{
+  "basis": "unchanged uncentered SVD PC1-2 from 40 controlled same-RNA T-cell Ribo-minus-PolyA differences",
+  "biological_contrasts": [
+    "8 curated Task2 exercise",
+    "14 curated Task3 FLT-GC"
+  ],
+  "primary_rule": "at least 2 samples in each arm",
+  "permutations": 1000,
+  "bootstraps": 2000,
+  "random_subspaces": 2000,
+  "seed": 20260906,
+  "embeddings_recomputed": false
+}

@@ -1,0 +1,13 @@
+family,stage,significant_terms,best_fdr,independent_contrasts
+RNA processing / splicing,controlled PolyA/Ribo contextual sensitivity,4,0.001,
+RNA processing / splicing,RR1 technical discrepancy,66,0.001,
+RNA processing / splicing,independent FLT-GC contextual response,2,0.001,1.0
+Chromatin organization / remodeling,controlled PolyA/Ribo contextual sensitivity,4,0.001,
+Chromatin organization / remodeling,RR1 technical discrepancy,42,0.001,
+Chromatin organization / remodeling,independent FLT-GC contextual response,3,0.017414240431411137,3.0
+DNA repair / DNA metabolism,controlled PolyA/Ribo contextual sensitivity,4,0.001,
+DNA repair / DNA metabolism,RR1 technical discrepancy,19,0.001,
+DNA repair / DNA metabolism,independent FLT-GC contextual response,5,0.014305149380453366,2.0
+Hepatic lipid / metabolic,controlled PolyA/Ribo contextual sensitivity,0,,
+Hepatic lipid / metabolic,RR1 technical discrepancy,219,0.001,
+Hepatic lipid / metabolic,independent FLT-GC contextual response,599,0.001,10.0

@@ -1,0 +1,25 @@
+{
+  "basis": "unchanged controlled T-cell PolyA/Ribo-sensitive PC1-2",
+  "animals": {
+    "GC39": [
+      "G1",
+      "G2"
+    ],
+    "FLT39": [
+      "F1",
+      "F2"
+    ],
+    "GC40": [
+      "G3",
+      "G5"
+    ],
+    "FLT40": [
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  "contextual_inference": "nine frozen-model sample tensors cached; no training",
+  "bootstrap_replicates": 5000,
+  "correction": false
+}

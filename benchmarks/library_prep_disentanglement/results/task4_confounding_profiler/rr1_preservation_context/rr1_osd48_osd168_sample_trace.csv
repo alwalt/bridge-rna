@@ -1,0 +1,19 @@
+source_sample,group,animal_id,OSD48_stratum,OSD168_sample,ERCC_condition,exact_animal_match,identical_RNA_status,used_in_minus_0_804
+Mmus_C57-6J_LVR_FLT_C_Rep1_M25,FLT,M25,Carcass,Mmus_C57-6J_LVR_RR1_FLT_wERCC_Rep1_M25,Mix 1,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,False
+Mmus_C57-6J_LVR_FLT_C_Rep4_M28,FLT,M28,Carcass,Mmus_C57-6J_LVR_RR1_FLT_wERCC_Rep3_M28,Mix 1,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,False
+Mmus_C57-6J_LVR_GC_C_Rep3_M38,GC,M38,Carcass,Mmus_C57-6J_LVR_RR1_GC_wERCC_Rep3_M38,Mix 1,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,False
+Mmus_C57-6J_LVR_GC_C_Rep5_M40,GC,M40,Carcass,Mmus_C57-6J_LVR_RR1_GC_wERCC_Rep5_M40,Mix 1,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,False
+Mmus_C57-6J_LVR_FLT_C_Rep2_M26,FLT,M26,Carcass,Mmus_C57-6J_LVR_RR1_FLT_wERCC_Rep2_M26,Mix 2,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,False
+Mmus_C57-6J_LVR_FLT_C_Rep5_M30,FLT,M30,Carcass,Mmus_C57-6J_LVR_RR1_FLT_wERCC_Rep5_M30,Mix 2,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,False
+Mmus_C57-6J_LVR_GC_C_Rep1_M36,GC,M36,Carcass,Mmus_C57-6J_LVR_RR1_GC_wERCC_Rep1_M36,Mix 2,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,False
+Mmus_C57-6J_LVR_GC_C_Rep2_M37,GC,M37,Carcass,Mmus_C57-6J_LVR_RR1_GC_wERCC_Rep2_M37,Mix 2,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,False
+Mmus_C57-6J_LVR_GC_C_Rep4_M39,GC,M39,Carcass,Mmus_C57-6J_LVR_RR1_GC_wERCC_Rep4_M39,Mix 2,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,False
+Mmus_C57-6J_LVR_FLT_C_Rep1_M25,FLT,M25,Carcass,Mmus_C57-6J_LVR_RR1_FLT_noERCC_Rep1_M25,no-ERCC,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,True
+Mmus_C57-6J_LVR_FLT_C_Rep2_M26,FLT,M26,Carcass,Mmus_C57-6J_LVR_RR1_FLT_noERCC_Rep2_M26,no-ERCC,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,True
+Mmus_C57-6J_LVR_FLT_C_Rep4_M28,FLT,M28,Carcass,Mmus_C57-6J_LVR_RR1_FLT_noERCC_Rep3_M28,no-ERCC,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,True
+Mmus_C57-6J_LVR_FLT_C_Rep5_M30,FLT,M30,Carcass,Mmus_C57-6J_LVR_RR1_FLT_noERCC_Rep5_M30,no-ERCC,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,True
+Mmus_C57-6J_LVR_GC_C_Rep1_M36,GC,M36,Carcass,Mmus_C57-6J_LVR_RR1_GC_noERCC_Rep1_M36,no-ERCC,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,True
+Mmus_C57-6J_LVR_GC_C_Rep2_M37,GC,M37,Carcass,Mmus_C57-6J_LVR_RR1_GC_noERCC_Rep2_M37,no-ERCC,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,True
+Mmus_C57-6J_LVR_GC_C_Rep3_M38,GC,M38,Carcass,Mmus_C57-6J_LVR_RR1_GC_noERCC_Rep3_M38,no-ERCC,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,True
+Mmus_C57-6J_LVR_GC_C_Rep4_M39,GC,M39,Carcass,Mmus_C57-6J_LVR_RR1_GC_noERCC_Rep4_M39,no-ERCC,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,True
+Mmus_C57-6J_LVR_GC_C_Rep5_M40,GC,M40,Carcass,Mmus_C57-6J_LVR_RR1_GC_noERCC_Rep5_M40,no-ERCC,True,same animal/liver; identical RNA aliquot not established across OSD-48 and OSD-168,True

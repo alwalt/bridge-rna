@@ -1,0 +1,136 @@
+[edgeR] C01__OSD-137__RR3__39-day samples=4 tested=15372 method=robust_QLF
+[edgeR] C02__OSD-137__RR3__40-day samples=5 tested=15539 method=robust_QLF
+[edgeR] C03__OSD-137__RR3__41-day samples=3 tested=16559 method=robust_QLF
+[edgeR] C07__OSD-173__STS-135__not-reported samples=4 tested=14620 method=robust_QLF
+[edgeR] C08__OSD-242__RR9__not-reported samples=9 tested=14665 method=robust_QLF
+[edgeR] C09__OSD-245__RR6-ISS-T__not-reported samples=20 tested=15773 method=robust_QLF
+[edgeR] C10__OSD-245__RR6-LAR__not-reported samples=19 tested=15840 method=robust_QLF
+[edgeR] C11__OSD-47__RR1-CASIS__21-day samples=4 tested=14585 method=robust_QLF
+[edgeR] C12__OSD-47__RR1-CASIS__22-day samples=2 tested=15254 method=exactTest_fixed_BCV_0.4_no_replication
+[edgeR] C13__OSD-48__RR1-NASA__37-day samples=4 tested=14765 method=robust_QLF
+[edgeR] C14__OSD-48__RR1-NASA__37-day samples=10 tested=14010 method=robust_QLF
+/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_full_vs_bridge_vocab_expression.py:164: DtypeWarning: Columns (7,8) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(output)
+2026-09-05 13:30:40,341 [WARNING] Duplicated values found in preranked stats: 0.06% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 1/33 elapsed=0.8m eta=27.2m
+2026-09-05 13:31:31,305 [WARNING] Duplicated values found in preranked stats: 0.06% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 2/33 elapsed=1.0m eta=14.7m
+2026-09-05 13:31:37,429 [WARNING] Duplicated values found in preranked stats: 0.06% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 3/33 elapsed=1.4m eta=13.5m
+2026-09-05 13:32:01,409 [WARNING] Duplicated values found in preranked stats: 0.06% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 4/33 elapsed=2.2m eta=15.6m
+2026-09-05 13:32:49,466 [WARNING] Duplicated values found in preranked stats: 0.06% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 5/33 elapsed=2.3m eta=12.6m
+2026-09-05 13:32:55,621 [WARNING] Duplicated values found in preranked stats: 0.06% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 6/33 elapsed=2.6m eta=11.9m
+2026-09-05 13:33:18,918 [WARNING] Duplicated values found in preranked stats: 1.99% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 7/33 elapsed=3.5m eta=13.0m
+2026-09-05 13:34:10,812 [WARNING] Duplicated values found in preranked stats: 1.99% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 8/33 elapsed=3.6m eta=11.3m
+2026-09-05 13:34:16,824 [WARNING] Duplicated values found in preranked stats: 1.99% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 9/33 elapsed=4.0m eta=10.8m
+2026-09-05 13:34:42,708 [WARNING] Duplicated values found in preranked stats: 0.14% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 10/33 elapsed=4.8m eta=11.0m
+2026-09-05 13:35:26,105 [WARNING] Duplicated values found in preranked stats: 0.14% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 11/33 elapsed=4.9m eta=9.7m
+2026-09-05 13:35:31,645 [WARNING] Duplicated values found in preranked stats: 0.14% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 12/33 elapsed=5.2m eta=9.1m
+2026-09-05 13:35:53,179 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 13/33 elapsed=5.9m eta=9.1m
+2026-09-05 13:36:36,871 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 14/33 elapsed=6.0m eta=8.2m
+2026-09-05 13:36:42,067 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 15/33 elapsed=6.4m eta=7.7m
+2026-09-05 13:37:03,703 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 16/33 elapsed=7.2m eta=7.6m
+2026-09-05 13:37:51,913 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 17/33 elapsed=7.3m eta=6.9m
+2026-09-05 13:37:57,486 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 18/33 elapsed=7.7m eta=6.4m
+2026-09-05 13:38:21,132 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 19/33 elapsed=8.5m eta=6.2m
+2026-09-05 13:39:09,085 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 20/33 elapsed=8.6m eta=5.6m
+2026-09-05 13:39:14,809 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 21/33 elapsed=9.0m eta=5.1m
+2026-09-05 13:39:37,627 [WARNING] Duplicated values found in preranked stats: 0.05% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 22/33 elapsed=9.7m eta=4.8m
+2026-09-05 13:40:21,792 [WARNING] Duplicated values found in preranked stats: 0.05% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 23/33 elapsed=9.8m eta=4.3m
+2026-09-05 13:40:27,126 [WARNING] Duplicated values found in preranked stats: 0.05% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 24/33 elapsed=10.1m eta=3.8m
+2026-09-05 13:40:48,670 [WARNING] Duplicated values found in preranked stats: 15.50% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 25/33 elapsed=10.9m eta=3.5m
+2026-09-05 13:41:34,951 [WARNING] Duplicated values found in preranked stats: 15.50% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 26/33 elapsed=11.0m eta=3.0m
+2026-09-05 13:41:40,783 [WARNING] Duplicated values found in preranked stats: 15.50% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 27/33 elapsed=11.4m eta=2.5m
+2026-09-05 13:42:03,029 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 28/33 elapsed=12.2m eta=2.2m
+2026-09-05 13:42:50,232 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 29/33 elapsed=12.3m eta=1.7m
+2026-09-05 13:42:55,843 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] full_transcriptome 30/33 elapsed=12.6m eta=1.3m
+[GSEA heartbeat] full_transcriptome 31/33 elapsed=13.3m eta=0.9m
+[GSEA heartbeat] full_transcriptome 32/33 elapsed=13.4m eta=0.4m
+[GSEA heartbeat] full_transcriptome 33/33 elapsed=13.8m eta=0.0m
+
+Primary summary
+  Study                              Contrast  FLT_n  GC_n Library_selection  Full_genes  Bridge_genes  Coverage                                                                                                                                                                               Full_top_3_programs                                                                                                                                                                             Bridge_vocab_top_3_programs  NES_profile_Spearman  Shared_significant_pathways
+OSD-137             C01__OSD-137__RR3__39-day      2     2      ribodepleted       15372         11440  0.744210                                                     ribosome/translation (+3.11, FDR=0.001); Selenoamino Acid Metabolism (+3.09, FDR=0.001); Eukaryotic Translation Elongation (+3.08, FDR=0.001)                                                                ribosome/translation (+2.95, FDR=0.001); Selenoamino Acid Metabolism (+2.94, FDR=0.001); Collagen Chain Trimerization (-2.92, FDR=0.001)              0.964188                          286
+OSD-137             C02__OSD-137__RR3__40-day      3     2      ribodepleted       15539         11435  0.735890               L13a-mediated Translational Silencing of Ceruloplasmin Expression (+2.38, FDR=0.001); ribosome/translation (+2.37, FDR=0.001); Eukaryotic Translation Elongation (+2.37, FDR=0.001)                                                           Translation (+2.54, FDR=0.001); Cap-dependent Translation Initiation (+2.52, FDR=0.001); Eukaryotic Translation Initiation (+2.52, FDR=0.001)              0.942827                           50
+OSD-137             C03__OSD-137__RR3__41-day      1     2      ribodepleted       16559         11783  0.711577                      Aerobic Electron Transport Chain (-3.14, FDR=0.001); Mitochondrial ATP Synthesis Coupled Electron Transport (-3.14, FDR=0.001); Oxidative Phosphorylation (-3.11, FDR=0.001)                            Mitochondrial ATP Synthesis Coupled Electron Transport (-3.01, FDR=0.001); Aerobic Electron Transport Chain (-2.99, FDR=0.001); OXIDATIVE PHOSPHORYLATION (-2.97, FDR=0.001)              0.959118                          338
+OSD-173   C07__OSD-173__STS-135__not-reported      2     2      ribodepleted       14620         11086  0.758276         fatty-acid metabolism (+2.69, FDR=0.001); Protein Localization (+2.50, FDR=0.001); HSP90 Chaperone Cycle for Steroid Hormone Receptors (SHR) in the Presence of Ligand (-2.44, FDR=0.001)                                                                            fatty-acid metabolism (+2.67, FDR=0.001); Protein Localization (+2.49, FDR=0.001); PPAR SIGNALING PATHWAY (+2.46, FDR=0.001)              0.959263                          137
+OSD-242       C08__OSD-242__RR9__not-reported      5     4      ribodepleted       14665         11013  0.750972                  Regulation of Apoptosis (+2.95, FDR=0.001); Regulation of Activated PAK-2p34 by Proteasome Mediated Degradation (+2.92, FDR=0.001); ABC Transporter Disorders (+2.92, FDR=0.001)                              Regulation of Apoptosis (+2.94, FDR=0.001); AUF1 (hnRNP D0) Binds and Destabilizes mRNA (+2.94, FDR=0.001); Regulation of Ornithine Decarboxylase (ODC) (+2.92, FDR=0.001)              0.970062                          440
+OSD-245 C09__OSD-245__RR6-ISS-T__not-reported     10    10      ribodepleted       15773         11448  0.725797                                                      Eukaryotic Translation Elongation (-3.22, FDR=0.001); Peptide Chain Elongation (-3.20, FDR=0.001); Viral mRNA Translation (-3.19, FDR=0.001)                                                Peptide Chain Elongation (-3.02, FDR=0.001); Eukaryotic Translation Elongation (-3.01, FDR=0.001); Eukaryotic Translation Termination (-3.00, FDR=0.001)              0.943761                           98
+OSD-245   C10__OSD-245__RR6-LAR__not-reported     10     9      ribodepleted       15840         11547  0.728977 cholesterol metabolism (-2.69, FDR=0.001); Immunoregulatory Interactions Between a Lymphoid and a non-Lymphoid Cell (-2.66, FDR=0.001); Secondary Alcohol Biosynthetic Process (-2.60, FDR=0.001)                                                    cholesterol metabolism (-2.79, FDR=0.001); Sterol Biosynthetic Process (-2.74, FDR=0.001); Secondary Alcohol Biosynthetic Process (-2.72, FDR=0.001)              0.964868                          338
+ OSD-47        C11__OSD-47__RR1-CASIS__21-day      2     2             polyA       14585         11309  0.775386                                         HSF1-dependent Transactivation (-2.32, FDR=0.001); Non-canonical NF-kappaB Signal Transduction (+2.24, FDR=0.00255); Attenuation Phase (-2.20, FDR=0.004)                                     Non-canonical NF-kappaB Signal Transduction (+2.24, FDR=0.0036); ribosome/translation (-2.09, FDR=0.00378); ANTIGEN PROCESSING AND PRESENTATION (-2.02, FDR=0.0063)              0.964618                            5
+ OSD-47        C12__OSD-47__RR1-CASIS__22-day      1     1             polyA       15254         11578  0.759014                 Aerobic Electron Transport Chain (+2.52, FDR=0.001); Respiratory Electron Transport (+2.50, FDR=0.001); Mitochondrial ATP Synthesis Coupled Electron Transport (+2.49, FDR=0.001) Respiratory Electron Transport (+2.86, FDR=0.001); Aerobic Respiration and Respiratory Electron Transport (+2.75, FDR=0.001); Mitochondrial ATP Synthesis Coupled Electron Transport (+2.72, FDR=0.001)              0.987012                          213
+ OSD-48         C13__OSD-48__RR1-NASA__37-day      2     2             polyA       14765         11762  0.796614                                                               Striated Muscle Contraction (-2.43, FDR=0.001); cholesterol metabolism (-2.27, FDR=0.00145); Myofibril Assembly (-2.44, FDR=0.0022)                                                                            Striated Muscle Contraction (-2.43, FDR=0.001); Myofibril Assembly (-2.41, FDR=0.001); Endogenous Sterols (+2.25, FDR=0.001)              0.955450                           23
+ OSD-48         C14__OSD-48__RR1-NASA__37-day      5     5             polyA       14010         10832  0.773162                The Role of GTSE1 in G2 M Progression After G2 Checkpoint (+2.60, FDR=0.001); Response to Type I Interferon (+2.46, FDR=0.001); Interferon Alpha Beta Signaling (+2.46, FDR=0.001)               The Role of GTSE1 in G2 M Progression After G2 Checkpoint (+2.59, FDR=0.001); Cellular Response to Type I Interferon (+2.40, FDR=0.001); Response to Type I Interferon (+2.38, FDR=0.001)              0.961059                          158
+
+Global agreement
+                          contrast_id  pathways_compared  nes_spearman  significant_full  significant_bridge_vocab  shared_significant  shared_fraction_of_union  shared_direction_agreement
+            C01__OSD-137__RR3__39-day               4579      0.964188               322                       328                 286                  0.785714                         1.0
+            C02__OSD-137__RR3__40-day               4568      0.942827                60                        77                  50                  0.574713                         1.0
+            C03__OSD-137__RR3__41-day               4649      0.959118               497                       405                 338                  0.599291                         1.0
+  C07__OSD-173__STS-135__not-reported               4499      0.959263               169                       169                 137                  0.681592                         1.0
+      C08__OSD-242__RR9__not-reported               4468      0.970062               549                       564                 440                  0.653789                         1.0
+C09__OSD-245__RR6-ISS-T__not-reported               4585      0.943761               230                       108                  98                  0.408333                         1.0
+  C10__OSD-245__RR6-LAR__not-reported               4607      0.964868               422                       376                 338                  0.734783                         1.0
+       C11__OSD-47__RR1-CASIS__21-day               4560      0.964618                30                         7                   5                  0.156250                         1.0
+       C12__OSD-47__RR1-CASIS__22-day               4637      0.987012               233                       346                 213                  0.581967                         1.0
+        C13__OSD-48__RR1-NASA__37-day               4649      0.955450                39                        27                  23                  0.534884                         1.0
+        C14__OSD-48__RR1-NASA__37-day               4432      0.961059               171                       170                 158                  0.863388                         1.0
+
+Saved outputs to /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_full_vs_bridge_vocab_expression

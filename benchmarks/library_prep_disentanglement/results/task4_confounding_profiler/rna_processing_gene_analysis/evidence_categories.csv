@@ -1,0 +1,248 @@
+category,gene
+T-cell + RR1,ATXN2L
+T-cell + RR1,CNOT3
+T-cell + RR1,DUSP11
+T-cell + RR1,NCOR1
+T-cell + RR1,POU2F1
+T-cell + RR1,PUS7
+T-cell + RR1,RBM14
+T-cell + RR1,RBM15
+T-cell + RR1,RBM4
+T-cell + RR1,SMNDC1
+T-cell + RR1,SUPT20H
+T-cell + RR1,ZFC3H1
+"RR1 + reproducible RR3, weak T-cell",ANKRD16
+"RR1 + reproducible RR3, weak T-cell",ARGLU1
+"RR1 + reproducible RR3, weak T-cell",ATXN2
+"RR1 + reproducible RR3, weak T-cell",BOP1
+"RR1 + reproducible RR3, weak T-cell",CLK4
+"RR1 + reproducible RR3, weak T-cell",CPSF6
+"RR1 + reproducible RR3, weak T-cell",DDX17
+"RR1 + reproducible RR3, weak T-cell",EARS2
+"RR1 + reproducible RR3, weak T-cell",HNRNPH1
+"RR1 + reproducible RR3, weak T-cell",NUP58
+"RR1 + reproducible RR3, weak T-cell",PNN
+"RR1 + reproducible RR3, weak T-cell",RBMX
+"RR1 + reproducible RR3, weak T-cell",RNPC3
+"RR1 + reproducible RR3, weak T-cell",RPRD1A
+"RR1 + reproducible RR3, weak T-cell",SF1
+"RR1 + reproducible RR3, weak T-cell",SIRT7
+"RR1 + reproducible RR3, weak T-cell",SNAPC3
+"RR1 + reproducible RR3, weak T-cell",SNRNP70
+"RR1 + reproducible RR3, weak T-cell",SRRM1
+"RR1 + reproducible RR3, weak T-cell",SRSF1
+"RR1 + reproducible RR3, weak T-cell",SRSF2
+"RR1 + reproducible RR3, weak T-cell",SRSF5
+"RR1 + reproducible RR3, weak T-cell",SRSF7
+"RR1 + reproducible RR3, weak T-cell",TERT
+"RR1 + reproducible RR3, weak T-cell",TRA2A
+"RR1 + reproducible RR3, weak T-cell",ZC3H13
+T-cell + RR1 + reproducible RR3,CNOT3
+T-cell + RR1 + reproducible RR3,RBM14
+T-cell + RR1 + reproducible RR3,ZFC3H1
+Reproducible RR3 only,ADAR
+Reproducible RR3 only,ADARB1
+Reproducible RR3 only,AGO4
+Reproducible RR3 only,ATOH8
+Reproducible RR3 only,BARD1
+Reproducible RR3 only,BRIX1
+Reproducible RR3 only,CCNL2
+Reproducible RR3 only,CIRBP
+Reproducible RR3 only,CLP1
+Reproducible RR3 only,CWC25
+Reproducible RR3 only,DDX49
+Reproducible RR3 only,DNAJC17
+Reproducible RR3 only,EGFR
+Reproducible RR3 only,EGR1
+Reproducible RR3 only,EIF6
+Reproducible RR3 only,ELAC1
+Reproducible RR3 only,ERN1
+Reproducible RR3 only,ESRP1
+Reproducible RR3 only,EXOSC9
+Reproducible RR3 only,FOS
+Reproducible RR3 only,FOSL1
+Reproducible RR3 only,FOXA1
+Reproducible RR3 only,FOXO3
+Reproducible RR3 only,GATA2
+Reproducible RR3 only,GEMIN2
+Reproducible RR3 only,GEMIN6
+Reproducible RR3 only,GLUL
+Reproducible RR3 only,GTF2F1
+Reproducible RR3 only,HEATR1
+Reproducible RR3 only,HNRNPD
+Reproducible RR3 only,HNRNPL
+Reproducible RR3 only,HSPA8
+Reproducible RR3 only,IL1B
+Reproducible RR3 only,ILDR2
+Reproducible RR3 only,INTS12
+Reproducible RR3 only,INTS2
+Reproducible RR3 only,JUN
+Reproducible RR3 only,LENG1
+Reproducible RR3 only,LEO1
+Reproducible RR3 only,LSM10
+Reproducible RR3 only,LSM5
+Reproducible RR3 only,LUC7L2
+Reproducible RR3 only,MAEL
+Reproducible RR3 only,MALSU1
+Reproducible RR3 only,MBNL2
+Reproducible RR3 only,MBNL3
+Reproducible RR3 only,METTL1
+Reproducible RR3 only,METTL15
+Reproducible RR3 only,MOV10L1
+Reproducible RR3 only,MRPS2
+Reproducible RR3 only,MTERF2
+Reproducible RR3 only,MTERF4
+Reproducible RR3 only,MYC
+Reproducible RR3 only,NDUFAB1
+Reproducible RR3 only,NFATC4
+Reproducible RR3 only,NOCT
+Reproducible RR3 only,NOLC1
+Reproducible RR3 only,NOTCH3
+Reproducible RR3 only,NSRP1
+Reproducible RR3 only,NXT2
+Reproducible RR3 only,PABPN1
+Reproducible RR3 only,PCBP3
+Reproducible RR3 only,PDGFB
+Reproducible RR3 only,PIN4
+Reproducible RR3 only,PLD6
+Reproducible RR3 only,PNLDC1
+Reproducible RR3 only,POLR2G
+Reproducible RR3 only,POLR2H
+Reproducible RR3 only,POLR2I
+Reproducible RR3 only,PPARA
+Reproducible RR3 only,PPARG
+Reproducible RR3 only,PPARGC1A
+Reproducible RR3 only,PPIL1
+Reproducible RR3 only,PRPF39
+Reproducible RR3 only,PRX
+Reproducible RR3 only,QTRT1
+Reproducible RR3 only,RALY
+Reproducible RR3 only,RBIS
+Reproducible RR3 only,RBM24
+Reproducible RR3 only,RBM25
+Reproducible RR3 only,RBM3
+Reproducible RR3 only,RBMS1
+Reproducible RR3 only,RC3H2
+Reproducible RR3 only,RNF25
+Reproducible RR3 only,RPF2
+Reproducible RR3 only,RPL13A
+Reproducible RR3 only,RPL22
+Reproducible RR3 only,RPL28
+Reproducible RR3 only,RPL34
+Reproducible RR3 only,RPL36
+Reproducible RR3 only,RPL3L
+Reproducible RR3 only,RPL5
+Reproducible RR3 only,RPP25
+Reproducible RR3 only,RPS14
+Reproducible RR3 only,RPS15A
+Reproducible RR3 only,RPS21
+Reproducible RR3 only,RRP1B
+Reproducible RR3 only,RSRP1
+Reproducible RR3 only,SLC25A33
+Reproducible RR3 only,SLC38A2
+Reproducible RR3 only,SNRNP25
+Reproducible RR3 only,SNRPD3
+Reproducible RR3 only,SNRPF
+Reproducible RR3 only,SPOUT1
+Reproducible RR3 only,SREBF1
+Reproducible RR3 only,SRRM4
+Reproducible RR3 only,SRSF3
+Reproducible RR3 only,SRSF6
+Reproducible RR3 only,STAT3
+Reproducible RR3 only,TARDBP
+Reproducible RR3 only,TCERG1
+Reproducible RR3 only,TEAD1
+Reproducible RR3 only,TIA1
+Reproducible RR3 only,TMBIM6
+Reproducible RR3 only,TNF
+Reproducible RR3 only,TNRC6A
+Reproducible RR3 only,TP53
+Reproducible RR3 only,TRDMT1
+Reproducible RR3 only,TRIP4
+Reproducible RR3 only,TRIT1
+Reproducible RR3 only,TRMT11
+Reproducible RR3 only,TRPT1
+Reproducible RR3 only,TWIST1
+Reproducible RR3 only,U2AF1
+Reproducible RR3 only,UBL5
+Reproducible RR3 only,UFL1
+Reproducible RR3 only,VEGFA
+Reproducible RR3 only,WT1
+Reproducible RR3 only,XPOT
+Reproducible RR3 only,ZC3H7A
+Reproducible RR3 only,ZFP36
+Reproducible RR3 only,ZNF326
+Reproducible RR3 only,ZPR1
+T-cell only,ADAD2
+T-cell only,AGO3
+T-cell only,CDKAL1
+T-cell only,CHERP
+T-cell only,CLNS1A
+T-cell only,CMTR2
+T-cell only,CPSF2
+T-cell only,CWF19L2
+T-cell only,DCP2
+T-cell only,DIMT1
+T-cell only,DTD2
+T-cell only,DYRK1A
+T-cell only,EIF5B
+T-cell only,EXOSC6
+T-cell only,FARS2
+T-cell only,GATA3
+T-cell only,GNL3L
+T-cell only,GTF2F2
+T-cell only,GTF3C1
+T-cell only,HNRNPH3
+T-cell only,INTS6
+T-cell only,MBLAC1
+T-cell only,MEPCE
+T-cell only,MT-CO3
+T-cell only,MT-ND2
+T-cell only,MT-ND3
+T-cell only,MT-ND4L
+T-cell only,MT-ND5
+T-cell only,MT-ND6
+T-cell only,MTREX
+T-cell only,NOL9
+T-cell only,NOP10
+T-cell only,NUP35
+T-cell only,NUP98
+T-cell only,PAX6
+T-cell only,PCBP1
+T-cell only,PCBP2
+T-cell only,POLR2A
+T-cell only,PPP2R1A
+T-cell only,PRKACA
+T-cell only,RANBP2
+T-cell only,RBFOX3
+T-cell only,RBM27
+T-cell only,RC3H1
+T-cell only,RNGTT
+T-cell only,RPL10L
+T-cell only,RPS16
+T-cell only,RPS17
+T-cell only,RSRC1
+T-cell only,SETX
+T-cell only,SF3A2
+T-cell only,SF3B4
+T-cell only,SLFN14
+T-cell only,SMAD2
+T-cell only,SMU1
+T-cell only,SNIP1
+T-cell only,SNRNP40
+T-cell only,SRFBP1
+T-cell only,SRPK3
+T-cell only,STEEP1
+T-cell only,TGFB1
+T-cell only,TGS1
+T-cell only,THADA
+T-cell only,THRAP3
+T-cell only,TNRC6B
+T-cell only,TRMT12
+T-cell only,TSNAX
+T-cell only,USB1
+T-cell only,WDR36
+T-cell only,WDR74
+T-cell only,ZBTB7A
+T-cell only,ZC3HAV1
+T-cell only,ZNF638

@@ -1,0 +1,8 @@
+{
+  "reference": "unchanged uncentered controlled T-cell PolyA/Ribo PC1-2",
+  "orientation": "projection of mean(z_Ribo-z_PolyA)",
+  "controlled_donors": 40,
+  "PC1_2_controlled_displacement_variance": 0.9908320685331713,
+  "directional_label_rule": "descriptive only: abs(cosine)<0.25 weak/no direction; otherwise sign defines Ribo/PolyA",
+  "interpretation_caveat": "Direction and occupancy indicate relationship to a controlled associated reference, not causality or technical artifact."
+}

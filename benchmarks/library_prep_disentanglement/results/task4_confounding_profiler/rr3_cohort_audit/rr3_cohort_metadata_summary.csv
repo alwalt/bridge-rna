@@ -1,0 +1,36 @@
+variable,rr3_39_values,rr3_40_values,rr3_41_values_if_available,association_with_cohort,possible_explanation,confidence,notes
+duration_day,39,40,41,D. perfectly associated with cohort,Duration/collection cohort are inseparable in this design.,high,"API field; missing means unavailable, not identical."
+api_duration,39 {day},40 {day},41 {day},D. perfectly associated with cohort,Duration/collection cohort are inseparable in this design.,high,"API field; missing means unavailable, not identical."
+exposure_duration,39 {day} | {Not applicable},40 {day} | {Not applicable},41 {day} | {Not applicable},B/C. varies within and/or partially associated,Duration/collection cohort are inseparable in this design.,high,"API field; missing means unavailable, not identical."
+carcass_weight,19.5 {gram} | 20 {gram} | 20.3 {gram} | 20.8 {gram},20.1 {gram} | 20.4 {gram} | 21.6 {gram} | 22.7 {gram} | 22.8 {gram},20.9 {gram} | 21.6 {gram} | 22.1 {gram},D. perfectly associated with cohort,,high,"API field; missing means unavailable, not identical."
+radiation_dose,8.97 {milligray} | {Not applicable},9.2 {milligray} | {Not applicable},9.471 {milligray} | {Not applicable},B/C. varies within and/or partially associated,Duration/collection cohort are inseparable in this design.,high,"API field; missing means unavailable, not identical."
+radiation_dose_rate,0.231 {milligray per day} | {Not applicable},0.231 {milligray per day} | {Not applicable},0.231 {milligray per day} | {Not applicable},B/C. varies within and/or partially associated,,high,"API field; missing means unavailable, not identical."
+sample_preservation,Liquid Nitrogen,Liquid Nitrogen,Liquid Nitrogen,A. identical across RR3-39 and RR3-40,,high,"API field; missing means unavailable, not identical."
+storage_temperature,-80 {degree Celsius},-80 {degree Celsius},-80 {degree Celsius},A. identical across RR3-39 and RR3-40,,high,"API field; missing means unavailable, not identical."
+habitat,Rodent Habitat,Rodent Habitat,Rodent Habitat,A. identical across RR3-39 and RR3-40,,high,"API field; missing means unavailable, not identical."
+euthanasia_method,ketamine/xylazine/acepromazine,ketamine/xylazine/acepromazine,ketamine/xylazine/acepromazine,A. identical across RR3-39 and RR3-40,,high,"API field; missing means unavailable, not identical."
+strain,BALB/c,BALB/c,BALB/c,A. identical across RR3-39 and RR3-40,,high,"API field; missing means unavailable, not identical."
+sex,Female,Female,Female,A. identical across RR3-39 and RR3-40,,high,"API field; missing means unavailable, not identical."
+age_at_launch,12 {week},12 {week},12 {week},A. identical across RR3-39 and RR3-40,,high,"API field; missing means unavailable, not identical."
+library_selection,ribo-depletion,ribo-depletion,ribo-depletion,A. identical across RR3-39 and RR3-40,,high,"API field; missing means unavailable, not identical."
+library_layout,PAIRED,PAIRED,PAIRED,A. identical across RR3-39 and RR3-40,,high,"API field; missing means unavailable, not identical."
+sequencing_instrument,Illumina HiSeq 4000,Illumina HiSeq 4000,Illumina HiSeq 4000,A. identical across RR3-39 and RR3-40,,high,"API field; missing means unavailable, not identical."
+read_length,150 {base pair},150 {base pair},150 {base pair},A. identical across RR3-39 and RR3-40,,high,"API field; missing means unavailable, not identical."
+read_depth,81356171 {read} | 82415869 {read} | 88319425 {read} | 90717676 {read},80870328 {read} | 87509864 {read} | 87931062 {read} | 88284210 {read} | 90022039 {read},84024388 {read} | 87826760 {read} | 94191148 {read},D. perfectly associated with cohort,,high,"API field; missing means unavailable, not identical."
+rrna_contamination,11.83 {percent} | 12.84 {percent} | 15.92 {percent} | 24.6 {percent},18.2 {percent} | 21.89 {percent} | 22.06 {percent} | 7.76 {percent} | 9.83 {percent},10.03 {percent} | 7.13 {percent} | 8.79 {percent},D. perfectly associated with cohort,,high,"API field; missing means unavailable, not identical."
+RIN,7.1 {RNA Integrity Number} | 7.3 {RNA Integrity Number},6.7 {RNA Integrity Number} | 6.9 {RNA Integrity Number} | 7.2 {RNA Integrity Number} | 7.5 {RNA Integrity Number} | 7.8 {RNA Integrity Number},7.7 {RNA Integrity Number} | 8 {RNA Integrity Number} | 8.8 {RNA Integrity Number},D. perfectly associated with cohort,,high,"API field; missing means unavailable, not identical."
+library_index,ACATTGGC | CCGAAGTA | CGACTGGA | CTGTAGCC,AACCGAGA | ATCCTGTA | CAAGACTA | GATAGACA | GTCGTAGA,ACTATGCA | ATTGAGGA | TCTTCACA,D. perfectly associated with cohort,,high,"API field; missing means unavailable, not identical."
+stranded,STRANDED,STRANDED,STRANDED,A. identical across RR3-39 and RR3-40,,high,"API field; missing means unavailable, not identical."
+euthanasia_date,,,,E. missing / unavailable,,low,Not present in locally cached authoritative API sample metadata.
+euthanasia_time,,,,E. missing / unavailable,,low,Not present in locally cached authoritative API sample metadata.
+euthanasia_order,,,,E. missing / unavailable,,low,Not present in locally cached authoritative API sample metadata.
+tissue_collection_time,,,,E. missing / unavailable,,low,Not present in locally cached authoritative API sample metadata.
+dissection_order,,,,E. missing / unavailable,,low,Not present in locally cached authoritative API sample metadata.
+RNA_extraction_batch,,,,E. missing / unavailable,,low,Not present in locally cached authoritative API sample metadata.
+library_preparation_date,,,,E. missing / unavailable,,low,Not present in locally cached authoritative API sample metadata.
+sequencing_run_lane,,,,E. missing / unavailable,,low,Not present in locally cached authoritative API sample metadata.
+cage_position,,,,E. missing / unavailable,,low,Not present in locally cached authoritative API sample metadata.
+food_consumption,,,,E. missing / unavailable,,low,Not present in locally cached authoritative API sample metadata.
+water_consumption,,,,E. missing / unavailable,,low,Not present in locally cached authoritative API sample metadata.
+health_observations,,,,E. missing / unavailable,,low,Not present in locally cached authoritative API sample metadata.
+tissue_weight,,,,E. missing / unavailable,,low,Not present in locally cached authoritative API sample metadata.

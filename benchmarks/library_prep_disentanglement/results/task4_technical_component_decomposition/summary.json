@@ -1,0 +1,9 @@
+{
+  "controlled_pairs": 40,
+  "difference_rank": 40,
+  "full_correction_k": 5,
+  "full_cumulative_variance": 0.995201437529323,
+  "selective_components": [],
+  "selection_warning": "Exploratory: independent NASA overlap contributes to the candidate component label; correction performance on NASA is descriptive, not confirmatory.",
+  "conclusion": "Protocol-associated components overlap biological response structure; no component is interpreted as purely technical."
+}

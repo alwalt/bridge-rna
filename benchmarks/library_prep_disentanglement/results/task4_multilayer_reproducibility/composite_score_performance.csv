@@ -1,0 +1,7 @@
+model,features,ROC_AUC,PR_AUC,bootstrap_low,bootstrap_high,leave_one_positive_out_min,leave_one_positive_out_max
+geometry_only,latent_cosine,0.6944444444444444,0.6324786324786325,0.35,1.0,0.5416666666666666,0.9583333333333333
+attribution_only,attribution_cosine | attribution_spearman | top500_jaccard,1.0,1.0,0.9999999999999999,1.0,1.0,1.0
+pathway_only,pathway_pearson | pathway_spearman,1.0,1.0,0.9999999999999999,1.0,1.0,1.0
+geometry_plus_attribution,latent_cosine | attribution_cosine | attribution_spearman | top500_jaccard,0.9722222222222222,0.9166666666666666,0.875,1.0,0.9583333333333333,1.0
+geometry_plus_attribution_plus_pathway,latent_cosine | attribution_cosine | attribution_spearman | top500_jaccard | pathway_pearson | pathway_spearman,0.9722222222222222,0.9166666666666666,0.8769230769230769,1.0,0.9583333333333333,1.0
+expression_only,expression_pearson | expression_spearman,1.0,1.0,0.9999999999999999,1.0,1.0,1.0

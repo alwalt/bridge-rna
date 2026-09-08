@@ -1,0 +1,14 @@
+{
+  "contrasts": 9,
+  "genes_per_contrast": 15165,
+  "median_signed_spearman": -0.26277026558573563,
+  "median_magnitude_spearman": 0.6833781187591581,
+  "median_cv_R2": 0.031283506471801004,
+  "residual_cosines": {
+    "RR1": 0.7343196167561512,
+    "RR3-39": 0.8694570003536338,
+    "RR3-40": 0.694494867807117
+  },
+  "decision": "MIXED / INSUFFICIENT EVIDENCE",
+  "note": "Residual attribution is out-of-fold linear residual against signed/absolute expression change, mean expression, and log1p variance; it is not automatically biology."
+}

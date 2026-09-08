@@ -1,0 +1,14 @@
+{
+  "global_samples": 40000,
+  "pca_fit_samples": 32029,
+  "genes_PCA15165": 15165,
+  "genes_PCA_FULL_global": null,
+  "PCA_FULL_global_reason": "same-sample full-gene ARCHS4 matrix unavailable",
+  "geometry_subset": 3000,
+  "Tcell_pairs": 40,
+  "imputation_dataset": "TCGA external",
+  "imputation_samples": 1000,
+  "imputation_seed": 0,
+  "outcome": "C_BRIDGERNA_AMPLIFIES_LOW_DIMENSIONALITY_DESTRUCTIVELY_FOR_EVALUATED_ENDPOINTS",
+  "qualification": "Some linear tissue readouts favor BridgeRNA, so broader representation utility remains mixed."
+}

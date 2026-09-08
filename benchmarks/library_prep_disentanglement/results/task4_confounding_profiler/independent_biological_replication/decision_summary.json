@@ -1,0 +1,12 @@
+{
+  "decision": "B_with_important_limitations",
+  "plain_language": "Chromatin organization/remodeling and DNA-damage programs recur in independent FLT-GC data and are also supported by conventional edgeR, so they are not adequately described as an RR1-only technical artifact. Their BridgeRNA high-context recurrence is limited (two independent OSDs each), and one of the two DNA-supporting OSDs is the unreplicated 1-vs-1 RR1-CASIS stratum. The evidence therefore supports recurrent spaceflight-associated biology that is technically vulnerable in RR1, but only provisionally and without causal attribution.",
+  "RNA_processing": "Strong controlled and RR1 technical sensitivity, but high-contextual-response recurrence occurred in only one independent OSD; conventional edgeR recurrence was broader.",
+  "chromatin_independent_osds": 2,
+  "DNA_repair_independent_osds": 2,
+  "hepatic_metabolic_independent_osds": 6,
+  "top100_context_genes_edgeR_significant_fraction": 0.22363636363636363,
+  "median_gene_rank_spearman": 0.2958371540306302,
+  "median_pathway_nes_spearman": 0.44552538847680384,
+  "caveat": "Biological recurrence, technical sensitivity, and biology-by-technical interaction are distinct; recurrence does not prove a purely biological origin."
+}

@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-09-05T08:26:52.320576+00:00",
+  "primary_contrasts": 11,
+  "primary_samples": 84,
+  "excluded_from_independent_recurrence": [
+    "C04",
+    "C05",
+    "C06 (OSD-168 technical remeasurements)"
+  ],
+  "contextual_metric": "L2 norm of mean contextual hidden embedding FLT minus GC, per gene",
+  "genes": 15165,
+  "gsea_permutations": 1000,
+  "gsea_min_size": 10,
+  "gsea_max_size": 500,
+  "edgeR": "TMM + robust quasi-likelihood, separate model per contrast",
+  "frozen_bridge": true
+}

@@ -1,0 +1,26 @@
+{
+  "backbone_frozen": true,
+  "backbone_inference_recomputed": false,
+  "layers": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    12
+  ],
+  "readouts": [
+    "mean",
+    "std",
+    "mean_plus_std",
+    "mean_plus_variance",
+    "mean_plus_max",
+    "expression_weighted_mean",
+    "expression_weighted_mean_plus_std",
+    "mean_plus_std_plus_max"
+  ],
+  "folds": "exact prior five GSE-disjoint folds",
+  "selection": "training-only alpha; final table exploratory multi-metric ranking",
+  "supervised_projection": "not run in fixed-readout phase; would be task-specific rather than a universal frozen embedding"
+}

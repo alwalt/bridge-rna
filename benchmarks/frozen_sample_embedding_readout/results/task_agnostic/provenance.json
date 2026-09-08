@@ -1,0 +1,17 @@
+{
+  "encoder": "frozen r7hnr92k",
+  "layers": [
+    11,
+    12
+  ],
+  "ditto_sampled_queries": 64,
+  "ditto_definition": "mean existing scaled-dot-product attention received by genes from 64 deterministic query tokens and 8 heads",
+  "ditto_centroid_definition": "existing Q/K projections; per-head mean query attends to all keys; weights averaged over heads",
+  "modules": "50 MSigDB Hallmarks; overlapping membership retained",
+  "module_representation": "ordered concatenation of per-module contextual-token means or means+SDs",
+  "splits": "exact existing five GSE-disjoint folds",
+  "limitations": [
+    "no CLS token exists",
+    "sampled incoming attention approximates rather than materializes the full 15165x15165 attention matrix"
+  ]
+}

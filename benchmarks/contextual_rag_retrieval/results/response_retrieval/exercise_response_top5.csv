@@ -1,0 +1,201 @@
+query,rank,retrieved,similarity,query_family,retrieved_family,correct_family,representation
+human_GSE108643,1,human_GSE86931,0.55153364,exploratory_axis_A,exploratory_axis_A,True,Raw expression
+human_GSE108643,2,human_GSE151066,0.5033022,exploratory_axis_A,intermediate,False,Raw expression
+human_GSE108643,3,human_GSE71972,0.4343345,exploratory_axis_A,exploratory_axis_B,False,Raw expression
+human_GSE108643,4,mouse_GSE132520,0.26326817,exploratory_axis_A,exploratory_axis_A,True,Raw expression
+human_GSE108643,5,mouse_GSE126962,0.12493891,exploratory_axis_A,exploratory_axis_A,True,Raw expression
+human_GSE151066,1,human_GSE71972,0.6157772,intermediate,exploratory_axis_B,False,Raw expression
+human_GSE151066,2,human_GSE108643,0.5033022,intermediate,exploratory_axis_A,False,Raw expression
+human_GSE151066,3,mouse_GSE132520,0.31377164,intermediate,exploratory_axis_A,False,Raw expression
+human_GSE151066,4,human_GSE86931,0.14931482,intermediate,exploratory_axis_A,False,Raw expression
+human_GSE151066,5,human_GSE87748,0.08332448,intermediate,exploratory_axis_B,False,Raw expression
+human_GSE71972,1,human_GSE151066,0.6157772,exploratory_axis_B,intermediate,False,Raw expression
+human_GSE71972,2,human_GSE108643,0.4343345,exploratory_axis_B,exploratory_axis_A,False,Raw expression
+human_GSE71972,3,human_GSE87748,0.18891554,exploratory_axis_B,exploratory_axis_B,True,Raw expression
+human_GSE71972,4,mouse_GSE97718,0.18139838,exploratory_axis_B,exploratory_axis_B,True,Raw expression
+human_GSE71972,5,mouse_GSE132520,0.11854942,exploratory_axis_B,exploratory_axis_A,False,Raw expression
+human_GSE86931,1,human_GSE108643,0.55153364,exploratory_axis_A,exploratory_axis_A,True,Raw expression
+human_GSE86931,2,mouse_GSE132520,0.2848454,exploratory_axis_A,exploratory_axis_A,True,Raw expression
+human_GSE86931,3,mouse_GSE126962,0.15840188,exploratory_axis_A,exploratory_axis_A,True,Raw expression
+human_GSE86931,4,human_GSE151066,0.14931482,exploratory_axis_A,intermediate,False,Raw expression
+human_GSE86931,5,human_GSE87748,0.0940395,exploratory_axis_A,exploratory_axis_B,False,Raw expression
+human_GSE87748,1,human_GSE71972,0.18891554,exploratory_axis_B,exploratory_axis_B,True,Raw expression
+human_GSE87748,2,human_GSE86931,0.0940395,exploratory_axis_B,exploratory_axis_A,False,Raw expression
+human_GSE87748,3,mouse_GSE97718,0.08523532,exploratory_axis_B,exploratory_axis_B,True,Raw expression
+human_GSE87748,4,human_GSE151066,0.08332448,exploratory_axis_B,intermediate,False,Raw expression
+human_GSE87748,5,human_GSE108643,0.077400066,exploratory_axis_B,exploratory_axis_A,False,Raw expression
+mouse_GSE126962,1,human_GSE86931,0.15840188,exploratory_axis_A,exploratory_axis_A,True,Raw expression
+mouse_GSE126962,2,human_GSE108643,0.12493891,exploratory_axis_A,exploratory_axis_A,True,Raw expression
+mouse_GSE126962,3,mouse_GSE132520,0.102900326,exploratory_axis_A,exploratory_axis_A,True,Raw expression
+mouse_GSE126962,4,human_GSE151066,-0.0064942557,exploratory_axis_A,intermediate,False,Raw expression
+mouse_GSE126962,5,mouse_GSE97718,-0.04692787,exploratory_axis_A,exploratory_axis_B,False,Raw expression
+mouse_GSE132520,1,human_GSE151066,0.31377164,exploratory_axis_A,intermediate,False,Raw expression
+mouse_GSE132520,2,human_GSE86931,0.2848454,exploratory_axis_A,exploratory_axis_A,True,Raw expression
+mouse_GSE132520,3,human_GSE108643,0.26326817,exploratory_axis_A,exploratory_axis_A,True,Raw expression
+mouse_GSE132520,4,human_GSE71972,0.11854942,exploratory_axis_A,exploratory_axis_B,False,Raw expression
+mouse_GSE132520,5,mouse_GSE126962,0.102900326,exploratory_axis_A,exploratory_axis_A,True,Raw expression
+mouse_GSE97718,1,human_GSE71972,0.18139838,exploratory_axis_B,exploratory_axis_B,True,Raw expression
+mouse_GSE97718,2,human_GSE87748,0.08523532,exploratory_axis_B,exploratory_axis_B,True,Raw expression
+mouse_GSE97718,3,human_GSE151066,0.032792903,exploratory_axis_B,intermediate,False,Raw expression
+mouse_GSE97718,4,mouse_GSE126962,-0.04692787,exploratory_axis_B,exploratory_axis_A,False,Raw expression
+mouse_GSE97718,5,mouse_GSE132520,-0.06903887,exploratory_axis_B,exploratory_axis_A,False,Raw expression
+human_GSE108643,1,human_GSE86931,0.70908856,exploratory_axis_A,exploratory_axis_A,True,PCA-15165
+human_GSE108643,2,human_GSE151066,0.57928246,exploratory_axis_A,intermediate,False,PCA-15165
+human_GSE108643,3,mouse_GSE132520,0.52392226,exploratory_axis_A,exploratory_axis_A,True,PCA-15165
+human_GSE108643,4,mouse_GSE126962,0.4049795,exploratory_axis_A,exploratory_axis_A,True,PCA-15165
+human_GSE108643,5,human_GSE71972,0.26478395,exploratory_axis_A,exploratory_axis_B,False,PCA-15165
+human_GSE151066,1,human_GSE71972,0.7173096,intermediate,exploratory_axis_B,False,PCA-15165
+human_GSE151066,2,human_GSE108643,0.57928246,intermediate,exploratory_axis_A,False,PCA-15165
+human_GSE151066,3,mouse_GSE132520,0.5398688,intermediate,exploratory_axis_A,False,PCA-15165
+human_GSE151066,4,human_GSE86931,0.15527081,intermediate,exploratory_axis_A,False,PCA-15165
+human_GSE151066,5,human_GSE87748,0.074383505,intermediate,exploratory_axis_B,False,PCA-15165
+human_GSE71972,1,human_GSE151066,0.7173096,exploratory_axis_B,intermediate,False,PCA-15165
+human_GSE71972,2,mouse_GSE97718,0.4636789,exploratory_axis_B,exploratory_axis_B,True,PCA-15165
+human_GSE71972,3,human_GSE87748,0.35214135,exploratory_axis_B,exploratory_axis_B,True,PCA-15165
+human_GSE71972,4,human_GSE108643,0.26478395,exploratory_axis_B,exploratory_axis_A,False,PCA-15165
+human_GSE71972,5,mouse_GSE132520,0.1899491,exploratory_axis_B,exploratory_axis_A,False,PCA-15165
+human_GSE86931,1,human_GSE108643,0.70908856,exploratory_axis_A,exploratory_axis_A,True,PCA-15165
+human_GSE86931,2,mouse_GSE132520,0.5107287,exploratory_axis_A,exploratory_axis_A,True,PCA-15165
+human_GSE86931,3,mouse_GSE126962,0.44456398,exploratory_axis_A,exploratory_axis_A,True,PCA-15165
+human_GSE86931,4,human_GSE151066,0.15527081,exploratory_axis_A,intermediate,False,PCA-15165
+human_GSE86931,5,human_GSE71972,-0.28080535,exploratory_axis_A,exploratory_axis_B,False,PCA-15165
+human_GSE87748,1,human_GSE71972,0.35214135,exploratory_axis_B,exploratory_axis_B,True,PCA-15165
+human_GSE87748,2,mouse_GSE97718,0.3050972,exploratory_axis_B,exploratory_axis_B,True,PCA-15165
+human_GSE87748,3,human_GSE151066,0.074383505,exploratory_axis_B,intermediate,False,PCA-15165
+human_GSE87748,4,mouse_GSE132520,-0.12936483,exploratory_axis_B,exploratory_axis_A,False,PCA-15165
+human_GSE87748,5,human_GSE108643,-0.17133574,exploratory_axis_B,exploratory_axis_A,False,PCA-15165
+mouse_GSE126962,1,human_GSE86931,0.44456398,exploratory_axis_A,exploratory_axis_A,True,PCA-15165
+mouse_GSE126962,2,human_GSE108643,0.4049795,exploratory_axis_A,exploratory_axis_A,True,PCA-15165
+mouse_GSE126962,3,mouse_GSE132520,0.14622682,exploratory_axis_A,exploratory_axis_A,True,PCA-15165
+mouse_GSE126962,4,human_GSE151066,-0.035788003,exploratory_axis_A,intermediate,False,PCA-15165
+mouse_GSE126962,5,human_GSE71972,-0.20888396,exploratory_axis_A,exploratory_axis_B,False,PCA-15165
+mouse_GSE132520,1,human_GSE151066,0.5398688,exploratory_axis_A,intermediate,False,PCA-15165
+mouse_GSE132520,2,human_GSE108643,0.52392226,exploratory_axis_A,exploratory_axis_A,True,PCA-15165
+mouse_GSE132520,3,human_GSE86931,0.5107287,exploratory_axis_A,exploratory_axis_A,True,PCA-15165
+mouse_GSE132520,4,human_GSE71972,0.1899491,exploratory_axis_A,exploratory_axis_B,False,PCA-15165
+mouse_GSE132520,5,mouse_GSE126962,0.14622682,exploratory_axis_A,exploratory_axis_A,True,PCA-15165
+mouse_GSE97718,1,human_GSE71972,0.4636789,exploratory_axis_B,exploratory_axis_B,True,PCA-15165
+mouse_GSE97718,2,human_GSE87748,0.3050972,exploratory_axis_B,exploratory_axis_B,True,PCA-15165
+mouse_GSE97718,3,human_GSE151066,0.060087316,exploratory_axis_B,intermediate,False,PCA-15165
+mouse_GSE97718,4,mouse_GSE132520,-0.23481773,exploratory_axis_B,exploratory_axis_A,False,PCA-15165
+mouse_GSE97718,5,mouse_GSE126962,-0.32544702,exploratory_axis_B,exploratory_axis_A,False,PCA-15165
+human_GSE108643,1,human_GSE86931,0.9616331,exploratory_axis_A,exploratory_axis_A,True,BridgeRNA global mean
+human_GSE108643,2,mouse_GSE126962,0.8350122,exploratory_axis_A,exploratory_axis_A,True,BridgeRNA global mean
+human_GSE108643,3,mouse_GSE132520,0.7236024,exploratory_axis_A,exploratory_axis_A,True,BridgeRNA global mean
+human_GSE108643,4,human_GSE151066,0.18468468,exploratory_axis_A,intermediate,False,BridgeRNA global mean
+human_GSE108643,5,human_GSE71972,-0.8046714,exploratory_axis_A,exploratory_axis_B,False,BridgeRNA global mean
+human_GSE151066,1,mouse_GSE132520,0.32693058,intermediate,exploratory_axis_A,False,BridgeRNA global mean
+human_GSE151066,2,human_GSE71972,0.25726742,intermediate,exploratory_axis_B,False,BridgeRNA global mean
+human_GSE151066,3,human_GSE108643,0.18468468,intermediate,exploratory_axis_A,False,BridgeRNA global mean
+human_GSE151066,4,human_GSE86931,0.17890304,intermediate,exploratory_axis_A,False,BridgeRNA global mean
+human_GSE151066,5,mouse_GSE126962,0.016991418,intermediate,exploratory_axis_A,False,BridgeRNA global mean
+human_GSE71972,1,human_GSE87748,0.89858985,exploratory_axis_B,exploratory_axis_B,True,BridgeRNA global mean
+human_GSE71972,2,mouse_GSE97718,0.8304399,exploratory_axis_B,exploratory_axis_B,True,BridgeRNA global mean
+human_GSE71972,3,human_GSE151066,0.25726742,exploratory_axis_B,intermediate,False,BridgeRNA global mean
+human_GSE71972,4,mouse_GSE132520,-0.61145926,exploratory_axis_B,exploratory_axis_A,False,BridgeRNA global mean
+human_GSE71972,5,mouse_GSE126962,-0.7423175,exploratory_axis_B,exploratory_axis_A,False,BridgeRNA global mean
+human_GSE86931,1,human_GSE108643,0.9616331,exploratory_axis_A,exploratory_axis_A,True,BridgeRNA global mean
+human_GSE86931,2,mouse_GSE126962,0.79207295,exploratory_axis_A,exploratory_axis_A,True,BridgeRNA global mean
+human_GSE86931,3,mouse_GSE132520,0.778474,exploratory_axis_A,exploratory_axis_A,True,BridgeRNA global mean
+human_GSE86931,4,human_GSE151066,0.17890304,exploratory_axis_A,intermediate,False,BridgeRNA global mean
+human_GSE86931,5,human_GSE71972,-0.8388788,exploratory_axis_A,exploratory_axis_B,False,BridgeRNA global mean
+human_GSE87748,1,human_GSE71972,0.89858985,exploratory_axis_B,exploratory_axis_B,True,BridgeRNA global mean
+human_GSE87748,2,mouse_GSE97718,0.8468162,exploratory_axis_B,exploratory_axis_B,True,BridgeRNA global mean
+human_GSE87748,3,human_GSE151066,-0.038519025,exploratory_axis_B,intermediate,False,BridgeRNA global mean
+human_GSE87748,4,mouse_GSE126962,-0.7221588,exploratory_axis_B,exploratory_axis_A,False,BridgeRNA global mean
+human_GSE87748,5,mouse_GSE132520,-0.74301624,exploratory_axis_B,exploratory_axis_A,False,BridgeRNA global mean
+mouse_GSE126962,1,human_GSE108643,0.8350122,exploratory_axis_A,exploratory_axis_A,True,BridgeRNA global mean
+mouse_GSE126962,2,human_GSE86931,0.79207295,exploratory_axis_A,exploratory_axis_A,True,BridgeRNA global mean
+mouse_GSE126962,3,mouse_GSE132520,0.6224677,exploratory_axis_A,exploratory_axis_A,True,BridgeRNA global mean
+mouse_GSE126962,4,human_GSE151066,0.016991418,exploratory_axis_A,intermediate,False,BridgeRNA global mean
+mouse_GSE126962,5,mouse_GSE97718,-0.7106708,exploratory_axis_A,exploratory_axis_B,False,BridgeRNA global mean
+mouse_GSE132520,1,human_GSE86931,0.778474,exploratory_axis_A,exploratory_axis_A,True,BridgeRNA global mean
+mouse_GSE132520,2,human_GSE108643,0.7236024,exploratory_axis_A,exploratory_axis_A,True,BridgeRNA global mean
+mouse_GSE132520,3,mouse_GSE126962,0.6224677,exploratory_axis_A,exploratory_axis_A,True,BridgeRNA global mean
+mouse_GSE132520,4,human_GSE151066,0.32693058,exploratory_axis_A,intermediate,False,BridgeRNA global mean
+mouse_GSE132520,5,human_GSE71972,-0.61145926,exploratory_axis_A,exploratory_axis_B,False,BridgeRNA global mean
+mouse_GSE97718,1,human_GSE87748,0.8468162,exploratory_axis_B,exploratory_axis_B,True,BridgeRNA global mean
+mouse_GSE97718,2,human_GSE71972,0.8304399,exploratory_axis_B,exploratory_axis_B,True,BridgeRNA global mean
+mouse_GSE97718,3,human_GSE151066,-0.1032439,exploratory_axis_B,intermediate,False,BridgeRNA global mean
+mouse_GSE97718,4,mouse_GSE132520,-0.62585473,exploratory_axis_B,exploratory_axis_A,False,BridgeRNA global mean
+mouse_GSE97718,5,mouse_GSE126962,-0.7106708,exploratory_axis_B,exploratory_axis_A,False,BridgeRNA global mean
+human_GSE108643,1,human_GSE71972,0.9531134,exploratory_axis_A,exploratory_axis_B,False,Hallmark response fingerprint
+human_GSE108643,2,human_GSE151066,0.90074575,exploratory_axis_A,intermediate,False,Hallmark response fingerprint
+human_GSE108643,3,human_GSE86931,0.88587123,exploratory_axis_A,exploratory_axis_A,True,Hallmark response fingerprint
+human_GSE108643,4,mouse_GSE132520,0.8404803,exploratory_axis_A,exploratory_axis_A,True,Hallmark response fingerprint
+human_GSE108643,5,mouse_GSE126962,0.36018723,exploratory_axis_A,exploratory_axis_A,True,Hallmark response fingerprint
+human_GSE151066,1,human_GSE86931,0.92335814,intermediate,exploratory_axis_A,False,Hallmark response fingerprint
+human_GSE151066,2,human_GSE71972,0.91374254,intermediate,exploratory_axis_B,False,Hallmark response fingerprint
+human_GSE151066,3,mouse_GSE132520,0.90233433,intermediate,exploratory_axis_A,False,Hallmark response fingerprint
+human_GSE151066,4,human_GSE108643,0.90074575,intermediate,exploratory_axis_A,False,Hallmark response fingerprint
+human_GSE151066,5,mouse_GSE126962,0.083983175,intermediate,exploratory_axis_A,False,Hallmark response fingerprint
+human_GSE71972,1,human_GSE108643,0.9531134,exploratory_axis_B,exploratory_axis_A,False,Hallmark response fingerprint
+human_GSE71972,2,human_GSE151066,0.91374254,exploratory_axis_B,intermediate,False,Hallmark response fingerprint
+human_GSE71972,3,human_GSE86931,0.83061475,exploratory_axis_B,exploratory_axis_A,False,Hallmark response fingerprint
+human_GSE71972,4,mouse_GSE132520,0.78877175,exploratory_axis_B,exploratory_axis_A,False,Hallmark response fingerprint
+human_GSE71972,5,mouse_GSE126962,0.25587735,exploratory_axis_B,exploratory_axis_A,False,Hallmark response fingerprint
+human_GSE86931,1,human_GSE151066,0.92335814,exploratory_axis_A,intermediate,False,Hallmark response fingerprint
+human_GSE86931,2,human_GSE108643,0.88587123,exploratory_axis_A,exploratory_axis_A,True,Hallmark response fingerprint
+human_GSE86931,3,mouse_GSE132520,0.8727825,exploratory_axis_A,exploratory_axis_A,True,Hallmark response fingerprint
+human_GSE86931,4,human_GSE71972,0.83061475,exploratory_axis_A,exploratory_axis_B,False,Hallmark response fingerprint
+human_GSE86931,5,mouse_GSE126962,0.13135736,exploratory_axis_A,exploratory_axis_A,True,Hallmark response fingerprint
+human_GSE87748,1,mouse_GSE126962,0.2761095,exploratory_axis_B,exploratory_axis_A,False,Hallmark response fingerprint
+human_GSE87748,2,human_GSE71972,-0.0077106925,exploratory_axis_B,exploratory_axis_B,True,Hallmark response fingerprint
+human_GSE87748,3,human_GSE108643,-0.13176955,exploratory_axis_B,exploratory_axis_A,False,Hallmark response fingerprint
+human_GSE87748,4,human_GSE151066,-0.17078197,exploratory_axis_B,intermediate,False,Hallmark response fingerprint
+human_GSE87748,5,mouse_GSE97718,-0.28941432,exploratory_axis_B,exploratory_axis_B,True,Hallmark response fingerprint
+mouse_GSE126962,1,human_GSE108643,0.36018723,exploratory_axis_A,exploratory_axis_A,True,Hallmark response fingerprint
+mouse_GSE126962,2,human_GSE87748,0.2761095,exploratory_axis_A,exploratory_axis_B,False,Hallmark response fingerprint
+mouse_GSE126962,3,human_GSE71972,0.25587735,exploratory_axis_A,exploratory_axis_B,False,Hallmark response fingerprint
+mouse_GSE126962,4,human_GSE86931,0.13135736,exploratory_axis_A,exploratory_axis_A,True,Hallmark response fingerprint
+mouse_GSE126962,5,human_GSE151066,0.083983175,exploratory_axis_A,intermediate,False,Hallmark response fingerprint
+mouse_GSE132520,1,human_GSE151066,0.90233433,exploratory_axis_A,intermediate,False,Hallmark response fingerprint
+mouse_GSE132520,2,human_GSE86931,0.8727825,exploratory_axis_A,exploratory_axis_A,True,Hallmark response fingerprint
+mouse_GSE132520,3,human_GSE108643,0.8404803,exploratory_axis_A,exploratory_axis_A,True,Hallmark response fingerprint
+mouse_GSE132520,4,human_GSE71972,0.78877175,exploratory_axis_A,exploratory_axis_B,False,Hallmark response fingerprint
+mouse_GSE132520,5,mouse_GSE126962,0.01002825,exploratory_axis_A,exploratory_axis_A,True,Hallmark response fingerprint
+mouse_GSE97718,1,mouse_GSE126962,-0.032012444,exploratory_axis_B,exploratory_axis_A,False,Hallmark response fingerprint
+mouse_GSE97718,2,human_GSE86931,-0.19642553,exploratory_axis_B,exploratory_axis_A,False,Hallmark response fingerprint
+mouse_GSE97718,3,human_GSE108643,-0.20247182,exploratory_axis_B,exploratory_axis_A,False,Hallmark response fingerprint
+mouse_GSE97718,4,human_GSE71972,-0.25524428,exploratory_axis_B,exploratory_axis_B,True,Hallmark response fingerprint
+mouse_GSE97718,5,mouse_GSE132520,-0.2700926,exploratory_axis_B,exploratory_axis_A,False,Hallmark response fingerprint
+human_GSE108643,1,human_GSE71972,0.94611746,exploratory_axis_A,exploratory_axis_B,False,Contextual gene-response fingerprint
+human_GSE108643,2,human_GSE86931,0.9331651,exploratory_axis_A,exploratory_axis_A,True,Contextual gene-response fingerprint
+human_GSE108643,3,human_GSE87748,0.9311517,exploratory_axis_A,exploratory_axis_B,False,Contextual gene-response fingerprint
+human_GSE108643,4,human_GSE151066,0.92780566,exploratory_axis_A,intermediate,False,Contextual gene-response fingerprint
+human_GSE108643,5,mouse_GSE132520,0.8113746,exploratory_axis_A,exploratory_axis_A,True,Contextual gene-response fingerprint
+human_GSE151066,1,human_GSE71972,0.93067324,intermediate,exploratory_axis_B,False,Contextual gene-response fingerprint
+human_GSE151066,2,human_GSE108643,0.92780566,intermediate,exploratory_axis_A,False,Contextual gene-response fingerprint
+human_GSE151066,3,human_GSE86931,0.8937525,intermediate,exploratory_axis_A,False,Contextual gene-response fingerprint
+human_GSE151066,4,human_GSE87748,0.8864833,intermediate,exploratory_axis_B,False,Contextual gene-response fingerprint
+human_GSE151066,5,mouse_GSE132520,0.78862447,intermediate,exploratory_axis_A,False,Contextual gene-response fingerprint
+human_GSE71972,1,human_GSE108643,0.94611746,exploratory_axis_B,exploratory_axis_A,False,Contextual gene-response fingerprint
+human_GSE71972,2,human_GSE151066,0.93067324,exploratory_axis_B,intermediate,False,Contextual gene-response fingerprint
+human_GSE71972,3,human_GSE86931,0.9143775,exploratory_axis_B,exploratory_axis_A,False,Contextual gene-response fingerprint
+human_GSE71972,4,human_GSE87748,0.9114176,exploratory_axis_B,exploratory_axis_B,True,Contextual gene-response fingerprint
+human_GSE71972,5,mouse_GSE132520,0.8053271,exploratory_axis_B,exploratory_axis_A,False,Contextual gene-response fingerprint
+human_GSE86931,1,human_GSE108643,0.9331651,exploratory_axis_A,exploratory_axis_A,True,Contextual gene-response fingerprint
+human_GSE86931,2,human_GSE87748,0.92729276,exploratory_axis_A,exploratory_axis_B,False,Contextual gene-response fingerprint
+human_GSE86931,3,human_GSE71972,0.9143775,exploratory_axis_A,exploratory_axis_B,False,Contextual gene-response fingerprint
+human_GSE86931,4,human_GSE151066,0.8937525,exploratory_axis_A,intermediate,False,Contextual gene-response fingerprint
+human_GSE86931,5,mouse_GSE132520,0.8095049,exploratory_axis_A,exploratory_axis_A,True,Contextual gene-response fingerprint
+human_GSE87748,1,human_GSE108643,0.9311517,exploratory_axis_B,exploratory_axis_A,False,Contextual gene-response fingerprint
+human_GSE87748,2,human_GSE86931,0.92729276,exploratory_axis_B,exploratory_axis_A,False,Contextual gene-response fingerprint
+human_GSE87748,3,human_GSE71972,0.9114176,exploratory_axis_B,exploratory_axis_B,True,Contextual gene-response fingerprint
+human_GSE87748,4,human_GSE151066,0.8864833,exploratory_axis_B,intermediate,False,Contextual gene-response fingerprint
+human_GSE87748,5,mouse_GSE132520,0.8068013,exploratory_axis_B,exploratory_axis_A,False,Contextual gene-response fingerprint
+mouse_GSE126962,1,mouse_GSE97718,0.88211405,exploratory_axis_A,exploratory_axis_B,False,Contextual gene-response fingerprint
+mouse_GSE126962,2,mouse_GSE132520,0.8686876,exploratory_axis_A,exploratory_axis_A,True,Contextual gene-response fingerprint
+mouse_GSE126962,3,human_GSE87748,0.7891971,exploratory_axis_A,exploratory_axis_B,False,Contextual gene-response fingerprint
+mouse_GSE126962,4,human_GSE86931,0.7890517,exploratory_axis_A,exploratory_axis_A,True,Contextual gene-response fingerprint
+mouse_GSE126962,5,human_GSE108643,0.78694504,exploratory_axis_A,exploratory_axis_A,True,Contextual gene-response fingerprint
+mouse_GSE132520,1,mouse_GSE97718,0.9047658,exploratory_axis_A,exploratory_axis_B,False,Contextual gene-response fingerprint
+mouse_GSE132520,2,mouse_GSE126962,0.8686876,exploratory_axis_A,exploratory_axis_A,True,Contextual gene-response fingerprint
+mouse_GSE132520,3,human_GSE108643,0.8113746,exploratory_axis_A,exploratory_axis_A,True,Contextual gene-response fingerprint
+mouse_GSE132520,4,human_GSE86931,0.8095049,exploratory_axis_A,exploratory_axis_A,True,Contextual gene-response fingerprint
+mouse_GSE132520,5,human_GSE87748,0.8068013,exploratory_axis_A,exploratory_axis_B,False,Contextual gene-response fingerprint
+mouse_GSE97718,1,mouse_GSE132520,0.9047658,exploratory_axis_B,exploratory_axis_A,False,Contextual gene-response fingerprint
+mouse_GSE97718,2,mouse_GSE126962,0.88211405,exploratory_axis_B,exploratory_axis_A,False,Contextual gene-response fingerprint
+mouse_GSE97718,3,human_GSE86931,0.8015179,exploratory_axis_B,exploratory_axis_A,False,Contextual gene-response fingerprint
+mouse_GSE97718,4,human_GSE71972,0.79883844,exploratory_axis_B,exploratory_axis_B,True,Contextual gene-response fingerprint
+mouse_GSE97718,5,human_GSE108643,0.79486334,exploratory_axis_B,exploratory_axis_A,False,Contextual gene-response fingerprint

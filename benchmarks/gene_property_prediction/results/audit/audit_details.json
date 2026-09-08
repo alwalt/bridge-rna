@@ -1,0 +1,57 @@
+{
+  "geneformer_label_url": "https://huggingface.co/datasets/ctheodoris/Genecorpus-30M/resolve/main/example_input_files/gene_classification/dosage_sensitive_tfs/dosage_sensitivity_TFs.pickle",
+  "geneformer_label_sha256": "965964deba80a5194ddb9c048a7d1fbdeac493f06453dfb76895561ba2f3d729",
+  "geneformer_original_counts": {
+    "positive": 122,
+    "negative": 368
+  },
+  "geneformer_bridge_counts": {
+    "positive": 119,
+    "negative": 126,
+    "total": 245
+  },
+  "bridgerna": {
+    "checkpoint": "model/r7hnr92k/best_model.pt",
+    "static_tensor_key": "model_state_dict.gene_embedding.weight",
+    "static_shape": [
+      15165,
+      512
+    ],
+    "static_dtype": "torch.float32",
+    "static_output_bytes_float32": 31057920
+  },
+  "bulkformer_matrix_audit": {
+    "expression_shape": [
+      1108,
+      18757
+    ],
+    "score_shape": [
+      1108,
+      17910
+    ],
+    "rows_identical_order": true,
+    "common_rows": 1108,
+    "expression_target_ensembl_overlap": 17465,
+    "expression_bridge_mapped": 14761,
+    "score_bridge_mapped": 14456,
+    "score_missing_cells": 143614,
+    "score_missing_fraction": 0.007237047653026464,
+    "score_genes_with_any_missing": 837,
+    "score_rows_with_any_missing": 907,
+    "expression_min": 0.0,
+    "expression_max": 17.095489743300227,
+    "score_min": -5.648909018661887,
+    "score_max": 4.436477945322404
+  },
+  "context_average": {
+    "compatible_complete_cache_found": false,
+    "existing_reference_expression": "40,000 x 15,165 ARCHS4 log1p(TPM) memmap",
+    "existing_sample_embeddings_are_not_gene_embeddings": true,
+    "streaming_output_bytes_float32": 31057920,
+    "full_hidden_cache_bytes_per_sample_float16": 15528960,
+    "estimated_inference_rate_samples_per_second": "7.5-8.7 based on existing reconstruction logs; contextual export may be slower",
+    "estimated_1000_sample_wall_time": "~2-10 minutes inference plus I/O on one RTX 3090",
+    "estimated_5000_sample_wall_time": "~10-50 minutes inference plus I/O on one RTX 3090",
+    "recommendation": "stream a running per-gene mean; never save all sample x gene x 512 tensors"
+  }
+}

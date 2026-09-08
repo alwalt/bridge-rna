@@ -1,0 +1,7 @@
+representation,RR3_39_above_false_friend,RR3_40_above_false_friend
+Bridge mean,False,True
+Graph signed-edge response,True,True
+Hallmark mean+SD,True,True
+PCA-15165,True,True
+Raw expression,True,True
+Contextual kNN graph,True,True

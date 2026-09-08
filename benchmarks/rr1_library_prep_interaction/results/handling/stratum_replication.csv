@@ -1,0 +1,3 @@
+stratum,valid,OSD48_n_FLT,OSD48_n_GC,OSD168_n_FLT,OSD168_n_GC,whole_cosine,parallel_cosine,outside_PC1_2_cosine,OSD48_aligned_fraction,OSD168_aligned_fraction,discrepancy_fraction_PC1_2,reason
+carcass (exact matched animals; no-ERCC OSD-168),True,4,5,4,5,-0.8041193202638265,-0.9744005208477576,0.2210411858651346,0.9327396489113248,0.7798066846497175,0.9530690652663456,This is the original -0.804 comparison; M27 was excluded because OSD-168 has no matched M27 profile.
+upon euthanasia,False,2,2,0,0,,,,,,,OSD-168 contains no corresponding M21/M22/M31/M32 profiles; component replication metrics are undefined.

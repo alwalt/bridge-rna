@@ -1,0 +1,6 @@
+comparison,direct_technical_replication,full_cosine,parallel_cosine,orthogonal_cosine,cosine_after_PC1_1,cosine_after_PC1_2,cosine_after_PC1_5,reason
+RR1_OSD48_original_matched vs RR1_OSD168_no-ERCC,True,-0.8041193202638265,-0.9744005208477577,0.22104118586513466,-0.6993956453111978,0.22104118586513466,0.19452985333000947,
+RR1_OSD48_original_matched vs RR1_OSD168_all_ERCC,True,-0.8084342941079766,-0.9768522501551336,0.240702416157163,-0.6985346639467191,0.240702416157163,0.2042494917196814,
+OSD-47 CASIS 21d,False,,,,,,,No corresponding OSD-168 biological material
+OSD-47 CASIS 22d,False,,,,,,,No corresponding OSD-168 biological material
+OSD-48 upon-euthanasia 37d,False,,,,,,,No corresponding OSD-168 biological material

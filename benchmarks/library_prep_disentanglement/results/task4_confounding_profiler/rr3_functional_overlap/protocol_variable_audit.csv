@@ -1,0 +1,13 @@
+variable,OSD137,OSD168,remeasurement_status,between_39d_and_40d_status
+preservation,Liquid Nitrogen,Liquid Nitrogen,held constant,held constant
+library_selection,ribo-depletion,ribo-depletion,held constant,held constant
+library_kit,not reported,KAPA RNA HyperPrep Kit,changed/reported differently,held constant
+layout,PAIRED,PAIRED,held constant,held constant
+read_length,150 {base pair},150 {base pair},held constant,held constant
+instrument,Illumina HiSeq 4000,Illumina HiSeq 4000,held constant,held constant
+facility,UC Davis,UC Davis,held constant,held constant
+ERCC,none declared,With Spike-in,changed/reported differently,held constant
+flight duration,39 day vs 40 day,same source-animal strata,held constant within animal,different by design
+source animals,F1/F2; G1/G2 vs F3/F4/F5; G3/G5,matched F1/F2; G1/G2 vs F3/F4; G3/G5,exact animal IDs matched; same RNA material supported,different animals
+technical-comparison sample size,39d 2/2; 40d matched 2/2,39d 2/2; 40d 2/2,held constant,held constant
+biological edgeR sample size,39d 2/2; 40d 3/2,not used for conventional biological edgeR,not applicable,different; F5 has no OSD-168 counterpart

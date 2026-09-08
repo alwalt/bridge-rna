@@ -1,0 +1,21 @@
+{
+  "outcome": "OUTCOME 1 with OUTCOME 5 qualification",
+  "primary_n": 11,
+  "adequately_replicated_n": 9,
+  "excluded_underpowered": [
+    "C03__OSD-137__RR3__41-day",
+    "C12__OSD-47__RR1-CASIS__22-day"
+  ],
+  "PC1_variance_fraction": 0.9747093067406888,
+  "PC1_2_cumulative_variance_fraction": 0.9908320685331713,
+  "rms_vs_aligned_magnitude_rho": 0.7454545454545456,
+  "rms_vs_aligned_magnitude_p": 0.008454728885061567,
+  "rms_vs_aligned_magnitude_random_p": 0.31368631368631367,
+  "rms_vs_aligned_fraction_rho": 0.26363636363636367,
+  "rms_vs_aligned_fraction_p": 0.43344073761161456,
+  "rms_vs_aligned_fraction_random_p": 0.5394605394605395,
+  "adequate_rms_vs_aligned_magnitude_rho": 0.6666666666666667,
+  "adequate_rms_vs_aligned_fraction_rho": 0.06666666666666667,
+  "max_pythagorean_relative_error": 2.248315290266879e-15,
+  "interpretation": "Exploratory association only. Projection into the controlled PolyA/Ribo-associated reference does not establish technical causation or quantify removable batch."
+}

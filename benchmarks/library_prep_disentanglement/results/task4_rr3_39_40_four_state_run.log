@@ -1,0 +1,15 @@
+/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/pipeline/analyze_rr3_four_state.py:32: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'nan' has dtype incompatible with bool, please explicitly cast to a compatible dtype first.
+  q['api_extract_animal_id']=q.RNA_extraction.astype(str).str.extract(r'_(F\d+|G\d+)_')[0];q['api_extract_animal_matches_audited_id']=q.api_extract_animal_id.eq(q.animal_id);q.loc[q.api_extract_animal_id.isna(),'api_extract_animal_matches_audited_id']=pd.NA
+group  n  PC1_mean  PC2_mean   PC1_SD   PC2_SD      animals
+ GC39  2  9.344918  5.992526 0.032836 0.045995      G1 | G2
+FLT39  2  9.481724  6.128994 0.108799 0.110481      F1 | F2
+ GC40  2  9.371624  6.040475 0.050808 0.015908      G3 | G5
+FLT40  3  9.262990  5.951167 0.210790 0.180054 F3 | F4 | F5
+              comparison  full_norm       PC1       PC2  PC1_2_norm  PC1_2_energy_fraction  outside_PC1_2_norm  full_cosine  full_euclidean_distance  PC1_2_cosine  outside_PC1_2_cosine
+               GC39→GC40   0.186223  0.026706  0.047949    0.054885               0.086863            0.177951          NaN                      NaN           NaN                   NaN
+             FLT39→FLT40   0.357978 -0.218734 -0.177828    0.281899               0.620120            0.220638          NaN                      NaN           NaN                   NaN
+                     Δ39   0.234695  0.136806  0.136468    0.193234               0.677895            0.133199          NaN                      NaN           NaN                   NaN
+                     Δ40   0.164269 -0.108633 -0.089309    0.140632               0.732917            0.084894          NaN                      NaN           NaN                   NaN
+GC39→GC40 vs FLT39→FLT40        NaN       NaN       NaN         NaN                    NaN                 NaN     0.277574                  0.35471     -0.928659              0.837239
+              Δ39 vs Δ40        NaN       NaN       NaN         NaN                    NaN                 NaN    -0.567438                  0.35471     -0.995388              0.457474
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_rr3_39_40_four_state

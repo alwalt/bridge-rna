@@ -1,0 +1,23 @@
+{
+  "expression_shape": [
+    1108,
+    18757
+  ],
+  "score_shape": [
+    1108,
+    17910
+  ],
+  "rows_identical_order": true,
+  "common_rows": 1108,
+  "expression_target_ensembl_overlap": 17465,
+  "expression_bridge_mapped": 14761,
+  "score_bridge_mapped": 14456,
+  "score_missing_cells": 143614,
+  "score_missing_fraction": 0.007237047653026464,
+  "score_genes_with_any_missing": 837,
+  "score_rows_with_any_missing": 907,
+  "expression_min": 0.0,
+  "expression_max": 17.095489743300227,
+  "score_min": -5.648909018661887,
+  "score_max": 4.436477945322404
+}

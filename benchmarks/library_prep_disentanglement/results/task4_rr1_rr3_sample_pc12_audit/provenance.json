@@ -1,0 +1,8 @@
+{
+  "basis": "unchanged controlled T-cell uncentered PC1-2",
+  "sample_center_for_fraction": "independent mean of the 80 controlled T-cell embeddings",
+  "bootstrap_replicates": 1000,
+  "bootstrap_unit": "animal after averaging ERCC/no-ERCC technical profiles",
+  "correction": false,
+  "missing_metadata": "retained as NA"
+}

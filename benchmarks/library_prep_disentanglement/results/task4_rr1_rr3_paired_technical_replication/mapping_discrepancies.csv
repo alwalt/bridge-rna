@@ -1,0 +1,5 @@
+item,instruction,source_metadata,impact
+RR1 unmatched FLT animals,OSD-48 M27; OSD-168 M29,confirmed; neither has a counterpart,both excluded from strict comparison
+RR3-40 full versus strict,full F3/F4/F5; strict F3/F4,confirmed; F5 lacks OSD-168 counterpart,F5 excluded only from strict pair
+RR3-41,F6 vs G6/G7,confirmed; absent from OSD-168,no technical replication possible
+OSD-137 G5 naming,G5,local/audited G5; API RNA extract field contains G7,retained audited G5 mapping and flagged ambiguity

@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-09-05T22:45:36.380675+00:00",
+  "bridge_frozen": true,
+  "embeddings_recomputed": false,
+  "samples_redefined": false,
+  "controlled_reference_redefined": false,
+  "ig_baseline": "all-zero log1p(TPM)",
+  "ig_steps": 16,
+  "gsea_permutations": 1000,
+  "gsea_seed": 44021,
+  "paired_bootstrap_replicates": 5000,
+  "gene_set_competitive_permutations": 10000,
+  "random_subspace_source": "benchmarks/library_prep_disentanglement/results/task4_response_robustness/random_subspace_metrics.parquet"
+}

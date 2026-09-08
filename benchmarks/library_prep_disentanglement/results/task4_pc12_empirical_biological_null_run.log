@@ -1,0 +1,47 @@
+                          contrast_id  n_A  n_B  primary_null   E_PC12  permutation_p_ge  bootstrap_low  bootstrap_high
+        C14__OSD-48__RR1-NASA__37-day    5    5          True 0.937761          0.205794       0.394177        0.957056
+       C04__OSD-168__RR1-NASA__37-day   10   10          True 0.886369          0.274725       0.522273        0.933853
+                      human_GSE108643   28   28          True 0.886001          0.230769       0.738558        0.921712
+                       human_GSE86931    2    2          True 0.884851          0.633367       0.614405        0.903776
+C09__OSD-245__RR6-ISS-T__not-reported   10   10          True 0.883704          0.048951       0.284448        0.912532
+                       human_GSE71972    6    6          True 0.823333          0.434565       0.026437        0.929731
+                       mouse_GSE97718    4    4          True 0.814914          0.264735       0.083896        0.894905
+                       human_GSE87748    8    8          True 0.810895          0.345654       0.056981        0.887940
+       C12__OSD-47__RR1-CASIS__22-day    1    1         False 0.789060          1.000000       0.789060        0.789060
+                      mouse_GSE126962    2    2          True 0.767843          1.000000       0.374355        0.929794
+            C03__OSD-137__RR3__41-day    1    2         False 0.734935          0.347652       0.440859        0.753662
+            C02__OSD-137__RR3__40-day    3    2          True 0.732917          0.377622       0.014106        0.936000
+  C07__OSD-173__STS-135__not-reported    2    2          True 0.724983          0.659341       0.130918        0.866458
+            C06__OSD-168__RR3__40-day    2    2          True 0.689438          1.000000       0.333534        0.891390
+            C01__OSD-137__RR3__39-day    2    2          True 0.677895          0.346653       0.056660        0.694892
+  C10__OSD-245__RR6-LAR__not-reported   10    9          True 0.604758          0.718282       0.017340        0.914158
+        C13__OSD-48__RR1-NASA__37-day    2    2          True 0.562274          1.000000       0.041349        0.705961
+            C05__OSD-168__RR3__39-day    2    2          True 0.548446          0.668332       0.036149        0.730357
+                      mouse_GSE132520    4    4          True 0.517973          0.720280       0.003770        0.860405
+      C08__OSD-242__RR9__not-reported    5    4          True 0.195549          0.730270       0.020125        0.711618
+       C11__OSD-47__RR1-CASIS__21-day    2    2          True 0.045037          1.000000       0.026001        0.741420
+                      human_GSE151066   19   19          True 0.009719          0.980020       0.007339        0.756913
+
+References
+                 reference  E_PC12  empirical_percentile  empirical_p_ge  rank_descending  primary_null_n
+            RR3 GC39→GC40   0.087                  10.0        0.904762               19              20
+          RR3 FLT39→FLT40   0.620                  35.0        0.666667               14              20
+OSD-48 RR1 carcass FLT−GC   0.938                 100.0        0.047619                1              20
+       OSD-168 RR1 FLT−GC   0.886                  85.0        0.190476                4              20
+    OSD-137 RR3-40 FLT−GC   0.733                  55.0        0.476190               10              20
+    OSD-168 RR3-40 FLT−GC   0.689                  40.0        0.619048               13              20
+
+Global
+  global_PC_prefix  mean_squared_subspace_overlap  smallest_principal_angle_deg  largest_principal_angle_deg  global_variance_fraction_captured_by_Tcell_PC12
+                2                       0.491107                     12.944719                    79.631005                                         0.552988
+                5                       0.546426                     12.690147                    67.935648                                         0.552988
+               10                       0.631125                     10.743619                    56.976896                                         0.552988
+               20                       0.725766                      7.319899                    46.848235                                         0.552988
+               50                       0.911837                      4.821552                    24.293639                                         0.552988
+
+Coordination
+            coordination_measure  spearman_rho  p_value  n
+    top1pct_abs_effect_fraction     -0.547368 0.012490 20
+expression_effective_gene_count      0.596992 0.005452 20
+        expression_response_rms      0.330827 0.154236 20
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_pc12_empirical_biological_null

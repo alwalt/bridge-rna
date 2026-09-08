@@ -1,0 +1,19 @@
+response,family,mean_top5_signed_z,max_absolute_z,representative_terms
+RR1 OSD-168 no-ERCC,RNA processing/splicing,-5.927772916581558,9.950479703165227,Viral mRNA Translation | GTP Hydrolysis and Joining of the 60S Ribosomal Subunit | RIBOSOME
+RR1 OSD-168 no-ERCC,hepatic lipid/PPAR/peroxisome,5.8684359200616445,9.785410398568322,Regulation of Cholesterol Biosynthesis by SREBP (SREBF) | Cholesterol Biosynthetic Process (GO:0006695) | Cholesterol Biosynthesis
+RR1 OSD-168 no-ERCC,mitochondrial/small-molecule,-5.113663955288808,5.707180388722317,Mitochondrial ATP Synthesis Coupled Electron Transport (GO:0042775) | Mitochondrial Protein Import | Proton Motive Force-Driven Mitochondrial ATP Synthesis (GO:0042776)
+RR1 OSD-48 carcass,RNA processing/splicing,-8.575126013085336,8.77345813975903,Processing of Capped Intron-Containing Pre-mRNA | mRNA Splicing | MRNA Processing (GO:0006397)
+RR1 OSD-48 carcass,hepatic lipid/PPAR/peroxisome,-8.800729548720147,9.391702513488145,Fatty Acid Beta-Oxidation (GO:0006635) | Peroxisomal Protein Import | Fatty Acid Catabolic Process (GO:0009062)
+RR1 OSD-48 carcass,mitochondrial/small-molecule,-7.597520877866378,8.757136350943696,Fatty Acid Catabolic Process (GO:0009062) | Mitochondrial Fatty Acid Beta-Oxidation | Ubiquitin-dependent Protein Catabolic Process (GO:0006511)
+RR1 OSD-48 upon-euthanasia,RNA processing/splicing,2.9162327439685107,5.0224751295126095,mRNA Splicing | mRNA Splicing - Major Pathway | RNA Processing (GO:0006396)
+RR1 OSD-48 upon-euthanasia,hepatic lipid/PPAR/peroxisome,-7.44448913256012,9.95948406492476,Regulation of Cholesterol Biosynthesis by SREBP (SREBF) | Cholesterol Biosynthetic Process (GO:0006695) | Cholesterol Biosynthesis
+RR1 OSD-48 upon-euthanasia,mitochondrial/small-molecule,-1.0871053782834528,5.3270161175399915,Glucose Catabolic Process to Pyruvate (GO:0061718) | ADP Catabolic Process (GO:0046032) | Mitochondrial Translation Elongation
+RR3-39,RNA processing/splicing,3.673475321205828,7.391128692278847,RIBOSOME | GTP Hydrolysis and Joining of the 60S Ribosomal Subunit | Viral mRNA Translation
+RR3-39,hepatic lipid/PPAR/peroxisome,-5.016759241902172,6.133897920078687,Regulation of Cholesterol Biosynthesis by SREBP (SREBF) | Cholesterol Biosynthesis | Cholesterol Biosynthetic Process (GO:0006695)
+RR3-39,mitochondrial/small-molecule,5.2438357217984315,5.781249865742918,Mitochondrial Translation (GO:0032543) | Mitochondrial Gene Expression (GO:0140053) | Mitochondrial Protein Import
+RR3-40,RNA processing/splicing,8.741195923546584,9.95103867979523,RIBOSOME | Mitochondrial tRNA Aminoacylation | tRNA Aminoacylation
+RR3-40,hepatic lipid/PPAR/peroxisome,12.885100831585811,16.543112794671476,Cholesterol Biosynthetic Process (GO:0006695) | Cholesterol Biosynthesis | Regulation of Cholesterol Biosynthesis by SREBP (SREBF)
+RR3-40,mitochondrial/small-molecule,8.916425433356363,10.494377689240226,Mitochondrial Translation (GO:0032543) | Mitochondrial Gene Expression (GO:0140053) | Mitochondrial tRNA Aminoacylation
+T-cell PolyA→Ribo,RNA processing/splicing,-6.731799936115927,11.406568932906795,FASTK Family Proteins Regulate Processing and Stability of Mitochondrial RNAs | tRNA Processing in the Mitochondrion | Mitochondrial RNA Degradation
+T-cell PolyA→Ribo,hepatic lipid/PPAR/peroxisome,0.40430135078055474,3.3352404685097765,Lipid Metabolic Process (GO:0006629) | PEROXISOME | Class I Peroxisomal Membrane Protein Import
+T-cell PolyA→Ribo,mitochondrial/small-molecule,-6.604905895083201,11.406568932906795,FASTK Family Proteins Regulate Processing and Stability of Mitochondrial RNAs | tRNA Processing in the Mitochondrion | Mitochondrial RNA Degradation

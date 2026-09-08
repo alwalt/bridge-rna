@@ -1,0 +1,1109 @@
+gene,pathway_membership
+ABCF1,Ribosome Biogenesis (GO:0042254)
+ACIN1,"Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Processing (GO:0006396); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+ADAD1,RNA Processing (GO:0006396)
+ADAD2,RNA Processing (GO:0006396)
+ADAR,MRNA Metabolic Process (GO:0016071); RNA Processing (GO:0006396)
+ADARB1,MRNA Metabolic Process (GO:0016071); RNA Processing (GO:0006396)
+ADARB2,RNA Processing (GO:0006396)
+ADAT1,RNA Processing (GO:0006396); TRNA Metabolic Process (GO:0006399); TRNA Processing (GO:0008033); tRNA Processing
+ADAT2,tRNA Processing
+AEN,RNA Processing (GO:0006396)
+AGO1,MiRNA Processing (GO:0035196); Pre-miRNA Processing (GO:0031054)
+AGO2,MiRNA Processing (GO:0035196); Pre-miRNA Processing (GO:0031054); Regulatory ncRNA Processing (GO:0070918)
+AGO3,MRNA Metabolic Process (GO:0016071); MiRNA Processing (GO:0035196); Pre-miRNA Processing (GO:0031054); Regulatory ncRNA Processing (GO:0070918)
+AGO4,MRNA Metabolic Process (GO:0016071); MiRNA Processing (GO:0035196); Pre-miRNA Processing (GO:0031054); Regulatory ncRNA Processing (GO:0070918)
+AHCYL1,Regulation of mRNA Processing (GO:0050684)
+AHNAK,Regulation of RNA Splicing (GO:0043484)
+AKAP8L,MRNA Metabolic Process (GO:0016071); RNA Processing (GO:0006396)
+ALKBH5,Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Processing (GO:0050684)
+ALKBH8,tRNA Processing
+ANGEL2,Negative Regulation of RNA Splicing (GO:0033119); Regulation of RNA Splicing (GO:0043484)
+ANKRD16,TRNA Processing (GO:0008033)
+ANKZF1,Ribosome Disassembly (GO:0032790)
+APLN,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+APOBEC1,MRNA Metabolic Process (GO:0016071)
+AQR,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); mRNA Splicing; mRNA Splicing - Major Pathway"
+AR,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+ARGLU1,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+ARL6IP4,RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+ARMC7,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+ARVCF,RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+ASCC2,Ribosome Disassembly (GO:0032790)
+ASCC3,Ribosome Disassembly (GO:0032790)
+ATOH8,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+ATXN1,RNA Processing (GO:0006396)
+ATXN2,RNA Metabolic Process (GO:0016070)
+ATXN2L,MRNA Metabolic Process (GO:0016071); RNA Metabolic Process (GO:0016070)
+ATXN7,Regulation of RNA Splicing (GO:0043484)
+ATXN7L3,Regulation of RNA Splicing (GO:0043484)
+BARD1,Negative Regulation of mRNA Processing (GO:0050686)
+BCAS2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+BCDIN3D,MiRNA Processing (GO:0035196); Pre-miRNA Processing (GO:0031054); RNA Metabolic Process (GO:0016070)
+BICC1,MRNA Metabolic Process (GO:0016071)
+BICD1,RNA Processing (GO:0006396)
+BMP4,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+BMS1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+BOP1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+BRDT,Regulation of RNA Splicing (GO:0043484)
+BRF1,RRNA Metabolic Process (GO:0016072); TRNA Metabolic Process (GO:0006399)
+BRIX1,Ribosome Assembly (GO:0042255)
+BUD13,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+BUD31,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+BYSL,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+C1D,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+C1QBP,"Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); Ribosome Assembly (GO:0042255)"
+CACTIN,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+CASC3,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+CAVIN1,RRNA Metabolic Process (GO:0016072)
+CBLL1,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396)
+CCAR1,mRNA Splicing; mRNA Splicing - Major Pathway
+CCAR2,RNA Processing (GO:0006396); RNA Splicing (GO:0008380); Regulation of RNA Splicing (GO:0043484)
+CCDC12,mRNA Splicing; mRNA Splicing - Major Pathway
+CCNL1,"Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+CCNL2,"Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+CD2BP2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+CDC40,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+CDC73,MRNA Processing (GO:0006397)
+CDK12,RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+CDK13,"MRNA Splicing, via Spliceosome (GO:0000398)"
+CDK5RAP1,RNA Metabolic Process (GO:0016070)
+CDK5RAP3,Ribosome Disassembly (GO:0032790)
+CDK9,Regulation of mRNA Processing (GO:0050684)
+CDKAL1,tRNA Processing
+CELF1,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+CELF2,"MRNA Splice Site Recognition (GO:0006376); RNA Processing (GO:0006396); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+CELF3,"MRNA Splice Site Recognition (GO:0006376); Positive Regulation of mRNA Processing (GO:0050685); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+CELF4,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Splice Site Recognition (GO:0006376); MRNA Splicing, via Spliceosome (GO:0000398); Positive Regulation of RNA Splicing (GO:0033120); Positive Regulation of mRNA Processing (GO:0050685); Positive Regulation of mRNA Splicing, via Spliceosome (GO:0048026); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+CELF5,"MRNA Splice Site Recognition (GO:0006376); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+CELF6,"MRNA Splice Site Recognition (GO:0006376); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+CHD8,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396)
+CHERP,mRNA Splicing; mRNA Splicing - Major Pathway
+CINP,Regulation of Ribosome Biogenesis (GO:0090069); Ribosome Biogenesis (GO:0042254)
+CIRBP,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+CLK1,Regulation of RNA Splicing (GO:0043484)
+CLK2,Regulation of RNA Splicing (GO:0043484)
+CLK3,Regulation of RNA Splicing (GO:0043484)
+CLK4,Regulation of RNA Splicing (GO:0043484)
+CLNS1A,"MRNA Splicing, via Spliceosome (GO:0000398); Positive Regulation of RNA Splicing (GO:0033120); Positive Regulation of mRNA Processing (GO:0050685); Positive Regulation of mRNA Splicing, via Spliceosome (GO:0048026); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+CLP1,"MRNA Processing (GO:0006397); RNA Processing (GO:0006396); RNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0000394); Regulation of mRNA Processing (GO:0050684); TRNA Processing (GO:0008033); TRNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0006388); tRNA Processing; tRNA Processing in the Nucleus"
+CMTR1,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396)
+CMTR2,MRNA Processing (GO:0006397)
+CNOT10,MRNA Metabolic Process (GO:0016071)
+CNOT2,Regulation of Cytoplasmic mRNA Processing Body Assembly (GO:0010603)
+CNOT3,MRNA Metabolic Process (GO:0016071)
+CNOT6,Regulation of Cytoplasmic mRNA Processing Body Assembly (GO:0010603)
+CNOT6L,Regulation of Cytoplasmic mRNA Processing Body Assembly (GO:0010603)
+CNOT7,Positive Regulation of mRNA Metabolic Process (GO:1903313)
+CNOT8,Positive Regulation of mRNA Metabolic Process (GO:1903313)
+COIL,"MRNA Splicing, via Spliceosome (GO:0000398)"
+CPEB1,Regulation of mRNA Processing (GO:0050684)
+CPSF1,MRNA Processing (GO:0006397); tRNA Processing; tRNA Processing in the Nucleus
+CPSF2,Histone mRNA Metabolic Process (GO:0008334); MRNA Processing (GO:0006397)
+CPSF3,Histone mRNA Metabolic Process (GO:0008334); MRNA Processing (GO:0006397)
+CPSF4,MRNA Processing (GO:0006397); tRNA Processing; tRNA Processing in the Nucleus
+CPSF6,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396)
+CPSF7,MRNA Processing (GO:0006397)
+CRIPT,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+CRNKL1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+CSNK1D,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+CSNK1E,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+CSNK2A2,RIBOSOME BIOGENESIS IN EUKARYOTES
+CSNK2B,RIBOSOME BIOGENESIS IN EUKARYOTES
+CSTF1,Regulation of mRNA Processing (GO:0050684)
+CSTF2,MRNA Processing (GO:0006397); Regulation of mRNA Processing (GO:0050684); tRNA Processing; tRNA Processing in the Nucleus
+CSTF3,RNA Processing (GO:0006396); Regulation of mRNA Processing (GO:0050684)
+CTNNBL1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+CTU1,tRNA Processing
+CTU2,tRNA Processing
+CUL2,Ribosome Disassembly (GO:0032790)
+CUL4A,Ribosome Biogenesis (GO:0042254)
+CUL4B,Ribosome Biogenesis (GO:0042254)
+CWC15,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+CWC25,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+CWC27,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+CWF19L1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+CWF19L2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+DARS2,TRNA Metabolic Process (GO:0006399)
+DAZAP1,"Positive Regulation of RNA Splicing (GO:0033120); Positive Regulation of mRNA Processing (GO:0050685); Positive Regulation of mRNA Splicing, via Spliceosome (GO:0048026); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+DBR1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+DCAF13,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+DCP1A,MRNA Metabolic Process (GO:0016071)
+DCP2,Histone mRNA Metabolic Process (GO:0008334); MRNA Metabolic Process (GO:0016071)
+DCPS,"MRNA Metabolic Process (GO:0016071); MRNA Splicing, via Spliceosome (GO:0000398)"
+DDRGK1,Ribosome Disassembly (GO:0032790)
+DDX1,"MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0000394); TRNA Processing (GO:0008033); TRNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0006388); tRNA Processing; tRNA Processing in the Nucleus"
+DDX10,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+DDX17,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Splicing, via Spliceosome (GO:0000398); MiRNA Metabolic Process (GO:0010586); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+DDX20,"MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396)"
+DDX21,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+DDX23,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+DDX24,RNA Metabolic Process (GO:0016070)
+DDX27,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+DDX31,Ribosome Biogenesis (GO:0042254)
+DDX39A,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+DDX39B,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+DDX3X,Cytosolic Ribosome Assembly (GO:0042256); Ribosome Assembly (GO:0042255)
+DDX4,Regulatory ncRNA Processing (GO:0070918)
+DDX41,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+DDX42,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+DDX46,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+DDX47,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+DDX49,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+DDX5,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); MiRNA Metabolic Process (GO:0010586); MiRNA Processing (GO:0035196); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); Regulation of miRNA Metabolic Process (GO:2000628); mRNA Splicing; mRNA Splicing - Major Pathway"
+DDX52,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+DDX54,RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+DDX55,RRNA Processing (GO:0006364)
+DEDD2,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072)
+DENR,Ribosome Disassembly (GO:0032790)
+DGCR8,MiRNA Processing (GO:0035196); Positive Regulation of miRNA Processing (GO:1903800); Primary miRNA Processing (GO:0031053); Regulation of pre-miRNA Processing (GO:2000631)
+DHX15,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+DHX16,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+DHX29,Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254)
+DHX30,Mitochondrial Ribosome Assembly (GO:0061668)
+DHX35,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+DHX36,Positive Regulation of mRNA Processing (GO:0050685)
+DHX37,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+DHX38,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+DHX40,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+DHX8,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+DHX9,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Splicing, via Spliceosome (GO:0000398); Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Processing (GO:0050684); mRNA Splicing; mRNA Splicing - Major Pathway"
+DICER1,MiRNA Metabolic Process (GO:0010586); MiRNA Processing (GO:0035196); Pre-miRNA Processing (GO:0031054); RNA Metabolic Process (GO:0016070); Regulatory ncRNA Processing (GO:0070918); TRNA Metabolic Process (GO:0006399)
+DIMT1,Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of rRNA Processing (GO:2000234); Regulation of rRNA Processing (GO:2000232); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+DIS3,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+DIS3L,MRNA Metabolic Process (GO:0016071); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072)
+DIS3L2,MRNA Metabolic Process (GO:0016071); MiRNA Metabolic Process (GO:0010586)
+DKC1,RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+DNAJC17,"MRNA Splicing, via Spliceosome (GO:0000398)"
+DNAJC8,mRNA Splicing; mRNA Splicing - Major Pathway
+DNTTIP2,RNA Processing (GO:0006396); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+DROSHA,MiRNA Processing (GO:0035196); Pre-miRNA Processing (GO:0031054); Primary miRNA Processing (GO:0031053); RIBOSOME BIOGENESIS IN EUKARYOTES
+DTD1,RNA Metabolic Process (GO:0016070); TRNA Metabolic Process (GO:0006399)
+DTD2,RNA Metabolic Process (GO:0016070); TRNA Metabolic Process (GO:0006399)
+DTWD1,TRNA Processing (GO:0008033)
+DTWD2,RNA Processing (GO:0006396); TRNA Processing (GO:0008033)
+DUS2,tRNA Processing
+DUSP11,RNA Processing (GO:0006396)
+DXO,MRNA Metabolic Process (GO:0016071); Positive Regulation of RNA Metabolic Process (GO:0051254)
+DYRK1A,"Positive Regulation of RNA Splicing (GO:0033120); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+EARS2,Mitochondrial RNA Metabolic Process (GO:0000959)
+EBNA1BP2,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+EFL1,Cytosolic Ribosome Assembly (GO:0042256); RIBOSOME BIOGENESIS IN EUKARYOTES; Ribosome Assembly (GO:0042255)
+EFTUD2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+EGFR,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+EGR1,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+EIF1AX,Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254)
+EIF2A,Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254)
+EIF2D,Ribosome Disassembly (GO:0032790)
+EIF4E2,Ribosome Disassembly (GO:0032790)
+EIF5,Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254)
+EIF5B,Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254)
+EIF6,Cytosolic Ribosome Assembly (GO:0042256); RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254)
+ELAC1,Ribosome Disassembly (GO:0032790); TRNA Processing (GO:0008033)
+ELAC2,Mitochondrial RNA Metabolic Process (GO:0000959); Mitochondrial tRNA Processing (GO:0090646); TRNA Metabolic Process (GO:0006399); TRNA Processing (GO:0008033); rRNA Processing; tRNA Processing; tRNA Processing in the Nucleus
+ELAVL4,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396)
+ELP5,TRNA Processing (GO:0008033)
+EMG1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+ENY2,Regulation of RNA Splicing (GO:0043484)
+ERAL1,Mitochondrial Ribosome Assembly (GO:0061668); Ribosome Assembly (GO:0042255)
+EREG,MRNA Metabolic Process (GO:0016071)
+ERI1,Histone mRNA Metabolic Process (GO:0008334); Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+ERN1,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); Positive Regulation of RNA Splicing (GO:0033120); RNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0000394); Regulation of RNA Splicing (GO:0043484)"
+ERN2,RRNA Metabolic Process (GO:0016072)
+ESF1,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+ESR1,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+ESRP1,Regulation of RNA Splicing (GO:0043484)
+ESRP2,Regulation of RNA Splicing (GO:0043484)
+ESS2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+ETS1,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+EXD1,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+EXOSC1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+EXOSC10,Histone mRNA Metabolic Process (GO:0008334); Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+EXOSC2,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+EXOSC3,MRNA Metabolic Process (GO:0016071); Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+EXOSC4,Histone mRNA Metabolic Process (GO:0008334); Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+EXOSC5,MRNA Metabolic Process (GO:0016071); Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+EXOSC6,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+EXOSC7,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+EXOSC8,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+EXOSC9,MRNA Metabolic Process (GO:0016071); Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+FAM32A,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+FAM50A,Regulation of RNA Splicing (GO:0043484); mRNA Splicing; mRNA Splicing - Major Pathway
+FAM98A,"RNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0000394); TRNA Processing (GO:0008033); TRNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0006388)"
+FAM98B,"RNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0000394); TRNA Processing (GO:0008033); TRNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0006388); tRNA Processing; tRNA Processing in the Nucleus"
+FARS2,RNA Processing (GO:0006396); TRNA Metabolic Process (GO:0006399); TRNA Processing (GO:0008033)
+FASTK,Mitochondrial RNA Metabolic Process (GO:0000959); Mitochondrial RNA Processing (GO:0000963); RNA Processing (GO:0006396); Regulation of RNA Splicing (GO:0043484)
+FASTKD1,Mitochondrial RNA Metabolic Process (GO:0000959); Mitochondrial RNA Processing (GO:0000963); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396)
+FASTKD2,Mitochondrial RNA Metabolic Process (GO:0000959); Mitochondrial RNA Processing (GO:0000963); Mitochondrial Ribosome Assembly (GO:0061668); RNA Processing (GO:0006396)
+FASTKD3,Mitochondrial RNA Metabolic Process (GO:0000959); Mitochondrial RNA Processing (GO:0000963); RNA Processing (GO:0006396)
+FASTKD5,Mitochondrial RNA Metabolic Process (GO:0000959); Mitochondrial RNA Processing (GO:0000963); RNA Processing (GO:0006396)
+FAU,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Ribosome Assembly (GO:0042255); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+FBL,MRNA Metabolic Process (GO:0016071); Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+FBLL1,MRNA Metabolic Process (GO:0016071); RIBOSOME BIOGENESIS IN EUKARYOTES
+FCF1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+FGF12,Ribosome Biogenesis (GO:0042254)
+FGF2,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+FKBP6,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+FMR1,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+FOS,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+FOSL1,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+FOXA1,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+FOXO3,Mitochondrial RNA Metabolic Process (GO:0000959); Positive Regulation of miRNA Metabolic Process (GO:2000630)
+FRA10AC1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+FTO,RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396)
+FTSJ1,TRNA Processing (GO:0008033); tRNA Processing
+FTSJ3,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+FUS,RNA Processing (GO:0006396); RNA Splicing (GO:0008380); Regulation of RNA Splicing (GO:0043484); mRNA Splicing; mRNA Splicing - Major Pathway
+FXR1,Regulation of RNA Metabolic Process (GO:0051252); Regulation of mRNA Metabolic Process (GO:1903311)
+FXR2,Regulation of RNA Metabolic Process (GO:0051252); Regulation of mRNA Metabolic Process (GO:1903311)
+GAR1,RIBOSOME BIOGENESIS IN EUKARYOTES; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+GATA2,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+GATA3,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+GCFC2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+GCN1,Ribosome Disassembly (GO:0032790)
+GEMIN2,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375)"
+GEMIN4,"MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)"
+GEMIN5,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+GEMIN6,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+GEMIN7,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+GEMIN8,"MRNA Splicing, via Spliceosome (GO:0000398)"
+GFM2,Ribosome Disassembly (GO:0032790)
+GIGYF2,Ribosome Disassembly (GO:0032790)
+GLUL,Ribosome Biogenesis (GO:0042254)
+GNL2,RIBOSOME BIOGENESIS IN EUKARYOTES
+GNL3,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Positive Regulation of miRNA Metabolic Process (GO:2000630); RIBOSOME BIOGENESIS IN EUKARYOTES; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+GNL3L,RIBOSOME BIOGENESIS IN EUKARYOTES
+GPAT2,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+GPATCH1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+GPKOW,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+GRSF1,Mitochondrial RNA Metabolic Process (GO:0000959); Positive Regulation of RNA Metabolic Process (GO:0051254); Regulation of RNA Splicing (GO:0043484)
+GRWD1,Ribosome Biogenesis (GO:0042254)
+GTF2F1,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+GTF2F2,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+GTF3A,RRNA Metabolic Process (GO:0016072); Ribosome Biogenesis (GO:0042254)
+GTF3C1,RRNA Metabolic Process (GO:0016072); TRNA Metabolic Process (GO:0006399)
+GTPBP1,Positive Regulation of mRNA Metabolic Process (GO:1903313)
+GTPBP10,Mitochondrial Ribosome Assembly (GO:0061668)
+GTPBP3,tRNA Processing
+GTPBP4,RIBOSOME BIOGENESIS IN EUKARYOTES; Ribosome Biogenesis (GO:0042254)
+GTPBP6,Mitochondrial Ribosome Assembly (GO:0061668)
+H1-2,"Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+H1-3,"Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+HABP4,Positive Regulation of RNA Splicing (GO:0033120); Regulation of RNA Splicing (GO:0043484)
+HBS1L,Ribosome Disassembly (GO:0032790)
+HDAC7,Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Processing (GO:0050684)
+HEATR1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of rRNA Processing (GO:2000234); RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Metabolic Process (GO:0016070); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Regulation of rRNA Processing (GO:2000232); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+HEATR3,Ribosome Biogenesis (GO:0042254)
+HENMT1,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918); SiRNA Processing (GO:0030422)
+HIF1A,Negative Regulation of miRNA Metabolic Process (GO:2000629); Positive Regulation of miRNA Metabolic Process (GO:2000630)
+HIPK3,MRNA Metabolic Process (GO:0016071)
+HNRNPA0,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396)
+HNRNPA1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+HNRNPA2B1,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); MiRNA Processing (GO:0035196); Primary miRNA Processing (GO:0031053); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+HNRNPAB,MRNA Metabolic Process (GO:0016071)
+HNRNPD,RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); mRNA Splicing; mRNA Splicing - Major Pathway
+HNRNPF,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of RNA Splicing (GO:0043484); mRNA Splicing; mRNA Splicing - Major Pathway"
+HNRNPH1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of RNA Splicing (GO:0043484); mRNA Splicing; mRNA Splicing - Major Pathway"
+HNRNPH2,Regulation of RNA Splicing (GO:0043484); mRNA Splicing; mRNA Splicing - Major Pathway
+HNRNPH3,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of RNA Splicing (GO:0043484)"
+HNRNPK,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+HNRNPL,"RNA Processing (GO:0006396); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+HNRNPLL,Positive Regulation of RNA Splicing (GO:0033120); Regulation of RNA Splicing (GO:0043484)
+HNRNPM,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+HNRNPR,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+HNRNPU,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+HNRNPUL1,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396)"
+HNRNPUL2,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Splicing, via Spliceosome (GO:0000398)"
+HRAS,Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of miRNA Metabolic Process (GO:2000630); Regulation of miRNA Metabolic Process (GO:2000628)
+HSD17B10,Mitochondrial tRNA Processing (GO:0090646); TRNA Processing (GO:0008033); rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+HSPA8,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+HTATSF1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+IL10,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+IL1B,Positive Regulation of RNA Metabolic Process (GO:0051254)
+ILDR1,Regulation of RNA Splicing (GO:0043484)
+ILDR2,Regulation of RNA Splicing (GO:0043484)
+ILF3,"MRNA Splicing, via Spliceosome (GO:0000398)"
+IMP3,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+IMP4,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+INTS1,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+INTS10,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+INTS11,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+INTS12,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+INTS13,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+INTS14,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+INTS2,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+INTS3,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+INTS4,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+INTS5,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+INTS6,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+INTS6L,SnRNA Processing (GO:0016180)
+INTS7,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+INTS8,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+INTS9,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+IRF3,MRNA Metabolic Process (GO:0016071)
+ISG20L2,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+ISY1,"MRNA Processing (GO:0006397); MRNA Splice Site Recognition (GO:0006376); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+IVNS1ABP,RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+IWS1,Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Processing (GO:0050684)
+JMJD6,"Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+JUN,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+KAT2A,Regulation of RNA Splicing (GO:0043484)
+KAT2B,Regulation of RNA Splicing (GO:0043484); Regulation of rRNA Processing (GO:2000232)
+KAT8,Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Processing (GO:0050684)
+KHDC4,MRNA Splice Site Recognition (GO:0006376)
+KHDRBS1,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+KHDRBS2,"PTK6 Regulates Proteins Involved in RNA Processing; Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+KHDRBS3,"PTK6 Regulates Proteins Involved in RNA Processing; Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+KHSRP,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MiRNA Metabolic Process (GO:0010586); Positive Regulation of mRNA Metabolic Process (GO:1903313); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375)"
+KIN,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+KLF4,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+KLHDC10,Ribosome Disassembly (GO:0032790)
+KRR1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+LAS1L,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+LCMT2,TRNA Processing (GO:0008033); tRNA Processing
+LENG1,mRNA Splicing; mRNA Splicing - Major Pathway
+LEO1,MRNA Processing (GO:0006397)
+LIN28A,MiRNA Metabolic Process (GO:0010586); MiRNA Processing (GO:0035196); Negative Regulation of miRNA Processing (GO:1903799); Pre-miRNA Processing (GO:0031054); RNA Processing (GO:0006396); Regulation of pre-miRNA Processing (GO:2000631)
+LIN28B,MiRNA Metabolic Process (GO:0010586); MiRNA Processing (GO:0035196); Negative Regulation of miRNA Processing (GO:1903799); Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of miRNA Metabolic Process (GO:2000630); Pre-miRNA Processing (GO:0031054); RNA Processing (GO:0006396); Regulation of Primary miRNA Processing (GO:2000634); Regulation of pre-miRNA Processing (GO:2000631)
+LRPPRC,Mitochondrial RNA Processing (GO:0000963)
+LSG1,RIBOSOME BIOGENESIS IN EUKARYOTES; Ribosome Biogenesis (GO:0042254)
+LSM1,"Histone mRNA Metabolic Process (GO:0008334); MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375)"
+LSM10,Histone mRNA Metabolic Process (GO:0008334)
+LSM11,Histone mRNA Metabolic Process (GO:0008334)
+LSM2,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+LSM3,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+LSM4,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+LSM5,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+LSM6,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); RRNA Processing (GO:0006364); mRNA Splicing; mRNA Splicing - Major Pathway"
+LSM7,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+LSM8,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+LTN1,Ribosome Disassembly (GO:0032790)
+LTO1,Ribosome Biogenesis (GO:0042254)
+LTV1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+LUC7L,MRNA Splice Site Recognition (GO:0006376)
+LUC7L2,MRNA Splice Site Recognition (GO:0006376)
+LUC7L3,MRNA Splice Site Recognition (GO:0006376); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); mRNA Splicing; mRNA Splicing - Major Pathway
+LYAR,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+M1AP,RNA Processing (GO:0006396)
+MAEL,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+MAGOH,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+MAGOHB,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+MAK16,RRNA Processing (GO:0006364)
+MALSU1,Mitochondrial Ribosome Assembly (GO:0061668); Regulation of Ribosome Biogenesis (GO:0090069); Ribosome Biogenesis (GO:0042254)
+MAPT,RNA Metabolic Process (GO:0016070); RRNA Metabolic Process (GO:0016072)
+MARS1,RRNA Metabolic Process (GO:0016072)
+MBLAC1,Histone mRNA Metabolic Process (GO:0008334); MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397)
+MBNL1,RNA Processing (GO:0006396); RNA Splicing (GO:0008380); Regulation of RNA Splicing (GO:0043484)
+MBNL2,Regulation of RNA Splicing (GO:0043484)
+MBNL3,Regulation of RNA Splicing (GO:0043484)
+MCAT,Mitochondrial Ribosome Assembly (GO:0061668)
+MCTS1,Ribosome Disassembly (GO:0032790)
+MDN1,RIBOSOME BIOGENESIS IN EUKARYOTES; Ribosome Assembly (GO:0042255)
+MED1,Regulation of RNA Metabolic Process (GO:0051252)
+MEPCE,RNA Metabolic Process (GO:0016070); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+METTL1,TRNA Processing (GO:0008033); tRNA Processing
+METTL14,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); MiRNA Processing (GO:0035196); Primary miRNA Processing (GO:0031053); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+METTL15,Mitochondrial Ribosome Assembly (GO:0061668)
+METTL16,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+METTL17,Mitochondrial Ribosome Assembly (GO:0061668); Ribosome Biogenesis (GO:0042254)
+METTL18,Regulation of RNA Metabolic Process (GO:0051252); Regulation of Ribosome Biogenesis (GO:0090069); Regulation of rRNA Processing (GO:2000232)
+METTL3,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); MiRNA Processing (GO:0035196); Primary miRNA Processing (GO:0031053); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+METTL5,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+METTL6,TRNA Processing (GO:0008033)
+METTL8,MRNA Metabolic Process (GO:0016071); Mitochondrial tRNA Processing (GO:0090646); RNA Metabolic Process (GO:0016070)
+MIEF1,Mitochondrial Ribosome Assembly (GO:0061668)
+MITF,Regulation of RNA Metabolic Process (GO:0051252)
+MOV10,Positive Regulation of mRNA Metabolic Process (GO:1903313)
+MOV10L1,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+MPHOSPH10,"Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol"
+MPHOSPH6,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+MPV17L2,Mitochondrial Ribosome Assembly (GO:0061668); Ribosome Assembly (GO:0042255)
+MRM1,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Mitochondrion
+MRM2,Mitochondrial Ribosome Assembly (GO:0061668); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Mitochondrion
+MRM3,Mitochondrial Ribosome Assembly (GO:0061668); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Mitochondrion
+MRPL12,Mitochondrial RNA Metabolic Process (GO:0000959)
+MRPS2,Mitochondrial Ribosome Assembly (GO:0061668); Ribosome Assembly (GO:0042255)
+MRRF,Ribosome Disassembly (GO:0032790)
+MRTFA,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+MRTFB,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+MRTO4,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+MT-ATP6,rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+MT-CO1,rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+MT-CO2,rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+MT-CO3,rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+MT-CYB,rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+MT-ND1,rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+MT-ND2,rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+MT-ND3,rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+MT-ND4,rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+MT-ND4L,rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+MT-ND5,rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+MT-ND6,tRNA Processing; tRNA Processing in the Mitochondrion
+MTDH,MRNA Metabolic Process (GO:0016071)
+MTERF2,Mitochondrial RNA Metabolic Process (GO:0000959)
+MTERF3,Mitochondrial Ribosome Assembly (GO:0061668); Ribosome Assembly (GO:0042255)
+MTERF4,Mitochondrial Ribosome Assembly (GO:0061668); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Mitochondrion
+MTG1,Mitochondrial Ribosome Assembly (GO:0061668)
+MTG2,Mitochondrial Ribosome Assembly (GO:0061668)
+MTIF2,Ribosome Disassembly (GO:0032790)
+MTIF3,Ribosome Disassembly (GO:0032790)
+MTO1,tRNA Processing
+MTPAP,Histone mRNA Metabolic Process (GO:0008334); MRNA Processing (GO:0006397); Mitochondrial RNA Processing (GO:0000963)
+MTREX,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); SnRNA Metabolic Process (GO:0016073)"
+MYB,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+MYC,Positive Regulation of miRNA Metabolic Process (GO:2000630); RNA Metabolic Process (GO:0016070); RRNA Metabolic Process (GO:0016072)
+MYG1,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); Mitochondrial RNA Metabolic Process (GO:0000959); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+MYOD1,Regulation of RNA Splicing (GO:0043484)
+NAF1,Ribosome Biogenesis (GO:0042254)
+NANOS2,MRNA Metabolic Process (GO:0016071)
+NAT10,RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NBDY,Regulation of Cytoplasmic mRNA Processing Body Assembly (GO:0010603)
+NCBP1,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); Histone mRNA Metabolic Process (GO:0008334); MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); MiRNA Processing (GO:0035196); Positive Regulation of RNA Splicing (GO:0033120); Positive Regulation of mRNA Processing (GO:0050685); Positive Regulation of mRNA Splicing, via Spliceosome (GO:0048026); Primary miRNA Processing (GO:0031053); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+NCBP2,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); Histone mRNA Metabolic Process (GO:0008334); MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); MiRNA Processing (GO:0035196); Positive Regulation of mRNA Processing (GO:0050685); Primary miRNA Processing (GO:0031053); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+NCL,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NCOR1,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+NCOR2,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+NDC1,tRNA Processing; tRNA Processing in the Nucleus
+NDUFAB1,Mitochondrial Ribosome Assembly (GO:0061668)
+NEMF,Ribosome Disassembly (GO:0032790)
+NFATC3,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+NFATC4,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+NFIB,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+NFKB1,Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of miRNA Metabolic Process (GO:2000630); Regulation of miRNA Metabolic Process (GO:2000628)
+NGDN,RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+NGFR,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+NGRN,Mitochondrial Ribosome Assembly (GO:0061668); Ribosome Assembly (GO:0042255)
+NHP2,RIBOSOME BIOGENESIS IN EUKARYOTES; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NIFK,RNA Metabolic Process (GO:0016070); RRNA Metabolic Process (GO:0016072)
+NIP7,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NKAP,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+NMD3,Positive Regulation of RNA Metabolic Process (GO:0051254); RIBOSOME BIOGENESIS IN EUKARYOTES
+NOA1,Mitochondrial Ribosome Assembly (GO:0061668); Ribosome Assembly (GO:0042255)
+NOB1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NOC2L,Ribosome Biogenesis (GO:0042254)
+NOC4L,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NOCT,MRNA Metabolic Process (GO:0016071)
+NOL11,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NOL12,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NOL3,MRNA Splice Site Recognition (GO:0006376); RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+NOL6,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NOL7,RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+NOL8,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+NOL9,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NOLC1,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+NOM1,Ribosome Biogenesis (GO:0042254)
+NONO,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+NOP10,RIBOSOME BIOGENESIS IN EUKARYOTES; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NOP14,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NOP16,Ribosome Biogenesis (GO:0042254)
+NOP2,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NOP53,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254)
+NOP56,MRNA Metabolic Process (GO:0016071); Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NOP58,MRNA Metabolic Process (GO:0016071); Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+NOTCH2,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+NOTCH3,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+NOVA1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+NOVA2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Metabolic Process (GO:0051252); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+NPLOC4,Ribosome Disassembly (GO:0032790)
+NR3C1,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+NRDE2,RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+NSA2,RRNA Processing (GO:0006364)
+NSRP1,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+NSUN2,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); TRNA Processing (GO:0008033); tRNA Processing
+NSUN6,TRNA Processing (GO:0008033); tRNA Processing
+NUDT12,MRNA Metabolic Process (GO:0016071)
+NUDT16L1,MRNA Metabolic Process (GO:0016071)
+NUDT17,RNA Metabolic Process (GO:0016070)
+NUDT21,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396)
+NUDT3,RNA Metabolic Process (GO:0016070)
+NUFIP1,RNA Processing (GO:0006396)
+NUP107,tRNA Processing; tRNA Processing in the Nucleus
+NUP133,tRNA Processing; tRNA Processing in the Nucleus
+NUP153,tRNA Processing; tRNA Processing in the Nucleus
+NUP155,tRNA Processing; tRNA Processing in the Nucleus
+NUP160,tRNA Processing; tRNA Processing in the Nucleus
+NUP188,tRNA Processing; tRNA Processing in the Nucleus
+NUP205,tRNA Processing; tRNA Processing in the Nucleus
+NUP210,tRNA Processing; tRNA Processing in the Nucleus
+NUP214,tRNA Processing; tRNA Processing in the Nucleus
+NUP35,tRNA Processing; tRNA Processing in the Nucleus
+NUP37,tRNA Processing; tRNA Processing in the Nucleus
+NUP43,tRNA Processing; tRNA Processing in the Nucleus
+NUP54,tRNA Processing; tRNA Processing in the Nucleus
+NUP58,tRNA Processing; tRNA Processing in the Nucleus
+NUP62,tRNA Processing; tRNA Processing in the Nucleus
+NUP85,tRNA Processing; tRNA Processing in the Nucleus
+NUP88,tRNA Processing; tRNA Processing in the Nucleus
+NUP93,tRNA Processing; tRNA Processing in the Nucleus
+NUP98,"Positive Regulation of RNA Splicing (GO:0033120); Positive Regulation of mRNA Processing (GO:0050685); Positive Regulation of mRNA Splicing, via Spliceosome (GO:0048026); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); tRNA Processing; tRNA Processing in the Nucleus"
+NVL,RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+NXF1,RIBOSOME BIOGENESIS IN EUKARYOTES
+NXT1,RIBOSOME BIOGENESIS IN EUKARYOTES
+NXT2,RIBOSOME BIOGENESIS IN EUKARYOTES
+OAS3,Regulation of RNA Metabolic Process (GO:0051252)
+OSGEP,TRNA Processing (GO:0008033); tRNA Processing
+OSGEPL1,Mitochondrial tRNA Processing (GO:0090646)
+PABPC4,RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396)
+PABPN1,RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396)
+PAF1,MRNA Processing (GO:0006397)
+PAK1IP1,Ribosome Biogenesis (GO:0042254)
+PAPOLA,MRNA Processing (GO:0006397)
+PARN,MiRNA Metabolic Process (GO:0010586); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396)
+PAX6,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+PCBP1,mRNA Splicing; mRNA Splicing - Major Pathway
+PCBP2,MRNA Metabolic Process (GO:0016071); RNA Metabolic Process (GO:0016070); mRNA Splicing; mRNA Splicing - Major Pathway
+PCBP3,MRNA Metabolic Process (GO:0016071); RNA Metabolic Process (GO:0016070)
+PCBP4,"Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+PCF11,Regulation of mRNA Processing (GO:0050684)
+PCIF1,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396)
+PDCD11,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+PDCD2,Ribosome Biogenesis (GO:0042254)
+PDCD7,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Minor Pathway"
+PDE3A,Regulation of RNA Metabolic Process (GO:0051252)
+PDGFB,Negative Regulation of miRNA Metabolic Process (GO:2000629); Positive Regulation of miRNA Metabolic Process (GO:2000630)
+PELO,Ribosome Disassembly (GO:0032790)
+PELP1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+PES1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+PHF5A,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PIH1D1,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+PIH1D2,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+PIK3R1,Positive Regulation of RNA Splicing (GO:0033120); Regulation of RNA Splicing (GO:0043484)
+PIN4,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+PIWIL1,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+PIWIL2,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+PIWIL4,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+PLD6,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+PLRG1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PNLDC1,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+PNN,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Processing (GO:0050684); mRNA Splicing; mRNA Splicing - Major Pathway"
+PNO1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+PNPT1,MRNA Metabolic Process (GO:0016071); Mitochondrial RNA Metabolic Process (GO:0000959); Mitochondrial RNA Processing (GO:0000963); Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of mRNA Metabolic Process (GO:1903313); Positive Regulation of miRNA Metabolic Process (GO:2000630); RNA Metabolic Process (GO:0016070)
+POLR2A,Positive Regulation of RNA Splicing (GO:0033120); Regulation of RNA Splicing (GO:0043484); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+POLR2B,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+POLR2C,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+POLR2D,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+POLR2E,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+POLR2F,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+POLR2G,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+POLR2H,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+POLR2I,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+POLR2K,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+POLR2L,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+POLRMT,Mitochondrial RNA Metabolic Process (GO:0000959)
+POP1,RNA Processing (GO:0006396); TRNA Metabolic Process (GO:0006399); TRNA Processing (GO:0008033); tRNA Processing; tRNA Processing in the Nucleus
+POP4,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); tRNA Processing; tRNA Processing in the Nucleus
+POP5,RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); tRNA Processing; tRNA Processing in the Nucleus
+POP7,RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); TRNA Metabolic Process (GO:0006399); TRNA Processing (GO:0008033); tRNA Processing; tRNA Processing in the Nucleus
+POU2F1,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+PPARA,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+PPARD,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+PPARG,Negative Regulation of miRNA Metabolic Process (GO:2000629); Positive Regulation of miRNA Metabolic Process (GO:2000630)
+PPARGC1A,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+PPIE,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PPIG,RNA Processing (GO:0006396); RNA Splicing (GO:0008380); mRNA Splicing; mRNA Splicing - Major Pathway
+PPIH,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PPIL1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PPIL2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PPIL3,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PPIL4,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PPP1R8,RNA Metabolic Process (GO:0016070); mRNA Splicing; mRNA Splicing - Major Pathway
+PPP1R9B,RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+PPP2CA,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+PPP2R1A,RNA Processing (GO:0006396); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+PPWD1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PQBP1,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Splicing, via Spliceosome (GO:0000398); Regulation of RNA Splicing (GO:0043484); mRNA Splicing; mRNA Splicing - Major Pathway"
+PRCC,mRNA Splicing; mRNA Splicing - Major Pathway
+PRKACA,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396)
+PRKDC,RRNA Processing (GO:0006364)
+PRKRA,MiRNA Processing (GO:0035196); Pre-miRNA Processing (GO:0031054); Regulatory ncRNA Processing (GO:0070918); SiRNA Processing (GO:0030422)
+PRKRIP1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PRMT1,RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+PRMT5,"MRNA Splicing, via Spliceosome (GO:0000398); Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of RNA Splicing (GO:0033120); Positive Regulation of mRNA Processing (GO:0050685); Positive Regulation of mRNA Splicing, via Spliceosome (GO:0048026); Positive Regulation of rRNA Processing (GO:2000234); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); Regulation of rRNA Processing (GO:2000232)"
+PRMT7,"MRNA Splicing, via Spliceosome (GO:0000398)"
+PRMT9,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396)
+PRORP,Mitochondrial tRNA Processing (GO:0090646); rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+PRPF18,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); mRNA Splicing; mRNA Splicing - Major Pathway
+PRPF19,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PRPF3,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PRPF31,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PRPF38A,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PRPF39,MRNA Splice Site Recognition (GO:0006376)
+PRPF4,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PRPF40A,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+PRPF40B,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+PRPF6,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+PRPF8,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+PRR5L,Positive Regulation of mRNA Metabolic Process (GO:1903313)
+PRX,Regulation of RNA Splicing (GO:0043484)
+PSIP1,MRNA Splice Site Recognition (GO:0006376)
+PSME3IP1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+PTBP1,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+PTBP2,Negative Regulation of RNA Splicing (GO:0033119); Regulation of RNA Splicing (GO:0043484)
+PTBP3,Negative Regulation of RNA Splicing (GO:0033119); Regulation of RNA Splicing (GO:0043484)
+PTCD1,TRNA Processing (GO:0008033)
+PTCD2,Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Processing (GO:0050684)
+PTK6,PTK6 Regulates Proteins Involved in RNA Processing
+PTRH1,Ribosome Disassembly (GO:0032790)
+PUF60,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Splice Site Recognition (GO:0006376); MRNA Splicing, via Spliceosome (GO:0000398); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+PUM1,MiRNA Processing (GO:0035196); Regulatory ncRNA Processing (GO:0070918)
+PUM2,MiRNA Processing (GO:0035196); Regulatory ncRNA Processing (GO:0070918)
+PUS1,tRNA Processing
+PUS10,MiRNA Processing (GO:0035196); Primary miRNA Processing (GO:0031053)
+PUS3,TRNA Processing (GO:0008033); tRNA Processing
+PUS7,tRNA Processing
+PWP2,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+PYROXD1,"TRNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0006388)"
+QTRT1,tRNA Processing
+QTRT2,tRNA Processing
+RACK1,Ribosome Disassembly (GO:0032790)
+RAE1,tRNA Processing; tRNA Processing in the Nucleus
+RALY,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+RAN,RIBOSOME BIOGENESIS IN EUKARYOTES; Ribosome Biogenesis (GO:0042254); tRNA Processing; tRNA Processing in the Nucleus
+RANBP2,tRNA Processing; tRNA Processing in the Nucleus
+RARA,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+RASA1,Regulation of RNA Metabolic Process (GO:0051252)
+RBFA,Mitochondrial Ribosome Assembly (GO:0061668)
+RBFOX1,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBFOX2,"RNA Metabolic Process (GO:0016070); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBFOX3,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBIS,Ribosome Biogenesis (GO:0042254)
+RBM10,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+RBM11,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBM14,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBM15,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBM15B,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBM17,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Splicing, via Spliceosome (GO:0000398); mRNA Splicing; mRNA Splicing - Major Pathway"
+RBM19,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBM20,"MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); Positive Regulation of RNA Splicing (GO:0033120); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBM22,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Positive Regulation of RNA Splicing (GO:0033120); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of RNA Splicing (GO:0043484); mRNA Splicing; mRNA Splicing - Major Pathway"
+RBM24,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBM25,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+RBM26,RNA Metabolic Process (GO:0016070)
+RBM27,RNA Metabolic Process (GO:0016070)
+RBM28,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RBM3,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+RBM38,Regulation of RNA Splicing (GO:0043484)
+RBM39,"RNA Processing (GO:0006396); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+RBM4,"RNA Processing (GO:0006396); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBM41,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+RBM42,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+RBM44,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+RBM47,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBM48,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+RBM4B,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBM5,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+RBM6,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+RBM7,"RNA Metabolic Process (GO:0016070); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); SnRNA Metabolic Process (GO:0016073); mRNA Splicing; mRNA Splicing - Major Pathway"
+RBMS1,RNA Processing (GO:0006396)
+RBMS2,RNA Processing (GO:0006396)
+RBMX,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); Positive Regulation of RNA Splicing (GO:0033120); Positive Regulation of mRNA Processing (GO:0050685); Positive Regulation of mRNA Splicing, via Spliceosome (GO:0048026); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+RBMX2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+RBPMS,"RNA Processing (GO:0006396); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RBPMS2,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+RC3H1,Regulation of RNA Metabolic Process (GO:0051252); Regulation of miRNA Metabolic Process (GO:2000628)
+RC3H2,Regulation of RNA Metabolic Process (GO:0051252); Regulation of miRNA Metabolic Process (GO:2000628)
+RCC1L,Mitochondrial Ribosome Assembly (GO:0061668); Ribosome Assembly (GO:0042255)
+RCHY1,Ribosome Disassembly (GO:0032790)
+RCL1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RELA,Negative Regulation of miRNA Metabolic Process (GO:2000629); Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of miRNA Metabolic Process (GO:2000630); Regulation of miRNA Metabolic Process (GO:2000628)
+REST,"Negative Regulation of miRNA Metabolic Process (GO:2000629); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+REXO1,RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364)
+REXO2,RIBOSOME BIOGENESIS IN EUKARYOTES
+REXO4,RNA Processing (GO:0006396)
+REXO5,RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364)
+RIDA,MRNA Metabolic Process (GO:0016071)
+RIOK1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of rRNA Processing (GO:2000234); RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Regulation of rRNA Processing (GO:2000232); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RIOK2,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of rRNA Processing (GO:2000234); RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Regulation of rRNA Processing (GO:2000232); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RIOK3,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RIPK1,Positive Regulation of miRNA Processing (GO:1903800)
+RNASE6,RNA Metabolic Process (GO:0016070)
+RNASEH1,RNA Metabolic Process (GO:0016070)
+RNASEH2A,RNA Metabolic Process (GO:0016070)
+RNASEH2B,RNA Metabolic Process (GO:0016070)
+RNASEH2C,RNA Metabolic Process (GO:0016070)
+RNASEL,RNA Processing (GO:0006396)
+RNF10,Ribosome Disassembly (GO:0032790)
+RNF14,Ribosome Disassembly (GO:0032790)
+RNF25,Ribosome Disassembly (GO:0032790)
+RNGTT,MRNA Processing (GO:0006397); RNA Processing (GO:0006396)
+RNH1,MRNA Metabolic Process (GO:0016071)
+RNMT,MRNA Processing (GO:0006397)
+RNPC3,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Minor Pathway"
+RNPS1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+RP9,RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+RPAP2,SnRNA Metabolic Process (GO:0016073)
+RPF1,RRNA Processing (GO:0006364)
+RPF2,Ribosome Biogenesis (GO:0042254)
+RPL10,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL10A,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL10L,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Ribosome Assembly (GO:0042255); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL11,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL12,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL13,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL13A,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL14,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL15,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL18A,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL19,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL22,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL22L1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL23,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL23A,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL26,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL27,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL27A,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL28,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL3,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL32,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL34,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL35A,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL36,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL37,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL37A,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL38,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL39,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL3L,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL4,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL5,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL6,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL7A,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPL8,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPP14,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); rRNA Processing; rRNA Processing in the Nucleus and Cytosol; tRNA Processing; tRNA Processing in the Nucleus
+RPP21,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); TRNA Metabolic Process (GO:0006399); TRNA Processing (GO:0008033); rRNA Processing; rRNA Processing in the Nucleus and Cytosol; tRNA Processing; tRNA Processing in the Nucleus
+RPP25,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); rRNA Processing; rRNA Processing in the Nucleus and Cytosol; tRNA Processing; tRNA Processing in the Nucleus
+RPP25L,RIBOSOME BIOGENESIS IN EUKARYOTES
+RPP30,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); TRNA Metabolic Process (GO:0006399); TRNA Processing (GO:0008033); rRNA Processing; rRNA Processing in the Nucleus and Cytosol; tRNA Processing; tRNA Processing in the Nucleus
+RPP38,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); rRNA Processing; rRNA Processing in the Nucleus and Cytosol; tRNA Processing; tRNA Processing in the Nucleus
+RPP40,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); rRNA Processing; rRNA Processing in the Nucleus and Cytosol; tRNA Processing; tRNA Processing in the Nucleus
+RPRD1A,MRNA Processing (GO:0006397)
+RPRD1B,MRNA Processing (GO:0006397)
+RPRD2,MRNA Processing (GO:0006397)
+RPS11,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS13,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Negative Regulation of RNA Splicing (GO:0033119); Regulation of RNA Splicing (GO:0043484); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS14,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS15,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS15A,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS16,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS17,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS18,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS19BP1,Ribosome Biogenesis (GO:0042254)
+RPS2,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS20,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS21,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS23,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS27A,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS27L,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS28,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS5,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS6,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS7,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS8,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPS9,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RPUSD3,MRNA Metabolic Process (GO:0016071)
+RPUSD4,RRNA Processing (GO:0006364)
+RRAGC,RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+RRP1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RRP15,RRNA Processing (GO:0006364)
+RRP1B,Regulation of RNA Splicing (GO:0043484)
+RRP36,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RRP7A,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RRP9,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+RRS1,Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254)
+RSL24D1,Ribosome Biogenesis (GO:0042254)
+RSRC1,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+RSRP1,"MRNA Splicing, via Spliceosome (GO:0000398)"
+RTCB,"MRNA Processing (GO:0006397); RNA Splicing (GO:0008380); RNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0000394); TRNA Processing (GO:0008033); TRNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0006388); tRNA Processing; tRNA Processing in the Nucleus"
+RTRAF,"RNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0000394); TRNA Processing (GO:0008033); TRNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0006388); tRNA Processing; tRNA Processing in the Nucleus"
+SAP30BP,"Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+SART1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); RRNA Processing (GO:0006364); mRNA Splicing; mRNA Splicing - Major Pathway"
+SART3,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of RNA Metabolic Process (GO:0051252)"
+SAYSD1,Ribosome Disassembly (GO:0032790)
+SBDS,Cytosolic Ribosome Assembly (GO:0042256); RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Assembly (GO:0042255); Ribosome Biogenesis (GO:0042254)
+SCAF11,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375)"
+SCNM1,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+SDAD1,Ribosome Biogenesis (GO:0042254)
+SDE2,"MRNA Splicing, via Spliceosome (GO:0000398); RRNA Processing (GO:0006364); mRNA Splicing; mRNA Splicing - Major Pathway"
+SEC13,tRNA Processing; tRNA Processing in the Nucleus
+SEH1L,tRNA Processing; tRNA Processing in the Nucleus
+SENP3,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+SETX,MRNA Splice Site Recognition (GO:0006376); Positive Regulation of RNA Splicing (GO:0033120); RNA Processing (GO:0006396); Regulation of RNA Splicing (GO:0043484)
+SF1,"MRNA Processing (GO:0006397); MRNA Splice Site Recognition (GO:0006376); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+SF3A1,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splice Site Recognition (GO:0006376); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+SF3A2,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splice Site Recognition (GO:0006376); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+SF3A3,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splice Site Recognition (GO:0006376); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+SF3B1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SF3B2,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SF3B3,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of RNA Splicing (GO:0043484); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SF3B4,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SF3B5,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of RNA Splicing (GO:0043484); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SF3B6,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SFPQ,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); PTK6 Regulates Proteins Involved in RNA Processing; RNA Processing (GO:0006396); RNA Splicing (GO:0008380)"
+SFSWAP,"MRNA Splice Site Recognition (GO:0006376); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+SGF29,Regulation of RNA Splicing (GO:0043484)
+SIDT2,RNA Metabolic Process (GO:0016070)
+SIRT7,Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of rRNA Processing (GO:2000234); RRNA Metabolic Process (GO:0016072); Regulation of rRNA Processing (GO:2000232)
+SLBP,Histone mRNA Metabolic Process (GO:0008334)
+SLC25A33,Mitochondrial RNA Metabolic Process (GO:0000959)
+SLC38A2,Positive Regulation of RNA Splicing (GO:0033120); Regulation of RNA Splicing (GO:0043484)
+SLFN14,MRNA Metabolic Process (GO:0016071); RRNA Metabolic Process (GO:0016072)
+SLIRP,Mitochondrial RNA Processing (GO:0000963)
+SLU7,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Processing (GO:0006397); MRNA Splice Site Recognition (GO:0006376); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+SMAD1,MiRNA Processing (GO:0035196); Primary miRNA Processing (GO:0031053)
+SMAD2,MiRNA Processing (GO:0035196); Primary miRNA Processing (GO:0031053)
+SMAD3,MiRNA Processing (GO:0035196); Negative Regulation of miRNA Metabolic Process (GO:2000629); Positive Regulation of miRNA Metabolic Process (GO:2000630); Primary miRNA Processing (GO:0031053); Regulation of miRNA Metabolic Process (GO:2000628)
+SMARCA4,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+SMNDC1,"RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); mRNA Splicing; mRNA Splicing - Major Pathway"
+SMU1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+SNAPC2,SnRNA Metabolic Process (GO:0016073)
+SNAPC3,SnRNA Metabolic Process (GO:0016073)
+SND1,MRNA Metabolic Process (GO:0016071); MiRNA Metabolic Process (GO:0010586)
+SNIP1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); MiRNA Processing (GO:0035196); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulatory ncRNA Processing (GO:0070918); mRNA Splicing; mRNA Splicing - Major Pathway"
+SNRNP200,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SNRNP25,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Minor Pathway"
+SNRNP27,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+SNRNP35,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Minor Pathway"
+SNRNP40,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SNRNP48,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Minor Pathway"
+SNRNP70,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of RNA Splicing (GO:0043484); mRNA Splicing; mRNA Splicing - Major Pathway"
+SNRPA,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+SNRPA1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+SNRPB,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SNRPB2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+SNRPC,"MRNA Processing (GO:0006397); MRNA Splice Site Recognition (GO:0006376); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+SNRPD1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SNRPD2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SNRPD3,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SNRPE,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SNRPF,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SNRPN,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+SNU13,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); mRNA Splicing; mRNA Splicing - Major Pathway; rRNA Processing; rRNA Processing in the Nucleus and Cytosol"
+SNW1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Positive Regulation of RNA Splicing (GO:0033120); Positive Regulation of mRNA Processing (GO:0050685); Positive Regulation of mRNA Splicing, via Spliceosome (GO:0048026); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+SON,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+SOX9,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+SPI1,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+SPIN1,RRNA Metabolic Process (GO:0016072)
+SPOUT1,MiRNA Processing (GO:0035196); Regulatory ncRNA Processing (GO:0070918)
+SPPL2A,RIBOSOME BIOGENESIS IN EUKARYOTES
+SREBF1,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+SRF,Negative Regulation of miRNA Metabolic Process (GO:2000629); Positive Regulation of miRNA Metabolic Process (GO:2000630)
+SRFBP1,RRNA Processing (GO:0006364)
+SRPK1,"MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+SRPK2,"MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+SRPK3,"MRNA Splicing, via Spliceosome (GO:0000398); Regulation of mRNA Metabolic Process (GO:1903311); Regulation of mRNA Processing (GO:0050684)"
+SRRM1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+SRRM2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+SRRM3,RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+SRRM4,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+SRRT,MiRNA Processing (GO:0035196); Primary miRNA Processing (GO:0031053); mRNA Splicing; mRNA Splicing - Major Pathway
+SRSF1,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splice Site Recognition (GO:0006376); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SRSF10,"MRNA Processing (GO:0006397); MRNA Splice Site Recognition (GO:0006376); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+SRSF11,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); mRNA Splicing; mRNA Splicing - Major Pathway
+SRSF12,"MRNA Splice Site Recognition (GO:0006376); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+SRSF2,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SRSF3,"MiRNA Processing (GO:0035196); Primary miRNA Processing (GO:0031053); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+SRSF4,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+SRSF5,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splice Site Recognition (GO:0006376); RNA Processing (GO:0006396); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+SRSF6,"Alternative mRNA Splicing, via Spliceosome (GO:0000380); MRNA Splice Site Recognition (GO:0006376); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SRSF7,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+SRSF9,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splice Site Recognition (GO:0006376); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); RNA Processing (GO:0006396); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+SSB,Histone mRNA Metabolic Process (GO:0008334); MRNA Metabolic Process (GO:0016071); RNA Processing (GO:0006396); TRNA Metabolic Process (GO:0006399); TRNA Processing (GO:0008033)
+STAT3,Negative Regulation of miRNA Processing (GO:1903799); Positive Regulation of miRNA Metabolic Process (GO:2000630); Regulation of Primary miRNA Processing (GO:2000634)
+STEEP1,mRNA Splicing; mRNA Splicing - Major Pathway
+STK31,RNA Metabolic Process (GO:0016070)
+STRAP,"MRNA Splicing, via Spliceosome (GO:0000398)"
+SUGP1,mRNA Splicing; mRNA Splicing - Major Pathway
+SUPT20H,Regulation of RNA Splicing (GO:0043484)
+SUPT3H,Regulation of RNA Splicing (GO:0043484)
+SUPT7L,Regulation of RNA Splicing (GO:0043484)
+SUPV3L1,Mitochondrial RNA Metabolic Process (GO:0000959); Mitochondrial RNA Processing (GO:0000963); Positive Regulation of RNA Metabolic Process (GO:0051254); RNA Metabolic Process (GO:0016070)
+SURF6,Ribosome Biogenesis (GO:0042254)
+SYF2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+SYMPK,MRNA Processing (GO:0006397)
+SYNCRIP,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+TADA1,Regulation of RNA Splicing (GO:0043484)
+TADA2B,Regulation of RNA Splicing (GO:0043484)
+TADA3,Regulation of RNA Splicing (GO:0043484)
+TAF10,Regulation of RNA Splicing (GO:0043484)
+TAF12,Regulation of RNA Splicing (GO:0043484)
+TAF5L,Regulation of RNA Splicing (GO:0043484)
+TAF6L,Regulation of RNA Splicing (GO:0043484)
+TARBP2,MiRNA Processing (GO:0035196); Pre-miRNA Processing (GO:0031054); Regulatory ncRNA Processing (GO:0070918); SiRNA Processing (GO:0030422)
+TARDBP,RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+TBL3,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+TBRG4,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); Mitochondrial RNA Metabolic Process (GO:0000959); Mitochondrial RNA Processing (GO:0000963); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396)
+TCERG1,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); mRNA Splicing; mRNA Splicing - Major Pathway
+TCF25,Ribosome Disassembly (GO:0032790)
+TCOF1,RIBOSOME BIOGENESIS IN EUKARYOTES; Ribosome Biogenesis (GO:0042254)
+TDRD1,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+TDRD12,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+TDRD6,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+TDRD7,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+TDRD9,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+TDRKH,PiRNA Processing (GO:0034587); Regulatory ncRNA Processing (GO:0070918)
+TEAD1,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+TENT2,Histone mRNA Metabolic Process (GO:0008334); MRNA Processing (GO:0006397); Negative Regulation of miRNA Metabolic Process (GO:2000629)
+TENT4A,RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396)
+TENT4B,Histone mRNA Metabolic Process (GO:0008334); MRNA Processing (GO:0006397); MiRNA Metabolic Process (GO:0010586); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396)
+TERT,Positive Regulation of miRNA Metabolic Process (GO:2000630); Regulatory ncRNA Processing (GO:0070918); SiRNA Processing (GO:0030422)
+TEX10,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+TFAM,Mitochondrial RNA Metabolic Process (GO:0000959)
+TFB1M,Mitochondrial RNA Metabolic Process (GO:0000959); Mitochondrial Ribosome Assembly (GO:0061668); RRNA Processing (GO:0006364); rRNA Processing; rRNA Processing in the Mitochondrion
+TFB2M,Mitochondrial RNA Metabolic Process (GO:0000959)
+TFIP11,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+TGFB1,Negative Regulation of miRNA Metabolic Process (GO:2000629); Positive Regulation of miRNA Metabolic Process (GO:2000630); Positive Regulation of miRNA Processing (GO:1903800); Regulation of Primary miRNA Processing (GO:2000634); Regulation of miRNA Metabolic Process (GO:2000628)
+TGFB2,Positive Regulation of miRNA Metabolic Process (GO:2000630)
+TGS1,"MRNA Splicing, via Spliceosome (GO:0000398)"
+THADA,tRNA Processing
+THG1L,RNA Processing (GO:0006396); TRNA Metabolic Process (GO:0006399); TRNA Processing (GO:0008033); tRNA Processing
+THRAP3,"Positive Regulation of RNA Splicing (GO:0033120); Positive Regulation of mRNA Processing (GO:0050685); Positive Regulation of mRNA Splicing, via Spliceosome (GO:0048026); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+THUMPD1,TRNA Processing (GO:0008033); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+THUMPD2,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+TIA1,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+TIAL1,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+TMA16,Ribosome Biogenesis (GO:0042254)
+TMBIM6,Negative Regulation of RNA Splicing (GO:0033119); Regulation of RNA Splicing (GO:0043484)
+TNF,Negative Regulation of miRNA Metabolic Process (GO:2000629); Positive Regulation of miRNA Metabolic Process (GO:2000630)
+TNRC6A,MiRNA Processing (GO:0035196); Regulatory ncRNA Processing (GO:0070918)
+TNRC6B,MiRNA Processing (GO:0035196); Regulatory ncRNA Processing (GO:0070918)
+TNRC6C,MiRNA Processing (GO:0035196); Regulatory ncRNA Processing (GO:0070918)
+TOE1,SnRNA Processing (GO:0016180)
+TP53,MRNA Metabolic Process (GO:0016071); Positive Regulation of miRNA Metabolic Process (GO:2000630)
+TPR,tRNA Processing; tRNA Processing in the Nucleus
+TPRKB,tRNA Processing
+TRA2A,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+TRA2B,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Positive Regulation of RNA Splicing (GO:0033120); Positive Regulation of mRNA Processing (GO:0050685); Positive Regulation of mRNA Splicing, via Spliceosome (GO:0048026); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+TRDMT1,RNA Processing (GO:0006396); TRNA Metabolic Process (GO:0006399); TRNA Processing (GO:0008033); tRNA Processing
+TRIM71,MiRNA Processing (GO:0035196); Regulatory ncRNA Processing (GO:0070918)
+TRIP4,Ribosome Disassembly (GO:0032790)
+TRIR,RRNA Metabolic Process (GO:0016072)
+TRIT1,Mitochondrial tRNA Processing (GO:0090646); TRNA Processing (GO:0008033); tRNA Processing
+TRMT1,RNA Processing (GO:0006396); TRNA Metabolic Process (GO:0006399); TRNA Processing (GO:0008033); tRNA Processing
+TRMT10A,tRNA Processing
+TRMT10C,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); Mitochondrial RNA Metabolic Process (GO:0000959); Mitochondrial RNA Processing (GO:0000963); Mitochondrial tRNA Processing (GO:0090646); RNA Processing (GO:0006396); TRNA Processing (GO:0008033); rRNA Processing; rRNA Processing in the Mitochondrion; tRNA Processing; tRNA Processing in the Mitochondrion
+TRMT11,tRNA Processing
+TRMT112,Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of rRNA Processing (GO:2000234); RRNA Processing (GO:0006364); Regulation of rRNA Processing (GO:2000232); rRNA Processing; rRNA Processing in the Nucleus and Cytosol; tRNA Processing
+TRMT12,tRNA Processing
+TRMT13,tRNA Processing
+TRMT1L,RNA Processing (GO:0006396); TRNA Metabolic Process (GO:0006399); TRNA Processing (GO:0008033)
+TRMT44,tRNA Processing
+TRMT5,tRNA Processing
+TRMT6,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); tRNA Processing
+TRMT61A,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); tRNA Processing
+TRMT9B,TRNA Processing (GO:0008033); tRNA Processing
+TRMU,tRNA Processing
+TRNT1,Mitochondrial tRNA Processing (GO:0090646); Ribosome Disassembly (GO:0032790); TRNA Processing (GO:0008033); tRNA Processing; tRNA Processing in the Mitochondrion; tRNA Processing in the Nucleus
+TRPT1,"RNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0000394); TRNA Processing (GO:0008033); TRNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0006388)"
+TRRAP,Regulation of RNA Splicing (GO:0043484)
+TRUB1,Positive Regulation of miRNA Processing (GO:1903800); Regulation of pre-miRNA Processing (GO:2000631); TRNA Processing (GO:0008033)
+TRUB2,MRNA Metabolic Process (GO:0016071)
+TSEN15,"RNA Processing (GO:0006396); TRNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0006388); tRNA Processing; tRNA Processing in the Nucleus"
+TSEN2,"RNA Processing (GO:0006396); RNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0000394); TRNA Metabolic Process (GO:0006399); TRNA Processing (GO:0008033); TRNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0006388); tRNA Processing; tRNA Processing in the Nucleus"
+TSEN34,"RNA Processing (GO:0006396); TRNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0006388); tRNA Processing; tRNA Processing in the Nucleus"
+TSEN54,"RNA Processing (GO:0006396); RNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0000394); TRNA Processing (GO:0008033); TRNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0006388); tRNA Processing; tRNA Processing in the Nucleus"
+TSN,Regulatory ncRNA Processing (GO:0070918); SiRNA Processing (GO:0030422)
+TSNAX,Regulatory ncRNA Processing (GO:0070918); SiRNA Processing (GO:0030422)
+TSR1,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+TSR3,RRNA Processing (GO:0006364); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+TSSC4,"MRNA Splicing, via Spliceosome (GO:0000398)"
+TTC5,Positive Regulation of mRNA Metabolic Process (GO:1903313)
+TUFM,Mitochondrial Ribosome Assembly (GO:0061668)
+TUT1,Histone mRNA Metabolic Process (GO:0008334); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); Regulation of RNA Metabolic Process (GO:0051252); SnRNA Metabolic Process (GO:0016073); SnRNA Processing (GO:0016180)
+TUT4,Histone mRNA Metabolic Process (GO:0008334); MiRNA Metabolic Process (GO:0010586); MiRNA Processing (GO:0035196); Pre-miRNA Processing (GO:0031054); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396)
+TUT7,Histone mRNA Metabolic Process (GO:0008334); MiRNA Metabolic Process (GO:0010586); MiRNA Processing (GO:0035196); Pre-miRNA Processing (GO:0031054); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396)
+TWIST1,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+TWNK,Mitochondrial RNA Metabolic Process (GO:0000959)
+TXNL4A,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway"
+TXNL4B,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+TYW3,tRNA Processing
+TYW5,tRNA Processing
+U2AF1,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+U2AF1L4,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+U2AF2,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); Negative Regulation of RNA Splicing (GO:0033119); Negative Regulation of mRNA Processing (GO:0050686); Negative Regulation of mRNA Splicing, via Spliceosome (GO:0048025); Positive Regulation of RNA Splicing (GO:0033120); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); mRNA Splicing; mRNA Splicing - Major Pathway"
+U2SURP,mRNA Splicing; mRNA Splicing - Major Pathway
+UBA52,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+UBL5,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+UFD1,Ribosome Disassembly (GO:0032790)
+UFL1,Ribosome Disassembly (GO:0032790)
+UFSP2,Ribosome Disassembly (GO:0032790)
+UPF1,Histone mRNA Metabolic Process (GO:0008334); Positive Regulation of mRNA Metabolic Process (GO:1903313)
+UPF3B,mRNA Splicing; mRNA Splicing - Major Pathway
+URB2,Ribosome Biogenesis (GO:0042254)
+URM1,tRNA Processing
+USB1,RNA Processing (GO:0006396); RNA Splicing (GO:0008380); SnRNA Processing (GO:0016180)
+USP10,Ribosome Disassembly (GO:0032790)
+USP15,Regulation of RNA Metabolic Process (GO:0051252)
+USP16,Regulation of Ribosome Biogenesis (GO:0090069)
+USP22,Regulation of RNA Splicing (GO:0043484)
+USP36,Regulation of RNA Metabolic Process (GO:0051252); Regulation of rRNA Processing (GO:2000232)
+USP39,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+USP49,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+USPL1,SnRNA Metabolic Process (GO:0016073)
+UTP11,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+UTP15,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of rRNA Processing (GO:2000234); RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Regulation of rRNA Processing (GO:2000232); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+UTP18,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+UTP20,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+UTP25,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+UTP3,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+UTP4,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+UTP6,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+VCP,Ribosome Disassembly (GO:0032790)
+VEGFA,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+VIRMA,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396)
+WBP4,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+WDR12,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+WDR18,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+WDR3,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+WDR33,MRNA Processing (GO:0006397)
+WDR36,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+WDR4,TRNA Processing (GO:0008033); tRNA Processing
+WDR43,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of rRNA Processing (GO:2000234); RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Regulation of rRNA Processing (GO:2000232); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+WDR46,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+WDR55,RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+WDR70,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+WDR74,RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254)
+WDR75,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of rRNA Processing (GO:2000234); RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Processing (GO:0006364); Regulation of rRNA Processing (GO:2000232); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+WDR77,"MRNA Splicing, via Spliceosome (GO:0000398); Positive Regulation of RNA Metabolic Process (GO:0051254); Positive Regulation of RNA Splicing (GO:0033120); Positive Regulation of mRNA Processing (GO:0050685); Positive Regulation of mRNA Splicing, via Spliceosome (GO:0048026); Positive Regulation of rRNA Processing (GO:2000234); Regulation of mRNA Splicing, via Spliceosome (GO:0048024); Regulation of rRNA Processing (GO:2000232)"
+WDR83,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions (GO:0000375); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377)"
+WT1,Positive Regulation of miRNA Metabolic Process (GO:2000630); RNA Processing (GO:0006396); RNA Splicing (GO:0008380)
+WTAP,"MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+XAB2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+XPO1,RIBOSOME BIOGENESIS IN EUKARYOTES; Ribosome Biogenesis (GO:0042254)
+XPO5,MiRNA Metabolic Process (GO:0010586); RNA Metabolic Process (GO:0016070)
+XPOT,tRNA Processing; tRNA Processing in the Nucleus
+XRN1,Histone mRNA Metabolic Process (GO:0008334); MRNA Metabolic Process (GO:0016071); RIBOSOME BIOGENESIS IN EUKARYOTES; RRNA Metabolic Process (GO:0016072)
+XRN2,Major Pathway of rRNA Processing in the Nucleolus and Cytosol; RIBOSOME BIOGENESIS IN EUKARYOTES; RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RRNA Metabolic Process (GO:0016072); RRNA Processing (GO:0006364); Ribosome Biogenesis (GO:0042254); rRNA Processing; rRNA Processing in the Nucleus and Cytosol
+YARS2,TRNA Metabolic Process (GO:0006399)
+YBX1,mRNA Splicing; mRNA Splicing - Major Pathway; mRNA Splicing - Minor Pathway
+YJU2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+YRDC,Mitochondrial tRNA Processing (GO:0090646)
+YTHDC1,"MRNA Processing (GO:0006397); MRNA Splice Site Recognition (GO:0006376); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of RNA Splicing (GO:0043484); Regulation of mRNA Processing (GO:0050684); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+YTHDF2,MRNA Metabolic Process (GO:0016071); Regulation of RNA Metabolic Process (GO:0051252); Regulation of rRNA Processing (GO:2000232)
+ZBTB48,Regulation of RNA Metabolic Process (GO:0051252)
+ZBTB7A,"Regulation of Alternative mRNA Splicing, via Spliceosome (GO:0000381); Regulation of mRNA Splicing, via Spliceosome (GO:0048024)"
+ZBTB8OS,"MRNA Processing (GO:0006397); RNA Splicing (GO:0008380); RNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0000394); TRNA Processing (GO:0008033); TRNA Splicing, via Endonucleolytic Cleavage and Ligation (GO:0006388); tRNA Processing; tRNA Processing in the Nucleus"
+ZC3H10,Negative Regulation of miRNA Processing (GO:1903799); Regulation of RNA Splicing (GO:0043484)
+ZC3H12A,MiRNA Metabolic Process (GO:0010586); Positive Regulation of mRNA Metabolic Process (GO:1903313); Positive Regulation of miRNA Metabolic Process (GO:2000630)
+ZC3H13,MRNA Metabolic Process (GO:0016071); MRNA Processing (GO:0006397); RNA Processing (GO:0006396)
+ZC3H14,"MRNA Splicing, via Spliceosome (GO:0000398)"
+ZC3H18,Positive Regulation of RNA Metabolic Process (GO:0051254)
+ZC3H3,RNA Metabolic Process (GO:0016070)
+ZC3H7A,MiRNA Processing (GO:0035196); Regulatory ncRNA Processing (GO:0070918)
+ZC3H7B,MiRNA Processing (GO:0035196); Regulatory ncRNA Processing (GO:0070918)
+ZC3HAV1,Positive Regulation of mRNA Metabolic Process (GO:1903313)
+ZCCHC8,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Metabolic Process (GO:0016070); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); SnRNA Metabolic Process (GO:0016073)"
+ZCRB1,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Minor Pathway"
+ZFC3H1,RNA Metabolic Process (GO:0016070)
+ZFP36,MRNA Metabolic Process (GO:0016071)
+ZFP36L1,Regulation of mRNA Processing (GO:0050684)
+ZFP36L2,MRNA Metabolic Process (GO:0016071)
+ZMAT2,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+ZMAT5,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing (GO:0008380); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Minor Pathway"
+ZNF326,Regulation of RNA Splicing (GO:0043484)
+ZNF512B,Negative Regulation of miRNA Metabolic Process (GO:2000629)
+ZNF574,Cytosolic Ribosome Assembly (GO:0042256); Regulation of Ribosome Biogenesis (GO:0090069); Ribosome Assembly (GO:0042255)
+ZNF598,Ribosome Disassembly (GO:0032790)
+ZNF622,Ribosome Biogenesis (GO:0042254)
+ZNF638,RNA Processing (GO:0006396); RNA Splicing (GO:0008380); Regulation of RNA Splicing (GO:0043484)
+ZNF830,"MRNA Processing (GO:0006397); MRNA Splicing, via Spliceosome (GO:0000398); RNA Processing (GO:0006396); RNA Splicing, via Transesterification Reactions With Bulged Adenosine as Nucleophile (GO:0000377); mRNA Splicing; mRNA Splicing - Major Pathway"
+ZPR1,Positive Regulation of RNA Splicing (GO:0033120); Regulation of RNA Splicing (GO:0043484)
+ZSWIM8,Positive Regulation of miRNA Metabolic Process (GO:2000630)

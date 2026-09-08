@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-05T20:46:34.684452+00:00",
+  "analysis": "conventional full-transcriptome versus exact BridgeRNA-vocabulary edgeR/GSEA",
+  "contrasts": 11,
+  "samples": 84,
+  "bridge_vocabulary_file": "data/ensembl/canonical_genes.csv",
+  "bridge_vocabulary_size": 15165,
+  "full_gene_annotation": "data/gencode/gencode.vM38.basic.annotation.gtf.gz",
+  "edgeR_script": "pipeline/run_independent_biological_replication_edger.R",
+  "gsea_permutations": 1000,
+  "gsea_seed": 43019,
+  "pathway_files": {
+    "GO:BP": "GO_Biological_Process_2026.gmt",
+    "KEGG": "KEGG_2026.gmt",
+    "REAC": "Reactome_Pathways_2024.gmt"
+  },
+  "limitations": [
+    "Very small RR3-41d and RR1-CASIS-22d strata have weak/no replication.",
+    "Mouse symbols are upper-cased to match the existing human-symbol pathway collections.",
+    "Significant pathways are not independent because gene sets overlap."
+  ]
+}

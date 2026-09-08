@@ -1,0 +1,2 @@
+analysis,status,reason
+graph-guided deletion,not_run,requires new frozen-model inference; no compatible graph-ranked deletion cache exists

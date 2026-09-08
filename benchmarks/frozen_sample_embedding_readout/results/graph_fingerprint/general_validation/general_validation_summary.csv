@@ -1,0 +1,10 @@
+domain,metric,value,secondary,detail
+technical retrieval,edge_jaccard,0.925,0.9625,median rank 1
+technical retrieval,weight_correlation,0.9625,0.9875,median rank 1
+technical retrieval,weighted_overlap,0.9,0.9875,median rank 1
+technical retrieval,neighborhood_jaccard,0.9125,0.9625,median rank 1
+tissue,study-disjoint graph macro F1,0.8616350439347344,0.028747534430910947,mean ± SD across 5 folds
+tissue,same/different edge-Jaccard ratio,2.2949030280622447,,"1,000 prespecified study-separated pairs"
+community,same-pair minus unrelated ARI,-0.006000228245597983,,median; no positive discrimination
+null,independent identity-shuffle R@1,0.0,0.05,R@1 / R@5
+perturbation,replicate vs unrelated edge-Jaccard difference,0.2436367381403013,,biological replicate minus unrelated

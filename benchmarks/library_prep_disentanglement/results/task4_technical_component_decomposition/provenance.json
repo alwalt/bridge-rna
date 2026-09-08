@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-06T03:26:08.089111+00:00",
+  "controlled_embeddings": "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/datasets/chen_2020_tcells/bridgerna_embeddings.npy",
+  "contextual_cache": "/home/walt/bridge-rna/benchmarks/library_prep_disentanglement/work/task4_controlled_gene_context/controlled_context_displacements.float16.dat",
+  "svd": "uncentered SVD of 40 paired Ribo-minus-PolyA vectors",
+  "gene_universe": 15165,
+  "component_gene_set_size": 250,
+  "limitations": [
+    "Exploratory: independent NASA overlap contributes to the candidate component label; correction performance on NASA is descriptive, not confirmatory.",
+    "Pathway absence is not evidence that a component is purely technical.",
+    "The controlled reference is T-cell-specific; cross-tissue universality is unproven."
+  ]
+}

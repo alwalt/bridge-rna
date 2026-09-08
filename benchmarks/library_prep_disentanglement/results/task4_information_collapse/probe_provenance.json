@@ -1,0 +1,13 @@
+{
+  "classifier": "class-balanced RidgeClassifier, LSQR solver",
+  "alpha_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "selection": "one training-only GSE-disjoint validation split per outer fold",
+  "outer_splits": "exact five GroupKFold splits from prior generalization benchmark",
+  "reason": "LBFGS logistic first pass stopped after repeated non-convergence and projected multi-hour runtime; ridge is applied identically to every representation",
+  "cached_representations_reused": true,
+  "comparison_note": "Prior raw/PCA/Bridge logistic results remain fixed external references; all layer-localization comparisons use this identical ridge probe."
+}

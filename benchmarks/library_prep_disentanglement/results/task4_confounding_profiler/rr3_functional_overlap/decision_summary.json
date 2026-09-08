@@ -1,0 +1,20 @@
+{
+  "decision": "D. UNSTABLE / UNDERPOWERED",
+  "controlled_reference": "uncentered T-cell PolyA/Ribo PC1-2",
+  "PC1_variance_fraction": 0.9747093067406888,
+  "PC1_2_variance_fraction": 0.9908320685331713,
+  "RR3_39_change_after_removal": -0.30961279281290705,
+  "RR3_40_change_after_removal": -0.04106374854933592,
+  "RR3_39_random_subspace_p": 0.001996007984031936,
+  "RR3_40_random_subspace_p": 0.001996007984031936,
+  "RR3_39_RNA_parallel_preference": 0.02758603902929078,
+  "RR3_39_RNA_competitive_p": 0.0006999300069993001,
+  "RR3_40_RNA_parallel_preference": 0.004043308837684798,
+  "RR3_40_RNA_competitive_p": 0.5547445255474452,
+  "limitations": [
+    "RR3-39 has 2 FLT/2 GC; matched RR3-40 technical comparison has 2/2.",
+    "Component IG identifies input influence on a latent target; it does not label dimensions as technical-only.",
+    "Matched random 2D controls test geometric loss; functional specificity uses gene-set competitive permutations because random-subspace IG would require new gradients per subspace.",
+    "OSD metadata supports same RR3 RNA material and exact animal matches, but does not independently prove aliquot identity for every library."
+  ]
+}

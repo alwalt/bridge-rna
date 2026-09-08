@@ -1,0 +1,13 @@
+# RNA-processing gene analysis
+
+- Exact Bridge RNA-processing universe: **1,108 genes** from the pre-existing GO BP/KEGG/Reactome definitions.
+- Most controlled-sensitive genes: H1-3, H1-2, MT-ND6, WDR74, MT-CYB, MT-ND5, MT-ND2, MT-ATP6, MT-ND1, MT-ND4.
+- Most RR1-unstable genes: RBM14, CPSF6, RNPC3, SFPQ, EARS2, YTHDC1, ZFC3H1, ARGLU1, HNRNPU, RBMX.
+- Most reproducible RR3-39 genes: MYC, NOCT, TWIST1, H1-2, JUN, WT1, PTK6, HSPA8, STAT3, RBM24.
+- Most reproducible RR3-40 genes: EGR1, PNLDC1, SREBF1, TRPT1, SLC25A33, JUN, PTK6, FOS, HSPA8, PPARA.
+- At Top 10%, T-cell/RR1 overlap is 12 genes (expected 11.1; 1.08x); T-cell/RR3-39 is 19 and T-cell/RR3-40 is 15.
+- RR3-39/RR3-40 reproducible-score Spearman is 0.119; their Top-10% overlap is 34 (Jaccard 0.181).
+
+The analysis supports a **mixed model**: statistically enriched subsets of the same RNA-processing machinery recur, but overlap is incomplete and rankings differ substantially. BridgeRNA also maps different gene-level contextual transformations onto a shared higher-order RNA-processing-associated organization. RR1 genes that are simultaneously controlled-sensitive, unstable, and reproducible in at least one RR3 state are the most difficult to interpret; they are not labeled artifacts. RR3 sample sizes are only 2 FLT/2 GC in each matched technical comparison, and all gene rankings are descriptive even where set overlap exceeds a matched-gene null.
+
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/rna_processing_gene_analysis

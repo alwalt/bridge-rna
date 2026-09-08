@@ -1,0 +1,7 @@
+signature,genes,definition
+top_100,100,T-cell only
+top_250,250,T-cell only
+top_500,500,T-cell only
+top_1000,1000,T-cell only
+paired_DE_FDR05,10329,T-cell only
+RNA_leading_edge,12,T-cell only

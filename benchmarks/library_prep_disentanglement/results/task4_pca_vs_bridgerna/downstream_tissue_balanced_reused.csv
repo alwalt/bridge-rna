@@ -1,0 +1,7 @@
+cohort,balance,representation,readout,direction,accuracy_mean,accuracy_sd,macro_f1_mean,macro_f1_sd,mrr_mean,mrr_sd,seeds,train_samples,test_samples
+expanded_replicated,balanced,bridgerna,centroid_cosine,human_to_mouse,0.6425925925925926,0.0547702785198334,0.6250910098289533,0.0433675742656058,0.7593944070332961,0.0334449512118491,20,54,54
+expanded_replicated,balanced,bridgerna,centroid_cosine,mouse_to_human,0.575925925925926,0.0487738619637447,0.5402863292460112,0.0382430048158555,0.7002360576666133,0.0337011152617114,20,54,54
+expanded_replicated,balanced,bridgerna,knn_cosine_k1,human_to_mouse,0.75,0.0732162808511632,0.7182748106967536,0.0766038729452939,,,20,54,54
+expanded_replicated,balanced,bridgerna,knn_cosine_k1,mouse_to_human,0.6833333333333333,0.0453211134137264,0.6117005762249678,0.0414423474782764,,,20,54,54
+expanded_replicated,balanced,bridgerna,linear_softmax_probe,human_to_mouse,0.7166666666666667,0.0457965227177019,0.6875462248059349,0.0433808006302929,,,20,54,54
+expanded_replicated,balanced,bridgerna,linear_softmax_probe,mouse_to_human,0.6101851851851852,0.0431064854199991,0.5855151733293444,0.0350325792257552,,,20,54,54

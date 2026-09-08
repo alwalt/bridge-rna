@@ -1,0 +1,13 @@
+{
+  "BridgeRNA_retrained": false,
+  "existing_IG_reused": 7,
+  "new_IG_only": [
+    "RR3 GC39\u2192GC40",
+    "RR3 FLT39\u2192FLT40"
+  ],
+  "IG_baseline": "zero log1p(TPM)",
+  "IG_steps": 16,
+  "prediction": "5-fold gene-level OOF linear regression; features signed delta expression, absolute delta, mean, log1p variance",
+  "pathway_profile": "standardized mean signed signal times sqrt(set size); descriptive",
+  "claim_scope": "three technical remeasurements, not independent biological replication"
+}

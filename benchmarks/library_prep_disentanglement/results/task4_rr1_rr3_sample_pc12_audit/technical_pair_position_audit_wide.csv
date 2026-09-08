@@ -1,0 +1,41 @@
+comparison,metric,RR1 Ribo remeasurement,RR1 carcass,RR3-40,RR3-40 technical remeasurement
+RR1,FLT_mean_PC1,8.502572490197903,11.850459043557164,,
+RR1,FLT_mean_PC2,5.190194859342254,7.645028504978839,,
+RR1,GC_mean_PC1,8.942890977294805,11.117669477133013,,
+RR1,GC_mean_PC2,5.657417743505418,7.074516085572757,,
+RR1,PC1_2_response_magnitude,0.642010587104229,0.9286899210894896,,
+RR1,delta_PC1,-0.4403184873101347,0.7327895664939461,,
+RR1,delta_PC2,-0.4672228843783569,0.5705124194711425,,
+RR1,library_kit,KAPA RNA HyperPrep Kit,Illumina TruSeq stranded RNA library prep kit,,
+RR1,library_prep,ribodepleted,polyA,,
+RR1,mean_FLT_RIN,8.6,8.6,,
+RR1,mean_GC_RIN,8.200000000000001,8.2,,
+RR1,n_FLT,5,5,,
+RR1,n_GC,5,5,,
+RR1,outside_PC1_2_response_magnitude,0.22987065488108163,0.23925220589190413,,
+RR1,preservation,Liquid Nitrogen,RLT buffer homogenized and snap frozen,,
+RR1,read_configuration,PAIRED,SINGLE,,
+RR1,read_length,150 {base pair},50 {base pair},,
+RR1,sample_state,not equivalent/unspecified,carcass,,
+RR1,sequencing_facility,UC Davis,UC Davis,,
+RR1,sequencing_platform,Illumina HiSeq 4000,Illumina HiSeq 3000,,
+RR3-40,FLT_mean_PC1,,,9.262990253580782,9.333942175062493
+RR3-40,FLT_mean_PC2,,,5.951166494009782,6.010082989489704
+RR3-40,GC_mean_PC1,,,9.37162362620961,9.451843026254915
+RR3-40,GC_mean_PC2,,,6.04047532513635,6.100557288104313
+RR3-40,PC1_2_response_magnitude,,,0.14063170684979096,0.14861429750095637
+RR3-40,delta_PC1,,,-0.10863337262474304,-0.11790085119242077
+RR3-40,delta_PC2,,,-0.08930883116276503,-0.09047429861460887
+RR3-40,library_kit,,,,KAPA RNA HyperPrep Kit
+RR3-40,library_prep,,,ribodepleted,ribodepleted
+RR3-40,mean_FLT_RIN,,,7.133333333333333,7.1
+RR3-40,mean_GC_RIN,,,7.35,7.35
+RR3-40,n_FLT,,,3,2
+RR3-40,n_GC,,,2,2
+RR3-40,outside_PC1_2_response_magnitude,,,0.08489443115399391,0.09974405987344923
+RR3-40,preservation,,,Liquid Nitrogen,Liquid Nitrogen
+RR3-40,read_configuration,,,PAIRED,PAIRED
+RR3-40,read_length,,,150 {base pair},150 {base pair}
+RR3-40,sample_state,,,not equivalent/unspecified,not equivalent/unspecified
+RR3-40,sequencing_facility,,,UC Davis,UC Davis
+RR3-40,sequencing_platform,,,Illumina HiSeq 4000,Illumina HiSeq 4000

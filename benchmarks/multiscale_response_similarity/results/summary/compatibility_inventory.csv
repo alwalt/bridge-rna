@@ -1,0 +1,6 @@
+dataset,unit,profiles,five_scale_compatible,role
+RR1/RR3,response-pair,4,4,held-out stress cases
+exercise,response-pair,28,28,prespecified biological relationships
+controlled T-cell PolyA/Ribo,single controlled technical response,1,0,technical reference; not a response-pair
+ARCHS4/recount3,same-sample processing pair,574,0,sample-level processing control; no treatment-control response
+other Task 3 spaceflight,biological response,10,0,missing matched Hallmark/IG/graph components

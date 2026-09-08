@@ -1,0 +1,3 @@
+# Exact published benchmark data are reproducible but too large for Git.
+gene_essentiality_expr_data.pkl
+gene_essentiality_score.pkl

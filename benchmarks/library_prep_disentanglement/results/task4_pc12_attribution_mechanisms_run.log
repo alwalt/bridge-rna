@@ -1,0 +1,14 @@
+                response_A                 response_B  latent_PC1_2_cosine  attribution_cosine  attribution_spearman  expression_cosine  top500_overlap
+         T-cell PolyA→Ribo         RR1 OSD-48 carcass            -0.775917           -0.524933             -0.254562          -0.103013               8
+         T-cell PolyA→Ribo RR1 OSD-48 upon-euthanasia             0.665427            0.271385             -0.178481          -0.031759              13
+         T-cell PolyA→Ribo        RR1 OSD-168 no-ERCC             0.626058            0.376484             -0.084372           0.044967              27
+         T-cell PolyA→Ribo                     RR3-39            -0.693186           -0.333925              0.012984          -0.007813              20
+         T-cell PolyA→Ribo                     RR3-40             0.759477            0.390932              0.173109           0.079159              19
+        RR1 OSD-48 carcass        RR1 OSD-168 no-ERCC            -0.977679           -0.654386              0.201858           0.324294              33
+        RR1 OSD-48 carcass                     RR3-39             0.992535            0.664607              0.174623           0.133299              37
+        RR1 OSD-48 carcass                     RR3-40            -0.999671           -0.575860             -0.133434          -0.049899              57
+RR1 OSD-48 upon-euthanasia                     RR3-39            -0.999284           -0.485946             -0.000853          -0.127276              66
+RR1 OSD-48 upon-euthanasia                     RR3-40             0.990976            0.333681             -0.075961          -0.108236              46
+       RR1 OSD-168 no-ERCC                     RR3-39            -0.996005           -0.609979             -0.277927          -0.165882              85
+       RR1 OSD-168 no-ERCC                     RR3-40             0.982748            0.509056              0.047063           0.082907              95
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_pc12_attribution_mechanisms

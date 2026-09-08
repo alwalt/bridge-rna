@@ -1,0 +1,11 @@
+{
+  "rna_genes": 1108,
+  "top10pct_each": 111,
+  "top10pct_overlap": 34,
+  "top10pct_jaccard": 0.18085106382978725,
+  "score_spearman": 0.11903280988590753,
+  "shared_gene_median_within_pair_RR3_39": 0.9783788323402405,
+  "shared_gene_median_within_pair_RR3_40": 0.9876372814178467,
+  "median_RR3_39_vs_40_original_gene_cosine": -0.0065047116950154305,
+  "fraction_RR3_39_vs_40_opposite": 0.5063176895306859
+}

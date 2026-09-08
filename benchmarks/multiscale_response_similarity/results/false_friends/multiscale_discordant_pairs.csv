@@ -1,0 +1,2 @@
+comparison,short_name,domain,relationship_type,contextual_graph,expression,global_bridgerna,hallmark_program,attribution,attribution_definition,z_expression,z_global_bridgerna,z_hallmark_program,z_attribution,z_contextual_graph,interpretation
+RR1 original ↔ RR3-39 original,false_friend,spaceflight,unrelated_false_friend,0.0117964445370137,0.1207273760853808,0.8107837438583374,0.509902231409743,0.257579640906218,full signed paired-response IG cosine,-0.6,0.19999999999999996,-0.19999999999999996,-0.19999999999999996,-0.6,global_convergence / molecular_divergence

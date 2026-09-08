@@ -1,0 +1,10 @@
+{
+  "embeddings_recomputed": false,
+  "attribution_recomputed": false,
+  "attribution_source": "task4_gene_attribution_diagnostic signed full-response IG",
+  "pathway_method": "same standardized signed-attribution gene-set profile across all responses",
+  "composite": "unweighted mean percentile rank; no fitted classifier",
+  "positive_definition": "three exact same-animal technical remeasurements",
+  "null_definition": "all cross-response pairs among same-species same-tissue profiles",
+  "claim_scope": "technical measurement reproducibility only"
+}

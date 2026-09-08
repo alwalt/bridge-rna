@@ -1,0 +1,6 @@
+method,observed_MRR,label_shuffled_MRR,degradation,null_note
+WL identity-aware,0.019162642811339132,0.04352980993631296,-0.02436716712497383,sample-feature permutation; structural graph randomization retained from prior validation
+WL structural,0.0642986648006284,0.10145959055798952,-0.037160925757361116,sample-feature permutation; structural graph randomization retained from prior validation
+Shortest-path,0.03542243698743965,0.0686230176763081,-0.03320058068886845,sample-feature permutation; structural graph randomization retained from prior validation
+Graphlet,0.057938309154147626,0.06896219087857886,-0.01102388172443123,sample-feature permutation; structural graph randomization retained from prior validation
+Spectral,0.08405089404875271,0.08627280393286789,-0.002221909884115178,sample-feature permutation; structural graph randomization retained from prior validation

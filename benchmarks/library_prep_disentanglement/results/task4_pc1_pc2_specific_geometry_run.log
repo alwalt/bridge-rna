@@ -1,0 +1,27 @@
+
+References
+                         reference  response_norm     a_PC1     a_PC2    E_PC1    E_PC2  E_PC1_plus_E_PC2  E_PC1_empirical_percentile  E_PC2_empirical_percentile
+                    RR3 GC39→GC40       0.186223  0.026706  0.047949 0.020566 0.066297          0.086863                         5.0                        10.0
+                  RR3 FLT39→FLT40       0.357978 -0.218734 -0.177828 0.373354 0.246767          0.620120                        40.0                        25.0
+        OSD-48 RR1 carcass FLT−GC       0.959013  0.732790  0.570512 0.583861 0.353900          0.937761                        95.0                        85.0
+OSD-48 RR1 upon-euthanasia FLT−GC       0.484340 -0.247321 -0.265958 0.260748 0.301526          0.562274                        25.0                        45.0
+            OSD-137 RR3-40 FLT−GC       0.164269 -0.108633 -0.089309 0.437335 0.295581          0.732917                        70.0                        40.0
+               OSD-168 RR1 FLT−GC       0.681922 -0.440319 -0.467223 0.416931 0.469438          0.886369                        45.0                        95.0
+            OSD-168 RR3-40 FLT−GC       0.178983 -0.117901 -0.090474 0.433918 0.255520          0.689438                        60.0                        25.0
+
+Global
+ Tcell_PC  ARCHS4_variance  total_variance_fraction  strongest_global_PC  strongest_global_PC_abs_cosine  isotropic_variance_percentile  variance_matched_PC_percentile  energy_in_top2_global_PCs  energy_in_top5_global_PCs  energy_in_top10_global_PCs  energy_in_top20_global_PCs  energy_in_top50_global_PCs
+     PC1         4.576088                 0.303741                    1                        0.722977                          100.0                           43.23                   0.541895                   0.583105                    0.681182                    0.766103                    0.935224
+     PC2         3.755080                 0.249246                    1                        0.653087                          100.0                           43.23                   0.440319                   0.509747                    0.581067                    0.685428                    0.888450
+
+Summary
+ {
+  "primary_contrasts": 20,
+  "median_E_PC1": 0.4225297782316595,
+  "median_E_PC2": 0.31579686255539774,
+  "global_PC1_variance_fraction": 0.30374146382883915,
+  "global_PC2_variance_fraction": 0.24924644182597203,
+  "basis": "unchanged controlled T-cell uncentered SVD PC1/PC2",
+  "contextual_inference_recomputed": false
+}
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_pc1_pc2_specific_geometry

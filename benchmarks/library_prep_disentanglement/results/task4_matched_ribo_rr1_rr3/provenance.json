@@ -1,0 +1,7 @@
+{
+  "basis": "unchanged controlled T-cell PC1-2",
+  "OSD168_RR1": "all 10 FLT and 10 GC profiles; 5+5 animals each represented as no-ERCC and ERCC technical profiles",
+  "response_aggregation": "technical profiles are averaged within animal before FLT/GC means; with two profiles per animal this equals the all-profile point estimate",
+  "bootstrap": "1000 animal-level resamples; confidence intervals are descriptive for small cohorts",
+  "correction": false
+}

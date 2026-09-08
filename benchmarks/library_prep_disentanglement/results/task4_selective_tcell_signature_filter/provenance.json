@@ -1,0 +1,17 @@
+{
+  "reference": "controlled T-cell only; unchanged uncentered PC1-2",
+  "selective_formula": "delta_corrected = mean_g(delta_h_g) - sum_{g in signature} P_PC1-2(delta_h_g)/15165",
+  "new_contextual_inference": [
+    "RR1 full carcass",
+    "RR1 upon-euthanasia",
+    "RR3-40 full 3-FLT/2-GC cohort"
+  ],
+  "sample_embeddings_recomputed": false,
+  "random_replicates": 200,
+  "seed": 94271,
+  "limitations": [
+    "Response-level experiment; not a deployable sample correction.",
+    "T-cell signature selection is independent of RR1/RR3.",
+    "Full-cohort contextual tensors were generated from the frozen model because signed vectors were not cached."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "basis": "unchanged controlled T-cell uncentered SVD PC1/PC2",
+  "attribution": "existing cached contextual response times fixed PC divided by 15165",
+  "RR3_40_original_context": "full F3/F4/F5 vs G3/G5",
+  "RR3_40_remeasurement_context": "strict matched F3/F4 vs G3/G5",
+  "pathways": "descriptive standardized mean signed attribution times sqrt(set size); not causal enrichment",
+  "embeddings_recomputed": false
+}

@@ -1,0 +1,7 @@
+timepoint,evidence,family,best_pathway,nes,fdr
+RR3-39,conventional expression,RNA processing / splicing,Major Pathway of rRNA Processing in the Nucleolus and Cytosol,2.270017563106356,0.001
+RR3-39,Bridge parallel component,RNA/ribosome processing,Positive Regulation of RNA Splicing (GO:0033120),1.198622485754197,0.8432237346734486
+RR3-39,Bridge orthogonal component,RNA/ribosome processing,RIBOSOME,1.216868534336833,0.5359090987019816
+RR3-40,conventional expression,RNA processing / splicing,rRNA Processing,2.0038469289773726,0.008736149190147565
+RR3-40,Bridge parallel component,RNA/ribosome processing,PiRNA Processing (GO:0034587),1.27476131671661,0.6986321577041705
+RR3-40,Bridge orthogonal component,RNA/ribosome processing,RIBOSOME,1.0536895944576936,0.904391808172739

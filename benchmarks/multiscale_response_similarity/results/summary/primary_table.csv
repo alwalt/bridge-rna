@@ -1,0 +1,5 @@
+comparison,relationship_type,expression,global_bridgerna,hallmark_program,attribution,contextual_graph,interpretation
+RR1 OSD-48 original ↔ OSD-168 remeasurement,technically_sensitive_remeasurement,0.36916732264397,-0.8067149519920349,-0.4236839368562251,-0.6354600612295452,0.1834290307907626,multiscale_disagreement_or_ambiguous
+RR3-39 OSD-137 original ↔ OSD-168 remeasurement,true_technical_remeasurement,0.652303928254562,0.7900034189224243,0.775130691895259,0.7750977747400112,0.3193086413506041,multiscale_agreement
+RR3-40 OSD-137 original ↔ OSD-168 remeasurement,true_technical_remeasurement,0.8224292879502287,0.91664856672287,0.9223665268471612,0.8584988248634979,0.3990236309144599,multiscale_agreement
+RR1 original ↔ RR3-39 original,unrelated_false_friend,0.1207273760853808,0.8107837438583374,0.509902231409743,0.257579640906218,0.0117964445370137,global_convergence / molecular_divergence

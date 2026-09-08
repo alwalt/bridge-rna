@@ -1,0 +1,46 @@
+analysis,family,contrast_id,OSD,mission,significant_terms,best_fdr,median_nes,leading_edge_genes
+Bridge_contextual,Chromatin organization / remodeling,C09__OSD-245__RR6-ISS-T__not-reported,OSD-245,RR6_ISS_T,1,0.017414240431411137,2.0097852451273814,63
+Bridge_contextual,Chromatin organization / remodeling,C10__OSD-245__RR6-LAR__not-reported,OSD-245,RR6_LAR,1,0.03895404382408728,1.979002205773846,54
+Bridge_contextual,Chromatin organization / remodeling,C14__OSD-48__RR1-NASA__37-day,OSD-48,RR1_NASA,1,0.035660192150407694,1.9687093929565158,85
+Bridge_contextual,DNA repair / DNA metabolism,C09__OSD-245__RR6-ISS-T__not-reported,OSD-245,RR6_ISS_T,3,0.02267097635604496,1.9632214778131147,25
+Bridge_contextual,DNA repair / DNA metabolism,C12__OSD-47__RR1-CASIS__22-day,OSD-47,RR1_CASIS,2,0.014305149380453366,1.8860511601653578,48
+Bridge_contextual,Hepatic lipid / metabolic,C02__OSD-137__RR3__40-day,OSD-137,RR3,14,0.001,2.1203614283986276,123
+Bridge_contextual,Hepatic lipid / metabolic,C03__OSD-137__RR3__41-day,OSD-137,RR3,7,0.001,2.2268258177728253,56
+Bridge_contextual,Hepatic lipid / metabolic,C07__OSD-173__STS-135__not-reported,OSD-173,STS_135,87,0.001,2.096531069496966,541
+Bridge_contextual,Hepatic lipid / metabolic,C08__OSD-242__RR9__not-reported,OSD-242,RR9,108,0.001,1.9584414740940623,539
+Bridge_contextual,Hepatic lipid / metabolic,C09__OSD-245__RR6-ISS-T__not-reported,OSD-245,RR6_ISS_T,88,0.001,2.0748982515270953,786
+Bridge_contextual,Hepatic lipid / metabolic,C10__OSD-245__RR6-LAR__not-reported,OSD-245,RR6_LAR,86,0.001,2.162928537936992,432
+Bridge_contextual,Hepatic lipid / metabolic,C11__OSD-47__RR1-CASIS__21-day,OSD-47,RR1_CASIS,5,0.008402053675740305,2.0089459574549657,42
+Bridge_contextual,Hepatic lipid / metabolic,C12__OSD-47__RR1-CASIS__22-day,OSD-47,RR1_CASIS,55,0.001,1.9421842697642455,614
+Bridge_contextual,Hepatic lipid / metabolic,C13__OSD-48__RR1-NASA__37-day,OSD-48,RR1_NASA,21,0.001,1.9889384423627026,158
+Bridge_contextual,Hepatic lipid / metabolic,C14__OSD-48__RR1-NASA__37-day,OSD-48,RR1_NASA,128,0.001,2.2669107385661316,1060
+Bridge_contextual,RNA processing / splicing,C03__OSD-137__RR3__41-day,OSD-137,RR3,2,0.001,2.3669658662084085,10
+edgeR_expression,Chromatin organization / remodeling,C01__OSD-137__RR3__39-day,OSD-137,RR3,3,0.001,-1.8326119607024447,109
+edgeR_expression,Chromatin organization / remodeling,C03__OSD-137__RR3__41-day,OSD-137,RR3,8,0.0046123185106639215,2.128534066704863,250
+edgeR_expression,Chromatin organization / remodeling,C07__OSD-173__STS-135__not-reported,OSD-173,STS_135,1,0.020596985924008646,1.9107329578741843,18
+edgeR_expression,Chromatin organization / remodeling,C08__OSD-242__RR9__not-reported,OSD-242,RR9,1,0.001,2.2364093233276607,28
+edgeR_expression,Chromatin organization / remodeling,C09__OSD-245__RR6-ISS-T__not-reported,OSD-245,RR6_ISS_T,3,0.014814713402799549,1.9617065669225613,75
+edgeR_expression,Chromatin organization / remodeling,C10__OSD-245__RR6-LAR__not-reported,OSD-245,RR6_LAR,7,0.001,2.068840721291879,236
+edgeR_expression,Chromatin organization / remodeling,C14__OSD-48__RR1-NASA__37-day,OSD-48,RR1_NASA,2,0.001,2.0038929989399654,37
+edgeR_expression,DNA repair / DNA metabolism,C01__OSD-137__RR3__39-day,OSD-137,RR3,9,0.001,1.9999316331634656,76
+edgeR_expression,DNA repair / DNA metabolism,C03__OSD-137__RR3__41-day,OSD-137,RR3,2,0.04711865430203518,0.10592498590971022,31
+edgeR_expression,DNA repair / DNA metabolism,C08__OSD-242__RR9__not-reported,OSD-242,RR9,8,0.001,2.4227500845998793,50
+edgeR_expression,DNA repair / DNA metabolism,C10__OSD-245__RR6-LAR__not-reported,OSD-245,RR6_LAR,9,0.001,-1.9032306080177908,45
+edgeR_expression,DNA repair / DNA metabolism,C14__OSD-48__RR1-NASA__37-day,OSD-48,RR1_NASA,5,0.001,2.1126774064630447,28
+edgeR_expression,Hepatic lipid / metabolic,C01__OSD-137__RR3__39-day,OSD-137,RR3,32,0.001,1.889350426498936,407
+edgeR_expression,Hepatic lipid / metabolic,C02__OSD-137__RR3__40-day,OSD-137,RR3,7,0.001,1.8584411527085467,186
+edgeR_expression,Hepatic lipid / metabolic,C03__OSD-137__RR3__41-day,OSD-137,RR3,75,0.001,-1.9576585011790686,849
+edgeR_expression,Hepatic lipid / metabolic,C07__OSD-173__STS-135__not-reported,OSD-173,STS_135,39,0.001,2.0384469817678226,236
+edgeR_expression,Hepatic lipid / metabolic,C08__OSD-242__RR9__not-reported,OSD-242,RR9,49,0.001,1.9380130283489314,552
+edgeR_expression,Hepatic lipid / metabolic,C09__OSD-245__RR6-ISS-T__not-reported,OSD-245,RR6_ISS_T,8,0.001,1.838876828387952,184
+edgeR_expression,Hepatic lipid / metabolic,C10__OSD-245__RR6-LAR__not-reported,OSD-245,RR6_LAR,28,0.001,-1.9326146720575819,375
+edgeR_expression,Hepatic lipid / metabolic,C12__OSD-47__RR1-CASIS__22-day,OSD-47,RR1_CASIS,24,0.001,1.941129042380524,216
+edgeR_expression,Hepatic lipid / metabolic,C13__OSD-48__RR1-NASA__37-day,OSD-48,RR1_NASA,7,0.0013729868024821821,-2.0574978843675944,89
+edgeR_expression,Hepatic lipid / metabolic,C14__OSD-48__RR1-NASA__37-day,OSD-48,RR1_NASA,6,0.001,1.835039740690127,78
+edgeR_expression,RNA processing / splicing,C01__OSD-137__RR3__39-day,OSD-137,RR3,3,0.001,2.147931616629633,58
+edgeR_expression,RNA processing / splicing,C02__OSD-137__RR3__40-day,OSD-137,RR3,3,0.008736149190147565,1.9713810204484223,96
+edgeR_expression,RNA processing / splicing,C03__OSD-137__RR3__41-day,OSD-137,RR3,6,0.018281553369540633,1.971025458939518,125
+edgeR_expression,RNA processing / splicing,C07__OSD-173__STS-135__not-reported,OSD-173,STS_135,1,0.03536315286636109,1.902981613016911,28
+edgeR_expression,RNA processing / splicing,C09__OSD-245__RR6-ISS-T__not-reported,OSD-245,RR6_ISS_T,3,0.001,-2.3525844295242355,63
+edgeR_expression,RNA processing / splicing,C10__OSD-245__RR6-LAR__not-reported,OSD-245,RR6_LAR,3,0.024407827325109453,1.997438738822028,59
+edgeR_expression,RNA processing / splicing,C14__OSD-48__RR1-NASA__37-day,OSD-48,RR1_NASA,1,0.009902045687956254,1.8779891924959438,7

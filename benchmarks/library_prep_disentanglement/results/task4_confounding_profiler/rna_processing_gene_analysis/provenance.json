@@ -1,0 +1,15 @@
+{
+  "frozen_bridge": true,
+  "contextual_inference_rerun_only_because_cross_experiment_512D_gene_vectors_were_not_saved": true,
+  "osdr_profiles": 34,
+  "controlled_context_cache_reused": true,
+  "genes": 1108,
+  "top_set_fractions": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "permutations": 10000,
+  "seed": 48131,
+  "caveat": "Technical-reference overlap is not artifact or causality."
+}

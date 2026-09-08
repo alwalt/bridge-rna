@@ -1,0 +1,16 @@
+cohort,evidence,genes
+RR1,Expression only,85
+RR1,Expression + attribution,46
+RR1,Expression + attribution + graph,26
+RR1,Attribution only,180
+RR1,Graph only,382
+RR3-39,Expression only,175
+RR3-39,Expression + attribution,61
+RR3-39,Expression + attribution + graph,15
+RR3-39,Attribution only,254
+RR3-39,Graph only,424
+RR3-40,Expression only,232
+RR3-40,Expression + attribution,110
+RR3-40,Expression + attribution + graph,31
+RR3-40,Attribution only,224
+RR3-40,Graph only,390

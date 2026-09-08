@@ -1,0 +1,14 @@
+Question,Result,Evidence,Confidence
+Are GC39 and GC40 different?,yes descriptively,full-space distance 0.186; PC1-2 shift 0.055,moderate
+Are FLT39 and FLT40 different?,yes descriptively,full-space distance 0.358; PC1-2 shift 0.282,moderate
+Does the difference emerge mainly in FLT?,"mostly, but not exclusively",FLT distance 0.358; GC 0.186,low/moderate
+Does the difference already exist in GC?,"yes, smaller and mostly outside PC1-2",GC distance 0.186; PC1-2 energy 0.087,moderate
+Are Δ39 and Δ40 genuinely opposing?,opposing at observed centroids,full cosine -0.567; PC1-2 -0.995,moderate
+Is the opposition animal-robust?,no definitive support,LOO range -0.747 to 0.157; bootstrap interval spans zero,low
+Is it technically confounded?,yes,"duration, animal and collection cohort inseparable",high
+Do both responses involve the same pathways?,partially,pathway Spearman 0.185; Top-100 overlap 35,low/moderate
+Do they oppose within shared pathways?,partially,gene attribution cosine -0.369; Top-500 direction agreement 34.8%,moderate
+Evidence of metabolic-state differences?,coherent transcriptional signature only,lipid/PPAR/peroxisome and mitochondrial families differ,hypothesis-generating
+Evidence of circadian-state differences?,signature-level only,circadian scores moderate in Δ39 and weak in Δ40; actual collection phase unavailable,weak
+Evidence of feeding-state differences?,signature-level only,ad libitum reported for both; actual intake unavailable,weak
+Can duration itself be identified as cause?,no,no repeated animals/cohorts across duration,high

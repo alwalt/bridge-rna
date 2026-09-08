@@ -1,0 +1,27 @@
+{
+  "primary_contrasts": 20,
+  "secondary_underpowered": 2,
+  "median_E_PC12": 0.7289497390613497,
+  "global_variance_captured": 0.5529879056548112,
+  "coordination_correlations": [
+    {
+      "coordination_measure": "top1pct_abs_effect_fraction",
+      "spearman_rho": -0.5473684210526315,
+      "p_value": 0.012490190369603563,
+      "n": 20
+    },
+    {
+      "coordination_measure": "expression_effective_gene_count",
+      "spearman_rho": 0.5969924812030075,
+      "p_value": 0.0054519893833496,
+      "n": 20
+    },
+    {
+      "coordination_measure": "expression_response_rms",
+      "spearman_rho": 0.33082706766917286,
+      "p_value": 0.1542360444809862,
+      "n": 20
+    }
+  ],
+  "claim": "Fixed T-cell PC1-2 occupancy is a geometric diagnostic; neither technical specificity nor shared biological mechanism is assumed."
+}

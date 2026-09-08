@@ -1,0 +1,81 @@
+comparison,cohort,metric,value
+RR1,RR1 carcass,GC_mean_PC1,11.117669477133013
+RR1,RR1 carcass,GC_mean_PC2,7.074516085572757
+RR1,RR1 carcass,FLT_mean_PC1,11.850459043557164
+RR1,RR1 carcass,FLT_mean_PC2,7.645028504978839
+RR1,RR1 carcass,delta_PC1,0.7327895664939461
+RR1,RR1 carcass,delta_PC2,0.5705124194711425
+RR1,RR1 carcass,PC1_2_response_magnitude,0.9286899210894896
+RR1,RR1 carcass,outside_PC1_2_response_magnitude,0.23925220589190413
+RR1,RR1 carcass,mean_FLT_RIN,8.6
+RR1,RR1 carcass,mean_GC_RIN,8.2
+RR1,RR1 carcass,n_FLT,5
+RR1,RR1 carcass,n_GC,5
+RR1,RR1 carcass,library_prep,polyA
+RR1,RR1 carcass,sample_state,carcass
+RR1,RR1 carcass,preservation,RLT buffer homogenized and snap frozen
+RR1,RR1 carcass,sequencing_platform,Illumina HiSeq 3000
+RR1,RR1 carcass,sequencing_facility,UC Davis
+RR1,RR1 carcass,library_kit,Illumina TruSeq stranded RNA library prep kit
+RR1,RR1 carcass,read_configuration,SINGLE
+RR1,RR1 carcass,read_length,50 {base pair}
+RR1,RR1 Ribo remeasurement,GC_mean_PC1,8.942890977294805
+RR1,RR1 Ribo remeasurement,GC_mean_PC2,5.657417743505418
+RR1,RR1 Ribo remeasurement,FLT_mean_PC1,8.502572490197903
+RR1,RR1 Ribo remeasurement,FLT_mean_PC2,5.190194859342254
+RR1,RR1 Ribo remeasurement,delta_PC1,-0.4403184873101347
+RR1,RR1 Ribo remeasurement,delta_PC2,-0.4672228843783569
+RR1,RR1 Ribo remeasurement,PC1_2_response_magnitude,0.642010587104229
+RR1,RR1 Ribo remeasurement,outside_PC1_2_response_magnitude,0.22987065488108163
+RR1,RR1 Ribo remeasurement,mean_FLT_RIN,8.6
+RR1,RR1 Ribo remeasurement,mean_GC_RIN,8.200000000000001
+RR1,RR1 Ribo remeasurement,n_FLT,5
+RR1,RR1 Ribo remeasurement,n_GC,5
+RR1,RR1 Ribo remeasurement,library_prep,ribodepleted
+RR1,RR1 Ribo remeasurement,sample_state,not equivalent/unspecified
+RR1,RR1 Ribo remeasurement,preservation,Liquid Nitrogen
+RR1,RR1 Ribo remeasurement,sequencing_platform,Illumina HiSeq 4000
+RR1,RR1 Ribo remeasurement,sequencing_facility,UC Davis
+RR1,RR1 Ribo remeasurement,library_kit,KAPA RNA HyperPrep Kit
+RR1,RR1 Ribo remeasurement,read_configuration,PAIRED
+RR1,RR1 Ribo remeasurement,read_length,150 {base pair}
+RR3-40,RR3-40,GC_mean_PC1,9.37162362620961
+RR3-40,RR3-40,GC_mean_PC2,6.04047532513635
+RR3-40,RR3-40,FLT_mean_PC1,9.262990253580782
+RR3-40,RR3-40,FLT_mean_PC2,5.951166494009782
+RR3-40,RR3-40,delta_PC1,-0.10863337262474304
+RR3-40,RR3-40,delta_PC2,-0.08930883116276503
+RR3-40,RR3-40,PC1_2_response_magnitude,0.14063170684979096
+RR3-40,RR3-40,outside_PC1_2_response_magnitude,0.08489443115399391
+RR3-40,RR3-40,mean_FLT_RIN,7.133333333333333
+RR3-40,RR3-40,mean_GC_RIN,7.35
+RR3-40,RR3-40,n_FLT,3
+RR3-40,RR3-40,n_GC,2
+RR3-40,RR3-40,library_prep,ribodepleted
+RR3-40,RR3-40,sample_state,not equivalent/unspecified
+RR3-40,RR3-40,preservation,Liquid Nitrogen
+RR3-40,RR3-40,sequencing_platform,Illumina HiSeq 4000
+RR3-40,RR3-40,sequencing_facility,UC Davis
+RR3-40,RR3-40,library_kit,
+RR3-40,RR3-40,read_configuration,PAIRED
+RR3-40,RR3-40,read_length,150 {base pair}
+RR3-40,RR3-40 technical remeasurement,GC_mean_PC1,9.451843026254915
+RR3-40,RR3-40 technical remeasurement,GC_mean_PC2,6.100557288104313
+RR3-40,RR3-40 technical remeasurement,FLT_mean_PC1,9.333942175062493
+RR3-40,RR3-40 technical remeasurement,FLT_mean_PC2,6.010082989489704
+RR3-40,RR3-40 technical remeasurement,delta_PC1,-0.11790085119242077
+RR3-40,RR3-40 technical remeasurement,delta_PC2,-0.09047429861460887
+RR3-40,RR3-40 technical remeasurement,PC1_2_response_magnitude,0.14861429750095637
+RR3-40,RR3-40 technical remeasurement,outside_PC1_2_response_magnitude,0.09974405987344923
+RR3-40,RR3-40 technical remeasurement,mean_FLT_RIN,7.1
+RR3-40,RR3-40 technical remeasurement,mean_GC_RIN,7.35
+RR3-40,RR3-40 technical remeasurement,n_FLT,2
+RR3-40,RR3-40 technical remeasurement,n_GC,2
+RR3-40,RR3-40 technical remeasurement,library_prep,ribodepleted
+RR3-40,RR3-40 technical remeasurement,sample_state,not equivalent/unspecified
+RR3-40,RR3-40 technical remeasurement,preservation,Liquid Nitrogen
+RR3-40,RR3-40 technical remeasurement,sequencing_platform,Illumina HiSeq 4000
+RR3-40,RR3-40 technical remeasurement,sequencing_facility,UC Davis
+RR3-40,RR3-40 technical remeasurement,library_kit,KAPA RNA HyperPrep Kit
+RR3-40,RR3-40 technical remeasurement,read_configuration,PAIRED
+RR3-40,RR3-40 technical remeasurement,read_length,150 {base pair}

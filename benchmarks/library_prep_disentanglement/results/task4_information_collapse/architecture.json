@@ -1,0 +1,35 @@
+{
+  "input_shape": [
+    "batch",
+    15165
+  ],
+  "gene_embedding": [
+    15165,
+    512
+  ],
+  "rotary_expression_embedding": [
+    15165,
+    512
+  ],
+  "species_embedding_enabled": false,
+  "layers": 12,
+  "hidden_dim": 512,
+  "attention_heads": 8,
+  "head_dim": 64,
+  "ffn_dim": 2048,
+  "block": "pre-LayerNorm self-attention + residual; pre-LayerNorm GELU FFN + residual",
+  "contextual_shape": [
+    "batch",
+    15165,
+    512
+  ],
+  "pooling": "unweighted mean over 15,165 genes",
+  "post_pool_projection": false,
+  "sample_embedding": [
+    "batch",
+    512
+  ],
+  "mask_token": -10,
+  "standard_unmasked_inference": "no masking",
+  "normalization": "log1p_tpm"
+}

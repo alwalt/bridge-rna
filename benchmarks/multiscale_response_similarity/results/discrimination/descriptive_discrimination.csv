@@ -1,0 +1,11 @@
+score,pairs,positives,auroc,auprc,scope
+global_bridgerna,24,11,0.986013986013986,0.986013986013986,descriptive; RR stress cases and prespecified exercise groupings
+global+graph,24,11,0.986013986013986,0.9841597796143251,descriptive; RR stress cases and prespecified exercise groupings
+global+hallmark,24,11,0.9475524475524475,0.9387380296471206,descriptive; RR stress cases and prespecified exercise groupings
+global+attribution,24,11,0.9020979020979021,0.8827121111212022,descriptive; RR stress cases and prespecified exercise groupings
+all_five,24,11,0.8706293706293706,0.8537794210043015,descriptive; RR stress cases and prespecified exercise groupings
+contextual_graph,24,11,0.7902097902097902,0.6898170011806375,descriptive; RR stress cases and prespecified exercise groupings
+hallmark_program,24,11,0.6783216783216783,0.6227189477189476,descriptive; RR stress cases and prespecified exercise groupings
+expression+attribution,24,11,0.6048951048951049,0.6563542119762216,descriptive; RR stress cases and prespecified exercise groupings
+expression,24,11,0.6013986013986014,0.5573900772430185,descriptive; RR stress cases and prespecified exercise groupings
+attribution,24,11,0.5454545454545454,0.5258014931927976,descriptive; RR stress cases and prespecified exercise groupings

@@ -1,0 +1,11 @@
+samples 54 cohorts 8
+    OSD                         cohort  n_FLT  n_GC  delta_PC1  delta_PC2  response_energy_fraction_PC1_2
+ OSD-48                    RR1 carcass      5     5   0.732790   0.570512                        0.937761
+ OSD-48            RR1 upon-euthanasia      2     2  -0.247321  -0.265958                        0.562274
+OSD-137                         RR3-39      2     2   0.136806   0.136468                        0.677895
+OSD-137                         RR3-40      3     2  -0.108633  -0.089309                        0.732917
+OSD-137                         RR3-41      1     2  -0.159881  -0.218767                        0.734935
+OSD-168 RR3-39 technical remeasurement      2     2   0.089984   0.109425                        0.548446
+OSD-168 RR3-40 technical remeasurement      2     2  -0.117901  -0.090474                        0.689438
+OSD-168         RR1 Ribo remeasurement      5     5  -0.440318  -0.467223                        0.886369
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_rr1_rr3_sample_pc12_audit

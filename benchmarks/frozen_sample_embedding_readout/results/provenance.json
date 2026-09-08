@@ -1,0 +1,11 @@
+{
+  "encoder_frozen": true,
+  "layers": [
+    11,
+    12
+  ],
+  "folds": "exact existing five GSE-disjoint folds",
+  "trainable_readouts": "trained only within each downstream outer fold",
+  "epochs": 8,
+  "note": "Attention test-fold geometry is averaged within fold; fixed readout geometry uses all samples without labels."
+}

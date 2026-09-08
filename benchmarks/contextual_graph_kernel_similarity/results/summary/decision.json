@@ -1,0 +1,9 @@
+{
+  "decision": "C. SIMPLE GRAPH METRICS ARE SUFFICIENT",
+  "best_kernel": "Spectral",
+  "best_subset_tissue_MRR": 0.33473232514807094,
+  "primary_perturbation_endpoint": "unavailable without defining an unvalidated signed-response kernel",
+  "propagation_kernel": "unavailable",
+  "tissue_subset_samples": 140,
+  "claim_limitation": "graph similarity, not GRN inference"
+}

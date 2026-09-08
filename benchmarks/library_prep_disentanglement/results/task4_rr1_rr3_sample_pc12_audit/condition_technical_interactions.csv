@@ -1,0 +1,17 @@
+analysis,outcome,term,coefficient,SE,p_value,n_profiles,note
+RR1 FLT_GC × dataset composite,TCell_PC1_score,Intercept,8.502572445458753,0.13099845170465635,2.7042477506061583e-30,30,OSD/library/ERCC-sequencing context structurally confounded
+RR1 FLT_GC × dataset composite,TCell_PC1_score,C(condition)[T.GC],0.44031852408741057,0.18525978705060192,0.025112280394363654,30,OSD/library/ERCC-sequencing context structurally confounded
+RR1 FLT_GC × dataset composite,TCell_PC1_score,C(dataset)[T.RR1 carcass],3.3478865790808716,0.22689597406532247,3.785563298115198e-14,30,OSD/library/ERCC-sequencing context structurally confounded
+RR1 FLT_GC × dataset composite,TCell_PC1_score,C(condition)[T.GC]:C(dataset)[T.RR1 carcass],-1.173108063162529,0.32087936377103315,0.0011391325047491587,30,OSD/library/ERCC-sequencing context structurally confounded
+RR1 FLT_GC × dataset composite,TCell_PC2_score,Intercept,5.190194883566142,0.10997205825582684,1.0007296123299054e-26,30,OSD/library/ERCC-sequencing context structurally confounded
+RR1 FLT_GC × dataset composite,TCell_PC2_score,C(condition)[T.GC],0.4672228270497868,0.15552397626747444,0.005825942401604296,30,OSD/library/ERCC-sequencing context structurally confounded
+RR1 FLT_GC × dataset composite,TCell_PC2_score,C(dataset)[T.RR1 carcass],2.4548336388868908,0.1904771923120164,8.479833260722913e-13,30,OSD/library/ERCC-sequencing context structurally confounded
+RR1 FLT_GC × dataset composite,TCell_PC2_score,C(condition)[T.GC]:C(dataset)[T.RR1 carcass],-1.0377352594777118,0.26937542869040193,0.0006862597845437796,30,OSD/library/ERCC-sequencing context structurally confounded
+FLT_GC × RIN descriptive,TCell_PC1_score,Intercept,8.480093347114908,1.9383458369429505,6.173874949963791e-05,54,cohort-confounded; not causal
+FLT_GC × RIN descriptive,TCell_PC1_score,C(condition)[T.GC],0.38870527544079003,2.9945659846609938,0.8972426557316947,54,cohort-confounded; not causal
+FLT_GC × RIN descriptive,TCell_PC1_score,RIN_numeric,0.12491843562570712,0.2358347911274323,0.5986737529237516,54,cohort-confounded; not causal
+FLT_GC × RIN descriptive,TCell_PC1_score,C(condition)[T.GC]:RIN_numeric,-0.03994390131509429,0.368128199585739,0.9140290647517484,54,cohort-confounded; not causal
+FLT_GC × RIN descriptive,TCell_PC2_score,Intercept,5.731521239783993,1.3955974952979182,0.00014839151777892322,54,cohort-confounded; not causal
+FLT_GC × RIN descriptive,TCell_PC2_score,C(condition)[T.GC],-0.058960341129892235,2.156069731234566,0.9782924549730482,54,cohort-confounded; not causal
+FLT_GC × RIN descriptive,TCell_PC2_score,RIN_numeric,0.03309659756195851,0.1697996495406816,0.8462489085224003,54,cohort-confounded; not causal
+FLT_GC × RIN descriptive,TCell_PC2_score,C(condition)[T.GC]:RIN_numeric,0.01901469980368703,0.26505011824962094,0.9430950071038227,54,cohort-confounded; not causal

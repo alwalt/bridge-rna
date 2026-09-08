@@ -1,0 +1,11 @@
+Question,RR1,RR3-39,RR3-40
+Same animals available across measurements?,Yes: 4 FLT/5 GC,Yes: 2/2,Yes: 2/2
+Technical response geometry reproduced?,No: -0.804,Yes: 0.790,Yes: 0.917
+Attribution reproduced?,Weak/opposing: -0.635,Strong: 0.775,Strong: 0.858
+Pathway profile reproduced?,Weak: 0.138,Strong: 0.852,Strong: 0.965
+FLT and GC undergo similar technical displacement?,Same direction (0.996) but unequal magnitude,Broadly (0.875),Yes (0.917)
+Condition-dependent measurement displacement?,Strong magnitude difference; ||DF-DG||=1.353,Smaller: 0.144,Smallest: 0.073
+Response robust to leave-one-out?,"All negative [-0.879,-0.581]","Positive [0.639,0.923]","Positive [0.874,0.992]"
+Major metadata differences?,"Library selection, kit/read setup, ERCC, handling and OSD",ERCC/resequencing; same animals/library class,ERCC/resequencing; same animals/library class
+Biological interpretation trustworthy?,No: response measurement-sensitive,Technically reproduced; mechanism still unresolved,Technically reproduced; mechanism still unresolved
+Remaining confounders?,Compound protocol transition,Tiny n; collection subgroup/duration,Tiny n; collection subgroup/duration

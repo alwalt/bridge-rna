@@ -534,7 +534,156 @@ md("""#### Final expression-adjusted decision
 
 This is the final planned Task 4 gene-level control. No causal gene, dedicated pathway dimension, pathway activation, purified biology, or universal technical reference is inferred.""")
 
-md("""### Concise comparison and interpretation
+md("""## 12. Independent biological replication of contextual programs
+
+This section asks whether the contextual programs that were technically unstable in RR1 also recur during independent mouse-liver FLT−GC responses. It is **not** a correction analysis. BridgeRNA remains frozen and no technical subspace is removed.
+
+The primary analysis contains **11 stratified contrasts and 84 samples** from six independent OSD datasets: RR1-CASIS (21/22 day), RR1-NASA (two preservation strata), RR3 (39/40/41 day), STS-135, RR9, and RR6 (ISS-T/LAR). OSD-168 is excluded from biological recurrence because it remeasures RR1/RR3 material, but is retained in the final technical/biological triangulation.
+
+For each gene and contrast, contextual response is `Δh_g = mean(h_g,FLT) − mean(h_g,GC)` and its ranking statistic is `||Δh_g||₂`, exactly matching the response-magnitude construction used in the validated Task 4 contextual analysis. Ranked GSEA uses the same 15,165-gene universe, GO BP/KEGG/Reactome resources, 10–500 gene-set limits, deterministic seed, and 1,000 permutations. Contextual NES indicates concentration toward high versus low contextual-response magnitude; it is not an up/down expression direction.
+
+The conventional baseline uses raw counts, TMM normalization, and a separate robust edgeR quasi-likelihood FLT-vs-GC model per contrast. The 1-FLT/1-GC RR1-CASIS 22-day stratum has no residual degrees of freedom and is explicitly retained only as a descriptive fixed-BCV edgeR ranking; it is not treated as equivalent inferential evidence.""")
+code("""bio=profiler_dir/'independent_biological_replication'
+display(read_csv(bio/'independent_contrast_summary.csv')[['contrast_id','OSD','mission','flight_duration','preservation','n_FLT','n_GC']].style.hide(axis='index'))
+display(read_csv(bio/'program_recurrence_summary.csv').style.format(precision=3,na_rep='—').hide(axis='index'))
+display(read_csv(bio/'program_classification.csv').style.hide(axis='index'))""")
+code("""for name in ['program_recurrence_by_method.png','gene_vs_pathway_recurrence.png']:
+    path=bio/'figures'/name
+    if path.exists():
+        img=plt.imread(path);plt.figure(figsize=(12,6));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Recurrence, leading edges, and triangulation
+
+Recurrence is summarized by both contrast and independent OSD so multiple strata from one mission are not counted as independent biological studies. The gene-level comparison uses Spearman rank agreement and cosine similarity between per-gene contextual-response magnitudes. Program-level agreement uses pathway NES ranks. Leading-edge overlap is reported directly; pathway recurrence does not require identical genes.
+
+The four predefined families are summaries applied only after full unbiased enrichment. The triangulation table keeps three observations distinct: controlled PolyA/Ribo sensitivity, RR1 technical-replication instability, and independent FLT−GC recurrence.""")
+code("""display(read_csv(bio/'technical_biological_triangulation.csv').style.format(precision=3,na_rep='—').hide(axis='index'))
+agreement=read_csv(bio/'gene_vs_pathway_agreement.csv')
+display(agreement.describe().T[['mean','std','min','50%','max']].style.format(precision=3))
+leading=read_csv(bio/'leading_edge_overlap.csv')
+if len(leading): display(leading.drop(columns='overlap_genes').groupby(['analysis','family']).agg(comparisons=('jaccard','size'),median_leading_edge_jaccard=('jaccard','median'),max_leading_edge_jaccard=('jaccard','max')).reset_index().style.format(precision=3).hide(axis='index'))""")
+md("""### Interpretation
+
+The conclusion combines independent-study recurrence, the conventional edgeR comparator, and the existing controlled/technical results. Recurrence supports a spaceflight-associated biological interpretation only when it spans independent OSDs; it does not prove that a program is free of technical sensitivity. Conversely, technical sensitivity in RR1 does not make a recurrent program purely technical. The defensible interpretation distinguishes biological recurrence, measurement sensitivity, and biology × technical interaction.""")
+code("""decision=read_json(bio/'decision_summary.json')
+display(pd.DataFrame([decision]).T.rename(columns={0:'result'}))""")
+md("""**Decision: B, with important limitations.** Chromatin organization/remodeling and DNA-damage programs are present in independent FLT−GC evidence and in conventional edgeR, so they are not adequately characterized as an RR1-only technical artifact. However, BridgeRNA high-context recurrence is limited to two independent OSDs for each family, and one DNA-supporting OSD is the unreplicated 1-vs-1 RR1-CASIS stratum. This is provisional evidence for recurrent spaceflight-associated biology that is technically vulnerable in RR1—not proof of causality or clean separation from technical effects.
+
+RNA processing behaves differently: it is strongly measurement-sensitive in the controlled and RR1 analyses, but enrichment among the strongest independent contextual responders occurs in only one OSD. Conventional edgeR RNA-processing recurrence is broader. Across all contrast pairs, median gene-rank agreement is lower than median pathway-rank agreement, consistent with some program-level convergence despite changing gene rankings; this does not require or imply identical leading-edge genes.""")
+
+md("""## 13. Exploratory biological–technical latent overlap
+
+This analysis asks whether stronger conventional FLT−GC responses have larger components in the independently learned **controlled PolyA/Ribo-associated technical-reference subspace**. It does not call that reference pure batch space, perform correction, or establish technical causation.
+
+The same 11 independent contrasts are used. The primary reference is the stable PC1–2 span of uncentered `Ribo − PolyA` differences from 40 cached same-RNA T-cell pairs. For each contrast, the full Bridge response `Δz` is decomposed orthogonally into aligned and residual components. Numerical Pythagorean closure is checked. Conventional response strength is RMS edgeR log2FC among that contrast's expressed/tested Bridge-vocabulary genes; it does not depend on significance or sample size.
+
+Program-specific strength is RMS log2FC over the union of expressed Bridge genes assigned to each predefined family by the same GO BP, KEGG, and Reactome resources. Sensitivity analyses use PC1, PC1–5, and a nine-contrast set excluding RR3 41-day (1/2) and RR1-CASIS 22-day (1/1). A 1,000-member random orthonormal 2D-subspace null tests whether any PC1–2 association is specific rather than a generic consequence of projecting stronger latent responses.""")
+code("""overlap_dir=profiler_dir/'biological_technical_overlap'
+overlap_summary=read_json(overlap_dir/'summary.json')
+display(pd.DataFrame([overlap_summary]).style.format(precision=4).hide(axis='index'))
+overlap_table=read_csv(overlap_dir/'per_contrast_overlap_metrics.csv')
+display(overlap_table[['OSD','mission','flight_duration','n_FLT','n_GC','rms_log2FC','bridge_total_magnitude','aligned_magnitude_PC1_2','orthogonal_magnitude_PC1_2','aligned_fraction_PC1_2']].style.format(precision=4).hide(axis='index'))""")
+code("""display(read_csv(overlap_dir/'correlation_summary.csv').style.format(precision=4,na_rep='—').hide(axis='index'))
+display(read_csv(overlap_dir/'program_specific_correlations.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(overlap_dir/'program_gene_universes.csv').style.hide(axis='index'))""")
+code("""for name in ['de_vs_aligned_magnitude.png','de_vs_aligned_fraction.png','per_contrast_decomposition.png','program_specific_associations.png','random_subspace_null.png']:
+    path=overlap_dir/'figures'/name
+    if path.exists():
+        img=plt.imread(path);plt.figure(figsize=(12,6));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Result and interpretation
+
+The full 11-contrast result matches **Outcome 1 with an Outcome 5 qualification**:
+
+- RMS log2FC correlates with total Bridge response magnitude and with absolute PC1–2-aligned magnitude (both Spearman `ρ = 0.745`, `p = 0.0085`).
+- RMS log2FC does **not** correlate with the fraction occupying PC1–2 (`ρ = 0.264`, `p = 0.433`).
+- After excluding both severely underpowered contrasts, aligned magnitude remains associated (`ρ = 0.667`, nominal `p = 0.0499`), while aligned fraction is effectively unrelated (`ρ = 0.067`, `p = 0.865`).
+- The aligned-magnitude association is not specific relative to matched random 2D subspaces (empirical two-sided `p = 0.314`). The aligned-fraction result is likewise unexceptional (`p = 0.539`).
+
+RNA-processing, chromatin, DNA-repair, and hepatic-metabolic RMS effects all correlate positively with aligned **magnitude** in the full cohort, but none predicts aligned **fraction**. These family effects largely track overall response strength; they do not establish program-specific occupation of the controlled reference.
+
+The supported interpretation is therefore modest: stronger conventional responses produce larger Bridge responses and consequently larger absolute projections into many latent subspaces, including PC1–2. The relative composition does not become more PolyA/Ribo-reference-like, and the observed magnitude relationship is common under random 2D projections. These data do **not** provide specific evidence that stronger biological responses increasingly occupy the controlled technical reference. They also do not refute biological–technical overlap demonstrated by the earlier correction–preservation experiment; they show only that this particular scaling test cannot establish its specificity.""")
+
+md("""### RR3-only 39–41 day follow-up
+
+RR3 41-day was absent from the earlier OSD-137→OSD-168 technical-replication comparison for a concrete provenance reason. OSD-168 includes remeasurements of RR3 animals F1/F2 and G1/G2 (39 day) and F3/F4 and G3/G5 (40 day), but no corresponding F6, G6, or G7 material from the 41-day stratum. The original OSD-137 41-day biological response remains calculable from 1 FLT and 2 GC samples, but it has no valid OSD-168 technical counterpart and must not be forced into that replication analysis.""")
+code("""rr3_dir=overlap_dir/'rr3_timecourse'
+display(read_csv(rr3_dir/'rr3_timepoint_metrics.csv')[['flight_duration_days','n_FLT','n_GC','technical_replication_counterpart','bridge_total_magnitude','aligned_magnitude_PC1_2','aligned_fraction_PC1_2','orthogonal_magnitude_PC1_2','rms_log2FC']].style.format(precision=4).hide(axis='index'))
+display(read_csv(rr3_dir/'rr3_monotonic_trend_summary.csv').style.format(precision=4).hide(axis='index'))
+img=plt.imread(rr3_dir/'rr3_timecourse_overlap.png');plt.figure(figsize=(12,5));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""The absolute response quantities are non-monotonic: total Bridge magnitude, aligned magnitude, orthogonal magnitude, and RMS log2FC all decline at day 40 and rise to their maximum at day 41. The aligned fraction increases numerically from **0.678 → 0.733 → 0.735**, but essentially plateaus between days 40 and 41. With only three time points—and only one FLT animal at day 41—the formally perfect rank ordering of the fraction is descriptive, not evidence for a time-dependent trend. The defensible conclusion is **no clear progressive change in absolute overlap**, with a possible early increase and plateau in proportional overlap that requires better-replicated time points.""")
+
+md("""## 14. Full-transcriptome versus Bridge-vocabulary conventional expression
+
+This conventional control asks whether restricting RNA-seq analysis to the exact 15,165 genes visible to BridgeRNA changes the biological interpretation. It uses the unchanged 11 independent mouse-liver FLT−GC contrasts and their original raw counts. No Bridge embeddings or contextual representations enter either ranking.
+
+- **Full transcriptome:** each study's original Ensembl count rows are mapped to GENCODE mouse symbols, collapsed by symbol, filtered independently by edgeR, and analyzed with raw-count TMM/robust quasi-likelihood methods.
+- **Bridge vocabulary:** the existing edgeR results restricted to the exact canonical vocabulary are reused.
+- Both rankings use identical GO BP, KEGG, and Reactome collections, gene-set size limits, 1,000 permutations, and deterministic seed.
+- Obvious redundant summary labels (for example, the three overlapping Reactome rRNA-processing terms) are collapsed only in the compact Top-3 display. Detailed pathway files retain every original term.
+""")
+code("""fv_dir=HERE/'results/task4_full_vs_bridge_vocab_expression'
+fv_primary=read_csv(fv_dir/'primary_summary.csv')
+display(fv_primary.style.format({'Coverage':'{:.1%}','NES_profile_Spearman':'{:.3f}'}).hide(axis='index'))
+display(read_csv(fv_dir/'program_family_summary.csv').style.hide(axis='index'))
+display(read_csv(fv_dir/'pathway_agreement_summary.csv').style.format({'nes_spearman':'{:.3f}','shared_fraction_of_union':'{:.1%}','shared_direction_agreement':'{:.1%}'},na_rep='—').hide(axis='index'))""")
+md("""### Interpretation
+
+The comparison is evaluated by continuous NES-profile correlation, overlap and direction of significant pathways, and preservation of the four predefined program families. This distinction matters in the smallest strata: pathway-level coordination can be detectable even when no individual gene survives edgeR FDR correction. RR3 41-day (1 FLT/2 GC) and RR1-CASIS 22-day (1 FLT/1 GC; descriptive fixed-BCV ranking) remain explicitly underpowered.
+
+The detailed results below determine whether vocabulary restriction alone can explain differences between conventional expression and BridgeRNA contextual findings. A high full-versus-vocabulary NES correlation and retention of the central families would argue against that explanation; losses unique to the restricted arm identify the specific conventional programs unavailable within the model vocabulary.""")
+md("""### Result
+
+Restriction retains roughly **71–80% of the genes tested by edgeR** in each contrast (median **75.1%**) while preserving the global pathway ranking very strongly: per-contrast full-versus-vocabulary NES Spearman ranges from **0.943 to 0.987** (median **0.961**). Across significant pathways, the median shared fraction of the union is **59.9%**, and every exact pathway significant in both arms retains its enrichment direction.
+
+The principal biological conclusions are therefore broadly robust, but restriction is not lossless. RNA processing is retained in RR3 39d, RR3 40d, RR3 41d, STS-135, RR6 ISS-T/LAR, and the better-powered RR1-NASA contrast. Full-only RNA-processing significance appears in RR9 and the small RR1-NASA preservation stratum. Central chromatin, DNA-response, and hepatic-metabolic programs are generally retained, although individual family calls or the strongest representative term can change where power is weak or related pathways occupy opposite ranked tails.
+
+RR3 39d remains stronger than RR3 40d after restriction. The best RNA-processing NES changes from **2.545 versus 2.086** in the full analysis to **2.270 versus 2.004** in the Bridge-vocabulary analysis. Both use ribodepleted libraries, as do several contrasts with substantially different RNA-processing strength or direction. RNA-processing enrichment is therefore not explained simply by the PolyA-versus-ribodepletion label.
+
+These results argue that vocabulary restriction alone cannot reasonably explain the larger differences between conventional and Bridge contextual analyses. It can weaken or remove particular pathway calls, especially in marginal contrasts, but it does not erase the dominant conventional pathway organization.""")
+
+md("""## 15. RR3 39-day versus 40-day functional overlap with PC1–2
+
+This targeted analysis asks why removing the independently learned controlled T-cell PolyA/Ribo-associated PC1–2 reference damages RR3-39 technical replication more than RR3-40. It does not redefine samples, responses, embeddings, or the reference and does not treat PC1–2 as technical-only.
+
+Two source-value corrections are essential. The saved PC-removal curve gives **0.790→0.480** for RR3-39 and **0.917→0.876** for RR3-40 at PC1–2; the previously quoted 0.497/0.894 values correspond to PC1–5 removal. Also, the previously quoted RR3-40 aligned fraction of 0.733 uses the full biological 3-FLT/2-GC contrast. The exact OSD-137→OSD-168 technical comparison is animal-matched 2/2 and has an OSD-137 PC1–2 aligned fraction of **0.447**. Both definitions remain available and are not mixed.
+
+Metadata support exact source-animal matching and describe OSD-168 as the same RR3 RNA material resequenced with ERCC. The conservative wording remains **same source animal and supported same RNA material**; the metadata do not independently prove that every library used the identical physical aliquot. Both time points retain ribodepletion, paired 150-bp sequencing, HiSeq 4000, UC Davis, and liquid-nitrogen preservation. OSD-168 adds ERCC and reports KAPA RNA HyperPrep; the OSD-137 kit is not reported, so a kit change cannot be asserted.""")
+code("""rr3_overlap=profiler_dir/'rr3_functional_overlap'
+display(read_csv(rr3_overlap/'protocol_variable_audit.csv').style.hide(axis='index'))
+display(read_csv(rr3_overlap/'rr3_sample_correspondence_and_protocol.csv')[['timepoint','animal_id','condition','OSD137_sample','OSD168_sample','exact_animal_match','biological_material_status','identical_RNA_status','OSD168_ERCC_mix']].style.hide(axis='index'))
+display(read_csv(rr3_overlap/'compact_rr3_39_vs_40_summary.csv').style.format(precision=3).hide(axis='index'))""")
+md("""### Response decomposition
+
+The component geometry provides a direct explanation for the point estimate. In both time points, the PC1–2-projected response is nearly identical across remeasurement. RR3-39, however, has a weakly reproducible orthogonal component, whereas RR3-40 retains a strongly reproducible orthogonal response. Removing PC1–2 therefore leaves RR3-39 dominated by its less reproducible remainder but leaves RR3-40 with substantial reproducible structure.""")
+code("""display(read_csv(rr3_overlap/'response_component_metrics.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(rr3_overlap/'component_replication_similarity.csv').style.format(precision=4).hide(axis='index'))
+for name in ['component_replication_similarity.png','component_programs.png','bootstrap_removal_effect.png']:
+    img=plt.imread(rr3_overlap/'figures'/name);plt.figure(figsize=(12,5));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Gene attribution, pathway specificity, and conventional expression
+
+Zero-baseline Integrated Gradients uses the same frozen encoder and validated Task 4 attribution definition. Separate original and remeasurement attributions are normalized and averaged with equal measurement weight for each timepoint/component. Component GSEA uses the exact 15,165-gene universe and the established 1,000-permutation GO BP/KEGG/Reactome workflow.
+
+No predefined RNA/ribosome, chromatin, DNA-response, or hepatic-metabolic family reaches component-IG GSEA FDR < 0.05. A complementary competitive rank test finds a small but non-random RR3-39 preference for RNA-processing genes in the parallel rather than orthogonal ranking (mean percentile difference 0.0276; empirical `p=0.0007`); RR3-40 shows no such preference (0.0040; `p=0.555`). Chromatin and DNA-response families show similarly sized RR3-39 preferences, so RNA processing is not uniquely implicated. Ribosome/rRNA-processing genes do not preferentially occupy the parallel ranking.
+
+Conventional expression and component attribution provide different evidence. Conventional edgeR GSEA establishes coordinated RNA-processing involvement (RR3-39 NES 2.270; RR3-40 NES 2.004). Component IG asks which inputs influence the PC1–2-associated latent response. Their genome-wide magnitude correlations are modest and Top-100 overlaps are small but above chance; pathway-level involvement does not require identical leading genes.""")
+code("""display(read_csv(rr3_overlap/'top25_component_genes.csv').groupby(['timepoint','component'],as_index=False,group_keys=False).head(10).style.format(precision=4).hide(axis='index'))
+display(read_csv(rr3_overlap/'component_program_family_summary.csv').style.format(precision=3,na_rep='—').hide(axis='index'))
+display(read_csv(rr3_overlap/'component_family_competitive_permutation.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(rr3_overlap/'conventional_gene_rank_comparison.csv').style.format(precision=4).hide(axis='index'))""")
+md("""### Random-subspace and sample-size controls
+
+Against the existing 500 matched random 2D removals, both observed cosine decreases are more negative than every random realization (`p=0.001996` with the +1 correction). This establishes specificity to the controlled reference geometry, not biological causality. Functional specificity is assessed separately with 10,000 gene-set competitive permutations because reproducing Integrated Gradients for every random latent subspace would require a new gradient calculation for each null direction and would not reuse the established cached null.
+
+The paired animal bootstrap is decisive for interpretation. RR3-39's median change is −0.186, but its 95% interval spans **−0.411 to +0.121**. RR3-40's smaller change similarly spans zero (**−0.117 to +0.019**). With only two matched FLT and two matched GC animals per technical comparison, the contrast between the point estimates is not stable enough for a mechanistic conclusion.""")
+code("""display(read_csv(rr3_overlap/'random_subspace_loss_control.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(rr3_overlap/'paired_bootstrap_stability_summary.csv').style.format(precision=4).hide(axis='index'))
+display(pd.DataFrame([read_json(rr3_overlap/'decision_summary.json')]).style.hide(axis='index'))""")
+md("""### Decision: D — unstable / underpowered
+
+At the observed group means, PC1–2 removal hurts RR3-39 because its exceptionally reproducible PC1–2 component (`cos=0.995`) is removed, exposing an orthogonal component with much lower replication (`cos=0.480`). RR3-40 retains a reproducible orthogonal component (`cos=0.876`). RR3-39 also shows a statistically unusual but small enrichment of RNA-processing genes toward the parallel attribution ranking. That preference is shared in magnitude by chromatin and DNA-response families, fails the primary component-GSEA FDR criterion, and is unstable at the response level under sample resampling.
+
+The data therefore do **not** support claiming that RNA processing specifically causes the RR3-39 sensitivity. Sampling variability is a reasonable explanation for the magnitude of the 39d-versus-40d difference. The stronger paper-safe conclusion is: **the controlled PC1–2 reference contains highly reproducible RR3 response information, but the functional content and subtraction consequence are sample-dependent; with 2/2 matched animals, RR3-39 cannot establish a specific RNA-processing mechanism. Controlled technical references should be used diagnostically, not removed as if they were biologically empty batch dimensions.**""")
+
+md("""## 16. Concise comparison and interpretation
 
 ### Concise comparison and interpretation
 
@@ -548,7 +697,7 @@ md("""### Concise comparison and interpretation
 
 **RR1 overall:** The RR1 mouse-liver spaceflight response reverses across remeasurement (`R = −0.804`). Its discrepancy is strongly aligned with the controlled PolyA/Ribo reference (`T = 0.953`). Removing sufficient technical-associated structure to resolve this reversal preserves only 0.559 correlation with the broader response-similarity organization. Gene attribution shows response-basis reweighting, while contextual analysis shows widespread instability in genes' learned transcriptomic relationships. The associated latent structure is therefore technically sensitive and biologically entangled—not proven purely technical, causal, or safely correctable.""")
 
-md("## 12. Final benchmark summary")
+md("## 17. Final benchmark summary")
 code("""if not summary.empty:
     final = summary.rename(columns={'representation':'Representation','auroc':'PolyA/Ribo AUROC','pair_cosine':'Pair cosine','pair_r1':'Pair R@1'})
     if not task3.empty:
@@ -558,7 +707,7 @@ code("""if not summary.empty:
     keep = [c for c in ['Representation','PolyA/Ribo AUROC','Pair cosine','Pair R@1','Biology metric (source-ID MRR)','macro_f1','RR1','RR3-39','RR3-40'] if c in final]
     display(final[keep].style.format(precision=3,na_rep='—'))""")
 
-md("""## 13. Conservative interpretation
+md("""## 18. Conservative interpretation
 
 The completed evidence should answer whether original Bridge encodes library information, whether displacement generalizes, whether FE reduces it without erasing biology, whether RE isolates it, whether the decomposition generalizes, and whether RR1 improves without damaging RR3.
 
@@ -571,6 +720,954 @@ code("""if not summary.empty and not task3.empty:
     print(f\"Pair R@1 Bridge→FE: {s.loc['Bridge','pair_r1']:.3f} → {s.loc['FE','pair_r1']:.3f}\")
     print(f\"RR1 cosine Bridge→FE: {t.loc['Bridge','RR1']:.3f} → {t.loc['FE','RR1']:.3f}\")
     print('Conclusion: this exploratory FE/RE fit does not meet the predefined success criteria. It neither improves held-out pair correspondence nor remedies RR1. The result cannot specifically implicate PolyA/Ribo; the RR1 reversal remains attributable to a broader protocol transition.')""")
+
+md("""## 19. RR1 preservation-context diagnostic
+
+This section asks whether occupancy of the independently characterized T-cell PolyA/Ribo-associated PC1–2 reference differs between RR1 CASIS/on-orbit-dissection material (OSD-47) and RR1 NASA preservation strata (OSD-48). It reuses the validated Task 3 contrasts and cached frozen BridgeRNA inputs/embeddings; no samples are pooled, no response is redefined, and no correction is applied.
+
+The source audit matters. OSD-47 reports flight livers dissected on orbit at 21 or 22 days and frozen in a Mini Cold Bag; ground controls followed its matched ground protocol. OSD-48 contains distinct sample-level `Upon euthanasia` and `Carcass` strata. Both RNA-seq datasets report PolyA selection, Illumina TruSeq stranded RNA preparation, single-end 50-bp sequencing, HiSeq 3000, and UC Davis. This is not a PolyA-versus-ribodepletion comparison. The studies also differ in strain, age, duration, animals, and collection context, so preservation is not experimentally isolated.""")
+code("""rr1_context=profiler_dir/'rr1_preservation_context'
+display(read_csv(rr1_context/'rr1_protocol_comparison.csv').style.hide(axis='index'))
+display(read_csv(rr1_context/'rr1_sample_protocol_audit.csv').style.hide(axis='index'))""")
+
+md("""### Response decomposition and controls
+
+The better-powered OSD-47 21-day response has little PC1–2 occupancy (0.045), whereas the OSD-48 carcass response is highly aligned (0.938). OSD-48 upon-euthanasia is intermediate (0.562). OSD-47 22-day is also high (0.789), but it is one FLT versus one GC animal and cannot establish a preservation association. Aligned fraction is geometric occupancy, not percent technical artifact.""")
+code("""display(read_csv(rr1_context/'rr1_response_decomposition.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(rr1_context/'random_2d_subspace_control.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(rr1_context/'sample_bootstrap_summary.csv').style.format(precision=4).hide(axis='index'))
+for name in ['rr1_alignment_by_context.png','random_subspace_controls.png']:
+    img=plt.imread(rr1_context/'figures'/name);plt.figure(figsize=(11,6));plt.imshow(img);plt.axis('off');plt.show()""")
+
+md("""### Apples-to-apples technical-replication components
+
+The unchanged PC1–2 basis was applied identically to RR1, RR3-39, and RR3-40. RR1's full responses reverse (`cos = −0.804`), and its responses within PC1–2 are even more strongly opposed (`−0.974`); the outside-PC1–2 responses are weakly concordant (`0.221`). Both RR3 projected components reproduce almost perfectly, while RR3-40 also retains strong outside-reference concordance.
+
+The discrepancy statistic answers a distinct question from per-response occupancy: 0.953 of the squared magnitude of the RR1 replication discrepancy lies in PC1–2. It must not be read as “95.3% caused by library preparation.”""")
+code("""display(read_csv(rr1_context/'rr1_rr3_component_replication_comparison.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(rr1_context/'rr1_technical_replication.csv').style.format(precision=4,na_rep='—').hide(axis='index'))""")
+
+md("""#### Exact RR1 sample trace
+
+The original `−0.804` result did **not** pool OSD-48 preservation strata. It used only the carcass stratum and only animals having an OSD-168 no-ERCC counterpart: four FLT animals (M25, M26, M28, M30) and five GC animals (M36–M40). Carcass FLT animal M27 was excluded because no corresponding OSD-168 profile exists. The upon-euthanasia animals M21/M22 and M31/M32 have no OSD-168 counterparts, so a stratum-specific technical-replication cosine cannot be calculated without manufacturing unmatched comparisons.""")
+code("""display(read_csv(rr1_context/'rr1_all_osd48_samples_and_counterparts.csv').style.hide(axis='index'))
+display(read_csv(rr1_context/'rr1_stratum_specific_replication_metrics.csv').style.format(precision=4,na_rep='—').hide(axis='index'))""")
+
+md("""### Conventional and Bridge functional content
+
+Conventional results are reused from validated raw-count edgeR/GSEA in the full expressed transcriptome and exact Bridge vocabulary. Bridge component results use the exact contextual-gene decomposition: because each sample embedding is the mean of contextual gene states, every gene's FLT−GC contextual vector can be projected into PC1–2 and its orthogonal complement. Rankings use contextual-vector magnitude and the established 1,000-permutation GO BP/KEGG/Reactome workflow over the 15,165-gene universe.
+
+These results describe programs associated with each component; they do not make a component technical-only. Small strata, especially OSD-47 22-day, remain descriptive.""")
+code("""display(read_csv(rr1_context/'conventional_expression_summary.csv').style.hide(axis='index'))
+display(read_csv(rr1_context/'conventional_program_families.csv').style.hide(axis='index'))
+display(read_csv(rr1_context/'component_program_family_summary.csv').style.format(precision=3,na_rep='—').hide(axis='index'))
+display(read_csv(rr1_context/'top25_component_contextual_genes.csv').groupby(['contrast_id','component'],as_index=False,group_keys=False).head(10).style.format(precision=4).hide(axis='index'))""")
+
+md("""### Decision: D — underpowered/confounded
+
+OSD-48 carcass-derived RR1 shows much stronger PC1–2 occupancy than the better-powered OSD-47 21-day response, and the within-OSD-48 upon-euthanasia stratum is lower than the carcass stratum. This is consistent with a preservation-context association, but cannot isolate preservation: the high OSD-47 22-day 1-vs-1 estimate exposes animal sensitivity, and OSD-47/48 differ biologically and procedurally. Only OSD-48 carcass material has a valid OSD-168 remeasurement; no comparison was manufactured for OSD-47 or OSD-48 upon-euthanasia.
+
+The defensible conclusion is that **the carcass-preserved OSD-48 response occupies a technically sensitive region of BridgeRNA space, but the RR1 design cannot isolate preservation, a library interaction, or biology as the cause**. PC1–2 remains a PolyA/Ribo-associated—not technical-only—reference, and implicated biological programs must not be labeled artifacts.""")
+code("""display(pd.DataFrame([read_json(rr1_context/'decision_summary.json')]).style.hide(axis='index'))""")
+
+md("""## 20. Direction within the controlled PolyA/Ribo-associated reference
+
+Occupancy does not reveal which way a response points. This additive diagnostic therefore orients the unchanged PC1–2 plane using the controlled paired experiment's mean displacement, `mean(z_Ribo − z_PolyA)`, projected into PC1–2. It does not use arbitrary SVD signs or NASA results to orient the reference.
+
+The directional cosine ranges from −1 (PolyA-directed) to +1 (Ribo-directed); the signed projection additionally reports magnitude. These are geometric descriptions relative to the controlled T-cell reference, not evidence that a biological response is artifact. The `weak/no direction` label is descriptive only and uses `|cosine| < 0.25`.""")
+code("""direction_dir=profiler_dir/'polya_ribo_directionality'
+direction=read_csv(direction_dir/'spaceflight_polya_ribo_directionality.csv')
+display(direction.style.format(precision=4).hide(axis='index'))
+display(read_csv(direction_dir/'matched_remeasurement_directionality.csv').style.format(precision=4).hide(axis='index'))
+img=plt.imread(direction_dir/'figures/spaceflight_polya_ribo_directionality_plane.png')
+plt.figure(figsize=(12,9));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Directional interpretation
+
+1. **RR1 carcass switches direction.** Its matched OSD-48 response is PolyA-directed (`cos = −0.785`, signed projection `−0.707`), whereas the OSD-168 no-ERCC remeasurement is Ribo-directed (`+0.626`, `+0.268`).
+2. **RR3 orientations reproduce.** RR3-39 remains PolyA-directed (`−0.693 → −0.619`), and RR3-40 remains Ribo-directed (`+0.820 → +0.780`).
+3. **RR1 follows the independently oriented axis rather than merely reversing elsewhere in PC1–2.** Its parallel-component replication cosine is `−0.974`, and its signed projection crosses from strongly negative to positive relative to the controlled PolyA→Ribo arrow. The match is not perfectly collinear, and this remains association rather than causal attribution.
+4. **Directionality refines occupancy.** High occupancy can contain a stable response, as in RR3, or an orientation switch, as in RR1. Occupancy alone therefore cannot diagnose instability or artifact.
+
+The OSD-48 upon-euthanasia biological response is Ribo-directed despite being measured with a PolyA protocol. This is an especially useful caution: “Ribo-directed” describes a latent direction, not the library actually used or the cause of the biological response. Its OSDR technical remeasurement cannot be tested because OSD-168 lacks counterparts for M21/M22/M31/M32.""")
+
+md("""## 21. BridgeRNA Biological Confounding Profiler
+
+The final profiler integrates response geometry, controlled-reference directionality, matched remeasurement, conventional edgeR/GSEA, contextual response, expression-adjusted context excess, and independent biological recurrence. Its central principle is: **technical sensitivity identifies vulnerability, not artifact**.
+
+The response table includes all 14 validated Task 3 FLT−GC contrasts. Reproducibility fields remain missing when no matched remeasurement exists; occupancy alone is never used to infer stability. Exact matched definitions are included separately for RR1 carcass, RR3-39, and RR3-40.""")
+code("""final_profiler=profiler_dir/'final_profiler'
+response_profiler=read_csv(final_profiler/'response_profiler.csv')
+program_profiler=read_csv(final_profiler/'program_profiler.csv')
+display(response_profiler.style.format(precision=4,na_rep='—').hide(axis='index'))""")
+md("""### Validation cases
+
+- **RR1 carcass — measurement-vulnerable:** original/remeasurement overlap is 0.933/0.780, whole-response reproducibility is −0.804, PC1–2 reproducibility is −0.974, outside-PC1–2 reproducibility is 0.221, and discrepancy localization is 0.953. Its oriented projection switches PolyA-directed to Ribo-directed.
+- **RR3-39 — reproducible despite overlap:** overlap is 0.678/0.548, whole-response reproducibility 0.790, and PC1–2 reproducibility 0.995. It remains PolyA-directed.
+- **RR3-40 — reproducible despite overlap:** overlap is 0.447/0.689, whole-response reproducibility 0.917, and PC1–2 reproducibility 0.998. It remains Ribo-directed.
+
+RR3 demonstrates why globally subtracting PC1–2 is inappropriate: the same associated reference contains highly reproducible response structure.""")
+code("""validation=response_profiler[(response_profiler.matched_remeasurement)&(response_profiler.measurement=='matched original')]
+display(validation.style.format(precision=4,na_rep='—').hide(axis='index'))
+img=plt.imread(final_profiler/'figures/bridge_biological_confounding_profiler.png')
+plt.figure(figsize=(18,11));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Program-level vulnerability and contextual organization beyond DE
+
+RNA processing has conventional biological support, Bridge contextual support, and strong controlled PolyA/Ribo contextual sensitivity. It is measurement-vulnerable in RR1 but cannot be dismissed as noise. Chromatin and DNA-response programs also show technical sensitivity, yet recur across independent spaceflight datasets; they are candidate biological organization, not proven biology. Lipid/metabolic programs recur across all six independent OSDs in both conventional and contextual analyses and were not supported by the controlled T-cell contextual-sensitivity analysis, although their program-specific matched-remeasurement behavior remains unresolved.
+
+Bridge additionally identifies **596 context-excess / non-significant-DE genes**—the RR1 top 5% positive expression-adjusted contextual residuals with edgeR FDR ≥ 0.05. These show 23 significant RNA-processing, 5 chromatin, and 2 DNA-repair terms. They are not “genes missed by RNA-seq” or automatically novel; they represent contextual organization not explained by the per-gene conventional expression statistic.""")
+code("""display(program_profiler.style.hide(axis='index'))
+contextual=read_csv(final_profiler/'contextual_organization.csv')
+display(contextual.head(25).style.format(precision=4,na_rep='—').hide(axis='index'))
+print((final_profiler/'profiler_summary.md').read_text())""")
+
+md("""## 22. Which RNA-processing genes underlie technical sensitivity and reproducible biology?
+
+This gene-level analysis uses an exact **1,108-gene RNA-processing universe** assembled reproducibly from the benchmark's existing GO BP, KEGG, and Reactome definitions, restricted to the 15,165 Bridge genes. It includes RNA/mRNA/rRNA processing, splicing, RNA metabolism, and existing ribosome biogenesis/maturation definitions; the complete pathway membership is saved.
+
+The controlled T-cell 40-donor displacement tensor was reused from cache. Exact cross-experiment contextual-vector direction was not present in earlier summary tables, so the six existing RR1/RR3 matched contextual response tensors were regenerated once from the unchanged 34 profiles and frozen model, then cached. No embeddings, response definitions, or model parameters changed.""")
+code("""rna_dir=profiler_dir/'rna_processing_gene_analysis'
+rna_profiles=read_csv(rna_dir/'rna_processing_gene_profiles.csv')
+display(read_csv(rna_dir/'rna_processing_rank_correlations.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(rna_dir/'sensitivity_set_overlaps.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(rna_dir/'matched_rna_gene_permutations.csv').style.format(precision=4).hide(axis='index'))""")
+
+md("""### Main gene-level findings
+
+- Controlled sensitivity and RR1 instability have weak rank association (`Spearman = 0.134`). Their Top-5% sets overlap by 7 genes versus 2.83 expected (`2.47×`, empirical `p=0.019`), but the enrichment does not persist at Top 10% or 20%.
+- Controlled sensitivity and reproducible RR3-39 show consistent set enrichment: Top-5% overlap 9 versus 2.83 expected (`3.18×`, `p=0.0012`), Top-10% 19 versus 11.1 (`p=0.010`), and Top-20% 56 versus 44.5 (`p=0.0247`). RR3-40 does not show significant controlled-set enrichment.
+- RR3-39 and RR3-40 have weak overall reproducible-score correlation (`0.119`) but strongly enriched Top-5/10/20% overlap. Their Top-10% sets share 34 genes versus 11.1 expected (`3.06×`, empirical `p=0.0001`). These shared genes reproduce strongly within each timepoint (median original/remeasurement contextual cosine `0.978` and `0.988`).
+- Across all RNA genes, the median direct RR3-39-versus-RR3-40 original-response cosine is `−0.0065`, with 50.6% opposite. Thus the timepoints share a reproducible subset but do not represent a simple global sign reversal of identical machinery.
+- At the primary Top-10% definition, three genes—**CNOT3, RBM14, and ZFC3H1**—are simultaneously controlled-sensitive, RR1-unstable, and reproducible in at least one RR3 timepoint. They are especially difficult to interpret, but are not labeled artifacts.""")
+code("""display(read_csv(rna_dir/'top20_informative_rna_processing_genes.csv')[['gene','tcell_sensitivity_rna_rank','rr1_instability_rna_rank','rr3_39_reproducible_rna_rank','rr3_40_reproducible_rna_rank']].style.hide(axis='index'))
+display(read_csv(rna_dir/'evidence_categories.csv').groupby('category').size().rename('genes').reset_index().style.hide(axis='index'))
+display(pd.DataFrame([read_json(rna_dir/'rr3_39_vs_40_state_test.json')]).style.format(precision=4).hide(axis='index'))""")
+code("""for name in ['rna_contextual_response_heatmap.png','tcell_vs_rr1_gene_ranks.png','rr3_39_vs_40_gene_ranks.png','rna_gene_evidence_categories.png','top20_rna_processing_genes.png']:
+    img=plt.imread(rna_dir/'figures'/name);plt.figure(figsize=(12,9));plt.imshow(img);plt.axis('off');plt.show()""")
+
+md("""### Interpretation: mixed shared machinery and higher-order convergence
+
+The data do not support a model in which one fixed set of RNA-processing genes uniformly drives controlled library sensitivity, RR1 instability, and both RR3 responses. They also do not support completely unrelated gene implementations: stringent overlaps—especially controlled T-cell with RR3-39 and RR3-39 with RR3-40—are substantially above matched RNA-gene expectations.
+
+The most defensible interpretation is a **mixture**. A reproducible subset of shared molecular machinery participates across settings, while different contextual gene rankings and directions converge onto a higher-order RNA-processing-associated latent organization. RR3-39 and RR3-40 are best classified as **mixed**, not definitively two opposite biological states. RR3 comparisons contain only 2 FLT/2 GC animals per matched measurement, so rankings remain descriptive even where set-level permutation evidence is significant.
+
+The exact master table retains contextual magnitudes and direction, conventional logFC/FDR, context excess, PC1–2 association, rank metrics, and pathway membership for every RNA-processing gene.""")
+code("""print((rna_dir/'rna_processing_gene_summary.md').read_text())""")
+
+md("""## 23. Component-level decomposition of the controlled PolyA/Ribo-associated space
+
+This analysis asks whether the controlled 40-donor T-cell PolyA→Ribo difference space contains components that can be removed as technical nuisance without also removing coherent or independently overlapping biological-response structure. It uses the existing frozen sample embeddings and cached contextual-gene displacement tensor; BridgeRNA was not rerun.
+
+The paired-difference matrix has rank at most 40, so all 40 uncentered difference components are characterized. Component signs are oriented to the mean paired Ribo-minus-PolyA displacement. The operational full correction uses the smallest prefix explaining at least 99.5% of controlled displacement energy. Candidate labels are deliberately conservative: pathway absence is not proof of technical purity, and NASA overlap contributes to the exploratory labels, so NASA correction results are descriptive rather than confirmatory.""")
+code("""component_dir=HERE/'results/task4_technical_component_decomposition'
+pc_metrics=read_csv(component_dir/'technical_pc_metrics.csv')
+component_classes=read_csv(component_dir/'technical_pc_classification.csv')
+correction_comparison=read_csv(component_dir/'correction_comparison.csv')
+display(pc_metrics.head(10).style.format(precision=4).hide(axis='index'))
+display(component_classes.style.format(precision=4).hide(axis='index'))""")
+code("""for name in ['technical_difference_spectrum.png','cumulative_response_overlap.png','pc_pathway_enrichment.png']:
+    img=plt.imread(component_dir/'figures'/name)
+    plt.figure(figsize=(13,8));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Correction tradeoff
+
+PC1 dominates the controlled displacement (97.47%), and PCs 1–5 jointly explain 99.52%. Nevertheless, all five prefix components show either significant pathway organization or appreciable overlap with an independent RR1/RR3 response. Consequently, **no component satisfies the prespecified exploratory technical-only candidate rule**. The selective strategy therefore correctly performs no subtraction rather than inventing a nuisance direction.
+
+Removing PCs 1–5 reduces leave-one-donor-out PolyA/Ribo AUROC from 1.000 to 0.452 and raises same-RNA cross-library R@1 from 0.100 to 1.000. That apparent technical benefit has a marked biological-geometry cost: mean individual Task 3 response preservation is 0.541 and the response-cosine matrix correlation is 0.559. RR1 changes from −0.804 to +0.195, but RR3-39 falls from 0.790 to 0.497, while RR3-40 remains comparatively stable (0.917 to 0.894). Resolving RR1 by broad subtraction is therefore not evidence of clean biological correction.""")
+code("""display(correction_comparison.style.format(precision=4,na_rep='—').hide(axis='index'))
+img=plt.imread(component_dir/'figures/correction_tradeoff.png')
+plt.figure(figsize=(11,7));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Interpretation
+
+The controlled library-associated space cannot currently be divided into a well-supported technical-only portion and a separable biological portion. Several components have coherent chromatin, DNA-response, mitochondrial RNA-processing, or rRNA/tRNA-processing enrichment, while PC1 and PC2 account for most of the RR1 discrepancy and overlap strongly with RR1/RR3 responses.
+
+This supports the hypothesis that protocol-associated latent variation can overlap meaningful molecular organization. It does **not** establish that the enriched pathways caused the protocol effect, that any component is pure biology, or that the T-cell reference is universal across tissues. Selective correction offers no demonstrated advantage here because no component met the conservative technical-only criteria; a new controlled dataset would be required for confirmatory component selection and held-out biological evaluation.""")
+
+md("""## 24. RR3 39/40/41-day cohort audit
+
+This audit uses the exact Task 3 memberships, authoritative cached OSDR metadata, frozen embeddings, and existing expression/contextual results. No contrasts were redefined. Cohorts contain 2 FLT/2 GC at 39 days, 3 FLT/2 GC at 40 days, and 1 FLT/2 GC at 41 days. OSD-168 remeasures F1/F2/G1/G2 at 39 days and F3/F4/G3/G5 at 40 days; F5 and the 41-day F6/G6/G7 cohort lack counterparts.""")
+code("""rr3_audit=HERE/'results/task4_confounding_profiler/rr3_cohort_audit'
+rr3_samples=read_csv(rr3_audit/'rr3_sample_metadata_audit.csv')
+rr3_meta=read_csv(rr3_audit/'rr3_cohort_metadata_summary.csv')
+rr3_loo=read_csv(rr3_audit/'rr3_leave_one_out_sensitivity.csv')
+rr3_decomp=read_csv(rr3_audit/'rr3_flt_gc_decomposition.csv')
+display(rr3_samples.style.hide(axis='index'))
+display(rr3_meta.style.hide(axis='index'))""")
+md("""### Individual samples and FLT/GC decomposition
+
+Every leave-one-animal-out 39-day response remains negative (`−0.723` to `−0.672`), while every 40-day response remains positive (`0.569` to `0.870`). This is sign-stable but not proof of robustness: 39 days has only 2/2 animals.
+
+Within the oriented PC1–2 reference, the FLT centroid moves from `−9.351` to `−9.136`, whereas GC changes from `−9.217` to `−9.242`. The full latent FLT cohort shift is larger than the GC shift (norm `0.358` versus `0.186`) and is more concentrated in PC1–2 (0.620 versus 0.087). The reversal is therefore primarily flight-animal/cohort driven in this reference, although both arms and animal identities differ.""")
+code("""display(rr3_decomp.style.format(precision=4).hide(axis='index'))
+display(rr3_loo.style.format(precision=4).hide(axis='index'))
+for name in ['rr3_individual_pc12.png','rr3_flt_gc_centroids.png','rr3_leave_one_out.png','rr3_flt_gc_decomposition.png','rr3_conventional_expression_pca.png']:
+    img=plt.imread(rr3_audit/'figures'/name)
+    plt.figure(figsize=(11,7));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Conventional expression and gene-level context
+
+The conventional log1p(TPM) 39-day and 40-day FLT−GC response vectors are nearly orthogonal (`cosine = 0.081`), whereas BridgeRNA makes them more strongly opposed (`−0.567`). Bridge therefore reorganizes/amplifies an existing cohort distinction. Existing full-transcriptome GSEA shows stronger RNA-processing enrichment at 39 days than 40 days (best NES 2.545 versus 2.086; vocabulary-restricted control 2.270 versus 2.004).
+
+The 34 shared Top-10% reproducible RNA-processing genes form a reproducible core but do not imply identical response direction: median direct 39d-versus-40d contextual cosine is near zero. CNOT3 and RBM14 are preferentially reproducible at 39 days, whereas ZFC3H1 is preferentially reproducible at 40 days; none is in the shared 34-gene Top-10% core.""")
+code("""rr3_genes=read_csv(rr3_audit/'rr3_39_vs_40_gene_programs.csv')
+display(rr3_genes.style.format(precision=4,na_rep='—').hide(axis='index'))""")
+md("""### Conservative classification: G — mixed / unresolved
+
+The cohorts share strain, sex, age, tissue, diet, habitat, euthanasia method, ribodepletion, stranded paired-end 150-bp sequencing, facility, and liquid-nitrogen preservation. They differ necessarily in animal identity, duration/exposure and collection cohort, FLT radiation dose, carcass weight, RIN, read depth, rRNA contamination, and library index. Exact euthanasia/dissection times and order, extraction batch, sequencing lane, cage position, food/water consumption, and several health variables are unavailable.
+
+Therefore 39 versus 40 days is not separable from collection/euthanasia cohort and animal identity. The paper-safe conclusion is: *OSD-137 contains two technically reproducible but biologically unresolved FLT−GC response configurations. Their orientation is stable to leave-one-animal-out checks and is driven more strongly by the FLT cohort in the fixed PC1–2 reference, but the design cannot distinguish duration-associated biology from collection-cohort or unmeasured animal-level effects.* They should not be called two biological modes.""")
+
+md("""## 25. Are disappearing RR1↔RR3 similarities carcass, RNA-quality, or protocol effects?
+
+This diagnostic examines why strong cross-experiment similarities disappear after removing the controlled T-cell PolyA/Ribo-associated PC1–2. It uses authoritative OSDR metadata, existing frozen response vectors, existing component-level contextual rankings, and the controlled T-cell gene signature. No model inference or correction optimization was performed.""")
+code("""state_dir=HERE/'results/task4_confounding_profiler/rr1_rr3_sample_state'
+state_sim=read_csv(state_dir/'rr1_rr3_similarity_before_after.csv')
+state_meta=read_csv(state_dir/'sample_processing_metadata.csv')
+state_quality=read_csv(state_dir/'rna_quality_individuals.csv')
+state_quality_corr=read_csv(state_dir/'rna_quality_correlations.csv')
+state_overlap=read_csv(state_dir/'shared_pc12_gene_overlap.csv')
+display(state_sim.style.format(precision=4).hide(axis='index'))
+display(state_meta.style.hide(axis='index'))""")
+md("""### Carcass and RNA-quality evidence
+
+Carcass status is not sufficient to explain the crossed matching pattern. RR1 carcass matches RR3-39 (`cosine 0.813`) but strongly opposes RR3-40 (`−0.830`); RR1 upon-euthanasia instead matches RR3-40 by cosine (`0.620`) and opposes RR3-39 (`−0.697`). Both RR3 cohorts have the same reported liquid-nitrogen preservation, ribodepletion, paired 150-bp reads, HiSeq 4000 platform, and facility. The authoritative metadata do not provide a postmortem interval or dissection order that makes RR3-39 uniquely similar to RR1 carcass.
+
+RIN does not provide a simple explanation. Mean RIN is approximately 8.4 for RR1 carcass, 9.55 for RR1 upon-euthanasia, 7.25 for RR3-39, and 7.22 for RR3-40. Across the 23 samples, descriptive RIN correlations are modest for PC1 (`ρ=0.364`) and PC2 (`ρ=0.315`) and negative for the explicitly labeled mean RNA-processing-expression proxy (`ρ=−0.514`). These values are cohort-confounded and are not causal tests.""")
+code("""display(state_quality.groupby(['collection_group','condition']).RIN.agg(['count','mean','min','max']).style.format(precision=3))
+display(state_quality_corr.style.format(precision=4).hide(axis='index'))
+for name in ['rr1_rr3_2x2_similarity.png','rin_pc1.png']:
+    img=plt.imread(state_dir/'figures'/name);plt.figure(figsize=(11,7));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Gene and pathway content inside PC1–2
+
+High PC1–2 gene-contribution sets overlap more than expected between every RR1/RR3 pairing (Top-500 overlaps 25–48 genes versus 16.5 expected). However, only 0–2 of those shared genes also enter the controlled T-cell Top-500 signature. This favors **similar broad programs implemented by different genes**, rather than the same genes driving both controlled PolyA/Ribo displacement and NASA response similarity.
+
+The shared high-contribution genes are enriched chiefly for fatty-acid oxidation/metabolism, peroxisomal lipid metabolism, bile/cholesterol transport, PPARα-related regulation, and small-molecule metabolism. RNA-processing terms are not the dominant recovered shared signal. Because the existing full RR1 contextual output stores component magnitudes rather than signed vectors, this is a high-contribution overlap analysis—not a signed concordance claim.""")
+code("""display(state_overlap.drop(columns=['shared_genes','shared_controlled_genes']).style.format(precision=4).hide(axis='index'))
+state_enrich=read_csv(state_dir/'shared_pc12_pathway_enrichment.csv')
+display(state_enrich[state_enrich.fdr.lt(.05)].sort_values('fdr').head(30).style.format(precision=4).hide(axis='index'))
+img=plt.imread(state_dir/'figures/shared_pc12_pathways.png');plt.figure(figsize=(12,8));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Interpretation
+
+The evidence is mixed rather than exclusive:
+
+- **Library-associated measurement structure:** strongly supported geometrically by the independent same-RNA experiment and the RR1 technical discrepancy. It is not supported as the identical gene mechanism: controlled Top-500 overlap with the shared RR1/RR3 sets is minimal.
+- **Postmortem/sample-state effect:** plausible but unproven. RR1 preservation strata differ, yet RR3 lacks the postmortem timing needed to establish correspondence, and RIN does not reproduce the crossed pairing.
+- **Experimental biology:** supported at a broad-program level by coherent hepatic lipid/fatty-acid/peroxisomal/bile programs shared inside PC1–2, but the small, confounded cohorts prevent a causal biological label.
+
+Removing PC1–2 improves RR1 technical replication because the OSD-48/OSD-168 discrepancy lies strongly in that space. It simultaneously destroys RR1↔RR3 similarity because the same space also carries coherent cross-experiment hepatic response organization. The controlled reference is therefore **PolyA/Ribo-associated but not biologically empty**. Neither the residual space nor the removed space can be labeled pure biology or pure artifact.""")
+
+md("""## 26. T-cell-signature-selective filtering inside PolyA/Ribo-sensitive PC1–2
+
+This analysis tests whether the independently defined controlled T-cell PolyA/Ribo gene contribution can be removed without globally subtracting PC1–2. Technical genes are selected **only from the 40 paired T-cell donors**: contextual Top-100/250/500/1000 sets, paired-expression-supported genes, and the RNA-processing leading edge. RR1 and RR3 never enter signature selection.
+
+The response-level implementation follows the model's exact mean-pooling decomposition. For a signature \(S\), it subtracts
+
+\[|G|^{-1}\sum_{g\in S}P_{1:2}\Delta h_g\]
+
+from the 512-D response while retaining every non-signature gene contribution, including contributions occupying PC1–2. This is a diagnostic response-vector experiment, not a deployable sample correction. The selected and non-selected vector sums can interfere, so their norm ratios are descriptive and are not causal percentages.""")
+code("""selective_dir=HERE/'results/task4_selective_tcell_signature_filter'
+selective_summary=read_csv(selective_dir/'selective_filter_summary.csv')
+three_way=read_csv(selective_dir/'three_way_benchmark.csv')
+display(selective_summary.style.format(precision=4,na_rep='—').hide(axis='index'))
+display(three_way[three_way.signature.eq('top_500')].pivot(index='comparison',columns='method',values=['cosine','pearson','spearman']).style.format(precision=4))""")
+md("""### Result: selective localization is specific but too small to resolve RR1
+
+The T-cell Top-500 filter changes RR1 technical replication only from **−0.8042 to −0.7937** (gain 0.0106). The Top-1000 filter reaches **−0.7819** (gain 0.0224). Both improvements exceed their 200 expression/context-score-matched random-set nulls (`p=0.00498`), but their absolute magnitude is biologically insufficient: the reversal remains.
+
+In contrast, whole-PC1–2 subtraction changes RR1 to **+0.2208**, while collapsing the four independent RR1/RR3 relationships (for example, carcass/RR3-39 **0.8139→0.1566**). Selective Top-500 filtering largely preserves them (**0.8037**, **−0.8216**, **−0.6833**, and **0.6046**), mainly because it removes very little of the response. The paired-DE definition contains 10,329 genes and improves RR1 to −0.1885, but it is not a selective signature and substantially erases the biological relationships.
+
+This is outcome **B** from the prespecified possibilities: the technical effect appears distributed and cannot be localized adequately with the controlled T-cell high-ranking genes alone.""")
+code("""decomp=read_csv(selective_dir/'response_signature_decomposition.csv')
+display(decomp[decomp.signature.isin(['top_500','top_1000'])][['response','signature','signature_genes','inside_PC1_2_norm','signature_inside_norm','non_signature_inside_norm','signature_to_inside_norm_ratio','signature_to_inside_squared_norm_ratio']].style.format(precision=4).hide(axis='index'))
+overlap=read_csv(selective_dir/'tcell_rr_gene_mechanism_overlap.csv')
+display(overlap[overlap.top_n.eq(500)].style.format(precision=4).hide(axis='index'))""")
+md("""### Mechanism, RNA processing, and preserved biology
+
+For Top-500 selection, the signature contribution is only **2.8–3.9% of the PC1–2 vector norm** across these responses (roughly 0.07–0.15% by squared-norm ratio). T-cell/RR response score correlations are weak (absolute Spearman at most about 0.13), and most Top-500 overlaps are at or below random expectation; RR3-39 is the exception (28 genes versus 16.5 expected, `p=0.0046`) but direction agreement is only 35.7%. Thus shared occupation of PC1–2 generally arises through **different genes**, not one common T-cell-like mechanism.
+
+The controlled signatures themselves are coherently enriched for mitochondrial RNA/tRNA/rRNA processing. Yet only **0–2** of the 37–57 shared high-contribution RR1/RR3 genes occur in the controlled Top-500 signature, leaving 35–55 genes retained. Some retained sets include RNA-processing genes, demonstrating that an RNA-related label alone cannot identify technical contribution. Existing independent analyses place the retained shared response primarily in hepatic fatty-acid/peroxisomal, PPARα, bile/cholesterol, and small-molecule programs and show leave-one-animal-out stability of the RR3 response orientation, while also establishing that the small cohorts limit mechanistic inference.""")
+code("""display(read_csv(selective_dir/'preserved_biology_summary.csv').style.hide(axis='index'))
+sig_enrich=read_csv(selective_dir/'controlled_signature_pathway_enrichment.csv')
+display(sig_enrich[(sig_enrich.signature.isin(['top_500','RNA_leading_edge'])) & sig_enrich.fdr.lt(.05)].sort_values(['signature','fdr']).groupby('signature').head(10).style.format({'fdr':'{:.2e}'}).hide(axis='index'))
+for name in ['three_way_benchmark.png','top500_random_control.png']:
+    img=plt.imread(selective_dir/'figures'/name);plt.figure(figsize=(12,6));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Final interpretation
+
+1. The controlled T-cell signature explains a statistically specific but quantitatively small part of the RR1 discrepancy when restricted to its Top-500/1000 genes.
+2. RR liver responses and controlled T-cell PolyA/Ribo displacement occupy the same sensitive directions largely through different genes; pathway sharing is partial and does not establish an identical mechanism.
+3. Selective filtering preserves RR1/RR3 relationships but does **not** meaningfully restore RR1 technical reproducibility.
+4. Whole-PC1–2 removal is overcorrection for these biological comparisons: it improves the technical pair by removing a direction that also contains independently recurring hepatic organization.
+5. Candidate information lost by whole removal includes fatty-acid oxidation, peroxisomal/lipid metabolism, PPARα-related regulation, bile/cholesterol transport, and small-molecule metabolism.
+6. RNA processing is a strong controlled T-cell signature, but RR RNA-processing contributions are not reducible to the same T-cell genes.
+7. A latent direction can be sensitive to a controlled technical perturbation without being specific to it. Technical perturbations should therefore be treated as diagnostic references rather than biologically empty axes that can safely be subtracted wholesale.""")
+
+md("""## 27. Same PC1–2 geometry, same contextual mechanism?
+
+This final diagnostic asks whether controlled T-cell PolyA→Ribo and RR liver responses reach the fixed PolyA/Ribo-sensitive PC1–2 directions through the same contextual gene programs. It performs **no correction**. Every response retains all 15,165 per-gene PC1 and PC2 contribution coordinates from the cached contextual tensors. Pairwise attribution similarity is calculated on the flattened, fixed-orientation `15,165 × 2` profiles; pathway scores aggregate gene contributions oriented by the independently defined mean T-cell PolyA→Ribo direction.
+
+This distinction prevents arbitrary response-specific sign choices from making opposing responses appear mechanistically similar. Raw `log1p(TPM)` response comparisons provide the negative control.""")
+code("""mechanism_dir=HERE/'results/task4_pc12_attribution_mechanisms'
+mechanism_pairs=read_csv(mechanism_dir/'pairwise_attribution_similarity.csv')
+pathway_pairs=read_csv(mechanism_dir/'pairwise_pathway_similarity.csv')
+mechanism_pairs['pair_key']=mechanism_pairs.apply(lambda r:' | '.join(sorted([r.response_A,r.response_B])),axis=1)
+pathway_pairs['pair_key']=pathway_pairs.apply(lambda r:' | '.join(sorted([r.response_A,r.response_B])),axis=1)
+mechanism_compare=mechanism_pairs.merge(pathway_pairs.drop(columns=['response_A','response_B']),on='pair_key')
+important=(mechanism_compare.response_A.str.contains('T-cell') |
+           (mechanism_compare.response_A.str.contains('RR1') & mechanism_compare.response_B.str.contains('RR3')) |
+           (mechanism_compare.response_A.str.contains('OSD-48 carcass') & mechanism_compare.response_B.str.contains('OSD-168')))
+display(mechanism_compare.loc[important,['response_A','response_B','latent_PC1_2_cosine','attribution_cosine','attribution_spearman','top500_overlap','top500_hypergeom_p','top500_direction_agreement','pathway_profile_pearson','pathway_profile_spearman','expression_cosine','expression_spearman']].style.format(precision=4).hide(axis='index'))""")
+md("""### Main diagnostic results
+
+The answer is qualified **outcome A: the same latent direction can arise from substantially different contextual mechanisms**, although some RR pairs retain moderate gene-profile similarity.
+
+- **Controlled T cell versus liver:** T-cell/RR latent cosines have substantial magnitude (`|cos|=0.63–0.78`), but whole-profile attribution Spearman correlations are only `−0.255` to `+0.173`. Top-500 overlaps are 8–27 genes, and pathway-profile correlations are much weaker than the latent geometry. OSD-168 has the clearest T-cell-like component (Top-500 overlap 27, `p=0.0084`, direction agreement 92.6%), but its pathway-profile Pearson is still only 0.138. The relationship is therefore partly mechanistic, not an identity of programs.
+- **RR1 technical reversal:** OSD-48 carcass and OSD-168 are almost opposite within PC1–2 (`−0.978`) and oppose at the complete gene-coordinate level (`−0.654`). Yet their rank correlation is positive (0.202), 33 Top-500 genes overlap (`p=1.25×10⁻⁴`), and only 51.5% retain signed direction. This is a broad reversal/reweighting involving overlapping genes plus distributed contributions—not one compact RNA-processing Top-N set. That explains why whole-axis removal changes the reversal while Top-500/1000 filtering barely does.
+- **RR1 carcass versus RR3-39:** latent cosine is 0.993 and attribution cosine is moderately concordant at 0.665; 37 Top-500 genes overlap (`p=3.91×10⁻⁶`) with 83.8% direction agreement. However, genome-wide attribution Spearman is only 0.175 and the signed pathway-profile Pearson is 0.020. This supports some shared gene-level organization but not a common global pathway-attribution profile.
+- **RR1 euthanasia versus RR3-40:** latent cosine is 0.991, but attribution cosine is only 0.334, attribution Spearman is −0.076, and pathway-profile Pearson is −0.054. Although 46 Top-500 genes overlap, only 19.6% share direction. Its biological-mechanism interpretation is therefore much weaker than its latent similarity alone suggests.
+- **Raw expression control:** the corresponding expression cosines are small (`−0.17` to `+0.32`) and do not reproduce the contextual geometry. Contextual attribution supplies information beyond ordinary expression similarity, but it is not itself proof of biological equivalence.""")
+code("""for name in ['central_mechanism_comparison.png','latent_vs_attribution_similarity.png','pathway_attribution_heatmap.png']:
+    img=plt.imread(mechanism_dir/'figures'/name);plt.figure(figsize=(15,8));plt.imshow(img);plt.axis('off');plt.show()
+display(read_csv(mechanism_dir/'reference_positioning.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(mechanism_dir/'program_family_attribution.csv').style.format(precision=3).hide(axis='index'))""")
+md("""### RR1 reversal and biological interpretation
+
+The OSD-48 carcass response carries negative RNA-processing and hepatic lipid/peroxisomal attribution along the T-cell-oriented direction. OSD-168 instead carries negative RNA/ribosome attribution but positive cholesterol/lipid attribution. Thus the reversal is **not simply the same RNA-processing genes changing sign**: it combines broad gene reweighting with different pathway mixtures. OSD-168 is somewhat closer to the controlled perturbation than OSD-48, but neither is mechanistically identical to it.
+
+Likewise, RR liver responses use PC1–2 for coherent hepatic programs that are weak in the controlled T-cell reference. Whole-axis subtraction helps RR1 technical agreement because most of the discrepancy vector occupies these directions; it overcorrects because those directions also carry distinct liver biology implemented through other genes. Top-N filtering fails because the technical-associated displacement is distributed beyond the most sensitive T-cell genes and because latent aggregation allows many weak contextual contributions to accumulate.
+
+### Final answers
+
+1. **Yes:** responses can occupy the same PC1–2 direction while using different genes; latent cosine is consistently stronger than rank-level mechanistic agreement.
+2. **Yes:** signed pathway profiles can differ sharply even when latent directions nearly coincide.
+3. Controlled T-cell PolyA/Ribo and RR liver responses resemble one another more geometrically than mechanistically. OSD-168 contains the strongest partial T-cell-like gene signal.
+4. RR1 reversal reflects opposing distributed PC1/PC2 gene-coordinate profiles, with both overlapping genes and broad reweighting; it is not localized to the T-cell Top-N RNA-processing signature.
+5. Whole-PC removal suppresses the distributed discrepancy because it removes the entire shared aggregation direction.
+6. Top-N filtering fails because the effect is distributed and the selected genes account for only a small fraction of the response vector.
+7. RR1 carcass/RR3-39 has moderate contextual support; RR1 euthanasia/RR3-40 is primarily a latent-geometry relationship and has weak mechanistic support.
+8. Contextual attribution reveals organization not present in raw expression similarity, but its pathway and rank instability limits strong mechanistic claims.
+
+The results support **same latent space, partially different mechanisms**, not a clean separation of technical and biological dimensions. PC1–2 remains PolyA/Ribo-sensitive, not technical-only.""")
+
+md("""## 28. Does the RR1↔RR3 relationship survive matched ribodepletion?
+
+This analysis directly replaces the OSD-48 PolyA RR1 measurement with its OSD-168 ribodepleted technical remeasurement before comparison with ribodepleted RR3. No correction is applied, PC1–2 is diagnostic rather than the primary endpoint, and RR3-39 and RR3-40 remain separate predefined cohorts.
+
+The sample audit distinguishes profiles from animals. OSD-168 RR1 contains 10 FLT and 10 GC profiles because five animals per condition each have no-ERCC and ERCC measurements. Technical profiles are averaged within animal before FLT/GC means and animal-level bootstrap resampling. This equals the all-profile point estimate without treating technical replicates as independent animals. OSD-168 cannot be partitioned into carcass and upon-euthanasia states equivalent to OSD-48.""")
+code("""ribo_dir=HERE/'results/task4_matched_ribo_rr1_rr3'
+ribo_audit=read_csv(ribo_dir/'comparison_matrix_sample_audit.csv')
+display(ribo_audit.style.hide(axis='index'))
+ribo_results=read_csv(ribo_dir/'matched_ribo_comparison_summary.csv')
+display(ribo_results[['comparison_type','response_A','response_B','full_latent_cosine','bootstrap_cosine_low','bootstrap_cosine_high','PC1_2_cosine','outside_PC1_2_cosine','attribution_cosine','attribution_spearman','pathway_pearson','pathway_spearman']].style.format(precision=4).hide(axis='index'))""")
+md("""### Sanity checks and critical matched-Ribo result
+
+The original OSD-48 comparisons reproduce: carcass/RR3-39 **0.813**, carcass/RR3-40 **−0.830**, euthanasia/RR3-39 **−0.697**, and euthanasia/RR3-40 **0.620**. Their PC1–2 cosines are approximately +0.992, −1.000, −0.999, and +0.991.
+
+Replacing PolyA RR1 with the full ribodepleted OSD-168 RR1 response does **not** preserve those relationships:
+
+- OSD-168 RR1 ↔ RR3-39: full cosine **−0.852**, PC1–2 **−1.000**, attribution cosine **−0.676**, pathway Pearson **−0.409**.
+- OSD-168 RR1 ↔ RR3-40: full cosine **+0.790**, PC1–2 **+0.992**, attribution cosine **+0.557**, pathway Pearson **+0.032**.
+- OSD-168 RR1 ↔ OSD-168 RR3-40: full cosine **+0.750**, PC1–2 **+0.987**, attribution cosine **+0.518**, pathway Pearson **+0.072**.
+
+Thus the RR3 preference flips from RR3-39 to RR3-40 when RR1 is remeasured. Animal-bootstrap intervals are wide in these small cohorts—especially for RR3-40—so sign alone is not treated as replication. Nevertheless, the point estimates and contextual profiles agree that the original crossed relationships are measurement-sensitive.""")
+code("""img=plt.imread(ribo_dir/'figures/central_matched_ribo_comparison.png')
+plt.figure(figsize=(15,10));plt.imshow(img);plt.axis('off');plt.show()
+display(ribo_results[['comparison_type','response_A','response_B','full_latent_cosine','PC1_2_cosine','attribution_cosine','attribution_pearson','attribution_spearman','pathway_pearson','top100_overlap','top250_overlap','top500_overlap','top1000_overlap']].style.format(precision=4).hide(axis='index'))""")
+md("""### Three levels of reproducibility and technical controls
+
+The three levels do not move together:
+
+1. **Geometric reproducibility:** matched-Ribo OSD-168 RR1 aligns with RR3-40 rather than RR3-39.
+2. **Contextual reproducibility:** gene-attribution similarity follows that switch, becoming negative for RR3-39 and moderately positive for RR3-40.
+3. **Mechanistic reproducibility:** pathway agreement remains weak for RR3-40 (`Pearson=0.032`; same-OSD `0.072`) and negative for RR3-39. Matching ribodepletion therefore does not establish a shared pathway mechanism.
+
+RR3-40 OSD-137↔OSD-168 is stable at all levels: full cosine **0.919**, attribution cosine **0.829**, and pathway Pearson **0.930**. In contrast, full-cohort RR1 OSD-48 carcass↔OSD-168 is opposing: full cosine **−0.901**, attribution cosine **−0.773**, and pathway Pearson **0.098**. The earlier −0.804 RR1 result used only exact matched no-ERCC animals; −0.901 here uses the full OSD-168 5+5-animal cohort and is intentionally labeled separately.
+
+RR3's greater stability is consistent with its same-library comparison, but cannot be attributed exclusively to library selection because ERCC, library kit, sequencing configuration, and other processing variables also differ.""")
+md("""### Direct answers
+
+1. **No:** the original RR1↔RR3 relationship does not survive replacement by matched-ribodepleted RR1; the preferred RR3 state reverses.
+2. Matching library preparation does not improve agreement with the original RR3-39 state; it instead makes RR1 resemble RR3-40.
+3. Contextual attribution follows that switch but does not provide stable agreement with both states.
+4. Pathway agreement does not broadly improve and remains weak for positive RR1/RR3-40 comparisons.
+5. The original OSD-48 PolyA↔RR3 pattern is not robust to replacing RR1 with its OSD-168 remeasurement.
+6. RR3-40 same-library technical replication is substantially more stable than RR1 cross-library replication at all three levels.
+7. The evidence supports a **measurement-sensitive latent relationship**, not a securely shared RR1/RR3 biological mechanism.
+
+This most closely matches **outcome B**, with an element of outcome C: latent and gene-attribution geometry switch coherently, but pathway equivalence remains weak. High cosine alone is not shared biology, and these data do not isolate PolyA/ribodepletion as the sole cause.""")
+
+md("""## 29. Sample-first audit of RR1/RR3 in the controlled T-cell PC1–2 reference
+
+This section deliberately steps back from aggregate RR1↔RR3 cosines. It audits all **54 profiles** from OSD-48 RR1, OSD-168 RR1, OSD-137 RR3, and the relevant OSD-168 RR3 remeasurements. Every sample is projected onto the unchanged controlled T-cell PolyA/Ribo-sensitive PC1–2 basis; RR samples are never used to fit the basis.
+
+The master parquet retains local and authoritative OSDR identifiers, biological metadata, sequencing/QC fields, explicit unavailable batch variables, embedding identifiers/norms, and latent coordinates. OSD-168 ERCC/no-ERCC profiles are separate rows but are averaged within their five source animals per condition for cohort responses and animal bootstrap. The fraction of centered sample magnitude uses the independent controlled T-cell grand mean as its reference and is descriptive—not technical occupancy or causality.""")
+code("""audit_dir=HERE/'results/task4_rr1_rr3_sample_pc12_audit'
+sample_pc=read_csv(audit_dir/'sample_PC1_PC2_table.csv')
+cohort_audit=read_csv(audit_dir/'cohort_level_audit.csv')
+display(cohort_audit[['OSD','mission','cohort','sample_state','library_prep','n_FLT','n_GC','mean_FLT_RIN','mean_GC_RIN','GC_mean_PC1','GC_mean_PC2','FLT_mean_PC1','FLT_mean_PC2','delta_PC1','delta_PC2','full_response_norm','PC1_2_response_magnitude','response_energy_fraction_PC1_2','outside_PC1_2_response_magnitude','occupancy_bootstrap_low','occupancy_bootstrap_high']].style.format(precision=4,na_rep='NA').hide(axis='index'))
+display(sample_pc.style.format(precision=4,na_rep='NA').hide(axis='index'))""")
+md("""### Baseline position, flight position, and response are distinct
+
+OSD-48 RR1 carcass lies at a high absolute baseline (GC PC1/PC2 **11.118/7.075**) and flight shifts still higher (**11.850/7.645**), yielding ΔPC1/ΔPC2 **+0.733/+0.571**. OSD-168 RR1 is globally lower (GC **8.943/5.657**), but flight shifts lower still (**8.503/5.190**), yielding **−0.440/−0.467**.
+
+Both GC and FLT therefore undergo a large dataset/protocol-associated baseline shift from OSD-48 to OSD-168. Crucially, the FLT shift is larger: relative to the GC shift, the additional FLT displacement is approximately **−1.173 PC1** and **−1.038 PC2**. This is a condition-by-measurement-context interaction, not merely a global batch translation. It directly produces the response reversal.
+
+RR3-40 behaves differently. OSD-137 and OSD-168 GC centroids differ only modestly, as do their FLT centroids, and their response components remain nearly identical: **−0.109/−0.089** versus **−0.118/−0.090**. That is why RR3-40 is technically reproducible while RR1 is not.""")
+code("""display(read_csv(audit_dir/'technical_pair_position_audit_wide.csv').style.hide(axis='index'))
+for name in ['rr1_response_arrows.png','rr3_40_response_arrows.png','individual_samples_by_panel.png']:
+    img=plt.imread(audit_dir/'figures'/name);plt.figure(figsize=(14,9));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### How much of each response occupies PC1–2?
+
+The squared response-energy fractions in the controlled reference are:
+
+- RR1 carcass: **0.938**
+- RR1 upon-euthanasia: **0.562**
+- RR1 OSD-168 remeasurement: **0.886**
+- RR3-39: **0.678**
+- RR3-40: **0.733**
+- RR3-41: **0.735** (1 FLT/2 GC; descriptive)
+- RR3-39 remeasurement: **0.548**
+- RR3-40 remeasurement: **0.689**
+
+These are geometric energy fractions, not percentages caused by library preparation. Animal-bootstrap intervals are broad in the smallest cohorts, emphasizing that point estimates should not be treated as precise population parameters.""")
+code("""associations=read_csv(audit_dir/'metadata_latent_associations.csv')
+display(associations.sort_values('effect_size',key=abs,ascending=False).head(30).style.format(precision=4).hide(axis='index'))
+display(read_csv(audit_dir/'condition_technical_interactions.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(audit_dir/'what_is_confounded.csv').style.hide(axis='index'))""")
+md("""### Metadata associations and structural confounding
+
+Cohort is the strongest descriptive correlate of PC1, PC2, and PC1–2 magnitude (`η²≈0.80–0.86`). Sample-state grouping, OSD, library kit, library selection, platform/layout, and preservation are also strongly associated. Those effects are not independently identifiable: in RR1, OSD-48 is PolyA/SE50/HiSeq3000 and contains carcass or immediate-dissection strata, whereas OSD-168 is ribodepleted/PE150/HiSeq4000 with ERCC/no-ERCC remeasurement. OSD and these protocol variables are structurally confounded.
+
+The RR1 condition×dataset interaction is large for both coordinates (approximately −1.17 and −1.04). A descriptive FLT/GC×RIN interaction is near zero, but RIN is cohort-confounded and cannot exclude RNA-quality effects. Facility is reported as UC Davis throughout and cannot explain the observed contrast.
+
+Globally extreme samples are predominantly OSD-48 carcass profiles because that entire cohort occupies a shifted region; this is not evidence that one animal drives the response. The output separately flags within-cohort/condition distance outliers. The carcass response is coherent across its five animals, while two-animal strata and RR3-41 remain intrinsically fragile.""")
+code("""for name in ['positions_by_library_prep.png','positions_by_RIN.png','positions_by_sample_state.png','positions_by_cohort.png']:
+    img=plt.imread(audit_dir/'figures'/name);plt.figure(figsize=(12,8));plt.imshow(img);plt.axis('off');plt.show()
+display(sample_pc[sample_pc.within_cohort_condition_extreme].style.format(precision=4).hide(axis='index'))""")
+md("""### Conservative conclusions
+
+1. OSD-48 and OSD-168 RR1 differ in baseline location, library/sequence protocol, sample-state representation, and FLT-versus-GC displacement.
+2. The reversal is not mainly a baseline shift: both groups shift globally, but FLT moves farther than GC, reversing ΔPC1 and ΔPC2. This is consistent with a measurement-context×condition interaction.
+3. Most RR1 carcass and OSD-168 response energy lies in PC1–2; other RR responses also occupy those directions substantially.
+4. Cohort, sample state, OSD, library preparation, platform/layout, preservation, and library kit track the coordinates most strongly.
+5. In RR1 these variables change together and cannot be statistically separated.
+6. No single animal provides a sufficient explanation for the full RR1 reversal; the main limitation is small and differently composed cohorts rather than one obvious outlier.
+7. RR3-40 retains nearly identical FLT−GC PC1/PC2 components across remeasurement, whereas RR1 changes FLT and GC unequally.
+8. The data reject a simple global-shift-only explanation. Measurement context changes the apparent condition response.
+9. Metadata establish association and structural confounding, not which specific protocol component is causal.
+10. The most conservative explanation is that the RR1 response is unstable across a compound protocol/measurement transition involving library selection, sequencing configuration, ERCC/resequencing context, and non-equivalent sample-state composition. The design cannot assign the reversal to PolyA/ribodepletion alone.
+
+The controlled reference remains a useful diagnostic coordinate system, but it is not a technical-only space and no corrected or pure biological response is claimed.""")
+
+md("""## 30. RR3-39 versus RR3-40: four underlying states
+
+This analysis decomposes the opposing RR3 responses into **GC39, FLT39, GC40, and FLT40** rather than treating Δ39 versus Δ40 as a self-explanatory time course. Source-audited animals are F1/F2 versus G1/G2 for RR3-39 and F3/F4/F5 versus G3/G5 for RR3-40. The exact duration, RIN, weight, habitat, preservation, sequencing, feeding schedule, and all available timing fields are retained; missing collection/euthanasia/dissection timestamps remain `NA`.
+
+The authoritative API contains multiple assays per animal, so the join is explicitly restricted to RNA-seq. One source inconsistency is retained rather than hidden: the local/audited G5 profile maps to an API RNA extract labeled G7. This is flagged in the metadata table and does not change the established contrast membership.""")
+code("""rr3_four=HERE/'results/task4_rr3_39_40_four_state'
+rr3_animals=read_csv(rr3_four/'animal_metadata_audit.csv')
+display(rr3_animals.style.format(precision=4,na_rep='NA').hide(axis='index'))
+display(read_csv(rr3_four/'four_state_PC_summary.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(rr3_four/'four_centroid_pairwise.csv').style.format(precision=4).hide(axis='index'))""")
+md("""### Which centroids moved?
+
+The 39/40 control centroids differ, but mostly outside PC1–2: GC39→GC40 has full-space distance **0.186**, PC1–2 magnitude **0.055**, and only **8.7%** of its squared energy in PC1–2. The flight centroids differ more: FLT39→FLT40 distance is **0.358**, PC1–2 magnitude **0.282**, with **62.0%** of its energy in PC1–2.
+
+Thus both baseline and flight cohorts differ (**scenario C**), but the PC1–2 reversal emerges primarily from the larger FLT-cohort shift (**scenario B component**). The cohort-transition vectors are only weakly aligned overall (`cos=0.278`): inside PC1–2 they oppose (`−0.929`), whereas outside PC1–2 they agree (`+0.837`).
+
+The actual FLT−GC responses show the same decomposition. Δ39 and Δ40 have full cosine **−0.567**, PC1–2 cosine **−0.995**, but outside-PC1–2 cosine **+0.457**. Their opposition is therefore concentrated in the PolyA/Ribo-sensitive directions rather than distributed uniformly across the 512-D representation. This is a geometric description, not evidence of a technical cause.""")
+code("""display(read_csv(rr3_four/'four_state_response_geometry.csv').style.format(precision=4,na_rep='—').hide(axis='index'))
+for name in ['four_state_pc12.png','four_state_pathways.png']:
+    img=plt.imread(rr3_four/'figures'/name);plt.figure(figsize=(14,10));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Contextual genes and pathways
+
+The GC39→GC40 and FLT39→FLT40 contextual shifts share substantial structure: attribution cosine **0.482**, Spearman **0.607**, and 254 overlapping Top-500 genes with **96.1%** coordinate-sign agreement. This indicates a broad cohort shift already present in controls and amplified/reoriented among flight animals.
+
+By contrast, Δ39 versus Δ40 attribution cosine is **−0.369**. Their Top-500 sets overlap by 69 genes, but only **34.8%** retain coordinate direction. The responses therefore reuse some influential genes while changing their contextual direction and weighting.
+
+Both responses implicate overlapping hepatic metabolic families, but not identically. Lipid/cholesterol/PPAR/peroxisomal programs are strongly represented and tend to oppose between Δ39 and Δ40. Mitochondrial/small-molecule programs are strong in both but have a more mixed directional relationship. This is best described as **partly opposing regulation of shared metabolic programs plus different weighting**, not entirely unrelated programs and not a proven physiological-state transition.""")
+code("""display(read_csv(rr3_four/'attribution_comparison.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(rr3_four/'pathway_comparison.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(rr3_four/'pathway_family_diagnostic.csv').style.format(precision=3).hide(axis='index'))""")
+md("""### Circadian, feeding, stress, and technical diagnostics
+
+Circadian annotations are moderate for Δ39 and weak for Δ40; glucose/insulin and stress-related annotations are also present. These are transcriptional signatures only. Both cohorts are reported ad libitum under the same light/dark schedule, while actual food intake, collection phase, euthanasia time, and dissection order are unavailable. Circadian phase, feeding state, and stress exposure therefore cannot be assigned.
+
+Reported preservation, ribodepletion, platform, facility, habitat, sex, strain, and broad protocol are shared. Duration, animal identity, collection cohort, library index, radiation exposure, RIN/read-depth distributions, and potentially unreported collection variables differ together. Duration cannot be isolated as the cause.""")
+code("""display(read_csv(rr3_four/'technical_confounding_table.csv').style.hide(axis='index'))
+display(read_csv(rr3_four/'animal_bootstrap_summary.csv').style.format(precision=4).hide(axis='index'))
+loo=read_csv(rr3_four/'leave_one_animal_out.csv')
+display(loo.style.format(precision=4).hide(axis='index'))
+display(read_csv(rr3_four/'decision_table.csv').style.hide(axis='index'))""")
+md("""### Animal-level robustness and final interpretation
+
+The observed Δ39/Δ40 cosine is −0.567, but leave-one-animal-out values range from **−0.747 to +0.157**. The animal bootstrap median is −0.380 with a 95% interval of **−0.822 to +0.697**. Δ39 PC1 remains positive in the bootstrap interval, whereas Δ40 PC1 spans zero. The claim that the two population responses are genuinely opposing is therefore underpowered, despite the stability of the observed centroids and independent technical reproducibility of the matched RR3-40 subset.
+
+Direct answers:
+
+1. The mathematical reversal arises from **both** control and flight cohort movement, but the larger FLT shift—especially inside PC1–2—dominates.
+2. GC39 and GC40 are descriptively different, predominantly outside PC1–2; this argues against a flight-only explanation.
+3. FLT39 and FLT40 are about twice as far apart as their controls and differ strongly within PC1–2.
+4. The two responses partly reuse hepatic metabolic programs with different/opposing contextual direction, rather than engaging wholly separate pathways.
+5. Different physiological/metabolic states are a coherent hypothesis, not an established result.
+6. Circadian, feeding, stress, collection timing, library index, and other cohort variables remain possible and mostly unmeasured or confounded.
+7. Duration, animal identity, and collection cohort cannot be distinguished by this design.
+8. RR3-40's OSD-168 reproduction supports that its observed response is technically measurable, but does not explain its biological origin or make the Δ39/Δ40 difference animal-robust.
+9. BridgeRNA legitimately identifies a reproducible RR3-40 latent response and localizes the observed opposition to contextual metabolic organization within PC1–2. It cannot identify the causal physiological state.
+10. Resolution requires an independent or factorial cohort with adequate animals at both durations, matched collection/euthanasia timing, measured food intake/circadian phase and metabolic phenotypes, and identical library/sequencing processing.
+
+It would be incorrect to say that one additional day of spaceflight reverses the liver response. The paper-safe conclusion is that OSD-137 contains two small, technically coherent but biologically unresolved cohort responses whose observed opposition is concentrated in the controlled T-cell PolyA/Ribo-sensitive directions.""")
+
+md("""## 31. Strict same-animal RR1/RR3 technical replication
+
+This final audit replaces cohort-level approximations with the strict animal mappings requested for the three reconstructable technical replications. RR1 uses the four matched FLT animals M25/M26/M28/M30 and five matched GC animals M36–M40; M27 and M29 are excluded because they lack reciprocal measurements. RR3-39 uses F1/F2 and G1/G2. The strict RR3-40 analysis uses F3/F4 and G3/G5, with F5 retained only as a secondary full-stratum sensitivity analysis.
+
+The original and remeasurement responses are always defined as `mean(FLT) - mean(GC)`. OSD-168 is treated as a technical remeasurement, never an independent biological experiment. The controlled T-cell PC1–2 reference is unchanged and no correction, model fitting, or new embedding inference is performed.""")
+code("""paired_dir=HERE/'results/task4_rr1_rr3_paired_technical_replication'
+display(read_csv(paired_dir/'animal_mapping.csv').style.hide(axis='index'))
+display(read_csv(paired_dir/'mapping_discrepancies.csv').style.hide(axis='index'))
+display(read_csv(paired_dir/'metadata_audit.csv').style.hide(axis='index'))""")
+
+md("""### Response-vector replication
+
+Strict same-animal comparison reproduces the established response cosines: **RR1 −0.804**, **RR3-39 +0.790**, and **RR3-40 +0.917**. RR1 therefore reverses across measurement contexts, whereas both RR3 subgroup responses retain their direction. The RR3-39 and RR3-40 responses remain mutually opposed in both measurements (OSD-137: **−0.456**; OSD-168: **−0.493**), showing that the observed subgroup distinction precedes remeasurement. This does not establish a duration effect because duration, animals, and collection cohort remain inseparable.
+
+Including unmatched F5 in the original RR3-40 stratum changes the strict response appreciably (strict-versus-full cosine **0.831**) but does not erase its broad state. The strict two-animal definition is the primary apples-to-apples result.""")
+code("""rep=read_csv(paired_dir/'response_replication_metrics.csv')
+display(rep.style.format(precision=4,na_rep='—').hide(axis='index'))
+img=plt.imread(paired_dir/'figures/response_replication.png');plt.figure(figsize=(13,8));plt.imshow(img);plt.axis('off');plt.show()
+img=plt.imread(paired_dir/'figures/rr3_four_state_replication.png');plt.figure(figsize=(13,9));plt.imshow(img);plt.axis('off');plt.show()""")
+
+md("""### What drives the RR1 reversal?
+
+For every technical replication, the identity
+
+`Δz_remeasurement − Δz_original = mean(D_FLT) − mean(D_GC)`
+
+holds numerically, where each animal displacement is `D = z_remeasurement − z_original`.
+
+RR1 FLT and GC displacements point in almost the **same** direction (cosine **0.996**), so the reversal is not caused by opposite global technical shifts. Instead, their magnitudes differ substantially: `||D_FLT||=3.984`, `||D_GC||=2.666`, and `||D_FLT−D_GC||=1.353`. The measurement transition therefore moves FLT farther than GC along a broadly shared direction, changing the biological contrast.
+
+The corresponding differential displacement is much smaller for RR3-39 (**0.144**) and RR3-40 (**0.073**). This supports a condition-dependent measurement effect in RR1 rather than a single additive batch translation.""")
+code("""display(read_csv(paired_dir/'displacement_summary.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(paired_dir/'paired_animal_displacements.csv').style.format(precision=4).hide(axis='index'))
+for name in ['paired_displacements.png','rr1_matched_animals.png']:
+    img=plt.imread(paired_dir/'figures'/name);plt.figure(figsize=(13,8));plt.imshow(img);plt.axis('off');plt.show()""")
+
+md("""### Resampling, contextual attribution, and pathway replication
+
+Animal resampling reinforces the contrast between RR1 and RR3, while exposing the small-N uncertainty. Every RR1 leave-one-animal-out response remains negative (approximately **−0.880 to −0.581**), but its bootstrap interval is wide and crosses zero. RR3-39 and RR3-40 remain positive in both leave-one-out and bootstrap summaries.
+
+The same pattern appears mechanistically. RR1 attribution is weak/opposing (cosine **−0.635**; only **7** shared Top-100 genes), and its pathway profile is weakly reproduced (Pearson **0.138**). RR3-39 and RR3-40 show substantially stronger attribution cosines (**0.775**, **0.858**), Top-100 overlaps (**62**, **85**), and pathway-profile Pearson correlations (**0.852**, **0.965**). Thus RR3 reproduces not only response direction but much of the learned gene/pathway organization; RR1 does not.""")
+code("""display(read_csv(paired_dir/'bootstrap_summary.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(paired_dir/'leave_one_animal_out.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(paired_dir/'attribution_replication.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(paired_dir/'pathway_replication.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(paired_dir/'decision_table.csv').style.hide(axis='index'))""")
+
+md("""### Final interpretation
+
+- **RR1:** the strict same-animal FLT−GC response is not technically reproducible. FLT and GC experience a similarly directed but unequally sized measurement displacement, and latent, attribution, and pathway results all change markedly.
+- **RR3-39 and RR3-40:** both strict responses reproduce across remeasurement, including their mutually opposed subgroup geometry. Their biological cause remains unresolved because each subgroup contains only two FLT and two GC animals and collection cohort is confounded with duration.
+- **Supported combined conclusion:** within a fixed model, approximately global technical displacement can be distinguished from a measurement context whose displacement differs by biological condition. RR3 subgroup response geometry and contextual mechanisms reproduce under same-animal remeasurement; RR1's do not.
+
+These results do **not** isolate PolyA selection as the sole cause of RR1 instability, establish pure biological axes, or prove a 39-versus-40-day time effect. The RR1 transition combines library selection, library kit, read setup, ERCC/resequencing context, handling, and OSD. The strict paired design diagnoses response instability under that compound transition.""")
+
+md("""## 32. Empirical biological-contrast null for fixed T-cell PC1–2 occupancy
+
+This section asks whether biological response vectors generally travel through the unchanged T-cell PolyA/Ribo-sensitive PC1–2 plane. It uses **20 independently curated contrasts with at least two samples per arm**: eight Task 2 skeletal-muscle exercise responses and twelve Task 3 mouse-liver FLT−GC responses. Two additional OSDR contrasts with one sample in an arm are retained as underpowered secondary observations but excluded from the primary empirical null.
+
+For each response `Δz`, occupancy is `E_PC12 = ||Proj_PC12(Δz)||² / ||Δz||²`. This is a geometric energy fraction. It does not establish that PC1–2 is technical-specific, biologically meaningful, RNA-processing-specific, or causally responsible for a response.""")
+code("""null_dir=HERE/'results/task4_pc12_empirical_biological_null'
+occ=read_csv(null_dir/'biological_contrast_occupancy.csv')
+refs=read_csv(null_dir/'reference_contrast_percentiles.csv')
+display(occ.sort_values('E_PC12',ascending=False).style.format({'E_PC12':'{:.1%}','permutation_p_ge':'{:.4f}','bootstrap_low':'{:.1%}','bootstrap_high':'{:.1%}'}).hide(axis='index'))
+display(refs.style.format({'E_PC12':'{:.1%}','empirical_percentile':'{:.1f}','empirical_p_ge':'{:.4f}'}).hide(axis='index'))
+img=plt.imread(null_dir/'figures/empirical_occupancy_distribution.png');plt.figure(figsize=(15,8));plt.imshow(img);plt.axis('off');plt.show()
+img=plt.imread(null_dir/'figures/contrast_occupancy.png');plt.figure(figsize=(14,10));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Empirical-null result
+
+PC1–2 occupancy is common and often large in these curated responses: the primary-null median is **72.9%** (range **1.0–93.8%**). Consequently:
+
+- RR3 GC39→GC40 (**8.7%**) is low but not exceptional (10th percentile).
+- RR3 FLT39→FLT40 (**62.0%**) is ordinary (35th percentile).
+- OSD-48 RR1 carcass (**93.8%**) is the maximum and therefore extreme relative to this small null (empirical `p=1/21=0.0476`).
+- OSD-168 RR1 (**88.6%**) is high but not uniquely so (85th percentile).
+- RR3-40 original/remeasurement (**73.3%/68.9%**) are near the middle of the biological distribution.
+
+The empirical null is deliberately curated rather than randomly split, but it spans only exercise and spaceflight in skeletal muscle and liver. It is not a transcriptome-wide catalogue of biological perturbations.""")
+code("""display(read_csv(null_dir/'random_subspace_null_summary.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(null_dir/'global_subspace_alignment.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(null_dir/'global_variance_spectrum.csv').head(20).style.format(precision=4).hide(axis='index'))
+img=plt.imread(null_dir/'figures/global_variance_alignment.png');plt.figure(figsize=(14,7));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Random geometry and global BridgeRNA variance
+
+Every observed contrast strongly exceeds isotropic random 2-D planes, which capture about **0.4%** of a fixed vector in 512 dimensions. That null is insufficient by itself because BridgeRNA is highly anisotropic. A second control samples 2-D planes from global BridgeRNA PCs with probability proportional to their variance; results are therefore reported separately and interpreted as an approximate variance-matched sensitivity analysis, not a unique null.
+
+The fixed T-cell plane captures **55.3% of total global centered BridgeRNA variance** in 40,000 diverse ARCHS4 embeddings. Against the top two global PCs, one principal angle is only **12.9°**, while the other is **79.6°**. Mean squared overlap is **0.491**. Thus one T-cell direction is closely related to globally dominant latent variance, while the second is substantially more specific. This is **partial overlap**, not a wholly generic plane and not a wholly perturbation-specific plane.""")
+code("""display(read_csv(null_dir/'contrast_robustness_summary.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(null_dir/'coordination_correlations.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(null_dir/'occupancy_metadata_characterization.csv').sort_values('E_PC12',ascending=False).style.format(precision=4).hide(axis='index'))
+img=plt.imread(null_dir/'figures/coordination_hypothesis.png');plt.figure(figsize=(14,7));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Labels, coordination, and robustness
+
+Within-study permutation tests are mostly nonsignificant even for high point estimates, and bootstrap intervals are often wide. Only the adequately replicated RR6 ISS-T contrast reaches the nominal matched-permutation threshold (`p≈0.049`). High occupancy occurs in human and mouse exercise as well as spaceflight, across PolyA, ribodepleted, and unharmonized library metadata; it does not identify one study, species, tissue, or protocol.
+
+The prespecified expression-coordination diagnostics do not support a simple “few concentrated genes” explanation. Occupancy is negatively associated with the fraction of absolute expression response in the top 1% of genes (`ρ=−0.547`) and positively associated with expression effective gene count (`ρ=+0.597`). This suggests more distributed expression responses can occupy PC1–2 more strongly, but with only 20 heterogeneous contrasts it does not establish a coordinated-program axis. Response RMS is not significantly associated (`ρ=0.331`, `p=0.154`).
+
+Cached contextual attribution is not uniformly available across all 20 contrasts, so no selective gene/pathway mechanism comparison was added; doing so only for OSDR would confound occupancy with dataset and tissue.""")
+md("""### Conclusions from the empirical null
+
+The evidence best supports **partial generic high-variance structure with context-dependent reuse**:
+
+1. RR3 FLT39→FLT40's 62% occupancy is not unusual; GC39→GC40's 8.7% is low but within the observed range.
+2. RR1's 89–94% values are high, but only OSD-48 carcass is extreme in this 20-contrast reference.
+3. RR3-40's 69–73% occupancy is typical despite its strong technical reproducibility, confirming that occupancy and reproducibility answer different questions.
+4. PC1–2 overlaps substantially with global BridgeRNA variance, principally through one direction; it is not merely an arbitrary 2-D plane.
+5. High-occupancy contrasts do not share one obvious metadata class, and current data do not establish shared genes or pathways.
+6. The coordinated-program hypothesis is not demonstrated. The observed correlations favor distributed rather than sparse expression change, but the contrast set is too small and heterogeneous for a mechanistic label.
+7. PC1–2 can be treated as a **reused latent reference plane**, but not assigned a fixed technical or biological meaning. The controlled experiment establishes its PolyA/Ribo sensitivity; it does not establish specificity.
+
+The primary limitation is breadth: this empirical null contains two perturbation families and two tissues. Broader curated perturbation datasets would be needed before generalizing the occupancy distribution.""")
+
+md("""## 33. PC1 versus PC2: geometry and molecular realization
+
+The combined T-cell PC1–2 result is decomposed here without changing either fixed direction. Geometry asks where a response moves; contextual attribution asks which input-gene representations locally generate that movement. Neither level alone assigns biological or technical meaning.
+
+Across the same 20 primary biological contrasts, median energy is **42.3% in PC1** and **31.6% in PC2**. Both therefore contribute materially to the high combined occupancy.""")
+code("""pc_dir=HERE/'results/task4_pc1_pc2_specific_geometry'
+pcgeom=read_csv(pc_dir/'pc_specific_biological_contrasts.csv')
+pcref=read_csv(pc_dir/'pc_specific_reference_contrasts.csv')
+display(pcgeom.sort_values('E_PC1_plus_E_PC2',ascending=False).style.format({'E_PC1':'{:.1%}','E_PC2':'{:.1%}','E_PC1_plus_E_PC2':'{:.1%}','E_PC1_empirical_percentile':'{:.1f}','E_PC2_empirical_percentile':'{:.1f}'}).hide(axis='index'))
+display(pcref.style.format({'E_PC1':'{:.1%}','E_PC2':'{:.1%}','E_PC1_plus_E_PC2':'{:.1%}','E_PC1_empirical_percentile':'{:.1f}','E_PC2_empirical_percentile':'{:.1f}'}).hide(axis='index'))
+for name in ['pc_specific_geometry.png','reference_pc_decomposition.png']:
+    img=plt.imread(pc_dir/'figures'/name);plt.figure(figsize=(15,8));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Which PC drives the reference observations?
+
+- **RR1 carcass OSD-48:** PC1 carries **58.4%** and PC2 **35.4%** of response energy. OSD-168 carries **41.7%** and **46.9%**, respectively. Both signed coordinates reverse—from `+0.733/+0.571` to `−0.440/−0.467`. RR1 measurement sensitivity is therefore **distributed across both**, with PC1 somewhat larger originally and PC2 somewhat larger after remeasurement.
+- **RR1 upon-euthanasia:** PC1/PC2 carry **26.1%/30.2%**, with both coordinates negative. Its geometry differs from the carcass stratum even within OSD-48.
+- **RR3-40:** PC1/PC2 contributions are **43.7%/29.6%** in OSD-137 and **43.4%/25.6%** in OSD-168. Both coordinates preserve sign and similar magnitude. Its reproducibility is supported by both PCs, predominantly PC1.
+- **GC39→GC40:** combined occupancy is low because PC1 contributes only **2.1%** and PC2 **6.6%**; PC2 is the larger of two small components.
+- **FLT39→FLT40:** PC1 contributes **37.3%** and PC2 **24.7%**. Both coordinates change, with PC1 larger.
+
+The observed 39/40 differences remain confounded with animal identity, collection cohort, and duration and are not interpreted as a causal one-day effect.""")
+code("""display(read_csv(pc_dir/'global_pc_specific_geometry.csv').style.format(precision=4).hide(axis='index'))
+img=plt.imread(pc_dir/'figures/global_variance_alignment.png') if (pc_dir/'figures/global_variance_alignment.png').exists() else plt.imread(HERE/'results/task4_pc12_empirical_biological_null/figures/global_variance_alignment.png')
+plt.figure(figsize=(14,7));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Global ARCHS4 geometry
+
+PC1 captures **30.4%** and PC2 **24.9%** of total centered variance across 40,000 ARCHS4 embeddings. Their strongest individual match is global ARCHS4 PC1 (`|cos|=0.723` and `0.653`). PC1 has 54.2% of its direction inside the top-two global-PC space; PC2 has 44.0%. Both exceed all sampled isotropic directions in variance.
+
+Thus PC1 is the more globally dominant T-cell direction, but only modestly: PC2 is also a major global direction. The earlier combined-plane principal-angle result should not be paraphrased as PC2 being globally distinct or technical-specific. Orthogonal T-cell directions can both project strongly onto different components of the same global high-variance subspace.""")
+code("""pcgenes=pd.read_parquet(pc_dir/'pc_specific_gene_attribution.parquet')
+display(pcgenes[pcgenes['rank']<=25].sort_values(['PC','context','rank']).style.format(precision=5).hide(axis='index'))
+display(read_csv(pc_dir/'pc_specific_attribution_similarity.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(pc_dir/'pc_specific_pathway_similarity.csv').style.format(precision=4).hide(axis='index'))
+for name in ['pc_attribution_similarity.png','pc_specific_pathways.png']:
+    img=plt.imread(pc_dir/'figures'/name);plt.figure(figsize=(16,10));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### PC-specific attribution reuse
+
+Molecular realization is context dependent on both PCs. Across all context pairs, median attribution cosine is **0.368 for PC1** but only **0.013 for PC2**; median rank correlations are **0.107** and **0.029**. The strongest positive control is RR3-40 technical replication: attribution cosine is **0.877 on PC1** and **0.730 on PC2**, with pathway-profile Pearson **0.930** and **0.852**. This demonstrates that the method detects molecular reuse when it occurs.
+
+The controlled T-cell response and liver responses generally share little Top-100 gene identity even when their latent coordinates align. For example, T-cell versus OSD-168 RR1 PC1 attribution cosine is moderately positive (**0.606**) but has **zero** shared Top-100 genes; similarity is distributed outside the most extreme genes. PC2 sometimes has greater pathway-profile similarity than gene-level similarity, but this is inconsistent across contexts.
+
+Accordingly, neither PC has a stable universal functional label. PC1 shows somewhat greater gene-level reuse, especially within technical replication. PC2 is more molecularly heterogeneous, despite carrying almost one-quarter of global variance. Shared movement along a PC can arise from different gene combinations and cannot be treated as a shared mechanism.""")
+md("""### Integrated interpretation
+
+1. PC1 accounts for slightly more of the 55.3% global variance capture (**30.4% versus 24.9%**), but both are globally prominent.
+2. Both contribute to the high biological-null median; PC1 is larger on average.
+3. RR1's unusually high occupancy and its measurement reversal involve **both PCs**.
+4. RR3-40 reproducibility also involves both PCs, predominantly PC1.
+5. Low GC39→GC40 occupancy reflects small engagement of both directions; FLT39→FLT40 engages both, especially PC1.
+6. The more weakly global PC2 does **not** show greater technical specificity or consistently shared molecular content.
+7. Contextual and pathway reuse is strong for true RR3 technical replication but heterogeneous across unrelated contexts.
+
+The best-supported description is therefore **globally prominent, reusable geometry with context-dependent molecular realization**. PC1 is somewhat more globally dominant and molecularly reusable; PC2 is somewhat more heterogeneous. Neither is technical-only, biologically pure, or entitled to a semantic pathway label. Conventional expression and independent replication remain necessary for biological validation.""")
+
+md("""## 34. Multi-layer response reproducibility benchmark
+
+This benchmark asks whether response geometry alone identifies a known replication relationship, or whether response-specific gene attribution and pathway profiles add information. The strict comparable core contains six mouse-liver FLT−GC responses and all 15 pairings among them:
+
+- three designed positives: RR1, RR3-39, and RR3-40 same-animal technical remeasurements;
+- twelve same-species, same-tissue cross-response negatives.
+
+All attribution vectors are existing full-response Integrated Gradients computed by the same Task 4 implementation. No embeddings, IG, or model inference are recomputed. Importantly, these positives establish **measurement correspondence**, not independent biological-cohort generalization.""")
+code("""multi_dir=HERE/'results/task4_multilayer_reproducibility'
+display(read_csv(multi_dir/'response_metadata.csv').style.hide(axis='index'))
+bench=read_csv(multi_dir/'pairwise_benchmark.csv')
+display(bench.sort_values(['is_replication','latent_cosine'],ascending=[False,False]).style.format(precision=4).hide(axis='index'))
+for name in ['layer_distributions.png','layer_relationships.png']:
+    img=plt.imread(multi_dir/'figures'/name);plt.figure(figsize=(16,8));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Geometry is not sufficient
+
+Latent cosine separates the designed pairs only moderately. RR3-40 and RR3-39 reproduce geometrically (**0.917**, **0.790**), whereas RR1 reverses (**−0.807** in the strict vectors used here). Meanwhile, one unrelated pair—OSD-48 RR1 versus original RR3-39—is a clear geometric false friend: latent cosine **0.811**, but attribution cosine only **0.258**, pathway Pearson **0.220**, and conventional expression Pearson **0.046**.
+
+RR1 also illustrates why a replication design label and a reproduced response are different. Although its latent direction reverses, full-response attribution retains substantial absolute-gene structure: attribution cosine **0.727**, rank correlation **0.194**, 53 shared Top-100 genes, and 96.2% sign agreement among those shared genes. Its pathway-profile Pearson is **0.734**. This indicates partial molecular continuity alongside a non-reproducible aggregate latent response; it does not make the response technically robust.""")
+code("""scores=read_csv(multi_dir/'composite_score_performance.csv')
+display(scores.style.format({'ROC_AUC':'{:.3f}','PR_AUC':'{:.3f}','bootstrap_low':'{:.3f}','bootstrap_high':'{:.3f}','leave_one_positive_out_min':'{:.3f}','leave_one_positive_out_max':'{:.3f}'}).hide(axis='index'))
+display(read_csv(multi_dir/'geometric_false_friends.csv').style.format(precision=4).hide(axis='index'))
+img=plt.imread(multi_dir/'figures/composite_performance.png');plt.figure(figsize=(14,8));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Descriptive discrimination and conventional baseline
+
+With only three positives, no classifier is fitted. Each model is an unweighted mean of within-dataset percentile ranks:
+
+- latent geometry only: ROC AUC **0.694**, PR AUC **0.632**;
+- attribution only: **1.000/1.000**;
+- pathway only: **1.000/1.000**;
+- geometry + attribution: **0.972/0.917**;
+- geometry + attribution + pathway: **0.972/0.917**;
+- conventional expression Pearson/Spearman: **1.000/1.000**.
+
+Thus molecular layers add information beyond latent cosine in this small controlled set, but pathway agreement adds no measurable discrimination beyond attribution, and including geometry slightly hurts because the known RR1 pair is geometrically reversed. Conventional expression performs equally well. These values are descriptive and strongly optimistic: the same 15 pairs define percentile scaling and evaluation, positives share studies with negatives, and the three positives are not statistically independent examples of biological generalization.""")
+code("""display(read_csv(multi_dir/'latent_bootstrap_summary_reused.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(multi_dir/'latent_leave_one_out_reused.csv').style.format(precision=4).hide(axis='index'))""")
+md("""### Conclusions and limits
+
+1. **No:** high latent cosine is not sufficient evidence of replicated biology. One high-cosine unrelated pair is molecularly discordant, and one known same-material pair reverses geometrically.
+2. In this compact null, **1/12** unrelated pairs exceeds latent cosine 0.75. This frequency is dataset-specific, not a universal false-friend rate.
+3. Attribution and pathway profiles distinguish the observed geometric false friend and the designed pairs, but only three positives are available.
+4. Pathway agreement does not add discrimination beyond attribution in this sample.
+5. The combined score does not outperform attribution alone and is worse than conventional expression; there is no evidence here that BridgeRNA is superior to log-expression response comparison.
+6. Existing animal bootstrap and leave-one-out results support RR3 stability and RR1 instability at the geometry level. Attribution/pathway uncertainty cannot be propagated without rerunning IG and is not claimed.
+7. No category-C independent-cohort replication with fully comparable response-specific IG was available. Therefore this is a **technical measurement-reproducibility benchmark**, not yet a general biological reproducibility benchmark.
+
+The defensible framework is layered rather than scalar: geometry asks whether aggregate latent responses align; attribution asks whether similar molecular inputs support them; pathways summarize whether those inputs imply related programs; experimental replication determines whether any of those agreements generalize. None substitutes for the others, and high scores do not establish causality.""")
+
+md("""## 35. Does BridgeRNA attribution add information beyond expression change?
+
+This analysis directly compares conventional gene-expression change with the existing full-response Integrated Gradients attribution for nine contrasts, each over the exact 15,165-gene vocabulary. Seven attribution profiles are reused unchanged; the two missing four-state profiles (GC39→GC40 and FLT39→FLT40) use the identical frozen model, zero-input baseline, response-direction target, and 16-step IG implementation.
+
+For each contrast, a simple five-fold out-of-fold linear model predicts signed attribution from signed expression change, absolute expression change, mean expression, and log-transformed expression variance. Residual attribution is observed minus out-of-fold prediction. Genes are folds—not independent biological samples—so cross-validation measures descriptive generalization across genes, not external biological validation. Residuals are model-derived quantities and are not automatically biological signal.""")
+code("""ae_dir=HERE/'results/task4_attribution_vs_expression'
+corr=read_csv(ae_dir/'expression_attribution_correspondence.csv')
+display(corr.style.format(precision=4).hide(axis='index'))
+img=plt.imread(ae_dir/'figures/expression_vs_attribution.png');plt.figure(figsize=(16,20));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Direct correspondence and predictability
+
+Attribution **magnitude ranks are strongly coupled** to conventional expression magnitude: Spearman correlations range from **0.663 to 0.770** (median **0.683**). A simple model predicts magnitude rank with Spearman **0.638–0.816**. Thus highly changing genes are much more likely to receive high attribution.
+
+Signed relationships are context dependent, ranging from **−0.613 to +0.509**. Despite strong magnitude-rank association, the linear expression model explains little signed attribution variance out of fold: median cross-validated R² is only **0.031**. Magnitude R² is also low (**0.005–0.112**), indicating a strongly rank-monotonic but poorly calibrated/nonlinear relationship.
+
+This rules out both extremes: attribution is not merely identical to log-expression change, but neither is it independent of expression magnitude.""")
+code("""genes=pd.read_parquet(ae_dir/'contrast_gene_tables.parquet')
+catc=genes[genes.category.eq('C_low_moderate_expression_high_attribution')]
+display(catc.groupby('contrast').size().rename('category_C_genes').reset_index().style.hide(axis='index'))
+display(catc.sort_values(['contrast','residual_rank']).groupby('contrast').head(25)[['contrast','gene_symbol','expression_change','attribution','predicted_attribution_oof','residual_attribution','standardized_residual','expression_rank','attribution_rank','residual_rank']].style.format(precision=5).hide(axis='index'))
+display(read_csv(ae_dir/'discordant_category_reproducibility.csv').query("category=='C_low_moderate_expression_high_attribution'").style.format(precision=4).hide(axis='index'))""")
+md("""### Genes disproportionate to expression change
+
+Category C is defined consistently as genes in the top 10% of absolute attribution but at or below the median absolute expression change. It contains **138–258 genes per contrast**. Examples include hepatic transport/metabolic and regulatory genes such as `TTR`, `CYP27A1`, `SLC27A2`, `GCKR`, `HNF4A`, `APOE`, `PIGR`, and `GPX4`, depending on contrast.
+
+Category-C overlap across remeasurement is **22 genes for RR1**, **80 for RR3-39**, and **75 for RR3-40**, well above the roughly 2–4 genes expected from random sets of these sizes. This is evidence that disproportionate attribution is not entirely random. It remains technical-remeasurement evidence and does not establish causal biological importance.""")
+code("""resrep=read_csv(ae_dir/'technical_replication_residual_metrics.csv')
+display(resrep.style.format(precision=4).hide(axis='index'))
+gsea=pd.read_parquet(ae_dir/'residual_attribution_gsea.parquet')
+display(gsea[gsea.fdr.lt(.05)].sort_values(['contrast','fdr']).style.format(precision=4).hide(axis='index'))
+display(read_csv(ae_dir/'geometric_false_friend_expression_adjustment.csv').style.format(precision=4).hide(axis='index'))""")
+md("""### Does residual attribution reproduce?
+
+Residual-attribution cosine remains **0.734 for RR1**, **0.869 for RR3-39**, and **0.694 for RR3-40**. Corresponding rank correlations are **0.255**, **0.549**, and **0.468**. These profiles are therefore not erased by the tested expression covariates.
+
+However, residual pathway evidence is weak. Across 27 contrast/source combinations, only one pathway reaches FDR < 0.05: alanine/aspartate/glutamate metabolism in RR3-40 OSD-168. The residual profiles reproduce geometrically without yielding broadly significant, reproducible pathway enrichment. This limits their biological interpretability.
+
+For the RR1↔RR3-39 geometric false friend, expression cosine is **0.121**, attribution cosine **0.258**, and residual cosine **0.249**. Residualization does not create additional separation: attribution distinguishes the pair primarily because it follows already discordant molecular responses, not because an expression-independent residual becomes uniquely divergent.""")
+code("""auc=read_csv(ae_dir/'added_information_auc.csv')
+display(auc.style.format(precision=3).hide(axis='index'))
+img=plt.imread(ae_dir/'figures/summary.png');plt.figure(figsize=(16,7));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Added-information decision
+
+Expression, raw attribution, residual attribution, and expression-plus-residual all achieve descriptive AUC **1.0** for separating the three same-material pairs from twelve cross-response pairs. Because expression alone is already perfect, residual attribution provides **no measurable incremental discrimination** in this tiny benchmark. Bootstrap intervals are degenerate because all sampled pairwise orderings remain separated; this does not imply population certainty.
+
+The most defensible classification is **mixed / insufficient evidence**:
+
+1. Much of attribution ranking tracks expression magnitude (`median ρ≈0.683`).
+2. Signed attribution is only weakly explained by the tested linear expression features (`median CV R²≈0.031`).
+3. Expression-adjusted residual profiles reproduce across all three technical remeasurements, and category-C genes recur above chance.
+4. Residual pathway organization is almost entirely nonsignificant, so the reproduced residual cannot yet be assigned coherent biology.
+5. Residual similarity does not improve discrimination beyond conventional expression.
+
+BridgeRNA attribution currently has **descriptive interpretive value** for showing how the model weights genes and how that weighting changes, but this experiment does not demonstrate superior or independently validated biological information beyond conventional expression analysis. Independent biological replications—not only technical remeasurements—are needed to establish a model-specific contextual signal.""")
+
+md("""## 36. Conventional expression PCA versus frozen BridgeRNA
+
+This audit asks what the frozen 512-dimensional representation adds beyond the linear covariance structure in the exact 15,165-gene `log1p(TPM)` input. The primary reference is **PCA-15165**. PCA was fitted on 32,029 study-disjoint ARCHS4 training samples and evaluated on the same 40,000 samples used for the global BridgeRNA audit. A same-sample full-vocabulary ARCHS4 matrix was not available, so **global PCA-FULL is reported as unavailable rather than approximated**.
+
+Two qualifications matter. First, only the first 512 exact PCA-15165 eigenvalues were computed; statistics requiring the complete spectrum use a documented uniform residual-tail approximation. Second, reused OSDR full-vocabulary PCA and joint human/mouse tissue PCA are transductive descriptive controls, not substitutes for the study-disjoint global PCA reference.""")
+code("""pca_dir=HERE/'results/task4_pca_vs_bridgerna'
+display(read_csv(pca_dir/'global_variance_summary.csv').style.format(precision=4).hide(axis='index'))
+img=plt.imread(pca_dir/'figures/global_scree.png');plt.figure(figsize=(14,6));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Global variance and geometry
+
+BridgeRNA is substantially more anisotropic than its input: PC1+PC2 explain **65.2%** of latent variance versus **23.7%** in PCA-15165. The participation ratio is **2.98** for BridgeRNA versus approximately **22.60** for expression PCA (the latter uses the residual-tail estimate). BridgeRNA needs 19 and 30 PCs for 90% and 95% variance, respectively.
+
+The representations are related but not equivalent. Across 299,891 deterministic sample pairs, Euclidean-distance Spearman correlation is **0.747**. Mean neighborhood overlap is **43.5%, 47.3%, 53.6%, and 52.9%** at k=5, 10, 50, and 100. Normalized orthogonal Procrustes R² is **0.582**. High canonical correlations show that shared linear directions exist, while the neighborhood and Procrustes results show material geometric reorganization.""")
+code("""display(read_csv(pca_dir/'pairwise_geometry.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(pca_dir/'neighborhood_preservation.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(pca_dir/'linear_alignment.csv').style.format(precision=4).hide(axis='index'))""")
+md("""### Controlled T-cell PolyA/Ribo displacement
+
+The paired transformation is already exceptionally low-dimensional in conventional expression: PC1+PC2 explain **94.8%** of displacement variance. BridgeRNA raises this to **99.1%**. Donor Gram-matrix CKA is **0.979**, although donor-distance Spearman is **0.442**. Thus BridgeRNA modestly concentrates and reorganizes a transformation whose dominant low-dimensional structure is already present in expression; it did not create that structure de novo.""")
+code("""display(read_csv(pca_dir/'tcell_displacement_summary.csv').style.format(precision=4).hide(axis='index'))""")
+md("""### Response geometry and the geometric false friend
+
+The globally fitted PCA-15165 baseline essentially reproduces BridgeRNA's strong RR3 technical-remeasurement concordance, but not the severe RR1 reversal. RR1 cosine is **−0.207 in PCA**, **+0.369 in raw expression**, and **−0.807 in BridgeRNA**. RR3-39 and RR3-40 are nearly identical between PCA and BridgeRNA (**0.790** and approximately **0.915**, respectively).
+
+Most importantly, the RR1 OSD-48 ↔ original RR3-39 false-friend cosine is only **0.361 in PCA** and **0.121 in raw expression**, versus **0.811 in BridgeRNA**. The learned representation therefore amplifies this misleading similarity.
+
+The secondary full-vocabulary PCA values below were fitted on all 112 OSDR samples and are transductive. With the maximum 111 PCs, cosine is mathematically equivalent to centered full-expression geometry; sample-rank limitation prevents a true 512-PC baseline.""")
+code("""display(read_csv(pca_dir/'response_focus_comparisons.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(pca_dir/'pca_full_osdr_technical_metrics_reused.csv').style.format(precision=4).hide(axis='index'))
+img=plt.imread(pca_dir/'figures/response_comparison.png');plt.figure(figsize=(14,7));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Reused tissue readouts
+
+In the balanced cross-species tissue benchmark, raw expression and joint PCA outperform BridgeRNA for centroid cosine and 1-NN on average. BridgeRNA outperforms joint PCA for the linear probe, while raw expression remains competitive. Because joint PCA was fitted to the combined human/mouse matrix, these results are a transductive downstream reference rather than a strict source-only PCA generalization test.""")
+code("""tissue=read_csv(pca_dir/'downstream_tissue_balanced_reused.csv')
+display(tissue.groupby(['representation','readout'],as_index=False).accuracy_mean.mean().style.format({'accuracy_mean':'{:.1%}'}).hide(axis='index'))""")
+md("""### Masked-expression reconstruction
+
+The PCA basis was learned without TCGA. Test-sample scores were estimated by least squares using only observed genes; masked values never entered score estimation. Results below use 1,000 TCGA samples and seed 0 for PCA, whereas the reused BridgeRNA values summarize 10 seeds, so this is not a variance-matched significance comparison.
+
+At 50% masking, the best predefined PCA result (512 PCs) gives Pearson **0.9440**, slightly above BridgeRNA (**0.9392**). At 90% masking, 256-PC PCA gives **0.9244**, far above BridgeRNA (**0.6780**). This provides strong evidence that extreme-mask reconstruction in this dataset is largely supported by linear transcriptomic covariance. The non-monotonic 512-PC result at 90% masking is consistent with less stable missing-data score estimation at excessive dimensionality.""")
+code("""display(read_csv(pca_dir/'pca_imputation.csv').style.format(precision=5).hide(axis='index'))
+display(read_csv(pca_dir/'bridgerna_imputation_reused.csv').style.format(precision=5).hide(axis='index'))
+img=plt.imread(pca_dir/'figures/pca_imputation.png');plt.figure(figsize=(14,6));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Audit decision table""")
+code("""display(read_csv(pca_dir/'summary_decision_table.csv').style.hide(axis='index'))""")
+md("""### Interpretation
+
+For the endpoints evaluated here, the result most closely supports **Outcome C: BridgeRNA amplifies low-dimensionality in ways that can be destructive**, with an important mixed qualification.
+
+1. BridgeRNA clearly adds nonlinear concentration/reorganization: its variance is much more concentrated and only about half of local PCA neighbors are preserved.
+2. That reorganization is not demonstrably beneficial in the tested response and reconstruction endpoints. PCA matches RR3 reproducibility, avoids much of the RR1 reversal and false-friend amplification, and equals or exceeds masked reconstruction.
+3. The controlled T-cell response is already nearly one-dimensional in expression, so its concentration cannot be attributed solely to the model.
+4. Existing tissue results are mixed: BridgeRNA can outperform joint PCA under a linear probe, but raw/PCA often perform better under centroid and neighborhood readouts.
+5. Global PCA-FULL remains unavailable on the exact same 40,000 samples, and the PCA imputation baseline currently has one seed. These constraints preclude a universal claim that PCA is superior.
+
+What BridgeRNA demonstrably adds is a compact, highly anisotropic nonlinear reparameterization. This audit does **not** show that the added reorganization improves the biological questions tested here; in RR1 and the false-friend example it makes geometry less faithful to conventional molecular agreement.
+
+The single most informative next experiment is a preregistered, study-disjoint external benchmark comparing source-only PCA-15165, PCA-FULL, raw expression, and BridgeRNA across several biological tasks with identical splits and repeated seeds. That would determine whether the mixed tissue-probe advantage generalizes beyond these diagnostic examples.""")
+
+md("""## 37. Biological generalization beyond expression PCA
+
+This follow-up uses identical samples, labels, study splits, and linear classifiers for raw 15,165-gene `log1p(TPM)`, fold-fitted PCA-15165, and frozen BridgeRNA-512. Tissue labels are conservative exact matches to ARCHS4 `source_name_ch1`; original text and mapping rules remain in the manifest.
+
+The cohort contains **3,272 human samples, 1,678 GSE studies, and 14 tissues**. Every tissue has at least 40 samples and 20 studies. The upstream 40,000-sample reference capped every GSE at two samples, making five-fold GroupKFold the primary stable study-disjoint estimate. Individual LOSO estimates and study-ID prediction would have only one or two observations per held-out study/class; they are marked unavailable rather than presented as meaningful benchmarks.
+
+PCA and hyperparameters are fitted or selected strictly inside each training fold. PCA dimensions are selected from the predefined 10, 25, 50, 100, 256, and 512 grid using an inner GSE-disjoint validation split. No BridgeRNA weights or embeddings were recomputed.""")
+code("""gen_dir=HERE/'results/task4_pca_vs_bridgerna_generalization'
+display(read_csv(gen_dir/'cohort_summary.csv').style.hide(axis='index'))
+display(read_csv(gen_dir/'metric_summary_with_bootstrap_ci.csv').query("scheme=='study_disjoint_group5'").style.format(precision=4).hide(axis='index'))
+img=plt.imread(gen_dir/'figures/study_disjoint.png');plt.figure(figsize=(13,6));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Primary study-disjoint result
+
+BridgeRNA does not improve tissue generalization. Mean macro F1 is **0.780 ± 0.028** for BridgeRNA, versus **0.888 ± 0.016** for validation-selected PCA and **0.872 ± 0.021** for raw expression. The BridgeRNA-minus-PCA difference is **−0.108 macro-F1 points**. Accuracy is 86.9%, 93.1%, and 92.1%, respectively.
+
+BridgeRNA trails selected PCA in 13 of 14 tissues. Skeletal muscle is the only exception: BridgeRNA and raw expression both reach approximately 0.967 F1 versus 0.945 for PCA.""")
+code("""folds=read_csv(gen_dir/'fold_metrics.csv')
+display(folds.style.format(precision=4).hide(axis='index'))
+pc=read_csv(gen_dir/'per_class_metrics.csv')
+display(pc.groupby(['representation','tissue'],as_index=False).f1.mean().pivot(index='tissue',columns='representation',values='f1').style.format('{:.3f}'))""")
+md("""### Random split and dimensionality
+
+The easier random split has the same ordering: raw **0.951**, PCA-512 **0.942**, and BridgeRNA **0.857** macro F1. It is a sanity check, not evidence of cross-study generalization.
+
+Training-only validation favors high-dimensional PCA: four outer folds select 512 PCs and one selects 256. Mean inner-validation macro F1 rises from about 0.46 at 10 PCs to 0.87 at 512 PCs, so the comparison does not cherry-pick an artificially weak low-dimensional PCA.""")
+code("""display(read_csv(gen_dir/'summary_metrics.csv').style.format(precision=4).hide(axis='index'))
+curve=read_csv(gen_dir/'pca_dimension_validation_curve.csv')
+curve_summary=curve.groupby('dimension',as_index=False).agg(macro_f1_mean=('macro_f1','mean'),macro_f1_sd=('macro_f1','std'))
+display(curve_summary.style.format(precision=4).hide(axis='index'))
+plt.figure(figsize=(8,4));plt.errorbar(curve_summary.dimension,curve_summary.macro_f1_mean,yerr=curve_summary.macro_f1_sd,marker='o',capsize=3);plt.xlabel('PCA dimensions');plt.ylabel('Inner-validation macro F1');plt.title('Training-only PCA dimension curve');plt.show()""")
+md("""### Tissue and study neighborhoods
+
+At k=10, tissue purity is **0.832 raw**, **0.818 PCA**, and **0.774 BridgeRNA**. Study purity is low for all representations (**0.076, 0.076, and 0.066**) because every GSE contributes at most two samples. BridgeRNA does not improve tissue locality, but it also does not amplify study locality in this capped cohort.""")
+code("""display(read_csv(gen_dir/'neighborhood_results.csv').style.format(precision=4).hide(axis='index'))
+img=plt.imread(gen_dir/'figures/neighborhood_purity.png');plt.figure(figsize=(14,6));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Low-label and dominant-PC sensitivity
+
+The learning curve uses one fixed held-out group fold and one deterministic training-study subsample per fraction, so it is exploratory. BridgeRNA is lower at every fraction. At 10%, macro F1 is **0.485 BridgeRNA**, **0.539 PCA**, and **0.563 raw**; at 100% it is **0.769**, **0.872**, and **0.857**.
+
+Removing dominant BridgeRNA PCs does not rescue performance. Macro F1 is 0.769 with no removal, 0.769 after PC1, 0.764 after PC1–2, and 0.765 after PC1–5. These exploratory removals are not assigned a technical or biological mechanism.""")
+code("""display(read_csv(gen_dir/'learning_curves.csv').style.format(precision=4).hide(axis='index'))
+display(read_csv(gen_dir/'bridge_pc_removal_sensitivity.csv').style.format(precision=4).hide(axis='index'))
+img=plt.imread(gen_dir/'figures/learning_and_pc_sensitivity.png');plt.figure(figsize=(14,6));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Secondary external evidence and unavailable endpoints
+
+The existing balanced GTEx-human ↔ ENCODE-mouse experiment is the compatible external result already available. It jointly changes source and species and uses transductive joint PCA, so it is secondary—not a clean ARCHS4→GTEx source-only classifier. Raw and PCA generally lead centroid/1-NN readouts; BridgeRNA is stronger than joint PCA for the linear probe but not consistently stronger than raw.
+
+PCA-FULL is unavailable for the same ARCHS4 reference. Study prediction and per-study LOSO are not responsibly estimable from a reference capped at two samples/GSE. These are recorded in `limitations.json`, not interpreted as negative results.""")
+code("""display(read_csv(HERE/'results/task4_pca_vs_bridgerna/downstream_tissue_balanced_reused.csv').style.format(precision=4).hide(axis='index'))
+display(pd.DataFrame([json.loads((gen_dir/'limitations.json').read_text())]).T.rename(columns={0:'status'}).style)""")
+md("""### Decision
+
+The primary summary is:""")
+code("""display(read_csv(gen_dir/'primary_summary_table.csv').style.format(precision=4).hide(axis='index'))""")
+md("""The best-supported decision is **D: destructive compression for this biological-identity endpoint**.
+
+- BridgeRNA trails PCA and raw expression on random and study-disjoint tissue classification.
+- Its study-disjoint deficit versus selected PCA is **−0.108 macro F1**.
+- It shows no low-label advantage and lower tissue-neighborhood purity.
+- Dominant-PC removal does not restore performance.
+- External source/species results are mixed but establish no consistent advantage.
+
+The narrow answer to **“What does BridgeRNA demonstrably provide beyond conventional expression PCA?”** is that it supplies compact, nonlinear, highly anisotropic reorganization—but this audit finds **no tissue-generalization advantage**. In this ARCHS4 study-disjoint setting, compression obscures tissue information retained by regularized raw expression and PCA.
+
+This does not show that Transformers cannot help transcriptomics or that BridgeRNA lacks value for every task. The most informative follow-up is an uncapped, curated multi-sample-per-study cohort supporting genuine LOSO and tissue-controlled study prediction, plus a clean source-only ARCHS4→GTEx test with PCA fitted only on ARCHS4.""")
+
+md("""## 38. Where does representation collapse occur?
+
+The frozen pipeline is 15,165 `log1p(TPM)` values → learned gene plus 512-D rotary expression embeddings → 12 pre-norm residual attention/FFN blocks → 15,165×512 contextual tokens → unweighted mean → 512-D sample embedding. There is no CLS token, species embedding, or post-pooling projection.
+
+For the same 3,272 samples and five GSE-disjoint folds, six fixed summaries were cached at input and every layer: mean, median, max, SD, expression-weighted mean, and mean+SD. All layer comparisons use the same class-balanced LSQR ridge probe with training-only regularization selection.""")
+code("""collapse=HERE/'results/task4_information_collapse'
+display(read_csv(collapse/'final_information_loss_table.csv').style.format(precision=4,na_rep='—').hide(axis='index'))
+for image_name in ['participation_ratio.png','pc1_pc2.png','tissue_f1.png']:
+    img=plt.imread(collapse/'figures'/image_name);plt.figure(figsize=(15,7));plt.imshow(img);plt.axis('off');plt.show()""")
+md("""### Localization
+
+Mean pooling is nearly rank-one at the input embedding (**PC1+2 99.6%; participation ratio 1.28**). The Transformer then increases mean-pooled dimensionality and tissue decodability: macro F1 rises from 0.083 at input to 0.741 after layer 1, peaks at **0.810 at layer 7**, and ends at 0.800. Mean-pooled tissue 10-NN purity peaks near **0.820 at layers 5–7**, then falls to **0.774 at layer 12**, demonstrating modest late-layer degradation rather than monotonic collapse.
+
+Alternative readouts recover information. Final-layer mean+SD is best at **0.836 ± 0.026 macro F1**, versus 0.800 for mean; SD alone gives 0.816 and participation ratio 5.10. No layer/readout reaches raw expression (**0.872**) or PCA (**0.888**). High dimensionality alone is insufficient: max pooling has higher participation ratio and neighborhood purity but weaker F1.""")
+code("""loss=read_csv(collapse/'information_loss_map.csv')
+display(loss.nlargest(20,'study_disjoint_macro_f1')[['stage','pool','dimensions','study_disjoint_macro_f1','macro_f1_sd','participation_ratio','PC1_2','tissue_10nn_purity','study_10nn_purity']].style.format(precision=4).hide(axis='index'))
+display(loss.query("stage=='layer_12'").sort_values('study_disjoint_macro_f1',ascending=False).style.format(precision=4).hide(axis='index'))""")
+md("""### Decision
+
+The supported localization is **E: mixed readout loss and late-layer degradation**. The Transformer initially adds accessible tissue information, middle layers preserve the strongest neighborhoods, later layers lose some locality, and mean pooling discards second-order token information. Mean+SD partially repairs the readout but remains 0.052 F1 below PCA, so pooling alone does not explain the deficit.
+
+The smallest justified model change is a mean+SD readout with a small controlled projection, evaluated at both the final layer and layers 6–7 before retraining the backbone.
+
+This section completes architecture mapping, all-layer pooling, effective dimensionality, tissue decoding, and neighborhood localization. Layer-wise OSDR response geometry, masked reconstruction, and random-PC controls require separate response-cohort inference and are not inferred from these results.""")
+
+md("""## 39. Frozen readout selection and response-geometry safety
+
+We next compared fixed, label-free summaries of frozen contextual gene embeddings at layers 4–9 and 12. Candidate readouts included mean, SD, mean+SD, mean+variance, mean+max, expression-weighted mean, and their prespecified combinations. Every tissue result uses the exact same five GSE-disjoint folds and a class-balanced ridge probe with regularization selected using training studies only.
+
+The best fixed readout is final-layer **mean+SD (1,024 dimensions)**. It improves study-disjoint tissue macro F1 from 0.800 for the standard final mean to **0.833 ± 0.025**, but remains below raw expression (0.872) and selected PCA (0.888). Unsupervised fold-local PCA compression does not improve it. This supports a mixed conclusion: the standard mean readout discards useful token-distribution information, but readout loss alone does not explain the full deficit.""")
+code("""readout_dir=HERE/'results/task4_frozen_readout_selection'
+ranking=read_csv(readout_dir/'final_readout_ranking.csv')
+display(ranking.head(15).style.format(precision=4).hide(axis='index'))
+
+fig,axes=plt.subplots(1,2,figsize=(15,6))
+top=ranking.head(12).copy()
+top['label']='L'+top.layer.astype(str)+' '+top.readout.str.replace('_',' ')
+axes[0].barh(top.label[::-1],top.macro_f1[::-1],xerr=top.macro_f1_sd[::-1],color='#3973ac',alpha=.9)
+axes[0].axvline(.8716,color='#555',ls='--',label='Raw expression')
+axes[0].axvline(.8883,color='#b34d4d',ls='--',label='Selected PCA')
+axes[0].set(xlabel='Study-disjoint macro F1',title='Best fixed frozen readouts')
+axes[0].legend(frameon=False)
+axes[1].scatter(ranking.participation_ratio,ranking.macro_f1,c=ranking.layer,cmap='viridis',s=45)
+axes[1].set(xlabel='Participation ratio',ylabel='Study-disjoint macro F1',title='Dimension alone does not determine performance')
+fig.tight_layout();plt.show()""")
+md("""### OSDR safety check
+
+The selected mean+SD readout was then evaluated on the exact strict RR1 and RR3 technical-remeasurement contrasts used throughout Task 4. This is a safety check, not a new selection endpoint. The frozen backbone and contrast memberships were unchanged, and the standard mean readout first reproduced the established response cosines within tolerance.
+
+Mean+SD does **not** erase or conceal the known RR1 failure: RR1 remains opposing (−0.788 versus −0.807). It also preserves the qualitative RR3 controls, with RR3-39 at 0.767 and RR3-40 at 0.914. Thus the improved tissue readout does not manufacture technical robustness, and it does not materially damage the already strong RR3-40 replication.""")
+code("""safety=read_csv(readout_dir/'osdr_response_safety.csv')
+display(safety.style.format({'cosine':'{:.4f}','spearman':'{:.4f}','norm_original':'{:.4f}','norm_remeasurement':'{:.4f}'}).hide(axis='index'))
+plot=safety.pivot(index='comparison',columns='readout',values='cosine').loc[['RR1','RR3-39','RR3-40']]
+ax=plot.plot.bar(figsize=(10,5),color=['#8c8c8c','#3973ac'])
+ax.axhline(0,color='black',lw=.8);ax.set(ylabel='Technical-replication response cosine',xlabel='',title='Selected readout preserves the established OSDR diagnosis')
+ax.legend(['Current mean','Selected mean + SD'],frameon=False);plt.xticks(rotation=0);plt.tight_layout();plt.show()""")
+md("""### Final readout decision
+
+Use **layer-12 mean+SD** as the best frozen general-purpose readout found in this controlled search when retaining a 1,024-D representation is acceptable. Keep the original 512-D mean as the canonical checkpoint output for compatibility. The selected readout is a partial repair rather than evidence that the backbone surpasses conventional PCA: it improves tissue decoding, preserves the major OSDR replication conclusions, but still trails raw/PCA tissue generalization. No supervised projection is promoted as a universal embedding because such a projection would be label- and task-specific.""")
 
 nb['cells'] = cells
 nb['metadata'] = {'kernelspec': {'display_name':'Python 3','language':'python','name':'python3'}, 'language_info': {'name':'python','version':'3.11'}}

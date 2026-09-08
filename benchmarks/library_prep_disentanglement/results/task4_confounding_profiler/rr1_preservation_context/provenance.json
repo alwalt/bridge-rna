@@ -1,0 +1,11 @@
+{
+  "bridge_frozen": true,
+  "embeddings_recomputed": false,
+  "contrasts_redefined": false,
+  "reference_redefined": false,
+  "random_2d_replicates": 1000,
+  "sample_bootstrap_replicates": 5000,
+  "contextual_method": "per-gene L2 norm of mean contextual hidden FLT minus GC; exact decomposition into controlled PC1-2 and orthogonal components",
+  "gsea_permutations": 1000,
+  "seed": 47148
+}

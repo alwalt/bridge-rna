@@ -1,0 +1,19 @@
+          RR1_group RR3_group representation    cosine   pearson  spearman
+        RR1 carcass    RR3-39            raw  0.813156  0.469780  0.446815
+        RR1 carcass    RR3-39  PC1-2 removed  0.154209  0.154245  0.132155
+        RR1 carcass    RR3-40            raw -0.829729 -0.359221 -0.340603
+        RR1 carcass    RR3-40  PC1-2 removed -0.007643 -0.007264  0.000862
+RR1 upon-euthanasia    RR3-39            raw -0.697008 -0.291446 -0.286043
+RR1 upon-euthanasia    RR3-39  PC1-2 removed -0.213211 -0.215097 -0.201424
+RR1 upon-euthanasia    RR3-40            raw  0.619702 -0.011562  0.013343
+RR1 upon-euthanasia    RR3-40  PC1-2 removed -0.048335 -0.054639 -0.026935
+                        outcome  n  spearman_rho  pearson_r
+                            PC1 23      0.364043   0.263971
+                            PC2 23      0.314513   0.238716
+RNA_processing_expression_proxy 23     -0.513622  -0.420603
+          RR1_group RR3_group  top_n  shared_PC1_2_genes  expected_overlap  fold_enrichment  hypergeom_p  shared_also_controlled_Tcell
+        RR1 carcass    RR3-39    500                  37         16.485328          2.24442 3.910336e-06                             0
+        RR1 carcass    RR3-40    500                  48         16.485328          2.91168 2.706169e-11                             2
+RR1 upon-euthanasia    RR3-39    500                  25         16.485328          1.51650 2.579876e-02                             2
+RR1 upon-euthanasia    RR3-40    500                  34         16.485328          2.06244 5.499980e-05                             0
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/rr1_rr3_sample_state

@@ -1,0 +1,4 @@
+coordination_measure,spearman_rho,p_value,n
+top1pct_abs_effect_fraction,-0.5473684210526315,0.012490190369603563,20
+expression_effective_gene_count,0.5969924812030075,0.0054519893833496,20
+expression_response_rms,0.33082706766917286,0.1542360444809862,20

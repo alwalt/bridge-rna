@@ -1,0 +1,35 @@
+cohort,measurement,OSD,condition,animal_id,sample_id,mission,library_preparation,sequencing_facility,sequencing_parameters,preservation,strain,sex,age_at_launch
+RR1,original,OSD-48,FLT,M25,Mmus_C57-6J_LVR_FLT_C_Rep1_M25,RR1_NASA,polyA,UC Davis,SE 50bp 30M,Mini Cold Bag to -80C freezer,C57BL/6J,Female,16 {week}
+RR1,original,OSD-48,FLT,M26,Mmus_C57-6J_LVR_FLT_C_Rep2_M26,RR1_NASA,polyA,UC Davis,SE 50bp 30M,Mini Cold Bag to -80C freezer,C57BL/6J,Female,16 {week}
+RR1,original,OSD-48,FLT,M28,Mmus_C57-6J_LVR_FLT_C_Rep4_M28,RR1_NASA,polyA,UC Davis,SE 50bp 30M,Mini Cold Bag to -80C freezer,C57BL/6J,Female,16 {week}
+RR1,original,OSD-48,FLT,M30,Mmus_C57-6J_LVR_FLT_C_Rep5_M30,RR1_NASA,polyA,UC Davis,SE 50bp 30M,Mini Cold Bag to -80C freezer,C57BL/6J,Female,16 {week}
+RR1,original,OSD-48,GC,M36,Mmus_C57-6J_LVR_GC_C_Rep1_M36,RR1_NASA,polyA,UC Davis,SE 50bp 30M,Mini Cold Bag to -80C freezer,C57BL/6J,Female,16 {week}
+RR1,original,OSD-48,GC,M37,Mmus_C57-6J_LVR_GC_C_Rep2_M37,RR1_NASA,polyA,UC Davis,SE 50bp 30M,Mini Cold Bag to -80C freezer,C57BL/6J,Female,16 {week}
+RR1,original,OSD-48,GC,M38,Mmus_C57-6J_LVR_GC_C_Rep3_M38,RR1_NASA,polyA,UC Davis,SE 50bp 30M,Mini Cold Bag to -80C freezer,C57BL/6J,Female,16 {week}
+RR1,original,OSD-48,GC,M39,Mmus_C57-6J_LVR_GC_C_Rep4_M39,RR1_NASA,polyA,UC Davis,SE 50bp 30M,Mini Cold Bag to -80C freezer,C57BL/6J,Female,16 {week}
+RR1,original,OSD-48,GC,M40,Mmus_C57-6J_LVR_GC_C_Rep5_M40,RR1_NASA,polyA,UC Davis,SE 50bp 30M,Mini Cold Bag to -80C freezer,C57BL/6J,Female,16 {week}
+RR1,remeasure,OSD-168,FLT,M25,Mmus_C57-6J_LVR_RR1_FLT_noERCC_Rep1_M25,RR1_NASA,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,C57BL/6J,Female,16 {week}
+RR1,remeasure,OSD-168,FLT,M26,Mmus_C57-6J_LVR_RR1_FLT_noERCC_Rep2_M26,RR1_NASA,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,C57BL/6J,Female,16 {week}
+RR1,remeasure,OSD-168,FLT,M28,Mmus_C57-6J_LVR_RR1_FLT_noERCC_Rep3_M28,RR1_NASA,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,C57BL/6J,Female,16 {week}
+RR1,remeasure,OSD-168,FLT,M30,Mmus_C57-6J_LVR_RR1_FLT_noERCC_Rep5_M30,RR1_NASA,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,C57BL/6J,Female,16 {week}
+RR1,remeasure,OSD-168,GC,M36,Mmus_C57-6J_LVR_RR1_GC_noERCC_Rep1_M36,RR1_NASA,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,C57BL/6J,Female,16 {week}
+RR1,remeasure,OSD-168,GC,M37,Mmus_C57-6J_LVR_RR1_GC_noERCC_Rep2_M37,RR1_NASA,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,C57BL/6J,Female,16 {week}
+RR1,remeasure,OSD-168,GC,M38,Mmus_C57-6J_LVR_RR1_GC_noERCC_Rep3_M38,RR1_NASA,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,C57BL/6J,Female,16 {week}
+RR1,remeasure,OSD-168,GC,M39,Mmus_C57-6J_LVR_RR1_GC_noERCC_Rep4_M39,RR1_NASA,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,C57BL/6J,Female,16 {week}
+RR1,remeasure,OSD-168,GC,M40,Mmus_C57-6J_LVR_RR1_GC_noERCC_Rep5_M40,RR1_NASA,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,C57BL/6J,Female,16 {week}
+RR3-39,original,OSD-137,FLT,F1,Mmus_BAL-TAL_LVR_FLT_Rep1_F1,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-39,original,OSD-137,FLT,F2,Mmus_BAL-TAL_LVR_FLT_Rep2_F2,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-39,original,OSD-137,GC,G1,Mmus_BAL-TAL_LVR_GC_Rep1_G1,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-39,original,OSD-137,GC,G2,Mmus_BAL-TAL_LVR_GC_Rep2_G2,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-39,remeasure,OSD-168,FLT,F1,Mmus_BAL-TAL_LVR_RR3_FLT_wERCC_Rep1_F1,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-39,remeasure,OSD-168,FLT,F2,Mmus_BAL-TAL_LVR_RR3_FLT_wERCC_Rep2_F2,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-39,remeasure,OSD-168,GC,G1,Mmus_BAL-TAL_LVR_RR3_GC_wERCC_Rep1_G1,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-39,remeasure,OSD-168,GC,G2,Mmus_BAL-TAL_LVR_RR3_GC_wERCC_Rep2_G2,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-40,original,OSD-137,FLT,F3,Mmus_BAL-TAL_LVR_FLT_Rep3_F3,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-40,original,OSD-137,FLT,F4,Mmus_BAL-TAL_LVR_FLT_Rep4_F4,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-40,original,OSD-137,GC,G3,Mmus_BAL-TAL_LVR_GC_Rep3_G3,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-40,original,OSD-137,GC,G5,Mmus_BAL-TAL_LVR_GC_Rep4_G5,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-40,remeasure,OSD-168,FLT,F3,Mmus_BAL-TAL_LVR_RR3_FLT_wERCC_Rep3_F3,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-40,remeasure,OSD-168,FLT,F4,Mmus_BAL-TAL_LVR_RR3_FLT_wERCC_Rep4_F4,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-40,remeasure,OSD-168,GC,G3,Mmus_BAL-TAL_LVR_RR3_GC_wERCC_Rep3_G3,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}
+RR3-40,remeasure,OSD-168,GC,G5,Mmus_BAL-TAL_LVR_RR3_GC_wERCC_Rep4_G5,RR3,ribodepleted,UC Davis,PE 150bp 100M,Liquid Nitrogen,BALB/c,Female,12 {week}

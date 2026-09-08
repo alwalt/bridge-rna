@@ -1,0 +1,7 @@
+OSD,raw_gene_rows,mapped_symbol_rows,unmapped_rows,unique_mapped_symbols,source_file
+OSD-137,55536,51486,4050,51432,data/osdr/raw/GLDS-137_rna_seq_Unnormalized_Counts.csv
+OSD-173,55628,51486,4142,51432,data/osdr/raw/GLDS-173_rna_seq_Unnormalized_Counts.csv
+OSD-242,55628,51486,4142,51432,data/osdr/raw/GLDS-242_rna_seq_Unnormalized_Counts.csv
+OSD-245,55628,51486,4142,51432,data/osdr/raw/GLDS-245_rna_seq_Unnormalized_Counts.csv
+OSD-47,57186,56642,544,56404,data/osdr/raw/replaced_star_supplementary/GLDS-47_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv
+OSD-48,57186,56642,544,56404,data/osdr/raw/replaced_star_supplementary/GLDS-48_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv

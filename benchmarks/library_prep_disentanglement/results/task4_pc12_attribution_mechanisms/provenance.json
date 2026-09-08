@@ -1,0 +1,9 @@
+{
+  "basis": "unchanged uncentered controlled T-cell PC1-2",
+  "gene_universe": 15165,
+  "contextual_profiles": "cached full 15165x512 response tensors",
+  "attribution_comparison": "flattened per-gene PC1 and PC2 contribution coordinates; preserves fixed basis orientation",
+  "signed_contribution": "projection onto the independently oriented mean T-cell PolyA-to-Ribo direction",
+  "pathway_statistic": "mean standardized signed gene contribution times sqrt(set size); descriptive, not enrichment significance",
+  "correction_performed": false
+}

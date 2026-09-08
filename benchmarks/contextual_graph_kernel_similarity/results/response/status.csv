@@ -1,0 +1,2 @@
+method,status,reason
+higher-order response kernels,not_estimable_from_sample-kernel features without constructing treatment/control feature-map differences,WL/graphlet feature differences can be signed but their cosine is not a positive-semidefinite graph kernel; no unvalidated response kernel invented

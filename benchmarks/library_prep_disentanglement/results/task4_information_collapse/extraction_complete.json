@@ -1,0 +1,28 @@
+{
+  "samples": 3272,
+  "stages": [
+    "input_embedding",
+    "layer_1",
+    "layer_2",
+    "layer_3",
+    "layer_4",
+    "layer_5",
+    "layer_6",
+    "layer_7",
+    "layer_8",
+    "layer_9",
+    "layer_10",
+    "layer_11",
+    "layer_12"
+  ],
+  "pools": {
+    "mean": 512,
+    "median": 512,
+    "max": 512,
+    "std": 512,
+    "expression_weighted_mean": 512,
+    "mean_plus_std": 1024
+  },
+  "device": "cuda:0",
+  "batch_size": 1
+}

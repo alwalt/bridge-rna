@@ -1,0 +1,11 @@
+{
+  "responses": 6,
+  "replication_pairs": 3,
+  "replication_categories": {
+    "A_same_biological_material_technical_remeasurement": 3
+  },
+  "independent_biological_replications": 0,
+  "null_pairs": 12,
+  "high_latent_unrelated_pairs": 1,
+  "limitation": "Only strict same-animal technical remeasurements have response-specific full-space IG under one implementation. This benchmark evaluates measurement robustness, not independent-cohort biological generalization."
+}

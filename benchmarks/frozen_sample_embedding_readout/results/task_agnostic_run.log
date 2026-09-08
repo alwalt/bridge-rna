@@ -1,0 +1,154 @@
+[2026-09-07 11:59:18] extract tissue 100/3272 elapsed=0.3m
+[2026-09-07 11:59:36] extract tissue 200/3272 elapsed=0.6m
+[2026-09-07 11:59:53] extract tissue 300/3272 elapsed=0.9m
+[2026-09-07 12:00:11] extract tissue 400/3272 elapsed=1.2m
+[2026-09-07 12:00:29] extract tissue 500/3272 elapsed=1.5m
+[2026-09-07 12:00:47] extract tissue 600/3272 elapsed=1.8m
+[2026-09-07 12:01:05] extract tissue 700/3272 elapsed=2.1m
+[2026-09-07 12:01:23] extract tissue 800/3272 elapsed=2.4m
+[2026-09-07 12:01:41] extract tissue 900/3272 elapsed=2.7m
+[2026-09-07 12:02:00] extract tissue 1000/3272 elapsed=3.0m
+[2026-09-07 12:02:18] extract tissue 1100/3272 elapsed=3.3m
+[2026-09-07 12:02:36] extract tissue 1200/3272 elapsed=3.6m
+[2026-09-07 12:02:54] extract tissue 1300/3272 elapsed=3.9m
+[2026-09-07 12:03:12] extract tissue 1400/3272 elapsed=4.2m
+[2026-09-07 12:03:30] extract tissue 1500/3272 elapsed=4.5m
+[2026-09-07 12:03:48] extract tissue 1600/3272 elapsed=4.8m
+[2026-09-07 12:04:07] extract tissue 1700/3272 elapsed=5.1m
+[2026-09-07 12:04:25] extract tissue 1800/3272 elapsed=5.4m
+[2026-09-07 12:04:43] extract tissue 1900/3272 elapsed=5.7m
+[2026-09-07 12:05:02] extract tissue 2000/3272 elapsed=6.0m
+[2026-09-07 12:05:19] extract tissue 2100/3272 elapsed=6.3m
+[2026-09-07 12:05:38] extract tissue 2200/3272 elapsed=6.6m
+[2026-09-07 12:05:56] extract tissue 2300/3272 elapsed=6.9m
+[2026-09-07 12:06:15] extract tissue 2400/3272 elapsed=7.2m
+[2026-09-07 12:06:33] extract tissue 2500/3272 elapsed=7.6m
+[2026-09-07 12:06:52] extract tissue 2600/3272 elapsed=7.9m
+[2026-09-07 12:07:10] extract tissue 2700/3272 elapsed=8.2m
+[2026-09-07 12:07:28] extract tissue 2800/3272 elapsed=8.5m
+[2026-09-07 12:07:46] extract tissue 2900/3272 elapsed=8.8m
+[2026-09-07 12:08:04] extract tissue 3000/3272 elapsed=9.1m
+[2026-09-07 12:08:22] extract tissue 3100/3272 elapsed=9.4m
+[2026-09-07 12:08:41] extract tissue 3200/3272 elapsed=9.7m
+[2026-09-07 12:08:54] extract tissue 3272/3272 elapsed=9.9m
+[2026-09-07 12:09:14] extract task3 100/112 elapsed=0.3m
+[2026-09-07 12:09:16] extract task3 112/112 elapsed=0.3m
+[2026-09-07 12:09:16] complete
+[2026-09-07 12:09:34] geometry L11_L12_equal_mean_std
+[2026-09-07 12:09:46] classify L11_L12_equal_mean_std fold 0
+[2026-09-07 12:09:56] classify L11_L12_equal_mean_std fold 1
+[2026-09-07 12:10:13] classify L11_L12_equal_mean_std fold 2
+[2026-09-07 12:10:20] classify L11_L12_equal_mean_std fold 3
+[2026-09-07 12:10:26] classify L11_L12_equal_mean_std fold 4
+[2026-09-07 12:10:27] geometry L11_L12_concat_mean_std
+[2026-09-07 12:10:39] classify L11_L12_concat_mean_std fold 0
+[2026-09-07 12:11:04] classify L11_L12_concat_mean_std fold 1
+[2026-09-07 12:11:24] classify L11_L12_concat_mean_std fold 2
+[2026-09-07 12:11:37] classify L11_L12_concat_mean_std fold 3
+[2026-09-07 12:11:47] classify L11_L12_concat_mean_std fold 4
+[2026-09-07 12:11:48] geometry L11_mean_std
+[2026-09-07 12:11:55] classify L11_mean_std fold 0
+[2026-09-07 12:12:04] classify L11_mean_std fold 1
+[2026-09-07 12:12:12] classify L11_mean_std fold 2
+[2026-09-07 12:12:20] classify L11_mean_std fold 3
+[2026-09-07 12:12:37] classify L11_mean_std fold 4
+[2026-09-07 12:12:37] geometry L12_mean_std
+[2026-09-07 12:13:05] classify L12_mean_std fold 0
+[2026-09-07 12:13:18] classify L12_mean_std fold 1
+[2026-09-07 12:13:26] classify L12_mean_std fold 2
+[2026-09-07 12:13:34] classify L12_mean_std fold 3
+[2026-09-07 12:14:06] classify L12_mean_std fold 4
+Traceback (most recent call last):
+  File "/home/walt/bridge-rna/benchmarks/frozen_sample_embedding_readout/pipeline/run_task_agnostic.py", line 100, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/walt/bridge-rna/benchmarks/frozen_sample_embedding_readout/pipeline/run_task_agnostic.py", line 97, in main
+    if a.phase in ['evaluate','all']:evaluate()
+                                     ^^^^^^^^^^
+  File "/home/walt/bridge-rna/benchmarks/frozen_sample_embedding_readout/pipeline/run_task_agnostic.py", line 71, in evaluate
+    geos.append({'readout':name,'dimensions':A.shape[1],**geometry(A,y,g)});say(f'geometry {name}')
+                                                          ^^^^^^^^^^^^^^^
+  File "/home/walt/bridge-rna/benchmarks/frozen_sample_embedding_readout/pipeline/run_task_agnostic.py", line 62, in geometry
+    A=np.asarray(A,dtype='float32');A-=A.mean(0);sv=TruncatedSVD(2,random_state=SEED).fit(A).singular_values_**2;total=float(np.square(A).sum());pc12=float(sv.sum()/total);gram=A@A.T;pr=float(total**2/np.square(gram).sum());norm=np.linalg.norm(A,axis=1,keepdims=True);norm[norm==0]=1;sim=(A/norm)@(A/norm).T;np.fill_diagonal(sim,-np.inf);nn=np.argpartition(sim,-10,axis=1)[:,-10:];return {'PC1_2':pc12,'participation_ratio':pr,'tissue_10nn_purity':np.mean([np.mean(y[j]==y[i]) for i,j in enumerate(nn)]),'study_10nn_purity':np.mean([np.mean(g[j]==g[i]) for i,j in enumerate(nn)])}
+                                    ^^^^^^^^^^^^
+ValueError: output array is read-only
+[2026-09-07 12:14:09] complete
+[2026-09-07 12:22:51] geometry L11_L12_equal_mean_std
+[2026-09-07 12:23:15] classify L11_L12_equal_mean_std fold 0
+[2026-09-07 12:23:22] classify L11_L12_equal_mean_std fold 1
+[2026-09-07 12:23:31] classify L11_L12_equal_mean_std fold 2
+[2026-09-07 12:23:58] classify L11_L12_equal_mean_std fold 3
+[2026-09-07 12:24:40] classify L11_L12_equal_mean_std fold 4
+[2026-09-07 12:24:41] geometry L11_L12_concat_mean_std
+[2026-09-07 12:25:31] classify L11_L12_concat_mean_std fold 0
+[2026-09-07 12:26:16] classify L11_L12_concat_mean_std fold 1
+[2026-09-07 12:26:50] classify L11_L12_concat_mean_std fold 2
+[2026-09-07 12:27:20] classify L11_L12_concat_mean_std fold 3
+[2026-09-07 12:27:33] classify L11_L12_concat_mean_std fold 4
+[2026-09-07 12:27:34] geometry L11_mean_std
+[2026-09-07 12:27:40] classify L11_mean_std fold 0
+[2026-09-07 12:27:46] classify L11_mean_std fold 1
+[2026-09-07 12:27:52] classify L11_mean_std fold 2
+[2026-09-07 12:28:09] classify L11_mean_std fold 3
+[2026-09-07 12:28:16] classify L11_mean_std fold 4
+[2026-09-07 12:28:17] geometry L12_mean_std
+[2026-09-07 12:28:25] classify L12_mean_std fold 0
+[2026-09-07 12:28:33] classify L12_mean_std fold 1
+[2026-09-07 12:28:39] classify L12_mean_std fold 2
+[2026-09-07 12:28:56] classify L12_mean_std fold 3
+[2026-09-07 12:29:30] classify L12_mean_std fold 4
+[2026-09-07 12:29:30] geometry L12_mean
+[2026-09-07 12:29:55] classify L12_mean fold 0
+[2026-09-07 12:30:15] classify L12_mean fold 1
+[2026-09-07 12:30:42] classify L12_mean fold 2
+[2026-09-07 12:31:06] classify L12_mean fold 3
+[2026-09-07 12:31:28] classify L12_mean fold 4
+[2026-09-07 12:31:29] geometry L11_ditto_sampled_incoming
+[2026-09-07 12:31:53] classify L11_ditto_sampled_incoming fold 0
+[2026-09-07 12:32:14] classify L11_ditto_sampled_incoming fold 1
+[2026-09-07 12:32:32] classify L11_ditto_sampled_incoming fold 2
+[2026-09-07 12:33:02] classify L11_ditto_sampled_incoming fold 3
+[2026-09-07 12:33:24] classify L11_ditto_sampled_incoming fold 4
+[2026-09-07 12:33:25] geometry L11_ditto_centroid_query
+[2026-09-07 12:33:43] classify L11_ditto_centroid_query fold 0
+[2026-09-07 12:34:03] classify L11_ditto_centroid_query fold 1
+[2026-09-07 12:34:25] classify L11_ditto_centroid_query fold 2
+[2026-09-07 12:34:43] classify L11_ditto_centroid_query fold 3
+[2026-09-07 12:34:59] classify L11_ditto_centroid_query fold 4
+[2026-09-07 12:35:03] geometry L11_hallmark_module_mean
+[2026-09-07 12:37:38] classify L11_hallmark_module_mean fold 0
+[2026-09-07 12:40:20] classify L11_hallmark_module_mean fold 1
+[2026-09-07 12:43:11] classify L11_hallmark_module_mean fold 2
+[2026-09-07 12:45:41] classify L11_hallmark_module_mean fold 3
+[2026-09-07 12:48:05] classify L11_hallmark_module_mean fold 4
+[2026-09-07 12:48:11] geometry L11_hallmark_module_mean_std
+[2026-09-07 12:52:00] classify L11_hallmark_module_mean_std fold 0
+[2026-09-07 12:55:48] classify L11_hallmark_module_mean_std fold 1
+[2026-09-07 12:59:38] classify L11_hallmark_module_mean_std fold 2
+[2026-09-07 13:03:34] classify L11_hallmark_module_mean_std fold 3
+[2026-09-07 13:07:21] classify L11_hallmark_module_mean_std fold 4
+[2026-09-07 13:07:22] geometry L12_ditto_sampled_incoming
+[2026-09-07 13:07:34] classify L12_ditto_sampled_incoming fold 0
+[2026-09-07 13:07:39] classify L12_ditto_sampled_incoming fold 1
+[2026-09-07 13:07:44] classify L12_ditto_sampled_incoming fold 2
+[2026-09-07 13:07:50] classify L12_ditto_sampled_incoming fold 3
+[2026-09-07 13:07:55] classify L12_ditto_sampled_incoming fold 4
+[2026-09-07 13:07:56] geometry L12_ditto_centroid_query
+[2026-09-07 13:08:01] classify L12_ditto_centroid_query fold 0
+[2026-09-07 13:08:08] classify L12_ditto_centroid_query fold 1
+[2026-09-07 13:08:13] classify L12_ditto_centroid_query fold 2
+[2026-09-07 13:08:20] classify L12_ditto_centroid_query fold 3
+[2026-09-07 13:08:24] classify L12_ditto_centroid_query fold 4
+[2026-09-07 13:08:27] geometry L12_hallmark_module_mean
+[2026-09-07 13:11:07] classify L12_hallmark_module_mean fold 0
+[2026-09-07 13:13:43] classify L12_hallmark_module_mean fold 1
+[2026-09-07 13:16:17] classify L12_hallmark_module_mean fold 2
+[2026-09-07 13:18:47] classify L12_hallmark_module_mean fold 3
+[2026-09-07 13:21:17] classify L12_hallmark_module_mean fold 4
+[2026-09-07 13:21:23] geometry L12_hallmark_module_mean_std
+[2026-09-07 13:25:23] classify L12_hallmark_module_mean_std fold 0
+[2026-09-07 13:29:28] classify L12_hallmark_module_mean_std fold 1
+[2026-09-07 13:33:34] classify L12_hallmark_module_mean_std fold 2
+[2026-09-07 13:37:32] classify L12_hallmark_module_mean_std fold 3
+[2026-09-07 13:41:33] classify L12_hallmark_module_mean_std fold 4
+[2026-09-07 13:41:33] complete

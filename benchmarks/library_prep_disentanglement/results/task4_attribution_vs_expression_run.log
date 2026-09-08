@@ -1,0 +1,72 @@
+[GSEA] controlled_tcell GO:BP
+[GSEA] controlled_tcell KEGG
+[GSEA] controlled_tcell Reactome
+[GSEA] RR1 OSD48 GO:BP
+[GSEA] RR1 OSD48 KEGG
+[GSEA] RR1 OSD48 Reactome
+[GSEA] RR1 OSD168 GO:BP
+[GSEA] RR1 OSD168 KEGG
+[GSEA] RR1 OSD168 Reactome
+[GSEA] RR3-39 OSD137 GO:BP
+[GSEA] RR3-39 OSD137 KEGG
+[GSEA] RR3-39 OSD137 Reactome
+[GSEA] RR3-39 OSD168 GO:BP
+[GSEA] RR3-39 OSD168 KEGG
+[GSEA] RR3-39 OSD168 Reactome
+[GSEA] RR3-40 OSD137 GO:BP
+[GSEA] RR3-40 OSD137 KEGG
+[GSEA] RR3-40 OSD137 Reactome
+[GSEA] RR3-40 OSD168 GO:BP
+[GSEA] RR3-40 OSD168 KEGG
+[GSEA] RR3-40 OSD168 Reactome
+[GSEA] RR3 GC39→GC40 GO:BP
+[GSEA] RR3 GC39→GC40 KEGG
+[GSEA] RR3 GC39→GC40 Reactome
+[GSEA] RR3 FLT39→FLT40 GO:BP
+[GSEA] RR3 FLT39→FLT40 KEGG
+[GSEA] RR3 FLT39→FLT40 Reactome
+        contrast  pearson_signed  spearman_signed  pearson_magnitude  spearman_magnitude  linear_R2_in_sample  linear_R2_5fold_CV  magnitude_R2_5fold_CV  predicted_magnitude_rank_spearman  top100_overlap  top100_sign_agreement
+controlled_tcell        0.191631         0.500412           0.294165            0.763550             0.045154            0.031284               0.094695                           0.816265              14               0.714286
+       RR1 OSD48       -0.242444        -0.613320           0.289796            0.769892             0.060671            0.054977               0.111870                           0.795523              12               0.083333
+      RR1 OSD168       -0.224307        -0.596113           0.250843            0.672361             0.051725            0.041048               0.075089                           0.721607               9               0.111111
+   RR3-39 OSD137       -0.158115        -0.520957           0.224244            0.683378             0.030535            0.025839               0.084222                           0.737888               6               0.166667
+   RR3-39 OSD168       -0.184801        -0.526671           0.250111            0.683374             0.034721            0.028005               0.091924                           0.718537               8               0.125000
+   RR3-40 OSD137        0.291130         0.414713           0.376517            0.663566             0.174204            0.000341               0.004703                           0.637834              13               0.923077
+   RR3-40 OSD168        0.213018         0.460514           0.296634            0.692599             0.045943            0.039594               0.108806                           0.775199              14               0.857143
+   RR3 GC39→GC40       -0.071094        -0.262770           0.261160            0.663047             0.029655            0.010797               0.072749                           0.701565              10               0.300000
+ RR3 FLT39→FLT40        0.181534         0.508692           0.295985            0.727546             0.037983            0.033346               0.110596                           0.797151              10               0.700000
+
+Residual replication
+ comparison  expression_change_cosine  expression_change_spearman  expression_change_top100_overlap  expression_change_top100_sign_agreement  expression_change_top500_overlap  expression_change_top500_sign_agreement  expression_change_pathway_pearson  attribution_cosine  attribution_spearman  attribution_top100_overlap  attribution_top100_sign_agreement  attribution_top500_overlap  attribution_top500_sign_agreement  attribution_pathway_pearson  residual_attribution_cosine  residual_attribution_spearman  residual_attribution_top100_overlap  residual_attribution_top100_sign_agreement  residual_attribution_top500_overlap  residual_attribution_top500_sign_agreement  residual_attribution_pathway_pearson
+       RR1                  0.369167                    0.424830                                46                                      1.0                               181                                 0.988950                           0.521275            0.727080              0.193794                          53                           0.962264                         284                           0.866197                     0.734379                     0.734320                       0.255244                                   51                                    0.960784                                  294                                    0.846939                              0.741415
+    RR3-39                  0.652304                    0.618316                                58                                      1.0                               266                                 0.984962                           0.795939            0.866535              0.601230                          71                           0.985915                         349                           0.951289                     0.882723                     0.869457                       0.549168                                   72                                    0.986111                                  336                                    0.946429                              0.874028
+    RR3-40                  0.822429                    0.672977                                87                                      1.0                               381                                 1.000000                           0.946382            0.724711              0.597231                          76                           1.000000                         366                           0.975410                     0.792749                     0.694495                       0.467748                                   64                                    0.984375                                  285                                    0.936842                              0.737010
+
+False friend
+               signal   cosine  spearman  pathway_pearson
+   expression_change 0.120727  0.094685         0.026138
+         attribution 0.257580  0.127972         0.220487
+residual_attribution 0.248645  0.095880         0.229584
+
+AUC
+                    model  ROC_AUC  PR_AUC  bootstrap_low  bootstrap_high
+   expression_similarity      1.0     1.0            1.0             1.0
+  attribution_similarity      1.0     1.0            1.0             1.0
+     residual_similarity      1.0     1.0            1.0             1.0
+expression_plus_residual      1.0     1.0            1.0             1.0
+
+ {
+  "contrasts": 9,
+  "genes_per_contrast": 15165,
+  "median_signed_spearman": -0.26277026558573563,
+  "median_magnitude_spearman": 0.6833781187591581,
+  "median_cv_R2": 0.031283506471801004,
+  "residual_cosines": {
+    "RR1": 0.7343196167561512,
+    "RR3-39": 0.8694570003536338,
+    "RR3-40": 0.694494867807117
+  },
+  "decision": "MIXED / INSUFFICIENT EVIDENCE",
+  "note": "Residual attribution is out-of-fold linear residual against signed/absolute expression change, mean expression, and log1p variance; it is not automatically biology."
+}
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_attribution_vs_expression

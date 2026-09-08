@@ -1,0 +1,10 @@
+         analysis                              family  significant_terms  significant_contrasts  independent_osds  best_fdr  median_nes
+Bridge_contextual           RNA processing / splicing                  2                      1                 1  0.001000    2.366966
+Bridge_contextual Chromatin organization / remodeling                  1                      3                 2  0.017414    1.979002
+Bridge_contextual         DNA repair / DNA metabolism                  5                      2                 2  0.014305    1.963221
+Bridge_contextual           Hepatic lipid / metabolic                241                     10                 6  0.001000    2.096531
+ edgeR_expression           RNA processing / splicing                  8                      7                 4  0.001000    1.972852
+ edgeR_expression Chromatin organization / remodeling                 12                      7                 5  0.001000    1.980661
+ edgeR_expression         DNA repair / DNA metabolism                 12                      5                 4  0.001000    1.881476
+ edgeR_expression           Hepatic lipid / metabolic                163                     10                 6  0.001000    1.725252
+[complete] /home/walt/bridge-rna/benchmarks/library_prep_disentanglement/results/task4_confounding_profiler/independent_biological_replication

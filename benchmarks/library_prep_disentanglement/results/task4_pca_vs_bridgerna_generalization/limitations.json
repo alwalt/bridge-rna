@@ -1,0 +1,8 @@
+{
+  "PCA_FULL": "Unavailable for same 40k ARCHS4 samples; not forced.",
+  "leave_one_study_out": "Not run: the 40k reference was capped at at most two samples/GSE, making individual held-out-study estimates 1-2-sample unstable and repeated fold-specific PCA disproportionate. GroupKFold is primary.",
+  "study_prediction": "Not estimable responsibly: every labeled GSE has at most two samples in this preselected reference.",
+  "dataset_disjoint": "Existing balanced GTEx-human/ENCODE-mouse analysis reused as a qualified dataset-plus-species-disjoint secondary result in notebook.",
+  "normalization": "Existing per-sample log1p(TPM); no cohort normalization.",
+  "tissue_labels": "Conservative exact mapping of ARCHS4 free-text source_name_ch1."
+}

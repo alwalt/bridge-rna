@@ -1,0 +1,11 @@
+cohort,dataset,measurement,FLT_n,GC_n,RNA_selection,preservation,PC1_2_occupancy,PolyA_to_Ribo_cosine,signed_PolyA_to_Ribo_projection,directional_label,PC1_coordinate_arbitrary_sign,PC2_coordinate_arbitrary_sign
+RR1 CASIS 21d,OSD-47,original full stratum,2,2,PolyA,on-orbit dissection reported for FLT; Mini Cold Bag,0.045036655911569044,-0.9574112478417616,-0.028185900573326986,PolyA-directed,0.028358652482272963,0.007904606636858517
+RR1 CASIS 22d,OSD-47,original full stratum,1,1,PolyA,on-orbit dissection reported for FLT; Mini Cold Bag,0.7890602744817204,-0.7376946915039346,-0.9149809162339477,PolyA-directed,0.932412499123364,0.8179316534300327
+RR1 NASA upon-euthanasia,OSD-48,original full stratum,2,2,PolyA,upon euthanasia; Mini Cold Bag to -80C,0.5622736195244711,0.6654106824527742,0.24166524581200155,Ribo-directed,-0.24732089524168377,-0.2659579083993751
+RR1 NASA carcass full,OSD-48,original full stratum,5,5,PolyA,carcass; RLT homogenized and snap frozen,0.9377610404067828,-0.7759453573068459,-0.7206126220356696,PolyA-directed,0.7327895390751178,0.5705124324279226
+RR1 carcass matched,OSD-48,matched original,4,5,PolyA,carcass; exact animals with OSD-168 counterpart,0.9327396489113247,-0.7852309478507169,-0.7065299442668174,PolyA-directed,0.7181061117149068,0.5421400556044136
+RR1 carcass matched,OSD-168,no-ERCC remeasurement,4,5,rRNA depletion,same source animal/liver material; identical RNA aliquot not established,0.7798066846497175,0.6259207865814291,0.26822010857487677,Ribo-directed,-0.27519848923725865,-0.32847513129615014
+RR3-39,OSD-137,matched original,2,2,rRNA depletion,liquid nitrogen,0.6778951901206751,-0.6929522675838728,-0.13390225833917174,PolyA-directed,0.13680647645284982,0.13646811037506065
+RR3-39,OSD-168,all-ERCC remeasurement,2,2,rRNA depletion,same RR3 RNA material supported; ERCC,0.54844629088709,-0.6187488443445367,-0.08765950992853465,PolyA-directed,0.08998385255517417,0.10942540147356841
+RR3-40,OSD-137,matched original,2,2,rRNA depletion,liquid nitrogen,0.44660309004066473,0.8202276488117529,0.08144296265292442,Ribo-directed,-0.08262103811353347,-0.055071660689569646
+RR3-40,OSD-168,all-ERCC remeasurement,2,2,rRNA depletion,same RR3 RNA material supported; ERCC,0.6894380992143473,0.7803381666862544,0.11596940845526182,Ribo-directed,-0.11790085119242077,-0.09047429861460887

@@ -1,0 +1,5 @@
+Study,Contrast,Library,RNA_processing_full,RNA_processing_bridge_vocab,Chromatin_full,Chromatin_bridge_vocab,DNA_repair_full,DNA_repair_bridge_vocab,Hepatic_metabolism_full,Hepatic_metabolism_bridge_vocab
+OSD-47,C11__OSD-47__RR1-CASIS__21-day,polyA,NS,NS,NS,NS,NS,NS,NES -1.884; FDR 0.0396,NS
+OSD-47,C12__OSD-47__RR1-CASIS__22-day,polyA,NS,NS,NS,NS,NS,NS,NES -1.881; FDR 0.001,NES +2.528; FDR 0.001
+OSD-48,C13__OSD-48__RR1-NASA__37-day,polyA,NES -2.129; FDR 0.0114,NS,NS,NS,NS,NS,NES -2.268; FDR 0.00145,NES -2.260; FDR 0.00137
+OSD-48,C14__OSD-48__RR1-NASA__37-day,polyA,NES +2.081; FDR 0.00111,NES +1.878; FDR 0.0099,NES +2.320; FDR 0.001,NES +2.325; FDR 0.001,NES +2.198; FDR 0.001,NES +2.240; FDR 0.001,NES +1.944; FDR 0.00402,NES +2.109; FDR 0.001

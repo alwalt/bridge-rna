@@ -1,0 +1,14 @@
+{
+  "definition": "mutual Top-500 same-direction expression/IG; Top-500 positive local graph cosine",
+  "rr1_counts": {
+    "cohort": "RR1",
+    "genes_2plus_evidence": 114,
+    "genes_3of3_evidence": 26,
+    "robust_expression": 179,
+    "robust_attribution": 246,
+    "robust_graph": 476
+  },
+  "program_robust_count": 58,
+  "program_reversing_count": 169,
+  "bridge_inference_rerun": false
+}

@@ -1,0 +1,13 @@
+cohort,OSD,condition,n,animal_ids,library_preparation,sequencing_configuration,sequencing_facility,preservation,strain,sex,RIN_median,RIN_min,RIN_max
+RR1 Ribo remeasurement,OSD-168,FLT,4,M25; M26; M28; M30,ribodepleted,PE 150bp 100M,UC Davis,Liquid Nitrogen,C57BL/6J,Female,9.05,8.1,9.1
+RR1 Ribo remeasurement,OSD-168,GC,5,M36; M37; M38; M39; M40,ribodepleted,PE 150bp 100M,UC Davis,Liquid Nitrogen,C57BL/6J,Female,8.0,7.9,9.2
+RR1 carcass,OSD-48,FLT,4,M25; M26; M28; M30,polyA,SE 50bp 30M,UC Davis,Mini Cold Bag to -80C freezer,C57BL/6J,Female,8.55,7.7,9.1
+RR1 carcass,OSD-48,GC,5,M36; M37; M38; M39; M40,polyA,SE 50bp 30M,UC Davis,Mini Cold Bag to -80C freezer,C57BL/6J,Female,8.0,7.9,9.2
+RR3-39,OSD-137,FLT,2,F1; F2,ribodepleted,PE 150bp 100M,UC Davis,Liquid Nitrogen,BALB/c,Female,7.3,7.3,7.3
+RR3-39,OSD-137,GC,2,G1; G2,ribodepleted,PE 150bp 100M,UC Davis,Liquid Nitrogen,BALB/c,Female,7.199999999999999,7.1,7.3
+RR3-39 technical remeasurement,OSD-168,FLT,2,F1; F2,ribodepleted,PE 150bp 100M,UC Davis,Liquid Nitrogen,BALB/c,Female,7.3,7.3,7.3
+RR3-39 technical remeasurement,OSD-168,GC,2,G1; G2,ribodepleted,PE 150bp 100M,UC Davis,Liquid Nitrogen,BALB/c,Female,7.199999999999999,7.1,7.3
+RR3-40,OSD-137,FLT,2,F3; F4,ribodepleted,PE 150bp 100M,UC Davis,Liquid Nitrogen,BALB/c,Female,7.1,6.7,7.5
+RR3-40,OSD-137,GC,2,G3; G5,ribodepleted,PE 150bp 100M,UC Davis,Liquid Nitrogen,BALB/c,Female,7.35,6.9,7.8
+RR3-40 technical remeasurement,OSD-168,FLT,2,F3; F4,ribodepleted,PE 150bp 100M,UC Davis,Liquid Nitrogen,BALB/c,Female,7.1,6.7,7.5
+RR3-40 technical remeasurement,OSD-168,GC,2,G3; G5,ribodepleted,PE 150bp 100M,UC Davis,Liquid Nitrogen,BALB/c,Female,7.35,6.9,7.8

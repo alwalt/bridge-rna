@@ -1,0 +1,11 @@
+{
+  "decision": "C. GLOBAL BASELINES ARE SUFFICIENT",
+  "best_sample_retrieval": "Raw expression",
+  "best_response_retrieval": "BridgeRNA global mean",
+  "contextual_response_MRR": 0.4322916666666666,
+  "transparent_reranking_MRR": 0.478125,
+  "global_mean_response_MRR": 0.890625,
+  "recount3_contextual_reranking": "unavailable",
+  "reranking_K_test": "not distinct because response corpus <25",
+  "claim": "retrieved transcriptomic analogue, not mechanistic equivalence"
+}

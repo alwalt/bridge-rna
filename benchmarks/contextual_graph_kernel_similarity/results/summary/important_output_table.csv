@@ -1,0 +1,14 @@
+Method,Technical MRR,Tissue MRR,Perturbation MRR,RR3-39 rank,RR3-40 rank,RR1 rank,False-friend rank,Null degradation,Runtime seconds
+Raw,,,,,,,,,
+PCA,,,,,,,,,
+Bridge mean,,,,,,,,,
+Hallmark mean+SD,,,,,,,,,
+Edge Jaccard,,,,,,,,,
+Neighborhood Jaccard,,,,,,,,,
+Weighted edge,,,,,,,,,
+WL identity-aware,0.019162642811339132,0.23126053510880545,,,,,,,70.11542391777039
+WL structural,0.0642986648006284,0.2677205646957767,,,,,,,65.41395044326782
+Shortest-path,0.03542243698743965,0.22601015756607937,,,,,,,804.797030210495
+Graphlet,0.057938309154147626,0.19685298017446928,,,,,,,70.19752359390259
+Spectral,0.08405089404875271,0.33473232514807094,,,,,,,128.77092099189758
+Propagation,,,,,,,,,

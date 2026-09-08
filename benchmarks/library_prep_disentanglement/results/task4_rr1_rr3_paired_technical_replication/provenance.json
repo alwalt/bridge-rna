@@ -1,0 +1,7 @@
+{
+  "RR1_primary_remeasurement": "OSD-168 no-ERCC, preserving established -0.804 comparison",
+  "RR3_remeasurement": "OSD-168 ERCC",
+  "basis": "unchanged T-cell PC1-2",
+  "bootstrap_replicates": 5000,
+  "correction": false
+}

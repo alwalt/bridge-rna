@@ -1,0 +1,7 @@
+{
+  "backbone_frozen": true,
+  "sample_memberships_changed": false,
+  "contrast_definitions": "Exact strict mappings from analyze_multilayer_reproducibility.py",
+  "selected_readout": "layer 12 token mean concatenated with population SD (1024D)",
+  "baseline_validation_tolerance": 0.015
+}
