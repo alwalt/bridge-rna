@@ -1,0 +1,37 @@
+data_type,module,comparison,genes,cosine,spearman,direction_agreement
+Exact matched mean Δlog1p(TPM),Mitochondrial respiration / OXPHOS,RR1 ↔ RR3-39,307,-0.41788992285728455,-0.3371358136839402,0.30944625407166126
+Raw-count edgeR log2FC (original cohorts),Mitochondrial respiration / OXPHOS,RR1 ↔ RR3-39,269,-0.03002455477314908,-0.09293865246259408,0.49814126394052044
+Exact matched mean Δlog1p(TPM),Mitochondrial respiration / OXPHOS,RR1 ↔ RR3-40,307,-0.2043786197900772,-0.1083897674433161,0.3550488599348534
+Raw-count edgeR log2FC (original cohorts),Mitochondrial respiration / OXPHOS,RR1 ↔ RR3-40,269,0.12603550719700635,0.08500557929065947,0.5464684014869888
+Exact matched mean Δlog1p(TPM),Mitochondrial respiration / OXPHOS,RR3-39 ↔ RR3-40,307,0.3454515039920807,0.3205882084576533,0.6807817589576547
+Raw-count edgeR log2FC (original cohorts),Mitochondrial respiration / OXPHOS,RR3-39 ↔ RR3-40,274,0.4074308494144051,0.3309405922544609,0.6751824817518248
+Exact matched mean Δlog1p(TPM),Cytosolic translation / ribosome,RR1 ↔ RR3-39,264,-0.5379391312599182,-0.5289710361379777,0.2727272727272727
+Raw-count edgeR log2FC (original cohorts),Cytosolic translation / ribosome,RR1 ↔ RR3-39,258,0.13622318204367298,-0.16571501242571735,0.5038759689922481
+Exact matched mean Δlog1p(TPM),Cytosolic translation / ribosome,RR1 ↔ RR3-40,264,-0.2496872842311859,-0.062457199877387834,0.2689393939393939
+Raw-count edgeR log2FC (original cohorts),Cytosolic translation / ribosome,RR1 ↔ RR3-40,258,0.24060664619162023,-0.04286863747546039,0.5348837209302325
+Exact matched mean Δlog1p(TPM),Cytosolic translation / ribosome,RR3-39 ↔ RR3-40,264,0.5681421160697937,0.26787561387604425,0.7234848484848485
+Raw-count edgeR log2FC (original cohorts),Cytosolic translation / ribosome,RR3-39 ↔ RR3-40,259,0.8049523897931468,0.42811833044391184,0.722007722007722
+Exact matched mean Δlog1p(TPM),Macromolecule biosynthesis,RR1 ↔ RR3-39,189,-0.5228080749511719,-0.42233692017519214,0.3544973544973545
+Raw-count edgeR log2FC (original cohorts),Macromolecule biosynthesis,RR1 ↔ RR3-39,162,-0.0529741770147042,0.07493638515244276,0.5123456790123457
+Exact matched mean Δlog1p(TPM),Macromolecule biosynthesis,RR1 ↔ RR3-40,189,-0.43257445096969604,-0.3285321521265869,0.2962962962962963
+Raw-count edgeR log2FC (original cohorts),Macromolecule biosynthesis,RR1 ↔ RR3-40,162,0.03155104370344451,0.07648035948916183,0.5
+Exact matched mean Δlog1p(TPM),Macromolecule biosynthesis,RR3-39 ↔ RR3-40,189,0.38237789273262024,0.399936720843461,0.6878306878306878
+Raw-count edgeR log2FC (original cohorts),Macromolecule biosynthesis,RR3-39 ↔ RR3-40,165,0.5185825058183697,0.46634787486976736,0.7393939393939394
+Exact matched mean Δlog1p(TPM),Mitochondrial translation / gene expression,RR1 ↔ RR3-39,112,-0.2966867983341217,-0.3684781494516008,0.35714285714285715
+Raw-count edgeR log2FC (original cohorts),Mitochondrial translation / gene expression,RR1 ↔ RR3-39,112,0.3446892254823245,-0.07446953907130897,0.48214285714285715
+Exact matched mean Δlog1p(TPM),Mitochondrial translation / gene expression,RR1 ↔ RR3-40,112,-0.016478687524795532,0.02012505552328561,0.25892857142857145
+Raw-count edgeR log2FC (original cohorts),Mitochondrial translation / gene expression,RR1 ↔ RR3-40,112,0.3625187804733245,-0.06837906174189361,0.4642857142857143
+Exact matched mean Δlog1p(TPM),Mitochondrial translation / gene expression,RR3-39 ↔ RR3-40,112,0.6285489201545715,0.25167424061229376,0.7410714285714286
+Raw-count edgeR log2FC (original cohorts),Mitochondrial translation / gene expression,RR3-39 ↔ RR3-40,112,0.871285555881675,0.3436549697611645,0.7321428571428571
+Exact matched mean Δlog1p(TPM),Amino-acid metabolism,RR1 ↔ RR3-39,296,-0.33639901876449585,-0.4062705003513614,0.3141891891891892
+Raw-count edgeR log2FC (original cohorts),Amino-acid metabolism,RR1 ↔ RR3-39,256,-0.026393048637548648,-0.10134184023804073,0.51953125
+Exact matched mean Δlog1p(TPM),Amino-acid metabolism,RR1 ↔ RR3-40,296,-0.3068614602088928,-0.231724767539057,0.34121621621621623
+Raw-count edgeR log2FC (original cohorts),Amino-acid metabolism,RR1 ↔ RR3-40,256,-0.12036316569100394,-0.09008855001144425,0.50390625
+Exact matched mean Δlog1p(TPM),Amino-acid metabolism,RR3-39 ↔ RR3-40,296,0.22831209003925323,0.2429409385137983,0.6283783783783784
+Raw-count edgeR log2FC (original cohorts),Amino-acid metabolism,RR3-39 ↔ RR3-40,259,0.261021378315431,0.254047837768768,0.6640926640926641
+Exact matched mean Δlog1p(TPM),Protein localization / mitochondrial import,RR1 ↔ RR3-39,149,-0.17442704737186432,-0.23107201160892438,0.33557046979865773
+Raw-count edgeR log2FC (original cohorts),Protein localization / mitochondrial import,RR1 ↔ RR3-39,144,0.0008294208930117891,0.10476649786994616,0.4861111111111111
+Exact matched mean Δlog1p(TPM),Protein localization / mitochondrial import,RR1 ↔ RR3-40,149,-0.13551978766918182,0.15825503355704698,0.3691275167785235
+Raw-count edgeR log2FC (original cohorts),Protein localization / mitochondrial import,RR1 ↔ RR3-40,144,0.06617988641121142,0.2831283658869866,0.5833333333333334
+Exact matched mean Δlog1p(TPM),Protein localization / mitochondrial import,RR3-39 ↔ RR3-40,149,0.1478201001882553,0.13077090513332126,0.5771812080536913
+Raw-count edgeR log2FC (original cohorts),Protein localization / mitochondrial import,RR3-39 ↔ RR3-40,145,0.2451668759896797,0.21825696740670758,0.6137931034482759

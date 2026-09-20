@@ -1,0 +1,12 @@
+{
+  "analysis": "matched original/technical-remeasurement conventional native versus Bridge-vocabulary raw-count edgeR and ranked GSEA",
+  "BridgeRNA_or_IG_rerun": false,
+  "membership": "benchmarks/library_prep_disentanglement/results/task4_rr1_rr3_paired_technical_replication/animal_mapping.csv",
+  "GSEA_permutations": 1000,
+  "GSEA_seed": 43019,
+  "pathway_resources": {
+    "GO:BP": "GO_Biological_Process_2026.gmt",
+    "KEGG": "KEGG_2026.gmt",
+    "REAC": "Reactome_Pathways_2024.gmt"
+  }
+}

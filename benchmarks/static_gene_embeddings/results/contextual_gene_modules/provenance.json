@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "unit": "one cohort-mean 512-D contextual vector per gene",
+  "samples": {
+    "GTEx": 200,
+    "TCGA": 200
+  },
+  "layers": {
+    "L0_static": 0,
+    "L1_early": 1,
+    "L6_middle": 6,
+    "L12_final": 12
+  },
+  "clustering": {
+    "algorithm": "ordinary Euclidean KMeans on original unnormalized 512-D cohort-mean tokens",
+    "k": 10,
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "n_init": 10
+  },
+  "silhouette": "Euclidean, deterministic 3000-gene sample",
+  "enrichment_background": "library-annotated intersection of canonical 15165 model genes; BH within cluster/library",
+  "matched_projection": "joint PCA50 then joint t-SNE/UMAP per layer over all 15165 genes in both cohorts; identical parameters",
+  "tpm_association": [
+    "Spearman embedding norm vs mean log1p TPM",
+    "Spearman pair cosine vs negative absolute TPM difference, 200k pairs",
+    "cluster TPM eta squared and expression-decile NMI",
+    "top25 neighbor TPM difference versus random pairs"
+  ],
+  "limitations": [
+    "cohort averaging targets shared contextual modules and does not replace existing within-sample clustering",
+    "normal tissues and tumors are not paired conditions",
+    "visual projections are exploratory"
+  ],
+  "elapsed_seconds": 1055.2061049938202
+}

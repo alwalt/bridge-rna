@@ -1,0 +1,8 @@
+[2026-09-19T22:41:48.582027+00:00] Static embedding benchmark started
+[2026-09-19T22:41:50.071921+00:00] Extracted model_state_dict.gene_embedding.weight (15,165 x 512)
+[2026-09-19T22:41:58.495170+00:00] Computed mean TPM from 25,370 cached samples belonging to the model training split
+[2026-09-19T22:41:59.114448+00:00] Fitting PCA(50) followed by t-SNE
+[2026-09-19T22:42:43.378868+00:00] Fitting k-means k=10 on original 512-D embedding
+[2026-09-19T22:43:58.960845+00:00] Testing GO enrichment for all clusters
+[2026-09-19T22:44:05.895105+00:00] Testing KEGG enrichment for all clusters
+[2026-09-19T22:44:08.891393+00:00] Complete in 2.3 minutes

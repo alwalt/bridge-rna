@@ -1,0 +1,19 @@
+module,cohort,signed_response,response_magnitude,pathways
+Amino-acid metabolism,RR1,8.309436082892269,8.309436082892269,1
+Amino-acid metabolism,RR3-39,-8.580360450589792,8.580360450589792,1
+Amino-acid metabolism,RR3-40,-6.569340989951433,6.569340989951433,1
+Cytosolic translation / ribosome,RR1,7.55247636825287,7.55247636825287,13
+Cytosolic translation / ribosome,RR3-39,-6.311590240295037,6.311590240295037,13
+Cytosolic translation / ribosome,RR3-40,-6.283518140253419,6.283518140253419,13
+Macromolecule biosynthesis,RR1,7.356851531955835,7.356851531955835,1
+Macromolecule biosynthesis,RR3-39,-4.734441502412077,4.734441502412077,1
+Macromolecule biosynthesis,RR3-40,-5.224376971445464,5.224376971445464,1
+Mitochondrial respiration / OXPHOS,RR1,6.707244613962565,6.707244613962565,6
+Mitochondrial respiration / OXPHOS,RR3-39,-6.817122516657604,6.817122516657604,6
+Mitochondrial respiration / OXPHOS,RR3-40,-6.9382756575267495,6.9382756575267495,6
+Mitochondrial translation / gene expression,RR1,6.328549840774201,6.328549840774201,6
+Mitochondrial translation / gene expression,RR3-39,-7.119369440608712,7.119369440608712,6
+Mitochondrial translation / gene expression,RR3-40,-8.728499755874813,8.728499755874813,6
+Protein localization / mitochondrial import,RR1,9.214103943115022,9.214103943115022,2
+Protein localization / mitochondrial import,RR3-39,-5.22867026366788,5.22867026366788,2
+Protein localization / mitochondrial import,RR3-40,-5.153374506024958,5.153374506024958,2

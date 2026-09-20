@@ -1,0 +1,40 @@
+{
+  "status": "complete",
+  "analysis_profile": "exploratory",
+  "confirmatory_inference": false,
+  "genes": 15165,
+  "representations": {
+    "raw": "checkpoint tensor unchanged",
+    "l2_cosine": "row-wise unit L2 norm",
+    "layernorm": "post-hoc row-wise mean zero/unit variance with eps=1e-5; not a retrained model"
+  },
+  "primary_k": 10,
+  "secondary_k": [
+    5,
+    10,
+    20
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "kmeans_n_init": 3,
+  "silhouette_sample_size": 1000,
+  "nearest_neighbor_k": [
+    10,
+    25,
+    50
+  ],
+  "nearest_neighbors": "exact GPU/CPU matrix geometry",
+  "nulls": {
+    "annotation_random_neighbor_reps": 10,
+    "cluster_label_permutation_reps": 10,
+    "featurewise_shuffled_vector_reps": 1
+  },
+  "visualization": "PCA; t-SNE and UMAP exploratory only",
+  "limitations": [
+    "exploratory profile uses too few null replicates for precise tail probabilities"
+  ],
+  "elapsed_seconds": 472.16746258735657
+}

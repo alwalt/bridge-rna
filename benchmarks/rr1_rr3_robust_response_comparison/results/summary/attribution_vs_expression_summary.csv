@@ -1,0 +1,10 @@
+cohort,gene_set,genes,median_abs_expression_effect,median_expression_rank,median_attribution_rank
+RR1,Attribution only,200,0.27575922,2312.25,170.75
+RR1,Expression only,133,0.62984097,177.5,1411.5
+RR1,Robust expression (all),179,0.65727615,157.5,981.0
+RR3-39,Attribution only,271,0.1290431,2951.0,207.0
+RR3-39,Expression only,201,0.3955776,199.0,1732.0
+RR3-39,Robust expression (all),262,0.39640954,186.75,1232.75
+RR3-40,Attribution only,247,0.1571927,2124.0,231.5
+RR3-40,Expression only,271,0.4133107,228.0,1677.5
+RR3-40,Robust expression (all),381,0.4311049,201.0,1013.0

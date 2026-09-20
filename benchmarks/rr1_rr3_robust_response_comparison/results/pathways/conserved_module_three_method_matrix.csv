@@ -1,0 +1,55 @@
+module,cohort,method,support,signed_score,supported_terms,module_terms,direction,provenance
+Amino-acid metabolism,RR1,DE/GSEA,False,,0,1,not significant,raw-count edgeR ranked GSEA; original full stratum
+Amino-acid metabolism,RR1,IG enrichment,True,2.110908031463623,1,1,positive contribution,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Amino-acid metabolism,RR1,Contextual pathway profile,True,8.309436082892269,1,1,positive,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Cytosolic translation / ribosome,RR1,DE/GSEA,False,,0,13,not significant,raw-count edgeR ranked GSEA; original full stratum
+Cytosolic translation / ribosome,RR1,IG enrichment,False,,0,13,not significant,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Cytosolic translation / ribosome,RR1,Contextual pathway profile,True,7.4016455843579685,13,13,positive,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Macromolecule biosynthesis,RR1,DE/GSEA,False,,0,1,not significant,raw-count edgeR ranked GSEA; original full stratum
+Macromolecule biosynthesis,RR1,IG enrichment,False,,0,1,not significant,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Macromolecule biosynthesis,RR1,Contextual pathway profile,True,7.356851531955835,1,1,positive,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Mitochondrial respiration / OXPHOS,RR1,DE/GSEA,False,,0,6,not significant,raw-count edgeR ranked GSEA; original full stratum
+Mitochondrial respiration / OXPHOS,RR1,IG enrichment,True,1.8619797229766846,3,6,positive contribution,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Mitochondrial respiration / OXPHOS,RR1,Contextual pathway profile,True,6.573160012892134,6,6,positive,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Mitochondrial translation / gene expression,RR1,DE/GSEA,False,,0,6,not significant,raw-count edgeR ranked GSEA; original full stratum
+Mitochondrial translation / gene expression,RR1,IG enrichment,False,,0,6,not significant,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Mitochondrial translation / gene expression,RR1,Contextual pathway profile,True,6.255056842376261,6,6,positive,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Protein localization / mitochondrial import,RR1,DE/GSEA,False,,0,2,not significant,raw-count edgeR ranked GSEA; original full stratum
+Protein localization / mitochondrial import,RR1,IG enrichment,True,2.7860708236694336,1,2,positive contribution,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Protein localization / mitochondrial import,RR1,Contextual pathway profile,True,9.214103943115022,2,2,positive,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Amino-acid metabolism,RR3-39,DE/GSEA,True,2.7018897800646804,1,1,positive,raw-count edgeR ranked GSEA; original full stratum
+Amino-acid metabolism,RR3-39,IG enrichment,True,-2.1771609783172607,1,1,negative contribution,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Amino-acid metabolism,RR3-39,Contextual pathway profile,True,-8.580360450589792,1,1,negative,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Cytosolic translation / ribosome,RR3-39,DE/GSEA,True,2.827398199436622,13,13,positive,raw-count edgeR ranked GSEA; original full stratum
+Cytosolic translation / ribosome,RR3-39,IG enrichment,False,,0,13,not significant,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Cytosolic translation / ribosome,RR3-39,Contextual pathway profile,True,-5.9259316077938315,13,13,negative,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Macromolecule biosynthesis,RR3-39,DE/GSEA,True,2.3352972304245947,1,1,positive,raw-count edgeR ranked GSEA; original full stratum
+Macromolecule biosynthesis,RR3-39,IG enrichment,False,,0,1,not significant,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Macromolecule biosynthesis,RR3-39,Contextual pathway profile,True,-4.734441502412077,1,1,negative,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Mitochondrial respiration / OXPHOS,RR3-39,DE/GSEA,True,2.6468330770580595,6,6,positive,raw-count edgeR ranked GSEA; original full stratum
+Mitochondrial respiration / OXPHOS,RR3-39,IG enrichment,True,-1.9001216888427734,2,6,negative contribution,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Mitochondrial respiration / OXPHOS,RR3-39,Contextual pathway profile,True,-6.898932005832918,6,6,negative,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Mitochondrial translation / gene expression,RR3-39,DE/GSEA,True,2.423690143747973,6,6,positive,raw-count edgeR ranked GSEA; original full stratum
+Mitochondrial translation / gene expression,RR3-39,IG enrichment,False,,0,6,not significant,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Mitochondrial translation / gene expression,RR3-39,Contextual pathway profile,True,-7.184422505968022,6,6,negative,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Protein localization / mitochondrial import,RR3-39,DE/GSEA,True,2.296761935881129,2,2,positive,raw-count edgeR ranked GSEA; original full stratum
+Protein localization / mitochondrial import,RR3-39,IG enrichment,True,2.848550796508789,1,2,positive contribution,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Protein localization / mitochondrial import,RR3-39,Contextual pathway profile,True,-5.22867026366788,2,2,negative,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Amino-acid metabolism,RR3-40,DE/GSEA,True,1.8584411527085467,1,1,positive,raw-count edgeR ranked GSEA; original full stratum
+Amino-acid metabolism,RR3-40,IG enrichment,True,1.5621638298034668,1,1,positive contribution,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Amino-acid metabolism,RR3-40,Contextual pathway profile,True,-6.569340989951433,1,1,negative,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Cytosolic translation / ribosome,RR3-40,DE/GSEA,True,2.4904739146703365,13,13,positive,raw-count edgeR ranked GSEA; original full stratum
+Cytosolic translation / ribosome,RR3-40,IG enrichment,False,,0,13,not significant,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Cytosolic translation / ribosome,RR3-40,Contextual pathway profile,True,-5.152768320711887,13,13,negative,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Macromolecule biosynthesis,RR3-40,DE/GSEA,False,,0,1,not significant,raw-count edgeR ranked GSEA; original full stratum
+Macromolecule biosynthesis,RR3-40,IG enrichment,False,,0,1,not significant,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Macromolecule biosynthesis,RR3-40,Contextual pathway profile,True,-5.224376971445464,1,1,negative,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Mitochondrial respiration / OXPHOS,RR3-40,DE/GSEA,True,2.061281208751558,5,6,positive,raw-count edgeR ranked GSEA; original full stratum
+Mitochondrial respiration / OXPHOS,RR3-40,IG enrichment,True,1.4119383096694946,1,6,positive contribution,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Mitochondrial respiration / OXPHOS,RR3-40,Contextual pathway profile,True,-7.175128152566384,6,6,negative,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Mitochondrial translation / gene expression,RR3-40,DE/GSEA,True,1.8642324759125934,5,6,positive,raw-count edgeR ranked GSEA; original full stratum
+Mitochondrial translation / gene expression,RR3-40,IG enrichment,False,,0,6,not significant,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Mitochondrial translation / gene expression,RR3-40,Contextual pathway profile,True,-8.447592353800719,6,6,negative,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign
+Protein localization / mitochondrial import,RR3-40,DE/GSEA,False,,0,2,not significant,raw-count edgeR ranked GSEA; original full stratum
+Protein localization / mitochondrial import,RR3-40,IG enrichment,True,-1.1419713497161865,1,2,negative contribution,ORA of reproducible IG genes; FDR<0.05; direction from median standardized signed IG among robust member genes
+Protein localization / mitochondrial import,RR3-40,Contextual pathway profile,True,-5.153374506024958,2,2,negative,contextual gene response projected into controlled T-cell PC1-2; mutual Top-250 and concordant sign

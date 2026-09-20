@@ -1,0 +1,16 @@
+[2026-09-19T23:10:33.261653+00:00] Profile=exploratory; seeds=[42, 43, 44]; K=[5, 10, 20]; n_init=3; annotation_nulls=10; vector_nulls=1
+[2026-09-19T23:10:37.414506+00:00] PCA complete: raw
+[2026-09-19T23:11:26.338350+00:00] Clustering complete: raw
+[2026-09-19T23:11:35.960209+00:00] Random-vector null complete: raw
+[2026-09-19T23:12:48.451091+00:00] Visual projections complete: raw
+[2026-09-19T23:13:24.358362+00:00] PCA complete: l2_cosine
+[2026-09-19T23:13:58.839409+00:00] Clustering complete: l2_cosine
+[2026-09-19T23:14:09.595245+00:00] Random-vector null complete: l2_cosine
+[2026-09-19T23:15:06.725015+00:00] Visual projections complete: l2_cosine
+[2026-09-19T23:15:41.355963+00:00] PCA complete: layernorm
+[2026-09-19T23:16:21.259297+00:00] Clustering complete: layernorm
+[2026-09-19T23:16:32.548515+00:00] Random-vector null complete: layernorm
+[2026-09-19T23:17:33.277760+00:00] Visual projections complete: layernorm
+[2026-09-19T23:18:09.059202+00:00] Neighborhood annotation tests complete: go
+[2026-09-19T23:18:10.637657+00:00] Neighborhood annotation tests complete: kegg
+[2026-09-19T23:18:25.429306+00:00] Complete elapsed=7.9m

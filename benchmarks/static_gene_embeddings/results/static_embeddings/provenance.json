@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-19T22:44:07.926316+00:00",
+  "checkpoint": "model/r7hnr92k/best_model.pt",
+  "checkpoint_sha256": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541",
+  "embedding_tensor": "model_state_dict.gene_embedding.weight",
+  "embedding_shape": [
+    15165,
+    512
+  ],
+  "canonical_vocabulary": "data/ensembl/canonical_genes.csv",
+  "canonical_vocabulary_sha256": "1dbe9a5753e5982b3ddb383f35e92ce5795c21fc054fff685514831c8dadbb8d",
+  "training_split": "data/archs4/training/sample_split/train_samples.parquet",
+  "training_split_sha256": "e3e9e45ab6b27eabcae768799566cc0eca089965508fb368d061c79de70efa60",
+  "expression": {
+    "samples": 25370,
+    "samples_by_species": {
+      "human": 25370
+    },
+    "sampled": true,
+    "sampling_frame": "intersection of existing 40,000-sample canonical expression cache with model training split",
+    "cache_representation": "natural log1p(TPM); inverted with expm1 before arithmetic mean",
+    "full_training_samples": 640000,
+    "coverage_fraction": 0.039640625,
+    "statistic": "arithmetic mean of per-sample TPM",
+    "normalization": "species-specific exon-length TPM on canonical vocabulary",
+    "pseudocount_for_color_only": 0.001
+  },
+  "tsne": {
+    "input": "PCA(50) of raw 512-D embedding",
+    "perplexity": 30,
+    "init": "pca",
+    "learning_rate": "auto",
+    "max_iter": 1500,
+    "seed": 42
+  },
+  "kmeans": {
+    "input": "raw 512-D embedding",
+    "k": 10,
+    "n_init": 50,
+    "algorithm": "lloyd",
+    "seed": 42,
+    "reported_cluster": "zero-based sklearn label + 1"
+  },
+  "enrichment": {
+    "method": "one-sided hypergeometric over-representation; BH within cluster/library",
+    "term_size_filter": [
+      5,
+      2000
+    ],
+    "go": {
+      "library_terms_loaded": 5952,
+      "terms_tested_per_cluster": 5614,
+      "annotated_background_genes": 12692
+    },
+    "kegg": {
+      "library_terms_loaded": 352,
+      "terms_tested_per_cluster": 348,
+      "annotated_background_genes": 6576
+    },
+    "go_gmt_sha256": "e66a63e8f5e48aed53b5f6f1a1cc878fa562f913371916c4e367a3e6aa918cc4",
+    "kegg_gmt_sha256": "e60ac13704e597fced70bb845a59ba4baf16ebc73fcfd6e9b90833c867965424"
+  },
+  "limitations": [
+    "the cached training-expression reference contains human samples only and covers a subset of the full model training manifest",
+    "t-SNE preserves local neighborhoods but not global distances or cluster geometry",
+    "k-means cluster identifiers are arbitrary deterministic labels, not biological ranks",
+    "enrichment is descriptive and does not validate that embedding clusters encode causal biology"
+  ],
+  "elapsed_seconds": 140.3043357282877
+}

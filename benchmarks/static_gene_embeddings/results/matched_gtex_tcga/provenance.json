@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "profile": "exploratory",
+  "samples_per_context": 20,
+  "contexts_per_dataset": 10,
+  "total_samples": 400,
+  "preprocessing": {
+    "GTEx": "raw counts -> GENCODE v49 exon-length TPM -> natural log1p, canonical 15165 order",
+    "TCGA": "source counts -> GENCODE v49 exon-length TPM -> natural log1p, canonical 15165 order"
+  },
+  "shared_model": "frozen r7hnr92k",
+  "layers": {
+    "L0_static": 0,
+    "L1_early": 1,
+    "L6_middle": 6,
+    "L12_final": 12
+  },
+  "neighbor_parameters": {
+    "k": [
+      10,
+      25,
+      50
+    ],
+    "geometries": [
+      "raw_cosine",
+      "mean_centered_cosine"
+    ],
+    "null_reps": 10
+  },
+  "clustering": "within-sample centered-cosine spherical k-means k=10, seeds 42/43, 8 iterations; each assignment reused for GO and KEGG; L0 computed once because sample invariant",
+  "context_dependence": "genome-wide exact mean same-gene cosine within versus across contexts from unit-vector sufficient statistics",
+  "visualization": "fixed 2000-gene sample; joint PCA50 and joint t-SNE/UMAP per layer; identical parameters and seed",
+  "limitations": [
+    "GTEx normal tissues and TCGA tumor cohorts are not paired biological conditions",
+    "token-heavy neighbor/clustering endpoints are exploratory",
+    "L0 repeated samples are collapsed because identical"
+  ],
+  "elapsed_seconds": 4221.302319288254
+}

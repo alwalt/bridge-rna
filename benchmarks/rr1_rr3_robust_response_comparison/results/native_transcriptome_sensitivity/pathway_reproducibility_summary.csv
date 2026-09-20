@@ -1,0 +1,7 @@
+cohort,gene_universe,pathways_compared,NES_spearman,robust_pathways,reversing_pathways,significant_original,significant_remeasurement
+RR1,native,4615,0.4935918949797314,5,9,85,494
+RR3-39,native,4724,0.7862058166706533,248,1,322,403
+RR3-40,native,4714,0.8733043904024985,43,0,110,62
+RR1,bridge_vocab,4426,0.5227357779608091,15,0,87,260
+RR3-39,bridge_vocab,4567,0.7818265179193946,230,1,307,362
+RR3-40,bridge_vocab,4548,0.8705431668233287,65,0,121,75

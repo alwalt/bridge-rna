@@ -1,0 +1,20 @@
+{
+  "method": "full signed input-gene IG pathway profiles; no T-cell projection",
+  "criterion": "mutual Top-250 absolute pathway profile with concordant sign across original and remeasurement",
+  "robust_pathways": {
+    "RR1": 125,
+    "RR3-39": 178,
+    "RR3-40": 200
+  },
+  "shared_all_three": 22,
+  "collapsed_themes": [
+    "Amino-acid and central-carbon metabolism",
+    "ER stress / integrated stress response",
+    "Fluid and water transport",
+    "IGF-receptor signaling",
+    "Innate immune and complement regulation",
+    "Lipid, carnitine, and bile metabolism",
+    "Stress and metabolic transcription"
+  ],
+  "former_pc12_core": "29-pathway/six-module result retained only as secondary T-cell PolyA/ribo technical control"
+}

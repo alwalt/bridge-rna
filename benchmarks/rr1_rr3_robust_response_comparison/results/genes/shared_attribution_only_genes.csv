@@ -1,0 +1,153 @@
+gene_symbol,cohorts,cohort_count,RR1_attribution_only,RR1_expression_rank_mean,RR1_attribution_rank_mean,RR1_graph_support,RR3-39_attribution_only,RR3-39_expression_rank_mean,RR3-39_attribution_rank_mean,RR3-39_graph_support,RR3-40_attribution_only,RR3-40_expression_rank_mean,RR3-40_attribution_rank_mean,RR3-40_graph_support
+ACOT13,RR1; RR3-39; RR3-40,3,True,2172.0,279.0,False,True,1552.5,130.5,False,True,1379.5,302.0,False
+AGXT2,RR1; RR3-39; RR3-40,3,True,7204.0,41.5,False,True,2932.0,18.5,False,True,660.5,5.5,False
+AMACR,RR1; RR3-39; RR3-40,3,True,1694.5,54.5,False,True,4172.0,9.5,False,True,7779.0,57.5,False
+APOE,RR1; RR3-39; RR3-40,3,True,2657.5,19.5,False,True,5392.0,46.5,False,True,9685.5,14.5,False
+AQP9,RR1; RR3-39; RR3-40,3,True,1131.5,4.0,False,True,1407.5,23.0,False,True,1207.5,13.0,True
+ASGR2,RR1; RR3-39; RR3-40,3,True,984.0,8.5,False,True,6017.5,58.5,False,True,2234.5,137.0,False
+B2M,RR1; RR3-39; RR3-40,3,True,4979.5,88.5,False,True,3441.0,207.0,False,True,11187.5,164.5,False
+CEBPA,RR1; RR3-39; RR3-40,3,True,1788.5,75.0,False,True,1333.0,34.0,False,True,761.0,33.5,False
+CERS2,RR1; RR3-39; RR3-40,3,True,8434.0,202.0,False,True,1395.5,74.5,False,True,1275.0,79.5,False
+CTSB,RR1; RR3-39; RR3-40,3,True,6490.0,131.5,False,True,5641.0,120.5,False,True,3721.0,117.0,False
+CXXC5,RR1; RR3-39; RR3-40,3,True,6667.0,326.5,False,True,670.0,34.5,False,True,3073.0,151.5,False
+CYP2F1,RR1; RR3-39; RR3-40,3,True,5477.5,274.0,False,True,10109.5,178.0,False,True,5109.5,73.0,False
+DPP4,RR1; RR3-39; RR3-40,3,True,6165.5,16.0,False,True,4738.0,18.5,False,True,3850.0,97.5,False
+ECHDC3,RR1; RR3-39; RR3-40,3,True,1076.0,102.0,False,True,10760.5,128.5,True,True,1144.0,47.5,False
+EMG1,RR1; RR3-39; RR3-40,3,True,4218.5,19.0,False,True,3512.0,32.5,False,True,2405.0,229.5,False
+ERBB3,RR1; RR3-39; RR3-40,3,True,715.5,105.0,False,True,1882.5,37.0,False,True,1676.5,54.0,False
+F10,RR1; RR3-39; RR3-40,3,True,8277.5,89.5,False,True,5892.0,296.5,True,True,4154.0,132.5,False
+GCKR,RR1; RR3-39; RR3-40,3,True,2837.0,128.0,False,True,9645.0,24.5,False,True,807.5,36.5,True
+HPX,RR1; RR3-39; RR3-40,3,True,2456.0,75.5,False,True,1483.0,5.5,False,True,2567.0,9.0,False
+ITGA7,RR1; RR3-39; RR3-40,3,True,6370.0,217.0,False,True,3723.0,212.0,False,True,958.5,73.5,False
+KYNU,RR1; RR3-39; RR3-40,3,True,2498.0,90.0,False,True,6485.5,222.0,False,True,940.5,52.5,True
+MDH1,RR1; RR3-39; RR3-40,3,True,2286.0,126.5,False,True,5187.5,156.5,False,True,804.0,50.5,True
+MTARC2,RR1; RR3-39; RR3-40,3,True,2301.5,37.5,False,True,6964.0,53.5,False,True,5711.0,283.5,True
+NDUFB8,RR1; RR3-39; RR3-40,3,True,1978.5,189.5,False,True,1675.0,22.0,False,True,1792.0,245.5,False
+NDUFS6,RR1; RR3-39; RR3-40,3,True,3195.5,306.5,False,True,1092.5,32.5,False,True,4029.5,398.0,False
+NRN1,RR1; RR3-39; RR3-40,3,True,7028.5,70.0,True,True,4736.5,42.5,True,True,2141.0,32.0,True
+POGLUT2,RR1; RR3-39; RR3-40,3,True,5893.5,174.5,False,True,3873.5,75.0,False,True,3490.0,268.0,False
+PPIL2,RR1; RR3-39; RR3-40,3,True,7327.5,88.0,False,True,11993.0,261.0,False,True,4462.0,309.5,False
+PXDC1,RR1; RR3-39; RR3-40,3,True,8603.0,77.0,False,True,12344.0,155.5,False,True,1762.0,60.5,False
+RANBP10,RR1; RR3-39; RR3-40,3,True,1986.0,17.5,False,True,7334.0,134.5,False,True,12053.5,266.0,False
+SARDH,RR1; RR3-39; RR3-40,3,True,3764.0,61.0,False,True,4001.5,94.5,True,True,1209.0,26.5,True
+SLC1A4,RR1; RR3-39; RR3-40,3,True,715.5,160.0,True,True,2166.0,235.5,False,True,469.5,130.5,False
+SLC27A2,RR1; RR3-39; RR3-40,3,True,621.5,21.5,False,True,9307.5,19.0,False,True,4020.0,175.5,True
+SPRY4,RR1; RR3-39; RR3-40,3,True,3870.0,202.0,True,True,4706.0,150.0,False,True,936.0,164.0,False
+TKFC,RR1; RR3-39; RR3-40,3,True,1094.0,44.5,False,True,5928.5,165.0,False,True,8498.0,366.0,False
+TMED3,RR1; RR3-39; RR3-40,3,True,6218.0,196.5,False,True,11235.0,229.0,False,True,442.0,34.0,False
+TSPAN12,RR1; RR3-39; RR3-40,3,True,5061.0,67.0,False,True,10061.0,110.5,False,True,4907.5,49.5,False
+ABCA8,RR1; RR3-39,2,True,5124.0,323.0,False,True,1185.0,84.5,False,False,,,
+ABCB6,RR1; RR3-40,2,True,677.0,360.0,False,False,,,,True,1758.5,360.0,False
+ABCC3,RR1; RR3-39,2,True,429.5,31.5,False,True,1410.5,54.0,False,False,,,
+ACP5,RR3-39; RR3-40,2,False,,,,True,3224.5,35.0,False,True,2420.0,375.0,False
+ACSM5,RR3-39; RR3-40,2,False,,,,True,4555.0,73.5,False,True,1470.0,76.5,False
+AFMID,RR1; RR3-40,2,True,950.5,119.0,False,False,,,,True,2255.5,271.5,False
+AGMAT,RR1; RR3-40,2,True,2587.5,408.5,False,False,,,,True,3926.5,292.5,False
+AGT,RR3-39; RR3-40,2,False,,,,True,7561.5,49.5,False,True,5212.0,23.5,True
+AHSG,RR1; RR3-39,2,True,9530.5,313.5,False,True,2390.5,182.5,False,False,,,
+ALB,RR3-39; RR3-40,2,False,,,,True,7716.0,140.0,False,True,1287.5,28.5,False
+AMBP,RR3-39; RR3-40,2,False,,,,True,6841.5,3.5,False,True,10208.5,261.5,False
+AMDHD1,RR1; RR3-39,2,True,1123.0,318.0,False,True,6036.0,426.5,False,False,,,
+AMN1,RR3-39; RR3-40,2,False,,,,True,489.0,56.0,False,True,2332.0,189.0,False
+ANXA7,RR1; RR3-40,2,True,2467.0,225.5,False,False,,,,True,3533.0,187.5,False
+APCS,RR1; RR3-40,2,True,2229.0,142.5,False,False,,,,True,1162.5,151.5,True
+APOC4,RR3-39; RR3-40,2,False,,,,True,2631.5,184.0,False,True,12241.5,292.0,False
+AS3MT,RR3-39; RR3-40,2,False,,,,True,632.5,238.0,False,True,1388.0,183.5,False
+ATF5,RR1; RR3-40,2,True,4741.0,104.0,True,False,,,,True,9581.5,358.5,False
+BHMT2,RR1; RR3-40,2,True,7235.5,222.5,True,False,,,,True,1456.5,84.0,False
+BNIP3,RR3-39; RR3-40,2,False,,,,True,1103.5,241.5,False,True,3450.0,128.5,False
+C1QA,RR1; RR3-39,2,True,2323.0,16.5,False,True,10227.0,393.5,False,False,,,
+C1QC,RR1; RR3-40,2,True,3617.5,37.5,False,False,,,,True,6202.5,249.0,True
+C9,RR3-39; RR3-40,2,False,,,,True,666.0,2.0,False,True,513.5,8.0,False
+CBX5,RR1; RR3-39,2,True,6533.5,202.5,False,True,3467.5,62.5,False,False,,,
+CD36,RR3-39; RR3-40,2,False,,,,True,1970.0,75.5,False,True,1231.0,412.0,False
+CHCHD10,RR3-39; RR3-40,2,False,,,,True,6905.5,110.0,False,True,8034.5,360.0,False
+CLMN,RR1; RR3-40,2,True,454.0,210.0,False,False,,,,True,1891.5,419.0,False
+CNBP,RR1; RR3-39,2,True,10146.5,342.0,False,True,12136.5,129.5,False,False,,,
+CPB2,RR1; RR3-39,2,True,9028.5,122.5,False,True,3136.5,6.5,False,False,,,
+CREG1,RR1; RR3-40,2,True,5204.5,343.0,True,False,,,,True,6315.5,382.5,False
+CRIPT,RR3-39; RR3-40,2,False,,,,True,5028.5,253.5,False,True,11095.0,220.0,False
+CYB561D2,RR1; RR3-40,2,True,5310.0,114.5,False,False,,,,True,9219.0,287.5,False
+CYP27A1,RR1; RR3-39,2,True,7008.5,185.5,False,True,3196.5,355.5,False,False,,,
+DCXR,RR1; RR3-39,2,True,2153.5,199.5,False,True,8407.0,213.0,False,False,,,
+DECR1,RR1; RR3-39,2,True,852.5,138.0,False,True,4487.0,289.5,False,False,,,
+ELOVL5,RR1; RR3-40,2,True,3712.0,139.0,False,False,,,,True,1012.0,215.0,False
+ENPP5,RR1; RR3-40,2,True,4575.0,273.0,False,False,,,,True,8322.0,243.5,False
+FBXO6,RR1; RR3-39,2,True,2291.0,86.5,False,True,4669.0,229.5,False,False,,,
+FMO2,RR1; RR3-39,2,True,361.5,269.0,True,True,1469.0,308.5,False,False,,,
+GALK1,RR1; RR3-39,2,True,374.0,191.0,False,True,3890.5,301.5,False,False,,,
+GAS1,RR1; RR3-40,2,True,646.0,136.0,False,False,,,,True,604.0,340.5,False
+GATAD2A,RR3-39; RR3-40,2,False,,,,True,4389.0,156.5,False,True,2141.0,126.0,False
+GCH1,RR1; RR3-39,2,True,758.5,55.5,False,True,11906.5,270.5,True,False,,,
+GCK,RR1; RR3-39,2,True,479.5,107.0,False,True,529.0,267.5,False,False,,,
+GJB1,RR3-39; RR3-40,2,False,,,,True,2719.5,9.5,False,True,1829.0,42.0,False
+GJB2,RR1; RR3-39,2,True,1674.0,127.0,False,True,2770.5,199.0,False,False,,,
+GPT,RR1; RR3-39,2,True,784.0,9.0,True,True,4417.5,285.0,False,False,,,
+GPX4,RR3-39; RR3-40,2,False,,,,True,1287.5,74.0,False,True,11491.5,195.5,False
+GTPBP4,RR3-39; RR3-40,2,False,,,,True,7060.0,471.5,False,True,3919.5,66.0,False
+HLF,RR3-39; RR3-40,2,False,,,,True,3483.5,203.0,False,True,4517.5,165.5,False
+HOGA1,RR1; RR3-39,2,True,968.5,143.0,False,True,9097.0,309.5,False,False,,,
+HSD17B11,RR1; RR3-39,2,True,3228.0,177.5,False,True,2951.0,289.0,False,False,,,
+IDH1,RR1; RR3-40,2,True,4644.5,244.0,False,False,,,,True,1724.0,413.0,True
+IGSF11,RR1; RR3-40,2,True,3875.0,185.5,False,False,,,,True,4845.5,193.0,False
+IL6R,RR1; RR3-40,2,True,4362.0,317.0,False,False,,,,True,490.5,268.0,False
+ITIH1,RR1; RR3-39,2,True,10331.5,167.0,False,True,8446.5,136.5,False,False,,,
+KDM5B,RR3-39; RR3-40,2,False,,,,True,4165.5,61.5,False,True,5138.5,103.5,False
+KHK,RR3-39; RR3-40,2,False,,,,True,4824.5,478.0,False,True,516.0,143.5,False
+KRT18,RR3-39; RR3-40,2,False,,,,True,1359.0,171.0,False,True,2787.5,236.0,False
+KRT8,RR1; RR3-39,2,True,6645.0,310.0,False,True,702.5,28.5,False,False,,,
+LIFR,RR3-39; RR3-40,2,False,,,,True,704.5,118.0,False,True,3529.0,398.0,False
+LSR,RR1; RR3-39,2,True,7515.5,158.0,False,True,920.0,470.5,True,False,,,
+MAT1A,RR3-39; RR3-40,2,False,,,,True,2712.0,464.5,False,True,633.0,250.5,True
+MCRIP2,RR3-39; RR3-40,2,False,,,,True,730.0,52.5,False,True,1556.0,368.5,False
+ME1,RR1; RR3-40,2,True,367.0,62.0,False,False,,,,True,2193.0,273.5,False
+MT-CYB,RR1; RR3-39,2,True,957.5,79.5,False,True,2197.5,146.0,False,False,,,
+NAP1L4,RR1; RR3-39,2,True,8542.0,379.0,False,True,7853.5,270.0,False,False,,,
+NDUFS2,RR1; RR3-39,2,True,1789.0,160.5,False,True,3882.5,83.0,False,False,,,
+NR6A1,RR3-39; RR3-40,2,False,,,,True,1993.0,183.5,False,True,2097.5,358.5,False
+NSMF,RR1; RR3-39,2,True,1602.5,129.0,False,True,1227.5,379.5,True,False,,,
+NUP88,RR1; RR3-40,2,True,6626.5,311.0,False,False,,,,True,2124.0,36.5,False
+OAF,RR1; RR3-39,2,True,2128.0,155.0,False,True,5654.0,251.5,False,False,,,
+OPTN,RR1; RR3-40,2,True,1874.5,56.0,False,False,,,,True,842.5,76.0,True
+PARP14,RR1; RR3-39,2,True,3494.5,151.5,False,True,9463.5,294.5,False,False,,,
+PCCB,RR1; RR3-39,2,True,1792.5,78.5,False,True,4775.0,437.5,False,False,,,
+PIGR,RR3-39; RR3-40,2,False,,,,True,6413.0,93.0,False,True,9690.0,41.5,True
+PKLR,RR1; RR3-39,2,True,909.0,136.5,False,True,423.0,9.5,False,False,,,
+PLBD1,RR3-39; RR3-40,2,False,,,,True,5651.0,249.5,False,True,2385.5,268.5,False
+PLEKHB1,RR1; RR3-40,2,True,966.0,237.0,False,False,,,,True,2686.5,327.0,False
+PLGRKT,RR1; RR3-39,2,True,4503.0,77.5,False,True,3932.5,22.5,False,False,,,
+PLIN5,RR1; RR3-40,2,True,4488.5,155.0,False,False,,,,True,597.5,119.0,False
+PON1,RR1; RR3-39,2,True,5417.0,257.5,False,True,7910.5,189.5,False,False,,,
+PPP1R10,RR1; RR3-39,2,True,1762.5,303.0,False,True,807.0,148.5,False,False,,,
+PSTK,RR3-39; RR3-40,2,False,,,,True,5063.0,206.5,False,True,1897.5,235.5,False
+QSER1,RR3-39; RR3-40,2,False,,,,True,2587.5,126.0,False,True,3915.5,332.0,False
+RAB5IF,RR1; RR3-39,2,True,787.0,234.0,False,True,1616.0,130.0,False,False,,,
+RASGRP2,RR1; RR3-39,2,True,5363.0,129.5,False,True,3919.5,183.0,False,False,,,
+RILPL2,RR1; RR3-39,2,True,2535.5,205.0,False,True,2910.5,145.5,False,False,,,
+RNF43,RR3-39; RR3-40,2,False,,,,True,444.0,11.5,False,True,2229.0,386.5,False
+RRBP1,RR1; RR3-39,2,True,5816.5,132.5,False,True,2721.5,296.5,False,False,,,
+SAA4,RR1; RR3-40,2,True,7807.0,146.5,False,False,,,,True,3353.0,33.0,False
+SALL1,RR3-39; RR3-40,2,False,,,,True,1337.5,197.0,False,True,616.0,207.0,False
+SCARB1,RR1; RR3-39,2,True,1478.0,31.0,False,True,6260.5,28.0,False,False,,,
+SERPING1,RR1; RR3-40,2,True,6597.5,76.5,False,False,,,,True,3338.5,149.0,False
+SETBP1,RR1; RR3-40,2,True,6656.5,200.0,False,False,,,,True,7628.0,458.5,False
+SLC10A1,RR3-39; RR3-40,2,False,,,,True,711.5,170.5,False,True,997.0,173.0,False
+SLC25A15,RR3-39; RR3-40,2,False,,,,True,1545.5,366.0,False,True,743.5,389.0,False
+SLC38A3,RR1; RR3-40,2,True,2183.5,91.0,False,False,,,,True,1417.0,212.5,False
+SLC7A2,RR3-39; RR3-40,2,False,,,,True,5273.0,359.0,False,True,2680.0,148.5,True
+SMO,RR3-39; RR3-40,2,False,,,,True,4151.5,128.0,False,True,1839.0,123.0,False
+SORBS1,RR3-39; RR3-40,2,False,,,,True,6514.5,276.5,False,True,589.5,57.0,False
+SORBS2,RR1; RR3-39,2,True,2871.0,291.5,False,True,1125.5,64.5,False,False,,,
+TDP2,RR1; RR3-40,2,True,1838.5,198.0,False,False,,,,True,1220.0,262.5,False
+TOB2,RR3-39; RR3-40,2,False,,,,True,1454.0,339.0,False,True,1669.0,315.5,False
+TPST2,RR1; RR3-40,2,True,4569.0,251.0,True,False,,,,True,4486.5,277.0,False
+TRRAP,RR3-39; RR3-40,2,False,,,,True,3841.0,242.5,False,True,6279.0,396.0,True
+TTC36,RR3-39; RR3-40,2,False,,,,True,7247.0,226.5,False,True,1704.5,53.0,False
+TTPA,RR3-39; RR3-40,2,False,,,,True,7317.5,181.0,False,True,9048.0,229.0,False
+UPB1,RR1; RR3-40,2,True,996.0,98.5,False,False,,,,True,4784.0,403.0,False
+UQCC2,RR3-39; RR3-40,2,False,,,,True,2392.0,31.0,False,True,1900.5,65.5,False
+WDR35,RR3-39; RR3-40,2,False,,,,True,6103.5,130.0,False,True,5645.5,414.0,False
+ZFHX4,RR1; RR3-39,2,True,4816.0,80.0,False,True,3578.5,74.0,False,False,,,
+ZFYVE21,RR1; RR3-39,2,True,1140.5,114.5,False,True,5327.5,235.0,False,False,,,
+ZNF277,RR1; RR3-40,2,True,5007.5,283.5,False,False,,,,True,11303.0,262.5,False
+ZPR1,RR1; RR3-39,2,True,1466.0,316.5,False,True,801.5,180.5,False,False,,,

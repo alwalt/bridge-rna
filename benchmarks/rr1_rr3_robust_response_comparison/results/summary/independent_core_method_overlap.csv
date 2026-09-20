@@ -1,0 +1,22 @@
+module,cohort,DE/GSEA,IG enrichment,Robust signed-IG pathway profile,support_count,classification
+Amino-acid and central-carbon metabolism,RR1,False,False,True,1,pathway_profile_only
+Amino-acid and central-carbon metabolism,RR3-39,True,False,True,2,partial
+Amino-acid and central-carbon metabolism,RR3-40,False,False,True,1,pathway_profile_only
+ER stress / integrated stress response,RR1,False,False,True,1,pathway_profile_only
+ER stress / integrated stress response,RR3-39,False,True,True,2,Bridge_IG_plus_profile
+ER stress / integrated stress response,RR3-40,False,False,True,1,pathway_profile_only
+Fluid and water transport,RR1,False,False,True,1,pathway_profile_only
+Fluid and water transport,RR3-39,False,False,True,1,pathway_profile_only
+Fluid and water transport,RR3-40,False,False,True,1,pathway_profile_only
+IGF-receptor signaling,RR1,False,False,True,1,pathway_profile_only
+IGF-receptor signaling,RR3-39,False,False,True,1,pathway_profile_only
+IGF-receptor signaling,RR3-40,False,False,True,1,pathway_profile_only
+Innate immune and complement regulation,RR1,True,True,True,3,all_three_methods
+Innate immune and complement regulation,RR3-39,False,False,True,1,pathway_profile_only
+Innate immune and complement regulation,RR3-40,False,False,True,1,pathway_profile_only
+"Lipid, carnitine, and bile metabolism",RR1,False,True,True,2,Bridge_IG_plus_profile
+"Lipid, carnitine, and bile metabolism",RR3-39,False,True,True,2,Bridge_IG_plus_profile
+"Lipid, carnitine, and bile metabolism",RR3-40,False,True,True,2,Bridge_IG_plus_profile
+Stress and metabolic transcription,RR1,False,False,True,1,pathway_profile_only
+Stress and metabolic transcription,RR3-39,False,False,True,1,pathway_profile_only
+Stress and metabolic transcription,RR3-40,False,False,True,1,pathway_profile_only

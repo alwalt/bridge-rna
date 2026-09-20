@@ -1,0 +1,19 @@
+module,cohort,Contextual pathway profile,DE/GSEA,IG enrichment,support_count,classification
+Amino-acid metabolism,RR1,True,False,True,2,partial_or_DE_only
+Amino-acid metabolism,RR3-39,True,True,True,3,all_three_methods
+Amino-acid metabolism,RR3-40,True,True,True,3,all_three_methods
+Cytosolic translation / ribosome,RR1,True,False,False,1,contextual_profile_only
+Cytosolic translation / ribosome,RR3-39,True,True,False,2,partial_or_DE_only
+Cytosolic translation / ribosome,RR3-40,True,True,False,2,partial_or_DE_only
+Macromolecule biosynthesis,RR1,True,False,False,1,contextual_profile_only
+Macromolecule biosynthesis,RR3-39,True,True,False,2,partial_or_DE_only
+Macromolecule biosynthesis,RR3-40,True,False,False,1,contextual_profile_only
+Mitochondrial respiration / OXPHOS,RR1,True,False,True,2,partial_or_DE_only
+Mitochondrial respiration / OXPHOS,RR3-39,True,True,True,3,all_three_methods
+Mitochondrial respiration / OXPHOS,RR3-40,True,True,True,3,all_three_methods
+Mitochondrial translation / gene expression,RR1,True,False,False,1,contextual_profile_only
+Mitochondrial translation / gene expression,RR3-39,True,True,False,2,partial_or_DE_only
+Mitochondrial translation / gene expression,RR3-40,True,True,False,2,partial_or_DE_only
+Protein localization / mitochondrial import,RR1,True,False,True,2,partial_or_DE_only
+Protein localization / mitochondrial import,RR3-39,True,True,True,3,all_three_methods
+Protein localization / mitochondrial import,RR3-40,True,False,True,2,partial_or_DE_only

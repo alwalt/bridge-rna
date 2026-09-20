@@ -1,0 +1,88 @@
+cohort,source,pathway,original_score,remeasurement_score,rank_original,rank_remeasurement,classification,signed_response,response_magnitude,module
+RR1,GO:BP,Aerobic Respiration (GO:0009060),5.963196719111143,6.185386763666531,90.0,78.0,protocol_robust,6.074291741388837,6.074291741388837,Mitochondrial respiration / OXPHOS
+RR1,GO:BP,Cellular Respiration (GO:0045333),5.424078504067009,8.577643452373284,128.0,26.0,protocol_robust,7.000860978220146,7.000860978220146,Mitochondrial respiration / OXPHOS
+RR1,GO:BP,Cytoplasmic Translation (GO:0002181),4.659903718450547,9.857906481477668,235.0,11.0,protocol_robust,7.258905099964108,7.258905099964108,Cytosolic translation / ribosome
+RR1,GO:BP,Macromolecule Biosynthetic Process (GO:0009059),5.889750770824038,8.82395229308763,97.0,24.0,protocol_robust,7.356851531955835,7.356851531955835,Macromolecule biosynthesis
+RR1,GO:BP,Mitochondrial Gene Expression (GO:0140053),8.426947354513128,5.36107242088655,20.0,109.0,protocol_robust,6.8940098876998395,6.8940098876998395,Mitochondrial translation / gene expression
+RR1,GO:BP,Mitochondrial Respiratory Chain Complex Assembly (GO:0033108),5.5179771361628305,5.430673785383786,122.0,104.0,protocol_robust,5.474325460773308,5.474325460773308,Mitochondrial respiration / OXPHOS
+RR1,GO:BP,Mitochondrial Translation (GO:0032543),7.6160260670621875,5.020177759646361,30.0,124.0,protocol_robust,6.318101913354274,6.318101913354274,Mitochondrial translation / gene expression
+RR1,GO:BP,Protein Biosynthetic Process (GO:0160307),6.5343927387041445,10.038681050143781,63.0,9.0,protocol_robust,8.286536894423962,8.286536894423962,Cytosolic translation / ribosome
+RR1,GO:BP,Translation (GO:0006412),9.487370411616286,10.039820387277192,6.0,8.0,protocol_robust,9.76359539944674,9.76359539944674,Cytosolic translation / ribosome
+RR1,KEGG,OXIDATIVE PHOSPHORYLATION,4.684059935826519,7.606858159301726,231.0,42.0,protocol_robust,6.145459047564122,6.145459047564122,Mitochondrial respiration / OXPHOS
+RR1,KEGG,RIBOSOME,7.012528707789768,10.595720822112995,44.0,2.0,protocol_robust,8.804124764951382,8.804124764951382,Cytosolic translation / ribosome
+RR1,Reactome,Aerobic Respiration and Respiratory Electron Transport,8.485589485762373,8.465123505102158,19.0,27.0,protocol_robust,8.475356495432266,8.475356495432266,Mitochondrial respiration / OXPHOS
+RR1,Reactome,Cap-dependent Translation Initiation,4.966382153365217,9.477073806280982,184.0,13.0,protocol_robust,7.2217279798230996,7.2217279798230996,Cytosolic translation / ribosome
+RR1,Reactome,Eukaryotic Translation Initiation,4.966382153365217,9.477073806280982,184.0,13.0,protocol_robust,7.2217279798230996,7.2217279798230996,Cytosolic translation / ribosome
+RR1,Reactome,Formation of a Pool of Free 40S Subunits,4.737599806256985,10.4956073102591,225.0,3.0,protocol_robust,7.616603558258042,7.616603558258042,Cytosolic translation / ribosome
+RR1,Reactome,GTP Hydrolysis and Joining of the 60S Ribosomal Subunit,4.975535353876686,9.827755814839252,182.0,12.0,protocol_robust,7.4016455843579685,7.4016455843579685,Cytosolic translation / ribosome
+RR1,Reactome,L13a-mediated Translational Silencing of Ceruloplasmin Expression,5.1531559815633425,10.081606955266903,160.0,6.0,protocol_robust,7.617381468415123,7.617381468415123,Cytosolic translation / ribosome
+RR1,Reactome,Metabolism of Amino Acids and Derivatives,7.756546925115691,8.862325240668849,29.0,22.0,protocol_robust,8.309436082892269,8.309436082892269,Amino-acid metabolism
+RR1,Reactome,Mitochondrial Protein Import,8.010959747321111,6.368624073825606,24.0,69.0,protocol_robust,7.1897919105733585,7.1897919105733585,Protein localization / mitochondrial import
+RR1,Reactome,Mitochondrial Translation,7.027591200176373,5.259873339204772,42.0,117.0,protocol_robust,6.143732269690572,6.143732269690572,Mitochondrial translation / gene expression
+RR1,Reactome,Mitochondrial Translation Elongation,7.069932412013676,5.500961769384959,40.0,102.0,protocol_robust,6.285447090699318,6.285447090699318,Mitochondrial translation / gene expression
+RR1,Reactome,Mitochondrial Translation Initiation,6.905306445437268,5.544026742669141,48.0,99.0,protocol_robust,6.224666594053204,6.224666594053204,Mitochondrial translation / gene expression
+RR1,Reactome,Mitochondrial Translation Termination,6.86557834854677,5.345104229749223,49.0,111.0,protocol_robust,6.105341289147997,6.105341289147997,Mitochondrial translation / gene expression
+RR1,Reactome,Protein Localization,13.409044910460745,9.067787040852625,1.0,21.0,protocol_robust,11.238415975656686,11.238415975656686,Protein localization / mitochondrial import
+RR1,Reactome,Respiratory Electron Transport,6.225641147871389,7.920706772922033,75.0,36.0,protocol_robust,7.073173960396711,7.073173960396711,Mitochondrial respiration / OXPHOS
+RR1,Reactome,Ribosomal Scanning and Start Codon Recognition,5.080290852693923,6.642208014562835,170.0,60.0,protocol_robust,5.8612494336283785,5.8612494336283785,Cytosolic translation / ribosome
+RR1,Reactome,Translation,9.462682387343918,8.860474911681626,7.0,23.0,protocol_robust,9.161578649512773,9.161578649512773,Cytosolic translation / ribosome
+RR1,Reactome,Translation Initiation Complex Formation,5.186341367855265,6.780774606827379,155.0,57.0,protocol_robust,5.983557987341322,5.983557987341322,Cytosolic translation / ribosome
+RR1,Reactome,"mRNA Activation Upon Binding of the Cap-Binding Complex and eIFs, and Subsequent Binding to 43S",5.186341367855265,6.780774606827379,155.0,57.0,protocol_robust,5.983557987341322,5.983557987341322,Cytosolic translation / ribosome
+RR3-39,GO:BP,Aerobic Respiration (GO:0009060),-6.615748956257642,-8.622814582704999,10.0,8.0,protocol_robust,-7.61928176948132,7.61928176948132,Mitochondrial respiration / OXPHOS
+RR3-39,GO:BP,Cellular Respiration (GO:0045333),-5.8191187326099545,-8.0707464287612,24.0,15.0,protocol_robust,-6.9449325806855775,6.9449325806855775,Mitochondrial respiration / OXPHOS
+RR3-39,GO:BP,Cytoplasmic Translation (GO:0002181),-5.530832039671935,-6.321031175915728,39.0,41.0,protocol_robust,-5.9259316077938315,5.9259316077938315,Cytosolic translation / ribosome
+RR3-39,GO:BP,Macromolecule Biosynthetic Process (GO:0009059),-3.963929913638294,-5.504953091185858,169.0,68.0,protocol_robust,-4.734441502412077,4.734441502412077,Macromolecule biosynthesis
+RR3-39,GO:BP,Mitochondrial Gene Expression (GO:0140053),-5.893424351206472,-7.767646560511547,22.0,17.0,protocol_robust,-6.8305354558590095,6.8305354558590095,Mitochondrial translation / gene expression
+RR3-39,GO:BP,Mitochondrial Respiratory Chain Complex Assembly (GO:0033108),-5.163858517845877,-6.851774984535889,63.0,31.0,protocol_robust,-6.007816751190883,6.007816751190883,Mitochondrial respiration / OXPHOS
+RR3-39,GO:BP,Mitochondrial Translation (GO:0032543),-6.16785518737986,-8.187835077845056,17.0,13.0,protocol_robust,-7.177845132612458,7.177845132612458,Mitochondrial translation / gene expression
+RR3-39,GO:BP,Protein Biosynthetic Process (GO:0160307),-6.320061007219367,-8.339760352429062,13.0,12.0,protocol_robust,-7.329910679824215,7.329910679824215,Cytosolic translation / ribosome
+RR3-39,GO:BP,Translation (GO:0006412),-7.214832324429475,-9.792466569929086,7.0,4.0,protocol_robust,-8.503649447179281,8.503649447179281,Cytosolic translation / ribosome
+RR3-39,KEGG,OXIDATIVE PHOSPHORYLATION,-5.349200409163616,-7.228664054563609,54.0,26.0,protocol_robust,-6.288932231863612,6.288932231863612,Mitochondrial respiration / OXPHOS
+RR3-39,KEGG,RIBOSOME,-8.088865991191543,-10.125043443073041,3.0,2.0,protocol_robust,-9.106954717132293,9.106954717132293,Cytosolic translation / ribosome
+RR3-39,Reactome,Aerobic Respiration and Respiratory Electron Transport,-6.129949439921818,-7.575913422038701,19.0,21.0,protocol_robust,-6.852931430980259,6.852931430980259,Mitochondrial respiration / OXPHOS
+RR3-39,Reactome,Cap-dependent Translation Initiation,-5.374332200821417,-6.30934709634046,51.0,42.0,protocol_robust,-5.8418396485809385,5.8418396485809385,Cytosolic translation / ribosome
+RR3-39,Reactome,Eukaryotic Translation Initiation,-5.374332200821417,-6.30934709634046,51.0,42.0,protocol_robust,-5.8418396485809385,5.8418396485809385,Cytosolic translation / ribosome
+RR3-39,Reactome,Formation of a Pool of Free 40S Subunits,-5.733144047490229,-6.496426735973368,30.0,36.0,protocol_robust,-6.1147853917317985,6.1147853917317985,Cytosolic translation / ribosome
+RR3-39,Reactome,GTP Hydrolysis and Joining of the 60S Ribosomal Subunit,-5.412983191737885,-6.224629155449883,48.0,47.0,protocol_robust,-5.8188061735938845,5.8188061735938845,Cytosolic translation / ribosome
+RR3-39,Reactome,L13a-mediated Translational Silencing of Ceruloplasmin Expression,-5.597085462478555,-6.45733183980931,36.0,39.0,protocol_robust,-6.0272086511439324,6.0272086511439324,Cytosolic translation / ribosome
+RR3-39,Reactome,Metabolism of Amino Acids and Derivatives,-7.8539383343344875,-9.306782566845097,4.0,5.0,protocol_robust,-8.580360450589792,8.580360450589792,Amino-acid metabolism
+RR3-39,Reactome,Mitochondrial Protein Import,-5.448855281477348,-5.8987819187134924,46.0,54.0,protocol_robust,-5.67381860009542,5.67381860009542,Protein localization / mitochondrial import
+RR3-39,Reactome,Mitochondrial Translation,-5.810991695986407,-8.64152028761294,25.0,7.0,protocol_robust,-7.226255991799674,7.226255991799674,Mitochondrial translation / gene expression
+RR3-39,Reactome,Mitochondrial Translation Elongation,-5.787656726320252,-8.594343032326918,26.0,9.0,protocol_robust,-7.190999879323585,7.190999879323585,Mitochondrial translation / gene expression
+RR3-39,Reactome,Mitochondrial Translation Initiation,-5.724538532501115,-8.469384125802902,31.0,11.0,protocol_robust,-7.096961329152009,7.096961329152009,Mitochondrial translation / gene expression
+RR3-39,Reactome,Mitochondrial Translation Termination,-5.853039564476782,-8.5341981453343,23.0,10.0,protocol_robust,-7.193618854905541,7.193618854905541,Mitochondrial translation / gene expression
+RR3-39,Reactome,Protein Localization,-4.242416944728519,-5.324626909752157,126.0,77.0,protocol_robust,-4.783521927240338,4.783521927240338,Protein localization / mitochondrial import
+RR3-39,Reactome,Respiratory Electron Transport,-6.207957378668429,-8.16972329281952,16.0,14.0,protocol_robust,-7.188840335743974,7.188840335743974,Mitochondrial respiration / OXPHOS
+RR3-39,Reactome,Ribosomal Scanning and Start Codon Recognition,-3.833420232136504,-4.770796207195307,202.0,123.0,protocol_robust,-4.3021082196659055,4.3021082196659055,Cytosolic translation / ribosome
+RR3-39,Reactome,Translation,-6.946305979181114,-9.828470103419663,8.0,3.0,protocol_robust,-8.387388041300389,8.387388041300389,Cytosolic translation / ribosome
+RR3-39,Reactome,Translation Initiation Complex Formation,-3.9207526929571777,-4.9294982043508915,182.0,103.0,protocol_robust,-4.425125448654034,4.425125448654034,Cytosolic translation / ribosome
+RR3-39,Reactome,"mRNA Activation Upon Binding of the Cap-Binding Complex and eIFs, and Subsequent Binding to 43S",-3.9207526929571777,-4.9294982043508915,182.0,103.0,protocol_robust,-4.425125448654034,4.425125448654034,Cytosolic translation / ribosome
+RR3-40,GO:BP,Aerobic Respiration (GO:0009060),-6.856854828718548,-6.395066068958718,42.0,49.0,protocol_robust,-6.625960448838633,6.625960448838633,Mitochondrial respiration / OXPHOS
+RR3-40,GO:BP,Cellular Respiration (GO:0045333),-5.209471870789049,-5.504084189490261,125.0,83.0,protocol_robust,-5.356778030139655,5.356778030139655,Mitochondrial respiration / OXPHOS
+RR3-40,GO:BP,Cytoplasmic Translation (GO:0002181),-5.2887507442136314,-4.6708061839874535,122.0,152.0,protocol_robust,-4.9797784641005425,4.9797784641005425,Cytosolic translation / ribosome
+RR3-40,GO:BP,Macromolecule Biosynthetic Process (GO:0009059),-5.450899393220984,-4.997854549669943,111.0,122.0,protocol_robust,-5.224376971445464,5.224376971445464,Macromolecule biosynthesis
+RR3-40,GO:BP,Mitochondrial Gene Expression (GO:0140053),-9.581377917154287,-7.952687982876675,12.0,20.0,protocol_robust,-8.76703295001548,8.76703295001548,Mitochondrial translation / gene expression
+RR3-40,GO:BP,Mitochondrial Respiratory Chain Complex Assembly (GO:0033108),-8.565388005110416,-7.772913397055388,20.0,25.0,protocol_robust,-8.169150701082902,8.169150701082902,Mitochondrial respiration / OXPHOS
+RR3-40,GO:BP,Mitochondrial Translation (GO:0032543),-10.867809233971059,-9.156319378609103,9.0,12.0,protocol_robust,-10.012064306290082,10.012064306290082,Mitochondrial translation / gene expression
+RR3-40,GO:BP,Protein Biosynthetic Process (GO:0160307),-7.220235676966453,-6.505374639317496,32.0,43.0,protocol_robust,-6.862805158141974,6.862805158141974,Cytosolic translation / ribosome
+RR3-40,GO:BP,Translation (GO:0006412),-11.496559535457335,-10.192043455521484,8.0,10.0,protocol_robust,-10.84430149548941,10.84430149548941,Cytosolic translation / ribosome
+RR3-40,KEGG,OXIDATIVE PHOSPHORYLATION,-5.422534028112891,-5.632071783789605,114.0,76.0,protocol_robust,-5.527302905951248,5.527302905951248,Mitochondrial respiration / OXPHOS
+RR3-40,KEGG,RIBOSOME,-9.179876900703348,-7.815150434875134,13.0,21.0,protocol_robust,-8.497513667789242,8.497513667789242,Cytosolic translation / ribosome
+RR3-40,Reactome,Aerobic Respiration and Respiratory Electron Transport,-7.674601944744129,-7.773989767844142,25.0,24.0,protocol_robust,-7.724295856294136,7.724295856294136,Mitochondrial respiration / OXPHOS
+RR3-40,Reactome,Cap-dependent Translation Initiation,-5.701497658393196,-5.01085009573211,88.0,117.0,protocol_robust,-5.356173877062653,5.356173877062653,Cytosolic translation / ribosome
+RR3-40,Reactome,Eukaryotic Translation Initiation,-5.701497658393196,-5.01085009573211,88.0,117.0,protocol_robust,-5.356173877062653,5.356173877062653,Cytosolic translation / ribosome
+RR3-40,Reactome,Formation of a Pool of Free 40S Subunits,-4.743167082587009,-4.155002884974344,163.0,210.0,protocol_robust,-4.4490849837806765,4.4490849837806765,Cytosolic translation / ribosome
+RR3-40,Reactome,GTP Hydrolysis and Joining of the 60S Ribosomal Subunit,-5.471817758197988,-4.833718883225786,109.0,134.0,protocol_robust,-5.152768320711887,5.152768320711887,Cytosolic translation / ribosome
+RR3-40,Reactome,L13a-mediated Translational Silencing of Ceruloplasmin Expression,-5.416913196342743,-4.749057441647792,115.0,146.0,protocol_robust,-5.082985318995267,5.082985318995267,Cytosolic translation / ribosome
+RR3-40,Reactome,Metabolism of Amino Acids and Derivatives,-6.688951020722281,-6.449730959180586,50.0,46.0,protocol_robust,-6.569340989951433,6.569340989951433,Amino-acid metabolism
+RR3-40,Reactome,Mitochondrial Protein Import,-5.579712832561681,-4.710130163862412,102.0,150.0,protocol_robust,-5.144921498212046,5.144921498212046,Protein localization / mitochondrial import
+RR3-40,Reactome,Mitochondrial Translation,-8.801671701548127,-8.048307005552166,15.0,18.0,protocol_robust,-8.424989353550146,8.424989353550146,Mitochondrial translation / gene expression
+RR3-40,Reactome,Mitochondrial Translation Elongation,-8.863459493681347,-8.07693121442124,14.0,16.0,protocol_robust,-8.470195354051294,8.470195354051294,Mitochondrial translation / gene expression
+RR3-40,Reactome,Mitochondrial Translation Initiation,-8.687222457479876,-7.9617075646909,18.0,19.0,protocol_robust,-8.324465011085389,8.324465011085389,Mitochondrial translation / gene expression
+RR3-40,Reactome,Mitochondrial Translation Termination,-8.674887028557183,-8.06961609195579,19.0,17.0,protocol_robust,-8.372251560256487,8.372251560256487,Mitochondrial translation / gene expression
+RR3-40,Reactome,Protein Localization,-5.4165281540484385,-4.907126873627303,116.0,128.0,protocol_robust,-5.161827513837871,5.161827513837871,Protein localization / mitochondrial import
+RR3-40,Reactome,Respiratory Electron Transport,-8.292309164297414,-8.160022841410429,21.0,14.0,protocol_robust,-8.226166002853923,8.226166002853923,Mitochondrial respiration / OXPHOS
+RR3-40,Reactome,Ribosomal Scanning and Start Codon Recognition,-4.542932284540148,-3.987482412904503,184.0,241.0,protocol_robust,-4.265207348722326,4.265207348722326,Cytosolic translation / ribosome
+RR3-40,Reactome,Translation,-13.016332701911407,-11.339374549602548,5.0,7.0,protocol_robust,-12.177853625756978,12.177853625756978,Cytosolic translation / ribosome
+RR3-40,Reactome,Translation Initiation Complex Formation,-4.578575470411551,-4.08251421526928,178.0,220.0,protocol_robust,-4.330544842840416,4.330544842840416,Cytosolic translation / ribosome
+RR3-40,Reactome,"mRNA Activation Upon Binding of the Cap-Binding Complex and eIFs, and Subsequent Binding to 43S",-4.578575470411551,-4.08251421526928,178.0,220.0,protocol_robust,-4.330544842840416,4.330544842840416,Cytosolic translation / ribosome

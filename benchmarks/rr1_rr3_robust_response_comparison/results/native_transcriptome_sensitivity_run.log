@@ -1,0 +1,106 @@
+[edgeR] RR1__original samples=9 tested=14234 method=robust_QLF
+[edgeR] RR1__remeasure samples=9 tested=16539 method=robust_QLF
+[edgeR] RR3_39__original samples=4 tested=15372 method=robust_QLF
+[edgeR] RR3_39__remeasure samples=4 tested=16596 method=robust_QLF
+[edgeR] RR3_40__original samples=4 tested=15433 method=robust_QLF
+[edgeR] RR3_40__remeasure samples=4 tested=16418 method=robust_QLF
+/home/walt/bridge-rna/benchmarks/rr1_rr3_robust_response_comparison/pipeline/analyze_native_transcriptome_sensitivity.py:88: DtypeWarning: Columns (7,8) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(output)
+[edgeR] RR1__original samples=9 tested=10636 method=robust_QLF
+[edgeR] RR1__remeasure samples=9 tested=11354 method=robust_QLF
+[edgeR] RR3_39__original samples=4 tested=11152 method=robust_QLF
+[edgeR] RR3_39__remeasure samples=4 tested=11699 method=robust_QLF
+[edgeR] RR3_40__original samples=4 tested=11088 method=robust_QLF
+[edgeR] RR3_40__remeasure samples=4 tested=11556 method=robust_QLF
+[GSEA heartbeat] native 1/18 elapsed=0.8m eta=13.4m
+[GSEA heartbeat] native 2/18 elapsed=0.9m eta=7.0m
+[GSEA heartbeat] native 3/18 elapsed=1.2m eta=6.1m
+2026-09-08 11:17:46,336 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 4/18 elapsed=2.1m eta=7.4m
+2026-09-08 11:18:40,167 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 5/18 elapsed=2.2m eta=5.8m
+2026-09-08 11:18:46,463 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 6/18 elapsed=2.6m eta=5.3m
+2026-09-08 11:19:11,371 [WARNING] Duplicated values found in preranked stats: 0.06% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 7/18 elapsed=3.5m eta=5.4m
+2026-09-08 11:19:59,648 [WARNING] Duplicated values found in preranked stats: 0.06% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 8/18 elapsed=3.5m eta=4.4m
+2026-09-08 11:20:05,257 [WARNING] Duplicated values found in preranked stats: 0.06% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 9/18 elapsed=3.9m eta=3.9m
+2026-09-08 11:20:27,210 [WARNING] Duplicated values found in preranked stats: 0.07% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 10/18 elapsed=4.8m eta=3.8m
+2026-09-08 11:21:18,735 [WARNING] Duplicated values found in preranked stats: 0.07% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 11/18 elapsed=4.9m eta=3.1m
+2026-09-08 11:21:24,743 [WARNING] Duplicated values found in preranked stats: 0.07% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 12/18 elapsed=5.3m eta=2.6m
+2026-09-08 11:21:48,934 [WARNING] Duplicated values found in preranked stats: 0.11% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 13/18 elapsed=6.0m eta=2.3m
+2026-09-08 11:22:34,246 [WARNING] Duplicated values found in preranked stats: 0.11% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 14/18 elapsed=6.1m eta=1.7m
+2026-09-08 11:22:39,990 [WARNING] Duplicated values found in preranked stats: 0.11% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 15/18 elapsed=6.5m eta=1.3m
+2026-09-08 11:23:02,164 [WARNING] Duplicated values found in preranked stats: 0.13% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 16/18 elapsed=7.3m eta=0.9m
+2026-09-08 11:23:52,240 [WARNING] Duplicated values found in preranked stats: 0.13% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 17/18 elapsed=7.4m eta=0.4m
+2026-09-08 11:23:58,468 [WARNING] Duplicated values found in preranked stats: 0.13% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] native 18/18 elapsed=7.8m eta=0.0m
+[GSEA heartbeat] bridge_vocab 1/18 elapsed=0.5m eta=8.4m
+[GSEA heartbeat] bridge_vocab 2/18 elapsed=0.6m eta=4.4m
+[GSEA heartbeat] bridge_vocab 3/18 elapsed=0.8m eta=4.0m
+[GSEA heartbeat] bridge_vocab 4/18 elapsed=1.4m eta=4.7m
+[GSEA heartbeat] bridge_vocab 5/18 elapsed=1.4m eta=3.7m
+[GSEA heartbeat] bridge_vocab 6/18 elapsed=1.7m eta=3.4m
+2026-09-08 11:26:03,734 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] bridge_vocab 7/18 elapsed=2.2m eta=3.5m
+2026-09-08 11:26:35,819 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] bridge_vocab 8/18 elapsed=2.3m eta=2.9m
+2026-09-08 11:26:40,002 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] bridge_vocab 9/18 elapsed=2.6m eta=2.6m
+[GSEA heartbeat] bridge_vocab 10/18 elapsed=3.1m eta=2.5m
+[GSEA heartbeat] bridge_vocab 11/18 elapsed=3.2m eta=2.0m
+[GSEA heartbeat] bridge_vocab 12/18 elapsed=3.5m eta=1.7m
+2026-09-08 11:27:51,506 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] bridge_vocab 13/18 elapsed=4.0m eta=1.6m
+2026-09-08 11:28:24,235 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] bridge_vocab 14/18 elapsed=4.1m eta=1.2m
+2026-09-08 11:28:28,313 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] bridge_vocab 15/18 elapsed=4.4m eta=0.9m
+2026-09-08 11:28:44,403 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] bridge_vocab 16/18 elapsed=5.0m eta=0.6m
+2026-09-08 11:29:19,786 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] bridge_vocab 17/18 elapsed=5.0m eta=0.3m
+2026-09-08 11:29:24,153 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+[GSEA heartbeat] bridge_vocab 18/18 elapsed=5.3m eta=0.0m
+cohort gene_universe  common_tested_genes   cosine  spearman  direction_agreement  pathways_compared  NES_spearman  robust_pathways  reversing_pathways  significant_original  significant_remeasurement
+   RR1        native                13678 0.620563  0.506490             0.671297               4615      0.493592                5                   9                    85                        494
+RR3-39        native                15317 0.610260  0.597567             0.746164               4724      0.786206              248                   1                   322                        403
+RR3-40        native                15362 0.562140  0.612686             0.761750               4714      0.873304               43                   0                   110                         62
+   RR1  bridge_vocab                10587 0.712820  0.567997             0.691131               4426      0.522736               15                   0                    87                        260
+RR3-39  bridge_vocab                11140 0.663269  0.626701             0.749461               4567      0.781827              230                   1                   307                        362
+RR3-40  bridge_vocab                11073 0.690595  0.673946             0.779554               4548      0.870543               65                   0                   121                         75
+[complete] /home/walt/bridge-rna/benchmarks/rr1_rr3_robust_response_comparison/results/native_transcriptome_sensitivity

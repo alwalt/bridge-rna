@@ -1,0 +1,2 @@
+analysis,compatible,reason
+Existing IG deletion cross-reference,False,"Existing deletion sweeps validate mode-level IG-ranked panels, not these cohort-specific technically reproducible attribution-only sets; no gene-set-specific causal deletion claim is made."

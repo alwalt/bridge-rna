@@ -1,0 +1,22 @@
+module,cohort,signed_response,response_magnitude,pathways
+Amino-acid and central-carbon metabolism,RR1,2.9169995457144773,2.9169995457144773,3
+Amino-acid and central-carbon metabolism,RR3-39,-3.5655351291517845,3.5655351291517845,3
+Amino-acid and central-carbon metabolism,RR3-40,4.725716476870758,4.725716476870758,3
+ER stress / integrated stress response,RR1,-7.190861013715398,7.190861013715398,3
+ER stress / integrated stress response,RR3-39,-7.984379603856318,7.984379603856318,3
+ER stress / integrated stress response,RR3-40,-4.218835261980663,4.218835261980663,3
+Fluid and water transport,RR1,4.3330926484148105,4.3330926484148105,2
+Fluid and water transport,RR3-39,5.588870553641543,5.588870553641543,2
+Fluid and water transport,RR3-40,-4.146866739898038,4.146866739898038,2
+IGF-receptor signaling,RR1,-10.82584433826235,10.82584433826235,1
+IGF-receptor signaling,RR3-39,-11.445706191124833,11.445706191124833,1
+IGF-receptor signaling,RR3-40,-6.418107267687214,6.418107267687214,1
+Innate immune and complement regulation,RR1,0.93052833038593,9.246666571412684,4
+Innate immune and complement regulation,RR3-39,-3.594103764197354,3.594103764197354,4
+Innate immune and complement regulation,RR3-40,-1.1614005161910008,4.467491447839587,4
+"Lipid, carnitine, and bile metabolism",RR1,9.242810080968129,10.383882498443,6
+"Lipid, carnitine, and bile metabolism",RR3-39,-1.3733495971220464,3.9657772819654844,6
+"Lipid, carnitine, and bile metabolism",RR3-40,-4.849370629756597,5.512247216818397,6
+Stress and metabolic transcription,RR1,0.8116844866352645,10.153274146544492,3
+Stress and metabolic transcription,RR3-39,-6.542271962631439,6.542271962631439,3
+Stress and metabolic transcription,RR3-40,-6.611476494629592,6.611476494629592,3

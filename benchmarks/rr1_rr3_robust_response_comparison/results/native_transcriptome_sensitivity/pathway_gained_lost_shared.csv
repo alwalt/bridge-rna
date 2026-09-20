@@ -1,0 +1,347 @@
+cohort,status,source,pathway,in_IG_core_22
+RR1,gained_by_restriction,GO:BP,Cholesterol Biosynthetic Process (GO:0006695),False
+RR1,gained_by_restriction,GO:BP,Negative Regulation of Innate Immune Response (GO:0045824),False
+RR1,gained_by_restriction,GO:BP,Negative Regulation of Viral Genome Replication (GO:0045071),False
+RR1,gained_by_restriction,GO:BP,Negative Regulation of Viral Process (GO:0048525),False
+RR1,gained_by_restriction,GO:BP,Secondary Alcohol Biosynthetic Process (GO:1902653),False
+RR1,gained_by_restriction,GO:BP,Signal Transduction in Response to DNA Damage (GO:0042770),False
+RR1,gained_by_restriction,GO:BP,Sterol Biosynthetic Process (GO:0016126),False
+RR1,gained_by_restriction,REAC,Activation of Gene Expression by SREBF (SREBP),False
+RR1,gained_by_restriction,REAC,Cholesterol Biosynthesis,False
+RR1,gained_by_restriction,REAC,DDX58 IFIH1-mediated Induction of Interferon-Alpha Beta,False
+RR1,gained_by_restriction,REAC,Interferon Alpha Beta Signaling,False
+RR1,gained_by_restriction,REAC,Regulation of Cholesterol Biosynthesis by SREBP (SREBF),False
+RR1,lost_by_restriction,KEGG,"ALANINE, ASPARTATE AND GLUTAMATE METABOLISM",False
+RR1,lost_by_restriction,REAC,Mitochondrial Fatty Acid Beta-Oxidation,False
+RR1,shared,KEGG,COBALAMIN TRANSPORT AND METABOLISM,False
+RR1,shared,KEGG,FATTY ACID DEGRADATION,False
+RR1,shared,KEGG,PANTOTHENATE AND COA BIOSYNTHESIS,False
+RR3-39,gained_by_restriction,GO:BP,Extracellular Matrix Organization (GO:0030198),False
+RR3-39,gained_by_restriction,GO:BP,Hexose Biosynthetic Process (GO:0019319),False
+RR3-39,gained_by_restriction,GO:BP,Negative Regulation of T Cell Differentiation (GO:0045581),False
+RR3-39,gained_by_restriction,GO:BP,Odontogenesis (GO:0042476),False
+RR3-39,gained_by_restriction,REAC,"Cobalamin (Cbl, Vitamin B12) Transport and Metabolism",False
+RR3-39,gained_by_restriction,REAC,Cyclin A Cdk2-associated Events at S Phase Entry,False
+RR3-39,gained_by_restriction,REAC,Dual Incision in GG-NER,False
+RR3-39,gained_by_restriction,REAC,Gap-filling DNA Repair Synthesis and Ligation in GG-NER,False
+RR3-39,gained_by_restriction,REAC,Lysine Catabolism,False
+RR3-39,gained_by_restriction,REAC,PCNA-Dependent Long Patch Base Excision Repair,False
+RR3-39,gained_by_restriction,REAC,Regulation of mRNA Stability by Proteins That Bind AU-rich Elements,False
+RR3-39,lost_by_restriction,GO:BP,ATP Biosynthetic Process (GO:0006754),False
+RR3-39,lost_by_restriction,GO:BP,ATP Metabolic Process (GO:0046034),False
+RR3-39,lost_by_restriction,GO:BP,Fatty Acid Oxidation (GO:0019395),False
+RR3-39,lost_by_restriction,GO:BP,"Mitochondrial Electron Transport, Cytochrome C to Oxygen (GO:0006123)",False
+RR3-39,lost_by_restriction,KEGG,ALZHEIMER DISEASE,False
+RR3-39,lost_by_restriction,KEGG,EPITHELIAL CELL SIGNALING IN HELICOBACTER PYLORI INFECTION,False
+RR3-39,lost_by_restriction,KEGG,"GLYCINE, SERINE AND THREONINE METABOLISM",True
+RR3-39,lost_by_restriction,KEGG,PATHWAYS OF NEURODEGENERATION - MULTIPLE DISEASES,False
+RR3-39,lost_by_restriction,KEGG,SYSTEMIC LUPUS ERYTHEMATOSUS,False
+RR3-39,lost_by_restriction,REAC,Anchoring Fibril Formation,False
+RR3-39,lost_by_restriction,REAC,Autophagy,False
+RR3-39,lost_by_restriction,REAC,Cellular Response to Chemical Stress,False
+RR3-39,lost_by_restriction,REAC,Complex III Assembly,False
+RR3-39,lost_by_restriction,REAC,Cristae Formation,False
+RR3-39,lost_by_restriction,REAC,Detoxification of Reactive Oxygen Species,False
+RR3-39,lost_by_restriction,REAC,Fatty Acid Metabolism,False
+RR3-39,lost_by_restriction,REAC,Fc Epsilon Receptor (FCERI) Signaling,False
+RR3-39,lost_by_restriction,REAC,Formation of ATP by Chemiosmotic Coupling,False
+RR3-39,lost_by_restriction,REAC,G1 S-Specific Transcription,False
+RR3-39,lost_by_restriction,REAC,Macroautophagy,False
+RR3-39,lost_by_restriction,REAC,Mitophagy,False
+RR3-39,lost_by_restriction,REAC,Neutrophil Degranulation,False
+RR3-39,lost_by_restriction,REAC,Nuclear Events Mediated by NFE2L2,False
+RR3-39,lost_by_restriction,REAC,Peroxisomal Protein Import,False
+RR3-39,lost_by_restriction,REAC,Phase II - Conjugation of Compounds,False
+RR3-39,lost_by_restriction,REAC,PINK1-PRKN Mediated Mitophagy,False
+RR3-39,lost_by_restriction,REAC,RHO GTPases Activate NADPH Oxidases,False
+RR3-39,lost_by_restriction,REAC,SARS-CoV-2-host Interactions,False
+RR3-39,lost_by_restriction,REAC,Telomere Maintenance,False
+RR3-39,shared,GO:BP,Aerobic Electron Transport Chain (GO:0019646),False
+RR3-39,shared,GO:BP,Aerobic Respiration (GO:0009060),False
+RR3-39,shared,GO:BP,Alpha-beta T Cell Activation Involved in Immune Response (GO:0002287),False
+RR3-39,shared,GO:BP,Antibacterial Humoral Response (GO:0019731),False
+RR3-39,shared,GO:BP,"CD8-positive, Alpha-Beta T Cell Homeostasis (GO:0160165)",False
+RR3-39,shared,GO:BP,Cellular Respiration (GO:0045333),False
+RR3-39,shared,GO:BP,Collagen Fibril Organization (GO:0030199),False
+RR3-39,shared,GO:BP,Cytoplasmic Translation (GO:0002181),False
+RR3-39,shared,GO:BP,Dicarboxylic Acid Metabolic Process (GO:0043648),False
+RR3-39,shared,GO:BP,Energy Derivation by Oxidation of Organic Compounds (GO:0015980),False
+RR3-39,shared,GO:BP,Fatty Acid Beta-Oxidation (GO:0006635),False
+RR3-39,shared,GO:BP,L-amino Acid Catabolic Process (GO:0170035),False
+RR3-39,shared,GO:BP,Macromolecule Biosynthetic Process (GO:0009059),False
+RR3-39,shared,GO:BP,Mitochondrial ATP Synthesis Coupled Electron Transport (GO:0042775),False
+RR3-39,shared,GO:BP,"Mitochondrial Electron Transport, NADH to Ubiquinone (GO:0006120)",False
+RR3-39,shared,GO:BP,Mitochondrial Gene Expression (GO:0140053),False
+RR3-39,shared,GO:BP,Mitochondrial Respiratory Chain Complex Assembly (GO:0033108),False
+RR3-39,shared,GO:BP,Mitochondrial Translation (GO:0032543),False
+RR3-39,shared,GO:BP,Monocarboxylic Acid Metabolic Process (GO:0032787),False
+RR3-39,shared,GO:BP,Muscle Contraction (GO:0006936),False
+RR3-39,shared,GO:BP,Negative Regulation of Myoblast Fusion (GO:1901740),False
+RR3-39,shared,GO:BP,Negative Regulation of Regulatory T Cell Differentiation (GO:0045590),False
+RR3-39,shared,GO:BP,Negative Regulation of Syncytium Formation by Plasma Membrane Fusion (GO:0034242),False
+RR3-39,shared,GO:BP,Nicotinamide Nucleotide Metabolic Process (GO:0046496),False
+RR3-39,shared,GO:BP,Oxidative Phosphorylation (GO:0006119),False
+RR3-39,shared,GO:BP,Protein Biosynthetic Process (GO:0160307),False
+RR3-39,shared,GO:BP,Proteinogenic Amino Acid Catabolic Process (GO:0170040),False
+RR3-39,shared,GO:BP,Proton Motive Force-Driven ATP Synthesis (GO:0015986),False
+RR3-39,shared,GO:BP,Proton Motive Force-Driven Mitochondrial ATP Synthesis (GO:0042776),False
+RR3-39,shared,GO:BP,Pyruvate Metabolic Process (GO:0006090),False
+RR3-39,shared,GO:BP,Regulation of Myoblast Fusion (GO:1901739),False
+RR3-39,shared,GO:BP,Response to Type I Interferon (GO:0034340),False
+RR3-39,shared,GO:BP,Skin Development (GO:0043588),False
+RR3-39,shared,GO:BP,Striated Muscle Contraction (GO:0006941),False
+RR3-39,shared,GO:BP,T Cell Differentiation Involved in Immune Response (GO:0002292),False
+RR3-39,shared,GO:BP,T-helper 1 Cell Differentiation (GO:0045063),False
+RR3-39,shared,GO:BP,T-helper 1 Type Immune Response (GO:0042088),False
+RR3-39,shared,GO:BP,T-helper 17 Cell Differentiation (GO:0072539),False
+RR3-39,shared,GO:BP,T-helper 17 Type Immune Response (GO:0072538),False
+RR3-39,shared,GO:BP,Translation (GO:0006412),False
+RR3-39,shared,KEGG,AMYOTROPHIC LATERAL SCLEROSIS,False
+RR3-39,shared,KEGG,ARGININE BIOSYNTHESIS,False
+RR3-39,shared,KEGG,CARDIAC MUSCLE CONTRACTION,False
+RR3-39,shared,KEGG,CHEMICAL CARCINOGENESIS - REACTIVE OXYGEN SPECIES,False
+RR3-39,shared,KEGG,CITRATE CYCLE (TCA CYCLE),False
+RR3-39,shared,KEGG,CORONAVIRUS DISEASE - COVID-19,False
+RR3-39,shared,KEGG,DIABETIC CARDIOMYOPATHY,False
+RR3-39,shared,KEGG,ECM-RECEPTOR INTERACTION,False
+RR3-39,shared,KEGG,FRUCTOSE AND MANNOSE METABOLISM,False
+RR3-39,shared,KEGG,HUNTINGTON DISEASE,False
+RR3-39,shared,KEGG,LEGIONELLOSIS,False
+RR3-39,shared,KEGG,NON-ALCOHOLIC FATTY LIVER DISEASE,False
+RR3-39,shared,KEGG,ONE CARBON POOL BY FOLATE,False
+RR3-39,shared,KEGG,OXIDATIVE PHOSPHORYLATION,False
+RR3-39,shared,KEGG,PARKINSON DISEASE,False
+RR3-39,shared,KEGG,PRION DISEASE,False
+RR3-39,shared,KEGG,PROTEASOME,False
+RR3-39,shared,KEGG,PROTEIN DIGESTION AND ABSORPTION,False
+RR3-39,shared,KEGG,RIBOSOME,False
+RR3-39,shared,KEGG,THERMOGENESIS,False
+RR3-39,shared,KEGG,"VALINE, LEUCINE AND ISOLEUCINE DEGRADATION",False
+RR3-39,shared,REAC,Abortive Elongation of HIV-1 Transcript in the Absence of Tat,False
+RR3-39,shared,REAC,Activation of APC C and APC C Cdc20 Mediated Degradation of Mitotic Proteins,False
+RR3-39,shared,REAC,Activation of NF-kappaB in B Cells,False
+RR3-39,shared,REAC,Aerobic Respiration and Respiratory Electron Transport,False
+RR3-39,shared,REAC,Antigen processing-Cross Presentation,False
+RR3-39,shared,REAC,APC C Cdc20 Mediated Degradation of Mitotic Proteins,False
+RR3-39,shared,REAC,APC C Cdc20 Mediated Degradation of Securin,False
+RR3-39,shared,REAC,APC C Cdh1 Mediated Degradation of Cdc20 and Other APC C Cdh1 Targets in Late Mitosis Early G1,False
+RR3-39,shared,REAC,APC C-mediated Degradation of Cell Cycle Proteins,False
+RR3-39,shared,REAC,APC Cdc20 Mediated Degradation of Cell Cycle Proteins Prior to Satisfation of the Checkpoint,False
+RR3-39,shared,REAC,Assembly of Collagen Fibrils and Other Multimeric Structures,False
+RR3-39,shared,REAC,Assembly of the Pre-Replicative Complex,False
+RR3-39,shared,REAC,AUF1 (hnRNP D0) Binds and Destabilizes mRNA,False
+RR3-39,shared,REAC,Autodegradation of Cdh1 by Cdh1 APC C,False
+RR3-39,shared,REAC,Autodegradation of the E3 Ubiquitin Ligase COP1,False
+RR3-39,shared,REAC,Cap-dependent Translation Initiation,False
+RR3-39,shared,REAC,Cdc20 Phospho-APC C Mediated Degradation of Cyclin A,False
+RR3-39,shared,REAC,CDK-mediated Phosphorylation and Removal of Cdc6,False
+RR3-39,shared,REAC,Cell Cycle Checkpoints,False
+RR3-39,shared,REAC,Cellular Response to Starvation,False
+RR3-39,shared,REAC,Citric Acid Cycle (TCA Cycle),False
+RR3-39,shared,REAC,CLEC7A (Dectin-1) Signaling,False
+RR3-39,shared,REAC,Collagen Biosynthesis and Modifying Enzymes,False
+RR3-39,shared,REAC,Collagen Chain Trimerization,False
+RR3-39,shared,REAC,Collagen Degradation,False
+RR3-39,shared,REAC,Collagen Formation,False
+RR3-39,shared,REAC,Complex I Biogenesis,False
+RR3-39,shared,REAC,Complex IV Assembly,False
+RR3-39,shared,REAC,Cross-presentation of Soluble Exogenous Antigens (Endosomes),False
+RR3-39,shared,REAC,Crosslinking of Collagen Fibrils,False
+RR3-39,shared,REAC,Cyclin E Associated Events During G1 S Transition,False
+RR3-39,shared,REAC,Dectin-1 Mediated Noncanonical NF-kB Signaling,False
+RR3-39,shared,REAC,Defective CFTR Causes Cystic Fibrosis,False
+RR3-39,shared,REAC,Degradation of AXIN,False
+RR3-39,shared,REAC,Degradation of DVL,False
+RR3-39,shared,REAC,Degradation of GLI1 by the Proteasome,False
+RR3-39,shared,REAC,Degradation of GLI2 by the Proteasome,False
+RR3-39,shared,REAC,Degradation of the Extracellular Matrix,False
+RR3-39,shared,REAC,DNA Replication,False
+RR3-39,shared,REAC,DNA Replication Pre-Initiation,False
+RR3-39,shared,REAC,DNA Strand Elongation,False
+RR3-39,shared,REAC,Downstream Signaling Events of B Cell Receptor (BCR),False
+RR3-39,shared,REAC,Downstream TCR Signaling,False
+RR3-39,shared,REAC,Dual Incision in TC-NER,False
+RR3-39,shared,REAC,ECM Proteoglycans,False
+RR3-39,shared,REAC,ER-Phagosome Pathway,False
+RR3-39,shared,REAC,Eukaryotic Translation Elongation,False
+RR3-39,shared,REAC,Eukaryotic Translation Initiation,False
+RR3-39,shared,REAC,Eukaryotic Translation Termination,False
+RR3-39,shared,REAC,FBXL7 Down-Regulates AURKA During Mitotic Entry and in Early Mitosis,False
+RR3-39,shared,REAC,FCERI Mediated NF-kB Activation,False
+RR3-39,shared,REAC,Formation of a Pool of Free 40S Subunits,False
+RR3-39,shared,REAC,"Formation of the Ternary Complex, and Subsequently, the 43S Complex",False
+RR3-39,shared,REAC,G1 S DNA Damage Checkpoints,False
+RR3-39,shared,REAC,G1 S Transition,False
+RR3-39,shared,REAC,G2 M Checkpoints,False
+RR3-39,shared,REAC,Gap-filling DNA Repair Synthesis and Ligation in TC-NER,False
+RR3-39,shared,REAC,GLI3 Is Processed to GLI3R by the Proteasome,False
+RR3-39,shared,REAC,Glyoxylate Metabolism and Glycine Degradation,True
+RR3-39,shared,REAC,GSK3B and BTRC CUL1-mediated-degradation of NFE2L2,False
+RR3-39,shared,REAC,GTP Hydrolysis and Joining of the 60S Ribosomal Subunit,False
+RR3-39,shared,REAC,Hedgehog 'On' State,False
+RR3-39,shared,REAC,Hedgehog Ligand Biogenesis,False
+RR3-39,shared,REAC,Hh Mutants Abrogate Ligand Secretion,False
+RR3-39,shared,REAC,Hh Mutants Are Degraded by ERAD,False
+RR3-39,shared,REAC,Influenza Infection,False
+RR3-39,shared,REAC,Influenza Viral RNA Transcription and Replication,False
+RR3-39,shared,REAC,Integrin Cell Surface Interactions,False
+RR3-39,shared,REAC,Interconversion of Nucleotide Di- and Triphosphates,False
+RR3-39,shared,REAC,Interleukin-1 Family Signaling,False
+RR3-39,shared,REAC,Interleukin-1 Signaling,False
+RR3-39,shared,REAC,Iron Uptake and Transport,False
+RR3-39,shared,REAC,L13a-mediated Translational Silencing of Ceruloplasmin Expression,False
+RR3-39,shared,REAC,Major Pathway of rRNA Processing in the Nucleolus and Cytosol,False
+RR3-39,shared,REAC,Maturation of TCA Enzymes and Regulation of TCA Cycle,False
+RR3-39,shared,REAC,Metabolism of Amino Acids and Derivatives,False
+RR3-39,shared,REAC,Metabolism of Nucleotides,False
+RR3-39,shared,REAC,Metabolism of Polyamines,False
+RR3-39,shared,REAC,Metabolism of Vitamins and Cofactors,False
+RR3-39,shared,REAC,Metabolism of Water-Soluble Vitamins and Cofactors,False
+RR3-39,shared,REAC,Methylation,False
+RR3-39,shared,REAC,Mitochondrial Fatty Acid Beta-Oxidation,False
+RR3-39,shared,REAC,Mitochondrial Protein Degradation,False
+RR3-39,shared,REAC,Mitochondrial Protein Import,False
+RR3-39,shared,REAC,Mitochondrial Translation,False
+RR3-39,shared,REAC,Mitochondrial Translation Elongation,False
+RR3-39,shared,REAC,Mitochondrial Translation Initiation,False
+RR3-39,shared,REAC,Mitochondrial Translation Termination,False
+RR3-39,shared,REAC,Mitotic Anaphase,False
+RR3-39,shared,REAC,Mitotic G1 Phase and G1 S Transition,False
+RR3-39,shared,REAC,Mitotic Metaphase and Anaphase,False
+RR3-39,shared,REAC,"mRNA Activation Upon Binding of the Cap-Binding Complex and eIFs, and Subsequent Binding to 43S",False
+RR3-39,shared,REAC,NCAM1 Interactions,False
+RR3-39,shared,REAC,Negative Regulation of NOTCH4 Signaling,False
+RR3-39,shared,REAC,Nicotinamide Salvaging,False
+RR3-39,shared,REAC,Nicotinate Metabolism,False
+RR3-39,shared,REAC,NIK-->noncanonical NF-kB Signaling,False
+RR3-39,shared,REAC,Nonsense Mediated Decay (NMD) Enhanced by the Exon Junction Complex (EJC),False
+RR3-39,shared,REAC,Nonsense Mediated Decay (NMD) Independent of the Exon Junction Complex (EJC),False
+RR3-39,shared,REAC,Nonsense-Mediated Decay (NMD),False
+RR3-39,shared,REAC,Orc1 Removal From Chromatin,False
+RR3-39,shared,REAC,Oxygen-dependent Proline Hydroxylation of Hypoxia-inducible Factor Alpha,False
+RR3-39,shared,REAC,p53-Dependent G1 DNA Damage Response,False
+RR3-39,shared,REAC,p53-Dependent G1 S DNA Damage Checkpoint,False
+RR3-39,shared,REAC,p53-Independent DNA Damage Response,False
+RR3-39,shared,REAC,p53-Independent G1 S DNA Damage Checkpoint,False
+RR3-39,shared,REAC,Peptide Chain Elongation,False
+RR3-39,shared,REAC,Processive Synthesis on the Lagging Strand,False
+RR3-39,shared,REAC,Proteasome Assembly,False
+RR3-39,shared,REAC,Protein Localization,False
+RR3-39,shared,REAC,Recognition of DNA Damage by PCNA-containing Replication Complex,False
+RR3-39,shared,REAC,Regulation of Activated PAK-2p34 by Proteasome Mediated Degradation,False
+RR3-39,shared,REAC,Regulation of APC C Activators Between G1 S and Early Anaphase,False
+RR3-39,shared,REAC,Regulation of Apoptosis,False
+RR3-39,shared,REAC,Regulation of Expression of SLITs and ROBOs,False
+RR3-39,shared,REAC,Regulation of Mitotic Cell Cycle,False
+RR3-39,shared,REAC,Regulation of Ornithine Decarboxylase (ODC),False
+RR3-39,shared,REAC,Regulation of PTEN Stability and Activity,False
+RR3-39,shared,REAC,Regulation of RAS by GAPs,False
+RR3-39,shared,REAC,Regulation of RUNX2 Expression and Activity,False
+RR3-39,shared,REAC,Regulation of RUNX3 Expression and Activity,False
+RR3-39,shared,REAC,Respiratory Electron Transport,False
+RR3-39,shared,REAC,Response of EIF2AK4 (GCN2) to Amino Acid Deficiency,False
+RR3-39,shared,REAC,Ribosomal Scanning and Start Codon Recognition,False
+RR3-39,shared,REAC,ROS and RNS Production in Phagocytes,False
+RR3-39,shared,REAC,rRNA Processing,False
+RR3-39,shared,REAC,rRNA Processing in the Nucleus and Cytosol,False
+RR3-39,shared,REAC,RUNX1 Regulates Transcription of Genes Involved in Differentiation of HSCs,False
+RR3-39,shared,REAC,S Phase,False
+RR3-39,shared,REAC,SARS-CoV-1 Infection,False
+RR3-39,shared,REAC,SARS-CoV-1 Modulates Host Translation Machinery,False
+RR3-39,shared,REAC,SARS-CoV-1-host Interactions,False
+RR3-39,shared,REAC,SARS-CoV-2 Modulates Host Translation Machinery,False
+RR3-39,shared,REAC,SCF(Skp2)-mediated Degradation of P27 P21,False
+RR3-39,shared,REAC,SCF-beta-TrCP Mediated Degradation of Emi1,False
+RR3-39,shared,REAC,Selenoamino Acid Metabolism,False
+RR3-39,shared,REAC,Selenocysteine Synthesis,False
+RR3-39,shared,REAC,Separation of Sister Chromatids,False
+RR3-39,shared,REAC,Signaling by FGFR2 IIIa TM,False
+RR3-39,shared,REAC,Signaling by PDGF,False
+RR3-39,shared,REAC,Signaling by ROBO Receptors,False
+RR3-39,shared,REAC,Signaling by the B Cell Receptor (BCR),False
+RR3-39,shared,REAC,Somitogenesis,False
+RR3-39,shared,REAC,SRP-dependent Cotranslational Protein Targeting to Membrane,False
+RR3-39,shared,REAC,Stabilization of P53,False
+RR3-39,shared,REAC,Striated Muscle Contraction,False
+RR3-39,shared,REAC,Switching of Origins to a Post-Replicative State,False
+RR3-39,shared,REAC,Synthesis of DNA,False
+RR3-39,shared,REAC,TCR Signaling,False
+RR3-39,shared,REAC,The Role of GTSE1 in G2 M Progression After G2 Checkpoint,False
+RR3-39,shared,REAC,TNFR2 Non-Canonical NF-kB Pathway,False
+RR3-39,shared,REAC,Translation,False
+RR3-39,shared,REAC,Translation Initiation Complex Formation,False
+RR3-39,shared,REAC,Ubiquitin Mediated Degradation of Phosphorylated Cdc25A,False
+RR3-39,shared,REAC,Ubiquitin-dependent Degradation of Cyclin D,False
+RR3-39,shared,REAC,Vif-mediated Degradation of APOBEC3G,False
+RR3-39,shared,REAC,Viral mRNA Translation,False
+RR3-39,shared,REAC,Vpu Mediated Degradation of CD4,False
+RR3-40,gained_by_restriction,GO:BP,ER-nucleus Signaling Pathway (GO:0006984),False
+RR3-40,gained_by_restriction,GO:BP,Fatty Acid Metabolic Process (GO:0006631),False
+RR3-40,gained_by_restriction,GO:BP,Lipid Metabolic Process (GO:0006629),False
+RR3-40,gained_by_restriction,GO:BP,Long-chain fatty-acyl-CoA Metabolic Process (GO:0035336),False
+RR3-40,gained_by_restriction,GO:BP,Mitochondrial Respiratory Chain Complex Assembly (GO:0033108),False
+RR3-40,gained_by_restriction,GO:BP,Mitochondrial Respiratory Chain Complex I Assembly (GO:0032981),False
+RR3-40,gained_by_restriction,GO:BP,Mitochondrial Translation (GO:0032543),False
+RR3-40,gained_by_restriction,GO:BP,NADH Dehydrogenase Complex Assembly (GO:0010257),False
+RR3-40,gained_by_restriction,KEGG,PEROXISOME,False
+RR3-40,gained_by_restriction,REAC,Aerobic Respiration and Respiratory Electron Transport,False
+RR3-40,gained_by_restriction,REAC,Cap-dependent Translation Initiation,False
+RR3-40,gained_by_restriction,REAC,Eukaryotic Translation Elongation,False
+RR3-40,gained_by_restriction,REAC,Eukaryotic Translation Initiation,False
+RR3-40,gained_by_restriction,REAC,Fatty Acid Metabolism,False
+RR3-40,gained_by_restriction,REAC,Formation of a Pool of Free 40S Subunits,False
+RR3-40,gained_by_restriction,REAC,GTP Hydrolysis and Joining of the 60S Ribosomal Subunit,False
+RR3-40,gained_by_restriction,REAC,L13a-mediated Translational Silencing of Ceruloplasmin Expression,False
+RR3-40,gained_by_restriction,REAC,Metabolism of Amino Acids and Derivatives,False
+RR3-40,gained_by_restriction,REAC,Mitochondrial Translation,False
+RR3-40,gained_by_restriction,REAC,Mitochondrial Translation Elongation,False
+RR3-40,gained_by_restriction,REAC,Mitochondrial Translation Initiation,False
+RR3-40,gained_by_restriction,REAC,Mitochondrial Translation Termination,False
+RR3-40,gained_by_restriction,REAC,"mRNA Activation Upon Binding of the Cap-Binding Complex and eIFs, and Subsequent Binding to 43S",False
+RR3-40,gained_by_restriction,REAC,Peptide Chain Elongation,False
+RR3-40,gained_by_restriction,REAC,Selenocysteine Synthesis,False
+RR3-40,gained_by_restriction,REAC,Translation Initiation Complex Formation,False
+RR3-40,gained_by_restriction,REAC,Viral mRNA Translation,False
+RR3-40,lost_by_restriction,KEGG,AMINOACYL-TRNA BIOSYNTHESIS,False
+RR3-40,lost_by_restriction,KEGG,CHEMICAL CARCINOGENESIS - DNA ADDUCTS,False
+RR3-40,lost_by_restriction,KEGG,DRUG METABOLISM - CYTOCHROME P450,False
+RR3-40,lost_by_restriction,KEGG,DRUG METABOLISM - OTHER ENZYMES,False
+RR3-40,lost_by_restriction,KEGG,GLUTATHIONE METABOLISM,False
+RR3-40,shared,GO:BP,Aerobic Electron Transport Chain (GO:0019646),False
+RR3-40,shared,GO:BP,Aerobic Respiration (GO:0009060),False
+RR3-40,shared,GO:BP,Cellular Respiration (GO:0045333),False
+RR3-40,shared,GO:BP,Cholesterol Biosynthetic Process (GO:0006695),False
+RR3-40,shared,GO:BP,Cholesterol Metabolic Process (GO:0008203),False
+RR3-40,shared,GO:BP,Fatty Acid Biosynthetic Process (GO:0006633),False
+RR3-40,shared,GO:BP,Fatty-acyl-CoA Metabolic Process (GO:0035337),False
+RR3-40,shared,GO:BP,Lipid Biosynthetic Process (GO:0008610),False
+RR3-40,shared,GO:BP,Mitochondrial ATP Synthesis Coupled Electron Transport (GO:0042775),False
+RR3-40,shared,GO:BP,"Mitochondrial Electron Transport, NADH to Ubiquinone (GO:0006120)",False
+RR3-40,shared,GO:BP,Monocarboxylic Acid Biosynthetic Process (GO:0072330),False
+RR3-40,shared,GO:BP,Oxidative Phosphorylation (GO:0006119),False
+RR3-40,shared,GO:BP,Proton Motive Force-Driven ATP Synthesis (GO:0015986),False
+RR3-40,shared,GO:BP,Proton Motive Force-Driven Mitochondrial ATP Synthesis (GO:0042776),False
+RR3-40,shared,GO:BP,Secondary Alcohol Biosynthetic Process (GO:1902653),False
+RR3-40,shared,GO:BP,Sterol Biosynthetic Process (GO:0016126),False
+RR3-40,shared,GO:BP,Translation (GO:0006412),False
+RR3-40,shared,KEGG,"ALANINE, ASPARTATE AND GLUTAMATE METABOLISM",False
+RR3-40,shared,KEGG,ARGININE BIOSYNTHESIS,False
+RR3-40,shared,KEGG,FATTY ACID BIOSYNTHESIS,False
+RR3-40,shared,KEGG,ONE CARBON POOL BY FOLATE,False
+RR3-40,shared,KEGG,OXIDATIVE PHOSPHORYLATION,False
+RR3-40,shared,KEGG,PROTEIN PROCESSING IN ENDOPLASMIC RETICULUM,False
+RR3-40,shared,KEGG,RIBOSOME,False
+RR3-40,shared,KEGG,STEROID BIOSYNTHESIS,False
+RR3-40,shared,KEGG,TERPENOID BACKBONE BIOSYNTHESIS,False
+RR3-40,shared,REAC,Activation of Gene Expression by SREBF (SREBP),False
+RR3-40,shared,REAC,Cholesterol Biosynthesis,False
+RR3-40,shared,REAC,Complex I Biogenesis,False
+RR3-40,shared,REAC,Cooperation of Prefoldin and TriC CCT in Actin and Tubulin Folding,False
+RR3-40,shared,REAC,Fatty acyl-CoA Biosynthesis,False
+RR3-40,shared,REAC,Metabolism of Steroids,False
+RR3-40,shared,REAC,Nucleotide Biosynthesis,False
+RR3-40,shared,REAC,Prefoldin Mediated Transfer of Substrate to CCT TriC,False
+RR3-40,shared,REAC,Regulation of Cholesterol Biosynthesis by SREBP (SREBF),False
+RR3-40,shared,REAC,Respiratory Electron Transport,False
+RR3-40,shared,REAC,Selenoamino Acid Metabolism,False
+RR3-40,shared,REAC,Translation,False

@@ -1,0 +1,67 @@
+cohort,source,pathway,original_score,remeasurement_score,rank_original,rank_remeasurement,protocol_robust,signed_response,response_magnitude,module
+RR1,GO:BP,Carnitine Metabolic Process (GO:0009437),17.51087001841182,22.782201541596187,1.0,1.0,True,20.146535780004,20.146535780004,"Lipid, carnitine, and bile metabolism"
+RR1,GO:BP,Fluid Transport (GO:0042044),3.8823440583779374,4.558652189836562,101.0,64.0,True,4.22049812410725,4.22049812410725,Fluid and water transport
+RR1,GO:BP,Intracellular Lipid Transport (GO:0032365),11.738992502990094,17.888162495997054,10.0,4.0,True,14.813577499493574,14.813577499493574,"Lipid, carnitine, and bile metabolism"
+RR1,GO:BP,Positive Regulation of Immune System Process (GO:0002684),-10.433006975449599,-3.9437943234183264,13.0,81.0,True,-7.188400649433962,7.188400649433962,Innate immune and complement regulation
+RR1,GO:BP,Positive Regulation of Innate Immune Response (GO:0045089),8.357943273047935,11.385619940835692,19.0,12.0,True,9.871781606941813,9.871781606941813,Innate immune and complement regulation
+RR1,GO:BP,Positive Regulation of Response to Biotic Stimulus (GO:0002833),8.957090862322852,12.008125530987977,17.0,11.0,True,10.482608196655415,10.482608196655415,Innate immune and complement regulation
+RR1,GO:BP,Positive Regulation of Triglyceride Metabolic Process (GO:0090208),3.094209426348389,2.541521406402085,137.0,174.0,True,2.817865416375237,2.817865416375237,"Lipid, carnitine, and bile metabolism"
+RR1,GO:BP,Regulation of Insulin-Like Growth Factor Receptor Signaling Pathway (GO:0043567),-9.473986019694669,-12.17770265683003,16.0,10.0,True,-10.82584433826235,10.82584433826235,IGF-receptor signaling
+RR1,GO:BP,Regulation of Lipid Biosynthetic Process (GO:0046890),-2.8159197706103054,-4.030514734238924,162.0,79.0,True,-3.4232172524246147,3.4232172524246147,"Lipid, carnitine, and bile metabolism"
+RR1,GO:BP,Water Transport (GO:0006833),4.118970288817358,4.772404056627383,85.0,60.0,True,4.44568717272237,4.44568717272237,Fluid and water transport
+RR1,KEGG,BILE SECRETION,4.904082759485069,5.692671111714626,65.0,48.0,True,5.298376935599848,5.298376935599848,"Lipid, carnitine, and bile metabolism"
+RR1,KEGG,"GLYCINE, SERINE AND THREONINE METABOLISM",2.9452952047841947,2.473397231376294,146.0,183.0,True,2.7093462180802446,2.7093462180802446,Amino-acid and central-carbon metabolism
+RR1,Reactome,ATF4 Activates Genes in Response to Endoplasmic Reticulum Stress,-7.56913264027998,-10.481345961319489,23.0,15.0,True,-9.025239300799734,9.025239300799734,ER stress / integrated stress response
+RR1,Reactome,Carnitine Shuttle,13.278936320451585,18.328507893069876,6.0,3.0,True,15.80372210676073,15.80372210676073,"Lipid, carnitine, and bile metabolism"
+RR1,Reactome,FOXO-mediated Transcription,-4.282319810308815,-6.158772699251395,78.0,41.0,True,-5.220546254780105,5.220546254780105,Stress and metabolic transcription
+RR1,Reactome,"FOXO-mediated Transcription of Oxidative Stress, Metabolic and Neuronal Genes",-8.181673937324563,-9.40200253284291,20.0,17.0,True,-8.791838235083738,8.791838235083738,Stress and metabolic transcription
+RR1,Reactome,Glyoxylate Metabolism and Glycine Degradation,2.26935341439921,2.482039962219257,232.0,182.0,True,2.375696688309233,2.375696688309233,Amino-acid and central-carbon metabolism
+RR1,Reactome,PERK Regulates Gene Expression,-6.327693863542511,-9.240573762421992,34.0,19.0,True,-7.784133812982251,7.784133812982251,ER stress / integrated stress response
+RR1,Reactome,Pyruvate Metabolism,3.9465121934169427,3.3853992680909677,95.0,106.0,True,3.6659557307539554,3.6659557307539554,Amino-acid and central-carbon metabolism
+RR1,Reactome,RORA Activates Gene Expression,14.241640614316578,18.653235285222696,2.0,2.0,True,16.447437949769636,16.447437949769636,Stress and metabolic transcription
+RR1,Reactome,Regulation of Complement Cascade,-13.443320123372704,-5.444431541866387,5.0,52.0,True,-9.443875832619545,9.443875832619545,Innate immune and complement regulation
+RR1,Reactome,Unfolded Protein Response (UPR),-3.922266070299312,-5.604153784429103,99.0,49.0,True,-4.7632099273642075,4.7632099273642075,ER stress / integrated stress response
+RR3-39,GO:BP,Carnitine Metabolic Process (GO:0009437),-3.4368405470609695,-3.8897339889736067,101.0,54.0,True,-3.663287268017288,3.663287268017288,"Lipid, carnitine, and bile metabolism"
+RR3-39,GO:BP,Fluid Transport (GO:0042044),5.479657057931513,5.530267049973912,36.0,21.0,True,5.504962053952713,5.504962053952713,Fluid and water transport
+RR3-39,GO:BP,Intracellular Lipid Transport (GO:0032365),-3.726012393115862,-4.660410693252608,80.0,29.0,True,-4.193211543184235,4.193211543184235,"Lipid, carnitine, and bile metabolism"
+RR3-39,GO:BP,Positive Regulation of Immune System Process (GO:0002684),-6.075710864954574,-6.086518536129529,27.0,16.0,True,-6.081114700542051,6.081114700542051,Innate immune and complement regulation
+RR3-39,GO:BP,Positive Regulation of Innate Immune Response (GO:0045089),-2.3438546342549067,-2.4492428409161136,226.0,209.0,True,-2.39654873758551,2.39654873758551,Innate immune and complement regulation
+RR3-39,GO:BP,Positive Regulation of Response to Biotic Stimulus (GO:0002833),-2.59569136989731,-2.465986079479075,189.0,207.0,True,-2.5308387246881923,2.5308387246881923,Innate immune and complement regulation
+RR3-39,GO:BP,Positive Regulation of Triglyceride Metabolic Process (GO:0090208),4.409698618915944,4.0838454511237625,58.0,45.0,True,4.246772035019854,4.246772035019854,"Lipid, carnitine, and bile metabolism"
+RR3-39,GO:BP,Regulation of Insulin-Like Growth Factor Receptor Signaling Pathway (GO:0043567),-11.668225096280008,-11.223187285969658,2.0,1.0,True,-11.445706191124833,11.445706191124833,IGF-receptor signaling
+RR3-39,GO:BP,Regulation of Lipid Biosynthetic Process (GO:0046890),-3.521791344615915,-4.152042950908913,93.0,40.0,True,-3.836917147762414,3.836917147762414,"Lipid, carnitine, and bile metabolism"
+RR3-39,GO:BP,Water Transport (GO:0006833),5.763161150213175,5.582396956447571,33.0,20.0,True,5.672779053330373,5.672779053330373,Fluid and water transport
+RR3-39,KEGG,BILE SECRETION,3.6598740480683873,3.401147990952531,84.0,81.0,True,3.530511019510459,3.530511019510459,"Lipid, carnitine, and bile metabolism"
+RR3-39,KEGG,"GLYCINE, SERINE AND THREONINE METABOLISM",-3.1680391488003186,-2.8345632525642763,119.0,155.0,True,-3.001301200682297,3.001301200682297,Amino-acid and central-carbon metabolism
+RR3-39,Reactome,ATF4 Activates Genes in Response to Endoplasmic Reticulum Stress,-10.114335170128614,-9.65150117681912,4.0,3.0,True,-9.882918173473868,9.882918173473868,ER stress / integrated stress response
+RR3-39,Reactome,Carnitine Shuttle,-3.6576453741777626,-4.990283982419549,85.0,25.0,True,-4.323964678298656,4.323964678298656,"Lipid, carnitine, and bile metabolism"
+RR3-39,Reactome,FOXO-mediated Transcription,-6.172091142845715,-6.416927374491617,26.0,12.0,True,-6.294509258668666,6.294509258668666,Stress and metabolic transcription
+RR3-39,Reactome,"FOXO-mediated Transcription of Oxidative Stress, Metabolic and Neuronal Genes",-10.18655127863183,-10.660869733367852,3.0,2.0,True,-10.423710505999841,10.423710505999841,Stress and metabolic transcription
+RR3-39,Reactome,Glyoxylate Metabolism and Glycine Degradation,-3.94107121601752,-4.101690280915421,68.0,44.0,True,-4.021380748466471,4.021380748466471,Amino-acid and central-carbon metabolism
+RR3-39,Reactome,PERK Regulates Gene Expression,-9.59508459743285,-8.688477114749448,5.0,4.0,True,-9.141780856091149,9.141780856091149,ER stress / integrated stress response
+RR3-39,Reactome,Pyruvate Metabolism,-3.6866894725649058,-3.6611574040482657,83.0,66.0,True,-3.673923438306586,3.673923438306586,Amino-acid and central-carbon metabolism
+RR3-39,Reactome,RORA Activates Gene Expression,-2.7442796111572485,-3.072912635294376,170.0,116.0,True,-2.908596123225812,2.908596123225812,Stress and metabolic transcription
+RR3-39,Reactome,Regulation of Complement Cascade,-3.473174641027843,-3.2626511469194814,97.0,94.0,True,-3.3679128939736622,3.3679128939736622,Innate immune and complement regulation
+RR3-39,Reactome,Unfolded Protein Response (UPR),-5.188763087150687,-4.668116476857192,38.0,28.0,True,-4.92843978200394,4.92843978200394,ER stress / integrated stress response
+RR3-40,GO:BP,Carnitine Metabolic Process (GO:0009437),-8.347035919598012,-12.738939244048144,8.0,1.0,True,-10.542987581823077,10.542987581823077,"Lipid, carnitine, and bile metabolism"
+RR3-40,GO:BP,Fluid Transport (GO:0042044),-3.3832531811618773,-4.6734640423072005,73.0,62.0,True,-4.028358611734539,4.028358611734539,Fluid and water transport
+RR3-40,GO:BP,Intracellular Lipid Transport (GO:0032365),-4.104869630327337,-6.714517027545704,49.0,31.0,True,-5.4096933289365206,5.4096933289365206,"Lipid, carnitine, and bile metabolism"
+RR3-40,GO:BP,Positive Regulation of Immune System Process (GO:0002684),2.245852305178419,4.733644106776794,147.0,60.0,True,3.489748205977606,3.489748205977606,Innate immune and complement regulation
+RR3-40,GO:BP,Positive Regulation of Innate Immune Response (GO:0045089),-4.519478587575802,-6.68742560400661,43.0,33.0,True,-5.603452095791206,5.603452095791206,Innate immune and complement regulation
+RR3-40,GO:BP,Positive Regulation of Response to Biotic Stimulus (GO:0002833),-4.550709982107778,-6.757953682432162,41.0,28.0,True,-5.654331832269969,5.654331832269969,Innate immune and complement regulation
+RR3-40,GO:BP,Positive Regulation of Triglyceride Metabolic Process (GO:0090208),-2.5062647982328903,-2.921989017687654,121.0,120.0,True,-2.714126907960272,2.714126907960272,"Lipid, carnitine, and bile metabolism"
+RR3-40,GO:BP,Regulation of Insulin-Like Growth Factor Receptor Signaling Pathway (GO:0043567),-5.4382802329098,-7.397934302464628,28.0,20.0,True,-6.418107267687214,6.418107267687214,IGF-receptor signaling
+RR3-40,GO:BP,Regulation of Lipid Biosynthetic Process (GO:0046890),2.036754326319874,1.940505196050925,168.0,248.0,True,1.9886297611853996,1.9886297611853996,"Lipid, carnitine, and bile metabolism"
+RR3-40,GO:BP,Water Transport (GO:0006833),-3.593997368341666,-4.936752367781407,65.0,55.0,True,-4.265374868061537,4.265374868061537,Fluid and water transport
+RR3-40,KEGG,BILE SECRETION,-5.560245329092618,-7.7188471983333,25.0,18.0,True,-6.639546263712959,6.639546263712959,"Lipid, carnitine, and bile metabolism"
+RR3-40,KEGG,"GLYCINE, SERINE AND THREONINE METABOLISM",4.071928108693799,6.784475663026209,51.0,27.0,True,5.428201885860004,5.428201885860004,Amino-acid and central-carbon metabolism
+RR3-40,Reactome,ATF4 Activates Genes in Response to Endoplasmic Reticulum Stress,-4.39256096204645,-6.069402729459259,44.0,39.0,True,-5.230981845752854,5.230981845752854,ER stress / integrated stress response
+RR3-40,Reactome,Carnitine Shuttle,-4.604742272648088,-6.9522566419362155,40.0,25.0,True,-5.778499457292152,5.778499457292152,"Lipid, carnitine, and bile metabolism"
+RR3-40,Reactome,FOXO-mediated Transcription,-3.255406550405269,-4.808066973841394,77.0,58.0,True,-4.031736762123332,4.031736762123332,Stress and metabolic transcription
+RR3-40,Reactome,"FOXO-mediated Transcription of Oxidative Stress, Metabolic and Neuronal Genes",-4.843996276277547,-7.081771749923333,38.0,21.0,True,-5.962884013100441,5.962884013100441,Stress and metabolic transcription
+RR3-40,Reactome,Glyoxylate Metabolism and Glycine Degradation,5.530758432166251,8.254088786576988,27.0,12.0,True,6.892423609371619,6.892423609371619,Amino-acid and central-carbon metabolism
+RR3-40,Reactome,PERK Regulates Gene Expression,-3.8907285712426023,-5.307565264187749,55.0,48.0,True,-4.599146917715176,4.599146917715176,ER stress / integrated stress response
+RR3-40,Reactome,Pyruvate Metabolism,1.7330382903363744,1.980009580424928,227.0,238.0,True,1.8565239353806513,1.8565239353806513,Amino-acid and central-carbon metabolism
+RR3-40,Reactome,RORA Activates Gene Expression,-7.976555507782279,-11.703061909547731,9.0,2.0,True,-9.839808708665005,9.839808708665005,Stress and metabolic transcription
+RR3-40,Reactome,Regulation of Complement Cascade,1.88703987502708,4.357827439612052,196.0,71.0,True,3.122433657319566,3.122433657319566,Innate immune and complement regulation
+RR3-40,Reactome,Unfolded Protein Response (UPR),-2.4324116912947886,-3.2203423536531304,125.0,101.0,True,-2.8263770224739595,2.8263770224739595,ER stress / integrated stress response

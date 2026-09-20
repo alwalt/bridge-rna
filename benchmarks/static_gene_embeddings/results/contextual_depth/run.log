@@ -1,0 +1,34 @@
+[2026-09-20T00:09:46.607449+00:00] Extracted sample 1/8 cohort=GBM elapsed=0.0m
+[2026-09-20T00:09:46.837659+00:00] Extracted sample 2/8 cohort=BRCA elapsed=0.0m
+[2026-09-20T00:09:47.098043+00:00] Extracted sample 3/8 cohort=LUAD elapsed=0.0m
+[2026-09-20T00:09:47.343994+00:00] Extracted sample 4/8 cohort=KIRC elapsed=0.0m
+[2026-09-20T00:09:47.586916+00:00] Extracted sample 5/8 cohort=LIHC elapsed=0.0m
+[2026-09-20T00:09:47.800811+00:00] Extracted sample 6/8 cohort=PRAD elapsed=0.0m
+[2026-09-20T00:09:48.054072+00:00] Extracted sample 7/8 cohort=COAD elapsed=0.0m
+[2026-09-20T00:09:48.298877+00:00] Extracted sample 8/8 cohort=SKCM elapsed=0.0m
+[2026-09-20T00:10:00.288606+00:00] Metrics complete layer=L0_static sample=1/1
+[2026-09-20T00:10:01.602055+00:00] Metrics complete layer=L1_early sample=1/8
+[2026-09-20T00:10:02.932313+00:00] Metrics complete layer=L1_early sample=2/8
+[2026-09-20T00:10:04.585010+00:00] Metrics complete layer=L1_early sample=3/8
+[2026-09-20T00:10:06.080902+00:00] Metrics complete layer=L1_early sample=4/8
+[2026-09-20T00:10:07.351039+00:00] Metrics complete layer=L1_early sample=5/8
+[2026-09-20T00:10:09.021983+00:00] Metrics complete layer=L1_early sample=6/8
+[2026-09-20T00:10:10.319159+00:00] Metrics complete layer=L1_early sample=7/8
+[2026-09-20T00:10:11.688623+00:00] Metrics complete layer=L1_early sample=8/8
+[2026-09-20T00:10:12.949461+00:00] Metrics complete layer=L6_middle sample=1/8
+[2026-09-20T00:10:14.250783+00:00] Metrics complete layer=L6_middle sample=2/8
+[2026-09-20T00:10:15.736620+00:00] Metrics complete layer=L6_middle sample=3/8
+[2026-09-20T00:10:17.239447+00:00] Metrics complete layer=L6_middle sample=4/8
+[2026-09-20T00:10:18.517713+00:00] Metrics complete layer=L6_middle sample=5/8
+[2026-09-20T00:10:19.916735+00:00] Metrics complete layer=L6_middle sample=6/8
+[2026-09-20T00:10:21.249637+00:00] Metrics complete layer=L6_middle sample=7/8
+[2026-09-20T00:10:22.586910+00:00] Metrics complete layer=L6_middle sample=8/8
+[2026-09-20T00:10:23.907232+00:00] Metrics complete layer=L12_final sample=1/8
+[2026-09-20T00:10:25.332341+00:00] Metrics complete layer=L12_final sample=2/8
+[2026-09-20T00:10:26.851575+00:00] Metrics complete layer=L12_final sample=3/8
+[2026-09-20T00:10:28.383168+00:00] Metrics complete layer=L12_final sample=4/8
+[2026-09-20T00:10:29.847071+00:00] Metrics complete layer=L12_final sample=5/8
+[2026-09-20T00:10:31.161548+00:00] Metrics complete layer=L12_final sample=6/8
+[2026-09-20T00:10:32.504909+00:00] Metrics complete layer=L12_final sample=7/8
+[2026-09-20T00:10:33.930668+00:00] Metrics complete layer=L12_final sample=8/8
+[2026-09-20T00:10:34.813642+00:00] Complete elapsed=0.8m
