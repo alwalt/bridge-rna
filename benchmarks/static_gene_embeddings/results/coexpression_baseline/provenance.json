@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "cohorts": "Exact frozen matched manifest: 200 GTEx and 200 TCGA samples",
+  "expression": "Natural log1p(TPM), canonical 15165-gene ordering",
+  "coexpression": "Pearson or Spearman correlation across the 200 samples in each cohort",
+  "bridge": "Mean-centered cosine on cohort-averaged 512-D contextual gene tokens cached from the same 200 samples",
+  "layers": {
+    "Bridge L0": "L0_static",
+    "Bridge L1": "L1_early",
+    "Bridge L6": "L6_middle",
+    "Bridge L12": "L12_final"
+  },
+  "ks": [
+    10,
+    25,
+    50
+  ],
+  "annotation_libraries": {
+    "GO": "/home/walt/bridge-rna/benchmarks/cross_species_exercise_response/results/per_study_ranked_gsea/GO_Biological_Process_2026.gmt",
+    "KEGG": "/home/walt/bridge-rna/benchmarks/cross_species_exercise_response/results/per_study_ranked_gsea/KEGG_2026.gmt"
+  },
+  "metric": "Aggregate fraction of annotation-eligible query-neighbor pairs sharing at least one term, divided by mean random-neighbor rate",
+  "null": "100 random annotation-eligible neighbor matrices, sampled with replacement; shared across methods within cohort/library/k",
+  "confidence_intervals": "95% percentile interval from 1000 gene bootstraps with a randomly drawn null replicate per bootstrap",
+  "eligibility": "Canonical genes invariant across samples have undefined correlation and are excluded from queries/candidates for every method within that cohort; losses are recorded",
+  "important_comparability_note": "The baseline uses one cohort-level network per method. Bridge vectors are averaged across the same cohort before neighborhood retrieval; this differs from the earlier per-sample contextual-occurrence endpoint but gives a matched unit against cohort coexpression.",
+  "elapsed_seconds": 179.73771572113037
+}

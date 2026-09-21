@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "cohorts": "Frozen balanced 200-sample GTEx and 200-sample TCGA cohorts",
+  "gene_universe": 15165,
+  "shared_variable_gene_universe": 15037,
+  "pair_sampling": {
+    "anchors": 3000,
+    "partners_per_anchor": 100,
+    "seed": 20260921,
+    "same_pairs_across_cohorts": true
+  },
+  "outcome": "Both genes annotated and sharing at least one GO Biological Process term or KEGG pathway",
+  "base_model": [
+    "pearson",
+    "spearman",
+    "pair_mean_expression",
+    "expression_difference"
+  ],
+  "full_model": [
+    "pearson",
+    "spearman",
+    "pair_mean_expression",
+    "expression_difference",
+    "l12_cosine"
+  ],
+  "expression_controls": "Pair-average cohort mean log1p(TPM) and absolute difference in cohort mean log1p(TPM)",
+  "inference": "Standardized multivariable logistic regression; sandwich SE clustered by anchor gene",
+  "prediction": "Five-fold anchor-gene GroupKFold; unregularized-approximation logistic regression; base versus base plus L12",
+  "confidence_intervals": "95% percentile intervals from 500 anchor-gene bootstrap replicates",
+  "limitations": [
+    "Shared annotation is not an independent experimental phenotype",
+    "The conditional model controls specified linear terms and cannot exclude every nonlinear expression-derived explanation",
+    "Cohort-mean L12 vectors test shared cohort-level functional geometry, not sample-specific token occurrences"
+  ],
+  "elapsed_seconds": 264.39463543891907
+}

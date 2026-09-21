@@ -94,6 +94,9 @@ Cohort-level contextual gene modules and expression controls are generated with:
 ```bash
 .venv/bin/python benchmarks/static_gene_embeddings/pipeline/contextual_gene_modules.py
 .venv/bin/python benchmarks/static_gene_embeddings/pipeline/contextual_module_expression_controls.py
+.venv/bin/python benchmarks/static_gene_embeddings/pipeline/visualize_tpm_residual_modules.py
+.venv/bin/python benchmarks/static_gene_embeddings/pipeline/coexpression_baseline.py
+.venv/bin/python benchmarks/static_gene_embeddings/pipeline/l12_conditional_function.py
 ```
 
 These cluster the original 512-D cohort-mean gene tokens, not a 2-D projection.

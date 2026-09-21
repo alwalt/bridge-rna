@@ -394,6 +394,19 @@ changed to cohort mean natural `log1p(TPM)`. This reveals how much of the visibl
 geometry follows expression level.""")
 code("display(Image(filename=str(MOD / 'matched_projections_by_expression.png'))) ")
 
+md("""## Geometry after linear TPM residualization
+
+These matched panels repeat joint PCA-50, t-SNE, and UMAP after regressing cohort-mean
+`log1p(TPM)` linearly from every embedding dimension. Colors in the first figure are
+new K-means assignments fitted in the residual 512-D space; they are not aligned across
+cohorts or layers. The second figure uses the original mean `log1p(TPM)` values to show
+how much expression ordering remains after the linear adjustment. Residualization does
+not remove nonlinear expression effects, and the projections remain exploratory.""")
+
+code("display(Image(filename=str(MOD / 'matched_tpm_residual_projections_by_clusters.png'))) ")
+
+code("display(Image(filename=str(MOD / 'matched_tpm_residual_projections_by_expression.png'))) ")
+
 md("""## Quantifying TPM dependence
 
 Four complementary diagnostics are used:
@@ -436,6 +449,94 @@ by expression magnitude, but the reproducible and functionally coherent L12
 modules are not primarily reducible to that magnitude. Functional enrichment and
 module stability remain strong after explicit TPM residualization in both normal
 tissue and tumors.""")
+
+md("""# Matched Pearson/Spearman coexpression baseline
+
+This comparison asks whether Bridge recovers functional neighborhoods beyond a
+straightforward correlation network. For each frozen 200-sample cohort, Pearson
+and Spearman correlations are calculated between genes using the same natural
+`log1p(TPM)` matrix and canonical gene ordering. Bridge uses one cohort-mean
+512-D contextual vector per gene, with mean-centered cosine similarity, so every
+method defines one cohort-level network.
+
+For every method, the top 10, 25, and 50 neighbors are evaluated with the same GO
+and KEGG definitions. The score is the aggregate fraction of annotation-eligible
+query-neighbor pairs sharing at least one annotation, divided by a shared random-
+neighbor null. Error bars are 95% intervals from gene bootstrapping combined with
+null-replicate sampling. Constant-expression genes have undefined correlations and
+are excluded from all methods within that cohort; the exact losses are reported.""")
+
+code("""COEX = HERE / 'results/coexpression_baseline'
+coex = pd.read_csv(COEX / 'coexpression_vs_bridge_summary.csv')
+eligibility = pd.read_csv(COEX / 'gene_eligibility.csv')
+primary = pd.read_csv(COEX / 'primary_k25_comparison.csv')
+display(eligibility)
+display(primary.style.format({
+    'Bridge L0':'{:.3f}', 'Bridge L1':'{:.3f}', 'Bridge L6':'{:.3f}',
+    'Bridge L12':'{:.3f}', 'Pearson':'{:.3f}', 'Spearman':'{:.3f}',
+    'L12_minus_best_coexpression':'{:.3f}',
+    'L12_over_best_coexpression':'{:.3f}',
+}))""")
+
+code("display(Image(filename=str(COEX / 'matched_coexpression_vs_bridge.png'))) ")
+
+md("""Across k=10/25/50, Bridge L12 exceeds both correlation baselines for GO and
+KEGG in both cohorts. At k=25, L12 is 1.206× and 1.215× the better coexpression
+baseline for GTEx GO and KEGG, respectively, and 1.157× and 1.257× for TCGA.
+Pearson is consistently stronger than Spearman here, while L0 is at the random
+baseline and L1 remains below ordinary coexpression. The advantage emerges between
+L6 and L12 and replicates in normal and tumor transcriptomes.
+
+This is evidence that L12 contains functional-neighborhood information not recovered
+by pairwise coexpression alone, but it is not evidence that expression is irrelevant:
+Bridge receives the complete expression state and can encode nonlinear, multigene,
+and tissue-dependent relationships. This cohort-level comparison is deliberately
+distinct from the earlier per-sample contextual-occurrence endpoint.""")
+
+md("""# Does L12 add information beyond coexpression and expression level?
+
+The conditional analysis uses the same sampled gene pairs in both cohorts. The
+binary outcome is whether two annotation-eligible genes share at least one GO
+Biological Process term or KEGG pathway. A base logistic model contains Pearson
+coexpression, Spearman coexpression, pair-average cohort mean `log1p(TPM)`, and
+absolute difference in mean expression. The full model adds mean-centered L12
+cosine similarity.
+
+Coefficient inference uses sandwich standard errors clustered by anchor gene.
+Predictive effects are evaluated out of sample with five-fold anchor-gene grouped
+cross-validation. Confidence intervals for AUROC/AUPRC changes resample anchor
+genes, preventing pairs from the same anchor from being treated as independent.""")
+
+code("""COND = HERE / 'results/l12_conditional_function'
+conditional = pd.read_csv(COND / 'l12_conditional_results.csv')
+display(conditional[['dataset','library','pairs','positive_fraction',
+ 'l12_odds_ratio_per_sd','l12_or_ci_low','l12_or_ci_high','l12_p_value',
+ 'base_auroc','full_auroc','delta_auroc','delta_auroc_ci_low','delta_auroc_ci_high',
+ 'base_auprc','full_auprc','delta_auprc','delta_auprc_ci_low','delta_auprc_ci_high']]
+ .style.format({c:'{:.4f}' for c in ['positive_fraction','base_auroc','full_auroc',
+ 'delta_auroc','delta_auroc_ci_low','delta_auroc_ci_high','base_auprc',
+ 'full_auprc','delta_auprc','delta_auprc_ci_low','delta_auprc_ci_high']}
+ | {c:'{:.3f}' for c in ['l12_odds_ratio_per_sd','l12_or_ci_low','l12_or_ci_high']}
+ | {'l12_p_value':'{:.2e}'}))""")
+
+code("display(Image(filename=str(COND / 'l12_conditional_function.png'))) ")
+
+md("""L12 contributes significant information after the specified controls in
+both cohorts. Adjusted odds ratios per 1-SD L12 cosine are 1.223 (95% CI
+1.193–1.254) for GTEx GO, 1.424 (1.347–1.505) for GTEx KEGG, 1.188
+(1.156–1.220) for TCGA GO, and 1.404 (1.326–1.485) for TCGA KEGG. Cluster-robust
+p-values range from approximately 8×10⁻³² to 5×10⁻⁵⁶.
+
+Adding L12 increases held-out AUROC by 0.0177 for GTEx GO, 0.0522 for GTEx KEGG,
+0.0108 for TCGA GO, and 0.0360 for TCGA KEGG; every 95% anchor-bootstrap interval
+is above zero. AUPRC also increases in all four analyses. The independent signal
+therefore replicates, with a larger effect for KEGG than GO.
+
+This supports an incremental—not causal—claim. The model controls linear Pearson,
+Spearman, and mean-expression terms, but L12 is itself derived from the full
+expression profile; nonlinear or higher-order expression structure can legitimately
+mediate its additional information. Shared database annotations are also not an
+independent experimental endpoint.""")
 
 nb['cells'] = cells
 nb['metadata'] = {"kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"}, "language_info": {"name": "python", "version": "3.11"}}

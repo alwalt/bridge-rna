@@ -1,0 +1,15 @@
+[2026-09-21T03:21:08.834924+00:00] GTEx: loaded 200 samples; eligible genes=15037/15165
+[2026-09-21T03:22:30.844405+00:00] GTEx: neighbors complete for Pearson
+[2026-09-21T03:22:31.937639+00:00] GTEx: neighbors complete for Spearman
+[2026-09-21T03:22:33.083022+00:00] GTEx: neighbors complete for Bridge L0
+[2026-09-21T03:22:34.355403+00:00] GTEx: neighbors complete for Bridge L1
+[2026-09-21T03:22:35.831690+00:00] GTEx: neighbors complete for Bridge L6
+[2026-09-21T03:22:37.064575+00:00] GTEx: neighbors complete for Bridge L12
+[2026-09-21T03:22:38.431925+00:00] TCGA: loaded 200 samples; eligible genes=15105/15165
+[2026-09-21T03:23:59.054493+00:00] TCGA: neighbors complete for Pearson
+[2026-09-21T03:24:00.195836+00:00] TCGA: neighbors complete for Spearman
+[2026-09-21T03:24:01.328452+00:00] TCGA: neighbors complete for Bridge L0
+[2026-09-21T03:24:02.688112+00:00] TCGA: neighbors complete for Bridge L1
+[2026-09-21T03:24:04.005130+00:00] TCGA: neighbors complete for Bridge L6
+[2026-09-21T03:24:05.077447+00:00] TCGA: neighbors complete for Bridge L12
+[2026-09-21T03:24:07.961788+00:00] Complete elapsed=3.0m
