@@ -1,0 +1,42 @@
+[startup] real conditions=1; outer folds=3; C grid=5; resume=True
+[task] SL loading /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/references/gene-embedding-benchmarks/data/data_splits/gene_pair_benchmark/sl_nested_cv_splits.pkl
+[run] task=SL rep=E0_static op=sum
+[done] gene-pair ablation complete
+[startup] real conditions=27; outer folds=3; C grid=5; resume=True
+[task] NG loading /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/references/gene-embedding-benchmarks/data/data_splits/gene_pair_benchmark/ng_nested_cv_splits.pkl
+[run] task=NG rep=E0_static op=sum
+[startup] real conditions=27; outer folds=3; C grid=5; resume=True
+[task] NG loading /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/references/gene-embedding-benchmarks/data/data_splits/gene_pair_benchmark/ng_nested_cv_splits.pkl
+[run] task=NG rep=E0_static op=sum
+[startup] real conditions=27; outer folds=3; C grid=5; resume=True
+[task] NG loading /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/references/gene-embedding-benchmarks/data/data_splits/gene_pair_benchmark/ng_nested_cv_splits.pkl
+[run] task=NG rep=E0_static op=sum
+[run] task=NG rep=E0_static op=product
+[run] task=NG rep=E0_static op=concat
+[run] task=NG rep=E1_null_L12 op=sum
+[run] task=NG rep=E1_null_L12 op=product
+[run] task=NG rep=E1_null_L12 op=concat
+[run] task=NG rep=E2_GTEx200_L12 op=sum
+[run] task=NG rep=E2_GTEx200_L12 op=product
+[run] task=NG rep=E2_GTEx200_L12 op=concat
+[task] SL loading /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/references/gene-embedding-benchmarks/data/data_splits/gene_pair_benchmark/sl_nested_cv_splits.pkl
+[resume] task=SL rep=E0_static op=sum from /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/gene_pair/SL/E0_sum.csv
+[run] task=SL rep=E0_static op=product
+[run] task=SL rep=E0_static op=concat
+[run] task=SL rep=E1_null_L12 op=sum
+[run] task=SL rep=E1_null_L12 op=product
+[run] task=SL rep=E1_null_L12 op=concat
+[run] task=SL rep=E2_GTEx200_L12 op=sum
+[run] task=SL rep=E2_GTEx200_L12 op=product
+[run] task=SL rep=E2_GTEx200_L12 op=concat
+[task] TF loading /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/references/gene-embedding-benchmarks/data/data_splits/gene_pair_benchmark/tf_nested_cv_splits.pkl
+[run] task=TF rep=E0_static op=sum
+[run] task=TF rep=E0_static op=product
+[run] task=TF rep=E0_static op=concat
+[run] task=TF rep=E1_null_L12 op=sum
+[run] task=TF rep=E1_null_L12 op=product
+[run] task=TF rep=E1_null_L12 op=concat
+[run] task=TF rep=E2_GTEx200_L12 op=sum
+[run] task=TF rep=E2_GTEx200_L12 op=product
+[run] task=TF rep=E2_GTEx200_L12 op=concat
+[done] gene-pair ablation complete

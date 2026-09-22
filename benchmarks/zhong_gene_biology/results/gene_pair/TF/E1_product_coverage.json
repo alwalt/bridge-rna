@@ -1,0 +1,12 @@
+{
+  "task": "TF",
+  "representation": "E1_null_L12",
+  "joining_operation": "product",
+  "original_pairs": 110000,
+  "original_positive_pairs": 10000,
+  "original_negative_pairs": 100000,
+  "retained_pairs": 82217,
+  "retained_positive_pairs": 7603,
+  "retained_negative_pairs": 74614,
+  "retained_positive_percentage": 0.7603
+}

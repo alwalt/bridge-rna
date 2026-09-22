@@ -1,0 +1,4 @@
+task,outer_fold,train_unique_genes,test_unique_genes,train_test_gene_overlap,n_train_pairs,n_test_pairs
+NG,0,2473,1228,0,40181,10050
+NG,1,2456,1245,0,40597,9972
+NG,2,2473,1228,0,39894,10157

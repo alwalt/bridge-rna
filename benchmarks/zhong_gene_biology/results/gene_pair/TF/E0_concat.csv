@@ -1,0 +1,4 @@
+interaction_type,representation,joining_operation,outer_fold,best_C,n_train,n_test,n_positive_test,AUROC,AUPRC,Precision@10
+TF,E0_static,concat,0,10.0,36041,9360,979,0.5132202941158189,0.10314209128831772,0.0
+TF,E0_static,concat,1,10.0,37022,8946,661,0.5103859571596956,0.07933397725475795,0.0
+TF,E0_static,concat,2,10.0,36544,9084,896,0.5235222821725173,0.11006721757798599,0.1

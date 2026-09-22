@@ -1,0 +1,37 @@
+{
+  "status": "complete_selected_matrix",
+  "elapsed_seconds": 86724.33123326302,
+  "seed": 42,
+  "control_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "selection": {
+    "tasks": [
+      "NG",
+      "SL",
+      "TF"
+    ],
+    "representations": [
+      "E0_static",
+      "E1_null_L12",
+      "E2_GTEx200_L12"
+    ],
+    "operations": [
+      "sum",
+      "product",
+      "concat"
+    ],
+    "controls_run": false
+  },
+  "outputs": {
+    "pair_results": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/pair_outer_fold_results_all.csv",
+    "pair_summary": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/pair_representation_summary.csv",
+    "leakage_qc": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/pair_leakage_qc.csv",
+    "coverage": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/pair_coverage_recomputed.csv",
+    "controls_dir": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/controls/gene_pair"
+  }
+}
