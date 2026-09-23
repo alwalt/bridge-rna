@@ -1,0 +1,31 @@
+scope,condition,dataset,partition,query_id,gene_count,significant_term_count,coherent_gene_count,coherent_gene_fraction,top_source,top_term_id,top_term_name,top_adjusted_pvalue
+dataset_partition,Bone loss,GSE189524,Bridge-only,dataset|Bone loss|GSE189524|Bridge-only,466,250,437,0.9377682403433476,GO:BP,GO:0045229,external encapsulating structure organization,2.828629612292844e-12
+dataset_partition,Bone loss,GSE189524,DE-only,dataset|Bone loss|GSE189524|DE-only,466,0,0,0.0,,,,
+dataset_partition,Bone loss,GSE189524,Shared,dataset|Bone loss|GSE189524|Shared,34,27,20,0.5882352941176471,GO:BP,GO:0045939,negative regulation of steroid metabolic process,0.018810763313742963
+dataset_partition,Bone loss,GSE273868,Bridge-only,dataset|Bone loss|GSE273868|Bridge-only,439,139,371,0.8451025056947609,GO:BP,GO:0045229,external encapsulating structure organization,7.074836011950742e-11
+dataset_partition,Bone loss,GSE273868,DE-only,dataset|Bone loss|GSE273868|DE-only,439,271,426,0.9703872437357631,REAC,REAC:R-HSA-9840310,Glycosphingolipid catabolism,1.3660188762651972e-08
+dataset_partition,Bone loss,GSE273868,Shared,dataset|Bone loss|GSE273868|Shared,61,293,56,0.9180327868852459,GO:BP,GO:0048513,animal organ development,3.783218636304538e-05
+dataset_partition,Bone loss,GSE276529,Bridge-only,dataset|Bone loss|GSE276529|Bridge-only,450,590,410,0.9111111111111111,GO:BP,GO:0001503,ossification,1.3005667763277955e-09
+dataset_partition,Bone loss,GSE276529,DE-only,dataset|Bone loss|GSE276529|DE-only,450,25,210,0.4666666666666667,GO:BP,GO:0007399,nervous system development,3.602109156706884e-05
+dataset_partition,Bone loss,GSE276529,Shared,dataset|Bone loss|GSE276529|Shared,50,1,5,0.1,KEGG,KEGG:04082,Neuroactive ligand signaling,0.022728528018522775
+dataset_partition,Muscle atrophy,GSE113165,Bridge-only,dataset|Muscle atrophy|GSE113165|Bridge-only,399,133,292,0.731829573934837,GO:BP,GO:0030239,myofibril assembly,3.8646865425865543e-16
+dataset_partition,Muscle atrophy,GSE113165,DE-only,dataset|Muscle atrophy|GSE113165|DE-only,399,22,139,0.3483709273182957,GO:BP,GO:0006936,muscle contraction,0.0013489000307372405
+dataset_partition,Muscle atrophy,GSE113165,Shared,dataset|Muscle atrophy|GSE113165|Shared,101,101,82,0.8118811881188119,GO:BP,GO:0060537,muscle tissue development,0.00020430658189608703
+dataset_partition,Muscle atrophy,GSE211204,Bridge-only,dataset|Muscle atrophy|GSE211204|Bridge-only,419,356,396,0.9451073985680191,KEGG,KEGG:04820,Cytoskeleton in muscle cells,3.378411319838369e-20
+dataset_partition,Muscle atrophy,GSE211204,DE-only,dataset|Muscle atrophy|GSE211204|DE-only,419,93,317,0.7565632458233891,REAC,REAC:R-HSA-611105,Respiratory electron transport,9.43807101328802e-13
+dataset_partition,Muscle atrophy,GSE211204,Shared,dataset|Muscle atrophy|GSE211204|Shared,81,34,61,0.7530864197530864,REAC,REAC:R-HSA-1428517,Aerobic respiration and respiratory electron transport,7.382067015887714e-05
+dataset_partition,Muscle atrophy,GSE234465,Bridge-only,dataset|Muscle atrophy|GSE234465|Bridge-only,408,244,359,0.8799019607843137,KEGG,KEGG:04820,Cytoskeleton in muscle cells,8.381356826704472e-18
+dataset_partition,Muscle atrophy,GSE234465,DE-only,dataset|Muscle atrophy|GSE234465|DE-only,408,168,181,0.44362745098039214,REAC,REAC:R-HSA-9010553,Regulation of expression of SLITs and ROBOs,8.485585192973795e-08
+dataset_partition,Muscle atrophy,GSE234465,Shared,dataset|Muscle atrophy|GSE234465|Shared,92,0,0,0.0,,,,
+dataset_partition,Radiation,GSE184119,Bridge-only,dataset|Radiation|GSE184119|Bridge-only,429,421,404,0.9417249417249417,GO:BP,GO:0048514,blood vessel morphogenesis,2.1736563574301185e-12
+dataset_partition,Radiation,GSE184119,DE-only,dataset|Radiation|GSE184119|DE-only,429,81,370,0.8624708624708625,GO:BP,GO:0090304,nucleic acid metabolic process,1.4474428831285906e-09
+dataset_partition,Radiation,GSE184119,Shared,dataset|Radiation|GSE184119|Shared,71,542,65,0.9154929577464789,KEGG,KEGG:04115,p53 signaling pathway,1.1171685530531969e-12
+dataset_partition,Radiation,GSE297090,Bridge-only,dataset|Radiation|GSE297090|Bridge-only,461,74,374,0.8112798264642083,GO:BP,GO:0009134,nucleoside diphosphate catabolic process,0.004702244646916082
+dataset_partition,Radiation,GSE297090,DE-only,dataset|Radiation|GSE297090|DE-only,461,412,413,0.89587852494577,GO:BP,GO:0022402,cell cycle process,5.2088418558375905e-37
+dataset_partition,Radiation,GSE297090,Shared,dataset|Radiation|GSE297090|Shared,39,225,38,0.9743589743589743,GO:BP,GO:1903047,mitotic cell cycle process,4.058621392184516e-09
+dataset_partition,Radiation,GSE297560,Bridge-only,dataset|Radiation|GSE297560|Bridge-only,331,11,87,0.2628398791540785,REAC,REAC:R-HSA-8951671,RUNX3 regulates YAP1-mediated transcription,2.845995068280252e-06
+dataset_partition,Radiation,GSE297560,DE-only,dataset|Radiation|GSE297560|DE-only,331,304,302,0.9123867069486404,GO:BP,GO:0009653,anatomical structure morphogenesis,9.216339426264656e-14
+dataset_partition,Radiation,GSE297560,Shared,dataset|Radiation|GSE297560|Shared,169,403,159,0.9408284023668639,REAC,REAC:R-HSA-1474244,Extracellular matrix organization,8.747629900364033e-18
+recurrent_partition,Bone loss,recurrent_ge2,Bridge-only,recurrent|Bone loss|Bridge-only,261,197,229,0.8773946360153256,GO:BP,GO:0043062,extracellular structure organization,6.953986449808525e-13
+recurrent_partition,Muscle atrophy,recurrent_ge2,Bridge-only,recurrent|Muscle atrophy|Bridge-only,270,224,237,0.8777777777777778,KEGG,KEGG:04820,Cytoskeleton in muscle cells,2.005124745772804e-24
+recurrent_partition,Radiation,recurrent_ge2,Bridge-only,recurrent|Radiation|Bridge-only,212,132,196,0.9245283018867925,GO:BP,GO:0030855,epithelial cell differentiation,0.00031830966388730246

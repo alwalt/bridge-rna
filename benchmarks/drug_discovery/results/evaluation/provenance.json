@@ -1,0 +1,24 @@
+{
+  "module_ranking": "absolute signed score; identical dataset-specific expressed Bridge universe",
+  "primary_module_size": 500,
+  "primary_min_targets": 3,
+  "drug_test": "right-sided hypergeometric/Fisher equivalent with BH correction",
+  "primary_convergence": "mean of three pairwise top-25 nonzero-overlap drug-list Jaccards",
+  "zero_overlap_ties": "excluded from ranking convergence because p=1 ChEMBL-ID ordering is non-biological",
+  "method_permutation": "exact within-study Bridge/DE label swaps",
+  "random_modules": "1000 expression-decile-matched modules per dataset and method",
+  "leakage_sensitivity": "replace GSE211204 discovery with ranking from seven subjects whose baseline and ULLS endpoints are absent from ARCHS4 train/validation",
+  "pretraining_analysis": "primary pairwise Bridge-minus-DE effects split into strict-unseen pairs versus comparisons involving any train/validation-exposed cohort",
+  "direction_aware_drug_analysis": false,
+  "pretraining_status": {
+    "GSE297090": "unseen",
+    "GSE184119": "seen",
+    "GSE297560": "unseen",
+    "GSE189524": "unseen",
+    "GSE276529": "unseen",
+    "GSE273868": "unseen",
+    "GSE211204": "partial",
+    "GSE113165": "seen",
+    "GSE234465": "unused-held-out"
+  }
+}

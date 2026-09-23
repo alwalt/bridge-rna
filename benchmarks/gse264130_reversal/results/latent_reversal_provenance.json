@@ -1,0 +1,11 @@
+{
+  "checkpoint": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+  "samples_encoded": 1536,
+  "input": "observed GSE264130 natural log1p(TPM), canonical zero-fill 137 genes",
+  "drug_delta": "two plate-level treated embeddings minus six-DMSO mean embedding per matched plate, then averaged",
+  "latent_vectors": 744,
+  "dimension": 512,
+  "prediction_assets_used": false,
+  "embedding_sha256": "6a86ecaf82207c5e3f75d59d2be00bda7379a684c2834cd4108dc7dfc4abf79b",
+  "delta_sha256": "434209f990ae873659b7f2adbc001ea0cc3fa555f55a3310308184b096f49868"
+}

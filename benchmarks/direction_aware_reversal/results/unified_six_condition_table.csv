@@ -1,0 +1,7 @@
+Condition,Bridge reversal candidates,DE reversal candidates,Bridge-only candidates,Cross-study reproducible,Target-supported,Literature-supported
+Multiple sclerosis,131,130,130,,0,1.0
+Crohn's disease,130,131,128,,0,0.0
+Systemic lupus erythematosus,131,131,131,,0,2.0
+Radiation injury,131,131,128,29.0,0,0.0
+Bone loss,131,131,128,79.0,1,
+Muscle atrophy,131,131,131,9.0,0,

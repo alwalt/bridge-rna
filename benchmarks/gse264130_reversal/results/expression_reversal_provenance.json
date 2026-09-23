@@ -1,0 +1,9 @@
+{
+  "source": "observed_condition_delta.npy only",
+  "drug_contexts": 744,
+  "definitions": 36,
+  "score": "negative weighted cosine",
+  "null": "competitive empirical drug rank within frozen signature and cell line",
+  "prediction_assets_used": false,
+  "upstream_rerun": false
+}

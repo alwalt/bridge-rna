@@ -1,0 +1,1004 @@
+condition,partition,gene,dataset_count,datasets,includes_osdr,external_support,expanded_chembl_target,eligible_drug_count
+Radiation,Bridge-only,TCIRG1,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,ANXA3,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,XRCC5,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,KLF5,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,USF1,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,SLC1A4,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,EID2,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,SLC3A2,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,PHLDA2,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,GATAD2A,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,NEDD4,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,CDA,2,GSE297090;GSE184119,False,False,True,0
+Radiation,Bridge-only,DPYSL2,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,ITGA7,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,ZFAND1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,LRP1,2,GSE297090;GSE297560,True,False,True,1
+Radiation,Bridge-only,CPT1A,2,GSE297090;GSE184119,False,False,True,0
+Radiation,Bridge-only,CDCP1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,GTPBP4,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,NFIB,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,CTSS,2,GSE297090;GSE184119,False,False,True,0
+Radiation,Bridge-only,NME3,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,MARCKSL1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,EML4,2,GSE297090;GSE297560,True,False,True,3
+Radiation,Bridge-only,FAT1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,CD44,2,GSE297090;GSE184119,False,False,True,0
+Radiation,Bridge-only,OAT,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,AXIN2,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,BCL9L,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,ID1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,GPX4,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,SLC43A1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,BIRC5,3,GSE297090;GSE184119;GSE297560,True,False,True,0
+Radiation,Bridge-only,DHRS3,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,KRT8,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,DCP1A,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,ADGRG6,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,KCTD3,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,SESTD1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,ZMYM4,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,SNRPA,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,PANK1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,SLC17A9,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,ERAL1,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,ERBB2,2,GSE297090;GSE297560,True,False,True,19
+Radiation,Bridge-only,UXS1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,CUL7,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,TRIM29,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,SMARCB1,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,RUNX1,2,GSE297090;GSE184119,False,False,True,1
+Radiation,Bridge-only,CXXC5,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,CYB561D2,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,CDKN1B,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,TCOF1,2,GSE297090;GSE297560,True,False,True,1
+Radiation,Bridge-only,ERRFI1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,TEAD4,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,LENG8,2,GSE297090;GSE184119,False,False,True,1
+Radiation,Bridge-only,ECHDC2,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,RAB13,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,SDHAF3,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,NHLRC1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,ZSWIM4,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,BCL11B,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,OGFOD1,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,ITGA3,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,PDLIM1,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,MAFF,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,MYH9,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,CLTB,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,SLC41A1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,PXDC1,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,DOK4,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,CDCA7,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,LAMB2,3,GSE297090;GSE184119;GSE297560,True,False,True,1
+Radiation,Bridge-only,PTPN2,3,GSE297090;GSE184119;GSE297560,True,False,True,0
+Radiation,Bridge-only,TRIM69,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,KDM1A,2,GSE297090;GSE184119,False,False,True,2
+Radiation,Bridge-only,PRKDC,2,GSE297090;GSE184119,False,False,True,2
+Radiation,Bridge-only,TIMM17A,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,MKRN1,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,ICAM1,3,GSE297090;GSE184119;GSE297560,True,False,True,0
+Radiation,Bridge-only,P4HA2,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,CDK7,2,GSE297090;GSE184119,False,False,True,12
+Radiation,Bridge-only,NFIC,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,TAGLN2,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,KRT7,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,CTSB,2,GSE297090;GSE297560,True,False,True,0
+Radiation,Bridge-only,CCT6A,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,ENAH,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,RAB34,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,HDAC1,2,GSE297090;GSE297560,True,False,True,15
+Radiation,Bridge-only,PLGRKT,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,CTSD,2,GSE297090;GSE184119,False,False,True,0
+Radiation,Bridge-only,MYD88,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,PDK4,2,GSE297090;GSE184119,False,False,True,0
+Radiation,Bridge-only,CEMIP,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,TRIP10,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,LIPA,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,HID1,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,ZNHIT3,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,TIMP1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,TRIB3,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,YTHDC2,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,USP54,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,LPCAT1,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,METTL17,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,JUNB,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,MLPH,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,UBE2C,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,ATP8B2,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,UBE2A,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,CROCC,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,SAT1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,F10,2,GSE297090;GSE297560,True,False,True,0
+Radiation,Bridge-only,SKAP2,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,ANKRD13D,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,FBXO32,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,PELI2,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,COL6A1,2,GSE297090;GSE184119,False,False,True,2
+Radiation,Bridge-only,SINHCAF,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,RHOB,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,TM4SF1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,DPP4,3,GSE297090;GSE184119;GSE297560,True,False,True,2
+Radiation,Bridge-only,WASHC4,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,POLR3E,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,MRPS26,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,DNALI1,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,UBTF,3,GSE297090;GSE184119;GSE297560,True,False,True,1
+Radiation,Bridge-only,SLC30A1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,CCDC167,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,PNPLA2,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,ATF4,2,GSE297090;GSE297560,True,False,True,0
+Radiation,Bridge-only,PTGR1,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,RUVBL1,2,GSE297090;GSE184119,False,False,True,1
+Radiation,Bridge-only,TMEM230,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,KDM5B,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,SMARCA1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,SPEN,2,GSE297090;GSE184119,False,False,True,1
+Radiation,Bridge-only,ANGPTL4,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,IGFBP3,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,SPRY4,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,CDR2L,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,ESRP1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Bridge-only,KCTD11,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,GTF2E2,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Bridge-only,PEA15,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,CLDND1,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,FSCN1,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,MOAP1,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,WASF3,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,IGF2BP1,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,PLEKHB2,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,LOXL2,2,GSE184119;GSE297560,True,False,True,0
+Radiation,Bridge-only,TYMS,2,GSE184119;GSE297560,True,False,True,0
+Radiation,Bridge-only,ALDH1L2,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,TEAD2,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,SMYD3,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,SRGN,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,HOXA13,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,CDCA7L,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,LMNB1,2,GSE184119;GSE297560,True,False,True,1
+Radiation,Bridge-only,ADIPOR1,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,ANXA2,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,FSTL3,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,CEBPD,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,SLC44A2,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,DCTD,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,APBB1IP,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,GYPC,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,S100A6,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,NDRG3,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,FBXO7,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,ALDH3B1,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,FNDC3B,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,ATP6V1D,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,OSTF1,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,ZNF22,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,S100A16,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,IGFBP4,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,TCIM,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,RANBP10,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,PLEKHO1,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,BTG1,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,FBXO3,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,GTF3A,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,PLOD3,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,SPDL1,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,COPZ2,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,CNN2,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,SLC7A11,2,GSE184119;GSE297560,True,False,True,0
+Radiation,Bridge-only,RPS6KA2,2,GSE184119;GSE297560,True,False,True,7
+Radiation,Bridge-only,NAT14,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,TMEM119,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,TDRD7,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,LGALS1,2,GSE184119;GSE297560,True,False,True,0
+Radiation,Bridge-only,GAL3ST4,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,NES,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,CREG1,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,CCN2,2,GSE184119;GSE297560,True,False,True,0
+Radiation,Bridge-only,GPRASP2,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,ZFYVE21,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,TGFB2,2,GSE184119;GSE297560,True,False,True,0
+Radiation,Bridge-only,CDKN2C,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,GLS,2,GSE184119;GSE297560,True,False,True,0
+Radiation,Bridge-only,FSTL1,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,PACSIN2,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,NR2F2,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,AAGAB,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,B2M,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,NXN,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,ZNF532,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Bridge-only,ARNT,2,GSE184119;GSE297560,True,False,False,0
+Radiation,Shared,CDKN1A,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Shared,TMED3,2,GSE297090;GSE297560,True,False,False,0
+Radiation,Shared,CENPF,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Shared,PLK1,2,GSE297090;GSE184119,False,False,True,3
+Radiation,Shared,GADD45A,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Shared,RRM2B,2,GSE297090;GSE184119,False,False,True,3
+Radiation,Shared,GDF15,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,Shared,DDB2,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Shared,CCNF,2,GSE297090;GSE184119,False,False,False,0
+Radiation,Shared,ATOH8,2,GSE184119;GSE297560,True,False,False,0
+Radiation,DE-only,PLK3,2,GSE297090;GSE184119,False,False,True,0
+Radiation,DE-only,NDC80,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,CLK1,2,GSE297090;GSE184119,False,False,True,21
+Radiation,DE-only,ZSCAN22,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,TOMM34,2,GSE297090;GSE297560,True,False,False,0
+Radiation,DE-only,SLU7,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,ASPM,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,RFXAP,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,ZNF467,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,SLX4,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,DNAAF10,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,CEP95,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,LTBP2,2,GSE297090;GSE297560,True,False,False,0
+Radiation,DE-only,ANKRD54,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,IER5,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,TLE4,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,KIF23,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,KMT5A,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,STOM,2,GSE297090;GSE297560,True,False,False,0
+Radiation,DE-only,ASB2,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,NAB2,3,GSE297090;GSE184119;GSE297560,True,False,False,0
+Radiation,DE-only,TP53INP1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,SPATA18,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,GPSM2,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,JDP2,2,GSE297090;GSE297560,True,False,False,0
+Radiation,DE-only,HAS3,2,GSE297090;GSE297560,True,False,False,0
+Radiation,DE-only,ASCC3,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,CDCA2,2,GSE297090;GSE184119,False,False,True,1
+Radiation,DE-only,PIF1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,LRPAP1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,MIIP,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,DRAM1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,CENPE,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,POLH,2,GSE297090;GSE184119,False,False,True,1
+Radiation,DE-only,BUB1,2,GSE297090;GSE184119,False,False,True,4
+Radiation,DE-only,KIF20A,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,SESN1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,DEPDC1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,RASA3,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,CCNK,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,PSRC1,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,PLK2,2,GSE297090;GSE184119,False,False,True,0
+Radiation,DE-only,VWCE,2,GSE297090;GSE184119,False,False,False,0
+Radiation,DE-only,SLFN5,2,GSE184119;GSE297560,True,False,False,0
+Radiation,DE-only,CDH10,2,GSE184119;GSE297560,True,False,False,0
+Radiation,DE-only,ST3GAL5,2,GSE184119;GSE297560,True,False,False,0
+Radiation,DE-only,LIF,2,GSE184119;GSE297560,True,False,False,0
+Radiation,DE-only,TSHZ1,2,GSE184119;GSE297560,True,False,False,0
+Radiation,DE-only,PTCHD4,2,GSE184119;GSE297560,True,False,False,0
+Radiation,DE-only,SMAD6,2,GSE184119;GSE297560,True,False,False,0
+Radiation,DE-only,PXN,2,GSE184119;GSE297560,True,False,False,0
+Radiation,DE-only,GLI2,2,GSE184119;GSE297560,True,False,False,0
+Radiation,DE-only,TAP1,2,GSE184119;GSE297560,True,False,False,0
+Bone loss,Bridge-only,IGFBP6,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,SPG7,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,SCUBE3,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,FOXD1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,NCKAP5L,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,USF1,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,SLC1A4,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,NDRG1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,FARP1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,FSCN1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,CENPF,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,GATAD2A,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ANXA7,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,CFAP300,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,MTM1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,GALNT10,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,PTGIS,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,KIF22,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,RPS20,2,GSE189524;GSE273868,True,False,True,9
+Bone loss,Bridge-only,ACO1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,DPYSL2,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,RND3,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,CAVIN1,2,GSE189524;GSE273868,True,True,False,0
+Bone loss,Bridge-only,CLEC11A,2,GSE189524;GSE273868,True,True,False,0
+Bone loss,Bridge-only,WASF3,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,IGF2BP1,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,NSD1,2,GSE189524;GSE273868,True,True,False,0
+Bone loss,Bridge-only,GLRX5,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,LRP1,2,GSE189524;GSE273868,True,True,True,1
+Bone loss,Bridge-only,CPT1A,2,GSE189524;GSE276529,False,True,True,0
+Bone loss,Bridge-only,EHD1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ZDHHC8,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,COL1A2,2,GSE189524;GSE273868,True,True,True,2
+Bone loss,Bridge-only,LOXL2,2,GSE189524;GSE273868,True,False,True,0
+Bone loss,Bridge-only,ALDH1L2,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,BCL9L,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,KPNA6,2,GSE189524;GSE276529,False,False,True,1
+Bone loss,Bridge-only,CCDC43,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ANKRD1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ANGPTL2,2,GSE189524;GSE276529,False,True,False,0
+Bone loss,Bridge-only,SRGN,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,EXT1,2,GSE189524;GSE276529,False,True,False,0
+Bone loss,Bridge-only,SMAD3,3,GSE189524;GSE276529;GSE273868,True,True,False,0
+Bone loss,Bridge-only,DUSP6,2,GSE189524;GSE273868,True,True,False,0
+Bone loss,Bridge-only,CDCA7L,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,EPDR1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ZFHX4,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,VOPP1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,FBXO4,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,IBSP,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,BAG3,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,UACA,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,LTBP2,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,MRAS,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ZMYM4,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,PNMA8B,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,PLOD1,2,GSE189524;GSE276529,False,True,False,0
+Bone loss,Bridge-only,CBX5,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,SLC17A9,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,NGFR,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,CEBPD,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,BMI1,2,GSE189524;GSE276529,False,True,False,0
+Bone loss,Bridge-only,SMIM3,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,KCNE4,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,CYB561D2,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,SLC44A2,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,PLK1,2,GSE189524;GSE276529,False,False,True,3
+Bone loss,Bridge-only,ZBTB38,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,DCTD,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TEAD4,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,ABI3BP,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,APBB1IP,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,RAB13,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,NHLRC1,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,COMP,3,GSE189524;GSE276529;GSE273868,True,True,False,0
+Bone loss,Bridge-only,ARHGEF5,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,PDE5A,2,GSE189524;GSE273868,True,True,True,2
+Bone loss,Bridge-only,SPOCK1,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,MEX3A,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ZMPSTE24,2,GSE189524;GSE276529,False,True,False,0
+Bone loss,Bridge-only,ADAMTS1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TFDP1,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,PTPRD,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,AMMECR1,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,MAP1B,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TAF11,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,LPXN,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,MYH9,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,FOXC2,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,PXDC1,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,FBXO7,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,COL4A2,2,GSE189524;GSE273868,True,False,True,2
+Bone loss,Bridge-only,B4GALT1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ZKSCAN8,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,A2M,2,GSE189524;GSE276529,False,False,True,0
+Bone loss,Bridge-only,FNDC3B,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,CDCA7,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ATP6V1D,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,LAMB2,3,GSE189524;GSE276529;GSE273868,True,False,True,1
+Bone loss,Bridge-only,XRCC6,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,PRSS23,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,DKK1,2,GSE189524;GSE273868,True,True,True,0
+Bone loss,Bridge-only,MRPL43,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,PTPN2,2,GSE189524;GSE273868,True,False,True,0
+Bone loss,Bridge-only,COL6A2,2,GSE189524;GSE273868,True,False,True,2
+Bone loss,Bridge-only,PSMB1,2,GSE189524;GSE273868,True,False,True,6
+Bone loss,Bridge-only,DNMT1,2,GSE189524;GSE273868,True,False,True,1
+Bone loss,Bridge-only,ENO2,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,PRKDC,3,GSE189524;GSE276529;GSE273868,True,False,True,2
+Bone loss,Bridge-only,NAV3,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,PLEKHM2,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,CTNNAL1,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,MT-ND2,2,GSE189524;GSE276529,False,False,True,1
+Bone loss,Bridge-only,LUM,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,CLPTM1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,PRDX4,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,SH3BP4,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,CDK7,2,GSE189524;GSE273868,True,False,True,12
+Bone loss,Bridge-only,BTG1,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TSPAN4,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,SETD7,3,GSE189524;GSE276529;GSE273868,True,True,True,0
+Bone loss,Bridge-only,TAGLN2,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,SETBP1,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ME1,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,PCOLCE,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,ARSB,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,FKBP10,3,GSE189524;GSE276529;GSE273868,True,True,False,0
+Bone loss,Bridge-only,ENAH,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,BBLN,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,NUCKS1,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,SH3PXD2B,2,GSE189524;GSE273868,True,True,False,0
+Bone loss,Bridge-only,GPX7,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,ACTA2,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,COPZ2,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,PPP3CC,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,MBNL1,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,UXT,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TIMP3,2,GSE189524;GSE273868,True,False,True,0
+Bone loss,Bridge-only,ARHGDIA,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ZNHIT3,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,KIF1C,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,NDNF,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,NAT14,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TMEM119,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,SPIRE1,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,LGALS1,3,GSE189524;GSE276529;GSE273868,True,False,True,0
+Bone loss,Bridge-only,FJX1,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,INHBA,2,GSE189524;GSE273868,True,False,True,0
+Bone loss,Bridge-only,WDR82,2,GSE189524;GSE273868,True,False,True,1
+Bone loss,Bridge-only,JUNB,3,GSE189524;GSE276529;GSE273868,True,True,False,0
+Bone loss,Bridge-only,XAB2,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,P4HA1,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,GAL3ST4,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,POLR2L,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,MLPH,2,GSE189524;GSE273868,True,True,False,0
+Bone loss,Bridge-only,CHTF18,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TIMM22,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,CYP1B1,3,GSE189524;GSE276529;GSE273868,True,True,True,3
+Bone loss,Bridge-only,CTSO,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,MMP2,2,GSE189524;GSE276529,False,True,True,1
+Bone loss,Bridge-only,XPO7,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,MVD,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,CROCC,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,SAT1,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,DNAJB4,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,F10,2,GSE189524;GSE276529,False,True,True,0
+Bone loss,Bridge-only,CCN2,3,GSE189524;GSE276529;GSE273868,True,False,True,0
+Bone loss,Bridge-only,PAPSS1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,FBXO32,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,COL6A1,2,GSE189524;GSE273868,True,False,True,2
+Bone loss,Bridge-only,CRIP2,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,EGR3,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,LRRC15,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,RHOB,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ZFYVE21,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,FGF7,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,DPP4,2,GSE189524;GSE273868,True,True,True,2
+Bone loss,Bridge-only,MEGF8,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TGFB2,2,GSE189524;GSE276529,False,False,True,0
+Bone loss,Bridge-only,RUSF1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,CDKN2C,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,MRPS26,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,PTPRS,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,GLS,2,GSE189524;GSE273868,True,True,True,0
+Bone loss,Bridge-only,DNALI1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,IGIP,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,FSTL1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,CCDC167,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ATF4,2,GSE189524;GSE273868,True,False,True,0
+Bone loss,Bridge-only,SEC22B,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,AAGAB,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,KDM5B,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,NOL3,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,SPEN,3,GSE189524;GSE276529;GSE273868,True,False,True,1
+Bone loss,Bridge-only,CCDC80,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,IGFBP3,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,AHNAK,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,HPS6,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,Bridge-only,TMEM243,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,STXBP3,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ARNT,3,GSE189524;GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,SERPINE1,2,GSE189524;GSE273868,True,True,True,0
+Bone loss,Bridge-only,CCN1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,SERINC2,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,CAP2,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Bridge-only,XRCC5,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,EID2,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,CPED1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ZFAND1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,FHOD3,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,IDUA,2,GSE276529;GSE273868,True,True,False,0
+Bone loss,Bridge-only,MARCKSL1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,FSD1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,EML4,2,GSE276529;GSE273868,True,False,True,3
+Bone loss,Bridge-only,TBX15,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,GPX4,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,BIRC5,2,GSE276529;GSE273868,True,False,True,0
+Bone loss,Bridge-only,SMYD3,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,COLEC12,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,DIRAS1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,DZIP1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,GJC1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,UXS1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,RUNX1,2,GSE276529;GSE273868,True,False,True,1
+Bone loss,Bridge-only,LENG8,2,GSE276529;GSE273868,True,False,True,1
+Bone loss,Bridge-only,XBP1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,SNW1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,STX1A,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ALDH3B1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ZC3H6,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TANC2,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,QSER1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TRIM69,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,GADD45A,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ICAM1,2,GSE276529;GSE273868,True,True,True,0
+Bone loss,Bridge-only,DCN,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ULK2,2,GSE276529;GSE273868,True,False,True,1
+Bone loss,Bridge-only,GATA1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,POSTN,2,GSE276529;GSE273868,True,True,False,0
+Bone loss,Bridge-only,SCARA3,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,FERMT2,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,RAB34,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,KDELR2,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,LAPTM4A,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,VIM,2,GSE276529;GSE273868,True,False,True,0
+Bone loss,Bridge-only,PSD3,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TDRD7,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TIMP1,2,GSE276529;GSE273868,True,True,False,0
+Bone loss,Bridge-only,PRR3,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,COL12A1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,ANAPC11,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,MYO1G,2,GSE276529;GSE273868,True,False,True,1
+Bone loss,Bridge-only,VCAN,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,EDIL3,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TM9SF2,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,FBXL19,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TET3,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,LRRC20,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,TNFSF13B,2,GSE276529;GSE273868,True,True,True,0
+Bone loss,Bridge-only,ZNF532,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Bridge-only,GTF2E2,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,Shared,SULF1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,Shared,OLFML3,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,PIK3R3,2,GSE189524;GSE276529,False,False,True,5
+Bone loss,DE-only,ZNF280D,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,DE-only,TSPAN14,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,PITPNM1,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,DE-only,MLH3,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,DE-only,AVIL,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,QPRT,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,CLDN23,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,DE-only,SEC61A1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,NEK7,2,GSE189524;GSE273868,True,False,True,1
+Bone loss,DE-only,CLOCK,2,GSE189524;GSE276529,False,True,False,0
+Bone loss,DE-only,MIEN1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,TNIK,2,GSE189524;GSE273868,True,False,True,15
+Bone loss,DE-only,FUT7,2,GSE189524;GSE276529,False,False,True,0
+Bone loss,DE-only,CARD9,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,DE-only,SGO1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,FMN1,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,DE-only,NR4A3,2,GSE189524;GSE273868,True,False,True,1
+Bone loss,DE-only,G6PC3,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,HSPB7,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,ADRA2C,2,GSE189524;GSE276529,False,False,True,24
+Bone loss,DE-only,MORN1,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,DE-only,SERPINA9,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,RNF224,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,DE-only,RRAD,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,MAGI2,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,DE-only,SMOC1,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,MYOD1,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,DE-only,EFNB2,2,GSE189524;GSE273868,True,False,True,0
+Bone loss,DE-only,CHRM1,2,GSE189524;GSE276529,False,False,True,7
+Bone loss,DE-only,MYO1D,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,ZFR2,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,DE-only,GSX2,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,DE-only,ERP29,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,SLC2A6,2,GSE189524;GSE273868,True,False,False,0
+Bone loss,DE-only,SLC9A3,2,GSE189524;GSE273868,True,False,True,0
+Bone loss,DE-only,ITGB2,2,GSE189524;GSE273868,True,True,True,0
+Bone loss,DE-only,SHANK1,2,GSE189524;GSE276529,False,False,False,0
+Bone loss,DE-only,FAM171A2,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,DE-only,EPHA5,2,GSE276529;GSE273868,True,False,True,13
+Bone loss,DE-only,ARMC5,2,GSE276529;GSE273868,True,True,False,0
+Bone loss,DE-only,AP5B1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,DE-only,METRN,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,DE-only,CELSR3,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,DE-only,PCYT2,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,DE-only,TMTC1,2,GSE276529;GSE273868,True,False,False,0
+Bone loss,DE-only,CLCN7,2,GSE276529;GSE273868,True,True,False,0
+Bone loss,DE-only,IRS2,2,GSE276529;GSE273868,True,True,False,0
+Muscle atrophy,Bridge-only,ATP2A1,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,Bridge-only,LRRC39,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,XRCC5,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,CEBPA,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,CACNB1,3,GSE211204;GSE113165;GSE234465,True,False,True,9
+Muscle atrophy,Bridge-only,USF1,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,OAZ1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,TMOD4,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,HES6,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,TPM3,2,GSE211204;GSE113165,False,True,False,0
+Muscle atrophy,Bridge-only,HBP1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,NIPSNAP2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,NFIX,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ANXA7,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,CISH,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,RPUSD4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,ESYT1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,NEDD4,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,KIF22,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,DPYSL2,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,TNNC1,3,GSE211204;GSE113165;GSE234465,True,False,True,0
+Muscle atrophy,Bridge-only,ITGA7,3,GSE211204;GSE113165;GSE234465,True,True,False,0
+Muscle atrophy,Bridge-only,ANK1,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,SLC2A4,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ATP2A2,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,Bridge-only,ZNF462,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,MT-CYB,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,GLRX5,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,SORBS1,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MYH1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,PADI2,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,TPM1,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,GTPBP4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,RASGRP3,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,Bridge-only,CTSS,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,Bridge-only,PEX13,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ACAT1,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,Bridge-only,DES,3,GSE211204;GSE113165;GSE234465,True,True,False,0
+Muscle atrophy,Bridge-only,PRRC2A,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,AXIN2,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,TBX15,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MRPS30,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,CCDC43,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,CHCHD10,3,GSE211204;GSE113165;GSE234465,True,True,False,0
+Muscle atrophy,Bridge-only,SFXN4,2,GSE211204;GSE113165,False,True,False,0
+Muscle atrophy,Bridge-only,FAM216A,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,GPX4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,MYF6,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,GPD1L,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MYOM1,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ANKRD1,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,VDAC3,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,ANGPTL2,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,HOXA13,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,MYH7,3,GSE211204;GSE113165;GSE234465,True,False,True,0
+Muscle atrophy,Bridge-only,SMAD3,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ISLR,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,SELENOW,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,CEBPB,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,EPDR1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,ZNF703,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,STRIP2,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,JPH1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,HSF4,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PRADC1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,ZMYM4,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ADIPOR1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,POPDC3,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,TSPAN8,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,PANK1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ERBB2,3,GSE211204;GSE113165;GSE234465,True,False,True,19
+Muscle atrophy,Bridge-only,PTPRB,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,Bridge-only,CEBPD,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PHKA1,2,GSE211204;GSE113165,False,True,False,0
+Muscle atrophy,Bridge-only,MEIS1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,ACADVL,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,CUL7,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,NEB,3,GSE211204;GSE113165;GSE234465,True,True,False,0
+Muscle atrophy,Bridge-only,RUNX1,2,GSE211204;GSE234465,True,False,True,1
+Muscle atrophy,Bridge-only,MB,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ATPAF1,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,TNNT1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,CYB561D2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,IRF7,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,SLC44A2,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,TEAD4,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,FHOD1,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ASB5,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ZFAND5,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,MAP7D1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,COL14A1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PGM1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,USP38,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,SDHAF3,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PDE5A,3,GSE211204;GSE113165;GSE234465,True,False,True,2
+Muscle atrophy,Bridge-only,LDHD,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,KLHDC3,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,TRDN,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,AIF1L,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,MYL2,2,GSE211204;GSE234465,True,False,True,0
+Muscle atrophy,Bridge-only,TEAD1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,ASB2,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PDLIM1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MYOZ1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,DCLK1,2,GSE211204;GSE234465,True,False,True,2
+Muscle atrophy,Bridge-only,BHLHE41,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,CBX7,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,SLC41A1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,FBXO7,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,PDE4B,3,GSE211204;GSE113165;GSE234465,True,False,True,2
+Muscle atrophy,Bridge-only,HSF2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,TRIM63,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,XRCC6,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,LAMB2,3,GSE211204;GSE113165;GSE234465,True,True,True,1
+Muscle atrophy,Bridge-only,CYP2R1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,FNDC5,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,TNNI1,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,GLO1,3,GSE211204;GSE113165;GSE234465,True,False,True,1
+Muscle atrophy,Bridge-only,MRPL43,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,PTPN2,2,GSE211204;GSE234465,True,False,True,0
+Muscle atrophy,Bridge-only,SVIL,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MYLK3,3,GSE211204;GSE113165;GSE234465,True,False,True,5
+Muscle atrophy,Bridge-only,TRIM69,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PRKDC,2,GSE211204;GSE113165,False,False,True,2
+Muscle atrophy,Bridge-only,ALDH1L1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,PLEKHM2,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,CSPG4,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,GADD45A,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,RNF11,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,RANBP10,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,RBM24,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MKRN1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,CASQ1,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ATP1A2,3,GSE211204;GSE113165;GSE234465,True,False,True,0
+Muscle atrophy,Bridge-only,SF3A1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,TXLNB,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ENPP5,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,ULK2,2,GSE211204;GSE113165,False,False,True,1
+Muscle atrophy,Bridge-only,SMTNL1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,FHL3,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,FNBP1L,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,CLPTM1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,H2AC21,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,FBXO3,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,BPNT2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,ZNF282,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,SETD7,3,GSE211204;GSE113165;GSE234465,True,False,True,0
+Muscle atrophy,Bridge-only,UNC45B,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,SETBP1,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,OPTN,2,GSE211204;GSE113165,False,True,False,0
+Muscle atrophy,Bridge-only,GTF3A,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,GPC4,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PDLIM3,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MYL1,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,FBP2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,VWA7,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,COQ9,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,NPHP1,2,GSE211204;GSE113165,False,True,False,0
+Muscle atrophy,Bridge-only,RTN4,3,GSE211204;GSE113165;GSE234465,True,False,True,0
+Muscle atrophy,Bridge-only,PLGRKT,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PDK4,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,Bridge-only,ALPK3,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,SBK1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,PPP3CC,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,NHLRC2,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,LDB3,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ECPAS,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,TOB2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,VIM,2,GSE211204;GSE234465,True,False,True,0
+Muscle atrophy,Bridge-only,LGALS1,3,GSE211204;GSE113165;GSE234465,True,False,True,0
+Muscle atrophy,Bridge-only,CDK5RAP2,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ASB15,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,PIGL,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,EMP1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,KAT2B,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,USP54,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,TPM2,3,GSE211204;GSE113165;GSE234465,True,True,False,0
+Muscle atrophy,Bridge-only,ANAPC11,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PITX2,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,JUNB,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,P4HA1,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MYO1G,2,GSE211204;GSE113165,False,False,True,1
+Muscle atrophy,Bridge-only,CHTF18,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,CYP1B1,2,GSE211204;GSE234465,True,False,True,3
+Muscle atrophy,Bridge-only,FLNC,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,TXNIP,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,NES,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PLEC,2,GSE211204;GSE113165,False,True,False,0
+Muscle atrophy,Bridge-only,MVD,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,VWA8,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,PARP14,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,ANKRD13D,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,COL6A1,2,GSE211204;GSE234465,True,True,True,2
+Muscle atrophy,Bridge-only,ACTA1,3,GSE211204;GSE113165;GSE234465,True,True,False,0
+Muscle atrophy,Bridge-only,CKM,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,NRAP,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,DPP4,2,GSE211204;GSE234465,True,False,True,2
+Muscle atrophy,Bridge-only,RFX5,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,DENND4B,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,NDUFB8,2,GSE211204;GSE113165,False,False,True,1
+Muscle atrophy,Bridge-only,POLR3E,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,CYBRD1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MRPS26,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,DNALI1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,IGIP,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,CFD,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,Bridge-only,MYBPC2,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,SMTNL2,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ITGA6,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,WDR1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,GSE1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,LRRC20,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,PRPF19,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,KDM5B,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,B2M,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,SPEN,2,GSE211204;GSE234465,True,False,True,1
+Muscle atrophy,Bridge-only,OTUD1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,HDAC4,2,GSE211204;GSE113165,False,False,True,12
+Muscle atrophy,Bridge-only,AHNAK,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ARNT,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,SOX4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,ACTC1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,CAP2,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,GIMAP8,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,UBAP2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Bridge-only,HSPB3,2,GSE113165;GSE234465,True,True,False,0
+Muscle atrophy,Bridge-only,FHOD3,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MUSK,2,GSE113165;GSE234465,True,True,True,8
+Muscle atrophy,Bridge-only,WSB2,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,KPNA6,2,GSE113165;GSE234465,True,False,True,1
+Muscle atrophy,Bridge-only,RYR1,2,GSE113165;GSE234465,True,True,True,0
+Muscle atrophy,Bridge-only,UBL5,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MYPN,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MAP3K20,2,GSE113165;GSE234465,True,True,True,18
+Muscle atrophy,Bridge-only,TMEM233,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PLA2G4C,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ANKRD10,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,UXS1,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,BICD1,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,NDUFS6,2,GSE113165;GSE234465,True,False,True,1
+Muscle atrophy,Bridge-only,LMOD2,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ERRFI1,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,RANBP6,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,XIRP2,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,CPEB3,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,CAV3,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,SOCS3,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PSMB1,2,GSE113165;GSE234465,True,False,True,6
+Muscle atrophy,Bridge-only,NAV3,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,TNS2,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,BBLN,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,UBXN6,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ZBTB18,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,DPF3,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,KCNJ11,2,GSE113165;GSE234465,True,False,True,0
+Muscle atrophy,Bridge-only,SPIRE1,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,STAT5B,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,CDKN1A,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,METTL17,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PROB1,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,DCXR,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,UBE2A,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,USO1,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MYADML2,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,PRKD2,2,GSE113165;GSE234465,True,False,True,11
+Muscle atrophy,Bridge-only,TBC1D14,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,RHOB,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ENO3,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,ZNF532,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Bridge-only,MYH3,2,GSE113165;GSE234465,True,True,False,0
+Muscle atrophy,Shared,UACA,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,AMOT,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,CUTC,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,FABP3,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,Shared,MYL12A,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,PALS2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,CSRP3,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,FBXO32,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,CYSTM1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,MDH1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,NMRK2,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Shared,CXCL14,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,VLDLR,2,GSE211204;GSE113165,False,True,False,0
+Muscle atrophy,Shared,ACSS1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,NREP,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Shared,SLC25A4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,MEGF10,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,XPO4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,PDLIM5,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,TNKS,2,GSE211204;GSE113165,False,False,True,2
+Muscle atrophy,Shared,PFKFB3,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,TSPYL2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,MYBBP1A,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,Shared,ACTN2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,ARRDC2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,Shared,MFAP5,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Shared,ZNF385B,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,Shared,YPEL1,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,HCFC1R1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,CCR3,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,DE-only,NDUFS8,2,GSE211204;GSE234465,True,False,True,1
+Muscle atrophy,DE-only,URM1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,NDUFAF4,2,GSE211204;GSE113165,False,False,True,1
+Muscle atrophy,DE-only,GEMIN4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,ACOT11,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,ANKFY1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,ALDH4A1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,PACSIN3,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,COQ3,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,ABCC12,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,PPIF,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,DE-only,SLC43A2,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,KLHL40,2,GSE211204;GSE113165,False,True,False,0
+Muscle atrophy,DE-only,GSTK1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,COA7,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,GOLIM4,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,ARHGAP28,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,DNAJA4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,MKRN2OS,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,ARMCX1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,UQCC2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,AIG1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,SH3BP5,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,TMEM108,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,ZNF629,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,COX7A2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,PLCE1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,ASAP3,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,TSHZ1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,CALM1,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,DE-only,PPM1L,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,ABCC4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,LRRC52,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,SIAE,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,TIMM21,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,GRIP2,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,MRPL41,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,SLCO5A1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,BDH1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,RNF34,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,ERGIC1,2,GSE211204;GSE113165,False,True,False,0
+Muscle atrophy,DE-only,HMGXB4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,AOPEP,2,GSE211204;GSE113165,False,False,True,1
+Muscle atrophy,DE-only,ZNF219,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,GPD2,2,GSE211204;GSE113165,False,False,True,1
+Muscle atrophy,DE-only,TTC39B,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,CIAO2A,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,VWA3B,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,MYL6B,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,CKMT2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,BZW2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,ACVR1,2,GSE211204;GSE113165,False,False,True,10
+Muscle atrophy,DE-only,APBB2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,CPTP,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,SLC26A9,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,MYL3,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,DE-only,AHCYL1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,TOMM40L,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,TMEM120A,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,GPA33,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,DE-only,HOMER2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,P2RX6,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,ARPC5L,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,ABCD1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,LSM4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,SPTSSA,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,MICOS10,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,LONRF3,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,CCDC136,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,RAB30,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,TYRP1,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,DE-only,PDE11A,3,GSE211204;GSE113165;GSE234465,True,True,True,1
+Muscle atrophy,DE-only,MTFP1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,RGS3,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,HIGD1A,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,MRPL35,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,SMPX,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,SEL1L2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,NAXE,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,WNT4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,FITM2,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,BOLA3,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,UQCR10,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,ABHD11,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,KIAA1143,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,WIPI1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,GHR,2,GSE211204;GSE113165,False,False,True,0
+Muscle atrophy,DE-only,PHF1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,ADAMTSL5,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,EXTL1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,EFR3B,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,TMTC4,3,GSE211204;GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,PAQR4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,SLC16A1,2,GSE211204;GSE113165,False,False,True,1
+Muscle atrophy,DE-only,CNNM4,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,TOM1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,PODNL1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,TCAP,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,PAQR9,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,FRAS1,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,CERT1,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,PGAP3,2,GSE211204;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,MRPS12,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,MGST3,2,GSE211204;GSE113165,False,False,False,0
+Muscle atrophy,DE-only,NSFL1C,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,CALCRL,2,GSE113165;GSE234465,True,False,True,0
+Muscle atrophy,DE-only,DIO2,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,POMK,2,GSE113165;GSE234465,True,True,False,0
+Muscle atrophy,DE-only,EGLN3,2,GSE113165;GSE234465,True,False,True,0
+Muscle atrophy,DE-only,TMED5,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,RORC,2,GSE113165;GSE234465,True,False,True,0
+Muscle atrophy,DE-only,LRIG1,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,GUCY1A2,2,GSE113165;GSE234465,True,False,True,0
+Muscle atrophy,DE-only,TANGO2,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,EMP3,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,MLLT6,2,GSE113165;GSE234465,True,False,False,0
+Muscle atrophy,DE-only,OXCT1,2,GSE113165;GSE234465,True,False,False,0

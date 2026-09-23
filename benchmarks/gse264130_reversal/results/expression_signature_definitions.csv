@@ -1,0 +1,37 @@
+definition_id,condition,contrast_id,dataset,role,method,usable_genes
+Bridge|GSE189524_OP,Bone loss,GSE189524_OP,GSE189524,terrestrial_discovery,Bridge,498
+DE|GSE189524_OP,Bone loss,GSE189524_OP,GSE189524,terrestrial_discovery,DE,498
+Bridge|GSE273868_week1,Bone loss,GSE273868_week1,GSE273868,osdr,Bridge,498
+DE|GSE273868_week1,Bone loss,GSE273868_week1,GSE273868,osdr,DE,496
+Bridge|GSE273868_week2,Bone loss,GSE273868_week2,GSE273868,osdr,Bridge,499
+DE|GSE273868_week2,Bone loss,GSE273868_week2,GSE273868,osdr,DE,497
+Bridge|GSE276529_GIOP,Bone loss,GSE276529_GIOP,GSE276529,terrestrial_replication,Bridge,496
+DE|GSE276529_GIOP,Bone loss,GSE276529_GIOP,GSE276529,terrestrial_replication,DE,494
+Bridge|GSE101794,Crohn's disease,GSE101794,GSE101794,published_disease,Bridge,496
+DE|GSE101794,Crohn's disease,GSE101794,GSE101794,published_disease,DE,497
+Bridge|GSE138614,Multiple sclerosis,GSE138614,GSE138614,published_disease,Bridge,500
+DE|GSE138614,Multiple sclerosis,GSE138614,GSE138614,published_disease,DE,500
+Bridge|GSE113165_bedrest,Muscle atrophy,GSE113165_bedrest,GSE113165,terrestrial_replication,Bridge,499
+DE|GSE113165_bedrest,Muscle atrophy,GSE113165_bedrest,GSE113165,terrestrial_replication,DE,499
+Bridge|GSE211204_ULLS,Muscle atrophy,GSE211204_ULLS,GSE211204,terrestrial_discovery,Bridge,497
+DE|GSE211204_ULLS,Muscle atrophy,GSE211204_ULLS,GSE211204,terrestrial_discovery,DE,500
+Bridge|GSE234465_old,Muscle atrophy,GSE234465_old,GSE234465,osdr,Bridge,497
+DE|GSE234465_old,Muscle atrophy,GSE234465_old,GSE234465,osdr,DE,499
+Bridge|GSE234465_young,Muscle atrophy,GSE234465_young,GSE234465,osdr,Bridge,498
+DE|GSE234465_young,Muscle atrophy,GSE234465_young,GSE234465,osdr,DE,500
+Bridge|GSE184119_10Gy,Radiation injury,GSE184119_10Gy,GSE184119,terrestrial_replication,Bridge,499
+DE|GSE184119_10Gy,Radiation injury,GSE184119_10Gy,GSE184119,terrestrial_replication,DE,499
+Bridge|GSE297090_gamma,Radiation injury,GSE297090_gamma,GSE297090,terrestrial_discovery,Bridge,499
+DE|GSE297090_gamma,Radiation injury,GSE297090_gamma,GSE297090,terrestrial_discovery,DE,496
+Bridge|GSE297090_proton,Radiation injury,GSE297090_proton,GSE297090,terrestrial_discovery,Bridge,498
+DE|GSE297090_proton,Radiation injury,GSE297090_proton,GSE297090,terrestrial_discovery,DE,499
+Bridge|GSE297560_gamma,Radiation injury,GSE297560_gamma,GSE297560,osdr,Bridge,498
+DE|GSE297560_gamma,Radiation injury,GSE297560_gamma,GSE297560,osdr,DE,499
+Bridge|GSE297560_iron,Radiation injury,GSE297560_iron,GSE297560,osdr,Bridge,499
+DE|GSE297560_iron,Radiation injury,GSE297560_iron,GSE297560,osdr,DE,498
+Bridge|GSE297560_proton,Radiation injury,GSE297560_proton,GSE297560,osdr,Bridge,499
+DE|GSE297560_proton,Radiation injury,GSE297560_proton,GSE297560,osdr,DE,498
+Bridge|GSE297560_silicon,Radiation injury,GSE297560_silicon,GSE297560,osdr,Bridge,499
+DE|GSE297560_silicon,Radiation injury,GSE297560_silicon,GSE297560,osdr,DE,498
+Bridge|GSE72509,Systemic lupus erythematosus,GSE72509,GSE72509,published_disease,Bridge,499
+DE|GSE72509,Systemic lupus erythematosus,GSE72509,GSE72509,published_disease,DE,498

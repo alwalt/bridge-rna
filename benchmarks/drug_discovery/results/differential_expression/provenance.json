@@ -1,0 +1,135 @@
+{
+  "method": "edgeR quasi-likelihood for count matrices; limma-trend on donor-collapsed log2(TPM+0.5) for GSE189524",
+  "edgeR": "3.36.0",
+  "limma": "3.50.3",
+  "contrasts": [
+    {
+      "contrast_id": "GSE297090_gamma",
+      "dataset": "GSE297090",
+      "n_case": 10,
+      "n_control": 10,
+      "eligible_genes": 11728,
+      "design": "(Intercept);donorJ2;donorJ3;donorJ6;donorJ8;statevillus;conditioncase"
+    },
+    {
+      "contrast_id": "GSE297090_proton",
+      "dataset": "GSE297090",
+      "n_case": 10,
+      "n_control": 10,
+      "eligible_genes": 11382,
+      "design": "(Intercept);donorJ2;donorJ3;donorJ6;donorJ8;statevillus;conditioncase"
+    },
+    {
+      "contrast_id": "GSE184119_10Gy",
+      "dataset": "GSE184119",
+      "n_case": 12,
+      "n_control": 12,
+      "eligible_genes": 12354,
+      "design": "(Intercept);cell_typeHMEC;cell_typeLEC;cell_typeNHDF;cell_typeNHEK;cell_typePERI;conditioncase"
+    },
+    {
+      "contrast_id": "GSE297560_silicon",
+      "dataset": "GSE297560",
+      "n_case": 3,
+      "n_control": 3,
+      "eligible_genes": 10916,
+      "design": "(Intercept);conditioncase"
+    },
+    {
+      "contrast_id": "GSE297560_iron",
+      "dataset": "GSE297560",
+      "n_case": 3,
+      "n_control": 3,
+      "eligible_genes": 10932,
+      "design": "(Intercept);conditioncase"
+    },
+    {
+      "contrast_id": "GSE297560_proton",
+      "dataset": "GSE297560",
+      "n_case": 3,
+      "n_control": 3,
+      "eligible_genes": 10933,
+      "design": "(Intercept);conditioncase"
+    },
+    {
+      "contrast_id": "GSE297560_gamma",
+      "dataset": "GSE297560",
+      "n_case": 3,
+      "n_control": 3,
+      "eligible_genes": 10955,
+      "design": "(Intercept);conditioncase"
+    },
+    {
+      "contrast_id": "GSE189524_OP",
+      "dataset": "GSE189524",
+      "n_case": 3,
+      "n_control": 4,
+      "eligible_genes": 14665,
+      "design": "(Intercept);conditioncase"
+    },
+    {
+      "contrast_id": "GSE276529_GIOP",
+      "dataset": "GSE276529",
+      "n_case": 5,
+      "n_control": 4,
+      "eligible_genes": 14664,
+      "design": "(Intercept);age;conditioncase"
+    },
+    {
+      "contrast_id": "GSE273868_week1",
+      "dataset": "GSE273868",
+      "n_case": 3,
+      "n_control": 3,
+      "eligible_genes": 11048,
+      "design": "(Intercept);conditioncase"
+    },
+    {
+      "contrast_id": "GSE273868_week2",
+      "dataset": "GSE273868",
+      "n_case": 3,
+      "n_control": 3,
+      "eligible_genes": 11260,
+      "design": "(Intercept);conditioncase"
+    },
+    {
+      "contrast_id": "GSE211204_ULLS",
+      "dataset": "GSE211204",
+      "n_case": 11,
+      "n_control": 11,
+      "eligible_genes": 13166,
+      "design": "(Intercept);donorSubj_10;donorSubj_11;donorSubj_2;donorSubj_3;donorSubj_4;donorSubj_5;donorSubj_6;donorSubj_7;donorSubj_8;donorSubj_9;conditioncase"
+    },
+    {
+      "contrast_id": "GSE113165_bedrest",
+      "dataset": "GSE113165",
+      "n_case": 28,
+      "n_control": 28,
+      "eligible_genes": 11919,
+      "design": "(Intercept);donor1007;donor1009;donor1010;donor1011;donor1012;donor1013;donor1016;donor1017;donor2002;donor2003;donor2004;donor2005;donor2006;donor2007;donor2009;donor2011;donor2012;donor3005;donor3008;donor3010;donor3012;donor3013;donor3021;donor3024;donor3025;donor3026;donor3029;conditioncase"
+    },
+    {
+      "contrast_id": "GSE234465_young",
+      "dataset": "GSE234465",
+      "n_case": 3,
+      "n_control": 3,
+      "eligible_genes": 11435,
+      "design": "(Intercept);conditioncase"
+    },
+    {
+      "contrast_id": "GSE234465_old",
+      "dataset": "GSE234465",
+      "n_case": 3,
+      "n_control": 3,
+      "eligible_genes": 11769,
+      "design": "(Intercept);conditioncase"
+    },
+    {
+      "contrast_id": "GSE211204_ULLS_unseen",
+      "dataset": "GSE211204",
+      "n_case": 7,
+      "n_control": 7,
+      "eligible_genes": 13129,
+      "design": "(Intercept);donorSubj_10;donorSubj_11;donorSubj_3;donorSubj_4;donorSubj_5;donorSubj_9;conditioncase"
+    }
+  ]
+}

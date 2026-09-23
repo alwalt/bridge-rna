@@ -1,0 +1,6 @@
+{
+  "candidate_rule": "competitive p<=0.01, median>0, >=60% reversing, >=3 contexts, >=2 cell lines",
+  "cross_study_rule": "positive in all three datasets and dataset competitive p<=0.10 in each",
+  "competitive_null": "other eligible drug consensuses within the same frozen signature",
+  "cell_line_dependence": "context rows retained; relevant-cell subset saved separately"
+}

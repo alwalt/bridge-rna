@@ -1,0 +1,17 @@
+{
+  "benchmark_version": "phase2-v1",
+  "seed": 20260921,
+  "ig_steps": 16,
+  "module_sizes": [100, 250, 500, 750, 1000],
+  "primary_module_size": 500,
+  "primary_min_drug_targets": 3,
+  "drug_target_threshold_sensitivity": [2, 5],
+  "permutation_replicates": 1000,
+  "random_module_replicates": 1000,
+  "checkpoint": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+  "checkpoint_config": "/home/walt/bridge-rna/model/r7hnr92k/config.json",
+  "canonical_genes": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv",
+  "hgnc": "/home/walt/bridge-rna/data/annotations/hgnc/hgnc_complete_set_2026-08-27.tsv",
+  "gene_lengths": "/home/walt/bridge-rna/data/gencode/gencode_v49_gene_exon_lengths.csv",
+  "archs4_splits": "/home/walt/bridge-rna/data/archs4/training/sample_split"
+}

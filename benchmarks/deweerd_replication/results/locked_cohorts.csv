@@ -1,0 +1,4 @@
+disease_contrast,accession,tissue,case_definition,control_definition,case_samples,control_samples,case_donors,control_donors,archs4_train,archs4_validation,archs4_unused,archs4_absent,source_gene_rows,mapped_canonical_genes,mapped_canonical_fraction,expressed_canonical_genes,missing_canonical_genes
+Multiple sclerosis — active lesion,GSE138614,brain white matter,Active (AL) white-matter lesion,non-neurological control white matter,16,25,7,5,35,4,0,2,40792,15069,0.9936696340257171,14991,96
+Crohn's disease — ileum,GSE101794,terminal ileum biopsy,"Crohn disease, Paris age A1a ileal biopsy","non-IBD, Paris age A1a ileal biopsy",61,13,61,13,54,17,0,3,13151,10738,0.7080778107484339,10738,4427
+Systemic lupus erythematosus — blood,GSE72509,whole blood,SLE whole blood,healthy whole blood,99,18,99,18,88,28,0,1,26366,13874,0.9148697659083416,13821,1291

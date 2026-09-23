@@ -1,0 +1,8 @@
+{
+  "seed": 20260922,
+  "sign_permutations": 2000,
+  "expression_matched_modules": 200,
+  "matching": "condition source-expression mean decile plus L1000 landmark/inferred status",
+  "statistic": "negative cosine to the median compound signature (auxiliary null statistic)",
+  "scope": "top three named candidates per method/condition plus available de Weerd-highlighted drugs"
+}

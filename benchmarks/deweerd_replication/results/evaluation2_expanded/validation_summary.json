@@ -1,0 +1,13 @@
+{
+  "valid": true,
+  "edges": 16986,
+  "targets": 2046,
+  "drugs": 4389,
+  "eligible_gt10": 366,
+  "enrichment_rows": 2196,
+  "reference_audit_rows": 30,
+  "evaluation1_rerun": false,
+  "bridge_rerun": false,
+  "de_rerun": false,
+  "phase2_rerun": false
+}

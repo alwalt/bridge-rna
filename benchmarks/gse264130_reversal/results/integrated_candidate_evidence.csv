@@ -1,0 +1,27 @@
+condition,drug,bridge_expression_candidate,bridge_expression_DIPG6,bridge_expression_SF8628,de_candidate,de_expression_DIPG6,de_expression_SF8628,latent_candidate,latent_DIPG6,latent_SF8628,expression_latent_direction_agreement,cross_study_expression,cross_study_latent,gse264130_cell_consistency,chembl_support,chembl_genes,chembl_best_fdr,lincs_bridge_reversal,lincs_agreement,literature_support
+Bone loss,BI-2536,False,,,False,-0.0018771180184558,0.0073839770630002,True,0.2260013392770758,0.4072653135788827,False,False,False,both,False,,,0.04768119,same reversal direction,False
+Bone loss,Brivanib,False,,,False,0.0149311497807502,0.003812720067799,True,0.3217825720309761,0.3378843711646536,False,False,False,both,False,,,0.0215385945,same reversal direction,False
+Bone loss,Ixabepilone,False,,,False,0.0033194462303072,-0.0128442570567131,True,0.137394645616439,0.4436003851589785,False,False,False,both,True,TUBA1B;TUBA1C;TUBB3,0.3810905045573025,,not assayed/matched,False
+Bone loss,OTX015,True,0.0099745439365506,0.0132196964696049,False,0.002022974891588,-0.002654641168192,True,0.2924224869784055,0.3944677021864626,True,False,False,both,False,,,,not assayed/matched,False
+Bone loss,PLX51107,True,0.0082984874024987,0.0139569165185093,False,0.0020200512371957,0.0062482669018208,False,,,False,False,False,both,False,,,,not assayed/matched,False
+Bone loss,Pacritinib,True,0.0071622189134359,0.0110768191516399,False,0.0025149576831609,0.0165244378149509,True,0.5627282238741145,0.3494547946944113,True,False,False,both,True,MAP4K4,1.0,,not assayed/matched,False
+Crohn's disease,Panobinostat,True,0.0134905911982059,0.009153270162642,False,0.0206279437988996,0.0132714975625276,False,,,False,False,False,both,True,PIK3C3,1.0,-0.03228547424077988,opposing/not reversing,False
+Multiple sclerosis,Flutamide,False,,,False,-0.0101249068975448,0.0006201365613378,True,0.3569578810583275,0.394262426654675,False,False,False,both,False,,,0.000832593475934118,same reversal direction,False
+Multiple sclerosis,RO4929097,False,,,False,0.0019159123767167,-0.0075723021291196,True,0.3505962614927562,0.3348432914693935,False,False,False,both,False,,,,not assayed/matched,False
+Multiple sclerosis,Tirapazamine,False,,,False,-0.0134246926754713,0.0061821807175874,True,0.3602918626719957,0.3479655532820062,False,False,False,both,False,,,,not assayed/matched,False
+Multiple sclerosis,Voreloxin,True,0.0151369292289018,0.0123739596456289,False,-0.0182084031403064,-0.0104728937149047,False,,,False,False,False,both,False,,,,not assayed/matched,False
+Multiple sclerosis,Voxtalisib,True,0.0125675685703754,0.010903506539762,False,-0.0216832142323255,0.0101759666576981,False,,,False,False,False,both,False,,,,not assayed/matched,False
+Muscle atrophy,BI-2536,False,,,False,-0.0176335126161575,-0.0086333602666854,True,0.3842656950515709,0.2814767468269347,False,False,False,both,False,,,-0.026284393,opposing/not reversing,False
+Muscle atrophy,Brivanib,False,,,False,-0.0073993680998682,-0.0027604119386523,True,0.2481871406071343,0.2840344939483369,False,False,False,both,False,,,-0.0036288400000000004,opposing/not reversing,False
+Muscle atrophy,EPZ-5676,True,0.0076934630051255,0.0091751385480165,False,-0.0076034576632082,0.011842830106616,False,,,False,False,False,both,False,,,,not assayed/matched,False
+Muscle atrophy,Ezatiostat,True,0.0062641776166856,0.0099761979654431,False,-0.0115378191694617,0.0024657857138663,False,,,False,False,False,both,False,,,,not assayed/matched,False
+Muscle atrophy,Pacritinib,False,,,False,-0.0149610321968793,-0.0032800924964249,True,0.5101962540470777,0.2947470321556483,False,False,False,both,False,,1.0,,not assayed/matched,False
+Radiation injury,Bortezomib,True,0.011350879445672,0.0205289665609598,False,-0.0294744204729795,-0.0320611707866191,False,,,False,False,False,both,False,,,0.051972117,same reversal direction,False
+Radiation injury,LY2835219,True,0.0114144282415509,0.0122656356543302,False,-0.0026775551959872,-0.005710685160011,False,,,False,False,False,both,False,,,,not assayed/matched,False
+Radiation injury,PLX51107,True,0.0127923302352428,0.015420438721776,False,-0.0165320839732885,-0.0405587553977966,False,,,False,False,False,both,False,,,,not assayed/matched,False
+Radiation injury,Palbociclib,True,0.0073822676204144,0.0123176770284771,False,-0.0188277401030063,-0.0294375512748956,False,,,False,False,False,both,False,,,0.033798777,same reversal direction,False
+Systemic lupus erythematosus,Cladribine,False,,,False,0.0313061252236366,-0.0031782807782292,True,0.67069627713282,0.721650138378755,False,False,False,both,False,,,0.00669142697006464,same reversal direction,True
+Systemic lupus erythematosus,Cytarabine,False,,,False,0.0063325334340333,0.0283040478825569,True,0.8230842393442683,0.7344772643636877,False,False,False,both,False,,1.0,-0.018445244408212602,opposing/not reversing,False
+Systemic lupus erythematosus,Gemcitabine,False,,,False,0.0384361036121845,0.002339067403227,True,0.6804423703932683,0.6907798138501359,False,False,False,both,False,,1.0,0.010779586620628834,same reversal direction,True
+Systemic lupus erythematosus,Leuprolide,True,0.0078712441027164,0.0106864655390381,False,-0.0221823342144489,-0.0342943109571933,False,,,False,False,False,both,False,,,,not assayed/matched,False
+Systemic lupus erythematosus,Pacritinib,True,0.0091951666399836,0.0230196267366409,False,-0.0050852089188992,-0.04965291172266,False,,,False,False,False,both,True,CSF1R,1.0,,not assayed/matched,False

@@ -1,0 +1,33 @@
+{
+  "analysis": "radiation context sensitivity from frozen outputs",
+  "module_size": 500,
+  "contrasts": [
+    "GSE297090_gamma",
+    "GSE297090_proton",
+    "GSE184119_10Gy",
+    "GSE297560_gamma",
+    "GSE297560_proton",
+    "GSE297560_iron",
+    "GSE297560_silicon"
+  ],
+  "context_distance_definition": {
+    "1": "same system/different exposure",
+    "2": "similar cell/different study or exposure",
+    "3": "different cell/similar exposure",
+    "4": "different cell/different exposure"
+  },
+  "random_overlap": "2000 independent expression-decile-matched random sets per pair; fixed seed 370290",
+  "gse184119_limitation": "frozen contrast has pooled common 10Gy effect across six cell types; frozen block attribution supports Bridge cell-specific analysis, but no frozen cell-specific DE or 2Gyx5 ranking exists",
+  "input_hashes": {
+    "bridge_contrast_scores": "ef783bdc95007e316f2db7229399deeadfa69db321ce517aab4ec3e1f17a9e83",
+    "gene_modules": "9aec24e8759266740e3e78d4e26d61f12ee8f4a1a8e26a065e19b5586045710c",
+    "expanded_edges": "4ec6795db6a647a1f20078254ddc70af82920230f6f92097423e0658d757e038"
+  },
+  "protected_steps_rerun": {
+    "phase2": false,
+    "expanded_chembl": false,
+    "de": false,
+    "attribution": false,
+    "modules": false
+  }
+}

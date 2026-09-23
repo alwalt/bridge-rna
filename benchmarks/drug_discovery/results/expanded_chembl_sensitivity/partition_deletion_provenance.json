@@ -1,0 +1,23 @@
+{
+  "frozen_model": true,
+  "mask_token": -10,
+  "random_panels_per_partition": 0,
+  "interpretation": "observed effect-size analysis normalized by partition size; no partition-level null test",
+  "context": "the frozen Phase 2 whole-top-500 deletion control retains five expression-matched random panels per dataset",
+  "recomputed": [
+    "masked and original projection scores for this sensitivity only"
+  ],
+  "not_recomputed": [
+    "expression",
+    "embeddings",
+    "condition vectors",
+    "attribution",
+    "DE",
+    "gene modules"
+  ],
+  "devices": [
+    "cuda:0",
+    "cuda:1"
+  ],
+  "merged_dataset_count": 9
+}

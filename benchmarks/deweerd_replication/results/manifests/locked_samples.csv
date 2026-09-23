@@ -1,0 +1,233 @@
+accession,sample_id,title,tissue,role,donor,sex,age_at_diagnosis_in_years,paris_age,lesion_type,anti_ro,ism,pretraining_split
+GSE138614,GSM4114296,C3_Sample_1,brain white matter,control,C3,,,,White matter (WM),,,train
+GSE138614,GSM4114303,C5_Sample_8,brain white matter,control,C5,,,,White matter (WM),,,train
+GSE138614,GSM4114305,C5_Sample_10,brain white matter,control,C5,,,,White matter (WM),,,validation
+GSE138614,GSM4114308,C5_Sample_13,brain white matter,control,C5,,,,White matter (WM),,,validation
+GSE138614,GSM4114311,C4_Sample_16,brain white matter,control,C4,,,,White matter (WM),,,train
+GSE138614,GSM4114313,C2_Sample_18,brain white matter,control,C2,,,,White matter (WM),,,train
+GSE138614,GSM4114314,C4_Sample_19,brain white matter,control,C4,,,,White matter (WM),,,train
+GSE138614,GSM4114319,C1_Sample_24,brain white matter,control,C1,,,,White matter (WM),,,train
+GSE138614,GSM4114320,C5_Sample_25,brain white matter,control,C5,,,,White matter (WM),,,train
+GSE138614,GSM4114321,C3_Sample_26,brain white matter,control,C3,,,,White matter (WM),,,train
+GSE138614,GSM4114323,C4_Sample_28,brain white matter,control,C4,,,,White matter (WM),,,train
+GSE138614,GSM4114327,C2_Sample_32,brain white matter,control,C2,,,,White matter (WM),,,train
+GSE138614,GSM4114328,C5_Sample_33,brain white matter,control,C5,,,,White matter (WM),,,train
+GSE138614,GSM4114329,C4_Sample_34,brain white matter,control,C4,,,,White matter (WM),,,train
+GSE138614,GSM4114348,C3_Sample_53,brain white matter,control,C3,,,,White matter (WM),,,validation
+GSE138614,GSM4114349,C4_Sample_54,brain white matter,control,C4,,,,White matter (WM),,,train
+GSE138614,GSM4114350,C3_Sample_55,brain white matter,control,C3,,,,White matter (WM),,,train
+GSE138614,GSM4114351,C1_Sample_56,brain white matter,control,C1,,,,White matter (WM),,,train
+GSE138614,GSM4114352,C1_Sample_57,brain white matter,control,C1,,,,White matter (WM),,,train
+GSE138614,GSM4114353,C2_Sample_58,brain white matter,control,C2,,,,White matter (WM),,,train
+GSE138614,GSM4114354,C1_Sample_59,brain white matter,control,C1,,,,White matter (WM),,,train
+GSE138614,GSM4114355,C1_Sample_60,brain white matter,control,C1,,,,White matter (WM),,,absent
+GSE138614,GSM4114356,C2_Sample_61,brain white matter,control,C2,,,,White matter (WM),,,train
+GSE138614,GSM4114357,C2_Sample_62,brain white matter,control,C2,,,,White matter (WM),,,train
+GSE138614,GSM4114358,C3_Sample_63,brain white matter,control,C3,,,,White matter (WM),,,train
+GSE138614,GSM4114359,MS5_Sample_64,brain white matter,case,MS5,,,,Active (AL),,,validation
+GSE138614,GSM4114360,MS4_Sample_65,brain white matter,case,MS4,,,,Active (AL),,,train
+GSE138614,GSM4114361,MS6_Sample_66,brain white matter,case,MS6,,,,Active (AL),,,train
+GSE138614,GSM4114362,MS6_Sample_67,brain white matter,case,MS6,,,,Active (AL),,,train
+GSE138614,GSM4114363,MS5_Sample_68,brain white matter,case,MS5,,,,Active (AL),,,train
+GSE138614,GSM4114366,MS1_Sample_71,brain white matter,case,MS1,,,,Active (AL),,,train
+GSE138614,GSM4114367,MS6_Sample_72,brain white matter,case,MS6,,,,Active (AL),,,train
+GSE138614,GSM4114368,MS10_Sample_73,brain white matter,case,MS10,,,,Active (AL),,,train
+GSE138614,GSM4114369,MS1_Sample_74,brain white matter,case,MS1,,,,Active (AL),,,train
+GSE138614,GSM4114371,MS1_Sample_76,brain white matter,case,MS1,,,,Active (AL),,,absent
+GSE138614,GSM4114372,MS2_Sample_77,brain white matter,case,MS2,,,,Active (AL),,,train
+GSE138614,GSM4114374,MS10_Sample_79,brain white matter,case,MS10,,,,Active (AL),,,train
+GSE138614,GSM4114381,MS7_Sample_86,brain white matter,case,MS7,,,,Active (AL),,,train
+GSE138614,GSM4114384,MS6_Sample_89,brain white matter,case,MS6,,,,Active (AL),,,train
+GSE138614,GSM4114385,MS4_Sample_90,brain white matter,case,MS4,,,,Active (AL),,,train
+GSE138614,GSM4114386,MS7_Sample_91,brain white matter,case,MS7,,,,Active (AL),,,train
+GSE101794,GSM2715651,CD A1a L2 rep1,terminal ileum biopsy,case,GSM2715651,Male,6.6,A1a,,,,validation
+GSE101794,GSM2715652,CD A1a L2 rep2,terminal ileum biopsy,case,GSM2715652,Female,6.8,A1a,,,,validation
+GSE101794,GSM2715653,CD A1a L2 rep3,terminal ileum biopsy,case,GSM2715653,Female,7.3,A1a,,,,train
+GSE101794,GSM2715654,CD A1a L2 rep4,terminal ileum biopsy,case,GSM2715654,Female,7.8,A1a,,,,train
+GSE101794,GSM2715655,CD A1a L2 rep5,terminal ileum biopsy,case,GSM2715655,Female,8.0,A1a,,,,validation
+GSE101794,GSM2715656,CD A1a L2 rep6,terminal ileum biopsy,case,GSM2715656,Female,8.5,A1a,,,,train
+GSE101794,GSM2715657,CD A1a L2 rep7,terminal ileum biopsy,case,GSM2715657,Female,8.5,A1a,,,,train
+GSE101794,GSM2715658,CD A1a L2 rep8,terminal ileum biopsy,case,GSM2715658,Female,8.8,A1a,,,,validation
+GSE101794,GSM2715659,CD A1a L2 rep9,terminal ileum biopsy,case,GSM2715659,Female,8.8,A1a,,,,validation
+GSE101794,GSM2715660,CD A1a L2 rep10,terminal ileum biopsy,case,GSM2715660,Female,9.2,A1a,,,,train
+GSE101794,GSM2715661,CD A1a L2 rep11,terminal ileum biopsy,case,GSM2715661,Female,9.5,A1a,,,,train
+GSE101794,GSM2715662,CD A1a L2 rep12,terminal ileum biopsy,case,GSM2715662,Female,9.6,A1a,,,,train
+GSE101794,GSM2715663,CD A1a L2 rep13,terminal ileum biopsy,case,GSM2715663,Female,9.8,A1a,,,,train
+GSE101794,GSM2715707,CD A1a L3 rep1,terminal ileum biopsy,case,GSM2715707,Female,6.2,A1a,,,,train
+GSE101794,GSM2715708,CD A1a L3 rep2,terminal ileum biopsy,case,GSM2715708,Male,6.3,A1a,,,,train
+GSE101794,GSM2715709,CD A1a L3 rep3,terminal ileum biopsy,case,GSM2715709,Male,6.5,A1a,,,,train
+GSE101794,GSM2715710,CD A1a L3 rep4,terminal ileum biopsy,case,GSM2715710,Male,6.5,A1a,,,,train
+GSE101794,GSM2715711,CD A1a L1 rep1,terminal ileum biopsy,case,GSM2715711,Female,6.9,A1a,,,,validation
+GSE101794,GSM2715712,CD A1a L3 rep5,terminal ileum biopsy,case,GSM2715712,Male,7.2,A1a,,,,train
+GSE101794,GSM2715713,CD A1a L3 rep6,terminal ileum biopsy,case,GSM2715713,Male,7.3,A1a,,,,train
+GSE101794,GSM2715714,CD A1a L3 rep7,terminal ileum biopsy,case,GSM2715714,Male,7.6,A1a,,,,validation
+GSE101794,GSM2715715,CD A1a L3 rep8,terminal ileum biopsy,case,GSM2715715,Male,7.7,A1a,,,,train
+GSE101794,GSM2715716,CD A1a L3 rep9,terminal ileum biopsy,case,GSM2715716,Male,7.9,A1a,,,,validation
+GSE101794,GSM2715717,CD A1a L1 rep2,terminal ileum biopsy,case,GSM2715717,Male,7.9,A1a,,,,train
+GSE101794,GSM2715718,CD A1a L3 rep10,terminal ileum biopsy,case,GSM2715718,Male,8.0,A1a,,,,train
+GSE101794,GSM2715719,CD A1a L3 rep11,terminal ileum biopsy,case,GSM2715719,Male,8.2,A1a,,,,validation
+GSE101794,GSM2715720,CD A1a L1 rep3,terminal ileum biopsy,case,GSM2715720,Male,8.2,A1a,,,,train
+GSE101794,GSM2715721,CD A1a L3 rep12,terminal ileum biopsy,case,GSM2715721,Male,8.4,A1a,,,,train
+GSE101794,GSM2715722,CD A1a L3 rep13,terminal ileum biopsy,case,GSM2715722,Male,8.4,A1a,,,,train
+GSE101794,GSM2715723,CD A1a L3 rep14,terminal ileum biopsy,case,GSM2715723,Female,8.5,A1a,,,,validation
+GSE101794,GSM2715724,CD A1a L3 rep15,terminal ileum biopsy,case,GSM2715724,Female,8.6,A1a,,,,train
+GSE101794,GSM2715725,CD A1a L3 rep16,terminal ileum biopsy,case,GSM2715725,Female,8.7,A1a,,,,train
+GSE101794,GSM2715726,CD A1a L3 rep17,terminal ileum biopsy,case,GSM2715726,Female,8.7,A1a,,,,train
+GSE101794,GSM2715727,CD A1a L3 rep18,terminal ileum biopsy,case,GSM2715727,Male,8.8,A1a,,,,train
+GSE101794,GSM2715728,CD A1a L3 rep19,terminal ileum biopsy,case,GSM2715728,Male,8.8,A1a,,,,train
+GSE101794,GSM2715729,CD A1a L1 rep4,terminal ileum biopsy,case,GSM2715729,Male,8.8,A1a,,,,train
+GSE101794,GSM2715730,CD A1a L3 rep20,terminal ileum biopsy,case,GSM2715730,Male,8.8,A1a,,,,train
+GSE101794,GSM2715731,CD A1a L1 rep5,terminal ileum biopsy,case,GSM2715731,Female,8.8,A1a,,,,validation
+GSE101794,GSM2715732,CD A1a L3 rep21,terminal ileum biopsy,case,GSM2715732,Female,8.8,A1a,,,,train
+GSE101794,GSM2715733,CD A1a L3 rep22,terminal ileum biopsy,case,GSM2715733,Male,8.8,A1a,,,,train
+GSE101794,GSM2715734,CD A1a L3 rep23,terminal ileum biopsy,case,GSM2715734,Female,8.9,A1a,,,,train
+GSE101794,GSM2715735,CD A1a L3 rep24,terminal ileum biopsy,case,GSM2715735,Male,8.9,A1a,,,,train
+GSE101794,GSM2715736,CD A1a L1 rep6,terminal ileum biopsy,case,GSM2715736,Female,8.9,A1a,,,,train
+GSE101794,GSM2715737,CD A1a L3 rep25,terminal ileum biopsy,case,GSM2715737,Female,9.0,A1a,,,,train
+GSE101794,GSM2715738,CD A1a L3 rep26,terminal ileum biopsy,case,GSM2715738,Male,9.2,A1a,,,,train
+GSE101794,GSM2715739,CD A1a L3 rep27,terminal ileum biopsy,case,GSM2715739,Male,9.2,A1a,,,,train
+GSE101794,GSM2715740,CD A1a L3 rep28,terminal ileum biopsy,case,GSM2715740,Female,9.2,A1a,,,,train
+GSE101794,GSM2715741,CD A1a L3 rep29,terminal ileum biopsy,case,GSM2715741,Male,9.2,A1a,,,,train
+GSE101794,GSM2715742,CD A1a L3 rep30,terminal ileum biopsy,case,GSM2715742,Male,9.3,A1a,,,,validation
+GSE101794,GSM2715743,CD A1a L3 rep31,terminal ileum biopsy,case,GSM2715743,Male,9.3,A1a,,,,train
+GSE101794,GSM2715744,CD A1a L3 rep32,terminal ileum biopsy,case,GSM2715744,Female,9.3,A1a,,,,validation
+GSE101794,GSM2715745,CD A1a L1 rep7,terminal ileum biopsy,case,GSM2715745,Female,9.4,A1a,,,,validation
+GSE101794,GSM2715746,CD A1a L3 rep33,terminal ileum biopsy,case,GSM2715746,Male,9.4,A1a,,,,train
+GSE101794,GSM2715747,CD A1a L3 rep34,terminal ileum biopsy,case,GSM2715747,Female,9.5,A1a,,,,train
+GSE101794,GSM2715748,CD A1a L3 rep35,terminal ileum biopsy,case,GSM2715748,Male,9.6,A1a,,,,train
+GSE101794,GSM2715749,CD A1a L3 rep36,terminal ileum biopsy,case,GSM2715749,Male,9.6,A1a,,,,train
+GSE101794,GSM2715750,CD A1a L3 rep37,terminal ileum biopsy,case,GSM2715750,Male,9.6,A1a,,,,validation
+GSE101794,GSM2715751,CD A1a L3 rep38,terminal ileum biopsy,case,GSM2715751,Male,9.8,A1a,,,,train
+GSE101794,GSM2715752,CD A1a L3 rep39,terminal ileum biopsy,case,GSM2715752,Male,9.8,A1a,,,,validation
+GSE101794,GSM2715753,CD A1a L3 rep40,terminal ileum biopsy,case,GSM2715753,Female,9.8,A1a,,,,train
+GSE101794,GSM2715754,CD A1a L3 rep41,terminal ileum biopsy,case,GSM2715754,Male,9.8,A1a,,,,train
+GSE101794,GSM2715905,Ctrl A1a rep1,terminal ileum biopsy,control,GSM2715905,Female,6.6,A1a,,,,train
+GSE101794,GSM2715906,Ctrl A1a rep2,terminal ileum biopsy,control,GSM2715906,Male,7.8,A1a,,,,train
+GSE101794,GSM2715907,Ctrl A1a rep3,terminal ileum biopsy,control,GSM2715907,Male,7.8,A1a,,,,train
+GSE101794,GSM2715908,Ctrl A1a rep4,terminal ileum biopsy,control,GSM2715908,Male,7.8,A1a,,,,train
+GSE101794,GSM2715909,Ctrl A1a rep5,terminal ileum biopsy,control,GSM2715909,Male,7.8,A1a,,,,train
+GSE101794,GSM2715910,Ctrl A1a rep6,terminal ileum biopsy,control,GSM2715910,Male,8.0,A1a,,,,train
+GSE101794,GSM2715911,Ctrl A1a rep7,terminal ileum biopsy,control,GSM2715911,Male,8.5,A1a,,,,absent
+GSE101794,GSM2715912,Ctrl A1a rep8,terminal ileum biopsy,control,GSM2715912,Male,8.7,A1a,,,,absent
+GSE101794,GSM2715913,Ctrl A1a rep9,terminal ileum biopsy,control,GSM2715913,Female,9.0,A1a,,,,absent
+GSE101794,GSM2715914,Ctrl A1a rep10,terminal ileum biopsy,control,GSM2715914,Male,9.2,A1a,,,,train
+GSE101794,GSM2715915,Ctrl A1a rep11,terminal ileum biopsy,control,GSM2715915,Male,9.3,A1a,,,,validation
+GSE101794,GSM2715916,Ctrl A1a rep12,terminal ileum biopsy,control,GSM2715916,Male,9.7,A1a,,,,train
+GSE101794,GSM2715917,Ctrl A1a rep13,terminal ileum biopsy,control,GSM2715917,Female,9.9,A1a,,,,train
+GSE72509,GSM1863633,SLE1,whole blood,case,GSM1863633,,,,,high,ISM_high,train
+GSE72509,GSM1863634,SLE2,whole blood,case,GSM1863634,,,,,high,ISM_high,train
+GSE72509,GSM1863635,SLE3,whole blood,case,GSM1863635,,,,,high,ISM_high,validation
+GSE72509,GSM1863636,SLE4,whole blood,case,GSM1863636,,,,,high,ISM_low,train
+GSE72509,GSM1863637,SLE5,whole blood,case,GSM1863637,,,,,med,ISM_low,validation
+GSE72509,GSM1863638,SLE6,whole blood,case,GSM1863638,,,,,med,ISM_low,train
+GSE72509,GSM1863639,SLE7,whole blood,case,GSM1863639,,,,,med,ISM_high,train
+GSE72509,GSM1863640,SLE8,whole blood,case,GSM1863640,,,,,none,ISM_low,train
+GSE72509,GSM1863641,SLE9,whole blood,case,GSM1863641,,,,,none,ISM_low,validation
+GSE72509,GSM1863642,SLE10,whole blood,case,GSM1863642,,,,,none,ISM_low,train
+GSE72509,GSM1863643,SLE11,whole blood,case,GSM1863643,,,,,none,ISM_low,train
+GSE72509,GSM1863644,SLE12,whole blood,case,GSM1863644,,,,,none,ISM_low,train
+GSE72509,GSM1863645,SLE13,whole blood,case,GSM1863645,,,,,none,ISM_low,train
+GSE72509,GSM1863646,SLE14,whole blood,case,GSM1863646,,,,,none,ISM_low,train
+GSE72509,GSM1863647,SLE15,whole blood,case,GSM1863647,,,,,none,ISM_low,validation
+GSE72509,GSM1863648,SLE16,whole blood,case,GSM1863648,,,,,none,ISM_low,train
+GSE72509,GSM1863649,SLE17,whole blood,case,GSM1863649,,,,,none,ISM_low,validation
+GSE72509,GSM1863650,SLE18,whole blood,case,GSM1863650,,,,,none,ISM_low,train
+GSE72509,GSM1863651,SLE19,whole blood,case,GSM1863651,,,,,none,ISM_low,train
+GSE72509,GSM1863652,SLE20,whole blood,case,GSM1863652,,,,,none,ISM_low,train
+GSE72509,GSM1863653,SLE21,whole blood,case,GSM1863653,,,,,none,ISM_low,train
+GSE72509,GSM1863654,SLE22,whole blood,case,GSM1863654,,,,,none,ISM_low,train
+GSE72509,GSM1863655,SLE23,whole blood,case,GSM1863655,,,,,none,ISM_low,train
+GSE72509,GSM1863656,SLE24,whole blood,case,GSM1863656,,,,,none,ISM_low,train
+GSE72509,GSM1863657,SLE25,whole blood,case,GSM1863657,,,,,none,ISM_low,train
+GSE72509,GSM1863658,SLE26,whole blood,case,GSM1863658,,,,,none,ISM_low,train
+GSE72509,GSM1863659,SLE27,whole blood,case,GSM1863659,,,,,none,ISM_low,train
+GSE72509,GSM1863660,SLE28,whole blood,case,GSM1863660,,,,,none,ISM_low,train
+GSE72509,GSM1863661,SLE29,whole blood,case,GSM1863661,,,,,none,ISM_high,train
+GSE72509,GSM1863662,SLE30,whole blood,case,GSM1863662,,,,,high,ISM_high,validation
+GSE72509,GSM1863663,SLE31,whole blood,case,GSM1863663,,,,,high,ISM_high,train
+GSE72509,GSM1863664,SLE32,whole blood,case,GSM1863664,,,,,high,ISM_high,train
+GSE72509,GSM1863665,SLE33,whole blood,case,GSM1863665,,,,,high,ISM_high,train
+GSE72509,GSM1863666,SLE34,whole blood,case,GSM1863666,,,,,high,ISM_high,train
+GSE72509,GSM1863667,SLE35,whole blood,case,GSM1863667,,,,,high,ISM_high,validation
+GSE72509,GSM1863668,SLE36,whole blood,case,GSM1863668,,,,,high,ISM_high,train
+GSE72509,GSM1863669,SLE37,whole blood,case,GSM1863669,,,,,high,ISM_high,validation
+GSE72509,GSM1863670,SLE38,whole blood,case,GSM1863670,,,,,high,ISM_high,train
+GSE72509,GSM1863671,SLE39,whole blood,case,GSM1863671,,,,,high,ISM_high,train
+GSE72509,GSM1863672,SLE40,whole blood,case,GSM1863672,,,,,high,ISM_high,validation
+GSE72509,GSM1863673,SLE41,whole blood,case,GSM1863673,,,,,high,ISM_high,train
+GSE72509,GSM1863674,SLE42,whole blood,case,GSM1863674,,,,,high,ISM_high,train
+GSE72509,GSM1863675,SLE43,whole blood,case,GSM1863675,,,,,high,ISM_high,train
+GSE72509,GSM1863676,SLE44,whole blood,case,GSM1863676,,,,,high,ISM_high,train
+GSE72509,GSM1863677,SLE45,whole blood,case,GSM1863677,,,,,high,ISM_high,validation
+GSE72509,GSM1863678,SLE46,whole blood,case,GSM1863678,,,,,high,ISM_high,train
+GSE72509,GSM1863679,SLE47,whole blood,case,GSM1863679,,,,,high,ISM_high,train
+GSE72509,GSM1863680,SLE48,whole blood,case,GSM1863680,,,,,high,ISM_high,train
+GSE72509,GSM1863681,SLE49,whole blood,case,GSM1863681,,,,,high,ISM_high,train
+GSE72509,GSM1863682,SLE50,whole blood,case,GSM1863682,,,,,med,ISM_high,train
+GSE72509,GSM1863683,SLE51,whole blood,case,GSM1863683,,,,,med,ISM_high,train
+GSE72509,GSM1863684,SLE52,whole blood,case,GSM1863684,,,,,med,ISM_high,train
+GSE72509,GSM1863685,SLE53,whole blood,case,GSM1863685,,,,,med,ISM_high,train
+GSE72509,GSM1863686,SLE54,whole blood,case,GSM1863686,,,,,med,ISM_high,train
+GSE72509,GSM1863687,SLE55,whole blood,case,GSM1863687,,,,,med,ISM_high,train
+GSE72509,GSM1863688,SLE56,whole blood,case,GSM1863688,,,,,med,ISM_high,validation
+GSE72509,GSM1863689,SLE57,whole blood,case,GSM1863689,,,,,med,ISM_high,train
+GSE72509,GSM1863690,SLE58,whole blood,case,GSM1863690,,,,,med,ISM_high,train
+GSE72509,GSM1863691,SLE59,whole blood,case,GSM1863691,,,,,med,ISM_high,validation
+GSE72509,GSM1863692,SLE60,whole blood,case,GSM1863692,,,,,med,ISM_high,train
+GSE72509,GSM1863693,SLE61,whole blood,case,GSM1863693,,,,,med,ISM_high,validation
+GSE72509,GSM1863694,SLE62,whole blood,case,GSM1863694,,,,,med,ISM_high,validation
+GSE72509,GSM1863695,SLE63,whole blood,case,GSM1863695,,,,,med,ISM_high,validation
+GSE72509,GSM1863696,SLE64,whole blood,case,GSM1863696,,,,,med,ISM_high,train
+GSE72509,GSM1863697,SLE65,whole blood,case,GSM1863697,,,,,med,ISM_high,train
+GSE72509,GSM1863698,SLE66,whole blood,case,GSM1863698,,,,,med,ISM_high,train
+GSE72509,GSM1863699,SLE67,whole blood,case,GSM1863699,,,,,med,ISM_high,train
+GSE72509,GSM1863700,SLE68,whole blood,case,GSM1863700,,,,,med,ISM_high,validation
+GSE72509,GSM1863701,SLE69,whole blood,case,GSM1863701,,,,,med,ISM_high,validation
+GSE72509,GSM1863702,SLE70,whole blood,case,GSM1863702,,,,,none,ISM_high,validation
+GSE72509,GSM1863703,SLE71,whole blood,case,GSM1863703,,,,,none,ISM_high,train
+GSE72509,GSM1863704,SLE72,whole blood,case,GSM1863704,,,,,none,ISM_high,train
+GSE72509,GSM1863705,SLE73,whole blood,case,GSM1863705,,,,,none,ISM_high,train
+GSE72509,GSM1863706,SLE74,whole blood,case,GSM1863706,,,,,none,ISM_high,train
+GSE72509,GSM1863707,SLE75,whole blood,case,GSM1863707,,,,,none,ISM_high,train
+GSE72509,GSM1863708,SLE76,whole blood,case,GSM1863708,,,,,none,ISM_high,train
+GSE72509,GSM1863709,SLE77,whole blood,case,GSM1863709,,,,,none,ISM_high,validation
+GSE72509,GSM1863710,SLE78,whole blood,case,GSM1863710,,,,,none,ISM_high,train
+GSE72509,GSM1863711,SLE79,whole blood,case,GSM1863711,,,,,none,ISM_high,train
+GSE72509,GSM1863712,SLE80,whole blood,case,GSM1863712,,,,,none,ISM_high,train
+GSE72509,GSM1863713,SLE81,whole blood,case,GSM1863713,,,,,none,ISM_high,train
+GSE72509,GSM1863714,SLE82,whole blood,case,GSM1863714,,,,,none,ISM_high,train
+GSE72509,GSM1863715,SLE83,whole blood,case,GSM1863715,,,,,none,ISM_high,validation
+GSE72509,GSM1863716,SLE84,whole blood,case,GSM1863716,,,,,none,ISM_high,train
+GSE72509,GSM1863717,SLE85,whole blood,case,GSM1863717,,,,,none,ISM_high,train
+GSE72509,GSM1863718,SLE86,whole blood,case,GSM1863718,,,,,none,ISM_high,validation
+GSE72509,GSM1863719,SLE87,whole blood,case,GSM1863719,,,,,none,ISM_high,train
+GSE72509,GSM1863720,SLE88,whole blood,case,GSM1863720,,,,,none,ISM_high,train
+GSE72509,GSM1863721,SLE89,whole blood,case,GSM1863721,,,,,none,ISM_high,train
+GSE72509,GSM1863722,SLE90,whole blood,case,GSM1863722,,,,,none,ISM_high,validation
+GSE72509,GSM1863723,SLE91,whole blood,case,GSM1863723,,,,,none,ISM_high,validation
+GSE72509,GSM1863724,SLE92,whole blood,case,GSM1863724,,,,,none,ISM_high,validation
+GSE72509,GSM1863725,SLE93,whole blood,case,GSM1863725,,,,,none,ISM_high,train
+GSE72509,GSM1863726,SLE94,whole blood,case,GSM1863726,,,,,none,ISM_high,absent
+GSE72509,GSM1863727,SLE95,whole blood,case,GSM1863727,,,,,none,ISM_high,train
+GSE72509,GSM1863728,SLE96,whole blood,case,GSM1863728,,,,,none,ISM_high,validation
+GSE72509,GSM1863729,SLE97,whole blood,case,GSM1863729,,,,,none,ISM_high,validation
+GSE72509,GSM1863730,SLE98,whole blood,case,GSM1863730,,,,,none,ISM_high,train
+GSE72509,GSM1863731,SLE99,whole blood,case,GSM1863731,,,,,none,ISM_high,train
+GSE72509,GSM1863732,control1,whole blood,control,GSM1863732,,,,,control,control,train
+GSE72509,GSM1863733,control2,whole blood,control,GSM1863733,,,,,control,control,train
+GSE72509,GSM1863734,control3,whole blood,control,GSM1863734,,,,,control,control,train
+GSE72509,GSM1863735,control4,whole blood,control,GSM1863735,,,,,control,control,train
+GSE72509,GSM1863736,control5,whole blood,control,GSM1863736,,,,,control,control,train
+GSE72509,GSM1863737,control6,whole blood,control,GSM1863737,,,,,control,control,train
+GSE72509,GSM1863738,control7,whole blood,control,GSM1863738,,,,,control,control,train
+GSE72509,GSM1863739,control8,whole blood,control,GSM1863739,,,,,control,control,train
+GSE72509,GSM1863740,control9,whole blood,control,GSM1863740,,,,,control,control,train
+GSE72509,GSM1863741,control10,whole blood,control,GSM1863741,,,,,control,control,train
+GSE72509,GSM1863742,control11,whole blood,control,GSM1863742,,,,,control,control,validation
+GSE72509,GSM1863743,control12,whole blood,control,GSM1863743,,,,,control,control,train
+GSE72509,GSM1863744,control13,whole blood,control,GSM1863744,,,,,control,control,train
+GSE72509,GSM1863745,control14,whole blood,control,GSM1863745,,,,,control,control,train
+GSE72509,GSM1863746,control15,whole blood,control,GSM1863746,,,,,control,control,train
+GSE72509,GSM1863747,control16,whole blood,control,GSM1863747,,,,,control,control,train
+GSE72509,GSM1863748,control17,whole blood,control,GSM1863748,,,,,control,control,train
+GSE72509,GSM1863749,control18,whole blood,control,GSM1863749,,,,,control,control,validation

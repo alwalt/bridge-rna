@@ -1,0 +1,39 @@
+condition,requested_drug,gse264130_status,drug,method,expression_classification,expression_DIPG6,expression_SF8628,latent_classification,latent_DIPG6,latent_SF8628
+Multiple sclerosis,muromonab,not assayed / insufficient GSE264130 data,,,,,,,,
+Multiple sclerosis,ibrutinib,assayed,Ibrutinib,Bridge,mixed/opposing contexts,0.0026410301215946,-0.0124318860471248,"same direction, insufficient null support",0.1608242020250023,0.2715325509524885
+Multiple sclerosis,ibrutinib,assayed,Ibrutinib,DE,reinforcement in both,-0.0013757480774074,-0.0009419978014193,"same direction, insufficient null support",0.1608242020250023,0.2715325509524885
+Multiple sclerosis,daclizumab,not assayed / insufficient GSE264130 data,,,,,,,,
+Multiple sclerosis,zanubrutinib,not assayed / insufficient GSE264130 data,,,,,,,,
+Multiple sclerosis,alemtuzumab,not assayed / insufficient GSE264130 data,,,,,,,,
+Crohn's disease,zinc,not assayed / insufficient GSE264130 data,,,,,,,,
+Crohn's disease,zinc acetate,not assayed / insufficient GSE264130 data,,,,,,,,
+Crohn's disease,dilmapimod,not assayed / insufficient GSE264130 data,,,,,,,,
+Crohn's disease,glucosamine,not assayed / insufficient GSE264130 data,,,,,,,,
+Crohn's disease,vx-702,not assayed / insufficient GSE264130 data,,,,,,,,
+Systemic lupus erythematosus,gemcitabine,assayed,Gemcitabine,Bridge,reinforcement in both,-0.0076958606950938,-0.0168800316751003,reversal in both contexts,0.6804423703932683,0.6907798138501359
+Systemic lupus erythematosus,gemcitabine,assayed,Gemcitabine,DE,"same direction, insufficient null support",0.0384361036121845,0.002339067403227,reversal in both contexts,0.6804423703932683,0.6907798138501359
+Systemic lupus erythematosus,enzastaurin,assayed,Enzastaurin,Bridge,reinforcement in both,-0.0120139168575406,-0.0156126199290156,mixed/opposing contexts,0.2398833999893989,-0.1261569280160506
+Systemic lupus erythematosus,enzastaurin,assayed,Enzastaurin,DE,"same direction, insufficient null support",0.024303013458848,0.0046467846259474,mixed/opposing contexts,0.2398833999893989,-0.1261569280160506
+Systemic lupus erythematosus,sunitinib,assayed,Sunitinib,Bridge,reinforcement in both,-0.0215334817767143,-0.0006526538054458,"same direction, insufficient null support",0.2941662285698379,0.0123391806680953
+Systemic lupus erythematosus,sunitinib,assayed,Sunitinib,DE,mixed/opposing contexts,0.0350663289427757,-0.0065634916536509,"same direction, insufficient null support",0.2941662285698379,0.0123391806680953
+Systemic lupus erythematosus,fostamatinib,not assayed / insufficient GSE264130 data,,,,,,,,
+Systemic lupus erythematosus,cladribine,assayed,Cladribine,Bridge,mixed/opposing contexts,-0.0239841155707836,0.0001334729313384,reversal in both contexts,0.67069627713282,0.721650138378755
+Systemic lupus erythematosus,cladribine,assayed,Cladribine,DE,mixed/opposing contexts,0.0313061252236366,-0.0031782807782292,reversal in both contexts,0.67069627713282,0.721650138378755
+Radiation injury,pentoxifylline,not assayed / insufficient GSE264130 data,,,,,,,,
+Radiation injury,sitagliptin,not assayed / insufficient GSE264130 data,,,,,,,,
+Radiation injury,linagliptin,not assayed / insufficient GSE264130 data,,,,,,,,
+Radiation injury,saxagliptin,not assayed / insufficient GSE264130 data,,,,,,,,
+Radiation injury,alogliptin,not assayed / insufficient GSE264130 data,,,,,,,,
+Radiation injury,omipalisib,not assayed / insufficient GSE264130 data,,,,,,,,
+Radiation injury,ku-0060648,not assayed / insufficient GSE264130 data,,,,,,,,
+Radiation injury,nu-7441,not assayed / insufficient GSE264130 data,,,,,,,,
+Radiation injury,rg-547,not assayed / insufficient GSE264130 data,,,,,,,,
+Radiation injury,thz1,not assayed / insufficient GSE264130 data,,,,,,,,
+Radiation injury,afatinib,assayed,Afatinib,Bridge,mixed/opposing contexts,-0.0012636543251574,0.0021426177117973,"same direction, insufficient null support",0.467566584075523,0.3315038121585647
+Radiation injury,afatinib,assayed,Afatinib,DE,reinforcement in both,-0.0021922951564192,-0.0054099764674901,"same direction, insufficient null support",0.467566584075523,0.3315038121585647
+Radiation injury,lapatinib,assayed,Lapatinib,Bridge,mixed/opposing contexts,0.0051290532574057,-0.0003713641199283,mixed/opposing contexts,0.3531310060132576,-0.2073638943324473
+Radiation injury,lapatinib,assayed,Lapatinib,DE,mixed/opposing contexts,0.0010119851212948,-0.0069309119135141,mixed/opposing contexts,0.3531310060132576,-0.2073638943324473
+Radiation injury,neratinib,assayed,Neratinib,Bridge,reinforcement in both,-0.0067907320335507,-0.0028918804600834,"same direction, insufficient null support",0.4180349236706584,0.4104995447347637
+Radiation injury,neratinib,assayed,Neratinib,DE,mixed/opposing contexts,-0.0014623638708144,0.0096832402050495,"same direction, insufficient null support",0.4180349236706584,0.4104995447347637
+Radiation injury,jq1,not assayed / insufficient GSE264130 data,,,,,,,,
+Radiation injury,molibresib,not assayed / insufficient GSE264130 data,,,,,,,,

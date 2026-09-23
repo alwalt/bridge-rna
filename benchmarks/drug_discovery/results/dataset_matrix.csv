@@ -1,0 +1,10 @@
+condition,role,dataset,exact_primary_contrast,n_used,bridge_gene_coverage,pretraining_status,recommendation
+Radiation,Terrestrial discovery,GSE297090,"1 Gy gamma vs gamma mock and 1 Gy proton vs proton mock separately; donor and organoid state blocked",20 per modality,"14954/15165 (98.6%)",confirmed unseen,use
+Radiation,Terrestrial replication,GSE184119,"10 Gy vs 0 Gy within each of six cell types",24,"12713/15165 (83.8%)",confirmed seen,"use; leakage-labeled"
+Radiation,OSDR validation,OSD-993 / GSE297560,"each 4 Gy particle vs shipped particle control; gamma vs shipped gamma control",6 per modality,"15096/15165 (99.5%)",confirmed unseen,"use; culture-replicate caveat"
+Bone loss,Terrestrial discovery,GSE189524,"osteoporosis vs non-osteoporosis MSCs after summing HGNC-mapped UCSC transcripts, renormalizing each library to TPM, and averaging the paired libraries per donor",7 donors / 14 libraries,"14665/15165 (96.7%)",confirmed unseen,"use; exploratory due to 3-vs-4 donor design and incomplete covariates"
+Bone loss,Terrestrial replication,GSE276529,"GIOP cortical femur vs age-matched non-GIOP",9,"15089/15165 (99.5%)",confirmed unseen,"use; etiology-qualified"
+Bone loss,OSDR validation,OSD-867 / GSE273868,"ISS spaceflight vs ground control separately at 1 week and 2 weeks",6 per time stratum,"15096/15165 (99.5%)",confirmed unseen,"use; bone-marrow MSC spaceflight proxy"
+Muscle atrophy,Terrestrial discovery,GSE211204,"paired day-10 ULLS vs baseline",22 (11 pairs),"14603/15165 (96.3%)",confirmed partial exposure,"use with leakage sensitivity"
+Muscle atrophy,Terrestrial replication,GSE113165,"paired day-5 bed rest vs pre; age and sex stratified",56 (28 pairs),"15076/15165 (99.4%)",confirmed seen,"select; leakage-labeled"
+Muscle atrophy,OSDR validation,OSD-684 / GSE234465,"flight vs ground separately for young and old myobundles",6 per age stratum,"15096/15165 (99.5%)",confirmed unseen (unused split),use

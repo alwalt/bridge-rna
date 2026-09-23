@@ -1,0 +1,44 @@
+{
+  "status": {
+    "activities": 24527044,
+    "chembl_db_version": "ChEMBL_37",
+    "chembl_release_date": "2026-05-01",
+    "compound_records": 3824604,
+    "disinct_compounds": 2921148,
+    "publications": 101100,
+    "status": "UP",
+    "targets": 18552
+  },
+  "api_base": "https://www.ebi.ac.uk/chembl/api/data",
+  "release": "chembl_37",
+  "published_archive_checksum_verified": true,
+  "published_archive_sha256": "33c203740555f96067710cdfc1c3c55d890660e5908ec5cbf5817492c290d281",
+  "checksums_file_sha256": "e949808982cc9f0d08fa16b42ebe75b4e04b511d8b96693c973890e6e024e62a",
+  "api_snapshot_edge_file_sha256": "1a8fdaedfff023790a0789f1aac44869b1d90dcd33849dc9efb7c538e4b37a30",
+  "approved_direct_mechanism_records": 3061,
+  "unique_targets_queried": 604,
+  "retained_unique_drug_gene_edges": 1344,
+  "retained_drugs": 985,
+  "retained_hgnc_genes": 323,
+  "drugs_with_at_least_10_bridge_targets": 1,
+  "excluded_records": {
+    "non_human": 511,
+    "ambiguous_multi_component": 570,
+    "unmapped_or_ambiguous_hgnc": 85,
+    "missing_target": 297
+  },
+  "contract_valid": true,
+  "note": "The official ChEMBL 37 SQLite archive was acquired locally and its SHA-256 matched the frozen EMBL-EBI checksum; the filtered API snapshot was independently frozen and hashed.",
+  "local_archive": "work/chembl/chembl_37_sqlite.tar.gz",
+  "local_archive_bytes": 5764252857,
+  "local_archive_sha256": "33c203740555f96067710cdfc1c3c55d890660e5908ec5cbf5817492c290d281",
+  "local_archive_checksum_verified": true,
+  "primary_min_targets": 3,
+  "sensitivity_min_targets": [
+    2,
+    5
+  ],
+  "drugs_with_at_least_2_bridge_targets": 223,
+  "drugs_with_at_least_3_bridge_targets": 63,
+  "drugs_with_at_least_5_bridge_targets": 10
+}

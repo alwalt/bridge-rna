@@ -1,0 +1,136 @@
+definition_id,condition,contrast_id,dataset,method,analysis,source_gene_count,lincs_overlap_gene_count
+top500|Bridge|GSE189524_OP,Bone loss,GSE189524_OP,GSE189524,Bridge,top500,393,393
+full|Bridge|GSE189524_OP,Bone loss,GSE189524_OP,GSE189524,Bridge,full_ranking,8626,8626
+partition|Bridge-only|GSE189524_OP,Bone loss,GSE189524_OP,GSE189524,Bridge,Bridge-only,368,368
+partition|shared|GSE189524_OP,Bone loss,GSE189524_OP,GSE189524,Bridge,shared,25,25
+top500|DE|GSE189524_OP,Bone loss,GSE189524_OP,GSE189524,DE,top500,293,293
+full|DE|GSE189524_OP,Bone loss,GSE189524_OP,GSE189524,DE,full_ranking,8626,8626
+partition|DE-only|GSE189524_OP,Bone loss,GSE189524_OP,GSE189524,DE,DE-only,268,268
+top500|Bridge|GSE273868_week1,Bone loss,GSE273868_week1,GSE273868,Bridge,top500,414,414
+full|Bridge|GSE273868_week1,Bone loss,GSE273868_week1,GSE273868,Bridge,full_ranking,8539,8539
+partition|Bridge-only|GSE273868_week1,Bone loss,GSE273868_week1,GSE273868,Bridge,Bridge-only,379,379
+partition|shared|GSE273868_week1,Bone loss,GSE273868_week1,GSE273868,Bridge,shared,35,35
+top500|DE|GSE273868_week1,Bone loss,GSE273868_week1,GSE273868,DE,top500,329,329
+full|DE|GSE273868_week1,Bone loss,GSE273868_week1,GSE273868,DE,full_ranking,7534,7534
+partition|DE-only|GSE273868_week1,Bone loss,GSE273868_week1,GSE273868,DE,DE-only,294,294
+top500|Bridge|GSE273868_week2,Bone loss,GSE273868_week2,GSE273868,Bridge,top500,395,395
+full|Bridge|GSE273868_week2,Bone loss,GSE273868_week2,GSE273868,Bridge,full_ranking,8570,8570
+partition|Bridge-only|GSE273868_week2,Bone loss,GSE273868_week2,GSE273868,Bridge,Bridge-only,313,313
+partition|shared|GSE273868_week2,Bone loss,GSE273868_week2,GSE273868,Bridge,shared,82,82
+top500|DE|GSE273868_week2,Bone loss,GSE273868_week2,GSE273868,DE,top500,389,389
+full|DE|GSE273868_week2,Bone loss,GSE273868_week2,GSE273868,DE,full_ranking,7613,7613
+partition|DE-only|GSE273868_week2,Bone loss,GSE273868_week2,GSE273868,DE,DE-only,307,307
+top500|Bridge|GSE276529_GIOP,Bone loss,GSE276529_GIOP,GSE276529,Bridge,top500,323,323
+full|Bridge|GSE276529_GIOP,Bone loss,GSE276529_GIOP,GSE276529,Bridge,full_ranking,8797,8797
+partition|Bridge-only|GSE276529_GIOP,Bone loss,GSE276529_GIOP,GSE276529,Bridge,Bridge-only,301,301
+partition|shared|GSE276529_GIOP,Bone loss,GSE276529_GIOP,GSE276529,Bridge,shared,22,22
+top500|DE|GSE276529_GIOP,Bone loss,GSE276529_GIOP,GSE276529,DE,top500,212,212
+full|DE|GSE276529_GIOP,Bone loss,GSE276529_GIOP,GSE276529,DE,full_ranking,8756,8756
+partition|DE-only|GSE276529_GIOP,Bone loss,GSE276529_GIOP,GSE276529,DE,DE-only,190,190
+top500|Bridge|GSE101794,Crohn's disease,GSE101794,GSE101794,Bridge,top500,366,366
+full|Bridge|GSE101794,Crohn's disease,GSE101794,GSE101794,Bridge,full_ranking,7671,7671
+partition|Bridge-only|GSE101794,Crohn's disease,GSE101794,GSE101794,Bridge,Bridge-only,294,294
+partition|shared|GSE101794,Crohn's disease,GSE101794,GSE101794,Bridge,shared,72,72
+top500|DE|GSE101794,Crohn's disease,GSE101794,GSE101794,DE,top500,325,325
+full|DE|GSE101794,Crohn's disease,GSE101794,GSE101794,DE,full_ranking,7671,7671
+partition|DE-only|GSE101794,Crohn's disease,GSE101794,GSE101794,DE,DE-only,253,253
+top500|Bridge|GSE138614,Multiple sclerosis,GSE138614,GSE138614,Bridge,top500,389,389
+full|Bridge|GSE138614,Multiple sclerosis,GSE138614,GSE138614,Bridge,full_ranking,8789,8789
+partition|Bridge-only|GSE138614,Multiple sclerosis,GSE138614,GSE138614,Bridge,Bridge-only,341,341
+partition|shared|GSE138614,Multiple sclerosis,GSE138614,GSE138614,Bridge,shared,48,48
+top500|DE|GSE138614,Multiple sclerosis,GSE138614,GSE138614,DE,top500,320,320
+full|DE|GSE138614,Multiple sclerosis,GSE138614,GSE138614,DE,full_ranking,8789,8789
+partition|DE-only|GSE138614,Multiple sclerosis,GSE138614,GSE138614,DE,DE-only,272,272
+top500|Bridge|GSE113165_bedrest,Muscle atrophy,GSE113165_bedrest,GSE113165,Bridge,top500,345,345
+full|Bridge|GSE113165_bedrest,Muscle atrophy,GSE113165_bedrest,GSE113165,Bridge,full_ranking,8770,8770
+partition|Bridge-only|GSE113165_bedrest,Muscle atrophy,GSE113165_bedrest,GSE113165,Bridge,Bridge-only,279,279
+partition|shared|GSE113165_bedrest,Muscle atrophy,GSE113165_bedrest,GSE113165,Bridge,shared,66,66
+top500|DE|GSE113165_bedrest,Muscle atrophy,GSE113165_bedrest,GSE113165,DE,top500,344,344
+full|DE|GSE113165_bedrest,Muscle atrophy,GSE113165_bedrest,GSE113165,DE,full_ranking,8001,8001
+partition|DE-only|GSE113165_bedrest,Muscle atrophy,GSE113165_bedrest,GSE113165,DE,DE-only,278,278
+top500|Bridge|GSE211204_ULLS,Muscle atrophy,GSE211204_ULLS,GSE211204,Bridge,top500,352,352
+full|Bridge|GSE211204_ULLS,Muscle atrophy,GSE211204_ULLS,GSE211204,Bridge,full_ranking,8763,8763
+partition|Bridge-only|GSE211204_ULLS,Muscle atrophy,GSE211204_ULLS,GSE211204,Bridge,Bridge-only,293,293
+partition|shared|GSE211204_ULLS,Muscle atrophy,GSE211204_ULLS,GSE211204,Bridge,shared,59,59
+top500|DE|GSE211204_ULLS,Muscle atrophy,GSE211204_ULLS,GSE211204,DE,top500,330,330
+full|DE|GSE211204_ULLS,Muscle atrophy,GSE211204_ULLS,GSE211204,DE,full_ranking,8443,8443
+partition|DE-only|GSE211204_ULLS,Muscle atrophy,GSE211204_ULLS,GSE211204,DE,DE-only,271,271
+top500|Bridge|GSE234465_old,Muscle atrophy,GSE234465_old,GSE234465,Bridge,top500,345,345
+full|Bridge|GSE234465_old,Muscle atrophy,GSE234465_old,GSE234465,Bridge,full_ranking,8650,8650
+partition|Bridge-only|GSE234465_old,Muscle atrophy,GSE234465_old,GSE234465,Bridge,Bridge-only,282,282
+partition|shared|GSE234465_old,Muscle atrophy,GSE234465_old,GSE234465,Bridge,shared,63,63
+top500|DE|GSE234465_old,Muscle atrophy,GSE234465_old,GSE234465,DE,top500,350,350
+full|DE|GSE234465_old,Muscle atrophy,GSE234465_old,GSE234465,DE,full_ranking,7802,7802
+partition|DE-only|GSE234465_old,Muscle atrophy,GSE234465_old,GSE234465,DE,DE-only,287,287
+top500|Bridge|GSE234465_young,Muscle atrophy,GSE234465_young,GSE234465,Bridge,top500,365,365
+full|Bridge|GSE234465_young,Muscle atrophy,GSE234465_young,GSE234465,Bridge,full_ranking,8559,8559
+partition|Bridge-only|GSE234465_young,Muscle atrophy,GSE234465_young,GSE234465,Bridge,Bridge-only,307,307
+partition|shared|GSE234465_young,Muscle atrophy,GSE234465_young,GSE234465,Bridge,shared,58,58
+top500|DE|GSE234465_young,Muscle atrophy,GSE234465_young,GSE234465,DE,top500,339,339
+full|DE|GSE234465_young,Muscle atrophy,GSE234465_young,GSE234465,DE,full_ranking,7648,7648
+partition|DE-only|GSE234465_young,Muscle atrophy,GSE234465_young,GSE234465,DE,DE-only,281,281
+top500|Bridge|GSE184119_10Gy,Radiation injury,GSE184119_10Gy,GSE184119,Bridge,top500,389,389
+full|Bridge|GSE184119_10Gy,Radiation injury,GSE184119_10Gy,GSE184119,Bridge,full_ranking,8331,8331
+partition|Bridge-only|GSE184119_10Gy,Radiation injury,GSE184119_10Gy,GSE184119,Bridge,Bridge-only,337,337
+partition|shared|GSE184119_10Gy,Radiation injury,GSE184119_10Gy,GSE184119,Bridge,shared,52,52
+top500|DE|GSE184119_10Gy,Radiation injury,GSE184119_10Gy,GSE184119,DE,top500,334,334
+full|DE|GSE184119_10Gy,Radiation injury,GSE184119_10Gy,GSE184119,DE,full_ranking,8211,8211
+partition|DE-only|GSE184119_10Gy,Radiation injury,GSE184119_10Gy,GSE184119,DE,DE-only,282,282
+top500|Bridge|GSE297090_gamma,Radiation injury,GSE297090_gamma,GSE297090,Bridge,top500,349,349
+full|Bridge|GSE297090_gamma,Radiation injury,GSE297090_gamma,GSE297090,Bridge,full_ranking,8527,8527
+partition|Bridge-only|GSE297090_gamma,Radiation injury,GSE297090_gamma,GSE297090,Bridge,Bridge-only,340,340
+partition|shared|GSE297090_gamma,Radiation injury,GSE297090_gamma,GSE297090,Bridge,shared,9,9
+top500|DE|GSE297090_gamma,Radiation injury,GSE297090_gamma,GSE297090,DE,top500,305,305
+full|DE|GSE297090_gamma,Radiation injury,GSE297090_gamma,GSE297090,DE,full_ranking,7697,7697
+partition|DE-only|GSE297090_gamma,Radiation injury,GSE297090_gamma,GSE297090,DE,DE-only,296,296
+top500|Bridge|GSE297090_proton,Radiation injury,GSE297090_proton,GSE297090,Bridge,top500,379,379
+full|Bridge|GSE297090_proton,Radiation injury,GSE297090_proton,GSE297090,Bridge,full_ranking,8453,8453
+partition|Bridge-only|GSE297090_proton,Radiation injury,GSE297090_proton,GSE297090,Bridge,Bridge-only,334,334
+partition|shared|GSE297090_proton,Radiation injury,GSE297090_proton,GSE297090,Bridge,shared,45,45
+top500|DE|GSE297090_proton,Radiation injury,GSE297090_proton,GSE297090,DE,top500,333,333
+full|DE|GSE297090_proton,Radiation injury,GSE297090_proton,GSE297090,DE,full_ranking,7558,7558
+partition|DE-only|GSE297090_proton,Radiation injury,GSE297090_proton,GSE297090,DE,DE-only,288,288
+top500|Bridge|GSE297560_gamma,Radiation injury,GSE297560_gamma,GSE297560,Bridge,top500,391,391
+full|Bridge|GSE297560_gamma,Radiation injury,GSE297560_gamma,GSE297560,Bridge,full_ranking,8311,8311
+partition|Bridge-only|GSE297560_gamma,Radiation injury,GSE297560_gamma,GSE297560,Bridge,Bridge-only,333,333
+partition|shared|GSE297560_gamma,Radiation injury,GSE297560_gamma,GSE297560,Bridge,shared,58,58
+top500|DE|GSE297560_gamma,Radiation injury,GSE297560_gamma,GSE297560,DE,top500,380,380
+full|DE|GSE297560_gamma,Radiation injury,GSE297560_gamma,GSE297560,DE,full_ranking,7512,7512
+partition|DE-only|GSE297560_gamma,Radiation injury,GSE297560_gamma,GSE297560,DE,DE-only,322,322
+top500|Bridge|GSE297560_iron,Radiation injury,GSE297560_iron,GSE297560,Bridge,top500,405,405
+full|Bridge|GSE297560_iron,Radiation injury,GSE297560_iron,GSE297560,Bridge,full_ranking,8422,8422
+partition|Bridge-only|GSE297560_iron,Radiation injury,GSE297560_iron,GSE297560,Bridge,Bridge-only,256,256
+partition|shared|GSE297560_iron,Radiation injury,GSE297560_iron,GSE297560,Bridge,shared,149,149
+top500|DE|GSE297560_iron,Radiation injury,GSE297560_iron,GSE297560,DE,top500,395,395
+full|DE|GSE297560_iron,Radiation injury,GSE297560_iron,GSE297560,DE,full_ranking,7488,7488
+partition|DE-only|GSE297560_iron,Radiation injury,GSE297560_iron,GSE297560,DE,DE-only,246,246
+top500|Bridge|GSE297560_proton,Radiation injury,GSE297560_proton,GSE297560,Bridge,top500,412,412
+full|Bridge|GSE297560_proton,Radiation injury,GSE297560_proton,GSE297560,Bridge,full_ranking,8365,8365
+partition|Bridge-only|GSE297560_proton,Radiation injury,GSE297560_proton,GSE297560,Bridge,Bridge-only,277,277
+partition|shared|GSE297560_proton,Radiation injury,GSE297560_proton,GSE297560,Bridge,shared,135,135
+top500|DE|GSE297560_proton,Radiation injury,GSE297560_proton,GSE297560,DE,top500,389,389
+full|DE|GSE297560_proton,Radiation injury,GSE297560_proton,GSE297560,DE,full_ranking,7486,7486
+partition|DE-only|GSE297560_proton,Radiation injury,GSE297560_proton,GSE297560,DE,DE-only,254,254
+top500|Bridge|GSE297560_silicon,Radiation injury,GSE297560_silicon,GSE297560,Bridge,top500,406,406
+full|Bridge|GSE297560_silicon,Radiation injury,GSE297560_silicon,GSE297560,Bridge,full_ranking,8407,8407
+partition|Bridge-only|GSE297560_silicon,Radiation injury,GSE297560_silicon,GSE297560,Bridge,Bridge-only,253,253
+partition|shared|GSE297560_silicon,Radiation injury,GSE297560_silicon,GSE297560,Bridge,shared,153,153
+top500|DE|GSE297560_silicon,Radiation injury,GSE297560_silicon,GSE297560,DE,top500,394,394
+full|DE|GSE297560_silicon,Radiation injury,GSE297560_silicon,GSE297560,DE,full_ranking,7481,7481
+partition|DE-only|GSE297560_silicon,Radiation injury,GSE297560_silicon,GSE297560,DE,DE-only,241,241
+top500|Bridge|GSE72509,Systemic lupus erythematosus,GSE72509,GSE72509,Bridge,top500,408,408
+full|Bridge|GSE72509,Systemic lupus erythematosus,GSE72509,GSE72509,Bridge,full_ranking,8539,8539
+partition|Bridge-only|GSE72509,Systemic lupus erythematosus,GSE72509,GSE72509,Bridge,Bridge-only,338,338
+partition|shared|GSE72509,Systemic lupus erythematosus,GSE72509,GSE72509,Bridge,shared,70,70
+top500|DE|GSE72509,Systemic lupus erythematosus,GSE72509,GSE72509,DE,top500,379,379
+full|DE|GSE72509,Systemic lupus erythematosus,GSE72509,GSE72509,DE,full_ranking,8539,8539
+partition|DE-only|GSE72509,Systemic lupus erythematosus,GSE72509,GSE72509,DE,DE-only,309,309
+stable_recurrent|Bridge|Radiation injury,Radiation injury,cross_study_stable,Radiation injury,Bridge,stable_recurrent,177,177
+stable_recurrent|DE|Radiation injury,Radiation injury,cross_study_stable,Radiation injury,DE,stable_recurrent,76,76
+stable_recurrent_bridge_only|Radiation injury,Radiation injury,cross_study_stable,Radiation injury,Bridge,stable_recurrent_bridge_only,68,68
+stable_recurrent|Bridge|Bone loss,Bone loss,cross_study_stable,Bone loss,Bridge,stable_recurrent,145,145
+stable_recurrent|DE|Bone loss,Bone loss,cross_study_stable,Bone loss,DE,stable_recurrent,17,17
+stable_recurrent_bridge_only|Bone loss,Bone loss,cross_study_stable,Bone loss,Bridge,stable_recurrent_bridge_only,104,104
+stable_recurrent|Bridge|Muscle atrophy,Muscle atrophy,cross_study_stable,Muscle atrophy,Bridge,stable_recurrent,124,124
+stable_recurrent|DE|Muscle atrophy,Muscle atrophy,cross_study_stable,Muscle atrophy,DE,stable_recurrent,99,99
+stable_recurrent_bridge_only|Muscle atrophy,Muscle atrophy,cross_study_stable,Muscle atrophy,Bridge,stable_recurrent_bridge_only,74,74

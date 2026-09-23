@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "frozen_input_hash_mismatches": [],
+  "contexts": 112495,
+  "genes": 8831,
+  "definitions": 135,
+  "conditions": 6,
+  "published_drugs_audited": 15,
+  "output_sha256": {
+    "frozen_condition_signatures.parquet": "74a883c90276b4a6bf301d1e36c22f01c29137f7cad01b2eae95ca85a9ca5908",
+    "drug_reversal_by_contrast.parquet": "750176bf83289ff1143f6a2bfde1f141b349b62f822e612f7679ef75be916c79",
+    "space_condition_consensus.csv.gz": "65d6d2644d2d7758f764131523f453312d14ffd47696391f2e3bd0b635a857ff",
+    "published_drug_direction_audit.csv": "a4f60f82ebaa2d9c9f2c401dcc339f67bd98341c578eb9fddd9b634a914fcd87",
+    "prioritized_candidate_nulls.csv": "df03970900badd18e5521084efaff0c7dc62b935296263157c12a940254e08dc",
+    "target_reversal_integration.parquet": "40bd2d791c5ff355b787ec34f46032c49b21ae5eb4df1a8e70adb62bfbcd44ef",
+    "unified_six_condition_table.csv": "dbc7e983da402f457a0a10468720fc027ab875039ed0fdcbd99877dda4611f05",
+    "../DIRECTION_AWARE_REVERSAL_REPORT.md": "af64c49c1a03779f87547b440349e896e222b2e0eb42f3e7740c69581724013d",
+    "../figures/direction_aware_reversal_summary.png": "8329fdbd757ad7a9868ac8102379980369972c667bacc93289b75cac16347a26"
+  }
+}

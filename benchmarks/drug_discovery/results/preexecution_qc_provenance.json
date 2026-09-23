@@ -1,0 +1,43 @@
+{
+  "config": {
+    "benchmark_version": "phase2-v1",
+    "seed": 20260921,
+    "ig_steps": 16,
+    "module_sizes": [
+      100,
+      250,
+      500,
+      750,
+      1000
+    ],
+    "primary_module_size": 500,
+    "permutation_replicates": 1000,
+    "random_module_replicates": 1000,
+    "checkpoint": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+    "checkpoint_config": "/home/walt/bridge-rna/model/r7hnr92k/config.json",
+    "canonical_genes": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv",
+    "hgnc": "/home/walt/bridge-rna/data/annotations/hgnc/hgnc_complete_set_2026-08-27.tsv",
+    "gene_lengths": "/home/walt/bridge-rna/data/gencode/gencode_v49_gene_exon_lengths.csv",
+    "archs4_splits": "/home/walt/bridge-rna/data/archs4/training/sample_split"
+  },
+  "canonical_gene_count": 15165,
+  "dataset_count": 9,
+  "contrast_count": 15,
+  "sample_manifest_rows": 216,
+  "gse211204_exposed_subjects": [
+    "Subj_2",
+    "Subj_6",
+    "Subj_7",
+    "Subj_8"
+  ],
+  "gse211204_unseen_subjects": [
+    "Subj_1",
+    "Subj_10",
+    "Subj_11",
+    "Subj_3",
+    "Subj_4",
+    "Subj_5",
+    "Subj_9"
+  ],
+  "no_embeddings_or_statistics_run": true
+}

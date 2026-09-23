@@ -1,0 +1,21 @@
+{
+  "datasets": 9,
+  "manifest_rows": 216,
+  "primary_contrasts": 15,
+  "attributed_sample_rows": 220,
+  "condition_vectors": 16,
+  "condition_vector_norm_min": 0.9999998807907104,
+  "condition_vector_norm_max": 1.0,
+  "study_ranking_rows": 136485,
+  "contrast_score_rows": 242640,
+  "ig_completeness_rows": 220,
+  "ig_absolute_completeness_median": 0.0024957656860351,
+  "ig_absolute_completeness_p95": 0.00567159652709955,
+  "module_rows": 46800,
+  "primary_effect_rows": 4,
+  "random_module_rows": 6000,
+  "chembl_archive_verified": true,
+  "chembl_edges": 1344,
+  "notebook_code_cells": 5,
+  "executed_notebook_code_cells": 5
+}

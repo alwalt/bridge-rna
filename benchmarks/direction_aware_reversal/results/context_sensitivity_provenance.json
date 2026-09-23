@@ -1,0 +1,5 @@
+{
+  "unit": "exact pert_id x cell x dose x time",
+  "aggregation": "median Level-5 signature reversal",
+  "heterogeneity_not_pooled": true
+}

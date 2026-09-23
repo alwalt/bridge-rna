@@ -1,0 +1,7 @@
+work/
+results/run_logs/*.log
+__pycache__/
+*.pyc
+results/expanded_chembl_sensitivity/gprofiler_raw_responses.json
+results/radiation_pharmacology/literature_search_targeted_raw.json
+results/radiation_context_sensitivity/*.svg

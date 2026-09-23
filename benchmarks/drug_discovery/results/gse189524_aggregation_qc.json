@@ -1,0 +1,8 @@
+{
+  "total_transcript_rows": 182434,
+  "mapped_transcript_rows": 24154,
+  "mapped_fraction": 0.13239856605676573,
+  "mapped_hgnc_genes": 24154,
+  "aggregation": "sum FPKM across UCSC transcripts mapped to one HGNC symbol; renormalize each library to TPM; arithmetic-mean paired libraries within donor",
+  "donors": 7
+}

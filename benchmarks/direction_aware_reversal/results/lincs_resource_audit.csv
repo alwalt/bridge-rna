@@ -1,0 +1,3 @@
+accession,level5_signatures,compound_signatures,unique_compounds,unique_compound_names,compound_cell_lines,all_cell_metadata_rows,compound_doses,compound_timepoints,median_distil_replicates,min_distil_replicates,max_distil_replicates,vehicle_control_signatures,matrix_genes,landmark_genes,best_inferred_genes,canonical_overlap_all,canonical_overlap_landmark,canonical_overlap_bing,expanded_chembl_eligible_name_overlap
+GSE70138,118050,107404,1796,1768,30,98,83,3,3.0,1,6,6764,12328,978,10174,10296,898,8831,145
+GSE92742,473647,205034,20413,19811,71,98,28,4,3.0,1,48,22065,12328,978,10174,10296,898,8831,138

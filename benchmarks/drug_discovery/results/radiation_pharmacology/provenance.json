@@ -1,0 +1,28 @@
+{
+  "analysis": "interpretation/audit of fixed Bridge radiation gene sets and frozen expanded ChEMBL 37",
+  "definitions": {
+    "strict_radiation_core": "15 genes present in all seven frozen Bridge top-500 modules",
+    "cross_study_radiation_core": "strict plus majority-cross-study classification; 237 genes",
+    "all_three_study_bridge_only": "Bridge-only genes with dataset_count == 3; 84 genes",
+    "matched_fibroblast_program": "frozen NHDF-block top-500 intersected with the union of four frozen OSD-993 fibroblast top-500 modules"
+  },
+  "drug_eligibility": ">10 canonical human targets in frozen expanded ChEMBL 37 graph",
+  "universe": "15,165 canonical genes",
+  "statistics": "right-sided hypergeometric; BH FDR separately within each gene set over all 366 eligible drugs",
+  "input_hashes": {
+    "expanded_edges": "4ec6795db6a647a1f20078254ddc70af82920230f6f92097423e0658d757e038",
+    "expanded_evidence": "6efcb756332577502e4553035c2058d818135a136e98f1e6aa1cadb32a52ea17",
+    "radiation_core": "c5c05095ddae69220af2200f2eaa2dcef246dd1e234c2513bff30d4755d572ed",
+    "recurrent_bridge_only": "d553840e522e706bdff3143977b7c22dd54d69814aac491c123ab832423268ce",
+    "gse184119_blocks": "e6c5254385343ec30adf341f7a0b46ca1c46986534036dd462b5af444f4e2499",
+    "bridge_scores": "ef783bdc95007e316f2db7229399deeadfa69db321ce517aab4ec3e1f17a9e83"
+  },
+  "protected_steps_rerun": {
+    "Bridge": false,
+    "DE": false,
+    "attribution": false,
+    "gene_modules": false,
+    "expanded_ChEMBL_construction": false,
+    "previous_benchmarks": false
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "mask_token": -10,
+  "module_size": 500,
+  "random_panels": 5,
+  "random_matching": "dataset mean-expression decile"
+}

@@ -1,0 +1,47 @@
+{
+  "disgenet": {
+    "version": "v7.0 (2020 public archive)",
+    "source": "https://raw.githubusercontent.com/Uriyah3/proyecto-tesis/main/disgenet/all_gene_disease_associations.tsv.gz",
+    "sha256": "d376b2cb11e45fdbd68597f356f0a37b3fff9684e7d19755d5eb6f7d2813c9dc",
+    "disease_cuis": {
+      "GSE138614": "C0026769",
+      "GSE101794": "C0010346",
+      "GSE72509": "C0024141"
+    },
+    "association_scope": "all DisGeNET v7 associations for exact CUI; score >=0.1 sensitivity",
+    "comparability": "closest documented release; de Weerd's filtered gene lists were not published, so exact reference totals cannot be reconstructed"
+  },
+  "disease_gene_universe": "dataset-expressed canonical Bridge genes",
+  "module_sizes": [
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500
+  ],
+  "primary_module_size": 500,
+  "multiple_testing": "BH within each module-size family of six disease x method tests",
+  "drug_resource": "frozen ChEMBL 37 approved small-molecule direct human mechanism targets from Phase 2",
+  "drugbank_decision": "not used: no authorized local DrugBank license/export; the paper repository's redistributed R object does not establish downstream authorization",
+  "drugbank_published_universe": {
+    "protein_background": 16600,
+    "minimum_targets": ">10",
+    "tested_drugs_in_supplement_per_case": 328
+  },
+  "chembl_resource_coverage": {
+    "drugs": 985,
+    "targets": 323,
+    "edges": 1344,
+    "drugs_gt10_targets": 1,
+    "drugs_ge3_targets": 69
+  },
+  "primary_drug_endpoint": "strict >10-target ChEMBL analogue; expected to be non-informative because only one resource drug qualifies",
+  "secondary_drug_endpoint": "frozen >=3-target ChEMBL contract, clearly labeled sensitivity",
+  "reference_drug_audit": "all >=1-target resource drugs tested solely to provide requested ranks/p/FDR for below-threshold highlighted drugs",
+  "direction_aware_reversal": false
+}

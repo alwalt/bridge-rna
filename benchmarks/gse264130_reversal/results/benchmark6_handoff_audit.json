@@ -1,0 +1,49 @@
+{
+  "source_benchmark": "/home/walt/bridge-rna.worktrees/attachment-pasted-text-1-30bae6d6/benchmarks/drug_perturbation_prediction",
+  "source_commit": "5d23557",
+  "dataset": "GSE264130",
+  "assay": "PLATE-Seq 3-prime RNA-seq",
+  "observed_drugs": 372,
+  "observed_drug_cell_contexts": 744,
+  "cell_lines": [
+    "DIPG6",
+    "SF8628"
+  ],
+  "time_hours": [
+    24
+  ],
+  "dose_design": "one study-selected dose per drug/cell line; doses retained in manifest",
+  "plate_replicates_per_context": 2,
+  "dmso_wells": 24,
+  "mock_wells_excluded_from_export": 24,
+  "matched_control": "six DMSO wells matched by cell line, plate, 24 h, before averaging two plate-level deltas",
+  "normalization": "Entrez counts -> RPK using released gene lengths -> TPM -> natural log1p",
+  "source_genes": 25122,
+  "observed_bridge_genes": 15028,
+  "canonical_bridge_genes": 15165,
+  "missing_canonical_genes": 137,
+  "gene_order_verified_by_token_id": true,
+  "observed_expression_vectors_available": true,
+  "observed_expression_delta_shape": [
+    744,
+    15028
+  ],
+  "observed_sample_expression_available": true,
+  "observed_sample_expression_shape": [
+    1536,
+    15028
+  ],
+  "observed_treated_embeddings_available_in_handoff": false,
+  "observed_control_embeddings_available_in_handoff": true,
+  "prediction_assets_permitted": false,
+  "asset_sha256": {
+    "results/perturbation_vectors/observed_expression_delta_manifest.parquet": "b95d77a932a369550a1ed55d0b57a6d3ea3da21f8cb51e301c0cfebe575bdbf6",
+    "results/perturbation_vectors/gene_order.parquet": "63b758eb361f436778ede305989304c5871ec2d1908faadfcabf260172c634f2",
+    "results/perturbation_vectors/provenance.json": "511f6d43d707a19bfe5161e8dd9e59f4aeb96fe183be4b7fe74fae9817d04c1f",
+    "results/preprocessing_provenance.json": "bd1a764b72817c34d1cd4d610603548351aeb1a914d8564f7521585aae44149d",
+    "results/bridge_representation_provenance.json": "f773c94980029dbbf17390f8d87af4cd859da3f71bdeef166abd84e3f42d2c5c",
+    "work/prepared/observed_condition_delta.npy": "d4c6c9492c52aadfe80811c4e862c6234fbf612e4f9b6f2f70d83fc137bb94a7",
+    "work/prepared/sample_log1p_tpm.npy": "806e08214d10df566ad5232f9965e4eed0f3b9ab8421b95a2eef05d32f23f681",
+    "work/prepared/sample_manifest.parquet": "a6da1c6ca6d2c5d47f2ba1071762efa7d70b750c7554c68c2780e6b22a4e3877"
+  }
+}

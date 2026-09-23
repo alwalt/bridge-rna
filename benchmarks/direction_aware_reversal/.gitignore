@@ -1,0 +1,15 @@
+work/
+pipeline/__pycache__/
+*.pyc
+
+# Large generated score/signature matrices remain local; compact summaries,
+# provenance, reports, and validation hashes are versioned.
+results/drug_reversal_by_contrast.parquet
+results/full_ranking_reversal_sensitivity.parquet
+results/frozen_condition_signatures.parquet
+results/lincs_exemplar_contexts.parquet
+results/partition_and_stable_program_reversal.parquet
+results/relevant_cell_reversal.parquet
+results/reversal_signature_members.csv.gz
+results/space_drug_reversal_by_dataset.csv.gz
+results/target_reversal_integration.parquet

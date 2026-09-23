@@ -1,0 +1,48 @@
+{
+  "database": "Europe PMC REST API with primary-record links resolved to PubMed",
+  "search_date": "2026-09-22",
+  "radiation_concepts": [
+    "radioprotection",
+    "radiation mitigation",
+    "radiation injury",
+    "radiation-induced fibrosis",
+    "radiation-induced senescence",
+    "DNA-damage response",
+    "oxidative stress after irradiation",
+    "normal-tissue radiation toxicity",
+    "radiosensitization"
+  ],
+  "candidate_selection": "Union of the top five nonzero eligible drugs from each fixed gene set (or every drug when fewer than five), plus pentoxifylline, resveratrol, and afatinib to audit recurrent PDE5A, DPP4, and ERBB2 target hypotheses.",
+  "audited_candidates": [
+    "ocriplasmin",
+    "collagenase clostridium histolyticum",
+    "tosedostat",
+    "molibresib",
+    "omipalisib",
+    "entinostat",
+    "luteolin",
+    "RG-547",
+    "resveratrol",
+    "capivasertib",
+    "anvatabart opadotin",
+    "disitamab vedotin",
+    "pentoxifylline",
+    "afatinib"
+  ],
+  "evidence_hierarchy": {
+    "1": "human clinical",
+    "2": "human observational/ex vivo",
+    "3": "animal radiation model",
+    "4": "cell/organoid radiation model",
+    "5": "mechanistic radiation evidence",
+    "6": "no radiation-specific evidence found"
+  },
+  "interpretive_rule": "Exact-drug evidence is distinguished from target-class evidence; antitumor radiosensitization is not treated as normal-tissue radioprotection; literature did not alter ChEMBL ranks.",
+  "raw_snapshots": [
+    "literature_search_europepmc_raw.json",
+    "literature_search_targeted_raw.json",
+    "literature_search_exact_raw.json",
+    "literature_selected_records_raw.json"
+  ],
+  "limitations": "A structured literature audit rather than a registered systematic review. No-hit searches mean no radiation-specific evidence was found with the recorded strategy, not proof of absence."
+}

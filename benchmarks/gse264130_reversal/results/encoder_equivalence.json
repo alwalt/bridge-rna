@@ -1,0 +1,7 @@
+{
+  "controls": 4,
+  "dimensions": 512,
+  "max_abs_difference": 0.0,
+  "mean_abs_difference": 0.0,
+  "allclose_rtol_1e-5_atol_1e-5": true
+}

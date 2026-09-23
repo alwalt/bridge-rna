@@ -1,0 +1,8 @@
+{
+  "input": "natural log1p(TPM), canonical 15,165 genes; identical locked samples as Bridge",
+  "method": "limma empirical-Bayes linear model with trend=TRUE and robust=TRUE",
+  "design": "case versus control",
+  "ms_independence": "mean log-expression per donor before fitting; 7 case versus 5 control donors",
+  "ranking": "absolute moderated t statistic",
+  "covariates": "unadjusted to match de Weerd case-control contrasts; recorded cohort covariates are limitations"
+}

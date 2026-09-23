@@ -1,0 +1,156 @@
+query_label,query,source,term,description,term_size,overlap_count,overlap_genes,pvalue,fdr
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,ERBB2 Signaling Pathway (GO:0038128),AREG,12,1,ERBB2,0.0015820174858409252,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Protein Targeting to Membrane (GO:0090314),AKT2,17,1,ERBB2,0.0022408218120850026,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of Protein Targeting to Membrane (GO:0090313),AKT2,21,1,ERBB2,0.0027677087255175924,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Cellular Response to Epidermal Growth Factor Stimulus (GO:0071364),AKT1,25,1,ERBB2,0.00329445648556114,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Establishment of Protein Localization (GO:1904951),AKT2,26,1,ERBB2,0.0034261216828549894,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Negative Regulation of cAMP/PKA Signal Transduction (GO:0141162),PDE10A,27,1,PDE5A,0.0035577781830620236,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of MAP Kinase Activity (GO:0043406),CRIPTO,28,1,ERBB2,0.0036894259861822427,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Response to Epidermal Growth Factor (GO:0070849),AKT1,28,1,ERBB2,0.0036894259861822427,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Rho Protein Signal Transduction (GO:0035025),ABRA,29,1,ERBB2,0.0038210650922156464,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of Vasculature Development (GO:1901342),ADGRA2,29,1,ERBB2,0.0038210650922156464,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of Transcription by RNA Polymerase I (GO:0006356),ACTR6,30,1,ERBB2,0.003952695501162236,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Transcription by RNA Polymerase I (GO:0045943),ACTR6,33,1,ERBB2,0.004347534545481111,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Protein Serine/Threonine Kinase Activity (GO:0071902),CCNY,36,1,ERBB2,0.004742295316018651,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Peptidyl-tyrosine Modification (GO:0018212),ABI2,38,1,ERBB2,0.005005425677609603,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of Microtubule-Based Process (GO:0032886),APC,39,1,ERBB2,0.005136977812774855,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Semaphorin-plexin Signaling Pathway (GO:0071526),ARHGDIA,40,1,ERBB2,0.005268521250853292,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Phosphatidylinositol 3-Kinase/Protein Kinase B Signal Transduction (GO:0043491),ADAM17,42,1,ERBB2,0.0055315820357497245,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of MAP Kinase Activity (GO:0043405),ADIPOQ,44,1,ERBB2,0.005794608032298894,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of cAMP/PKA Signal Transduction (GO:0141161),ADCYAP1,45,1,PDE5A,0.005926107984943255,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Epidermal Growth Factor Receptor Signaling Pathway (GO:0007173),ABL1,49,1,ERBB2,0.006452020824652555,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Peptidyl-tyrosine Phosphorylation (GO:0018108),ABI2,49,1,ERBB2,0.006452020824652555,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,ERBB Signaling Pathway (GO:0038127),ABL1,57,1,ERBB2,0.007503429043904024,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Growth (GO:0045927),ACSL4,67,1,ERBB2,0.008816906580155005,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Small GTPase Mediated Signal Transduction (GO:0051057),ABRA,70,1,ERBB2,0.009210780247837405,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Wound Healing (GO:0042060),ALOX15,71,1,ERBB2,0.009342054076224572,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Cell Adhesion (GO:0045785),ADAM8,80,1,ERBB2,0.010523127162802421,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of Rho Protein Signal Transduction (GO:0035023),ABCA1,82,1,ERBB2,0.010785492180753644,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of Epithelial Cell Proliferation (GO:0050678),ACVRL1,89,1,ERBB2,0.011703495785348246,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Translation (GO:0045727),ABCF1,97,1,ERBB2,0.012752120936818885,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Cell Growth (GO:0030307),ACSL4,98,1,ERBB2,0.012883159943862042,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of Anatomical Structure Morphogenesis (GO:0022603),ABI2,103,1,ERBB2,0.013538224522775628,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Epithelial Cell Proliferation (GO:0050679),AGGF1,108,1,ERBB2,0.014193071674518831,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of Cell Adhesion (GO:0030155),ABL1,126,1,ERBB2,0.016548721123823645,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Enzyme-linked Receptor Protein Signaling Pathway (GO:0007167),ABI1,127,1,ERBB2,0.016679507915349168,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Cellular Response to Growth Factor Stimulus (GO:0071363),ACAP2,140,1,ERBB2,0.018378944770280802,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Protein Metabolic Process (GO:0051247),ABCA2,176,1,ERBB2,0.02307740676875133,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of Translation (GO:0006417),ABCF1,181,1,ERBB2,0.023729079483807026,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of Angiogenesis (GO:0045765),ADAM12,188,1,ERBB2,0.024641056007238763,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Neuron Differentiation (GO:0030182),ACSL3,189,1,ERBB2,0.02477130357938175,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of Cell Growth (GO:0001558),ACSL4,189,1,ERBB2,0.02477130357938175,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of ERK1 and ERK2 Cascade (GO:0070372),ABCA7,196,1,ERBB2,0.02568279306595184,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Generation of Neurons (GO:0048699),ABI1,198,1,ERBB2,0.025943140359761956,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Phosphorylation (GO:0016310),AAK1,248,1,ERBB2,0.03244051649215527,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Regulation of MAPK Cascade (GO:0043408),ABCA7,260,1,ERBB2,0.033996651447634446,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Cell Surface Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169),A1BG,276,1,ERBB2,0.03606954990749345,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Protein Phosphorylation (GO:0006468),AAK1,293,1,ERBB2,0.03826956498824198,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Negative Regulation of Intracellular Signal Transduction (GO:1902532),AARS1,322,1,PDE5A,0.04201673093378969,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Intracellular Signaling Cassette (GO:0141124),ABR,344,1,ERBB2,0.044854529481950206,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of MAPK Cascade (GO:0043410),ABCA7,345,1,ERBB2,0.04498342030855002,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Negative Regulation of Programmed Cell Death (GO:0043069),ACLY,368,1,ERBB2,0.047945508924385184,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Gene Expression (GO:0010628),ABCF1,371,1,ERBB2,0.04833152912267354,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Protein Modification Process (GO:0036211),AAK1,408,1,ERBB2,0.05308600905732015,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Positive Regulation of Cell Population Proliferation (GO:0008284),ACER2,427,1,ERBB2,0.055522871903304405,1.0
+strict_all_study,ERBB2;PDE5A,GO_Biological_Process_2026,Negative Regulation of Apoptotic Process (GO:0043066),ADAM8,446,1,ERBB2,0.0579565951009484,1.0
+strict_all_study,ERBB2;PDE5A,KEGG_2026,BLADDER CANCER,ARAF,36,1,ERBB2,0.004742295316018651,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,ENDOMETRIAL CANCER,AKT1,53,1,ERBB2,0.006977794510972811,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,CENTRAL CARBON METABOLISM IN CANCER,AKT1,61,1,ERBB2,0.008028924423446198,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,NON-SMALL CELL LUNG CANCER,AKT1,68,1,ERBB2,0.00894820649980262,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,PANCREATIC CANCER,AKT1,74,1,ERBB2,0.009735823378865194,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,ERBB SIGNALING PATHWAY,ABL1,75,1,ERBB2,0.0098670624189051,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,ADHERENS JUNCTION,ACTG1,87,1,ERBB2,0.011441252526612433,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,PROSTATE CANCER,AKT1,96,1,ERBB2,0.012621073232688905,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,HIF-1 SIGNALING PATHWAY,AKT1,98,1,ERBB2,0.012883159943862042,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,PURINE METABOLISM,ADA,111,1,PDE5A,0.014585875600522975,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,BREAST CANCER,AKT1,134,1,ERBB2,0.017594771937597013,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,GASTRIC CANCER,ABCB1,136,1,ERBB2,0.017856197670172203,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,INTEGRIN SIGNALING,ACTG1,142,1,ERBB2,0.018640266137814214,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,CGMP-PKG SIGNALING PATHWAY,ADCY1,148,1,PDE5A,0.01942402151033088,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,TIGHT JUNCTION,ACTG1,148,1,ERBB2,0.01942402151033088,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,MICRORNAS IN CANCER,ABCB1,151,1,ERBB2,0.01981578178591721,0.4198468765891209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,PROTEOGLYCANS IN CANCER,ACTG1,186,1,ERBB2,0.024380534771692334,0.4616200617325021
+strict_all_study,ERBB2;PDE5A,KEGG_2026,FOCAL ADHESION,ACTG1,187,1,ERBB2,0.02451079973800896,0.4616200617325021
+strict_all_study,ERBB2;PDE5A,KEGG_2026,CALCIUM SIGNALING PATHWAY,ADCY1,233,1,ERBB2,0.030493586637726243,0.5440697826415367
+strict_all_study,ERBB2;PDE5A,KEGG_2026,MAPK SIGNALING PATHWAY,AKT1,285,1,ERBB2,0.037234576868897425,0.6311260779278114
+strict_all_study,ERBB2;PDE5A,KEGG_2026,PI3K-AKT SIGNALING PATHWAY,AKT1,312,1,ERBB2,0.040725430968917224,0.6574248142125209
+strict_all_study,ERBB2;PDE5A,KEGG_2026,PATHWAYS IN CANCER,ABL1,466,1,ERBB2,0.060515017129347336,0.9324814003113068
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of cAMP/PKA Signal Transduction (GO:0141161),ADCYAP1,45,2,PDE10A;PDE5A,2.5781513838915454e-05,0.08572353351439388
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Negative Regulation of Intracellular Signal Transduction (GO:1902532),AARS1,322,2,PDE10A;PDE5A,0.0013294510235714295,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,ERBB2 Signaling Pathway (GO:0038128),AREG,12,1,ERBB2,0.002372165595724848,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Protein Targeting to Membrane (GO:0090314),AKT2,17,1,ERBB2,0.0033594596825060642,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of Protein Targeting to Membrane (GO:0090313),AKT2,21,1,ERBB2,0.004148825794485748,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Cellular Response to Epidermal Growth Factor Stimulus (GO:0071364),AKT1,25,1,ERBB2,0.004937774996928347,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Establishment of Protein Localization (GO:1904951),AKT2,26,1,ERBB2,0.005134947168329221,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Negative Regulation of cAMP/PKA Signal Transduction (GO:0141162),PDE10A,27,1,PDE5A,0.00533209329148762,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of MAP Kinase Activity (GO:0043406),CRIPTO,28,1,ERBB2,0.005529213368124267,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Response to Epidermal Growth Factor (GO:0070849),AKT1,28,1,ERBB2,0.005529213368124267,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Rho Protein Signal Transduction (GO:0035025),ABRA,29,1,ERBB2,0.005726307399959876,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of Vasculature Development (GO:1901342),ADGRA2,29,1,ERBB2,0.005726307399959876,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of Transcription by RNA Polymerase I (GO:0006356),ACTR6,30,1,ERBB2,0.005923375388715168,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Transcription by RNA Polymerase I (GO:0045943),ACTR6,33,1,ERBB2,0.0065144231137063404,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Protein Serine/Threonine Kinase Activity (GO:0071902),CCNY,36,1,ERBB2,0.007105236512920539,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Peptidyl-tyrosine Modification (GO:0018212),ABI2,38,1,ERBB2,0.007498981954352387,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of Microtubule-Based Process (GO:0032886),APC,39,1,ERBB2,0.007695815632817181,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Semaphorin-plexin Signaling Pathway (GO:0071526),ARHGDIA,40,1,ERBB2,0.007892623285408844,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Phosphatidylinositol 3-Kinase/Protein Kinase B Signal Transduction (GO:0043491),ADAM17,42,1,ERBB2,0.008286160519855675,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of MAP Kinase Activity (GO:0043405),ADIPOQ,44,1,ERBB2,0.008679593671458615,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Epidermal Growth Factor Receptor Signaling Pathway (GO:0007173),ABL1,49,1,ERBB2,0.009662721278361715,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Peptidyl-tyrosine Phosphorylation (GO:0018108),ABI2,49,1,ERBB2,0.009662721278361715,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,ERBB Signaling Pathway (GO:0038127),ABL1,57,1,ERBB2,0.011234373088255242,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Growth (GO:0045927),ACSL4,67,1,ERBB2,0.013196598412848376,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Small GTPase Mediated Signal Transduction (GO:0051057),ABRA,70,1,ERBB2,0.013784759366920134,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Wound Healing (GO:0042060),ALOX15,71,1,ERBB2,0.013980761070921407,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Cell Adhesion (GO:0045785),ADAM8,80,1,ERBB2,0.01574360792696359,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of Rho Protein Signal Transduction (GO:0035023),ABCA1,82,1,ERBB2,0.016135066120025434,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of Epithelial Cell Proliferation (GO:0050678),ACVRL1,89,1,ERBB2,0.017504352401789845,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Translation (GO:0045727),ABCF1,97,1,ERBB2,0.019067694653703966,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Cell Growth (GO:0030307),ACSL4,98,1,ERBB2,0.019262995749804238,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of Anatomical Structure Morphogenesis (GO:0022603),ABI2,103,1,ERBB2,0.02023911239945927,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Epithelial Cell Proliferation (GO:0050679),AGGF1,108,1,ERBB2,0.021214581155436327,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of Cell Adhesion (GO:0030155),ABL1,126,1,ERBB2,0.024720907441728952,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Enzyme-linked Receptor Protein Signaling Pathway (GO:0007167),ABI1,127,1,ERBB2,0.0249154574302704,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Cellular Response to Growth Factor Stimulus (GO:0071363),ACAP2,140,1,ERBB2,0.027442253332713086,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Protein Metabolic Process (GO:0051247),ABCA2,176,1,ERBB2,0.03441674439380572,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of Translation (GO:0006417),ABCF1,181,1,ERBB2,0.035382778396517635,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of Angiogenesis (GO:0045765),ADAM12,188,1,ERBB2,0.0367341432241905,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Neuron Differentiation (GO:0030182),ACSL3,189,1,ERBB2,0.03692709225071967,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of Cell Growth (GO:0001558),ACSL4,189,1,ERBB2,0.03692709225071967,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of ERK1 and ERK2 Cascade (GO:0070372),ABCA7,196,1,ERBB2,0.038277014035355876,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Generation of Neurons (GO:0048699),ABI1,198,1,ERBB2,0.03866247414653022,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Phosphorylation (GO:0016310),AAK1,248,1,ERBB2,0.04826553475436892,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Regulation of MAPK Cascade (GO:0043408),ABCA7,260,1,ERBB2,0.05056071334987114,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Cell Surface Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169),A1BG,276,1,ERBB2,0.053615207378015894,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Negative Regulation of Signal Transduction (GO:0009968),ACOD1,289,1,PDE10A,0.056092154446699204,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Protein Phosphorylation (GO:0006468),AAK1,293,1,ERBB2,0.056853421577204924,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Intracellular Signaling Cassette (GO:0141124),ABR,344,1,ERBB2,0.06652372699287869,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of MAPK Cascade (GO:0043410),ABCA7,345,1,ERBB2,0.0667126770515132,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Negative Regulation of Programmed Cell Death (GO:0043069),ACLY,368,1,ERBB2,0.07105149406689168,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Gene Expression (GO:0010628),ABCF1,371,1,ERBB2,0.07161643334317665,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Protein Modification Process (GO:0036211),AAK1,408,1,ERBB2,0.07856519578188743,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Positive Regulation of Cell Population Proliferation (GO:0008284),ACER2,427,1,ERBB2,0.0821199657302047,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,GO_Biological_Process_2026,Negative Regulation of Apoptotic Process (GO:0043066),ADAM8,446,1,ERBB2,0.08566558135597557,1.0
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,PURINE METABOLISM,ADA,111,2,PDE10A;PDE5A,0.00015852378249989733,0.053739562267465193
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,BLADDER CANCER,ARAF,36,1,ERBB2,0.007105236512920539,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,ENDOMETRIAL CANCER,AKT1,53,1,ERBB2,0.010448755197572986,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,CENTRAL CARBON METABOLISM IN CANCER,AKT1,61,1,ERBB2,0.012019575060534492,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,NON-SMALL CELL LUNG CANCER,AKT1,68,1,ERBB2,0.013392678039604334,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,PANCREATIC CANCER,AKT1,74,1,ERBB2,0.014568610364947367,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,ERBB SIGNALING PATHWAY,ABL1,75,1,ERBB2,0.014764508196032457,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,MORPHINE ADDICTION,ADCY1,85,1,PDE10A,0.016722058774803386,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,ADHERENS JUNCTION,ACTG1,87,1,ERBB2,0.01711325747485386,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,PROSTATE CANCER,AKT1,96,1,ERBB2,0.018872367631532272,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,HIF-1 SIGNALING PATHWAY,AKT1,98,1,ERBB2,0.019262995749804238,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,BREAST CANCER,AKT1,134,1,ERBB2,0.026276582961824533,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,GASTRIC CANCER,ABCB1,136,1,ERBB2,0.02666524318338572,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,INTEGRIN SIGNALING,ACTG1,142,1,ERBB2,0.027830603288010763,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,CGMP-PKG SIGNALING PATHWAY,ADCY1,148,1,PDE5A,0.02899503284162884,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,TIGHT JUNCTION,ACTG1,148,1,ERBB2,0.02899503284162884,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,MICRORNAS IN CANCER,ABCB1,151,1,ERBB2,0.02957689877795879,0.5897981579840018
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,PROTEOGLYCANS IN CANCER,ACTG1,186,1,ERBB2,0.036348167860953386,0.6519713735342857
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,FOCAL ADHESION,ACTG1,187,1,ERBB2,0.03654116842817531,0.6519713735342857
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,CAMP SIGNALING PATHWAY,ABCC4,207,1,PDE10A,0.04039577010775593,0.6847083033264629
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,CALCIUM SIGNALING PATHWAY,ADCY1,233,1,ERBB2,0.045391363747362176,0.7327463004931323
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,MAPK SIGNALING PATHWAY,AKT1,285,1,ERBB2,0.05533047778509898,0.8525923622340253
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,PI3K-AKT SIGNALING PATHWAY,AKT1,312,1,ERBB2,0.060463851171891424,0.891184589011791
+shared_drug_target_union,ERBB2;PDE10A;PDE5A,KEGG_2026,PATHWAYS IN CANCER,ABL1,466,1,ERBB2,0.08938793159335341,1.0

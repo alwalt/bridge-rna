@@ -1,0 +1,98 @@
+{
+  "GSE297090_bulkRNAseq_featureCounts-genes.csv.gz": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE297nnn/GSE297090/suppl/GSE297090_bulkRNAseq_featureCounts-genes.csv.gz",
+    "size": 2066688,
+    "sha256": "03074feb08e0057690538d48f514665ef4ea172cf6f7d2a076cc96c491ace6dd"
+  },
+  "GSE297090_family.soft.gz": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE297nnn/GSE297090/soft/GSE297090_family.soft.gz",
+    "size": 4645,
+    "sha256": "1095a54a0d04c3e18ffae9b11fd28340230294dc6f31323eba6f3650344e965c"
+  },
+  "GSE184119_RAW.tar": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE184nnn/GSE184119/suppl/GSE184119_RAW.tar",
+    "size": 3020800,
+    "sha256": "95ce6f4011b58af22ec060b9ccbd5ce6d2a45718d6b9c05d7299ac24b5932624"
+  },
+  "GSE184119_family.soft.gz": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE184nnn/GSE184119/soft/GSE184119_family.soft.gz",
+    "size": 3903,
+    "sha256": "5eef1f5a1364712eaade9e2e318f7deaee38a9572afc9e9d52f1f21254ae586a"
+  },
+  "GSE189524_Differential_Expression_Transcripts_Cassidy_et_al_2021_Op.xlsx": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE189nnn/GSE189524/suppl/GSE189524_Differential_Expression_Transcripts_Cassidy_et_al_2021_Op.xlsx",
+    "size": 58885224,
+    "sha256": "7b3a2af81d58ae9f5793a86168893ab20511c4cd829c250a31a6436b684c8156"
+  },
+  "GSE189524_family.soft.gz": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE189nnn/GSE189524/soft/GSE189524_family.soft.gz",
+    "size": 3950,
+    "sha256": "2b2c208f185d205fe7033bf5a3d6fcf59220118f7d1638c99bbd341d2987b1b0"
+  },
+  "GSE276529_rsem_count.tsv.gz": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE276nnn/GSE276529/suppl/GSE276529_rsem_count.tsv.gz",
+    "size": 826801,
+    "sha256": "7ee02ffe2cacbb860cd3e176ec59a312c5f5d224fbe3a48505f6a32897b091c4"
+  },
+  "GSE276529_family.soft.gz": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE276nnn/GSE276529/soft/GSE276529_family.soft.gz",
+    "size": 2717,
+    "sha256": "862bea6071717b94b0c09ebc4c3a7afc11fa1b8864e1cfa4300907ab606ae6f9"
+  },
+  "GSE211204_RawCountFile_RSEM_genes.txt.gz": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE211nnn/GSE211204/suppl/GSE211204_RawCountFile_RSEM_genes.txt.gz",
+    "size": 2315124,
+    "sha256": "48a5f3ae3b7c722eba58f4181b3d71653e643f685d5fcdb4093603af38b3038d"
+  },
+  "GSE211204_family.soft.gz": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE211nnn/GSE211204/soft/GSE211204_family.soft.gz",
+    "size": 3787,
+    "sha256": "5d2338442292ef12cf84363f8918ee0e9497ce343436f6a83c865bfcdbdb7e83"
+  },
+  "GSE113165_counts.txt.gz": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE113nnn/GSE113165/suppl/GSE113165_counts.txt.gz",
+    "size": 1971585,
+    "sha256": "fd40b636d88a9a3571aa1153d0a9b530ea3bfadd6b8f226c730edc976a560015"
+  },
+  "GSE113165_family.soft.gz": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE113nnn/GSE113165/soft/GSE113165_family.soft.gz",
+    "size": 8439,
+    "sha256": "a5fb4b07e0d44063e708a31aad5f16f044fe760f452d71eff7db2f692847feea"
+  },
+  "GLDS-805_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv": {
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-993/download?source=datamanager&file=GLDS-805_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "size": 4427229,
+    "sha256": "b04959eb75f7d138f66051132fdbba8b3bb7d9a2cb8218e5564266ed9a81b673",
+    "osd": "OSD-993",
+    "osd_numeric": "993"
+  },
+  "GSE297560_family.soft.gz": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE297nnn/GSE297560/soft/GSE297560_family.soft.gz",
+    "size": 5095,
+    "sha256": "540147ff1c511f123369bfa4502c7df27971530a627fcae52476bb15257b2d18"
+  },
+  "GLDS-615_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv": {
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-684/download?source=datamanager&file=GLDS-615_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "size": 3070599,
+    "sha256": "e01549d137ef79e15e16404a1b3b0ba83ea3412d4ab7ead27e6a082837844ef1",
+    "osd": "OSD-684",
+    "osd_numeric": "684"
+  },
+  "GSE234465_family.soft.gz": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE234nnn/GSE234465/soft/GSE234465_family.soft.gz",
+    "size": 2934,
+    "sha256": "fa34773956a3ad757cd9b96598bef380b6b4b17b815588cddfeb2ae19f915982"
+  },
+  "GLDS-719_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv": {
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-867/download?source=datamanager&file=GLDS-719_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "size": 3023100,
+    "sha256": "1b795903df963e102061cd578c3a546ddf42b9f5fb2e9782a504c34b7bde7e3c",
+    "osd": "OSD-867",
+    "osd_numeric": "867"
+  },
+  "GSE273868_family.soft.gz": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE273nnn/GSE273868/soft/GSE273868_family.soft.gz",
+    "size": 3491,
+    "sha256": "647effa4f4ad1e163455d4b7c011586dd35eb2bf06e3d9ed2b2889c0f5a80279"
+  }
+}

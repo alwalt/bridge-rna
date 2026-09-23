@@ -1,0 +1,82 @@
+{
+  "analysis": "frozen Phase-2 muscle target-support decomposition",
+  "datasets": [
+    "GSE211204",
+    "GSE113165",
+    "GSE234465"
+  ],
+  "module_size": 500,
+  "minimum_drug_targets": 3,
+  "phase2_rerun": false,
+  "bridge_baseline_mean_pairwise_jaccard": 0.7142857142857143,
+  "de_baseline_mean_pairwise_jaccard": 0.1822991822991823,
+  "shared_bridge_drug_count": 4,
+  "shared_de_drug_count": 1,
+  "strict_recurrent_bridge_targets": [
+    "ERBB2",
+    "PDE5A"
+  ],
+  "shared_bridge_drug_target_union": [
+    "ERBB2",
+    "PDE10A",
+    "PDE5A"
+  ],
+  "most_promiscuous_target_definition": "maximum observed drug x dataset support edges",
+  "most_promiscuous_target": "ERBB2",
+  "most_promiscuous_drug_definition": "maximum observed target x dataset support edges; alphabetical tie break",
+  "most_promiscuous_drug": "IBUDILAST",
+  "target_removal_contract": "remove target from saved overlap_genes and discard drug in a dataset only if no saved overlap remains",
+  "inputs": [
+    "evaluation/drug_enrichment.parquet",
+    "bridge/study_gene_rankings.parquet",
+    "differential_expression/study_gene_rankings.parquet"
+  ],
+  "bridge_pairwise": [
+    {
+      "dataset_a": "GSE211204",
+      "dataset_b": "GSE113165",
+      "intersection": 5,
+      "union": 5,
+      "jaccard": 1.0
+    },
+    {
+      "dataset_a": "GSE211204",
+      "dataset_b": "GSE234465",
+      "intersection": 4,
+      "union": 7,
+      "jaccard": 0.5714285714285714
+    },
+    {
+      "dataset_a": "GSE113165",
+      "dataset_b": "GSE234465",
+      "intersection": 4,
+      "union": 7,
+      "jaccard": 0.5714285714285714
+    }
+  ],
+  "de_pairwise": [
+    {
+      "dataset_a": "GSE211204",
+      "dataset_b": "GSE113165",
+      "intersection": 2,
+      "union": 9,
+      "jaccard": 0.2222222222222222
+    },
+    {
+      "dataset_a": "GSE211204",
+      "dataset_b": "GSE234465",
+      "intersection": 2,
+      "union": 14,
+      "jaccard": 0.14285714285714285
+    },
+    {
+      "dataset_a": "GSE113165",
+      "dataset_b": "GSE234465",
+      "intersection": 2,
+      "union": 11,
+      "jaccard": 0.18181818181818182
+    }
+  ],
+  "pathway_universe_size": 15165,
+  "pathway_query_is_exploratory": true
+}

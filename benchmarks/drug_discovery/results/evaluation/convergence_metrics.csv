@@ -1,0 +1,1081 @@
+condition,method,module_size,min_targets,dataset_1,dataset_2,status_1,status_2,top_n,overlap,jaccard,overlap_coefficient,rbo,censored_spearman
+Radiation,Bridge,100,2,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,100,2,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,100,2,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,100,2,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,100,2,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,100,2,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,100,2,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,100,2,GSE184119,GSE297560,seen,unseen,25,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,100,2,GSE184119,GSE297560,seen,unseen,50,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,100,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,100,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,Bridge,100,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,Bridge,100,3,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,100,3,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,100,3,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,100,3,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,100,3,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,100,3,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,100,3,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,100,3,GSE184119,GSE297560,seen,unseen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,100,3,GSE184119,GSE297560,seen,unseen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,100,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,100,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,Bridge,100,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,Bridge,100,5,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,100,5,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,100,5,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,100,5,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,100,5,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,100,5,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,100,5,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,100,5,GSE184119,GSE297560,seen,unseen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,100,5,GSE184119,GSE297560,seen,unseen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,100,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,100,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,Bridge,100,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,Bridge,250,2,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,-0.7701540462154054
+Radiation,Bridge,250,2,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,-0.7701540462154054
+Radiation,Bridge,250,2,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,-0.7701540462154054
+Radiation,Bridge,250,2,GSE297090,GSE297560,unseen,unseen,10,5,0.5,0.7142857142857143,0.3133826276785714,0.049232866770367166
+Radiation,Bridge,250,2,GSE297090,GSE297560,unseen,unseen,25,5,0.5,0.7142857142857143,0.3133826276785714,0.049232866770367166
+Radiation,Bridge,250,2,GSE297090,GSE297560,unseen,unseen,50,5,0.5,0.7142857142857143,0.3133826276785714,0.049232866770367166
+Radiation,Bridge,250,2,GSE184119,GSE297560,seen,unseen,10,2,0.25,0.6666666666666666,0.23821402857142848,-0.02727723627949905
+Radiation,Bridge,250,2,GSE184119,GSE297560,seen,unseen,25,2,0.25,0.6666666666666666,0.23821402857142848,-0.02727723627949905
+Radiation,Bridge,250,2,GSE184119,GSE297560,seen,unseen,50,2,0.25,0.6666666666666666,0.23821402857142848,-0.02727723627949905
+Radiation,Bridge,250,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,250,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,Bridge,250,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,Bridge,250,3,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,-0.6546536707079772
+Radiation,Bridge,250,3,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,-0.6546536707079772
+Radiation,Bridge,250,3,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,-0.6546536707079772
+Radiation,Bridge,250,3,GSE297090,GSE297560,unseen,unseen,10,3,0.5,0.75,0.3380409999999999,0.6377481392176932
+Radiation,Bridge,250,3,GSE297090,GSE297560,unseen,unseen,25,3,0.5,0.75,0.3380409999999999,0.6377481392176932
+Radiation,Bridge,250,3,GSE297090,GSE297560,unseen,unseen,50,3,0.5,0.75,0.3380409999999999,0.6377481392176932
+Radiation,Bridge,250,3,GSE184119,GSE297560,seen,unseen,10,1,0.25,1.0,0.045224999999999994,-0.2581988897471611
+Radiation,Bridge,250,3,GSE184119,GSE297560,seen,unseen,25,1,0.25,1.0,0.045224999999999994,-0.2581988897471611
+Radiation,Bridge,250,3,GSE184119,GSE297560,seen,unseen,50,1,0.25,1.0,0.045224999999999994,-0.2581988897471611
+Radiation,Bridge,250,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,250,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,Bridge,250,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,Bridge,250,5,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,250,5,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,250,5,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,250,5,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,250,5,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,250,5,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,250,5,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,250,5,GSE184119,GSE297560,seen,unseen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,250,5,GSE184119,GSE297560,seen,unseen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,250,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,250,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,Bridge,250,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,Bridge,500,2,GSE297090,GSE184119,unseen,seen,10,1,0.058823529411764705,0.125,0.1012042623049088,-0.45103059060299455
+Radiation,Bridge,500,2,GSE297090,GSE184119,unseen,seen,25,4,0.19047619047619047,0.5,0.1012042623049088,-0.45103059060299455
+Radiation,Bridge,500,2,GSE297090,GSE184119,unseen,seen,50,4,0.19047619047619047,0.5,0.1012042623049088,-0.45103059060299455
+Radiation,Bridge,500,2,GSE297090,GSE297560,unseen,unseen,10,5,0.3333333333333333,0.5,0.1935335717328165,-0.34161706404114356
+Radiation,Bridge,500,2,GSE297090,GSE297560,unseen,unseen,25,6,0.23076923076923078,0.4,0.1935335717328165,-0.34161706404114356
+Radiation,Bridge,500,2,GSE297090,GSE297560,unseen,unseen,50,6,0.23076923076923078,0.4,0.1935335717328165,-0.34161706404114356
+Radiation,Bridge,500,2,GSE184119,GSE297560,seen,unseen,10,2,0.125,0.25,0.1276486148526555,-0.5073782684567698
+Radiation,Bridge,500,2,GSE184119,GSE297560,seen,unseen,25,2,0.09523809523809523,0.25,0.1276486148526555,-0.5073782684567698
+Radiation,Bridge,500,2,GSE184119,GSE297560,seen,unseen,50,2,0.09523809523809523,0.25,0.1276486148526555,-0.5073782684567698
+Radiation,Bridge,500,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,500,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,Bridge,500,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,Bridge,500,3,GSE297090,GSE184119,unseen,seen,10,2,0.16666666666666666,0.5,0.05304489256753246,-0.4300923758281151
+Radiation,Bridge,500,3,GSE297090,GSE184119,unseen,seen,25,2,0.15384615384615385,0.5,0.05304489256753246,-0.4300923758281151
+Radiation,Bridge,500,3,GSE297090,GSE184119,unseen,seen,50,2,0.15384615384615385,0.5,0.05304489256753246,-0.4300923758281151
+Radiation,Bridge,500,3,GSE297090,GSE297560,unseen,unseen,10,4,0.25,0.4,0.4508026191707792,0.0
+Radiation,Bridge,500,3,GSE297090,GSE297560,unseen,unseen,25,4,0.23529411764705882,0.4,0.4508026191707792,0.0
+Radiation,Bridge,500,3,GSE297090,GSE297560,unseen,unseen,50,4,0.23529411764705882,0.4,0.4508026191707792,0.0
+Radiation,Bridge,500,3,GSE184119,GSE297560,seen,unseen,10,1,0.07692307692307693,0.25,0.09041639942571428,-0.45212511768322805
+Radiation,Bridge,500,3,GSE184119,GSE297560,seen,unseen,25,1,0.07692307692307693,0.25,0.09041639942571428,-0.45212511768322805
+Radiation,Bridge,500,3,GSE184119,GSE297560,seen,unseen,50,1,0.07692307692307693,0.25,0.09041639942571428,-0.45212511768322805
+Radiation,Bridge,500,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,500,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,Bridge,500,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,Bridge,500,5,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,500,5,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,500,5,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,500,5,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,500,5,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,500,5,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,500,5,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,500,5,GSE184119,GSE297560,seen,unseen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,500,5,GSE184119,GSE297560,seen,unseen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,500,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,500,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,Bridge,500,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,Bridge,750,2,GSE297090,GSE184119,unseen,seen,10,4,0.25,0.4,0.4520627450454321,-0.004934621363758069
+Radiation,Bridge,750,2,GSE297090,GSE184119,unseen,seen,25,7,0.25925925925925924,0.7,0.4520627450454321,-0.004934621363758069
+Radiation,Bridge,750,2,GSE297090,GSE184119,unseen,seen,50,7,0.25925925925925924,0.7,0.4520627450454321,-0.004934621363758069
+Radiation,Bridge,750,2,GSE297090,GSE297560,unseen,unseen,10,3,0.17647058823529413,0.3,0.12686409620784736,-0.43014965160511087
+Radiation,Bridge,750,2,GSE297090,GSE297560,unseen,unseen,25,8,0.22857142857142856,0.42105263157894735,0.12686409620784736,-0.43014965160511087
+Radiation,Bridge,750,2,GSE297090,GSE297560,unseen,unseen,50,8,0.22857142857142856,0.42105263157894735,0.12686409620784736,-0.43014965160511087
+Radiation,Bridge,750,2,GSE184119,GSE297560,seen,unseen,10,1,0.05263157894736842,0.1,0.07280455233281385,-0.6202271556750762
+Radiation,Bridge,750,2,GSE184119,GSE297560,seen,unseen,25,2,0.07407407407407407,0.2,0.07280455233281385,-0.6202271556750762
+Radiation,Bridge,750,2,GSE184119,GSE297560,seen,unseen,50,2,0.07407407407407407,0.2,0.07280455233281385,-0.6202271556750762
+Radiation,Bridge,750,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,750,2,three_way,three_way,mixed,mixed,25,1,0.02702702702702703,0.1,,
+Radiation,Bridge,750,2,three_way,three_way,mixed,mixed,50,1,0.02702702702702703,0.1,,
+Radiation,Bridge,750,3,GSE297090,GSE184119,unseen,seen,10,2,0.16666666666666666,0.5,0.04245485791903247,-0.46024549453114094
+Radiation,Bridge,750,3,GSE297090,GSE184119,unseen,seen,25,2,0.14285714285714285,0.5,0.04245485791903247,-0.46024549453114094
+Radiation,Bridge,750,3,GSE297090,GSE184119,unseen,seen,50,2,0.14285714285714285,0.5,0.04245485791903247,-0.46024549453114094
+Radiation,Bridge,750,3,GSE297090,GSE297560,unseen,unseen,10,3,0.17647058823529413,0.3,0.4573887674837791,-0.03299713102418075
+Radiation,Bridge,750,3,GSE297090,GSE297560,unseen,unseen,25,4,0.2222222222222222,0.4,0.4573887674837791,-0.03299713102418075
+Radiation,Bridge,750,3,GSE297090,GSE297560,unseen,unseen,50,4,0.2222222222222222,0.4,0.4573887674837791,-0.03299713102418075
+Radiation,Bridge,750,3,GSE184119,GSE297560,seen,unseen,10,1,0.07692307692307693,0.25,0.09041639942571428,-0.45212511768322805
+Radiation,Bridge,750,3,GSE184119,GSE297560,seen,unseen,25,1,0.07692307692307693,0.25,0.09041639942571428,-0.45212511768322805
+Radiation,Bridge,750,3,GSE184119,GSE297560,seen,unseen,50,1,0.07692307692307693,0.25,0.09041639942571428,-0.45212511768322805
+Radiation,Bridge,750,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,750,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,Bridge,750,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,Bridge,750,5,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,750,5,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,750,5,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,750,5,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,750,5,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,750,5,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,750,5,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,750,5,GSE184119,GSE297560,seen,unseen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,750,5,GSE184119,GSE297560,seen,unseen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,750,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,750,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,Bridge,750,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,Bridge,1000,2,GSE297090,GSE184119,unseen,seen,10,4,0.25,0.4,0.2689069735540436,-0.0858676612412915
+Radiation,Bridge,1000,2,GSE297090,GSE184119,unseen,seen,25,11,0.3548387096774194,0.6470588235294118,0.2689069735540436,-0.0858676612412915
+Radiation,Bridge,1000,2,GSE297090,GSE184119,unseen,seen,50,12,0.35294117647058826,0.7058823529411765,0.2689069735540436,-0.0858676612412915
+Radiation,Bridge,1000,2,GSE297090,GSE297560,unseen,unseen,10,2,0.1111111111111111,0.2,0.17562485836200978,-0.08965006185580356
+Radiation,Bridge,1000,2,GSE297090,GSE297560,unseen,unseen,25,12,0.36363636363636365,0.6,0.17562485836200978,-0.08965006185580356
+Radiation,Bridge,1000,2,GSE297090,GSE297560,unseen,unseen,50,13,0.3611111111111111,0.65,0.17562485836200978,-0.08965006185580356
+Radiation,Bridge,1000,2,GSE184119,GSE297560,seen,unseen,10,3,0.17647058823529413,0.3,0.11794050160965087,-0.3236919526402129
+Radiation,Bridge,1000,2,GSE184119,GSE297560,seen,unseen,25,7,0.23333333333333334,0.4117647058823529,0.11794050160965087,-0.3236919526402129
+Radiation,Bridge,1000,2,GSE184119,GSE297560,seen,unseen,50,7,0.23333333333333334,0.4117647058823529,0.11794050160965087,-0.3236919526402129
+Radiation,Bridge,1000,2,three_way,three_way,mixed,mixed,10,1,0.045454545454545456,0.1,,
+Radiation,Bridge,1000,2,three_way,three_way,mixed,mixed,25,6,0.15789473684210525,0.35294117647058826,,
+Radiation,Bridge,1000,2,three_way,three_way,mixed,mixed,50,6,0.15,0.35294117647058826,,
+Radiation,Bridge,1000,3,GSE297090,GSE184119,unseen,seen,10,2,0.15384615384615385,0.4,0.034424944425333566,-0.5379835432155656
+Radiation,Bridge,1000,3,GSE297090,GSE184119,unseen,seen,25,2,0.125,0.4,0.034424944425333566,-0.5379835432155656
+Radiation,Bridge,1000,3,GSE297090,GSE184119,unseen,seen,50,2,0.125,0.4,0.034424944425333566,-0.5379835432155656
+Radiation,Bridge,1000,3,GSE297090,GSE297560,unseen,unseen,10,4,0.25,0.4,0.3480944296902819,-0.025920593019168707
+Radiation,Bridge,1000,3,GSE297090,GSE297560,unseen,unseen,25,5,0.2631578947368421,0.45454545454545453,0.3480944296902819,-0.025920593019168707
+Radiation,Bridge,1000,3,GSE297090,GSE297560,unseen,unseen,50,5,0.2631578947368421,0.45454545454545453,0.3480944296902819,-0.025920593019168707
+Radiation,Bridge,1000,3,GSE184119,GSE297560,seen,unseen,10,1,0.07142857142857142,0.2,0.09358620342662337,-0.5020372764322415
+Radiation,Bridge,1000,3,GSE184119,GSE297560,seen,unseen,25,1,0.06666666666666667,0.2,0.09358620342662337,-0.5020372764322415
+Radiation,Bridge,1000,3,GSE184119,GSE297560,seen,unseen,50,1,0.06666666666666667,0.2,0.09358620342662337,-0.5020372764322415
+Radiation,Bridge,1000,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,1000,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,Bridge,1000,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,Bridge,1000,5,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,1000,5,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,1000,5,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,1000,5,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,1000,5,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,1000,5,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,Bridge,1000,5,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.0,
+Radiation,Bridge,1000,5,GSE184119,GSE297560,seen,unseen,25,0,0.0,0.0,0.0,
+Radiation,Bridge,1000,5,GSE184119,GSE297560,seen,unseen,50,0,0.0,0.0,0.0,
+Radiation,Bridge,1000,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,Bridge,1000,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,Bridge,1000,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,100,2,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,DE,100,2,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,DE,100,2,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,DE,100,2,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,
+Radiation,DE,100,2,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,
+Radiation,DE,100,2,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,
+Radiation,DE,100,2,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.0,-0.8231932086840424
+Radiation,DE,100,2,GSE184119,GSE297560,seen,unseen,25,0,0.0,0.0,0.0,-0.8231932086840424
+Radiation,DE,100,2,GSE184119,GSE297560,seen,unseen,50,0,0.0,0.0,0.0,-0.8231932086840424
+Radiation,DE,100,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,100,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,100,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,100,3,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,DE,100,3,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,DE,100,3,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,DE,100,3,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,
+Radiation,DE,100,3,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,
+Radiation,DE,100,3,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,
+Radiation,DE,100,3,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.0,-0.888888888888889
+Radiation,DE,100,3,GSE184119,GSE297560,seen,unseen,25,0,0.0,0.0,0.0,-0.888888888888889
+Radiation,DE,100,3,GSE184119,GSE297560,seen,unseen,50,0,0.0,0.0,0.0,-0.888888888888889
+Radiation,DE,100,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,100,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,100,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,100,5,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,DE,100,5,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,DE,100,5,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,DE,100,5,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,
+Radiation,DE,100,5,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,
+Radiation,DE,100,5,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,
+Radiation,DE,100,5,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.0,
+Radiation,DE,100,5,GSE184119,GSE297560,seen,unseen,25,0,0.0,0.0,0.0,
+Radiation,DE,100,5,GSE184119,GSE297560,seen,unseen,50,0,0.0,0.0,0.0,
+Radiation,DE,100,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,100,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,100,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,250,2,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,DE,250,2,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,DE,250,2,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,DE,250,2,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,
+Radiation,DE,250,2,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,
+Radiation,DE,250,2,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,
+Radiation,DE,250,2,GSE184119,GSE297560,seen,unseen,10,1,0.09090909090909091,0.5,0.022227899425714286,-0.4180039147272101
+Radiation,DE,250,2,GSE184119,GSE297560,seen,unseen,25,1,0.09090909090909091,0.5,0.022227899425714286,-0.4180039147272101
+Radiation,DE,250,2,GSE184119,GSE297560,seen,unseen,50,1,0.09090909090909091,0.5,0.022227899425714286,-0.4180039147272101
+Radiation,DE,250,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,250,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,250,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,250,3,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,DE,250,3,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,DE,250,3,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,DE,250,3,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,
+Radiation,DE,250,3,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,
+Radiation,DE,250,3,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,
+Radiation,DE,250,3,GSE184119,GSE297560,seen,unseen,10,1,0.14285714285714285,0.5,0.0681885,-0.222717701593687
+Radiation,DE,250,3,GSE184119,GSE297560,seen,unseen,25,1,0.14285714285714285,0.5,0.0681885,-0.222717701593687
+Radiation,DE,250,3,GSE184119,GSE297560,seen,unseen,50,1,0.14285714285714285,0.5,0.0681885,-0.222717701593687
+Radiation,DE,250,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,250,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,250,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,250,5,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,DE,250,5,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,DE,250,5,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,DE,250,5,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,
+Radiation,DE,250,5,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,
+Radiation,DE,250,5,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,
+Radiation,DE,250,5,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,DE,250,5,GSE184119,GSE297560,seen,unseen,25,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,DE,250,5,GSE184119,GSE297560,seen,unseen,50,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,DE,250,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,250,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,250,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,500,2,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,DE,500,2,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,DE,500,2,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,DE,500,2,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,
+Radiation,DE,500,2,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,
+Radiation,DE,500,2,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,
+Radiation,DE,500,2,GSE184119,GSE297560,seen,unseen,10,1,0.07692307692307693,0.25,0.014442066191659091,-0.6669927965166961
+Radiation,DE,500,2,GSE184119,GSE297560,seen,unseen,25,1,0.06666666666666667,0.25,0.014442066191659091,-0.6669927965166961
+Radiation,DE,500,2,GSE184119,GSE297560,seen,unseen,50,1,0.06666666666666667,0.25,0.014442066191659091,-0.6669927965166961
+Radiation,DE,500,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,500,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,500,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,500,3,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,DE,500,3,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,DE,500,3,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,DE,500,3,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,
+Radiation,DE,500,3,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,
+Radiation,DE,500,3,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,
+Radiation,DE,500,3,GSE184119,GSE297560,seen,unseen,10,1,0.125,0.5,0.04878051428571428,-0.31173984319427483
+Radiation,DE,500,3,GSE184119,GSE297560,seen,unseen,25,1,0.125,0.5,0.04878051428571428,-0.31173984319427483
+Radiation,DE,500,3,GSE184119,GSE297560,seen,unseen,50,1,0.125,0.5,0.04878051428571428,-0.31173984319427483
+Radiation,DE,500,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,500,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,500,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,500,5,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,DE,500,5,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,DE,500,5,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,DE,500,5,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0,
+Radiation,DE,500,5,GSE297090,GSE297560,unseen,unseen,25,0,0.0,0.0,0.0,
+Radiation,DE,500,5,GSE297090,GSE297560,unseen,unseen,50,0,0.0,0.0,0.0,
+Radiation,DE,500,5,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,DE,500,5,GSE184119,GSE297560,seen,unseen,25,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,DE,500,5,GSE184119,GSE297560,seen,unseen,50,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,DE,500,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,500,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,500,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,750,2,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,-0.7926165058897369
+Radiation,DE,750,2,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,-0.7926165058897369
+Radiation,DE,750,2,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,-0.7926165058897369
+Radiation,DE,750,2,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.0012868195755915564,-0.6484266120914245
+Radiation,DE,750,2,GSE297090,GSE297560,unseen,unseen,25,1,0.05555555555555555,0.3333333333333333,0.0012868195755915564,-0.6484266120914245
+Radiation,DE,750,2,GSE297090,GSE297560,unseen,unseen,50,1,0.05555555555555555,0.3333333333333333,0.0012868195755915564,-0.6484266120914245
+Radiation,DE,750,2,GSE184119,GSE297560,seen,unseen,10,1,0.0625,0.14285714285714285,0.05406956486292953,-0.5902453067941991
+Radiation,DE,750,2,GSE184119,GSE297560,seen,unseen,25,2,0.09523809523809523,0.2857142857142857,0.05406956486292953,-0.5902453067941991
+Radiation,DE,750,2,GSE184119,GSE297560,seen,unseen,50,2,0.09523809523809523,0.2857142857142857,0.05406956486292953,-0.5902453067941991
+Radiation,DE,750,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,750,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,750,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,750,3,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,DE,750,3,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,DE,750,3,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,-0.8660254037844387
+Radiation,DE,750,3,GSE297090,GSE297560,unseen,unseen,10,1,0.1111111111111111,1.0,0.004782969,-0.5477225575051661
+Radiation,DE,750,3,GSE297090,GSE297560,unseen,unseen,25,1,0.1111111111111111,1.0,0.004782969,-0.5477225575051661
+Radiation,DE,750,3,GSE297090,GSE297560,unseen,unseen,50,1,0.1111111111111111,1.0,0.004782969,-0.5477225575051661
+Radiation,DE,750,3,GSE184119,GSE297560,seen,unseen,10,1,0.1,0.5,0.04131719453571427,-0.3027495893961478
+Radiation,DE,750,3,GSE184119,GSE297560,seen,unseen,25,1,0.1,0.5,0.04131719453571427,-0.3027495893961478
+Radiation,DE,750,3,GSE184119,GSE297560,seen,unseen,50,1,0.1,0.5,0.04131719453571427,-0.3027495893961478
+Radiation,DE,750,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,750,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,750,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,750,5,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,DE,750,5,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,DE,750,5,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,DE,750,5,GSE297090,GSE297560,unseen,unseen,10,1,0.3333333333333333,1.0,0.026999999999999996,-0.8660254037844387
+Radiation,DE,750,5,GSE297090,GSE297560,unseen,unseen,25,1,0.3333333333333333,1.0,0.026999999999999996,-0.8660254037844387
+Radiation,DE,750,5,GSE297090,GSE297560,unseen,unseen,50,1,0.3333333333333333,1.0,0.026999999999999996,-0.8660254037844387
+Radiation,DE,750,5,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.0,-0.7745966692414834
+Radiation,DE,750,5,GSE184119,GSE297560,seen,unseen,25,0,0.0,0.0,0.0,-0.7745966692414834
+Radiation,DE,750,5,GSE184119,GSE297560,seen,unseen,50,0,0.0,0.0,0.0,-0.7745966692414834
+Radiation,DE,750,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,750,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,750,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,1000,2,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,-0.8547476863413764
+Radiation,DE,1000,2,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,-0.8547476863413764
+Radiation,DE,1000,2,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,-0.8547476863413764
+Radiation,DE,1000,2,GSE297090,GSE297560,unseen,unseen,10,1,0.05263157894736842,0.1,0.12913108615951843,-0.4876129915468739
+Radiation,DE,1000,2,GSE297090,GSE297560,unseen,unseen,25,2,0.06060606060606061,0.2,0.12913108615951843,-0.4876129915468739
+Radiation,DE,1000,2,GSE297090,GSE297560,unseen,unseen,50,3,0.08333333333333333,0.3,0.12913108615951843,-0.4876129915468739
+Radiation,DE,1000,2,GSE184119,GSE297560,seen,unseen,10,0,0.0,0.0,0.009637482891581874,-0.7300041824674033
+Radiation,DE,1000,2,GSE184119,GSE297560,seen,unseen,25,2,0.05714285714285714,0.16666666666666666,0.009637482891581874,-0.7300041824674033
+Radiation,DE,1000,2,GSE184119,GSE297560,seen,unseen,50,3,0.07894736842105263,0.25,0.009637482891581874,-0.7300041824674033
+Radiation,DE,1000,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,1000,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,1000,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,1000,3,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,-0.8603090020146066
+Radiation,DE,1000,3,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,-0.8603090020146066
+Radiation,DE,1000,3,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,-0.8603090020146066
+Radiation,DE,1000,3,GSE297090,GSE297560,unseen,unseen,10,0,0.0,0.0,0.005784892301659091,-0.5765566601970552
+Radiation,DE,1000,3,GSE297090,GSE297560,unseen,unseen,25,1,0.07692307692307693,0.5,0.005784892301659091,-0.5765566601970552
+Radiation,DE,1000,3,GSE297090,GSE297560,unseen,unseen,50,1,0.07692307692307693,0.5,0.005784892301659091,-0.5765566601970552
+Radiation,DE,1000,3,GSE184119,GSE297560,seen,unseen,10,1,0.08333333333333333,0.3333333333333333,0.030627880028123375,-0.49416776313452104
+Radiation,DE,1000,3,GSE184119,GSE297560,seen,unseen,25,2,0.15384615384615385,0.6666666666666666,0.030627880028123375,-0.49416776313452104
+Radiation,DE,1000,3,GSE184119,GSE297560,seen,unseen,50,2,0.15384615384615385,0.6666666666666666,0.030627880028123375,-0.49416776313452104
+Radiation,DE,1000,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,1000,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,1000,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Radiation,DE,1000,5,GSE297090,GSE184119,unseen,seen,10,0,0.0,0.0,0.0,
+Radiation,DE,1000,5,GSE297090,GSE184119,unseen,seen,25,0,0.0,0.0,0.0,
+Radiation,DE,1000,5,GSE297090,GSE184119,unseen,seen,50,0,0.0,0.0,0.0,
+Radiation,DE,1000,5,GSE297090,GSE297560,unseen,unseen,10,1,0.25,1.0,0.045224999999999994,-0.2581988897471611
+Radiation,DE,1000,5,GSE297090,GSE297560,unseen,unseen,25,1,0.25,1.0,0.045224999999999994,-0.2581988897471611
+Radiation,DE,1000,5,GSE297090,GSE297560,unseen,unseen,50,1,0.25,1.0,0.045224999999999994,-0.2581988897471611
+Radiation,DE,1000,5,GSE184119,GSE297560,seen,unseen,10,1,0.25,1.0,0.018224999999999998,-0.7745966692414834
+Radiation,DE,1000,5,GSE184119,GSE297560,seen,unseen,25,1,0.25,1.0,0.018224999999999998,-0.7745966692414834
+Radiation,DE,1000,5,GSE184119,GSE297560,seen,unseen,50,1,0.25,1.0,0.018224999999999998,-0.7745966692414834
+Radiation,DE,1000,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Radiation,DE,1000,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Radiation,DE,1000,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,Bridge,100,2,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,-0.8231932086840424
+Bone loss,Bridge,100,2,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,-0.8231932086840424
+Bone loss,Bridge,100,2,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,-0.8231932086840424
+Bone loss,Bridge,100,2,GSE189524,GSE273868,unseen,unseen,10,3,0.75,1.0,0.2986749999999999,0.7999999999999999
+Bone loss,Bridge,100,2,GSE189524,GSE273868,unseen,unseen,25,3,0.75,1.0,0.2986749999999999,0.7999999999999999
+Bone loss,Bridge,100,2,GSE189524,GSE273868,unseen,unseen,50,3,0.75,1.0,0.2986749999999999,0.7999999999999999
+Bone loss,Bridge,100,2,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.8603090020146066
+Bone loss,Bridge,100,2,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.8603090020146066
+Bone loss,Bridge,100,2,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.8603090020146066
+Bone loss,Bridge,100,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,Bridge,100,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,Bridge,100,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,Bridge,100,3,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,-0.8660254037844387
+Bone loss,Bridge,100,3,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,-0.8660254037844387
+Bone loss,Bridge,100,3,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,-0.8660254037844387
+Bone loss,Bridge,100,3,GSE189524,GSE273868,unseen,unseen,10,1,1.0,1.0,0.09999999999999998,
+Bone loss,Bridge,100,3,GSE189524,GSE273868,unseen,unseen,25,1,1.0,1.0,0.09999999999999998,
+Bone loss,Bridge,100,3,GSE189524,GSE273868,unseen,unseen,50,1,1.0,1.0,0.09999999999999998,
+Bone loss,Bridge,100,3,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.8660254037844387
+Bone loss,Bridge,100,3,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.8660254037844387
+Bone loss,Bridge,100,3,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.8660254037844387
+Bone loss,Bridge,100,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,Bridge,100,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,Bridge,100,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,Bridge,100,5,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,100,5,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,100,5,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,100,5,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,100,5,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,100,5,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,100,5,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,100,5,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,100,5,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,100,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,Bridge,100,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,Bridge,100,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,Bridge,250,2,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,-0.6050632173981676
+Bone loss,Bridge,250,2,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,-0.6050632173981676
+Bone loss,Bridge,250,2,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,-0.6050632173981676
+Bone loss,Bridge,250,2,GSE189524,GSE273868,unseen,unseen,10,3,0.6,0.75,0.15367499999999998,-0.09999999999999999
+Bone loss,Bridge,250,2,GSE189524,GSE273868,unseen,unseen,25,3,0.6,0.75,0.15367499999999998,-0.09999999999999999
+Bone loss,Bridge,250,2,GSE189524,GSE273868,unseen,unseen,50,3,0.6,0.75,0.15367499999999998,-0.09999999999999999
+Bone loss,Bridge,250,2,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.6050632173981675
+Bone loss,Bridge,250,2,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.6050632173981675
+Bone loss,Bridge,250,2,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.6050632173981675
+Bone loss,Bridge,250,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,Bridge,250,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,Bridge,250,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,Bridge,250,3,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,-0.5477225575051661
+Bone loss,Bridge,250,3,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,-0.5477225575051661
+Bone loss,Bridge,250,3,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,-0.5477225575051661
+Bone loss,Bridge,250,3,GSE189524,GSE273868,unseen,unseen,10,1,1.0,1.0,0.09999999999999998,
+Bone loss,Bridge,250,3,GSE189524,GSE273868,unseen,unseen,25,1,1.0,1.0,0.09999999999999998,
+Bone loss,Bridge,250,3,GSE189524,GSE273868,unseen,unseen,50,1,1.0,1.0,0.09999999999999998,
+Bone loss,Bridge,250,3,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.5477225575051661
+Bone loss,Bridge,250,3,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.5477225575051661
+Bone loss,Bridge,250,3,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.5477225575051661
+Bone loss,Bridge,250,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,Bridge,250,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,Bridge,250,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,Bridge,250,5,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,250,5,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,250,5,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,250,5,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,250,5,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,250,5,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,250,5,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,250,5,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,250,5,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,250,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,Bridge,250,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,Bridge,250,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,Bridge,500,2,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.002129289103833511,-0.7292518095491244
+Bone loss,Bridge,500,2,GSE189524,GSE276529,unseen,unseen,25,1,0.030303030303030304,0.1111111111111111,0.002129289103833511,-0.7292518095491244
+Bone loss,Bridge,500,2,GSE189524,GSE276529,unseen,unseen,50,1,0.02857142857142857,0.1111111111111111,0.002129289103833511,-0.7292518095491244
+Bone loss,Bridge,500,2,GSE189524,GSE273868,unseen,unseen,10,3,0.3,0.75,0.22884606932142856,0.03413943709994595
+Bone loss,Bridge,500,2,GSE189524,GSE273868,unseen,unseen,25,3,0.3,0.75,0.22884606932142856,0.03413943709994595
+Bone loss,Bridge,500,2,GSE189524,GSE273868,unseen,unseen,50,3,0.3,0.75,0.22884606932142856,0.03413943709994595
+Bone loss,Bridge,500,2,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.002129289103833511,-0.5389125284303659
+Bone loss,Bridge,500,2,GSE276529,GSE273868,unseen,unseen,25,1,0.03571428571428571,0.25,0.002129289103833511,-0.5389125284303659
+Bone loss,Bridge,500,2,GSE276529,GSE273868,unseen,unseen,50,1,0.03333333333333333,0.25,0.002129289103833511,-0.5389125284303659
+Bone loss,Bridge,500,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,Bridge,500,2,three_way,three_way,mixed,mixed,25,1,0.029411764705882353,0.25,,
+Bone loss,Bridge,500,2,three_way,three_way,mixed,mixed,50,1,0.027777777777777776,0.25,,
+Bone loss,Bridge,500,3,GSE189524,GSE276529,unseen,unseen,10,1,0.07692307692307693,0.25,0.045191399425714276,-0.5938359754645384
+Bone loss,Bridge,500,3,GSE189524,GSE276529,unseen,unseen,25,1,0.07692307692307693,0.25,0.045191399425714276,-0.5938359754645384
+Bone loss,Bridge,500,3,GSE189524,GSE276529,unseen,unseen,50,1,0.07692307692307693,0.25,0.045191399425714276,-0.5938359754645384
+Bone loss,Bridge,500,3,GSE189524,GSE273868,unseen,unseen,10,1,0.25,1.0,0.045224999999999994,-0.2581988897471611
+Bone loss,Bridge,500,3,GSE189524,GSE273868,unseen,unseen,25,1,0.25,1.0,0.045224999999999994,-0.2581988897471611
+Bone loss,Bridge,500,3,GSE189524,GSE273868,unseen,unseen,50,1,0.25,1.0,0.045224999999999994,-0.2581988897471611
+Bone loss,Bridge,500,3,GSE276529,GSE273868,unseen,unseen,10,1,0.1,1.0,0.045191399425714276,0.058025885318565944
+Bone loss,Bridge,500,3,GSE276529,GSE273868,unseen,unseen,25,1,0.1,1.0,0.045191399425714276,0.058025885318565944
+Bone loss,Bridge,500,3,GSE276529,GSE273868,unseen,unseen,50,1,0.1,1.0,0.045191399425714276,0.058025885318565944
+Bone loss,Bridge,500,3,three_way,three_way,mixed,mixed,10,1,0.07692307692307693,1.0,,
+Bone loss,Bridge,500,3,three_way,three_way,mixed,mixed,25,1,0.07692307692307693,1.0,,
+Bone loss,Bridge,500,3,three_way,three_way,mixed,mixed,50,1,0.07692307692307693,1.0,,
+Bone loss,Bridge,500,5,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,500,5,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,500,5,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,500,5,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,500,5,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,500,5,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,500,5,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,500,5,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,500,5,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,500,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,Bridge,500,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,Bridge,500,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,Bridge,750,2,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.025888181467735184,-0.4563314376583628
+Bone loss,Bridge,750,2,GSE189524,GSE276529,unseen,unseen,25,3,0.09090909090909091,0.2727272727272727,0.025888181467735184,-0.4563314376583628
+Bone loss,Bridge,750,2,GSE189524,GSE276529,unseen,unseen,50,6,0.13953488372093023,0.5454545454545454,0.025888181467735184,-0.4563314376583628
+Bone loss,Bridge,750,2,GSE189524,GSE273868,unseen,unseen,10,3,0.2727272727272727,0.75,0.23921641574415575,0.029123216499055325
+Bone loss,Bridge,750,2,GSE189524,GSE273868,unseen,unseen,25,3,0.25,0.75,0.23921641574415575,0.029123216499055325
+Bone loss,Bridge,750,2,GSE189524,GSE273868,unseen,unseen,50,3,0.25,0.75,0.23921641574415575,0.029123216499055325
+Bone loss,Bridge,750,2,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0014986010658252398,-0.4436240614225625
+Bone loss,Bridge,750,2,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0014986010658252398,-0.4436240614225625
+Bone loss,Bridge,750,2,GSE276529,GSE273868,unseen,unseen,50,1,0.024390243902439025,0.25,0.0014986010658252398,-0.4436240614225625
+Bone loss,Bridge,750,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,Bridge,750,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,Bridge,750,2,three_way,three_way,mixed,mixed,50,1,0.022727272727272728,0.25,,
+Bone loss,Bridge,750,3,GSE189524,GSE276529,unseen,unseen,10,4,0.4,1.0,0.190755610174276,0.34998828305491964
+Bone loss,Bridge,750,3,GSE189524,GSE276529,unseen,unseen,25,4,0.2222222222222222,1.0,0.190755610174276,0.34998828305491964
+Bone loss,Bridge,750,3,GSE189524,GSE276529,unseen,unseen,50,4,0.2222222222222222,1.0,0.190755610174276,0.34998828305491964
+Bone loss,Bridge,750,3,GSE189524,GSE273868,unseen,unseen,10,1,0.25,1.0,0.045224999999999994,-0.2581988897471611
+Bone loss,Bridge,750,3,GSE189524,GSE273868,unseen,unseen,25,1,0.25,1.0,0.045224999999999994,-0.2581988897471611
+Bone loss,Bridge,750,3,GSE189524,GSE273868,unseen,unseen,50,1,0.25,1.0,0.045224999999999994,-0.2581988897471611
+Bone loss,Bridge,750,3,GSE276529,GSE273868,unseen,unseen,10,1,0.1,1.0,0.036829406114997576,0.11687050209397447
+Bone loss,Bridge,750,3,GSE276529,GSE273868,unseen,unseen,25,1,0.05555555555555555,1.0,0.036829406114997576,0.11687050209397447
+Bone loss,Bridge,750,3,GSE276529,GSE273868,unseen,unseen,50,1,0.05555555555555555,1.0,0.036829406114997576,0.11687050209397447
+Bone loss,Bridge,750,3,three_way,three_way,mixed,mixed,10,1,0.1,1.0,,
+Bone loss,Bridge,750,3,three_way,three_way,mixed,mixed,25,1,0.05555555555555555,1.0,,
+Bone loss,Bridge,750,3,three_way,three_way,mixed,mixed,50,1,0.05555555555555555,1.0,,
+Bone loss,Bridge,750,5,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,750,5,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,750,5,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,750,5,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,750,5,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,750,5,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,750,5,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,750,5,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,750,5,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,750,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,Bridge,750,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,Bridge,750,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,Bridge,1000,2,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.03176426881487331,-0.44230861808635447
+Bone loss,Bridge,1000,2,GSE189524,GSE276529,unseen,unseen,25,3,0.08823529411764706,0.25,0.03176426881487331,-0.44230861808635447
+Bone loss,Bridge,1000,2,GSE189524,GSE276529,unseen,unseen,50,6,0.125,0.5,0.03176426881487331,-0.44230861808635447
+Bone loss,Bridge,1000,2,GSE189524,GSE273868,unseen,unseen,10,5,0.3333333333333333,0.5,0.5556990460288578,0.21289239165896556
+Bone loss,Bridge,1000,2,GSE189524,GSE273868,unseen,unseen,25,6,0.3157894736842105,0.5,0.5556990460288578,0.21289239165896556
+Bone loss,Bridge,1000,2,GSE189524,GSE273868,unseen,unseen,50,6,0.3157894736842105,0.5,0.5556990460288578,0.21289239165896556
+Bone loss,Bridge,1000,2,GSE276529,GSE273868,unseen,unseen,10,1,0.05263157894736842,0.1,0.04241790304507851,-0.6223151675789279
+Bone loss,Bridge,1000,2,GSE276529,GSE273868,unseen,unseen,25,1,0.02702702702702703,0.07692307692307693,0.04241790304507851,-0.6223151675789279
+Bone loss,Bridge,1000,2,GSE276529,GSE273868,unseen,unseen,50,1,0.018518518518518517,0.07692307692307693,0.04241790304507851,-0.6223151675789279
+Bone loss,Bridge,1000,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,Bridge,1000,2,three_way,three_way,mixed,mixed,25,1,0.024390243902439025,0.08333333333333333,,
+Bone loss,Bridge,1000,2,three_way,three_way,mixed,mixed,50,1,0.01818181818181818,0.08333333333333333,,
+Bone loss,Bridge,1000,3,GSE189524,GSE276529,unseen,unseen,10,4,0.4,1.0,0.20734477169744597,0.3763180104766107
+Bone loss,Bridge,1000,3,GSE189524,GSE276529,unseen,unseen,25,4,0.21052631578947367,1.0,0.20734477169744597,0.3763180104766107
+Bone loss,Bridge,1000,3,GSE189524,GSE276529,unseen,unseen,50,4,0.21052631578947367,1.0,0.20734477169744597,0.3763180104766107
+Bone loss,Bridge,1000,3,GSE189524,GSE273868,unseen,unseen,10,1,0.1,0.25,0.07578051428571428,-0.4700286152861002
+Bone loss,Bridge,1000,3,GSE189524,GSE273868,unseen,unseen,25,1,0.1,0.25,0.07578051428571428,-0.4700286152861002
+Bone loss,Bridge,1000,3,GSE189524,GSE273868,unseen,unseen,50,1,0.1,0.25,0.07578051428571428,-0.4700286152861002
+Bone loss,Bridge,1000,3,GSE276529,GSE273868,unseen,unseen,10,1,0.0625,0.14285714285714285,0.25080787787971853,-0.4869548247471865
+Bone loss,Bridge,1000,3,GSE276529,GSE273868,unseen,unseen,25,1,0.04,0.14285714285714285,0.25080787787971853,-0.4869548247471865
+Bone loss,Bridge,1000,3,GSE276529,GSE273868,unseen,unseen,50,1,0.04,0.14285714285714285,0.25080787787971853,-0.4869548247471865
+Bone loss,Bridge,1000,3,three_way,three_way,mixed,mixed,10,1,0.0625,0.25,,
+Bone loss,Bridge,1000,3,three_way,three_way,mixed,mixed,25,1,0.04,0.25,,
+Bone loss,Bridge,1000,3,three_way,three_way,mixed,mixed,50,1,0.04,0.25,,
+Bone loss,Bridge,1000,5,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,1000,5,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,1000,5,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,1000,5,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,Bridge,1000,5,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,Bridge,1000,5,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,Bridge,1000,5,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.8581163303210332
+Bone loss,Bridge,1000,5,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.8581163303210332
+Bone loss,Bridge,1000,5,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.8581163303210332
+Bone loss,Bridge,1000,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,Bridge,1000,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,Bridge,1000,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,100,2,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,DE,100,2,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,DE,100,2,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,DE,100,2,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,DE,100,2,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,DE,100,2,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,DE,100,2,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.5445100347104965
+Bone loss,DE,100,2,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.5445100347104965
+Bone loss,DE,100,2,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.5445100347104965
+Bone loss,DE,100,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,100,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,100,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,100,3,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,DE,100,3,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,DE,100,3,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,DE,100,3,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,DE,100,3,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,DE,100,3,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,DE,100,3,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.8660254037844387
+Bone loss,DE,100,3,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.8660254037844387
+Bone loss,DE,100,3,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.8660254037844387
+Bone loss,DE,100,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,100,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,100,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,100,5,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,DE,100,5,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,DE,100,5,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,DE,100,5,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,DE,100,5,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,DE,100,5,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,DE,100,5,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,DE,100,5,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,DE,100,5,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,DE,100,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,100,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,100,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,250,2,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,-0.4459072845666654
+Bone loss,DE,250,2,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,-0.4459072845666654
+Bone loss,DE,250,2,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,-0.4459072845666654
+Bone loss,DE,250,2,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.8603090020146066
+Bone loss,DE,250,2,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.8603090020146066
+Bone loss,DE,250,2,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.8603090020146066
+Bone loss,DE,250,2,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.37310961806078885
+Bone loss,DE,250,2,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.37310961806078885
+Bone loss,DE,250,2,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.37310961806078885
+Bone loss,DE,250,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,250,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,250,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,250,3,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,-0.6123724356957946
+Bone loss,DE,250,3,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,-0.6123724356957946
+Bone loss,DE,250,3,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,-0.6123724356957946
+Bone loss,DE,250,3,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.8660254037844387
+Bone loss,DE,250,3,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.8660254037844387
+Bone loss,DE,250,3,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.8660254037844387
+Bone loss,DE,250,3,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.7526692113578767
+Bone loss,DE,250,3,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.7526692113578767
+Bone loss,DE,250,3,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.7526692113578767
+Bone loss,DE,250,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,250,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,250,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,250,5,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,DE,250,5,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,DE,250,5,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,DE,250,5,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,DE,250,5,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,DE,250,5,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,DE,250,5,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,DE,250,5,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,DE,250,5,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,DE,250,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,250,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,250,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,500,2,GSE189524,GSE276529,unseen,unseen,10,8,0.6666666666666666,0.8,0.5870851766134547,0.26993318074666306
+Bone loss,DE,500,2,GSE189524,GSE276529,unseen,unseen,25,14,0.3888888888888889,0.56,0.5870851766134547,0.26993318074666306
+Bone loss,DE,500,2,GSE189524,GSE276529,unseen,unseen,50,19,0.3958333333333333,0.7037037037037037,0.5870851766134547,0.26993318074666306
+Bone loss,DE,500,2,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0002392993292306176,-0.6380287096623174
+Bone loss,DE,500,2,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0002392993292306176,-0.6380287096623174
+Bone loss,DE,500,2,GSE189524,GSE273868,unseen,unseen,50,1,0.03225806451612903,0.2,0.0002392993292306176,-0.6380287096623174
+Bone loss,DE,500,2,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.5436178338799691
+Bone loss,DE,500,2,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.5436178338799691
+Bone loss,DE,500,2,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.5436178338799691
+Bone loss,DE,500,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,500,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,500,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,500,3,GSE189524,GSE276529,unseen,unseen,10,3,0.375,0.75,0.2721165428571428,0.48197897496024894
+Bone loss,DE,500,3,GSE189524,GSE276529,unseen,unseen,25,3,0.375,0.75,0.2721165428571428,0.48197897496024894
+Bone loss,DE,500,3,GSE189524,GSE276529,unseen,unseen,50,3,0.375,0.75,0.2721165428571428,0.48197897496024894
+Bone loss,DE,500,3,GSE189524,GSE273868,unseen,unseen,10,1,0.16666666666666666,0.3333333333333333,0.018224999999999998,-0.9240616554505461
+Bone loss,DE,500,3,GSE189524,GSE273868,unseen,unseen,25,1,0.16666666666666666,0.3333333333333333,0.018224999999999998,-0.9240616554505461
+Bone loss,DE,500,3,GSE189524,GSE273868,unseen,unseen,50,1,0.16666666666666666,0.3333333333333333,0.018224999999999998,-0.9240616554505461
+Bone loss,DE,500,3,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.7926165058897369
+Bone loss,DE,500,3,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.7926165058897369
+Bone loss,DE,500,3,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.7926165058897369
+Bone loss,DE,500,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,500,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,500,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,500,5,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,DE,500,5,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,DE,500,5,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,DE,500,5,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,DE,500,5,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,DE,500,5,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,DE,500,5,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,
+Bone loss,DE,500,5,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,
+Bone loss,DE,500,5,GSE276529,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,
+Bone loss,DE,500,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,500,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,500,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,750,2,GSE189524,GSE276529,unseen,unseen,10,5,0.3333333333333333,0.5,0.29673846705831886,-0.20663688402217095
+Bone loss,DE,750,2,GSE189524,GSE276529,unseen,unseen,25,12,0.3157894736842105,0.48,0.29673846705831886,-0.20663688402217095
+Bone loss,DE,750,2,GSE189524,GSE276529,unseen,unseen,50,18,0.21951219512195122,0.36,0.29673846705831886,-0.20663688402217095
+Bone loss,DE,750,2,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.007856741416502458,-0.5942073599534363
+Bone loss,DE,750,2,GSE189524,GSE273868,unseen,unseen,25,1,0.02564102564102564,0.06666666666666667,0.007856741416502458,-0.5942073599534363
+Bone loss,DE,750,2,GSE189524,GSE273868,unseen,unseen,50,1,0.015625,0.06666666666666667,0.007856741416502458,-0.5942073599534363
+Bone loss,DE,750,2,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.013385111165504828,-0.5382394874306361
+Bone loss,DE,750,2,GSE276529,GSE273868,unseen,unseen,25,1,0.02564102564102564,0.06666666666666667,0.013385111165504828,-0.5382394874306361
+Bone loss,DE,750,2,GSE276529,GSE273868,unseen,unseen,50,4,0.06557377049180328,0.26666666666666666,0.013385111165504828,-0.5382394874306361
+Bone loss,DE,750,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,750,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,750,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,750,3,GSE189524,GSE276529,unseen,unseen,10,3,0.17647058823529413,0.3,0.12272310315576551,-0.5042683815718189
+Bone loss,DE,750,3,GSE189524,GSE276529,unseen,unseen,25,3,0.08823529411764706,0.2,0.12272310315576551,-0.5042683815718189
+Bone loss,DE,750,3,GSE189524,GSE276529,unseen,unseen,50,3,0.08823529411764706,0.2,0.12272310315576551,-0.5042683815718189
+Bone loss,DE,750,3,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.009185772607112208,-0.7127366931117545
+Bone loss,DE,750,3,GSE189524,GSE273868,unseen,unseen,25,1,0.034482758620689655,0.125,0.009185772607112208,-0.7127366931117545
+Bone loss,DE,750,3,GSE189524,GSE273868,unseen,unseen,50,1,0.034482758620689655,0.125,0.009185772607112208,-0.7127366931117545
+Bone loss,DE,750,3,GSE276529,GSE273868,unseen,unseen,10,2,0.125,0.25,0.1006486148526555,-0.47881475112142574
+Bone loss,DE,750,3,GSE276529,GSE273868,unseen,unseen,25,2,0.09523809523809523,0.25,0.1006486148526555,-0.47881475112142574
+Bone loss,DE,750,3,GSE276529,GSE273868,unseen,unseen,50,2,0.09523809523809523,0.25,0.1006486148526555,-0.47881475112142574
+Bone loss,DE,750,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,750,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,750,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,750,5,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,-0.8453639444116163
+Bone loss,DE,750,5,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,-0.8453639444116163
+Bone loss,DE,750,5,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,-0.8453639444116163
+Bone loss,DE,750,5,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.7526692113578767
+Bone loss,DE,750,5,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.7526692113578767
+Bone loss,DE,750,5,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.7526692113578767
+Bone loss,DE,750,5,GSE276529,GSE273868,unseen,unseen,10,2,0.5,1.0,0.18044999999999997,0.7378647873726218
+Bone loss,DE,750,5,GSE276529,GSE273868,unseen,unseen,25,2,0.5,1.0,0.18044999999999997,0.7378647873726218
+Bone loss,DE,750,5,GSE276529,GSE273868,unseen,unseen,50,2,0.5,1.0,0.18044999999999997,0.7378647873726218
+Bone loss,DE,750,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,750,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,750,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,1000,2,GSE189524,GSE276529,unseen,unseen,10,4,0.25,0.4,0.2446300377237564,-0.2480251859452309
+Bone loss,DE,1000,2,GSE189524,GSE276529,unseen,unseen,25,12,0.3157894736842105,0.48,0.2446300377237564,-0.2480251859452309
+Bone loss,DE,1000,2,GSE189524,GSE276529,unseen,unseen,50,18,0.21951219512195122,0.36,0.2446300377237564,-0.2480251859452309
+Bone loss,DE,1000,2,GSE189524,GSE273868,unseen,unseen,10,1,0.05263157894736842,0.1,0.12086222369995409,-0.6293754102954127
+Bone loss,DE,1000,2,GSE189524,GSE273868,unseen,unseen,25,3,0.06382978723404255,0.12,0.12086222369995409,-0.6293754102954127
+Bone loss,DE,1000,2,GSE189524,GSE273868,unseen,unseen,50,3,0.039473684210526314,0.10344827586206896,0.12086222369995409,-0.6293754102954127
+Bone loss,DE,1000,2,GSE276529,GSE273868,unseen,unseen,10,0,0.0,0.0,0.003088920081432454,-0.737880852668136
+Bone loss,DE,1000,2,GSE276529,GSE273868,unseen,unseen,25,0,0.0,0.0,0.003088920081432454,-0.737880852668136
+Bone loss,DE,1000,2,GSE276529,GSE273868,unseen,unseen,50,4,0.05333333333333334,0.13793103448275862,0.003088920081432454,-0.737880852668136
+Bone loss,DE,1000,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,1000,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,1000,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,1000,3,GSE189524,GSE276529,unseen,unseen,10,3,0.17647058823529413,0.3,0.1275060721557655,-0.5090801830966549
+Bone loss,DE,1000,3,GSE189524,GSE276529,unseen,unseen,25,3,0.08571428571428572,0.1875,0.1275060721557655,-0.5090801830966549
+Bone loss,DE,1000,3,GSE189524,GSE276529,unseen,unseen,50,3,0.08571428571428572,0.1875,0.1275060721557655,-0.5090801830966549
+Bone loss,DE,1000,3,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.009185772607112208,-0.8068181818181819
+Bone loss,DE,1000,3,GSE189524,GSE273868,unseen,unseen,25,1,0.02857142857142857,0.07142857142857142,0.009185772607112208,-0.8068181818181819
+Bone loss,DE,1000,3,GSE189524,GSE273868,unseen,unseen,50,1,0.02857142857142857,0.07142857142857142,0.009185772607112208,-0.8068181818181819
+Bone loss,DE,1000,3,GSE276529,GSE273868,unseen,unseen,10,1,0.05263157894736842,0.1,0.06596568503341452,-0.6717471545390694
+Bone loss,DE,1000,3,GSE276529,GSE273868,unseen,unseen,25,5,0.2,0.35714285714285715,0.06596568503341452,-0.6717471545390694
+Bone loss,DE,1000,3,GSE276529,GSE273868,unseen,unseen,50,5,0.2,0.35714285714285715,0.06596568503341452,-0.6717471545390694
+Bone loss,DE,1000,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,1000,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,1000,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Bone loss,DE,1000,5,GSE189524,GSE276529,unseen,unseen,10,0,0.0,0.0,0.0,-0.8453639444116163
+Bone loss,DE,1000,5,GSE189524,GSE276529,unseen,unseen,25,0,0.0,0.0,0.0,-0.8453639444116163
+Bone loss,DE,1000,5,GSE189524,GSE276529,unseen,unseen,50,0,0.0,0.0,0.0,-0.8453639444116163
+Bone loss,DE,1000,5,GSE189524,GSE273868,unseen,unseen,10,0,0.0,0.0,0.0,-0.8453639444116163
+Bone loss,DE,1000,5,GSE189524,GSE273868,unseen,unseen,25,0,0.0,0.0,0.0,-0.8453639444116163
+Bone loss,DE,1000,5,GSE189524,GSE273868,unseen,unseen,50,0,0.0,0.0,0.0,-0.8453639444116163
+Bone loss,DE,1000,5,GSE276529,GSE273868,unseen,unseen,10,4,1.0,1.0,0.17189999999999997,-0.39999999999999997
+Bone loss,DE,1000,5,GSE276529,GSE273868,unseen,unseen,25,4,1.0,1.0,0.17189999999999997,-0.39999999999999997
+Bone loss,DE,1000,5,GSE276529,GSE273868,unseen,unseen,50,4,1.0,1.0,0.17189999999999997,-0.39999999999999997
+Bone loss,DE,1000,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Bone loss,DE,1000,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Bone loss,DE,1000,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,Bridge,100,2,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,2,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,2,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,2,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,2,GSE211204,GSE234465,partial,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,2,GSE211204,GSE234465,partial,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,2,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,-0.6123724356957946
+Muscle atrophy,Bridge,100,2,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,-0.6123724356957946
+Muscle atrophy,Bridge,100,2,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,-0.6123724356957946
+Muscle atrophy,Bridge,100,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,Bridge,100,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,Bridge,100,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,Bridge,100,3,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,3,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,3,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,3,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,3,GSE211204,GSE234465,partial,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,3,GSE211204,GSE234465,partial,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,3,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,-0.7745966692414834
+Muscle atrophy,Bridge,100,3,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,-0.7745966692414834
+Muscle atrophy,Bridge,100,3,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,-0.7745966692414834
+Muscle atrophy,Bridge,100,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,Bridge,100,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,Bridge,100,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,Bridge,100,5,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,5,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,5,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,5,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,5,GSE211204,GSE234465,partial,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,5,GSE211204,GSE234465,partial,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,5,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,5,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,5,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,100,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,Bridge,100,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,Bridge,100,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,Bridge,250,2,GSE211204,GSE113165,partial,seen,10,6,1.0,1.0,0.46855899999999995,1.0
+Muscle atrophy,Bridge,250,2,GSE211204,GSE113165,partial,seen,25,6,1.0,1.0,0.46855899999999995,1.0
+Muscle atrophy,Bridge,250,2,GSE211204,GSE113165,partial,seen,50,6,1.0,1.0,0.46855899999999995,1.0
+Muscle atrophy,Bridge,250,2,GSE211204,GSE234465,partial,unused-held-out,10,5,0.45454545454545453,0.8333333333333334,0.09731358277597402,-0.447879689796793
+Muscle atrophy,Bridge,250,2,GSE211204,GSE234465,partial,unused-held-out,25,5,0.4166666666666667,0.8333333333333334,0.09731358277597402,-0.447879689796793
+Muscle atrophy,Bridge,250,2,GSE211204,GSE234465,partial,unused-held-out,50,5,0.4166666666666667,0.8333333333333334,0.09731358277597402,-0.447879689796793
+Muscle atrophy,Bridge,250,2,GSE113165,GSE234465,seen,unused-held-out,10,5,0.45454545454545453,0.8333333333333334,0.09731358277597402,-0.447879689796793
+Muscle atrophy,Bridge,250,2,GSE113165,GSE234465,seen,unused-held-out,25,5,0.4166666666666667,0.8333333333333334,0.09731358277597402,-0.447879689796793
+Muscle atrophy,Bridge,250,2,GSE113165,GSE234465,seen,unused-held-out,50,5,0.4166666666666667,0.8333333333333334,0.09731358277597402,-0.447879689796793
+Muscle atrophy,Bridge,250,2,three_way,three_way,mixed,mixed,10,5,0.45454545454545453,0.8333333333333334,,
+Muscle atrophy,Bridge,250,2,three_way,three_way,mixed,mixed,25,5,0.4166666666666667,0.8333333333333334,,
+Muscle atrophy,Bridge,250,2,three_way,three_way,mixed,mixed,50,5,0.4166666666666667,0.8333333333333334,,
+Muscle atrophy,Bridge,250,3,GSE211204,GSE113165,partial,seen,10,4,1.0,1.0,0.34389999999999993,1.0
+Muscle atrophy,Bridge,250,3,GSE211204,GSE113165,partial,seen,25,4,1.0,1.0,0.34389999999999993,1.0
+Muscle atrophy,Bridge,250,3,GSE211204,GSE113165,partial,seen,50,4,1.0,1.0,0.34389999999999993,1.0
+Muscle atrophy,Bridge,250,3,GSE211204,GSE234465,partial,unused-held-out,10,3,0.6,0.75,0.2986749999999999,0.7
+Muscle atrophy,Bridge,250,3,GSE211204,GSE234465,partial,unused-held-out,25,3,0.6,0.75,0.2986749999999999,0.7
+Muscle atrophy,Bridge,250,3,GSE211204,GSE234465,partial,unused-held-out,50,3,0.6,0.75,0.2986749999999999,0.7
+Muscle atrophy,Bridge,250,3,GSE113165,GSE234465,seen,unused-held-out,10,3,0.6,0.75,0.2986749999999999,0.7
+Muscle atrophy,Bridge,250,3,GSE113165,GSE234465,seen,unused-held-out,25,3,0.6,0.75,0.2986749999999999,0.7
+Muscle atrophy,Bridge,250,3,GSE113165,GSE234465,seen,unused-held-out,50,3,0.6,0.75,0.2986749999999999,0.7
+Muscle atrophy,Bridge,250,3,three_way,three_way,mixed,mixed,10,3,0.6,0.75,,
+Muscle atrophy,Bridge,250,3,three_way,three_way,mixed,mixed,25,3,0.6,0.75,,
+Muscle atrophy,Bridge,250,3,three_way,three_way,mixed,mixed,50,3,0.6,0.75,,
+Muscle atrophy,Bridge,250,5,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,250,5,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,250,5,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,250,5,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,250,5,GSE211204,GSE234465,partial,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,250,5,GSE211204,GSE234465,partial,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,250,5,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,250,5,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,250,5,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,250,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,Bridge,250,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,Bridge,250,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,Bridge,500,2,GSE211204,GSE113165,partial,seen,10,7,0.7,0.875,0.24949512192857137,-0.3161108827136336
+Muscle atrophy,Bridge,500,2,GSE211204,GSE113165,partial,seen,25,7,0.7,0.875,0.24949512192857137,-0.3161108827136336
+Muscle atrophy,Bridge,500,2,GSE211204,GSE113165,partial,seen,50,7,0.7,0.875,0.24949512192857137,-0.3161108827136336
+Muscle atrophy,Bridge,500,2,GSE211204,GSE234465,partial,unused-held-out,10,1,0.058823529411764705,0.125,0.06884561162086014,-0.38470246955927073
+Muscle atrophy,Bridge,500,2,GSE211204,GSE234465,partial,unused-held-out,25,5,0.17857142857142858,0.625,0.06884561162086014,-0.38470246955927073
+Muscle atrophy,Bridge,500,2,GSE211204,GSE234465,partial,unused-held-out,50,6,0.2,0.75,0.06884561162086014,-0.38470246955927073
+Muscle atrophy,Bridge,500,2,GSE113165,GSE234465,seen,unused-held-out,10,3,0.1875,0.3333333333333333,0.16904329993509307,-0.06998606579483209
+Muscle atrophy,Bridge,500,2,GSE113165,GSE234465,seen,unused-held-out,25,7,0.25925925925925924,0.7777777777777778,0.16904329993509307,-0.06998606579483209
+Muscle atrophy,Bridge,500,2,GSE113165,GSE234465,seen,unused-held-out,50,8,0.27586206896551724,0.8888888888888888,0.16904329993509307,-0.06998606579483209
+Muscle atrophy,Bridge,500,2,three_way,three_way,mixed,mixed,10,1,0.058823529411764705,0.125,,
+Muscle atrophy,Bridge,500,2,three_way,three_way,mixed,mixed,25,5,0.17857142857142858,0.625,,
+Muscle atrophy,Bridge,500,2,three_way,three_way,mixed,mixed,50,6,0.2,0.75,,
+Muscle atrophy,Bridge,500,3,GSE211204,GSE113165,partial,seen,10,5,1.0,1.0,0.40950999999999993,0.9999999999999999
+Muscle atrophy,Bridge,500,3,GSE211204,GSE113165,partial,seen,25,5,1.0,1.0,0.40950999999999993,0.9999999999999999
+Muscle atrophy,Bridge,500,3,GSE211204,GSE113165,partial,seen,50,5,1.0,1.0,0.40950999999999993,0.9999999999999999
+Muscle atrophy,Bridge,500,3,GSE211204,GSE234465,partial,unused-held-out,10,4,0.5714285714285714,0.8,0.29075399999999996,0.7748062179181807
+Muscle atrophy,Bridge,500,3,GSE211204,GSE234465,partial,unused-held-out,25,4,0.5714285714285714,0.8,0.29075399999999996,0.7748062179181807
+Muscle atrophy,Bridge,500,3,GSE211204,GSE234465,partial,unused-held-out,50,4,0.5714285714285714,0.8,0.29075399999999996,0.7748062179181807
+Muscle atrophy,Bridge,500,3,GSE113165,GSE234465,seen,unused-held-out,10,4,0.5714285714285714,0.8,0.29075399999999996,0.7748062179181807
+Muscle atrophy,Bridge,500,3,GSE113165,GSE234465,seen,unused-held-out,25,4,0.5714285714285714,0.8,0.29075399999999996,0.7748062179181807
+Muscle atrophy,Bridge,500,3,GSE113165,GSE234465,seen,unused-held-out,50,4,0.5714285714285714,0.8,0.29075399999999996,0.7748062179181807
+Muscle atrophy,Bridge,500,3,three_way,three_way,mixed,mixed,10,4,0.5714285714285714,0.8,,
+Muscle atrophy,Bridge,500,3,three_way,three_way,mixed,mixed,25,4,0.5714285714285714,0.8,,
+Muscle atrophy,Bridge,500,3,three_way,three_way,mixed,mixed,50,4,0.5714285714285714,0.8,,
+Muscle atrophy,Bridge,500,5,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,500,5,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,500,5,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,500,5,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,500,5,GSE211204,GSE234465,partial,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,500,5,GSE211204,GSE234465,partial,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,500,5,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,500,5,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,500,5,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,500,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,Bridge,500,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,Bridge,500,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,Bridge,750,2,GSE211204,GSE113165,partial,seen,10,5,0.35714285714285715,0.5555555555555556,0.4026903535134336,0.06504834897573253
+Muscle atrophy,Bridge,750,2,GSE211204,GSE113165,partial,seen,25,8,0.4444444444444444,0.8888888888888888,0.4026903535134336,0.06504834897573253
+Muscle atrophy,Bridge,750,2,GSE211204,GSE113165,partial,seen,50,8,0.4444444444444444,0.8888888888888888,0.4026903535134336,0.06504834897573253
+Muscle atrophy,Bridge,750,2,GSE211204,GSE234465,partial,unused-held-out,10,2,0.11764705882352941,0.2222222222222222,0.14376560148249865,-0.17726555179952444
+Muscle atrophy,Bridge,750,2,GSE211204,GSE234465,partial,unused-held-out,25,6,0.21428571428571427,0.6666666666666666,0.14376560148249865,-0.17726555179952444
+Muscle atrophy,Bridge,750,2,GSE211204,GSE234465,partial,unused-held-out,50,7,0.21875,0.7777777777777778,0.14376560148249865,-0.17726555179952444
+Muscle atrophy,Bridge,750,2,GSE113165,GSE234465,seen,unused-held-out,10,3,0.17647058823529413,0.3,0.1727096338172073,-0.23845357485176902
+Muscle atrophy,Bridge,750,2,GSE113165,GSE234465,seen,unused-held-out,25,8,0.23529411764705882,0.47058823529411764,0.1727096338172073,-0.23845357485176902
+Muscle atrophy,Bridge,750,2,GSE113165,GSE234465,seen,unused-held-out,50,9,0.23684210526315788,0.5294117647058824,0.1727096338172073,-0.23845357485176902
+Muscle atrophy,Bridge,750,2,three_way,three_way,mixed,mixed,10,1,0.05,0.1111111111111111,,
+Muscle atrophy,Bridge,750,2,three_way,three_way,mixed,mixed,25,6,0.17142857142857143,0.6666666666666666,,
+Muscle atrophy,Bridge,750,2,three_way,three_way,mixed,mixed,50,7,0.1794871794871795,0.7777777777777778,,
+Muscle atrophy,Bridge,750,3,GSE211204,GSE113165,partial,seen,10,5,0.5,1.0,0.3665099971285714,0.6141827746434741
+Muscle atrophy,Bridge,750,3,GSE211204,GSE113165,partial,seen,25,5,0.5,1.0,0.3665099971285714,0.6141827746434741
+Muscle atrophy,Bridge,750,3,GSE211204,GSE113165,partial,seen,50,5,0.5,1.0,0.3665099971285714,0.6141827746434741
+Muscle atrophy,Bridge,750,3,GSE211204,GSE234465,partial,unused-held-out,10,4,0.4444444444444444,0.8,0.34503690214285715,0.731126155013931
+Muscle atrophy,Bridge,750,3,GSE211204,GSE234465,partial,unused-held-out,25,4,0.4444444444444444,0.8,0.34503690214285715,0.731126155013931
+Muscle atrophy,Bridge,750,3,GSE211204,GSE234465,partial,unused-held-out,50,4,0.4444444444444444,0.8,0.34503690214285715,0.731126155013931
+Muscle atrophy,Bridge,750,3,GSE113165,GSE234465,seen,unused-held-out,10,4,0.2857142857142857,0.5,0.3344405977028571,0.21280566094724349
+Muscle atrophy,Bridge,750,3,GSE113165,GSE234465,seen,unused-held-out,25,4,0.2857142857142857,0.5,0.3344405977028571,0.21280566094724349
+Muscle atrophy,Bridge,750,3,GSE113165,GSE234465,seen,unused-held-out,50,4,0.2857142857142857,0.5,0.3344405977028571,0.21280566094724349
+Muscle atrophy,Bridge,750,3,three_way,three_way,mixed,mixed,10,4,0.2857142857142857,0.8,,
+Muscle atrophy,Bridge,750,3,three_way,three_way,mixed,mixed,25,4,0.2857142857142857,0.8,,
+Muscle atrophy,Bridge,750,3,three_way,three_way,mixed,mixed,50,4,0.2857142857142857,0.8,,
+Muscle atrophy,Bridge,750,5,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,750,5,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,750,5,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,750,5,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,750,5,GSE211204,GSE234465,partial,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,750,5,GSE211204,GSE234465,partial,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,750,5,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,750,5,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,750,5,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,750,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,Bridge,750,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,Bridge,750,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,Bridge,1000,2,GSE211204,GSE113165,partial,seen,10,3,0.17647058823529413,0.3,0.2673717380382575,-0.2210174949167133
+Muscle atrophy,Bridge,1000,2,GSE211204,GSE113165,partial,seen,25,9,0.3,0.6428571428571429,0.2673717380382575,-0.2210174949167133
+Muscle atrophy,Bridge,1000,2,GSE211204,GSE113165,partial,seen,50,9,0.2903225806451613,0.6428571428571429,0.2673717380382575,-0.2210174949167133
+Muscle atrophy,Bridge,1000,2,GSE211204,GSE234465,partial,unused-held-out,10,1,0.05263157894736842,0.1,0.1174325370824888,-0.41936283721954903
+Muscle atrophy,Bridge,1000,2,GSE211204,GSE234465,partial,unused-held-out,25,5,0.14705882352941177,0.35714285714285715,0.1174325370824888,-0.41936283721954903
+Muscle atrophy,Bridge,1000,2,GSE211204,GSE234465,partial,unused-held-out,50,7,0.175,0.5,0.1174325370824888,-0.41936283721954903
+Muscle atrophy,Bridge,1000,2,GSE113165,GSE234465,seen,unused-held-out,10,2,0.1111111111111111,0.2,0.15884706596607148,-0.3922045880934001
+Muscle atrophy,Bridge,1000,2,GSE113165,GSE234465,seen,unused-held-out,25,7,0.16279069767441862,0.28,0.15884706596607148,-0.3922045880934001
+Muscle atrophy,Bridge,1000,2,GSE113165,GSE234465,seen,unused-held-out,50,9,0.18,0.34615384615384615,0.15884706596607148,-0.3922045880934001
+Muscle atrophy,Bridge,1000,2,three_way,three_way,mixed,mixed,10,1,0.04,0.1,,
+Muscle atrophy,Bridge,1000,2,three_way,three_way,mixed,mixed,25,5,0.10416666666666667,0.35714285714285715,,
+Muscle atrophy,Bridge,1000,2,three_way,three_way,mixed,mixed,50,7,0.12727272727272726,0.5,,
+Muscle atrophy,Bridge,1000,3,GSE211204,GSE113165,partial,seen,10,5,0.5,1.0,0.42300082284592444,0.6803892089000996
+Muscle atrophy,Bridge,1000,3,GSE211204,GSE113165,partial,seen,25,5,0.3333333333333333,1.0,0.42300082284592444,0.6803892089000996
+Muscle atrophy,Bridge,1000,3,GSE211204,GSE113165,partial,seen,50,5,0.3333333333333333,1.0,0.42300082284592444,0.6803892089000996
+Muscle atrophy,Bridge,1000,3,GSE211204,GSE234465,partial,unused-held-out,10,4,0.36363636363636365,0.8,0.3796655977028571,0.6790837880223554
+Muscle atrophy,Bridge,1000,3,GSE211204,GSE234465,partial,unused-held-out,25,4,0.36363636363636365,0.8,0.3796655977028571,0.6790837880223554
+Muscle atrophy,Bridge,1000,3,GSE211204,GSE234465,partial,unused-held-out,50,4,0.36363636363636365,0.8,0.3796655977028571,0.6790837880223554
+Muscle atrophy,Bridge,1000,3,GSE113165,GSE234465,seen,unused-held-out,10,4,0.25,0.4,0.37963325827673955,0.034764890391693185
+Muscle atrophy,Bridge,1000,3,GSE113165,GSE234465,seen,unused-held-out,25,4,0.19047619047619047,0.4,0.37963325827673955,0.034764890391693185
+Muscle atrophy,Bridge,1000,3,GSE113165,GSE234465,seen,unused-held-out,50,4,0.19047619047619047,0.4,0.37963325827673955,0.034764890391693185
+Muscle atrophy,Bridge,1000,3,three_way,three_way,mixed,mixed,10,4,0.25,0.8,,
+Muscle atrophy,Bridge,1000,3,three_way,three_way,mixed,mixed,25,4,0.19047619047619047,0.8,,
+Muscle atrophy,Bridge,1000,3,three_way,three_way,mixed,mixed,50,4,0.19047619047619047,0.8,,
+Muscle atrophy,Bridge,1000,5,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,1000,5,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,1000,5,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,1000,5,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,1000,5,GSE211204,GSE234465,partial,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,1000,5,GSE211204,GSE234465,partial,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,1000,5,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,1000,5,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,1000,5,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,Bridge,1000,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,Bridge,1000,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,Bridge,1000,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,DE,100,2,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,2,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,2,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,2,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,2,GSE211204,GSE234465,partial,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,2,GSE211204,GSE234465,partial,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,2,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,-0.6446584988256864
+Muscle atrophy,DE,100,2,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,-0.6446584988256864
+Muscle atrophy,DE,100,2,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,-0.6446584988256864
+Muscle atrophy,DE,100,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,DE,100,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,DE,100,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,DE,100,3,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,3,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,3,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,3,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,3,GSE211204,GSE234465,partial,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,3,GSE211204,GSE234465,partial,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,3,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,-0.7745966692414834
+Muscle atrophy,DE,100,3,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,-0.7745966692414834
+Muscle atrophy,DE,100,3,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,-0.7745966692414834
+Muscle atrophy,DE,100,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,DE,100,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,DE,100,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,DE,100,5,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,5,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,5,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,5,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,5,GSE211204,GSE234465,partial,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,5,GSE211204,GSE234465,partial,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,5,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,5,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,5,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,100,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,DE,100,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,DE,100,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,DE,250,2,GSE211204,GSE113165,partial,seen,10,3,0.2727272727272727,0.6,0.2594015836071428,0.11426676029776686
+Muscle atrophy,DE,250,2,GSE211204,GSE113165,partial,seen,25,3,0.2727272727272727,0.6,0.2594015836071428,0.11426676029776686
+Muscle atrophy,DE,250,2,GSE211204,GSE113165,partial,seen,50,3,0.2727272727272727,0.6,0.2594015836071428,0.11426676029776686
+Muscle atrophy,DE,250,2,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.0,-0.8317870289320011
+Muscle atrophy,DE,250,2,GSE211204,GSE234465,partial,unused-held-out,25,0,0.0,0.0,0.0,-0.8317870289320011
+Muscle atrophy,DE,250,2,GSE211204,GSE234465,partial,unused-held-out,50,0,0.0,0.0,0.0,-0.8317870289320011
+Muscle atrophy,DE,250,2,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,-0.7467586346416205
+Muscle atrophy,DE,250,2,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,-0.7467586346416205
+Muscle atrophy,DE,250,2,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,-0.7467586346416205
+Muscle atrophy,DE,250,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,DE,250,2,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,DE,250,2,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,DE,250,3,GSE211204,GSE113165,partial,seen,10,2,0.2222222222222222,0.5,0.2695610285714285,0.02750095491084634
+Muscle atrophy,DE,250,3,GSE211204,GSE113165,partial,seen,25,2,0.2222222222222222,0.5,0.2695610285714285,0.02750095491084634
+Muscle atrophy,DE,250,3,GSE211204,GSE113165,partial,seen,50,2,0.2222222222222222,0.5,0.2695610285714285,0.02750095491084634
+Muscle atrophy,DE,250,3,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.0,-0.5773502691896257
+Muscle atrophy,DE,250,3,GSE211204,GSE234465,partial,unused-held-out,25,0,0.0,0.0,0.0,-0.5773502691896257
+Muscle atrophy,DE,250,3,GSE211204,GSE234465,partial,unused-held-out,50,0,0.0,0.0,0.0,-0.5773502691896257
+Muscle atrophy,DE,250,3,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,-0.7071067811865475
+Muscle atrophy,DE,250,3,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,-0.7071067811865475
+Muscle atrophy,DE,250,3,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,-0.7071067811865475
+Muscle atrophy,DE,250,3,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,DE,250,3,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,DE,250,3,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,DE,250,5,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,250,5,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,250,5,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,250,5,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,250,5,GSE211204,GSE234465,partial,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,250,5,GSE211204,GSE234465,partial,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,250,5,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,250,5,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,250,5,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,250,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,DE,250,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,DE,250,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,DE,500,2,GSE211204,GSE113165,partial,seen,10,3,0.2727272727272727,0.6,0.2594015836071428,0.11426676029776686
+Muscle atrophy,DE,500,2,GSE211204,GSE113165,partial,seen,25,3,0.2727272727272727,0.6,0.2594015836071428,0.11426676029776686
+Muscle atrophy,DE,500,2,GSE211204,GSE113165,partial,seen,50,3,0.2727272727272727,0.6,0.2594015836071428,0.11426676029776686
+Muscle atrophy,DE,500,2,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.001664098479963545,-0.7732768180067631
+Muscle atrophy,DE,500,2,GSE211204,GSE234465,partial,unused-held-out,25,2,0.06451612903225806,0.2222222222222222,0.001664098479963545,-0.7732768180067631
+Muscle atrophy,DE,500,2,GSE211204,GSE234465,partial,unused-held-out,50,2,0.06451612903225806,0.2222222222222222,0.001664098479963545,-0.7732768180067631
+Muscle atrophy,DE,500,2,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.007937294403090886,-0.5668990688445315
+Muscle atrophy,DE,500,2,GSE113165,GSE234465,seen,unused-held-out,25,2,0.07407407407407407,0.4,0.007937294403090886,-0.5668990688445315
+Muscle atrophy,DE,500,2,GSE113165,GSE234465,seen,unused-held-out,50,2,0.07407407407407407,0.4,0.007937294403090886,-0.5668990688445315
+Muscle atrophy,DE,500,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,DE,500,2,three_way,three_way,mixed,mixed,25,1,0.03125,0.2,,
+Muscle atrophy,DE,500,2,three_way,three_way,mixed,mixed,50,1,0.03125,0.2,,
+Muscle atrophy,DE,500,3,GSE211204,GSE113165,partial,seen,10,2,0.2222222222222222,0.5,0.2695610285714285,0.02750095491084634
+Muscle atrophy,DE,500,3,GSE211204,GSE113165,partial,seen,25,2,0.2222222222222222,0.5,0.2695610285714285,0.02750095491084634
+Muscle atrophy,DE,500,3,GSE211204,GSE113165,partial,seen,50,2,0.2222222222222222,0.5,0.2695610285714285,0.02750095491084634
+Muscle atrophy,DE,500,3,GSE211204,GSE234465,partial,unused-held-out,10,2,0.14285714285714285,0.2857142857142857,0.023136663535714284,-0.7849042422055071
+Muscle atrophy,DE,500,3,GSE211204,GSE234465,partial,unused-held-out,25,2,0.14285714285714285,0.2857142857142857,0.023136663535714284,-0.7849042422055071
+Muscle atrophy,DE,500,3,GSE211204,GSE234465,partial,unused-held-out,50,2,0.14285714285714285,0.2857142857142857,0.023136663535714284,-0.7849042422055071
+Muscle atrophy,DE,500,3,GSE113165,GSE234465,seen,unused-held-out,10,2,0.18181818181818182,0.5,0.14989588907142853,-0.2954908556134982
+Muscle atrophy,DE,500,3,GSE113165,GSE234465,seen,unused-held-out,25,2,0.18181818181818182,0.5,0.14989588907142853,-0.2954908556134982
+Muscle atrophy,DE,500,3,GSE113165,GSE234465,seen,unused-held-out,50,2,0.18181818181818182,0.5,0.14989588907142853,-0.2954908556134982
+Muscle atrophy,DE,500,3,three_way,three_way,mixed,mixed,10,1,0.06666666666666667,0.25,,
+Muscle atrophy,DE,500,3,three_way,three_way,mixed,mixed,25,1,0.06666666666666667,0.25,,
+Muscle atrophy,DE,500,3,three_way,three_way,mixed,mixed,50,1,0.06666666666666667,0.25,,
+Muscle atrophy,DE,500,5,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,500,5,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,500,5,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,500,5,GSE211204,GSE234465,partial,unused-held-out,10,1,0.3333333333333333,1.0,0.026999999999999996,-0.8660254037844387
+Muscle atrophy,DE,500,5,GSE211204,GSE234465,partial,unused-held-out,25,1,0.3333333333333333,1.0,0.026999999999999996,-0.8660254037844387
+Muscle atrophy,DE,500,5,GSE211204,GSE234465,partial,unused-held-out,50,1,0.3333333333333333,1.0,0.026999999999999996,-0.8660254037844387
+Muscle atrophy,DE,500,5,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,500,5,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,500,5,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,500,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,DE,500,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,DE,500,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,DE,750,2,GSE211204,GSE113165,partial,seen,10,2,0.1111111111111111,0.2,0.10805401491836931,-0.555376067715931
+Muscle atrophy,DE,750,2,GSE211204,GSE113165,partial,seen,25,3,0.1111111111111111,0.25,0.10805401491836931,-0.555376067715931
+Muscle atrophy,DE,750,2,GSE211204,GSE113165,partial,seen,50,3,0.1111111111111111,0.25,0.10805401491836931,-0.555376067715931
+Muscle atrophy,DE,750,2,GSE211204,GSE234465,partial,unused-held-out,10,0,0.0,0.0,0.009262406502233384,-0.8446401410686302
+Muscle atrophy,DE,750,2,GSE211204,GSE234465,partial,unused-held-out,25,5,0.13157894736842105,0.2777777777777778,0.009262406502233384,-0.8446401410686302
+Muscle atrophy,DE,750,2,GSE211204,GSE234465,partial,unused-held-out,50,7,0.18421052631578946,0.3888888888888889,0.009262406502233384,-0.8446401410686302
+Muscle atrophy,DE,750,2,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.005008102890011159,-0.7703346848971697
+Muscle atrophy,DE,750,2,GSE113165,GSE234465,seen,unused-held-out,25,2,0.05714285714285714,0.16666666666666666,0.005008102890011159,-0.7703346848971697
+Muscle atrophy,DE,750,2,GSE113165,GSE234465,seen,unused-held-out,50,2,0.05405405405405406,0.16666666666666666,0.005008102890011159,-0.7703346848971697
+Muscle atrophy,DE,750,2,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,DE,750,2,three_way,three_way,mixed,mixed,25,1,0.021739130434782608,0.08333333333333333,,
+Muscle atrophy,DE,750,2,three_way,three_way,mixed,mixed,50,1,0.021739130434782608,0.08333333333333333,,
+Muscle atrophy,DE,750,3,GSE211204,GSE113165,partial,seen,10,2,0.125,0.25,0.2692140834547467,-0.4362046966475179
+Muscle atrophy,DE,750,3,GSE211204,GSE113165,partial,seen,25,2,0.1111111111111111,0.25,0.2692140834547467,-0.4362046966475179
+Muscle atrophy,DE,750,3,GSE211204,GSE113165,partial,seen,50,2,0.1111111111111111,0.25,0.2692140834547467,-0.4362046966475179
+Muscle atrophy,DE,750,3,GSE211204,GSE234465,partial,unused-held-out,10,6,0.46153846153846156,0.6666666666666666,0.299303113129276,-0.05850605203277691
+Muscle atrophy,DE,750,3,GSE211204,GSE234465,partial,unused-held-out,25,7,0.5,0.7777777777777778,0.299303113129276,-0.05850605203277691
+Muscle atrophy,DE,750,3,GSE211204,GSE234465,partial,unused-held-out,50,7,0.5,0.7777777777777778,0.299303113129276,-0.05850605203277691
+Muscle atrophy,DE,750,3,GSE113165,GSE234465,seen,unused-held-out,10,2,0.13333333333333333,0.25,0.059670889071428555,-0.6298687910013886
+Muscle atrophy,DE,750,3,GSE113165,GSE234465,seen,unused-held-out,25,2,0.13333333333333333,0.25,0.059670889071428555,-0.6298687910013886
+Muscle atrophy,DE,750,3,GSE113165,GSE234465,seen,unused-held-out,50,2,0.13333333333333333,0.25,0.059670889071428555,-0.6298687910013886
+Muscle atrophy,DE,750,3,three_way,three_way,mixed,mixed,10,1,0.05555555555555555,0.125,,
+Muscle atrophy,DE,750,3,three_way,three_way,mixed,mixed,25,1,0.05263157894736842,0.125,,
+Muscle atrophy,DE,750,3,three_way,three_way,mixed,mixed,50,1,0.05263157894736842,0.125,,
+Muscle atrophy,DE,750,5,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,750,5,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,750,5,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,750,5,GSE211204,GSE234465,partial,unused-held-out,10,1,0.3333333333333333,1.0,0.026999999999999996,-0.8660254037844387
+Muscle atrophy,DE,750,5,GSE211204,GSE234465,partial,unused-held-out,25,1,0.3333333333333333,1.0,0.026999999999999996,-0.8660254037844387
+Muscle atrophy,DE,750,5,GSE211204,GSE234465,partial,unused-held-out,50,1,0.3333333333333333,1.0,0.026999999999999996,-0.8660254037844387
+Muscle atrophy,DE,750,5,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,750,5,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,750,5,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,750,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,DE,750,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,DE,750,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,
+Muscle atrophy,DE,1000,2,GSE211204,GSE113165,partial,seen,10,2,0.1111111111111111,0.2,0.07388970467681821,-0.558513931888545
+Muscle atrophy,DE,1000,2,GSE211204,GSE113165,partial,seen,25,3,0.08571428571428572,0.15789473684210525,0.07388970467681821,-0.558513931888545
+Muscle atrophy,DE,1000,2,GSE211204,GSE113165,partial,seen,50,3,0.08571428571428572,0.15789473684210525,0.07388970467681821,-0.558513931888545
+Muscle atrophy,DE,1000,2,GSE211204,GSE234465,partial,unused-held-out,10,1,0.05263157894736842,0.1,0.06113130475786895,-0.65854380287687
+Muscle atrophy,DE,1000,2,GSE211204,GSE234465,partial,unused-held-out,25,2,0.047619047619047616,0.10526315789473684,0.06113130475786895,-0.65854380287687
+Muscle atrophy,DE,1000,2,GSE211204,GSE234465,partial,unused-held-out,50,9,0.1875,0.47368421052631576,0.06113130475786895,-0.65854380287687
+Muscle atrophy,DE,1000,2,GSE113165,GSE234465,seen,unused-held-out,10,4,0.25,0.4,0.343963700768991,-0.09413646947187483
+Muscle atrophy,DE,1000,2,GSE113165,GSE234465,seen,unused-held-out,25,7,0.1891891891891892,0.3684210526315789,0.343963700768991,-0.09413646947187483
+Muscle atrophy,DE,1000,2,GSE113165,GSE234465,seen,unused-held-out,50,11,0.2391304347826087,0.5789473684210527,0.343963700768991,-0.09413646947187483
+Muscle atrophy,DE,1000,2,three_way,three_way,mixed,mixed,10,1,0.041666666666666664,0.1,,
+Muscle atrophy,DE,1000,2,three_way,three_way,mixed,mixed,25,2,0.03773584905660377,0.10526315789473684,,
+Muscle atrophy,DE,1000,2,three_way,three_way,mixed,mixed,50,2,0.03636363636363636,0.10526315789473684,,
+Muscle atrophy,DE,1000,3,GSE211204,GSE113165,partial,seen,10,2,0.1111111111111111,0.2,0.283400653246762,-0.4180677645618535
+Muscle atrophy,DE,1000,3,GSE211204,GSE113165,partial,seen,25,2,0.09090909090909091,0.18181818181818182,0.283400653246762,-0.4180677645618535
+Muscle atrophy,DE,1000,3,GSE211204,GSE113165,partial,seen,50,2,0.09090909090909091,0.18181818181818182,0.283400653246762,-0.4180677645618535
+Muscle atrophy,DE,1000,3,GSE211204,GSE234465,partial,unused-held-out,10,2,0.1111111111111111,0.2,0.3346560434508798,-0.28678447981445715
+Muscle atrophy,DE,1000,3,GSE211204,GSE234465,partial,unused-held-out,25,9,0.4090909090909091,0.6923076923076923,0.3346560434508798,-0.28678447981445715
+Muscle atrophy,DE,1000,3,GSE211204,GSE234465,partial,unused-held-out,50,9,0.4090909090909091,0.6923076923076923,0.3346560434508798,-0.28678447981445715
+Muscle atrophy,DE,1000,3,GSE113165,GSE234465,seen,unused-held-out,10,9,0.8181818181818182,0.9,0.5620039808564068,0.6482113660784831
+Muscle atrophy,DE,1000,3,GSE113165,GSE234465,seen,unused-held-out,25,9,0.45,0.8181818181818182,0.5620039808564068,0.6482113660784831
+Muscle atrophy,DE,1000,3,GSE113165,GSE234465,seen,unused-held-out,50,9,0.45,0.8181818181818182,0.5620039808564068,0.6482113660784831
+Muscle atrophy,DE,1000,3,three_way,three_way,mixed,mixed,10,2,0.10526315789473684,0.2,,
+Muscle atrophy,DE,1000,3,three_way,three_way,mixed,mixed,25,2,0.08333333333333333,0.18181818181818182,,
+Muscle atrophy,DE,1000,3,three_way,three_way,mixed,mixed,50,2,0.08333333333333333,0.18181818181818182,,
+Muscle atrophy,DE,1000,5,GSE211204,GSE113165,partial,seen,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,1000,5,GSE211204,GSE113165,partial,seen,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,1000,5,GSE211204,GSE113165,partial,seen,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,1000,5,GSE211204,GSE234465,partial,unused-held-out,10,1,0.3333333333333333,1.0,0.026999999999999996,-0.8660254037844387
+Muscle atrophy,DE,1000,5,GSE211204,GSE234465,partial,unused-held-out,25,1,0.3333333333333333,1.0,0.026999999999999996,-0.8660254037844387
+Muscle atrophy,DE,1000,5,GSE211204,GSE234465,partial,unused-held-out,50,1,0.3333333333333333,1.0,0.026999999999999996,-0.8660254037844387
+Muscle atrophy,DE,1000,5,GSE113165,GSE234465,seen,unused-held-out,10,0,0.0,0.0,0.0,
+Muscle atrophy,DE,1000,5,GSE113165,GSE234465,seen,unused-held-out,25,0,0.0,0.0,0.0,
+Muscle atrophy,DE,1000,5,GSE113165,GSE234465,seen,unused-held-out,50,0,0.0,0.0,0.0,
+Muscle atrophy,DE,1000,5,three_way,three_way,mixed,mixed,10,0,0.0,0.0,,
+Muscle atrophy,DE,1000,5,three_way,three_way,mixed,mixed,25,0,0.0,0.0,,
+Muscle atrophy,DE,1000,5,three_way,three_way,mixed,mixed,50,0,0.0,0.0,,

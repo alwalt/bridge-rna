@@ -1,0 +1,38 @@
+{
+  "resource": "ChEMBL",
+  "release": "chembl_37",
+  "release_date": "2026-05-01",
+  "selected_on": "2026-09-20",
+  "distribution": "https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_37/chembl_37_sqlite.tar.gz",
+  "distribution_sha256": "33c203740555f96067710cdfc1c3c55d890660e5908ec5cbf5817492c290d281",
+  "checksum_source": "https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_37/checksums.txt",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_37/LICENSE",
+  "attribution": "ChEMBL data is from https://www.ebi.ac.uk/chembl; version chembl_37.",
+  "scope": "approved small-molecule drug to direct human protein mechanism-of-action targets",
+  "drug_rules": [
+    "molecule_dictionary.max_phase = 4",
+    "normalize salts and prodrugs through molecule_hierarchy to the parent molecule",
+    "exclude records without a stable ChEMBL molecule identifier or preferred name"
+  ],
+  "target_rules": [
+    "drug_mechanism.direct_interaction = 1",
+    "target_dictionary.organism = Homo sapiens",
+    "map target components through target_components and component_sequences",
+    "retain only reviewed UniProt accessions that map unambiguously to an approved HGNC symbol",
+    "expand protein complexes only to the annotated binding-site component when available; otherwise exclude the complex from the primary analysis"
+  ],
+  "edge_rules": [
+    "deduplicate at parent ChEMBL molecule and HGNC symbol",
+    "require at least 3 targets inside the dataset-specific eligible Bridge universe (revised from 10 after Phase 2 QC showed that only one ChEMBL direct-mechanism drug had 10 targets; use thresholds 2 and 5 as sensitivity analyses)",
+    "record action_type and mechanism_of_action but do not infer therapeutic reversal from them"
+  ],
+  "drugbank_decision": "not selected: no authorized export exists in the workspace and DrugBank 5.1.22 academic downloads were temporarily paused at freeze time; do not scrape or substitute DrugBank identifiers",
+  "comparability_note": "This is a ChEMBL mechanism-target enrichment benchmark, not an exact DrugBank replication. The target-count threshold differs from the DrugBank study because the direct ChEMBL mechanism graph is intentionally narrower.",
+  "phase2_qc_amendment": {
+    "date": "2026-09-21",
+    "critical_validity_error": "The frozen >=10-target rule retained only one drug (regorafenib), making comparative enrichment and convergence undefined.",
+    "resolution": "Primary threshold lowered to >=3 eligible direct mechanism targets (63 drugs); >=2 (223 drugs) and >=5 (10 drugs) are prespecified sensitivity analyses. Resource, edge definition, and all dataset choices/contrasts remain unchanged.",
+    "checksum_correction": "The Phase 1 manifest accidentally recorded the SHA-256 for chembl_37.fps.gz. Phase 2 acquired the 5,764,252,857-byte SQLite archive and corrected its filename-specific official SHA-256 to 33c203740555f96067710cdfc1c3c55d890660e5908ec5cbf5817492c290d281."
+  }
+}

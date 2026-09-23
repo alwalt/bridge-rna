@@ -1,0 +1,5 @@
+gene_set,gene_count,chembl_targetable_gene_count,eligible_connected_gene_count,eligible_drugs_with_overlap,multi_gene_drugs,fdr_lt_0_05,minimum_pvalue,minimum_fdr
+strict_radiation_core,15,2,1,1,0,0,0.03503855008042416,1.0
+cross_study_radiation_core,237,47,23,58,8,0,0.00022685667276874997,0.0830295422333625
+all_three_study_bridge_only,84,15,10,22,1,0,0.03676532889152255,1.0
+matched_fibroblast_program,258,43,22,116,18,0,0.0031427695462605478,0.9773767347247133

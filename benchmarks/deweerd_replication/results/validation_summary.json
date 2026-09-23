@@ -1,0 +1,29 @@
+{
+  "valid": true,
+  "cohort_checks": [
+    {
+      "accession": "GSE138614",
+      "samples": 41,
+      "ig_median_absolute_delta": 0.002887487411499,
+      "ig_max_absolute_delta": 0.0074625015258789,
+      "ig_median_relative_delta": 0.0008170905796981643
+    },
+    {
+      "accession": "GSE101794",
+      "samples": 74,
+      "ig_median_absolute_delta": 0.0011816024780273,
+      "ig_max_absolute_delta": 0.0021514892578125,
+      "ig_median_relative_delta": 0.00010675162173898635
+    },
+    {
+      "accession": "GSE72509",
+      "samples": 117,
+      "ig_median_absolute_delta": 0.0034313201904296,
+      "ig_max_absolute_delta": 0.0046520233154296,
+      "ig_median_relative_delta": 0.0002506432129627892
+    }
+  ],
+  "disease_gene_rows": 120,
+  "published_drug_audit_rows": 30,
+  "phase2_rerun": false
+}
