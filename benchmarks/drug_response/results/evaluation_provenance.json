@@ -1,0 +1,53 @@
+{
+  "cell_lines": 700,
+  "config": {
+    "benchmark_name": "drug_response",
+    "bridge": {
+      "checkpoint": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+      "pooling": "model.encode standard sample representation",
+      "vocabulary": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv"
+    },
+    "bulkformer": {
+      "checkpoint_147m": "/home/walt/bridge-rna/model/BulkFormer/model/BulkFormer_147M.pt",
+      "checkpoint_50m": "/home/walt/bridge-rna/model/BulkFormer/BulkFormer_50M.pt",
+      "pooling": "mean over final contextual gene tokens",
+      "vocabulary": "/home/walt/bridge-rna/model/BulkFormer/data/bulkformer_gene_info.csv"
+    },
+    "readout": {
+      "alpha_per_128_standardized_features": 1000.0,
+      "minimum_oof_observations": 50,
+      "minimum_test_observations_per_fold": 3,
+      "minimum_train_observations": 50,
+      "missing_target_em_iterations": 1,
+      "type": "independent_ridge_per_screen"
+    },
+    "representations": [
+      "raw_expression",
+      "pca_128",
+      "pca_512",
+      "bulkformer_50m",
+      "bulkformer_147m",
+      "bridge_45.6m",
+      "pca128_bridge"
+    ],
+    "source": {
+      "expression": "/home/walt/bridge-rna/data/bulkformer_drug_response/drug_response_expr_data.csv",
+      "response": "/home/walt/bridge-rna/data/bulkformer_drug_response/drug_response_ic50.csv",
+      "zenodo_record": "10.5281/zenodo.15744294"
+    },
+    "split": {
+      "design": "held_out_cell_lines",
+      "folds": 5,
+      "seed": 20260922,
+      "stratify_column": "lineage_1"
+    },
+    "target": "IC50",
+    "target_key": [
+      "Dataset Version",
+      "Drug ID"
+    ]
+  },
+  "metric_definition": "PCC/SCC/RMSE per dataset-version-specific drug screen over pooled held-out-cell-line OOF predictions; unweighted mean across screens",
+  "observations": 212299,
+  "screens": 355
+}

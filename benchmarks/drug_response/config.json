@@ -1,0 +1,44 @@
+{
+  "benchmark_name": "drug_response",
+  "source": {
+    "zenodo_record": "10.5281/zenodo.15744294",
+    "expression": "/home/walt/bridge-rna/data/bulkformer_drug_response/drug_response_expr_data.csv",
+    "response": "/home/walt/bridge-rna/data/bulkformer_drug_response/drug_response_ic50.csv"
+  },
+  "target": "IC50",
+  "target_key": ["Dataset Version", "Drug ID"],
+  "split": {
+    "design": "held_out_cell_lines",
+    "folds": 5,
+    "seed": 20260922,
+    "stratify_column": "lineage_1"
+  },
+  "representations": [
+    "raw_expression",
+    "pca_128",
+    "pca_512",
+    "bulkformer_50m",
+    "bulkformer_147m",
+    "bridge_45.6m",
+    "pca128_bridge"
+  ],
+  "readout": {
+    "type": "independent_ridge_per_screen",
+    "alpha_per_128_standardized_features": 1000.0,
+    "minimum_train_observations": 50,
+    "minimum_test_observations_per_fold": 3,
+    "minimum_oof_observations": 50,
+    "missing_target_em_iterations": 1
+  },
+  "bridge": {
+    "checkpoint": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+    "vocabulary": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv",
+    "pooling": "model.encode standard sample representation"
+  },
+  "bulkformer": {
+    "checkpoint_50m": "/home/walt/bridge-rna/model/BulkFormer/BulkFormer_50M.pt",
+    "checkpoint_147m": "/home/walt/bridge-rna/model/BulkFormer/model/BulkFormer_147M.pt",
+    "vocabulary": "/home/walt/bridge-rna/model/BulkFormer/data/bulkformer_gene_info.csv",
+    "pooling": "mean over final contextual gene tokens"
+  }
+}
