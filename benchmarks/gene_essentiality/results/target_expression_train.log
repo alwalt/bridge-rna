@@ -1,0 +1,84 @@
+[startup] target_expression/matched fold=0 train=897 validation=100 test=111 genes=14415 device=cuda:1
+[heartbeat] fold=0 epoch=1 train_mse=0.1665622 validation_mse=0.1472101 best=0.1472101 elapsed=0.1m
+[heartbeat] fold=0 epoch=2 train_mse=0.1530269 validation_mse=0.1472576 best=0.1472101 elapsed=0.2m
+[heartbeat] fold=0 epoch=3 train_mse=0.1503409 validation_mse=0.1472863 best=0.1472101 elapsed=0.2m
+[heartbeat] fold=0 epoch=4 train_mse=0.1500120 validation_mse=0.1478941 best=0.1472101 elapsed=0.3m
+[complete] fold=0 best_validation_mse=0.1472101
+[startup] target_expression/matched fold=1 train=897 validation=100 test=111 genes=14415 device=cuda:1
+[heartbeat] fold=1 epoch=1 train_mse=0.1680222 validation_mse=0.1496125 best=0.1496125 elapsed=0.0m
+[heartbeat] fold=1 epoch=2 train_mse=0.1530340 validation_mse=0.1492906 best=0.1492906 elapsed=0.1m
+[heartbeat] fold=1 epoch=3 train_mse=0.1499327 validation_mse=0.1493487 best=0.1492906 elapsed=0.1m
+[heartbeat] fold=1 epoch=4 train_mse=0.1493496 validation_mse=0.1492509 best=0.1492509 elapsed=0.2m
+[heartbeat] fold=1 epoch=5 train_mse=0.1493179 validation_mse=0.1492243 best=0.1492243 elapsed=0.2m
+[heartbeat] fold=1 epoch=6 train_mse=0.1499493 validation_mse=0.1489535 best=0.1489535 elapsed=0.2m
+[heartbeat] fold=1 epoch=7 train_mse=0.1496637 validation_mse=0.1503055 best=0.1489535 elapsed=0.3m
+[heartbeat] fold=1 epoch=8 train_mse=0.1496131 validation_mse=0.1488536 best=0.1488536 elapsed=0.4m
+[heartbeat] fold=1 epoch=9 train_mse=0.1492018 validation_mse=0.1484443 best=0.1484443 elapsed=0.4m
+[heartbeat] fold=1 epoch=10 train_mse=0.1493593 validation_mse=0.1491942 best=0.1484443 elapsed=0.5m
+[heartbeat] fold=1 epoch=11 train_mse=0.1491419 validation_mse=0.1502815 best=0.1484443 elapsed=0.5m
+[heartbeat] fold=1 epoch=12 train_mse=0.1493257 validation_mse=0.1487830 best=0.1484443 elapsed=0.6m
+[complete] fold=1 best_validation_mse=0.1484443
+[startup] target_expression/matched fold=2 train=897 validation=100 test=111 genes=14415 device=cuda:1
+[heartbeat] fold=2 epoch=1 train_mse=0.1655181 validation_mse=0.1481220 best=0.1481220 elapsed=0.0m
+[heartbeat] fold=2 epoch=2 train_mse=0.1515093 validation_mse=0.1489006 best=0.1481220 elapsed=0.1m
+[heartbeat] fold=2 epoch=3 train_mse=0.1498498 validation_mse=0.1484364 best=0.1481220 elapsed=0.2m
+[heartbeat] fold=2 epoch=4 train_mse=0.1497644 validation_mse=0.1489016 best=0.1481220 elapsed=0.2m
+[complete] fold=2 best_validation_mse=0.1481220
+[startup] target_expression/matched fold=3 train=897 validation=100 test=111 genes=14415 device=cuda:1
+[heartbeat] fold=3 epoch=1 train_mse=0.1578043 validation_mse=0.1467708 best=0.1467708 elapsed=0.1m
+[heartbeat] fold=3 epoch=2 train_mse=0.1507846 validation_mse=0.1471509 best=0.1467708 elapsed=0.1m
+[heartbeat] fold=3 epoch=3 train_mse=0.1501113 validation_mse=0.1466247 best=0.1466247 elapsed=0.1m
+[heartbeat] fold=3 epoch=4 train_mse=0.1495889 validation_mse=0.1470575 best=0.1466247 elapsed=0.2m
+[heartbeat] fold=3 epoch=5 train_mse=0.1493161 validation_mse=0.1468129 best=0.1466247 elapsed=0.3m
+[heartbeat] fold=3 epoch=6 train_mse=0.1486220 validation_mse=0.1468502 best=0.1466247 elapsed=0.3m
+[complete] fold=3 best_validation_mse=0.1466247
+[startup] target_expression/matched fold=4 train=897 validation=100 test=111 genes=14415 device=cuda:1
+[heartbeat] fold=4 epoch=1 train_mse=0.1665072 validation_mse=0.1469637 best=0.1469637 elapsed=0.1m
+[heartbeat] fold=4 epoch=2 train_mse=0.1531000 validation_mse=0.1469784 best=0.1469637 elapsed=0.1m
+[heartbeat] fold=4 epoch=3 train_mse=0.1516324 validation_mse=0.1466577 best=0.1466577 elapsed=0.2m
+[heartbeat] fold=4 epoch=4 train_mse=0.1510735 validation_mse=0.1467705 best=0.1466577 elapsed=0.2m
+[heartbeat] fold=4 epoch=5 train_mse=0.1502167 validation_mse=0.1467977 best=0.1466577 elapsed=0.3m
+[heartbeat] fold=4 epoch=6 train_mse=0.1504796 validation_mse=0.1474120 best=0.1466577 elapsed=0.4m
+[complete] fold=4 best_validation_mse=0.1466577
+[startup] target_expression/matched fold=5 train=897 validation=100 test=111 genes=14415 device=cuda:1
+[heartbeat] fold=5 epoch=1 train_mse=0.1610548 validation_mse=0.1478686 best=0.1478686 elapsed=0.0m
+[heartbeat] fold=5 epoch=2 train_mse=0.1507621 validation_mse=0.1475946 best=0.1475946 elapsed=0.1m
+[heartbeat] fold=5 epoch=3 train_mse=0.1496364 validation_mse=0.1481938 best=0.1475946 elapsed=0.1m
+[heartbeat] fold=5 epoch=4 train_mse=0.1499299 validation_mse=0.1479605 best=0.1475946 elapsed=0.2m
+[heartbeat] fold=5 epoch=5 train_mse=0.1491329 validation_mse=0.1474644 best=0.1474644 elapsed=0.2m
+[heartbeat] fold=5 epoch=6 train_mse=0.1492405 validation_mse=0.1476520 best=0.1474644 elapsed=0.3m
+[heartbeat] fold=5 epoch=7 train_mse=0.1492751 validation_mse=0.1482407 best=0.1474644 elapsed=0.4m
+[heartbeat] fold=5 epoch=8 train_mse=0.1492225 validation_mse=0.1473980 best=0.1473980 elapsed=0.4m
+[heartbeat] fold=5 epoch=9 train_mse=0.1490856 validation_mse=0.1475259 best=0.1473980 elapsed=0.5m
+[heartbeat] fold=5 epoch=10 train_mse=0.1492143 validation_mse=0.1485243 best=0.1473980 elapsed=0.5m
+[heartbeat] fold=5 epoch=11 train_mse=0.1482821 validation_mse=0.1487759 best=0.1473980 elapsed=0.6m
+[complete] fold=5 best_validation_mse=0.1473980
+[startup] target_expression/matched fold=6 train=897 validation=100 test=111 genes=14415 device=cuda:1
+[heartbeat] fold=6 epoch=1 train_mse=0.1633644 validation_mse=0.1488616 best=0.1488616 elapsed=0.0m
+[heartbeat] fold=6 epoch=2 train_mse=0.1522415 validation_mse=0.1487438 best=0.1487438 elapsed=0.1m
+[heartbeat] fold=6 epoch=3 train_mse=0.1501006 validation_mse=0.1493506 best=0.1487438 elapsed=0.1m
+[heartbeat] fold=6 epoch=4 train_mse=0.1494811 validation_mse=0.1492609 best=0.1487438 elapsed=0.2m
+[heartbeat] fold=6 epoch=5 train_mse=0.1502494 validation_mse=0.1495249 best=0.1487438 elapsed=0.2m
+[complete] fold=6 best_validation_mse=0.1487438
+[startup] target_expression/matched fold=7 train=897 validation=100 test=111 genes=14415 device=cuda:1
+[heartbeat] fold=7 epoch=1 train_mse=0.1808386 validation_mse=0.1486208 best=0.1486208 elapsed=0.0m
+[heartbeat] fold=7 epoch=2 train_mse=0.1579620 validation_mse=0.1482434 best=0.1482434 elapsed=0.1m
+[heartbeat] fold=7 epoch=3 train_mse=0.1517868 validation_mse=0.1482304 best=0.1482304 elapsed=0.1m
+[heartbeat] fold=7 epoch=4 train_mse=0.1507983 validation_mse=0.1487148 best=0.1482304 elapsed=0.2m
+[heartbeat] fold=7 epoch=5 train_mse=0.1502487 validation_mse=0.1485597 best=0.1482304 elapsed=0.3m
+[heartbeat] fold=7 epoch=6 train_mse=0.1497567 validation_mse=0.1488215 best=0.1482304 elapsed=0.3m
+[complete] fold=7 best_validation_mse=0.1482304
+[startup] target_expression/matched fold=8 train=898 validation=100 test=110 genes=14415 device=cuda:1
+[heartbeat] fold=8 epoch=1 train_mse=0.1662887 validation_mse=0.1479079 best=0.1479079 elapsed=0.0m
+[heartbeat] fold=8 epoch=2 train_mse=0.1520370 validation_mse=0.1483047 best=0.1479079 elapsed=0.1m
+[heartbeat] fold=8 epoch=3 train_mse=0.1504658 validation_mse=0.1477099 best=0.1477099 elapsed=0.2m
+[heartbeat] fold=8 epoch=4 train_mse=0.1498532 validation_mse=0.1487579 best=0.1477099 elapsed=0.2m
+[heartbeat] fold=8 epoch=5 train_mse=0.1494674 validation_mse=0.1484728 best=0.1477099 elapsed=0.3m
+[heartbeat] fold=8 epoch=6 train_mse=0.1499455 validation_mse=0.1478260 best=0.1477099 elapsed=0.3m
+[complete] fold=8 best_validation_mse=0.1477099
+[startup] target_expression/matched fold=9 train=898 validation=100 test=110 genes=14415 device=cuda:1
+[heartbeat] fold=9 epoch=1 train_mse=0.1583967 validation_mse=0.1475568 best=0.1475568 elapsed=0.0m
+[heartbeat] fold=9 epoch=2 train_mse=0.1502857 validation_mse=0.1483999 best=0.1475568 elapsed=0.1m
+[heartbeat] fold=9 epoch=3 train_mse=0.1498791 validation_mse=0.1479752 best=0.1475568 elapsed=0.1m
+[heartbeat] fold=9 epoch=4 train_mse=0.1494509 validation_mse=0.1477594 best=0.1475568 elapsed=0.2m
+[complete] fold=9 best_validation_mse=0.1475568

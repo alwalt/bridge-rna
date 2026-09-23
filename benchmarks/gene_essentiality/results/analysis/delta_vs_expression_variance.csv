@@ -1,0 +1,4 @@
+delta,n_genes,expression_variance_definition,spearman_rho,two_sided_p
+bridge_contextual_minus_pca_context,14415,full-cohort descriptive variance; not used in model fitting,-0.02673392639605307,0.0013271791661177417
+bridge_contextual_minus_target_expression,14415,full-cohort descriptive variance; not used in model fitting,-0.05144729061138041,6.392048959283364e-10
+bridge_contextual_minus_bulkformer_contextual,14415,full-cohort descriptive variance; not used in model fitting,0.0021349792321056775,0.7977122693905268
