@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "eligible_patients": 9668,
+  "representations": [
+    "Bridge 45.6M",
+    "PCA-128",
+    "Full raw expression"
+  ],
+  "coverage": {
+    "Bridge 45.6M": 9668,
+    "PCA-128": 9668,
+    "Full raw expression": 9668
+  },
+  "folds": 5,
+  "fold_sizes": {
+    "0": 1935,
+    "1": 1932,
+    "2": 1936,
+    "3": 1932,
+    "4": 1933
+  },
+  "patient_unique_per_representation": true,
+  "fold_exclusivity": true,
+  "identical_patients_folds_outcomes": true,
+  "frozen_bridge": true,
+  "training_fold_only_pca": true,
+  "training_fold_only_raw_standardization": true,
+  "test_outcomes_used_for_tuning": false,
+  "fold_aware_concordance": true,
+  "notebook_all_cells_executed": true,
+  "expected_outputs_present": true
+}

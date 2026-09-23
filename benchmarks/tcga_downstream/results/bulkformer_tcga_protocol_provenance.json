@@ -1,0 +1,47 @@
+{
+  "created": "2026-09-22",
+  "final_paper": {
+    "doi": "10.1016/j.cels.2026.101657",
+    "pii": "S2405471226001390"
+  },
+  "official_repository": {
+    "url": "https://github.com/KangBoming/BulkFormer",
+    "commit": "5bcf5b99e799cd55f41e4d6fe8200b2cdf3d9589"
+  },
+  "released_data": {
+    "doi": "10.5281/zenodo.15744294",
+    "file": "TCGA_survival.h5ad",
+    "sha256": "3ae462695aafc5c8399b77ff24ff79e209d7e52f2e51e9452642548c1d5b4414",
+    "audit": {
+      "samples": 10429,
+      "unique_patients": 9679,
+      "classes": 33,
+      "repeated_patient_rows": 750,
+      "normal_sample_codes_11": 709
+    }
+  },
+  "local_common_cohort": {
+    "patients": 9942,
+    "classes": 33,
+    "one_sample_per_patient": true,
+    "primary_tumor_plus_laml_peripheral_blood": true
+  },
+  "evaluation": {
+    "folds": 10,
+    "split_seed": 20260922,
+    "pca_components": 128,
+    "pca_fit_on_training_fold_only": true,
+    "random_forest": "scikit-learn defaults; random_state fixed per fold",
+    "bulkformer_pooling": "mean gene-token pooling, matching final release notebook example"
+  },
+  "ambiguities": [
+    "The final repository does not release downstream training code or fold assignments.",
+    "The final feature-extraction notebook demonstrates mean pooling, while the 2025 preprint states max pooling.",
+    "The final paper reports prognosis modeling but the final repository README omits prognosis metrics.",
+    "The released TCGA object contains repeated patients and normal-tissue aliquots, so the literature value is not patient-level paired with the local comparison."
+  ],
+  "tcga_h5": "/home/walt/bridge-rna/data/tcga/tcga_matrix.h5",
+  "tcga_h5_sha256": "d36d479aba1aa0b3d6e7fa10d255291b1eaa2393e41cd38ffc264f994d215a5a",
+  "frozen_encoders": true,
+  "test_adaptive_method_changes": false
+}

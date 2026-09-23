@@ -1,0 +1,22 @@
+[2026-09-22 20:25:35] cohort: 9,816 primary-tumor patients; classification=3,227; survival=9,668; cohorts=32
+[2026-09-22 20:25:39] seed=0 representation=ours_45.6m epochs=190 scored_cancers=32
+[2026-09-22 20:25:40] seed=0 representation=bulkformer_50m epochs=156 scored_cancers=32
+[2026-09-22 20:25:41] seed=0 representation=bulkformer_147m epochs=107 scored_cancers=32
+[2026-09-22 20:25:51] seed=0 representation=full_expression_25150 epochs=55 scored_cancers=32
+[2026-09-22 20:25:52] seed=1 representation=ours_45.6m epochs=159 scored_cancers=32
+[2026-09-22 20:25:53] seed=1 representation=bulkformer_50m epochs=114 scored_cancers=32
+[2026-09-22 20:25:54] seed=1 representation=bulkformer_147m epochs=91 scored_cancers=32
+[2026-09-22 20:25:59] seed=1 representation=full_expression_25150 epochs=48 scored_cancers=32
+[2026-09-22 20:26:00] seed=2 representation=ours_45.6m epochs=87 scored_cancers=32
+[2026-09-22 20:26:01] seed=2 representation=bulkformer_50m epochs=109 scored_cancers=32
+[2026-09-22 20:26:02] seed=2 representation=bulkformer_147m epochs=91 scored_cancers=32
+[2026-09-22 20:26:06] seed=2 representation=full_expression_25150 epochs=53 scored_cancers=32
+[2026-09-22 20:26:07] seed=3 representation=ours_45.6m epochs=184 scored_cancers=32
+[2026-09-22 20:26:08] seed=3 representation=bulkformer_50m epochs=101 scored_cancers=32
+[2026-09-22 20:26:08] seed=3 representation=bulkformer_147m epochs=88 scored_cancers=32
+[2026-09-22 20:26:12] seed=3 representation=full_expression_25150 epochs=53 scored_cancers=32
+[2026-09-22 20:26:13] seed=4 representation=ours_45.6m epochs=152 scored_cancers=32
+[2026-09-22 20:26:14] seed=4 representation=bulkformer_50m epochs=147 scored_cancers=32
+[2026-09-22 20:26:15] seed=4 representation=bulkformer_147m epochs=87 scored_cancers=32
+[2026-09-22 20:26:19] seed=4 representation=full_expression_25150 epochs=56 scored_cancers=32
+[2026-09-22 20:26:21] Cox per-cancer analysis complete

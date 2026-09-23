@@ -1,0 +1,22 @@
+{
+  "analysis": "Per-cancer survival discrimination from held-out Cox risks",
+  "sources": {
+    "bridge_and_full_raw": "results/cox_mlp_risk_predictions.csv",
+    "pca128": "results/cox_pca128_risk_predictions.csv",
+    "cohort": "results/cohort_manifest.parquet",
+    "original_pca_summary": "results/survival_per_split.parquet"
+  },
+  "split_design": "Five fixed repeated stratified 80/20 train/test splits; concordance pairs are formed only within a seed's held-out test set.",
+  "patient_coverage": 6467,
+  "eligible_survival_patients": 9668,
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 20260922,
+  "bootstrap_unit": "Unique patient within cancer, clustered across all held-out seed appearances",
+  "c_index_implementation": "lifelines concordance_index internals; predicted event time = -risk",
+  "stability_rule": "unreliable_bootstrap if <900 valid replicates; very_low_event_support if events<10; low_event_support if events<20; wide_ci if width>0.25",
+  "permutation_replicates": 100000,
+  "limitations": [
+    "Repeated holdout is not exhaustive K-fold OOF; some eligible patients never enter a test split.",
+    "Cancer-level C-indices aggregate comparable-pair counts across held-out seeds; risk scales are never compared across seeds."
+  ]
+}

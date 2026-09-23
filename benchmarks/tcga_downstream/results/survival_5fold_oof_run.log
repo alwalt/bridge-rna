@@ -1,0 +1,70 @@
+[2026-09-22 21:43:59] completed fold=0 representation=Bridge 45.6M n=1935 epochs=141 elapsed=0.1m
+[2026-09-22 21:44:11] completed fold=0 representation=PCA-128 n=1935 epochs=None elapsed=0.2m
+[2026-09-22 21:44:16] completed fold=0 representation=Full raw expression n=1935 epochs=46 elapsed=0.1m
+[2026-09-22 21:44:17] completed fold=1 representation=Bridge 45.6M n=1932 epochs=154 elapsed=0.0m
+[2026-09-22 21:44:30] completed fold=1 representation=PCA-128 n=1932 epochs=None elapsed=0.2m
+[2026-09-22 21:44:35] completed fold=1 representation=Full raw expression n=1932 epochs=58 elapsed=0.1m
+[2026-09-22 21:44:36] completed fold=2 representation=Bridge 45.6M n=1936 epochs=142 elapsed=0.0m
+[2026-09-22 21:44:50] completed fold=2 representation=PCA-128 n=1936 epochs=None elapsed=0.2m
+[2026-09-22 21:44:54] completed fold=2 representation=Full raw expression n=1936 epochs=41 elapsed=0.1m
+[2026-09-22 21:44:55] completed fold=3 representation=Bridge 45.6M n=1932 epochs=162 elapsed=0.0m
+[2026-09-22 21:45:05] completed fold=3 representation=PCA-128 n=1932 epochs=None elapsed=0.2m
+[2026-09-22 21:45:08] completed fold=3 representation=Full raw expression n=1932 epochs=30 elapsed=0.1m
+[2026-09-22 21:45:09] completed fold=4 representation=Bridge 45.6M n=1933 epochs=149 elapsed=0.0m
+[2026-09-22 21:45:25] completed fold=4 representation=PCA-128 n=1933 epochs=None elapsed=0.3m
+[2026-09-22 21:45:30] completed fold=4 representation=Full raw expression n=1933 epochs=45 elapsed=0.1m
+[2026-09-22 21:45:36] bootstrap 1/32 cancer=ACC
+[2026-09-22 21:45:45] bootstrap 2/32 cancer=BLCA
+[2026-09-22 21:46:01] bootstrap 3/32 cancer=BRCA
+[2026-09-22 21:46:08] bootstrap 4/32 cancer=CESC
+[2026-09-22 21:46:12] bootstrap 5/32 cancer=CHOL
+[2026-09-22 21:46:21] bootstrap 6/32 cancer=COAD
+[2026-09-22 21:46:25] bootstrap 7/32 cancer=DLBC
+[2026-09-22 21:46:31] bootstrap 8/32 cancer=ESCA
+[2026-09-22 21:46:37] bootstrap 9/32 cancer=GBM
+[2026-09-22 21:46:48] bootstrap 10/32 cancer=HNSC
+[2026-09-22 21:46:53] bootstrap 11/32 cancer=KICH
+[2026-09-22 21:47:04] bootstrap 12/32 cancer=KIRC
+[2026-09-22 21:47:10] bootstrap 13/32 cancer=KIRP
+[2026-09-22 21:47:20] bootstrap 14/32 cancer=LGG
+[2026-09-22 21:47:29] bootstrap 15/32 cancer=LIHC
+[2026-09-22 21:47:39] bootstrap 16/32 cancer=LUAD
+[2026-09-22 21:47:50] bootstrap 17/32 cancer=LUSC
+[2026-09-22 21:47:55] bootstrap 18/32 cancer=MESO
+[2026-09-22 21:48:05] bootstrap 19/32 cancer=OV
+[2026-09-22 21:48:12] bootstrap 20/32 cancer=PAAD
+[2026-09-22 21:48:16] bootstrap 21/32 cancer=PCPG
+[2026-09-22 21:48:23] bootstrap 22/32 cancer=PRAD
+[2026-09-22 21:48:28] bootstrap 23/32 cancer=READ
+[2026-09-22 21:48:36] bootstrap 24/32 cancer=SARC
+[2026-09-22 21:48:41] bootstrap 25/32 cancer=SKCM
+[2026-09-22 21:48:51] bootstrap 26/32 cancer=STAD
+[2026-09-22 21:48:54] bootstrap 27/32 cancer=TGCT
+[2026-09-22 21:49:02] bootstrap 28/32 cancer=THCA
+[2026-09-22 21:49:06] bootstrap 29/32 cancer=THYM
+[2026-09-22 21:49:16] bootstrap 30/32 cancer=UCEC
+[2026-09-22 21:49:21] bootstrap 31/32 cancer=UCS
+[2026-09-22 21:49:26] bootstrap 32/32 cancer=UVM
+[2026-09-22 21:49:33] overall
+     representation  oof_survival_c_index  comparable_pairs              aggregation
+       Bridge 45.6M              0.757972           3068664 fold-aware pair-weighted
+            PCA-128              0.762109           3068664 fold-aware pair-weighted
+Full raw expression              0.759042           3068664 fold-aware pair-weighted
+[2026-09-22 21:49:33] summary
+                             summary     value
+               median_bridge_c_index  0.623931
+patient_weighted_mean_bridge_c_index  0.624674
+               median_pca128_c_index  0.636030
+             median_full_raw_c_index  0.600830
+               bridge_cancers_gt_0.5 31.000000
+                 bridge_ci_above_0.5 17.000000
+                 pca128_ci_above_0.5 21.000000
+               full_raw_ci_above_0.5 18.000000
+            cancers_bridge_gt_pca128 15.000000
+          median_bridge_minus_pca128 -0.002364
+       paired_signflip_mean_p_pca128  0.760522
+            paired_wilcoxon_p_pca128  0.732882
+          cancers_bridge_gt_full_raw 15.000000
+        median_bridge_minus_full_raw -0.002984
+     paired_signflip_mean_p_full_raw  0.995450
+          paired_wilcoxon_p_full_raw  0.962714

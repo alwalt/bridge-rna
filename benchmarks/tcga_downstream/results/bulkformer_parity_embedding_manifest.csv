@@ -1,0 +1,4 @@
+representation,patients,reused_patients,newly_inferred_patients,features,pooling,base_cache,incremental_cache
+ours_45.6m,9942,9816,126,512,Bridge native encode,/home/walt/bridge-rna/benchmarks/tcga_downstream/work/ours_45.6m_embeddings.npy,/home/walt/bridge-rna/benchmarks/tcga_downstream/work/bulkformer_parity_laml_ours_45.6m_embeddings.npy
+bulkformer_50m,9942,9816,126,259,mean gene-token pooling,/home/walt/bridge-rna/benchmarks/tcga_downstream/work/bulkformer_50m_embeddings.npy,/home/walt/bridge-rna/benchmarks/tcga_downstream/work/bulkformer_parity_laml_bulkformer_50m_embeddings.npy
+bulkformer_147m,9942,9816,126,643,mean gene-token pooling,/home/walt/bridge-rna/benchmarks/tcga_downstream/work/bulkformer_147m_embeddings.npy,/home/walt/bridge-rna/benchmarks/tcga_downstream/work/bulkformer_parity_laml_bulkformer_147m_embeddings.npy

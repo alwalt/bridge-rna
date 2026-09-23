@@ -1,0 +1,4 @@
+representation,oof_survival_c_index,comparable_pairs,aggregation
+Bridge 45.6M,0.7579715472270669,3068664,fold-aware pair-weighted
+PCA-128,0.7621088525821009,3068664,fold-aware pair-weighted
+Full raw expression,0.7590423715336707,3068664,fold-aware pair-weighted

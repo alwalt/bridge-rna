@@ -1,0 +1,17 @@
+summary,value
+median_bridge_c_index,0.6239306729960936
+patient_weighted_mean_bridge_c_index,0.6246735817032498
+median_pca128_c_index,0.6360299042261068
+median_full_raw_c_index,0.6008295921217893
+bridge_cancers_gt_0.5,31.0
+bridge_ci_above_0.5,17.0
+pca128_ci_above_0.5,21.0
+full_raw_ci_above_0.5,18.0
+cancers_bridge_gt_pca128,15.0
+median_bridge_minus_pca128,-0.0023636744614566885
+paired_signflip_mean_p_pca128,0.7605223947760522
+paired_wilcoxon_p_pca128,0.7328818910755217
+cancers_bridge_gt_full_raw,15.0
+median_bridge_minus_full_raw,-0.0029841419682720693
+paired_signflip_mean_p_full_raw,0.995450045499545
+paired_wilcoxon_p_full_raw,0.9627137778909105

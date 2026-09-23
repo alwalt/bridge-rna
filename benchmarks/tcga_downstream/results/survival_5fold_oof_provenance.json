@@ -1,0 +1,31 @@
+{
+  "analysis": "Complete true 5-fold OOF TCGA Cox survival evaluation",
+  "eligible_patients": 9668,
+  "cancers": 32,
+  "events": 2774,
+  "outer_folds": 5,
+  "fold_seed": 20260922,
+  "source_primary_tumor_patients": 9816,
+  "excluded_patients": 148,
+  "exclusion_reasons": {
+    "invalid_binary_event": 21,
+    "valid_event_missing_time": 34,
+    "valid_event_nonpositive_time": 93
+  },
+  "stratification": "Deterministic within-cancer\u00d7event shuffling and balanced round-robin sparse-stratum fallback",
+  "endpoint": "PanCanAtlas OS / OS.time; event in {0,1}; time_days > 0",
+  "bridge": "Cached frozen Bridge 45.6M sample embeddings; downstream MLP [512,256] Cox head only",
+  "pca": "StandardScaler + randomized PCA-128 fitted independently on each training fold; CoxPHFitter penalizer=0.1",
+  "raw": "Existing 25,150-feature log1p(CPM), training-fold standardization, downstream MLP [512,256] Cox head",
+  "cross_fold_scale_handling": "C-index numerator and comparable-pair counts are computed within held-out folds and summed; no pairs cross independently fitted heads",
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 20260923,
+  "bootstrap": "Patient-level within cancer; fold membership retained; concordance remains fold-aware",
+  "stability_rule": "unreliable if <900 valid bootstraps; very low events <10; low events 10-19; wide CI >0.25",
+  "inputs": [
+    "results/cohort_manifest.parquet",
+    "work/ours_45.6m_embeddings.npy",
+    "work/ours_log1p_tpm.npy",
+    "work/tcga_full_log1p_cpm.npy"
+  ]
+}
