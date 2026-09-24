@@ -1,0 +1,1216 @@
+task,fold,representation,class,precision,recall,f1,support
+gtex_detailed,0,bridge,Adipose - Subcutaneous,0.9090909090909091,0.9459459459459459,0.9271523178807947,74
+gtex_detailed,0,bridge,Adipose - Visceral (Omentum),0.9387755102040817,0.9787234042553191,0.9583333333333334,47
+gtex_detailed,0,bridge,Adrenal Gland,1.0,1.0,1.0,33
+gtex_detailed,0,bridge,Artery - Aorta,1.0,0.9791666666666666,0.9894736842105263,48
+gtex_detailed,0,bridge,Artery - Coronary,0.9642857142857143,0.9642857142857143,0.9642857142857143,28
+gtex_detailed,0,bridge,Artery - Tibial,0.9726027397260274,1.0,0.9861111111111112,71
+gtex_detailed,0,bridge,Bladder,0.5,0.3333333333333333,0.4,3
+gtex_detailed,0,bridge,Brain - Amygdala,0.7857142857142857,0.6875,0.7333333333333333,16
+gtex_detailed,0,bridge,Brain - Anterior cingulate cortex (BA24),0.875,0.7368421052631579,0.8,19
+gtex_detailed,0,bridge,Brain - Caudate (basal ganglia),0.75,0.7777777777777778,0.7636363636363637,27
+gtex_detailed,0,bridge,Brain - Cerebellar Hemisphere,1.0,0.8260869565217391,0.9047619047619048,23
+gtex_detailed,0,bridge,Brain - Cerebellum,0.875,1.0,0.9333333333333333,28
+gtex_detailed,0,bridge,Brain - Cortex,0.8888888888888888,0.96,0.9230769230769231,25
+gtex_detailed,0,bridge,Brain - Frontal Cortex (BA9),0.7692307692307693,0.8695652173913043,0.8163265306122449,23
+gtex_detailed,0,bridge,Brain - Hippocampus,0.75,0.8571428571428571,0.8,21
+gtex_detailed,0,bridge,Brain - Hypothalamus,0.782608695652174,0.9,0.8372093023255814,20
+gtex_detailed,0,bridge,Brain - Nucleus accumbens (basal ganglia),0.782608695652174,0.782608695652174,0.782608695652174,23
+gtex_detailed,0,bridge,Brain - Putamen (basal ganglia),0.7777777777777778,0.6666666666666666,0.717948717948718,21
+gtex_detailed,0,bridge,Brain - Spinal cord (cervical c-1),0.9333333333333333,0.9333333333333333,0.9333333333333333,15
+gtex_detailed,0,bridge,Brain - Substantia nigra,0.9090909090909091,0.7142857142857143,0.8,14
+gtex_detailed,0,bridge,Breast - Mammary Tissue,0.9230769230769231,0.8372093023255814,0.8780487804878049,43
+gtex_detailed,0,bridge,Cervix - Ectocervix,0.0,0.0,0.0,1
+gtex_detailed,0,bridge,Cervix - Endocervix,0.0,0.0,0.0,1
+gtex_detailed,0,bridge,Colon - Sigmoid,0.7209302325581395,0.8857142857142857,0.7948717948717948,35
+gtex_detailed,0,bridge,Colon - Transverse,0.8611111111111112,0.775,0.8157894736842105,40
+gtex_detailed,0,bridge,Esophagus - Gastroesophageal Junction,0.7916666666666666,0.5428571428571428,0.6440677966101694,35
+gtex_detailed,0,bridge,Esophagus - Mucosa,0.9696969696969697,0.9846153846153847,0.9770992366412213,65
+gtex_detailed,0,bridge,Esophagus - Muscularis,0.7878787878787878,0.9122807017543859,0.8455284552845529,57
+gtex_detailed,0,bridge,Fallopian Tube,1.0,1.0,1.0,1
+gtex_detailed,0,bridge,Heart - Atrial Appendage,1.0,0.9772727272727273,0.9885057471264368,44
+gtex_detailed,0,bridge,Heart - Left Ventricle,0.98,0.98,0.98,50
+gtex_detailed,0,bridge,Kidney - Cortex,1.0,1.0,1.0,7
+gtex_detailed,0,bridge,Liver,1.0,1.0,1.0,27
+gtex_detailed,0,bridge,Lung,1.0,1.0,1.0,67
+gtex_detailed,0,bridge,Minor Salivary Gland,1.0,1.0,1.0,15
+gtex_detailed,0,bridge,Muscle - Skeletal,0.9891304347826086,1.0,0.994535519125683,91
+gtex_detailed,0,bridge,Nerve - Tibial,0.9848484848484849,1.0,0.9923664122137404,65
+gtex_detailed,0,bridge,Ovary,1.0,1.0,1.0,22
+gtex_detailed,0,bridge,Pancreas,1.0,1.0,1.0,38
+gtex_detailed,0,bridge,Pituitary,1.0,0.9565217391304348,0.9777777777777777,23
+gtex_detailed,0,bridge,Prostate,1.0,0.9583333333333334,0.9787234042553191,24
+gtex_detailed,0,bridge,Skin - Not Sun Exposed (Suprapubic),0.8666666666666667,0.9285714285714286,0.896551724137931,56
+gtex_detailed,0,bridge,Skin - Sun Exposed (Lower leg),0.9583333333333334,0.8734177215189873,0.9139072847682119,79
+gtex_detailed,0,bridge,Small Intestine - Terminal Ileum,0.9523809523809523,0.9523809523809523,0.9523809523809523,21
+gtex_detailed,0,bridge,Spleen,1.0,1.0,1.0,23
+gtex_detailed,0,bridge,Stomach,0.9285714285714286,0.8863636363636364,0.9069767441860465,44
+gtex_detailed,0,bridge,Testis,1.0,1.0,1.0,40
+gtex_detailed,0,bridge,Thyroid,1.0,1.0,1.0,73
+gtex_detailed,0,bridge,Uterus,0.9,1.0,0.9473684210526315,18
+gtex_detailed,0,bridge,Vagina,1.0,1.0,1.0,19
+gtex_detailed,0,bridge,Whole Blood,0.9883720930232558,1.0,0.9941520467836257,85
+gtex_broad,0,bridge,Adipose Tissue,0.9140625,0.9669421487603306,0.9397590361445783,121
+gtex_broad,0,bridge,Adrenal Gland,1.0,1.0,1.0,33
+gtex_broad,0,bridge,Bladder,0.5,0.3333333333333333,0.4,3
+gtex_broad,0,bridge,Blood,0.9883720930232558,1.0,0.9941520467836257,85
+gtex_broad,0,bridge,Blood Vessel,0.9798657718120806,0.9931972789115646,0.9864864864864865,147
+gtex_broad,0,bridge,Brain,0.9963768115942029,1.0,0.9981851179673321,275
+gtex_broad,0,bridge,Breast,0.9444444444444444,0.7906976744186046,0.8607594936708861,43
+gtex_broad,0,bridge,Cervix Uteri,0.0,0.0,0.0,2
+gtex_broad,0,bridge,Colon,0.9605263157894737,0.9733333333333334,0.9668874172185431,75
+gtex_broad,0,bridge,Esophagus,0.9806451612903225,0.9681528662420382,0.9743589743589743,157
+gtex_broad,0,bridge,Fallopian Tube,1.0,1.0,1.0,1
+gtex_broad,0,bridge,Heart,1.0,0.9893617021276596,0.9946524064171123,94
+gtex_broad,0,bridge,Kidney,1.0,1.0,1.0,7
+gtex_broad,0,bridge,Liver,1.0,1.0,1.0,27
+gtex_broad,0,bridge,Lung,1.0,1.0,1.0,67
+gtex_broad,0,bridge,Muscle,0.9891304347826086,1.0,0.994535519125683,91
+gtex_broad,0,bridge,Nerve,0.9848484848484849,1.0,0.9923664122137404,65
+gtex_broad,0,bridge,Ovary,1.0,1.0,1.0,22
+gtex_broad,0,bridge,Pancreas,1.0,1.0,1.0,38
+gtex_broad,0,bridge,Pituitary,1.0,0.9565217391304348,0.9777777777777777,23
+gtex_broad,0,bridge,Prostate,0.9583333333333334,0.9583333333333334,0.9583333333333334,24
+gtex_broad,0,bridge,Salivary Gland,1.0,1.0,1.0,15
+gtex_broad,0,bridge,Skin,1.0,0.9851851851851852,0.9925373134328358,135
+gtex_broad,0,bridge,Small Intestine,0.9545454545454546,1.0,0.9767441860465116,21
+gtex_broad,0,bridge,Spleen,1.0,1.0,1.0,23
+gtex_broad,0,bridge,Stomach,0.9302325581395349,0.9090909090909091,0.9195402298850575,44
+gtex_broad,0,bridge,Testis,1.0,1.0,1.0,40
+gtex_broad,0,bridge,Thyroid,1.0,1.0,1.0,73
+gtex_broad,0,bridge,Uterus,0.9,1.0,0.9473684210526315,18
+gtex_broad,0,bridge,Vagina,1.0,1.0,1.0,19
+gtex_detailed,0,raw,Adipose - Subcutaneous,1.0,0.9864864864864865,0.9931972789115646,74
+gtex_detailed,0,raw,Adipose - Visceral (Omentum),0.9591836734693877,1.0,0.9791666666666666,47
+gtex_detailed,0,raw,Adrenal Gland,1.0,1.0,1.0,33
+gtex_detailed,0,raw,Artery - Aorta,1.0,0.9583333333333334,0.9787234042553191,48
+gtex_detailed,0,raw,Artery - Coronary,0.9333333333333333,1.0,0.9655172413793104,28
+gtex_detailed,0,raw,Artery - Tibial,0.9726027397260274,1.0,0.9861111111111112,71
+gtex_detailed,0,raw,Bladder,1.0,0.6666666666666666,0.8,3
+gtex_detailed,0,raw,Brain - Amygdala,0.9333333333333333,0.875,0.9032258064516129,16
+gtex_detailed,0,raw,Brain - Anterior cingulate cortex (BA24),1.0,0.8421052631578947,0.9142857142857143,19
+gtex_detailed,0,raw,Brain - Caudate (basal ganglia),0.88,0.8148148148148148,0.8461538461538461,27
+gtex_detailed,0,raw,Brain - Cerebellar Hemisphere,1.0,1.0,1.0,23
+gtex_detailed,0,raw,Brain - Cerebellum,1.0,1.0,1.0,28
+gtex_detailed,0,raw,Brain - Cortex,0.9583333333333334,0.92,0.9387755102040817,25
+gtex_detailed,0,raw,Brain - Frontal Cortex (BA9),0.7931034482758621,1.0,0.8846153846153846,23
+gtex_detailed,0,raw,Brain - Hippocampus,0.8636363636363636,0.9047619047619048,0.8837209302325582,21
+gtex_detailed,0,raw,Brain - Hypothalamus,0.8695652173913043,1.0,0.9302325581395349,20
+gtex_detailed,0,raw,Brain - Nucleus accumbens (basal ganglia),0.8181818181818182,0.782608695652174,0.8,23
+gtex_detailed,0,raw,Brain - Putamen (basal ganglia),0.8636363636363636,0.9047619047619048,0.8837209302325582,21
+gtex_detailed,0,raw,Brain - Spinal cord (cervical c-1),1.0,1.0,1.0,15
+gtex_detailed,0,raw,Brain - Substantia nigra,1.0,0.8571428571428571,0.9230769230769231,14
+gtex_detailed,0,raw,Breast - Mammary Tissue,1.0,1.0,1.0,43
+gtex_detailed,0,raw,Cervix - Ectocervix,0.0,0.0,0.0,1
+gtex_detailed,0,raw,Cervix - Endocervix,0.0,0.0,0.0,1
+gtex_detailed,0,raw,Colon - Sigmoid,0.9142857142857143,0.9142857142857143,0.9142857142857143,35
+gtex_detailed,0,raw,Colon - Transverse,0.9230769230769231,0.9,0.9113924050632911,40
+gtex_detailed,0,raw,Esophagus - Gastroesophageal Junction,0.7586206896551724,0.6285714285714286,0.6875,35
+gtex_detailed,0,raw,Esophagus - Mucosa,1.0,1.0,1.0,65
+gtex_detailed,0,raw,Esophagus - Muscularis,0.8064516129032258,0.8771929824561403,0.8403361344537815,57
+gtex_detailed,0,raw,Fallopian Tube,1.0,1.0,1.0,1
+gtex_detailed,0,raw,Heart - Atrial Appendage,1.0,0.9772727272727273,0.9885057471264368,44
+gtex_detailed,0,raw,Heart - Left Ventricle,0.98,0.98,0.98,50
+gtex_detailed,0,raw,Kidney - Cortex,1.0,1.0,1.0,7
+gtex_detailed,0,raw,Liver,1.0,1.0,1.0,27
+gtex_detailed,0,raw,Lung,1.0,1.0,1.0,67
+gtex_detailed,0,raw,Minor Salivary Gland,1.0,1.0,1.0,15
+gtex_detailed,0,raw,Muscle - Skeletal,1.0,1.0,1.0,91
+gtex_detailed,0,raw,Nerve - Tibial,0.9848484848484849,1.0,0.9923664122137404,65
+gtex_detailed,0,raw,Ovary,1.0,1.0,1.0,22
+gtex_detailed,0,raw,Pancreas,1.0,1.0,1.0,38
+gtex_detailed,0,raw,Pituitary,1.0,0.9565217391304348,0.9777777777777777,23
+gtex_detailed,0,raw,Prostate,0.96,1.0,0.9795918367346939,24
+gtex_detailed,0,raw,Skin - Not Sun Exposed (Suprapubic),0.9821428571428571,0.9821428571428571,0.9821428571428571,56
+gtex_detailed,0,raw,Skin - Sun Exposed (Lower leg),0.9871794871794872,0.9746835443037974,0.9808917197452229,79
+gtex_detailed,0,raw,Small Intestine - Terminal Ileum,1.0,1.0,1.0,21
+gtex_detailed,0,raw,Spleen,1.0,1.0,1.0,23
+gtex_detailed,0,raw,Stomach,0.9772727272727273,0.9772727272727273,0.9772727272727273,44
+gtex_detailed,0,raw,Testis,1.0,1.0,1.0,40
+gtex_detailed,0,raw,Thyroid,1.0,1.0,1.0,73
+gtex_detailed,0,raw,Uterus,0.9,1.0,0.9473684210526315,18
+gtex_detailed,0,raw,Vagina,1.0,1.0,1.0,19
+gtex_detailed,0,raw,Whole Blood,1.0,1.0,1.0,85
+gtex_broad,0,raw,Adipose Tissue,0.9836065573770492,0.9917355371900827,0.9876543209876543,121
+gtex_broad,0,raw,Adrenal Gland,1.0,1.0,1.0,33
+gtex_broad,0,raw,Bladder,1.0,0.6666666666666666,0.8,3
+gtex_broad,0,raw,Blood,1.0,1.0,1.0,85
+gtex_broad,0,raw,Blood Vessel,0.9865771812080537,1.0,0.9932432432432432,147
+gtex_broad,0,raw,Brain,0.9963768115942029,1.0,0.9981851179673321,275
+gtex_broad,0,raw,Breast,1.0,1.0,1.0,43
+gtex_broad,0,raw,Cervix Uteri,0.0,0.0,0.0,2
+gtex_broad,0,raw,Colon,0.9864864864864865,0.9733333333333334,0.9798657718120806,75
+gtex_broad,0,raw,Esophagus,0.9935897435897436,0.9872611464968153,0.9904153354632588,157
+gtex_broad,0,raw,Fallopian Tube,1.0,1.0,1.0,1
+gtex_broad,0,raw,Heart,1.0,0.9893617021276596,0.9946524064171123,94
+gtex_broad,0,raw,Kidney,1.0,1.0,1.0,7
+gtex_broad,0,raw,Liver,1.0,1.0,1.0,27
+gtex_broad,0,raw,Lung,1.0,1.0,1.0,67
+gtex_broad,0,raw,Muscle,0.9891304347826086,1.0,0.994535519125683,91
+gtex_broad,0,raw,Nerve,0.9848484848484849,1.0,0.9923664122137404,65
+gtex_broad,0,raw,Ovary,1.0,1.0,1.0,22
+gtex_broad,0,raw,Pancreas,1.0,1.0,1.0,38
+gtex_broad,0,raw,Pituitary,1.0,0.9565217391304348,0.9777777777777777,23
+gtex_broad,0,raw,Prostate,1.0,1.0,1.0,24
+gtex_broad,0,raw,Salivary Gland,1.0,1.0,1.0,15
+gtex_broad,0,raw,Skin,0.9925373134328358,0.9851851851851852,0.9888475836431226,135
+gtex_broad,0,raw,Small Intestine,1.0,1.0,1.0,21
+gtex_broad,0,raw,Spleen,1.0,1.0,1.0,23
+gtex_broad,0,raw,Stomach,0.9545454545454546,0.9545454545454546,0.9545454545454546,44
+gtex_broad,0,raw,Testis,1.0,1.0,1.0,40
+gtex_broad,0,raw,Thyroid,1.0,1.0,1.0,73
+gtex_broad,0,raw,Uterus,0.9,1.0,0.9473684210526315,18
+gtex_broad,0,raw,Vagina,1.0,1.0,1.0,19
+gtex_detailed,0,pca,Adipose - Subcutaneous,1.0,0.9864864864864865,0.9931972789115646,74
+gtex_detailed,0,pca,Adipose - Visceral (Omentum),0.9791666666666666,1.0,0.9894736842105263,47
+gtex_detailed,0,pca,Adrenal Gland,1.0,1.0,1.0,33
+gtex_detailed,0,pca,Artery - Aorta,1.0,0.9791666666666666,0.9894736842105263,48
+gtex_detailed,0,pca,Artery - Coronary,0.9333333333333333,1.0,0.9655172413793104,28
+gtex_detailed,0,pca,Artery - Tibial,0.9861111111111112,1.0,0.993006993006993,71
+gtex_detailed,0,pca,Bladder,1.0,1.0,1.0,3
+gtex_detailed,0,pca,Brain - Amygdala,0.9230769230769231,0.75,0.8275862068965517,16
+gtex_detailed,0,pca,Brain - Anterior cingulate cortex (BA24),0.8947368421052632,0.8947368421052632,0.8947368421052632,19
+gtex_detailed,0,pca,Brain - Caudate (basal ganglia),0.88,0.8148148148148148,0.8461538461538461,27
+gtex_detailed,0,pca,Brain - Cerebellar Hemisphere,0.9583333333333334,1.0,0.9787234042553191,23
+gtex_detailed,0,pca,Brain - Cerebellum,1.0,0.9642857142857143,0.9818181818181818,28
+gtex_detailed,0,pca,Brain - Cortex,0.9615384615384616,1.0,0.9803921568627451,25
+gtex_detailed,0,pca,Brain - Frontal Cortex (BA9),0.8461538461538461,0.9565217391304348,0.8979591836734694,23
+gtex_detailed,0,pca,Brain - Hippocampus,0.8260869565217391,0.9047619047619048,0.8636363636363636,21
+gtex_detailed,0,pca,Brain - Hypothalamus,0.9047619047619048,0.95,0.926829268292683,20
+gtex_detailed,0,pca,Brain - Nucleus accumbens (basal ganglia),0.8260869565217391,0.8260869565217391,0.8260869565217391,23
+gtex_detailed,0,pca,Brain - Putamen (basal ganglia),0.9047619047619048,0.9047619047619048,0.9047619047619048,21
+gtex_detailed,0,pca,Brain - Spinal cord (cervical c-1),1.0,1.0,1.0,15
+gtex_detailed,0,pca,Brain - Substantia nigra,1.0,0.9285714285714286,0.9629629629629629,14
+gtex_detailed,0,pca,Breast - Mammary Tissue,1.0,1.0,1.0,43
+gtex_detailed,0,pca,Cervix - Ectocervix,0.0,0.0,0.0,1
+gtex_detailed,0,pca,Cervix - Endocervix,0.0,0.0,0.0,1
+gtex_detailed,0,pca,Colon - Sigmoid,0.9117647058823529,0.8857142857142857,0.8985507246376812,35
+gtex_detailed,0,pca,Colon - Transverse,0.9,0.9,0.9,40
+gtex_detailed,0,pca,Esophagus - Gastroesophageal Junction,0.7241379310344828,0.6,0.65625,35
+gtex_detailed,0,pca,Esophagus - Mucosa,0.9848484848484849,1.0,0.9923664122137404,65
+gtex_detailed,0,pca,Esophagus - Muscularis,0.7868852459016393,0.8421052631578947,0.8135593220338984,57
+gtex_detailed,0,pca,Fallopian Tube,1.0,1.0,1.0,1
+gtex_detailed,0,pca,Heart - Atrial Appendage,1.0,0.9772727272727273,0.9885057471264368,44
+gtex_detailed,0,pca,Heart - Left Ventricle,0.98,0.98,0.98,50
+gtex_detailed,0,pca,Kidney - Cortex,1.0,1.0,1.0,7
+gtex_detailed,0,pca,Liver,1.0,1.0,1.0,27
+gtex_detailed,0,pca,Lung,1.0,1.0,1.0,67
+gtex_detailed,0,pca,Minor Salivary Gland,1.0,1.0,1.0,15
+gtex_detailed,0,pca,Muscle - Skeletal,1.0,1.0,1.0,91
+gtex_detailed,0,pca,Nerve - Tibial,0.9848484848484849,1.0,0.9923664122137404,65
+gtex_detailed,0,pca,Ovary,1.0,1.0,1.0,22
+gtex_detailed,0,pca,Pancreas,1.0,1.0,1.0,38
+gtex_detailed,0,pca,Pituitary,1.0,0.9565217391304348,0.9777777777777777,23
+gtex_detailed,0,pca,Prostate,1.0,1.0,1.0,24
+gtex_detailed,0,pca,Skin - Not Sun Exposed (Suprapubic),0.9821428571428571,0.9821428571428571,0.9821428571428571,56
+gtex_detailed,0,pca,Skin - Sun Exposed (Lower leg),0.9871794871794872,0.9746835443037974,0.9808917197452229,79
+gtex_detailed,0,pca,Small Intestine - Terminal Ileum,1.0,1.0,1.0,21
+gtex_detailed,0,pca,Spleen,1.0,1.0,1.0,23
+gtex_detailed,0,pca,Stomach,0.9777777777777777,1.0,0.9887640449438202,44
+gtex_detailed,0,pca,Testis,1.0,1.0,1.0,40
+gtex_detailed,0,pca,Thyroid,1.0,1.0,1.0,73
+gtex_detailed,0,pca,Uterus,0.9,1.0,0.9473684210526315,18
+gtex_detailed,0,pca,Vagina,1.0,1.0,1.0,19
+gtex_detailed,0,pca,Whole Blood,1.0,1.0,1.0,85
+gtex_broad,0,pca,Adipose Tissue,0.9836065573770492,0.9917355371900827,0.9876543209876543,121
+gtex_broad,0,pca,Adrenal Gland,1.0,1.0,1.0,33
+gtex_broad,0,pca,Bladder,1.0,1.0,1.0,3
+gtex_broad,0,pca,Blood,1.0,1.0,1.0,85
+gtex_broad,0,pca,Blood Vessel,0.9865771812080537,1.0,0.9932432432432432,147
+gtex_broad,0,pca,Brain,0.9963768115942029,1.0,0.9981851179673321,275
+gtex_broad,0,pca,Breast,1.0,0.9767441860465116,0.9882352941176471,43
+gtex_broad,0,pca,Cervix Uteri,0.0,0.0,0.0,2
+gtex_broad,0,pca,Colon,1.0,0.9866666666666667,0.9932885906040269,75
+gtex_broad,0,pca,Esophagus,1.0,0.9936305732484076,0.9968051118210862,157
+gtex_broad,0,pca,Fallopian Tube,1.0,1.0,1.0,1
+gtex_broad,0,pca,Heart,1.0,0.9893617021276596,0.9946524064171123,94
+gtex_broad,0,pca,Kidney,1.0,1.0,1.0,7
+gtex_broad,0,pca,Liver,1.0,1.0,1.0,27
+gtex_broad,0,pca,Lung,1.0,1.0,1.0,67
+gtex_broad,0,pca,Muscle,1.0,1.0,1.0,91
+gtex_broad,0,pca,Nerve,0.9848484848484849,1.0,0.9923664122137404,65
+gtex_broad,0,pca,Ovary,1.0,1.0,1.0,22
+gtex_broad,0,pca,Pancreas,1.0,1.0,1.0,38
+gtex_broad,0,pca,Pituitary,1.0,0.9565217391304348,0.9777777777777777,23
+gtex_broad,0,pca,Prostate,1.0,1.0,1.0,24
+gtex_broad,0,pca,Salivary Gland,1.0,1.0,1.0,15
+gtex_broad,0,pca,Skin,0.9925373134328358,0.9851851851851852,0.9888475836431226,135
+gtex_broad,0,pca,Small Intestine,1.0,1.0,1.0,21
+gtex_broad,0,pca,Spleen,1.0,1.0,1.0,23
+gtex_broad,0,pca,Stomach,0.9777777777777777,1.0,0.9887640449438202,44
+gtex_broad,0,pca,Testis,1.0,1.0,1.0,40
+gtex_broad,0,pca,Thyroid,1.0,1.0,1.0,73
+gtex_broad,0,pca,Uterus,0.9,1.0,0.9473684210526315,18
+gtex_broad,0,pca,Vagina,1.0,1.0,1.0,19
+gtex_detailed,1,bridge,Adipose - Subcutaneous,0.9324324324324325,0.9324324324324325,0.9324324324324325,74
+gtex_detailed,1,bridge,Adipose - Visceral (Omentum),0.9565217391304348,0.9565217391304348,0.9565217391304348,46
+gtex_detailed,1,bridge,Adrenal Gland,0.96875,1.0,0.9841269841269841,31
+gtex_detailed,1,bridge,Artery - Aorta,0.98,1.0,0.98989898989899,49
+gtex_detailed,1,bridge,Artery - Coronary,0.8214285714285714,0.8214285714285714,0.8214285714285714,28
+gtex_detailed,1,bridge,Artery - Tibial,0.9726027397260274,0.9861111111111112,0.9793103448275862,72
+gtex_detailed,1,bridge,Bladder,1.0,1.0,1.0,2
+gtex_detailed,1,bridge,Brain - Amygdala,0.875,0.9333333333333333,0.9032258064516129,15
+gtex_detailed,1,bridge,Brain - Anterior cingulate cortex (BA24),0.7647058823529411,0.6842105263157895,0.7222222222222222,19
+gtex_detailed,1,bridge,Brain - Caudate (basal ganglia),0.84,0.84,0.84,25
+gtex_detailed,1,bridge,Brain - Cerebellar Hemisphere,0.9565217391304348,1.0,0.9777777777777777,22
+gtex_detailed,1,bridge,Brain - Cerebellum,0.9642857142857143,0.9642857142857143,0.9642857142857143,28
+gtex_detailed,1,bridge,Brain - Cortex,0.9583333333333334,0.9583333333333334,0.9583333333333334,24
+gtex_detailed,1,bridge,Brain - Frontal Cortex (BA9),0.9130434782608695,0.9130434782608695,0.9130434782608695,23
+gtex_detailed,1,bridge,Brain - Hippocampus,0.9523809523809523,1.0,0.975609756097561,20
+gtex_detailed,1,bridge,Brain - Hypothalamus,0.9444444444444444,0.8095238095238095,0.8717948717948718,21
+gtex_detailed,1,bridge,Brain - Nucleus accumbens (basal ganglia),0.9130434782608695,0.84,0.875,25
+gtex_detailed,1,bridge,Brain - Putamen (basal ganglia),0.75,0.9,0.8181818181818182,20
+gtex_detailed,1,bridge,Brain - Spinal cord (cervical c-1),1.0,0.9333333333333333,0.9655172413793104,15
+gtex_detailed,1,bridge,Brain - Substantia nigra,0.75,0.8571428571428571,0.8,14
+gtex_detailed,1,bridge,Breast - Mammary Tissue,0.8666666666666667,0.8863636363636364,0.8764044943820225,44
+gtex_detailed,1,bridge,Cervix - Ectocervix,0.0,0.0,0.0,1
+gtex_detailed,1,bridge,Cervix - Endocervix,1.0,1.0,1.0,1
+gtex_detailed,1,bridge,Colon - Sigmoid,0.6904761904761905,0.8529411764705882,0.7631578947368421,34
+gtex_detailed,1,bridge,Colon - Transverse,0.8529411764705882,0.7073170731707317,0.7733333333333333,41
+gtex_detailed,1,bridge,Esophagus - Gastroesophageal Junction,0.8387096774193549,0.7428571428571429,0.7878787878787878,35
+gtex_detailed,1,bridge,Esophagus - Mucosa,0.9295774647887324,1.0,0.9635036496350365,66
+gtex_detailed,1,bridge,Esophagus - Muscularis,0.8813559322033898,0.9454545454545454,0.9122807017543859,55
+gtex_detailed,1,bridge,Fallopian Tube,1.0,1.0,1.0,1
+gtex_detailed,1,bridge,Heart - Atrial Appendage,0.9767441860465116,0.9767441860465116,0.9767441860465116,43
+gtex_detailed,1,bridge,Heart - Left Ventricle,0.9791666666666666,0.9791666666666666,0.9791666666666666,48
+gtex_detailed,1,bridge,Kidney - Cortex,1.0,1.0,1.0,7
+gtex_detailed,1,bridge,Liver,1.0,0.9629629629629629,0.9811320754716981,27
+gtex_detailed,1,bridge,Lung,1.0,1.0,1.0,67
+gtex_detailed,1,bridge,Minor Salivary Gland,0.9166666666666666,0.7857142857142857,0.8461538461538461,14
+gtex_detailed,1,bridge,Muscle - Skeletal,1.0,1.0,1.0,92
+gtex_detailed,1,bridge,Nerve - Tibial,0.9852941176470589,0.9852941176470589,0.9852941176470589,68
+gtex_detailed,1,bridge,Ovary,0.9565217391304348,1.0,0.9777777777777777,22
+gtex_detailed,1,bridge,Pancreas,1.0,1.0,1.0,36
+gtex_detailed,1,bridge,Pituitary,1.0,1.0,1.0,23
+gtex_detailed,1,bridge,Prostate,1.0,0.875,0.9333333333333333,24
+gtex_detailed,1,bridge,Skin - Not Sun Exposed (Suprapubic),0.9591836734693877,0.9215686274509803,0.94,51
+gtex_detailed,1,bridge,Skin - Sun Exposed (Lower leg),0.9230769230769231,0.96,0.9411764705882353,75
+gtex_detailed,1,bridge,Small Intestine - Terminal Ileum,0.9411764705882353,0.7619047619047619,0.8421052631578947,21
+gtex_detailed,1,bridge,Spleen,0.96,1.0,0.9795918367346939,24
+gtex_detailed,1,bridge,Stomach,1.0,0.9736842105263158,0.9866666666666667,38
+gtex_detailed,1,bridge,Testis,1.0,0.975609756097561,0.9876543209876543,41
+gtex_detailed,1,bridge,Thyroid,1.0,0.9841269841269841,0.992,63
+gtex_detailed,1,bridge,Uterus,1.0,0.8888888888888888,0.9411764705882353,18
+gtex_detailed,1,bridge,Vagina,0.7916666666666666,0.9047619047619048,0.8444444444444444,21
+gtex_detailed,1,bridge,Whole Blood,1.0,0.9883720930232558,0.9941520467836257,86
+gtex_broad,1,bridge,Adipose Tissue,0.9487179487179487,0.925,0.9367088607594937,120
+gtex_broad,1,bridge,Adrenal Gland,0.96875,1.0,0.9841269841269841,31
+gtex_broad,1,bridge,Bladder,1.0,1.0,1.0,2
+gtex_broad,1,bridge,Blood,1.0,0.9883720930232558,0.9941520467836257,86
+gtex_broad,1,bridge,Blood Vessel,0.9736842105263158,0.9932885906040269,0.9833887043189369,149
+gtex_broad,1,bridge,Brain,0.9963235294117647,1.0,0.998158379373849,271
+gtex_broad,1,bridge,Breast,0.8863636363636364,0.8863636363636364,0.8863636363636364,44
+gtex_broad,1,bridge,Cervix Uteri,0.5,0.5,0.5,2
+gtex_broad,1,bridge,Colon,0.9102564102564102,0.9466666666666667,0.9281045751633987,75
+gtex_broad,1,bridge,Esophagus,0.9629629629629629,1.0,0.9811320754716981,156
+gtex_broad,1,bridge,Fallopian Tube,1.0,1.0,1.0,1
+gtex_broad,1,bridge,Heart,0.978021978021978,0.978021978021978,0.978021978021978,91
+gtex_broad,1,bridge,Kidney,1.0,0.8571428571428571,0.9230769230769231,7
+gtex_broad,1,bridge,Liver,1.0,0.9629629629629629,0.9811320754716981,27
+gtex_broad,1,bridge,Lung,1.0,1.0,1.0,67
+gtex_broad,1,bridge,Muscle,1.0,1.0,1.0,92
+gtex_broad,1,bridge,Nerve,0.9852941176470589,0.9852941176470589,0.9852941176470589,68
+gtex_broad,1,bridge,Ovary,0.9565217391304348,1.0,0.9777777777777777,22
+gtex_broad,1,bridge,Pancreas,0.972972972972973,1.0,0.9863013698630136,36
+gtex_broad,1,bridge,Pituitary,1.0,1.0,1.0,23
+gtex_broad,1,bridge,Prostate,1.0,0.8333333333333334,0.9090909090909091,24
+gtex_broad,1,bridge,Salivary Gland,0.9166666666666666,0.7857142857142857,0.8461538461538461,14
+gtex_broad,1,bridge,Skin,0.9689922480620154,0.9920634920634921,0.9803921568627451,126
+gtex_broad,1,bridge,Small Intestine,0.8823529411764706,0.7142857142857143,0.7894736842105263,21
+gtex_broad,1,bridge,Spleen,0.96,1.0,0.9795918367346939,24
+gtex_broad,1,bridge,Stomach,1.0,0.9473684210526315,0.972972972972973,38
+gtex_broad,1,bridge,Testis,1.0,0.975609756097561,0.9876543209876543,41
+gtex_broad,1,bridge,Thyroid,1.0,0.9841269841269841,0.992,63
+gtex_broad,1,bridge,Uterus,1.0,0.8888888888888888,0.9411764705882353,18
+gtex_broad,1,bridge,Vagina,0.8260869565217391,0.9047619047619048,0.8636363636363636,21
+gtex_detailed,1,raw,Adipose - Subcutaneous,0.9863013698630136,0.972972972972973,0.9795918367346939,74
+gtex_detailed,1,raw,Adipose - Visceral (Omentum),0.9574468085106383,0.9782608695652174,0.967741935483871,46
+gtex_detailed,1,raw,Adrenal Gland,1.0,1.0,1.0,31
+gtex_detailed,1,raw,Artery - Aorta,1.0,1.0,1.0,49
+gtex_detailed,1,raw,Artery - Coronary,0.96,0.8571428571428571,0.9056603773584906,28
+gtex_detailed,1,raw,Artery - Tibial,0.9863013698630136,1.0,0.993103448275862,72
+gtex_detailed,1,raw,Bladder,1.0,1.0,1.0,2
+gtex_detailed,1,raw,Brain - Amygdala,1.0,0.9333333333333333,0.9655172413793104,15
+gtex_detailed,1,raw,Brain - Anterior cingulate cortex (BA24),0.9,0.9473684210526315,0.9230769230769231,19
+gtex_detailed,1,raw,Brain - Caudate (basal ganglia),0.9230769230769231,0.96,0.9411764705882353,25
+gtex_detailed,1,raw,Brain - Cerebellar Hemisphere,1.0,1.0,1.0,22
+gtex_detailed,1,raw,Brain - Cerebellum,0.9655172413793104,1.0,0.9824561403508771,28
+gtex_detailed,1,raw,Brain - Cortex,1.0,1.0,1.0,24
+gtex_detailed,1,raw,Brain - Frontal Cortex (BA9),1.0,0.9565217391304348,0.9777777777777777,23
+gtex_detailed,1,raw,Brain - Hippocampus,0.9523809523809523,1.0,0.975609756097561,20
+gtex_detailed,1,raw,Brain - Hypothalamus,0.95,0.9047619047619048,0.926829268292683,21
+gtex_detailed,1,raw,Brain - Nucleus accumbens (basal ganglia),0.9565217391304348,0.88,0.9166666666666666,25
+gtex_detailed,1,raw,Brain - Putamen (basal ganglia),0.8260869565217391,0.95,0.8837209302325582,20
+gtex_detailed,1,raw,Brain - Spinal cord (cervical c-1),1.0,0.9333333333333333,0.9655172413793104,15
+gtex_detailed,1,raw,Brain - Substantia nigra,0.9285714285714286,0.9285714285714286,0.9285714285714286,14
+gtex_detailed,1,raw,Breast - Mammary Tissue,1.0,1.0,1.0,44
+gtex_detailed,1,raw,Cervix - Ectocervix,0.5,1.0,0.6666666666666666,1
+gtex_detailed,1,raw,Cervix - Endocervix,1.0,1.0,1.0,1
+gtex_detailed,1,raw,Colon - Sigmoid,0.8181818181818182,0.7941176470588235,0.8059701492537313,34
+gtex_detailed,1,raw,Colon - Transverse,0.875,0.8536585365853658,0.8641975308641975,41
+gtex_detailed,1,raw,Esophagus - Gastroesophageal Junction,0.8484848484848485,0.8,0.8235294117647058,35
+gtex_detailed,1,raw,Esophagus - Mucosa,0.9420289855072463,0.9848484848484849,0.9629629629629629,66
+gtex_detailed,1,raw,Esophagus - Muscularis,0.9107142857142857,0.9272727272727272,0.918918918918919,55
+gtex_detailed,1,raw,Fallopian Tube,1.0,1.0,1.0,1
+gtex_detailed,1,raw,Heart - Atrial Appendage,1.0,1.0,1.0,43
+gtex_detailed,1,raw,Heart - Left Ventricle,0.8867924528301887,0.9791666666666666,0.9306930693069307,48
+gtex_detailed,1,raw,Kidney - Cortex,0.7142857142857143,0.7142857142857143,0.7142857142857143,7
+gtex_detailed,1,raw,Liver,1.0,0.9629629629629629,0.9811320754716981,27
+gtex_detailed,1,raw,Lung,1.0,1.0,1.0,67
+gtex_detailed,1,raw,Minor Salivary Gland,1.0,0.9285714285714286,0.9629629629629629,14
+gtex_detailed,1,raw,Muscle - Skeletal,0.989247311827957,1.0,0.9945945945945946,92
+gtex_detailed,1,raw,Nerve - Tibial,1.0,0.9852941176470589,0.9925925925925926,68
+gtex_detailed,1,raw,Ovary,0.9565217391304348,1.0,0.9777777777777777,22
+gtex_detailed,1,raw,Pancreas,1.0,1.0,1.0,36
+gtex_detailed,1,raw,Pituitary,1.0,1.0,1.0,23
+gtex_detailed,1,raw,Prostate,1.0,0.9583333333333334,0.9787234042553191,24
+gtex_detailed,1,raw,Skin - Not Sun Exposed (Suprapubic),0.9615384615384616,0.9803921568627451,0.970873786407767,51
+gtex_detailed,1,raw,Skin - Sun Exposed (Lower leg),0.9733333333333334,0.9733333333333334,0.9733333333333334,75
+gtex_detailed,1,raw,Small Intestine - Terminal Ileum,0.9047619047619048,0.9047619047619048,0.9047619047619048,21
+gtex_detailed,1,raw,Spleen,1.0,1.0,1.0,24
+gtex_detailed,1,raw,Stomach,0.9473684210526315,0.9473684210526315,0.9473684210526315,38
+gtex_detailed,1,raw,Testis,1.0,1.0,1.0,41
+gtex_detailed,1,raw,Thyroid,1.0,0.9841269841269841,0.992,63
+gtex_detailed,1,raw,Uterus,1.0,0.8888888888888888,0.9411764705882353,18
+gtex_detailed,1,raw,Vagina,0.95,0.9047619047619048,0.926829268292683,21
+gtex_detailed,1,raw,Whole Blood,1.0,1.0,1.0,86
+gtex_broad,1,raw,Adipose Tissue,0.9833333333333333,0.9833333333333333,0.9833333333333333,120
+gtex_broad,1,raw,Adrenal Gland,1.0,1.0,1.0,31
+gtex_broad,1,raw,Bladder,1.0,1.0,1.0,2
+gtex_broad,1,raw,Blood,1.0,1.0,1.0,86
+gtex_broad,1,raw,Blood Vessel,0.9736842105263158,0.9932885906040269,0.9833887043189369,149
+gtex_broad,1,raw,Brain,0.9963235294117647,1.0,0.998158379373849,271
+gtex_broad,1,raw,Breast,1.0,0.9772727272727273,0.9885057471264368,44
+gtex_broad,1,raw,Cervix Uteri,1.0,1.0,1.0,2
+gtex_broad,1,raw,Colon,1.0,0.96,0.9795918367346939,75
+gtex_broad,1,raw,Esophagus,0.9936305732484076,1.0,0.9968051118210862,156
+gtex_broad,1,raw,Fallopian Tube,1.0,1.0,1.0,1
+gtex_broad,1,raw,Heart,0.9888888888888889,0.978021978021978,0.9834254143646409,91
+gtex_broad,1,raw,Kidney,1.0,0.8571428571428571,0.9230769230769231,7
+gtex_broad,1,raw,Liver,1.0,0.9629629629629629,0.9811320754716981,27
+gtex_broad,1,raw,Lung,1.0,1.0,1.0,67
+gtex_broad,1,raw,Muscle,1.0,1.0,1.0,92
+gtex_broad,1,raw,Nerve,0.9710144927536232,0.9852941176470589,0.9781021897810219,68
+gtex_broad,1,raw,Ovary,0.9565217391304348,1.0,0.9777777777777777,22
+gtex_broad,1,raw,Pancreas,0.972972972972973,1.0,0.9863013698630136,36
+gtex_broad,1,raw,Pituitary,1.0,1.0,1.0,23
+gtex_broad,1,raw,Prostate,1.0,0.9583333333333334,0.9787234042553191,24
+gtex_broad,1,raw,Salivary Gland,1.0,0.9285714285714286,0.9629629629629629,14
+gtex_broad,1,raw,Skin,0.9615384615384616,0.9920634920634921,0.9765625,126
+gtex_broad,1,raw,Small Intestine,0.9090909090909091,0.9523809523809523,0.9302325581395349,21
+gtex_broad,1,raw,Spleen,1.0,1.0,1.0,24
+gtex_broad,1,raw,Stomach,1.0,0.9736842105263158,0.9866666666666667,38
+gtex_broad,1,raw,Testis,1.0,1.0,1.0,41
+gtex_broad,1,raw,Thyroid,1.0,1.0,1.0,63
+gtex_broad,1,raw,Uterus,1.0,0.8888888888888888,0.9411764705882353,18
+gtex_broad,1,raw,Vagina,0.95,0.9047619047619048,0.926829268292683,21
+gtex_detailed,1,pca,Adipose - Subcutaneous,0.9864864864864865,0.9864864864864865,0.9864864864864865,74
+gtex_detailed,1,pca,Adipose - Visceral (Omentum),0.9583333333333334,1.0,0.9787234042553191,46
+gtex_detailed,1,pca,Adrenal Gland,1.0,1.0,1.0,31
+gtex_detailed,1,pca,Artery - Aorta,1.0,1.0,1.0,49
+gtex_detailed,1,pca,Artery - Coronary,0.9333333333333333,1.0,0.9655172413793104,28
+gtex_detailed,1,pca,Artery - Tibial,1.0,1.0,1.0,72
+gtex_detailed,1,pca,Bladder,1.0,1.0,1.0,2
+gtex_detailed,1,pca,Brain - Amygdala,1.0,1.0,1.0,15
+gtex_detailed,1,pca,Brain - Anterior cingulate cortex (BA24),0.95,1.0,0.9743589743589743,19
+gtex_detailed,1,pca,Brain - Caudate (basal ganglia),0.9583333333333334,0.92,0.9387755102040817,25
+gtex_detailed,1,pca,Brain - Cerebellar Hemisphere,1.0,1.0,1.0,22
+gtex_detailed,1,pca,Brain - Cerebellum,0.9655172413793104,1.0,0.9824561403508771,28
+gtex_detailed,1,pca,Brain - Cortex,1.0,1.0,1.0,24
+gtex_detailed,1,pca,Brain - Frontal Cortex (BA9),1.0,1.0,1.0,23
+gtex_detailed,1,pca,Brain - Hippocampus,1.0,1.0,1.0,20
+gtex_detailed,1,pca,Brain - Hypothalamus,0.9473684210526315,0.8571428571428571,0.9,21
+gtex_detailed,1,pca,Brain - Nucleus accumbens (basal ganglia),0.875,0.84,0.8571428571428571,25
+gtex_detailed,1,pca,Brain - Putamen (basal ganglia),0.8333333333333334,1.0,0.9090909090909091,20
+gtex_detailed,1,pca,Brain - Spinal cord (cervical c-1),1.0,1.0,1.0,15
+gtex_detailed,1,pca,Brain - Substantia nigra,0.9285714285714286,0.9285714285714286,0.9285714285714286,14
+gtex_detailed,1,pca,Breast - Mammary Tissue,1.0,1.0,1.0,44
+gtex_detailed,1,pca,Cervix - Ectocervix,1.0,1.0,1.0,1
+gtex_detailed,1,pca,Cervix - Endocervix,1.0,1.0,1.0,1
+gtex_detailed,1,pca,Colon - Sigmoid,0.90625,0.8529411764705882,0.8787878787878788,34
+gtex_detailed,1,pca,Colon - Transverse,0.9024390243902439,0.9024390243902439,0.9024390243902439,41
+gtex_detailed,1,pca,Esophagus - Gastroesophageal Junction,0.7105263157894737,0.7714285714285715,0.7397260273972602,35
+gtex_detailed,1,pca,Esophagus - Mucosa,0.9411764705882353,0.9696969696969697,0.9552238805970149,66
+gtex_detailed,1,pca,Esophagus - Muscularis,0.875,0.8909090909090909,0.8828828828828829,55
+gtex_detailed,1,pca,Fallopian Tube,1.0,1.0,1.0,1
+gtex_detailed,1,pca,Heart - Atrial Appendage,1.0,0.9767441860465116,0.9882352941176471,43
+gtex_detailed,1,pca,Heart - Left Ventricle,1.0,0.9791666666666666,0.9894736842105263,48
+gtex_detailed,1,pca,Kidney - Cortex,1.0,0.8571428571428571,0.9230769230769231,7
+gtex_detailed,1,pca,Liver,1.0,1.0,1.0,27
+gtex_detailed,1,pca,Lung,1.0,1.0,1.0,67
+gtex_detailed,1,pca,Minor Salivary Gland,1.0,1.0,1.0,14
+gtex_detailed,1,pca,Muscle - Skeletal,1.0,1.0,1.0,92
+gtex_detailed,1,pca,Nerve - Tibial,1.0,0.9852941176470589,0.9925925925925926,68
+gtex_detailed,1,pca,Ovary,0.9565217391304348,1.0,0.9777777777777777,22
+gtex_detailed,1,pca,Pancreas,1.0,0.9722222222222222,0.9859154929577465,36
+gtex_detailed,1,pca,Pituitary,1.0,1.0,1.0,23
+gtex_detailed,1,pca,Prostate,1.0,0.9166666666666666,0.9565217391304348,24
+gtex_detailed,1,pca,Skin - Not Sun Exposed (Suprapubic),0.9803921568627451,0.9803921568627451,0.9803921568627451,51
+gtex_detailed,1,pca,Skin - Sun Exposed (Lower leg),0.9733333333333334,0.9733333333333334,0.9733333333333334,75
+gtex_detailed,1,pca,Small Intestine - Terminal Ileum,0.9523809523809523,0.9523809523809523,0.9523809523809523,21
+gtex_detailed,1,pca,Spleen,1.0,1.0,1.0,24
+gtex_detailed,1,pca,Stomach,1.0,0.9736842105263158,0.9866666666666667,38
+gtex_detailed,1,pca,Testis,1.0,1.0,1.0,41
+gtex_detailed,1,pca,Thyroid,1.0,0.9841269841269841,0.992,63
+gtex_detailed,1,pca,Uterus,1.0,0.8888888888888888,0.9411764705882353,18
+gtex_detailed,1,pca,Vagina,0.9047619047619048,0.9047619047619048,0.9047619047619048,21
+gtex_detailed,1,pca,Whole Blood,1.0,1.0,1.0,86
+gtex_broad,1,pca,Adipose Tissue,0.9754098360655737,0.9916666666666667,0.9834710743801653,120
+gtex_broad,1,pca,Adrenal Gland,1.0,1.0,1.0,31
+gtex_broad,1,pca,Bladder,1.0,1.0,1.0,2
+gtex_broad,1,pca,Blood,1.0,1.0,1.0,86
+gtex_broad,1,pca,Blood Vessel,0.9802631578947368,1.0,0.9900332225913622,149
+gtex_broad,1,pca,Brain,0.9963235294117647,1.0,0.998158379373849,271
+gtex_broad,1,pca,Breast,1.0,1.0,1.0,44
+gtex_broad,1,pca,Cervix Uteri,1.0,1.0,1.0,2
+gtex_broad,1,pca,Colon,1.0,0.9733333333333334,0.9864864864864865,75
+gtex_broad,1,pca,Esophagus,0.9936305732484076,1.0,0.9968051118210862,156
+gtex_broad,1,pca,Fallopian Tube,1.0,1.0,1.0,1
+gtex_broad,1,pca,Heart,1.0,0.978021978021978,0.9888888888888889,91
+gtex_broad,1,pca,Kidney,1.0,1.0,1.0,7
+gtex_broad,1,pca,Liver,1.0,1.0,1.0,27
+gtex_broad,1,pca,Lung,1.0,1.0,1.0,67
+gtex_broad,1,pca,Muscle,1.0,1.0,1.0,92
+gtex_broad,1,pca,Nerve,1.0,0.9852941176470589,0.9925925925925926,68
+gtex_broad,1,pca,Ovary,0.9166666666666666,1.0,0.9565217391304348,22
+gtex_broad,1,pca,Pancreas,1.0,1.0,1.0,36
+gtex_broad,1,pca,Pituitary,1.0,1.0,1.0,23
+gtex_broad,1,pca,Prostate,1.0,1.0,1.0,24
+gtex_broad,1,pca,Salivary Gland,0.9285714285714286,0.9285714285714286,0.9285714285714286,14
+gtex_broad,1,pca,Skin,0.9761904761904762,0.9761904761904762,0.9761904761904762,126
+gtex_broad,1,pca,Small Intestine,0.9523809523809523,0.9523809523809523,0.9523809523809523,21
+gtex_broad,1,pca,Spleen,1.0,1.0,1.0,24
+gtex_broad,1,pca,Stomach,1.0,0.9736842105263158,0.9866666666666667,38
+gtex_broad,1,pca,Testis,1.0,1.0,1.0,41
+gtex_broad,1,pca,Thyroid,1.0,0.9841269841269841,0.992,63
+gtex_broad,1,pca,Uterus,1.0,0.8888888888888888,0.9411764705882353,18
+gtex_broad,1,pca,Vagina,0.9523809523809523,0.9523809523809523,0.9523809523809523,21
+gtex_detailed,2,bridge,Adipose - Subcutaneous,0.8860759493670886,0.9459459459459459,0.9150326797385621,74
+gtex_detailed,2,bridge,Adipose - Visceral (Omentum),0.8490566037735849,0.9574468085106383,0.9,47
+gtex_detailed,2,bridge,Adrenal Gland,1.0,1.0,1.0,31
+gtex_detailed,2,bridge,Artery - Aorta,0.9607843137254902,1.0,0.98,49
+gtex_detailed,2,bridge,Artery - Coronary,0.9310344827586207,0.9310344827586207,0.9310344827586207,29
+gtex_detailed,2,bridge,Artery - Tibial,1.0,0.9722222222222222,0.9859154929577465,72
+gtex_detailed,2,bridge,Bladder,1.0,1.0,1.0,2
+gtex_detailed,2,bridge,Brain - Amygdala,0.7777777777777778,0.9333333333333333,0.8484848484848485,15
+gtex_detailed,2,bridge,Brain - Anterior cingulate cortex (BA24),0.8823529411764706,0.7894736842105263,0.8333333333333334,19
+gtex_detailed,2,bridge,Brain - Caudate (basal ganglia),0.896551724137931,0.9285714285714286,0.9122807017543859,28
+gtex_detailed,2,bridge,Brain - Cerebellar Hemisphere,0.9545454545454546,0.9130434782608695,0.9333333333333333,23
+gtex_detailed,2,bridge,Brain - Cerebellum,0.9629629629629629,0.9285714285714286,0.9454545454545454,28
+gtex_detailed,2,bridge,Brain - Cortex,0.9230769230769231,0.96,0.9411764705882353,25
+gtex_detailed,2,bridge,Brain - Frontal Cortex (BA9),0.9130434782608695,0.9130434782608695,0.9130434782608695,23
+gtex_detailed,2,bridge,Brain - Hippocampus,0.9473684210526315,0.9,0.9230769230769231,20
+gtex_detailed,2,bridge,Brain - Hypothalamus,0.9444444444444444,0.8095238095238095,0.8717948717948718,21
+gtex_detailed,2,bridge,Brain - Nucleus accumbens (basal ganglia),0.8518518518518519,0.8846153846153846,0.8679245283018868,26
+gtex_detailed,2,bridge,Brain - Putamen (basal ganglia),0.8421052631578947,0.8421052631578947,0.8421052631578947,19
+gtex_detailed,2,bridge,Brain - Spinal cord (cervical c-1),0.7777777777777778,0.9333333333333333,0.8484848484848485,15
+gtex_detailed,2,bridge,Brain - Substantia nigra,0.7692307692307693,0.7142857142857143,0.7407407407407407,14
+gtex_detailed,2,bridge,Breast - Mammary Tissue,0.975,0.9069767441860465,0.9397590361445783,43
+gtex_detailed,2,bridge,Cervix - Ectocervix,0.0,0.0,0.0,1
+gtex_detailed,2,bridge,Cervix - Endocervix,1.0,1.0,1.0,1
+gtex_detailed,2,bridge,Colon - Sigmoid,0.8125,0.7647058823529411,0.7878787878787878,34
+gtex_detailed,2,bridge,Colon - Transverse,0.85,0.85,0.85,40
+gtex_detailed,2,bridge,Esophagus - Gastroesophageal Junction,0.7096774193548387,0.6285714285714286,0.6666666666666666,35
+gtex_detailed,2,bridge,Esophagus - Mucosa,0.9384615384615385,0.9242424242424242,0.9312977099236641,66
+gtex_detailed,2,bridge,Esophagus - Muscularis,0.8305084745762712,0.8596491228070176,0.8448275862068966,57
+gtex_detailed,2,bridge,Fallopian Tube,0.0,0.0,0.0,3
+gtex_detailed,2,bridge,Heart - Atrial Appendage,1.0,0.9767441860465116,0.9882352941176471,43
+gtex_detailed,2,bridge,Heart - Left Ventricle,0.96,0.9795918367346939,0.9696969696969697,49
+gtex_detailed,2,bridge,Kidney - Cortex,1.0,1.0,1.0,7
+gtex_detailed,2,bridge,Liver,0.9642857142857143,1.0,0.9818181818181818,27
+gtex_detailed,2,bridge,Lung,1.0,1.0,1.0,67
+gtex_detailed,2,bridge,Minor Salivary Gland,0.9285714285714286,0.9285714285714286,0.9285714285714286,14
+gtex_detailed,2,bridge,Muscle - Skeletal,0.989010989010989,0.989010989010989,0.989010989010989,91
+gtex_detailed,2,bridge,Nerve - Tibial,1.0,0.9692307692307692,0.984375,65
+gtex_detailed,2,bridge,Ovary,1.0,1.0,1.0,21
+gtex_detailed,2,bridge,Pancreas,1.0,1.0,1.0,39
+gtex_detailed,2,bridge,Pituitary,1.0,1.0,1.0,26
+gtex_detailed,2,bridge,Prostate,1.0,0.9583333333333334,0.9787234042553191,24
+gtex_detailed,2,bridge,Skin - Not Sun Exposed (Suprapubic),0.8392857142857143,0.8392857142857143,0.8392857142857143,56
+gtex_detailed,2,bridge,Skin - Sun Exposed (Lower leg),0.8717948717948718,0.8831168831168831,0.8774193548387097,77
+gtex_detailed,2,bridge,Small Intestine - Terminal Ileum,0.9473684210526315,0.8571428571428571,0.9,21
+gtex_detailed,2,bridge,Spleen,1.0,0.9565217391304348,0.9777777777777777,23
+gtex_detailed,2,bridge,Stomach,0.9047619047619048,0.95,0.926829268292683,40
+gtex_detailed,2,bridge,Testis,1.0,1.0,1.0,39
+gtex_detailed,2,bridge,Thyroid,1.0,0.9857142857142858,0.9928057553956835,70
+gtex_detailed,2,bridge,Uterus,0.8947368421052632,1.0,0.9444444444444444,17
+gtex_detailed,2,bridge,Vagina,0.85,0.9444444444444444,0.8947368421052632,18
+gtex_detailed,2,bridge,Whole Blood,1.0,1.0,1.0,86
+gtex_broad,2,bridge,Adipose Tissue,0.8931297709923665,0.9669421487603306,0.9285714285714286,121
+gtex_broad,2,bridge,Adrenal Gland,1.0,1.0,1.0,31
+gtex_broad,2,bridge,Bladder,1.0,1.0,1.0,2
+gtex_broad,2,bridge,Blood,1.0,1.0,1.0,86
+gtex_broad,2,bridge,Blood Vessel,0.9798657718120806,0.9733333333333334,0.9765886287625418,150
+gtex_broad,2,bridge,Brain,1.0,1.0,1.0,276
+gtex_broad,2,bridge,Breast,0.975609756097561,0.9302325581395349,0.9523809523809523,43
+gtex_broad,2,bridge,Cervix Uteri,1.0,0.5,0.6666666666666666,2
+gtex_broad,2,bridge,Colon,0.9305555555555556,0.9054054054054054,0.9178082191780822,74
+gtex_broad,2,bridge,Esophagus,0.9556962025316456,0.9556962025316456,0.9556962025316456,158
+gtex_broad,2,bridge,Fallopian Tube,0.0,0.0,0.0,3
+gtex_broad,2,bridge,Heart,0.989010989010989,0.9782608695652174,0.9836065573770492,92
+gtex_broad,2,bridge,Kidney,1.0,1.0,1.0,7
+gtex_broad,2,bridge,Liver,1.0,1.0,1.0,27
+gtex_broad,2,bridge,Lung,1.0,0.9850746268656716,0.9924812030075187,67
+gtex_broad,2,bridge,Muscle,0.989010989010989,0.989010989010989,0.989010989010989,91
+gtex_broad,2,bridge,Nerve,1.0,0.9692307692307692,0.984375,65
+gtex_broad,2,bridge,Ovary,1.0,1.0,1.0,21
+gtex_broad,2,bridge,Pancreas,1.0,1.0,1.0,39
+gtex_broad,2,bridge,Pituitary,1.0,1.0,1.0,26
+gtex_broad,2,bridge,Prostate,1.0,0.9583333333333334,0.9787234042553191,24
+gtex_broad,2,bridge,Salivary Gland,0.8666666666666667,0.9285714285714286,0.896551724137931,14
+gtex_broad,2,bridge,Skin,0.9701492537313433,0.9774436090225563,0.9737827715355806,133
+gtex_broad,2,bridge,Small Intestine,0.9473684210526315,0.8571428571428571,0.9,21
+gtex_broad,2,bridge,Spleen,1.0,1.0,1.0,23
+gtex_broad,2,bridge,Stomach,0.9047619047619048,0.95,0.926829268292683,40
+gtex_broad,2,bridge,Testis,1.0,1.0,1.0,39
+gtex_broad,2,bridge,Thyroid,1.0,0.9857142857142858,0.9928057553956835,70
+gtex_broad,2,bridge,Uterus,0.8947368421052632,1.0,0.9444444444444444,17
+gtex_broad,2,bridge,Vagina,0.8947368421052632,0.9444444444444444,0.918918918918919,18
+gtex_detailed,2,raw,Adipose - Subcutaneous,0.948051948051948,0.9864864864864865,0.9668874172185431,74
+gtex_detailed,2,raw,Adipose - Visceral (Omentum),0.9019607843137255,0.9787234042553191,0.9387755102040817,47
+gtex_detailed,2,raw,Adrenal Gland,1.0,1.0,1.0,31
+gtex_detailed,2,raw,Artery - Aorta,0.9607843137254902,1.0,0.98,49
+gtex_detailed,2,raw,Artery - Coronary,0.9642857142857143,0.9310344827586207,0.9473684210526315,29
+gtex_detailed,2,raw,Artery - Tibial,1.0,0.9722222222222222,0.9859154929577465,72
+gtex_detailed,2,raw,Bladder,1.0,1.0,1.0,2
+gtex_detailed,2,raw,Brain - Amygdala,1.0,0.9333333333333333,0.9655172413793104,15
+gtex_detailed,2,raw,Brain - Anterior cingulate cortex (BA24),0.9444444444444444,0.8947368421052632,0.918918918918919,19
+gtex_detailed,2,raw,Brain - Caudate (basal ganglia),0.9285714285714286,0.9285714285714286,0.9285714285714286,28
+gtex_detailed,2,raw,Brain - Cerebellar Hemisphere,0.9565217391304348,0.9565217391304348,0.9565217391304348,23
+gtex_detailed,2,raw,Brain - Cerebellum,1.0,0.9642857142857143,0.9818181818181818,28
+gtex_detailed,2,raw,Brain - Cortex,1.0,0.96,0.9795918367346939,25
+gtex_detailed,2,raw,Brain - Frontal Cortex (BA9),0.8518518518518519,1.0,0.92,23
+gtex_detailed,2,raw,Brain - Hippocampus,0.9473684210526315,0.9,0.9230769230769231,20
+gtex_detailed,2,raw,Brain - Hypothalamus,0.9473684210526315,0.8571428571428571,0.9,21
+gtex_detailed,2,raw,Brain - Nucleus accumbens (basal ganglia),0.8275862068965517,0.9230769230769231,0.8727272727272727,26
+gtex_detailed,2,raw,Brain - Putamen (basal ganglia),0.8888888888888888,0.8421052631578947,0.8648648648648649,19
+gtex_detailed,2,raw,Brain - Spinal cord (cervical c-1),1.0,1.0,1.0,15
+gtex_detailed,2,raw,Brain - Substantia nigra,0.8666666666666667,0.9285714285714286,0.896551724137931,14
+gtex_detailed,2,raw,Breast - Mammary Tissue,0.9767441860465116,0.9767441860465116,0.9767441860465116,43
+gtex_detailed,2,raw,Cervix - Ectocervix,0.0,0.0,0.0,1
+gtex_detailed,2,raw,Cervix - Endocervix,1.0,1.0,1.0,1
+gtex_detailed,2,raw,Colon - Sigmoid,1.0,0.8823529411764706,0.9375,34
+gtex_detailed,2,raw,Colon - Transverse,0.9090909090909091,1.0,0.9523809523809523,40
+gtex_detailed,2,raw,Esophagus - Gastroesophageal Junction,0.8333333333333334,0.7142857142857143,0.7692307692307693,35
+gtex_detailed,2,raw,Esophagus - Mucosa,0.953125,0.9242424242424242,0.9384615384615385,66
+gtex_detailed,2,raw,Esophagus - Muscularis,0.85,0.8947368421052632,0.8717948717948718,57
+gtex_detailed,2,raw,Fallopian Tube,1.0,1.0,1.0,3
+gtex_detailed,2,raw,Heart - Atrial Appendage,1.0,0.9767441860465116,0.9882352941176471,43
+gtex_detailed,2,raw,Heart - Left Ventricle,0.9795918367346939,0.9795918367346939,0.9795918367346939,49
+gtex_detailed,2,raw,Kidney - Cortex,1.0,1.0,1.0,7
+gtex_detailed,2,raw,Liver,1.0,1.0,1.0,27
+gtex_detailed,2,raw,Lung,1.0,1.0,1.0,67
+gtex_detailed,2,raw,Minor Salivary Gland,0.9285714285714286,0.9285714285714286,0.9285714285714286,14
+gtex_detailed,2,raw,Muscle - Skeletal,0.9782608695652174,0.989010989010989,0.9836065573770492,91
+gtex_detailed,2,raw,Nerve - Tibial,1.0,0.9692307692307692,0.984375,65
+gtex_detailed,2,raw,Ovary,1.0,1.0,1.0,21
+gtex_detailed,2,raw,Pancreas,1.0,1.0,1.0,39
+gtex_detailed,2,raw,Pituitary,1.0,1.0,1.0,26
+gtex_detailed,2,raw,Prostate,1.0,0.9583333333333334,0.9787234042553191,24
+gtex_detailed,2,raw,Skin - Not Sun Exposed (Suprapubic),0.9285714285714286,0.9285714285714286,0.9285714285714286,56
+gtex_detailed,2,raw,Skin - Sun Exposed (Lower leg),0.935064935064935,0.935064935064935,0.935064935064935,77
+gtex_detailed,2,raw,Small Intestine - Terminal Ileum,0.9523809523809523,0.9523809523809523,0.9523809523809523,21
+gtex_detailed,2,raw,Spleen,1.0,1.0,1.0,23
+gtex_detailed,2,raw,Stomach,0.9512195121951219,0.975,0.9629629629629629,40
+gtex_detailed,2,raw,Testis,1.0,1.0,1.0,39
+gtex_detailed,2,raw,Thyroid,1.0,1.0,1.0,70
+gtex_detailed,2,raw,Uterus,1.0,1.0,1.0,17
+gtex_detailed,2,raw,Vagina,0.9473684210526315,1.0,0.972972972972973,18
+gtex_detailed,2,raw,Whole Blood,1.0,1.0,1.0,86
+gtex_broad,2,raw,Adipose Tissue,0.9212598425196851,0.9669421487603306,0.9435483870967742,121
+gtex_broad,2,raw,Adrenal Gland,1.0,1.0,1.0,31
+gtex_broad,2,raw,Bladder,1.0,1.0,1.0,2
+gtex_broad,2,raw,Blood,1.0,1.0,1.0,86
+gtex_broad,2,raw,Blood Vessel,0.98,0.98,0.98,150
+gtex_broad,2,raw,Brain,1.0,1.0,1.0,276
+gtex_broad,2,raw,Breast,0.9767441860465116,0.9767441860465116,0.9767441860465116,43
+gtex_broad,2,raw,Cervix Uteri,1.0,0.5,0.6666666666666666,2
+gtex_broad,2,raw,Colon,0.9726027397260274,0.9594594594594594,0.9659863945578231,74
+gtex_broad,2,raw,Esophagus,0.9870967741935484,0.9683544303797469,0.9776357827476039,158
+gtex_broad,2,raw,Fallopian Tube,1.0,0.6666666666666666,0.8,3
+gtex_broad,2,raw,Heart,0.989010989010989,0.9782608695652174,0.9836065573770492,92
+gtex_broad,2,raw,Kidney,1.0,1.0,1.0,7
+gtex_broad,2,raw,Liver,1.0,1.0,1.0,27
+gtex_broad,2,raw,Lung,1.0,1.0,1.0,67
+gtex_broad,2,raw,Muscle,0.9782608695652174,0.989010989010989,0.9836065573770492,91
+gtex_broad,2,raw,Nerve,1.0,0.9692307692307692,0.984375,65
+gtex_broad,2,raw,Ovary,1.0,1.0,1.0,21
+gtex_broad,2,raw,Pancreas,1.0,1.0,1.0,39
+gtex_broad,2,raw,Pituitary,1.0,1.0,1.0,26
+gtex_broad,2,raw,Prostate,1.0,0.9583333333333334,0.9787234042553191,24
+gtex_broad,2,raw,Salivary Gland,0.9285714285714286,0.9285714285714286,0.9285714285714286,14
+gtex_broad,2,raw,Skin,0.9555555555555556,0.9699248120300752,0.9626865671641791,133
+gtex_broad,2,raw,Small Intestine,0.9523809523809523,0.9523809523809523,0.9523809523809523,21
+gtex_broad,2,raw,Spleen,1.0,1.0,1.0,23
+gtex_broad,2,raw,Stomach,0.9512195121951219,0.975,0.9629629629629629,40
+gtex_broad,2,raw,Testis,1.0,1.0,1.0,39
+gtex_broad,2,raw,Thyroid,1.0,0.9857142857142858,0.9928057553956835,70
+gtex_broad,2,raw,Uterus,1.0,1.0,1.0,17
+gtex_broad,2,raw,Vagina,0.9473684210526315,1.0,0.972972972972973,18
+gtex_detailed,2,pca,Adipose - Subcutaneous,0.96,0.972972972972973,0.9664429530201343,74
+gtex_detailed,2,pca,Adipose - Visceral (Omentum),0.92,0.9787234042553191,0.9484536082474226,47
+gtex_detailed,2,pca,Adrenal Gland,1.0,1.0,1.0,31
+gtex_detailed,2,pca,Artery - Aorta,0.98,1.0,0.98989898989899,49
+gtex_detailed,2,pca,Artery - Coronary,0.9642857142857143,0.9310344827586207,0.9473684210526315,29
+gtex_detailed,2,pca,Artery - Tibial,1.0,0.9722222222222222,0.9859154929577465,72
+gtex_detailed,2,pca,Bladder,1.0,1.0,1.0,2
+gtex_detailed,2,pca,Brain - Amygdala,1.0,0.9333333333333333,0.9655172413793104,15
+gtex_detailed,2,pca,Brain - Anterior cingulate cortex (BA24),0.8888888888888888,0.8421052631578947,0.8648648648648649,19
+gtex_detailed,2,pca,Brain - Caudate (basal ganglia),0.9629629629629629,0.9285714285714286,0.9454545454545454,28
+gtex_detailed,2,pca,Brain - Cerebellar Hemisphere,1.0,0.9565217391304348,0.9777777777777777,23
+gtex_detailed,2,pca,Brain - Cerebellum,1.0,1.0,1.0,28
+gtex_detailed,2,pca,Brain - Cortex,1.0,1.0,1.0,25
+gtex_detailed,2,pca,Brain - Frontal Cortex (BA9),0.88,0.9565217391304348,0.9166666666666666,23
+gtex_detailed,2,pca,Brain - Hippocampus,0.9523809523809523,1.0,0.975609756097561,20
+gtex_detailed,2,pca,Brain - Hypothalamus,1.0,0.9047619047619048,0.95,21
+gtex_detailed,2,pca,Brain - Nucleus accumbens (basal ganglia),0.8275862068965517,0.9230769230769231,0.8727272727272727,26
+gtex_detailed,2,pca,Brain - Putamen (basal ganglia),0.8947368421052632,0.8947368421052632,0.8947368421052632,19
+gtex_detailed,2,pca,Brain - Spinal cord (cervical c-1),1.0,1.0,1.0,15
+gtex_detailed,2,pca,Brain - Substantia nigra,0.9285714285714286,0.9285714285714286,0.9285714285714286,14
+gtex_detailed,2,pca,Breast - Mammary Tissue,0.9772727272727273,1.0,0.9885057471264368,43
+gtex_detailed,2,pca,Cervix - Ectocervix,0.0,0.0,0.0,1
+gtex_detailed,2,pca,Cervix - Endocervix,1.0,1.0,1.0,1
+gtex_detailed,2,pca,Colon - Sigmoid,0.9666666666666667,0.8529411764705882,0.90625,34
+gtex_detailed,2,pca,Colon - Transverse,0.8837209302325582,0.95,0.9156626506024096,40
+gtex_detailed,2,pca,Esophagus - Gastroesophageal Junction,0.696969696969697,0.6571428571428571,0.6764705882352942,35
+gtex_detailed,2,pca,Esophagus - Mucosa,0.9682539682539683,0.9242424242424242,0.9457364341085271,66
+gtex_detailed,2,pca,Esophagus - Muscularis,0.7833333333333333,0.8245614035087719,0.8034188034188035,57
+gtex_detailed,2,pca,Fallopian Tube,1.0,0.6666666666666666,0.8,3
+gtex_detailed,2,pca,Heart - Atrial Appendage,0.9767441860465116,0.9767441860465116,0.9767441860465116,43
+gtex_detailed,2,pca,Heart - Left Ventricle,0.9791666666666666,0.9591836734693877,0.9690721649484536,49
+gtex_detailed,2,pca,Kidney - Cortex,1.0,1.0,1.0,7
+gtex_detailed,2,pca,Liver,1.0,1.0,1.0,27
+gtex_detailed,2,pca,Lung,1.0,1.0,1.0,67
+gtex_detailed,2,pca,Minor Salivary Gland,1.0,1.0,1.0,14
+gtex_detailed,2,pca,Muscle - Skeletal,0.9782608695652174,0.989010989010989,0.9836065573770492,91
+gtex_detailed,2,pca,Nerve - Tibial,1.0,0.9692307692307692,0.984375,65
+gtex_detailed,2,pca,Ovary,1.0,1.0,1.0,21
+gtex_detailed,2,pca,Pancreas,1.0,1.0,1.0,39
+gtex_detailed,2,pca,Pituitary,1.0,1.0,1.0,26
+gtex_detailed,2,pca,Prostate,1.0,0.9583333333333334,0.9787234042553191,24
+gtex_detailed,2,pca,Skin - Not Sun Exposed (Suprapubic),0.9622641509433962,0.9107142857142857,0.9357798165137615,56
+gtex_detailed,2,pca,Skin - Sun Exposed (Lower leg),0.9135802469135802,0.961038961038961,0.9367088607594937,77
+gtex_detailed,2,pca,Small Intestine - Terminal Ileum,0.9523809523809523,0.9523809523809523,0.9523809523809523,21
+gtex_detailed,2,pca,Spleen,1.0,1.0,1.0,23
+gtex_detailed,2,pca,Stomach,0.9285714285714286,0.975,0.9512195121951219,40
+gtex_detailed,2,pca,Testis,1.0,1.0,1.0,39
+gtex_detailed,2,pca,Thyroid,1.0,1.0,1.0,70
+gtex_detailed,2,pca,Uterus,0.9444444444444444,1.0,0.9714285714285714,17
+gtex_detailed,2,pca,Vagina,0.9473684210526315,1.0,0.972972972972973,18
+gtex_detailed,2,pca,Whole Blood,1.0,1.0,1.0,86
+gtex_broad,2,pca,Adipose Tissue,0.9285714285714286,0.9669421487603306,0.9473684210526315,121
+gtex_broad,2,pca,Adrenal Gland,1.0,1.0,1.0,31
+gtex_broad,2,pca,Bladder,1.0,1.0,1.0,2
+gtex_broad,2,pca,Blood,1.0,1.0,1.0,86
+gtex_broad,2,pca,Blood Vessel,0.9932885906040269,0.9866666666666667,0.9899665551839465,150
+gtex_broad,2,pca,Brain,1.0,1.0,1.0,276
+gtex_broad,2,pca,Breast,0.9772727272727273,1.0,0.9885057471264368,43
+gtex_broad,2,pca,Cervix Uteri,1.0,0.5,0.6666666666666666,2
+gtex_broad,2,pca,Colon,0.9583333333333334,0.9324324324324325,0.9452054794520548,74
+gtex_broad,2,pca,Esophagus,0.9807692307692307,0.9683544303797469,0.9745222929936306,158
+gtex_broad,2,pca,Fallopian Tube,1.0,0.6666666666666666,0.8,3
+gtex_broad,2,pca,Heart,0.989010989010989,0.9782608695652174,0.9836065573770492,92
+gtex_broad,2,pca,Kidney,1.0,1.0,1.0,7
+gtex_broad,2,pca,Liver,1.0,1.0,1.0,27
+gtex_broad,2,pca,Lung,1.0,1.0,1.0,67
+gtex_broad,2,pca,Muscle,0.9782608695652174,0.989010989010989,0.9836065573770492,91
+gtex_broad,2,pca,Nerve,0.984375,0.9692307692307692,0.9767441860465116,65
+gtex_broad,2,pca,Ovary,1.0,1.0,1.0,21
+gtex_broad,2,pca,Pancreas,1.0,1.0,1.0,39
+gtex_broad,2,pca,Pituitary,1.0,1.0,1.0,26
+gtex_broad,2,pca,Prostate,1.0,1.0,1.0,24
+gtex_broad,2,pca,Salivary Gland,1.0,1.0,1.0,14
+gtex_broad,2,pca,Skin,0.9699248120300752,0.9699248120300752,0.9699248120300752,133
+gtex_broad,2,pca,Small Intestine,0.9523809523809523,0.9523809523809523,0.9523809523809523,21
+gtex_broad,2,pca,Spleen,1.0,1.0,1.0,23
+gtex_broad,2,pca,Stomach,0.926829268292683,0.95,0.9382716049382716,40
+gtex_broad,2,pca,Testis,1.0,1.0,1.0,39
+gtex_broad,2,pca,Thyroid,1.0,1.0,1.0,70
+gtex_broad,2,pca,Uterus,1.0,1.0,1.0,17
+gtex_broad,2,pca,Vagina,0.9473684210526315,1.0,0.972972972972973,18
+gtex_detailed,3,bridge,Adipose - Subcutaneous,0.922077922077922,0.9726027397260274,0.9466666666666667,73
+gtex_detailed,3,bridge,Adipose - Visceral (Omentum),0.9361702127659575,0.9361702127659575,0.9361702127659575,47
+gtex_detailed,3,bridge,Adrenal Gland,1.0,1.0,1.0,32
+gtex_detailed,3,bridge,Artery - Aorta,0.9787234042553191,0.9787234042553191,0.9787234042553191,47
+gtex_detailed,3,bridge,Artery - Coronary,0.9166666666666666,0.8461538461538461,0.88,26
+gtex_detailed,3,bridge,Artery - Tibial,0.971830985915493,0.971830985915493,0.971830985915493,71
+gtex_detailed,3,bridge,Bladder,1.0,1.0,1.0,2
+gtex_detailed,3,bridge,Brain - Amygdala,0.7058823529411765,0.7058823529411765,0.7058823529411765,17
+gtex_detailed,3,bridge,Brain - Anterior cingulate cortex (BA24),0.8461538461538461,0.5789473684210527,0.6875,19
+gtex_detailed,3,bridge,Brain - Caudate (basal ganglia),0.8461538461538461,0.8148148148148148,0.8301886792452831,27
+gtex_detailed,3,bridge,Brain - Cerebellar Hemisphere,0.9166666666666666,0.9565217391304348,0.9361702127659575,23
+gtex_detailed,3,bridge,Brain - Cerebellum,0.9615384615384616,0.8928571428571429,0.9259259259259259,28
+gtex_detailed,3,bridge,Brain - Cortex,0.8846153846153846,0.8846153846153846,0.8846153846153846,26
+gtex_detailed,3,bridge,Brain - Frontal Cortex (BA9),0.7241379310344828,0.875,0.7924528301886793,24
+gtex_detailed,3,bridge,Brain - Hippocampus,0.6190476190476191,0.65,0.6341463414634146,20
+gtex_detailed,3,bridge,Brain - Hypothalamus,1.0,0.6842105263157895,0.8125,19
+gtex_detailed,3,bridge,Brain - Nucleus accumbens (basal ganglia),0.7916666666666666,0.76,0.7755102040816326,25
+gtex_detailed,3,bridge,Brain - Putamen (basal ganglia),0.7727272727272727,0.7391304347826086,0.7555555555555555,23
+gtex_detailed,3,bridge,Brain - Spinal cord (cervical c-1),0.8235294117647058,1.0,0.9032258064516129,14
+gtex_detailed,3,bridge,Brain - Substantia nigra,0.6470588235294118,0.7857142857142857,0.7096774193548387,14
+gtex_detailed,3,bridge,Breast - Mammary Tissue,0.975,0.9069767441860465,0.9397590361445783,43
+gtex_detailed,3,bridge,Cervix - Ectocervix,0.0,0.0,0.0,2
+gtex_detailed,3,bridge,Cervix - Endocervix,0.0,0.0,0.0,1
+gtex_detailed,3,bridge,Colon - Sigmoid,0.8108108108108109,0.8571428571428571,0.8333333333333334,35
+gtex_detailed,3,bridge,Colon - Transverse,0.8809523809523809,0.8604651162790697,0.8705882352941177,43
+gtex_detailed,3,bridge,Esophagus - Gastroesophageal Junction,0.7777777777777778,0.6,0.6774193548387096,35
+gtex_detailed,3,bridge,Esophagus - Mucosa,0.9705882352941176,0.9850746268656716,0.9777777777777777,67
+gtex_detailed,3,bridge,Esophagus - Muscularis,0.7936507936507936,0.8928571428571429,0.8403361344537815,56
+gtex_detailed,3,bridge,Fallopian Tube,0.0,0.0,0.0,1
+gtex_detailed,3,bridge,Heart - Atrial Appendage,1.0,0.9772727272727273,0.9885057471264368,44
+gtex_detailed,3,bridge,Heart - Left Ventricle,0.98,1.0,0.98989898989899,49
+gtex_detailed,3,bridge,Kidney - Cortex,1.0,1.0,1.0,7
+gtex_detailed,3,bridge,Liver,1.0,1.0,1.0,27
+gtex_detailed,3,bridge,Lung,1.0,1.0,1.0,66
+gtex_detailed,3,bridge,Minor Salivary Gland,1.0,0.9230769230769231,0.96,13
+gtex_detailed,3,bridge,Muscle - Skeletal,1.0,1.0,1.0,90
+gtex_detailed,3,bridge,Nerve - Tibial,1.0,1.0,1.0,68
+gtex_detailed,3,bridge,Ovary,1.0,0.8636363636363636,0.926829268292683,22
+gtex_detailed,3,bridge,Pancreas,1.0,1.0,1.0,39
+gtex_detailed,3,bridge,Pituitary,0.9259259259259259,1.0,0.9615384615384616,25
+gtex_detailed,3,bridge,Prostate,1.0,1.0,1.0,23
+gtex_detailed,3,bridge,Skin - Not Sun Exposed (Suprapubic),0.9183673469387755,0.8490566037735849,0.8823529411764706,53
+gtex_detailed,3,bridge,Skin - Sun Exposed (Lower leg),0.8795180722891566,0.948051948051948,0.9125,77
+gtex_detailed,3,bridge,Small Intestine - Terminal Ileum,0.76,0.95,0.8444444444444444,20
+gtex_detailed,3,bridge,Spleen,1.0,1.0,1.0,24
+gtex_detailed,3,bridge,Stomach,0.975609756097561,0.975609756097561,0.975609756097561,41
+gtex_detailed,3,bridge,Testis,1.0,1.0,1.0,40
+gtex_detailed,3,bridge,Thyroid,1.0,1.0,1.0,69
+gtex_detailed,3,bridge,Uterus,0.9473684210526315,1.0,0.972972972972973,18
+gtex_detailed,3,bridge,Vagina,0.9,0.9,0.9,20
+gtex_detailed,3,bridge,Whole Blood,1.0,0.9882352941176471,0.9940828402366864,85
+gtex_broad,3,bridge,Adipose Tissue,0.9426229508196722,0.9583333333333334,0.9504132231404959,120
+gtex_broad,3,bridge,Adrenal Gland,1.0,0.96875,0.9841269841269841,32
+gtex_broad,3,bridge,Bladder,1.0,1.0,1.0,2
+gtex_broad,3,bridge,Blood,1.0,0.9882352941176471,0.9940828402366864,85
+gtex_broad,3,bridge,Blood Vessel,0.9724137931034482,0.9791666666666666,0.9757785467128027,144
+gtex_broad,3,bridge,Brain,1.0,0.992831541218638,0.9964028776978417,279
+gtex_broad,3,bridge,Breast,0.925,0.8604651162790697,0.891566265060241,43
+gtex_broad,3,bridge,Cervix Uteri,1.0,0.3333333333333333,0.5,3
+gtex_broad,3,bridge,Colon,0.9743589743589743,0.9743589743589743,0.9743589743589743,78
+gtex_broad,3,bridge,Esophagus,0.9813664596273292,1.0,0.9905956112852664,158
+gtex_broad,3,bridge,Fallopian Tube,0.0,0.0,0.0,1
+gtex_broad,3,bridge,Heart,0.9893617021276596,1.0,0.9946524064171123,93
+gtex_broad,3,bridge,Kidney,1.0,1.0,1.0,7
+gtex_broad,3,bridge,Liver,1.0,1.0,1.0,27
+gtex_broad,3,bridge,Lung,1.0,1.0,1.0,66
+gtex_broad,3,bridge,Muscle,1.0,1.0,1.0,90
+gtex_broad,3,bridge,Nerve,1.0,0.9852941176470589,0.9925925925925926,68
+gtex_broad,3,bridge,Ovary,1.0,0.8181818181818182,0.9,22
+gtex_broad,3,bridge,Pancreas,1.0,1.0,1.0,39
+gtex_broad,3,bridge,Pituitary,0.9615384615384616,1.0,0.9803921568627451,25
+gtex_broad,3,bridge,Prostate,1.0,1.0,1.0,23
+gtex_broad,3,bridge,Salivary Gland,1.0,0.9230769230769231,0.96,13
+gtex_broad,3,bridge,Skin,0.9848484848484849,1.0,0.9923664122137404,130
+gtex_broad,3,bridge,Small Intestine,0.7916666666666666,0.95,0.8636363636363636,20
+gtex_broad,3,bridge,Spleen,1.0,1.0,1.0,24
+gtex_broad,3,bridge,Stomach,0.975609756097561,0.975609756097561,0.975609756097561,41
+gtex_broad,3,bridge,Testis,1.0,1.0,1.0,40
+gtex_broad,3,bridge,Thyroid,1.0,1.0,1.0,69
+gtex_broad,3,bridge,Uterus,0.9444444444444444,0.9444444444444444,0.9444444444444444,18
+gtex_broad,3,bridge,Vagina,0.9,0.9,0.9,20
+gtex_detailed,3,raw,Adipose - Subcutaneous,0.9863013698630136,0.9863013698630136,0.9863013698630136,73
+gtex_detailed,3,raw,Adipose - Visceral (Omentum),0.9787234042553191,0.9787234042553191,0.9787234042553191,47
+gtex_detailed,3,raw,Adrenal Gland,1.0,1.0,1.0,32
+gtex_detailed,3,raw,Artery - Aorta,1.0,1.0,1.0,47
+gtex_detailed,3,raw,Artery - Coronary,1.0,0.9615384615384616,0.9803921568627451,26
+gtex_detailed,3,raw,Artery - Tibial,1.0,0.9859154929577465,0.9929078014184397,71
+gtex_detailed,3,raw,Bladder,0.6666666666666666,1.0,0.8,2
+gtex_detailed,3,raw,Brain - Amygdala,0.8823529411764706,0.8823529411764706,0.8823529411764706,17
+gtex_detailed,3,raw,Brain - Anterior cingulate cortex (BA24),0.85,0.8947368421052632,0.8717948717948718,19
+gtex_detailed,3,raw,Brain - Caudate (basal ganglia),0.8571428571428571,0.8888888888888888,0.8727272727272727,27
+gtex_detailed,3,raw,Brain - Cerebellar Hemisphere,0.9166666666666666,0.9565217391304348,0.9361702127659575,23
+gtex_detailed,3,raw,Brain - Cerebellum,0.9655172413793104,1.0,0.9824561403508771,28
+gtex_detailed,3,raw,Brain - Cortex,1.0,1.0,1.0,26
+gtex_detailed,3,raw,Brain - Frontal Cortex (BA9),0.9130434782608695,0.875,0.8936170212765957,24
+gtex_detailed,3,raw,Brain - Hippocampus,0.8421052631578947,0.8,0.8205128205128205,20
+gtex_detailed,3,raw,Brain - Hypothalamus,0.8333333333333334,0.7894736842105263,0.8108108108108109,19
+gtex_detailed,3,raw,Brain - Nucleus accumbens (basal ganglia),0.8260869565217391,0.76,0.7916666666666666,25
+gtex_detailed,3,raw,Brain - Putamen (basal ganglia),0.9047619047619048,0.8260869565217391,0.8636363636363636,23
+gtex_detailed,3,raw,Brain - Spinal cord (cervical c-1),0.9333333333333333,1.0,0.9655172413793104,14
+gtex_detailed,3,raw,Brain - Substantia nigra,0.7333333333333333,0.7857142857142857,0.7586206896551724,14
+gtex_detailed,3,raw,Breast - Mammary Tissue,1.0,1.0,1.0,43
+gtex_detailed,3,raw,Cervix - Ectocervix,0.5,0.5,0.5,2
+gtex_detailed,3,raw,Cervix - Endocervix,0.0,0.0,0.0,1
+gtex_detailed,3,raw,Colon - Sigmoid,0.8648648648648649,0.9142857142857143,0.8888888888888888,35
+gtex_detailed,3,raw,Colon - Transverse,0.9512195121951219,0.9069767441860465,0.9285714285714286,43
+gtex_detailed,3,raw,Esophagus - Gastroesophageal Junction,0.7666666666666667,0.6571428571428571,0.7076923076923077,35
+gtex_detailed,3,raw,Esophagus - Mucosa,0.9710144927536232,1.0,0.9852941176470589,67
+gtex_detailed,3,raw,Esophagus - Muscularis,0.8166666666666667,0.875,0.8448275862068966,56
+gtex_detailed,3,raw,Fallopian Tube,1.0,1.0,1.0,1
+gtex_detailed,3,raw,Heart - Atrial Appendage,1.0,0.9772727272727273,0.9885057471264368,44
+gtex_detailed,3,raw,Heart - Left Ventricle,0.98,1.0,0.98989898989899,49
+gtex_detailed,3,raw,Kidney - Cortex,1.0,1.0,1.0,7
+gtex_detailed,3,raw,Liver,1.0,1.0,1.0,27
+gtex_detailed,3,raw,Lung,0.9850746268656716,1.0,0.9924812030075187,66
+gtex_detailed,3,raw,Minor Salivary Gland,1.0,1.0,1.0,13
+gtex_detailed,3,raw,Muscle - Skeletal,1.0,1.0,1.0,90
+gtex_detailed,3,raw,Nerve - Tibial,1.0,1.0,1.0,68
+gtex_detailed,3,raw,Ovary,0.9523809523809523,0.9090909090909091,0.9302325581395349,22
+gtex_detailed,3,raw,Pancreas,1.0,1.0,1.0,39
+gtex_detailed,3,raw,Pituitary,1.0,1.0,1.0,25
+gtex_detailed,3,raw,Prostate,1.0,1.0,1.0,23
+gtex_detailed,3,raw,Skin - Not Sun Exposed (Suprapubic),0.9807692307692307,0.9622641509433962,0.9714285714285714,53
+gtex_detailed,3,raw,Skin - Sun Exposed (Lower leg),0.95,0.987012987012987,0.9681528662420382,77
+gtex_detailed,3,raw,Small Intestine - Terminal Ileum,0.95,0.95,0.95,20
+gtex_detailed,3,raw,Spleen,1.0,1.0,1.0,24
+gtex_detailed,3,raw,Stomach,1.0,0.975609756097561,0.9876543209876543,41
+gtex_detailed,3,raw,Testis,1.0,1.0,1.0,40
+gtex_detailed,3,raw,Thyroid,1.0,1.0,1.0,69
+gtex_detailed,3,raw,Uterus,1.0,1.0,1.0,18
+gtex_detailed,3,raw,Vagina,0.9047619047619048,0.95,0.926829268292683,20
+gtex_detailed,3,raw,Whole Blood,1.0,1.0,1.0,85
+gtex_broad,3,raw,Adipose Tissue,0.9830508474576272,0.9666666666666667,0.9747899159663865,120
+gtex_broad,3,raw,Adrenal Gland,1.0,1.0,1.0,32
+gtex_broad,3,raw,Bladder,0.6666666666666666,1.0,0.8,2
+gtex_broad,3,raw,Blood,1.0,1.0,1.0,85
+gtex_broad,3,raw,Blood Vessel,0.9861111111111112,0.9861111111111112,0.9861111111111112,144
+gtex_broad,3,raw,Brain,1.0,1.0,1.0,279
+gtex_broad,3,raw,Breast,1.0,0.9767441860465116,0.9882352941176471,43
+gtex_broad,3,raw,Cervix Uteri,1.0,0.6666666666666666,0.8,3
+gtex_broad,3,raw,Colon,0.987012987012987,0.9743589743589743,0.9806451612903225,78
+gtex_broad,3,raw,Esophagus,1.0,0.9936708860759493,0.9968253968253968,158
+gtex_broad,3,raw,Fallopian Tube,1.0,1.0,1.0,1
+gtex_broad,3,raw,Heart,1.0,1.0,1.0,93
+gtex_broad,3,raw,Kidney,1.0,1.0,1.0,7
+gtex_broad,3,raw,Liver,1.0,1.0,1.0,27
+gtex_broad,3,raw,Lung,1.0,1.0,1.0,66
+gtex_broad,3,raw,Muscle,1.0,1.0,1.0,90
+gtex_broad,3,raw,Nerve,1.0,1.0,1.0,68
+gtex_broad,3,raw,Ovary,0.9523809523809523,0.9090909090909091,0.9302325581395349,22
+gtex_broad,3,raw,Pancreas,1.0,1.0,1.0,39
+gtex_broad,3,raw,Pituitary,1.0,1.0,1.0,25
+gtex_broad,3,raw,Prostate,1.0,1.0,1.0,23
+gtex_broad,3,raw,Salivary Gland,1.0,1.0,1.0,13
+gtex_broad,3,raw,Skin,0.9848484848484849,1.0,0.9923664122137404,130
+gtex_broad,3,raw,Small Intestine,0.8636363636363636,0.95,0.9047619047619048,20
+gtex_broad,3,raw,Spleen,1.0,1.0,1.0,24
+gtex_broad,3,raw,Stomach,0.9523809523809523,0.975609756097561,0.963855421686747,41
+gtex_broad,3,raw,Testis,1.0,1.0,1.0,40
+gtex_broad,3,raw,Thyroid,1.0,1.0,1.0,69
+gtex_broad,3,raw,Uterus,1.0,1.0,1.0,18
+gtex_broad,3,raw,Vagina,0.9047619047619048,0.95,0.926829268292683,20
+gtex_detailed,3,pca,Adipose - Subcutaneous,0.9863013698630136,0.9863013698630136,0.9863013698630136,73
+gtex_detailed,3,pca,Adipose - Visceral (Omentum),1.0,0.9787234042553191,0.989247311827957,47
+gtex_detailed,3,pca,Adrenal Gland,1.0,1.0,1.0,32
+gtex_detailed,3,pca,Artery - Aorta,1.0,1.0,1.0,47
+gtex_detailed,3,pca,Artery - Coronary,1.0,0.9615384615384616,0.9803921568627451,26
+gtex_detailed,3,pca,Artery - Tibial,1.0,0.9859154929577465,0.9929078014184397,71
+gtex_detailed,3,pca,Bladder,0.6666666666666666,1.0,0.8,2
+gtex_detailed,3,pca,Brain - Amygdala,0.8333333333333334,0.8823529411764706,0.8571428571428571,17
+gtex_detailed,3,pca,Brain - Anterior cingulate cortex (BA24),0.8888888888888888,0.8421052631578947,0.8648648648648649,19
+gtex_detailed,3,pca,Brain - Caudate (basal ganglia),0.8571428571428571,0.8888888888888888,0.8727272727272727,27
+gtex_detailed,3,pca,Brain - Cerebellar Hemisphere,1.0,1.0,1.0,23
+gtex_detailed,3,pca,Brain - Cerebellum,1.0,1.0,1.0,28
+gtex_detailed,3,pca,Brain - Cortex,1.0,1.0,1.0,26
+gtex_detailed,3,pca,Brain - Frontal Cortex (BA9),0.88,0.9166666666666666,0.8979591836734694,24
+gtex_detailed,3,pca,Brain - Hippocampus,0.8421052631578947,0.8,0.8205128205128205,20
+gtex_detailed,3,pca,Brain - Hypothalamus,0.9333333333333333,0.7368421052631579,0.8235294117647058,19
+gtex_detailed,3,pca,Brain - Nucleus accumbens (basal ganglia),0.8076923076923077,0.84,0.8235294117647058,25
+gtex_detailed,3,pca,Brain - Putamen (basal ganglia),0.7916666666666666,0.8260869565217391,0.8085106382978723,23
+gtex_detailed,3,pca,Brain - Spinal cord (cervical c-1),1.0,1.0,1.0,14
+gtex_detailed,3,pca,Brain - Substantia nigra,0.8235294117647058,1.0,0.9032258064516129,14
+gtex_detailed,3,pca,Breast - Mammary Tissue,1.0,1.0,1.0,43
+gtex_detailed,3,pca,Cervix - Ectocervix,0.5,0.5,0.5,2
+gtex_detailed,3,pca,Cervix - Endocervix,0.0,0.0,0.0,1
+gtex_detailed,3,pca,Colon - Sigmoid,0.8461538461538461,0.9428571428571428,0.8918918918918919,35
+gtex_detailed,3,pca,Colon - Transverse,1.0,0.8604651162790697,0.925,43
+gtex_detailed,3,pca,Esophagus - Gastroesophageal Junction,0.696969696969697,0.6571428571428571,0.6764705882352942,35
+gtex_detailed,3,pca,Esophagus - Mucosa,0.9710144927536232,1.0,0.9852941176470589,67
+gtex_detailed,3,pca,Esophagus - Muscularis,0.7966101694915254,0.8392857142857143,0.8173913043478261,56
+gtex_detailed,3,pca,Fallopian Tube,0.0,0.0,0.0,1
+gtex_detailed,3,pca,Heart - Atrial Appendage,1.0,1.0,1.0,44
+gtex_detailed,3,pca,Heart - Left Ventricle,1.0,1.0,1.0,49
+gtex_detailed,3,pca,Kidney - Cortex,1.0,1.0,1.0,7
+gtex_detailed,3,pca,Liver,1.0,1.0,1.0,27
+gtex_detailed,3,pca,Lung,1.0,1.0,1.0,66
+gtex_detailed,3,pca,Minor Salivary Gland,1.0,0.9230769230769231,0.96,13
+gtex_detailed,3,pca,Muscle - Skeletal,1.0,1.0,1.0,90
+gtex_detailed,3,pca,Nerve - Tibial,1.0,1.0,1.0,68
+gtex_detailed,3,pca,Ovary,0.9523809523809523,0.9090909090909091,0.9302325581395349,22
+gtex_detailed,3,pca,Pancreas,1.0,1.0,1.0,39
+gtex_detailed,3,pca,Pituitary,1.0,1.0,1.0,25
+gtex_detailed,3,pca,Prostate,1.0,1.0,1.0,23
+gtex_detailed,3,pca,Skin - Not Sun Exposed (Suprapubic),1.0,0.9811320754716981,0.9904761904761905,53
+gtex_detailed,3,pca,Skin - Sun Exposed (Lower leg),0.9625,1.0,0.9808917197452229,77
+gtex_detailed,3,pca,Small Intestine - Terminal Ileum,0.9523809523809523,1.0,0.975609756097561,20
+gtex_detailed,3,pca,Spleen,1.0,1.0,1.0,24
+gtex_detailed,3,pca,Stomach,1.0,0.975609756097561,0.9876543209876543,41
+gtex_detailed,3,pca,Testis,1.0,1.0,1.0,40
+gtex_detailed,3,pca,Thyroid,1.0,1.0,1.0,69
+gtex_detailed,3,pca,Uterus,0.9473684210526315,1.0,0.972972972972973,18
+gtex_detailed,3,pca,Vagina,0.9047619047619048,0.95,0.926829268292683,20
+gtex_detailed,3,pca,Whole Blood,1.0,0.9882352941176471,0.9940828402366864,85
+gtex_broad,3,pca,Adipose Tissue,1.0,0.9916666666666667,0.99581589958159,120
+gtex_broad,3,pca,Adrenal Gland,1.0,1.0,1.0,32
+gtex_broad,3,pca,Bladder,0.6666666666666666,1.0,0.8,2
+gtex_broad,3,pca,Blood,1.0,1.0,1.0,85
+gtex_broad,3,pca,Blood Vessel,0.9930555555555556,0.9930555555555556,0.9930555555555556,144
+gtex_broad,3,pca,Brain,1.0,0.992831541218638,0.9964028776978417,279
+gtex_broad,3,pca,Breast,1.0,1.0,1.0,43
+gtex_broad,3,pca,Cervix Uteri,0.6666666666666666,0.6666666666666666,0.6666666666666666,3
+gtex_broad,3,pca,Colon,0.987012987012987,0.9743589743589743,0.9806451612903225,78
+gtex_broad,3,pca,Esophagus,1.0,1.0,1.0,158
+gtex_broad,3,pca,Fallopian Tube,1.0,1.0,1.0,1
+gtex_broad,3,pca,Heart,1.0,1.0,1.0,93
+gtex_broad,3,pca,Kidney,1.0,1.0,1.0,7
+gtex_broad,3,pca,Liver,1.0,1.0,1.0,27
+gtex_broad,3,pca,Lung,1.0,1.0,1.0,66
+gtex_broad,3,pca,Muscle,1.0,1.0,1.0,90
+gtex_broad,3,pca,Nerve,1.0,1.0,1.0,68
+gtex_broad,3,pca,Ovary,0.9523809523809523,0.9090909090909091,0.9302325581395349,22
+gtex_broad,3,pca,Pancreas,1.0,1.0,1.0,39
+gtex_broad,3,pca,Pituitary,1.0,1.0,1.0,25
+gtex_broad,3,pca,Prostate,1.0,1.0,1.0,23
+gtex_broad,3,pca,Salivary Gland,1.0,0.9230769230769231,0.96,13
+gtex_broad,3,pca,Skin,0.9629629629629629,1.0,0.9811320754716981,130
+gtex_broad,3,pca,Small Intestine,0.95,0.95,0.95,20
+gtex_broad,3,pca,Spleen,1.0,1.0,1.0,24
+gtex_broad,3,pca,Stomach,0.975609756097561,0.975609756097561,0.975609756097561,41
+gtex_broad,3,pca,Testis,1.0,1.0,1.0,40
+gtex_broad,3,pca,Thyroid,1.0,1.0,1.0,69
+gtex_broad,3,pca,Uterus,1.0,1.0,1.0,18
+gtex_broad,3,pca,Vagina,0.9,0.9,0.9,20
+gtex_detailed,4,bridge,Adipose - Subcutaneous,0.8780487804878049,0.9863013698630136,0.9290322580645162,73
+gtex_detailed,4,bridge,Adipose - Visceral (Omentum),0.9166666666666666,0.9361702127659575,0.9263157894736842,47
+gtex_detailed,4,bridge,Adrenal Gland,1.0,1.0,1.0,32
+gtex_detailed,4,bridge,Artery - Aorta,1.0,0.9622641509433962,0.9807692307692307,53
+gtex_detailed,4,bridge,Artery - Coronary,0.9285714285714286,0.896551724137931,0.9122807017543859,29
+gtex_detailed,4,bridge,Artery - Tibial,0.9859154929577465,0.9859154929577465,0.9859154929577465,71
+gtex_detailed,4,bridge,Bladder,1.0,1.0,1.0,2
+gtex_detailed,4,bridge,Brain - Amygdala,0.8181818181818182,0.5294117647058824,0.6428571428571429,17
+gtex_detailed,4,bridge,Brain - Anterior cingulate cortex (BA24),0.7619047619047619,0.8421052631578947,0.8,19
+gtex_detailed,4,bridge,Brain - Caudate (basal ganglia),0.9545454545454546,0.8076923076923077,0.875,26
+gtex_detailed,4,bridge,Brain - Cerebellar Hemisphere,0.9166666666666666,0.9565217391304348,0.9361702127659575,23
+gtex_detailed,4,bridge,Brain - Cerebellum,0.96,0.9230769230769231,0.9411764705882353,26
+gtex_detailed,4,bridge,Brain - Cortex,0.9285714285714286,0.9629629629629629,0.9454545454545454,27
+gtex_detailed,4,bridge,Brain - Frontal Cortex (BA9),0.7692307692307693,0.9090909090909091,0.8333333333333334,22
+gtex_detailed,4,bridge,Brain - Hippocampus,0.75,0.7894736842105263,0.7692307692307693,19
+gtex_detailed,4,bridge,Brain - Hypothalamus,0.8636363636363636,0.9047619047619048,0.8837209302325582,21
+gtex_detailed,4,bridge,Brain - Nucleus accumbens (basal ganglia),0.8260869565217391,0.7916666666666666,0.8085106382978723,24
+gtex_detailed,4,bridge,Brain - Putamen (basal ganglia),0.6956521739130435,0.8,0.7441860465116279,20
+gtex_detailed,4,bridge,Brain - Spinal cord (cervical c-1),0.9333333333333333,1.0,0.9655172413793104,14
+gtex_detailed,4,bridge,Brain - Substantia nigra,0.8571428571428571,0.8,0.8275862068965517,15
+gtex_detailed,4,bridge,Breast - Mammary Tissue,1.0,0.8863636363636364,0.9397590361445783,44
+gtex_detailed,4,bridge,Cervix - Ectocervix,0.0,0.0,0.0,1
+gtex_detailed,4,bridge,Cervix - Endocervix,0.0,0.0,0.0,1
+gtex_detailed,4,bridge,Colon - Sigmoid,0.8857142857142857,0.9117647058823529,0.8985507246376812,34
+gtex_detailed,4,bridge,Colon - Transverse,0.8974358974358975,0.8974358974358975,0.8974358974358975,39
+gtex_detailed,4,bridge,Esophagus - Gastroesophageal Junction,0.75,0.5142857142857142,0.6101694915254238,35
+gtex_detailed,4,bridge,Esophagus - Mucosa,0.8985507246376812,0.9538461538461539,0.9253731343283582,65
+gtex_detailed,4,bridge,Esophagus - Muscularis,0.75,0.8888888888888888,0.8135593220338984,54
+gtex_detailed,4,bridge,Fallopian Tube,0.0,0.0,0.0,1
+gtex_detailed,4,bridge,Heart - Atrial Appendage,0.9767441860465116,0.9767441860465116,0.9767441860465116,43
+gtex_detailed,4,bridge,Heart - Left Ventricle,0.9803921568627451,1.0,0.9900990099009901,50
+gtex_detailed,4,bridge,Kidney - Cortex,1.0,0.875,0.9333333333333333,8
+gtex_detailed,4,bridge,Liver,1.0,1.0,1.0,27
+gtex_detailed,4,bridge,Lung,1.0,1.0,1.0,69
+gtex_detailed,4,bridge,Minor Salivary Gland,1.0,0.7692307692307693,0.8695652173913043,13
+gtex_detailed,4,bridge,Muscle - Skeletal,1.0,1.0,1.0,88
+gtex_detailed,4,bridge,Nerve - Tibial,1.0,0.9848484848484849,0.9923664122137404,66
+gtex_detailed,4,bridge,Ovary,0.9523809523809523,0.9523809523809523,0.9523809523809523,21
+gtex_detailed,4,bridge,Pancreas,0.975609756097561,1.0,0.9876543209876543,40
+gtex_detailed,4,bridge,Pituitary,1.0,0.9629629629629629,0.9811320754716981,27
+gtex_detailed,4,bridge,Prostate,1.0,0.9166666666666666,0.9565217391304348,24
+gtex_detailed,4,bridge,Skin - Not Sun Exposed (Suprapubic),0.9574468085106383,0.8490566037735849,0.9,53
+gtex_detailed,4,bridge,Skin - Sun Exposed (Lower leg),0.9,0.96,0.9290322580645162,75
+gtex_detailed,4,bridge,Small Intestine - Terminal Ileum,1.0,0.9523809523809523,0.975609756097561,21
+gtex_detailed,4,bridge,Spleen,1.0,1.0,1.0,24
+gtex_detailed,4,bridge,Stomach,0.9069767441860465,0.975,0.9397590361445783,40
+gtex_detailed,4,bridge,Testis,1.0,1.0,1.0,39
+gtex_detailed,4,bridge,Thyroid,1.0,1.0,1.0,70
+gtex_detailed,4,bridge,Uterus,0.8888888888888888,0.8888888888888888,0.8888888888888888,18
+gtex_detailed,4,bridge,Vagina,0.85,0.8947368421052632,0.8717948717948718,19
+gtex_detailed,4,bridge,Whole Blood,1.0,1.0,1.0,86
+gtex_broad,4,bridge,Adipose Tissue,0.9015151515151515,0.9916666666666667,0.9444444444444444,120
+gtex_broad,4,bridge,Adrenal Gland,1.0,1.0,1.0,32
+gtex_broad,4,bridge,Bladder,1.0,1.0,1.0,2
+gtex_broad,4,bridge,Blood,1.0,1.0,1.0,86
+gtex_broad,4,bridge,Blood Vessel,0.9868421052631579,0.9803921568627451,0.9836065573770492,153
+gtex_broad,4,bridge,Brain,0.9963503649635036,1.0,0.9981718464351006,273
+gtex_broad,4,bridge,Breast,1.0,0.8181818181818182,0.9,44
+gtex_broad,4,bridge,Cervix Uteri,0.0,0.0,0.0,2
+gtex_broad,4,bridge,Colon,0.9605263157894737,1.0,0.9798657718120806,73
+gtex_broad,4,bridge,Esophagus,0.9743589743589743,0.987012987012987,0.9806451612903225,154
+gtex_broad,4,bridge,Fallopian Tube,0.0,0.0,0.0,1
+gtex_broad,4,bridge,Heart,0.9893617021276596,1.0,0.9946524064171123,93
+gtex_broad,4,bridge,Kidney,1.0,0.875,0.9333333333333333,8
+gtex_broad,4,bridge,Liver,1.0,1.0,1.0,27
+gtex_broad,4,bridge,Lung,1.0,1.0,1.0,69
+gtex_broad,4,bridge,Muscle,1.0,1.0,1.0,88
+gtex_broad,4,bridge,Nerve,0.9848484848484849,0.9848484848484849,0.9848484848484849,66
+gtex_broad,4,bridge,Ovary,0.9523809523809523,0.9523809523809523,0.9523809523809523,21
+gtex_broad,4,bridge,Pancreas,0.975609756097561,1.0,0.9876543209876543,40
+gtex_broad,4,bridge,Pituitary,1.0,0.9629629629629629,0.9811320754716981,27
+gtex_broad,4,bridge,Prostate,1.0,0.9166666666666666,0.9565217391304348,24
+gtex_broad,4,bridge,Salivary Gland,1.0,0.7692307692307693,0.8695652173913043,13
+gtex_broad,4,bridge,Skin,1.0,0.9921875,0.996078431372549,128
+gtex_broad,4,bridge,Small Intestine,1.0,0.9047619047619048,0.95,21
+gtex_broad,4,bridge,Spleen,1.0,1.0,1.0,24
+gtex_broad,4,bridge,Stomach,0.9512195121951219,0.975,0.9629629629629629,40
+gtex_broad,4,bridge,Testis,1.0,1.0,1.0,39
+gtex_broad,4,bridge,Thyroid,1.0,1.0,1.0,70
+gtex_broad,4,bridge,Uterus,0.9411764705882353,0.8888888888888888,0.9142857142857143,18
+gtex_broad,4,bridge,Vagina,0.8571428571428571,0.9473684210526315,0.9,19
+gtex_detailed,4,raw,Adipose - Subcutaneous,0.972972972972973,0.9863013698630136,0.9795918367346939,73
+gtex_detailed,4,raw,Adipose - Visceral (Omentum),0.9787234042553191,0.9787234042553191,0.9787234042553191,47
+gtex_detailed,4,raw,Adrenal Gland,1.0,1.0,1.0,32
+gtex_detailed,4,raw,Artery - Aorta,0.9814814814814815,1.0,0.9906542056074766,53
+gtex_detailed,4,raw,Artery - Coronary,0.9655172413793104,0.9655172413793104,0.9655172413793104,29
+gtex_detailed,4,raw,Artery - Tibial,0.9861111111111112,1.0,0.993006993006993,71
+gtex_detailed,4,raw,Bladder,1.0,1.0,1.0,2
+gtex_detailed,4,raw,Brain - Amygdala,1.0,0.9411764705882353,0.9696969696969697,17
+gtex_detailed,4,raw,Brain - Anterior cingulate cortex (BA24),0.8421052631578947,0.8421052631578947,0.8421052631578947,19
+gtex_detailed,4,raw,Brain - Caudate (basal ganglia),0.92,0.8846153846153846,0.9019607843137255,26
+gtex_detailed,4,raw,Brain - Cerebellar Hemisphere,0.9565217391304348,0.9565217391304348,0.9565217391304348,23
+gtex_detailed,4,raw,Brain - Cerebellum,0.9615384615384616,0.9615384615384616,0.9615384615384616,26
+gtex_detailed,4,raw,Brain - Cortex,0.9629629629629629,0.9629629629629629,0.9629629629629629,27
+gtex_detailed,4,raw,Brain - Frontal Cortex (BA9),0.8260869565217391,0.8636363636363636,0.8444444444444444,22
+gtex_detailed,4,raw,Brain - Hippocampus,0.9473684210526315,0.9473684210526315,0.9473684210526315,19
+gtex_detailed,4,raw,Brain - Hypothalamus,0.9090909090909091,0.9523809523809523,0.9302325581395349,21
+gtex_detailed,4,raw,Brain - Nucleus accumbens (basal ganglia),0.8333333333333334,0.8333333333333334,0.8333333333333334,24
+gtex_detailed,4,raw,Brain - Putamen (basal ganglia),0.8095238095238095,0.85,0.8292682926829268,20
+gtex_detailed,4,raw,Brain - Spinal cord (cervical c-1),1.0,0.9285714285714286,0.9629629629629629,14
+gtex_detailed,4,raw,Brain - Substantia nigra,0.8125,0.8666666666666667,0.8387096774193549,15
+gtex_detailed,4,raw,Breast - Mammary Tissue,0.9555555555555556,0.9772727272727273,0.9662921348314607,44
+gtex_detailed,4,raw,Cervix - Ectocervix,0.0,0.0,0.0,1
+gtex_detailed,4,raw,Cervix - Endocervix,0.0,0.0,0.0,1
+gtex_detailed,4,raw,Colon - Sigmoid,0.9117647058823529,0.9117647058823529,0.9117647058823529,34
+gtex_detailed,4,raw,Colon - Transverse,0.9024390243902439,0.9487179487179487,0.925,39
+gtex_detailed,4,raw,Esophagus - Gastroesophageal Junction,0.7666666666666667,0.6571428571428571,0.7076923076923077,35
+gtex_detailed,4,raw,Esophagus - Mucosa,0.9538461538461539,0.9538461538461539,0.9538461538461539,65
+gtex_detailed,4,raw,Esophagus - Muscularis,0.8275862068965517,0.8888888888888888,0.8571428571428571,54
+gtex_detailed,4,raw,Fallopian Tube,0.0,0.0,0.0,1
+gtex_detailed,4,raw,Heart - Atrial Appendage,1.0,1.0,1.0,43
+gtex_detailed,4,raw,Heart - Left Ventricle,1.0,0.98,0.98989898989899,50
+gtex_detailed,4,raw,Kidney - Cortex,1.0,0.875,0.9333333333333333,8
+gtex_detailed,4,raw,Liver,1.0,1.0,1.0,27
+gtex_detailed,4,raw,Lung,1.0,1.0,1.0,69
+gtex_detailed,4,raw,Minor Salivary Gland,1.0,0.9230769230769231,0.96,13
+gtex_detailed,4,raw,Muscle - Skeletal,1.0,1.0,1.0,88
+gtex_detailed,4,raw,Nerve - Tibial,1.0,1.0,1.0,66
+gtex_detailed,4,raw,Ovary,1.0,1.0,1.0,21
+gtex_detailed,4,raw,Pancreas,1.0,1.0,1.0,40
+gtex_detailed,4,raw,Pituitary,1.0,0.9629629629629629,0.9811320754716981,27
+gtex_detailed,4,raw,Prostate,0.96,1.0,0.9795918367346939,24
+gtex_detailed,4,raw,Skin - Not Sun Exposed (Suprapubic),1.0,1.0,1.0,53
+gtex_detailed,4,raw,Skin - Sun Exposed (Lower leg),1.0,0.9866666666666667,0.9932885906040269,75
+gtex_detailed,4,raw,Small Intestine - Terminal Ileum,1.0,0.9047619047619048,0.95,21
+gtex_detailed,4,raw,Spleen,1.0,1.0,1.0,24
+gtex_detailed,4,raw,Stomach,0.975,0.975,0.975,40
+gtex_detailed,4,raw,Testis,1.0,1.0,1.0,39
+gtex_detailed,4,raw,Thyroid,0.9859154929577465,1.0,0.9929078014184397,70
+gtex_detailed,4,raw,Uterus,0.9473684210526315,1.0,0.972972972972973,18
+gtex_detailed,4,raw,Vagina,0.9,0.9473684210526315,0.9230769230769231,19
+gtex_detailed,4,raw,Whole Blood,1.0,1.0,1.0,86
+gtex_broad,4,raw,Adipose Tissue,0.975609756097561,1.0,0.9876543209876543,120
+gtex_broad,4,raw,Adrenal Gland,1.0,1.0,1.0,32
+gtex_broad,4,raw,Bladder,1.0,1.0,1.0,2
+gtex_broad,4,raw,Blood,1.0,1.0,1.0,86
+gtex_broad,4,raw,Blood Vessel,0.9935064935064936,1.0,0.996742671009772,153
+gtex_broad,4,raw,Brain,0.9963503649635036,1.0,0.9981718464351006,273
+gtex_broad,4,raw,Breast,1.0,0.9772727272727273,0.9885057471264368,44
+gtex_broad,4,raw,Cervix Uteri,0.0,0.0,0.0,2
+gtex_broad,4,raw,Colon,0.9733333333333334,1.0,0.9864864864864865,73
+gtex_broad,4,raw,Esophagus,0.9934640522875817,0.987012987012987,0.990228013029316,154
+gtex_broad,4,raw,Fallopian Tube,0.0,0.0,0.0,1
+gtex_broad,4,raw,Heart,1.0,1.0,1.0,93
+gtex_broad,4,raw,Kidney,1.0,0.875,0.9333333333333333,8
+gtex_broad,4,raw,Liver,1.0,1.0,1.0,27
+gtex_broad,4,raw,Lung,1.0,1.0,1.0,69
+gtex_broad,4,raw,Muscle,1.0,1.0,1.0,88
+gtex_broad,4,raw,Nerve,1.0,1.0,1.0,66
+gtex_broad,4,raw,Ovary,1.0,1.0,1.0,21
+gtex_broad,4,raw,Pancreas,1.0,1.0,1.0,40
+gtex_broad,4,raw,Pituitary,1.0,0.9629629629629629,0.9811320754716981,27
+gtex_broad,4,raw,Prostate,1.0,0.9583333333333334,0.9787234042553191,24
+gtex_broad,4,raw,Salivary Gland,1.0,1.0,1.0,13
+gtex_broad,4,raw,Skin,1.0,0.9921875,0.996078431372549,128
+gtex_broad,4,raw,Small Intestine,1.0,0.9047619047619048,0.95,21
+gtex_broad,4,raw,Spleen,1.0,1.0,1.0,24
+gtex_broad,4,raw,Stomach,0.9512195121951219,0.975,0.9629629629629629,40
+gtex_broad,4,raw,Testis,1.0,1.0,1.0,39
+gtex_broad,4,raw,Thyroid,0.9857142857142858,0.9857142857142858,0.9857142857142858,70
+gtex_broad,4,raw,Uterus,0.9473684210526315,1.0,0.972972972972973,18
+gtex_broad,4,raw,Vagina,0.8571428571428571,0.9473684210526315,0.9,19
+gtex_detailed,4,pca,Adipose - Subcutaneous,0.972972972972973,0.9863013698630136,0.9795918367346939,73
+gtex_detailed,4,pca,Adipose - Visceral (Omentum),0.9787234042553191,0.9787234042553191,0.9787234042553191,47
+gtex_detailed,4,pca,Adrenal Gland,1.0,1.0,1.0,32
+gtex_detailed,4,pca,Artery - Aorta,1.0,1.0,1.0,53
+gtex_detailed,4,pca,Artery - Coronary,1.0,1.0,1.0,29
+gtex_detailed,4,pca,Artery - Tibial,1.0,1.0,1.0,71
+gtex_detailed,4,pca,Bladder,1.0,1.0,1.0,2
+gtex_detailed,4,pca,Brain - Amygdala,1.0,0.9411764705882353,0.9696969696969697,17
+gtex_detailed,4,pca,Brain - Anterior cingulate cortex (BA24),0.9444444444444444,0.8947368421052632,0.918918918918919,19
+gtex_detailed,4,pca,Brain - Caudate (basal ganglia),0.88,0.8461538461538461,0.8627450980392157,26
+gtex_detailed,4,pca,Brain - Cerebellar Hemisphere,0.9565217391304348,0.9565217391304348,0.9565217391304348,23
+gtex_detailed,4,pca,Brain - Cerebellum,0.9615384615384616,0.9615384615384616,0.9615384615384616,26
+gtex_detailed,4,pca,Brain - Cortex,0.9285714285714286,0.9629629629629629,0.9454545454545454,27
+gtex_detailed,4,pca,Brain - Frontal Cortex (BA9),0.84,0.9545454545454546,0.8936170212765957,22
+gtex_detailed,4,pca,Brain - Hippocampus,0.9473684210526315,0.9473684210526315,0.9473684210526315,19
+gtex_detailed,4,pca,Brain - Hypothalamus,0.9090909090909091,0.9523809523809523,0.9302325581395349,21
+gtex_detailed,4,pca,Brain - Nucleus accumbens (basal ganglia),0.88,0.9166666666666666,0.8979591836734694,24
+gtex_detailed,4,pca,Brain - Putamen (basal ganglia),0.85,0.85,0.85,20
+gtex_detailed,4,pca,Brain - Spinal cord (cervical c-1),1.0,0.9285714285714286,0.9629629629629629,14
+gtex_detailed,4,pca,Brain - Substantia nigra,0.9230769230769231,0.8,0.8571428571428571,15
+gtex_detailed,4,pca,Breast - Mammary Tissue,1.0,1.0,1.0,44
+gtex_detailed,4,pca,Cervix - Ectocervix,0.0,0.0,0.0,1
+gtex_detailed,4,pca,Cervix - Endocervix,0.0,0.0,0.0,1
+gtex_detailed,4,pca,Colon - Sigmoid,0.8378378378378378,0.9117647058823529,0.8732394366197183,34
+gtex_detailed,4,pca,Colon - Transverse,0.918918918918919,0.8717948717948718,0.8947368421052632,39
+gtex_detailed,4,pca,Esophagus - Gastroesophageal Junction,0.696969696969697,0.6571428571428571,0.6764705882352942,35
+gtex_detailed,4,pca,Esophagus - Mucosa,0.9538461538461539,0.9538461538461539,0.9538461538461539,65
+gtex_detailed,4,pca,Esophagus - Muscularis,0.7931034482758621,0.8518518518518519,0.8214285714285714,54
+gtex_detailed,4,pca,Fallopian Tube,0.0,0.0,0.0,1
+gtex_detailed,4,pca,Heart - Atrial Appendage,1.0,1.0,1.0,43
+gtex_detailed,4,pca,Heart - Left Ventricle,1.0,1.0,1.0,50
+gtex_detailed,4,pca,Kidney - Cortex,1.0,0.875,0.9333333333333333,8
+gtex_detailed,4,pca,Liver,1.0,1.0,1.0,27
+gtex_detailed,4,pca,Lung,1.0,1.0,1.0,69
+gtex_detailed,4,pca,Minor Salivary Gland,1.0,1.0,1.0,13
+gtex_detailed,4,pca,Muscle - Skeletal,1.0,1.0,1.0,88
+gtex_detailed,4,pca,Nerve - Tibial,1.0,1.0,1.0,66
+gtex_detailed,4,pca,Ovary,1.0,1.0,1.0,21
+gtex_detailed,4,pca,Pancreas,1.0,1.0,1.0,40
+gtex_detailed,4,pca,Pituitary,1.0,0.9629629629629629,0.9811320754716981,27
+gtex_detailed,4,pca,Prostate,1.0,1.0,1.0,24
+gtex_detailed,4,pca,Skin - Not Sun Exposed (Suprapubic),1.0,1.0,1.0,53
+gtex_detailed,4,pca,Skin - Sun Exposed (Lower leg),1.0,0.9866666666666667,0.9932885906040269,75
+gtex_detailed,4,pca,Small Intestine - Terminal Ileum,1.0,0.9523809523809523,0.975609756097561,21
+gtex_detailed,4,pca,Spleen,1.0,1.0,1.0,24
+gtex_detailed,4,pca,Stomach,0.95,0.95,0.95,40
+gtex_detailed,4,pca,Testis,1.0,1.0,1.0,39
+gtex_detailed,4,pca,Thyroid,0.9859154929577465,1.0,0.9929078014184397,70
+gtex_detailed,4,pca,Uterus,0.9473684210526315,1.0,0.972972972972973,18
+gtex_detailed,4,pca,Vagina,0.9,0.9473684210526315,0.9230769230769231,19
+gtex_detailed,4,pca,Whole Blood,1.0,1.0,1.0,86
+gtex_broad,4,pca,Adipose Tissue,0.975609756097561,1.0,0.9876543209876543,120
+gtex_broad,4,pca,Adrenal Gland,1.0,1.0,1.0,32
+gtex_broad,4,pca,Bladder,1.0,1.0,1.0,2
+gtex_broad,4,pca,Blood,1.0,1.0,1.0,86
+gtex_broad,4,pca,Blood Vessel,1.0,1.0,1.0,153
+gtex_broad,4,pca,Brain,0.9963503649635036,1.0,0.9981718464351006,273
+gtex_broad,4,pca,Breast,1.0,0.9772727272727273,0.9885057471264368,44
+gtex_broad,4,pca,Cervix Uteri,0.0,0.0,0.0,2
+gtex_broad,4,pca,Colon,0.9605263157894737,1.0,0.9798657718120806,73
+gtex_broad,4,pca,Esophagus,1.0,0.987012987012987,0.9934640522875817,154
+gtex_broad,4,pca,Fallopian Tube,0.0,0.0,0.0,1
+gtex_broad,4,pca,Heart,1.0,1.0,1.0,93
+gtex_broad,4,pca,Kidney,1.0,0.875,0.9333333333333333,8
+gtex_broad,4,pca,Liver,1.0,1.0,1.0,27
+gtex_broad,4,pca,Lung,1.0,1.0,1.0,69
+gtex_broad,4,pca,Muscle,1.0,1.0,1.0,88
+gtex_broad,4,pca,Nerve,1.0,1.0,1.0,66
+gtex_broad,4,pca,Ovary,1.0,1.0,1.0,21
+gtex_broad,4,pca,Pancreas,1.0,1.0,1.0,40
+gtex_broad,4,pca,Pituitary,1.0,0.9629629629629629,0.9811320754716981,27
+gtex_broad,4,pca,Prostate,1.0,1.0,1.0,24
+gtex_broad,4,pca,Salivary Gland,1.0,1.0,1.0,13
+gtex_broad,4,pca,Skin,1.0,0.9921875,0.996078431372549,128
+gtex_broad,4,pca,Small Intestine,1.0,0.9047619047619048,0.95,21
+gtex_broad,4,pca,Spleen,1.0,1.0,1.0,24
+gtex_broad,4,pca,Stomach,0.9512195121951219,0.975,0.9629629629629629,40
+gtex_broad,4,pca,Testis,1.0,1.0,1.0,39
+gtex_broad,4,pca,Thyroid,0.9859154929577465,1.0,0.9929078014184397,70
+gtex_broad,4,pca,Uterus,0.9473684210526315,1.0,0.972972972972973,18
+gtex_broad,4,pca,Vagina,0.9,0.9473684210526315,0.9230769230769231,19

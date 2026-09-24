@@ -1,0 +1,21 @@
+{
+  "gtex_n_8883": true,
+  "gtex_detailed_classes_51": true,
+  "tcga_n_9942": true,
+  "tcga_classes_33": true,
+  "gtex_donor_one_fold": true,
+  "tcga_patient_unique": true,
+  "gtex_biospecimen_unique": true,
+  "gtex_expression_aligned": true,
+  "gtex_bridge_aligned": true,
+  "gtex_expression_finite": true,
+  "gtex_bridge_finite": true,
+  "bridge_shape_512": true,
+  "pca_fit_within_fold": true,
+  "scalers_fit_within_fold": true,
+  "bridge_frozen": true,
+  "labels_not_used_for_representations": true,
+  "missing_60_genes_zero_filled": true,
+  "same_folds_all_representations": true,
+  "saved_predictions_reproduce_metrics": true
+}

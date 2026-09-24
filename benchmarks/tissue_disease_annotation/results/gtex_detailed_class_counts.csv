@@ -1,0 +1,52 @@
+class,samples,donors
+Adipose - Subcutaneous,368,367
+Adipose - Visceral (Omentum),234,234
+Adrenal Gland,159,159
+Artery - Aorta,246,246
+Artery - Coronary,140,140
+Artery - Tibial,357,357
+Bladder,11,11
+Brain - Amygdala,80,80
+Brain - Anterior cingulate cortex (BA24),95,95
+Brain - Caudate (basal ganglia),133,133
+Brain - Cerebellar Hemisphere,114,114
+Brain - Cerebellum,138,138
+Brain - Cortex,127,127
+Brain - Frontal Cortex (BA9),115,115
+Brain - Hippocampus,100,100
+Brain - Hypothalamus,102,102
+Brain - Nucleus accumbens (basal ganglia),123,123
+Brain - Putamen (basal ganglia),103,103
+Brain - Spinal cord (cervical c-1),73,73
+Brain - Substantia nigra,71,71
+Breast - Mammary Tissue,217,217
+Cervix - Ectocervix,6,6
+Cervix - Endocervix,5,5
+Colon - Sigmoid,172,172
+Colon - Transverse,203,203
+Esophagus - Gastroesophageal Junction,175,175
+Esophagus - Mucosa,329,327
+Esophagus - Muscularis,279,279
+Fallopian Tube,7,7
+Heart - Atrial Appendage,217,217
+Heart - Left Ventricle,246,246
+Kidney - Cortex,36,36
+Liver,135,135
+Lung,336,336
+Minor Salivary Gland,69,69
+Muscle - Skeletal,452,452
+Nerve - Tibial,332,332
+Ovary,108,108
+Pancreas,192,192
+Pituitary,124,124
+Prostate,119,119
+Skin - Not Sun Exposed (Suprapubic),269,269
+Skin - Sun Exposed (Lower leg),383,382
+Small Intestine - Terminal Ileum,104,104
+Spleen,118,118
+Stomach,203,201
+Testis,199,199
+Thyroid,345,345
+Uterus,89,89
+Vagina,97,97
+Whole Blood,428,428
