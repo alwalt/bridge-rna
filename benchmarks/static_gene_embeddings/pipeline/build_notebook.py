@@ -538,6 +538,39 @@ expression profile; nonlinear or higher-order expression structure can legitimat
 mediate its additional information. Shared database annotations are also not an
 independent experimental endpoint.""")
 
+md("""# Paper summary figure
+
+The four-panel summary combines the primary quantitative evidence: functional
+neighborhoods across depth, the matched coexpression comparison, the conditional
+L12 effect after expression controls, and retention of L12 module organization
+after linear TPM removal. Panel D reports residual/original percentages so GO,
+KEGG, and stability are comparable without mixing arbitrary scales.""")
+
+code("""PAPER = HERE / 'results/paper_summary'
+display(Image(filename=str(PAPER / 'bridge_contextual_biology_summary.png')))""")
+
+md("""# Gene-level contextual shifts colored by tissue or tumor context
+
+Each point below is one of 500 fixed genes in one tissue/tumor context. For each
+context, its gene token is averaged across two frozen representative samples. To
+make context colors interpretable rather than letting static gene identity dominate,
+each gene's mean vector across contexts is subtracted within cohort and layer before
+joint PCA-50, t-SNE, and UMAP.
+
+L0 residuals are exactly zero because static embeddings are context invariant.
+From L1 onward, tissue-dependent shifts appear and become especially separated at
+L6. L12 retains substantial context organization but is not uniformly more separated
+than L6. These projections are exploratory: context residualization intentionally
+emphasizes between-context variation, only two samples represent each context, and
+t-SNE/UMAP separation is not a quantitative effect size.""")
+
+code("""CTX = HERE / 'results/context_colored_gene_projections'
+display(Image(filename=str(CTX / 'gene_context_residuals_colored_by_tissue.png')))""")
+
+md('## Horizontal UMAP view\n\nThe same saved context-residual UMAP coordinates are displayed with layers running\nleft to right and separate GTEx and TCGA rows. Gene selection, context colors, and\nprojection coordinates are unchanged. L0 is shown as one neutral point because all\nresiduals coincide at zero. Context organization is visible after L0, but these\nexploratory projections of two representative samples per context do not quantify\nbiological separation.')
+
+code("display(Image(filename=str(CTX / 'gene_context_residuals_umap_horizontal.png')))")
+
 nb['cells'] = cells
 nb['metadata'] = {"kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"}, "language_info": {"name": "python", "version": "3.11"}}
 nbf.write(nb, HERE / "static_gene_embeddings.ipynb")

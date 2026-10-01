@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "unit": "one gene-in-context point: the selected gene token averaged across representative samples within a tissue/tumor context",
+  "samples_per_context": 2,
+  "genes_per_context": 500,
+  "sample_selection": "first frozen samples per context from the existing balanced cohort manifest",
+  "projection": "Joint GTEx+TCGA PCA50, t-SNE, and UMAP per layer with fixed parameters and seed",
+  "context_residualization": "For the interpretable tissue-colored grid, subtract each selected gene's mean vector across contexts within cohort and layer before joint projection.",
+  "warning": "Exploratory projection; context colors are not quantitative evidence. L0 context residuals are zero by construction.",
+  "elapsed_seconds": 493.0642075538635
+}

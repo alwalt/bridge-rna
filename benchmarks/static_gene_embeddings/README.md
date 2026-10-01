@@ -97,8 +97,20 @@ Cohort-level contextual gene modules and expression controls are generated with:
 .venv/bin/python benchmarks/static_gene_embeddings/pipeline/visualize_tpm_residual_modules.py
 .venv/bin/python benchmarks/static_gene_embeddings/pipeline/coexpression_baseline.py
 .venv/bin/python benchmarks/static_gene_embeddings/pipeline/l12_conditional_function.py
+.venv/bin/python benchmarks/static_gene_embeddings/pipeline/build_paper_summary.py
+.venv/bin/python benchmarks/static_gene_embeddings/pipeline/context_colored_gene_projections.py
 ```
 
 These cluster the original 512-D cohort-mean gene tokens, not a 2-D projection.
 The second command compares expression-decile modules and repeats clustering after
 linearly residualizing cohort mean `log1p(TPM)` from every embedding dimension.
+
+Render the horizontal UMAP-only contextual-shift figure from saved coordinates:
+
+```bash
+.venv/bin/python benchmarks/static_gene_embeddings/pipeline/plot_context_umap_horizontal.py
+```
+
+This saves PNG, PDF, and figure provenance beside the existing projection CSV in
+`results/context_colored_gene_projections/`. It reuses the original coordinates;
+no model inference or projection fitting is required. The notebook includes both layouts.

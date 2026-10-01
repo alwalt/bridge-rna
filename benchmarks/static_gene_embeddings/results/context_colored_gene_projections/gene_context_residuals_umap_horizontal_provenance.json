@@ -1,0 +1,9 @@
+{
+  "source": "context_residual_gene_projections.csv",
+  "source_sha256": "8e80fbda9903a351465876a3e3f21b55e8f03bc2e9019d18773391d0a6f24034",
+  "analysis_provenance": "provenance.json",
+  "coordinates": "Existing UMAP coordinates reused without refitting or transformation",
+  "layout": "GTEx and TCGA rows; L0, L1, L6, L12 columns",
+  "draw_order_seed": 20260921,
+  "limitations": "Exploratory context residual projections; two samples per context; separation is not an effect size. L0 is zero by construction."
+}
