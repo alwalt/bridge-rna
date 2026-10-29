@@ -1,0 +1,4 @@
+f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541  /home/walt/bridge-rna/model/r7hnr92k/best_model.pt
+07b69eed9b74154bf6f98a5632f0b8b685124e90bea32b795f73d9e23d9e9f3f  /home/walt/bridge-rna/model/BulkFormer/model/BulkFormer_147M.pt
+f37103436e56798ad542bf9d336a23335c4d780b9fed7cbb422ac9c3b00a12e1  /home/walt/bridge-rna/model/BulkFormer/data/G_tcga.pt
+32ca5904aaa3ffb432256fd46e54d30f6e26f747135c091a460ace6352195cd2  /home/walt/bridge-rna/model/BulkFormer/data/G_tcga_weight.pt

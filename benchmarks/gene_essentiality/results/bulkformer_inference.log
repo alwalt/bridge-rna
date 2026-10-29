@@ -1,0 +1,9 @@
+[2026-09-22 01:22:55] startup representation=bulkformer samples=1108 tokens=17525 dimension=640 device=cuda:1 batch=1 missing_rate=0.062619
+[2026-09-22 01:24:04] heartbeat new=205/1108 total=205/1108 rate=3.401/s elapsed=1.0m eta=4.4m
+[2026-09-22 01:25:11] heartbeat new=382/1108 total=382/1108 rate=3.170/s elapsed=2.0m eta=3.8m
+[2026-09-22 01:26:06] heartbeat new=534/1108 total=534/1108 rate=2.954/s elapsed=3.0m eta=3.2m
+[2026-09-22 01:27:14] heartbeat new=712/1108 total=712/1108 rate=2.953/s elapsed=4.0m eta=2.2m
+[2026-09-22 01:27:56] heartbeat new=850/1108 total=850/1108 rate=2.822/s elapsed=5.0m eta=1.5m
+[2026-09-22 01:28:58] heartbeat new=1033/1108 total=1033/1108 rate=2.860/s elapsed=6.0m eta=0.4m
+[2026-09-22 01:29:23] heartbeat new=1108/1108 total=1108/1108 rate=2.871/s elapsed=6.4m eta=0.0m
+[2026-09-22 01:29:23] complete cache=/home/walt/bridge-rna/benchmarks/gene_essentiality/work/bulkformer_contextual/tokens.float16.npy size=24.85GB

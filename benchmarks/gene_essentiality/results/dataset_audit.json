@@ -1,0 +1,74 @@
+{
+  "expression_shape": [
+    1108,
+    18757
+  ],
+  "dependency_shape": [
+    1108,
+    17910
+  ],
+  "cell_line_order_identical": true,
+  "duplicate_cell_lines": 0,
+  "duplicate_expression_genes": 0,
+  "duplicate_dependency_genes": 0,
+  "expression_dependency_gene_overlap": 17465,
+  "bridge_expression_overlap": 14761,
+  "bridge_dependency_overlap": 14456,
+  "bulkformer_dependency_overlap": 17525,
+  "bridge_bulkformer_matched_dependency_genes": 14454,
+  "all_method_common_dependency_genes": 14415,
+  "expression": {
+    "finite_count": 20782756,
+    "missing_count": 0,
+    "mean": 2.6816654205322266,
+    "sd": 2.5482676029205322,
+    "zero_fraction": 0.171080534266004,
+    "quantiles": {
+      "min": 0.0,
+      "p01": 0.0,
+      "p10": 0.0,
+      "p25": 0.07184640318155289,
+      "p50": 2.4443650245666504,
+      "p75": 4.6247735023498535,
+      "p90": 6.106693744659424,
+      "p99": 9.256889247894286,
+      "max": 17.095489501953125
+    }
+  },
+  "dependency": {
+    "finite_count": 19700666,
+    "missing_count": 143614,
+    "mean": -0.14148138463497162,
+    "sd": 0.4106873869895935,
+    "zero_fraction": 0.0,
+    "quantiles": {
+      "min": -5.648909091949463,
+      "p01": -1.973438173532486,
+      "p10": -0.48726600408554077,
+      "p25": -0.17639392241835594,
+      "p50": -0.038895608857274055,
+      "p75": 0.06288829818367958,
+      "p90": 0.14948710054159164,
+      "p99": 0.31918258666992205,
+      "max": 4.436478137969971
+    }
+  },
+  "dependency_genes_with_missing": 837,
+  "cell_lines_with_missing_dependency": 907,
+  "inputs": {
+    "expression": {
+      "path": "/home/walt/bridge-rna/benchmarks/gene_property_prediction/data/source/gene_essentiality_expr_data.pkl",
+      "sha256": "5991c0b3234401cd4a9e7b9cee1a8c50086d86eedc05385d08bb62883d6b8e04"
+    },
+    "dependency": {
+      "path": "/home/walt/bridge-rna/benchmarks/gene_property_prediction/data/source/gene_essentiality_score.pkl",
+      "sha256": "238ac30c83dbb323baca6a7459b22847edfcb35364d47e3964cd5141ba4a007b"
+    }
+  },
+  "inference_transform": "released_log2_tpm_plus_1_times_ln_2_equals_natural_log1p_tpm",
+  "folds": {
+    "count": 10,
+    "seed": 42,
+    "split_axis": "cell_lines"
+  }
+}
