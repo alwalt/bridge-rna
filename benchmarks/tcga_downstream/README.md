@@ -40,6 +40,8 @@ executed human-readable analysis remains
 - Complete true five-fold OOF Cox survival for all 9,668 eligible patients,
   including fold-aware C-index, 1,000-draw patient-bootstrap intervals, event
   support, and matched Bridge/PCA/raw-expression forest plots.
+- Exploratory frozen Bridge L1–L12 mean-representation ablation using the same
+  true five-fold OOF folds and Cox head.
 
 Primary OOF records are:
 
@@ -157,6 +159,25 @@ CUDA_VISIBLE_DEVICES=0 .venv/bin/python \
 
 Completed fold predictions are checkpointed, and all final tables and figures
 are regenerated from the consolidated OOF prediction table.
+
+### Bridge layerwise survival ablation
+
+This exploratory analysis performs one frozen inference pass that caches the
+512-dimensional mean after each Bridge transformer layer, then applies the
+same complete OOF folds and Cox head to L1–L12:
+
+```bash
+set -o pipefail
+CUDA_VISIBLE_DEVICES=0,1 .venv/bin/python \
+  benchmarks/tcga_downstream/pipeline/run_bridge_layerwise_survival.py \
+  --devices cuda:0,cuda:1 --batch-size 4 --heartbeat-seconds 60 \
+  2>&1 | tee benchmarks/tcga_downstream/results/bridge_layerwise_survival_run.log
+```
+
+Primary outputs are `results/bridge_layerwise_survival_summary.csv`,
+`results/bridge_layerwise_survival_5fold_oof_per_cancer.csv`, and the
+`bridge_layerwise_*` figures. The comparison is exploratory and does not use
+test-set layer selection to replace the prespecified L12 primary analysis.
 
 ### BulkFormer-parity extension
 

@@ -28,5 +28,7 @@
   "test_outcomes_used_for_tuning": false,
   "fold_aware_concordance": true,
   "notebook_all_cells_executed": true,
-  "expected_outputs_present": true
+  "expected_outputs_present": true,
+  "layerwise_l1_l12_complete": true,
+  "layerwise_l12_matches_primary": true
 }

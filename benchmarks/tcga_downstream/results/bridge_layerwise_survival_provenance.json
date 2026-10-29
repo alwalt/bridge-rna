@@ -1,0 +1,33 @@
+{
+  "analysis": "Bridge L1-L12 mean-pooled frozen representation Cox survival ablation",
+  "checkpoint": "model/r7hnr92k/config.json",
+  "layers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "pooling": "mean over 15,165 contextual gene tokens after each transformer layer",
+  "encoder_frozen": true,
+  "new_encoder_inference": "one layerwise frozen pass",
+  "cohort": "same 9,668-patient TCGA survival cohort",
+  "folds": "same saved true five-fold OOF manifest",
+  "head": "same MLP [512,256], Cox partial likelihood, fixed hyperparameters and inner validation",
+  "metric": "fold-aware C-index; pairs never cross independently fitted heads",
+  "comparison": "exploratory paired cancer-level layer-versus-L12 tests",
+  "test_seed": 20260929,
+  "permutations": 100000,
+  "devices": [
+    "cuda:0",
+    "cuda:1"
+  ],
+  "selection_warning": "No layer should replace the prespecified L12 primary representation based solely on this test."
+}

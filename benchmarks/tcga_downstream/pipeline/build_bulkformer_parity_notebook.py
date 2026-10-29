@@ -11,6 +11,7 @@ TAG = "bulkformer-parity-generated"
 COX_TAG = "cox-per-cancer-generated"
 SURVIVAL_UNCERTAINTY_TAG = "survival-uncertainty-generated"
 SURVIVAL_OOF_TAG = "survival-oof-generated"
+LAYERWISE_SURVIVAL_TAG = "layerwise-survival-generated"
 
 
 def markdown(text: str):
@@ -27,7 +28,8 @@ def code(text: str):
 
 notebook = nbformat.read(NOTEBOOK, as_version=4)
 notebook.cells = [cell for cell in notebook.cells
-                  if not ({TAG, COX_TAG, SURVIVAL_UNCERTAINTY_TAG, SURVIVAL_OOF_TAG} &
+                  if not ({TAG, COX_TAG, SURVIVAL_UNCERTAINTY_TAG, SURVIVAL_OOF_TAG,
+                           LAYERWISE_SURVIVAL_TAG} &
                           set(cell.metadata.get("tags", [])))]
 
 for cell in notebook.cells:
@@ -179,6 +181,32 @@ for cell in oof_cells:
 oof_at = next(i for i, cell in enumerate(notebook.cells)
               if cell.cell_type == "markdown" and cell.source.startswith("### A3"))
 notebook.cells[oof_at:oof_at] = oof_cells
+
+layerwise_cells = [
+    markdown("""### Exploratory Bridge layerwise Cox survival ablation
+
+This final ablation asks whether mean-pooled representations from earlier Bridge transformer blocks improve survival ranking relative to the prespecified final layer, L12. The frozen checkpoint was run once while caching the 512-dimensional mean after every block (L1–L12); extracted L12 matched the original cache exactly. Every layer uses the same 9,668 patients, true five-fold OOF manifest, `[512,256]` Cox head, preprocessing, early stopping, and fold-aware concordance definition. No pair crosses independently fitted heads.
+
+This is an exploratory depth analysis. Choosing a cancer-specific layer from these test results would be post hoc selection, so pointwise maxima are descriptive and do not replace L12 as the primary representation."""),
+    code("""layerwise_summary = pd.read_csv('results/bridge_layerwise_survival_summary.csv')
+display(layerwise_summary.style.format({column: '{:.4f}' for column in layerwise_summary.columns
+                                        if column != 'layer'}).hide(axis='index'))"""),
+    code("""display(Image(filename=str(FIGURES / 'bridge_layerwise_survival_cindex.png')))"""),
+    code("""display(Image(filename=str(FIGURES / 'bridge_layerwise_per_cancer_survival_heatmap.png')))"""),
+    code("""display(Image(filename=str(FIGURES / 'bridge_layerwise_vs_l12_delta_heatmap.png')))"""),
+    code("""layerwise_best = pd.read_csv('results/bridge_layerwise_survival_best_layer_per_cancer.csv')
+display(layerwise_best.sort_values('best_delta_vs_l12', ascending=False)
+        .style.format({'best_c_index': '{:.3f}', 'l12_c_index': '{:.3f}',
+                       'best_delta_vs_l12': '{:+.3f}'}).hide(axis='index'))"""),
+    markdown("""L12 is the best layer for overall fold-aware OOF C-index (0.758) and median within-cancer C-index (0.624). L11 has a numerically, but trivially, higher patient-weighted within-cancer mean (0.6250 versus 0.6247); its median paired difference from L12 is −0.004. No earlier layer differs systematically from L12 after correcting the paired cancer-level tests.
+
+Several cancers have higher earlier-layer point estimates, most notably SKCM (L1), UCS (L3), GBM (L1), READ (L5), and SARC (L1) among cancers with at least 20 events. These are exploratory cancer-specific maxima across 12 tested layers and are vulnerable to winner's curse. They motivate independent validation rather than a change to the primary L12 analysis."""),
+]
+for cell in layerwise_cells:
+    cell.metadata["tags"] = [LAYERWISE_SURVIVAL_TAG]
+layerwise_at = next(i for i, cell in enumerate(notebook.cells)
+                    if cell.cell_type == "markdown" and cell.source.startswith("### A3"))
+notebook.cells[layerwise_at:layerwise_at] = layerwise_cells
 
 for cell in cox_cells:
     cell.metadata["tags"] = [COX_TAG]

@@ -40,6 +40,8 @@ def main() -> None:
     manifest = pd.read_csv(R / "bulkformer_parity_pan_cancer_manifest.csv")
     cohort = pd.read_parquet(R / "cohort_manifest.parquet")
     provenance = json.loads((R / "survival_5fold_oof_provenance.json").read_text())
+    layer_summary = pd.read_csv(R / "bridge_layerwise_survival_summary.csv")
+    layer_best = pd.read_csv(R / "bridge_layerwise_survival_best_layer_per_cancer.csv")
 
     label_names = {"ours_45.6m": "Bridge 45.6M", "bulkformer_50m": "BulkFormer-50M",
                    "bulkformer_147m": "BulkFormer-147M",
@@ -105,6 +107,14 @@ def main() -> None:
         lambda frame: (frame.c_index * frame.n_patients).sum() / frame.n_patients.sum(),
         include_groups=False)
     cancer_labels = sorted(manifest.cancer_label.unique())
+    layer12 = layer_summary.set_index("layer").loc[12]
+    layer11 = layer_summary.set_index("layer").loc[11]
+    notable_layers = layer_best.query(
+        "best_layer < 12 and best_delta_vs_l12 > 0.02 and n_events >= 20"
+    ).sort_values("best_delta_vs_l12", ascending=False)
+    notable_text = ", ".join(
+        f"{row.cancer} (L{int(row.best_layer)}, Δ={row.best_delta_vs_l12:+.3f})"
+        for row in notable_layers.itertuples())
 
     report = f"""# TCGA Downstream Evaluation of Frozen Bridge Representations
 
@@ -197,6 +207,16 @@ Primary figures:
 - [Three-panel comparison](results/figures/bridge_pca_raw_5fold_oof_survival_three_panel.png)
 
 Each point is the fold-aware held-out C-index, each whisker is a patient-bootstrap 95% interval, the dashed line marks C = 0.5, and `events / N` records outcome support. Sparse-event cancers have few comparable pairs and consequently wide or unstable intervals. Complete OOF coverage narrows Bridge intervals in {narrowed}/32 cancers; the median width falls from {median_old:.3f} to {median_new:.3f}.
+
+### Exploratory layerwise survival ablation
+
+A final frozen-depth ablation evaluates mean-pooled Bridge representations after every transformer block, L1–L12, using the identical complete OOF folds and Cox head. The layerwise inference pass reproduced the original L12 cache exactly. L12 has the best overall fold-aware OOF C-index ({layer12.overall_oof_c_index:.3f}) and the best median within-cancer C-index ({layer12.median_within_cancer_c_index:.3f}). L11 has a trivially higher patient-weighted within-cancer mean ({layer11.patient_weighted_within_cancer_c_index:.4f} versus {layer12.patient_weighted_within_cancer_c_index:.4f}), but its median paired difference from L12 is {layer11.median_delta_vs_l12:+.3f}, and no earlier layer differs systematically after multiplicity correction.
+
+Earlier-layer point estimates exceed L12 by more than 0.02 in several cancers with at least 20 events: {notable_text}. These are post hoc maxima across 12 layers and may reflect winner's curse. They are hypotheses for independent validation, not evidence for replacing the prespecified L12 representation or selecting cancer-specific layers on the present test cohort.
+
+- [Layerwise depth curve](results/figures/bridge_layerwise_survival_cindex.png)
+- [Per-cancer layer heatmap](results/figures/bridge_layerwise_per_cancer_survival_heatmap.png)
+- [Layer-versus-L12 delta heatmap](results/figures/bridge_layerwise_vs_l12_delta_heatmap.png)
 
 ## 13. Medical interpretation
 
