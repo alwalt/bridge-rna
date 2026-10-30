@@ -1,0 +1,65 @@
+{
+  "status": "complete",
+  "scope": "BulkFormer static embeddings; Zhong GO and OMIM only",
+  "excluded": [
+    "BulkFormer forward inference",
+    "gene-pair benchmark",
+    "controls",
+    "split regeneration"
+  ],
+  "static_tensor": "module.gene_emb_onehot_layer.weight",
+  "seed": 42,
+  "C_values": [
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "svm": "RBF SVC with class_weight=balanced; C selected on three supplied training folds",
+  "final_metric": "one held-out test AUROC/AUPRC per biological term",
+  "vocabulary_rows": 20010,
+  "usable_unique_entrez": 19356,
+  "mapping_status_counts": {
+    "mapped": 19362,
+    "unmapped": 637,
+    "ambiguous_synonym": 8,
+    "ambiguous_official_symbol": 3
+  },
+  "mapping_table": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/bulkformer_static/bulkformer_to_entrez_mapping.tsv",
+  "gene_info": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/references/Homo_sapiens.gene_info.gz",
+  "gene_info_sha256": "260f7eb7d3d91250f7a4fc176d63cdd35acf0128e646db23570b251423ef8369",
+  "bulkformer_gene_info": "/home/walt/bridge-rna/model/BulkFormer/data/bulkformer_gene_info.csv",
+  "bulkformer_gene_info_sha256": "0ac27c1adfb3cb2548ae37ddbbac221a4aefd5ae79e7950ec13c56e0d9e5ab68",
+  "inputs": [
+    {
+      "model": "BulkFormer-50M",
+      "task": "GO",
+      "checkpoint": "/home/walt/bridge-rna/model/BulkFormer/BulkFormer_50M.pt",
+      "checkpoint_sha256": "ab84dc4ad30471452ce3276cbc87931115397939379e9a511e801b6b86ac1fda",
+      "output": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/bulkformer_static/BulkFormer-50M_GO.csv"
+    },
+    {
+      "model": "BulkFormer-50M",
+      "task": "OMIM",
+      "checkpoint": "/home/walt/bridge-rna/model/BulkFormer/BulkFormer_50M.pt",
+      "checkpoint_sha256": "ab84dc4ad30471452ce3276cbc87931115397939379e9a511e801b6b86ac1fda",
+      "output": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/bulkformer_static/BulkFormer-50M_OMIM.csv"
+    },
+    {
+      "model": "BulkFormer-147M",
+      "task": "GO",
+      "checkpoint": "/home/walt/bridge-rna/model/BulkFormer/model/BulkFormer_147M.pt",
+      "checkpoint_sha256": "07b69eed9b74154bf6f98a5632f0b8b685124e90bea32b795f73d9e23d9e9f3f",
+      "output": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/bulkformer_static/BulkFormer-147M_GO.csv"
+    },
+    {
+      "model": "BulkFormer-147M",
+      "task": "OMIM",
+      "checkpoint": "/home/walt/bridge-rna/model/BulkFormer/model/BulkFormer_147M.pt",
+      "checkpoint_sha256": "07b69eed9b74154bf6f98a5632f0b8b685124e90bea32b795f73d9e23d9e9f3f",
+      "output": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/bulkformer_static/BulkFormer-147M_OMIM.csv"
+    }
+  ],
+  "elapsed_seconds": 431.8740301132202
+}

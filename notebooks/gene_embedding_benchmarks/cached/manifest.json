@@ -1,0 +1,252 @@
+{
+  "mode": "cached validated artifacts; no model inference or classifier fitting",
+  "source_benchmark": "benchmarks/zhong_gene_biology",
+  "files": [
+    {
+      "file": "bridge_E0_GO.csv",
+      "source": "benchmarks/zhong_gene_biology/results/E0_GO.csv",
+      "bytes": 8197,
+      "sha256": "f5304f72bdf4c5a27eabefe6b38b4d484945fd4b792ccaeabd41dafe465c5557"
+    },
+    {
+      "file": "bridge_E1_GO.csv",
+      "source": "benchmarks/zhong_gene_biology/results/E1_GO.csv",
+      "bytes": 8265,
+      "sha256": "b7c34c69fb444b238171f0a5812c60e5ddc9437dc0fcf8c368d465bd1df58e2d"
+    },
+    {
+      "file": "bridge_E2_GO.csv",
+      "source": "benchmarks/zhong_gene_biology/results/E2_GO.csv",
+      "bytes": 8425,
+      "sha256": "4bb210c3835ef3331c87cec6559d36473bd294af12183cb5de8ab5286731ec3e"
+    },
+    {
+      "file": "bridge_E0_OMIM.csv",
+      "source": "benchmarks/zhong_gene_biology/results/E0_OMIM.csv",
+      "bytes": 13260,
+      "sha256": "47ec0787282b7e19e6ecb61b83121e5f670745159155b5f75488d22ffb151489"
+    },
+    {
+      "file": "bridge_E1_OMIM.csv",
+      "source": "benchmarks/zhong_gene_biology/results/E1_OMIM.csv",
+      "bytes": 13369,
+      "sha256": "c9c957fe221ac9e704fd120590a9a45e0e0e8dd8eeffae6d9c2c566c08c2acbc"
+    },
+    {
+      "file": "bridge_E2_OMIM.csv",
+      "source": "benchmarks/zhong_gene_biology/results/E2_OMIM.csv",
+      "bytes": 13735,
+      "sha256": "39bd8dd8f509ac80644fd4c8937454f9181de51aabfb9bf960af2c6b24e3b99d"
+    },
+    {
+      "file": "bulkformer_50M_GO.csv",
+      "source": "benchmarks/zhong_gene_biology/results/bulkformer_static/BulkFormer-50M_GO.csv",
+      "bytes": 8464,
+      "sha256": "cfb19c13c8aa3d3b5aa6c67eac32872f6b8032ddbfff03a7af4d411fac7c358c"
+    },
+    {
+      "file": "bulkformer_147M_GO.csv",
+      "source": "benchmarks/zhong_gene_biology/results/bulkformer_static/BulkFormer-147M_GO.csv",
+      "bytes": 8523,
+      "sha256": "6efcc5a3693ef232251308fe2f3232341c59ea74b0b781f9b9bcd09c3a211fde"
+    },
+    {
+      "file": "bulkformer_50M_OMIM.csv",
+      "source": "benchmarks/zhong_gene_biology/results/bulkformer_static/BulkFormer-50M_OMIM.csv",
+      "bytes": 13662,
+      "sha256": "00c5d0ca4ce087f9d9d30f4782c97b1c4b10f4d29b4f8db97d695eff70f450f8"
+    },
+    {
+      "file": "bulkformer_147M_OMIM.csv",
+      "source": "benchmarks/zhong_gene_biology/results/bulkformer_static/BulkFormer-147M_OMIM.csv",
+      "bytes": 13788,
+      "sha256": "36da5c4cd98ab706d39c7503052ceedda139dd937845d3d23b7f2e77fbbda76a"
+    },
+    {
+      "file": "single_gene_expected_summary.csv",
+      "source": "benchmarks/zhong_gene_biology/results/single_gene_zhong_matched_summary.csv",
+      "bytes": 934,
+      "sha256": "3599d752c549505c375a20f1563be6b0c2c874cd38f23dc21469fdcde8182fd8"
+    },
+    {
+      "file": "bulkformer_expected_summary.csv",
+      "source": "benchmarks/zhong_gene_biology/results/bulkformer_static/summary.csv",
+      "bytes": 671,
+      "sha256": "4205fffeb44ac60e3d7f6f838529ccb7144010573f1fc86b9199d63c824e213a"
+    },
+    {
+      "file": "zhong_literature_reference.csv",
+      "source": "benchmarks/zhong_gene_biology/results/zhong_literature_comparison.csv",
+      "bytes": 460,
+      "sha256": "c68bbd3c22dd62bf82a82a924fa8797fbdc1dd7f508887ee3b7df1739d517fa7"
+    },
+    {
+      "file": "pair_outer_fold_results.csv",
+      "source": "benchmarks/zhong_gene_biology/results/pair_outer_fold_results_all.csv",
+      "bytes": 7062,
+      "sha256": "aadbc3b3c7241cb22a06c3ed4cfaca2c3b964778bd62a1d16f713bc7c38d75d5"
+    },
+    {
+      "file": "pair_expected_summary.csv",
+      "source": "benchmarks/zhong_gene_biology/results/pair_representation_summary.csv",
+      "bytes": 3793,
+      "sha256": "752643aaf40c671bd99e6d4226986d73e594eb9736c278b30793a11b050b65f9"
+    },
+    {
+      "file": "pair_expected_best.csv",
+      "source": "benchmarks/zhong_gene_biology/results/final_pair_best_conditions.csv",
+      "bytes": 366,
+      "sha256": "b08e31311f0625df34dbe90b6077d6dc21f4597169439dd53f01e450030b945a"
+    },
+    {
+      "file": "pair_leakage_qc.csv",
+      "source": "benchmarks/zhong_gene_biology/results/final_pair_leakage_qc.csv",
+      "bytes": 352,
+      "sha256": "5dd2c259b990ee63a488000589b2becb8a7d0cb24cd2eb47807700be03ef2170"
+    },
+    {
+      "file": "bridge_provenance.json",
+      "source": "benchmarks/zhong_gene_biology/results/final_benchmark_provenance.json",
+      "bytes": 40938,
+      "sha256": "1ca3fdbb6067b9a324848851c08803f6b5727365d93a85d275cddcd9aa3d1bff"
+    },
+    {
+      "file": "bulkformer_provenance.json",
+      "source": "benchmarks/zhong_gene_biology/results/bulkformer_static/provenance.json",
+      "bytes": 3044,
+      "sha256": "2746aea981fd0ee7b6ab2413cddd1fdadabdc33bb686f63bb01483dad2630e06"
+    },
+    {
+      "file": "zhong/embed_meta.csv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/data/embed_meta.csv",
+      "bytes": 2302,
+      "sha256": "13b6589f91948b5c628366dcca91714d1839c44c410f0ebda25eebc35e5f8a8d"
+    },
+    {
+      "file": "zhong/single_gene_go_AUROC.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/single_gene_go_AUROC.tsv",
+      "bytes": 37808,
+      "sha256": "7323e3eb38ca000d13cb990543aca4d22ea1a790e289c21e544c041211321938"
+    },
+    {
+      "file": "zhong/single_gene_omim_AUROC.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/single_gene_omim_AUROC.tsv",
+      "bytes": 68869,
+      "sha256": "645f5200ae52d29812e33636633733c6e9f536c6050798a2d551708fa165e956"
+    },
+    {
+      "file": "zhong/paired_gene_ng_concat_outerloop_AUC.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_ng_concat_outerloop_AUC.tsv",
+      "bytes": 3339,
+      "sha256": "85a34b4b545aa97de127b55c43af2f8c2649fba2aca88940de7a9d2b610f5313"
+    },
+    {
+      "file": "zhong/paired_gene_ng_concat_outerloop_avgs.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_ng_concat_outerloop_avgs.tsv",
+      "bytes": 3804,
+      "sha256": "b37561394f6d74fe1d38f39377276746252b44b0c4a4881ae279a9326f0ae72e"
+    },
+    {
+      "file": "zhong/paired_gene_ng_product_outerloop_AUC.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_ng_product_outerloop_AUC.tsv",
+      "bytes": 3333,
+      "sha256": "cc02a24b1ab4989132fd49778c6c5a5654a20cbddba73376d484fcb58735c372"
+    },
+    {
+      "file": "zhong/paired_gene_ng_product_outerloop_avgs.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_ng_product_outerloop_avgs.tsv",
+      "bytes": 3718,
+      "sha256": "37787a7eca771097499ba76d6f926aa3706b62f41ebfed414beaa325ecdbb730"
+    },
+    {
+      "file": "zhong/paired_gene_ng_sum_outerloop_AUC.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_ng_sum_outerloop_AUC.tsv",
+      "bytes": 3341,
+      "sha256": "ee46d43a1c45a823b27f270edab45f3d4f550c9acce08fe8654fc0dc5ef9dc70"
+    },
+    {
+      "file": "zhong/paired_gene_ng_sum_outerloop_avgs.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_ng_sum_outerloop_avgs.tsv",
+      "bytes": 3762,
+      "sha256": "e2d79017b2ad52e5fa556750c149eedda871c2a9081cad070bcdb1058d11946e"
+    },
+    {
+      "file": "zhong/paired_gene_sl_concat_outerloop_AUC.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_sl_concat_outerloop_AUC.tsv",
+      "bytes": 3333,
+      "sha256": "5cea3bc07d2c02c88f1ddded2b1c02b63fdf46045b79d1fe1c6bbb9af86e4bd8"
+    },
+    {
+      "file": "zhong/paired_gene_sl_concat_outerloop_avgs.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_sl_concat_outerloop_avgs.tsv",
+      "bytes": 3777,
+      "sha256": "b52c603e00be8c690f1606c4b459db79ab03c539db3bed87d23b8005a937afa1"
+    },
+    {
+      "file": "zhong/paired_gene_sl_product_outerloop_AUC.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_sl_product_outerloop_AUC.tsv",
+      "bytes": 3333,
+      "sha256": "31939f0bba5642a8581e1f3c7bef7bb1ae3e63fa64f26a767fa348f8690cb6c3"
+    },
+    {
+      "file": "zhong/paired_gene_sl_product_outerloop_avgs.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_sl_product_outerloop_avgs.tsv",
+      "bytes": 3768,
+      "sha256": "16c38ad10e522d908a5acb17e07275e2cfaa2e81d8211cef8c1a567f35996fe8"
+    },
+    {
+      "file": "zhong/paired_gene_sl_sum_outerloop_AUC.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_sl_sum_outerloop_AUC.tsv",
+      "bytes": 3336,
+      "sha256": "01931ec75a8fcc0d2de6fdb10cf54ad5d7c69779c6f4147c4216b0a0301210d1"
+    },
+    {
+      "file": "zhong/paired_gene_sl_sum_outerloop_avgs.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_sl_sum_outerloop_avgs.tsv",
+      "bytes": 3684,
+      "sha256": "d6234a9d6fd0a0cbb37a0c66406a1f8ffd6d7cb5e5e21702f690ad74ed2992f3"
+    },
+    {
+      "file": "zhong/paired_gene_tf_concat_outerloop_AUC.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_tf_concat_outerloop_AUC.tsv",
+      "bytes": 3334,
+      "sha256": "07dc627a50692f7572ab4177bc3fd1a2ccfc4ddfd8924478fccb1855fd797dba"
+    },
+    {
+      "file": "zhong/paired_gene_tf_concat_outerloop_avgs.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_tf_concat_outerloop_avgs.tsv",
+      "bytes": 3815,
+      "sha256": "ca0b87408883cea5e0a297cdd60ea80aaf0fde606b7af206ce396e6476252a52"
+    },
+    {
+      "file": "zhong/paired_gene_tf_product_outerloop_AUC.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_tf_product_outerloop_AUC.tsv",
+      "bytes": 3327,
+      "sha256": "87f97d910c9e911a0e3a8407b2f7bcbb3b12da0ac32d93120d2aa85d460b06ce"
+    },
+    {
+      "file": "zhong/paired_gene_tf_product_outerloop_avgs.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_tf_product_outerloop_avgs.tsv",
+      "bytes": 3798,
+      "sha256": "88315938db8df672d54a48ea7c24b0d39d466b1ea58f524cd4042ad6abf518f9"
+    },
+    {
+      "file": "zhong/paired_gene_tf_sum_outerloop_AUC.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_tf_sum_outerloop_AUC.tsv",
+      "bytes": 3332,
+      "sha256": "68895af5b445d52009735907ceb92604a43cdd9d3243fc3bbf885f09378e3ee2"
+    },
+    {
+      "file": "zhong/paired_gene_tf_sum_outerloop_avgs.tsv",
+      "source": "https://raw.githubusercontent.com/ylaboratory/gene-embedding-benchmarks/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs/paired_gene_tf_sum_outerloop_avgs.tsv",
+      "bytes": 3825,
+      "sha256": "a898607cfff9328857dd5e2c3cc7dcdcc44dc55ab8a1818b78d917bfd9550d86"
+    },
+    {
+      "file": "zhong/provenance.json",
+      "source": "generated from pinned download metadata",
+      "bytes": 9616,
+      "sha256": "28a9eb0d8c1d617520d70573d5263195264184f2cd9d8b63127b8832b4abe808"
+    }
+  ]
+}

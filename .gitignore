@@ -102,6 +102,11 @@ benchmarks/mouse_encode/work/
 benchmarks/osdr_batch_effect_representation/work/
 benchmarks/library_prep_disentanglement/work/
 benchmarks/rr1_rr3_robust_response_comparison/work/
+benchmarks/zhong_gene_biology/work/
+benchmarks/zhong_gene_biology/references/
+benchmarks/zhong_gene_biology/representations/
+!benchmarks/zhong_gene_biology/coverage/
+!benchmarks/zhong_gene_biology/coverage/**
 benchmarks/library_prep_disentanglement/results/**/sample_representations.npz
 benchmarks/library_prep_disentanglement/results/**/task3_fe_re_sample_embeddings.npz
 benchmarks/library_prep_disentanglement/results/**/*.joblib
@@ -114,6 +119,8 @@ node_modules/
 .nuxt/
 dist/
 coverage/
+!benchmarks/zhong_gene_biology/coverage/
+!benchmarks/zhong_gene_biology/coverage/**
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

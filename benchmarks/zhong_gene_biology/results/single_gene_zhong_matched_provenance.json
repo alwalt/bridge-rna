@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "operation": "read-only aggregation of existing final per-term results",
+  "aggregation_unit": "one unweighted final held-out test metric per biological term",
+  "sd_definition": "sample standard deviation across terms (ddof=1)",
+  "not_averaged": [
+    "CV-fold training scores",
+    "individual predictions",
+    "terms weighted by gene count",
+    "predictions pooled across terms or tasks"
+  ],
+  "expected_terms": {
+    "GO": 56,
+    "OMIM": 103
+  },
+  "inputs": [
+    {
+      "path": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/E0_GO.csv",
+      "task": "GO",
+      "representation": "E0",
+      "rows": 56,
+      "unique_terms": 56
+    },
+    {
+      "path": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/E1_GO.csv",
+      "task": "GO",
+      "representation": "E1",
+      "rows": 56,
+      "unique_terms": 56
+    },
+    {
+      "path": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/E2_GO.csv",
+      "task": "GO",
+      "representation": "E2",
+      "rows": 56,
+      "unique_terms": 56
+    },
+    {
+      "path": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/E0_OMIM.csv",
+      "task": "OMIM",
+      "representation": "E0",
+      "rows": 103,
+      "unique_terms": 103
+    },
+    {
+      "path": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/E1_OMIM.csv",
+      "task": "OMIM",
+      "representation": "E1",
+      "rows": 103,
+      "unique_terms": 103
+    },
+    {
+      "path": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results/E2_OMIM.csv",
+      "task": "OMIM",
+      "representation": "E2",
+      "rows": 103,
+      "unique_terms": 103
+    }
+  ],
+  "literature_reference_note": "Zhong values were supplied explicitly for comparison and were not recomputed."
+}

@@ -1,0 +1,56 @@
+{
+  "checkpoint_path": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+  "checkpoint_exists": true,
+  "checkpoint_source": "shared_root",
+  "checkpoint_config_path": "/home/walt/bridge-rna/model/r7hnr92k/config.json",
+  "vocabulary_path": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv",
+  "vocabulary_exists": true,
+  "existing_embedding_matrices": [
+    "/home/walt/bridge-rna/benchmarks/static_gene_embeddings/work/static_gene_embedding.float32.npy"
+  ],
+  "embedding_shape": [
+    15165,
+    512
+  ],
+  "embedding_shape_source": "checkpoint_tensor",
+  "gene_identifier_type": "HGNC-style human gene symbols (uppercase strings)",
+  "vocabulary_size": 15165,
+  "embedding_dim": 512,
+  "row_order_definition": "Rows follow canonical vocabulary sorted by token_id; embedding row index = token_id - 1.",
+  "candidate_representations": [
+    {
+      "name": "static_gene_identity_embedding",
+      "tensor": "model_state_dict.gene_embedding.weight",
+      "shape": [
+        15165,
+        512
+      ],
+      "requires_sample_context": false,
+      "notes": "Sample-invariant embedding lookup table from the frozen checkpoint.",
+      "recommended_for_phase1": true
+    },
+    {
+      "name": "contextual_gene_token_embeddings",
+      "tensor": "hidden states after Transformer layers (e.g., L1/L6/L12)",
+      "shape": [
+        15165,
+        512
+      ],
+      "requires_sample_context": true,
+      "notes": "Requires a reference cohort and aggregation choice; context-dependent by design.",
+      "recommended_for_phase1": false
+    },
+    {
+      "name": "sample_level_embeddings",
+      "tensor": "model.encode(...).mean(dim=1)",
+      "shape": [
+        null,
+        512
+      ],
+      "requires_sample_context": true,
+      "notes": "Produces per-sample vectors, not per-gene embeddings.",
+      "recommended_for_phase1": false
+    }
+  ],
+  "phase0_recommendation": "Use static_gene_identity_embedding for Zhong-style fixed-gene benchmark unless/until a separate contextual protocol is approved."
+}

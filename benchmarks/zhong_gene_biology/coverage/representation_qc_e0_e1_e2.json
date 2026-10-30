@@ -1,0 +1,105 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 37.41732311248779,
+  "representation_shapes": {
+    "E0": [
+      15165,
+      512
+    ],
+    "E1": [
+      15165,
+      512
+    ],
+    "E2": [
+      15165,
+      512
+    ]
+  },
+  "finite_checks": {
+    "E0": true,
+    "E1": true,
+    "E2": true
+  },
+  "sample_processing": {
+    "target_samples": 200,
+    "processed_samples": 200,
+    "silently_dropped_samples": 0,
+    "all_target_samples_processed": true
+  },
+  "cosine_distributions": {
+    "E0_vs_E1": {
+      "min": -0.05054545775055885,
+      "p25": 0.09400797635316849,
+      "median": 0.12442506104707718,
+      "mean": 0.12378719449043274,
+      "p75": 0.153798446059227,
+      "max": 0.3025044798851013
+    },
+    "E0_vs_E2": {
+      "min": -0.00930811744183302,
+      "p25": 0.15478874742984772,
+      "median": 0.1879337877035141,
+      "mean": 0.1884179264307022,
+      "p75": 0.2229146659374237,
+      "max": 0.38104456663131714
+    },
+    "E1_vs_E2": {
+      "min": 0.20323900878429413,
+      "p25": 0.7483037114143372,
+      "median": 0.8056433200836182,
+      "mean": 0.7842403054237366,
+      "p75": 0.8405908346176147,
+      "max": 0.9145885705947876
+    }
+  },
+  "pairwise_geometry_correlation": {
+    "E0_vs_E1": {
+      "subset_genes": 2000.0,
+      "pair_count": 1999000.0,
+      "pearson_corr": 0.07943192783683567
+    },
+    "E0_vs_E2": {
+      "subset_genes": 2000.0,
+      "pair_count": 1999000.0,
+      "pearson_corr": 0.05097836479412941
+    },
+    "E1_vs_E2": {
+      "subset_genes": 2000.0,
+      "pair_count": 1999000.0,
+      "pearson_corr": 0.7216796276706506
+    }
+  },
+  "variance_across_genes": {
+    "E0_dimension_variance": {
+      "min": 0.9530396461486816,
+      "p25": 0.9884964227676392,
+      "median": 0.9958305358886719,
+      "mean": 0.9960386157035828,
+      "p75": 1.0041391849517822,
+      "max": 1.0288370847702026
+    },
+    "E1_dimension_variance": {
+      "min": 0.17810940742492676,
+      "p25": 0.3110411763191223,
+      "median": 0.347781240940094,
+      "mean": 0.3663889169692993,
+      "p75": 0.4023725092411041,
+      "max": 0.713831901550293
+    },
+    "E2_dimension_variance": {
+      "min": 0.14971929788589478,
+      "p25": 0.29704734683036804,
+      "median": 0.3377988040447235,
+      "mean": 0.3649676740169525,
+      "p75": 0.4043801724910736,
+      "max": 1.1058217287063599
+    },
+    "E0_mean_dimension_variance": 0.9960386157035828,
+    "E1_mean_dimension_variance": 0.3663889169692993,
+    "E2_mean_dimension_variance": 0.3649676740169525
+  },
+  "outputs": {
+    "e2_dir": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/representations/E2_GTEx200_L12",
+    "gene_cosines_csv": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/e0_e1_e2_gene_cosines.csv"
+  }
+}

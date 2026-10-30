@@ -1,0 +1,87 @@
+{
+  "all_candidates": [
+    {
+      "path": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/static_gene_embeddings/results/matched_gtex_tcga/cohort_manifest.csv",
+      "sha256": "a2d7ed7aec4183abb7405cfd64363e44dd7d384c97ceb0c61af1e44e7ce26b54",
+      "rows_total": 400,
+      "rows_gtex": 200,
+      "n_tissues": 10,
+      "balanced_20_per_tissue": true,
+      "context_counts": {
+        "cerebellum": 20,
+        "cortex": 20,
+        "heart": 20,
+        "liver": 20,
+        "lung": 20,
+        "pancreas": 20,
+        "skeletal muscle": 20,
+        "spleen": 20,
+        "subcutaneous adipose": 20,
+        "testis": 20
+      }
+    },
+    {
+      "path": "/home/walt/bridge-rna/benchmarks/static_gene_embeddings/results/matched_gtex_tcga/cohort_manifest.csv",
+      "sha256": "a2d7ed7aec4183abb7405cfd64363e44dd7d384c97ceb0c61af1e44e7ce26b54",
+      "rows_total": 400,
+      "rows_gtex": 200,
+      "n_tissues": 10,
+      "balanced_20_per_tissue": true,
+      "context_counts": {
+        "cerebellum": 20,
+        "cortex": 20,
+        "heart": 20,
+        "liver": 20,
+        "lung": 20,
+        "pancreas": 20,
+        "skeletal muscle": 20,
+        "spleen": 20,
+        "subcutaneous adipose": 20,
+        "testis": 20
+      }
+    }
+  ],
+  "balanced_gtex200_candidates": [
+    {
+      "path": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/static_gene_embeddings/results/matched_gtex_tcga/cohort_manifest.csv",
+      "sha256": "a2d7ed7aec4183abb7405cfd64363e44dd7d384c97ceb0c61af1e44e7ce26b54",
+      "rows_total": 400,
+      "rows_gtex": 200,
+      "n_tissues": 10,
+      "balanced_20_per_tissue": true,
+      "context_counts": {
+        "cerebellum": 20,
+        "cortex": 20,
+        "heart": 20,
+        "liver": 20,
+        "lung": 20,
+        "pancreas": 20,
+        "skeletal muscle": 20,
+        "spleen": 20,
+        "subcutaneous adipose": 20,
+        "testis": 20
+      }
+    },
+    {
+      "path": "/home/walt/bridge-rna/benchmarks/static_gene_embeddings/results/matched_gtex_tcga/cohort_manifest.csv",
+      "sha256": "a2d7ed7aec4183abb7405cfd64363e44dd7d384c97ceb0c61af1e44e7ce26b54",
+      "rows_total": 400,
+      "rows_gtex": 200,
+      "n_tissues": 10,
+      "balanced_20_per_tissue": true,
+      "context_counts": {
+        "cerebellum": 20,
+        "cortex": 20,
+        "heart": 20,
+        "liver": 20,
+        "lung": 20,
+        "pancreas": 20,
+        "skeletal muscle": 20,
+        "spleen": 20,
+        "subcutaneous adipose": 20,
+        "testis": 20
+      }
+    }
+  ],
+  "selected_manifest": "/home/walt/bridge-rna/benchmarks/static_gene_embeddings/results/matched_gtex_tcga/cohort_manifest.csv"
+}

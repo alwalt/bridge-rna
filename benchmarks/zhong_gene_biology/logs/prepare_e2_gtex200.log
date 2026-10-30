@@ -1,0 +1,16 @@
+[assets] checkpoint=/home/walt/bridge-rna/model/r7hnr92k/best_model.pt (shared_root)
+[assets] config=/home/walt/bridge-rna/model/r7hnr92k/config.json (shared_root)
+[assets] vocab=/home/walt/bridge-rna/data/ensembl/canonical_genes.csv (shared_root)
+[assets] gtex_manifest=/home/walt/bridge-rna/benchmarks/static_gene_embeddings/results/matched_gtex_tcga/cohort_manifest.csv (shared_root)
+[assets] gtex_log1p_tpm=/home/walt/bridge-rna/benchmarks/landmark_gene_sufficiency/work/gtex_model_log1p_tpm.npy (shared_root)
+[E2] processed=25/200 elapsed=0.1m rate=5.36 samples/s eta=0.5m
+[E2] processed=50/200 elapsed=0.1m rate=5.62 samples/s eta=0.4m
+[E2] processed=75/200 elapsed=0.2m rate=5.69 samples/s eta=0.4m
+[E2] processed=100/200 elapsed=0.3m rate=5.77 samples/s eta=0.3m
+[E2] processed=125/200 elapsed=0.4m rate=5.80 samples/s eta=0.2m
+[E2] processed=150/200 elapsed=0.4m rate=5.82 samples/s eta=0.1m
+[E2] processed=175/200 elapsed=0.5m rate=5.85 samples/s eta=0.1m
+[E2] processed=200/200 elapsed=0.6m rate=5.86 samples/s eta=0.0m
+[done] E2 generated and validated
+[done] wrote /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/representations/E2_GTEx200_L12/embeddings.npy
+[done] wrote /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/representation_qc_e0_e1_e2.json

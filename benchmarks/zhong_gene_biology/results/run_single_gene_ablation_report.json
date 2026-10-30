@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 643.3656802177429,
+  "seed": 42,
+  "mapping": {
+    "mapping_tsv": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/bridge_gene_mapping.tsv",
+    "mapped_genes": 15150,
+    "excluded_ambiguous_or_unmapped": 15
+  },
+  "outputs": {
+    "results_dir": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results",
+    "figures_dir": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/figures",
+    "log": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/logs/run_single_gene_ablation.log"
+  },
+  "summary_table": [
+    {
+      "task": "GO",
+      "representation": "E0_static",
+      "N_terms": 56,
+      "median_AUROC": 0.5156078306428773,
+      "IQR_AUROC": 0.07187241484681406,
+      "median_AUPRC": 0.11729364803511899,
+      "median_Precision@10": 0.1
+    },
+    {
+      "task": "GO",
+      "representation": "E1_null_L12",
+      "N_terms": 56,
+      "median_AUROC": 0.7735751199693394,
+      "IQR_AUROC": 0.09636806380551088,
+      "median_AUPRC": 0.33467070177176045,
+      "median_Precision@10": 0.4
+    },
+    {
+      "task": "GO",
+      "representation": "E2_GTEx200_L12",
+      "N_terms": 56,
+      "median_AUROC": 0.7876074671519033,
+      "IQR_AUROC": 0.10773104577991166,
+      "median_AUPRC": 0.37805548668883904,
+      "median_Precision@10": 0.5
+    },
+    {
+      "task": "OMIM",
+      "representation": "E0_static",
+      "N_terms": 103,
+      "median_AUROC": 0.495,
+      "IQR_AUROC": 0.1392944923155921,
+      "median_AUPRC": 0.11108469703670942,
+      "median_Precision@10": 0.1
+    },
+    {
+      "task": "OMIM",
+      "representation": "E1_null_L12",
+      "N_terms": 103,
+      "median_AUROC": 0.7437624104290771,
+      "IQR_AUROC": 0.2062996026982863,
+      "median_AUPRC": 0.3250763160161402,
+      "median_Precision@10": 0.3
+    },
+    {
+      "task": "OMIM",
+      "representation": "E2_GTEx200_L12",
+      "N_terms": 103,
+      "median_AUROC": 0.7535511363636364,
+      "IQR_AUROC": 0.1981475078975079,
+      "median_AUPRC": 0.3999461223963088,
+      "median_Precision@10": 0.3
+    }
+  ]
+}

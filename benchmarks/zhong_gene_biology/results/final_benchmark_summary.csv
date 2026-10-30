@@ -1,0 +1,34 @@
+Biological_scale,Task,Representation,Pair_operation,AUROC,AUPRC,Aggregation
+Single gene,GO,E0,—,0.5177345946414421,0.1320916792748354,unweighted mean across 56 terms
+Single gene,GO,E1,—,0.7722056568261634,0.3667589403481549,unweighted mean across 56 terms
+Single gene,GO,E2,—,0.7811370673092847,0.4019202899950987,unweighted mean across 56 terms
+Single gene,OMIM,E0,—,0.4891240408445398,0.1608630931461895,unweighted mean across 103 terms
+Single gene,OMIM,E1,—,0.7354328910401389,0.38788563783581,unweighted mean across 103 terms
+Single gene,OMIM,E2,—,0.7596436766344037,0.4293891182131928,unweighted mean across 103 terms
+Gene pair,Negative genetic,E0,concat,0.5457077199918126,0.118916407003325,mean across 3 outer folds
+Gene pair,Negative genetic,E0,product,0.5169216846731759,0.1679539779809677,mean across 3 outer folds
+Gene pair,Negative genetic,E0,sum,0.5690870904521893,0.1723534874388961,mean across 3 outer folds
+Gene pair,Negative genetic,E1,concat,0.5655097529307298,0.1292739370929977,mean across 3 outer folds
+Gene pair,Negative genetic,E1,product,0.5645357513544237,0.1454960910519871,mean across 3 outer folds
+Gene pair,Negative genetic,E1,sum,0.564190553706735,0.1510148838017155,mean across 3 outer folds
+Gene pair,Negative genetic,E2,concat,0.5799311008066311,0.1329493827388884,mean across 3 outer folds
+Gene pair,Negative genetic,E2,product,0.575119877816695,0.1598618843039096,mean across 3 outer folds
+Gene pair,Negative genetic,E2,sum,0.5776505041358128,0.1428005926714902,mean across 3 outer folds
+Gene pair,Synthetic lethal,E0,concat,0.4165888845774002,0.0808995704862801,mean across 3 outer folds
+Gene pair,Synthetic lethal,E0,product,0.4698291622991364,0.0982822565581328,mean across 3 outer folds
+Gene pair,Synthetic lethal,E0,sum,0.472036576631545,0.0867499623712673,mean across 3 outer folds
+Gene pair,Synthetic lethal,E1,concat,0.6081179212692295,0.1532188673649946,mean across 3 outer folds
+Gene pair,Synthetic lethal,E1,product,0.7074743390392332,0.2277228256579113,mean across 3 outer folds
+Gene pair,Synthetic lethal,E1,sum,0.6105938520950268,0.1572240840376907,mean across 3 outer folds
+Gene pair,Synthetic lethal,E2,concat,0.4765597292601741,0.103262202209618,mean across 3 outer folds
+Gene pair,Synthetic lethal,E2,product,0.5885888533102398,0.1264916243193381,mean across 3 outer folds
+Gene pair,Synthetic lethal,E2,sum,0.4559019388309021,0.0960497620489617,mean across 3 outer folds
+Gene pair,TF-target,E0,concat,0.5157095111493439,0.0975144287070205,mean across 3 outer folds
+Gene pair,TF-target,E0,product,0.5228297100177398,0.0976015900985208,mean across 3 outer folds
+Gene pair,TF-target,E0,sum,0.5109906288179115,0.0978465800263549,mean across 3 outer folds
+Gene pair,TF-target,E1,concat,0.6699341736516992,0.1860222042013005,mean across 3 outer folds
+Gene pair,TF-target,E1,product,0.6608841451229033,0.1761158212277464,mean across 3 outer folds
+Gene pair,TF-target,E1,sum,0.6677323267976457,0.1740990219583146,mean across 3 outer folds
+Gene pair,TF-target,E2,concat,0.6658981533498224,0.1937310464293992,mean across 3 outer folds
+Gene pair,TF-target,E2,product,0.6231698434852774,0.1563137735678286,mean across 3 outer folds
+Gene pair,TF-target,E2,sum,0.6501537365780099,0.1719938384248044,mean across 3 outer folds

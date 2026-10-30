@@ -1,0 +1,16 @@
+Biological_scale,Task,Representation,Operation,AUROC
+Single gene,GO,E0,—,0.5177345946414421
+Single gene,GO,E1,—,0.7722056568261634
+Single gene,GO,E2,—,0.7811370673092847
+Single gene,OMIM,E0,—,0.4891240408445398
+Single gene,OMIM,E1,—,0.7354328910401389
+Single gene,OMIM,E2,—,0.7596436766344037
+Gene pair,Negative genetic,E0,sum,0.5690870904521893
+Gene pair,Negative genetic,E1,concat,0.5655097529307298
+Gene pair,Negative genetic,E2,concat,0.5799311008066311
+Gene pair,Synthetic lethal,E0,sum,0.472036576631545
+Gene pair,Synthetic lethal,E1,product,0.7074743390392332
+Gene pair,Synthetic lethal,E2,product,0.5885888533102398
+Gene pair,TF-target,E0,product,0.5228297100177398
+Gene pair,TF-target,E1,concat,0.6699341736516992
+Gene pair,TF-target,E2,concat,0.6658981533498224

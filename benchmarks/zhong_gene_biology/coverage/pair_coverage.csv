@@ -1,0 +1,4 @@
+interaction_type,original_total_pairs,retained_total_pairs,original_positive_pairs,retained_positive_pairs,retained_positive_pct,original_negative_pairs,retained_negative_pairs,retained_unique_genes_all_pairs,retained_unique_genes_positive_pairs
+synthetic_lethal,23364,17771,2124,1860,87.57062146892656,21240,15911,1637,1637
+negative_genetic,116248,90493,10568,9054,85.67373202119606,105680,81439,3701,3574
+tf_target,110000,82217,10000,7603,76.03,100000,74614,6129,5600
