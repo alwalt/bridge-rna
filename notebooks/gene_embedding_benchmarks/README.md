@@ -156,8 +156,9 @@ vocabulary, representation definition, split protocol, or model checkpoint.
 - The three cached Zhong bulk-expression results use the authors' common-gene
   intersection. Bridge and BulkFormer local adaptations use their own mapped
   vocabularies. They share tasks, split definitions, metrics, and aggregation
-  logic, but not identical evaluated genes, so they are shown in separate
-  table/figure sections and must not be treated as one ranking.
+  logic, but not identical evaluated genes. The comparison plot shows all
+  bulk-derived models together while separating the two universes with a gap,
+  background shading, and source labels; it must not be treated as one ranking.
 - Published Zhong single-gene TSVs contain per-term AUROC but not AUPRC. Pair
   summary TSVs contain mean outer-fold AUROC, AUPRC, and precision@10; the
   paired fold TSVs provide fold-level AUROC only.

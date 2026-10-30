@@ -184,27 +184,31 @@ display(single_comparability)"""
         nbf.v4.new_code_cell(
             """local_order = ["Bridge E0", "BulkFormer-50M static", "BulkFormer-147M static", "Bridge E1", "Bridge E2"]
 published_order = eligible_bulk
-fig, axes = plt.subplots(2, 2, figsize=(13.5, 9), sharey=True)
-for col, task in enumerate(["GO", "OMIM"]):
+fig, axes = plt.subplots(1, 2, figsize=(16, 6.3), sharey=True)
+for ax, task in zip(axes, ["GO", "OMIM"]):
     local = single_summary[single_summary.Task.eq(task)].set_index("Model").loc[local_order]
     pub = zhong_single[zhong_single.Task.eq(task)].set_index("Model").loc[published_order]
-    for row, values, labels, title, palette in [
-        (0, local.Mean_AUROC, ["Bridge E0", "BulkFormer 50M", "BulkFormer 147M", "Bridge E1", "Bridge E2"], "Local adaptations (model-specific universes)", ["#8A8F98", "#7A9E9F", "#4F7C7D", "#2878B5", "#D95319"]),
-        (1, pub.Mean_AUROC, ["Gene2vec", "TCGA embedding", "FRoGS-ARCHS4"], "Published Zhong (common-intersection universe)", ["#6A4C93", "#9C6ADE", "#C7A4E0"]),
-    ]:
-        ax = axes[row, col]
-        bars = ax.bar(np.arange(len(values)), values, color=palette, width=0.68)
-        ax.bar_label(bars, labels=[f"{v:.3f}" for v in values], padding=3, fontsize=9, fontweight="bold")
-        ax.set_xticks(np.arange(len(values)), labels, rotation=18, ha="right")
-        ax.set_ylim(0, 1)
-        ax.set_title(f"{task} — {title}", fontsize=12, fontweight="bold")
-        ax.spines[["top", "right"]].set_visible(False)
-        ax.grid(False)
-        if col == 0:
-            ax.set_ylabel("Mean held-out AUROC")
-fig.suptitle("Bulk RNA-seq-derived gene embeddings: separated evaluation universes", fontsize=18, fontweight="bold")
-fig.text(0.5, 0.005, "Panels are separated because local adaptations and Zhong published results do not share an identical evaluated gene universe.", ha="center", fontsize=9.5, color="#555555")
-fig.tight_layout(rect=[0, 0.025, 1, 0.96])
+    values = np.r_[local.Mean_AUROC.to_numpy(), pub.Mean_AUROC.to_numpy()]
+    positions = np.r_[np.arange(5), np.arange(6, 9)]
+    labels = ["Bridge E0", "BulkFormer 50M", "BulkFormer 147M", "Bridge E1", "Bridge E2", "Gene2vec", "TCGA embedding", "FRoGS-ARCHS4"]
+    palette = ["#8A8F98", "#7A9E9F", "#4F7C7D", "#2878B5", "#D95319", "#6A4C93", "#9C6ADE", "#C7A4E0"]
+    ax.axvspan(-0.55, 4.55, color="#EAF2F8", alpha=0.65, zorder=0)
+    ax.axvspan(5.45, 8.55, color="#F3ECF8", alpha=0.75, zorder=0)
+    bars = ax.bar(positions, values, color=palette, width=0.72, zorder=2)
+    ax.bar_label(bars, labels=[f"{v:.3f}" for v in values], padding=3, fontsize=9, fontweight="bold")
+    ax.set_xticks(positions, labels, rotation=27, ha="right")
+    ax.set_ylim(0, 1)
+    ax.set_xlim(-0.65, 8.65)
+    ax.set_title(task, fontsize=16, fontweight="bold", pad=35)
+    ax.text(2, 1.015, "Local adaptations\\nmodel-specific universes", ha="center", va="bottom", fontsize=10, color="#355C7D", transform=ax.get_xaxis_transform())
+    ax.text(7, 1.015, "Published Zhong\\ncommon-intersection universe", ha="center", va="bottom", fontsize=10, color="#6A4C93", transform=ax.get_xaxis_transform())
+    ax.axvline(5, color="#777777", linewidth=1, linestyle="--")
+    ax.spines[["top", "right"]].set_visible(False)
+    ax.grid(False)
+axes[0].set_ylabel("Mean held-out AUROC")
+fig.suptitle("Bulk RNA-seq-derived gene embeddings", fontsize=19, fontweight="bold", y=1.03)
+fig.text(0.5, -0.015, "All models are shown together for context; shaded source groups use different evaluated gene universes and do not form a strict ranking.", ha="center", fontsize=9.5, color="#555555")
+fig.tight_layout(rect=[0, 0.04, 1, 0.95])
 fig.savefig(FIGURES / "bulk_rnaseq_single_gene_comparison.png", dpi=300, bbox_inches="tight", facecolor="white")
 fig.savefig(FIGURES / "bulk_rnaseq_single_gene_comparison.pdf", bbox_inches="tight", facecolor="white", metadata={"CreationDate": None, "ModDate": None})
 plt.show()"""
