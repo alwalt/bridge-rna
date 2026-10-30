@@ -1,0 +1,31 @@
+class,samples,donors
+Adipose Tissue,602,436
+Adrenal Gland,159,159
+Bladder,11,11
+Blood,428,428
+Blood Vessel,743,439
+Brain,1374,201
+Breast,217,217
+Cervix Uteri,11,8
+Colon,375,278
+Esophagus,783,396
+Fallopian Tube,7,7
+Heart,463,319
+Kidney,36,36
+Liver,135,135
+Lung,336,336
+Muscle,452,452
+Nerve,332,332
+Ovary,108,108
+Pancreas,192,192
+Pituitary,124,124
+Prostate,119,119
+Salivary Gland,69,69
+Skin,652,448
+Small Intestine,104,104
+Spleen,118,118
+Stomach,203,201
+Testis,199,199
+Thyroid,345,345
+Uterus,89,89
+Vagina,97,97

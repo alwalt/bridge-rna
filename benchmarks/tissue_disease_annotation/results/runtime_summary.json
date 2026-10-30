@@ -1,0 +1,11 @@
+{
+  "stage_minutes": {
+    "prepare": 0.6,
+    "validate": 0.1,
+    "embed": 21.7,
+    "evaluate": 31.4,
+    "report": 0.2
+  },
+  "total_minutes": 54.0,
+  "note": "Wall times are rounded log-reported runtimes; failed pre-report dependency checks excluded."
+}

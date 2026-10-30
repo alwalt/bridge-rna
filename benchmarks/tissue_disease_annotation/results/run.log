@@ -1,0 +1,103 @@
+[2026-09-23 01:34:27] stage=prepare start
+[2026-09-23 01:34:27] GTEx manifest frozen: n=8,883, detailed=51, broad=30, donors=549
+[2026-09-23 01:34:27] TCGA manifest frozen: n=9,942, cancers=33
+[2026-09-23 01:35:00] saved GTEx expression (8883, 15165) to /home/walt/bridge-rna.worktrees/you-are-implementing-a-new-bridgerna-benchmark-f/benchmarks/tissue_disease_annotation/work/gtex_log1p_tpm.npy
+[2026-09-23 01:35:02] stage=prepare complete runtime=0.6m
+[2026-09-23 01:35:26] stage=validate start
+[2026-09-23 01:35:28] one_sample_validation: n=1, batch=4, device=cuda:0; estimated rate 8.2 samples/s
+[2026-09-23 01:35:28] heartbeat one_sample_validation: 1/1, elapsed=0.0m, rate=1.95/s, eta=0.0m
+[2026-09-23 01:35:30] small_batch_validation: n=8, batch=4, device=cuda:0; estimated rate 8.2 samples/s
+[2026-09-23 01:35:31] heartbeat small_batch_validation: 8/8, elapsed=0.0m, rate=7.34/s, eta=0.0m
+[2026-09-23 01:35:31] small_batch_repeat: n=8, batch=4, device=cuda:0; estimated rate 8.2 samples/s
+[2026-09-23 01:35:32] heartbeat small_batch_repeat: 8/8, elapsed=0.0m, rate=7.18/s, eta=0.0m
+[2026-09-23 01:35:32] one-sample and small-batch validation passed
+[2026-09-23 01:35:32] stage=validate complete runtime=0.1m
+[2026-09-23 01:35:45] stage=embed start
+[2026-09-23 01:35:47] full_gtex_embedding: n=8,883, batch=4, device=cuda:0; estimated rate 8.2 samples/s
+[2026-09-23 01:36:48] heartbeat full_gtex_embedding: 428/8,883, elapsed=1.0m, rate=7.09/s, eta=19.9m
+[2026-09-23 01:37:48] heartbeat full_gtex_embedding: 852/8,883, elapsed=2.0m, rate=7.06/s, eta=19.0m
+[2026-09-23 01:38:48] heartbeat full_gtex_embedding: 1,276/8,883, elapsed=3.0m, rate=7.06/s, eta=18.0m
+[2026-09-23 01:39:48] heartbeat full_gtex_embedding: 1,696/8,883, elapsed=4.0m, rate=7.03/s, eta=17.0m
+[2026-09-23 01:40:49] heartbeat full_gtex_embedding: 2,096/8,883, elapsed=5.0m, rate=6.95/s, eta=16.3m
+[2026-09-23 01:41:49] heartbeat full_gtex_embedding: 2,500/8,883, elapsed=6.0m, rate=6.91/s, eta=15.4m
+[2026-09-23 01:42:50] heartbeat full_gtex_embedding: 2,900/8,883, elapsed=7.0m, rate=6.87/s, eta=14.5m
+[2026-09-23 01:43:50] heartbeat full_gtex_embedding: 3,300/8,883, elapsed=8.0m, rate=6.84/s, eta=13.6m
+[2026-09-23 01:44:50] heartbeat full_gtex_embedding: 3,700/8,883, elapsed=9.0m, rate=6.82/s, eta=12.7m
+[2026-09-23 01:45:50] heartbeat full_gtex_embedding: 4,100/8,883, elapsed=10.1m, rate=6.80/s, eta=11.7m
+[2026-09-23 01:46:51] heartbeat full_gtex_embedding: 4,500/8,883, elapsed=11.1m, rate=6.78/s, eta=10.8m
+[2026-09-23 01:47:51] heartbeat full_gtex_embedding: 4,908/8,883, elapsed=12.1m, rate=6.78/s, eta=9.8m
+[2026-09-23 01:48:52] heartbeat full_gtex_embedding: 5,312/8,883, elapsed=13.1m, rate=6.77/s, eta=8.8m
+[2026-09-23 01:49:52] heartbeat full_gtex_embedding: 5,720/8,883, elapsed=14.1m, rate=6.78/s, eta=7.8m
+[2026-09-23 01:50:52] heartbeat full_gtex_embedding: 6,120/8,883, elapsed=15.1m, rate=6.77/s, eta=6.8m
+[2026-09-23 01:51:52] heartbeat full_gtex_embedding: 6,520/8,883, elapsed=16.1m, rate=6.76/s, eta=5.8m
+[2026-09-23 01:52:52] heartbeat full_gtex_embedding: 6,920/8,883, elapsed=17.1m, rate=6.75/s, eta=4.8m
+[2026-09-23 01:53:52] heartbeat full_gtex_embedding: 7,324/8,883, elapsed=18.1m, rate=6.75/s, eta=3.8m
+[2026-09-23 01:54:52] heartbeat full_gtex_embedding: 7,756/8,883, elapsed=19.1m, rate=6.77/s, eta=2.8m
+[2026-09-23 01:55:53] heartbeat full_gtex_embedding: 8,204/8,883, elapsed=20.1m, rate=6.81/s, eta=1.7m
+[2026-09-23 01:56:53] heartbeat full_gtex_embedding: 8,652/8,883, elapsed=21.1m, rate=6.83/s, eta=0.6m
+[2026-09-23 01:57:24] heartbeat full_gtex_embedding: 8,883/8,883, elapsed=21.6m, rate=6.85/s, eta=0.0m
+[2026-09-23 01:57:25] saved validated GTEx embeddings (8883, 512)
+[2026-09-23 01:57:25] stage=embed complete runtime=21.7m
+[2026-09-23 01:57:37] stage=evaluate start
+[2026-09-23 01:59:41] evaluation task=gtex_detailed fold=0 rep=bridge macro_f1=0.8716
+[2026-09-23 02:00:27] evaluation task=gtex_broad fold=0 rep=bridge macro_f1=0.9291
+[2026-09-23 02:01:36] evaluation task=gtex_detailed fold=0 rep=raw macro_f1=0.9171
+[2026-09-23 02:01:55] evaluation task=gtex_broad fold=0 rep=raw macro_f1=0.9533
+[2026-09-23 02:02:02] evaluation task=gtex_detailed fold=0 rep=pca macro_f1=0.9200
+[2026-09-23 02:02:08] evaluation task=gtex_broad fold=0 rep=pca macro_f1=0.9616
+[2026-09-23 02:04:52] evaluation task=gtex_detailed fold=1 rep=bridge macro_f1=0.9109
+[2026-09-23 02:05:34] evaluation task=gtex_broad fold=1 rep=bridge macro_f1=0.9429
+[2026-09-23 02:06:34] evaluation task=gtex_detailed fold=1 rep=raw macro_f1=0.9503
+[2026-09-23 02:06:49] evaluation task=gtex_broad fold=1 rep=raw macro_f1=0.9821
+[2026-09-23 02:06:57] evaluation task=gtex_detailed fold=1 rep=pca macro_f1=0.9671
+[2026-09-23 02:07:02] evaluation task=gtex_broad fold=1 rep=pca macro_f1=0.9874
+[2026-09-23 02:09:14] evaluation task=gtex_detailed fold=2 rep=bridge macro_f1=0.8888
+[2026-09-23 02:09:47] evaluation task=gtex_broad fold=2 rep=bridge macro_f1=0.9293
+[2026-09-23 02:10:48] evaluation task=gtex_detailed fold=2 rep=raw macro_f1=0.9406
+[2026-09-23 02:11:02] evaluation task=gtex_broad fold=2 rep=raw macro_f1=0.9671
+[2026-09-23 02:11:08] evaluation task=gtex_detailed fold=2 rep=pca macro_f1=0.9368
+[2026-09-23 02:11:12] evaluation task=gtex_broad fold=2 rep=pca macro_f1=0.9697
+[2026-09-23 02:13:08] evaluation task=gtex_detailed fold=3 rep=bridge macro_f1=0.8532
+[2026-09-23 02:13:48] evaluation task=gtex_broad fold=3 rep=bridge macro_f1=0.9254
+[2026-09-23 02:14:44] evaluation task=gtex_detailed fold=3 rep=raw macro_f1=0.9166
+[2026-09-23 02:15:02] evaluation task=gtex_broad fold=3 rep=raw macro_f1=0.9748
+[2026-09-23 02:15:10] evaluation task=gtex_detailed fold=3 rep=pca macro_f1=0.9007
+[2026-09-23 02:15:14] evaluation task=gtex_broad fold=3 rep=pca macro_f1=0.9710
+[2026-09-23 02:17:23] evaluation task=gtex_detailed fold=4 rep=bridge macro_f1=0.8615
+[2026-09-23 02:17:56] evaluation task=gtex_broad fold=4 rep=bridge macro_f1=0.9057
+[2026-09-23 02:18:50] evaluation task=gtex_detailed fold=4 rep=raw macro_f1=0.8953
+[2026-09-23 02:19:05] evaluation task=gtex_broad fold=4 rep=raw macro_f1=0.9203
+[2026-09-23 02:19:11] evaluation task=gtex_detailed fold=4 rep=pca macro_f1=0.8991
+[2026-09-23 02:19:16] evaluation task=gtex_broad fold=4 rep=pca macro_f1=0.9220
+[2026-09-23 02:19:16] gtex evaluation complete in 21.6m
+[2026-09-23 02:20:57] evaluation task=tcga_cancer fold=0 rep=bridge macro_f1=0.9080
+[2026-09-23 02:21:15] evaluation task=tcga_cancer fold=0 rep=raw macro_f1=0.9402
+[2026-09-23 02:21:22] evaluation task=tcga_cancer fold=0 rep=pca macro_f1=0.9339
+[2026-09-23 02:22:51] evaluation task=tcga_cancer fold=1 rep=bridge macro_f1=0.9029
+[2026-09-23 02:23:08] evaluation task=tcga_cancer fold=1 rep=raw macro_f1=0.9273
+[2026-09-23 02:23:16] evaluation task=tcga_cancer fold=1 rep=pca macro_f1=0.9239
+[2026-09-23 02:24:50] evaluation task=tcga_cancer fold=2 rep=bridge macro_f1=0.9132
+[2026-09-23 02:25:11] evaluation task=tcga_cancer fold=2 rep=raw macro_f1=0.9522
+[2026-09-23 02:25:19] evaluation task=tcga_cancer fold=2 rep=pca macro_f1=0.9449
+[2026-09-23 02:26:46] evaluation task=tcga_cancer fold=3 rep=bridge macro_f1=0.9147
+[2026-09-23 02:27:03] evaluation task=tcga_cancer fold=3 rep=raw macro_f1=0.9498
+[2026-09-23 02:27:08] evaluation task=tcga_cancer fold=3 rep=pca macro_f1=0.9468
+[2026-09-23 02:28:37] evaluation task=tcga_cancer fold=4 rep=bridge macro_f1=0.9108
+[2026-09-23 02:28:52] evaluation task=tcga_cancer fold=4 rep=raw macro_f1=0.9426
+[2026-09-23 02:29:03] evaluation task=tcga_cancer fold=4 rep=pca macro_f1=0.9392
+[2026-09-23 02:29:03] tcga evaluation complete in 9.8m
+[2026-09-23 02:29:03] stage=evaluate complete runtime=31.4m
+[2026-09-23 02:29:14] stage=report start
+[2026-09-23 02:29:43] stage=report start
+[2026-09-23 02:30:15] stage=report start
+[2026-09-23 02:30:27] figures, scientific report, notebook, and final QC written
+[2026-09-23 02:30:27] stage=report complete runtime=0.2m
+[2026-09-23 02:32:35] stage=report start
+[2026-09-23 02:32:50] figures, scientific report, notebook, and final QC written
+[2026-09-23 02:32:50] stage=report complete runtime=0.3m
+[2026-09-23 21:54:59] stage=report start
+[2026-09-23 21:55:13] figures, scientific report, notebook, and final QC written
+[2026-09-23 21:55:13] stage=report complete runtime=0.2m
+[2026-09-23 21:55:40] stage=report start
+[2026-09-23 21:55:54] figures, scientific report, notebook, and final QC written
+[2026-09-23 21:55:54] stage=report complete runtime=0.2m

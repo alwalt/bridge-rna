@@ -1,0 +1,4 @@
+work/*
+!work/.gitignore
+__pycache__/
+*.pyc

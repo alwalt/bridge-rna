@@ -1,0 +1,18 @@
+{
+  "seed": 20260923,
+  "folds": 5,
+  "pca_components": 512,
+  "logistic_regression": {
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "tol": 0.0001
+  },
+  "gtex_excluded_detailed_prefixes": ["Cells -"],
+  "gtex_expected_samples": 8883,
+  "gtex_expected_detailed_classes": 51,
+  "tcga_expected_samples": 9942,
+  "tcga_expected_classes": 33,
+  "checkpoint_run_id": "r7hnr92k",
+  "embedding_batch_size": 4
+}
