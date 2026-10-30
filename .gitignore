@@ -146,6 +146,12 @@ debug-internal.log
 # Raw Counts / Metadata
 # ============================================================
 data/**
+!/data/archs4/
+!/data/archs4/METADATA_COVERAGE.md
+/data/archs4/*.sqlite*
+/data/geo/
+/data/gemma/
+/data/geometa/
 !/data/ensembl/canonical_genes.csv
 !/data/ensembl/orthologs_one2one.txt
 !/data/ensembl/count_pc_orthologs.py

@@ -1,0 +1,68 @@
+dimension,group,value,n
+species_status,human,ambiguous,2901
+species_status,human,resolved,60713
+species_status,human,unknown,62892
+species_status,mouse,ambiguous,11174
+species_status,mouse,resolved,281517
+species_status,mouse,unknown,116992
+overall_status,all,ambiguous,14075
+overall_status,all,resolved,342230
+overall_status,all,unknown,179884
+proposed_organ,all,Adipose tissue,10312
+proposed_organ,all,Adrenal gland,595
+proposed_organ,all,Blood,24772
+proposed_organ,all,Bone marrow,30771
+proposed_organ,all,Brain,25192
+proposed_organ,all,Brain: Amygdala,1075
+proposed_organ,all,Brain: Basal ganglia,7572
+proposed_organ,all,Brain: Cerebellum,4242
+proposed_organ,all,Brain: Cerebral cortex,9946
+proposed_organ,all,Brain: Choroid plexus,441
+proposed_organ,all,Brain: Hippocampal formation,13722
+proposed_organ,all,Brain: Hypothalamus,3780
+proposed_organ,all,Brain: Medulla oblongata,84
+proposed_organ,all,Brain: Midbrain,2284
+proposed_organ,all,Brain: Pons,455
+proposed_organ,all,Brain: Spinal cord,5266
+proposed_organ,all,Brain: Thalamus,667
+proposed_organ,all,Brain: White matter,487
+proposed_organ,all,Breast,10131
+proposed_organ,all,Cervix,196
+proposed_organ,all,Endometrium,1211
+proposed_organ,all,Epididymis,964
+proposed_organ,all,Esophagus,863
+proposed_organ,all,Eye,713
+proposed_organ,all,Fallopian tube,683
+proposed_organ,all,Gallbladder,54
+proposed_organ,all,Head and Neck,645
+proposed_organ,all,Heart,15979
+proposed_organ,all,Intestine,21741
+proposed_organ,all,Kidney,10184
+proposed_organ,all,Liver,38395
+proposed_organ,all,Lung,21482
+proposed_organ,all,Lymphoid tissue,26339
+proposed_organ,all,Nasal,1334
+proposed_organ,all,Nasopharynx,639
+proposed_organ,all,Oropharynx,14
+proposed_organ,all,Ovary,1851
+proposed_organ,all,Pancreas,4599
+proposed_organ,all,Pituitary gland,625
+proposed_organ,all,Placenta,2600
+proposed_organ,all,Prostate,3727
+proposed_organ,all,Retina,2744
+proposed_organ,all,Salivary gland,607
+proposed_organ,all,Skeletal muscle,11754
+proposed_organ,all,Skin,11294
+proposed_organ,all,Smooth muscle,2149
+proposed_organ,all,Stomach,839
+proposed_organ,all,Synovium,658
+proposed_organ,all,Testis,3655
+proposed_organ,all,Thyroid gland,606
+proposed_organ,all,Tongue,330
+proposed_organ,all,Umbilical vein,539
+proposed_organ,all,Urinary bladder,315
+proposed_organ,all,Vagina,108
+evidence_source,all,ARCHS4,237409
+evidence_source,all,ARCHS4|GEO,2150
+evidence_source,all,GEO,77550
+evidence_source,all,Gemma,39196
