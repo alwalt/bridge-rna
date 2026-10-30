@@ -1,0 +1,4 @@
+interface:
+  display_name: "Save Review"
+  short_description: "Save an existing scientific review as Markdown"
+  default_prompt: "Use $save-review to save the scientific review above as PUBLICATION_REVIEW.md in the corresponding benchmark directory."
