@@ -1,4 +1,4 @@
 interface:
   display_name: "Save Review"
-  short_description: "Save an existing scientific review as Markdown"
-  default_prompt: "Use $save-review to save the scientific review above as PUBLICATION_REVIEW.md in the corresponding benchmark directory."
+  short_description: "Create a concise manuscript outline from a review"
+  default_prompt: "Use $save-review to condense the specified scientific review into a separate MANUSCRIPT_OUTLINE.md with Methods, Results, and Discussion bullets."

@@ -1,30 +1,45 @@
 ---
 name: save-review
-description: Save a scientific benchmark review already generated in the current conversation as PUBLICATION_REVIEW.md in the corresponding benchmark directory. Use to preserve an existing assessment, not to conduct a new review or rerun analyses.
+description: Condense a user-specified benchmark review, scientific report, Markdown file, or conversation review into a separate MANUSCRIPT_OUTLINE.md with Methods, Results, and Discussion bullets. Use for paper drafting from existing evidence, without reassessment or computation.
 ---
 
-# Save review
+# Save review as a manuscript outline
 
-Save the complete scientific review from the current agent conversation to the corresponding benchmark's `PUBLICATION_REVIEW.md`. Use the conversation as the scientific source of truth; this is a preservation and formatting task, not a new assessment.
+Turn an existing scientific review into a succinct outline the author can write around. Save it separately from the full review: `benchmark-review` produces `PUBLICATION_REVIEW.md`; this skill produces `MANUSCRIPT_OUTLINE.md`. Never overwrite the full review or other source documents.
 
-## Resolve the source and destination
+## Input and destination
 
-- Identify the full review and any explicit subsequent corrections in the conversation. Preserve all substantive review content, including objectives, hypotheses, datasets, methods, baselines, results, tables, positive and negative findings, limitations, scientific significance, and publication recommendations.
-- Resolve the corresponding existing `benchmarks/<benchmark_name>/` directory in the current worktree and read applicable AGENTS.md instructions. If the source review is unavailable, incomplete, or ambiguous, or the destination cannot be identified, request the missing text or benchmark path before writing. Do not reconstruct missing content from memory, benchmark artifacts, or assumptions.
-- If `PUBLICATION_REVIEW.md` exists, read its full contents before overwriting. Compare it with the conversation review. Preserve the conversation's assessment; do not silently drop substantive content present only in the existing file or combine conflicting assessments. If the intended replacement is unclear, explain the discrepancy and ask which version to retain. If the existing file cannot be read, do not overwrite it.
+- Read the user-specified benchmark review, scientific report, or Markdown file in full. A review explicitly selected from the current conversation is also a valid source. Incorporate explicit subsequent corrections without generating a new scientific assessment.
+- Resolve the corresponding existing `benchmarks/<benchmark_name>/` directory in the current worktree and read applicable AGENTS.md instructions. If only a benchmark is specified, use its `PUBLICATION_REVIEW.md` when available. Ask for the source or destination when ambiguous or unavailable; do not reconstruct missing material from assumptions or raw benchmark results.
+- Save to `benchmarks/<benchmark_name>/MANUSCRIPT_OUTLINE.md`. If this outline already exists, read it before replacing it and inspect differences in scope and source. Preserve user-authored additions unless replacement is explicit; ask if conflicting versions cannot be reconciled from the supplied source. Do not overwrite an unreadable file.
 
-## Preserve scientific meaning
+## Style and scientific fidelity
 
-- Keep original terminology, dataset names, definitions, condition directions, comparison axes, numerical values, precision, units, class counts, sample/seed/fold counts, and uncertainty wherever supplied. Retain tables, artifact references, and citations.
-- Report metrics with their evaluation axes, class counts, and uncertainty where supplied. Do not invent missing context, calculate new statistics, or change aggregation definitions.
-- Distinguish descriptive ratios from information-retention or statistical claims. Keep exploratory interpretations and speculative biological explanations explicitly qualified; do not promote them to established findings.
-- Preserve the recommendation, evidence strength, caveats, and approval status. Saving the review does not constitute approval or scientific validation.
-- Do not rerun analyses, execute notebooks, download data, inspect results to generate a new scientific assessment, or invoke another benchmark workflow. Do not modify source files, research outputs, or other skills. The only benchmark write permitted is the requested `PUBLICATION_REVIEW.md`. Do not stage, commit, push, merge, or create a PR.
+- Use succinct, scientifically precise bullets intended as an outline the author can write around. Preserve the report's terminology, dataset names, definitions, scientific interpretation, and evidence strength.
+- Retain exact values and supplied precision, units, evaluation axes, class counts, sample/seed/fold counts, uncertainty, and baseline definitions for every metric included. Do not invent missing values, recalculate statistics, or change aggregation definitions.
+- Select the findings most relevant to the requested drafting scope; this is a concise derivative, not a complete copy. Retain qualifications, negative findings, and QC issues that materially affect interpretation of the selected findings. Keep source citations or artifact references close to the claims they support.
+- Distinguish descriptive ratios from information-retention or statistical claims. Do not turn speculative biological explanations into established findings or infer significance from descriptive differences.
+- Avoid filler, promotional language, and lengthy prose. Do not write a full manuscript section unless explicitly requested; the short suggested passage required below is part of this workflow. Do not infer publication approval from saving an outline.
 
-## Format and save
+## Required output
 
-- Use a descriptive title and clear Markdown headings organized around the review's content: objective, datasets, methods, results, findings, limitations, and publication recommendation as applicable. Do not manufacture sections containing scientific claims absent from the source.
-- Use succinct, scientifically precise bullets as an outline an author can write around, with GitHub-compatible tables for tabular evidence. Condense wording only when every substantive point and qualification is retained. Prefer completeness over brevity when they conflict.
-- Avoid filler, promotional language, and lengthy prose. Do not expand the review into a manuscript section unless explicitly requested.
-- Write the document to `benchmarks/<benchmark_name>/PUBLICATION_REVIEW.md`. Read it back and compare against the conversation review for omissions, changed numbers, broken tables, or altered interpretations. Correct formatting or transcription errors only; do not revise the scientific assessment.
-- Confirm the saved file path with a clickable link in the conversation. Briefly state that the existing review was preserved without rerunning analyses, and disclose any source ambiguity that remains.
+Include a short title and a source reference or relative Markdown link, followed by three concise outline sections in this order:
+
+1. **Methods** or **Supplementary Methods**: 4–7 bullets covering objective, data, representations, protocol, metrics, and controls where supplied.
+2. **Results** or **Supplementary Results**: 4–7 bullets covering exact values, baseline comparisons, notable positive and negative observations, and QC where supplied.
+3. **Discussion** or **Supplementary Discussion**: 4–6 bullets covering meaning, strengths, tradeoffs, limitations, and a defensible conclusion.
+
+Use the supplementary heading set when requested or when the source explicitly recommends supplementary placement; otherwise use Methods, Results, Discussion. Keep the heading set consistent. Do not add unsupported content to meet bullet counts; flag missing source information briefly within the relevant section. Prefer bullets over tables for this drafting outline.
+
+After the three outline sections, add one placement-specific drafting aid:
+
+- **Suggested main-text reference** for a supplementary study: 1–3 sentences stating the supported finding and pointing readers to the supplementary analysis. Retain material qualifications; do not invent supplement figure/table numbers.
+- **Suggested Results paragraph** for a main-text study: one concise paragraph summarizing the principal supported results with exact supplied values, evaluation context, and necessary caveats. Do not add a new interpretation or write a full manuscript section.
+
+Use the publication placement specified by the user, otherwise the source review's explicit recommendation. If neither establishes main-text versus supplementary placement (including a recommendation to exclude), ask which placement is intended before choosing a drafting aid; do not silently promote the study. Keep the outline sections in the order above and place this drafting aid last.
+
+## Save and confirm
+
+- Do not rerun analyses, execute notebooks, download data, or regenerate the scientific assessment. Do not modify source files, `PUBLICATION_REVIEW.md`, benchmark results, or other skills. The only permitted benchmark write is `MANUSCRIPT_OUTLINE.md`.
+- Read the saved outline back and compare it with the source for changed numbers, unsupported interpretations, lost material caveats, correct heading order, and bullet counts. Fix transcription and formatting issues without reassessing the science.
+- Confirm the saved path with a clickable link and briefly identify the source used. Do not stage, commit, push, merge, or create a PR.
