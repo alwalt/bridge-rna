@@ -1,0 +1,441 @@
+canonical_id,field,canonical_label,source_vocabulary,ontology_id,ontology_label,ontology_name,vocabulary_version,active
+geometa:age_group:7ec990b6829f8745,age_group,Adolescent,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:age_group:37914b82149047e7,age_group,Adults-20s,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:age_group:418dd155d861eec6,age_group,Adults-30s,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:age_group:a8f90f838f5dbb56,age_group,Adults-40s,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:age_group:5b4a43b273cefe2d,age_group,Adults-50s,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:age_group:2fe59899ace61d4c,age_group,Elderly-1,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:age_group:b6cc903fd5785264,age_group,Elderly-2,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:age_group:acf57173b1b8f28c,age_group,Elderly-3,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:age_group:ffd9e3d7ce10f125,age_group,Infant,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:age_group:c44739a9e8afa90a,age_group,Pediatric,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:fb55281a113a62d4,disease,"Abortion, Habitual",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:4d1174fda817ea39,disease,Acromegaly,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:2717f709551ebb27,disease,Acute Kidney Injury,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:ec18a4fd93f975b4,disease,Acute-On-Chronic Liver Failure,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0ccf347dda6b69d0,disease,"Adenocarcinoma, Clear Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:14cd8935bec29830,disease,Adenoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:395ea563547bce54,disease,Adenomatous Polyposis Coli,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0b11d18593a46cf1,disease,Adenomyosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:b3966bb069aaeeab,disease,Adjacent Normal,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:15d13f87176bcb19,disease,Adrenocortical Carcinoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0f8312e1977d38b1,disease,Adrenoleukodystrophy,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:71094a2f565c8d3a,disease,Aicardi-Goutieres syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:76e4bf60f6f8bfd9,disease,Alcoholism,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:23eddebbfd59d941,disease,Alopecia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:7923e048afecab88,disease,Alopecia Areata,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f0787d5137d1847f,disease,Alzheimer Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:60721798cb53a3c8,disease,"Amaurosis congenita of Leber, type 1",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:1d90f519e413f188,disease,Amyotrophic Lateral Sclerosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:68658d78b1c6b575,disease,"Anemia, Dyserythropoietic, Congenital",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:b615960ba4ce3960,disease,"Anemia, Sickle Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0757df1d8a226655,disease,Angelman Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:5473f69b3e79e2aa,disease,Anterior Cruciate Ligament Injuries,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:007197311e6cb3ad,disease,Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:3850036c065a2220,disease,Aortic Valve Stenosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:eb7161a5824a7616,disease,Arrhythmogenic Right Ventricular Dysplasia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:929c850fb8d3261f,disease,"Arthritis, Juvenile",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:605bb0bac54d575e,disease,"Arthritis, Psoriatic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:acef93c2ea6dd9a7,disease,"Arthritis, Rheumatoid",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:57dff0b9550cf026,disease,Asthma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:dcec68b744d0b5f8,disease,Astrocytoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:fd9adb4ce0fcbb2a,disease,Ataxia Telangiectasia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:6a2d9af935d19efc,disease,Atherosclerosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:03038cc3fc382750,disease,Atrial Fibrillation,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:27e4aa386cd56aa8,disease,Autism Spectrum Disorder,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e624eb9540aa1828,disease,Bacterial Infections,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:70cf89ac717f77e8,disease,Barrett Esophagus,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f3598c7456e705ef,disease,Behcet Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a80b73dfacb6980e,disease,Bile Duct Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:8e1da9358a7d5836,disease,Biliary Atresia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:56fcca6a59e964f6,disease,Bipolar Disorder,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d29429497be945f7,disease,Bone Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:b286d572305d63f9,disease,Brain Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:6c806fbeec8f706f,disease,Breast Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:88c927aa0c5167a2,disease,Bronchopulmonary Dysplasia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:860fdc65919d6d6f,disease,Burkitt Lymphoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:28e546690670d8c7,disease,Bursitis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:6bc468996ec739e4,disease,COVID-19,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:4cccf29a4684fa1c,disease,Carcinoid Tumor,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:78559e51cc6c3829,disease,"Carcinoma, Adenoid Cystic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:35f1d35e48252b3b,disease,"Carcinoma, Adenosquamous",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:8017133cc22c0c69,disease,"Carcinoma, Basal Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:fb1e6c3afa928cc6,disease,"Carcinoma, Ductal, Breast",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:ac649348d9f5968a,disease,"Carcinoma, Embryonal",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:687c351a1a6bc59e,disease,"Carcinoma, Endometrioid",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:9ae82de36f06f1e4,disease,"Carcinoma, Hepatocellular",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:de73984884e2bfce,disease,"Carcinoma, Large Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:7112477259de3dc6,disease,"Carcinoma, Lobular",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e5dd7a04ceeaead9,disease,"Carcinoma, Merkel Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:082959b48aabf4a4,disease,"Carcinoma, Neuroendocrine",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:7b76c560fa42c1ad,disease,"Carcinoma, Non-Small-Cell Lung",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d521a17322d43527,disease,"Carcinoma, Pancreatic Ductal",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:65921fe0b48ac903,disease,"Carcinoma, Renal Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:df29c13047f7ad9d,disease,"Carcinoma, Squamous Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a1c3ffb96245cf13,disease,"Carcinoma, Transitional Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:5d5a58f67806a957,disease,Cardiomyopathies,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0f5c520ef559ecb0,disease,"Cardiomyopathy, Dilated",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:2d33b2784ee02631,disease,"Cardiomyopathy, Hypertrophic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:b45e45bbef54372d,disease,Celiac Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:40a6ca2e69f4b54f,disease,Central Nervous System Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:414d03ae62c59cf7,disease,Chikungunya Fever,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d217fe02e9915683,disease,Cholangiocarcinoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:53482533afac9e2e,disease,"Cholangitis, Sclerosing",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:cb86b24acbfc0d79,disease,Chondrosarcoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:abf8c3a885da9608,disease,Chordoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:1e4cbf458056626e,disease,Chorioamnionitis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:abfcd9ff7076e683,disease,Choriocarcinoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:ae4d6d5c675f6945,disease,"Chromosome 12, 12p trisomy",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:85f08ad4f8956f90,disease,"Cicatrix, Hypertrophic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:252e48c60550eea1,disease,Citrullinemia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:243cf1c2137ad7e0,disease,Cocaine-Related Disorders,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:871b56c28b3edbcc,disease,Cockayne Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e082e3e8c9744dfa,disease,Cognitive Dysfunction,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:98de71ab31532d38,disease,Colitis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a160ce12919bebfc,disease,"Colitis, Ulcerative",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:80e7c8357356389b,disease,Colitis-Associated Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:3151849285763b64,disease,Colonic Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:69099dec8c3a633e,disease,Colorectal Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:23a43c8fdcaad90d,disease,"Colorectal Neoplasms, Hereditary Nonpolyposis",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:8ea5b474d389bff7,disease,Common Variable Immunodeficiency,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:ec3f3362f1dd8859,disease,Conjunctival Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c1f58d1dc4de9b03,disease,Coronary Artery Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:75f6e05f723d4762,disease,Crohn Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:754e6ece5aaa5943,disease,Cryopyrin-Associated Periodic Syndromes,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:99ab873b650e084b,disease,"Cystadenocarcinoma, Serous",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:7ceaffe80493cae6,disease,Cystic Fibrosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:693f05a2afdad17c,disease,Cytomegalovirus Infections,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:6c9ef31089cbfdce,disease,De Lange Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:b4c74fb02b69d00d,disease,Dengue,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:dbceeac82bce828b,disease,"Depressive Disorder, Major",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:2530e8304e7ee7e9,disease,"Dermatitis, Atopic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:564ebd69bbafa5c2,disease,Dermatomyositis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:44a98e0057037967,disease,Desmoplastic Small Round Cell Tumor,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:b3aea2d376fb96a7,disease,Diabetes Mellitus,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:965c60914d847f9e,disease,"Diabetes Mellitus, Type 1",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:b00e62668f154b38,disease,"Diabetes Mellitus, Type 2",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:bdb278fae16b6691,disease,"Diabetes, Gestational",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0258e44584d16188,disease,Diabetic Nephropathies,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:6cd7293ba6f5aa97,disease,Diffuse Intrinsic Pontine Glioma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:337c62f0580688d6,disease,Down Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:5641534689d3dd2c,disease,Dyskeratosis Congenita,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d75495f61d170bb9,disease,Endometrial Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e0f945aa8713d1d8,disease,Endometrial Stromal Tumors,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:5d1ace4a2a6632bc,disease,Endometriosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a12dc5e2f9166fd3,disease,"Enterocolitis, Necrotizing",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:6845b45d41b347f4,disease,Eosinophilic Esophagitis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0df2933f6dee27ed,disease,Ependymoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:2a25f0852301a62b,disease,Epilepsy,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a01d7d39be171753,disease,"Epilepsy, Temporal Lobe",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:45fa929d8eb9d275,disease,Epstein-Barr Virus Infections,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:01ef33491631523f,disease,Erdheim-Chester Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:acd39b6413609130,disease,Esophageal Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0a53e576765de842,disease,Esophageal Squamous Cell Carcinoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d10aa446900da813,disease,Familial Primary Pulmonary Hypertension,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:1f032eb352f78c52,disease,"Fatigue Syndrome, Chronic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c545e14a945d844f,disease,Fetal Growth Retardation,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a99e0fc52233c661,disease,Fibrocystic Breast Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:586ad8b87d87d720,disease,Fibrolamellar Carcinoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:4ac1538515e0e939,disease,Fibrolamellar hepatocellular carcinoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:23e647159cbc1a83,disease,Fibromyalgia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:5a22607aebdbf138,disease,Fibrosarcoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d2db8f61cd30793b,disease,Fibrosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e560e7c0ab593684,disease,Fragile X Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:3c055b23e151c626,disease,Frailty,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f3c72965fdbf8dae,disease,Friedreich Ataxia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:98a6c98c9ec43ad4,disease,Frontotemporal Dementia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:45851c31b1a76824,disease,Gallbladder Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:753a9e5e243276b0,disease,Gastro-enteropancreatic neuroendocrine tumor,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:13e85f105848e2c6,disease,Gastrointestinal Stromal Tumors,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0b4a91d28341c376,disease,Glioblastoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f35267528ace85de,disease,Glioma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:8027f11408794c94,disease,"Glioma of Brain, Familial",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:90f1804b5afd0d10,disease,"Glomerulonephritis, IGA",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:499423583c9d2830,disease,"Glomerulosclerosis, Focal Segmental",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0d16a5502b641eb1,disease,Graft vs Host Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:4a7684f6836ecad4,disease,Granulosa Cell Tumor,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:006fd95ee76ab0de,disease,HIV Infections,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:568cb8c7cae0f3c6,disease,Head and Neck Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:8b66bcb51f3a26a4,disease,Healthy,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:04cfabfb40eed390,disease,"Heart Defects, Congenital",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:9fee8c5701761483,disease,Heart Failure,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:6340858c306e1e9a,disease,"Hemangioendothelioma, Epithelioid",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:78f10ec57a2a4490,disease,"Hemangioma, Cavernous, Central Nervous System",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:7a2a104f8a1e7dfb,disease,Hemorrhagic Fever with Renal Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:871c1ad88434c572,disease,"Hemorrhagic Fever, Ebola",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:693a666ae0a2d4fa,disease,Hepatitis B,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:173ef48e8f4d326e,disease,Hepatitis C,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c3d6b2632ddcb818,disease,Hepatoblastoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:be7d3c0ad6939bc8,disease,Herpes Simplex,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a98166450e500482,disease,Hidradenitis Suppurativa,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c07ea17485bacb58,disease,Hodgkin Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d45a3d3e1f331563,disease,Huntington Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:29eb00a681d72880,disease,Hyperplasia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:78f65a9ba3d2012c,disease,Hypersensitivity,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a4f445c0404d3138,disease,"Hypertension, Pulmonary",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:4e66dc20a9562f4b,disease,Idiopathic Pulmonary Fibrosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a545c2ca15effed0,disease,Infertility,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:9b4ee7a5a172fc06,disease,Inflammatory Bowel Diseases,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:7da79f5f885e488e,disease,"Influenza, Human",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:97c9f6efeda3d426,disease,Intellectual Disability,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:57f37a861fede11c,disease,Intervertebral Disc Degeneration,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:1c78fd357854373c,disease,Intracranial Aneurysm,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:1a9c54cb3fc3d801,disease,Irritable Bowel Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:5194cc42d6b853fb,disease,Ischemic Stroke,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:92084c85352071f6,disease,Job Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:ca1bec6db637be99,disease,Keloid,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e3289032236091f7,disease,Kidney Diseases,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:76e0c2615bce4f68,disease,Kidney Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:b64a428191940fae,disease,Klinefelter Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f746a6afcbd1a13c,disease,Laryngeal Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0f5c014b040f9329,disease,Latent Tuberculosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:819c6428890547c4,disease,Leigh Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:77afc7f62cd4e5de,disease,Leiomyoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:2e7124d697b9b84a,disease,Leiomyosarcoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:7f9686a973e4d875,disease,"Leishmaniasis, Cutaneous",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:79312b9d656a9833,disease,Leprosy,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c4a67b969031a585,disease,Leukemia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:983a1d57765227f4,disease,"Leukemia, Biphenotypic, Acute",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:9bf26de2b64c0999,disease,"Leukemia, Erythroblastic, Acute",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:371a6061bfd989b7,disease,"Leukemia, Large Granular Lymphocytic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:50bf5940deeec4d2,disease,"Leukemia, Lymphocytic, Chronic, B-Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e450d722474aa020,disease,"Leukemia, Megakaryoblastic, Acute",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a420cddadcd10afa,disease,"Leukemia, Monocytic, Acute",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:44577918e3124dac,disease,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:eb0d69d0b0be9bfd,disease,"Leukemia, Myeloid",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a011bf6b59ddda3e,disease,"Leukemia, Myeloid, Acute",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:dfd088aff2d85d1f,disease,"Leukemia, Myelomonocytic, Chronic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:50c022034a4a821a,disease,"Leukemia, Myelomonocytic, Juvenile",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f7ba0ea6f4b044f9,disease,"Leukemia, Plasma Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:ca4fbe98864a4158,disease,"Leukemia, Promyelocytic, Acute",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:dbe717ea47f5fb64,disease,"Leukemia, T-Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:944b5d5a6593f404,disease,"Leukemia-Lymphoma, Adult T-Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a602bcd26691c712,disease,"Leukoplakia, Oral",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:b304947c96778eac,disease,Li-Fraumeni Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:9655161033bdde45,disease,Lichen Planus,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:8352a95d3a67af4a,disease,"Lichen Planus, Oral",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:8a63f2d2dc558d44,disease,Liposarcoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:348b93bde15d2a62,disease,"Liposarcoma, Myxoid",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f5bca8cc5b973f24,disease,Liver Cirrhosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:9ce3b0f1d2bcd612,disease,"Liver Cirrhosis, Alcoholic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a731e1092ac6160b,disease,Liver Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:5ff5b5701d1908be,disease,Lung Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:088a82ba948e2033,disease,"Lupus Erythematosus, Systemic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:686d2a235aa07102,disease,Lupus Nephritis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:5af908c471459ed8,disease,Lyme Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a00eca05bc9783e6,disease,Lymphangioleiomyomatosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:6a6aed4ca83bba60,disease,Lymphoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c3ca4d1517846944,disease,"Lymphoma, B-Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:76679f307dec47c7,disease,"Lymphoma, B-Cell, Marginal Zone",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:33506c39580907fe,disease,"Lymphoma, Extranodal NK-T-Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:2b8c1065d3240103,disease,"Lymphoma, Follicular",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:7b85fa6c7604084a,disease,"Lymphoma, Large B-Cell, Diffuse",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f8d287abea2a0e08,disease,"Lymphoma, Large-Cell, Anaplastic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d571d336b15fdef6,disease,"Lymphoma, Mantle-Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a83f3b6fa8a7525a,disease,"Lymphoma, Non-Hodgkin",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a7eab7f0ac88b2bb,disease,"Lymphoma, Primary Effusion",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:cf21a25c2cca40b6,disease,"Lymphoma, T-Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:fe81b9cc1fe87f0b,disease,"Lymphoma, T-Cell, Cutaneous",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:3825eb3be88d0af5,disease,"Lymphoma, T-Cell, Peripheral",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:76063e098bc19b97,disease,MELAS Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:23052f54a9c2a876,disease,Macular Degeneration,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:9f2629f7782037d8,disease,Malaria,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:3bacf72122ff937f,disease,Mason-Type Diabetes,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:00e9eff4db77c0cc,disease,Medulloblastoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:4492a4e4eeee9289,disease,Melanoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e90efd6ff413ebd5,disease,"Melanoma, Cutaneous Malignant",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:2b2e447672de3da0,disease,Meningioma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c6a0c936ed75a153,disease,Mesothelioma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0e93f14f35e48d99,disease,"Mesothelioma, Malignant",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e28a6c9f1a60ed9f,disease,Mouth Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:20c2170144b43fc7,disease,Mucocutaneous Lymph Node Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a0fb53e56b233815,disease,Multiple Myeloma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f7b10da4a9ac15c2,disease,Multiple Sclerosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c537a5e6da958dfe,disease,Multiple System Atrophy,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d0352fe7c85fa650,disease,"Muscular Atrophy, Spinal",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:cc3b2dffae227bfc,disease,"Muscular Dystrophy, Duchenne",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:7e4f0ff994305b6a,disease,"Muscular Dystrophy, Facioscapulohumeral",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f4cc2ae88e82cf09,disease,Mycosis Fungoides,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:91660082a7ed37e4,disease,Myelodysplastic Syndromes,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:185c6c246aaa9e8c,disease,Myeloproliferative Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:39e3f62ed7ad7354,disease,Myocardial Infarction,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:acf6dfa1f7bce499,disease,Myocardial Ischemia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:cc0fd92a84b2ee28,disease,Myositis Ossificans,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:6907b5afb753b1c3,disease,"Myositis, Inclusion Body",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d2b0945b198fc6ee,disease,Myotonic Dystrophy,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:8a5c5129f334db40,disease,NUT Carcinoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:88c08a75d19e8c25,disease,Nasopharyngeal Carcinoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:57ad2318c5ad52a2,disease,"Neoplasms, Plasma Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:5bb4da24c8fbb27c,disease,"Neoplasms, Squamous Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:25faa45e662f654d,disease,Nervous System Diseases,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c4ee942e56214274,disease,Neuroblastoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:9b689675936f7cfe,disease,Neurodegenerative Diseases,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:ec44ade8a7709b3a,disease,Neurodevelopmental Disorders,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:3f97a132eb2e0662,disease,Neuroendocrine Tumors,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:b4a5ada7636a87ea,disease,Neurofibroma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:61172759d7e95723,disease,"Neurofibroma, Plexiform",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0d01973f2ef50b7b,disease,Neurofibromatosis 1,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:edf01b6ea3f80f9b,disease,Neurofibromatosis 2,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:75f78c76d6a5274f,disease,Neurofibrosarcoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0745f1a1a68719dc,disease,Non-alcoholic Fatty Liver Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:0f3c695742d394ed,disease,Nonseminomatous germ cell tumor,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e80b37e82d090ea1,disease,Normal,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:62075db6f35dda08,disease,Obesity,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:44710f3cbb953886,disease,"Obesity, Morbid",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:509c2001fd524ae4,disease,Oligodendroglioma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:8d21fa00b18525d2,disease,Opioid-Related Disorders,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:83a9e8242b484ac7,disease,Osteoarthritis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c1ed61d1796cd59e,disease,Osteochondroma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:1271e128adeda45c,disease,Osteosarcoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:1c58da3d1b3ed5b4,disease,Ovarian Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:372a0efc79c6a7ef,disease,Pancreatic Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c67738515c8999cc,disease,Papillomavirus Infections,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e30b1f147c5062be,disease,Parkinson Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:00c56d1ae4089705,disease,Peanut Hypersensitivity,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:bd83e1b27aa6d3ca,disease,Periodontitis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f73856ff06348241,disease,Peripheral Arterial Disease,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c52d231a9390991c,disease,Pitt-Hopkins syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:fd82577a6063da64,disease,Pituitary ACTH Hypersecretion,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a68d8236ee096482,disease,Pituitary Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:40093030e1d011bd,disease,"Polycystic Kidney, Autosomal Dominant",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d7911eecfd1c72e2,disease,Polycystic Ovary Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:3c946ffb644f9df2,disease,Polyps,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:65a1035f39e3eaae,disease,Prader-Willi Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:1cab180715d4ae20,disease,Pre-Eclampsia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:66c4c7736ad340d0,disease,Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d267276efe69ea4d,disease,Precursor Cell Lymphoblastic Leukemia-Lymphoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f83b2d0dca5d940f,disease,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:22130ead651ae2c4,disease,Prediabetic State,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a3028916258fde47,disease,Premature Birth,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c87b72e52d25079d,disease,Primary Ovarian Insufficiency,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:753d62fa9e9b2f53,disease,Progeria,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:ca0ae06a69435a20,disease,Prostatic Hyperplasia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:6fcb1a63551d7f09,disease,Prostatic Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:43853a04948e12cd,disease,Psoriasis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:cb9ca3a3157d50ea,disease,Pterygium,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:ff34e6f96639c69b,disease,Pulmonary Arterial Hypertension,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:21cdfcd67257a152,disease,"Pulmonary Disease, Chronic Obstructive",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a22b6cc66af9f48a,disease,Pulmonary Fibrosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:6be23adde557f906,disease,Rectal Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:eb03bb70a52bf841,disease,Respiratory Distress Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:93de6a1049da53de,disease,Respiratory Syncytial Virus Infections,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e093aeada3ebbbc4,disease,Retinitis Pigmentosa,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:5fc5faa1f8931745,disease,Retinoblastoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:43194e4b7b918e2c,disease,Rett Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a94bd224e7bf4a38,disease,Rhabdoid Tumor,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:6be948de4ce84b74,disease,Rhabdomyosarcoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d4cc2b452afca23e,disease,"Rhabdomyosarcoma, Alveolar",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f28d118737560c40,disease,"Rhabdomyosarcoma, Embryonal",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:259bfd64b0bb370d,disease,"Rhinitis, Allergic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d609745243665701,disease,Rhinosinusitis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:456763498f6a7211,disease,Sarcoidosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:af3ebfbd42a17f17,disease,"Sarcoma, Alveolar Soft Part",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:de021415d31da4a9,disease,"Sarcoma, Clear Cell",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:1c4e8831671986bb,disease,"Sarcoma, Ewing",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c8b5c1b42b3bf32a,disease,"Sarcoma, Kaposi",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:202777c40b722f14,disease,"Sarcoma, Synovial",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f20f987f56fe94d6,disease,Sarcopenia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:675a9fc9e1d25306,disease,Schizophrenia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:96e3ef717b062146,disease,"Scleroderma, Systemic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a9c11684e8a64c02,disease,Seminoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:8de8fd06dfa10caf,disease,Sepsis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:8b680caecf8feb74,disease,Severe Combined Immunodeficiency,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:2af8e408c56a1447,disease,Sezary Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:11acc673d22d3b36,disease,"Shock, Septic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:fbe55bc382b6834b,disease,Sjogren's Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:210ed6a2daa92085,disease,Sjögren-Mikulicz syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:b9823fb8495ab188,disease,Skin Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:02cecacd32b131f1,disease,Small Cell Lung Carcinoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:bccee2169703d40f,disease,"Spinocerebellar ataxia, autosomal recessive 1",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a7d9eb646201faae,disease,"Spondylitis, Ankylosing",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:782bd8d7c634260d,disease,Squamous Cell Carcinoma of Head and Neck,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:d1b327e28d41d5fe,disease,Squamous Intraepithelial Lesions,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:59e672a32df2440e,disease,Stomach Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:3f9a1e1b1e4a027f,disease,"Stress Disorders, Post-Traumatic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:bde31784356bb393,disease,Telomeric 22q13 Monosomy Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:56b442ac27616f08,disease,Teratocarcinoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e5b3a8627d20b3c1,disease,Testicular Germ Cell Tumor,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c330b76a5f353b8f,disease,Testicular Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:8daac40558212a4c,disease,Tetralogy of Fallot,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:75242fbd71aba3c4,disease,"Thyroid Cancer, Papillary",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:bd3155da2a911530,disease,"Thyroid Carcinoma, Anaplastic",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:9e2a107e56f166fa,disease,Thyroid Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:1a45d34784c942c3,disease,Tuberculosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:6604a32788423f27,disease,"Tuberculosis, Pulmonary",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:5aff554d4f0e6535,disease,Tuberous Sclerosis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:db675ee4f07c4732,disease,Turner Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:40063d94e156fe3b,disease,Urinary Bladder Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:61fe0a1c37379a66,disease,Uterine Cervical Dysplasia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:af3f5c44a149e876,disease,Uterine Cervical Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:1d7cca0f4ee54171,disease,Uveal Melanoma,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e6a6398a7ba25fd2,disease,Uveitis,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:b763618322c8c24f,disease,Virus Diseases,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:c51434741fc54afe,disease,Vulvar Neoplasms,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:fa05eb6628aacbf6,disease,Werner Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:53606410ae651576,disease,Williams Syndrome,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:3508eea4191d96e4,disease,Wilms Tumor,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:e4276c0b111e676f,disease,Zika Virus Infection,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:f38d3711e776925a,disease,alpha 1-Antitrypsin Deficiency,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:a9173b6045741e53,disease,beta-Thalassemia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:disease:42e67fd72e517e1a,disease,"pediatric multisystem inflammatory disease, COVID-19 related",GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:experimental_setting:0380454a1bfcfd4c,experimental_setting,Ex Vivo,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:experimental_setting:e0031591e910d65c,experimental_setting,In Vitro,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:experimental_setting:db84e013ee678539,experimental_setting,In Vivo,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:gender:ea773a4fadb328f4,gender,Female,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:gender:1282126270d14720,gender,Male,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:1d4926a939204d08,organ,Adipose tissue,GEOMeta,UBERON:0001013,adipose tissue,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:5ef1d0b867415ab0,organ,Adrenal gland,GEOMeta,UBERON:0002369,adrenal gland,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:98e4523492a82f18,organ,Blood,GEOMeta,UBERON:0000178,blood,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:37b783532490418d,organ,Bone marrow,GEOMeta,UBERON:0002371,bone marrow,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:40cd1788c449f282,organ,Brain,GEOMeta,UBERON:0000955,brain,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:8b1aaacf847decf9,organ,Brain: Amygdala,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:d8616aa78ab44ccb,organ,Brain: Basal ganglia,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:f46d2b33eb289f61,organ,Brain: Cerebellum,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:6b2f0ab50e5046d0,organ,Brain: Cerebral cortex,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:f4f509bd9420aeb1,organ,Brain: Choroid plexus,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:1df9e1cdfc198c6a,organ,Brain: Hippocampal formation,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:4d593dc6b3b8ee79,organ,Brain: Hypothalamus,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:2a139e0190facd02,organ,Brain: Medulla oblongata,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:c0427e23f18ee776,organ,Brain: Midbrain,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:aaca2ada6f21919c,organ,Brain: Pons,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:81389f85d02ffcfd,organ,Brain: Spinal cord,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:aa4efe0e4e1cd0ca,organ,Brain: Thalamus,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:3158bba0d510bc9b,organ,Brain: White matter,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:90a361d4a75e4b47,organ,Breast,GEOMeta,UBERON:0000310,breast,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:ddc11f4c17db7536,organ,Cervix,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:380e768916a23650,organ,Endometrium,GEOMeta,UBERON:0001295,endometrium,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:e9c2ed12c7e0e1b5,organ,Epididymis,GEOMeta,UBERON:0001301,epididymis,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:d75400099084f9c8,organ,Esophagus,GEOMeta,UBERON:0001043,esophagus,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:17b8734638f61608,organ,Eye,GEOMeta,UBERON:0000970,eye,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:9ac6213e34c1193a,organ,Fallopian tube,GEOMeta,UBERON:0003889,fallopian tube,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:5565cc157c9ffbd2,organ,Gallbladder,GEOMeta,UBERON:0002110,gallbladder,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:98739b62661d4fa0,organ,Head and Neck,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:19f13686f8abc162,organ,Heart,GEOMeta,UBERON:0000948,heart,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:b79de5a0d13ea178,organ,Intestine,GEOMeta,UBERON:0000160,intestine,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:c73ddb31a20ede1f,organ,Kidney,GEOMeta,UBERON:0002113,kidney,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:7e97ea6abb9d1853,organ,Liver,GEOMeta,UBERON:0002107,liver,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:48ceeb8eed345982,organ,Lung,GEOMeta,UBERON:0002048,lung,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:7b6b09bf7a10720f,organ,Lymphoid tissue,GEOMeta,UBERON:0001744,lymphoid tissue,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:0e925dabe05a290b,organ,Nasal,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:fcb5122e081d5789,organ,Nasopharynx,GEOMeta,UBERON:0001728,nasopharynx,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:ed22c54b6ddb05bb,organ,Oropharynx,GEOMeta,UBERON:0001729,oropharynx,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:65863fb5764c9708,organ,Ovary,GEOMeta,UBERON:0000992,ovary,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:10d9bfe8f7c8875a,organ,Pancreas,GEOMeta,UBERON:0001264,pancreas,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:06567f0391b1a392,organ,Pituitary gland,GEOMeta,UBERON:0000007,pituitary gland,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:a02d6dac39a2d249,organ,Placenta,GEOMeta,UBERON:0001987,placenta,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:81634e3fd8b70591,organ,Prostate,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:d7fd075784f01d49,organ,Retina,GEOMeta,UBERON:0000966,retina,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:620d3563166f468c,organ,Salivary gland,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:232a6b612a9a44ec,organ,Skeletal muscle,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:2348f77c621e759b,organ,Skin,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:6bd39a55a5188203,organ,Smooth muscle,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:4035860aa9e7d403,organ,Stomach,GEOMeta,UBERON:0000945,stomach,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:a4e497bc9ad0dd2a,organ,Synovium,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:organ:7f795d9df1c1c7c3,organ,Testis,GEOMeta,UBERON:0000473,testis,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:e655111f9e542a38,organ,Thyroid gland,GEOMeta,UBERON:0002046,thyroid gland,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:754dc3f86b388824,organ,Tongue,GEOMeta,UBERON:0001723,tongue,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:42b1b689a9691b8b,organ,Umbilical vein,GEOMeta,UBERON:0002066,umbilical vein,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:8685169f491bc9c7,organ,Urinary bladder,GEOMeta,UBERON:0001255,urinary bladder,UBERON,geometa-hf-d0cd1e1,1
+geometa:organ:083eedf20c70a096,organ,Vagina,GEOMeta,UBERON:0000996,vagina,UBERON,geometa-hf-d0cd1e1,1
+geometa:perturbation:c56ec2203714d798,perturbation,No,GEOMeta,,,,geometa-hf-d0cd1e1,1
+geometa:perturbation:bf77fc11b6658d97,perturbation,Yes,GEOMeta,,,,geometa-hf-d0cd1e1,1

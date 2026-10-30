@@ -1,0 +1,13 @@
+{
+  "samples": 940455,
+  "human": 510709,
+  "mouse": 429746,
+  "gses": 59804,
+  "multi_gse_samples": 210140,
+  "archs4_metadata": 940455,
+  "studies": 59791,
+  "geo_sample_extras": 754944,
+  "geometa_gsms": 438119,
+  "gemma_gsms": 177455,
+  "foreign_key_violations": 0
+}

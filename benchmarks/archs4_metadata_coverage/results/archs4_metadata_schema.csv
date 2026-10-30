@@ -1,0 +1,44 @@
+source,entity,field,category,present_in_h5,retained_in_derived_parquet,nonempty_in_audit_100,description
+ARCHS4_v2.5_H5,sample,geo_accession,sample_identifier,True,True,100,
+ARCHS4_v2.5_H5,sample,series_id,sample_identifier,True,True,100,
+ARCHS4_v2.5_H5,sample,organism_ch1,sample_identifier,True,True,100,
+ARCHS4_v2.5_H5,sample,taxid_ch1,sample_identifier,True,False,100,
+ARCHS4_v2.5_H5,sample,platform_id,sample_identifier,True,True,100,
+ARCHS4_v2.5_H5,sample,title,biological_metadata,True,True,100,
+ARCHS4_v2.5_H5,sample,source_name_ch1,biological_metadata,True,True,100,
+ARCHS4_v2.5_H5,sample,characteristics_ch1,biological_metadata,True,True,100,
+ARCHS4_v2.5_H5,sample,molecule_ch1,technical_metadata,True,True,100,
+ARCHS4_v2.5_H5,sample,library_strategy,technical_metadata,True,True,100,
+ARCHS4_v2.5_H5,sample,library_source,technical_metadata,True,True,100,
+ARCHS4_v2.5_H5,sample,library_selection,technical_metadata,True,False,100,
+ARCHS4_v2.5_H5,sample,instrument_model,technical_metadata,True,True,100,
+ARCHS4_v2.5_H5,sample,channel_count,technical_metadata,True,False,100,
+ARCHS4_v2.5_H5,sample,type,technical_metadata,True,False,100,
+ARCHS4_v2.5_H5,sample,sample,technical_metadata,True,False,100,
+ARCHS4_v2.5_H5,sample,extract_protocol_ch1,technical_metadata,True,False,100,
+ARCHS4_v2.5_H5,sample,data_processing,technical_metadata,True,False,100,
+ARCHS4_v2.5_H5,sample,relation,technical_metadata,True,False,100,
+ARCHS4_v2.5_H5,sample,singlecellprobability,technical_metadata,True,True,100,
+ARCHS4_v2.5_H5,sample,submission_date,technical_metadata,True,True,100,
+ARCHS4_v2.5_H5,sample,last_update_date,technical_metadata,True,False,100,
+ARCHS4_v2.5_H5,sample,status,technical_metadata,True,False,100,
+ARCHS4_v2.5_H5,sample,contact_name,submitter_metadata,True,False,100,
+ARCHS4_v2.5_H5,sample,contact_institute,submitter_metadata,True,False,100,
+ARCHS4_v2.5_H5,sample,contact_address,submitter_metadata,True,False,100,
+ARCHS4_v2.5_H5,sample,contact_city,submitter_metadata,True,False,100,
+ARCHS4_v2.5_H5,sample,contact_zip,submitter_metadata,True,False,0,
+ARCHS4_v2.5_H5,sample,contact_country,submitter_metadata,True,False,100,
+local_derived,sample,metadata_archs4_file,provenance,False,True,100,Local extraction provenance.
+local_derived,sample,archs4_version,provenance,False,True,100,Local extraction provenance.
+not_present,study,title,study_level_metadata,False,False,0,ARCHS4 v2.5 H5 contains no GSE entity table.
+not_present,study,summary,study_level_metadata,False,False,0,ARCHS4 v2.5 H5 contains no GSE entity table.
+not_present,study,overall_design,study_level_metadata,False,False,0,ARCHS4 v2.5 H5 contains no GSE entity table.
+not_present,study,pubmed_id,study_level_metadata,False,False,0,ARCHS4 v2.5 H5 contains no GSE entity table.
+not_present,study,type,study_level_metadata,False,False,0,ARCHS4 v2.5 H5 contains no GSE entity table.
+not_present,study,submission_date,study_level_metadata,False,False,0,ARCHS4 v2.5 H5 contains no GSE entity table.
+not_present,study,last_update_date,study_level_metadata,False,False,0,ARCHS4 v2.5 H5 contains no GSE entity table.
+not_present,study,platform_id,study_level_metadata,False,False,0,ARCHS4 v2.5 H5 contains no GSE entity table.
+not_present,study,platform_organism,study_level_metadata,False,False,0,ARCHS4 v2.5 H5 contains no GSE entity table.
+not_present,study,sample_organism,study_level_metadata,False,False,0,ARCHS4 v2.5 H5 contains no GSE entity table.
+not_present,study,relation,study_level_metadata,False,False,0,ARCHS4 v2.5 H5 contains no GSE entity table.
+not_present,study,status,study_level_metadata,False,False,0,ARCHS4 v2.5 H5 contains no GSE entity table.

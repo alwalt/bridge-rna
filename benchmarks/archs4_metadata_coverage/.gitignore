@@ -1,0 +1,8 @@
+work/
+results/bridge_metadata.sqlite
+results/bridge_metadata.sqlite.tmp
+results/*.log
+results/**/*.log
+results/laya_validation_predictions.csv
+results/organ_recovery/laya_shortlist_predictions.csv
+results/organ_recovery/deterministic_validation_cohort_5000.csv

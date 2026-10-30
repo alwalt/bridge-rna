@@ -1,0 +1,13 @@
+{
+  "annotation_run_id": "laya-validation-v1",
+  "tool": "Laya",
+  "model_name": "convaiinnovations/laya",
+  "model_version": "0.3.20",
+  "model_commit": "4066d5d5fbf08b66c6757ddeedbd797bd7655bc0",
+  "question_schema_version": "laya-geometa-choice-v1",
+  "canonical_vocabulary_version": "geometa-hf-d0cd1e1",
+  "runtime_environment": "{\"python\": \"3.10.12\", \"torch\": \"2.14.0+cu130\", \"transformers\": \"5.17.0\", \"cuda\": \"13.0\", \"gpu\": \"NVIDIA GeForce RTX 3090\"}",
+  "code_commit": "cbd48b7d2bd0eb87bc71225de6f58f6b74924ea6",
+  "run_date": "2026-09-26T07:13:36.054580+00:00",
+  "notes": "100 human samples; GEOMeta truth hidden from evidence. Scores are not calibrated probabilities."
+}
