@@ -30,6 +30,7 @@ This is the public, cached-first report for the validated Zhong-style gene-biolo
         nbf.v4.new_code_cell(
             """from pathlib import Path
 import json
+import hashlib
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -45,6 +46,10 @@ FIGURES.mkdir(parents=True, exist_ok=True)
 with (CACHE / "manifest.json").open() as handle:
     manifest = json.load(handle)
 assert manifest["mode"].startswith("cached validated artifacts")
+for item in manifest["files"]:
+    path = CACHE / item["file"]
+    assert path.stat().st_size == item["bytes"]
+    assert hashlib.sha256(path.read_bytes()).hexdigest() == item["sha256"]
 print(f"Cached mode: {len(manifest['files'])} validated artifacts")"""
         ),
         nbf.v4.new_markdown_cell(
@@ -122,11 +127,87 @@ axes[0].set_ylabel("Mean held-out AUROC")
 fig.suptitle("Single-gene biology from frozen gene representations", fontsize=19, fontweight="bold", y=1.02)
 fig.tight_layout()
 fig.savefig(FIGURES / "single_gene_go_omim.png", dpi=300, bbox_inches="tight", facecolor="white")
-fig.savefig(FIGURES / "single_gene_go_omim.pdf", bbox_inches="tight", facecolor="white")
+fig.savefig(FIGURES / "single_gene_go_omim.pdf", bbox_inches="tight", facecolor="white", metadata={"CreationDate": None, "ModDate": None})
 plt.show()"""
         ),
         nbf.v4.new_markdown_cell(
             """Bridge E1 and E2 are substantially stronger than Bridge E0, making transformer processing the dominant transition. Both BulkFormer static tables are more informative than Bridge E0, showing that a weak static result is not inevitable for bulk-transcriptome models. Bridge E1/E2 have higher mean AUROC than the tested BulkFormer static references, but this is not a formal architecture ranking because model vocabularies differ and BulkFormer was not evaluated contextually."""
+        ),
+        nbf.v4.new_markdown_cell(
+            """## Published Zhong bulk RNA-seq comparison
+
+The Zhong metadata classifies exactly three published methods as `gene expression (bulk)`: **GENE2VEC**, **TCGA-EMBEDDING**, and **FROGS-ARCHS4**. Single-cell expression, amino-acid, literature, PPI, and mixed-input methods are excluded. The cached files are the authors' common-intersection results used by their paper figures, pinned to the repository revision recorded below."""
+        ),
+        nbf.v4.new_code_cell(
+            """ZHONG_CACHE = CACHE / "zhong"
+with (ZHONG_CACHE / "provenance.json").open() as handle:
+    zhong_provenance = json.load(handle)
+assert zhong_provenance["commit"] == "d1320026a2a4ee033d49517f91e2d1c2ccc8df1e"
+
+zhong_meta = pd.read_csv(ZHONG_CACHE / "embed_meta.csv")
+bulk_meta = zhong_meta[zhong_meta.Category.eq("gene expression (bulk)")].copy()
+eligible_bulk = ["GENE2VEC", "TCGA-EMBEDDING", "FROGS-ARCHS4"]
+assert set(bulk_meta.Embeding) == set(eligible_bulk)
+bulk_meta = bulk_meta.set_index("Embeding").loc[eligible_bulk].reset_index()
+bulk_meta.columns = ["Model", "Method", "Training data", "Original dimensions"]
+display(bulk_meta)
+display(pd.DataFrame([{
+    "Repository": zhong_provenance["repository"],
+    "Commit": zhong_provenance["commit"],
+    "Download date": zhong_provenance["download_date"],
+    "Downloaded files": len(zhong_provenance["files"]),
+}]))"""
+        ),
+        nbf.v4.new_code_cell(
+            """zhong_single_rows = []
+for task, filename in [("GO", "single_gene_go_AUROC.tsv"), ("OMIM", "single_gene_omim_AUROC.tsv")]:
+    frame = pd.read_csv(ZHONG_CACHE / filename, sep="\\t", index_col=0)
+    expected_n = 56 if task == "GO" else 103
+    assert frame.shape[1] == expected_n and set(eligible_bulk).issubset(frame.index)
+    for model in eligible_bulk:
+        values = frame.loc[model].astype(float)
+        zhong_single_rows.append({
+            "Task": task, "Model": model, "N_terms": len(values),
+            "Mean_AUROC": values.mean(), "Median_AUROC": values.median(),
+            "SD_AUROC": values.std(ddof=1),
+        })
+zhong_single = pd.DataFrame(zhong_single_rows)
+display(zhong_single.round(4))
+
+single_comparability = pd.DataFrame([
+    ["Bridge E0/E1/E2", "Local adaptation", "Bridge mapped vocabulary", "Same Zhong term split files and mean held-out AUROC; test genes differ after vocabulary filtering", "Protocol-matched; not a head-to-head ranking"],
+    ["BulkFormer-50M/147M static", "Local adaptation", "Each model's mapped vocabulary", "Same Zhong term split files and mean held-out AUROC; test genes differ after vocabulary filtering", "Protocol-matched; not a head-to-head ranking"],
+    ["GENE2VEC / TCGA-EMBEDDING / FROGS-ARCHS4", "Published Zhong", "Zhong common-intersection genes", "Original published 56 GO and 103 OMIM per-term held-out AUROCs", "Directly comparable to one another"],
+], columns=["Models", "Result source", "Gene universe", "Evaluation relationship", "Comparison status"])
+display(single_comparability)"""
+        ),
+        nbf.v4.new_code_cell(
+            """local_order = ["Bridge E0", "BulkFormer-50M static", "BulkFormer-147M static", "Bridge E1", "Bridge E2"]
+published_order = eligible_bulk
+fig, axes = plt.subplots(2, 2, figsize=(13.5, 9), sharey=True)
+for col, task in enumerate(["GO", "OMIM"]):
+    local = single_summary[single_summary.Task.eq(task)].set_index("Model").loc[local_order]
+    pub = zhong_single[zhong_single.Task.eq(task)].set_index("Model").loc[published_order]
+    for row, values, labels, title, palette in [
+        (0, local.Mean_AUROC, ["Bridge E0", "BulkFormer 50M", "BulkFormer 147M", "Bridge E1", "Bridge E2"], "Local adaptations (model-specific universes)", ["#8A8F98", "#7A9E9F", "#4F7C7D", "#2878B5", "#D95319"]),
+        (1, pub.Mean_AUROC, ["Gene2vec", "TCGA embedding", "FRoGS-ARCHS4"], "Published Zhong (common-intersection universe)", ["#6A4C93", "#9C6ADE", "#C7A4E0"]),
+    ]:
+        ax = axes[row, col]
+        bars = ax.bar(np.arange(len(values)), values, color=palette, width=0.68)
+        ax.bar_label(bars, labels=[f"{v:.3f}" for v in values], padding=3, fontsize=9, fontweight="bold")
+        ax.set_xticks(np.arange(len(values)), labels, rotation=18, ha="right")
+        ax.set_ylim(0, 1)
+        ax.set_title(f"{task} — {title}", fontsize=12, fontweight="bold")
+        ax.spines[["top", "right"]].set_visible(False)
+        ax.grid(False)
+        if col == 0:
+            ax.set_ylabel("Mean held-out AUROC")
+fig.suptitle("Bulk RNA-seq-derived gene embeddings: separated evaluation universes", fontsize=18, fontweight="bold")
+fig.text(0.5, 0.005, "Panels are separated because local adaptations and Zhong published results do not share an identical evaluated gene universe.", ha="center", fontsize=9.5, color="#555555")
+fig.tight_layout(rect=[0, 0.025, 1, 0.96])
+fig.savefig(FIGURES / "bulk_rnaseq_single_gene_comparison.png", dpi=300, bbox_inches="tight", facecolor="white")
+fig.savefig(FIGURES / "bulk_rnaseq_single_gene_comparison.pdf", bbox_inches="tight", facecolor="white", metadata={"CreationDate": None, "ModDate": None})
+plt.show()"""
         ),
         nbf.v4.new_markdown_cell("## Zhong literature context"),
         nbf.v4.new_code_cell(
@@ -159,8 +240,8 @@ rep_labels = {"E0_static": "E0", "E1_null_L12": "E1", "E2_GTEx200_L12": "E2"}
 best = pair_summary.loc[pair_summary.groupby("interaction_type").AUROC_mean.idxmax()].copy()
 best["Task"] = best.interaction_type.map(task_labels)
 best["Representation"] = best.representation.map(rep_labels)
-best = best.rename(columns={"joining_operation": "Pair_operation", "AUROC_mean": "AUROC", "AUPRC_mean": "AUPRC"})
-best = best[["Task", "Representation", "Pair_operation", "AUROC", "AUPRC", "AUROC_sd", "AUPRC_sd"]]
+best = best.rename(columns={"joining_operation": "Pair_operation", "AUROC_mean": "AUROC", "AUPRC_mean": "AUPRC", "Precision@10_mean": "Precision@10"})
+best = best[["Task", "Representation", "Pair_operation", "AUROC", "AUPRC", "Precision@10", "AUROC_sd", "AUPRC_sd"]]
 best_expected = pd.read_csv(CACHE / "pair_expected_best.csv")
 best_check = best.merge(best_expected, on=["Task", "Representation", "Pair_operation"], suffixes=("_rebuilt", "_expected"))
 assert len(best_check) == 3
@@ -186,22 +267,93 @@ ax.grid(False)
 fig.text(0.5, -0.01, "Bars show the best observed representation/operation condition for each task.", ha="center", fontsize=10, color="#555555")
 fig.tight_layout()
 fig.savefig(FIGURES / "gene_pair_best.png", dpi=300, bbox_inches="tight", facecolor="white")
-fig.savefig(FIGURES / "gene_pair_best.pdf", bbox_inches="tight", facecolor="white")
+fig.savefig(FIGURES / "gene_pair_best.pdf", bbox_inches="tight", facecolor="white", metadata={"CreationDate": None, "ModDate": None})
 plt.show()"""
         ),
         nbf.v4.new_markdown_cell(
             """Synthetic-lethal and TF-target relationships are meaningfully predictable from Bridge representations, whereas negative genetic interaction prediction is weaker. E2 is not universally superior: the best synthetic-lethal and TF-target AUROCs use E1, while negative genetic interaction uses E2. BulkFormer pair tasks were not run."""
         ),
         nbf.v4.new_markdown_cell(
+            """### Published Zhong bulk RNA-seq pair results
+
+Zhong reports the mean AUROC, mean AUPRC, and mean precision@10 across three outer folds for each pair operation. The cached fold-level AUROC tables below independently reproduce every published mean. Bridge used the same nested split definitions but filtered them to its mapped genes, whereas these published results use Zhong's common-intersection universe; the two sections are therefore protocol-matched literature context, not one combined ranking."""
+        ),
+        nbf.v4.new_code_cell(
+            """published_pair_rows = []
+task_names = {"ng": "Negative genetic", "sl": "Synthetic lethal", "tf": "TF-target"}
+for task_code, task_name in task_names.items():
+    for operation in ["concat", "product", "sum"]:
+        stem = f"paired_gene_{task_code}_{operation}_outerloop"
+        folds = pd.read_csv(ZHONG_CACHE / f"{stem}_AUC.tsv", sep="\\t", index_col=0)
+        avgs = pd.read_csv(ZHONG_CACHE / f"{stem}_avgs.tsv", sep="\\t", index_col=0)
+        fold_columns = ["outer_AUC_fold_0", "outer_AUC_fold_1", "outer_AUC_fold_2"]
+        assert np.allclose(folds[fold_columns].mean(axis=1), folds.outer_AUC_average, atol=1e-12)
+        assert np.allclose(folds.outer_AUC_average, avgs.outer_AUC, atol=1e-12)
+        for model in eligible_bulk:
+            published_pair_rows.append({
+                "Task": task_name, "Model": model, "Pair_operation": operation,
+                "AUROC": avgs.loc[model, "outer_AUC"],
+                "AUROC_SD": folds.loc[model, fold_columns].std(ddof=1),
+                "AUPRC": avgs.loc[model, "outer_AUPRC"],
+                "Precision@10": avgs.loc[model, "outer_PR@10"],
+                "Outer_folds": 3,
+            })
+zhong_pair = pd.DataFrame(published_pair_rows)
+assert len(zhong_pair) == 27
+display(zhong_pair.round(4))
+
+zhong_pair_best = zhong_pair.loc[zhong_pair.groupby(["Task", "Model"]).AUROC.idxmax()].copy()
+zhong_pair_best["Result source"] = "Published Zhong common-intersection"
+bridge_pair_best = best[["Task", "Representation", "Pair_operation", "AUROC", "AUPRC", "Precision@10", "AUROC_sd"]].copy()
+bridge_pair_best["Model"] = "Bridge " + bridge_pair_best.pop("Representation")
+bridge_pair_best = bridge_pair_best.rename(columns={"AUROC_sd": "AUROC_SD"})
+bridge_pair_best["Outer_folds"] = 3
+bridge_pair_best["Result source"] = "Local Bridge adaptation"
+pair_comparison = pd.concat([
+    bridge_pair_best[["Task", "Model", "Pair_operation", "AUROC", "AUROC_SD", "AUPRC", "Precision@10", "Outer_folds", "Result source"]],
+    zhong_pair_best[["Task", "Model", "Pair_operation", "AUROC", "AUROC_SD", "AUPRC", "Precision@10", "Outer_folds", "Result source"]],
+], ignore_index=True)
+display(pair_comparison.sort_values(["Task", "Result source", "Model"]).round(4))"""
+        ),
+        nbf.v4.new_code_cell(
+            """task_order = ["Synthetic lethal", "TF-target", "Negative genetic"]
+fig, axes = plt.subplots(2, 3, figsize=(15, 8.2), sharey=True)
+for col, task in enumerate(task_order):
+    bridge_row = bridge_pair_best[bridge_pair_best.Task.eq(task)].iloc[0]
+    ax = axes[0, col]
+    bar = ax.bar([0], [bridge_row.AUROC], color="#2878B5", width=0.55)
+    ax.bar_label(bar, labels=[f"{bridge_row.AUROC:.3f}"], padding=4, fontweight="bold")
+    ax.set_xticks([0], [f"{bridge_row.Model}\\n{bridge_row.Pair_operation}"])
+    ax.set_title(task, fontsize=13, fontweight="bold")
+    pub = zhong_pair_best[zhong_pair_best.Task.eq(task)].set_index("Model").loc[eligible_bulk]
+    ax = axes[1, col]
+    bars = ax.bar(np.arange(3), pub.AUROC, color=["#6A4C93", "#9C6ADE", "#C7A4E0"], width=0.65)
+    ax.bar_label(bars, labels=[f"{v:.3f}" for v in pub.AUROC], padding=4, fontsize=9, fontweight="bold")
+    ax.set_xticks(np.arange(3), [f"Gene2vec\\n{pub.loc['GENE2VEC', 'Pair_operation']}", f"TCGA embedding\\n{pub.loc['TCGA-EMBEDDING', 'Pair_operation']}", f"FRoGS-ARCHS4\\n{pub.loc['FROGS-ARCHS4', 'Pair_operation']}"])
+for ax in axes.flat:
+    ax.set_ylim(0, 1)
+    ax.spines[["top", "right"]].set_visible(False)
+    ax.grid(False)
+axes[0, 0].set_ylabel("Local Bridge adaptation\\nMean outer-fold AUROC")
+axes[1, 0].set_ylabel("Published Zhong intersection\\nMean outer-fold AUROC")
+fig.suptitle("Gene-pair tasks: best observed operation within each evaluation", fontsize=18, fontweight="bold")
+fig.text(0.5, 0.01, "Rows are separated because the evaluated gene universes differ; operation labels appear below each bar.", ha="center", fontsize=9.5, color="#555555")
+fig.tight_layout(rect=[0, 0.035, 1, 0.96])
+fig.savefig(FIGURES / "bulk_rnaseq_pair_comparison.png", dpi=300, bbox_inches="tight", facecolor="white")
+fig.savefig(FIGURES / "bulk_rnaseq_pair_comparison.pdf", bbox_inches="tight", facecolor="white", metadata={"CreationDate": None, "ModDate": None})
+plt.show()"""
+        ),
+        nbf.v4.new_markdown_cell(
             """## Conclusions
 
 1. Bridge transformer-derived states encode substantially more GO and OMIM information than its static lookup table.
 2. Real GTEx context provides a smaller, task-dependent improvement beyond the null-context transformer state.
-3. BulkFormer static tables contain appreciable single-gene biology, but their scaling pattern is not monotonic across GO and OMIM.
-4. Bridge supports generalization to unseen genes for selected pair tasks, but pair performance is task-dependent and does not imply universal relational understanding.
-5. These probes establish decodability—not causal or mechanistic understanding, batch correction, or universal model superiority.
+3. The eligible Zhong bulk-expression references are Gene2vec, TCGA-Embedding, and FRoGS-ARCHS4; their published common-intersection results provide protocol-matched context, not an identical-universe ranking against local runs.
+4. BulkFormer static tables contain appreciable single-gene biology, but their scaling pattern is not monotonic across GO and OMIM.
+5. Bridge supports generalization to unseen genes for selected pair tasks, but pair performance is task-dependent and does not imply universal relational understanding.
+6. These probes establish decodability—not causal or mechanistic understanding, batch correction, or universal model superiority.
 
-Major limitations are different available vocabularies across model families, no contextual or pair evaluation for BulkFormer, three outer folds for pair tasks, and reliance on Zhong's annotation, negative-sampling, and split design."""
+Major limitations are different evaluated gene universes across the local adaptations and Zhong's published intersection benchmark, no contextual or pair evaluation for BulkFormer, three outer folds for pair tasks, unavailable single-gene AUPRC in the published Zhong TSVs, and reliance on Zhong's annotation, negative-sampling, and split design."""
         ),
         nbf.v4.new_markdown_cell(
             """## Full recomputation

@@ -16,6 +16,12 @@ per-term or per-fold outputs, verifies those aggregates against the frozen
 research summaries, checks pair-fold gene disjointness, and regenerates the PNG
 and PDF figures.
 
+The public cache also includes the original published Zhong common-intersection
+results for the three methods classified by `embed_meta.csv` as
+`gene expression (bulk)`: `GENE2VEC`, `TCGA-EMBEDDING`, and `FROGS-ARCHS4`.
+Single-cell, protein-language, literature, PPI, and mixed-input methods are not
+included in the bulk-expression comparison.
+
 From the repository root:
 
 ```bash
@@ -33,10 +39,16 @@ notebooks/gene_embedding_benchmarks/
 │   ├── manifest.json
 │   ├── per-term GO/OMIM tables
 │   ├── pair outer-fold results
-│   └── frozen expected summaries and provenance
+│   ├── frozen expected summaries and provenance
+│   └── zhong/
+│       ├── embed_meta.csv
+│       ├── published GO/OMIM and pair TSVs
+│       └── provenance.json
 └── figures/
     ├── single_gene_go_omim.{png,pdf}
-    └── gene_pair_best.{png,pdf}
+    ├── gene_pair_best.{png,pdf}
+    ├── bulk_rnaseq_single_gene_comparison.{png,pdf}
+    └── bulk_rnaseq_pair_comparison.{png,pdf}
 ```
 
 Use `prepare_cached_artifacts.py` only when intentionally refreshing this public
@@ -45,6 +57,32 @@ release from a newly validated research benchmark:
 ```bash
 python notebooks/gene_embedding_benchmarks/prepare_cached_artifacts.py
 ```
+
+That command refreshes the local validated artifacts and downloads only the
+compact published Zhong tables—never pretrained embedding matrices—from the
+pinned revision below.
+
+## Published Zhong source
+
+- Repository: <https://github.com/ylaboratory/gene-embedding-benchmarks>
+- Pinned commit: [`d1320026a2a4ee033d49517f91e2d1c2ccc8df1e`](https://github.com/ylaboratory/gene-embedding-benchmarks/commit/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e)
+- Results directory: <https://github.com/ylaboratory/gene-embedding-benchmarks/tree/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/results/tsvs>
+- Metadata: <https://github.com/ylaboratory/gene-embedding-benchmarks/blob/d1320026a2a4ee033d49517f91e2d1c2ccc8df1e/data/embed_meta.csv>
+- Download date for the committed cache: 2026-10-29
+
+The cache preserves the upstream filenames. It contains the intersection
+`single_gene_go_AUROC.tsv` and `single_gene_omim_AUROC.tsv` tables plus, for NG,
+SL, and TF and each of concat/product/sum, both the published
+`outerloop_avgs.tsv` summary and `outerloop_AUC.tsv` fold table. The latter lets
+cached execution verify every published three-fold mean and derive its sample
+SD. Source URLs, byte sizes, and SHA-256 hashes are recorded in
+`cached/zhong/provenance.json` and the top-level cache manifest.
+
+Zhong's metadata records Gene2vec as a skip-gram/CBOW method and TCGA-Embedding
+and FRoGS-ARCHS4 as MLP methods, all trained from bulk gene expression. This is
+also consistent with the benchmark paper's method descriptions. The notebook
+uses the original metadata category as the eligibility rule rather than
+classifying models from their names.
 
 ## Full recomputation
 
@@ -115,6 +153,14 @@ vocabulary, representation definition, split protocol, or model checkpoint.
 ## Interpretation boundaries
 
 - Zhong literature values were not rerun locally.
+- The three cached Zhong bulk-expression results use the authors' common-gene
+  intersection. Bridge and BulkFormer local adaptations use their own mapped
+  vocabularies. They share tasks, split definitions, metrics, and aggregation
+  logic, but not identical evaluated genes, so they are shown in separate
+  table/figure sections and must not be treated as one ranking.
+- Published Zhong single-gene TSVs contain per-term AUROC but not AUPRC. Pair
+  summary TSVs contain mean outer-fold AUROC, AUPRC, and precision@10; the
+  paired fold TSVs provide fold-level AUROC only.
 - Bridge and BulkFormer use their own available vocabularies, so their table is
   contextual rather than a strict common-universe model ranking.
 - BulkFormer was evaluated only for static single-gene GO/OMIM tasks.
