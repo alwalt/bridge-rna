@@ -27,6 +27,21 @@ Zhong reports mean AUROC across terms, so the headline AUROC is the unweighted m
 
 The dominant transition is E0 to E1. E2 produces a smaller additional improvement for both single-gene tasks.
 
+### BulkFormer static-embedding extension
+
+To contextualize Bridge's static and transformer-derived representations against another bulk-transcriptome foundation model, the same GO and OMIM protocol was run on the frozen static gene-identity embedding tables from the locally available BulkFormer-50M and BulkFormer-147M checkpoints. No BulkFormer forward inference, contextual embedding extraction, pair benchmark, controls, or split regeneration was performed. The SVM selected `C` using only the three supplied training folds and was evaluated once on the untouched holdout for each term.
+
+| Task | Model | Terms | Embedding dim. | Mean AUROC | Median AUROC | SD AUROC | Mean AUPRC | Median AUPRC |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| GO | BulkFormer-50M static | 56 | 256 | 0.6961 | 0.6981 | 0.0769 | 0.2579 | 0.2388 |
+| GO | BulkFormer-147M static | 56 | 640 | 0.7146 | 0.7119 | 0.0713 | 0.2757 | 0.2477 |
+| OMIM | BulkFormer-50M static | 103 | 256 | 0.6540 | 0.6419 | 0.1148 | 0.2526 | 0.1950 |
+| OMIM | BulkFormer-147M static | 103 | 640 | 0.6406 | 0.6423 | 0.1164 | 0.2649 | 0.2072 |
+
+BulkFormer's static tables are substantially more predictive than Bridge E0 on this adaptation, showing that a static lookup table can encode considerable annotation signal. Bridge E1 and E2 remain higher than both tested BulkFormer static tables on mean AUROC for GO and OMIM, supporting the narrower conclusion that Bridge's transformer processing makes substantially more biological information linearly/nonlinearly decodable than is present in its own static table. This is not a controlled architecture ranking: BulkFormer uses its native 20,010-row vocabulary, of which 19,356 rows mapped to unique Entrez identifiers, whereas Bridge uses its own smaller mapped vocabulary. BulkFormer pair performance was not evaluated.
+
+The scaling result is also task-dependent rather than monotonic. BulkFormer-147M has higher GO mean AUROC and higher mean AUPRC on both tasks, while BulkFormer-50M has the higher OMIM mean AUROC. Raw per-term results, mapping, checkpoint hashes, and run settings are in `results/bulkformer_static/`.
+
 ## Paired-gene results
 
 Values are mean ± sample SD across three outer folds. Every outer fold is gene-disjoint: train/test gene overlap is zero in all nine task-fold records.
@@ -72,10 +87,10 @@ The highest observed AUROC conditions are E2-concat for negative genetic interac
 
 ## Zhong context
 
-Reported Zhong et al. literature values range from GO mean AUROC 0.787 for scGPT-human to 0.926 for GenePT-Model3, and from OMIM 0.685 for ESMB1 to 0.877 for GenePT-Model3 among the selected references. Bridge E1/E2 operate in a similar general range to the reported expression-derived scGPT-human result. These comparisons are contextual only: non-Bridge models were not rerun locally under the Bridge gene universe, so this is not a formal head-to-head ranking or evidence of superiority.
+Reported Zhong et al. literature values range from GO mean AUROC 0.787 for scGPT-human to 0.926 for GenePT-Model3, and from OMIM 0.685 for ESMB1 to 0.877 for GenePT-Model3 among the selected references. Bridge E1/E2 operate in a similar general range to the reported expression-derived scGPT-human result. BulkFormer-50M and BulkFormer-147M are locally evaluated static-only references, unlike the other literature rows, but they still use their own available vocabulary. These comparisons are contextual only and are not a formal common-universe head-to-head ranking or evidence of superiority.
 
 ## Interpretation
 
-Bridge's transformer-derived gene representations encode established biological information across gene function, disease association, and selected gene–gene interaction tasks. Functional information is substantially more decodable from transformer-derived representations than from the static gene embedding table. Aggregation across real transcriptomic contexts produces smaller and task-dependent changes.
+Bridge's transformer-derived gene representations encode established biological information across gene function, disease association, and selected gene–gene interaction tasks. Functional information is substantially more decodable from transformer-derived representations than from Bridge's static gene embedding table. The BulkFormer extension shows that this weak static result is not inevitable for all bulk-transcriptome models: both tested BulkFormer static tables carry appreciable GO and OMIM signal. Nevertheless, Bridge E1/E2 have higher mean AUROC than those static-only BulkFormer references, and aggregation across real transcriptomic contexts produces smaller, task-dependent changes beyond E1.
 
-These results do not demonstrate causal or mechanistic understanding, universal gene-function understanding, batch correction, or superiority to all existing gene embedding models. No additional controls or classifier runs were performed during finalization.
+These results do not demonstrate causal or mechanistic understanding, universal gene-function understanding, batch correction, or superiority to all existing gene embedding models. BulkFormer was not evaluated contextually or on pair tasks, and the model vocabularies differ. No new controls were run.

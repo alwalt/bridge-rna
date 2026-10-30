@@ -1,0 +1,120 @@
+{
+  "mode": "cached validated artifacts; no model inference or classifier fitting",
+  "source_benchmark": "benchmarks/zhong_gene_biology",
+  "files": [
+    {
+      "file": "bridge_E0_GO.csv",
+      "source": "benchmarks/zhong_gene_biology/results/E0_GO.csv",
+      "bytes": 8197,
+      "sha256": "f5304f72bdf4c5a27eabefe6b38b4d484945fd4b792ccaeabd41dafe465c5557"
+    },
+    {
+      "file": "bridge_E1_GO.csv",
+      "source": "benchmarks/zhong_gene_biology/results/E1_GO.csv",
+      "bytes": 8265,
+      "sha256": "b7c34c69fb444b238171f0a5812c60e5ddc9437dc0fcf8c368d465bd1df58e2d"
+    },
+    {
+      "file": "bridge_E2_GO.csv",
+      "source": "benchmarks/zhong_gene_biology/results/E2_GO.csv",
+      "bytes": 8425,
+      "sha256": "4bb210c3835ef3331c87cec6559d36473bd294af12183cb5de8ab5286731ec3e"
+    },
+    {
+      "file": "bridge_E0_OMIM.csv",
+      "source": "benchmarks/zhong_gene_biology/results/E0_OMIM.csv",
+      "bytes": 13260,
+      "sha256": "47ec0787282b7e19e6ecb61b83121e5f670745159155b5f75488d22ffb151489"
+    },
+    {
+      "file": "bridge_E1_OMIM.csv",
+      "source": "benchmarks/zhong_gene_biology/results/E1_OMIM.csv",
+      "bytes": 13369,
+      "sha256": "c9c957fe221ac9e704fd120590a9a45e0e0e8dd8eeffae6d9c2c566c08c2acbc"
+    },
+    {
+      "file": "bridge_E2_OMIM.csv",
+      "source": "benchmarks/zhong_gene_biology/results/E2_OMIM.csv",
+      "bytes": 13735,
+      "sha256": "39bd8dd8f509ac80644fd4c8937454f9181de51aabfb9bf960af2c6b24e3b99d"
+    },
+    {
+      "file": "bulkformer_50M_GO.csv",
+      "source": "benchmarks/zhong_gene_biology/results/bulkformer_static/BulkFormer-50M_GO.csv",
+      "bytes": 8464,
+      "sha256": "cfb19c13c8aa3d3b5aa6c67eac32872f6b8032ddbfff03a7af4d411fac7c358c"
+    },
+    {
+      "file": "bulkformer_147M_GO.csv",
+      "source": "benchmarks/zhong_gene_biology/results/bulkformer_static/BulkFormer-147M_GO.csv",
+      "bytes": 8523,
+      "sha256": "6efcc5a3693ef232251308fe2f3232341c59ea74b0b781f9b9bcd09c3a211fde"
+    },
+    {
+      "file": "bulkformer_50M_OMIM.csv",
+      "source": "benchmarks/zhong_gene_biology/results/bulkformer_static/BulkFormer-50M_OMIM.csv",
+      "bytes": 13662,
+      "sha256": "00c5d0ca4ce087f9d9d30f4782c97b1c4b10f4d29b4f8db97d695eff70f450f8"
+    },
+    {
+      "file": "bulkformer_147M_OMIM.csv",
+      "source": "benchmarks/zhong_gene_biology/results/bulkformer_static/BulkFormer-147M_OMIM.csv",
+      "bytes": 13788,
+      "sha256": "36da5c4cd98ab706d39c7503052ceedda139dd937845d3d23b7f2e77fbbda76a"
+    },
+    {
+      "file": "single_gene_expected_summary.csv",
+      "source": "benchmarks/zhong_gene_biology/results/single_gene_zhong_matched_summary.csv",
+      "bytes": 934,
+      "sha256": "3599d752c549505c375a20f1563be6b0c2c874cd38f23dc21469fdcde8182fd8"
+    },
+    {
+      "file": "bulkformer_expected_summary.csv",
+      "source": "benchmarks/zhong_gene_biology/results/bulkformer_static/summary.csv",
+      "bytes": 671,
+      "sha256": "4205fffeb44ac60e3d7f6f838529ccb7144010573f1fc86b9199d63c824e213a"
+    },
+    {
+      "file": "zhong_literature_reference.csv",
+      "source": "benchmarks/zhong_gene_biology/results/zhong_literature_comparison.csv",
+      "bytes": 460,
+      "sha256": "c68bbd3c22dd62bf82a82a924fa8797fbdc1dd7f508887ee3b7df1739d517fa7"
+    },
+    {
+      "file": "pair_outer_fold_results.csv",
+      "source": "benchmarks/zhong_gene_biology/results/pair_outer_fold_results_all.csv",
+      "bytes": 7062,
+      "sha256": "aadbc3b3c7241cb22a06c3ed4cfaca2c3b964778bd62a1d16f713bc7c38d75d5"
+    },
+    {
+      "file": "pair_expected_summary.csv",
+      "source": "benchmarks/zhong_gene_biology/results/pair_representation_summary.csv",
+      "bytes": 3793,
+      "sha256": "752643aaf40c671bd99e6d4226986d73e594eb9736c278b30793a11b050b65f9"
+    },
+    {
+      "file": "pair_expected_best.csv",
+      "source": "benchmarks/zhong_gene_biology/results/final_pair_best_conditions.csv",
+      "bytes": 366,
+      "sha256": "b08e31311f0625df34dbe90b6077d6dc21f4597169439dd53f01e450030b945a"
+    },
+    {
+      "file": "pair_leakage_qc.csv",
+      "source": "benchmarks/zhong_gene_biology/results/final_pair_leakage_qc.csv",
+      "bytes": 352,
+      "sha256": "5dd2c259b990ee63a488000589b2becb8a7d0cb24cd2eb47807700be03ef2170"
+    },
+    {
+      "file": "bridge_provenance.json",
+      "source": "benchmarks/zhong_gene_biology/results/final_benchmark_provenance.json",
+      "bytes": 40938,
+      "sha256": "1ca3fdbb6067b9a324848851c08803f6b5727365d93a85d275cddcd9aa3d1bff"
+    },
+    {
+      "file": "bulkformer_provenance.json",
+      "source": "benchmarks/zhong_gene_biology/results/bulkformer_static/provenance.json",
+      "bytes": 3044,
+      "sha256": "2746aea981fd0ee7b6ab2413cddd1fdadabdc33bb686f63bb01483dad2630e06"
+    }
+  ]
+}

@@ -30,6 +30,8 @@ All representations contain 15,165 genes × 512 dimensions in canonical token or
 
 Best observed pair AUROC conditions were E2-concat for negative genetic interaction (0.580), E1-product for synthetic lethality (0.707), and E1-concat for TF targets (0.670). Pair evaluation is strictly gene-disjoint in every outer fold. See [RESULTS.md](./RESULTS.md) for all conditions, coverage, interpretation, and limitations.
 
+A static-only extension evaluated the locally available BulkFormer-50M and BulkFormer-147M checkpoints using the same supplied GO/OMIM training folds and holdouts. Mean AUROC was 0.6961/0.6540 (GO/OMIM) for BulkFormer-50M and 0.7146/0.6406 for BulkFormer-147M. BulkFormer pair tasks and contextual representations were not run. Because BulkFormer and Bridge use different available vocabularies, these values are contextual rather than a formal common-universe ranking.
+
 ## Layout
 
 - `pipeline/`: reproducible scripts for mapping, representation prep, and benchmarks.
@@ -145,6 +147,14 @@ Recalculate the Zhong-matched summary from completed per-term tables only (no in
 python3 benchmarks/zhong_gene_biology/pipeline/summarize_existing_single_gene.py
 python3 benchmarks/zhong_gene_biology/pipeline/finalize_saved_benchmark.py
 ```
+
+Run the static-only BulkFormer GO/OMIM extension (no inference or pair tasks):
+
+```bash
+python3 benchmarks/zhong_gene_biology/pipeline/run_bulkformer_static_single_gene.py
+```
+
+The extension writes raw per-term tables, its mapping audit, summary, log, and provenance under `results/bulkformer_static/`.
 
 ## Mapping policy
 
