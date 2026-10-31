@@ -1,0 +1,5 @@
+study_exposure,mapping_status,bridge_samples,gse_labels,cached_metadata_hits,unambiguous_cached_candidates,existing_upstream_pairs,additional_candidates
+seen_study,mapped_multiple,2984,167,1,1,0,1
+seen_study,mapped_single,2308,120,13,12,12,0
+unseen_study,mapped_multiple,22829,1136,257,257,0,257
+unseen_study,mapped_single,82588,4255,562,562,562,0

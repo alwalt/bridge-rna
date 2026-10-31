@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-24T04:46:56.866172+00:00",
+  "queries": 562,
+  "references": 510709,
+  "bridge_frozen": true,
+  "embeddings_generated": false,
+  "expensive_search_repeated": false,
+  "inputs": {
+    "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/results/per_query_ranked_results.parquet": {
+      "bytes": 88576,
+      "sha256": "a4f11d056eb33ee5796d5f5e6eb3af70e52c8b989024cde56da659facb497935"
+    },
+    "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/results/biological_validation/query_composition_and_density.parquet": {
+      "bytes": 45566,
+      "sha256": "5bbb1ae7cdf529c81afaeae2a7788b08cabefa7f59e0f5624b4f440362b00a5e"
+    },
+    "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/work/sampled_archs4_pair_cosines.npy": {
+      "bytes": 8000128,
+      "sha256": "45c4c7c00416b6dbded7bb41fa5041e49dcc07125242ba85e76f0be3a5baece7"
+    }
+  },
+  "score_cache": {
+    "path": "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/work/query_corpus_cosine.float32.mmap",
+    "bytes": 1148073832,
+    "use": "row-wise top-10 context and threshold counts only"
+  },
+  "rank_bins": [
+    "Rank 1",
+    "Rank 2\u20135",
+    "Rank 6\u201310",
+    "Rank 11\u2013100",
+    "Rank 101\u20131,000",
+    "Rank >1,000"
+  ],
+  "cutoffs": [
+    1,
+    5,
+    10,
+    100,
+    1000
+  ],
+  "near_neighbor_definition": "score >= exact_pair_cosine - delta; includes closer samples and the exact pair",
+  "top1_margin_precision": "Top1 is max(saved top1, saved exact cosine), clamping sub-micro negative differences caused by saved/cached precision.",
+  "method_score_note": "Only Cosine paired_score is Bridge cosine; other paired_score values are native ranking criteria.",
+  "elapsed_seconds": 6.943931341171265
+}

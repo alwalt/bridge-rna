@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-09-24T06:32:04.655933+00:00",
+  "runtime_seconds": 347.1698696613312,
+  "peak_rss_gb": 3.1991004943847656,
+  "bridge_frozen": true,
+  "gtex_not_used_for_fitting": true,
+  "gtex_samples": 6314,
+  "eligible_queries": 6064,
+  "references_after_exclusion": 510376,
+  "checkpoint": "model/r7hnr92k/best_model.pt",
+  "preprocessing": "GENCODE v49 counts -> TPM -> natural log1p; canonical 15,165 genes",
+  "assets": {
+    "/home/walt/bridge-rna/benchmarks/mouse_encode/results/task1a_balanced_geometry/gtex_human_sample_manifest.parquet": {
+      "bytes": 268373,
+      "sha256": "708efd1b53a780d1da9171b2dbecbcb81929284c0c51ce85818093ee4aaf67ec"
+    },
+    "/home/walt/bridge-rna/benchmarks/mouse_encode/results/task1a_balanced_geometry/cache/representation_manifest.parquet": {
+      "bytes": 87565,
+      "sha256": "bc88e6b4db094903047c20d70e626db9f8f658c9d9d57a92b8a9e52a49f920fc"
+    },
+    "/home/walt/bridge-rna/benchmarks/mouse_encode/results/task1a_balanced_geometry/cache/bridgerna_embeddings.npy": {
+      "bytes": 13054080,
+      "sha256": "bd8fed14f0adcf141cd524bfbb248239d1ec8bdcf7a43abc13cfe904afbfa5f5"
+    },
+    "/home/walt/bridge-rna/benchmarks/mouse_encode/results/task1a_balanced_geometry/provenance.json": {
+      "bytes": 1668,
+      "sha256": "db9216a8eb23a2d9e3a2021f502b58272d6d66ddfc41c35c0e2a2db3fab84281"
+    },
+    "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/work/literature_postprocessing_transform.npz": {
+      "bytes": 1076502,
+      "sha256": "9834e6bb8873e245f84e6874c6d11949d4e8dd57de9f31aa287fd7617524f880"
+    }
+  },
+  "limitations": [
+    "ARCHS4 tissue labels use conservative anchored source_name_ch1 mappings and leave unknowns explicit.",
+    "GTEx-origin exclusion uses explicit metadata identifiers/origin statements; latent unmarked duplicates cannot be ruled out.",
+    "Tissue labels do not evaluate disease, treatment, cell type, or state.",
+    "GTEx-to-GTEx is a standardized-dataset control, not independent-study validation."
+  ]
+}

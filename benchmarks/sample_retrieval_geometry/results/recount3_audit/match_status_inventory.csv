@@ -1,0 +1,6 @@
+cohort,study_exposure,match_status,samples,studies
+strict_unseen_single_gse,unseen_study,matched,562,40
+strict_unseen_single_gse,unseen_study,not_found,82026,4215
+unseen_sample_seen_study,seen_study,matched,12,2
+unseen_sample_seen_study,seen_study,multiple_projects,1,1
+unseen_sample_seen_study,seen_study,not_found,2295,117

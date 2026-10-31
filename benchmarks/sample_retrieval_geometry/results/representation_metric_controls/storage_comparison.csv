@@ -1,0 +1,6 @@
+representation,dim,dtype,bytes_per_sample,relative_dimensions_to_bridge,cache_bytes
+log1p(TPM),15165,float32,60660,29.619140625,30979607940
+PCA-512,512,float32,2048,1.0,1045932032
+PCA-512 whitened,512,float32,2048,1.0,1045932032
+Bridge,512,float16,1024,1.0,963025920
+Bridge whitened,512,float32,2048,1.0,1045932032

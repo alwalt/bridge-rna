@@ -1,0 +1,20 @@
+{
+  "gtex_expression": "/home/walt/bridge-rna/benchmarks/mouse_encode/results/task1a_balanced_geometry/cache/gtex_log1p_tpm.npy",
+  "gtex_expression_sha256": "51a606b0019188536f5cf7e97e3fd6e57c2010022f3f1a1fafe089148613b3de",
+  "gtex_manifest": "/home/walt/bridge-rna/benchmarks/mouse_encode/results/task1a_balanced_geometry/gtex_human_sample_manifest.parquet",
+  "gtex_manifest_sha256": "708efd1b53a780d1da9171b2dbecbcb81929284c0c51ce85818093ee4aaf67ec",
+  "gtex_representation_manifest": "/home/walt/bridge-rna/benchmarks/mouse_encode/results/task1a_balanced_geometry/cache/representation_manifest.parquet",
+  "gene_mapping": "/home/walt/bridge-rna/benchmarks/mouse_encode/results/task1a_balanced_geometry/human_gene_mapping.parquet",
+  "normalization": "natural log1p(TPM)",
+  "genes": 15165,
+  "gtex_samples": 6314,
+  "eligible_queries": 6064,
+  "eligible_tissues": 13,
+  "archs4_expression_cache": "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/work/representation_metric_controls/archs4_human_log1p_tpm.float32.mmap",
+  "archs4_references_after_frozen_exclusion": 510376,
+  "gtex_origin_exclusions": 333,
+  "pca_transform": "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/work/representation_metric_controls/expression_pca512_transform.npz",
+  "fit_on_gtex": false,
+  "bridge_results_reused": true,
+  "canberra_cuda_vs_eager_max_abs_delta": 0.00048828125
+}

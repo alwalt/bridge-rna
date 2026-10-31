@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-09-24T09:43:22.128596+00:00",
+  "current_run_runtime_seconds": 47.15416765213013,
+  "conventional_archs4_retrieval_runtime_seconds": 835.637107,
+  "peak_rss_gb": 2.903705596923828,
+  "seed": 20260924,
+  "methods_frozen_before_gtEx_extension": [
+    "Expression Canberra",
+    "Expression Pearson",
+    "PCA-512 Canberra",
+    "PCA-white cosine",
+    "PCA-white Canberra",
+    "Raw Bridge cosine",
+    "Bridge ABTT D=10",
+    "Bridge-white cosine"
+  ],
+  "gtex_fit": false,
+  "bridge_rankings_reused": true,
+  "gtEx_bridge_rerun": false,
+  "queries": 6064,
+  "references": 510376,
+  "limitations": [
+    "ARCHS4 tissue labels remain conservatively mapped and mostly unknown.",
+    "Raw expression retrieval is substantially larger and slower than 512-D representations.",
+    "GTEx had already been inspected; method list was frozen from recount3 controls before this extension."
+  ]
+}

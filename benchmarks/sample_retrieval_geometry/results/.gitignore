@@ -1,0 +1,10 @@
+# Compact audit tables are intentional benchmark results despite the repository-
+# wide default that ignores Parquet files. Large arrays remain under work/.
+!*.parquet
+!biological_validation/*.parquet
+!representation_metric_controls/
+!representation_metric_controls/**
+!gtex_representation_controls/
+!gtex_representation_controls/**
+!contextual_metadata/
+!contextual_metadata/**

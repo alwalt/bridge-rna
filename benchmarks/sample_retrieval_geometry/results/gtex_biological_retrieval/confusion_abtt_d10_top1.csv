@@ -1,0 +1,14 @@
+query_tissue,adipose,brain,breast,colon,heart,liver,lung,ovary,pancreas,skeletal_muscle,spleen,stomach,testis
+adipose,74,0,4,0,0,0,0,0,0,0,0,0,0
+brain,0,120,0,0,0,0,0,0,0,0,0,0,0
+breast,24,0,30,0,0,0,0,0,0,0,0,0,0
+colon,0,0,0,54,0,0,0,0,0,0,0,0,0
+heart,0,0,0,0,207,0,0,0,0,0,0,0,0
+liver,0,0,0,0,0,94,0,0,0,0,0,0,0
+lung,0,0,0,0,0,0,214,0,0,0,0,0,0
+ovary,0,0,0,0,0,0,1,24,0,0,0,0,0
+pancreas,0,0,0,0,0,0,0,0,79,0,0,0,0
+skeletal_muscle,1,0,0,0,0,0,0,0,0,203,0,0,0
+spleen,0,0,0,0,0,1,0,0,0,7,31,0,0
+stomach,0,0,1,0,0,0,0,0,0,0,0,8,0
+testis,0,0,0,0,0,0,0,0,0,0,0,0,335

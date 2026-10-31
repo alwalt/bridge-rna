@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-09-22T22:37:54-0700",
+  "benchmark": "sample_retrieval_geometry",
+  "stages": [
+    0,
+    1
+  ],
+  "future_representation_learning_run": false,
+  "random_seed": 20260922,
+  "queries": 562,
+  "references": 510709,
+  "embedding_dim": 512,
+  "canonical_gene_count": 15165,
+  "device": "cuda:0",
+  "torch_version": "2.12.0+cu130",
+  "configuration": {
+    "random_seed": 20260922,
+    "pairwise_sample_pairs": 2000000,
+    "reference_density_probe_samples": 1024,
+    "primary_k": 10,
+    "sensitivity_k": [
+      5,
+      10,
+      50
+    ],
+    "density_k": [
+      10,
+      50,
+      100
+    ],
+    "reciprocal_k": [
+      1,
+      5,
+      10,
+      100
+    ],
+    "snn_k": 10,
+    "empirical_null_observations": 2000000,
+    "reference_chunk_size": 32768,
+    "query_chunk_size": 64,
+    "device": "cuda:0",
+    "inputs": {
+      "upstream_benchmark": "/home/walt/bridge-rna/benchmarks/paired_recount3",
+      "embedding_dir": "/home/walt/bridge-rna/embeddings/archs4",
+      "sample_manifest": "/home/walt/bridge-rna/data/manifests/sample_manifest.parquet",
+      "sample_metadata": "/home/walt/bridge-rna/data/manifests/archs4_sample_metadata_v2.5.parquet",
+      "canonical_genes": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv"
+    }
+  },
+  "resolved_inputs": {
+    "upstream_benchmark": "/home/walt/bridge-rna/benchmarks/paired_recount3",
+    "embedding_dir": "/home/walt/bridge-rna/embeddings/archs4",
+    "sample_manifest": "/home/walt/bridge-rna/data/manifests/sample_manifest.parquet",
+    "sample_metadata": "/home/walt/bridge-rna/data/manifests/archs4_sample_metadata_v2.5.parquet",
+    "canonical_genes": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv"
+  },
+  "upstream_imported_results": [
+    "/home/walt/bridge-rna/benchmarks/paired_recount3/results/benchmark_summary.csv",
+    "/home/walt/bridge-rna/benchmarks/paired_recount3/results/full_archs4_retrieval.parquet"
+  ],
+  "input_sha256": {
+    "/home/walt/bridge-rna/benchmarks/paired_recount3/work/recount3_embeddings.npy": "02bc04ef958ea11e026db1bb837f2cc5f774b4234eda64f9ddc7cee13a2ea211",
+    "/home/walt/bridge-rna/benchmarks/paired_recount3/work/paired_expression/samples.parquet": "8c6b752e40b48c8d879420becc3219e573ee4be6df578726f3377380fe4c802c",
+    "/home/walt/bridge-rna/benchmarks/paired_recount3/results/full_archs4_retrieval.parquet": "544fda530f05af17aa14a20059be155ccfefa5b29f80e0db9f6619a343d9731d",
+    "/home/walt/bridge-rna/benchmarks/paired_recount3/results/benchmark_summary.csv": "3bb3df6fc367ec4781a966ef7002b5c158bd6614b1cc0b6efc99e6b17a9e8bf3",
+    "/home/walt/bridge-rna/benchmarks/paired_recount3/results/full_archs4_top10_neighbors.parquet": "98a83c1d76f7e9205be040c875c3032e3d711a48c114c26cd2308f0ab9f32977",
+    "/home/walt/bridge-rna/embeddings/archs4/embedding_manifest.json": "6234ea0bf64498f36a884075ed3b2bd195fb0e4394c5980c555efe3d3bbc5f62",
+    "/home/walt/bridge-rna/embeddings/archs4/sample_locations.parquet": "c0fb1e1f628ad01caefd76b3a661820173498612f9e1f5510d9a1177a8d8af98",
+    "/home/walt/bridge-rna/data/manifests/sample_manifest.parquet": "a45f80bacf7b96ee1a8743e2f858aa46e9ce8a81380925a53df95784fe4324d9",
+    "/home/walt/bridge-rna/data/manifests/archs4_sample_metadata_v2.5.parquet": "6306f53227a8e1ff18b84d1d85b4faf9361061972d94989d4f677cada659d3b8",
+    "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv": "1dbe9a5753e5982b3ddb383f35e92ce5795c21fc054fff685514831c8dadbb8d"
+  },
+  "score_cache": "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/work/query_corpus_cosine.float32.mmap",
+  "score_cache_bytes": 1148073832,
+  "peak_rss_gb": 20.094417572021484,
+  "runtime_seconds": 105.47863554954529,
+  "limitations": [
+    "ARCHS4 pairwise distribution and minimum are deterministic sampled estimates, not the exact global minimum.",
+    "Reference local-density distribution uses a deterministic probe subset.",
+    "Source agreement is exact normalized source_name_ch1 agreement, not inferred tissue/disease/treatment.",
+    "Global empirical-null calibration is monotone in cosine and therefore cannot change ranks."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-24T05:22:18.289776+00:00",
+  "runtime_seconds": 109.34599542617798,
+  "peak_rss_gb": 3.2703819274902344,
+  "upstream_read_only": "/home/walt/bridge-rna/benchmarks/paired_recount3",
+  "bridge_frozen": true,
+  "pca_fit": "all 510,709 ARCHS4 references only",
+  "query_transform": "ARCHS4 reference mean/components applied unchanged",
+  "random_pair_indices": "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/work/anisotropy_random_pair_indices.npz",
+  "random_pair_raw_reproduction_max_abs_delta": 5.364418029785156e-07,
+  "raw_chunked_rank_mismatch_count_before_published_override": 26,
+  "inputs": {
+    "/home/walt/bridge-rna/embeddings/archs4/embedding_manifest.json": {
+      "bytes": 940,
+      "sha256": "6234ea0bf64498f36a884075ed3b2bd195fb0e4394c5980c555efe3d3bbc5f62"
+    },
+    "/home/walt/bridge-rna/embeddings/archs4/sample_locations.parquet": {
+      "bytes": 14032688,
+      "sha256": "c0fb1e1f628ad01caefd76b3a661820173498612f9e1f5510d9a1177a8d8af98"
+    },
+    "/home/walt/bridge-rna/data/manifests/sample_manifest.parquet": {
+      "bytes": 11181465,
+      "sha256": "a45f80bacf7b96ee1a8743e2f858aa46e9ce8a81380925a53df95784fe4324d9"
+    },
+    "/home/walt/bridge-rna/data/manifests/archs4_sample_metadata_v2.5.parquet": {
+      "bytes": 34654346,
+      "sha256": "6306f53227a8e1ff18b84d1d85b4faf9361061972d94989d4f677cada659d3b8"
+    },
+    "/home/walt/bridge-rna/benchmarks/paired_recount3/work/recount3_embeddings.npy": {
+      "bytes": 1175680,
+      "sha256": "02bc04ef958ea11e026db1bb837f2cc5f774b4234eda64f9ddc7cee13a2ea211"
+    },
+    "/home/walt/bridge-rna/benchmarks/paired_recount3/results/full_archs4_retrieval.parquet": {
+      "bytes": 15356,
+      "sha256": "544fda530f05af17aa14a20059be155ccfefa5b29f80e0db9f6619a343d9731d"
+    }
+  },
+  "limitations": [
+    "Random pair distributions are deterministic sampled estimates, not exhaustive pairwise distributions.",
+    "Biological labels are exact normalized source names and a conservative tissue mapping, not inferred states."
+  ]
+}
