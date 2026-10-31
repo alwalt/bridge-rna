@@ -1,0 +1,29 @@
+[2026-09-23T22:20:28.943675] Starting anisotropy analysis; estimated runtime 5-15 minutes on RTX 3090
+[2026-09-23T22:20:28.943817] Monitor with: tail -f /home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/results/anisotropy/run.log
+[2026-09-23T22:20:50.139281] mean/PCA pass 163,840/510,709
+[2026-09-23T22:20:50.815171] mean/PCA pass 327,680/510,709
+[2026-09-23T22:20:51.420684] mean/PCA pass 491,520/510,709
+[2026-09-23T22:20:51.516368] mean/PCA pass 510,709/510,709
+[2026-09-23T22:21:01.492024] random pairs complete: Raw
+[2026-09-23T22:21:10.768787] random pairs complete: Mean-centered
+[2026-09-23T22:21:19.845701] random pairs complete: Centered + remove PC1
+[2026-09-23T22:21:29.053579] random pairs complete: Centered + remove PCs 1–2
+[2026-09-23T22:21:38.474986] random pairs complete: Centered + remove PCs 1–5
+[2026-09-23T22:21:47.905073] random pairs complete: Centered + remove PCs 1–10
+[2026-09-23T22:21:49.997044] retrieval 32,768/510,709; elapsed=2s; ETA=28s
+[2026-09-23T22:21:51.717319] retrieval 65,536/510,709; elapsed=4s; ETA=25s
+[2026-09-23T22:21:53.355561] retrieval 98,304/510,709; elapsed=5s; ETA=22s
+[2026-09-23T22:21:54.680803] retrieval 131,072/510,709; elapsed=7s; ETA=19s
+[2026-09-23T22:21:55.983901] retrieval 163,840/510,709; elapsed=8s; ETA=17s
+[2026-09-23T22:21:57.449554] retrieval 196,608/510,709; elapsed=9s; ETA=15s
+[2026-09-23T22:21:58.877000] retrieval 229,376/510,709; elapsed=11s; ETA=13s
+[2026-09-23T22:22:00.212273] retrieval 262,144/510,709; elapsed=12s; ETA=12s
+[2026-09-23T22:22:01.438444] retrieval 294,912/510,709; elapsed=13s; ETA=10s
+[2026-09-23T22:22:02.763828] retrieval 327,680/510,709; elapsed=15s; ETA=8s
+[2026-09-23T22:22:04.388071] retrieval 360,448/510,709; elapsed=16s; ETA=7s
+[2026-09-23T22:22:05.880102] retrieval 393,216/510,709; elapsed=18s; ETA=5s
+[2026-09-23T22:22:07.236403] retrieval 425,984/510,709; elapsed=19s; ETA=4s
+[2026-09-23T22:22:08.981601] retrieval 458,752/510,709; elapsed=21s; ETA=2s
+[2026-09-23T22:22:10.486174] retrieval 491,520/510,709; elapsed=22s; ETA=1s
+[2026-09-23T22:22:11.273480] retrieval 510,709/510,709; elapsed=23s; ETA=0s
+[2026-09-23T22:22:18.332190] COMPLETE runtime=109.3s peak_RSS=3.27GB

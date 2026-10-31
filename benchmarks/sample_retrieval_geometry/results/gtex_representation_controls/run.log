@@ -1,0 +1,13 @@
+[2026-09-24T02:42:34.974659] Starting frozen GTEx representation controls; estimated runtime 50-90 minutes
+[2026-09-24T02:42:48.399962] Canberra fused-kernel validation max_abs_delta=0.000488281
+[2026-09-24T02:42:48.431717] Reused Top-100 cache: Expression Canberra
+[2026-09-24T02:42:48.462705] Reused Top-100 cache: Expression Pearson
+[2026-09-24T02:42:48.491070] Reused Top-100 cache: PCA-512 Canberra
+[2026-09-24T02:42:48.518878] Reused Top-100 cache: PCA-white cosine
+[2026-09-24T02:42:48.548246] Reused Top-100 cache: PCA-white Canberra
+[2026-09-24T02:42:52.043929] GTEx→GTEx different-donor control: Expression Canberra
+[2026-09-24T02:43:10.621093] GTEx→GTEx different-donor control: Expression Pearson
+[2026-09-24T02:43:13.044410] GTEx→GTEx different-donor control: PCA-512 Canberra
+[2026-09-24T02:43:14.537194] GTEx→GTEx different-donor control: PCA-white cosine
+[2026-09-24T02:43:15.711118] GTEx→GTEx different-donor control: PCA-white Canberra
+[2026-09-24T02:43:22.128920] COMPLETE runtime=47.2s peak_RSS=2.90GB

@@ -1,0 +1,12 @@
+{
+  "finalization_runtime_seconds": 3.634795904159546,
+  "retrieval_and_separation_runtime_seconds_approx": 849,
+  "peak_rss_gb": 0.24766159057617188,
+  "reference_fit_only": true,
+  "query_fit": false,
+  "expression_random_pairs": 100000,
+  "low_dim_random_pairs": 2000000,
+  "rank_orientation_asserted": true,
+  "gtex_rerun": false,
+  "retrieval_results_reused_from_completed_partial_run": true
+}

@@ -1,0 +1,2 @@
+dimensions_retained,eigenvalue_floor,eigenvalues_affected_by_floor,pre_min_eigenvalue,pre_max_eigenvalue,pre_condition_number,pre_participation_ratio,post_min_eigenvalue,post_max_eigenvalue,post_condition_number,post_participation_ratio,post_max_abs_eigenvalue_minus_one
+512,1.0541131941106562e-11,0,3.5470875708576843e-06,10.541131941106562,2971770.989729955,2.907422149778239,0.9952870531380137,1.006158430953592,1.0109228566585913,511.999122261395,0.006158430953592031

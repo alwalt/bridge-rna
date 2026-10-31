@@ -1,0 +1,3 @@
+method,type,studies,macro_r_at_1,macro_r_at_5,macro_r_at_10,macro_r_at_100,macro_r_at_1000,macro_mrr,queries,study_sd_r_at_1,study_sd_r_at_5,study_sd_r_at_10,study_sd_r_at_100,study_sd_r_at_1000,study_sd_mrr,macro_median_rank,study_sd_median_rank,macro_mean_rank,study_sd_mean_rank,macro_median_percentile_rank,study_sd_median_percentile_rank
+Raw cosine,Representation,40.0,0.3296507341653618,0.6597139950032238,0.7591886283043199,0.9132733585858588,0.9697916666666668,0.488622614528193,,,,,,,,,,,,,
+Whitening,Representation,40.0,0.3765808589312579,0.92427398989899,0.9412089646464648,0.9791666666666666,1.0,0.6457129452996883,,,,,,,,,,,,,

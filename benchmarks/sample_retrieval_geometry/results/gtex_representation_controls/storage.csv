@@ -1,0 +1,4 @@
+representation,dimensions,dtype,bytes_per_sample,reference_bytes
+Expression,15165,float32,60660,30959408160
+PCA-512,512,float32,2048,1045250048
+Bridge stored,512,float16,1024,522625024

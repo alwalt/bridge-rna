@@ -1,0 +1,10 @@
+{
+  "final_reference_pca_runtime_seconds": 102.32401394844055,
+  "one_time_expression_cache_wall_seconds_approx": 3938,
+  "runtime_note": "Expression cache construction was checkpoint-resumed around four damaged non-reference HDF5 columns; PCA timing is the final clean reference-only fit.",
+  "peak_rss_gb": 32.52937316894531,
+  "device": "cuda:0",
+  "seed": 20260924,
+  "reference_fit_only": true,
+  "query_information_used_for_fit": false
+}

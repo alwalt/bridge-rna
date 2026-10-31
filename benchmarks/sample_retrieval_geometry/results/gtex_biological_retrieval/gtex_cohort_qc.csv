@@ -1,0 +1,19 @@
+tissue,source_tissue,samples,donors,sample_fraction
+adrenal,Adrenal Gland,250,250,0.03959455178967374
+cerebellum,Brain - Cerebellum,236,236,0.03737725688945201
+cortex,Brain - Cortex,243,243,0.03848590433956288
+frontal cortex,Brain - Frontal Cortex (BA9),195,195,0.030883750395945517
+heart,Heart - Atrial Appendage,419,419,0.06636046879949319
+heart,Heart - Left Ventricle,404,404,0.06398479569211277
+hippocampus,Brain - Hippocampus,181,181,0.02866645549572379
+liver,Liver,222,222,0.035159961989230284
+lung,Lung,532,532,0.08425720620842572
+mammary gland,Breast - Mammary Tissue,445,445,0.07047830218561926
+ovary,Ovary,173,173,0.02739942983845423
+pancreas,Pancreas,314,314,0.04973075704783022
+sigmoid colon,Colon - Sigmoid,365,365,0.05780804561292366
+skeletal muscle,Muscle - Skeletal,756,756,0.1197339246119734
+spleen,Spleen,239,239,0.0378523915109281
+stomach,Stomach,347,347,0.05495723788406715
+subcutaneous adipose,Adipose - Subcutaneous,632,631,0.10009502692429521
+testis,Testis,361,361,0.057174532784288884

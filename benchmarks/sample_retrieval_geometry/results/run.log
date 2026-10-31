@@ -1,0 +1,38 @@
+[2026-09-22 22:36:09] Estimated runtime: 10-30 minutes on one RTX 3090; peak RAM ~5 GB; work cache ~1.2 GB
+[2026-09-22 22:36:09] Monitoring command: tail -f /home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/results/run.log
+[2026-09-22 22:36:09] START load_and_validate
+[2026-09-22 22:36:15] Validated 562 queries, 510,709 human references, 15,165 genes
+[2026-09-22 22:36:15] DONE load_and_validate: 5.8s
+[2026-09-22 22:36:15] Reusing regenerable score cache /home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/work/query_corpus_cosine.float32.mmap
+[2026-09-22 22:36:15] START stage0_ranges
+[2026-09-22 22:36:36] DONE stage0_ranges: 21.1s
+[2026-09-22 22:36:36] START reference_density_probe
+[2026-09-22 22:36:37] reference density 32,768/510,709
+[2026-09-22 22:36:37] reference density 65,536/510,709
+[2026-09-22 22:36:37] reference density 98,304/510,709
+[2026-09-22 22:36:38] reference density 131,072/510,709
+[2026-09-22 22:36:38] reference density 163,840/510,709
+[2026-09-22 22:36:38] reference density 196,608/510,709
+[2026-09-22 22:36:39] reference density 229,376/510,709
+[2026-09-22 22:36:39] reference density 262,144/510,709
+[2026-09-22 22:36:39] reference density 294,912/510,709
+[2026-09-22 22:36:40] reference density 327,680/510,709
+[2026-09-22 22:36:40] reference density 360,448/510,709
+[2026-09-22 22:36:40] reference density 393,216/510,709
+[2026-09-22 22:36:41] reference density 425,984/510,709
+[2026-09-22 22:36:41] reference density 458,752/510,709
+[2026-09-22 22:36:42] reference density 491,520/510,709
+[2026-09-22 22:36:42] reference density 510,709/510,709
+[2026-09-22 22:36:42] DONE reference_density_probe: 6.3s
+[2026-09-22 22:36:45] Cosine verification: all 562 exact ranks reproduce the upstream source of truth
+[2026-09-22 22:37:26] START local_scaling
+[2026-09-22 22:37:36] DONE local_scaling: 9.6s
+[2026-09-22 22:37:36] START nicdm
+[2026-09-22 22:37:41] DONE nicdm: 5.5s
+[2026-09-22 22:37:41] START empirical_null
+[2026-09-22 22:37:41] DONE empirical_null: 0.2s
+[2026-09-22 22:37:42] START snn
+[2026-09-22 22:37:52] DONE snn: 10.1s
+[2026-09-22 22:37:52] START summaries_and_diagnostics
+[2026-09-22 22:37:54] DONE summaries_and_diagnostics: 2.5s
+[2026-09-22 22:37:54] COMPLETE total=105.5s peak_RSS=20.09GB

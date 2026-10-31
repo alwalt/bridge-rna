@@ -1,0 +1,26 @@
+{
+  "archs4_h5": "/home/walt/bridge-rna/data/archs4/human_gene_v2.5.h5",
+  "h5_samples": 888821,
+  "human_reference_samples": 510709,
+  "expression_dataset": "data/expression",
+  "source_dtype": "uint32 counts",
+  "source_genes": 67186,
+  "mapped_source_gene_rows": 16556,
+  "canonical_genes": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv",
+  "canonical_genes_sha256": "1dbe9a5753e5982b3ddb383f35e92ce5795c21fc054fff685514831c8dadbb8d",
+  "exon_lengths": "/home/walt/bridge-rna/data/gencode/gencode_v49_gene_exon_lengths.csv",
+  "normalization": "counts / exon-union kb -> TPM -> natural log1p",
+  "genes": 15165,
+  "sample_order": "/home/walt/bridge-rna/embeddings/archs4/sample_locations.parquet filtered to human via sample manifest",
+  "recount3_queries": "/home/walt/bridge-rna/benchmarks/paired_recount3/work/paired_expression/recount3_log1p_tpm.npy",
+  "queries": 562,
+  "paired_reproduction_max_abs_delta": 0.0,
+  "full_corpus_available": true,
+  "large_cache": "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/work/representation_metric_controls/archs4_human_log1p_tpm.float32.mmap",
+  "eligible_only_hdf5_fallback_blocks": [
+    [
+      776192,
+      777216
+    ]
+  ]
+}

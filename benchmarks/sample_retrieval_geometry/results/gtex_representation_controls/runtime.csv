@@ -1,0 +1,6 @@
+method,runtime_seconds
+Expression Canberra,658.6830101013184
+Expression Pearson,41.92628502845764
+PCA-512 Canberra,50.03525948524475
+PCA-white cosine,39.24719166755676
+PCA-white Canberra,45.745361328125

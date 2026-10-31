@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-09-24T06:01:35.915936+00:00",
+  "runtime_seconds": 103.99509716033936,
+  "peak_rss_gb": 4.950225830078125,
+  "bridge_frozen": true,
+  "upstream_read_only": "/home/walt/bridge-rna/benchmarks/paired_recount3",
+  "reference_fit_only": true,
+  "random_pairs": 2000000,
+  "random_pair_seed": 20260922,
+  "raw_centered_abtt_reused_from": "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/results/anisotropy",
+  "retrieval_corrections_reused_from": "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/results/absolute_similarity",
+  "whitening_parameter_sha256": "9834e6bb8873e245f84e6874c6d11949d4e8dd57de9f31aa287fd7617524f880",
+  "limitations": [
+    "Random-pair quantities are deterministic sampled estimates.",
+    "Source is exact normalized source_name_ch1; tissue is a limited blood/brain-dominated sensitivity analysis.",
+    "Recount3 was not used to tune ABTT D or whitening regularization.",
+    "GTEx was not inspected."
+  ]
+}
