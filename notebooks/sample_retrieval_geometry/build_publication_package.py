@@ -188,7 +188,8 @@ def write_cached_tables(d: dict[str, object]) -> None:
     d["gtex_macro"].to_csv(DATA / "gtex_archs4_tissue_macro.csv", index=False)
     d["gtex_control"].to_csv(DATA / "gtex_gtex_donor_excluded.csv", index=False)
     d["cohort"].to_csv(DATA / "gtex_cohort_summary.csv", index=False)
-    d["annotation"].to_csv(DATA / "archs4_annotation_summary.csv", index=False)
+    annotation = d["annotation"].rename(columns={"gtEx_origin_excluded": "gtex_associated_excluded"})
+    annotation.to_csv(DATA / "archs4_annotation_summary.csv", index=False)
 
     scatter = d["context"][["query_index", "exact_rank", "exact_pair_cosine"]].copy()
     scatter.to_csv(FIGURE_DATA / "rank_vs_exact_cosine.csv", index=False)
@@ -295,7 +296,7 @@ def make_figures() -> None:
         row = tissue[tissue.method == method].iloc[0]
         axes[0].bar(x + offset, [row[m] * 100 for m in metrics], width, color=colors[method], label=method)
     axes[0].set_xticks(x, metric_labels)
-    axes[0].set(ylabel="Tissue-macro rate (%)", title="GTEx → independent ARCHS4", ylim=(0, 100))
+    axes[0].set(ylabel="Tissue-macro rate (%)", title="GTEx → filtered ARCHS4", ylim=(0, 100))
     axes[0].grid(axis="y", alpha=0.2)
     axes[0].legend(fontsize=8)
     for method in ["Raw cosine", "Whitening"]:
@@ -340,7 +341,17 @@ def write_provenance(d: dict[str, object]) -> None:
         "source_benchmark_tracked_at_packaging": False,
         "cohorts": {
             "technical_identity": {"queries": 562, "studies": 40, "references": 510709, "exposure": "repository-defined unseen_study"},
-            "gtex_archs4": {"eligible_queries": 6064, "tissues": 13, "references": 510376, "excluded_gtex_origin_references": 333},
+            "gtex_archs4": {
+                "eligible_queries": 6064,
+                "tissues": 13,
+                "references": 510376,
+                "excluded_gtex_associated_geo_records": 333,
+                "excluded_record_composition": {
+                    "simulated_reads_with_gtex_donor_identifiers": 296,
+                    "geo_encode_assays_described_as_using_gtex_derived_material": 37,
+                },
+                "exact_query_duplicate_status": "not established",
+            },
             "gtex_gtex_control": {"queries": 6064, "donors_in_cohort": 937, "same_donor_excluded": True},
         },
         "representation": {"model": "frozen BridgeRNA", "dimensions": 512, "checkpoint": "model/r7hnr92k/best_model.pt"},
@@ -363,6 +374,7 @@ def write_provenance(d: dict[str, object]) -> None:
         "limitations": [
             "The two-million-pair ARCHS4 distribution is a deterministic sample, not all ~130 billion unique pairs.",
             "ARCHS4 tissue labels are conservative and sparse; approximately 74% of Top-10 neighbors are unknown, so annotated precision is always interpreted with absolute Hit@10 and Unknown@10.",
+            "The 333 excluded references are GTEx-associated GEO records identified from explicit metadata, not proven exact duplicates of the GTEx v11 query samples.",
             "The 562 pairs are cross-pipeline technical counterparts, not independent biological replicates.",
             "Whitening is reference-only post-processing and is not evidence that BridgeRNA is batch-corrected.",
         ],
@@ -413,7 +425,7 @@ print(f"Validated cached package: {ROOT}")
 
 - **Technical identity:** 562 exact ARCHS4↔recount3 GSM pairs from 40 repository-defined unseen studies, searched against 510,709 human ARCHS4 references.
 - **Embedding geometry:** 2,000,000 deterministic distinct random ARCHS4 pairs (seed 20260922).
-- **Biological retrieval:** 6,064 eligible GTEx v11 queries across 13 harmonized tissues, searched against 510,376 ARCHS4 references after 333 explicit GTEx-origin exclusions.
+- **Biological retrieval:** 6,064 eligible GTEx v11 queries across 13 harmonized tissues, searched against 510,376 ARCHS4 references. Before scoring, 333 GTEx-associated GEO records were conservatively excluded: 296 simulated-read records carrying GTEx donor identifiers and 37 GEO/ENCODE assays described as using GTEx-derived tissue material. These were provenance safeguards; they were not established as exact duplicates of the GTEx v11 queries.
 - **Different-donor control:** each GTEx query excludes itself and every sample from the same donor.
 
 BridgeRNA is frozen. The post-processing transform is fitted only on the ARCHS4 reference corpus: full 512-dimensional covariance whitening with denominator *N*, eigenvalue floor $\lambda_{max}\times10^{-12}$, L2 normalization, and cosine ranking. The transform is applied unchanged to recount3 and GTEx queries.
@@ -455,7 +467,7 @@ display(gtex_control[gtex_control.k == 10][['method','queries','micro_precision'
 """))
     cells.append(nbf.v4.new_markdown_cell("""In GTEx→ARCHS4 retrieval, tissue-macro annotated P@10 increases from **86.73% to 91.21%** and absolute Hit@10 from **23.13% to 24.77%**. Approximately **74%** of Top-10 references are unlabeled under the deliberately conservative ARCHS4 mapping, so annotated precision must be read alongside Hit@10 and Unknown@10.
 
-The fully labeled different-donor GTEx→GTEx control provides the cleaner biological validation: whitening raises tissue-macro P@10 from **90.61% to 94.86%** and micro P@10 from **92.28% to 95.65%**.
+The fully labeled different-donor GTEx→GTEx control provides the primary biological validation: whitening raises tissue-macro P@10 from **90.61% to 94.86%** and micro P@10 from **92.28% to 95.65%**. GTEx→ARCHS4 provides supporting cross-dataset evidence.
 """))
     cells.append(nbf.v4.new_code_cell("display(Image(filename=str(ROOT / 'figures/figure_3_biological_retrieval.png')))"))
     cells.append(nbf.v4.new_markdown_cell("""## Limitations
@@ -463,12 +475,13 @@ The fully labeled different-donor GTEx→GTEx control provides the cleaner biolo
 - The ARCHS4 pairwise distribution is a deterministic sample, not an exhaustive evaluation of roughly 130 billion unique pairs.
 - Exact ARCHS4↔recount3 matches are cross-pipeline technical counterparts, not independent biological replicates.
 - Conservative ARCHS4 tissue annotation is sparse. Unknowns are retained explicitly; the GTEx→ARCHS4 claim is therefore conditional on annotated neighbors.
+- The 333 excluded references were GTEx-associated GEO records, not proven exact duplicates of the GTEx v11 query samples.
 - The different-donor GTEx→GTEx experiment is a standardized-dataset control, not independent-study validation.
 - Whitening is post hoc geometry correction. It is not training and is not evidence that BridgeRNA is batch-corrected.
 
 ## Conclusion
 
-Frozen BridgeRNA strongly preserves cross-pipeline sample identity, but raw cosine is dominated by a shared global direction and can obscure retrieval uniqueness. A full whitening transform fitted only on ARCHS4 references markedly improves exact retrieval and also improves tissue organization in both independent ARCHS4 search and a fully labeled different-donor GTEx control. Raw cosine remains the interpretable measure of absolute representation agreement; reference-only whitening is the supported ranking geometry.
+Frozen BridgeRNA strongly preserves cross-pipeline sample identity, but raw cosine is dominated by a shared global direction and can obscure retrieval uniqueness. A full whitening transform fitted only on ARCHS4 references markedly improves exact retrieval. Its biological benefit is clearest in the fully labeled different-donor GTEx control and is supported by the sparsely annotated GTEx→ARCHS4 search. Raw cosine remains the interpretable measure of absolute representation agreement; reference-only whitening is the supported ranking geometry.
 """))
     nb["cells"] = cells
     nbf.write(nb, PACKAGE / "sample_retrieval_geometry.ipynb")

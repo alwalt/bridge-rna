@@ -2,7 +2,7 @@
   "package": "sample_retrieval_geometry",
   "report_scope": "Bridge retrieval geometry and reference-only whitening results defined in MANUSCRIPT_OUTLINE.md.",
   "source_benchmark": "benchmarks/sample_retrieval_geometry",
-  "source_git_commit": "2b0743cb4117d6df4289b0f087d016a17c94f287",
+  "source_git_commit": "e0e9d870c65a661ee0dcacdbd7524bd3fec2d76f",
   "source_benchmark_tracked_at_packaging": false,
   "cohorts": {
     "technical_identity": {
@@ -15,7 +15,12 @@
       "eligible_queries": 6064,
       "tissues": 13,
       "references": 510376,
-      "excluded_gtex_origin_references": 333
+      "excluded_gtex_associated_geo_records": 333,
+      "excluded_record_composition": {
+        "simulated_reads_with_gtex_donor_identifiers": 296,
+        "geo_encode_assays_described_as_using_gtex_derived_material": 37
+      },
+      "exact_query_duplicate_status": "not established"
     },
     "gtex_gtex_control": {
       "queries": 6064,
@@ -104,6 +109,7 @@
   "limitations": [
     "The two-million-pair ARCHS4 distribution is a deterministic sample, not all ~130 billion unique pairs.",
     "ARCHS4 tissue labels are conservative and sparse; approximately 74% of Top-10 neighbors are unknown, so annotated precision is always interpreted with absolute Hit@10 and Unknown@10.",
+    "The 333 excluded references are GTEx-associated GEO records identified from explicit metadata, not proven exact duplicates of the GTEx v11 query samples.",
     "The 562 pairs are cross-pipeline technical counterparts, not independent biological replicates.",
     "Whitening is reference-only post-processing and is not evidence that BridgeRNA is batch-corrected."
   ],
