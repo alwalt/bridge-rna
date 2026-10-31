@@ -23,7 +23,12 @@
     },
     "representations": [
       "raw_expression",
+      "pca_8",
+      "pca_16",
+      "pca_32",
+      "pca_64",
       "pca_128",
+      "pca_256",
       "pca_512",
       "bulkformer_50m",
       "bulkformer_147m",

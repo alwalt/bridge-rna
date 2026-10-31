@@ -6,6 +6,9 @@ expression.
 
 The primary local protocol uses 355 GDSC-version-specific screens and five
 deterministic held-out-cell-line folds. PCA is fit only on training cell lines.
+The PCA control includes a complete 8, 16, 32, 64, 128, 256, and 512-component
+sensitivity curve; all tested dimensions are reported rather than selecting only
+the best observed result.
 Each representation uses the same multi-output ridge framework (independent
 linear head per screen), train-only mean completion for missing targets, and a
 dimension-scaled regularization rule. Metrics are computed per screen over pooled

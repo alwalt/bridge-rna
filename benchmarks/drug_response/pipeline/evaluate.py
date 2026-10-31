@@ -42,7 +42,7 @@ def base_representation(name: str) -> np.ndarray:
 def fold_features(name: str, train: np.ndarray, test: np.ndarray) -> tuple[np.ndarray, np.ndarray, dict]:
     if name.startswith("pca_") or name == "pca128_bridge":
         raw = base_representation("raw_expression")
-        count = 128 if name in {"pca_128", "pca128_bridge"} else 512
+        count = 128 if name == "pca128_bridge" else int(name.removeprefix("pca_"))
         count = min(count, len(train) - 1, raw.shape[1])
         raw_scale = StandardScaler()
         train_raw = raw_scale.fit_transform(np.asarray(raw[train]))
@@ -125,7 +125,8 @@ def main() -> None:
     assert np.isfinite(summary[["mean_pcc", "median_pcc", "mean_scc", "rmse"]]).all().all()
     assert summary.rmse.max() < 10.0, "QA failure: implausibly large RMSE suggests unstable readout"
     comparisons = []
-    for left, right in [("bridge_45.6m", "pca_512"), ("bridge_45.6m", "bulkformer_50m"),
+    for left, right in [("bridge_45.6m", "pca_8"), ("bridge_45.6m", "pca_512"),
+                        ("bridge_45.6m", "bulkformer_50m"),
                         ("bridge_45.6m", "bulkformer_147m"), ("pca128_bridge", "pca_128")]:
         a = metrics.loc[metrics.representation.eq(left), ["screen_id", "pcc"]].rename(columns={"pcc": "left_pcc"})
         b = metrics.loc[metrics.representation.eq(right), ["screen_id", "pcc"]].rename(columns={"pcc": "right_pcc"})
@@ -139,7 +140,8 @@ def main() -> None:
     pd.DataFrame(comparisons).to_csv(RESULTS / "paired_comparisons.csv", index=False)
     bridge = metrics.loc[metrics.representation.eq("bridge_45.6m")]
     controls = []
-    for comparator in ["raw_expression", "pca_128", "pca_512", "bulkformer_50m", "bulkformer_147m"]:
+    for comparator in ["raw_expression", "pca_8", "pca_16", "pca_32", "pca_64",
+                       "pca_128", "pca_256", "pca_512", "bulkformer_50m", "bulkformer_147m"]:
         other = metrics.loc[metrics.representation.eq(comparator)]
         paired = bridge.merge(other, on="screen_id", suffixes=("_bridge", "_other"))
         delta = paired.pcc_bridge - paired.pcc_other

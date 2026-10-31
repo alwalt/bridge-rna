@@ -47,8 +47,10 @@ Here, PCC measures agreement between predicted and measured variation in IC50 ac
 - **BulkFormer-50M:** frozen mean-pooled final contextual gene-token representation.
 - **BulkFormer-147M:** frozen mean-pooled final contextual gene-token representation.
 - **Raw expression:** all 19,098 released expression features with a regularized linear readout.
-- **PCA-128:** training-fold PCA with at most 128 components.
-- **PCA-512:** training-fold PCA with rank-limited dimensionality up to 512 components.
+- **PCA sensitivity series:** independently fitted training-fold PCA with 8, 16,
+  32, 64, 128, 256, or 512 components. The complete series is reported after
+  observing component-count sensitivity; PCA-8 is the best observed setting,
+  not a prospectively selected hyperparameter.
 - **PCA-128 + Bridge:** concatenation of the training-fold PCA-128 features and frozen Bridge representation.
 
 All frozen-model comparisons use identical observations, folds, endpoint, and downstream evaluation protocol.
@@ -61,7 +63,12 @@ All frozen-model comparisons use identical observations, folds, endpoint, and do
 | BulkFormer-50M | 0.438 | 0.450 | 0.414 | 1.238 |
 | BulkFormer-147M | 0.436 | 0.452 | 0.416 | 1.244 |
 | Raw expression | 0.196 | 0.156 | **0.440** | 2.257 |
+| PCA-8 | 0.313 | 0.325 | 0.382 | 1.387 |
+| PCA-16 | 0.214 | 0.184 | 0.406 | 1.761 |
+| PCA-32 | 0.213 | 0.167 | 0.425 | 1.891 |
+| PCA-64 | 0.161 | 0.121 | 0.437 | 2.224 |
 | PCA-128 | 0.088 | 0.065 | 0.424 | 3.499 |
+| PCA-256 | 0.041 | 0.028 | 0.395 | 4.090 |
 | PCA-512 | 0.031 | 0.021 | 0.348 | 4.002 |
 | PCA-128 + Bridge | 0.284 | 0.273 | 0.432 | 1.587 |
 
@@ -77,6 +84,7 @@ Comparisons are paired by dataset-version-specific screen. The confidence interv
 |---|---:|---:|---:|---:|
 | Bridge − BulkFormer-50M | +0.0102 | +0.0088 | [+0.0083, +0.0122] | 71.8% |
 | Bridge − BulkFormer-147M | +0.0120 | +0.0117 | [+0.0092, +0.0147] | 74.6% |
+| Bridge − PCA-8 | +0.1357 | +0.1137 | [+0.1250, +0.1468] | 97.7% |
 | Bridge − PCA-512 | +0.4176 | +0.4291 | [+0.4042, +0.4308] | 100.0% |
 
 These values come from [`results/paired_comparisons.csv`](results/paired_comparisons.csv). That file contains bootstrap confidence intervals but no paired p-values, so no p-values are reported or inferred here.
@@ -85,7 +93,13 @@ The differences from the locally evaluated BulkFormer representations are small 
 
 ## 8. Raw Expression and PCA Controls
 
-Bridge substantially exceeds raw expression, PCA-128, and PCA-512 in mean PCC under this fixed linear-readout protocol. This difference is not the primary evidence for Bridge superiority because high-dimensional raw/PCA performance is sensitive to feature dimensionality, regularization, and the undocumented processing of the released expression matrix.
+Bridge exceeds raw expression and every tested PCA dimension in mean PCC under
+this fixed linear-readout protocol. PCA is strongly dimension-sensitive: PCA-8
+is the best observed setting (mean PCC 0.313), whereas PCA-128 and PCA-512 fall
+to 0.088 and 0.031. Bridge exceeds PCA-8 by paired mean ΔPCC +0.1357 (95%
+screen-bootstrap interval [+0.1250, +0.1468]) and is higher on 97.7% of screens.
+Because the component sweep was motivated by inspecting the original PCA controls,
+the complete curve is reported rather than treating PCA-8 as prospectively selected.
 
 The complementarity comparison gives:
 
@@ -152,7 +166,9 @@ That direction-aware task compares transcriptional signatures rather than predic
 1. **No unseen-drug generalization.** Each drug screen has training observations and its own downstream output head. The benchmark does not establish performance for a new compound.
 2. **BulkFormer protocol uncertainty.** The exact final published BulkFormer downstream protocol cannot be reconstructed, so local results are not a reproduction of published mean PCC 0.373.
 3. **Expression preprocessing uncertainty.** The released expression matrix contains 1,782,260 negative processed values and does not provide an invertible raw-TPM transformation. Frozen-model inputs therefore use a documented approximation—negative values clipped to zero, remaining values treated as `log2(TPM+1)`, and converted to natural-log units—rather than exact natural `log1p(TPM)`.
-4. **Raw/PCA sensitivity.** High-dimensional controls depend materially on regularization, dimensionality, and readout specification. Their gap from Bridge should not be interpreted independently of those choices.
+4. **Raw/PCA sensitivity.** PCA depends materially on dimensionality and readout
+specification. A complete 8–512 component sensitivity curve is reported, but it
+is exploratory rather than a nested-CV hyperparameter selection procedure.
 5. **ARCHS4 exposure.** Exact Bridge pretraining exposure is unresolved because the released dataset lacks GEO/SRA sample and study accessions. Held-out cell lines guarantee downstream split isolation, not pretraining novelty.
 6. **Representation benchmark.** This experiment measures predictive information in frozen representations. It is not an optimized state-of-the-art pharmacogenomic prediction system and does not exhaust downstream architectures or hyperparameter searches.
 
@@ -171,6 +187,7 @@ The definitive benchmark files are:
 - Asset manifest: [`asset_manifest.md`](asset_manifest.md), [`results/asset_manifest.json`](results/asset_manifest.json)
 - Pretraining-exposure audit: [`pretraining_exposure_audit.md`](pretraining_exposure_audit.md)
 - Primary results: [`results/primary_results.csv`](results/primary_results.csv)
+- PCA component sensitivity: [`results/pca_component_sensitivity.csv`](results/pca_component_sensitivity.csv)
 - Published result reference: [`results/published_results.csv`](results/published_results.csv)
 - Paired comparisons: [`results/paired_comparisons.csv`](results/paired_comparisons.csv)
 - Per-screen metrics: [`results/per_drug_metrics.csv`](results/per_drug_metrics.csv)
