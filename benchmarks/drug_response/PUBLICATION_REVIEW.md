@@ -47,7 +47,7 @@ Bridge uses the frozen standard 512-dimensional sample representation from the r
 
 Five deterministic folds hold out complete cell lines. The saved split manifest contains exactly 140 test cell lines per fold, no train/test overlap, and every stratum appears in all five folds. This protects the downstream readout from response leakage across folds. It does not provide study-level or pretraining-level isolation because source-study identifiers are unavailable.
 
-PCA is handled correctly with respect to the test folds: raw features are standardized using training cells only, PCA is fitted separately inside each training fold, and held-out cells are transformed by that fitted model. A post-review sensitivity extension reports all independently fitted dimensions from 8 through 512; PCA-8 is the best observed setting and is explicitly exploratory rather than prospectively selected. The PCA **scores** are supplied to ridge regression; PCA loadings are not regression inputs.
+PCA is handled correctly with respect to the test folds: raw features are standardized using training cells only, PCA is fitted separately inside each training fold, and held-out cells are transformed by that fitted model. A post-review sensitivity extension reports independently fitted dimensions 1–8 and powers of two through 512; PCA-4 is the best observed setting and is explicitly exploratory rather than prospectively selected. The PCA **scores** are supplied to ridge regression; PCA loadings are not regression inputs.
 
 Every representation uses a standardized ridge readout with a separate output for each dataset-version-specific screen. The configured penalty scales with feature count (`alpha = 1000 × dimensions / 128`). This makes the comparison reproducible, but it is a fixed heuristic rather than a nested-CV-selected penalty and may affect representations differently.
 
@@ -71,7 +71,14 @@ All summary values below reproduce from [`results/per_drug_metrics.csv`](results
 | BulkFormer-50M | 0.438 | 0.450 | 0.414 | 1.238 | 355 screens; one fixed 5-fold partition | Validated locally |
 | BulkFormer-147M | 0.436 | 0.452 | 0.416 | 1.244 | 355 screens; one fixed 5-fold partition | Validated locally |
 | Raw expression | 0.196 | 0.156 | **0.440** | 2.257 | 355 screens; one fixed 5-fold partition | Validated; highly readout-sensitive control |
-| PCA-8 | 0.313 | 0.325 | 0.382 | 1.387 | 355 screens; one fixed 5-fold partition | Best observed PCA dimension in exploratory full sweep |
+| PCA-1 | 0.085 | 0.098 | 0.108 | 1.377 | 355 screens; one fixed 5-fold partition | Exploratory sensitivity control |
+| PCA-2 | 0.307 | 0.325 | 0.292 | 1.303 | 355 screens; one fixed 5-fold partition | Exploratory sensitivity control |
+| PCA-3 | 0.359 | 0.364 | 0.353 | 1.287 | 355 screens; one fixed 5-fold partition | Exploratory sensitivity control |
+| PCA-4 | 0.360 | 0.363 | 0.353 | 1.286 | 355 screens; one fixed 5-fold partition | Best observed PCA dimension in exploratory full sweep |
+| PCA-5 | 0.357 | 0.364 | 0.356 | 1.289 | 355 screens; one fixed 5-fold partition | Exploratory sensitivity control |
+| PCA-6 | 0.319 | 0.331 | 0.367 | 1.358 | 355 screens; one fixed 5-fold partition | Exploratory sensitivity control |
+| PCA-7 | 0.304 | 0.319 | 0.375 | 1.396 | 355 screens; one fixed 5-fold partition | Exploratory sensitivity control |
+| PCA-8 | 0.313 | 0.325 | 0.382 | 1.387 | 355 screens; one fixed 5-fold partition | Exploratory sensitivity control |
 | PCA-16 | 0.214 | 0.184 | 0.406 | 1.761 | 355 screens; one fixed 5-fold partition | Exploratory sensitivity control |
 | PCA-32 | 0.213 | 0.167 | 0.425 | 1.891 | 355 screens; one fixed 5-fold partition | Exploratory sensitivity control |
 | PCA-64 | 0.161 | 0.121 | 0.437 | 2.224 | 355 screens; one fixed 5-fold partition | Exploratory sensitivity control |
@@ -86,7 +93,7 @@ All summary values below reproduce from [`results/per_drug_metrics.csv`](results
 |---|---:|---:|---:|---:|---|
 | Bridge − BulkFormer-50M | +0.0102 | +0.0088 | +0.0083 to +0.0122 | 71.8% | Validated from paired saved screen metrics |
 | Bridge − BulkFormer-147M | +0.0120 | +0.0117 | +0.0092 to +0.0147 | 74.6% | Validated from paired saved screen metrics |
-| Bridge − PCA-8 | +0.1357 | +0.1137 | +0.1250 to +0.1468 | 97.7% | Validated; PCA-8 selected as best observed dimension in exploratory sweep |
+| Bridge − PCA-4 | +0.0883 | +0.0655 | +0.0810 to +0.0959 | 96.3% | Validated; PCA-4 selected as best observed dimension in exploratory sweep |
 | Bridge − PCA-512 | +0.4176 | +0.4291 | +0.4042 to +0.4308 | 100.0% | Validated, but baseline/readout sensitivity limits interpretation |
 | PCA-128 + Bridge − PCA-128 | +0.1958 | +0.1960 | +0.1840 to +0.2075 | 99.4% | Validated evidence that Bridge adds signal beyond PCA-128 |
 
@@ -116,7 +123,7 @@ The local Bridge advantage over BulkFormer is small in magnitude but consistent 
 
 1. PCA-128 + Bridge performs materially worse than Bridge alone (0.284 versus 0.448 mean PCC). The experiment therefore does not show useful complementarity from appending PCA features.
 2. Raw expression has the highest mean SCC (0.440) despite poor PCC and RMSE, showing that the ranking, linear association, and calibration/error conclusions differ materially by metric.
-3. PCA is strongly component-count sensitive: the best observed PCA-8 reaches mean PCC 0.313, while PCA-512 reaches 0.031. Bridge remains higher than every tested PCA dimension, but the sweep is exploratory and is not nested-CV model selection.
+3. PCA is strongly component-count sensitive: the best observed PCA-4 reaches mean PCC 0.360, while PCA-1 and PCA-512 reach 0.085 and 0.031. Bridge remains higher than every tested PCA dimension, but the sweep is exploratory and is not nested-CV model selection.
 4. No evidence addresses unseen-drug generalization, mechanistic biomarkers, causal response programs, clinical efficacy, or batch correction.
 
 ## Limitations and unresolved issues

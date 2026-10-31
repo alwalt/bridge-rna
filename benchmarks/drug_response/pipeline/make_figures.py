@@ -11,7 +11,8 @@ from common import RESULTS, WORK
 def main() -> None:
     plt.style.use("seaborn-v0_8-whitegrid")
     summary = pd.read_csv(RESULTS / "primary_results.csv").sort_values("mean_pcc")
-    labels = {"raw_expression": "Raw expression", "pca_8": "PCA-8",
+    labels = {"raw_expression": "Raw expression",
+              **{f"pca_{count}": f"PCA-{count}" for count in range(1, 9)},
               "pca_16": "PCA-16", "pca_32": "PCA-32", "pca_64": "PCA-64",
               "pca_128": "PCA-128", "pca_256": "PCA-256", "pca_512": "PCA-512",
               "bulkformer_50m": "BulkFormer-50M",

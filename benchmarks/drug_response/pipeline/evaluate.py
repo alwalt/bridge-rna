@@ -125,7 +125,7 @@ def main() -> None:
     assert np.isfinite(summary[["mean_pcc", "median_pcc", "mean_scc", "rmse"]]).all().all()
     assert summary.rmse.max() < 10.0, "QA failure: implausibly large RMSE suggests unstable readout"
     comparisons = []
-    for left, right in [("bridge_45.6m", "pca_8"), ("bridge_45.6m", "pca_512"),
+    for left, right in [("bridge_45.6m", "pca_4"), ("bridge_45.6m", "pca_512"),
                         ("bridge_45.6m", "bulkformer_50m"),
                         ("bridge_45.6m", "bulkformer_147m"), ("pca128_bridge", "pca_128")]:
         a = metrics.loc[metrics.representation.eq(left), ["screen_id", "pcc"]].rename(columns={"pcc": "left_pcc"})
@@ -140,7 +140,8 @@ def main() -> None:
     pd.DataFrame(comparisons).to_csv(RESULTS / "paired_comparisons.csv", index=False)
     bridge = metrics.loc[metrics.representation.eq("bridge_45.6m")]
     controls = []
-    for comparator in ["raw_expression", "pca_8", "pca_16", "pca_32", "pca_64",
+    for comparator in ["raw_expression", "pca_1", "pca_2", "pca_3", "pca_4",
+                       "pca_5", "pca_6", "pca_7", "pca_8", "pca_16", "pca_32", "pca_64",
                        "pca_128", "pca_256", "pca_512", "bulkformer_50m", "bulkformer_147m"]:
         other = metrics.loc[metrics.representation.eq(comparator)]
         paired = bridge.merge(other, on="screen_id", suffixes=("_bridge", "_other"))

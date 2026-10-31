@@ -15,6 +15,13 @@
   },
   "representations": [
     "raw_expression",
+    "pca_1",
+    "pca_2",
+    "pca_3",
+    "pca_4",
+    "pca_5",
+    "pca_6",
+    "pca_7",
     "pca_8",
     "pca_16",
     "pca_32",
