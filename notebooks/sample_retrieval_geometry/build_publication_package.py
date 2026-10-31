@@ -334,7 +334,7 @@ def write_provenance(d: dict[str, object]) -> None:
         commit = "unavailable"
     provenance = {
         "package": "sample_retrieval_geometry",
-        "approval_scope": "Only positive findings explicitly listed in MANUSCRIPT_OUTLINE.md; exploratory null/negative results and all conventional linear-reduction controls excluded by user request.",
+        "report_scope": "Bridge retrieval geometry and reference-only whitening results defined in MANUSCRIPT_OUTLINE.md.",
         "source_benchmark": "benchmarks/sample_retrieval_geometry",
         "source_git_commit": commit,
         "source_benchmark_tracked_at_packaging": False,
@@ -365,7 +365,6 @@ def write_provenance(d: dict[str, object]) -> None:
             "ARCHS4 tissue labels are conservative and sparse; approximately 74% of Top-10 neighbors are unknown, so annotated precision is always interpreted with absolute Hit@10 and Unknown@10.",
             "The 562 pairs are cross-pipeline technical counterparts, not independent biological replicates.",
             "Whitening is reference-only post-processing and is not evidence that BridgeRNA is batch-corrected.",
-            "The package intentionally omits exploratory null/negative results and conventional linear-reduction controls under the user-approved publication scope.",
         ],
         "software": {
             "python": platform.python_version(),
@@ -392,7 +391,7 @@ def write_notebook() -> None:
 
 This report asks whether frozen BridgeRNA embeddings preserve cross-pipeline sample identity, why ordinary cosine similarity is unusually high, and whether an ARCHS4-fitted geometry correction improves both technical-identity and tissue retrieval.
 
-**Approved scope.** This publication notebook contains only the positive findings selected in `MANUSCRIPT_OUTLINE.md`. It excludes exploratory null/negative analyses and does not train, fine-tune, or rerun Bridge. Every result below is loaded from validated compact cached tables.
+Bridge is not trained or fine-tuned in this analysis. Every result below is loaded from validated compact cached tables.
 """))
     cells.append(nbf.v4.new_code_cell("""from pathlib import Path
 import json

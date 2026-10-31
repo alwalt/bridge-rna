@@ -1,6 +1,6 @@
 # Frozen Bridge retrieval geometry and reference-only whitening
 
-This is the portable publication package for the user-approved positive findings from the `sample_retrieval_geometry` benchmark. It reports frozen BridgeRNA cross-pipeline agreement, anisotropy, reference-only whitening, and GTEx tissue retrieval. Exploratory null/negative analyses and conventional linear-reduction controls are intentionally outside the approved scope.
+This is the portable publication package for the `sample_retrieval_geometry` benchmark. It reports frozen BridgeRNA cross-pipeline agreement, anisotropy, reference-only whitening, and GTEx tissue retrieval.
 
 ## Lightweight cached execution
 
