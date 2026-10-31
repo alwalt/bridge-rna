@@ -29,7 +29,7 @@ def main() -> None:
     plt.close(fig)
 
     metrics = pd.read_csv(RESULTS / "per_drug_metrics.csv")
-    keep = ["pca_8", "pca_512", "bulkformer_50m", "bulkformer_147m", "bridge_45.6m"]
+    keep = ["pca_4", "pca_512", "bulkformer_50m", "bulkformer_147m", "bridge_45.6m"]
     plot = metrics.loc[metrics.representation.isin(keep)].copy()
     fig, ax = plt.subplots(figsize=(11, 6))
     values = [plot.loc[plot.representation.eq(name), "pcc"].to_numpy() for name in keep]
@@ -47,11 +47,18 @@ def main() -> None:
     pca[["components", "mean_pcc", "median_pcc", "mean_scc", "rmse", "evaluable_drugs"]].to_csv(
         RESULTS / "pca_component_sensitivity.csv", index=False)
     bridge_pcc = float(summary.loc[summary.representation.eq("bridge_45.6m"), "mean_pcc"].iloc[0])
+    best_pca = pca.loc[pca.mean_pcc.idxmax()]
     fig, ax = plt.subplots(figsize=(8, 5.5))
     ax.plot(pca.components, pca.mean_pcc, marker="o", linewidth=2.2, color="#4472C4",
             label="PCA + ridge")
+    ax.scatter([best_pca.components], [best_pca.mean_pcc], s=110, color="#F28E2B",
+               edgecolor="white", linewidth=1.2, zorder=4,
+               label=f"Best observed PCA-{int(best_pca.components)} ({best_pca.mean_pcc:.3f})")
     ax.axhline(bridge_pcc, color="#D62728", linestyle="--",
                label=f"Bridge-45.6M ({bridge_pcc:.3f})")
+    ax.annotate(f"ΔPCC = {bridge_pcc - best_pca.mean_pcc:.3f}",
+                xy=(best_pca.components, (bridge_pcc + best_pca.mean_pcc) / 2),
+                xytext=(18, 0), textcoords="offset points", va="center", fontsize=10)
     ax.set(xscale="log", xlabel="PCA components (log scale)", ylabel="Mean per-screen OOF PCC",
            xticks=pca.components.to_list())
     ax.get_xaxis().set_major_formatter(plt.ScalarFormatter())
@@ -59,6 +66,39 @@ def main() -> None:
     fig.tight_layout()
     fig.savefig(RESULTS / "pca_component_sensitivity.png", dpi=200)
     fig.savefig(RESULTS / "pca_component_sensitivity.pdf")
+    plt.close(fig)
+
+    bridge_screen = metrics.loc[metrics.representation.eq("bridge_45.6m"),
+                                ["screen_id", "dataset_version", "drug_id", "n", "pcc"]].rename(
+                                    columns={"n": "n_bridge", "pcc": "bridge_pcc"})
+    pca4_screen = metrics.loc[metrics.representation.eq("pca_4"),
+                              ["screen_id", "n", "pcc"]].rename(
+                                  columns={"n": "n_pca4", "pcc": "pca4_pcc"})
+    paired = bridge_screen.merge(pca4_screen, on="screen_id", validate="one_to_one")
+    paired["delta_pcc"] = paired.bridge_pcc - paired.pca4_pcc
+    paired.to_csv(RESULTS / "bridge_vs_pca4_per_screen.csv", index=False)
+    fraction_better = float((paired.delta_pcc > 0).mean())
+    mean_delta = float(paired.delta_pcc.mean())
+    colors = {"GDSC1": "#4C78A8", "GDSC2": "#F28E2B"}
+    lower = float(np.floor(min(paired.pca4_pcc.min(), paired.bridge_pcc.min()) * 10) / 10)
+    upper = float(np.ceil(max(paired.pca4_pcc.max(), paired.bridge_pcc.max()) * 10) / 10)
+    fig, ax = plt.subplots(figsize=(7, 7))
+    for version in ["GDSC1", "GDSC2"]:
+        subset = paired.loc[paired.dataset_version.eq(version)]
+        ax.scatter(subset.pca4_pcc, subset.bridge_pcc, s=25, alpha=.65,
+                   color=colors[version], edgecolors="none", label=f"{version} (n={len(subset)})")
+    ax.plot([lower, upper], [lower, upper], color="black", linestyle="--", linewidth=1.4,
+            label="Equal performance")
+    ax.set(xlim=(lower, upper), ylim=(lower, upper), aspect="equal",
+           xlabel="PCA-4 per-screen OOF PCC", ylabel="Bridge-45.6M per-screen OOF PCC")
+    ax.text(.04, .96,
+            f"355 screens\nBridge higher: {fraction_better:.1%}\nMean ΔPCC: {mean_delta:.3f}",
+            transform=ax.transAxes, va="top", ha="left",
+            bbox={"boxstyle": "round", "facecolor": "white", "alpha": .9})
+    ax.legend(loc="lower right", frameon=True)
+    fig.tight_layout()
+    fig.savefig(RESULTS / "bridge_vs_pca4_per_screen.png", dpi=250)
+    fig.savefig(RESULTS / "bridge_vs_pca4_per_screen.pdf")
     plt.close(fig)
 
     # A pooled raw-IC50 scatter would be dominated by between-screen offsets.

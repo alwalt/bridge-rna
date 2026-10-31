@@ -195,6 +195,7 @@ The definitive benchmark files are:
 - Pretraining-exposure audit: [`pretraining_exposure_audit.md`](pretraining_exposure_audit.md)
 - Primary results: [`results/primary_results.csv`](results/primary_results.csv)
 - PCA component sensitivity: [`results/pca_component_sensitivity.csv`](results/pca_component_sensitivity.csv)
+- Bridge versus PCA-4 paired figure data: [`results/bridge_vs_pca4_per_screen.csv`](results/bridge_vs_pca4_per_screen.csv)
 - Published result reference: [`results/published_results.csv`](results/published_results.csv)
 - Paired comparisons: [`results/paired_comparisons.csv`](results/paired_comparisons.csv)
 - Per-screen metrics: [`results/per_drug_metrics.csv`](results/per_drug_metrics.csv)
