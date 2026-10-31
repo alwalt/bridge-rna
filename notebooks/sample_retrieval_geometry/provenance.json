@@ -1,0 +1,118 @@
+{
+  "package": "sample_retrieval_geometry",
+  "approval_scope": "Only positive findings explicitly listed in MANUSCRIPT_OUTLINE.md; exploratory null/negative results and all conventional linear-reduction controls excluded by user request.",
+  "source_benchmark": "benchmarks/sample_retrieval_geometry",
+  "source_git_commit": "7b2c757b3aeaaa067b33f7faa32218faefbe1454",
+  "source_benchmark_tracked_at_packaging": false,
+  "cohorts": {
+    "technical_identity": {
+      "queries": 562,
+      "studies": 40,
+      "references": 510709,
+      "exposure": "repository-defined unseen_study"
+    },
+    "gtex_archs4": {
+      "eligible_queries": 6064,
+      "tissues": 13,
+      "references": 510376,
+      "excluded_gtex_origin_references": 333
+    },
+    "gtex_gtex_control": {
+      "queries": 6064,
+      "donors_in_cohort": 937,
+      "same_donor_excluded": true
+    }
+  },
+  "representation": {
+    "model": "frozen BridgeRNA",
+    "dimensions": 512,
+    "checkpoint": "model/r7hnr92k/best_model.pt"
+  },
+  "preprocessing": {
+    "genes": 15165,
+    "input": "natural log1p(TPM)",
+    "gene_order": "data/ensembl/canonical_genes.csv"
+  },
+  "transformations": {
+    "raw": "L2-normalized Bridge embedding; cosine ranking",
+    "mean_centered_diagnostic": "subtract mean fitted on 510,709 ARCHS4 references; L2 normalize",
+    "whitening": "ARCHS4-only full 512-D covariance whitening, denominator N, eigenvalue floor lambda_max*1e-12, then L2 normalize and cosine rank",
+    "whitening_parameter_sha256": "9834e6bb8873e245f84e6874c6d11949d4e8dd57de9f31aa287fd7617524f880"
+  },
+  "random_pair_sample": {
+    "pairs": 2000000,
+    "seed": 20260922,
+    "distinct_samples": true
+  },
+  "source_artifacts": {
+    "results/absolute_similarity/paired_cosine_micro_macro_summary.csv": {
+      "sha256": "b49b488a063b05ae1d0d9ac1d518ab68453417667a4664c5c8e153d8f66046ea",
+      "bytes": 412
+    },
+    "results/absolute_similarity/random_vs_exact_cosine.csv": {
+      "sha256": "f5c9e66f502c108b555ddcd3027be748d91388cdd59742c9a7ae958437721b85",
+      "bytes": 549
+    },
+    "results/absolute_similarity/high_similarity_poor_rank_frequency.csv": {
+      "sha256": "0d9fafe5fa9bd1f668cc7099371718f67e92ca6c55fbaf749290403818056854",
+      "bytes": 354
+    },
+    "results/absolute_similarity/nearest_neighbor_context.parquet": {
+      "sha256": "161450d44207002af024f50efbe7c65bd65be7c283f8387745ee56027fac91ff",
+      "bytes": 56805
+    },
+    "results/anisotropy/anisotropy_summary.csv": {
+      "sha256": "4d2df5c336d1afb5288a97e5ec7512bf4d8ebd277aff105541a9b0ef5240bf3d",
+      "bytes": 659
+    },
+    "results/anisotropy/cosine_distribution_summaries.csv": {
+      "sha256": "91c74502e179e179552e4cdb483c714e8a7e4d6a4c8252c3d75431d22f8a06cb",
+      "bytes": 4941
+    },
+    "results/literature_postprocessing/retrieval_metrics_micro.csv": {
+      "sha256": "7f0ee972570376954102667383507524860cde30fe23185fa70478271067fe55",
+      "bytes": 1342
+    },
+    "results/literature_postprocessing/retrieval_metrics_study_macro.csv": {
+      "sha256": "a44669088651fb4c952bcc4179fb57476507ac18a3277dbcca1c6be072801c66",
+      "bytes": 2015
+    },
+    "results/gtex_biological_retrieval/retrieval_metrics_micro.csv": {
+      "sha256": "04327ebd098196d970378b09983923e615c09b19e5eaf44e9f3c86fe8d294326",
+      "bytes": 3258
+    },
+    "results/gtex_biological_retrieval/retrieval_metrics_tissue_macro.csv": {
+      "sha256": "f6cbdcd41416e9b9f87beb6bb9420625376d5601ab980a3e414b24ca7e3feeb5",
+      "bytes": 2268
+    },
+    "results/gtex_biological_retrieval/gtex_to_gtex_control.csv": {
+      "sha256": "4b1b2bcccffd9afc7db90f0c6ff195ed3bb4d782212bd05285a265125bbb1bbc",
+      "bytes": 757
+    },
+    "results/gtex_biological_retrieval/per_query_metrics.parquet": {
+      "sha256": "c5e1717d3cebbf01eff3b6c75b039014a8f036d5b05d00e3a9d6b2c81fd85cc3",
+      "bytes": 760009
+    }
+  },
+  "verification": {
+    "raw_exact_identity": "recalculated from 562-row nearest-neighbor context table",
+    "whitened_exact_identity": "verified against two independent compact saved summary tables; prediction-level whitened ranks were not retained",
+    "gtex_archs4": "micro P@10, Hit@10, and Unknown@10 recalculated from the retained 6,064-query table; tissue-macro summaries verified against saved per-tissue summaries",
+    "gtex_gtex": "summary-table verification only; compact prediction-level neighbor labels were not retained in the publication package",
+    "status": "passed"
+  },
+  "limitations": [
+    "The two-million-pair ARCHS4 distribution is a deterministic sample, not all ~130 billion unique pairs.",
+    "ARCHS4 tissue labels are conservative and sparse; approximately 74% of Top-10 neighbors are unknown, so annotated precision is always interpreted with absolute Hit@10 and Unknown@10.",
+    "The 562 pairs are cross-pipeline technical counterparts, not independent biological replicates.",
+    "Whitening is reference-only post-processing and is not evidence that BridgeRNA is batch-corrected.",
+    "The package intentionally omits exploratory null/negative results and conventional linear-reduction controls under the user-approved publication scope."
+  ],
+  "software": {
+    "python": "3.11.0rc1",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9",
+    "nbformat": "5.11.0"
+  }
+}
