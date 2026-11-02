@@ -1,0 +1,18 @@
+{
+  "seed": 20260924,
+  "top_k": 10,
+  "source_hallmark_benchmark": "/home/walt/bridge-rna.worktrees/create-a-new-self-contained-benchmark-investigat/benchmarks/bridge_hallmark_representation",
+  "archs4_embedding_dir": "/home/walt/bridge-rna/embeddings/archs4",
+  "archs4_sample_manifest": "/home/walt/bridge-rna/data/manifests/sample_manifest.parquet",
+  "archs4_metadata": "/home/walt/bridge-rna/data/manifests/archs4_sample_metadata_v2.5.parquet",
+  "canonical_genes": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv",
+  "checkpoint": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+  "model_config": "/home/walt/bridge-rna.worktrees/create-a-new-self-contained-benchmark-investigat/model/r7hnr92k/config.json",
+  "tcga_embeddings": "/home/walt/bridge-rna.worktrees/create-a-new-self-contained-benchmark-investigat/benchmarks/bridge_hallmark_representation/work/tcga_embeddings.npy",
+  "tcga_manifest": "/home/walt/bridge-rna/benchmarks/tcga_downstream/results/cohort_manifest.parquet",
+  "tcga_hallmark_profiles": "/home/walt/bridge-rna.worktrees/create-a-new-self-contained-benchmark-investigat/benchmarks/bridge_hallmark_representation/results/tcga_zero_shot_hallmark_profiles.parquet",
+  "osdr_embeddings": "/home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/work/bridgerna_embeddings.npy",
+  "osdr_expression": "/home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/work/bridgerna_log1p_tpm_inputs.npy",
+  "osdr_manifest": "/home/walt/bridge-rna/benchmarks/osdr_batch_effect_representation/results/sample_manifest.csv"
+}
+

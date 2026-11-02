@@ -1,0 +1,19 @@
+{
+  "bridge_inference_rerun": false,
+  "checkpoint_sha256": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541",
+  "combined_order": "human rows in existing order, followed by mouse rows sorted by frozen global_index",
+  "combined_samples": 940455,
+  "embedding_manifest_sha256": "6234ea0bf64498f36a884075ed3b2bd195fb0e4394c5980c555efe3d3bbc5f62",
+  "hallmark_head_retrained": false,
+  "human_samples": 510709,
+  "mouse_hallmark_label": "zero-shot cross-species predictions from the human GTEx-trained head",
+  "mouse_samples": 429746,
+  "preprocessing": "frozen natural log1p(TPM), shared ordered 15,165 one-to-one orthologs",
+  "probe_sha256": "f3f6c2ddc75d872b1e78af189f9286ff2be64ee43e90047916fca5ffe0538931",
+  "runtime_seconds": 20.999311685562134,
+  "search_sets": {
+    "combined": "exact top-k merge across human and mouse arrays",
+    "human": "existing human arrays",
+    "mouse": "mouse arrays in work/archs4_multispecies"
+  }
+}

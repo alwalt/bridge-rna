@@ -1,0 +1,316 @@
+{
+  "files": [
+    {
+      "path": "results/SCIENTIFIC_REPORT.md",
+      "bytes": 5791,
+      "sha256": "5c088270748f16710664e3553b57551da21542264c2ab162354ad96b0ea284e9",
+      "regenerable": false
+    },
+    {
+      "path": "results/archs4_hallmark_profile_index.parquet",
+      "bytes": 7148427,
+      "sha256": "ac9f36201cb1ed8c9e3e4cd3b72193a742f6ff7ea1be0aa40a7412e9dcf10e99",
+      "regenerable": false
+    },
+    {
+      "path": "results/archs4_query_database_manifest.parquet",
+      "bytes": 10090546,
+      "sha256": "fb58a44a3f3ca4f8528fa9d30da3526fef2076a9425a8f863c8eceeb74b846e2",
+      "regenerable": false
+    },
+    {
+      "path": "results/cancer_summary.csv",
+      "bytes": 5473,
+      "sha256": "1e11fa3bc63d6a9d883f0d0cfee3eb10b8c6160e0b57a778ab81f57136327777",
+      "regenerable": false
+    },
+    {
+      "path": "results/centroid_functional_discordance.csv",
+      "bytes": 358163,
+      "sha256": "61d401562521f04c005acc782d1ea68cb6fab3d4f9cbbf10295bff5e78f71728",
+      "regenerable": false
+    },
+    {
+      "path": "results/centroid_method_overlap.csv",
+      "bytes": 9466,
+      "sha256": "91d5e81539e5e165305db2e08d7aae9454e68662ac91af4797042a5fdb2e1f57",
+      "regenerable": false
+    },
+    {
+      "path": "results/dominant_pathway_removal_summary.csv",
+      "bytes": 2036,
+      "sha256": "61a82457fe8e8371aab58fdcc0114ec007b0cc46c527a8df63b9d210267c5743",
+      "regenerable": false
+    },
+    {
+      "path": "results/dominant_pathway_removal_top100.csv",
+      "bytes": 215893,
+      "sha256": "2e489e3184a154f0765cdf0a6f74dd31e6e99efc9b6f195a3f4e32b0038a23bd",
+      "regenerable": false
+    },
+    {
+      "path": "results/expression_baseline.log",
+      "bytes": 686,
+      "sha256": "464911d76b72fbaed29f45fb3b0379543ad91281513aab4fa3e924e4d3f3a945",
+      "regenerable": false
+    },
+    {
+      "path": "results/expression_baseline_provenance.json",
+      "bytes": 437,
+      "sha256": "b506cb54e48541d18f0ee17dd9dd5edf55f2d250da69f91c5a125ff1e2548f96",
+      "regenerable": false
+    },
+    {
+      "path": "results/expression_subset_method_overlap.csv",
+      "bytes": 43013,
+      "sha256": "37de33bd1132a9c49d0408a8220d19855645195bb82a89f1d4f3652754006416",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/cancer_metric_summary.pdf",
+      "bytes": 29692,
+      "sha256": "ac94cd31ea4dc54bb1ae8341741827f7e5ed096745f3d9decd4227cda15b8905",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/cancer_metric_summary.png",
+      "bytes": 210991,
+      "sha256": "5bf3a7befb76cc7bc6d3a3ec0492e95ca739cb3bc91d1195de63079e27aae60a",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/centroid_hallmark_profiles.pdf",
+      "bytes": 79530,
+      "sha256": "3e458f0cb0c76d7aa3ec7bae6e216674625a4c73fe9f36bed317e9043cf10225",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/centroid_hallmark_profiles.png",
+      "bytes": 290453,
+      "sha256": "6c348b6d33c61474b10d750c1ba113804dab1d8da9901bbdd9fa5d5e01e296a7",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/functional_discordance.pdf",
+      "bytes": 59949,
+      "sha256": "69860a152362fcf469c790c7f8ebc1c67649a1cd3f0a77a8b1fbf659ed53cb93",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/functional_discordance.png",
+      "bytes": 273101,
+      "sha256": "ae7346582bc6ed358b5615cb81a61bdb86228ee5eeea04211035185feefeda83",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/functional_profile_preservation.pdf",
+      "bytes": 13665,
+      "sha256": "6c18372c24ec2aaf8e6949c3eaad9fe0802f88706cfce4fe2986999b81234216",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/functional_profile_preservation.png",
+      "bytes": 50125,
+      "sha256": "f1d211f48c866264ed9ea5381c26f4dbbf7527093b8289cfb64dbbd059ef7585",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/metadata_coherence.pdf",
+      "bytes": 13094,
+      "sha256": "55e2a18966fecc3385ca94518bc0e84b7ef0d4f086639a15b548edf218354671",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/metadata_coherence.png",
+      "bytes": 56094,
+      "sha256": "da1320698d5f40501aa20b98ba6d2104b154e8fa784932a7e093faafe879229b",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/method_overlap.pdf",
+      "bytes": 16926,
+      "sha256": "690b5ba6351e9d0f69b3ad7aef620fa39776280d1ee4790cac74ecd95f547035",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/method_overlap.png",
+      "bytes": 50891,
+      "sha256": "9c6c904d78b9ac32db24f8bb00ff6c0898bcf0df0d0bc58b29f14835448a8f27",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/three_method_overlap.pdf",
+      "bytes": 14601,
+      "sha256": "8e30937df86946c89e6a73dd731ce94cfe4c142220bdfa9d574ffec4a391ded1",
+      "regenerable": false
+    },
+    {
+      "path": "results/figures/three_method_overlap.png",
+      "bytes": 99293,
+      "sha256": "cff04b5f6bf133d5528bfd9576d9c0deefd5b194b63cb69abafe16d2e8911ca7",
+      "regenerable": false
+    },
+    {
+      "path": "results/functional_profile_preservation.csv",
+      "bytes": 1388,
+      "sha256": "e8a749c9bb819b3c63555fb551723ca16d90fbaf4e87284d22a8a43df3a654c2",
+      "regenerable": false
+    },
+    {
+      "path": "results/hallmark_metric_sensitivity_overlap.csv",
+      "bytes": 27673,
+      "sha256": "af609a008ce3c12b7550b0384f2c4bfa9a97136523909d74426215250361228c",
+      "regenerable": false
+    },
+    {
+      "path": "results/hallmark_metric_sensitivity_top100.parquet",
+      "bytes": 440432,
+      "sha256": "79bc7df8b756eaa1a5ed9068d91b8256fbab5d7cf94aaa36b6f59b916d79b81d",
+      "regenerable": false
+    },
+    {
+      "path": "results/headline_summary.json",
+      "bytes": 1038,
+      "sha256": "bc6c0570082cb00d5c476e94c2794e5c68c2047661a1c91ce901c8171e828025",
+      "regenerable": false
+    },
+    {
+      "path": "results/individual_method_overlap.csv",
+      "bytes": 2997986,
+      "sha256": "9382acc39d488c9388cd009317ae0725fff3133b76c31e051f51f7694d11e8a8",
+      "regenerable": false
+    },
+    {
+      "path": "results/metadata_coherence.csv",
+      "bytes": 3383160,
+      "sha256": "cc523a3bf2be2ab78cf7508aae83b02514056edc6aa03e7f638dd3ae3d5e4bd3",
+      "regenerable": false
+    },
+    {
+      "path": "results/metadata_keyword_coherence.csv",
+      "bytes": 3854,
+      "sha256": "dab06b18101593e6be5f871bb46e9be628f9f1a321fbd857d418cda5d66c7e9b",
+      "regenerable": false
+    },
+    {
+      "path": "results/null_controls.csv",
+      "bytes": 4151,
+      "sha256": "51c4a924fa01c258f626d53e2fa5ffe9d96b98de9fce7b74998b30daffa74bdd",
+      "regenerable": false
+    },
+    {
+      "path": "results/pathway_contributions.csv",
+      "bytes": 1531387,
+      "sha256": "99243f8dd2d04244738644c6e145026893cb913b7759b3251a768fecbf94b304",
+      "regenerable": false
+    },
+    {
+      "path": "results/pathway_wise_preservation.csv",
+      "bytes": 2869,
+      "sha256": "2b9c2a42b8ceaedcef72e637360f4f102e1f4c31278f95bf360d5a1b73057322",
+      "regenerable": false
+    },
+    {
+      "path": "results/provenance.json",
+      "bytes": 6526,
+      "sha256": "606608c56a1be242bbf41ca2e3184ed4a8a84330d76bea2c5bb33b689eef32af",
+      "regenerable": false
+    },
+    {
+      "path": "results/qa.json",
+      "bytes": 397,
+      "sha256": "0c3ac0ce2ab7c34a86339488447cfbdb40d3943bbffeea832b4fed3c20ed7ccd",
+      "regenerable": false
+    },
+    {
+      "path": "results/representative_functional_matches.csv",
+      "bytes": 11017,
+      "sha256": "1693f5394b554f0c8b9bbbaab2832bb95d04cc3b85f56ff57e1fa327892efa17",
+      "regenerable": false
+    },
+    {
+      "path": "results/retrieval_hubs.csv",
+      "bytes": 5448592,
+      "sha256": "0697547ab562010a19ea565d2796cfa21ffbe13846857b79d72e931d586c0cac",
+      "regenerable": false
+    },
+    {
+      "path": "results/retrieved_archs4_mean_hallmark_profiles.csv",
+      "bytes": 18344,
+      "sha256": "9be2b3af48e1fd4db7c1ef5143e0053f3dc00c593088236d6a057d2d122427d8",
+      "regenerable": false
+    },
+    {
+      "path": "results/run.log",
+      "bytes": 7956,
+      "sha256": "a9ec5cf58fca94028f337f22b161fe96c1e7d081728eb7ec621e2e76b59ea421",
+      "regenerable": false
+    },
+    {
+      "path": "results/tcga_centroid_hallmark_profiles.csv",
+      "bytes": 18571,
+      "sha256": "17242b96d4c7422cd3f0cd15dddf6bb5e78b782f40a8e5288b7db41305b4967c",
+      "regenerable": false
+    },
+    {
+      "path": "results/tcga_hallmark_profiles.parquet",
+      "bytes": 2925008,
+      "sha256": "5654455c83afdeb0fd0177e0e70f72d3357f544a9e846384e150cb6af5ace193",
+      "regenerable": false
+    },
+    {
+      "path": "results/tcga_query_manifest.parquet",
+      "bytes": 594253,
+      "sha256": "5c78eff448c1f0e5e1c68ab59d02f1e2db07df752436e9b303f70aa58bcc3d64",
+      "regenerable": false
+    },
+    {
+      "path": "results/top100_centroid_bridge512_cosine.parquet",
+      "bytes": 203171,
+      "sha256": "316897f02b0d23e79c2f31f9143b6f9bee407e1eb102b56a531e478e69dcb563",
+      "regenerable": false
+    },
+    {
+      "path": "results/top100_centroid_expression15165_cosine.parquet",
+      "bytes": 63434,
+      "sha256": "19d787b42af628c97b15e788e684f107651e691784e1ac7c664ec7cfbdbd44c1",
+      "regenerable": false
+    },
+    {
+      "path": "results/top100_centroid_hallmark50_cosine.parquet",
+      "bytes": 219992,
+      "sha256": "ea3e138df8e0fdf37f451e16761e6b2cd0ed29712910e9e6f90bfe9b16123172",
+      "regenerable": false
+    },
+    {
+      "path": "results/top100_individual_bridge512_cosine.parquet",
+      "bytes": 30994656,
+      "sha256": "93eb1a487e066521e57283b227c7c4cacbb8fa8bf95c9d035bdec6ea358d06ef",
+      "regenerable": false
+    },
+    {
+      "path": "results/top100_individual_hallmark50_cosine.parquet",
+      "bytes": 39445201,
+      "sha256": "39238a9bc65c3bd71ac22b6428de23bb25eb81b5deac75aeb48bab4efa23edc1",
+      "regenerable": false
+    },
+    {
+      "path": "work/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "regenerable": true
+    },
+    {
+      "path": "work/archs4_hallmark_scores.float32.npy",
+      "bytes": 102141928,
+      "sha256": "77b0bd7ae28d088a831428c8365807464f58a692b54cafce0e98d809bd00ca4f",
+      "regenerable": true
+    },
+    {
+      "path": "work/tcga_hallmark_scores.float32.npy",
+      "bytes": 1963328,
+      "sha256": "7977f5e39201bce617957f1a1fe6ca1d990220169bac38bc2d427a5bdf2b688f",
+      "regenerable": true
+    }
+  ]
+}

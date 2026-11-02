@@ -2,7 +2,8 @@
   "benchmark": "tcga_archs4_state_retrieval",
   "source_benchmark": "benchmarks/tcga_archs4_state_retrieval",
   "source_git_revision": "cbd48b7d2bd0eb87bc71225de6f58f6b74924ea6",
-  "approval_scope": "Main-paper description of the frozen GTEx-trained 512-to-50 Hallmark method and primary raw-cosine TCGA-to-ARCHS4 retrieval results; later cross-species analyses may reuse the same unchanged system but must report their own results separately.",
+  "approval_scope": "Main-paper description of the frozen GTEx-trained 512-to-50 Hallmark method, independent TCGA validation, primary raw-cosine TCGA-to-ARCHS4 retrieval, extended 33-cancer retrieval, and qualified OSDR/multispecies results.",
+  "consolidated_source": "benchmarks/tcga_archs4_state_retrieval/references/hallmark_state_retrieval_agent",
   "bridge_checkpoint_sha256": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541",
   "bridge_config_sha256": "1cccc2a0dc09da29f69b574e96f1fa2c5e70dc99d20a8b79d921d1e4fa49b805",
   "canonical_genes_sha256": "1dbe9a5753e5982b3ddb383f35e92ce5795c21fc054fff685514831c8dadbb8d",
@@ -17,11 +18,19 @@
     "expression_subset_method_overlap.csv": "37de33bd1132a9c49d0408a8220d19855645195bb82a89f1d4f3652754006416",
     "functional_profile_preservation.csv": "e8a749c9bb819b3c63555fb551723ca16d90fbaf4e87284d22a8a43df3a654c2",
     "headline_summary.json": "bc6c0570082cb00d5c476e94c2794e5c68c2047661a1c91ce901c8171e828025",
+    "independent_cancer_profile_concordance.csv": "bebcb1ef58c930382dc4582381c3dabb8f93dfc8da4b1f8ac4bed5cdef9a99a4",
+    "independent_pathway_ranking_concordance.csv": "d90d54da0732885be44c5005b4a0c026ae56f899adff613ae2a35e54ed4558f8",
+    "independent_validation_summary.json": "7569d4a3f7c350ba8bcf459102133ecf4419beaec8c2559446f5c7040fe5aad9",
+    "extended_retrieval_metrics.csv": "c0a7f1366334469849edf23db9ea7d6175f8da9168008354eb0de5cd749947a3",
     "individual_method_overlap.csv": "9382acc39d488c9388cd009317ae0725fff3133b76c31e051f51f7694d11e8a8",
     "metadata_coherence.csv": "cc523a3bf2be2ab78cf7508aae83b02514056edc6aa03e7f638dd3ae3d5e4bd3",
+    "multispecies_provenance.json": "52c8b0785bca4bfb1a0c37ec271417f37fe5f4a8b6baac5dcf3877a5fdbeaa43",
+    "multispecies_topk_comparison.csv": "b36ec26a7548d9c04c9f44a492fe929ed395c32dae967e5da8babd7312519b4d",
+    "osdr_scientific_summary.json": "2a9076d940dac500e3d928335425d517c82259d1b6c9c05c4de3825b39eb8f32",
     "pathway_wise_preservation.csv": "2b9c2a42b8ceaedcef72e637360f4f102e1f4c31278f95bf360d5a1b73057322",
     "qa.json": "0c3ac0ce2ab7c34a86339488447cfbdb40d3943bbffeea832b4fed3c20ed7ccd",
     "retrieved_archs4_mean_hallmark_profiles.csv": "9be2b3af48e1fd4db7c1ef5143e0053f3dc00c593088236d6a057d2d122427d8",
+    "signal_matching_summary.csv": "f9ab71e8a880053548cb2b365f6f725fee2604d2c6f4cd4bb1bc96ff316d1471",
     "tcga_centroid_hallmark_profiles.csv": "17242b96d4c7422cd3f0cd15dddf6bb5e78b782f40a8e5288b7db41305b4967c"
   },
   "large_dependencies_not_packaged": [
@@ -35,9 +44,9 @@
     "full_inference_rerun": false,
     "network_required": false,
     "status": "passed",
-    "executed_cells": 7,
+    "executed_cells": 10,
     "execution_errors": 0,
-    "figure_files": 8,
+    "figure_files": 14,
     "html_render_check": "passed",
     "tested_versions": {
       "python": "3.10.12",
@@ -57,5 +66,8 @@
     "ARCHS4 contains Bridge train, validation, and unseen samples; aggregate retrieval is not a strict unseen-sample evaluation.",
     "Exact identifier checks do not exclude biologically duplicated material under unrelated accessions.",
     "Universal-neighbor and study effects remain relevant to individual retrieved matches."
+    ,"The conventional TCGA positive control uses deterministic rank-mean Hallmark profiles on the 15165-gene vocabulary, not exact ssGSEA 2.0 NES."
+    ,"Hallmark retrieval underperforms Bridge-512 on several patient-level disease, tissue, and malignancy criteria."
+    ,"Combined human/mouse retrieval is overwhelmingly species-conditioned; human-only mouse retrieval is a forced analogy analysis."
   ]
 }

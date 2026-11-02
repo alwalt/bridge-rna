@@ -1,0 +1,89 @@
+study,organism,tissue,strain,sex,age_at_launch,genotype,FLT,GC,mission_or_experiment,group_id,replicate_consensus_eligible
+OSD-100,mus musculus,left eye,c57bl/6j,female,16 {week},unspecified,6,6,OSD-100,OSDRG001,True
+OSD-101,mus musculus,left gastrocnemius,c57bl/6j,female,16 {week},unspecified,6,6,OSD-101,OSDRG002,True
+OSD-102,mus musculus,left kidney,c57bl/6j,female,16 {week},unspecified,6,6,OSD-102,OSDRG003,True
+OSD-103,mus musculus,left quadriceps femoris,c57bl/6j,female,16 {week},unspecified,6,6,OSD-103,OSDRG004,True
+OSD-104,mus musculus,soleus-both sides,c57bl/6j,female,16 {week},unspecified,6,6,OSD-104,OSDRG005,True
+OSD-105,mus musculus,left tibialis anterior,c57bl/6j,female,16 {week},unspecified,6,6,OSD-105,OSDRG006,True
+OSD-137,mus musculus,liver,balb/c,female,12 {week},unspecified,6,6,OSD-137,OSDRG007,True
+OSD-161,mus musculus,adrenal gland,balb/c,female,12 {week},unspecified,5,5,OSD-161,OSDRG008,True
+OSD-162,mus musculus,eye,balb/c,female,12 {week},unspecified,5,5,OSD-162,OSDRG009,True
+OSD-163,mus musculus,left kidney,balb/c,female,12 {week},unspecified,6,6,OSD-163,OSDRG010,True
+OSD-164,mus musculus,liver,c57bl/6ntac,female,8 {month},unspecified,3,3,OSD-164,OSDRG011,True
+OSD-164,mus musculus,spleen,c57bl/6ntac,female,8 {month},unspecified,3,3,OSD-164,OSDRG012,True
+OSD-168,mus musculus,liver,balb/c,female,12 {week},unspecified,4,4,OSD-168,OSDRG013,True
+OSD-168,mus musculus,liver,c57bl/6j,female,16 {week},unspecified,10,10,OSD-168,OSDRG014,True
+OSD-173,mus musculus,liver,c57bl/6ncrl,female,9 {week},unspecified,2,2,OSD-173,OSDRG015,True
+OSD-194,mus musculus,left retina,balb/c,female,12 {week},unspecified,5,3,OSD-194,OSDRG016,True
+OSD-238,mus musculus,dorsal skin,c57bl/6j,male,9 {week},unspecified,12,6,OSD-238,OSDRG017,True
+OSD-239,mus musculus,femoral skin,c57bl/6j,male,9 {week},unspecified,11,6,OSD-239,OSDRG018,True
+OSD-240,mus musculus,dorsal skin,balb/c,female,30 {week},unspecified,10,10,OSD-240,OSDRG019,True
+OSD-241,mus musculus,femoral lateral skin,balb/c,female,30 {week},unspecified,9,10,OSD-241,OSDRG020,True
+OSD-242,mus musculus,liver,c57bl/6j,male,10 {week},unspecified,5,4,OSD-242,OSDRG021,True
+OSD-243,mus musculus,dorsal skin,c57bl/6ntac,female,36 {week},unspecified,18,19,OSD-243,OSDRG022,True
+OSD-244,mus musculus,thymus,c57bl/6ntac,female,36 {week},unspecified,19,19,OSD-244,OSDRG023,True
+OSD-245,mus musculus,liver,c57bl/6ntac,female,36 {week},unspecified,20,19,OSD-245,OSDRG024,True
+OSD-246,mus musculus,spleen,c57bl/6ntac,female,36 {week},unspecified,15,16,OSD-246,OSDRG025,True
+OSD-247,mus musculus,descending colon,c57bl/6ntac,female,36 {week},unspecified,19,17,OSD-247,OSDRG026,True
+OSD-248,mus musculus,left lung,c57bl/6ntac,female,36 {week},unspecified,20,19,OSD-248,OSDRG027,True
+OSD-253,mus musculus,left kidney,unspecified,female,11 {week},unspecified,20,54,OSD-253,OSDRG028,True
+OSD-254,mus musculus,dorsal skin,unspecified,female,11 {week},unspecified,20,20,OSD-254,OSDRG029,True
+OSD-255,mus musculus,right retina,c57bl/6j,male,10 {week},unspecified,8,8,OSD-255,OSDRG030,True
+OSD-270,mus musculus,heart,balb/c,female,12 {week},unspecified,3,2,OSD-270,OSDRG031,True
+OSD-326,mus musculus,quadriceps femoris,c57bl/6j,male,9 {week},unspecified,4,4,OSD-326,OSDRG032,True
+OSD-379,mus musculus,left lobe of the liver,balb/canntac,female,unspecified,unspecified,35,35,OSD-379,OSDRG033,True
+OSD-397,mus musculus,left retina,c57bl/6j,female,16 {week},unspecified,4,2,OSD-397,OSDRG034,True
+OSD-397,mus musculus,right retina,c57bl/6j,female,16 {week},unspecified,5,5,OSD-397,OSDRG035,True
+OSD-401,mus musculus,gastrocnemius,balb/c,female,30 {week},unspecified,3,3,OSD-401,OSDRG036,True
+OSD-401,mus musculus,quadriceps femoris,balb/c,female,30 {week},unspecified,3,3,OSD-401,OSDRG037,True
+OSD-419,mus musculus,right gastrocnemius,c57bl/6j,female,16 {week},unspecified,4,8,OSD-419,OSDRG038,True
+OSD-420,mus musculus,spleen-distal,c57bl/6j,male,10 {week},unspecified,10,10,OSD-420,OSDRG039,True
+OSD-421,mus musculus,thymus,c57bl/6j,male,10 {week},unspecified,10,10,OSD-421,OSDRG040,True
+OSD-426,mus musculus,cells,unspecified,unspecified,unspecified,unspecified,12,6,OSD-426,OSDRG041,True
+OSD-457,mus musculus,brown adipose tissue,c57bl/6ncrl,male,12 {week},nrf2ko,6,6,OSD-457,OSDRG042,True
+OSD-457,mus musculus,brown adipose tissue,c57bl/6ncrl,male,12 {week},wild type,6,6,OSD-457,OSDRG043,True
+OSD-457,mus musculus,cerebrum,c57bl/6ncrl,male,12 {week},nrf2ko,6,6,OSD-457,OSDRG044,True
+OSD-457,mus musculus,cerebrum,c57bl/6ncrl,male,12 {week},wild type,6,6,OSD-457,OSDRG045,True
+OSD-457,mus musculus,kidney,c57bl/6ncrl,male,12 {week},nrf2ko,3,3,OSD-457,OSDRG046,True
+OSD-457,mus musculus,kidney,c57bl/6ncrl,male,12 {week},wild type,3,3,OSD-457,OSDRG047,True
+OSD-457,mus musculus,liver,c57bl/6ncrl,male,12 {week},nrf2ko,6,6,OSD-457,OSDRG048,True
+OSD-457,mus musculus,liver,c57bl/6ncrl,male,12 {week},wild type,6,6,OSD-457,OSDRG049,True
+OSD-457,mus musculus,mandible,c57bl/6ncrl,male,12 {week},nrf2ko,3,3,OSD-457,OSDRG050,True
+OSD-457,mus musculus,mandible,c57bl/6ncrl,male,12 {week},wild type,3,3,OSD-457,OSDRG051,True
+OSD-457,mus musculus,spleen,c57bl/6ncrl,male,12 {week},nrf2ko,6,6,OSD-457,OSDRG052,True
+OSD-457,mus musculus,spleen,c57bl/6ncrl,male,12 {week},wild type,6,6,OSD-457,OSDRG053,True
+OSD-457,mus musculus,temporal bone,c57bl/6ncrl,male,12 {week},nrf2ko,6,6,OSD-457,OSDRG054,True
+OSD-457,mus musculus,temporal bone,c57bl/6ncrl,male,12 {week},wild type,6,6,OSD-457,OSDRG055,True
+OSD-457,mus musculus,thymus,c57bl/6ncrl,male,12 {week},nrf2ko,6,6,OSD-457,OSDRG056,True
+OSD-457,mus musculus,thymus,c57bl/6ncrl,male,12 {week},wild type,6,6,OSD-457,OSDRG057,True
+OSD-457,mus musculus,white adipose tissue,c57bl/6ncrl,male,12 {week},nrf2ko,6,6,OSD-457,OSDRG058,True
+OSD-457,mus musculus,white adipose tissue,c57bl/6ncrl,male,12 {week},wild type,6,6,OSD-457,OSDRG059,True
+OSD-463,mus musculus,left lobe of the liver,c57bl/6j,male,16-17 {week},unspecified,12,10,OSD-463,OSDRG060,True
+OSD-464,mus musculus,left lung,c57bl/6j,male,16-17 {week},unspecified,10,9,OSD-464,OSDRG061,True
+OSD-47,mus musculus,liver,c57bl/6ntac,female,8 {month},unspecified,3,3,OSD-47,OSDRG062,True
+OSD-48,mus musculus,liver,c57bl/6j,female,16 {week},unspecified,7,7,OSD-48,OSDRG063,True
+OSD-506,mus musculus,spleen,c57bl/6j,male,16-17 {week},unspecified,9,10,OSD-506,OSDRG064,True
+OSD-511,mus musculus,mammary gland,balb/canntac,female,unspecified,unspecified,10,15,OSD-511,OSDRG065,True
+OSD-512,mus musculus,adrenal gland,c57bl/6j,male,16-17 {week},unspecified,10,10,OSD-512,OSDRG066,True
+OSD-513,mus musculus,left kidney,c57bl/6j,male,16-17 {week},unspecified,10,10,OSD-513,OSDRG067,True
+OSD-515,mus musculus,thymus,c57bl/6j,male,16-17 {week},unspecified,10,10,OSD-515,OSDRG068,True
+OSD-525,mus musculus,cerebellum,c57bl/6j,male,16-17 {week},unspecified,10,10,OSD-525,OSDRG069,True
+OSD-561,mus musculus,right hemisphere of cerebellum,c57bl/6ntac,female,unspecified,unspecified,14,12,OSD-561,OSDRG070,True
+OSD-562,mus musculus,right hippocampus,c57bl/6ntac,female,unspecified,unspecified,15,12,OSD-562,OSDRG071,True
+OSD-563,mus musculus,right hemisphere of cerebellum,b6129sf2/j,female,14 - 15 {week},unspecified,5,5,OSD-563,OSDRG072,True
+OSD-564,mus musculus,right hippocampus,b6129sf2/j,female,14 - 15 {week},unspecified,5,5,OSD-564,OSDRG073,True
+OSD-576,mus musculus,right tibialis anterior,c57bl/6j,male,16-17 {week},unspecified,9,9,OSD-576,OSDRG074,True
+OSD-580,mus musculus,heart,c57bl/6ntac,female,unspecified,unspecified,10,10,OSD-580,OSDRG075,True
+OSD-580,mus musculus,heart right ventricle,c57bl/6ntac,female,unspecified,unspecified,10,10,OSD-580,OSDRG076,True
+OSD-599,mus musculus,heart,c57bl/6j,female,9 - 11 {week},unspecified,3,3,OSD-599,OSDRG077,True
+OSD-665,mus musculus,right extensor digitorum longus,c57bl/6j,male,16-17 {week},unspecified,10,10,OSD-665,OSDRG078,True
+OSD-666,mus musculus,right quadriceps femoris,c57bl/6j,male,16-17 {week},unspecified,10,10,OSD-666,OSDRG079,True
+OSD-667,mus musculus,colon,b6129sf2/j,female,14-15 {week},wild type,4,5,OSD-667,OSDRG080,True
+OSD-667,mus musculus,colon,b6;129s2,female,14-15 {week},p21-null,5,5,OSD-667,OSDRG081,True
+OSD-686,mus musculus,liver,c57bl/6j,male,9 {week},unspecified,6,3,OSD-686,OSDRG082,True
+OSD-690,mus musculus,bone marrow,c57bl/6j,male,12 {week},nrf2ko,6,6,OSD-690,OSDRG083,True
+OSD-690,mus musculus,bone marrow,c57bl/6j,male,12 {week},wild type,6,6,OSD-690,OSDRG084,True
+OSD-770,mus musculus,right soleus,c57bl/6j,male,16 - 17 {week},unspecified,10,10,OSD-770,OSDRG085,True
+OSD-771,mus musculus,right kidney,c57bl/6ntac,female,unspecified,unspecified,20,20,OSD-771,OSDRG086,True
+OSD-98,mus musculus,adrenal glands- both sides,c57bl/6j,female,16 {week},unspecified,6,5,OSD-98,OSDRG087,True
+OSD-99,mus musculus,extensor digitorum longus- both sides,c57bl/6j,female,16 {week},unspecified,6,6,OSD-99,OSDRG088,True

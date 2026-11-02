@@ -68,6 +68,14 @@ query_profiles = pd.read_csv(DATA / "tcga_centroid_hallmark_profiles.csv", index
 retrieved_profiles = pd.read_csv(DATA / "retrieved_archs4_mean_hallmark_profiles.csv", index_col=0)
 qa = json.loads((DATA / "qa.json").read_text())
 headline = json.loads((DATA / "headline_summary.json").read_text())
+independent_cancers = pd.read_csv(DATA / "independent_cancer_profile_concordance.csv")
+independent_pathways = pd.read_csv(DATA / "independent_pathway_ranking_concordance.csv")
+independent_summary = json.loads((DATA / "independent_validation_summary.json").read_text())
+extended_retrieval = pd.read_csv(DATA / "extended_retrieval_metrics.csv")
+signal_matching = pd.read_csv(DATA / "signal_matching_summary.csv")
+osdr_summary = json.loads((DATA / "osdr_scientific_summary.json").read_text())
+multispecies = pd.read_csv(DATA / "multispecies_topk_comparison.csv")
+multispecies_provenance = json.loads((DATA / "multispecies_provenance.json").read_text())
 
 assert qa["passed"] is True
 assert qa["dimensions"] == {
@@ -79,6 +87,9 @@ assert len(centroid) == 32 * 6 and centroid.cancer_type.nunique() == 32
 assert query_profiles.shape == retrieved_profiles.shape == (32, 50)
 assert np.isfinite(query_profiles.to_numpy()).all()
 assert np.isfinite(retrieved_profiles.to_numpy()).all()
+assert independent_cancers.shape == (32, 4)
+assert independent_pathways.shape == (50, 2)
+assert multispecies_provenance["combined_reference_samples"] == 940455
 print("Cached evidence loaded; cohort, dimensions, ordering, and finite-value checks passed.")
 """
     ),
@@ -103,6 +114,52 @@ P(z) = \\left(\\frac{z-\\mu_{GTEx}}{\\sigma_{GTEx}}\\right)W^T + b.
 $$
 
 The outputs are continuous **Bridge Hallmark scores** predicting GTEx-standardized rank-mean targets. They are not probabilities, GSEA enrichment scores, formal ssGSEA scores, causal pathway activities, or gene-level decoder outputs. Neither TCGA nor ARCHS4 labels were used to fit this mapping.
+"""
+    ),
+    md(
+        """
+## Independent validation of the Hallmark coordinate system
+
+Before interpreting retrieval, the frozen readout was tested against Hallmark profiles computed independently from TCGA expression. Across 32 cancer types, the mean Pearson correlation between conventional and Bridge-predicted 50-Hallmark cancer profiles was **0.756**. Cancer-to-cancer geometry agreed much more strongly with conventional Hallmark geometry after the frozen Hallmark projection than in the original Bridge space: similarity-matrix Spearman was **0.862** for Hallmark-50 and **0.388** for Bridge-512. Across the 50 pathways, the median Spearman correlation of cancer rankings was **0.824**.
+
+This is independent evidence that the head recovers recognizable Hallmark structure beyond GTEx. The conventional comparator is a deterministic rank-mean, ssGSEA-like profile on the same 15,165-gene vocabulary; it is not exact ssGSEA 2.0 NES and should not be described as such.
+"""
+    ),
+    code(
+        """
+iv = independent_summary["metrics"]
+validation_table = pd.DataFrame({
+    "validation quantity": [
+        "Mean cancer-profile Pearson",
+        "Cancer geometry Spearman: Hallmark-50",
+        "Cancer geometry Spearman: Bridge-512",
+        "Median pathway cancer-ranking Spearman",
+    ],
+    "value": [
+        iv["mean_cancer_profile_pearson"],
+        iv["similarity_matrix_spearman_conventional_vs_bridge_hallmark"],
+        iv["similarity_matrix_spearman_conventional_vs_bridge512"],
+        iv["median_pathway_ranking_spearman"],
+    ],
+})
+display(validation_table.round({"value": 3}))
+
+fig, axes = plt.subplots(1, 2, figsize=(11, 4.5))
+sns.histplot(independent_cancers["pearson_conventional_vs_bridge_hallmark"], bins=10,
+             color="#4C78A8", ax=axes[0])
+axes[0].axvline(independent_cancers["pearson_conventional_vs_bridge_hallmark"].mean(),
+                color="black", linestyle="--", label="Mean")
+axes[0].set(xlabel="Pearson correlation", ylabel="Cancer types",
+            title="Expression-derived vs Bridge Hallmark profiles")
+axes[0].legend()
+sns.histplot(independent_pathways["cancer_ranking_spearman"], bins=10,
+             color="#59A14F", ax=axes[1])
+axes[1].axvline(independent_pathways["cancer_ranking_spearman"].median(),
+                color="black", linestyle="--", label="Median")
+axes[1].set(xlabel="Cancer-ranking Spearman", ylabel="Hallmark pathways",
+            title="Pathway-wise cancer ordering")
+axes[1].legend()
+savefig(fig, "independent_tcga_validation")
 """
     ),
     md(
@@ -239,6 +296,96 @@ savefig(fig, "expression_and_metadata_comparison")
     ),
     md(
         """
+## Extended 33-cancer retrieval audit
+
+The broader audit separates two questions that should not be conflated. For **patient-level disease lookup at top 50**, Bridge-512 was stronger: exact-disease precision was **0.338** versus **0.305**, tissue precision **0.424** versus **0.395**, and malignancy precision **0.777** versus **0.707** for Hallmark cosine. For **cancer-centroid retrieval at top 10**, performance was much closer: exact-disease precision was **0.488** for Bridge and **0.482** for Hallmark, while tissue precision was **0.506** and **0.512**.
+
+Hallmark cosine covered more of the query's signed pathway signal at top 10 (**0.791** versus **0.707** for Bridge). A signed top-10 Hallmark-overlap mode raised signal coverage to **0.888**, but exact-disease precision fell to **0.388**. This is a useful tradeoff, not evidence that one metric dominates. UVM and CHOL were favorable centroid examples for Hallmark retrieval (8/10 versus 6/10 and 9/10 versus 6/10 exact matches), while LUAD retrieved biologically related LUSC samples; these remain descriptive metadata-compatible cases.
+"""
+    ),
+    code(
+        """
+def metric_value(method, criterion, k=50):
+    row = extended_retrieval[
+        extended_retrieval.method.eq(method) &
+        extended_retrieval.criterion.eq(criterion) &
+        extended_retrieval.k.eq(k)
+    ]
+    assert len(row) == 1
+    return row.macro_precision.iloc[0]
+
+patient_rows = []
+for criterion, label in [("exact_disease", "Exact disease"),
+                         ("tissue_organ", "Tissue"),
+                         ("malignancy", "Malignancy")]:
+    for method in ["Bridge-512 cosine", "Hallmark-50 cosine"]:
+        patient_rows.append({"criterion": label, "method": method,
+                             "precision": metric_value(method, criterion)})
+patient_summary = pd.DataFrame(patient_rows)
+
+s10 = signal_matching[signal_matching.k.eq(10)].copy()
+keep_methods = ["Bridge-512 reference", "whole_vector_cosine", "signed_top10_overlap"]
+s10 = s10[s10.method.isin(keep_methods)]
+display(patient_summary.pivot(index="criterion", columns="method", values="precision").round(3))
+display(s10[["method", "exact_disease_precision", "tissue_precision",
+             "malignancy_precision", "signal_coverage_top10"]].round(3))
+
+fig, axes = plt.subplots(1, 2, figsize=(12, 4.6))
+sns.barplot(data=patient_summary, x="criterion", y="precision", hue="method", ax=axes[0])
+axes[0].set(xlabel="", ylabel="Macro precision@50", title="Patient-level metadata retrieval")
+axes[0].legend(title="")
+centroid_plot = s10.melt(id_vars="method",
+    value_vars=["exact_disease_precision", "tissue_precision", "signal_coverage_top10"],
+    var_name="criterion", value_name="value")
+centroid_plot["criterion"] = centroid_plot["criterion"].map({
+    "exact_disease_precision": "Exact disease",
+    "tissue_precision": "Tissue",
+    "signal_coverage_top10": "Signal coverage",
+})
+centroid_plot["method"] = centroid_plot["method"].map({
+    "Bridge-512 reference": "Bridge-512",
+    "whole_vector_cosine": "Hallmark-50 cosine",
+    "signed_top10_overlap": "Hallmark signed top-10",
+})
+sns.barplot(data=centroid_plot, x="criterion", y="value", hue="method", ax=axes[1])
+axes[1].set(xlabel="", ylabel="Macro value@10", title="Cancer-centroid tradeoff")
+axes[1].tick_params(axis="x", rotation=15)
+axes[1].legend(title="", fontsize=8)
+savefig(fig, "extended_retrieval_tradeoff")
+"""
+    ),
+    md(
+        """
+## Cross-study replication and the cross-species boundary
+
+The same frozen system was applied to 1,471 OSDR mouse samples in 88 eligible experimental groups. Hallmark cosine had higher top-10 replicate-neighbor consistency than Bridge-512 (**0.613–0.629** versus **0.366–0.386** across flight and ground-control conditions), but also showed stronger hub effects and weaker tissue contextualization. Among 435 strict flight-enriched retrievals from 24 groups, Bridge supplied 233, Hallmark cosine 179, and signed Hallmark overlap 23.
+
+Expanding the database to **940,455** human and mouse ARCHS4 samples revealed a strong domain boundary. At top 10, the mouse fraction was **99.53%** for Bridge and **100%** for both Hallmark modes. Hallmark tissue coherence improved from **0.063** when mouse queries were forced into the human-only atlas to **0.635** in the combined atlas. The pathway system is portable as a coordinate system, but cross-species nearest-neighbor retrieval is not species-invariant.
+"""
+    ),
+    code(
+        """
+rep = pd.DataFrame(osdr_summary["macro_replicate_consistency_top10"])
+rep["condition"] = rep.condition.map({"FLT": "Flight", "GC": "Ground control"})
+m10 = multispecies[multispecies.k.eq(10)].copy()
+display(rep[["method", "condition", "neighbor_jaccard"]].round(3))
+display(m10[["reference_set", "method", "mouse_fraction", "tissue_coherence"]].round(3))
+
+fig, axes = plt.subplots(1, 2, figsize=(12, 4.6))
+sns.barplot(data=rep, x="method", y="neighbor_jaccard", hue="condition", ax=axes[0])
+axes[0].set(xlabel="", ylabel="Replicate neighbor Jaccard@10",
+            title="OSDR replicate retrieval")
+axes[0].tick_params(axis="x", rotation=18)
+combined = m10[m10.reference_set.eq("combined")]
+sns.barplot(data=combined, x="method", y="mouse_fraction", color="#76B7B2", ax=axes[1])
+axes[1].set(xlabel="", ylabel="Mouse fraction@10", ylim=(0.95, 1.005),
+            title="Combined human/mouse reference")
+axes[1].tick_params(axis="x", rotation=18)
+savefig(fig, "cross_study_and_species_boundary")
+"""
+    ),
+    md(
+        """
 ## Controls and limitations
 
 - Removing the strongest one or three Hallmark coordinates retained median Jaccard@100 of **0.896** and **0.794**, respectively, although minima of **0.282** and **0.299** show that robustness was not universal.
@@ -268,9 +415,9 @@ print("All packaged headline metrics reproduce the cached benchmark summaries.")
         """
 ## Conclusion
 
-The frozen GTEx-trained Hallmark head converts Bridge sample embeddings into a common 50-dimensional functional-program coordinate system without adapting to TCGA or ARCHS4. Hallmark-50 retrieval preserved the query's predicted pathway profile while returning substantially different ARCHS4 neighborhoods from Bridge-512 and conventional expression retrieval. Bridge better retained coarse organ metadata, whereas Hallmark retrieval supplied a complementary, pathway-decomposable search mode.
+The frozen GTEx-trained Hallmark head converts Bridge sample embeddings into a common 50-dimensional functional-program coordinate system without adapting to TCGA or ARCHS4. Its TCGA cancer profiles independently agree with expression-derived Hallmark structure, and Hallmark-50 retrieval preserves that profile while returning substantially different ARCHS4 neighborhoods from Bridge-512 and conventional expression retrieval.
 
-The same frozen scaler, Ridge coefficients, Hallmark ordering, Bridge checkpoint, canonical-gene mapping, and preprocessing contract can be carried unchanged into cross-species analyses. Those applications test whether a fixed human-trained pathway coordinate system transfers across species; their biological results and orthology/domain-shift limitations must be evaluated separately.
+The positive result is therefore not that Hallmark retrieval is universally more accurate. Bridge remained better for several patient-level disease and tissue criteria. Hallmark retrieval adds a complementary, pathway-decomposable search mode, broader functional-signal coverage, and useful centroid-level examples. Cross-species analyses show that the same frozen coordinates can be computed in mouse, but retrieval remains strongly species/domain structured and requires species-matched references.
 
 ### References
 

@@ -1,0 +1,20 @@
+{
+  "all_patient_centroid": {
+    "full_atlas_pearson_bridge_vs_hallmark_similarity": 0.4870898723602295,
+    "full_atlas_spearman_bridge_vs_hallmark_similarity": 0.5783822610945366,
+    "median_bridge_rank_of_hallmark_top100": 893.5,
+    "median_hallmark_rank_of_bridge_top100": 596.5,
+    "pearson_bridge_vs_hallmark_similarity": -0.31562204910892194,
+    "spearman_bridge_vs_hallmark_similarity": -0.4675895007386719,
+    "union_candidates": 181
+  },
+  "representative_patient": {
+    "full_atlas_pearson_bridge_vs_hallmark_similarity": 0.4703971743583679,
+    "full_atlas_spearman_bridge_vs_hallmark_similarity": 0.622893666554392,
+    "median_bridge_rank_of_hallmark_top100": 570.0,
+    "median_hallmark_rank_of_bridge_top100": 700.5,
+    "pearson_bridge_vs_hallmark_similarity": -0.26704553943408227,
+    "spearman_bridge_vs_hallmark_similarity": -0.3927192628701745,
+    "union_candidates": 172
+  }
+}

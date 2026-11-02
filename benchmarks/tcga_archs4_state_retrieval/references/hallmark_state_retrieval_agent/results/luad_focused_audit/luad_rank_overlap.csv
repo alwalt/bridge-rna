@@ -1,0 +1,9 @@
+query_type,k,intersection,union,jaccard
+representative_patient,5,2,8,0.25
+representative_patient,10,3,17,0.17647058823529413
+representative_patient,50,11,89,0.12359550561797752
+representative_patient,100,28,172,0.16279069767441862
+all_patient_centroid,5,0,10,0.0
+all_patient_centroid,10,1,19,0.05263157894736842
+all_patient_centroid,50,8,92,0.08695652173913043
+all_patient_centroid,100,19,181,0.10497237569060773

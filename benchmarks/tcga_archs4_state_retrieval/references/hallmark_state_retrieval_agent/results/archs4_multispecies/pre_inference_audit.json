@@ -1,0 +1,59 @@
+{
+  "status": "STOPPED_BEFORE_EXPENSIVE_INFERENCE",
+  "audit_date": "2026-09-25",
+  "archs4_version": "2.5",
+  "sample_counts": {
+    "human_h5_total_columns": 888821,
+    "mouse_h5_total_columns": 997515,
+    "human_compatible_cached_samples": 510709,
+    "mouse_compatible_cached_samples": 429746,
+    "combined_compatible_cached_samples": 940455,
+    "existing_compatible_bridge_512": 940455,
+    "requiring_bridge_inference": 0
+  },
+  "compatibility": {
+    "embedding_shape": [940455, 512],
+    "embedding_dtype": "float16",
+    "embedding_normalization": "log1p_tpm",
+    "embedding_l2_normalized": false,
+    "canonical_gene_count": 15165,
+    "canonical_contract": "shared human-symbol ordering restricted to one-to-one human/mouse ortholog vocabulary",
+    "canonical_symbols_unique": 15165,
+    "canonical_symbols_with_one_to_one_mouse_ortholog": 15165,
+    "canonical_symbols_missing_one_to_one_mouse_ortholog": 0,
+    "canonical_symbols_with_multiple_mouse_gene_ids": 0,
+    "pooling": "unweighted mean of final-layer contextual gene states",
+    "include_species_embedding": false,
+    "mouse_zero_shot_head_label": "zero-shot cross-species predictions from the human GTEx-trained head",
+    "metadata_missing_from_cache_join": 0,
+    "species_mismatches": 0,
+    "nonfinite_embedding_values": {"human": 0, "mouse": 0},
+    "zero_norm_embeddings": {"human": 0, "mouse": 0}
+  },
+  "artifacts": {
+    "embedding_manifest": {"path": "/home/walt/bridge-rna/embeddings/archs4/embedding_manifest.json", "sha256": "6234ea0bf64498f36a884075ed3b2bd195fb0e4394c5980c555efe3d3bbc5f62"},
+    "embedding_rows": {"path": "/home/walt/bridge-rna/embeddings/archs4/sample_locations.parquet", "sha256": "c0fb1e1f628ad01caefd76b3a661820173498612f9e1f5510d9a1177a8d8af98"},
+    "embedding_matrix": {"path": "/home/walt/bridge-rna/embeddings/archs4/sample_embeddings.float16.mmap", "sha256": "2381f26e4197715d74efc9e68f985d546a5aa60671ba4c96482bd2952252299a"},
+    "sample_manifest": {"path": "/home/walt/bridge-rna/data/manifests/sample_manifest.parquet", "sha256": "a45f80bacf7b96ee1a8743e2f858aa46e9ce8a81380925a53df95784fe4324d9"},
+    "metadata": {"path": "/home/walt/bridge-rna/data/manifests/archs4_sample_metadata_v2.5.parquet", "sha256": "6306f53227a8e1ff18b84d1d85b4faf9361061972d94989d4f677cada659d3b8"},
+    "canonical_genes": {"path": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv", "sha256": "1dbe9a5753e5982b3ddb383f35e92ce5795c21fc054fff685514831c8dadbb8d"},
+    "checkpoint": {"path": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt", "sha256": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541"},
+    "model_config": {"path": "/home/walt/bridge-rna.worktrees/create-a-new-self-contained-benchmark-investigat/model/r7hnr92k/config.json", "sha256": "1cccc2a0dc09da29f69b574e96f1fa2c5e70dc99d20a8b79d921d1e4fa49b805"},
+    "hallmark_probe": {"path": "../frozen/frozen_gtex_hallmark_probe.npz", "sha256": "f3f6c2ddc75d872b1e78af189f9286ff2be64ee43e90047916fca5ffe0538931"},
+    "hallmark_order": {"path": "../frozen/frozen_hallmark_order.csv", "sha256": "7975818ac52f21c9ed0ed50ef3406ba6512ab5715dc6673c6cc9fc39dfd3cc8d"}
+  },
+  "estimated_mouse_atlas_build": {
+    "bridge_inference": "none",
+    "hallmark_projection_runtime": "approximately 16-30 seconds based on the measured 19.25 seconds for 510,709 human samples",
+    "index_and_metadata_runtime": "approximately 1-5 minutes of CPU/I/O",
+    "incremental_storage_bytes": {
+      "mouse_bridge_float32_cosine_index": 880119808,
+      "mouse_hallmark_float32_signatures": 85949200,
+      "mouse_hallmark_float32_cosine_index": 85949200,
+      "metadata_and_row_manifests_estimate": 25000000
+    },
+    "incremental_storage_estimate": "about 1.0-1.2 GB without duplicating combined arrays; combined search can merge exact human and mouse top-k results"
+  },
+  "decision": "Reuse all 940,455 compatible frozen Bridge embeddings. Do not rerun Bridge. Apply the unchanged frozen GTEx-trained probe to 429,746 mouse rows, then create species-specific logical indexes and exact merged combined retrieval.",
+  "legacy_osdr_policy": "Preserve existing results in results/osdr_atlas unchanged and label them mouse OSDR -> human ARCHS4 cross-species retrieval."
+}

@@ -1,0 +1,9 @@
+{
+  "existing_results_path": "../osdr_atlas",
+  "preserve_unchanged": true,
+  "query_species": "Mus musculus",
+  "reference_species": "Homo sapiens",
+  "explicit_label": "mouse OSDR -> human ARCHS4 cross-species retrieval",
+  "reference_sample_count": 510709,
+  "warning": "These legacy results used the human-only ARCHS4 reference and must not be described as complete human+mouse ARCHS4 retrieval."
+}

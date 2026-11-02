@@ -1,0 +1,51 @@
+pathway_index,hallmark
+0,Adipogenesis
+1,Allograft Rejection
+2,Androgen Response
+3,Angiogenesis
+4,Apical Junction
+5,Apical Surface
+6,Apoptosis
+7,Bile Acid Metabolism
+8,Cholesterol Homeostasis
+9,Coagulation
+10,Complement
+11,DNA Repair
+12,E2F Targets
+13,Epithelial Mesenchymal Transition
+14,Estrogen Response Early
+15,Estrogen Response Late
+16,Fatty Acid Metabolism
+17,G2-M Checkpoint
+18,Glycolysis
+19,Hedgehog Signaling
+20,Hypoxia
+21,IL-2/STAT5 Signaling
+22,IL-6/JAK/STAT3 Signaling
+23,Inflammatory Response
+24,Interferon Alpha Response
+25,Interferon Gamma Response
+26,KRAS Signaling Dn
+27,KRAS Signaling Up
+28,Mitotic Spindle
+29,Myc Targets V1
+30,Myc Targets V2
+31,Myogenesis
+32,Notch Signaling
+33,Oxidative Phosphorylation
+34,PI3K/AKT/mTOR  Signaling
+35,Pancreas Beta Cells
+36,Pperoxisome
+37,Protein Secretion
+38,Reactive Oxygen Species Pathway
+39,Spermatogenesis
+40,TGF-beta Signaling
+41,TNF-alpha Signaling via NF-kB
+42,UV Response Dn
+43,UV Response Up
+44,Unfolded Protein Response
+45,Wnt-beta Catenin Signaling
+46,Xenobiotic Metabolism
+47,heme Metabolism
+48,mTORC1 Signaling
+49,p53 Pathway

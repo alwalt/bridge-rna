@@ -1,0 +1,35 @@
+{
+  "local_reconstruction": {
+    "cancer_types": 32,
+    "deviation": "available conventional profiles are deterministic rank-mean ssGSEA-like scores on the frozen 15,165-gene vocabulary, not exact ssGSEA 2.0 NES; subtype/mutation reconstruction not claimed",
+    "matched_samples": 9816
+  },
+  "metrics": {
+    "mean_cancer_profile_pearson": 0.7556156965287357,
+    "median_pathway_ranking_spearman": 0.8236803519061583,
+    "nearest_cancer_agreement_fraction": 0.625,
+    "similarity_matrix_spearman_conventional_vs_bridge512": 0.3876504383092298,
+    "similarity_matrix_spearman_conventional_vs_bridge_hallmark": 0.8622597756627742
+  },
+  "paper": "McClure et al., Landscape of Genetic Alterations Underlying Hallmark Signature Changes in Cancer Reveals TP53 Aneuploidy-driven Metabolic Reprogramming, Cancer Research Communications (2023)",
+  "paper_method_frozen_before_bridge_analysis": {
+    "excluded": [
+      "KRAS Signaling Dn",
+      "Spermatogenesis"
+    ],
+    "major_relationship": "TP53 and aneuploidy associated with high proliferation and glycolysis, especially squamous cancers and basal/basal-squamous BRCA/BLCA subtypes",
+    "samples": 8603,
+    "signatures_analyzed": 48,
+    "signatures_started": 50,
+    "ssGSEA2_parameters": {
+      "correlation_type": "z score",
+      "min_overlap": 5,
+      "normalization": "rank",
+      "output": "NES",
+      "permutations": 1000,
+      "statistic": "area under RES",
+      "weight": 0.75
+    },
+    "tumor_types": 31
+  }
+}
