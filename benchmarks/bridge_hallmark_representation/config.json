@@ -1,0 +1,53 @@
+{
+  "seed": 42,
+  "checkpoint": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+  "model_config": "../../model/r7hnr92k/config.json",
+  "canonical_genes": "../../data/ensembl/canonical_genes.csv",
+  "hallmark_gmt": "/home/walt/.cache/gseapy/Enrichr.MSigDB_Hallmark_2020.gmt",
+  "gtex_expression": "/home/walt/bridge-rna/benchmarks/mouse_encode/work/expanded_gtex_log1p_tpm.npy",
+  "gtex_embeddings": "/home/walt/bridge-rna/benchmarks/mouse_encode/work/expanded_gtex_bridgerna_embeddings.npy",
+  "gtex_metadata": "/home/walt/bridge-rna/benchmarks/mouse_encode/results/expanded_task1a_sample_manifest.parquet",
+  "tcga_tpm": "/home/walt/Attention/data/tcga/tcga_tpm_unstranded_matrix.parquet",
+  "tcga_cart_metadata": "/home/walt/Attention/data/tcga/metadata.cart.2025-11-16.json",
+  "tcga_manifest": "/home/walt/bridge-rna/benchmarks/tcga_downstream/results/cohort_manifest.parquet",
+  "tcga_bridge_expression": "/home/walt/bridge-rna/benchmarks/tcga_downstream/work/ours_log1p_tpm.npy",
+  "tcga_full_expression": "/home/walt/bridge-rna/benchmarks/tcga_downstream/work/tcga_full_log1p_cpm.npy",
+  "tcga_full_h5": "/home/walt/bridge-rna/data/tcga/tcga_matrix.h5",
+  "tcga_bridge_genes": "/home/walt/bridge-rna/benchmarks/tcga_downstream/work/ours_genes.parquet",
+  "gene_lengths": "../../data/gencode/gencode_v49_gene_exon_lengths.csv",
+  "top_k_member_genes": 10,
+  "outer_folds": 5,
+  "ridge_alphas": [0.01, 0.1, 1.0, 10.0, 100.0],
+  "dimension_subsets": [1, 5, 10, 25, 512],
+  "gene_test_fraction": 0.2,
+  "bootstrap_replicates": 1000,
+  "random_gene_set_replicates": 25,
+  "gsea_permutations": 1000,
+  "tcga_contrasts": {
+    "LUAD_vs_LUSC": ["LUAD", "LUSC"],
+    "KIRC_vs_KIRP": ["KIRC", "KIRP"]
+  },
+  "tcga_pan_cancer_contrasts": {
+    "LUAD_vs_LUSC": {"groups": ["LUAD", "LUSC"], "family": "lung_histology"},
+    "KIRC_vs_KIRP": {"groups": ["KIRC", "KIRP"], "family": "renal_subtype"},
+    "KIRC_vs_KICH": {"groups": ["KIRC", "KICH"], "family": "renal_subtype"},
+    "KIRP_vs_KICH": {"groups": ["KIRP", "KICH"], "family": "renal_subtype"},
+    "GBM_vs_LGG": {"groups": ["GBM", "LGG"], "family": "glioma_grade_type"},
+    "COAD_vs_READ": {"groups": ["COAD", "READ"], "family": "colorectal_site"},
+    "UCEC_vs_UCS": {"groups": ["UCEC", "UCS"], "family": "uterine_histology"}
+  },
+  "ig_validation": {
+    "steps": [8, 16, 32, 64, 128],
+    "reference_steps": 128,
+    "relative_completeness_tolerance": 0.01,
+    "rank_spearman_threshold": 0.99,
+    "top50_overlap_threshold": 0.9,
+    "path_batch": 4
+  },
+  "matched_pairs": {
+    "lung": ["LUAD", "LUSC"],
+    "mammary gland": ["BRCA"],
+    "thyroid": ["THCA"],
+    "kidney": ["KIRC", "KIRP", "KICH"]
+  }
+}

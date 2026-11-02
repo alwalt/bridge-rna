@@ -1,0 +1,8 @@
+contrast,contrast_family,contrast_type,group_a,group_b,n_a,n_b,patient_disjoint,de_method,ranking_statistic,whole_genes,bridge_intersection_genes,gsea_permutations
+LUAD_vs_LUSC,lung_histology,subtype_vs_subtype,LUAD,LUSC,516,501,True,Welch t statistic on log1p CPM,signed Welch t statistic,25150,14656,1000
+KIRC_vs_KIRP,renal_subtype,subtype_vs_subtype,KIRC,KIRP,531,290,True,Welch t statistic on log1p CPM,signed Welch t statistic,25150,14656,1000
+KIRC_vs_KICH,renal_subtype,subtype_vs_subtype,KIRC,KICH,531,66,True,Welch t statistic on log1p CPM,signed Welch t statistic,25150,14656,1000
+KIRP_vs_KICH,renal_subtype,subtype_vs_subtype,KIRP,KICH,290,66,True,Welch t statistic on log1p CPM,signed Welch t statistic,25150,14656,1000
+GBM_vs_LGG,glioma_grade_type,subtype_vs_subtype,GBM,LGG,155,514,True,Welch t statistic on log1p CPM,signed Welch t statistic,25150,14656,1000
+COAD_vs_READ,colorectal_site,subtype_vs_subtype,COAD,READ,458,166,True,Welch t statistic on log1p CPM,signed Welch t statistic,25150,14656,1000
+UCEC_vs_UCS,uterine_histology,subtype_vs_subtype,UCEC,UCS,541,57,True,Welch t statistic on log1p CPM,signed Welch t statistic,25150,14656,1000
