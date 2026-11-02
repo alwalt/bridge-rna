@@ -10,9 +10,9 @@ from datetime import date
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 SOURCE = ROOT / "benchmarks" / "zhong_gene_biology" / "results"
-DEST = Path(__file__).resolve().parent / "cached"
+DEST = ROOT / "notebooks" / "gene_embedding_benchmarks" / "cached"
 ZHONG_DEST = DEST / "zhong"
 ZHONG_REPOSITORY = "https://github.com/ylaboratory/gene-embedding-benchmarks"
 ZHONG_COMMIT = "d1320026a2a4ee033d49517f91e2d1c2ccc8df1e"

@@ -19,8 +19,8 @@ import sklearn
 from sklearn.metrics import accuracy_score, f1_score
 
 
-PACKAGE = Path(__file__).resolve().parent
-REPO = PACKAGE.parents[1]
+REPO = Path(__file__).resolve().parents[3]
+PACKAGE = REPO / "notebooks" / "tissue_disease_annotation"
 DEFAULT_RESEARCH = REPO / "benchmarks" / "tissue_disease_annotation"
 REPRESENTATIONS = ["bridge", "pca", "raw"]
 COLORS = {"bridge": "#4C78A8", "pca": "#F58518", "raw": "#54A24B"}
@@ -382,9 +382,9 @@ def main() -> None:
             "GTEx-versus-TCGA normal/tumor classification is out of scope because cohort effects confound disease state.",
         ],
     }
-    (PACKAGE / "provenance.json").write_text(json.dumps(provenance, indent=2) + "\n")
-    (PACKAGE / "validation.json").write_text(json.dumps(verification, indent=2) + "\n")
-    (PACKAGE / "validation.log").write_text(
+    (PACKAGE / "data" / "provenance.json").write_text(json.dumps(provenance, indent=2) + "\n")
+    (PACKAGE / "data" / "validation.json").write_text(json.dumps(verification, indent=2) + "\n")
+    (PACKAGE / "data" / "validation.log").write_text(
         "PASS: prediction-level metrics match saved fold metrics within 1e-12.\n"
         "PASS: held-out sample sets are identical across Bridge, PCA, and raw expression.\n"
         "PASS: no duplicate held-out predictions were detected.\n"

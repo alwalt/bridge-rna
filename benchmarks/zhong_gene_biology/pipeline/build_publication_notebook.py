@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the public cached-mode gene embedding benchmark notebook."""
+"""Build the gene embedding benchmark notebook from saved results."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -7,7 +7,8 @@ from pathlib import Path
 import nbformat as nbf
 
 
-HERE = Path(__file__).resolve().parent
+REPO = Path(__file__).resolve().parents[3]
+HERE = REPO / "notebooks" / "gene_embedding_benchmarks"
 OUT = HERE / "gene_embedding_benchmarks.ipynb"
 
 
@@ -23,7 +24,7 @@ def main() -> None:
         nbf.v4.new_markdown_cell(
             """# Gene embedding benchmarks: GO, OMIM, and gene pairing
 
-This is the public, cached-first report for the validated Zhong-style gene-biology benchmark. It evaluates frozen BridgeRNA representations on GO Biological Process, OMIM disease association, and three gene-pair tasks. It also includes a static-only single-gene extension for BulkFormer-50M and BulkFormer-147M.
+This benchmark evaluates frozen BridgeRNA representations on GO Biological Process, OMIM disease association, and three gene-pair tasks using the Zhong-style evaluation protocol. A static-only single-gene comparison includes BulkFormer-50M and BulkFormer-147M.
 
 **Cached mode performs no model inference, SVM fitting, cross-validation, split generation, or controls.** It rebuilds all displayed summaries from compact per-term and per-fold artifacts, checks them against frozen expected tables, audits the pair splits, and regenerates the figures."""
         ),
@@ -362,7 +363,7 @@ Major limitations are different evaluated gene universes across the local adapta
         nbf.v4.new_markdown_cell(
             """## Full recomputation
 
-This public notebook intentionally uses cached artifacts. The complete expensive workflow is documented in the adjacent `README.md`. In brief, full recomputation requires the frozen checkpoints and vocabularies, Zhong's supplied split files, Bridge E0/E1 extraction, the GTEx-200 E2 inference pass, per-term GO/OMIM SVM fitting, nested gene-pair SVM fitting, and final aggregation. The BulkFormer extension reads only static checkpoint tensors. Do not launch the full workflow merely to execute this report."""
+The analyses shown here use saved benchmark results. Full recomputation requires the frozen checkpoints and vocabularies, Zhong's supplied split files, Bridge E0/E1 extraction, the GTEx-200 E2 inference pass, per-term GO/OMIM SVM fitting, nested gene-pair SVM fitting, and final aggregation. The BulkFormer extension uses static checkpoint tensors. The adjacent `README.md` documents the dependencies and commands for reproducing the analysis."""
         ),
     ]
     OUT.write_text(nbf.writes(nb))

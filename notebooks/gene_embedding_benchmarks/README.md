@@ -25,7 +25,7 @@ included in the bulk-expression comparison.
 From the repository root:
 
 ```bash
-python notebooks/gene_embedding_benchmarks/build_notebook.py
+python benchmarks/zhong_gene_biology/pipeline/build_publication_notebook.py
 jupyter nbconvert --to notebook --execute --inplace \
   notebooks/gene_embedding_benchmarks/gene_embedding_benchmarks.ipynb
 ```
@@ -51,11 +51,11 @@ notebooks/gene_embedding_benchmarks/
     └── bulk_rnaseq_pair_comparison.{png,pdf}
 ```
 
-Use `prepare_cached_artifacts.py` only when intentionally refreshing this public
+Use `benchmarks/zhong_gene_biology/pipeline/prepare_cached_artifacts.py` only when intentionally refreshing this public
 release from a newly validated research benchmark:
 
 ```bash
-python notebooks/gene_embedding_benchmarks/prepare_cached_artifacts.py
+python benchmarks/zhong_gene_biology/pipeline/prepare_cached_artifacts.py
 ```
 
 That command refreshes the local validated artifacts and downloads only the
@@ -145,7 +145,7 @@ Run from the repository root in this order:
    ```
 
 8. Review the research outputs and only then refresh this public cache with
-   `prepare_cached_artifacts.py` and execute the public notebook.
+   `benchmarks/zhong_gene_biology/pipeline/prepare_cached_artifacts.py` and execute the public notebook.
 
 Do not overwrite or delete prior validated results when changing the cohort,
 vocabulary, representation definition, split protocol, or model checkpoint.

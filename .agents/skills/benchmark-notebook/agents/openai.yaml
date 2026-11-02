@@ -1,4 +1,4 @@
 interface:
   display_name: "Benchmark Notebook"
-  short_description: "Package approved benchmark results for publication"
+  short_description: "Explain benchmark data, methods, and validated results"
   default_prompt: "Use $benchmark-notebook for benchmarks/<benchmark_name>."

@@ -35,3 +35,11 @@ tail -f benchmarks/tissue_disease_annotation/results/run.log
 Large derived expression and embedding arrays live under `work/` and are not
 versioned. Canonical datasets and existing TCGA caches are read in place from
 `/home/walt/bridge-rna` and are never modified.
+
+## Scientific notebook source
+
+The report is saved under `notebooks/tissue_disease_annotation/`. Its generation and cache-preparation scripts are maintained in this research directory:
+
+- `pipeline/build_publication.py` (from the repository root: `python benchmarks/tissue_disease_annotation/pipeline/build_publication.py`).
+
+See [the report README](../../notebooks/tissue_disease_annotation/README.md) for dependencies, cached execution, and regeneration details. These scripts use saved evidence; do not launch the full research pipeline to execute the report.

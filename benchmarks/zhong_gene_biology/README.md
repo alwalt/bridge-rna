@@ -167,3 +167,12 @@ The extension writes raw per-term tables, its mapping audit, summary, log, and p
 ## Freeze policy
 
 The benchmark is frozen at the results documented in [RESULTS.md](./RESULTS.md). Finalization reads saved result tables only. It must not trigger Bridge inference, classifier fitting, cross-validation, split regeneration, or new controls. Large representations and the upstream clone remain ignored; compact manifests, provenance, tables, scripts, the executed notebook, and final figures are versioned.
+
+## Scientific notebook source
+
+The report is saved under `notebooks/gene_embedding_benchmarks/`. Its generation and cache-preparation scripts are maintained in this research directory:
+
+- `pipeline/build_publication_notebook.py` (from the repository root: `python benchmarks/zhong_gene_biology/pipeline/build_publication_notebook.py`).
+- `pipeline/prepare_cached_artifacts.py` (from the repository root: `python benchmarks/zhong_gene_biology/pipeline/prepare_cached_artifacts.py`).
+
+See [the report README](../../notebooks/gene_embedding_benchmarks/README.md) for dependencies, cached execution, and regeneration details. These scripts use saved evidence; do not launch the full research pipeline to execute the report.

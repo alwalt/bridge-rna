@@ -11,7 +11,7 @@ Create a minimal environment from the repository root:
 ```bash
 python -m venv .venv-publication
 . .venv-publication/bin/activate
-python -m pip install -r notebooks/tissue_disease_annotation/requirements.txt
+python -m pip install -r notebooks/tissue_disease_annotation/data/requirements.txt
 ```
 
 Execute the cached report:
@@ -32,10 +32,10 @@ The notebook resolves files relative to its package or the repository root. The 
 The publication builder recomputes metrics from the saved research predictions, checks them against the frozen fold tables, then writes only aggregate publication artifacts. It does not invoke model inference or classifier fitting.
 
 ```bash
-python notebooks/tissue_disease_annotation/build_publication.py
+python benchmarks/tissue_disease_annotation/pipeline/build_publication.py
 ```
 
-Prediction-level files are intentionally not duplicated into this package because they include sample identifiers and are not needed to execute the public report. Their hashes and the bounded verification outcome are retained in [`provenance.json`](provenance.json) and [`validation.json`](validation.json).
+Prediction-level files are intentionally not duplicated into this package because they include sample identifiers and are not needed to execute the public report. Their hashes and the bounded verification outcome are retained in [`data/provenance.json`](data/provenance.json) and [`data/validation.json`](data/validation.json).
 
 ## Full benchmark reproduction
 
@@ -51,7 +51,7 @@ python benchmarks/tissue_disease_annotation/pipeline/run_benchmark.py report
 
 These commands are documented for provenance and were **not** run while building this package. They require:
 
-- canonical GTEx v8 and TCGA expression assets at the paths documented in [`provenance.json`](provenance.json);
+- canonical GTEx v8 and TCGA expression assets at the paths documented in [`data/provenance.json`](data/provenance.json);
 - the canonical 15,165-gene vocabulary and GENCODE v49 gene lengths;
 - Bridge checkpoint run `r7hnr92k`;
 - existing TCGA expression and Bridge embedding caches from the TCGA downstream benchmark;
@@ -68,10 +68,10 @@ tail -f benchmarks/tissue_disease_annotation/results/run.log
 - [`tissue_disease_annotation.ipynb`](tissue_disease_annotation.ipynb): executed public scientific report.
 - [`data/`](data/): aggregate metrics, class counts, normalized confusion matrices, and figure data.
 - [`figures/`](figures/): publication figures in PNG and PDF.
-- [`provenance.json`](provenance.json): source hashes, checkpoint, parameters, dependencies, approval, and limitations.
-- [`validation.json`](validation.json): prediction-level verification summary.
-- [`validation.log`](validation.log): compact validation log.
-- [`build_publication.py`](build_publication.py): bounded cached-evidence validator and figure builder.
+- [`data/provenance.json`](data/provenance.json): source hashes, checkpoint, parameters, dependencies, approval, and limitations.
+- [`data/validation.json`](data/validation.json): prediction-level verification summary.
+- [`data/validation.log`](data/validation.log): compact validation log.
+- [`benchmarks/tissue_disease_annotation/pipeline/build_publication.py`](../../benchmarks/tissue_disease_annotation/pipeline/build_publication.py): bounded cached-evidence validator and figure builder.
 
 ## Scientific boundary
 

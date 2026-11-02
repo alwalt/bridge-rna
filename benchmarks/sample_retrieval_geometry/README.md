@@ -177,3 +177,11 @@ compact audit tables and examples are written under
   Bonferroni correction across 510,709 references.
 
 The exact equations, provenance, limitations, and results are in `REPORT.md`.
+
+## Scientific notebook source
+
+The report is saved under `notebooks/sample_retrieval_geometry/`. Its generation and cache-preparation scripts are maintained in this research directory:
+
+- `pipeline/build_publication_package.py` (from the repository root: `python benchmarks/sample_retrieval_geometry/pipeline/build_publication_package.py`).
+
+See [the report README](../../notebooks/sample_retrieval_geometry/README.md) for dependencies, cached execution, and regeneration details. These scripts use saved evidence; do not launch the full research pipeline to execute the report.

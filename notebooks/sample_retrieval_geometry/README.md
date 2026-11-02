@@ -7,7 +7,7 @@ This is the portable publication package for the `sample_retrieval_geometry` ben
 From the repository root:
 
 ```bash
-python -m pip install -r notebooks/sample_retrieval_geometry/requirements.txt
+python -m pip install -r notebooks/sample_retrieval_geometry/data/requirements.txt
 jupyter nbconvert \
   --to notebook \
   --execute notebooks/sample_retrieval_geometry/sample_retrieval_geometry.ipynb \
@@ -21,14 +21,14 @@ The notebook reads only the compact tables and figure data committed beside it. 
 To rebuild the publication cache from a local frozen research benchmark:
 
 ```bash
-python notebooks/sample_retrieval_geometry/build_publication_package.py
+python benchmarks/sample_retrieval_geometry/pipeline/build_publication_package.py
 ```
 
 That bounded command reads saved benchmark evidence and the retained two-million-pair cosine cache; it does not rerun retrieval or inference.
 
 ## Full research workflow (not run by this package)
 
-The source-of-truth research pipeline remains under `benchmarks/sample_retrieval_geometry/pipeline/`. It requires the shared Bridge assets documented in `provenance.json`, including the 510,709-sample ARCHS4 embedding corpus, recount3 query embeddings, GTEx embeddings, manifests, canonical 15,165-gene ordering, and frozen checkpoint.
+The source-of-truth research pipeline remains under `benchmarks/sample_retrieval_geometry/pipeline/`. It requires the shared Bridge assets documented in `data/provenance.json`, including the 510,709-sample ARCHS4 embedding corpus, recount3 query embeddings, GTEx embeddings, manifests, canonical 15,165-gene ordering, and frozen checkpoint.
 
 The relevant full commands are:
 
@@ -46,7 +46,7 @@ These commands are expensive research entrypoints and should not be used merely 
 tail -f benchmarks/sample_retrieval_geometry/results/gtex_biological_retrieval/run.log
 ```
 
-Recorded source runs used a GPU for retrieval, up to about 20.1 GiB peak resident memory for the original Stage 0/1 run, and shared assets outside the benchmark directory. See `provenance.json` for hashes, cohort definitions, transform parameters, validation coverage, and limitations.
+Recorded source runs used a GPU for retrieval, up to about 20.1 GiB peak resident memory for the original Stage 0/1 run, and shared assets outside the benchmark directory. See `data/provenance.json` for hashes, cohort definitions, transform parameters, validation coverage, and limitations.
 
 ## Package contents
 
@@ -54,8 +54,8 @@ Recorded source runs used a GPU for retrieval, up to about 20.1 GiB peak residen
 - `data/`: compact validated result tables.
 - `figure_data/`: compact data sufficient to redraw every figure.
 - `figures/`: PNG and PDF publication figures.
-- `provenance.json`: source hashes, cohorts, frozen parameters, software, and limitations.
-- `validation.json`: verification status and which claims were recalculated from retained per-query evidence.
+- `data/provenance.json`: source hashes, cohorts, frozen parameters, software, and limitations.
+- `data/validation.json`: verification status and which claims were recalculated from retained per-query evidence.
 
 ## Data-access note
 

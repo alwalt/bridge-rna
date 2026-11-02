@@ -5,7 +5,8 @@ from pathlib import Path
 import nbformat as nbf
 
 
-HERE = Path(__file__).resolve().parent
+REPO = Path(__file__).resolve().parents[3]
+HERE = REPO / "notebooks" / "tcga_archs4_state_retrieval"
 
 
 def md(text: str):
@@ -275,7 +276,7 @@ The same frozen scaler, Ridge coefficients, Hallmark ordering, Bridge checkpoint
 ### References
 
 - Liberzon A. *et al.* The Molecular Signatures Database Hallmark Gene Set Collection. *Cell Systems* (2015).
-- Frozen model, cohort, and artifact hashes are recorded in `package_provenance.json`.
+- Frozen model, cohort, and artifact hashes are recorded in `data/package_provenance.json`.
 """
     ),
 ]

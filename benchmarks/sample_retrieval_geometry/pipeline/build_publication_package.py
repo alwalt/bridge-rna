@@ -21,8 +21,8 @@ import numpy as np
 import pandas as pd
 
 
-PACKAGE = Path(__file__).resolve().parent
-REPO = PACKAGE.parents[1]
+REPO = Path(__file__).resolve().parents[3]
+PACKAGE = REPO / "notebooks" / "sample_retrieval_geometry"
 SOURCE = REPO / "benchmarks" / "sample_retrieval_geometry"
 RESULTS = SOURCE / "results"
 DATA = PACKAGE / "data"
@@ -386,8 +386,8 @@ def write_provenance(d: dict[str, object]) -> None:
             "nbformat": nbf.__version__,
         },
     }
-    (PACKAGE / "provenance.json").write_text(json.dumps(provenance, indent=2) + "\n")
-    (PACKAGE / "validation.json").write_text(
+    (PACKAGE / "data" / "provenance.json").write_text(json.dumps(provenance, indent=2) + "\n")
+    (PACKAGE / "data" / "validation.json").write_text(
         json.dumps({"status": "passed", "checks": provenance["verification"]}, indent=2) + "\n"
     )
 
@@ -417,7 +417,7 @@ if not (ROOT / 'data').exists():
         raise FileNotFoundError('Run from notebooks/sample_retrieval_geometry or the repository root')
     ROOT = candidates[0]
 
-provenance = json.loads((ROOT / 'provenance.json').read_text())
+provenance = json.loads((ROOT / 'data/provenance.json').read_text())
 assert provenance['verification']['status'] == 'passed'
 print(f"Validated cached package: {ROOT}")
 """))
