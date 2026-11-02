@@ -1,0 +1,22 @@
+{
+  "individual_bridge_hallmark_jaccard100_median": 0.1111111111111111,
+  "individual_bridge_hallmark_overlap100_median": 20.0,
+  "centroid_bridge_hallmark_jaccard100_median": 0.1236309692895243,
+  "centroid_bridge_hallmark_overlap100_median": 22.0,
+  "metadata_organ_keyword_agreement100_median": {
+    "bridge512_cosine": 0.46,
+    "hallmark50_cosine": 0.4
+  },
+  "functional_profile_preservation_spearman_median": 0.96,
+  "hallmark_only_fraction_among_hallmark_centroid_top100": 0.745625,
+  "dominant_pathway_removal_jaccard_median": {
+    "1": 0.8957771787960467,
+    "3": 0.7937580437580438
+  },
+  "expression_subset_jaccard100_median": {
+    "bridge_vs_expression": 0.2048192771084337,
+    "bridge_vs_hallmark": 0.1331535695942475,
+    "hallmark_vs_expression": 0.1560693641618497
+  },
+  "interpretation": "Bridge-512 and Hallmark-50 are related but materially distinct retrieval modes. Hallmark retrieval reorganizes neighborhoods and preserves query functional profiles, with somewhat lower organ-keyword coherence than Bridge."
+}
