@@ -1,0 +1,881 @@
+group_id,condition,gsm,left_out_hallmark,original_rank,loho_rank,survives_top100
+OSDRG001,FLT,GSM7439136,KRAS Signaling Dn,1,2,True
+OSDRG001,FLT,GSM2358046,KRAS Signaling Dn,2,38,True
+OSDRG001,FLT,GSM2386059,KRAS Signaling Dn,3,60,True
+OSDRG001,FLT,GSM2358048,KRAS Signaling Dn,4,9,True
+OSDRG001,FLT,GSM2386061,KRAS Signaling Dn,5,52,True
+OSDRG001,GC,GSM7439136,KRAS Signaling Dn,1,13,True
+OSDRG001,GC,GSM3569231,KRAS Signaling Dn,2,1,True
+OSDRG001,GC,GSM2386059,KRAS Signaling Dn,3,45,True
+OSDRG001,GC,GSM3974501,KRAS Signaling Dn,4,23,True
+OSDRG001,GC,GSM2386061,KRAS Signaling Dn,5,41,True
+OSDRG002,FLT,GSM1297640,heme Metabolism,1,18,True
+OSDRG002,FLT,GSM1297645,heme Metabolism,2,9,True
+OSDRG002,FLT,GSM1297642,heme Metabolism,3,40,True
+OSDRG002,FLT,GSM4602754,heme Metabolism,4,12,True
+OSDRG002,FLT,GSM1297629,heme Metabolism,5,62,True
+OSDRG002,GC,GSM1297640,heme Metabolism,1,18,True
+OSDRG002,GC,GSM1297645,heme Metabolism,2,10,True
+OSDRG002,GC,GSM1297642,heme Metabolism,3,38,True
+OSDRG002,GC,GSM4602754,heme Metabolism,4,14,True
+OSDRG002,GC,GSM1297629,heme Metabolism,5,62,True
+OSDRG003,FLT,GSM6351556,Pancreas Beta Cells,1,10,True
+OSDRG003,FLT,GSM7779057,Pancreas Beta Cells,2,60,True
+OSDRG003,FLT,GSM3954342,Pancreas Beta Cells,3,41,True
+OSDRG003,FLT,GSM3099836,Pancreas Beta Cells,4,93,True
+OSDRG003,FLT,GSM5862468,Pancreas Beta Cells,5,67,True
+OSDRG003,GC,GSM6351556,Pancreas Beta Cells,1,4,True
+OSDRG003,GC,GSM7779057,Pancreas Beta Cells,2,45,True
+OSDRG003,GC,GSM3099836,Pancreas Beta Cells,3,61,True
+OSDRG003,GC,GSM3954342,Pancreas Beta Cells,4,54,True
+OSDRG003,GC,GSM5862468,Pancreas Beta Cells,5,60,True
+OSDRG004,FLT,GSM1297640,heme Metabolism,1,19,True
+OSDRG004,FLT,GSM1297645,heme Metabolism,2,12,True
+OSDRG004,FLT,GSM1297642,heme Metabolism,3,50,True
+OSDRG004,FLT,GSM4602754,heme Metabolism,4,13,True
+OSDRG004,FLT,GSM1297629,heme Metabolism,5,71,True
+OSDRG004,GC,GSM1297640,heme Metabolism,1,22,True
+OSDRG004,GC,GSM1297645,heme Metabolism,2,11,True
+OSDRG004,GC,GSM1297642,heme Metabolism,3,60,True
+OSDRG004,GC,GSM4602754,heme Metabolism,4,7,True
+OSDRG004,GC,GSM5353232,heme Metabolism,5,3135,False
+OSDRG005,FLT,GSM1297645,Estrogen Response Late,1,16,True
+OSDRG005,FLT,GSM1297640,Estrogen Response Late,2,28,True
+OSDRG005,FLT,GSM1297642,Estrogen Response Late,3,33,True
+OSDRG005,FLT,GSM8224141,Estrogen Response Late,4,2,True
+OSDRG005,FLT,GSM1297651,Estrogen Response Late,5,78,True
+OSDRG005,GC,GSM1297645,Estrogen Response Late,1,41,True
+OSDRG005,GC,GSM1297640,Estrogen Response Late,2,65,True
+OSDRG005,GC,GSM8224141,Estrogen Response Late,3,2,True
+OSDRG005,GC,GSM4118636,Estrogen Response Late,4,6,True
+OSDRG005,GC,GSM8224143,Estrogen Response Late,5,3,True
+OSDRG006,FLT,GSM1297640,heme Metabolism,1,20,True
+OSDRG006,FLT,GSM1297645,heme Metabolism,2,11,True
+OSDRG006,FLT,GSM1297642,heme Metabolism,3,39,True
+OSDRG006,FLT,GSM6429508,heme Metabolism,4,23,True
+OSDRG006,FLT,GSM4602754,heme Metabolism,5,30,True
+OSDRG006,GC,GSM1297640,heme Metabolism,1,20,True
+OSDRG006,GC,GSM1297645,heme Metabolism,2,11,True
+OSDRG006,GC,GSM1297642,heme Metabolism,3,45,True
+OSDRG006,GC,GSM6429508,heme Metabolism,4,26,True
+OSDRG006,GC,GSM4602754,heme Metabolism,5,31,True
+OSDRG007,FLT,GSM3956191,Unfolded Protein Response,1,13,True
+OSDRG007,FLT,GSM3956195,Unfolded Protein Response,2,39,True
+OSDRG007,FLT,GSM3956197,Unfolded Protein Response,3,21,True
+OSDRG007,FLT,GSM3956192,Unfolded Protein Response,4,9,True
+OSDRG007,FLT,GSM5960736,Unfolded Protein Response,5,2,True
+OSDRG007,GC,GSM3956191,Unfolded Protein Response,1,13,True
+OSDRG007,GC,GSM3956195,Unfolded Protein Response,2,39,True
+OSDRG007,GC,GSM3956197,Unfolded Protein Response,3,22,True
+OSDRG007,GC,GSM3956192,Unfolded Protein Response,4,10,True
+OSDRG007,GC,GSM5960736,Unfolded Protein Response,5,2,True
+OSDRG008,FLT,GSM2552858,heme Metabolism,1,16,True
+OSDRG008,FLT,GSM2552854,heme Metabolism,2,63,True
+OSDRG008,FLT,GSM2552853,heme Metabolism,3,1297,False
+OSDRG008,FLT,GSM2552856,heme Metabolism,4,739,False
+OSDRG008,FLT,GSM5570259,heme Metabolism,5,7,True
+OSDRG008,GC,GSM2552858,heme Metabolism,1,14,True
+OSDRG008,GC,GSM2552854,heme Metabolism,2,48,True
+OSDRG008,GC,GSM2552853,heme Metabolism,3,1285,False
+OSDRG008,GC,GSM2552856,heme Metabolism,4,670,False
+OSDRG008,GC,GSM3099836,heme Metabolism,5,2254,False
+OSDRG009,FLT,GSM3569231,KRAS Signaling Dn,1,1,True
+OSDRG009,FLT,GSM3990095,KRAS Signaling Dn,2,6,True
+OSDRG009,FLT,GSM2453456,KRAS Signaling Dn,3,5,True
+OSDRG009,FLT,GSM3569230,KRAS Signaling Dn,4,3,True
+OSDRG009,FLT,GSM3974501,KRAS Signaling Dn,5,8,True
+OSDRG009,GC,GSM3974501,KRAS Signaling Dn,1,3,True
+OSDRG009,GC,GSM3990095,KRAS Signaling Dn,2,2,True
+OSDRG009,GC,GSM3974495,KRAS Signaling Dn,3,4,True
+OSDRG009,GC,GSM3990096,KRAS Signaling Dn,4,5,True
+OSDRG009,GC,GSM3569231,KRAS Signaling Dn,5,1,True
+OSDRG010,FLT,GSM8370356,Pancreas Beta Cells,1,53,True
+OSDRG010,FLT,GSM6351556,Pancreas Beta Cells,2,13,True
+OSDRG010,FLT,GSM7779057,Pancreas Beta Cells,3,126,False
+OSDRG010,FLT,GSM3954342,Pancreas Beta Cells,4,51,True
+OSDRG010,FLT,GSM3099836,Pancreas Beta Cells,5,76,True
+OSDRG010,GC,GSM8370356,Pancreas Beta Cells,1,39,True
+OSDRG010,GC,GSM6351556,Pancreas Beta Cells,2,17,True
+OSDRG010,GC,GSM3954342,Pancreas Beta Cells,3,60,True
+OSDRG010,GC,GSM7779057,Pancreas Beta Cells,4,171,False
+OSDRG010,GC,GSM3099836,Pancreas Beta Cells,5,111,False
+OSDRG011,FLT,GSM3956195,Unfolded Protein Response,1,10,True
+OSDRG011,FLT,GSM3956191,Unfolded Protein Response,2,4,True
+OSDRG011,FLT,GSM3956192,Unfolded Protein Response,3,1,True
+OSDRG011,FLT,GSM3956197,Unfolded Protein Response,4,5,True
+OSDRG011,FLT,GSM3956186,Unfolded Protein Response,5,6,True
+OSDRG011,GC,GSM3956195,Unfolded Protein Response,1,32,True
+OSDRG011,GC,GSM3956191,Unfolded Protein Response,2,8,True
+OSDRG011,GC,GSM3956197,Unfolded Protein Response,3,13,True
+OSDRG011,GC,GSM3956192,Unfolded Protein Response,4,4,True
+OSDRG011,GC,GSM3956186,Unfolded Protein Response,5,20,True
+OSDRG012,FLT,GSM3762788,Unfolded Protein Response,1,2529,False
+OSDRG012,FLT,GSM7774887,Unfolded Protein Response,2,1230,False
+OSDRG012,FLT,GSM6505564,Unfolded Protein Response,3,1,True
+OSDRG012,FLT,GSM7774882,Unfolded Protein Response,4,921,False
+OSDRG012,FLT,GSM2807404,Unfolded Protein Response,5,5875,False
+OSDRG012,GC,GSM3762788,Unfolded Protein Response,1,344,False
+OSDRG012,GC,GSM7774887,Unfolded Protein Response,2,271,False
+OSDRG012,GC,GSM3383901,Unfolded Protein Response,3,120,False
+OSDRG012,GC,GSM3762783,Unfolded Protein Response,4,217,False
+OSDRG012,GC,GSM3762789,Unfolded Protein Response,5,203,False
+OSDRG013,FLT,GSM3956191,Unfolded Protein Response,1,9,True
+OSDRG013,FLT,GSM3956195,Unfolded Protein Response,2,35,True
+OSDRG013,FLT,GSM3956197,Unfolded Protein Response,3,18,True
+OSDRG013,FLT,GSM3956192,Unfolded Protein Response,4,8,True
+OSDRG013,FLT,GSM5960736,Unfolded Protein Response,5,2,True
+OSDRG013,GC,GSM3956191,Unfolded Protein Response,1,10,True
+OSDRG013,GC,GSM3956195,Unfolded Protein Response,2,37,True
+OSDRG013,GC,GSM3956197,Unfolded Protein Response,3,18,True
+OSDRG013,GC,GSM3956192,Unfolded Protein Response,4,8,True
+OSDRG013,GC,GSM5960736,Unfolded Protein Response,5,2,True
+OSDRG014,FLT,GSM5960736,Unfolded Protein Response,1,2,True
+OSDRG014,FLT,GSM3956191,Unfolded Protein Response,2,97,True
+OSDRG014,FLT,GSM3956195,Unfolded Protein Response,3,299,False
+OSDRG014,FLT,GSM3956197,Unfolded Protein Response,4,139,False
+OSDRG014,FLT,GSM5732497,Unfolded Protein Response,5,1023,False
+OSDRG014,GC,GSM5960736,Unfolded Protein Response,1,2,True
+OSDRG014,GC,GSM3956195,Unfolded Protein Response,2,145,False
+OSDRG014,GC,GSM3956191,Unfolded Protein Response,3,41,True
+OSDRG014,GC,GSM3956197,Unfolded Protein Response,4,62,True
+OSDRG014,GC,GSM3956192,Unfolded Protein Response,5,44,True
+OSDRG015,FLT,GSM3956191,Unfolded Protein Response,1,3,True
+OSDRG015,FLT,GSM3956195,Unfolded Protein Response,2,13,True
+OSDRG015,FLT,GSM3956192,Unfolded Protein Response,3,1,True
+OSDRG015,FLT,GSM3956197,Unfolded Protein Response,4,5,True
+OSDRG015,FLT,GSM3956190,Unfolded Protein Response,5,7,True
+OSDRG015,GC,GSM3956191,Unfolded Protein Response,1,5,True
+OSDRG015,GC,GSM3956195,Unfolded Protein Response,2,15,True
+OSDRG015,GC,GSM3956192,Unfolded Protein Response,3,3,True
+OSDRG015,GC,GSM3956197,Unfolded Protein Response,4,6,True
+OSDRG015,GC,GSM3956186,Unfolded Protein Response,5,8,True
+OSDRG016,FLT,GSM8222950,KRAS Signaling Dn,1,2,True
+OSDRG016,FLT,GSM7439136,KRAS Signaling Dn,2,3,True
+OSDRG016,FLT,GSM8222949,KRAS Signaling Dn,3,1,True
+OSDRG016,FLT,GSM6351567,KRAS Signaling Dn,4,14,True
+OSDRG016,FLT,GSM2870392,KRAS Signaling Dn,5,8,True
+OSDRG016,GC,GSM8222950,KRAS Signaling Dn,1,4,True
+OSDRG016,GC,GSM7439136,KRAS Signaling Dn,2,2,True
+OSDRG016,GC,GSM8222949,KRAS Signaling Dn,3,1,True
+OSDRG016,GC,GSM2870392,KRAS Signaling Dn,4,7,True
+OSDRG016,GC,GSM6351567,KRAS Signaling Dn,5,19,True
+OSDRG017,FLT,GSM4696234,Pperoxisome,1,1,True
+OSDRG017,FLT,GSM4054939,Pperoxisome,2,2,True
+OSDRG017,FLT,GSM7433879,Pperoxisome,3,14,True
+OSDRG017,FLT,GSM2231172,Pperoxisome,4,5,True
+OSDRG017,FLT,GSM7105227,Pperoxisome,5,23,True
+OSDRG017,GC,GSM4696234,Apical Surface,1,5,True
+OSDRG017,GC,GSM4054939,Apical Surface,2,48,True
+OSDRG017,GC,GSM7999040,Apical Surface,3,80,True
+OSDRG017,GC,GSM4679393,Apical Surface,4,62,True
+OSDRG017,GC,GSM2231172,Apical Surface,5,19,True
+OSDRG018,FLT,GSM4696234,Apical Surface,1,4,True
+OSDRG018,FLT,GSM4054939,Apical Surface,2,63,True
+OSDRG018,FLT,GSM2231172,Apical Surface,3,16,True
+OSDRG018,FLT,GSM4679393,Apical Surface,4,71,True
+OSDRG018,FLT,GSM6996087,Apical Surface,5,190,False
+OSDRG018,GC,GSM4696234,Apical Surface,1,4,True
+OSDRG018,GC,GSM4054939,Apical Surface,2,38,True
+OSDRG018,GC,GSM2231172,Apical Surface,3,13,True
+OSDRG018,GC,GSM4679393,Apical Surface,4,63,True
+OSDRG018,GC,GSM3567698,Apical Surface,5,144,False
+OSDRG019,FLT,GSM4696234,Apical Surface,1,5,True
+OSDRG019,FLT,GSM4054939,Apical Surface,2,48,True
+OSDRG019,FLT,GSM4679393,Apical Surface,3,56,True
+OSDRG019,FLT,GSM7999040,Apical Surface,4,87,True
+OSDRG019,FLT,GSM3567698,Apical Surface,5,150,False
+OSDRG019,GC,GSM4054939,Apical Surface,1,74,True
+OSDRG019,GC,GSM4696234,Apical Surface,2,15,True
+OSDRG019,GC,GSM3567698,Apical Surface,3,173,False
+OSDRG019,GC,GSM4679393,Apical Surface,4,121,False
+OSDRG019,GC,GSM7034747,Apical Surface,5,2,True
+OSDRG020,FLT,GSM4696234,Apical Surface,1,4,True
+OSDRG020,FLT,GSM4054939,Apical Surface,2,61,True
+OSDRG020,FLT,GSM3567698,Apical Surface,3,68,True
+OSDRG020,FLT,GSM4679393,Apical Surface,4,38,True
+OSDRG020,FLT,GSM2231172,Apical Surface,5,24,True
+OSDRG020,GC,GSM4696234,Apical Surface,1,3,True
+OSDRG020,GC,GSM4054939,Apical Surface,2,32,True
+OSDRG020,GC,GSM2231172,Apical Surface,3,11,True
+OSDRG020,GC,GSM7648656,Apical Surface,4,39,True
+OSDRG020,GC,GSM4679393,Apical Surface,5,44,True
+OSDRG021,FLT,GSM3956191,Unfolded Protein Response,1,3,True
+OSDRG021,FLT,GSM3956195,Unfolded Protein Response,2,14,True
+OSDRG021,FLT,GSM3956192,Unfolded Protein Response,3,1,True
+OSDRG021,FLT,GSM3956197,Unfolded Protein Response,4,5,True
+OSDRG021,FLT,GSM3956186,Unfolded Protein Response,5,7,True
+OSDRG021,GC,GSM3956191,Unfolded Protein Response,1,4,True
+OSDRG021,GC,GSM3956197,Unfolded Protein Response,2,5,True
+OSDRG021,GC,GSM3956195,Unfolded Protein Response,3,14,True
+OSDRG021,GC,GSM3956192,Unfolded Protein Response,4,2,True
+OSDRG021,GC,GSM3956186,Unfolded Protein Response,5,7,True
+OSDRG022,FLT,GSM7433879,Pperoxisome,1,1,True
+OSDRG022,FLT,GSM4054939,Pperoxisome,2,2,True
+OSDRG022,FLT,GSM4113927,Pperoxisome,3,3,True
+OSDRG022,FLT,GSM2231172,Pperoxisome,4,6,True
+OSDRG022,FLT,GSM7105227,Pperoxisome,5,10,True
+OSDRG022,GC,GSM7433879,Apical Surface,1,1,True
+OSDRG022,GC,GSM4054939,Apical Surface,2,56,True
+OSDRG022,GC,GSM2231172,Apical Surface,3,7,True
+OSDRG022,GC,GSM4696234,Apical Surface,4,10,True
+OSDRG022,GC,GSM6996087,Apical Surface,5,103,False
+OSDRG023,FLT,GSM3747773,Unfolded Protein Response,1,25,True
+OSDRG023,FLT,GSM5862468,Unfolded Protein Response,2,1,True
+OSDRG023,FLT,GSM7774887,Unfolded Protein Response,3,570,False
+OSDRG023,FLT,GSM3663205,Unfolded Protein Response,4,63,True
+OSDRG023,FLT,GSM3663204,Unfolded Protein Response,5,79,True
+OSDRG023,GC,GSM3747773,Unfolded Protein Response,1,26,True
+OSDRG023,GC,GSM7026111,Unfolded Protein Response,2,87,True
+OSDRG023,GC,GSM3747758,Unfolded Protein Response,3,75,True
+OSDRG023,GC,GSM7026134,Unfolded Protein Response,4,72,True
+OSDRG023,GC,GSM7026080,Unfolded Protein Response,5,90,True
+OSDRG024,FLT,GSM3956191,Unfolded Protein Response,1,12,True
+OSDRG024,FLT,GSM3956195,Unfolded Protein Response,2,37,True
+OSDRG024,FLT,GSM3956197,Unfolded Protein Response,3,15,True
+OSDRG024,FLT,GSM3956192,Unfolded Protein Response,4,10,True
+OSDRG024,FLT,GSM3956198,Unfolded Protein Response,5,23,True
+OSDRG024,GC,GSM3956191,Unfolded Protein Response,1,8,True
+OSDRG024,GC,GSM3956195,Unfolded Protein Response,2,29,True
+OSDRG024,GC,GSM3956197,Unfolded Protein Response,3,9,True
+OSDRG024,GC,GSM3956192,Unfolded Protein Response,4,5,True
+OSDRG024,GC,GSM3956186,Unfolded Protein Response,5,15,True
+OSDRG025,FLT,GSM7026200,Unfolded Protein Response,1,8,True
+OSDRG025,FLT,GSM3747773,Unfolded Protein Response,2,58,True
+OSDRG025,FLT,GSM7026080,Unfolded Protein Response,3,168,False
+OSDRG025,FLT,GSM7026111,Unfolded Protein Response,4,353,False
+OSDRG025,FLT,GSM7026134,Unfolded Protein Response,5,183,False
+OSDRG025,GC,GSM7026200,Unfolded Protein Response,1,15,True
+OSDRG025,GC,GSM3747773,Unfolded Protein Response,2,101,False
+OSDRG025,GC,GSM7026111,Unfolded Protein Response,3,290,False
+OSDRG025,GC,GSM7026080,Unfolded Protein Response,4,177,False
+OSDRG025,GC,GSM7026134,Unfolded Protein Response,5,160,False
+OSDRG026,FLT,GSM1216766,Pancreas Beta Cells,1,2992,False
+OSDRG026,FLT,GSM2101630,Pancreas Beta Cells,2,267,False
+OSDRG026,FLT,GSM2101627,Pancreas Beta Cells,3,492,False
+OSDRG026,FLT,GSM1216805,Pancreas Beta Cells,4,6122,False
+OSDRG026,FLT,GSM5330478,Pancreas Beta Cells,5,9616,False
+OSDRG026,GC,GSM1216766,Pancreas Beta Cells,1,2894,False
+OSDRG026,GC,GSM2101630,Pancreas Beta Cells,2,308,False
+OSDRG026,GC,GSM2101627,Pancreas Beta Cells,3,585,False
+OSDRG026,GC,GSM1216774,Pancreas Beta Cells,4,6855,False
+OSDRG026,GC,GSM1216805,Pancreas Beta Cells,5,6093,False
+OSDRG027,FLT,GSM5742532,Pancreas Beta Cells,1,37,True
+OSDRG027,FLT,GSM8017062,Pancreas Beta Cells,2,6,True
+OSDRG027,FLT,GSM5862468,Pancreas Beta Cells,3,10,True
+OSDRG027,FLT,GSM5960662,Pancreas Beta Cells,4,2,True
+OSDRG027,FLT,GSM2453419,Pancreas Beta Cells,5,112,False
+OSDRG027,GC,GSM5742532,Cholesterol Homeostasis,1,5,True
+OSDRG027,GC,GSM5862468,Cholesterol Homeostasis,2,1,True
+OSDRG027,GC,GSM8017062,Cholesterol Homeostasis,3,34,True
+OSDRG027,GC,GSM2453419,Cholesterol Homeostasis,4,4,True
+OSDRG027,GC,GSM5960662,Cholesterol Homeostasis,5,33,True
+OSDRG028,FLT,GSM8370356,Pancreas Beta Cells,1,68,True
+OSDRG028,FLT,GSM6351556,Pancreas Beta Cells,2,9,True
+OSDRG028,FLT,GSM7779057,Pancreas Beta Cells,3,98,True
+OSDRG028,FLT,GSM3099836,Pancreas Beta Cells,4,83,True
+OSDRG028,FLT,GSM3954342,Pancreas Beta Cells,5,50,True
+OSDRG028,GC,GSM8370356,Pancreas Beta Cells,1,34,True
+OSDRG028,GC,GSM7779057,Pancreas Beta Cells,2,154,False
+OSDRG028,GC,GSM6351556,Pancreas Beta Cells,3,17,True
+OSDRG028,GC,GSM3954342,Pancreas Beta Cells,4,74,True
+OSDRG028,GC,GSM3099836,Pancreas Beta Cells,5,119,False
+OSDRG029,FLT,GSM7433879,Apical Surface,1,1,True
+OSDRG029,FLT,GSM4054939,Apical Surface,2,34,True
+OSDRG029,FLT,GSM5862468,Apical Surface,3,5,True
+OSDRG029,FLT,GSM7105227,Apical Surface,4,122,False
+OSDRG029,FLT,GSM5292113,Apical Surface,5,28,True
+OSDRG029,GC,GSM4054939,Apical Surface,1,42,True
+OSDRG029,GC,GSM7433879,Apical Surface,2,1,True
+OSDRG029,GC,GSM5862468,Apical Surface,3,17,True
+OSDRG029,GC,GSM5292113,Apical Surface,4,22,True
+OSDRG029,GC,GSM2231172,Apical Surface,5,26,True
+OSDRG030,FLT,GSM8222950,KRAS Signaling Dn,1,5,True
+OSDRG030,FLT,GSM8222949,KRAS Signaling Dn,2,2,True
+OSDRG030,FLT,GSM2465368,KRAS Signaling Dn,3,788,False
+OSDRG030,FLT,GSM2465370,KRAS Signaling Dn,4,763,False
+OSDRG030,FLT,GSM5533734,KRAS Signaling Dn,5,152,False
+OSDRG030,GC,GSM8222950,KRAS Signaling Dn,1,5,True
+OSDRG030,GC,GSM8222949,KRAS Signaling Dn,2,2,True
+OSDRG030,GC,GSM5533734,KRAS Signaling Dn,3,142,False
+OSDRG030,GC,GSM2465368,KRAS Signaling Dn,4,797,False
+OSDRG030,GC,GSM3615507,KRAS Signaling Dn,5,713,False
+OSDRG031,FLT,GSM3552287,Wnt-beta Catenin Signaling,1,10,True
+OSDRG031,FLT,GSM7932718,Wnt-beta Catenin Signaling,2,81,True
+OSDRG031,FLT,GSM1978259,Wnt-beta Catenin Signaling,3,3,True
+OSDRG031,FLT,GSM4083359,Wnt-beta Catenin Signaling,4,70,True
+OSDRG031,FLT,GSM1978252,Wnt-beta Catenin Signaling,5,4,True
+OSDRG031,GC,GSM3552287,Wnt-beta Catenin Signaling,1,19,True
+OSDRG031,GC,GSM7932718,Wnt-beta Catenin Signaling,2,86,True
+OSDRG031,GC,GSM1978259,Wnt-beta Catenin Signaling,3,5,True
+OSDRG031,GC,GSM2739353,Wnt-beta Catenin Signaling,4,641,False
+OSDRG031,GC,GSM4083359,Wnt-beta Catenin Signaling,5,67,True
+OSDRG032,FLT,GSM2090650,heme Metabolism,1,1,True
+OSDRG032,FLT,GSM1297640,heme Metabolism,2,12,True
+OSDRG032,FLT,GSM1297645,heme Metabolism,3,6,True
+OSDRG032,FLT,GSM1297651,heme Metabolism,4,4,True
+OSDRG032,FLT,GSM4602754,heme Metabolism,5,24,True
+OSDRG032,GC,GSM2090650,Wnt-beta Catenin Signaling,1,29,True
+OSDRG032,GC,GSM1297640,Wnt-beta Catenin Signaling,2,11,True
+OSDRG032,GC,GSM1297645,Wnt-beta Catenin Signaling,3,32,True
+OSDRG032,GC,GSM1297651,Wnt-beta Catenin Signaling,4,115,False
+OSDRG032,GC,GSM4602754,Wnt-beta Catenin Signaling,5,12,True
+OSDRG033,FLT,GSM3956191,Unfolded Protein Response,1,4,True
+OSDRG033,FLT,GSM3956197,Unfolded Protein Response,2,5,True
+OSDRG033,FLT,GSM3956195,Unfolded Protein Response,3,14,True
+OSDRG033,FLT,GSM3956192,Unfolded Protein Response,4,2,True
+OSDRG033,FLT,GSM3956186,Unfolded Protein Response,5,8,True
+OSDRG033,GC,GSM3956191,Unfolded Protein Response,1,5,True
+OSDRG033,GC,GSM3956195,Unfolded Protein Response,2,15,True
+OSDRG033,GC,GSM3956197,Unfolded Protein Response,3,6,True
+OSDRG033,GC,GSM3956192,Unfolded Protein Response,4,3,True
+OSDRG033,GC,GSM3956186,Unfolded Protein Response,5,8,True
+OSDRG034,FLT,GSM8222950,KRAS Signaling Dn,1,3,True
+OSDRG034,FLT,GSM8222949,KRAS Signaling Dn,2,1,True
+OSDRG034,FLT,GSM8222945,KRAS Signaling Dn,3,11,True
+OSDRG034,FLT,GSM6351567,KRAS Signaling Dn,4,36,True
+OSDRG034,FLT,GSM5597935,KRAS Signaling Dn,5,72,True
+OSDRG034,GC,GSM8222950,KRAS Signaling Dn,1,3,True
+OSDRG034,GC,GSM8222949,KRAS Signaling Dn,2,1,True
+OSDRG034,GC,GSM5597935,KRAS Signaling Dn,3,67,True
+OSDRG034,GC,GSM8222945,KRAS Signaling Dn,4,8,True
+OSDRG034,GC,GSM5597949,KRAS Signaling Dn,5,50,True
+OSDRG035,FLT,GSM8222950,KRAS Signaling Dn,1,4,True
+OSDRG035,FLT,GSM8222949,KRAS Signaling Dn,2,2,True
+OSDRG035,FLT,GSM2465370,KRAS Signaling Dn,3,403,False
+OSDRG035,FLT,GSM2465368,KRAS Signaling Dn,4,591,False
+OSDRG035,FLT,GSM2465369,KRAS Signaling Dn,5,944,False
+OSDRG035,GC,GSM8222950,KRAS Signaling Dn,1,4,True
+OSDRG035,GC,GSM8222949,KRAS Signaling Dn,2,3,True
+OSDRG035,GC,GSM2465370,KRAS Signaling Dn,3,341,False
+OSDRG035,GC,GSM2465368,KRAS Signaling Dn,4,442,False
+OSDRG035,GC,GSM2465371,KRAS Signaling Dn,5,679,False
+OSDRG036,FLT,GSM1297645,heme Metabolism,1,3,True
+OSDRG036,FLT,GSM1297642,heme Metabolism,2,15,True
+OSDRG036,FLT,GSM1297640,heme Metabolism,3,12,True
+OSDRG036,FLT,GSM1297629,heme Metabolism,4,28,True
+OSDRG036,FLT,GSM6429508,heme Metabolism,5,14,True
+OSDRG036,GC,GSM1297645,heme Metabolism,1,4,True
+OSDRG036,GC,GSM1297640,heme Metabolism,2,11,True
+OSDRG036,GC,GSM1297642,heme Metabolism,3,18,True
+OSDRG036,GC,GSM6429508,heme Metabolism,4,15,True
+OSDRG036,GC,GSM1297629,heme Metabolism,5,40,True
+OSDRG037,FLT,GSM1297645,heme Metabolism,1,3,True
+OSDRG037,FLT,GSM1297642,heme Metabolism,2,23,True
+OSDRG037,FLT,GSM1297640,heme Metabolism,3,9,True
+OSDRG037,FLT,GSM6429508,heme Metabolism,4,17,True
+OSDRG037,FLT,GSM1297629,heme Metabolism,5,40,True
+OSDRG037,GC,GSM1297640,heme Metabolism,1,12,True
+OSDRG037,GC,GSM1297645,heme Metabolism,2,8,True
+OSDRG037,GC,GSM1297642,heme Metabolism,3,27,True
+OSDRG037,GC,GSM1297629,heme Metabolism,4,52,True
+OSDRG037,GC,GSM6429508,heme Metabolism,5,20,True
+OSDRG038,FLT,GSM2090650,Wnt-beta Catenin Signaling,1,13,True
+OSDRG038,FLT,GSM1297645,Wnt-beta Catenin Signaling,2,21,True
+OSDRG038,FLT,GSM1297651,Wnt-beta Catenin Signaling,3,73,True
+OSDRG038,FLT,GSM3552593,Wnt-beta Catenin Signaling,4,2,True
+OSDRG038,FLT,GSM1297640,Wnt-beta Catenin Signaling,5,15,True
+OSDRG038,GC,GSM2090650,Pancreas Beta Cells,1,6,True
+OSDRG038,GC,GSM3552593,Pancreas Beta Cells,2,460,False
+OSDRG038,GC,GSM5009280,Pancreas Beta Cells,3,2413,False
+OSDRG038,GC,GSM1297645,Pancreas Beta Cells,4,5,True
+OSDRG038,GC,GSM5009266,Pancreas Beta Cells,5,2678,False
+OSDRG039,FLT,GSM3383901,Unfolded Protein Response,1,132,False
+OSDRG039,FLT,GSM3383891,Unfolded Protein Response,2,151,False
+OSDRG039,FLT,GSM3383892,Unfolded Protein Response,3,161,False
+OSDRG039,FLT,GSM3762788,Unfolded Protein Response,4,256,False
+OSDRG039,FLT,GSM7774893,Unfolded Protein Response,5,158,False
+OSDRG039,GC,GSM3383891,Unfolded Protein Response,1,156,False
+OSDRG039,GC,GSM3383901,Unfolded Protein Response,2,153,False
+OSDRG039,GC,GSM3383892,Unfolded Protein Response,3,172,False
+OSDRG039,GC,GSM3762788,Unfolded Protein Response,4,301,False
+OSDRG039,GC,GSM3762777,Unfolded Protein Response,5,168,False
+OSDRG040,FLT,GSM3383892,Pancreas Beta Cells,1,78,True
+OSDRG040,FLT,GSM7774904,Pancreas Beta Cells,2,626,False
+OSDRG040,FLT,GSM7774881,Pancreas Beta Cells,3,663,False
+OSDRG040,FLT,GSM3383891,Pancreas Beta Cells,4,164,False
+OSDRG040,FLT,GSM3383901,Pancreas Beta Cells,5,294,False
+OSDRG040,GC,GSM3383892,Unfolded Protein Response,1,11,True
+OSDRG040,GC,GSM3383901,Unfolded Protein Response,2,7,True
+OSDRG040,GC,GSM3383891,Unfolded Protein Response,3,30,True
+OSDRG040,GC,GSM3762777,Unfolded Protein Response,4,41,True
+OSDRG040,GC,GSM7774879,Unfolded Protein Response,5,188,False
+OSDRG041,FLT,GSM6571035,Reactive Oxygen Species Pathway,1,1,True
+OSDRG041,FLT,GSM2887703,Reactive Oxygen Species Pathway,2,120,False
+OSDRG041,FLT,GSM5960303,Reactive Oxygen Species Pathway,3,98,True
+OSDRG041,FLT,GSM8077852,Reactive Oxygen Species Pathway,4,9,True
+OSDRG041,FLT,GSM7890055,Reactive Oxygen Species Pathway,5,11,True
+OSDRG041,GC,GSM2887703,heme Metabolism,1,416,False
+OSDRG041,GC,GSM8057044,heme Metabolism,2,249,False
+OSDRG041,GC,GSM6571035,heme Metabolism,3,1309,False
+OSDRG041,GC,GSM8057039,heme Metabolism,4,236,False
+OSDRG041,GC,GSM8057038,heme Metabolism,5,350,False
+OSDRG042,FLT,GSM6792896,Pperoxisome,1,1,True
+OSDRG042,FLT,GSM2552853,Pperoxisome,2,2,True
+OSDRG042,FLT,GSM2254741,Pperoxisome,3,3,True
+OSDRG042,FLT,GSM4775066,Pperoxisome,4,66,True
+OSDRG042,FLT,GSM6792916,Pperoxisome,5,4,True
+OSDRG042,GC,GSM6792896,Pperoxisome,1,1,True
+OSDRG042,GC,GSM2254741,Pperoxisome,2,2,True
+OSDRG042,GC,GSM4775066,Pperoxisome,3,49,True
+OSDRG042,GC,GSM6792916,Pperoxisome,4,3,True
+OSDRG042,GC,GSM3320197,Pperoxisome,5,34,True
+OSDRG043,FLT,GSM6792896,Pperoxisome,1,1,True
+OSDRG043,FLT,GSM2254741,Pperoxisome,2,2,True
+OSDRG043,FLT,GSM2552853,Pperoxisome,3,4,True
+OSDRG043,FLT,GSM6792916,Pperoxisome,4,3,True
+OSDRG043,FLT,GSM4775066,Pperoxisome,5,82,True
+OSDRG043,GC,GSM6792896,Pperoxisome,1,1,True
+OSDRG043,GC,GSM2254741,Pperoxisome,2,2,True
+OSDRG043,GC,GSM4775066,Pperoxisome,3,53,True
+OSDRG043,GC,GSM6792916,Pperoxisome,4,3,True
+OSDRG043,GC,GSM3320197,Pperoxisome,5,26,True
+OSDRG044,FLT,GSM7843331,heme Metabolism,1,393,False
+OSDRG044,FLT,GSM3099836,heme Metabolism,2,248,False
+OSDRG044,FLT,GSM6351556,heme Metabolism,3,516,False
+OSDRG044,FLT,GSM5463998,heme Metabolism,4,114,False
+OSDRG044,FLT,GSM5516950,heme Metabolism,5,40,True
+OSDRG044,GC,GSM3099836,heme Metabolism,1,208,False
+OSDRG044,GC,GSM6351556,heme Metabolism,2,497,False
+OSDRG044,GC,GSM7843331,heme Metabolism,3,444,False
+OSDRG044,GC,GSM5105643,heme Metabolism,4,32,True
+OSDRG044,GC,GSM5516950,heme Metabolism,5,42,True
+OSDRG045,FLT,GSM3099836,heme Metabolism,1,179,False
+OSDRG045,FLT,GSM6351556,heme Metabolism,2,440,False
+OSDRG045,FLT,GSM7843331,heme Metabolism,3,329,False
+OSDRG045,FLT,GSM5463998,heme Metabolism,4,89,True
+OSDRG045,FLT,GSM5464008,heme Metabolism,5,137,False
+OSDRG045,GC,GSM3099836,heme Metabolism,1,157,False
+OSDRG045,GC,GSM6351556,heme Metabolism,2,417,False
+OSDRG045,GC,GSM7843331,heme Metabolism,3,308,False
+OSDRG045,GC,GSM5463998,heme Metabolism,4,83,True
+OSDRG045,GC,GSM5464008,heme Metabolism,5,124,False
+OSDRG046,FLT,GSM4384924,KRAS Signaling Dn,1,22,True
+OSDRG046,FLT,GSM3954342,KRAS Signaling Dn,2,8,True
+OSDRG046,FLT,GSM7779057,KRAS Signaling Dn,3,130,False
+OSDRG046,FLT,GSM6351556,KRAS Signaling Dn,4,6,True
+OSDRG046,FLT,GSM8370356,KRAS Signaling Dn,5,2,True
+OSDRG046,GC,GSM7779057,KRAS Signaling Dn,1,127,False
+OSDRG046,GC,GSM4384924,KRAS Signaling Dn,2,30,True
+OSDRG046,GC,GSM3954342,KRAS Signaling Dn,3,7,True
+OSDRG046,GC,GSM8370356,KRAS Signaling Dn,4,2,True
+OSDRG046,GC,GSM2359145,KRAS Signaling Dn,5,278,False
+OSDRG047,FLT,GSM7779057,KRAS Signaling Dn,1,117,False
+OSDRG047,FLT,GSM4384924,KRAS Signaling Dn,2,27,True
+OSDRG047,FLT,GSM3954342,KRAS Signaling Dn,3,6,True
+OSDRG047,FLT,GSM8370356,KRAS Signaling Dn,4,2,True
+OSDRG047,FLT,GSM2359145,KRAS Signaling Dn,5,243,False
+OSDRG047,GC,GSM7779057,KRAS Signaling Dn,1,112,False
+OSDRG047,GC,GSM3954342,KRAS Signaling Dn,2,5,True
+OSDRG047,GC,GSM8370356,KRAS Signaling Dn,3,2,True
+OSDRG047,GC,GSM2359145,KRAS Signaling Dn,4,211,False
+OSDRG047,GC,GSM4384924,KRAS Signaling Dn,5,38,True
+OSDRG048,FLT,GSM3956191,Unfolded Protein Response,1,16,True
+OSDRG048,FLT,GSM5732497,Unfolded Protein Response,2,198,False
+OSDRG048,FLT,GSM3956195,Unfolded Protein Response,3,44,True
+OSDRG048,FLT,GSM3956197,Unfolded Protein Response,4,27,True
+OSDRG048,FLT,GSM3956192,Unfolded Protein Response,5,17,True
+OSDRG048,GC,GSM3956191,Unfolded Protein Response,1,17,True
+OSDRG048,GC,GSM3956195,Unfolded Protein Response,2,48,True
+OSDRG048,GC,GSM3956197,Unfolded Protein Response,3,25,True
+OSDRG048,GC,GSM3956192,Unfolded Protein Response,4,18,True
+OSDRG048,GC,GSM5732497,Unfolded Protein Response,5,402,False
+OSDRG049,FLT,GSM3956191,Unfolded Protein Response,1,16,True
+OSDRG049,FLT,GSM3956195,Unfolded Protein Response,2,40,True
+OSDRG049,FLT,GSM5732497,Unfolded Protein Response,3,233,False
+OSDRG049,FLT,GSM3956197,Unfolded Protein Response,4,25,True
+OSDRG049,FLT,GSM3956192,Unfolded Protein Response,5,17,True
+OSDRG049,GC,GSM3956191,Unfolded Protein Response,1,20,True
+OSDRG049,GC,GSM3956195,Unfolded Protein Response,2,54,True
+OSDRG049,GC,GSM3956197,Unfolded Protein Response,3,26,True
+OSDRG049,GC,GSM5732497,Unfolded Protein Response,4,397,False
+OSDRG049,GC,GSM5960736,Unfolded Protein Response,5,2,True
+OSDRG050,FLT,GSM7648644,Unfolded Protein Response,1,13,True
+OSDRG050,FLT,GSM7998885,Unfolded Protein Response,2,2,True
+OSDRG050,FLT,GSM2333745,Unfolded Protein Response,3,179,False
+OSDRG050,FLT,GSM7648643,Unfolded Protein Response,4,31,True
+OSDRG050,FLT,GSM5566974,Unfolded Protein Response,5,14,True
+OSDRG050,GC,GSM7648644,Unfolded Protein Response,1,12,True
+OSDRG050,GC,GSM7998885,Unfolded Protein Response,2,5,True
+OSDRG050,GC,GSM7648643,Unfolded Protein Response,3,29,True
+OSDRG050,GC,GSM2333745,Unfolded Protein Response,4,290,False
+OSDRG050,GC,GSM5566974,Unfolded Protein Response,5,18,True
+OSDRG051,FLT,GSM7648644,Unfolded Protein Response,1,9,True
+OSDRG051,FLT,GSM7648643,Unfolded Protein Response,2,28,True
+OSDRG051,FLT,GSM2333745,Unfolded Protein Response,3,250,False
+OSDRG051,FLT,GSM7998885,Unfolded Protein Response,4,6,True
+OSDRG051,FLT,GSM5566974,Unfolded Protein Response,5,21,True
+OSDRG051,GC,GSM7648644,Unfolded Protein Response,1,11,True
+OSDRG051,GC,GSM7998885,Unfolded Protein Response,2,3,True
+OSDRG051,GC,GSM2333745,Unfolded Protein Response,3,207,False
+OSDRG051,GC,GSM7648643,Unfolded Protein Response,4,26,True
+OSDRG051,GC,GSM5566974,Unfolded Protein Response,5,12,True
+OSDRG052,FLT,GSM3747773,Unfolded Protein Response,1,35,True
+OSDRG052,FLT,GSM3762789,Unfolded Protein Response,2,95,True
+OSDRG052,FLT,GSM3762780,Unfolded Protein Response,3,102,False
+OSDRG052,FLT,GSM3762770,Unfolded Protein Response,4,10,True
+OSDRG052,FLT,GSM3383906,Unfolded Protein Response,5,49,True
+OSDRG052,GC,GSM3747773,Unfolded Protein Response,1,33,True
+OSDRG052,GC,GSM3762789,Unfolded Protein Response,2,105,False
+OSDRG052,GC,GSM7026200,Unfolded Protein Response,3,84,True
+OSDRG052,GC,GSM3762788,Unfolded Protein Response,4,1023,False
+OSDRG052,GC,GSM3762779,Unfolded Protein Response,5,115,False
+OSDRG053,FLT,GSM3747773,Unfolded Protein Response,1,38,True
+OSDRG053,FLT,GSM3762789,Unfolded Protein Response,2,108,False
+OSDRG053,FLT,GSM3383906,Unfolded Protein Response,3,47,True
+OSDRG053,FLT,GSM3762770,Unfolded Protein Response,4,14,True
+OSDRG053,FLT,GSM3762780,Unfolded Protein Response,5,114,False
+OSDRG053,GC,GSM3747773,Unfolded Protein Response,1,28,True
+OSDRG053,GC,GSM3762789,Unfolded Protein Response,2,140,False
+OSDRG053,GC,GSM3383906,Unfolded Protein Response,3,59,True
+OSDRG053,GC,GSM7026200,Unfolded Protein Response,4,123,False
+OSDRG053,GC,GSM3762780,Unfolded Protein Response,5,141,False
+OSDRG054,FLT,GSM5621734,KRAS Signaling Dn,1,1,True
+OSDRG054,FLT,GSM2344105,KRAS Signaling Dn,2,2,True
+OSDRG054,FLT,GSM2344381,KRAS Signaling Dn,3,4,True
+OSDRG054,FLT,GSM5621749,KRAS Signaling Dn,4,3,True
+OSDRG054,FLT,GSM5654927,KRAS Signaling Dn,5,81,True
+OSDRG054,GC,GSM5621734,KRAS Signaling Dn,1,1,True
+OSDRG054,GC,GSM2344105,KRAS Signaling Dn,2,3,True
+OSDRG054,GC,GSM5621749,KRAS Signaling Dn,3,2,True
+OSDRG054,GC,GSM2344381,KRAS Signaling Dn,4,5,True
+OSDRG054,GC,GSM2344170,KRAS Signaling Dn,5,39,True
+OSDRG055,FLT,GSM5621734,KRAS Signaling Dn,1,1,True
+OSDRG055,FLT,GSM5621749,KRAS Signaling Dn,2,2,True
+OSDRG055,FLT,GSM2344105,KRAS Signaling Dn,3,5,True
+OSDRG055,FLT,GSM2344381,KRAS Signaling Dn,4,6,True
+OSDRG055,FLT,GSM7034744,KRAS Signaling Dn,5,13,True
+OSDRG055,GC,GSM5621734,mTORC1 Signaling,1,2,True
+OSDRG055,GC,GSM5621749,mTORC1 Signaling,2,1,True
+OSDRG055,GC,GSM7034744,mTORC1 Signaling,3,76,True
+OSDRG055,GC,GSM7932721,mTORC1 Signaling,4,86,True
+OSDRG055,GC,GSM2344381,mTORC1 Signaling,5,7,True
+OSDRG056,FLT,GSM3762788,Unfolded Protein Response,1,993,False
+OSDRG056,FLT,GSM3762789,Unfolded Protein Response,2,196,False
+OSDRG056,FLT,GSM3383901,Unfolded Protein Response,3,252,False
+OSDRG056,FLT,GSM7774887,Unfolded Protein Response,4,654,False
+OSDRG056,FLT,GSM3762780,Unfolded Protein Response,5,171,False
+OSDRG056,GC,GSM3762788,Unfolded Protein Response,1,1015,False
+OSDRG056,GC,GSM3383901,Unfolded Protein Response,2,170,False
+OSDRG056,GC,GSM7774887,Unfolded Protein Response,3,543,False
+OSDRG056,GC,GSM3747773,Unfolded Protein Response,4,104,False
+OSDRG056,GC,GSM3762789,Unfolded Protein Response,5,250,False
+OSDRG057,FLT,GSM3762788,Unfolded Protein Response,1,824,False
+OSDRG057,FLT,GSM3762789,Unfolded Protein Response,2,166,False
+OSDRG057,FLT,GSM7774887,Unfolded Protein Response,3,556,False
+OSDRG057,FLT,GSM3383901,Unfolded Protein Response,4,211,False
+OSDRG057,FLT,GSM3762780,Unfolded Protein Response,5,149,False
+OSDRG057,GC,GSM3762788,Unfolded Protein Response,1,718,False
+OSDRG057,GC,GSM7774887,Unfolded Protein Response,2,484,False
+OSDRG057,GC,GSM3383901,Unfolded Protein Response,3,170,False
+OSDRG057,GC,GSM3762789,Unfolded Protein Response,4,176,False
+OSDRG057,GC,GSM3762780,Unfolded Protein Response,5,138,False
+OSDRG058,FLT,GSM2552853,Pperoxisome,1,1,True
+OSDRG058,FLT,GSM2552858,Pperoxisome,2,2,True
+OSDRG058,FLT,GSM2552856,Pperoxisome,3,3,True
+OSDRG058,FLT,GSM2311143,Pperoxisome,4,7,True
+OSDRG058,FLT,GSM2552855,Pperoxisome,5,6,True
+OSDRG058,GC,GSM2552853,Pperoxisome,1,1,True
+OSDRG058,GC,GSM2552858,Pperoxisome,2,2,True
+OSDRG058,GC,GSM2552856,Pperoxisome,3,3,True
+OSDRG058,GC,GSM2311143,Pperoxisome,4,7,True
+OSDRG058,GC,GSM4956247,Pperoxisome,5,8,True
+OSDRG059,FLT,GSM2552853,Pperoxisome,1,1,True
+OSDRG059,FLT,GSM2552858,Pperoxisome,2,2,True
+OSDRG059,FLT,GSM2552856,Pperoxisome,3,3,True
+OSDRG059,FLT,GSM2311143,Pperoxisome,4,7,True
+OSDRG059,FLT,GSM2552855,Pperoxisome,5,6,True
+OSDRG059,GC,GSM2552853,Pperoxisome,1,1,True
+OSDRG059,GC,GSM2552858,Pperoxisome,2,2,True
+OSDRG059,GC,GSM2552856,Pperoxisome,3,3,True
+OSDRG059,GC,GSM2311143,Pperoxisome,4,7,True
+OSDRG059,GC,GSM2552857,Pperoxisome,5,4,True
+OSDRG060,FLT,GSM3956191,Unfolded Protein Response,1,2,True
+OSDRG060,FLT,GSM3956192,Unfolded Protein Response,2,1,True
+OSDRG060,FLT,GSM3956195,Unfolded Protein Response,3,10,True
+OSDRG060,FLT,GSM3956197,Unfolded Protein Response,4,4,True
+OSDRG060,FLT,GSM3956186,Unfolded Protein Response,5,3,True
+OSDRG060,GC,GSM3956191,Unfolded Protein Response,1,2,True
+OSDRG060,GC,GSM3956192,Unfolded Protein Response,2,1,True
+OSDRG060,GC,GSM3956197,Unfolded Protein Response,3,6,True
+OSDRG060,GC,GSM3956195,Unfolded Protein Response,4,13,True
+OSDRG060,GC,GSM3956186,Unfolded Protein Response,5,5,True
+OSDRG061,FLT,GSM5742532,Cholesterol Homeostasis,1,2,True
+OSDRG061,FLT,GSM8017062,Cholesterol Homeostasis,2,36,True
+OSDRG061,FLT,GSM5862468,Cholesterol Homeostasis,3,1,True
+OSDRG061,FLT,GSM8017332,Cholesterol Homeostasis,4,76,True
+OSDRG061,FLT,GSM5654911,Cholesterol Homeostasis,5,378,False
+OSDRG061,GC,GSM5742532,Cholesterol Homeostasis,1,4,True
+OSDRG061,GC,GSM8017062,Cholesterol Homeostasis,2,51,True
+OSDRG061,GC,GSM5862468,Cholesterol Homeostasis,3,1,True
+OSDRG061,GC,GSM5654911,Cholesterol Homeostasis,4,420,False
+OSDRG061,GC,GSM5654951,Cholesterol Homeostasis,5,447,False
+OSDRG062,FLT,GSM3956195,Unfolded Protein Response,1,32,True
+OSDRG062,FLT,GSM3956191,Unfolded Protein Response,2,11,True
+OSDRG062,FLT,GSM3956197,Unfolded Protein Response,3,15,True
+OSDRG062,FLT,GSM3956192,Unfolded Protein Response,4,10,True
+OSDRG062,FLT,GSM5960736,Unfolded Protein Response,5,2,True
+OSDRG062,GC,GSM5960736,Unfolded Protein Response,1,1,True
+OSDRG062,GC,GSM3956195,Unfolded Protein Response,2,81,True
+OSDRG062,GC,GSM3956191,Unfolded Protein Response,3,30,True
+OSDRG062,GC,GSM3956197,Unfolded Protein Response,4,33,True
+OSDRG062,GC,GSM3956192,Unfolded Protein Response,5,26,True
+OSDRG063,FLT,GSM3956191,Unfolded Protein Response,1,3,True
+OSDRG063,FLT,GSM3956197,Unfolded Protein Response,2,2,True
+OSDRG063,FLT,GSM3956192,Unfolded Protein Response,3,1,True
+OSDRG063,FLT,GSM3956195,Unfolded Protein Response,4,7,True
+OSDRG063,FLT,GSM3956186,Unfolded Protein Response,5,4,True
+OSDRG063,GC,GSM3956197,Unfolded Protein Response,1,2,True
+OSDRG063,GC,GSM3956191,Unfolded Protein Response,2,3,True
+OSDRG063,GC,GSM3956195,Unfolded Protein Response,3,7,True
+OSDRG063,GC,GSM3956192,Unfolded Protein Response,4,1,True
+OSDRG063,GC,GSM3956186,Unfolded Protein Response,5,4,True
+OSDRG064,FLT,GSM7026200,Unfolded Protein Response,1,4,True
+OSDRG064,FLT,GSM7774881,Unfolded Protein Response,2,205,False
+OSDRG064,FLT,GSM3747773,Unfolded Protein Response,3,117,False
+OSDRG064,FLT,GSM7026111,Unfolded Protein Response,4,280,False
+OSDRG064,FLT,GSM7026134,Unfolded Protein Response,5,186,False
+OSDRG064,GC,GSM7026200,Unfolded Protein Response,1,45,True
+OSDRG064,GC,GSM3747773,Unfolded Protein Response,2,77,True
+OSDRG064,GC,GSM3383901,Unfolded Protein Response,3,203,False
+OSDRG064,GC,GSM7774881,Unfolded Protein Response,4,242,False
+OSDRG064,GC,GSM7026111,Unfolded Protein Response,5,290,False
+OSDRG065,FLT,GSM2552853,Pperoxisome,1,1,True
+OSDRG065,FLT,GSM1382089,Pperoxisome,2,15,True
+OSDRG065,FLT,GSM8153586,Pperoxisome,3,13,True
+OSDRG065,FLT,GSM6216398,Pperoxisome,4,9,True
+OSDRG065,FLT,GSM2552858,Pperoxisome,5,7,True
+OSDRG065,GC,GSM2552853,Pperoxisome,1,3,True
+OSDRG065,GC,GSM5862468,Pperoxisome,2,1,True
+OSDRG065,GC,GSM8153586,Pperoxisome,3,21,True
+OSDRG065,GC,GSM4029877,Pperoxisome,4,4,True
+OSDRG065,GC,GSM5960735,Pperoxisome,5,5,True
+OSDRG066,FLT,GSM2552853,heme Metabolism,1,1979,False
+OSDRG066,FLT,GSM2552858,heme Metabolism,2,402,False
+OSDRG066,FLT,GSM2552856,heme Metabolism,3,3654,False
+OSDRG066,FLT,GSM2552854,heme Metabolism,4,1032,False
+OSDRG066,FLT,GSM5862468,heme Metabolism,5,825,False
+OSDRG066,GC,GSM2552853,heme Metabolism,1,2453,False
+OSDRG066,GC,GSM2552858,heme Metabolism,2,584,False
+OSDRG066,GC,GSM5862468,heme Metabolism,3,188,False
+OSDRG066,GC,GSM8017332,heme Metabolism,4,3075,False
+OSDRG066,GC,GSM2552854,heme Metabolism,5,1177,False
+OSDRG067,FLT,GSM8370356,Pancreas Beta Cells,1,32,True
+OSDRG067,FLT,GSM4384981,Pancreas Beta Cells,2,58,True
+OSDRG067,FLT,GSM3954342,Pancreas Beta Cells,3,124,False
+OSDRG067,FLT,GSM2453419,Pancreas Beta Cells,4,257,False
+OSDRG067,FLT,GSM2285365,Pancreas Beta Cells,5,8,True
+OSDRG067,GC,GSM8370356,Pancreas Beta Cells,1,27,True
+OSDRG067,GC,GSM4384981,Pancreas Beta Cells,2,57,True
+OSDRG067,GC,GSM2453419,Pancreas Beta Cells,3,205,False
+OSDRG067,GC,GSM3954342,Pancreas Beta Cells,4,151,False
+OSDRG067,GC,GSM2285365,Pancreas Beta Cells,5,9,True
+OSDRG068,FLT,GSM3747773,Unfolded Protein Response,1,13,True
+OSDRG068,FLT,GSM3383901,Unfolded Protein Response,2,74,True
+OSDRG068,FLT,GSM7774881,Unfolded Protein Response,3,185,False
+OSDRG068,FLT,GSM7774887,Unfolded Protein Response,4,472,False
+OSDRG068,FLT,GSM3747758,Unfolded Protein Response,5,159,False
+OSDRG068,GC,GSM7774887,Unfolded Protein Response,1,135,False
+OSDRG068,GC,GSM3383901,Unfolded Protein Response,2,18,True
+OSDRG068,GC,GSM3762788,Unfolded Protein Response,3,625,False
+OSDRG068,GC,GSM3747773,Unfolded Protein Response,4,10,True
+OSDRG068,GC,GSM7026200,Unfolded Protein Response,5,54,True
+OSDRG069,FLT,GSM6304366,KRAS Signaling Dn,1,9,True
+OSDRG069,FLT,GSM3099836,KRAS Signaling Dn,2,14,True
+OSDRG069,FLT,GSM6304368,KRAS Signaling Dn,3,12,True
+OSDRG069,FLT,GSM8017348,KRAS Signaling Dn,4,17,True
+OSDRG069,FLT,GSM6351556,KRAS Signaling Dn,5,29,True
+OSDRG069,GC,GSM6304366,KRAS Signaling Dn,1,10,True
+OSDRG069,GC,GSM3099836,KRAS Signaling Dn,2,16,True
+OSDRG069,GC,GSM6304368,KRAS Signaling Dn,3,13,True
+OSDRG069,GC,GSM8017348,KRAS Signaling Dn,4,18,True
+OSDRG069,GC,GSM5654953,KRAS Signaling Dn,5,97,True
+OSDRG070,FLT,GSM4157055,mTORC1 Signaling,1,1,True
+OSDRG070,FLT,GSM7932721,mTORC1 Signaling,2,31,True
+OSDRG070,FLT,GSM4157057,mTORC1 Signaling,3,3,True
+OSDRG070,FLT,GSM4157064,mTORC1 Signaling,4,2,True
+OSDRG070,FLT,GSM4157054,mTORC1 Signaling,5,4,True
+OSDRG070,GC,GSM7932721,Cholesterol Homeostasis,1,4,True
+OSDRG070,GC,GSM4157055,Cholesterol Homeostasis,2,1,True
+OSDRG070,GC,GSM4157057,Cholesterol Homeostasis,3,3,True
+OSDRG070,GC,GSM4157064,Cholesterol Homeostasis,4,2,True
+OSDRG070,GC,GSM4157054,Cholesterol Homeostasis,5,5,True
+OSDRG071,FLT,GSM4157055,Pancreas Beta Cells,1,260,False
+OSDRG071,FLT,GSM4157057,Pancreas Beta Cells,2,321,False
+OSDRG071,FLT,GSM4157064,Pancreas Beta Cells,3,324,False
+OSDRG071,FLT,GSM5105643,Pancreas Beta Cells,4,2,True
+OSDRG071,FLT,GSM5105645,Pancreas Beta Cells,5,5,True
+OSDRG071,GC,GSM4157055,Pancreas Beta Cells,1,290,False
+OSDRG071,GC,GSM4157057,Pancreas Beta Cells,2,354,False
+OSDRG071,GC,GSM4157064,Pancreas Beta Cells,3,360,False
+OSDRG071,GC,GSM5105645,Pancreas Beta Cells,4,5,True
+OSDRG071,GC,GSM5105643,Pancreas Beta Cells,5,2,True
+OSDRG072,FLT,GSM6304366,mTORC1 Signaling,1,3,True
+OSDRG072,FLT,GSM4157055,mTORC1 Signaling,2,8,True
+OSDRG072,FLT,GSM4850504,mTORC1 Signaling,3,4,True
+OSDRG072,FLT,GSM3099836,mTORC1 Signaling,4,2,True
+OSDRG072,FLT,GSM4850502,mTORC1 Signaling,5,5,True
+OSDRG072,GC,GSM6862311,mTORC1 Signaling,1,12,True
+OSDRG072,GC,GSM6945075,mTORC1 Signaling,2,11,True
+OSDRG072,GC,GSM4850504,mTORC1 Signaling,3,1,True
+OSDRG072,GC,GSM4157055,mTORC1 Signaling,4,15,True
+OSDRG072,GC,GSM4850502,mTORC1 Signaling,5,2,True
+OSDRG073,FLT,GSM5105632,Pancreas Beta Cells,1,2,True
+OSDRG073,FLT,GSM5105643,Pancreas Beta Cells,2,4,True
+OSDRG073,FLT,GSM5105645,Pancreas Beta Cells,3,13,True
+OSDRG073,FLT,GSM5105633,Pancreas Beta Cells,4,6,True
+OSDRG073,FLT,GSM5105631,Pancreas Beta Cells,5,11,True
+OSDRG073,GC,GSM4157055,Pancreas Beta Cells,1,371,False
+OSDRG073,GC,GSM4157057,Pancreas Beta Cells,2,571,False
+OSDRG073,GC,GSM4157064,Pancreas Beta Cells,3,602,False
+OSDRG073,GC,GSM5105632,Pancreas Beta Cells,4,1,True
+OSDRG073,GC,GSM5105645,Pancreas Beta Cells,5,8,True
+OSDRG074,FLT,GSM4602754,Wnt-beta Catenin Signaling,1,2,True
+OSDRG074,FLT,GSM1297640,Wnt-beta Catenin Signaling,2,49,True
+OSDRG074,FLT,GSM1297651,Wnt-beta Catenin Signaling,3,389,False
+OSDRG074,FLT,GSM8224141,Wnt-beta Catenin Signaling,4,25,True
+OSDRG074,FLT,GSM8224143,Wnt-beta Catenin Signaling,5,69,True
+OSDRG074,GC,GSM4602754,Wnt-beta Catenin Signaling,1,1,True
+OSDRG074,GC,GSM1297640,Wnt-beta Catenin Signaling,2,32,True
+OSDRG074,GC,GSM1297651,Wnt-beta Catenin Signaling,3,257,False
+OSDRG074,GC,GSM8224143,Wnt-beta Catenin Signaling,4,34,True
+OSDRG074,GC,GSM8224141,Wnt-beta Catenin Signaling,5,16,True
+OSDRG075,FLT,GSM3552287,Wnt-beta Catenin Signaling,1,1,True
+OSDRG075,FLT,GSM7932718,Wnt-beta Catenin Signaling,2,216,False
+OSDRG075,FLT,GSM4711134,Wnt-beta Catenin Signaling,3,53,True
+OSDRG075,FLT,GSM1978259,Wnt-beta Catenin Signaling,4,3,True
+OSDRG075,FLT,GSM4711135,Wnt-beta Catenin Signaling,5,79,True
+OSDRG075,GC,GSM3552287,Pancreas Beta Cells,1,841,False
+OSDRG075,GC,GSM7932718,Pancreas Beta Cells,2,562,False
+OSDRG075,GC,GSM1978259,Pancreas Beta Cells,3,2573,False
+OSDRG075,GC,GSM1978252,Pancreas Beta Cells,4,2079,False
+OSDRG075,GC,GSM3295700,Pancreas Beta Cells,5,3566,False
+OSDRG076,FLT,GSM3552287,Wnt-beta Catenin Signaling,1,1,True
+OSDRG076,FLT,GSM7932718,Wnt-beta Catenin Signaling,2,76,True
+OSDRG076,FLT,GSM1978259,Wnt-beta Catenin Signaling,3,3,True
+OSDRG076,FLT,GSM1978252,Wnt-beta Catenin Signaling,4,2,True
+OSDRG076,FLT,GSM4525282,Wnt-beta Catenin Signaling,5,25,True
+OSDRG076,GC,GSM3552287,Wnt-beta Catenin Signaling,1,1,True
+OSDRG076,GC,GSM7932718,Wnt-beta Catenin Signaling,2,73,True
+OSDRG076,GC,GSM1978259,Wnt-beta Catenin Signaling,3,3,True
+OSDRG076,GC,GSM1978252,Wnt-beta Catenin Signaling,4,2,True
+OSDRG076,GC,GSM4711135,Wnt-beta Catenin Signaling,5,128,False
+OSDRG077,FLT,GSM3552287,Wnt-beta Catenin Signaling,1,7,True
+OSDRG077,FLT,GSM7932718,Wnt-beta Catenin Signaling,2,39,True
+OSDRG077,FLT,GSM1978252,Wnt-beta Catenin Signaling,3,1,True
+OSDRG077,FLT,GSM4083359,Wnt-beta Catenin Signaling,4,29,True
+OSDRG077,FLT,GSM1978259,Wnt-beta Catenin Signaling,5,2,True
+OSDRG077,GC,GSM7932718,Wnt-beta Catenin Signaling,1,23,True
+OSDRG077,GC,GSM3552287,Wnt-beta Catenin Signaling,2,3,True
+OSDRG077,GC,GSM1978252,Wnt-beta Catenin Signaling,3,1,True
+OSDRG077,GC,GSM4083359,Wnt-beta Catenin Signaling,4,25,True
+OSDRG077,GC,GSM4083354,Wnt-beta Catenin Signaling,5,12,True
+OSDRG078,FLT,GSM4602754,heme Metabolism,1,6,True
+OSDRG078,FLT,GSM1297640,heme Metabolism,2,28,True
+OSDRG078,FLT,GSM1297642,heme Metabolism,3,90,True
+OSDRG078,FLT,GSM1297645,heme Metabolism,4,24,True
+OSDRG078,FLT,GSM1297651,heme Metabolism,5,10,True
+OSDRG078,GC,GSM1297640,heme Metabolism,1,23,True
+OSDRG078,GC,GSM4602754,heme Metabolism,2,7,True
+OSDRG078,GC,GSM1297642,heme Metabolism,3,64,True
+OSDRG078,GC,GSM1297645,heme Metabolism,4,21,True
+OSDRG078,GC,GSM1297651,heme Metabolism,5,6,True
+OSDRG079,FLT,GSM1297640,heme Metabolism,1,32,True
+OSDRG079,FLT,GSM4602754,heme Metabolism,2,11,True
+OSDRG079,FLT,GSM1297642,heme Metabolism,3,77,True
+OSDRG079,FLT,GSM1297645,heme Metabolism,4,30,True
+OSDRG079,FLT,GSM1297651,heme Metabolism,5,9,True
+OSDRG079,GC,GSM1297640,heme Metabolism,1,46,True
+OSDRG079,GC,GSM4602754,heme Metabolism,2,21,True
+OSDRG079,GC,GSM1297651,heme Metabolism,3,11,True
+OSDRG079,GC,GSM1297642,heme Metabolism,4,139,False
+OSDRG079,GC,GSM1297645,heme Metabolism,5,47,True
+OSDRG080,FLT,GSM1216774,Pancreas Beta Cells,1,2799,False
+OSDRG080,FLT,GSM5330478,Pancreas Beta Cells,2,4746,False
+OSDRG080,FLT,GSM1216766,Pancreas Beta Cells,3,1575,False
+OSDRG080,FLT,GSM4586359,Pancreas Beta Cells,4,5943,False
+OSDRG080,FLT,GSM5494796,Pancreas Beta Cells,5,5944,False
+OSDRG080,GC,GSM5330478,Pancreas Beta Cells,1,3088,False
+OSDRG080,GC,GSM1216774,Pancreas Beta Cells,2,2240,False
+OSDRG080,GC,GSM5742532,Pancreas Beta Cells,3,23,True
+OSDRG080,GC,GSM7774902,Pancreas Beta Cells,4,1799,False
+OSDRG080,GC,GSM1216753,Pancreas Beta Cells,5,3605,False
+OSDRG081,FLT,GSM5330478,Pancreas Beta Cells,1,2688,False
+OSDRG081,FLT,GSM1216774,Pancreas Beta Cells,2,2099,False
+OSDRG081,FLT,GSM5742532,Pancreas Beta Cells,3,25,True
+OSDRG081,FLT,GSM7774902,Pancreas Beta Cells,4,1453,False
+OSDRG081,FLT,GSM1216766,Pancreas Beta Cells,5,1308,False
+OSDRG081,GC,GSM5330478,Pancreas Beta Cells,1,3641,False
+OSDRG081,GC,GSM1216774,Pancreas Beta Cells,2,2517,False
+OSDRG081,GC,GSM1216766,Pancreas Beta Cells,3,1488,False
+OSDRG081,GC,GSM7774902,Pancreas Beta Cells,4,1863,False
+OSDRG081,GC,GSM5742532,Pancreas Beta Cells,5,55,True
+OSDRG082,FLT,GSM3956191,Unfolded Protein Response,1,5,True
+OSDRG082,FLT,GSM3956195,Unfolded Protein Response,2,24,True
+OSDRG082,FLT,GSM3956197,Unfolded Protein Response,3,9,True
+OSDRG082,FLT,GSM3956192,Unfolded Protein Response,4,4,True
+OSDRG082,FLT,GSM3956186,Unfolded Protein Response,5,14,True
+OSDRG082,GC,GSM3956191,Unfolded Protein Response,1,4,True
+OSDRG082,GC,GSM3956195,Unfolded Protein Response,2,14,True
+OSDRG082,GC,GSM3956197,Unfolded Protein Response,3,6,True
+OSDRG082,GC,GSM3956192,Unfolded Protein Response,4,3,True
+OSDRG082,GC,GSM3956186,Unfolded Protein Response,5,7,True
+OSDRG083,FLT,GSM4478965,heme Metabolism,1,126769,False
+OSDRG083,FLT,GSM3664937,heme Metabolism,2,74905,False
+OSDRG083,FLT,GSM3664936,heme Metabolism,3,95307,False
+OSDRG083,FLT,GSM1886925,heme Metabolism,4,130912,False
+OSDRG083,FLT,GSM1886924,heme Metabolism,5,57476,False
+OSDRG083,GC,GSM4478965,heme Metabolism,1,111757,False
+OSDRG083,GC,GSM1886925,heme Metabolism,2,120012,False
+OSDRG083,GC,GSM3664936,heme Metabolism,3,83833,False
+OSDRG083,GC,GSM2072387,heme Metabolism,4,157716,False
+OSDRG083,GC,GSM3664937,heme Metabolism,5,63605,False
+OSDRG084,FLT,GSM4478965,heme Metabolism,1,119364,False
+OSDRG084,FLT,GSM3664936,heme Metabolism,2,93522,False
+OSDRG084,FLT,GSM3664937,heme Metabolism,3,75976,False
+OSDRG084,FLT,GSM1886925,heme Metabolism,4,126473,False
+OSDRG084,FLT,GSM1886924,heme Metabolism,5,54831,False
+OSDRG084,GC,GSM4478965,heme Metabolism,1,107141,False
+OSDRG084,GC,GSM1886925,heme Metabolism,2,117922,False
+OSDRG084,GC,GSM3664936,heme Metabolism,3,82394,False
+OSDRG084,GC,GSM2072387,heme Metabolism,4,153109,False
+OSDRG084,GC,GSM3664937,heme Metabolism,5,63607,False
+OSDRG085,FLT,GSM8224127,Wnt-beta Catenin Signaling,1,4,True
+OSDRG085,FLT,GSM8224143,Wnt-beta Catenin Signaling,2,9,True
+OSDRG085,FLT,GSM8224124,Wnt-beta Catenin Signaling,3,12,True
+OSDRG085,FLT,GSM8224141,Wnt-beta Catenin Signaling,4,7,True
+OSDRG085,FLT,GSM1978264,Wnt-beta Catenin Signaling,5,15,True
+OSDRG085,GC,GSM8224127,Wnt-beta Catenin Signaling,1,5,True
+OSDRG085,GC,GSM8224124,Wnt-beta Catenin Signaling,2,11,True
+OSDRG085,GC,GSM8224143,Wnt-beta Catenin Signaling,3,10,True
+OSDRG085,GC,GSM8224141,Wnt-beta Catenin Signaling,4,7,True
+OSDRG085,GC,GSM4118636,Wnt-beta Catenin Signaling,5,6,True
+OSDRG086,FLT,GSM8370356,Pancreas Beta Cells,1,38,True
+OSDRG086,FLT,GSM4384981,Pancreas Beta Cells,2,75,True
+OSDRG086,FLT,GSM3954342,Pancreas Beta Cells,3,81,True
+OSDRG086,FLT,GSM4384924,Pancreas Beta Cells,4,1043,False
+OSDRG086,FLT,GSM6351556,Pancreas Beta Cells,5,43,True
+OSDRG086,GC,GSM8370356,Pancreas Beta Cells,1,38,True
+OSDRG086,GC,GSM4384981,Pancreas Beta Cells,2,65,True
+OSDRG086,GC,GSM3954342,Pancreas Beta Cells,3,104,False
+OSDRG086,GC,GSM4384924,Pancreas Beta Cells,4,1196,False
+OSDRG086,GC,GSM8138495,Pancreas Beta Cells,5,2610,False
+OSDRG087,FLT,GSM5862468,heme Metabolism,1,24,True
+OSDRG087,FLT,GSM3099836,heme Metabolism,2,1010,False
+OSDRG087,FLT,GSM8017332,heme Metabolism,3,404,False
+OSDRG087,FLT,GSM8017353,heme Metabolism,4,276,False
+OSDRG087,FLT,GSM5654953,heme Metabolism,5,26,True
+OSDRG087,GC,GSM5862468,heme Metabolism,1,18,True
+OSDRG087,GC,GSM3099836,heme Metabolism,2,1197,False
+OSDRG087,GC,GSM2344381,heme Metabolism,3,1,True
+OSDRG087,GC,GSM8017332,heme Metabolism,4,367,False
+OSDRG087,GC,GSM2552858,heme Metabolism,5,184,False
+OSDRG088,FLT,GSM1297640,heme Metabolism,1,24,True
+OSDRG088,FLT,GSM1297642,heme Metabolism,2,52,True
+OSDRG088,FLT,GSM1297645,heme Metabolism,3,15,True
+OSDRG088,FLT,GSM4602754,heme Metabolism,4,14,True
+OSDRG088,FLT,GSM6429508,heme Metabolism,5,23,True
+OSDRG088,GC,GSM1297640,heme Metabolism,1,24,True
+OSDRG088,GC,GSM1297645,heme Metabolism,2,14,True
+OSDRG088,GC,GSM1297642,heme Metabolism,3,64,True
+OSDRG088,GC,GSM4602754,heme Metabolism,4,7,True
+OSDRG088,GC,GSM6429508,heme Metabolism,5,19,True

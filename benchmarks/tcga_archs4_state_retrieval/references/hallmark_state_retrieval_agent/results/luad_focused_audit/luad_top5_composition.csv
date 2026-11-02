@@ -1,0 +1,10 @@
+query_type,method,conservative_interpretation,top5_count
+all_patient_centroid,Bridge-512 cosine,lung adenocarcinoma,5
+all_patient_centroid,Hallmark-50 cosine,lung adenocarcinoma,1
+all_patient_centroid,Hallmark-50 cosine,lung squamous carcinoma,1
+all_patient_centroid,Hallmark-50 cosine,other/unspecified lung context,3
+representative_patient,Bridge-512 cosine,lung adenocarcinoma,2
+representative_patient,Bridge-512 cosine,other/unspecified lung context,3
+representative_patient,Hallmark-50 cosine,lung adenocarcinoma,1
+representative_patient,Hallmark-50 cosine,lung squamous carcinoma,1
+representative_patient,Hallmark-50 cosine,other/unspecified lung context,3

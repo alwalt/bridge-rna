@@ -1,0 +1,18 @@
+{
+  "bridge_frozen": true,
+  "cross_species_applied": false,
+  "ig_has_acceptable_step": true,
+  "pan_cancer_contrasts": 7,
+  "pan_cancer_patient_disjoint": true,
+  "required_figures_png_pdf": true,
+  "tcga_embedding_finite": true,
+  "tcga_embedding_shape": [
+    9816,
+    512
+  ],
+  "tcga_primary_tumor_only": true,
+  "tcga_unique_patients": true,
+  "tcga_unique_samples": true,
+  "zero_shot_all_positive": true,
+  "zero_shot_pathways": 50
+}

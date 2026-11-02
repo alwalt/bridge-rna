@@ -1,0 +1,51 @@
+hallmark,pearson,spearman,alpha
+Adipogenesis,,,10.0
+Allograft Rejection,,,10.0
+Androgen Response,,,10.0
+Angiogenesis,,,10.0
+Apical Junction,,,10.0
+Apical Surface,0.7436175,0.07498818092625063,10.0
+Apoptosis,,,10.0
+Bile Acid Metabolism,,,10.0
+Cholesterol Homeostasis,0.89705724,0.1517505545483605,10.0
+Coagulation,,,10.0
+Complement,,,10.0
+DNA Repair,0.396298,0.04592606675209277,10.0
+E2F Targets,,,10.0
+Epithelial Mesenchymal Transition,,,10.0
+Estrogen Response Early,,,10.0
+Estrogen Response Late,,,10.0
+Fatty Acid Metabolism,0.923188,0.18087044717366807,10.0
+G2-M Checkpoint,,,10.0
+Glycolysis,,,10.0
+Hedgehog Signaling,,,10.0
+Hypoxia,,,10.0
+IL-2/STAT5 Signaling,,,10.0
+IL-6/JAK/STAT3 Signaling,,,10.0
+Inflammatory Response,,,10.0
+Interferon Alpha Response,0.7717505,0.11226196829106183,10.0
+Interferon Gamma Response,,,10.0
+KRAS Signaling Dn,,,10.0
+KRAS Signaling Up,,,10.0
+Mitotic Spindle,,,10.0
+Myc Targets V1,0.91051775,0.17102586059099067,10.0
+Myc Targets V2,,,10.0
+Myogenesis,,,10.0
+Notch Signaling,,,10.0
+Oxidative Phosphorylation,,,10.0
+PI3K/AKT/mTOR  Signaling,,,10.0
+Pancreas Beta Cells,,,10.0
+Pperoxisome,,,10.0
+Protein Secretion,0.4232946,0.06486020406785602,10.0
+Reactive Oxygen Species Pathway,0.9498962,0.32242456095340566,10.0
+Spermatogenesis,,,10.0
+TGF-beta Signaling,0.9240366,0.2417709950430885,10.0
+TNF-alpha Signaling via NF-kB,,,10.0
+UV Response Dn,,,10.0
+UV Response Up,,,10.0
+Unfolded Protein Response,0.9070492,0.18081957496676224,10.0
+Wnt-beta Catenin Signaling,0.8573465,0.13208784553055508,10.0
+Xenobiotic Metabolism,-0.0005852554,0.00033778094786521246,10.0
+heme Metabolism,0.37690416,0.059164899354567875,10.0
+mTORC1 Signaling,0.90048784,0.1690275131929862,10.0
+p53 Pathway,,,10.0

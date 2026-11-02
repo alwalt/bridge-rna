@@ -1,0 +1,385 @@
+study,osdr_sample_id,condition,method,mouse_fraction_top100,human_fraction_top100,unique_gse_top100
+OSD-100,Mmus_C57-6J_EYE_FLT_Rep1_M23,FLT,Bridge-512 cosine,1.0,0.0,33
+OSD-100,Mmus_C57-6J_EYE_FLT_Rep1_M23,FLT,Hallmark signed top10 overlap,1.0,0.0,32
+OSD-100,Mmus_C57-6J_EYE_FLT_Rep1_M23,FLT,Hallmark-50 cosine,1.0,0.0,21
+OSD-100,Mmus_C57-6J_EYE_GC_Rep1_M33,GC,Bridge-512 cosine,1.0,0.0,25
+OSD-100,Mmus_C57-6J_EYE_GC_Rep1_M33,GC,Hallmark signed top10 overlap,1.0,0.0,32
+OSD-100,Mmus_C57-6J_EYE_GC_Rep1_M33,GC,Hallmark-50 cosine,1.0,0.0,22
+OSD-101,Mmus_C57-6J_GST_FLT_Rep1_M23,FLT,Bridge-512 cosine,1.0,0.0,27
+OSD-101,Mmus_C57-6J_GST_FLT_Rep1_M23,FLT,Hallmark signed top10 overlap,1.0,0.0,22
+OSD-101,Mmus_C57-6J_GST_FLT_Rep1_M23,FLT,Hallmark-50 cosine,1.0,0.0,14
+OSD-101,Mmus_C57-6J_GST_GC_Rep1_M33,GC,Bridge-512 cosine,1.0,0.0,14
+OSD-101,Mmus_C57-6J_GST_GC_Rep1_M33,GC,Hallmark signed top10 overlap,1.0,0.0,22
+OSD-101,Mmus_C57-6J_GST_GC_Rep1_M33,GC,Hallmark-50 cosine,1.0,0.0,7
+OSD-102,Mmus_C57-6J_KDN_FLT_Rep1_M23,FLT,Bridge-512 cosine,1.0,0.0,24
+OSD-102,Mmus_C57-6J_KDN_FLT_Rep1_M23,FLT,Hallmark signed top10 overlap,1.0,0.0,19
+OSD-102,Mmus_C57-6J_KDN_FLT_Rep1_M23,FLT,Hallmark-50 cosine,1.0,0.0,14
+OSD-102,Mmus_C57-6J_KDN_GC_Rep1_M33,GC,Bridge-512 cosine,1.0,0.0,29
+OSD-102,Mmus_C57-6J_KDN_GC_Rep1_M33,GC,Hallmark signed top10 overlap,1.0,0.0,19
+OSD-102,Mmus_C57-6J_KDN_GC_Rep1_M33,GC,Hallmark-50 cosine,1.0,0.0,15
+OSD-103,Mmus_C57-6J_Quad_FLT_Rep1_M23,FLT,Bridge-512 cosine,1.0,0.0,23
+OSD-103,Mmus_C57-6J_Quad_FLT_Rep1_M23,FLT,Hallmark signed top10 overlap,1.0,0.0,22
+OSD-103,Mmus_C57-6J_Quad_FLT_Rep1_M23,FLT,Hallmark-50 cosine,1.0,0.0,20
+OSD-103,Mmus_C57-6J_Quad_GC_Rep1_M33,GC,Bridge-512 cosine,1.0,0.0,25
+OSD-103,Mmus_C57-6J_Quad_GC_Rep1_M33,GC,Hallmark signed top10 overlap,1.0,0.0,22
+OSD-103,Mmus_C57-6J_Quad_GC_Rep1_M33,GC,Hallmark-50 cosine,1.0,0.0,16
+OSD-104,Mmus_C57-6J_SLS_FLT_Rep1_M23,FLT,Bridge-512 cosine,1.0,0.0,25
+OSD-104,Mmus_C57-6J_SLS_FLT_Rep1_M23,FLT,Hallmark signed top10 overlap,1.0,0.0,17
+OSD-104,Mmus_C57-6J_SLS_FLT_Rep1_M23,FLT,Hallmark-50 cosine,1.0,0.0,23
+OSD-104,Mmus_C57-6J_SLS_GC_Rep1_M33,GC,Bridge-512 cosine,1.0,0.0,25
+OSD-104,Mmus_C57-6J_SLS_GC_Rep1_M33,GC,Hallmark signed top10 overlap,1.0,0.0,19
+OSD-104,Mmus_C57-6J_SLS_GC_Rep1_M33,GC,Hallmark-50 cosine,1.0,0.0,21
+OSD-105,Mmus_C57-6J_TA_FLT_Rep1_M23,FLT,Bridge-512 cosine,1.0,0.0,11
+OSD-105,Mmus_C57-6J_TA_FLT_Rep1_M23,FLT,Hallmark signed top10 overlap,1.0,0.0,27
+OSD-105,Mmus_C57-6J_TA_FLT_Rep1_M23,FLT,Hallmark-50 cosine,1.0,0.0,10
+OSD-105,Mmus_C57-6J_TA_GC_Rep1_M33,GC,Bridge-512 cosine,1.0,0.0,24
+OSD-105,Mmus_C57-6J_TA_GC_Rep1_M33,GC,Hallmark signed top10 overlap,1.0,0.0,27
+OSD-105,Mmus_C57-6J_TA_GC_Rep1_M33,GC,Hallmark-50 cosine,1.0,0.0,9
+OSD-137,Mmus_BAL-TAL_LVR_FLT_Rep1_F1,FLT,Bridge-512 cosine,1.0,0.0,33
+OSD-137,Mmus_BAL-TAL_LVR_FLT_Rep1_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,27
+OSD-137,Mmus_BAL-TAL_LVR_FLT_Rep1_F1,FLT,Hallmark-50 cosine,1.0,0.0,22
+OSD-137,Mmus_BAL-TAL_LVR_GC_Rep1_G1,GC,Bridge-512 cosine,1.0,0.0,31
+OSD-137,Mmus_BAL-TAL_LVR_GC_Rep1_G1,GC,Hallmark signed top10 overlap,1.0,0.0,1
+OSD-137,Mmus_BAL-TAL_LVR_GC_Rep1_G1,GC,Hallmark-50 cosine,1.0,0.0,17
+OSD-161,Mmus_BAL-TAL_ADR_FLT_Rep1_F1,FLT,Bridge-512 cosine,1.0,0.0,26
+OSD-161,Mmus_BAL-TAL_ADR_FLT_Rep1_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,23
+OSD-161,Mmus_BAL-TAL_ADR_FLT_Rep1_F1,FLT,Hallmark-50 cosine,1.0,0.0,28
+OSD-161,Mmus_BAL-TAL_ADR_GC_Rep1_G1,GC,Bridge-512 cosine,1.0,0.0,18
+OSD-161,Mmus_BAL-TAL_ADR_GC_Rep1_G1,GC,Hallmark signed top10 overlap,1.0,0.0,16
+OSD-161,Mmus_BAL-TAL_ADR_GC_Rep1_G1,GC,Hallmark-50 cosine,1.0,0.0,23
+OSD-162,Mmus_BAL-TAL_EYE_FLT_Rep1_F1,FLT,Bridge-512 cosine,1.0,0.0,14
+OSD-162,Mmus_BAL-TAL_EYE_FLT_Rep1_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,40
+OSD-162,Mmus_BAL-TAL_EYE_FLT_Rep1_F1,FLT,Hallmark-50 cosine,1.0,0.0,10
+OSD-162,Mmus_BAL-TAL_EYE_GC_Rep1_G1,GC,Bridge-512 cosine,1.0,0.0,19
+OSD-162,Mmus_BAL-TAL_EYE_GC_Rep1_G1,GC,Hallmark signed top10 overlap,1.0,0.0,30
+OSD-162,Mmus_BAL-TAL_EYE_GC_Rep1_G1,GC,Hallmark-50 cosine,1.0,0.0,26
+OSD-163,Mmus_BAL-TAL_KDN_FLT_Rep1_F2,FLT,Bridge-512 cosine,1.0,0.0,31
+OSD-163,Mmus_BAL-TAL_KDN_FLT_Rep1_F2,FLT,Hallmark signed top10 overlap,1.0,0.0,19
+OSD-163,Mmus_BAL-TAL_KDN_FLT_Rep1_F2,FLT,Hallmark-50 cosine,1.0,0.0,28
+OSD-163,Mmus_BAL-TAL_KDN_GC_Rep1_G1,GC,Bridge-512 cosine,1.0,0.0,37
+OSD-163,Mmus_BAL-TAL_KDN_GC_Rep1_G1,GC,Hallmark signed top10 overlap,1.0,0.0,19
+OSD-163,Mmus_BAL-TAL_KDN_GC_Rep1_G1,GC,Hallmark-50 cosine,1.0,0.0,27
+OSD-164,Mmus_C57-6T_LVR_FLT_Rep1_F1,FLT,Bridge-512 cosine,1.0,0.0,32
+OSD-164,Mmus_C57-6T_LVR_FLT_Rep1_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,8
+OSD-164,Mmus_C57-6T_LVR_FLT_Rep1_F1,FLT,Hallmark-50 cosine,1.0,0.0,38
+OSD-164,Mmus_C57-6T_LVR_GC_Rep1_G1,GC,Bridge-512 cosine,1.0,0.0,54
+OSD-164,Mmus_C57-6T_LVR_GC_Rep1_G1,GC,Hallmark signed top10 overlap,1.0,0.0,29
+OSD-164,Mmus_C57-6T_LVR_GC_Rep1_G1,GC,Hallmark-50 cosine,1.0,0.0,42
+OSD-168,Mmus_BAL-TAL_LVR_RR3_FLT_wERCC_Rep1_F1,FLT,Bridge-512 cosine,1.0,0.0,31
+OSD-168,Mmus_BAL-TAL_LVR_RR3_FLT_wERCC_Rep1_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,27
+OSD-168,Mmus_BAL-TAL_LVR_RR3_FLT_wERCC_Rep1_F1,FLT,Hallmark-50 cosine,1.0,0.0,34
+OSD-168,Mmus_BAL-TAL_LVR_RR3_GC_wERCC_Rep1_G1,GC,Bridge-512 cosine,1.0,0.0,37
+OSD-168,Mmus_BAL-TAL_LVR_RR3_GC_wERCC_Rep1_G1,GC,Hallmark signed top10 overlap,1.0,0.0,27
+OSD-168,Mmus_BAL-TAL_LVR_RR3_GC_wERCC_Rep1_G1,GC,Hallmark-50 cosine,1.0,0.0,34
+OSD-173,Mmus_C57-6CR_LVR_FLT_Rep1_F58,FLT,Bridge-512 cosine,1.0,0.0,56
+OSD-173,Mmus_C57-6CR_LVR_FLT_Rep1_F58,FLT,Hallmark signed top10 overlap,1.0,0.0,3
+OSD-173,Mmus_C57-6CR_LVR_FLT_Rep1_F58,FLT,Hallmark-50 cosine,1.0,0.0,34
+OSD-173,Mmus_C57-6CR_LVR_GC_Rep1_G40,GC,Bridge-512 cosine,1.0,0.0,43
+OSD-173,Mmus_C57-6CR_LVR_GC_Rep1_G40,GC,Hallmark signed top10 overlap,1.0,0.0,27
+OSD-173,Mmus_C57-6CR_LVR_GC_Rep1_G40,GC,Hallmark-50 cosine,1.0,0.0,49
+OSD-194,Mmus_BAL-TAL_LRTN_FLT_Rep1_F6,FLT,Bridge-512 cosine,1.0,0.0,28
+OSD-194,Mmus_BAL-TAL_LRTN_FLT_Rep1_F6,FLT,Hallmark signed top10 overlap,1.0,0.0,18
+OSD-194,Mmus_BAL-TAL_LRTN_FLT_Rep1_F6,FLT,Hallmark-50 cosine,1.0,0.0,29
+OSD-194,Mmus_BAL-TAL_LRTN_GC_Rep1_G6,GC,Bridge-512 cosine,1.0,0.0,30
+OSD-194,Mmus_BAL-TAL_LRTN_GC_Rep1_G6,GC,Hallmark signed top10 overlap,1.0,0.0,27
+OSD-194,Mmus_BAL-TAL_LRTN_GC_Rep1_G6,GC,Hallmark-50 cosine,1.0,0.0,24
+OSD-238,Mmus_C57-6J_DSKN_FLT_1G_JC_Rep1_F5,FLT,Bridge-512 cosine,1.0,0.0,27
+OSD-238,Mmus_C57-6J_DSKN_FLT_1G_JC_Rep1_F5,FLT,Hallmark signed top10 overlap,1.0,0.0,26
+OSD-238,Mmus_C57-6J_DSKN_FLT_1G_JC_Rep1_F5,FLT,Hallmark-50 cosine,1.0,0.0,37
+OSD-238,Mmus_C57-6J_DSKN_GC_1G_JC_Rep1_G5,GC,Bridge-512 cosine,1.0,0.0,30
+OSD-238,Mmus_C57-6J_DSKN_GC_1G_JC_Rep1_G5,GC,Hallmark signed top10 overlap,1.0,0.0,21
+OSD-238,Mmus_C57-6J_DSKN_GC_1G_JC_Rep1_G5,GC,Hallmark-50 cosine,1.0,0.0,37
+OSD-239,Mmus_C57-6J_FSKN_FLT_1G_JC_Rep1_F5,FLT,Bridge-512 cosine,1.0,0.0,31
+OSD-239,Mmus_C57-6J_FSKN_FLT_1G_JC_Rep1_F5,FLT,Hallmark signed top10 overlap,1.0,0.0,21
+OSD-239,Mmus_C57-6J_FSKN_FLT_1G_JC_Rep1_F5,FLT,Hallmark-50 cosine,1.0,0.0,34
+OSD-239,Mmus_C57-6J_FSKN_GC_1G_JC_Rep1_G5,GC,Bridge-512 cosine,1.0,0.0,31
+OSD-239,Mmus_C57-6J_FSKN_GC_1G_JC_Rep1_G5,GC,Hallmark signed top10 overlap,1.0,0.0,21
+OSD-239,Mmus_C57-6J_FSKN_GC_1G_JC_Rep1_G5,GC,Hallmark-50 cosine,1.0,0.0,33
+OSD-240,Mmus_BAL-TAL_DSKN_FLT_Rep10_F10,FLT,Bridge-512 cosine,1.0,0.0,31
+OSD-240,Mmus_BAL-TAL_DSKN_FLT_Rep10_F10,FLT,Hallmark signed top10 overlap,1.0,0.0,21
+OSD-240,Mmus_BAL-TAL_DSKN_FLT_Rep10_F10,FLT,Hallmark-50 cosine,1.0,0.0,34
+OSD-240,Mmus_BAL-TAL_DSKN_GC_Rep10_G10,GC,Bridge-512 cosine,1.0,0.0,29
+OSD-240,Mmus_BAL-TAL_DSKN_GC_Rep10_G10,GC,Hallmark signed top10 overlap,1.0,0.0,26
+OSD-240,Mmus_BAL-TAL_DSKN_GC_Rep10_G10,GC,Hallmark-50 cosine,1.0,0.0,29
+OSD-241,Mmus_BAL-TAL_FSKN_FLT_Rep1_F1,FLT,Bridge-512 cosine,1.0,0.0,26
+OSD-241,Mmus_BAL-TAL_FSKN_FLT_Rep1_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,37
+OSD-241,Mmus_BAL-TAL_FSKN_FLT_Rep1_F1,FLT,Hallmark-50 cosine,1.0,0.0,37
+OSD-241,Mmus_BAL-TAL_FSKN_GC_Rep10_G10,GC,Bridge-512 cosine,1.0,0.0,33
+OSD-241,Mmus_BAL-TAL_FSKN_GC_Rep10_G10,GC,Hallmark signed top10 overlap,1.0,0.0,21
+OSD-241,Mmus_BAL-TAL_FSKN_GC_Rep10_G10,GC,Hallmark-50 cosine,1.0,0.0,32
+OSD-242,Mmus_C57-6J_LVR_FLT_C1_Rep1_F1,FLT,Bridge-512 cosine,1.0,0.0,37
+OSD-242,Mmus_C57-6J_LVR_FLT_C1_Rep1_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,8
+OSD-242,Mmus_C57-6J_LVR_FLT_C1_Rep1_F1,FLT,Hallmark-50 cosine,1.0,0.0,42
+OSD-242,Mmus_C57-6J_LVR_GC_C2_Rep1_G1,GC,Bridge-512 cosine,1.0,0.0,49
+OSD-242,Mmus_C57-6J_LVR_GC_C2_Rep1_G1,GC,Hallmark signed top10 overlap,1.0,0.0,25
+OSD-242,Mmus_C57-6J_LVR_GC_C2_Rep1_G1,GC,Hallmark-50 cosine,1.0,0.0,55
+OSD-243,Mmus_C57-6T_DSKN_FLT_ISS-T_Rep1_F1,FLT,Bridge-512 cosine,1.0,0.0,34
+OSD-243,Mmus_C57-6T_DSKN_FLT_ISS-T_Rep1_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,26
+OSD-243,Mmus_C57-6T_DSKN_FLT_ISS-T_Rep1_F1,FLT,Hallmark-50 cosine,1.0,0.0,30
+OSD-243,Mmus_C57-6T_DSKN_GC_ISS-T_Rep10_G10,GC,Bridge-512 cosine,1.0,0.0,33
+OSD-243,Mmus_C57-6T_DSKN_GC_ISS-T_Rep10_G10,GC,Hallmark signed top10 overlap,1.0,0.0,21
+OSD-243,Mmus_C57-6T_DSKN_GC_ISS-T_Rep10_G10,GC,Hallmark-50 cosine,1.0,0.0,30
+OSD-244,Mmus_C57-6T_TMS_FLT_ISS-T_Rep10_F10,FLT,Bridge-512 cosine,1.0,0.0,34
+OSD-244,Mmus_C57-6T_TMS_FLT_ISS-T_Rep10_F10,FLT,Hallmark signed top10 overlap,1.0,0.0,40
+OSD-244,Mmus_C57-6T_TMS_FLT_ISS-T_Rep10_F10,FLT,Hallmark-50 cosine,1.0,0.0,45
+OSD-244,Mmus_C57-6T_TMS_GC_ISS-T_Rep10_G10,GC,Bridge-512 cosine,1.0,0.0,28
+OSD-244,Mmus_C57-6T_TMS_GC_ISS-T_Rep10_G10,GC,Hallmark signed top10 overlap,1.0,0.0,46
+OSD-244,Mmus_C57-6T_TMS_GC_ISS-T_Rep10_G10,GC,Hallmark-50 cosine,1.0,0.0,24
+OSD-245,Mmus_C57-6T_LVR_FLT_ISS-T_Rep10_F6,FLT,Bridge-512 cosine,1.0,0.0,45
+OSD-245,Mmus_C57-6T_LVR_FLT_ISS-T_Rep10_F6,FLT,Hallmark signed top10 overlap,1.0,0.0,29
+OSD-245,Mmus_C57-6T_LVR_FLT_ISS-T_Rep10_F6,FLT,Hallmark-50 cosine,1.0,0.0,30
+OSD-245,Mmus_C57-6T_LVR_GC_ISS-T_Rep10_G6,GC,Bridge-512 cosine,1.0,0.0,37
+OSD-245,Mmus_C57-6T_LVR_GC_ISS-T_Rep10_G6,GC,Hallmark signed top10 overlap,1.0,0.0,29
+OSD-245,Mmus_C57-6T_LVR_GC_ISS-T_Rep10_G6,GC,Hallmark-50 cosine,1.0,0.0,26
+OSD-246,Mmus_C57-6T_SPL_FLT_ISS-T_Rep1_F3,FLT,Bridge-512 cosine,1.0,0.0,34
+OSD-246,Mmus_C57-6T_SPL_FLT_ISS-T_Rep1_F3,FLT,Hallmark signed top10 overlap,1.0,0.0,39
+OSD-246,Mmus_C57-6T_SPL_FLT_ISS-T_Rep1_F3,FLT,Hallmark-50 cosine,1.0,0.0,40
+OSD-246,Mmus_C57-6T_SPL_GC_ISS-T_Rep1_G3,GC,Bridge-512 cosine,1.0,0.0,43
+OSD-246,Mmus_C57-6T_SPL_GC_ISS-T_Rep1_G3,GC,Hallmark signed top10 overlap,1.0,0.0,31
+OSD-246,Mmus_C57-6T_SPL_GC_ISS-T_Rep1_G3,GC,Hallmark-50 cosine,1.0,0.0,28
+OSD-247,Mmus_C57-6T_CLN_FLT_ISS-T_Rep1_F1,FLT,Bridge-512 cosine,1.0,0.0,39
+OSD-247,Mmus_C57-6T_CLN_FLT_ISS-T_Rep1_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,29
+OSD-247,Mmus_C57-6T_CLN_FLT_ISS-T_Rep1_F1,FLT,Hallmark-50 cosine,1.0,0.0,36
+OSD-247,Mmus_C57-6T_CLN_GC_ISS-T_Rep1_G1,GC,Bridge-512 cosine,1.0,0.0,30
+OSD-247,Mmus_C57-6T_CLN_GC_ISS-T_Rep1_G1,GC,Hallmark signed top10 overlap,1.0,0.0,14
+OSD-247,Mmus_C57-6T_CLN_GC_ISS-T_Rep1_G1,GC,Hallmark-50 cosine,1.0,0.0,28
+OSD-248,Mmus_C57-6T_LNG_FLT_ISS-T_Rep10_F10,FLT,Bridge-512 cosine,1.0,0.0,43
+OSD-248,Mmus_C57-6T_LNG_FLT_ISS-T_Rep10_F10,FLT,Hallmark signed top10 overlap,1.0,0.0,48
+OSD-248,Mmus_C57-6T_LNG_FLT_ISS-T_Rep10_F10,FLT,Hallmark-50 cosine,1.0,0.0,31
+OSD-248,Mmus_C57-6T_LNG_GC_ISS-T_Rep10_G10,GC,Bridge-512 cosine,1.0,0.0,36
+OSD-248,Mmus_C57-6T_LNG_GC_ISS-T_Rep10_G10,GC,Hallmark signed top10 overlap,1.0,0.0,48
+OSD-248,Mmus_C57-6T_LNG_GC_ISS-T_Rep10_G10,GC,Hallmark-50 cosine,1.0,0.0,34
+OSD-253,Mmus_C3H-HeJ_KDN_FLT_25days_Rep1_F2,FLT,Bridge-512 cosine,1.0,0.0,34
+OSD-253,Mmus_C3H-HeJ_KDN_FLT_25days_Rep1_F2,FLT,Hallmark signed top10 overlap,1.0,0.0,19
+OSD-253,Mmus_C3H-HeJ_KDN_FLT_25days_Rep1_F2,FLT,Hallmark-50 cosine,1.0,0.0,32
+OSD-253,Mmus_C3H-HeJ_KDN_GC_25days_Rep1_G2,GC,Bridge-512 cosine,1.0,0.0,28
+OSD-253,Mmus_C3H-HeJ_KDN_GC_25days_Rep1_G2,GC,Hallmark signed top10 overlap,1.0,0.0,19
+OSD-253,Mmus_C3H-HeJ_KDN_GC_25days_Rep1_G2,GC,Hallmark-50 cosine,1.0,0.0,30
+OSD-254,Mmus_C3H-HeJ_SKN_FLT_25days_Rep1_F2,FLT,Bridge-512 cosine,1.0,0.0,29
+OSD-254,Mmus_C3H-HeJ_SKN_FLT_25days_Rep1_F2,FLT,Hallmark signed top10 overlap,1.0,0.0,28
+OSD-254,Mmus_C3H-HeJ_SKN_FLT_25days_Rep1_F2,FLT,Hallmark-50 cosine,1.0,0.0,21
+OSD-254,Mmus_C3H-HeJ_SKN_GC_25days_Rep1_G2,GC,Bridge-512 cosine,1.0,0.0,28
+OSD-254,Mmus_C3H-HeJ_SKN_GC_25days_Rep1_G2,GC,Hallmark signed top10 overlap,1.0,0.0,43
+OSD-254,Mmus_C3H-HeJ_SKN_GC_25days_Rep1_G2,GC,Hallmark-50 cosine,1.0,0.0,22
+OSD-255,GSM3932693,GC,Bridge-512 cosine,1.0,0.0,31
+OSD-255,GSM3932693,GC,Hallmark signed top10 overlap,1.0,0.0,17
+OSD-255,GSM3932693,GC,Hallmark-50 cosine,1.0,0.0,12
+OSD-255,GSM3932701,FLT,Bridge-512 cosine,1.0,0.0,29
+OSD-255,GSM3932701,FLT,Hallmark signed top10 overlap,1.0,0.0,17
+OSD-255,GSM3932701,FLT,Hallmark-50 cosine,1.0,0.0,14
+OSD-270,RR3_HRT_FLT_F1,FLT,Bridge-512 cosine,1.0,0.0,51
+OSD-270,RR3_HRT_FLT_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,44
+OSD-270,RR3_HRT_FLT_F1,FLT,Hallmark-50 cosine,1.0,0.0,45
+OSD-270,RR3_HRT_GC_G7,GC,Bridge-512 cosine,1.0,0.0,46
+OSD-270,RR3_HRT_GC_G7,GC,Hallmark signed top10 overlap,1.0,0.0,44
+OSD-270,RR3_HRT_GC_G7,GC,Hallmark-50 cosine,1.0,0.0,40
+OSD-326,SRR11148753,GC,Bridge-512 cosine,1.0,0.0,27
+OSD-326,SRR11148753,GC,Hallmark signed top10 overlap,1.0,0.0,29
+OSD-326,SRR11148753,GC,Hallmark-50 cosine,1.0,0.0,28
+OSD-326,SRR11148757,FLT,Bridge-512 cosine,1.0,0.0,43
+OSD-326,SRR11148757,FLT,Hallmark signed top10 overlap,1.0,0.0,35
+OSD-326,SRR11148757,FLT,Hallmark-50 cosine,1.0,0.0,46
+OSD-379,RR8_LVR_FLT_ISS-T_OLD_FI11,FLT,Bridge-512 cosine,1.0,0.0,29
+OSD-379,RR8_LVR_FLT_ISS-T_OLD_FI11,FLT,Hallmark signed top10 overlap,1.0,0.0,1
+OSD-379,RR8_LVR_FLT_ISS-T_OLD_FI11,FLT,Hallmark-50 cosine,1.0,0.0,25
+OSD-379,RR8_LVR_GC_ISS-T_OLD_GI11,GC,Bridge-512 cosine,1.0,0.0,44
+OSD-379,RR8_LVR_GC_ISS-T_OLD_GI11,GC,Hallmark signed top10 overlap,1.0,0.0,1
+OSD-379,RR8_LVR_GC_ISS-T_OLD_GI11,GC,Hallmark-50 cosine,1.0,0.0,45
+OSD-397,M21,FLT,Bridge-512 cosine,1.0,0.0,26
+OSD-397,M21,FLT,Hallmark signed top10 overlap,1.0,0.0,32
+OSD-397,M21,FLT,Hallmark-50 cosine,1.0,0.0,31
+OSD-397,M31,GC,Bridge-512 cosine,1.0,0.0,28
+OSD-397,M31,GC,Hallmark signed top10 overlap,1.0,0.0,31
+OSD-397,M31,GC,Hallmark-50 cosine,1.0,0.0,33
+OSD-401,GSM5398358,GC,Bridge-512 cosine,1.0,0.0,4
+OSD-401,GSM5398358,GC,Hallmark signed top10 overlap,1.0,0.0,27
+OSD-401,GSM5398358,GC,Hallmark-50 cosine,1.0,0.0,13
+OSD-401,GSM5398361,FLT,Bridge-512 cosine,1.0,0.0,6
+OSD-401,GSM5398361,FLT,Hallmark signed top10 overlap,1.0,0.0,27
+OSD-401,GSM5398361,FLT,Hallmark-50 cosine,1.0,0.0,22
+OSD-419,RR1_GST-R_FLT_M23,FLT,Bridge-512 cosine,1.0,0.0,33
+OSD-419,RR1_GST-R_FLT_M23,FLT,Hallmark signed top10 overlap,1.0,0.0,29
+OSD-419,RR1_GST-R_FLT_M23,FLT,Hallmark-50 cosine,1.0,0.0,29
+OSD-419,RR1_GST-R_GC_M33,GC,Bridge-512 cosine,1.0,0.0,28
+OSD-419,RR1_GST-R_GC_M33,GC,Hallmark signed top10 overlap,1.0,0.0,29
+OSD-419,RR1_GST-R_GC_M33,GC,Hallmark-50 cosine,1.0,0.0,26
+OSD-420,RR9_SPL_FLT_F1,FLT,Bridge-512 cosine,1.0,0.0,21
+OSD-420,RR9_SPL_FLT_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,37
+OSD-420,RR9_SPL_FLT_F1,FLT,Hallmark-50 cosine,1.0,0.0,30
+OSD-420,RR9_SPL_GC_G1,GC,Bridge-512 cosine,1.0,0.0,24
+OSD-420,RR9_SPL_GC_G1,GC,Hallmark signed top10 overlap,1.0,0.0,43
+OSD-420,RR9_SPL_GC_G1,GC,Hallmark-50 cosine,1.0,0.0,22
+OSD-421,RR9_TMS_FLT_F1,FLT,Bridge-512 cosine,1.0,0.0,29
+OSD-421,RR9_TMS_FLT_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,37
+OSD-421,RR9_TMS_FLT_F1,FLT,Hallmark-50 cosine,1.0,0.0,34
+OSD-421,RR9_TMS_GC_G1,GC,Bridge-512 cosine,1.0,0.0,35
+OSD-421,RR9_TMS_GC_G1,GC,Hallmark signed top10 overlap,1.0,0.0,39
+OSD-421,RR9_TMS_GC_G1,GC,Hallmark-50 cosine,1.0,0.0,32
+OSD-426,EU181,FLT,Bridge-512 cosine,1.0,0.0,20
+OSD-426,EU181,FLT,Hallmark signed top10 overlap,1.0,0.0,41
+OSD-426,EU181,FLT,Hallmark-50 cosine,1.0,0.0,15
+OSD-426,EU226,GC,Bridge-512 cosine,1.0,0.0,20
+OSD-426,EU226,GC,Hallmark signed top10 overlap,1.0,0.0,36
+OSD-426,EU226,GC,Hallmark-50 cosine,1.0,0.0,10
+OSD-457,GSM4614005,GC,Bridge-512 cosine,1.0,0.0,34
+OSD-457,GSM4614005,GC,Hallmark signed top10 overlap,1.0,0.0,31
+OSD-457,GSM4614005,GC,Hallmark-50 cosine,1.0,0.0,30
+OSD-457,GSM4614017,FLT,Bridge-512 cosine,1.0,0.0,32
+OSD-457,GSM4614017,FLT,Hallmark signed top10 overlap,1.0,0.0,21
+OSD-457,GSM4614017,FLT,Hallmark-50 cosine,1.0,0.0,35
+OSD-463,RR23_LVR_FLT_F1,FLT,Bridge-512 cosine,1.0,0.0,44
+OSD-463,RR23_LVR_FLT_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,27
+OSD-463,RR23_LVR_FLT_F1,FLT,Hallmark-50 cosine,1.0,0.0,45
+OSD-463,RR23_LVR_GC_G1_techrep1,GC,Bridge-512 cosine,1.0,0.0,26
+OSD-463,RR23_LVR_GC_G1_techrep1,GC,Hallmark signed top10 overlap,1.0,0.0,27
+OSD-463,RR23_LVR_GC_G1_techrep1,GC,Hallmark-50 cosine,1.0,0.0,34
+OSD-464,RR23_LNG_FLT_F1,FLT,Bridge-512 cosine,1.0,0.0,42
+OSD-464,RR23_LNG_FLT_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,42
+OSD-464,RR23_LNG_FLT_F1,FLT,Hallmark-50 cosine,1.0,0.0,31
+OSD-464,RR23_LNG_GC_G1,GC,Bridge-512 cosine,1.0,0.0,40
+OSD-464,RR23_LNG_GC_G1,GC,Hallmark signed top10 overlap,1.0,0.0,33
+OSD-464,RR23_LNG_GC_G1,GC,Hallmark-50 cosine,1.0,0.0,44
+OSD-47,Mmus_C57-6T_LVR_FLT_Rep1_F1,FLT,Bridge-512 cosine,1.0,0.0,36
+OSD-47,Mmus_C57-6T_LVR_FLT_Rep1_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,1
+OSD-47,Mmus_C57-6T_LVR_FLT_Rep1_F1,FLT,Hallmark-50 cosine,1.0,0.0,33
+OSD-47,Mmus_C57-6T_LVR_GC_Rep1_G2,GC,Bridge-512 cosine,1.0,0.0,45
+OSD-47,Mmus_C57-6T_LVR_GC_Rep1_G2,GC,Hallmark signed top10 overlap,1.0,0.0,1
+OSD-47,Mmus_C57-6T_LVR_GC_Rep1_G2,GC,Hallmark-50 cosine,1.0,0.0,31
+OSD-48,Mmus_C57-6J_LVR_FLT_C_Rep1_M25,FLT,Bridge-512 cosine,1.0,0.0,46
+OSD-48,Mmus_C57-6J_LVR_FLT_C_Rep1_M25,FLT,Hallmark signed top10 overlap,1.0,0.0,43
+OSD-48,Mmus_C57-6J_LVR_FLT_C_Rep1_M25,FLT,Hallmark-50 cosine,1.0,0.0,59
+OSD-48,Mmus_C57-6J_LVR_GC_C_Rep1_M36,GC,Bridge-512 cosine,1.0,0.0,47
+OSD-48,Mmus_C57-6J_LVR_GC_C_Rep1_M36,GC,Hallmark signed top10 overlap,1.0,0.0,43
+OSD-48,Mmus_C57-6J_LVR_GC_C_Rep1_M36,GC,Hallmark-50 cosine,1.0,0.0,56
+OSD-506,RR23_SPL_FLT_F1,FLT,Bridge-512 cosine,1.0,0.0,46
+OSD-506,RR23_SPL_FLT_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,30
+OSD-506,RR23_SPL_FLT_F1,FLT,Hallmark-50 cosine,1.0,0.0,40
+OSD-506,RR23_SPL_GC_G1,GC,Bridge-512 cosine,1.0,0.0,42
+OSD-506,RR23_SPL_GC_G1,GC,Hallmark signed top10 overlap,1.0,0.0,30
+OSD-506,RR23_SPL_GC_G1,GC,Hallmark-50 cosine,1.0,0.0,22
+OSD-511,RRRM1_MG_FLT_LAR_OLD_FL11,FLT,Bridge-512 cosine,1.0,0.0,45
+OSD-511,RRRM1_MG_FLT_LAR_OLD_FL11,FLT,Hallmark signed top10 overlap,1.0,0.0,54
+OSD-511,RRRM1_MG_FLT_LAR_OLD_FL11,FLT,Hallmark-50 cosine,1.0,0.0,40
+OSD-511,RRRM1_MG_GC_LAR_OLD_GL11,GC,Bridge-512 cosine,1.0,0.0,43
+OSD-511,RRRM1_MG_GC_LAR_OLD_GL11,GC,Hallmark signed top10 overlap,1.0,0.0,38
+OSD-511,RRRM1_MG_GC_LAR_OLD_GL11,GC,Hallmark-50 cosine,1.0,0.0,36
+OSD-512,RR23_ADR_FLT_F1_techrep1,FLT,Bridge-512 cosine,1.0,0.0,35
+OSD-512,RR23_ADR_FLT_F1_techrep1,FLT,Hallmark signed top10 overlap,1.0,0.0,32
+OSD-512,RR23_ADR_FLT_F1_techrep1,FLT,Hallmark-50 cosine,1.0,0.0,25
+OSD-512,RR23_ADR_GC_G1_techrep1,GC,Bridge-512 cosine,1.0,0.0,54
+OSD-512,RR23_ADR_GC_G1_techrep1,GC,Hallmark signed top10 overlap,1.0,0.0,42
+OSD-512,RR23_ADR_GC_G1_techrep1,GC,Hallmark-50 cosine,1.0,0.0,25
+OSD-513,RR23_KDN_FLT_F1_techrep1,FLT,Bridge-512 cosine,1.0,0.0,35
+OSD-513,RR23_KDN_FLT_F1_techrep1,FLT,Hallmark signed top10 overlap,1.0,0.0,19
+OSD-513,RR23_KDN_FLT_F1_techrep1,FLT,Hallmark-50 cosine,1.0,0.0,29
+OSD-513,RR23_KDN_GC_G1_techrep1,GC,Bridge-512 cosine,1.0,0.0,36
+OSD-513,RR23_KDN_GC_G1_techrep1,GC,Hallmark signed top10 overlap,1.0,0.0,30
+OSD-513,RR23_KDN_GC_G1_techrep1,GC,Hallmark-50 cosine,1.0,0.0,28
+OSD-515,RR23_TMS_FLT_F1,FLT,Bridge-512 cosine,1.0,0.0,44
+OSD-515,RR23_TMS_FLT_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,42
+OSD-515,RR23_TMS_FLT_F1,FLT,Hallmark-50 cosine,1.0,0.0,44
+OSD-515,RR23_TMS_GC_G1_techrep1,GC,Bridge-512 cosine,1.0,0.0,39
+OSD-515,RR23_TMS_GC_G1_techrep1,GC,Hallmark signed top10 overlap,1.0,0.0,52
+OSD-515,RR23_TMS_GC_G1_techrep1,GC,Hallmark-50 cosine,1.0,0.0,31
+OSD-525,RR23_Cb_FLT_F1_techrep1,FLT,Bridge-512 cosine,1.0,0.0,27
+OSD-525,RR23_Cb_FLT_F1_techrep1,FLT,Hallmark signed top10 overlap,1.0,0.0,28
+OSD-525,RR23_Cb_FLT_F1_techrep1,FLT,Hallmark-50 cosine,1.0,0.0,29
+OSD-525,RR23_Cb_GC_G1_techrep1,GC,Bridge-512 cosine,1.0,0.0,25
+OSD-525,RR23_Cb_GC_G1_techrep1,GC,Hallmark signed top10 overlap,1.0,0.0,26
+OSD-525,RR23_Cb_GC_G1_techrep1,GC,Hallmark-50 cosine,1.0,0.0,30
+OSD-561,RRRM2_Cb_FLT_ISS-T_OLD_FO12,FLT,Bridge-512 cosine,0.93,0.07,42
+OSD-561,RRRM2_Cb_FLT_ISS-T_OLD_FO12,FLT,Hallmark signed top10 overlap,1.0,0.0,30
+OSD-561,RRRM2_Cb_FLT_ISS-T_OLD_FO12,FLT,Hallmark-50 cosine,1.0,0.0,25
+OSD-561,RRRM2_Cb_GC_ISS-T_OLD_GO14,GC,Bridge-512 cosine,0.2,0.8,60
+OSD-561,RRRM2_Cb_GC_ISS-T_OLD_GO14,GC,Hallmark signed top10 overlap,1.0,0.0,46
+OSD-561,RRRM2_Cb_GC_ISS-T_OLD_GO14,GC,Hallmark-50 cosine,1.0,0.0,50
+OSD-562,RRRM2_HPC_FLT_ISS-T_OLD_FO11,FLT,Bridge-512 cosine,1.0,0.0,36
+OSD-562,RRRM2_HPC_FLT_ISS-T_OLD_FO11,FLT,Hallmark signed top10 overlap,1.0,0.0,44
+OSD-562,RRRM2_HPC_FLT_ISS-T_OLD_FO11,FLT,Hallmark-50 cosine,1.0,0.0,29
+OSD-562,RRRM2_HPC_GC_ISS-T_OLD_GO12,GC,Bridge-512 cosine,1.0,0.0,36
+OSD-562,RRRM2_HPC_GC_ISS-T_OLD_GO12,GC,Hallmark signed top10 overlap,1.0,0.0,38
+OSD-562,RRRM2_HPC_GC_ISS-T_OLD_GO12,GC,Hallmark-50 cosine,1.0,0.0,30
+OSD-563,RR10_Cb_FLT_WT_F1,FLT,Bridge-512 cosine,1.0,0.0,31
+OSD-563,RR10_Cb_FLT_WT_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,44
+OSD-563,RR10_Cb_FLT_WT_F1,FLT,Hallmark-50 cosine,1.0,0.0,29
+OSD-563,RR10_Cb_GC_WT_G1,GC,Bridge-512 cosine,1.0,0.0,37
+OSD-563,RR10_Cb_GC_WT_G1,GC,Hallmark signed top10 overlap,1.0,0.0,47
+OSD-563,RR10_Cb_GC_WT_G1,GC,Hallmark-50 cosine,1.0,0.0,37
+OSD-564,RR10_HPC_FLT_WT_F1,FLT,Bridge-512 cosine,1.0,0.0,32
+OSD-564,RR10_HPC_FLT_WT_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,44
+OSD-564,RR10_HPC_FLT_WT_F1,FLT,Hallmark-50 cosine,1.0,0.0,30
+OSD-564,RR10_HPC_GC_WT_G1,GC,Bridge-512 cosine,1.0,0.0,36
+OSD-564,RR10_HPC_GC_WT_G1,GC,Hallmark signed top10 overlap,1.0,0.0,44
+OSD-564,RR10_HPC_GC_WT_G1,GC,Hallmark-50 cosine,1.0,0.0,43
+OSD-576,RR23_R-TA_FLT_F1,FLT,Bridge-512 cosine,1.0,0.0,28
+OSD-576,RR23_R-TA_FLT_F1,FLT,Hallmark signed top10 overlap,1.0,0.0,34
+OSD-576,RR23_R-TA_FLT_F1,FLT,Hallmark-50 cosine,1.0,0.0,39
+OSD-576,RR23_R-TA_GC_G1,GC,Bridge-512 cosine,1.0,0.0,32
+OSD-576,RR23_R-TA_GC_G1,GC,Hallmark signed top10 overlap,1.0,0.0,34
+OSD-576,RR23_R-TA_GC_G1,GC,Hallmark-50 cosine,1.0,0.0,40
+OSD-580,RRRM2_HRT_FLT_ISS-T_OLD_FO11,FLT,Bridge-512 cosine,1.0,0.0,36
+OSD-580,RRRM2_HRT_FLT_ISS-T_OLD_FO11,FLT,Hallmark signed top10 overlap,1.0,0.0,36
+OSD-580,RRRM2_HRT_FLT_ISS-T_OLD_FO11,FLT,Hallmark-50 cosine,1.0,0.0,39
+OSD-580,RRRM2_HRT_GC_ISS-T_OLD_GO12,GC,Bridge-512 cosine,1.0,0.0,39
+OSD-580,RRRM2_HRT_GC_ISS-T_OLD_GO12,GC,Hallmark signed top10 overlap,1.0,0.0,21
+OSD-580,RRRM2_HRT_GC_ISS-T_OLD_GO12,GC,Hallmark-50 cosine,1.0,0.0,38
+OSD-599,GSM6996077,GC,Bridge-512 cosine,1.0,0.0,51
+OSD-599,GSM6996077,GC,Hallmark signed top10 overlap,1.0,0.0,36
+OSD-599,GSM6996077,GC,Hallmark-50 cosine,1.0,0.0,43
+OSD-599,GSM6996080,FLT,Bridge-512 cosine,1.0,0.0,54
+OSD-599,GSM6996080,FLT,Hallmark signed top10 overlap,1.0,0.0,21
+OSD-599,GSM6996080,FLT,Hallmark-50 cosine,1.0,0.0,47
+OSD-665,RR23_R-EDL_FLT_F1_techrep1,FLT,Bridge-512 cosine,1.0,0.0,32
+OSD-665,RR23_R-EDL_FLT_F1_techrep1,FLT,Hallmark signed top10 overlap,1.0,0.0,22
+OSD-665,RR23_R-EDL_FLT_F1_techrep1,FLT,Hallmark-50 cosine,1.0,0.0,22
+OSD-665,RR23_R-EDL_GC_G1_techrep1,GC,Bridge-512 cosine,1.0,0.0,21
+OSD-665,RR23_R-EDL_GC_G1_techrep1,GC,Hallmark signed top10 overlap,1.0,0.0,22
+OSD-665,RR23_R-EDL_GC_G1_techrep1,GC,Hallmark-50 cosine,1.0,0.0,27
+OSD-666,RR23_R-Quad_FLT_F1_techrep1,FLT,Bridge-512 cosine,1.0,0.0,35
+OSD-666,RR23_R-Quad_FLT_F1_techrep1,FLT,Hallmark signed top10 overlap,1.0,0.0,22
+OSD-666,RR23_R-Quad_FLT_F1_techrep1,FLT,Hallmark-50 cosine,1.0,0.0,21
+OSD-666,RR23_R-Quad_GC_G1_techrep1,GC,Bridge-512 cosine,1.0,0.0,33
+OSD-666,RR23_R-Quad_GC_G1_techrep1,GC,Hallmark signed top10 overlap,1.0,0.0,34
+OSD-666,RR23_R-Quad_GC_G1_techrep1,GC,Hallmark-50 cosine,1.0,0.0,25
+OSD-667,RR10_CLN_FLT_WT_F12,FLT,Bridge-512 cosine,1.0,0.0,36
+OSD-667,RR10_CLN_FLT_WT_F12,FLT,Hallmark signed top10 overlap,1.0,0.0,18
+OSD-667,RR10_CLN_FLT_WT_F12,FLT,Hallmark-50 cosine,1.0,0.0,36
+OSD-667,RR10_CLN_GC_WT_G12,GC,Bridge-512 cosine,1.0,0.0,41
+OSD-667,RR10_CLN_GC_WT_G12,GC,Hallmark signed top10 overlap,1.0,0.0,25
+OSD-667,RR10_CLN_GC_WT_G12,GC,Hallmark-50 cosine,1.0,0.0,37
+OSD-686,GSM7708682,GC,Bridge-512 cosine,1.0,0.0,38
+OSD-686,GSM7708682,GC,Hallmark signed top10 overlap,1.0,0.0,33
+OSD-686,GSM7708682,GC,Hallmark-50 cosine,1.0,0.0,58
+OSD-686,GSM7708685,FLT,Bridge-512 cosine,1.0,0.0,51
+OSD-686,GSM7708685,FLT,Hallmark signed top10 overlap,1.0,0.0,33
+OSD-686,GSM7708685,FLT,Hallmark-50 cosine,1.0,0.0,48
+OSD-690,GSM7706828,GC,Bridge-512 cosine,1.0,0.0,33
+OSD-690,GSM7706828,GC,Hallmark signed top10 overlap,1.0,0.0,42
+OSD-690,GSM7706828,GC,Hallmark-50 cosine,1.0,0.0,26
+OSD-690,GSM7706840,FLT,Bridge-512 cosine,1.0,0.0,29
+OSD-690,GSM7706840,FLT,Hallmark signed top10 overlap,1.0,0.0,42
+OSD-690,GSM7706840,FLT,Hallmark-50 cosine,1.0,0.0,27
+OSD-770,RR23_R-SLS_FLT_F1_techrep1,FLT,Bridge-512 cosine,1.0,0.0,23
+OSD-770,RR23_R-SLS_FLT_F1_techrep1,FLT,Hallmark signed top10 overlap,1.0,0.0,34
+OSD-770,RR23_R-SLS_FLT_F1_techrep1,FLT,Hallmark-50 cosine,1.0,0.0,15
+OSD-770,RR23_R-SLS_GC_G1_techrep1,GC,Bridge-512 cosine,1.0,0.0,18
+OSD-770,RR23_R-SLS_GC_G1_techrep1,GC,Hallmark signed top10 overlap,1.0,0.0,25
+OSD-770,RR23_R-SLS_GC_G1_techrep1,GC,Hallmark-50 cosine,1.0,0.0,18
+OSD-771,RRRM2_R-KDN_FLT_ISS-T_OLD_FO11,FLT,Bridge-512 cosine,1.0,0.0,34
+OSD-771,RRRM2_R-KDN_FLT_ISS-T_OLD_FO11,FLT,Hallmark signed top10 overlap,1.0,0.0,19
+OSD-771,RRRM2_R-KDN_FLT_ISS-T_OLD_FO11,FLT,Hallmark-50 cosine,1.0,0.0,30
+OSD-771,RRRM2_R-KDN_GC_ISS-T_OLD_GO12,GC,Bridge-512 cosine,1.0,0.0,34
+OSD-771,RRRM2_R-KDN_GC_ISS-T_OLD_GO12,GC,Hallmark signed top10 overlap,1.0,0.0,19
+OSD-771,RRRM2_R-KDN_GC_ISS-T_OLD_GO12,GC,Hallmark-50 cosine,1.0,0.0,36
+OSD-98,Mmus_C57-6J_ADR_FLT_Rep1_M23,FLT,Bridge-512 cosine,1.0,0.0,18
+OSD-98,Mmus_C57-6J_ADR_FLT_Rep1_M23,FLT,Hallmark signed top10 overlap,1.0,0.0,43
+OSD-98,Mmus_C57-6J_ADR_FLT_Rep1_M23,FLT,Hallmark-50 cosine,1.0,0.0,27
+OSD-98,Mmus_C57-6J_ADR_GC_Rep1_M33,GC,Bridge-512 cosine,1.0,0.0,18
+OSD-98,Mmus_C57-6J_ADR_GC_Rep1_M33,GC,Hallmark signed top10 overlap,1.0,0.0,43
+OSD-98,Mmus_C57-6J_ADR_GC_Rep1_M33,GC,Hallmark-50 cosine,1.0,0.0,27
+OSD-99,Mmus_C57-6J_EDL_FLT_Rep1_M23,FLT,Bridge-512 cosine,1.0,0.0,34
+OSD-99,Mmus_C57-6J_EDL_FLT_Rep1_M23,FLT,Hallmark signed top10 overlap,1.0,0.0,29
+OSD-99,Mmus_C57-6J_EDL_FLT_Rep1_M23,FLT,Hallmark-50 cosine,1.0,0.0,15
+OSD-99,Mmus_C57-6J_EDL_GC_Rep1_M31,GC,Bridge-512 cosine,1.0,0.0,41
+OSD-99,Mmus_C57-6J_EDL_GC_Rep1_M31,GC,Hallmark signed top10 overlap,1.0,0.0,29
+OSD-99,Mmus_C57-6J_EDL_GC_Rep1_M31,GC,Hallmark-50 cosine,1.0,0.0,14

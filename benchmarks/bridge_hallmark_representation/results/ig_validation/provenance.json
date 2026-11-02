@@ -1,0 +1,54 @@
+{
+  "acceptance": {
+    "absolute_rank_spearman_vs_64_min": 0.99,
+    "must_pass_for_every_tested_sample_pathway": true,
+    "relative_completeness_error_max": 0.01,
+    "top50_overlap_vs_64_min": 0.9
+  },
+  "baseline": "all-zero natural log1p(TPM), equivalent to zero TPM for every input gene",
+  "bridge_frozen": true,
+  "decoder_interpretation": "Hallmark-like information in a contextual gene representation",
+  "gradient_cache": "ignored work/ig_nested_gradients_<sample>_<reference_steps>.npy",
+  "ig_interpretation": "input-gene contribution to this sample's frozen Hallmark prediction",
+  "input": "one TCGA sample's 15,165-gene natural log1p(TPM) vector",
+  "integration_rule": "nested composite-trapezoid integration on a straight zero-to-sample path",
+  "interpretation": "sample-specific input contribution relative to zero; not pairwise cancer attribution",
+  "reference_steps": 128,
+  "selected_pathways": [
+    "Xenobiotic Metabolism",
+    "E2F Targets",
+    "Epithelial Mesenchymal Transition",
+    "Myc Targets V1"
+  ],
+  "selected_samples": [
+    {
+      "cohort": "LUAD",
+      "contrast": "LUAD_vs_LUSC",
+      "row": 29
+    },
+    {
+      "cohort": "LUSC",
+      "contrast": "LUAD_vs_LUSC",
+      "row": 251
+    },
+    {
+      "cohort": "KIRC",
+      "contrast": "KIRC_vs_KIRP",
+      "row": 948
+    },
+    {
+      "cohort": "KIRP",
+      "contrast": "KIRC_vs_KIRP",
+      "row": 697
+    }
+  ],
+  "target": "frozen GTEx-trained sample-level Bridge Hallmark probe output",
+  "tested_steps": [
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "validated_steps": 128
+}

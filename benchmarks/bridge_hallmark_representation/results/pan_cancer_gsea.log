@@ -1,0 +1,28 @@
+2026-09-24 18:15:25,725 [WARNING] Duplicated values found in preranked stats: 0.06% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-24 18:15:30,784 [WARNING] Duplicated values found in preranked stats: 0.04% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-24 18:15:35,083 [WARNING] Duplicated values found in preranked stats: 0.08% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-24 18:15:37,452 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-24 18:15:39,146 [WARNING] Duplicated values found in preranked stats: 0.43% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-24 18:15:41,626 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-24 18:15:43,612 [WARNING] Duplicated values found in preranked stats: 0.12% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-24 18:15:46,013 [WARNING] Duplicated values found in preranked stats: 0.02% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-24 18:15:47,877 [WARNING] Duplicated values found in preranked stats: 0.36% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-24 18:15:50,355 [WARNING] Duplicated values found in preranked stats: 0.01% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-24 18:15:52,276 [WARNING] Duplicated values found in preranked stats: 0.11% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-09-24 18:15:54,699 [WARNING] Duplicated values found in preranked stats: 0.03% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+/home/walt/bridge-rna.worktrees/create-a-new-self-contained-benchmark-investigat/benchmarks/bridge_hallmark_representation/pipeline/pan_cancer_gsea.py:217: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  axis.boxplot(values, labels=labels)
+/home/walt/bridge-rna.worktrees/create-a-new-self-contained-benchmark-investigat/benchmarks/bridge_hallmark_representation/pipeline/pan_cancer_gsea.py:217: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  axis.boxplot(values, labels=labels)

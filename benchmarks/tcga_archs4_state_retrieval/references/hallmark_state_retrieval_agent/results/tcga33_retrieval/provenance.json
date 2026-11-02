@@ -1,0 +1,30 @@
+{
+  "bridge_inference": false,
+  "cancer_types": 33,
+  "centroids": "arithmetic mean within cancer type before L2 normalization",
+  "frozen_outputs_only": true,
+  "head_retrained": false,
+  "individual_queries": "all one-specimen-per-patient frozen TCGA queries",
+  "inputs": {
+    "frozen_compatibility_manifest": "/home/walt/bridge-rna.worktrees/we-are-starting-a-new-self-contained-benchmark/benchmarks/hallmark_state_retrieval/results/frozen_head_compatibility_provenance.json",
+    "frozen_probe_sha256": "f3f6c2ddc75d872b1e78af189f9286ff2be64ee43e90047916fca5ffe0538931",
+    "bridge_index": "/home/walt/bridge-rna.worktrees/we-are-starting-a-new-self-contained-benchmark/benchmarks/hallmark_state_retrieval/work/archs4_bridge_cosine_index.float32.npy",
+    "hallmark_index": "/home/walt/bridge-rna.worktrees/we-are-starting-a-new-self-contained-benchmark/benchmarks/hallmark_state_retrieval/work/archs4_hallmark_cosine_index.float32.npy",
+    "laml_embeddings": "/home/walt/bridge-rna/benchmarks/tcga_downstream/work/bulkformer_parity_laml_ours_45.6m_embeddings.npy",
+    "laml_embeddings_sha256": "1f1271fd87886aae45a6ca3019a724d41223cd6fa52524f7cb205839381f9d7f"
+  },
+  "laml_peripheral_blood_patients": 126,
+  "metadata_limitations": [
+    "Rule-based free-text annotations are conservative and imperfect.",
+    "Confirmed precision uses only explicit positive matches; annotation coverage and conditional precision prevent unknown metadata from being mislabeled as confirmed negative.",
+    "LAML uses the existing compatible peripheral-blood parity cache because it is absent from the primary-tumor cohort."
+  ],
+  "neighbors": [
+    10,
+    50,
+    100
+  ],
+  "patients": 9942,
+  "runtime_seconds": 70.30364274978638,
+  "solid_primary_patients": 9816
+}

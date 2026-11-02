@@ -1,0 +1,12 @@
+{
+  "effective_rank_entropy": 3.052532715352533,
+  "effective_rank_participation": 1.7917602730344904,
+  "pcs_for_variance": {
+    "0.5": 1,
+    "0.8": 2,
+    "0.9": 4,
+    "0.95": 6,
+    "0.99": 12
+  },
+  "samples": 4260
+}

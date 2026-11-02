@@ -1,0 +1,103 @@
+{
+  "artifacts": [
+    {
+      "path": "/home/walt/bridge-rna.worktrees/create-a-new-self-contained-benchmark-investigat/benchmarks/bridge_hallmark_representation/results/frozen_gtex_hallmark_probe.npz",
+      "sha256": "f3f6c2ddc75d872b1e78af189f9286ff2be64ee43e90047916fca5ffe0538931"
+    },
+    {
+      "path": "/home/walt/bridge-rna.worktrees/create-a-new-self-contained-benchmark-investigat/benchmarks/bridge_hallmark_representation/results/frozen_contextual_hallmark_decoder.npz",
+      "sha256": "6d5d27b0e558f695f3fb90367892ae126689f990364aa3364aee1e102bd64894"
+    },
+    {
+      "path": "/home/walt/bridge-rna.worktrees/create-a-new-self-contained-benchmark-investigat/benchmarks/bridge_hallmark_representation/results/frozen_canonical_genes.csv",
+      "sha256": "99b9353a8e393eb30ccf0b81e4dc7e8f61be8f260cac34b05c1ec064a293a527"
+    },
+    {
+      "path": "/home/walt/bridge-rna.worktrees/create-a-new-self-contained-benchmark-investigat/benchmarks/bridge_hallmark_representation/results/frozen_hallmark_order.csv",
+      "sha256": "7975818ac52f21c9ed0ed50ef3406ba6512ab5715dc6673c6cc9fc39dfd3cc8d"
+    },
+    {
+      "path": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+      "sha256": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541"
+    },
+    {
+      "path": "/home/walt/bridge-rna.worktrees/create-a-new-self-contained-benchmark-investigat/model/r7hnr92k/config.json",
+      "sha256": "1cccc2a0dc09da29f69b574e96f1fa2c5e70dc99d20a8b79d921d1e4fa49b805"
+    },
+    {
+      "path": "/home/walt/.cache/gseapy/Enrichr.MSigDB_Hallmark_2020.gmt",
+      "sha256": "c5d03bcbc8fb76555847d96471a4c005ba8ffaaa63ef831c43a91419ce6fbed8"
+    }
+  ],
+  "canonical_gene_count": 15165,
+  "criteria": {
+    "at_least_half_zero_shot_positive": true,
+    "median_tcga_within_pearson_positive": true,
+    "median_zero_shot_pearson_positive": true
+  },
+  "cross_species_application_performed": false,
+  "pathway_order": [
+    "Adipogenesis",
+    "Allograft Rejection",
+    "Androgen Response",
+    "Angiogenesis",
+    "Apical Junction",
+    "Apical Surface",
+    "Apoptosis",
+    "Bile Acid Metabolism",
+    "Cholesterol Homeostasis",
+    "Coagulation",
+    "Complement",
+    "DNA Repair",
+    "E2F Targets",
+    "Epithelial Mesenchymal Transition",
+    "Estrogen Response Early",
+    "Estrogen Response Late",
+    "Fatty Acid Metabolism",
+    "G2-M Checkpoint",
+    "Glycolysis",
+    "Hedgehog Signaling",
+    "Hypoxia",
+    "IL-2/STAT5 Signaling",
+    "IL-6/JAK/STAT3 Signaling",
+    "Inflammatory Response",
+    "Interferon Alpha Response",
+    "Interferon Gamma Response",
+    "KRAS Signaling Dn",
+    "KRAS Signaling Up",
+    "Mitotic Spindle",
+    "Myc Targets V1",
+    "Myc Targets V2",
+    "Myogenesis",
+    "Notch Signaling",
+    "Oxidative Phosphorylation",
+    "PI3K/AKT/mTOR  Signaling",
+    "Pancreas Beta Cells",
+    "Pperoxisome",
+    "Protein Secretion",
+    "Reactive Oxygen Species Pathway",
+    "Spermatogenesis",
+    "TGF-beta Signaling",
+    "TNF-alpha Signaling via NF-kB",
+    "UV Response Dn",
+    "UV Response Up",
+    "Unfolded Protein Response",
+    "Wnt-beta Catenin Signaling",
+    "Xenobiotic Metabolism",
+    "heme Metabolism",
+    "mTORC1 Signaling",
+    "p53 Pathway"
+  ],
+  "pooling": "unweighted final-layer mean",
+  "preprocessing": "natural log1p(TPM); exact canonical order",
+  "status": "validated_for_frozen_later_use",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.11.0rc1 (main, Aug 12 2022, 10:02:14) [GCC 11.2.0]",
+    "scipy": "1.17.1",
+    "sklearn": "1.8.0",
+    "torch": "2.12.0+cu130"
+  }
+}
