@@ -1,0 +1,30 @@
+{
+  "vocabulary_rows": 54,
+  "uberon_mapped": 52,
+  "unmapped_labels": [
+    "Head and Neck",
+    "Nasal"
+  ],
+  "synonym_rows": 510,
+  "enabled_synonyms": 264,
+  "validation_rows": 20000,
+  "validation_gsms": 5000,
+  "missing_rows": 536189,
+  "missing_status": {
+    "resolved": 342230,
+    "unknown": 179884,
+    "ambiguous": 14075
+  },
+  "gap_rows": 193959,
+  "laya_rows": 280,
+  "laya_gsms": 140,
+  "laya_modes": [
+    "flat_54",
+    "shortlist"
+  ],
+  "sqlite_size": 4371132416,
+  "canonical_counts": [
+    940455,
+    404266
+  ]
+}

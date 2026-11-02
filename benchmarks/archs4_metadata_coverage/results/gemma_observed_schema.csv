@@ -1,0 +1,3045 @@
+source,category,occurrences,mapped_fields
+experimental_factor,treatment,90237,treatment_perturbation
+experimental_factor,genotype,84945,genotype
+experimental_factor,block,65872,
+experimental_factor,organism part,37712,tissue
+experimental_factor,timepoint,31573,duration
+experimental_factor,cell type,24038,cell_type
+experimental_factor,biological sex,23973,sex
+experimental_factor,disease,23860,disease | disease_status
+experimental_factor,developmental stage,19252,age_development
+experimental_factor,collection of material,14965,
+experimental_factor,cell line,12782,
+experimental_factor,strain,6747,strain
+experimental_factor,phenotype,4549,experimental_factor_group
+experimental_factor,diet,3815,
+experimental_factor,disease model,3805,disease | disease_status
+experimental_factor,age,3727,age_development
+experimental_factor,growth condition,1598,experimental_factor_group
+experimental_factor,disease staging,1121,disease | disease_status
+experimental_factor,individual,679,
+experimental_factor,dose,381,dose
+experimental_factor,environmental history,354,
+experimental_factor,population,248,
+experimental_factor,biological_process,145,
+experimental_factor,generation,102,
+experimental_factor,clinical history,81,
+experimental_factor,study design,34,experimental_factor_group
+sample_characteristic,BioSource,186648,
+sample_characteristic,tissue,77940,tissue
+sample_characteristic,genotype,69526,genotype
+sample_characteristic,treatment,69159,treatment_perturbation
+sample_characteristic,cell type,68999,cell_type
+sample_characteristic,strain,55107,strain
+sample_characteristic,age,46010,age_development
+sample_characteristic,Sex,36861,sex
+sample_characteristic,cell line,35869,
+sample_characteristic,organism part,18772,tissue
+sample_characteristic,GEO Sample characteristic,15179,
+sample_characteristic,gender,8999,sex
+sample_characteristic,time,8985,
+sample_characteristic,genotype/variation,8503,genotype
+sample_characteristic,timepoint,6409,duration
+sample_characteristic,developmental stage,5326,age_development
+sample_characteristic,batch,5210,
+sample_characteristic,time point,5200,duration
+sample_characteristic,disease state,5047,disease | disease_status
+sample_characteristic,replicate,4513,
+sample_characteristic,condition,4435,experimental_factor_group
+sample_characteristic,rin,4373,
+sample_characteristic,strain background,4308,strain
+sample_characteristic,group,3737,experimental_factor_group
+sample_characteristic,disease,3725,disease | disease_status
+sample_characteristic,region,3027,tissue
+sample_characteristic,diagnosis,2688,disease | disease_status
+sample_characteristic,brain region,2563,tissue
+sample_characteristic,diet,2515,
+sample_characteristic,sample id,2042,
+sample_characteristic,passage,2003,age_development
+sample_characteristic,concentration,1972,dose
+sample_characteristic,agent,1949,age_development | treatment_perturbation
+sample_characteristic,strain/background,1880,strain
+sample_characteristic,background strain,1785,strain
+sample_characteristic,donor,1626,
+sample_characteristic,sample type,1571,
+sample_characteristic,race,1560,
+sample_characteristic,animal id,1550,
+sample_characteristic,mouse id,1524,
+sample_characteristic,housing condition,1522,experimental_factor_group
+sample_characteristic,passages,1399,age_development
+sample_characteristic,fraction,1351,
+sample_characteristic,pmi,1343,
+sample_characteristic,drug,1253,treatment_perturbation
+sample_characteristic,Stage,1234,age_development
+sample_characteristic,concentration (um),1212,dose
+sample_characteristic,bmi,1154,
+sample_characteristic,age at death,1148,age_development
+sample_characteristic,treatment condition,1089,experimental_factor_group | treatment_perturbation
+sample_characteristic,patient,1074,
+sample_characteristic,compound,1063,
+sample_characteristic,organ,1060,
+sample_characteristic,dose,1054,dose
+sample_characteristic,treatment time,1054,treatment_perturbation
+sample_characteristic,duration,1027,duration
+sample_characteristic,phenotype,1009,experimental_factor_group
+sample_characteristic,well,1002,
+sample_characteristic,molecule subtype,975,
+sample_characteristic,individual,941,
+sample_characteristic,rna conc (ng/ul),932,
+sample_characteristic,investigative unit,932,
+sample_characteristic,rna amount (ng),932,
+sample_characteristic,treatment time (hrs),932,treatment_perturbation
+sample_characteristic,rna volume (ul),931,
+sample_characteristic,h2o volume (ul),931,
+sample_characteristic,tissue/cell type,911,cell_type | tissue
+sample_characteristic,,903,
+sample_characteristic,protocol,897,
+sample_characteristic,drug treatment,892,treatment_perturbation
+sample_characteristic,assay plate,882,
+sample_characteristic,assay plate well,882,
+sample_characteristic,chemical name,870,
+sample_characteristic,chemical concentration,870,dose
+sample_characteristic,dose level,870,dose
+sample_characteristic,exposure,859,treatment_perturbation
+sample_characteristic,subject,846,
+sample_characteristic,cell subtype,836,
+sample_characteristic,day,823,
+sample_characteristic,cohort,794,
+sample_characteristic,age (months),779,age_development
+sample_characteristic,subject id,774,
+sample_characteristic,status,731,
+sample_characteristic,library construction,712,
+sample_characteristic,vendor,703,
+sample_characteristic,ethnicity,698,
+sample_characteristic,time-point,696,duration
+sample_characteristic,stimulation,687,
+sample_characteristic,shRNA,677,
+sample_characteristic,sample group,664,experimental_factor_group
+sample_characteristic,infection,663,
+sample_characteristic,media,661,
+sample_characteristic,mouse strain,659,strain
+sample_characteristic,tissue type,658,tissue
+sample_characteristic,weight (g),633,
+sample_characteristic,housing,630,
+sample_characteristic,biological replicate,625,
+sample_characteristic,experiment,623,
+sample_characteristic,model,621,
+sample_characteristic,source organ,619,
+sample_characteristic,sirna,614,
+sample_characteristic,nanodrop 260/280,588,
+sample_characteristic,cat #,588,
+sample_characteristic,lot #,588,
+sample_characteristic,visit,588,
+sample_characteristic,treated with,584,
+sample_characteristic,zeitgeber time,582,
+sample_characteristic,treatment duration,580,duration | treatment_perturbation
+sample_characteristic,technical replicate,565,
+sample_characteristic,source,560,
+sample_characteristic,ercc5 (10^-5 dilution of ercc in ul),560,
+sample_characteristic,exposure time,554,treatment_perturbation
+sample_characteristic,chemotherapy cycles,553,
+sample_characteristic,ipi,553,
+sample_characteristic,pfstt,553,
+sample_characteristic,pfscs,553,
+sample_characteristic,ostt,553,
+sample_characteristic,oscs,553,
+sample_characteristic,age (postnatal day),541,age_development
+sample_characteristic,cell of origin,538,
+sample_characteristic,patient id,530,
+sample_characteristic,replicate id,518,
+sample_characteristic,pfu (influenza),518,
+sample_characteristic,ercc mix (ercc mix used),517,
+sample_characteristic,num cells (# of sorted cells in the sample),517,
+sample_characteristic,chemical sample id,510,
+sample_characteristic,water type,510,
+sample_characteristic,lane,509,
+sample_characteristic,chip antibody,505,
+sample_characteristic,background,504,
+sample_characteristic,clone,486,
+sample_characteristic,t.cells.cd8,480,
+sample_characteristic,tobacco use,480,
+sample_characteristic,dendritic.cells.activated,480,
+sample_characteristic,mast.cells.resting,480,
+sample_characteristic,assessment group,480,experimental_factor_group
+sample_characteristic,sequencing metric pc2,480,
+sample_characteristic,nk.cells.resting,480,
+sample_characteristic,t.cells.regulatory,480,
+sample_characteristic,t.cells.cd4.naive,480,
+sample_characteristic,macrophages.m0,480,age_development
+sample_characteristic,"lithium use (non-user=0, user = 1)",480,
+sample_characteristic,eosinophils,480,
+sample_characteristic,nk.cells.activated,480,
+sample_characteristic,t.cells.cd4.memory.resting,480,
+sample_characteristic,macrophages.m2,480,age_development
+sample_characteristic,t.cells.gamma.delta,480,
+sample_characteristic,dendritic.cells.resting,480,
+sample_characteristic,t.cells.follicular.helper,480,
+sample_characteristic,b.cells.naive,480,
+sample_characteristic,sequencing metric pc1,480,
+sample_characteristic,bipolar disorder diagnosis,480,disease | disease_status
+sample_characteristic,mast.cells.activated,480,
+sample_characteristic,sequencing metric pc3,480,
+sample_characteristic,plasma.cells,480,
+sample_characteristic,sequencing plate,480,
+sample_characteristic,included in final analysis,480,
+sample_characteristic,neutrophils,480,
+sample_characteristic,monocytes,480,
+sample_characteristic,t.cells.cd4.memory.activated,480,
+sample_characteristic,macrophages.m1,480,age_development
+sample_characteristic,b.cells.memory,480,
+sample_characteristic,days of differentiation,466,
+sample_characteristic,cell line background,461,
+sample_characteristic,treatment protocol,461,treatment_perturbation
+sample_characteristic,litter,459,
+sample_characteristic,acute/chronic,454,
+sample_characteristic,treatment (mg/kg cocaine),454,treatment_perturbation
+sample_characteristic,plate,452,
+sample_characteristic,age (weeks),449,age_development
+sample_characteristic,knockdown,449,
+sample_characteristic,transfection,447,
+sample_characteristic,differentiation day,433,
+sample_characteristic,donor id,433,
+sample_characteristic,selection marker,432,
+sample_characteristic,grade,426,
+sample_characteristic,state,420,
+sample_characteristic,color,417,
+sample_characteristic,classification,414,
+sample_characteristic,line,412,
+sample_characteristic,number of mice,409,
+sample_characteristic,virus,408,
+sample_characteristic,clinical diagnosis,399,disease | disease_status
+sample_characteristic,exercise group,399,experimental_factor_group
+sample_characteristic,tumor stage,397,age_development
+sample_characteristic,corrected.tod,392,
+sample_characteristic,ph,390,
+sample_characteristic,hour post serum-switch,384,
+sample_characteristic,smoking,382,
+sample_characteristic,cell line id,378,
+sample_characteristic,platform,376,
+sample_characteristic,tissue region,375,tissue
+sample_characteristic,passage number,373,age_development
+sample_characteristic,disease status,372,disease | disease_status
+sample_characteristic,feeding,366,
+sample_characteristic,site,361,
+sample_characteristic,chemical id,360,
+sample_characteristic,sequencing batch,359,
+sample_characteristic,treatment dose,358,dose | treatment_perturbation
+sample_characteristic,cells in well,357,
+sample_characteristic,debris,354,
+sample_characteristic,brain ph,353,
+sample_characteristic,tissue origin,352,tissue
+sample_characteristic,library protocol,352,
+sample_characteristic,control well,352,
+sample_characteristic,cell line source,350,
+sample_characteristic,age of death,347,age_development
+sample_characteristic,drug name,344,treatment_perturbation
+sample_characteristic,molecule,342,
+sample_characteristic,subject status,342,
+sample_characteristic,genetic background,341,
+sample_characteristic,flowcell,329,
+sample_characteristic,post-mortem interval,326,
+sample_characteristic,deep ulcer,322,
+sample_characteristic,age at diagnosis,322,age_development | disease | disease_status
+sample_characteristic,histopathology,322,
+sample_characteristic,l2 type,322,
+sample_characteristic,paris age,322,age_development
+sample_characteristic,behavior,320,
+sample_characteristic,development stage,314,age_development
+sample_characteristic,steroids,310,
+sample_characteristic,ligand,310,
+sample_characteristic,hemisphere,309,
+sample_characteristic,chlamydiatrachomatis,304,
+sample_characteristic,median cv coverage,304,age_development
+sample_characteristic,cst microbiome,304,
+sample_characteristic,interpretation nugent,304,
+sample_characteristic,mobilincus,304,
+sample_characteristic,lactobacilli,304,
+sample_characteristic,ngonorrhoeae,304,
+sample_characteristic,ld status match,304,
+sample_characteristic,number of ambiguous reads,304,
+sample_characteristic,number of nofeature reads,304,
+sample_characteristic,cumulative number of reads,304,
+sample_characteristic,number of reads uniquely mapped to host,304,
+sample_characteristic,yeasts,304,
+sample_characteristic,currently breastfeeding,304,
+sample_characteristic,gardnerella bacteroides,304,
+sample_characteristic,educational category,304,
+sample_characteristic,nugent score,304,
+sample_characteristic,no contraceptive ever used,304,
+sample_characteristic,ld status microbiome,304,
+sample_characteristic,ld status proteomics,304,
+sample_characteristic,date randomized,304,
+sample_characteristic,number of unmapped reads,304,
+sample_characteristic,number of multimapping reads,304,
+sample_characteristic,barcode cytorna,304,
+sample_characteristic,number of living children,304,
+sample_characteristic,age at enrollment visit,304,age_development
+sample_characteristic,participant id,304,
+sample_characteristic,maritalstatus,304,
+sample_characteristic,first day of last period,304,
+sample_characteristic,number of times previously pregnant,304,
+sample_characteristic,age computed catgorical dem screening visit,304,age_development
+sample_characteristic,arm type,304,
+sample_characteristic,screening chemicals,303,
+sample_characteristic,treatment frequency,296,treatment_perturbation
+sample_characteristic,treatment administration route,296,treatment_perturbation
+sample_characteristic,zt group,292,experimental_factor_group
+sample_characteristic,subtype,291,
+sample_characteristic,replicate number,290,
+sample_characteristic,days after 4oht induction,288,
+sample_characteristic,imr90 passage,288,age_development
+sample_characteristic,round of sequencing,288,
+sample_characteristic,sampletype,287,
+sample_characteristic,cell population,282,
+sample_characteristic,hours of treatment,282,treatment_perturbation
+sample_characteristic,madm insertion,281,
+sample_characteristic,upd,281,
+sample_characteristic,days in vitro,278,
+sample_characteristic,treatment 2,278,treatment_perturbation
+sample_characteristic,age at baseline visit,277,age_development
+sample_characteristic,transgenic,277,
+sample_characteristic,mousestrain,277,strain
+sample_characteristic,transfected,276,treatment_perturbation
+sample_characteristic,environment,276,
+sample_characteristic,growth,275,
+sample_characteristic,genotype/ko gene,274,genotype
+sample_characteristic,history,274,
+sample_characteristic,age (days),269,age_development
+sample_characteristic,celltype,268,
+sample_characteristic,culture medium,267,
+sample_characteristic,animal,267,
+sample_characteristic,sample set,265,
+sample_characteristic,treatment2,264,treatment_perturbation
+sample_characteristic,vector,263,
+sample_characteristic,stress,263,
+sample_characteristic,apoe genotype,263,genotype
+sample_characteristic,brain area,263,
+sample_characteristic,column,262,
+sample_characteristic,randomization batch,262,
+sample_characteristic,gc content,262,
+sample_characteristic,row,262,
+sample_characteristic,disease stage,261,age_development | disease | disease_status
+sample_characteristic,tumor type,260,
+sample_characteristic,apoe,259,
+sample_characteristic,acpa positivity,256,
+sample_characteristic,rin score,254,
+sample_characteristic,treatment1,252,treatment_perturbation
+sample_characteristic,transgene,249,
+sample_characteristic,strain name,248,strain
+sample_characteristic,culture condition,247,experimental_factor_group
+sample_characteristic,strain/genotype,246,genotype | strain
+sample_characteristic,solvent,243,
+sample_characteristic,treatment concentration (um),243,dose | treatment_perturbation
+sample_characteristic,biological sex,242,sex
+sample_characteristic,sequencing tray,240,
+sample_characteristic,sampleID,239,
+sample_characteristic,animal line,237,
+sample_characteristic,infection status,234,
+sample_characteristic,differentiation stage,233,age_development
+sample_characteristic,strain number,232,strain
+sample_characteristic,treatment arm,232,treatment_perturbation
+sample_characteristic,manner of death,232,
+sample_characteristic,rna integrity number (rin),232,
+sample_characteristic,diffuse,231,
+sample_characteristic,fvc at baseline visit,231,
+sample_characteristic,self-administration,230,
+sample_characteristic,challenge,230,treatment_perturbation
+sample_characteristic,tamoxifen treatment,227,treatment_perturbation
+sample_characteristic,life stage,224,age_development
+sample_characteristic,pmi (hrs),224,
+sample_characteristic,tnm,223,
+sample_characteristic,"shannon index (shannon diversity index calculated using only median-of-ratios normalized (i.e., deseq2 across sample normalization) gene count values > 10)",223,
+sample_characteristic,current smoking status,223,
+sample_characteristic,"chry mean counts (mean of median-of-ratios normalized (i.e., deseq2 across sample normalization) gene counts for protein-coding genes on chry)",223,
+sample_characteristic,"ribo rna pct (percentage of median-of-ratios normalized (i.e., deseq2 across sample normalization) gene counts mapping to ribosomal genes)",223,age_development
+sample_characteristic,"sex (m, male; f, female)",223,
+sample_characteristic,"ancestry (cauc, caucasian; aa, african american)",223,
+sample_characteristic,nac sex match (indicator variable for whether self-reported sex aligns with sex-assigned using chry gene expression counts),223,
+sample_characteristic,"mito rna pct (percentage of median-of-ratios normalized (i.e., deseq2 across sample normalization) gene counts mapping to mitochondrial genes)",223,age_development
+sample_characteristic,exon mapping pct (hisat2 software read mapping percentage to exonic regions),223,age_development
+sample_characteristic,rin (rna integrity number),223,
+sample_characteristic,"chry pc1 (principal component 1 from pca on variance-stablized median-of-ratios normalized (i.e., deseq2 across sample normalization) gene counts for protein-coding genes on chry)",223,
+sample_characteristic,intergenic mapping pct (hisat2 software read mapping percentage to intergenic regions),223,age_development
+sample_characteristic,effective seq depth (number of reads successfully mapped by salmon),223,
+sample_characteristic,sex has value (indicator variable for whether an individual has a value assigned for self-reported sex),223,
+sample_characteristic,salmon mapping pct (salmon software read mapping percentage),223,age_development
+sample_characteristic,"nac assigned sex for missing (imputed sex for individuals without a self-reported sex value (f = female, m = male). the imputation is based on chry gene expression counts)",223,
+sample_characteristic,intron mapping pct (hisat2 software read mapping percentage to intronic regions),223,age_development
+sample_characteristic,timepoint(dpi),223,duration
+sample_characteristic,differentiation,220,
+sample_characteristic,tissue compartment,219,tissue
+sample_characteristic,treatment withdrawal,217,treatment_perturbation
+sample_characteristic,treatment initiation,217,treatment_perturbation
+sample_characteristic,library size,215,
+sample_characteristic,tissuestoragetime,215,age_development | tissue
+sample_characteristic,sequence id,215,
+sample_characteristic,patients id,215,
+sample_characteristic,tag,213,
+sample_characteristic,source cell type,212,cell_type
+sample_characteristic,method,211,
+sample_characteristic,tissue subtype,211,tissue
+sample_characteristic,mouse model,211,
+sample_characteristic,rna fraction,210,
+sample_characteristic,cnv,210,
+sample_characteristic,group/diagnosis,208,disease | disease_status | experimental_factor_group
+sample_characteristic,vital status,208,
+sample_characteristic,mouse,207,
+sample_characteristic,transduction,206,
+sample_characteristic,perturbation,205,treatment_perturbation
+sample_characteristic,antibody,204,
+sample_characteristic,library batch,202,
+sample_characteristic,date of birth,201,
+sample_characteristic,days post infection,199,
+sample_characteristic,overexpression,198,
+sample_characteristic,activation,198,
+sample_characteristic,rna-sample type,198,
+sample_characteristic,age (years),197,age_development
+sample_characteristic,treatment 1,197,treatment_perturbation
+sample_characteristic,injury,194,
+sample_characteristic,treatment group,193,experimental_factor_group | treatment_perturbation
+sample_characteristic,cell number,192,
+sample_characteristic,sample time,192,
+sample_characteristic,time (month),192,
+sample_characteristic,aud status,192,
+sample_characteristic,cage,192,age_development
+sample_characteristic,stimulation time,191,
+sample_characteristic,bioanalyzer.average.fragment.length.bp,190,age_development
+sample_characteristic,anc.pca2,190,
+sample_characteristic,surgeon,190,
+sample_characteristic,rna.pool,190,
+sample_characteristic,anc.pca7,190,
+sample_characteristic,sample.id,190,
+sample_characteristic,asthma,190,
+sample_characteristic,anc.pca4,190,
+sample_characteristic,anc.pca5,190,
+sample_characteristic,anc.pca1,190,
+sample_characteristic,anc.pca9,190,
+sample_characteristic,day.experimental.culture.time,190,
+sample_characteristic,anc.pca3,190,
+sample_characteristic,anc.pca6,190,
+sample_characteristic,qpcr.batch,190,
+sample_characteristic,nm pcr,190,
+sample_characteristic,steroid.binary,190,
+sample_characteristic,rna.concentration.ng.ul,190,dose
+sample_characteristic,crs,190,
+sample_characteristic,days.initial.culture,190,
+sample_characteristic,tech,190,
+sample_characteristic,anc.pca10,190,
+sample_characteristic,flowcell.lane,190,
+sample_characteristic,anc.pca8,190,
+sample_characteristic,rna.extraction.batch,190,
+sample_characteristic,days.ln2,190,
+sample_characteristic,atopy,190,
+sample_characteristic,lps stimulated,190,
+sample_characteristic,lps concentration,190,dose
+sample_characteristic,ligand concentration,190,dose
+sample_characteristic,feeding regimen,188,
+sample_characteristic,capture,186,
+sample_characteristic,transgenes,186,
+sample_characteristic,cancer type,185,
+sample_characteristic,bodyweight change percent,185,
+sample_characteristic,bodyweight start experiment,185,
+sample_characteristic,bodyweight change,185,
+sample_characteristic,diet kcal,185,
+sample_characteristic,"""experiment start""",185,
+sample_characteristic,bodyweight start acclimation,185,
+sample_characteristic,bodyweight before euthanasia,185,
+sample_characteristic,food weight start experiment,185,
+sample_characteristic,qc,185,
+sample_characteristic,kcal intake,185,
+sample_characteristic,kcal per hour,185,
+sample_characteristic,notes,185,
+sample_characteristic,bodyweight change percent per hour,185,
+sample_characteristic,"""experiment duration""",185,duration
+sample_characteristic,rna concentration qbit,185,dose
+sample_characteristic,food weight end experiment,185,
+sample_characteristic,box id,185,
+sample_characteristic,time of euthanasia,185,
+sample_characteristic,population,183,
+sample_characteristic,percentage of uniquely mapped reads,180,age_development
+sample_characteristic,percentage of total mapped reads,180,age_development
+sample_characteristic,unique sample id,180,
+sample_characteristic,progress free survival (months),180,
+sample_characteristic,overall survival (months),180,
+sample_characteristic,construct,179,
+sample_characteristic,experiment number,179,
+sample_characteristic,diagnosis date,179,disease | disease_status
+sample_characteristic,initial tumor pathology,179,
+sample_characteristic,patient initial tumor grade,179,
+sample_characteristic,hu,177,
+sample_characteristic,transfected with,176,treatment_perturbation
+sample_characteristic,cns subregion,176,
+sample_characteristic,individual id,176,
+sample_characteristic,age of patient at time of sample collection (yrs),176,age_development
+sample_characteristic,experimental group,175,experimental_factor_group
+sample_characteristic,grading,175,
+sample_characteristic,serpinb3 expression (high low),175,
+sample_characteristic,cancer death,175,
+sample_characteristic,month,175,
+sample_characteristic,aav injection,175,
+sample_characteristic,expression,174,
+sample_characteristic,library type,171,
+sample_characteristic,year experiment,171,
+sample_characteristic,mixture batch,171,
+sample_characteristic,expo duration,171,duration
+sample_characteristic,guide rna,170,
+sample_characteristic,day of differentiation,169,
+sample_characteristic,mouse line,169,
+sample_characteristic,days,169,
+sample_characteristic,genotyping,169,
+sample_characteristic,death censoring,169,
+sample_characteristic,sample number,169,
+sample_characteristic,treatment type,167,treatment_perturbation
+sample_characteristic,embryo,166,
+sample_characteristic,cell,164,
+sample_characteristic,genotype  (left position=maternal; right position=paternal),164,genotype
+sample_characteristic,background (maternal x paternal for hybrids),164,
+sample_characteristic,location,163,
+sample_characteristic,progression date,163,
+sample_characteristic,age (month),162,age_development
+sample_characteristic,area,162,
+sample_characteristic,fasting duration,162,duration
+sample_characteristic,seisure frequency,162,
+sample_characteristic,progressed tumor pathology,161,
+sample_characteristic,progressed tumor grade,161,
+sample_characteristic,cells,160,
+sample_characteristic,isolation,160,
+sample_characteristic,growth conditions,160,experimental_factor_group
+sample_characteristic,laser microdissected,160,
+sample_characteristic,microvascular compartment,160,
+sample_characteristic,tumor full name,160,
+sample_characteristic,barcode,159,
+sample_characteristic,tissue source,158,tissue
+sample_characteristic,culture conditions,158,experimental_factor_group
+sample_characteristic,illumina index,156,
+sample_characteristic,cx3cr1 genotype,155,genotype
+sample_characteristic,differentiation time,154,
+sample_characteristic,cell markers,154,
+sample_characteristic,application,154,
+sample_characteristic,tnm stage,154,age_development
+sample_characteristic,rin value,153,
+sample_characteristic,assay,153,
+sample_characteristic,circadian time,152,
+sample_characteristic,cellular fraction,152,
+sample_characteristic,day of reprogramming,151,
+sample_characteristic,cell-type,151,cell_type
+sample_characteristic,facs population,151,
+sample_characteristic,age unit,150,age_development
+sample_characteristic,sorted/bulk,150,
+sample_characteristic,"gender (m: male, f: female)",150,
+sample_characteristic,age at disease onset,150,age_development | disease | disease_status
+sample_characteristic,dyskinesia,150,
+sample_characteristic,dementia,150,
+sample_characteristic,"ethnicity (w: white, b: black, nw: non-white)",150,
+sample_characteristic,cholinesterase inhibitors,150,
+sample_characteristic,post mortem index (pmi),150,
+sample_characteristic,disease duration,150,disease | disease_status | duration
+sample_characteristic,run,149,
+sample_characteristic,type,148,
+sample_characteristic,animal number,148,
+sample_characteristic,sex by xist counts,148,
+sample_characteristic,injection site,147,
+sample_characteristic,collection day,147,
+sample_characteristic,sample name in counts table,147,
+sample_characteristic,starting number of cells,147,
+sample_characteristic,origin,146,
+sample_characteristic,weight,146,
+sample_characteristic,grsnoapoe,146,
+sample_characteristic,cell type proportion,146,cell_type
+sample_characteristic,sgrna,144,
+sample_characteristic,light condition,144,experimental_factor_group
+sample_characteristic,post mortem interval (hours),144,
+sample_characteristic,library preparation kit,143,
+sample_characteristic,selected line,143,
+sample_characteristic,adult condition,143,experimental_factor_group
+sample_characteristic,early life condition,143,experimental_factor_group
+sample_characteristic,sequencing year,142,
+sample_characteristic,cell line name,141,
+sample_characteristic,bs treatment,140,treatment_perturbation
+sample_characteristic,cl treatment,140,treatment_perturbation
+sample_characteristic,egfp nrpkm,140,
+sample_characteristic,tumor,139,
+sample_characteristic,sequencing protocol,139,
+sample_characteristic,sequencing study,139,
+sample_characteristic,sirna treatment,138,treatment_perturbation
+sample_characteristic,period,138,
+sample_characteristic,sequencer,138,
+sample_characteristic,days in culture,138,
+sample_characteristic,upregmethod,138,
+sample_characteristic,intervention,137,
+sample_characteristic,date of sacrifice,136,
+sample_characteristic,biopsy,136,
+sample_characteristic,study arm,136,
+sample_characteristic,mutation,133,
+sample_characteristic,cell type source,132,cell_type
+sample_characteristic,lesion type,132,
+sample_characteristic,age of inoculation,132,age_development
+sample_characteristic,idh status prediction,132,
+sample_characteristic,molecular entity,130,
+sample_characteristic,side,130,
+sample_characteristic,treatment/time point,130,duration | treatment_perturbation
+sample_characteristic,reprogramming method,129,
+sample_characteristic,number of reads,129,
+sample_characteristic,compartment,129,
+sample_characteristic,host,128,
+sample_characteristic,xenograft line,128,
+sample_characteristic,rna extraction cohort,128,
+sample_characteristic,cpp treatment,128,treatment_perturbation
+sample_characteristic,lentivirus,127,
+sample_characteristic,cell source,126,
+sample_characteristic,R26,126,
+sample_characteristic,tcell,126,
+sample_characteristic,mouse number,125,
+sample_characteristic,infected with,124,
+sample_characteristic,oncogene,122,
+sample_characteristic,age months,121,age_development
+sample_characteristic,tumor grade,121,
+sample_characteristic,type of inoculation,121,
+sample_characteristic,metabolic treatment,121,treatment_perturbation
+sample_characteristic,expansion passages,121,age_development
+sample_characteristic,leflumide,120,
+sample_characteristic,othermeds,120,
+sample_characteristic,plaquenil,120,
+sample_characteristic,sulfasalazine,120,
+sample_characteristic,das score,120,
+sample_characteristic,ancestry,120,
+sample_characteristic,biologics,120,
+sample_characteristic,arthropathymeds,120,
+sample_characteristic,rituximab,120,
+sample_characteristic,disease activity,120,disease | disease_status
+sample_characteristic,nsaids,120,
+sample_characteristic,cag,120,
+sample_characteristic,brainweight,120,
+sample_characteristic,causeofdeathcategory,120,
+sample_characteristic,liverclass,120,
+sample_characteristic,leftrightbrain,120,
+sample_characteristic,brainph,120,
+sample_characteristic,zt time,120,
+sample_characteristic,subcellular compartment,120,
+sample_characteristic,dissection,119,
+sample_characteristic,surgery,118,
+sample_characteristic,patient diagnosis,118,disease | disease_status
+sample_characteristic,behavioral phenotype,117,experimental_factor_group
+sample_characteristic,post mortem interval,117,
+sample_characteristic,caseid,117,
+sample_characteristic,braak score,117,
+sample_characteristic,family id,116,
+sample_characteristic,harvest day,116,
+sample_characteristic,donor cell line,116,
+sample_characteristic,lane id,116,
+sample_characteristic,alcoholdailyuse(gram/day),116,
+sample_characteristic,age at biopsy,116,age_development
+sample_characteristic,rs234702424,115,
+sample_characteristic,rs30119689,115,
+sample_characteristic,rs221876655,115,
+sample_characteristic,rs13478995,115,
+sample_characteristic,rs13474735,115,
+sample_characteristic,rs13476801,115,
+sample_characteristic,rs46703123,115,
+sample_characteristic,rs263687961,115,
+sample_characteristic,rs235238684,115,
+sample_characteristic,rs32180662,115,
+sample_characteristic,rs227085647,115,
+sample_characteristic,rs29330320,115,
+sample_characteristic,rs229717662,115,
+sample_characteristic,rs31810918,115,
+sample_characteristic,rs13477746,115,
+sample_characteristic,rs33508711,115,
+sample_characteristic,rs4217166,115,
+sample_characteristic,rs29560146,115,
+sample_characteristic,rs3148686,115,
+sample_characteristic,rs51237371,115,
+sample_characteristic,rs46850777,115,
+sample_characteristic,rs6385807,115,
+sample_characteristic,rs242608911,115,
+sample_characteristic,rs256008253,115,
+sample_characteristic,rs31858887,115,
+sample_characteristic,rs238448868,115,
+sample_characteristic,rs217366063,115,
+sample_characteristic,rs226119295,115,
+sample_characteristic,rs32407463,115,
+sample_characteristic,rs245539697,115,
+sample_characteristic,rs33367397,115,
+sample_characteristic,rs33162749,115,
+sample_characteristic,rs13478783,115,
+sample_characteristic,rs246222509,115,
+sample_characteristic,rs30899669,115,
+sample_characteristic,cage id,115,age_development
+sample_characteristic,rs4137196,115,
+sample_characteristic,rs48169870,115,
+sample_characteristic,rs50526143,115,
+sample_characteristic,rs217443774,115,
+sample_characteristic,rs4193066,115,
+sample_characteristic,rs33064547,115,
+sample_characteristic,rs49027247,115,
+sample_characteristic,rs30751697,115,
+sample_characteristic,rs30709918,115,
+sample_characteristic,rs254201911,115,
+sample_characteristic,rs30522453,115,
+sample_characteristic,rs238893157,115,
+sample_characteristic,rs32865425,115,
+sample_characteristic,rs30264676,115,
+sample_characteristic,rs29547790,115,
+sample_characteristic,rs31995355,115,
+sample_characteristic,rs3719791,115,
+sample_characteristic,rs263412184,115,
+sample_characteristic,rs33209545,115,
+sample_characteristic,rs246033409,115,
+sample_characteristic,rs29235721,115,
+sample_characteristic,rs13483369,115,
+sample_characteristic,rs30608930,115,
+sample_characteristic,rs262164631,115,
+sample_characteristic,rs13477019,115,
+sample_characteristic,rs13481734,115,
+sample_characteristic,rs13460207,115,
+sample_characteristic,rs226723272,115,
+sample_characteristic,rs13479672,115,
+sample_characteristic,rs33404968,115,
+sample_characteristic,rs31187642,115,
+sample_characteristic,rs31112038,115,
+sample_characteristic,rs230879074,115,
+sample_characteristic,rs243575509,115,
+sample_characteristic,rs4162529,115,
+sample_characteristic,rs240617401,115,
+sample_characteristic,rs236603300,115,
+sample_characteristic,rs13476956,115,
+sample_characteristic,rs32060039,115,
+sample_characteristic,rs3680956,115,
+sample_characteristic,rs49019729,115,
+sample_characteristic,rs260058764,115,
+sample_characteristic,rs6341208,115,
+sample_characteristic,rs258334795,115,
+sample_characteristic,rs33387924,115,
+sample_characteristic,rs29248623,115,
+sample_characteristic,rs235606231,115,
+sample_characteristic,rs226776950,115,
+sample_characteristic,rs29622109,115,
+sample_characteristic,rs246274290,115,
+sample_characteristic,rs13480628,115,
+sample_characteristic,rs236928053,115,
+sample_characteristic,rs245783224,115,
+sample_characteristic,rs29165094,115,
+sample_characteristic,rs245638874,115,
+sample_characteristic,cre line,115,
+sample_characteristic,age of onset,114,age_development
+sample_characteristic,lentiviral library,114,
+sample_characteristic,evolution experiment,114,
+sample_characteristic,braak.score,113,
+sample_characteristic,expired age,113,age_development
+sample_characteristic,inventory patient id,113,
+sample_characteristic,time of harvest,113,
+sample_characteristic,eye,112,
+sample_characteristic,treatment length,112,treatment_perturbation
+sample_characteristic,seq id,112,
+sample_characteristic,injection,111,
+sample_characteristic,hormone exposure time,111,treatment_perturbation
+sample_characteristic,er/pr status,111,
+sample_characteristic,knockout,110,
+sample_characteristic,age on dissection,108,age_development
+sample_characteristic,time in hours,108,duration
+sample_characteristic,treatment applications,108,treatment_perturbation
+sample_characteristic,16p11.2 cnv,108,
+sample_characteristic,metformin treatment,108,treatment_perturbation
+sample_characteristic,total reads,106,
+sample_characteristic,sequencing lane,106,
+sample_characteristic,hairpin,106,
+sample_characteristic,preparation,106,
+sample_characteristic,p53 status,105,
+sample_characteristic,light exposure,105,treatment_perturbation
+sample_characteristic,corresponding striatum sample name,104,
+sample_characteristic,well address,104,
+sample_characteristic,plate id,104,
+sample_characteristic,therapy,104,
+sample_characteristic,overexpression 1,104,
+sample_characteristic,overexpression 2,104,
+sample_characteristic,processing batch,104,
+sample_characteristic,donor age,102,age_development
+sample_characteristic,intervention duration,102,duration
+sample_characteristic,patient gender,102,
+sample_characteristic,days after injection,102,
+sample_characteristic,disease progression status,102,disease | disease_status
+sample_characteristic,cytoreductive treatment,102,treatment_perturbation
+sample_characteristic,patient vs control,102,
+sample_characteristic,disease model,102,disease | disease_status
+sample_characteristic,tumor area,102,
+sample_characteristic,culture environment,102,
+sample_characteristic,case number (refer to table in paper),101,
+sample_characteristic,library barcode,101,
+sample_characteristic,histology,101,
+sample_characteristic,rna,100,
+sample_characteristic,age in months,100,age_development
+sample_characteristic,patient number,100,
+sample_characteristic,cag adj estimated onset,100,
+sample_characteristic,estimated onset,100,
+sample_characteristic,duration adj striatal score,100,duration
+sample_characteristic,cag adj striatal score,100,
+sample_characteristic,cortical score,100,
+sample_characteristic,striatal score,100,
+sample_characteristic,death,100,
+sample_characteristic,cause of death,100,
+sample_characteristic,treatm code,99,
+sample_characteristic,mousenr,99,
+sample_characteristic,growth protocol,98,
+sample_characteristic,collection time,98,
+sample_characteristic,doxycycline,97,
+sample_characteristic,deletion type,97,
+sample_characteristic,target gene,97,
+sample_characteristic,chemical treatment,96,treatment_perturbation
+sample_characteristic,experimental tissue preservation treatment,96,tissue | treatment_perturbation
+sample_characteristic,brainbank,96,
+sample_characteristic,brodman area,96,
+sample_characteristic,extract protocol,96,
+sample_characteristic,technology,96,
+sample_characteristic,tbi,96,
+sample_characteristic,originating cell line,96,
+sample_characteristic,fragment size,96,
+sample_characteristic,biol.replicate,96,
+sample_characteristic,cuatsm drug treatment,96,treatment_perturbation
+sample_characteristic,ercc mix,96,
+sample_characteristic,animal.code,95,
+sample_characteristic,genotipe,95,
+sample_characteristic,microbiota,95,
+sample_characteristic,librarybatch,95,
+sample_characteristic,mouseline,95,
+sample_characteristic,molecule type,94,
+sample_characteristic,clozapine response,94,
+sample_characteristic,karyotype date,94,
+sample_characteristic,sent.genotype,94,genotype
+sample_characteristic,true.genotype,94,genotype
+sample_characteristic,npc line,94,
+sample_characteristic,endothelial cells,94,
+sample_characteristic,microglia,94,
+sample_characteristic,newly formed oligodendrocyte,94,
+sample_characteristic,hipsc line,94,
+sample_characteristic,hipsc date,94,
+sample_characteristic,sendai batch,94,
+sample_characteristic,astrocytes,94,
+sample_characteristic,fibroblast2,94,
+sample_characteristic,fibroblast1,94,
+sample_characteristic,myelinating oligodendrocytes,94,
+sample_characteristic,neuron rnaseq batch,94,
+sample_characteristic,npc rnaseq batch,94,
+sample_characteristic,npc generation batch,94,
+sample_characteristic,karyotype result,94,
+sample_characteristic,prs score,94,
+sample_characteristic,npc technician,94,
+sample_characteristic,sendai log2cpm,94,
+sample_characteristic,hipsc site,94,
+sample_characteristic,hipsc technician,94,
+sample_characteristic,npc rnaseq submission date,94,
+sample_characteristic,family history,94,
+sample_characteristic,hipsc,94,
+sample_characteristic,affected gene,94,
+sample_characteristic,developmental history,94,
+sample_characteristic,sendai reads,94,
+sample_characteristic,library prep method,94,
+sample_characteristic,rna purification method,94,
+sample_characteristic,oligodendrocyte precursor cell,94,
+sample_characteristic,ethnicity race,94,
+sample_characteristic,neuron rnaseq submission date,94,
+sample_characteristic,iq,94,
+sample_characteristic,npc thaw,94,
+sample_characteristic,myocyte,94,
+sample_characteristic,neuron,94,
+sample_characteristic,environmental condition,94,experimental_factor_group
+sample_characteristic,indivdual,94,
+sample_characteristic,neuropathological diagnosis,94,disease | disease_status
+sample_characteristic,mmse,94,
+sample_characteristic,qrds,94,
+sample_characteristic,ip antibody,93,
+sample_characteristic,stress condition,93,experimental_factor_group
+sample_characteristic,generation,92,
+sample_characteristic,growth condition,92,experimental_factor_group
+sample_characteristic,sample collection time,92,
+sample_characteristic,mutational type,92,
+sample_characteristic,oxygen level,91,
+sample_characteristic,response,91,
+sample_characteristic,age binned,91,age_development
+sample_characteristic,cag repeat,91,
+sample_characteristic,day post induction,90,
+sample_characteristic,stem cells type,90,
+sample_characteristic,retinoic acid,90,
+sample_characteristic,glucose,90,
+sample_characteristic,retinal yield,90,
+sample_characteristic,time (hrs),90,
+sample_characteristic,viral transduction,90,
+sample_characteristic,time-point in minutes,90,duration
+sample_characteristic,control or treatment,90,treatment_perturbation
+sample_characteristic,injected virus,89,
+sample_characteristic,dox treatment,89,treatment_perturbation
+sample_characteristic,mecp2 expression level,89,
+sample_characteristic,plate # (submitted to seqmatic),89,
+sample_characteristic,seqmatic run,89,
+sample_characteristic,sample name (randomized),89,
+sample_characteristic,reactivation hours,89,
+sample_characteristic,date of seqmatic run,89,
+sample_characteristic,re-activation,89,
+sample_characteristic,stain,89,
+sample_characteristic,gene knockdown,89,
+sample_characteristic,activity,89,
+sample_characteristic,genotype/growth protocol,89,genotype
+sample_characteristic,scaffold/conjugate,89,
+sample_characteristic,collection time post-treatment,89,treatment_perturbation
+sample_characteristic,year of birth,89,
+sample_characteristic,time of day,88,
+sample_characteristic,mouseid,88,
+sample_characteristic,trem2,88,
+sample_characteristic,app/ps1,88,
+sample_characteristic,backcross strain,88,strain
+sample_characteristic,cre-dependent virus,88,
+sample_characteristic,strain genotype,88,genotype | strain
+sample_characteristic,hsv-grna,88,
+sample_characteristic,date,87,
+sample_characteristic,transduced,87,
+sample_characteristic,gregariousness,86,
+sample_characteristic,fetal sex,86,
+sample_characteristic,nutritional state,85,
+sample_characteristic,conditions,85,experimental_factor_group
+sample_characteristic,culture,85,
+sample_characteristic,marker,85,
+sample_characteristic,facs marker,84,
+sample_characteristic,subject gender,84,
+sample_characteristic,bar code,84,
+sample_characteristic,library preparation,84,
+sample_characteristic,retrograde tracer,84,
+sample_characteristic,cytogenetic alterations,84,
+sample_characteristic,pweek 11,84,
+sample_characteristic,pweek 5,84,
+sample_characteristic,cweek 7,84,
+sample_characteristic,pweek 6,84,
+sample_characteristic,cweek 1,84,
+sample_characteristic,cweek 5,84,
+sample_characteristic,cweek 8,84,
+sample_characteristic,pweek 2,84,
+sample_characteristic,pweek 3,84,
+sample_characteristic,pweek 8,84,
+sample_characteristic,pweek 4,84,
+sample_characteristic,cweek 4,84,
+sample_characteristic,pweek 1,84,
+sample_characteristic,cweek 10,84,
+sample_characteristic,pweek 7,84,
+sample_characteristic,pweek 13,84,
+sample_characteristic,cweek 9,84,
+sample_characteristic,cweek 3,84,
+sample_characteristic,cweek 11,84,
+sample_characteristic,cweek 12,84,
+sample_characteristic,cweek 6,84,
+sample_characteristic,pweek 12,84,
+sample_characteristic,pweek 10,84,
+sample_characteristic,cweek 2,84,
+sample_characteristic,cweek 13,84,
+sample_characteristic,pweek 9,84,
+sample_characteristic,source ontology,84,
+sample_characteristic,light cycle,84,
+sample_characteristic,administration interval unit,84,
+sample_characteristic,humidity unit,84,
+sample_characteristic,temperature unit ontology,84,
+sample_characteristic,toxic substance purity,84,
+sample_characteristic,strain ontology,84,strain
+sample_characteristic,temperature unit,84,
+sample_characteristic,end age,84,age_development
+sample_characteristic,time point unit,84,duration
+sample_characteristic,feed source,84,
+sample_characteristic,gestanional status,84,
+sample_characteristic,age unit ontology,84,age_development
+sample_characteristic,housing humidity,84,
+sample_characteristic,administration number,84,
+sample_characteristic,humidity unit ontology,84,
+sample_characteristic,toxic substance,84,
+sample_characteristic,administration interval,84,
+sample_characteristic,housing temperature,84,
+sample_characteristic,sex ontology,84,
+sample_characteristic,organism ontology,84,
+sample_characteristic,administration route,84,
+sample_characteristic,dose unit,84,dose
+sample_characteristic,bedding,84,
+sample_characteristic,catalog number,84,
+sample_characteristic,dose unit ontology,84,dose
+sample_characteristic,feed catalog no,84,
+sample_characteristic,administration interval unit ontology,84,
+sample_characteristic,vehicle substance ontology,84,
+sample_characteristic,cage type,84,age_development
+sample_characteristic,time point unit ontology,84,duration
+sample_characteristic,toxic substance ontology,84,
+sample_characteristic,vehicle substance,84,
+sample_characteristic,water,84,
+sample_characteristic,administration route ontology,84,
+sample_characteristic,library kit,84,
+sample_characteristic,start age,84,age_development
+sample_characteristic,feed description,84,
+sample_characteristic,treatment molecule,84,treatment_perturbation
+sample_characteristic,braak lewy body stage,84,age_development
+sample_characteristic,post mortem delay,84,
+sample_characteristic,tissue/treatment id,84,tissue | treatment_perturbation
+sample_characteristic,cage number,84,age_development
+sample_characteristic,stimulus,83,
+sample_characteristic,div,83,
+sample_characteristic,vehicle,83,
+sample_characteristic,post-mortem interval (hrs),83,
+sample_characteristic,markers,83,
+sample_characteristic,total brain volume,83,
+sample_characteristic,ados total score at biopsy,83,
+sample_characteristic,iPSc clone,83,
+sample_characteristic,"scan age, years",83,age_development
+sample_characteristic,stimulation treatment,83,treatment_perturbation
+sample_characteristic,stimulation treatment time,83,treatment_perturbation
+sample_characteristic,mouse status,81,
+sample_characteristic,starting conditions,81,experimental_factor_group
+sample_characteristic,index,80,
+sample_characteristic,reproductive state,80,
+sample_characteristic,animal identification,80,
+sample_characteristic,bedtime cortisol,80,
+sample_characteristic,sex (0=females; 1=male),80,
+sample_characteristic,emotional stress,80,
+sample_characteristic,awakening cortisol,80,
+sample_characteristic,external id,80,
+sample_characteristic,qc pass,80,
+sample_characteristic,avgph,80,
+sample_characteristic,mannerofdeath,80,
+sample_characteristic,causeofdeath,80,
+sample_characteristic,tobaccoatod,80,
+sample_characteristic,medicationsatodc,80,
+sample_characteristic,correctedtod,80,
+sample_characteristic,timeofdeath,80,
+sample_characteristic,rpf rin,80,
+sample_characteristic,bloodtexicology,80,
+sample_characteristic,tissuestoragetime month,80,age_development | tissue
+sample_characteristic,biopsy location,80,
+sample_characteristic,internal id,79,
+sample_characteristic,tissue+c21,79,tissue
+sample_characteristic,light regimen,79,
+sample_characteristic,repair timing,79,
+sample_characteristic,days post-infection,78,
+sample_characteristic,original id,78,
+sample_characteristic,hippocampal subfield,78,
+sample_characteristic,response group,77,experimental_factor_group
+sample_characteristic,clustered group,77,experimental_factor_group
+sample_characteristic,dmfd class,77,
+sample_characteristic,biorep,77,
+sample_characteristic,postmortem interval (hours),77,
+sample_characteristic,hba1c,77,
+sample_characteristic,days of transgene induction,77,
+sample_characteristic,ly49expression,76,
+sample_characteristic,response to vaccination (prnt50),76,
+sample_characteristic,vaccination administration,76,
+sample_characteristic,sibling,76,
+sample_characteristic,macrophage,76,age_development
+sample_characteristic,post infection,76,
+sample_characteristic,seq batch,76,
+sample_characteristic,contamination,76,
+sample_characteristic,cellected type,76,
+sample_characteristic,age in weeks,75,age_development
+sample_characteristic,rna integerity number,75,
+sample_characteristic,age category,75,age_development
+sample_characteristic,fgf,75,
+sample_characteristic,samid,75,
+sample_characteristic,anesthesia,75,
+sample_characteristic,cort baseline,75,
+sample_characteristic,adrenal weight,75,
+sample_characteristic,max weight loss,75,
+sample_characteristic,acth baseline,75,
+sample_characteristic,passed qc,75,
+sample_characteristic,tissue isolation,75,tissue
+sample_characteristic,transduced with,74,
+sample_characteristic,timepoint unit,74,duration
+sample_characteristic,sorted fraction,74,
+sample_characteristic,mouse genotype,74,genotype
+sample_characteristic,cre,74,
+sample_characteristic,total years of play,74,
+sample_characteristic,response to polyic,74,
+sample_characteristic,reprogramming factors,74,
+sample_characteristic,sequeneced tissue name,73,tissue
+sample_characteristic,despair,73,
+sample_characteristic,projection,73,
+sample_characteristic,andehonia,73,
+sample_characteristic,anxiety,73,
+sample_characteristic,quality control,73,
+sample_characteristic,percentage knockdown (qpcr after 48h),73,age_development
+sample_characteristic,multiplexing index sequence,73,
+sample_characteristic,hapmap individual,73,
+sample_characteristic,multiplexing index number,73,
+sample_characteristic,microarray study,73,
+sample_characteristic,proteomics study,73,
+sample_characteristic,post-mortem interval (pmi),73,
+sample_characteristic,library barcodes,73,
+sample_characteristic,tissue of origin,72,tissue
+sample_characteristic,csds phenotype,72,experimental_factor_group
+sample_characteristic,hours,72,
+sample_characteristic,stage for hsv exposure,72,age_development | treatment_perturbation
+sample_characteristic,treatment synonym,72,treatment_perturbation
+sample_characteristic,cell line type,72,
+sample_characteristic,sort method,72,
+sample_characteristic,trap fraction,72,
+sample_characteristic,inhibitors,72,
+sample_characteristic,cause of death category,72,
+sample_characteristic,brain weight,72,
+sample_characteristic,liver class,72,
+sample_characteristic,flow cell,72,
+sample_characteristic,hpv-status,72,
+sample_characteristic,development group,72,experimental_factor_group
+sample_characteristic,enrichment type,72,
+sample_characteristic,cell condition,72,experimental_factor_group
+sample_characteristic,assayed molecule,72,
+sample_characteristic,cell subtype - mutation,72,
+sample_characteristic,host strain,71,strain
+sample_characteristic,saha dose,71,dose
+sample_characteristic,cell line/type,71,
+sample_characteristic,pre-treatment,71,treatment_perturbation
+sample_characteristic,onset,71,
+sample_characteristic,at8log,70,
+sample_characteristic,identifier,70,
+sample_characteristic,log10 maternal decidual triglycerides,70,
+sample_characteristic,placental serotonin (ng/ml),70,
+sample_characteristic,brain serotonin (ng/ml),70,
+sample_characteristic,quant .ng.ul.,70,
+sample_characteristic,inflammation stage,70,age_development
+sample_characteristic,rna extraction batch,70,
+sample_characteristic,ivt injected,70,
+sample_characteristic,cage lot,70,age_development
+sample_characteristic,volume .ul.,70,
+sample_characteristic,hyperfluorescent foci,70,
+sample_characteristic,exclude vegf,70,
+sample_characteristic,mouse cage number,70,age_development
+sample_characteristic,low rin,70,
+sample_characteristic,weight .g.,70,
+sample_characteristic,fundus bright spots,70,
+sample_characteristic,rna extraction date,70,
+sample_characteristic,dissection time,70,
+sample_characteristic,concentration .ng.ul.,70,dose
+sample_characteristic,dissection date,70,
+sample_characteristic,angiogram,70,
+sample_characteristic,amount .ng.,70,
+sample_characteristic,library quant .nm.,70,
+sample_characteristic,exercise parameters,70,
+sample_characteristic,olm,70,
+sample_characteristic,harvest cohort,70,
+sample_characteristic,crispr status,69,
+sample_characteristic,rna integrity number,69,
+sample_characteristic,library size .bp.,69,
+sample_characteristic,mrna-seq reads,69,
+sample_characteristic,injected cells,68,
+sample_characteristic,parental cell line,68,
+sample_characteristic,cre-driver,68,
+sample_characteristic,iPSc source,68,
+sample_characteristic,drug exposure time,68,treatment_perturbation
+sample_characteristic,genotype bmal1,68,genotype
+sample_characteristic,genotype leptin,68,genotype
+sample_characteristic,length of treatment,68,treatment_perturbation
+sample_characteristic,infection state,68,
+sample_characteristic,genetic modification,68,
+sample_characteristic,feeding group,67,experimental_factor_group
+sample_characteristic,treatment at zt3,66,treatment_perturbation
+sample_characteristic,insulin treatment,66,treatment_perturbation
+sample_characteristic,lib size,66,
+sample_characteristic,behavioural phenotype,66,experimental_factor_group
+sample_characteristic,aav,66,
+sample_characteristic,incubation,66,
+sample_characteristic,serum in treatment media,66,treatment_perturbation
+sample_characteristic,retina thickness,66,
+sample_characteristic,pmi (hours),66,
+sample_characteristic,age (wk),66,age_development
+sample_characteristic,specific progenitors,66,
+sample_characteristic,splicing factor targeted (ensembl id),66,
+sample_characteristic,splicing factor targeted,66,
+sample_characteristic,days from start of reprogramming,66,
+sample_characteristic,carnegie stage,66,age_development
+sample_characteristic,tissue side,66,tissue
+sample_characteristic,immunophenotype,65,experimental_factor_group
+sample_characteristic,inducible expression system,64,
+sample_characteristic,ap-position,64,
+sample_characteristic,occurence of hyopglycemia,64,
+sample_characteristic,deseq2 size factor,64,
+sample_characteristic,status pre or post meal,64,
+sample_characteristic,lanes,64,
+sample_characteristic,number of technical replicates,64,
+sample_characteristic,rna yield,64,
+sample_characteristic,patient subgroup,64,experimental_factor_group
+sample_characteristic,extraction pool,64,
+sample_characteristic,cell subpopulation,64,
+sample_characteristic,embryo age in days of gestation,64,age_development
+sample_characteristic,uterine horn position,64,
+sample_characteristic,treatment on ex,64,treatment_perturbation
+sample_characteristic,bioanalyzer rin,64,
+sample_characteristic,rip antibody,63,
+sample_characteristic,agent concentration,63,age_development | dose | treatment_perturbation
+sample_characteristic,ztime,63,
+sample_characteristic,7 days after sd,63,
+sample_characteristic,blood glucose (mg/dl),63,
+sample_characteristic,rna extraction,63,
+sample_characteristic,coculture,63,
+sample_characteristic,cell subset,63,
+sample_characteristic,cell types,62,cell_type
+sample_characteristic,genotype/strain,62,genotype | strain
+sample_characteristic,replicates,62,
+sample_characteristic,mouse group,62,experimental_factor_group
+sample_characteristic,treatment dose unit,62,dose | treatment_perturbation
+sample_characteristic,differentiation batch,62,
+sample_characteristic,time of termination,62,
+sample_characteristic,nr supplementation,62,
+sample_characteristic,body weight change,62,
+sample_characteristic,purification pool,62,
+sample_characteristic,day of termination,62,
+sample_characteristic,pt supplementation,62,
+sample_characteristic,training state,62,
+sample_characteristic,treatment period,62,treatment_perturbation
+sample_characteristic,perturbation time,62,treatment_perturbation
+sample_characteristic,reference rna,62,
+sample_characteristic,reference rna cat. #,62,
+sample_characteristic,transgenic line,61,
+sample_characteristic,recipient mouse,61,
+sample_characteristic,time (hours),61,
+sample_characteristic,animalid,61,
+sample_characteristic,derived from,60,
+sample_characteristic,aneurysm location,60,
+sample_characteristic,tissue/status,60,tissue
+sample_characteristic,case/control,60,
+sample_characteristic,differentiation days,60,
+sample_characteristic,div (days in vitro),60,
+sample_characteristic,experiment id,60,
+sample_characteristic,"sirna (nt = non-targeting, grn = progranulin)",60,
+sample_characteristic,lot number,60,
+sample_characteristic,csi,60,
+sample_characteristic,body weight,60,
+sample_characteristic,snca genotype,60,genotype
+sample_characteristic,pff treatment,60,treatment_perturbation
+sample_characteristic,derivative,60,
+sample_characteristic,neuron population,60,
+sample_characteristic,ectopic transgene expression,60,
+sample_characteristic,transgene location,60,
+sample_characteristic,harvest time,59,
+sample_characteristic,time point [hours of of hox propagation],59,duration
+sample_characteristic,dignosis,59,
+sample_characteristic,aginganalysis,59,
+sample_characteristic,pdvscontrolanalysis,59,
+sample_characteristic,injury condition,58,experimental_factor_group
+sample_characteristic,sort,58,
+sample_characteristic,cell line of origin,58,
+sample_characteristic,over-expression,58,
+sample_characteristic,age (m),58,age_development
+sample_characteristic,treatment set number,58,treatment_perturbation
+sample_characteristic,treatment set name,58,treatment_perturbation
+sample_characteristic,survival year,58,
+sample_characteristic,types,58,
+sample_characteristic,library input,58,
+sample_characteristic,subtypes,58,
+sample_characteristic,day in vitro,57,
+sample_characteristic,numb experimenters,57,
+sample_characteristic,vol medium changes,57,
+sample_characteristic,passag before diff,57,
+sample_characteristic,feeding weekends,57,
+sample_characteristic,passag after diff,57,
+sample_characteristic,numb users,57,
+sample_characteristic,maturity,57,
+sample_characteristic,detachment,57,
+sample_characteristic,frozen progenitors,57,
+sample_characteristic,freq media changes,57,
+sample_characteristic,independend day,57,
+sample_characteristic,hearly harvest,57,
+sample_characteristic,differentiation phase,57,
+sample_characteristic,smoking status,57,
+sample_characteristic,modulating agent,57,age_development | treatment_perturbation
+sample_characteristic,original sample id,57,
+sample_characteristic,exercise status,57,
+sample_characteristic,sample label,57,
+sample_characteristic,treatment short descript,56,treatment_perturbation
+sample_characteristic,treatment compound,56,treatment_perturbation
+sample_characteristic,treatment-groupnr,56,experimental_factor_group | treatment_perturbation
+sample_characteristic,treatment unit,56,treatment_perturbation
+sample_characteristic,treatment (diet+treatment),56,treatment_perturbation
+sample_characteristic,library,56,
+sample_characteristic,rna sample type,56,
+sample_characteristic,drug target,56,treatment_perturbation
+sample_characteristic,early life stress,56,
+sample_characteristic,molecular subtype,56,
+sample_characteristic,subject group,56,experimental_factor_group
+sample_characteristic,genome build,55,
+sample_characteristic,embryonic stage,55,age_development
+sample_characteristic,culture time,55,
+sample_characteristic,chow,55,
+sample_characteristic,social defeat phenotype,55,experimental_factor_group
+sample_characteristic,estrus,55,
+sample_characteristic,sample,54,
+sample_characteristic,jobnumber,54,
+sample_characteristic,rnaseqid,54,
+sample_characteristic,year,54,
+sample_characteristic,target molecule,54,
+sample_characteristic,mutation status,54,
+sample_characteristic,tissue/cells,54,tissue
+sample_characteristic,age at sacrifice,54,age_development
+sample_characteristic,lentiviral particle transduction,54,
+sample_characteristic,time after treatment,54,treatment_perturbation
+sample_characteristic,rna sequencing,54,
+sample_characteristic,mutation class,54,
+sample_characteristic,ajcc stage,54,age_development
+sample_characteristic,bodyweight,53,
+sample_characteristic,dietary reversal,53,
+sample_characteristic,stz-treatment,53,treatment_perturbation
+sample_characteristic,culture day,53,
+sample_characteristic,treatmentperiod,53,treatment_perturbation
+sample_characteristic,developemental stage,53,age_development
+sample_characteristic,totalnumreads,52,
+sample_characteristic,totalnummappedreads,52,
+sample_characteristic,percentexonicmapping,52,
+sample_characteristic,brainid,52,
+sample_characteristic,cell fraction,52,
+sample_characteristic,ID,52,
+sample_characteristic,"patient ""subjectid""",52,
+sample_characteristic,"sequencing lane ""lane""",52,
+sample_characteristic,"sequencing vial id ""vialid""",52,
+sample_characteristic,"differentiation batch (""growbatch"")",52,
+sample_characteristic,"alternative id ""line""",52,
+sample_characteristic,"alternative id ""deseqanalysisid""",52,
+sample_characteristic,"sequencing batch (""seqbatch"")",52,
+sample_characteristic,integration detected,52,
+sample_characteristic,pass-filter,52,
+sample_characteristic,cage group,52,age_development | experimental_factor_group
+sample_characteristic,cell sex,52,
+sample_characteristic,inflammatory state,52,
+sample_characteristic,cell description,52,
+sample_characteristic,lentiviral vector,51,
+sample_characteristic,sample name,51,
+sample_characteristic,tumor region,51,
+sample_characteristic,dosage 2,51,age_development | dose
+sample_characteristic,dosage 1,51,age_development | dose
+sample_characteristic,growth media,50,
+sample_characteristic,neuron subtype,50,
+sample_characteristic,height,50,
+sample_characteristic,training status,50,
+sample_characteristic,day of harvest,50,
+sample_characteristic,pooled sample,50,
+sample_characteristic,pool size,50,
+sample_characteristic,number of cells,49,
+sample_characteristic,primary tissue,49,tissue
+sample_characteristic,sex/age,49,age_development
+sample_characteristic,bmic line,48,
+sample_characteristic,total read count,48,
+sample_characteristic,total bases,48,
+sample_characteristic,gc content percentage,48,age_development
+sample_characteristic,percentage of q20 reads,48,age_development
+sample_characteristic,deidentified sample code,48,
+sample_characteristic,at content percentage,48,age_development
+sample_characteristic,percentage of q30 reads,48,age_development
+sample_characteristic,induction experiment,48,
+sample_characteristic,iPSc cell line,48,
+sample_characteristic,cell isolate,48,
+sample_characteristic,replacement of tgfb,48,
+sample_characteristic,hpc isolation method,48,
+sample_characteristic,donor/origin,48,
+sample_characteristic,drug tx,48,treatment_perturbation
+sample_characteristic,known experimental batch,48,
+sample_characteristic,sorted cells,48,
+sample_characteristic,sorting markers,48,
+sample_characteristic,author reference id,48,
+sample_characteristic,srtain,48,
+sample_characteristic,time post infection,48,
+sample_characteristic,cell part,48,
+sample_characteristic,antiboby,48,
+sample_characteristic,prognosis,48,
+sample_characteristic,noise intensity and atmospheric pressure,48,
+sample_characteristic,progress of activity,48,
+sample_characteristic,damid,48,
+sample_characteristic,pupid,48,
+sample_characteristic,hiv status,48,
+sample_characteristic,donorid,48,
+sample_characteristic,treatment category,48,treatment_perturbation
+sample_characteristic,secondary id,48,
+sample_characteristic,hud genotype,48,genotype
+sample_characteristic,app genotype,48,genotype
+sample_characteristic,treatment concentration (m),48,dose | treatment_perturbation
+sample_characteristic,relative sox9 level,48,
+sample_characteristic,primary tumor type,48,
+sample_characteristic,diabetes-type,48,
+sample_characteristic,pioglitazone-treatment,48,treatment_perturbation
+sample_characteristic,insert type,48,
+sample_characteristic,housing type,48,
+sample_characteristic,expression modification,48,
+sample_characteristic,hours after dexamethasone treatment,48,treatment_perturbation
+sample_characteristic,tumor model,47,
+sample_characteristic,extraction date,47,
+sample_characteristic,prognostic subtype,47,
+sample_characteristic,survival time,47,
+sample_characteristic,survival,47,
+sample_characteristic,first or second surgery,47,
+sample_characteristic,strain model no.,47,strain
+sample_characteristic,maternal diet,47,
+sample_characteristic,strandedness,47,
+sample_characteristic,efstime,47,
+sample_characteristic,stime,47,
+sample_characteristic,scens,47,
+sample_characteristic,efscens,47,
+sample_characteristic,age at diag,47,age_development
+sample_characteristic,age at first event or censor,47,age_development
+sample_characteristic,cdna expressed (n2a flp-in line),47,
+sample_characteristic,days cultured without doxycycline,47,
+sample_characteristic,day of dox treatment,47,treatment_perturbation
+sample_characteristic,sample id (used in publication),47,
+sample_characteristic,stimulation concentration,47,dose
+sample_characteristic,cell compartment,46,
+sample_characteristic,outcome,46,
+sample_characteristic,ct,46,
+sample_characteristic,lifetimechronicandoracuteatodinfectiousorinflammatorydiagnosis,46,disease | disease_status
+sample_characteristic,alcohol daily use(gram/day),46,
+sample_characteristic,maternal age,46,age_development
+sample_characteristic,tnf+il1a stimulated,46,
+sample_characteristic,biol rep,46,
+sample_characteristic,diet+treatment,46,treatment_perturbation
+sample_characteristic,organism strain,46,strain
+sample_characteristic,readtype description,46,
+sample_characteristic,readtype,46,
+sample_characteristic,endogenous ifn,46,
+sample_characteristic,patient identifier,46,
+sample_characteristic,transfer,46,
+sample_characteristic,biomaterial provider,45,
+sample_characteristic,time post-light stim,45,
+sample_characteristic,inhibitor,45,
+sample_characteristic,selection generation,45,
+sample_characteristic,fluid(treatment),45,treatment_perturbation
+sample_characteristic,rna-seq protocol,45,
+sample_characteristic,study id,45,
+sample_characteristic,donor's disease state,45,disease | disease_status
+sample_characteristic,donor's gender,45,
+sample_characteristic,number of days in vitro in terminal differentiation conditions,45,experimental_factor_group
+sample_characteristic,stimulation length,45,
+sample_characteristic,time after inoculation,44,
+sample_characteristic,inoculated bacterial strain,44,strain
+sample_characteristic,age at harvest,44,age_development
+sample_characteristic,age of mice,44,age_development
+sample_characteristic,pulldown,44,
+sample_characteristic,iss stage,44,age_development
+sample_characteristic,bortezomib response,44,
+sample_characteristic,cell id,44,
+sample_characteristic,age euthanized (days),44,age_development
+sample_characteristic,desease state,44,
+sample_characteristic,pretreatment,44,treatment_perturbation
+sample_characteristic,bmi group,44,experimental_factor_group
+sample_characteristic,storage type,44,age_development
+sample_characteristic,object location memory training time,44,
+sample_characteristic,tissue weight (mg),44,tissue
+sample_characteristic,egfr,44,
+sample_characteristic,sampled date,44,
+sample_characteristic,subcloned,44,
+sample_characteristic,strain description,44,strain
+sample_characteristic,cell group,44,experimental_factor_group
+sample_characteristic,run id,44,
+sample_characteristic,component sampled,44,
+sample_characteristic,type of surgical procedure,44,
+sample_characteristic,cag length,43,
+sample_characteristic,hormone status,43,
+sample_characteristic,second progression date,43,
+sample_characteristic,second progressed tumor pathology,43,
+sample_characteristic,induction,43,
+sample_characteristic,time (days),43,
+sample_characteristic,stimulus/treatment,43,treatment_perturbation
+sample_characteristic,number cag repeats,42,
+sample_characteristic,individual identifier,42,
+sample_characteristic,knockout status,42,
+sample_characteristic,spinal cord region,42,
+sample_characteristic,age group,42,age_development | experimental_factor_group
+sample_characteristic,time course,42,
+sample_characteristic,sirna type,42,
+sample_characteristic,library prep kit,42,
+sample_characteristic,experiment group,42,experimental_factor_group
+sample_characteristic,"hba1c, %",42,
+sample_characteristic,"fasting insulin, miu/l",42,
+sample_characteristic,"fasting glucose, mm",42,
+sample_characteristic,"fasting c-peptid, ng/ml",42,
+sample_characteristic,homa ir,42,
+sample_characteristic,age description,42,age_development
+sample_characteristic,age/disease timepoint,42,age_development | disease | disease_status | duration
+sample_characteristic,exposed to,42,
+sample_characteristic,glucose concentration,42,dose
+sample_characteristic,clonal cell line,42,
+sample_characteristic,batch date,41,
+sample_characteristic,geneotype,41,
+sample_characteristic,neurocognitive status,41,
+sample_characteristic,sirna target,41,
+sample_characteristic,cerebellar ph,41,
+sample_characteristic,mendez et al 2021 molecular psychiatry subject label,41,
+sample_characteristic,race/ethnicity,41,
+sample_characteristic,second progressed tumor grade,41,
+sample_characteristic,dc subset,40,
+sample_characteristic,ectopic expression,40,
+sample_characteristic,patient id no.,40,
+sample_characteristic,other diseases,40,disease | disease_status
+sample_characteristic,days post influenza pr8 infection,40,
+sample_characteristic,h1 tetramer,40,
+sample_characteristic,target of treatment,40,treatment_perturbation
+sample_characteristic,sample derived from,40,
+sample_characteristic,tnfa challenge,40,treatment_perturbation
+sample_characteristic,family,40,
+sample_characteristic,puberty,40,
+sample_characteristic,time point from start,40,duration
+sample_characteristic,time point after last injury,40,duration
+sample_characteristic,mixture cell line nci-h1975,40,
+sample_characteristic,mixture cell line hcc827,40,
+sample_characteristic,transgene 2,40,
+sample_characteristic,transgene 1,40,
+sample_characteristic,unnatural amino acid,40,
+sample_characteristic,patient mm,40,
+sample_characteristic,cytokine,40,
+sample_characteristic,cell state,39,
+sample_characteristic,gestational age,39,age_development
+sample_characteristic,hnf4alpha isoforms,39,
+sample_characteristic,cell lines,39,
+sample_characteristic,madm,39,
+sample_characteristic,Cause of death,39,
+sample_characteristic,recovery time,39,
+sample_characteristic,repository source fibroblast id,39,
+sample_characteristic,parity,39,
+sample_characteristic,contaminant,38,
+sample_characteristic,treatment of rna sample,38,treatment_perturbation
+sample_characteristic,biological replicate no.,38,
+sample_characteristic,sampling time after initiation intervention=treatment=diet,38,treatment_perturbation
+sample_characteristic,diet (+/-compound),38,
+sample_characteristic,hipsc source,38,
+sample_characteristic,catalog#,38,
+sample_characteristic,seks,38,
+sample_characteristic,isolation technique,38,
+sample_characteristic,devleopmental stage,38,age_development
+sample_characteristic,subject number,38,
+sample_characteristic,developmental age,37,age_development
+sample_characteristic,cell status,37,
+sample_characteristic,reporter,37,
+sample_characteristic,mouse age,37,age_development
+sample_characteristic,ethanol exposure,37,treatment_perturbation
+sample_characteristic,antimicrobial activity against c. acnes,37,
+sample_characteristic,reprogramming timepoint (day),37,duration
+sample_characteristic,antipsychotic3,37,
+sample_characteristic,antipsychotic2,37,
+sample_characteristic,number of years smoking,37,
+sample_characteristic,cigarettes pack per day,37,
+sample_characteristic,mood medications,37,
+sample_characteristic,benzodiazepines,37,
+sample_characteristic,cigarette smoked per week,37,
+sample_characteristic,antipsychotic1,37,
+sample_characteristic,er mutation,37,
+sample_characteristic,age years,37,age_development
+sample_characteristic,etiology/histology,37,
+sample_characteristic,eln group,37,experimental_factor_group
+sample_characteristic,stage of the metastatic cascade,36,age_development
+sample_characteristic,biological sample id,36,
+sample_characteristic,pain model,36,
+sample_characteristic,nutlin treatment,36,treatment_perturbation
+sample_characteristic,trp53 mutation,36,
+sample_characteristic,diagnosis/patient,36,disease | disease_status
+sample_characteristic,transduced shrna,36,
+sample_characteristic,transduced cdna,36,
+sample_characteristic,stage for zikv exposure,36,age_development | treatment_perturbation
+sample_characteristic,mouse model reference,36,
+sample_characteristic,culture batch,36,
+sample_characteristic,animal age,36,age_development
+sample_characteristic,symptom side,36,
+sample_characteristic,brain hemisphere,36,
+sample_characteristic,inoculation,36,
+sample_characteristic,growth medium,36,
+sample_characteristic,cell marker,36,
+sample_characteristic,tumor site,36,
+sample_characteristic,library replicate,36,
+sample_characteristic,norm factor,36,
+sample_characteristic,disease.state,36,disease | disease_status
+sample_characteristic,housing status,36,
+sample_characteristic,source of neurons,36,
+sample_characteristic,microtissue,36,tissue
+sample_characteristic,tissue culture weeks,36,tissue
+sample_characteristic,reared as,36,
+sample_characteristic,treatment/time-point,36,duration | treatment_perturbation
+sample_characteristic,transformation status,36,
+sample_characteristic,dissection age,36,age_development
+sample_characteristic,experimental,36,
+sample_characteristic,rna source,36,
+sample_characteristic,heat inactivated virus,36,
+sample_characteristic,hours post infection,36,
+sample_characteristic,cell organism,36,
+sample_characteristic,lab,36,
+sample_characteristic,datatype,36,
+sample_characteristic,datatype description,36,
+sample_characteristic,lab description,36,
+sample_characteristic,age (yrs),36,age_development
+sample_characteristic,transformations of iprecs,36,
+sample_characteristic,cell immortalization,36,
+sample_characteristic,cell passage number,36,age_development
+sample_characteristic,subject age,36,age_development
+sample_characteristic,subject ethnicity,36,
+sample_characteristic,blood type,36,
+sample_characteristic,be in blood (mg/l),36,
+sample_characteristic,be in brain (mg/kg),36,
+sample_characteristic,cocaine in brain (mg/kg),36,
+sample_characteristic,cocaine in blood (mg/l),36,
+sample_characteristic,sampling age,35,age_development
+sample_characteristic,treatement,35,
+sample_characteristic,sample barcode,35,
+sample_characteristic,groups,35,experimental_factor_group
+sample_characteristic,age (week),35,age_development
+sample_characteristic,arv status,35,
+sample_characteristic,dopamine remaining,35,
+sample_characteristic,matrics,35,
+sample_characteristic,pathology,35,
+sample_characteristic,tissue (abbreviation),35,tissue
+sample_characteristic,treatment concentration,35,dose | treatment_perturbation
+sample_characteristic,plasmid,34,
+sample_characteristic,tissuebank.id,34,tissue
+sample_characteristic,tissuebank,34,tissue
+sample_characteristic,dist.dx,34,
+sample_characteristic,project.sampleid,34,
+sample_characteristic,microbiome status,34,
+sample_characteristic,growth type,34,
+sample_characteristic,brain location,34,
+sample_characteristic,conditioned media origin,34,experimental_factor_group
+sample_characteristic,treated stem cells,34,
+sample_characteristic,conditioned media type,34,experimental_factor_group
+sample_characteristic,gonad,34,
+sample_characteristic,control sample,34,
+sample_characteristic,catalog,34,
+sample_characteristic,cell type origin,34,cell_type
+sample_characteristic,treatment/condition,34,experimental_factor_group | treatment_perturbation
+sample_characteristic,cell infection,34,
+sample_characteristic,characterstics,34,
+sample_characteristic,treatment duration in hours,34,duration | treatment_perturbation
+sample_characteristic,braak stage,33,age_development
+sample_characteristic,estrous cycle stage,33,age_development
+sample_characteristic,subpopulation,33,
+sample_characteristic,reference,33,
+sample_characteristic,establishment status,33,
+sample_characteristic,resistant status,33,
+sample_characteristic,day of terminal differentiation (td),33,
+sample_characteristic,full name,33,
+sample_characteristic,sleep state,33,
+sample_characteristic,sampling time,33,
+sample_characteristic,anonymized center identifier,33,
+sample_characteristic,disease class,33,disease | disease_status
+sample_characteristic,differentiation age,33,age_development
+sample_characteristic,activation status,33,
+sample_characteristic,disease induction,33,disease | disease_status
+sample_characteristic,lentiviral infection,33,
+sample_characteristic,rna-seq production,33,
+sample_characteristic,protocol used,33,
+sample_characteristic,embryonic age,33,age_development
+sample_characteristic,person id,33,
+sample_characteristic,tretment,33,
+sample_characteristic,rna type,33,
+sample_characteristic,gensat.org,32,
+sample_characteristic,targeted replacement,32,
+sample_characteristic,time in culture,32,duration
+sample_characteristic,"hyperlipidemia (presence; 0=no,1=yes)",32,
+sample_characteristic,"osteoarthritis (presence; 0=no,1=yes)",32,
+sample_characteristic,smoker (y/n),32,
+sample_characteristic,"hypertension (presence; 0=no,1=yes)",32,
+sample_characteristic,"stroke history (presence; 0=no,1=yes)",32,
+sample_characteristic,"coronary artery disease (presence; 0=no,1=yes)",32,disease | disease_status
+sample_characteristic,"diabetes mellitus (presence; 0=no,1=yes)",32,
+sample_characteristic,neurons,32,
+sample_characteristic,wound status,32,
+sample_characteristic,myc deletion status,32,
+sample_characteristic,section,32,
+sample_characteristic,facs,32,
+sample_characteristic,animal facility,32,
+sample_characteristic,culture type,32,
+sample_characteristic,ear tag,32,
+sample_characteristic,father strain,32,strain
+sample_characteristic,mother strain,32,strain
+sample_characteristic,inducible marker,32,
+sample_characteristic,sequencing kit,32,
+sample_characteristic,rna population,32,
+sample_characteristic,mouse dox status,32,
+sample_characteristic,applied mechanostimulation,32,
+sample_characteristic,cytokine treatment,32,treatment_perturbation
+sample_characteristic,condition treatment,32,experimental_factor_group | treatment_perturbation
+sample_characteristic,animal.strain,32,strain
+sample_characteristic,animal.id,32,
+sample_characteristic,distance from amyloid plaques,32,
+sample_characteristic,cell transfection,32,
+sample_characteristic,time [hours],32,
+sample_characteristic,wtcpm treatment,32,treatment_perturbation
+sample_characteristic,age (d),32,age_development
+sample_characteristic,expression vector,32,
+sample_characteristic,input or ribosomally loaded,32,
+sample_characteristic,viral delivery route,32,
+sample_characteristic,RRID,32,
+sample_characteristic,covid status,32,
+sample_characteristic,alzheimers status,32,
+sample_characteristic,cci treatment,32,treatment_perturbation
+sample_characteristic,p110 treatment,32,treatment_perturbation
+sample_characteristic,oxygen levels,32,
+sample_characteristic,post conception week,32,
+sample_characteristic,mcsf,32,
+sample_characteristic,developing stage,31,age_development
+sample_characteristic,initial cell type,31,cell_type
+sample_characteristic,cell background,31,
+sample_characteristic,treatment time (hours),31,treatment_perturbation
+sample_characteristic,engineered genotype,31,genotype
+sample_characteristic,time since release (hours),31,
+sample_characteristic,cell sorting,31,
+sample_characteristic,paired patient,31,
+sample_characteristic,sample tag,31,
+sample_characteristic,facs purification,31,
+sample_characteristic,eye histological phenotype,31,experimental_factor_group
+sample_characteristic,original source of cells,30,
+sample_characteristic,treatment (-/+ tamoxifen to induce nuclear localization of e47),30,treatment_perturbation
+sample_characteristic,study group,30,experimental_factor_group
+sample_characteristic,animal model,30,
+sample_characteristic,time point (hr),30,duration
+sample_characteristic,experimental condition,30,experimental_factor_group
+sample_characteristic,dox condition,30,experimental_factor_group
+sample_characteristic,feeder,30,
+sample_characteristic,differentiation protocol,30,
+sample_characteristic,time (zt),30,
+sample_characteristic,exposure to stress,30,treatment_perturbation
+sample_characteristic,interneuron subtype,30,
+sample_characteristic,mutational status,30,
+sample_characteristic,hbf expression,30,
+sample_characteristic,participant,30,
+sample_characteristic,name,30,
+sample_characteristic,exogenous myc genotype,30,genotype
+sample_characteristic,maternal treatment,30,treatment_perturbation
+sample_characteristic,sample pair,30,
+sample_characteristic,supplier/gender,30,
+sample_characteristic,diabetic status,30,
+sample_characteristic,methoxy status,30,
+sample_characteristic,norm factors,30,
+sample_characteristic,aβ42,30,
+sample_characteristic,aβ40,30,
+sample_characteristic,preference index cta,30,
+sample_characteristic,stat5a knockdown,30,
+sample_characteristic,stat5a rescue,30,
+sample_characteristic,dv 200 (rna),30,
+sample_characteristic,medium condition,30,experimental_factor_group
+sample_characteristic,microenvironment,30,
+sample_characteristic,treatment effect,30,treatment_perturbation
+sample_characteristic,cloning,30,
+sample_characteristic,numcells,30,
+sample_characteristic,rnaconc,30,
+sample_characteristic,seqid,30,
+sample_characteristic,prepdate,30,
+sample_characteristic,alternative name,30,
+sample_characteristic,total age in days,30,age_development
+sample_characteristic,infection length,30,
+sample_characteristic,rop,30,
+sample_characteristic,preeclampsia,30,
+sample_characteristic,treatment/timpoint,30,treatment_perturbation
+sample_characteristic,rin (cerebellum),30,
+sample_characteristic,psychiatric diagnosis,30,disease | disease_status
+sample_characteristic,toxicology (cerebellum),30,
+sample_characteristic,labexpid,30,
+sample_characteristic,animal no,30,
+sample_characteristic,culture collection,30,
+sample_characteristic,sample description,30,
+sample_characteristic,index/adapter 1,30,
+sample_characteristic,requested sequencing type-depth,30,
+sample_characteristic,source cell line,29,
+sample_characteristic,transplanted with,29,
+sample_characteristic,injected with,29,
+sample_characteristic,dosage,29,age_development | dose
+sample_characteristic,devel stage,29,age_development
+sample_characteristic,weeks post-demyelination,29,
+sample_characteristic,genotype/treatment,29,genotype | treatment_perturbation
+sample_characteristic,fasting treatment,29,treatment_perturbation
+sample_characteristic,avertin treatment,29,treatment_perturbation
+sample_characteristic,icu admission,29,
+sample_characteristic,differentiation timing,29,
+sample_characteristic,differentiation condition,29,experimental_factor_group
+sample_characteristic,repeat,29,
+sample_characteristic,presumed cell type,29,cell_type
+sample_characteristic,inventory sample name,29,
+sample_characteristic,estrus identification,28,
+sample_characteristic,devolopmental stage,28,age_development
+sample_characteristic,lentivirus infected,28,
+sample_characteristic,fluorescent reporter,28,
+sample_characteristic,dux induction,28,
+sample_characteristic,transcription factor overexpression,28,
+sample_characteristic,eye (left or right),28,
+sample_characteristic,experiment 1 or 2,28,
+sample_characteristic,neuron type,28,
+sample_characteristic,treatment housing,28,treatment_perturbation
+sample_characteristic,sex of mice,28,
+sample_characteristic,strains,28,strain
+sample_characteristic,tumor location,28,
+sample_characteristic,barcode (already removed),28,
+sample_characteristic,cell fraction/population,28,
+sample_characteristic,previous mapki,28,
+sample_characteristic,anti-pd-1 response,28,
+sample_characteristic,overall survival (days),28,
+sample_characteristic,study site,28,
+sample_characteristic,stranded/unstranded rnaseq,28,
+sample_characteristic,biopsy time,28,
+sample_characteristic,anatomical location,28,
+sample_characteristic,cells cultured in vitro with,28,
+sample_characteristic,aav serotype,28,
+sample_characteristic,library name,27,
+sample_characteristic,reperfusion time point,27,duration
+sample_characteristic,subcellular fraction,27,
+sample_characteristic,donor gender,27,
+sample_characteristic,culture system,27,
+sample_characteristic,260/230,27,
+sample_characteristic,nucleic acid (ng/ul),27,
+sample_characteristic,260/280,27,
+sample_characteristic,a260 (abs),27,
+sample_characteristic,a280 (abs),27,
+sample_characteristic,xenografts host mice,27,
+sample_characteristic,mrna enrichment protocol,27,
+sample_characteristic,lesion,27,
+sample_characteristic,alteration background,27,
+sample_characteristic,harvest timepoint,27,duration
+sample_characteristic,time of culture after starting coculture,27,
+sample_characteristic,mouse recipient,27,
+sample_characteristic,day post-delivery,27,
+sample_characteristic,time (rna was extracted from wells at day),27,
+sample_characteristic,type of laminin coating,27,
+sample_characteristic,grna,27,
+sample_characteristic,bioreplicate,27,
+sample_characteristic,treatment response,27,treatment_perturbation
+sample_characteristic,treatment/infection,27,treatment_perturbation
+sample_characteristic,% persisters relative to pc9 whole population,27,
+sample_characteristic,viral genotype,27,genotype
+sample_characteristic,age in days post conception,27,age_development
+sample_characteristic,time (age in weeks),27,age_development
+sample_characteristic,cells and tissue,27,tissue
+sample_characteristic,treatment - time (days),27,treatment_perturbation
+sample_characteristic,treatment - drug,27,treatment_perturbation
+sample_characteristic,treatment - critical period,27,treatment_perturbation
+sample_characteristic,biological replicates,27,
+sample_characteristic,stem cell source,27,
+sample_characteristic,time (days post differentiation),27,
+sample_characteristic,days after lof,27,
+sample_characteristic,subcellular localization,27,
+sample_characteristic,time point of tumor growth,27,duration
+sample_characteristic,antagomir,27,
+sample_characteristic,age (days post-natal),27,age_development
+sample_characteristic,weeks,26,
+sample_characteristic,high fat diet,26,
+sample_characteristic,extraction method,26,
+sample_characteristic,microbiota status,26,
+sample_characteristic,trap lysate,26,
+sample_characteristic,# mice pooled per sample,26,
+sample_characteristic,alternative sample id,26,
+sample_characteristic,tamoxifen reatment for mice,26,
+sample_characteristic,day/ir dose,26,dose
+sample_characteristic,author sample id,26,
+sample_characteristic,procedure,26,
+sample_characteristic,stage of differentiation,26,age_development
+sample_characteristic,symptom,26,
+sample_characteristic,previous severity,26,
+sample_characteristic,group status,26,experimental_factor_group
+sample_characteristic,time post-infection,26,
+sample_characteristic,time post-dox,26,
+sample_characteristic,sample regimen,26,
+sample_characteristic,sample intervention,26,
+sample_characteristic,subject age at sample biopsy,26,age_development
+sample_characteristic,cell-line,26,
+sample_characteristic,ptmi induced mutation,26,
+sample_characteristic,theiler stage,26,age_development
+sample_characteristic,duration of treatment,26,duration | treatment_perturbation
+sample_characteristic,fixation strategy,25,
+sample_characteristic,sonication strategy,25,
+sample_characteristic,media supplement,25,
+sample_characteristic,age (days post conception),25,age_development
+sample_characteristic,fetal region,25,
+sample_characteristic,brain bank,25,
+sample_characteristic,timepoint or dose,25,dose | duration
+sample_characteristic,serum,25,
+sample_characteristic,sorting strategy,25,
+sample_characteristic,stably transduced,25,
+sample_characteristic,oncotype,25,
+sample_characteristic,disorder,25,
+sample_characteristic,donor disease,25,disease | disease_status
+sample_characteristic,donor race,25,
+sample_characteristic,donor sex,25,
+sample_characteristic,time after conditioning (days),25,experimental_factor_group
+sample_characteristic,stimulation type,25,
+sample_characteristic,gestational age (weeks),25,age_development
+sample_characteristic,strain info.,25,strain
+sample_characteristic,androgen status,25,
+sample_characteristic,microglia population,25,
+sample_characteristic,egf stimulation,25,
+sample_characteristic,RC,25,
+sample_characteristic,Pet1,25,
+sample_characteristic,differentiation status,25,
+sample_characteristic,growth culture,24,
+sample_characteristic,transduced construct,24,
+sample_characteristic,npm1,24,
+sample_characteristic,flt3,24,
+sample_characteristic,prior cr,24,
+sample_characteristic,cytorisk,24,
+sample_characteristic,mycn,24,
+sample_characteristic,gsk-j4 sensitivity,24,
+sample_characteristic,experiment type,24,
+sample_characteristic,indexes,24,
+sample_characteristic,poolid,24,
+sample_characteristic,hours after dexamethasone stimulation,24,
+sample_characteristic,grafted,24,
+sample_characteristic,time point (min),24,duration
+sample_characteristic,clip antibody,24,
+sample_characteristic,xenograft,24,
+sample_characteristic,experimental batch,24,
+sample_characteristic,strain id,24,strain
+sample_characteristic,postnatal treatment,24,treatment_perturbation
+sample_characteristic,prenatal treatment,24,treatment_perturbation
+sample_characteristic,exposure type,24,treatment_perturbation
+sample_characteristic,time point of rna extraction post inoculation,24,duration
+sample_characteristic,genotype simplified,24,genotype
+sample_characteristic,biologic sex,24,
+sample_characteristic,er/pr/her2 statue,24,
+sample_characteristic,bet inhibitor jq1 treatment,24,treatment_perturbation
+sample_characteristic,kit,24,
+sample_characteristic,paternal treatment,24,treatment_perturbation
+sample_characteristic,genetic manipulation,24,
+sample_characteristic,nr4a1-gfp status,24,
+sample_characteristic,dox status,24,
+sample_characteristic,subjectid,24,
+sample_characteristic,daysofneuraldifferentiation,24,
+sample_characteristic,iPSclinerep,24,
+sample_characteristic,treatmentcondition,24,experimental_factor_group | treatment_perturbation
+sample_characteristic,facs phenotype,24,experimental_factor_group
+sample_characteristic,cell phenotype,24,experimental_factor_group
+sample_characteristic,culture time (hours),24,
+sample_characteristic,treatemtn,24,
+sample_characteristic,treatment condition/type,24,experimental_factor_group | treatment_perturbation
+sample_characteristic,compound name,24,
+sample_characteristic,toxicant dose,24,dose
+sample_characteristic,compound treatment,24,treatment_perturbation
+sample_characteristic,teatment class,24,
+sample_characteristic,publication comp. abbr.,24,
+sample_characteristic,cas#,24,
+sample_characteristic,shRNA depletion type,24,
+sample_characteristic,pharmacologic treatment type,24,treatment_perturbation
+sample_characteristic,data file subset,24,
+sample_characteristic,day of isolation,24,
+sample_characteristic,oxygen status,24,
+sample_characteristic,emp2 expression,24,
+sample_characteristic,group.color,24,experimental_factor_group
+sample_characteristic,hci id,24,
+sample_characteristic,tp53 mutation,24,
+sample_characteristic,depolarised,24,
+sample_characteristic,time2blood,24,
+sample_characteristic,endothelial purity,24,
+sample_characteristic,vessel type,24,
+sample_characteristic,duration in hours,24,duration
+sample_characteristic,age at collection,24,age_development
+sample_characteristic,total rna input,24,
+sample_characteristic,growth phase,24,
+sample_characteristic,percent aligned,24,
+sample_characteristic,cell line number,24,
+sample_characteristic,trap antibody,24,
+sample_characteristic,brain location (lef or right),24,
+sample_characteristic,location of brain (left or rightbrain),24,
+sample_characteristic,brain location (left or rightbrain),24,
+sample_characteristic,cell culture media,24,
+sample_characteristic,drug phenotype,24,experimental_factor_group | treatment_perturbation
+sample_characteristic,matching group,24,experimental_factor_group
+sample_characteristic,mouse exhibiting symptoms on the day of sample collection,24,
+sample_characteristic,time (survival after transduction),24,
+sample_characteristic,peakgh mcg/l,24,
+sample_characteristic,sex steroid priming,24,
+sample_characteristic,ghd,24,
+sample_characteristic,test,24,
+sample_characteristic,clon/replicate,24,
+sample_characteristic,cytokine exposure,24,treatment_perturbation
+sample_characteristic,ibmec differentiation media volume,24,
+sample_characteristic,aso concentration,24,dose
+sample_characteristic,cell clone #,24,
+sample_characteristic,host mouse genotype,24,genotype
+sample_characteristic,treatment delivery method,24,treatment_perturbation
+sample_characteristic,sacrifice time,24,
+sample_characteristic,age at onset,24,age_development
+sample_characteristic,apoe status,24,
+sample_characteristic,csf biomarkers for ad,24,
+sample_characteristic,cognition at time of skin biopsy,24,
+sample_characteristic,age at skin biopsy,24,age_development
+sample_characteristic,mri or other imaging,24,
+sample_characteristic,rna rin score,24,
+sample_characteristic,biol replicate,24,
+sample_characteristic,cell isolation,24,
+sample_characteristic,stimulated with,24,
+sample_characteristic,bromouridine labeling start,24,
+sample_characteristic,bromouridine labeling time,24,
+sample_characteristic,disease onset,24,disease | disease_status
+sample_characteristic,disease course,24,disease | disease_status
+sample_characteristic,p/i stimulation,24,
+sample_characteristic,sort characteristic,24,
+sample_characteristic,cycle speed,24,
+sample_characteristic,growth time,24,
+sample_characteristic,fraction type,24,
+sample_characteristic,time after plating,24,
+sample_characteristic,colonization status,24,
+sample_characteristic,proteomics sv1,24,
+sample_characteristic,proteomics sv3,24,
+sample_characteristic,proteomics sv2,24,
+sample_characteristic,treatement group,24,experimental_factor_group
+sample_characteristic,celll subtype,24,
+sample_characteristic,multiplex index,24,
+sample_characteristic,run lane,24,
+sample_characteristic,experiment batch,24,
+sample_characteristic,parental cell line id,24,
+sample_characteristic,antibodystimulation,24,
+sample_characteristic,genotyped sex,24,genotype
+sample_characteristic,flow cell lane,24,
+sample_characteristic,method used,24,
+sample_characteristic,treatment (drug),24,treatment_perturbation
+sample_characteristic,disease type,24,disease | disease_status
+sample_characteristic,lentivirus 2,24,
+sample_characteristic,dht,24,
+sample_characteristic,read pair,24,
+sample_characteristic,starting cell,24,
+sample_characteristic,disease subtype,24,disease | disease_status
+sample_characteristic,gradient preparation method,24,
+sample_characteristic,replicate identifier,24,
+sample_characteristic,sample identifier,24,
+sample_characteristic,sample-donor,23,
+sample_characteristic,stim-status,23,
+sample_characteristic,light cycle treatment,23,treatment_perturbation
+sample_characteristic,experimental groups,23,experimental_factor_group
+sample_characteristic,supplement,23,
+sample_characteristic,biol. repl.,23,
+sample_characteristic,collecting day,23,
+sample_characteristic,activation state,23,
+sample_characteristic,transduced with virus,23,
+sample_characteristic,time point (mins),23,duration
+sample_characteristic,sample condition,23,experimental_factor_group
+sample_characteristic,anemia level,23,
+sample_characteristic,alcoholdailyuse (gram/day),23,
+sample_characteristic,sex chromosome,23,
+sample_characteristic,volume (ul),23,
+sample_characteristic,concentration (ng/ul),23,dose
+sample_characteristic,t-cell reactivating peptide,23,
+sample_characteristic,cd103+ t cell depletion,23,
+sample_characteristic,expression construct,23,
+sample_characteristic,utx status,22,
+sample_characteristic,library prep,22,
+sample_characteristic,sirna transfection,22,
+sample_characteristic,duration of culture,22,duration
+sample_characteristic,cell preparation,22,
+sample_characteristic,zfp451 mutational status,22,
+sample_characteristic,satb2 mutational status,22,
+sample_characteristic,drugs/virus,22,treatment_perturbation
+sample_characteristic,patient age,22,age_development
+sample_characteristic,cortex side,22,
+sample_characteristic,cell culture conditions,22,experimental_factor_group
+sample_characteristic,lentiviral shrna for transduction,22,
+sample_characteristic,injury type,22,
+sample_characteristic,social hierarchy status,22,
+sample_characteristic,library strategy,22,
+sample_characteristic,cultured,22,
+sample_characteristic,replicate type,22,
+sample_characteristic,viral rna detected?,22,
+sample_characteristic,gene target,22,
+sample_characteristic,mating,22,
+sample_characteristic,sample composition,22,
+sample_characteristic,rna extraction kit,22,
+sample_characteristic,genotype protein (position 147),22,genotype
+sample_characteristic,position,22,
+sample_characteristic,lot,22,
+sample_characteristic,spikeinpool,22,
+sample_characteristic,labversion,22,
+sample_characteristic,cell surface marker,22,
+sample_characteristic,shRNA target gene and trc accession,22,
+sample_characteristic,num cells,22,
+sample_characteristic,pc9 derivative,22,
+sample_characteristic,cs reason,22,
+sample_characteristic,"repture of membranes (rom) status; spontaneous (srom), artificial (arm)",22,
+sample_characteristic,gestation (weeks),22,
+sample_characteristic,cervical dilation (cm),22,
+sample_characteristic,gravida,22,
+sample_characteristic,"labour status; term no labour (tnl), term early labour (teal), term established labour (tesl)",22,
+sample_characteristic,gender type,22,
+sample_characteristic,time point (weeks),22,duration
+sample_characteristic,day post infection,21,
+sample_characteristic,dietary condition,21,experimental_factor_group
+sample_characteristic,human es line,21,
+sample_characteristic,surface markers,21,
+sample_characteristic,transduction with doxycycline-inducible shrna,21,
+sample_characteristic,embryonic day,21,
+sample_characteristic,treatment (viral injection),21,treatment_perturbation
+sample_characteristic,asd model,21,
+sample_characteristic,breast cancer model,21,
+sample_characteristic,paradigm,21,
+sample_characteristic,gfp intensity,21,
+sample_characteristic,expressed protein,21,
+sample_characteristic,doxycycline status,21,
+sample_characteristic,maternal strain,21,strain
+sample_characteristic,paternal strain,21,strain
+sample_characteristic,age (in days),21,age_development
+sample_characteristic,growth format,21,
+sample_characteristic,shRNA info,21,
+sample_characteristic,zone,21,
+sample_characteristic,treatment status,21,treatment_perturbation
+sample_characteristic,disease/health status,21,disease | disease_status
+sample_characteristic,weight before (g; right before 24hr fasting),21,
+sample_characteristic,weight (g; right before sacrifice),21,
+sample_characteristic,num cells (number of sorted cells in the sample),21,
+sample_characteristic,tansfected with,21,
+sample_characteristic,immortalization type,21,
+sample_characteristic,hb9,21,
+sample_characteristic,cell culture,20,
+sample_characteristic,number of nuclei,20,
+sample_characteristic,animal sire id,20,
+sample_characteristic,animal mass grams,20,
+sample_characteristic,rephenotype,20,experimental_factor_group
+sample_characteristic,drug response,20,treatment_perturbation
+sample_characteristic,postnatal day 60 phenotype,20,experimental_factor_group
+sample_characteristic,animal dob,20,
+sample_characteristic,amphetamine treatment,20,treatment_perturbation
+sample_characteristic,seq index,20,
+sample_characteristic,animal dam id,20,
+sample_characteristic,devlopmental stage,20,age_development
+sample_characteristic,eae model,20,
+sample_characteristic,culture method,20,
+sample_characteristic,t cell subtype,20,
+sample_characteristic,antibody blockade,20,
+sample_characteristic,derived cell type,20,cell_type
+sample_characteristic,feeding condition,20,experimental_factor_group
+sample_characteristic,virus type,20,
+sample_characteristic,dysplastic,20,
+sample_characteristic,ko in vivo or ex vivo,20,
+sample_characteristic,donor mouse sex,20,
+sample_characteristic,karyotype,20,
+sample_characteristic,activation?,20,
+sample_characteristic,sequencing run,20,
+sample_characteristic,behavioural state,20,
+sample_characteristic,cox staining,20,
+sample_characteristic,differentiation (sample pairing),20,
+sample_characteristic,cell expansion period,20,
+sample_characteristic,cell expansion,20,
+sample_characteristic,blister status,20,
+sample_characteristic,regime,20,
+sample_characteristic,time after tbi,20,
+sample_characteristic,risk (low/intermediate/high),20,
+sample_characteristic,age (yr),20,age_development
+sample_characteristic,ffpe (yes/no),20,
+sample_characteristic,tumor size,20,
+sample_characteristic,n,20,
+sample_characteristic,m,20,
+sample_characteristic,t,20,
+sample_characteristic,donor type,20,
+sample_characteristic,treatment for differentiation,20,treatment_perturbation
+sample_characteristic,catalogue no,20,
+sample_characteristic,directional rnaseq,20,
+sample_characteristic,development,20,
+sample_characteristic,reference rna lot #,20,
+sample_characteristic,time (dpi),20,
+sample_characteristic,RNAi,20,
+sample_characteristic,h-v cortical score,20,
+sample_characteristic,vonsattel grade,20,
+sample_characteristic,h-v striatal score,20,
+sample_characteristic,bulk or sorted,20,
+sample_characteristic,time after salmonella exposure (minutes),20,treatment_perturbation
+sample_characteristic,overexpression transfection,20,
+sample_characteristic,shRNA transfection,20,
+sample_characteristic,altitude,20,
+sample_characteristic,organoid culture,20,
+sample_characteristic,age [y],20,age_development
+sample_characteristic,stress conditions,20,experimental_factor_group
+sample_characteristic,ligands in culture,20,
+sample_characteristic,culture protocol,20,
+sample_characteristic,rna isolation,20,
+sample_characteristic,4su treatment,20,treatment_perturbation
+sample_characteristic,4oht induction,20,
+sample_characteristic,generation source,20,
+sample_characteristic,parent line,20,
+sample_characteristic,doxycycline-treatment,20,treatment_perturbation
+sample_characteristic,allele,19,
+sample_characteristic,grna target,19,
+sample_characteristic,gestation day,19,
+sample_characteristic,fus aggregation state,19,
+sample_characteristic,panss,19,
+sample_characteristic,dn genotype,19,genotype
+sample_characteristic,tta genotype,19,genotype
+sample_characteristic,response type to infection,19,
+sample_characteristic,treatment stz,19,treatment_perturbation
+sample_characteristic,fibroblast type,19,
+sample_characteristic,sorted cell,19,
+sample_characteristic,dissociation protocol,19,
+sample_characteristic,disease duration in weeks,19,disease | disease_status | duration
+sample_characteristic,mycn level,19,
+sample_characteristic,mrna,18,
+sample_characteristic,exclusion,18,
+sample_characteristic,si group,18,experimental_factor_group
+sample_characteristic,extraction,18,
+sample_characteristic,shRNA construct,18,
+sample_characteristic,mrna type,18,
+sample_characteristic,splice status,18,
+sample_characteristic,clone id,18,
+sample_characteristic,m6a antibody,18,
+sample_characteristic,RNAi knockdown,18,
+sample_characteristic,nras mutation,18,
+sample_characteristic,time point (post infection),18,duration
+sample_characteristic,pool,18,
+sample_characteristic,modification,18,
+sample_characteristic,cuture protocol,18,
+sample_characteristic,aav type,18,
+sample_characteristic,selection,18,
+sample_characteristic,coding mutation,18,
+sample_characteristic,age(years) at withdrawal,18,age_development
+sample_characteristic,spared nerve inury samples,18,
+sample_characteristic,neun,18,
+sample_characteristic,isoform,18,
+sample_characteristic,lps or pbs,18,
+sample_characteristic,stimulated,18,
+sample_characteristic,supplemented,18,
+sample_characteristic,strain genotype/variation,18,genotype | strain
+sample_characteristic,geography,18,
+sample_characteristic,age (endpoint),18,age_development
+sample_characteristic,group id,18,experimental_factor_group
+sample_characteristic,cellline,18,
+sample_characteristic,fluorescence,18,
+sample_characteristic,weeks post-infection,18,
+sample_characteristic,genotype of p14,18,genotype
+sample_characteristic,zymo adapter name,18,
+sample_characteristic,tissue/cell line,18,tissue
+sample_characteristic,action potential type,18,
+sample_characteristic,mechanically activated rapidly adapting current (na),18,
+sample_characteristic,learning,18,
+sample_characteristic,stressed,18,
+sample_characteristic,carm1 status,18,
+sample_characteristic,xbp1 status,18,
+sample_characteristic,cell genotype,18,genotype
+sample_characteristic,factor combined,18,
+sample_characteristic,intraspinal injection,18,
+sample_characteristic,differentiation stage - days in vitro (div),18,age_development
+sample_characteristic,genotypye,18,
+sample_characteristic,opc clonal line,18,
+sample_characteristic,overexpressed transcription factor,18,
+sample_characteristic,stage of neural differentiation,18,age_development
+sample_characteristic,originating ipsc line,18,
+sample_characteristic,collection point,18,
+sample_characteristic,group color,18,experimental_factor_group
+sample_characteristic,stem cell line,18,
+sample_characteristic,cardiac fibroblast differentiation lineage,18,age_development
+sample_characteristic,cell line catalog #,18,
+sample_characteristic,parkinson's disease (pd) status,18,disease | disease_status
+sample_characteristic,day of culture,18,
+sample_characteristic,treatments,18,treatment_perturbation
+sample_characteristic,tf,18,
+sample_characteristic,fab subtype,18,
+sample_characteristic,main genetic lesions,18,
+sample_characteristic,vitamin d treatment,18,treatment_perturbation
+sample_characteristic,rna input,18,
+sample_characteristic,disease severity,18,disease | disease_status
+sample_characteristic,patientid,18,
+sample_characteristic,ldh level,18,
+sample_characteristic,progression-free survival (pfs) rate,18,
+sample_characteristic,age post-differentiation (days),18,age_development
+sample_characteristic,knock-out technology,18,
+sample_characteristic,iPSc generation,18,
+sample_characteristic,construct expression,18,
+sample_characteristic,resistance,18,
+sample_characteristic,pmi (minutes),18,
+sample_characteristic,formalin,18,
+sample_characteristic,g0s2 overexpression,18,
+sample_characteristic,rna seq run,18,
+sample_characteristic,tspo expression,18,
+sample_characteristic,tspo cluster,18,
+sample_characteristic,rna subtype,18,
+sample_characteristic,father id,18,
+sample_characteristic,sample donor,18,
+sample_characteristic,patient #,18,
+sample_characteristic,days post treatment,18,treatment_perturbation
+sample_characteristic,days grown,18,
+sample_characteristic,time after treatment initiation,18,treatment_perturbation
+sample_characteristic,tgfb treatment,18,treatment_perturbation
+sample_characteristic,derived cell line,18,
+sample_characteristic,index sequence,18,
+sample_characteristic,genotype/variataion,18,genotype
+sample_characteristic,liver perfusion,17,
+sample_characteristic,post-natal day,17,
+sample_characteristic,type of food administered,17,
+sample_characteristic,mutations,17,
+sample_characteristic,transgene1,17,
+sample_characteristic,transgene2,17,
+sample_characteristic,chip target,17,
+sample_characteristic,sequencing date,17,
+sample_characteristic,mixing ratio,17,
+sample_characteristic,dss treatment timepoint,17,duration | treatment_perturbation
+sample_characteristic,alias,17,
+sample_characteristic,c1q status,17,
+sample_characteristic,taup301s status,17,
+sample_characteristic,mds subtype,17,
+sample_characteristic,sf3b1 status,17,
+sample_characteristic,disease stage [hoehn & yahr],17,age_development | disease | disease_status
+sample_characteristic,ngs id,17,
+sample_characteristic,"dox, days",17,
+sample_characteristic,enrichment,16,
+sample_characteristic,sort parameters,16,
+sample_characteristic,age of tissue in culture,16,age_development | tissue
+sample_characteristic,intracranial neonatal infection,16,
+sample_characteristic,intravenous infection,16,
+sample_characteristic,compound exposure,16,treatment_perturbation
+sample_characteristic,duration of exposure,16,duration | treatment_perturbation
+sample_characteristic,Jackson Laboratories) crossed with B6.Cg-Tg(UBC,16,
+sample_characteristic,mouse id tag,16,
+sample_characteristic,data analysis id,16,
+sample_characteristic,cell  type (days culture in vitro; div),16,
+sample_characteristic,experiment #,16,
+sample_characteristic,day of protocol,16,
+sample_characteristic,sorting fraction,16,
+sample_characteristic,day in vitro harvested,16,
+sample_characteristic,retrovirus,16,
+sample_characteristic,tgfbeta treatment,16,treatment_perturbation
+sample_characteristic,genotyp,16,
+sample_characteristic,day after addition of doxycycline,16,
+sample_characteristic,icv infusion,16,
+sample_characteristic,vagotomy,16,
+sample_characteristic,oir/nonoir,16,
+sample_characteristic,performance,16,
+sample_characteristic,genoptype,16,
+sample_characteristic,sample name in manuscript,16,
+sample_characteristic,training,16,
+sample_characteristic,derived from metastatic site,16,
+sample_characteristic,inflammatory model,16,
+sample_characteristic,sort marker,16,
+sample_characteristic,myc level,16,
+sample_characteristic,cell cycle phase,16,
+sample_characteristic,treament,16,
+sample_characteristic,morphology,16,
+sample_characteristic,postmortem delay (h),16,
+sample_characteristic,retrovirally transduced,16,
+sample_characteristic,age of the mouse at the time of dissection,16,age_development
+sample_characteristic,exogenous vectors,16,
+sample_characteristic,source line,16,
+sample_characteristic,cell type/population,16,cell_type
+sample_characteristic,added cell line,16,
+sample_characteristic,lentivirus transduction,16,
+sample_characteristic,brain weight (g),16,
+sample_characteristic,ph-csf,16,
+sample_characteristic,braak,16,
+sample_characteristic,braak lb,16,
+sample_characteristic,age at death (years),16,age_development
+sample_characteristic,post-mortem delay (h: m:s),16,
+sample_characteristic,amyloid,16,
+sample_characteristic,genotype and treatment,16,genotype | treatment_perturbation
+sample_characteristic,autism diagnostic,16,
+sample_characteristic,isolate,16,
+sample_characteristic,muscle state,16,
+sample_characteristic,gmfcs scale,16,
+sample_characteristic,limbs,16,
+sample_characteristic,technical repeat,16,
+sample_characteristic,individual derived from,16,
+sample_characteristic,cell source id,16,
+sample_characteristic,cell ine,16,
+sample_characteristic,Tph2,16,
+sample_characteristic,days in vitro(div),16,
+sample_characteristic,patient disease status,16,disease | disease_status
+sample_characteristic,testing cohort,16,
+sample_characteristic,air liquid interface,16,
+sample_characteristic,parkinson status,16,
+sample_characteristic,kdm1a,16,
+sample_characteristic,pooling sizes,16,
+sample_characteristic,sorting,16,
+sample_characteristic,culture time prior to lysis,16,
+sample_characteristic,source of material,16,
+sample_characteristic,extraction protocol,16,
+sample_characteristic,lactation stage,16,age_development
+sample_characteristic,reference rna 2 cat. #,16,
+sample_characteristic,reference rna 2 lot #,16,
+sample_characteristic,reference rna 2,16,
+sample_characteristic,schisto exposure,16,treatment_perturbation
+sample_characteristic,differentiation timepoint,16,duration
+sample_characteristic,patient cohort,16,
+sample_characteristic,lithium treated,16,
+sample_characteristic,bd patient,16,
+sample_characteristic,design,16,
+sample_characteristic,ercc spike-in pool,16,
+sample_characteristic,shRNA id/treatment,16,treatment_perturbation
+sample_characteristic,physical activity,16,
+sample_characteristic,source/differentiation,16,
+sample_characteristic,derived source,16,
+sample_characteristic,day post differentition initiation,16,
+sample_characteristic,induction time,16,
+sample_characteristic,stable expression,16,
+sample_characteristic,maternal infection,16,
+sample_characteristic,eye treatment,16,treatment_perturbation
+sample_characteristic,microrna,16,
+sample_characteristic,treatment prototcol,16,treatment_perturbation
+sample_characteristic,esr1 mutation,15,
+sample_characteristic,estrogen,15,
+sample_characteristic,xenograft id,15,
+sample_characteristic,sorted cell type,15,cell_type
+sample_characteristic,wound,15,
+sample_characteristic,culture period,15,
+sample_characteristic,or-s1 concentration,15,dose
+sample_characteristic,cell origin,15,
+sample_characteristic,cell name,15,
+sample_characteristic,lentivirus infection,15,
+sample_characteristic,cd45level,15,
+sample_characteristic,immortalization,15,
+sample_characteristic,veev strain,15,strain
+sample_characteristic,kidney region,15,
+sample_characteristic,cell fate,15,
+sample_characteristic,cas9 vector,15,
+sample_characteristic,overexpression vector,15,
+sample_characteristic,grna vector,15,
+sample_characteristic,genotpye,15,
+sample_characteristic,day in culture,15,
+sample_characteristic,intravitreal injections,15,
+sample_characteristic,h3.3 expression,15,
+sample_characteristic,gentoype,15,
+sample_characteristic,4-oht response phenotype,15,experimental_factor_group
+sample_characteristic,collection date,15,
+sample_characteristic,doxycycline concentration,15,dose
+sample_characteristic,drb exposure time,15,treatment_perturbation
+sample_characteristic,exogenous dna,15,
+sample_characteristic,length of culture,15,
+sample_characteristic,subject id#,15,
+sample_characteristic,age of animal,15,age_development
+sample_characteristic,differentiated hesc line,15,
+sample_characteristic,developmenttal timepoint,15,duration
+sample_characteristic,source tumor,15,
+sample_characteristic,tumor or normal,14,
+sample_characteristic,ar status,14,
+sample_characteristic,sequencing method,14,
+sample_characteristic,days in vitro (div),14,
+sample_characteristic,brackground,14,
+sample_characteristic,cell lie,14,
+sample_characteristic,genotype/variatation,14,genotype
+sample_characteristic,tet2,14,
+sample_characteristic,sttrain background,14,
+sample_characteristic,culture duration,14,duration
+sample_characteristic,treatment duration unit,14,duration | treatment_perturbation
+sample_characteristic,gene aberrations,14,
+sample_characteristic,ad5-cre innoculum,14,
+sample_characteristic,tier,14,
+sample_characteristic,celline,14,
+sample_characteristic,patient's number,14,
+sample_characteristic,genotype/tissue type,14,genotype | tissue
+sample_characteristic,cell subype,14,
+sample_characteristic,softwareversion,14,
+sample_characteristic,cell/embryos number,14,
+sample_characteristic,cell stage,14,age_development
+sample_characteristic,genotype 1,14,genotype
+sample_characteristic,genotype 2,14,genotype
+sample_characteristic,diferentiation day,14,
+sample_characteristic,material type,14,
+sample_characteristic,generation of cells,14,
+sample_characteristic,genetic reporter,14,
+sample_characteristic,background mutation,14,
+sample_characteristic,age of the fetus,14,age_development
+sample_characteristic,braf,14,
+sample_characteristic,source subject status,14,
+sample_characteristic,gfp,13,
+sample_characteristic,date of death,13,
+sample_characteristic,adeno-associated virus injection,13,
+sample_characteristic,anti-human sod1 mir,13,
+sample_characteristic,tissue site,13,tissue
+sample_characteristic,develpmental stage,13,age_development
+sample_characteristic,lineage,13,age_development
+sample_characteristic,growth stage,13,age_development
+sample_characteristic,anatomic location,13,
+sample_characteristic,moleculesubtype,13,
+sample_characteristic,adar1 genotype,13,genotype
+sample_characteristic,adar1 genotype simple,13,genotype
+sample_characteristic,weaning weight,13,
+sample_characteristic,disease group,13,disease | disease_status | experimental_factor_group
+sample_characteristic,neb index sequence,13,
+sample_characteristic,neb index id (for illumina),13,
+sample_characteristic,chemical treatment condition,13,experimental_factor_group | treatment_perturbation
+sample_characteristic,days of dox treatment,13,treatment_perturbation
+sample_characteristic,sequence run,13,
+sample_characteristic,days of fgf treatment,13,treatment_perturbation
+sample_characteristic,data set,13,
+sample_characteristic,pm exposure,13,treatment_perturbation
+sample_characteristic,testing,12,
+sample_characteristic,ploidy,12,
+sample_characteristic,timepoint (days post sni),12,duration
+sample_characteristic,"lenti-virus, moi",12,
+sample_characteristic,ogd duration,12,duration
+sample_characteristic,recovery duration,12,duration
+sample_characteristic,antibiotic treatment,12,treatment_perturbation
+sample_characteristic,antibiotics treatment,12,treatment_perturbation
+sample_characteristic,conditon,12,
+sample_characteristic,tumor presence in mice,12,
+sample_characteristic,wt or nfix ko,12,
+sample_characteristic,phenotypic markers,12,
+sample_characteristic,vsv-infection,12,
+sample_characteristic,sa2 mutation,12,
+sample_characteristic,source (ipsc line),12,
+sample_characteristic,drug status,12,treatment_perturbation
+sample_characteristic,ectopic e2f-1 expressed,12,
+sample_characteristic,volunteer,12,
+sample_characteristic,days of epc,12,
+sample_characteristic,silencing,12,
+sample_characteristic,cell strain,12,strain
+sample_characteristic,days post injury,12,
+sample_characteristic,gut microbiome status,12,
+sample_characteristic,cell type (days culture in vitro; div),12,cell_type
+sample_characteristic,axd status,12,
+sample_characteristic,culture media,12,
+sample_characteristic,time of treatment,12,treatment_perturbation
+sample_characteristic,cell line/strain,12,strain
+sample_characteristic,sox1 epression,12,
+sample_characteristic,sorted,12,
+sample_characteristic,library prepation protocol,12,
+sample_characteristic,sex,12,sex
+sample_characteristic,gate,12,
+sample_characteristic,detected genes,12,
+sample_characteristic,pooled library names,12,
+sample_characteristic,R26-GFP,12,
+sample_characteristic,degradation,12,
+sample_characteristic,atcc catalog #,12,
+sample_characteristic,experimental series,12,
+sample_characteristic,seizures/month,12,
+sample_characteristic,hesc strain,12,strain
+sample_characteristic,shear stress range,12,
+sample_characteristic,aml subtype,12,
+sample_characteristic,trp53r175h,12,
+sample_characteristic,predicted anxiety state,12,
+sample_characteristic,boxzone ratio (5min),12,
+sample_characteristic,boxzone ratio (3min),12,
+sample_characteristic,percent time in light,12,duration
+sample_characteristic,total entry,12,
+sample_characteristic,boxzone ratio (10min),12,
+sample_characteristic,percent open time,12,
+sample_characteristic,percent distance in light,12,
+sample_characteristic,hpsc line,12,
+sample_characteristic,knockout gene,12,
+sample_characteristic,h2a.z crispr edit,12,
+sample_characteristic,srcap crispr edit,12,
+sample_characteristic,chip ab / kit,12,
+sample_characteristic,surface marker,12,
+sample_characteristic,enrichment method,12,
+sample_characteristic,cell type in which ablation occurs,12,cell_type
+sample_characteristic,days after ko induction,12,
+sample_characteristic,psen1 genotype,12,genotype
+sample_characteristic,cell line/source,12,
+sample_characteristic,gtcid,12,
+sample_characteristic,operator,12,
+sample_characteristic,cell type background,12,cell_type
+sample_characteristic,miRNA mimic,12,
+sample_characteristic,mef details,12,
+sample_characteristic,feeder-free,12,
+sample_characteristic,raw counts name,12,
+sample_characteristic,normalized name,12,
+sample_characteristic,feeder-free details,12,
+sample_characteristic,gestational age (days),12,age_development
+sample_characteristic,passage(s),12,age_development
+sample_characteristic,cell lline,12,
+sample_characteristic,antibody or sirna,12,
+sample_characteristic,induced expression,12,
+sample_characteristic,organ site,12,
+sample_characteristic,file #,12,
+sample_characteristic,post-natal treatment,12,treatment_perturbation
+sample_characteristic,transduced genes,12,
+sample_characteristic,pre-patterning molecules,12,
+sample_characteristic,sample storage,12,age_development
+sample_characteristic,commercial cell line,12,
+sample_characteristic,seqprimer,12,
+sample_characteristic,coculture time,12,
+sample_characteristic,car,12,
+sample_characteristic,chemical,12,
+sample_characteristic,ribo-depletion,12,
+sample_characteristic,genotype/resistance,12,genotype
+sample_characteristic,treatment method,12,treatment_perturbation
+sample_characteristic,model type,12,
+sample_characteristic,cel type,12,
+sample_characteristic,lentiviral-mediated shrna,12,
+sample_characteristic,objective response,12,
+sample_characteristic,allelic composition,12,
+sample_characteristic,clinical symptons,12,
+sample_characteristic,abhd2 genotype,12,genotype
+sample_characteristic,develomental stage,12,age_development
+sample_characteristic,label,12,
+sample_characteristic,treatment3,12,treatment_perturbation
+sample_characteristic,id2 status,12,
+sample_characteristic,id2 rescue,12,
+sample_characteristic,cultureformat,12,
+sample_characteristic,tissue derived from,12,tissue
+sample_characteristic,sirna manufacturer,12,
+sample_characteristic,used sirna,12,
+sample_characteristic,rna library prep,12,
+sample_characteristic,treatment+dose,12,dose | treatment_perturbation
+sample_characteristic,edit,12,
+sample_characteristic,grnas,12,
+sample_characteristic,organoid line,12,
+sample_characteristic,p300 knockout,12,
+sample_characteristic,cas9 status,12,
+sample_characteristic,plate condition,12,experimental_factor_group
+sample_characteristic,go-crispr time point,12,duration
+sample_characteristic,serine/glycine,12,
+sample_characteristic,radiation,12,
+sample_characteristic,treatment sensitivity,12,treatment_perturbation
+sample_characteristic,rna ratio,12,
+sample_characteristic,recurrent,12,
+sample_characteristic,alcohol,12,
+sample_characteristic,antidepressant,12,
+sample_characteristic,suicide,12,
+sample_characteristic,pair,12,
+sample_characteristic,derived tissue,12,tissue
+sample_characteristic,expressing,12,
+sample_characteristic,eae phase,12,
+sample_characteristic,over-expression vector,12,
+sample_characteristic,cell full name,12,
+sample_characteristic,cell line origin,12,
+sample_characteristic,ifnar2,12,
+sample_characteristic,zikv,12,
+sample_characteristic,culture media batch,12,
+sample_characteristic,crispr,12,
+sample_characteristic,injection period,12,
+sample_characteristic,regional character,12,
+sample_characteristic,Pax7-ZsGreen (PMID,12,
+sample_characteristic,cortex region,12,
+sample_characteristic,lentiviral transduction,12,
+sample_characteristic,illumina adapter,12,
+sample_characteristic,sirna time,12,
+sample_characteristic,sirna concentration,12,dose
+sample_characteristic,breed,12,
+sample_characteristic,date of tissue collection after treatment,12,tissue | treatment_perturbation
+sample_characteristic,biolgical replicate,12,
+sample_characteristic,injected cell type,12,cell_type
+sample_characteristic,cancer cell genotype,12,genotype
+sample_characteristic,medium,12,
+sample_characteristic,tumor cell line injected,12,
+sample_characteristic,age in days post birth,12,age_development
+sample_characteristic,biological repeat,12,
+sample_characteristic,biological repeats,12,
+sample_characteristic,overall surviva; (days),12,
+sample_characteristic,brain tumor region,12,
+sample_characteristic,neovax status,12,
+sample_characteristic,chronological age,12,age_development
+sample_characteristic,cardioglycoside treatment,12,treatment_perturbation
+sample_characteristic,transepithelial electrical resistance,12,
+sample_characteristic,rep,12,
+sample_characteristic,cycloheximide,12,
+sample_characteristic,Cell 87,12,
+sample_characteristic,antibody info,12,
+sample_characteristic,sucrose fraction,12,
+sample_characteristic,surface makers,12,
+sample_characteristic,co-culture,12,
+sample_characteristic,ex vivo/cultured,12,
+sample_characteristic,small molecule inhibitor treatement,12,
+sample_characteristic,background mouse strain,12,strain
+sample_characteristic,transfected gene,12,treatment_perturbation
+sample_characteristic,guide rna at 4 sites,12,
+sample_characteristic,clinical specimen,12,
+sample_characteristic,differentiation state,12,
+sample_characteristic,experiment date,12,
+sample_characteristic,nfib expression level (background),12,
+sample_characteristic,dinucleotide length,12,
+sample_characteristic,modifications,12,
+sample_characteristic,"dose, route, time",12,dose
+sample_characteristic,cntnap2 genotype,12,genotype
+sample_characteristic,prenatal condition,12,experimental_factor_group
+sample_characteristic,treatment 3 (doxycycline),12,treatment_perturbation
+sample_characteristic,treatment 2 (shrna),12,treatment_perturbation
+sample_characteristic,p53 genotype,12,genotype
+sample_characteristic,treatment 1 (luciferase),12,treatment_perturbation
+sample_characteristic,time after final dose,12,dose
+sample_characteristic,bicuculline treatment,12,treatment_perturbation
+sample_characteristic,drb treatment,12,treatment_perturbation
+sample_characteristic,respectively,12,
+sample_characteristic,adar genotype,12,genotype
+sample_characteristic,incubated in,12,
+sample_characteristic,drugs treated,12,treatment_perturbation
+sample_characteristic,drug holiday,12,treatment_perturbation
+sample_characteristic,gonadal status,12,
+sample_characteristic,viral treatment,12,treatment_perturbation
+sample_characteristic,CamK,11,
+sample_characteristic,parent ipsc line,11,
+sample_characteristic,eae stage,11,age_development
+sample_characteristic,cag repeat length,11,
+sample_characteristic,sirna or drug,11,treatment_perturbation
+sample_characteristic,full genotype,11,genotype
+sample_characteristic,cas9,11,
+sample_characteristic,brenda tissue ontology (bto),11,tissue
+sample_characteristic,developmetnal stage,11,age_development
+sample_characteristic,purification method,11,
+sample_characteristic,time in vivo,11,duration
+sample_characteristic,segment,11,
+sample_characteristic,organoid,11,
+sample_characteristic,mutation status (esr1),11,
+sample_characteristic,virus infection,11,
+sample_characteristic,constructs,10,
+sample_characteristic,analysis method,10,
+sample_characteristic,grin2b mutation,10,
+sample_characteristic,number of passages when lysed,10,age_development
+sample_characteristic,metabolic label,10,
+sample_characteristic,rt-primer set,10,
+sample_characteristic,grouping,10,experimental_factor_group
+sample_characteristic,p53 mutation,10,
+sample_characteristic,initial preparation,10,
+sample_characteristic,doxycycline treatement,10,
+sample_characteristic,"source, catalog, lot",10,
+sample_characteristic,drug treat,10,treatment_perturbation
+sample_characteristic,cancer origin type,10,
+sample_characteristic,forced swim test,10,
+sample_characteristic,protein substitution,10,
+sample_characteristic,gene(nm accession),10,
+sample_characteristic,mouse population,10,
+sample_characteristic,Genotype,10,genotype
+sample_characteristic,aav virus,10,
+sample_characteristic,strain/cell type,10,cell_type | strain
+sample_characteristic,experiment site,10,
+sample_characteristic,cell density,10,
+sample_characteristic,cell classification,10,
+sample_characteristic,genotype/variant,10,genotype
+sample_characteristic,age at sacrifice (in days),10,age_development
+sample_characteristic,smn2 copy number,10,
+sample_characteristic,molecular subgroup,10,experimental_factor_group
+sample_characteristic,primary/relapse,10,
+sample_characteristic,age at diagnosis years,10,age_development | disease | disease_status
+sample_characteristic,histological grade,10,
+sample_characteristic,gestational days,10,
+sample_characteristic,treatment method and duration,10,duration | treatment_perturbation
+sample_characteristic,rna harvest,10,
+sample_characteristic,polr genotype,10,genotype
+sample_characteristic,sequencing,10,
+sample_characteristic,hypoxia,10,
+sample_characteristic,mouse tag,10,
+sample_characteristic,il18r1 profile,10,
+sample_characteristic,chip antibody catalog #,10,
+sample_characteristic,chip antibody manufacturer,10,
+sample_characteristic,chip antibody lot #,10,
+sample_characteristic,ercc,10,
+sample_characteristic,microglia isolation method,10,
+sample_characteristic,htt status,10,
+sample_characteristic,rna purification,10,
+sample_characteristic,rna prep,10,
+sample_characteristic,cd73 status,10,
+sample_characteristic,overexpressed proteins,10,
+sample_characteristic,sample information,10,
+sample_characteristic,sirna mediated knockdown,10,
+sample_characteristic,development age,10,age_development
+sample_characteristic,co-cultured with astrocytes,10,
+sample_characteristic,derived culture,9,
+sample_characteristic,strain/variation,9,genotype | strain
+sample_characteristic,cell linw,9,
+sample_characteristic,weight phenotype,9,experimental_factor_group
+sample_characteristic,classfication,9,
+sample_characteristic,incubated with,9,
+sample_characteristic,electroporated plasmid,9,
+sample_characteristic,influenza a strain,9,strain
+sample_characteristic,fluorescent label,9,
+sample_characteristic,number of cag repeats,9,
+sample_characteristic,parental cell type,9,cell_type
+sample_characteristic,line number according to ninds human genetics resource center dna and cell line repository,9,
+sample_characteristic,number of animals contributing to sample,9,
+sample_characteristic,rosa26 locus genotype,9,genotype
+sample_characteristic,parental esc line,9,
+sample_characteristic,zbtb11 locus genotype,9,genotype
+sample_characteristic,cell-type/tissue,9,cell_type | tissue
+sample_characteristic,addiction,9,
+sample_characteristic,concentration treatment one,9,dose | treatment_perturbation
+sample_characteristic,concentration treatment two,9,dose | treatment_perturbation
+sample_characteristic,treatment agent,9,age_development | treatment_perturbation
+sample_characteristic,no. of treatments,9,treatment_perturbation
+sample_characteristic,brain structure,9,
+sample_characteristic,8(11),9,
+sample_characteristic,lhon status,9,
+sample_characteristic,polyribosome ip tag,9,
+sample_characteristic,plasmid transfected,9,treatment_perturbation
+sample_characteristic,sgs model,9,
+sample_characteristic,cryopreservation status,9,
+sample_characteristic,znf675 genotype,9,genotype
+sample_characteristic,SUN-SfGFP,9,
+sample_characteristic,gene-editing,9,
+sample_characteristic,timeline,9,
+sample_characteristic,electroporated with,9,
+sample_characteristic,zygosity,9,
+sample_characteristic,transcription factor,9,
+sample_characteristic,time post crush,9,
+sample_characteristic,facs-sorted p14 brain trm cells from,9,
+sample_characteristic,weeks in cutlure before treatment,9,treatment_perturbation
+sample_characteristic,density,9,
+sample_characteristic,substrate,9,
+sample_characteristic,nomenclature for ins1-cre developed by the thorens group,9,experimental_factor_group
+sample_characteristic,stock number on jackson laboratory,9,
+sample_characteristic,nomenclature for stim1 fl/fl,9,
+sample_characteristic,stock number on jackson laboratory (stim1fl/fl),9,
+sample_characteristic,tissues,9,tissue
+sample_characteristic,dna transfection,9,
+sample_characteristic,Noto,9,
+sample_characteristic,injury model,9,
+sample_characteristic,nember of samples,9,
+sample_characteristic,camptothecin exposure time,9,treatment_perturbation
+sample_characteristic,stranded,9,
+sample_characteristic,cell surface molecule expression,9,
+sample_characteristic,cell/tissue type,9,tissue
+sample_characteristic,source tissue,9,tissue
+sample_characteristic,retina condition,9,experimental_factor_group
+sample_characteristic,rna integrity (rin),9,
+sample_characteristic,reporter gene,9,
+sample_characteristic,ebv infection status,9,
+sample_characteristic,length of dox treatment,9,treatment_perturbation
+sample_characteristic,drug resistance,9,treatment_perturbation
+sample_characteristic,mycn status,9,
+sample_characteristic,collected tissue weight (mg),9,tissue
+sample_characteristic,body weight (grams),9,
+sample_characteristic,age (postnatal day p),9,age_development
+sample_characteristic,"# of microglia cells (pi neg, cd11b pos, cd45 low) collected",9,
+sample_characteristic,rna concentration (pg/ul),9,dose
+sample_characteristic,age of mouse (months),8,age_development
+sample_characteristic,developmental stages,8,age_development
+sample_characteristic,mutant,8,
+sample_characteristic,cell line genetic background strain,8,strain
+sample_characteristic,raav2,8,
+sample_characteristic,mice,8,
+sample_characteristic,cell line/genotype,8,genotype
+sample_characteristic,class,8,
+sample_characteristic,seqbatch,8,
+sample_characteristic,genetic alteration,8,
+sample_characteristic,p53 mutant overexpression,8,
+sample_characteristic,country,8,
+sample_characteristic,viral infection,8,
+sample_characteristic,D1R,8,
+sample_characteristic,age at intracortical injection,8,age_development
+sample_characteristic,subject/cell line id,8,
+sample_characteristic,aire locus,8,
+sample_characteristic,murine strain,8,strain
+sample_characteristic,1,8,
+sample_characteristic,specific tissue,8,tissue
+sample_characteristic,trap - immunoprecipitation,8,
+sample_characteristic,developmental time point,8,duration
+sample_characteristic,virus accession number,8,
+sample_characteristic,age/tissue,8,age_development | tissue
+sample_characteristic,ad5 mutant,8,
+sample_characteristic,sarcoma type,8,
+sample_characteristic,fusion type,8,
+sample_characteristic,myc inhibitor,8,
+sample_characteristic,hes1-gfp status,8,
+sample_characteristic,ecm,8,
+sample_characteristic,cell sort marker,8,
+sample_characteristic,cre status,8,
+sample_characteristic,time after sirna transfection,8,
+sample_characteristic,mouse sex,8,
+sample_characteristic,taf8 status,8,
+sample_characteristic,age at neuron preparation,8,age_development
+sample_characteristic,autofluorescence,8,
+sample_characteristic,dev state/age,8,age_development
+sample_characteristic,genotype (donor),8,genotype
+sample_characteristic,cell line (ipsc source),8,
+sample_characteristic,growth status,8,
+sample_characteristic,facs sort,8,
+sample_characteristic,mouse litter,8,
+sample_characteristic,layer,8,
+sample_characteristic,microbiome,8,
+sample_characteristic,origen of cultured cells,8,
+sample_characteristic,cell cycle state,8,
+sample_characteristic,in vitro treatment,8,treatment_perturbation
+sample_characteristic,in vivo treatment,8,treatment_perturbation
+sample_characteristic,colonization,8,
+sample_characteristic,foxp1 expression by ihc,8,
+sample_characteristic,foxp rearrangement,8,
+sample_characteristic,experimental set,8,
+sample_characteristic,donor age (years),8,age_development
+sample_characteristic,mother id,8,
+sample_characteristic,time after last injection,8,
+sample_characteristic,harvest time point,8,duration
+sample_characteristic,fox3 expression,8,
+sample_characteristic,aerosol exposure,8,treatment_perturbation
+sample_characteristic,intraperitoneal sensitization,8,
+sample_characteristic,recipient oocyte,8,
+sample_characteristic,mice age,8,age_development
+sample_characteristic,bac expression,8,
+sample_characteristic,resistant to,8,
+sample_characteristic,mec region,8,
+sample_characteristic,mbnl1/2,8,
+sample_characteristic,viral infection status,8,
+sample_characteristic,batch/replicate,8,
+sample_characteristic,transporter,8,
+sample_characteristic,strain balb/cnctr-npc1m1n/j,8,strain
+sample_characteristic,transfected construct,8,treatment_perturbation
+sample_characteristic,biological donro,8,
+sample_characteristic,antibody vendor,8,
+sample_characteristic,activity status,8,
+sample_characteristic,poly(a) tail size,8,
+sample_characteristic,subgroup,8,experimental_factor_group
+sample_characteristic,days maintained in culture,8,
+sample_characteristic,strain backgroud,8,strain
+sample_characteristic,trained,8,
+sample_characteristic,donor date of birth,7,
+sample_characteristic,aav injected,7,
+sample_characteristic,percentage astrocytes,7,age_development
+sample_characteristic,lrrk2 genotype,7,genotype
+sample_characteristic,age weeks,7,age_development
+sample_characteristic,mouse identifier,7,
+sample_characteristic,cell type sorted,7,cell_type
+sample_characteristic,microdeletion,7,
+sample_characteristic,sample size,7,
+sample_characteristic,embryonic age (days),7,age_development
+sample_characteristic,weeks after injury,7,
+sample_characteristic,cell states,7,
+sample_characteristic,B-cell activating factor [BAFF],7,
+sample_characteristic,tissue/region,7,tissue
+sample_characteristic,transfected with plasmid,7,treatment_perturbation
+sample_characteristic,clinical phenotype,7,experimental_factor_group
+sample_characteristic,isolation day,7,
+sample_characteristic,neural crest-derived,7,
+sample_characteristic,(co-)morbidities,7,
+sample_characteristic,fragmentsize,7,
+sample_characteristic,metastatic site,7,
+sample_characteristic,timepoints hours,7,duration
+sample_characteristic,library generation kit,7,
+sample_characteristic,in vivo reprogramming,6,
+sample_characteristic,differentiation length,6,
+sample_characteristic,post-transplant,6,
+sample_characteristic,genotype & treatment,6,genotype | treatment_perturbation
+sample_characteristic,genotypes,6,genotype
+sample_characteristic,lentiviral transfuction,6,
+sample_characteristic,XY - Nonclonal finding,6,
+sample_characteristic,"genotype, cell type",6,cell_type | genotype
+sample_characteristic,fluorescent protein,6,
+sample_characteristic,iPS cell line,6,
+sample_characteristic,postnatal age,6,age_development
+sample_characteristic,"treatment, dose, route",6,dose | treatment_perturbation
+sample_characteristic,sample stage,6,age_development
+sample_characteristic,coriell #,6,
+sample_characteristic,litter number,6,
+sample_characteristic,tracking number,6,
+sample_characteristic,plating format,6,
+sample_characteristic,brain metastasis,6,
+sample_characteristic,Ai14,6,
+sample_characteristic,PV,6,
+sample_characteristic,genetype,6,
+sample_characteristic,genoytpe,6,
+sample_characteristic,trp53 genotype,6,genotype
+sample_characteristic,transfection method,6,
+sample_characteristic,day post neural induction,6,
+sample_characteristic,c9orf72 repeat size,6,
+sample_characteristic,iPSc passage,6,age_development
+sample_characteristic,MOI 5,6,
+sample_characteristic,sorting antibody,6,
+sample_characteristic,tissue subype,6,tissue
+sample_characteristic,azd1208 status,6,
+sample_characteristic,animal tag number,6,
+sample_characteristic,clon id,6,
+sample_characteristic,sex chromosome complement,6,
+sample_characteristic,molecular cause,6,
+sample_characteristic,region of tissue,6,tissue
+sample_characteristic,Nestin,6,
+sample_characteristic,primary source,6,
+sample_characteristic,alk status,6,
+sample_characteristic,brain tumor,6,
+sample_characteristic,primary cell line,6,
+sample_characteristic,transformant,6,
+sample_characteristic,chemicals,6,
+sample_characteristic,sirnas,6,
+sample_characteristic,genotype (overexpression),6,genotype
+sample_characteristic,genotype (knockout),6,genotype
+sample_characteristic,merip antibody,6,
+sample_characteristic,harvested day,6,
+sample_characteristic,ifnar1,6,
+sample_characteristic,variation,6,genotype
+sample_characteristic,visium gene expression slideserial number,6,
+sample_characteristic,primary tumor,6,
+sample_characteristic,viral injection,6,
+sample_characteristic,cognitive test,6,
+sample_characteristic,age of donor/age of host,6,age_development
+sample_characteristic,postnatal day,6,
+sample_characteristic,biopsy site,6,
+sample_characteristic,pasi score,6,
+sample_characteristic,numbers,6,
+sample_characteristic,facs antibody,6,
+sample_characteristic,cell style,6,
+sample_characteristic,age stage,6,age_development
+sample_characteristic,mouse individuals,6,
+sample_characteristic,males/females,6,
+sample_characteristic,snph,6,
+sample_characteristic,subject status/id,6,
+sample_characteristic,als status,6,
+sample_characteristic,osteoblast cell,6,
+sample_characteristic,tg insert,6,
+sample_characteristic,gastric infusion,6,
+sample_characteristic,comment,6,
+sample_characteristic,age donor cells,6,age_development
+sample_characteristic,kcl treatment,6,treatment_perturbation
+sample_characteristic,Pax7-creERT2 (PMID,6,
+sample_characteristic,patient status,6,
+sample_characteristic,rnp complexes extraction,6,
+sample_characteristic,age of individual (years),6,age_development
+sample_characteristic,olfactory bulb size,6,
+sample_characteristic,Foxa2,6,
+sample_characteristic,fetal id,6,
+sample_characteristic,site of biopsy i,6,
+sample_characteristic,date of melanoma diagnosis,6,disease | disease_status
+sample_characteristic,time to progression ii,6,
+sample_characteristic,site of biopsy ii,6,
+sample_characteristic,site of primary melanoma,6,
+sample_characteristic,time to progression i,6,
+sample_characteristic,date of biopsy i,6,
+sample_characteristic,treatment (initiation date),6,treatment_perturbation
+sample_characteristic,response at biopsy i,6,
+sample_characteristic,date of biopsy ii,6,
+sample_characteristic,type of primary melanoma,6,
+sample_characteristic,response at biopsy ii,6,
+sample_characteristic,type of operation,6,
+sample_characteristic,animal condition,6,experimental_factor_group
+sample_characteristic,transfection construct,6,
+sample_characteristic,dox tx,6,
+sample_characteristic,sacrifice,6,
+sample_characteristic,embryo stage,6,age_development
+sample_characteristic,sensory neuron subset,6,
+sample_characteristic,atcc cell line source,6,
+sample_characteristic,differention day,6,
+sample_characteristic,maternal genotype,6,genotype
+sample_characteristic,grandmaternal genotype,6,genotype
+sample_characteristic,lenses per replicate,6,
+sample_characteristic,cnccs derived from,6,
+sample_characteristic,tumor genotype,6,genotype
+sample_characteristic,sorted population,6,
+sample_characteristic,nras,6,
+sample_characteristic,nf1,6,
+sample_characteristic,traduced with,6,
+sample_characteristic,purification,6,
+sample_characteristic,brafi/meki treatment,6,treatment_perturbation
+sample_characteristic,cell population/fraction,6,
+sample_characteristic,pathogen,6,
+sample_characteristic,mda5 genotype,6,genotype
+sample_characteristic,infection time,6,
+sample_characteristic,sirna target gene,5,
+sample_characteristic,origin site,5,
+sample_characteristic,gestational weeks,5,
+sample_characteristic,maturation day,5,
+sample_characteristic,pch10 disease status,5,disease | disease_status
+sample_characteristic,# of passage,5,age_development
+sample_characteristic,schneiderman,5,
+sample_characteristic,pfirrmann,5,
+sample_characteristic,ivd level,5,
+sample_characteristic,cell line infection,5,
+sample_characteristic,castrated/intact pca,5,
+sample_characteristic,neuron age,5,age_development
+sample_characteristic,electroporation age,5,age_development
+sample_characteristic,harvest age,5,age_development
+sample_characteristic,chip-antibody,5,
+sample_characteristic,Olig2fl/fl,5,
+sample_characteristic,Trp53fl/fl,5,
+sample_characteristic,gestional age of tissue,5,age_development | tissue
+sample_characteristic,rip antibodies,5,
+sample_characteristic,repprogramming method,4,
+sample_characteristic,genotype (pax6),4,genotype
+sample_characteristic,post mortem,4,
+sample_characteristic,donor information,4,
+sample_characteristic,co-culture status,4,
+sample_characteristic,ko generation,4,
+sample_characteristic,cell line full name,4,
+sample_characteristic,lv treatment,4,treatment_perturbation
+sample_characteristic,iPS strain,4,strain
+sample_characteristic,insulin-like growth factor-1 [IGF1],4,
+sample_characteristic,parental line,4,
+sample_characteristic,transcriptional specifiers,4,
+sample_characteristic,days post shrna infection,4,
+sample_characteristic,tumor id,4,
+sample_characteristic,cell sorting strategy,4,
+sample_characteristic,activated with p(I,4,
+sample_characteristic,peak transepitheilal electrical resistance (ksr only),4,
+sample_characteristic,antibody vendor/catalog#,4,
+sample_characteristic,library label,4,
+sample_characteristic,es cell line,4,
+sample_characteristic,ps6 antibody,4,
+sample_characteristic,over-expression product,4,
+sample_characteristic,sorting parameter,4,
+sample_characteristic,geneotype/variation,4,genotype
+sample_characteristic,shRNA seq,4,
+sample_characteristic,Rosa26,4,
+sample_characteristic,developmetal stage,4,age_development
+sample_characteristic,selective drug,3,treatment_perturbation
+sample_characteristic,aneuploidy,3,
+sample_characteristic,psc line,3,
+sample_characteristic,129P2-Lyve1tm1.1(EGFP/cre)Cys/J (JAX Stock#,3,
+sample_characteristic,allergy,3,
+sample_characteristic,p53L/L,3,
+sample_characteristic,divisions,3,
+sample_characteristic,T,3,
+sample_characteristic,pcr cycles,3,
+sample_characteristic,Ptf1aCre/Cre 12.4kbPtf1a,2,
+sample_characteristic,prox1gfp,2,
+sample_characteristic,double-positive,2,
+sample_characteristic,double-negative,2,
+sample_characteristic,transient overexpression,2,
+sample_characteristic,paired patien,1,
+sample_characteristic,Ptf1aCre/+ 12.4kbPtf1a,1,

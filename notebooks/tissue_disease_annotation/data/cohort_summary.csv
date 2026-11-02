@@ -1,0 +1,4 @@
+task,samples,biological_units,unit,classes,chance_reference
+gtex_detailed,8883,549,donors,51,0.0196078431372549
+tcga_cancer,9942,9942,patients,33,0.030303030303030304
+gtex_broad,8883,549,donors,30,0.03333333333333333

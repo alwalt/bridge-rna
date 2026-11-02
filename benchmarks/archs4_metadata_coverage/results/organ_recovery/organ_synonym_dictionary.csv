@@ -1,0 +1,511 @@
+canonical_id,canonical_label,alias,alias_normalized,alias_source,mapping_type,enabled_for_mapping,uberon_id,review_status
+geometa:organ:1d4926a939204d08,Adipose tissue,Adipose tissue,adipose tissue,geometa_label,direct_anatomical,True,UBERON:0001013,reviewed
+geometa:organ:1d4926a939204d08,Adipose tissue,adipose tissue,adipose tissue,uberon_preferred_label,direct_anatomical,True,UBERON:0001013,reviewed
+geometa:organ:1d4926a939204d08,Adipose tissue,fat tissue,fat tissue,uberon_synonym,direct_anatomical,False,UBERON:0001013,inventory_only
+geometa:organ:1d4926a939204d08,Adipose tissue,fatty depot,fatty depot,uberon_synonym,direct_anatomical,False,UBERON:0001013,inventory_only
+geometa:organ:1d4926a939204d08,Adipose tissue,fatty tissue,fatty tissue,uberon_synonym,direct_anatomical,False,UBERON:0001013,inventory_only
+geometa:organ:1d4926a939204d08,Adipose tissue,adipose,adipose,uberon_synonym,direct_anatomical,False,UBERON:0001013,inventory_only
+geometa:organ:1d4926a939204d08,Adipose tissue,bodyfat,bodyfat,uberon_synonym,direct_anatomical,False,UBERON:0001013,inventory_only
+geometa:organ:1d4926a939204d08,Adipose tissue,fat,fat,uberon_synonym,direct_anatomical,False,UBERON:0001013,inventory_only
+geometa:organ:1d4926a939204d08,Adipose tissue,adipose,adipose,manual_safe_alias,direct_anatomical,True,UBERON:0001013,reviewed
+geometa:organ:1d4926a939204d08,Adipose tissue,adipose tissue,adipose tissue,manual_safe_alias,direct_anatomical,True,UBERON:0001013,reviewed
+geometa:organ:1d4926a939204d08,Adipose tissue,fat tissue,fat tissue,manual_safe_alias,direct_anatomical,True,UBERON:0001013,reviewed
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,Adrenal gland,adrenal gland,geometa_label,direct_anatomical,True,UBERON:0002369,reviewed
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,adrenal gland,adrenal gland,uberon_preferred_label,direct_anatomical,True,UBERON:0002369,reviewed
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,adrenal medulla cell,adrenal medulla cell,uberon_synonym,direct_anatomical,False,UBERON:0002369,inventory_only
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,adrenal capsule,adrenal capsule,uberon_synonym,direct_anatomical,False,UBERON:0002369,inventory_only
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,adrenal,adrenal,uberon_synonym,direct_anatomical,False,UBERON:0002369,inventory_only
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,atrabiliary capsule,atrabiliary capsule,uberon_synonym,direct_anatomical,False,UBERON:0002369,inventory_only
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,epinephric gland,epinephric gland,uberon_synonym,direct_anatomical,False,UBERON:0002369,inventory_only
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,epinephros,epinephros,uberon_synonym,direct_anatomical,False,UBERON:0002369,inventory_only
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,glandula adrenalis,glandula adrenalis,uberon_synonym,direct_anatomical,False,UBERON:0002369,inventory_only
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,glandula suprarenalis,glandula suprarenalis,uberon_synonym,direct_anatomical,False,UBERON:0002369,inventory_only
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,interrenal gland,interrenal gland,uberon_synonym,direct_anatomical,False,UBERON:0002369,inventory_only
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,suprarenal capsule,suprarenal capsule,uberon_synonym,direct_anatomical,False,UBERON:0002369,inventory_only
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,suprarenal gland,suprarenal gland,uberon_synonym,direct_anatomical,False,UBERON:0002369,inventory_only
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,adrenal,adrenal,manual_safe_alias,direct_anatomical,True,UBERON:0002369,reviewed
+geometa:organ:5ef1d0b867415ab0,Adrenal gland,adrenal gland,adrenal gland,manual_safe_alias,direct_anatomical,True,UBERON:0002369,reviewed
+geometa:organ:98e4523492a82f18,Blood,Blood,blood,geometa_label,direct_anatomical,True,UBERON:0000178,reviewed
+geometa:organ:98e4523492a82f18,Blood,blood,blood,uberon_preferred_label,direct_anatomical,True,UBERON:0000178,reviewed
+geometa:organ:98e4523492a82f18,Blood,portion of blood,portion of blood,uberon_synonym,direct_anatomical,False,UBERON:0000178,inventory_only
+geometa:organ:98e4523492a82f18,Blood,vertebrate blood,vertebrate blood,uberon_synonym,direct_anatomical,False,UBERON:0000178,inventory_only
+geometa:organ:98e4523492a82f18,Blood,whole blood,whole blood,uberon_synonym,direct_anatomical,False,UBERON:0000178,inventory_only
+geometa:organ:98e4523492a82f18,Blood,whole blood,whole blood,manual_safe_alias,direct_anatomical,True,UBERON:0000178,reviewed
+geometa:organ:98e4523492a82f18,Blood,peripheral blood,peripheral blood,manual_safe_alias,direct_anatomical,True,UBERON:0000178,reviewed
+geometa:organ:98e4523492a82f18,Blood,blood,blood,manual_safe_alias,direct_anatomical,True,UBERON:0000178,reviewed
+geometa:organ:37b783532490418d,Bone marrow,Bone marrow,bone marrow,geometa_label,direct_anatomical,True,UBERON:0002371,reviewed
+geometa:organ:37b783532490418d,Bone marrow,bone marrow,bone marrow,uberon_preferred_label,direct_anatomical,True,UBERON:0002371,reviewed
+geometa:organ:37b783532490418d,Bone marrow,medullary bone,medullary bone,uberon_synonym,direct_anatomical,False,UBERON:0002371,inventory_only
+geometa:organ:37b783532490418d,Bone marrow,medulla of bone,medulla of bone,uberon_synonym,direct_anatomical,False,UBERON:0002371,inventory_only
+geometa:organ:37b783532490418d,Bone marrow,medulla ossea,medulla ossea,uberon_synonym,direct_anatomical,False,UBERON:0002371,inventory_only
+geometa:organ:37b783532490418d,Bone marrow,medulla ossium,medulla ossium,uberon_synonym,direct_anatomical,False,UBERON:0002371,inventory_only
+geometa:organ:37b783532490418d,Bone marrow,bone marrow,bone marrow,manual_safe_alias,direct_anatomical,True,UBERON:0002371,reviewed
+geometa:organ:40cd1788c449f282,Brain,Brain,brain,geometa_label,direct_anatomical,True,UBERON:0000955,reviewed
+geometa:organ:40cd1788c449f282,Brain,brain,brain,uberon_preferred_label,direct_anatomical,True,UBERON:0000955,reviewed
+geometa:organ:40cd1788c449f282,Brain,synganglion,synganglion,uberon_synonym,direct_anatomical,False,UBERON:0000955,inventory_only
+geometa:organ:40cd1788c449f282,Brain,encephalon,encephalon,uberon_synonym,direct_anatomical,False,UBERON:0000955,inventory_only
+geometa:organ:40cd1788c449f282,Brain,suprasegmental levels of nervous system,suprasegmental levels of nervous system,uberon_synonym,direct_anatomical,False,UBERON:0000955,inventory_only
+geometa:organ:40cd1788c449f282,Brain,suprasegmental structures,suprasegmental structures,uberon_synonym,direct_anatomical,False,UBERON:0000955,inventory_only
+geometa:organ:40cd1788c449f282,Brain,the brain,the brain,uberon_synonym,direct_anatomical,False,UBERON:0000955,inventory_only
+geometa:organ:40cd1788c449f282,Brain,whole brain,whole brain,manual_safe_alias,direct_anatomical,True,UBERON:0000955,reviewed
+geometa:organ:40cd1788c449f282,Brain,brain,brain,manual_safe_alias,direct_anatomical,True,UBERON:0000955,reviewed
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,Brain: Amygdala,brain: amygdala,geometa_label,direct_anatomical,True,UBERON:0001876,reviewed
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,amygdala,amygdala,uberon_preferred_label,direct_anatomical,True,UBERON:0001876,reviewed
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,amygdaloid area,amygdaloid area,uberon_synonym,direct_anatomical,False,UBERON:0001876,inventory_only
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,amygdaloid body,amygdaloid body,uberon_synonym,direct_anatomical,False,UBERON:0001876,inventory_only
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,amygdaloid nuclear complex,amygdaloid nuclear complex,uberon_synonym,direct_anatomical,False,UBERON:0001876,inventory_only
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,amygdaloid nuclear groups,amygdaloid nuclear groups,uberon_synonym,direct_anatomical,False,UBERON:0001876,inventory_only
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,archistriatum,archistriatum,uberon_synonym,direct_anatomical,False,UBERON:0001876,inventory_only
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,amygdaloid complex,amygdaloid complex,uberon_synonym,direct_anatomical,False,UBERON:0001876,inventory_only
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,amygdaloid nuclear group,amygdaloid nuclear group,uberon_synonym,direct_anatomical,False,UBERON:0001876,inventory_only
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,amygdaloid nucleus,amygdaloid nucleus,uberon_synonym,direct_anatomical,False,UBERON:0001876,inventory_only
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,corpus amygdalae,corpus amygdalae,uberon_synonym,direct_anatomical,False,UBERON:0001876,inventory_only
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,corpus amygdaloideum,corpus amygdaloideum,uberon_synonym,direct_anatomical,False,UBERON:0001876,inventory_only
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,nucleus amygdalae,nucleus amygdalae,uberon_synonym,direct_anatomical,False,UBERON:0001876,inventory_only
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,amygdala,amygdala,manual_safe_alias,direct_anatomical,True,UBERON:0001876,reviewed
+geometa:organ:8b1aaacf847decf9,Brain: Amygdala,amygdaloid,amygdaloid,manual_safe_alias,direct_anatomical,True,UBERON:0001876,reviewed
+geometa:organ:d8616aa78ab44ccb,Brain: Basal ganglia,Brain: Basal ganglia,brain: basal ganglia,geometa_label,direct_anatomical,True,UBERON:0002420,reviewed
+geometa:organ:d8616aa78ab44ccb,Brain: Basal ganglia,basal ganglion,basal ganglion,uberon_preferred_label,direct_anatomical,True,UBERON:0002420,reviewed
+geometa:organ:d8616aa78ab44ccb,Brain: Basal ganglia,basal ganglion of telencephalon,basal ganglion of telencephalon,uberon_synonym,direct_anatomical,False,UBERON:0002420,inventory_only
+geometa:organ:d8616aa78ab44ccb,Brain: Basal ganglia,basal ganglia,basal ganglia,uberon_synonym,direct_anatomical,False,UBERON:0002420,inventory_only
+geometa:organ:d8616aa78ab44ccb,Brain: Basal ganglia,basal nucleus,basal nucleus,uberon_synonym,direct_anatomical,False,UBERON:0002420,inventory_only
+geometa:organ:d8616aa78ab44ccb,Brain: Basal ganglia,nuclei basales,nuclei basales,uberon_synonym,direct_anatomical,False,UBERON:0002420,inventory_only
+geometa:organ:d8616aa78ab44ccb,Brain: Basal ganglia,basal ganglia,basal ganglia,manual_safe_alias,direct_anatomical,True,UBERON:0002420,reviewed
+geometa:organ:d8616aa78ab44ccb,Brain: Basal ganglia,basal ganglion,basal ganglion,manual_safe_alias,direct_anatomical,True,UBERON:0002420,reviewed
+geometa:organ:d8616aa78ab44ccb,Brain: Basal ganglia,striatum,striatum,manual_safe_alias,direct_anatomical,True,UBERON:0002420,reviewed
+geometa:organ:d8616aa78ab44ccb,Brain: Basal ganglia,putamen,putamen,manual_safe_alias,direct_anatomical,True,UBERON:0002420,reviewed
+geometa:organ:d8616aa78ab44ccb,Brain: Basal ganglia,caudate nucleus,caudate nucleus,manual_safe_alias,direct_anatomical,True,UBERON:0002420,reviewed
+geometa:organ:d8616aa78ab44ccb,Brain: Basal ganglia,globus pallidus,globus pallidus,manual_safe_alias,direct_anatomical,True,UBERON:0002420,reviewed
+geometa:organ:d8616aa78ab44ccb,Brain: Basal ganglia,nucleus accumbens,nucleus accumbens,manual_safe_alias,direct_anatomical,True,UBERON:0002420,reviewed
+geometa:organ:f46d2b33eb289f61,Brain: Cerebellum,Brain: Cerebellum,brain: cerebellum,geometa_label,direct_anatomical,True,UBERON:0002037,reviewed
+geometa:organ:f46d2b33eb289f61,Brain: Cerebellum,cerebellum,cerebellum,uberon_preferred_label,direct_anatomical,True,UBERON:0002037,reviewed
+geometa:organ:f46d2b33eb289f61,Brain: Cerebellum,corpus cerebelli,corpus cerebelli,uberon_synonym,direct_anatomical,False,UBERON:0002037,inventory_only
+geometa:organ:f46d2b33eb289f61,Brain: Cerebellum,epencephalon-1,epencephalon-1,uberon_synonym,direct_anatomical,False,UBERON:0002037,inventory_only
+geometa:organ:f46d2b33eb289f61,Brain: Cerebellum,infratentorial region,infratentorial region,uberon_synonym,direct_anatomical,False,UBERON:0002037,inventory_only
+geometa:organ:f46d2b33eb289f61,Brain: Cerebellum,parencephalon,parencephalon,uberon_synonym,direct_anatomical,False,UBERON:0002037,inventory_only
+geometa:organ:f46d2b33eb289f61,Brain: Cerebellum,cerebellum,cerebellum,manual_safe_alias,direct_anatomical,True,UBERON:0002037,reviewed
+geometa:organ:f46d2b33eb289f61,Brain: Cerebellum,cerebellar,cerebellar,manual_safe_alias,direct_anatomical,True,UBERON:0002037,reviewed
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,Brain: Cerebral cortex,brain: cerebral cortex,geometa_label,direct_anatomical,True,UBERON:0000956,reviewed
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,cerebral cortex,cerebral cortex,uberon_preferred_label,direct_anatomical,True,UBERON:0000956,reviewed
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,brain cortex,brain cortex,uberon_synonym,direct_anatomical,False,UBERON:0000956,inventory_only
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,cortex cerebralis,cortex cerebralis,uberon_synonym,direct_anatomical,False,UBERON:0000956,inventory_only
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,cortex cerebri,cortex cerebri,uberon_synonym,direct_anatomical,False,UBERON:0000956,inventory_only
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,cortex of cerebral hemisphere,cortex of cerebral hemisphere,uberon_synonym,direct_anatomical,False,UBERON:0000956,inventory_only
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,cortical plate (CTXpl),cortical plate (ctxpl),uberon_synonym,direct_anatomical,False,UBERON:0000956,inventory_only
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,cortical plate (areas),cortical plate (areas),uberon_synonym,direct_anatomical,False,UBERON:0000956,inventory_only
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,pallium of the brain,pallium of the brain,uberon_synonym,direct_anatomical,False,UBERON:0000956,inventory_only
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,cerebral cortex,cerebral cortex,manual_safe_alias,direct_anatomical,True,UBERON:0000956,reviewed
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,cerebral cortical,cerebral cortical,manual_safe_alias,direct_anatomical,True,UBERON:0000956,reviewed
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,neocortex,neocortex,manual_safe_alias,direct_anatomical,True,UBERON:0000956,reviewed
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,prefrontal cortex,prefrontal cortex,manual_safe_alias,direct_anatomical,True,UBERON:0000956,reviewed
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,frontal cortex,frontal cortex,manual_safe_alias,direct_anatomical,True,UBERON:0000956,reviewed
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,motor cortex,motor cortex,manual_safe_alias,direct_anatomical,True,UBERON:0000956,reviewed
+geometa:organ:6b2f0ab50e5046d0,Brain: Cerebral cortex,somatosensory cortex,somatosensory cortex,manual_safe_alias,direct_anatomical,True,UBERON:0000956,reviewed
+geometa:organ:f4f509bd9420aeb1,Brain: Choroid plexus,Brain: Choroid plexus,brain: choroid plexus,geometa_label,direct_anatomical,True,UBERON:0001886,reviewed
+geometa:organ:f4f509bd9420aeb1,Brain: Choroid plexus,choroid plexus,choroid plexus,uberon_preferred_label,direct_anatomical,True,UBERON:0001886,reviewed
+geometa:organ:f4f509bd9420aeb1,Brain: Choroid plexus,ventricular choroid plexus,ventricular choroid plexus,uberon_synonym,direct_anatomical,False,UBERON:0001886,inventory_only
+geometa:organ:f4f509bd9420aeb1,Brain: Choroid plexus,CP,cp,uberon_synonym,direct_anatomical,False,UBERON:0001886,inventory_only
+geometa:organ:f4f509bd9420aeb1,Brain: Choroid plexus,chorioid plexus,chorioid plexus,uberon_synonym,direct_anatomical,False,UBERON:0001886,inventory_only
+geometa:organ:f4f509bd9420aeb1,Brain: Choroid plexus,choroid plexus of cerebral hemisphere,choroid plexus of cerebral hemisphere,uberon_synonym,direct_anatomical,False,UBERON:0001886,inventory_only
+geometa:organ:f4f509bd9420aeb1,Brain: Choroid plexus,plexus choroideus,plexus choroideus,uberon_synonym,direct_anatomical,False,UBERON:0001886,inventory_only
+geometa:organ:f4f509bd9420aeb1,Brain: Choroid plexus,choroid plexus,choroid plexus,manual_safe_alias,direct_anatomical,True,UBERON:0001886,reviewed
+geometa:organ:1df9e1cdfc198c6a,Brain: Hippocampal formation,Brain: Hippocampal formation,brain: hippocampal formation,geometa_label,direct_anatomical,True,UBERON:0002421,reviewed
+geometa:organ:1df9e1cdfc198c6a,Brain: Hippocampal formation,hippocampal formation,hippocampal formation,uberon_preferred_label,direct_anatomical,True,UBERON:0002421,reviewed
+geometa:organ:1df9e1cdfc198c6a,Brain: Hippocampal formation,hippocampus (Crosby),hippocampus (crosby),uberon_synonym,direct_anatomical,False,UBERON:0002421,inventory_only
+geometa:organ:1df9e1cdfc198c6a,Brain: Hippocampal formation,archipallium,archipallium,uberon_synonym,direct_anatomical,False,UBERON:0002421,inventory_only
+geometa:organ:1df9e1cdfc198c6a,Brain: Hippocampal formation,formatio hippocampi,formatio hippocampi,uberon_synonym,direct_anatomical,False,UBERON:0002421,inventory_only
+geometa:organ:1df9e1cdfc198c6a,Brain: Hippocampal formation,hippocampus,hippocampus,uberon_synonym,direct_anatomical,False,UBERON:0002421,inventory_only
+geometa:organ:1df9e1cdfc198c6a,Brain: Hippocampal formation,major hippocampus,major hippocampus,uberon_synonym,direct_anatomical,False,UBERON:0002421,inventory_only
+geometa:organ:1df9e1cdfc198c6a,Brain: Hippocampal formation,primal cortex,primal cortex,uberon_synonym,direct_anatomical,False,UBERON:0002421,inventory_only
+geometa:organ:1df9e1cdfc198c6a,Brain: Hippocampal formation,seahorse,seahorse,uberon_synonym,direct_anatomical,False,UBERON:0002421,inventory_only
+geometa:organ:1df9e1cdfc198c6a,Brain: Hippocampal formation,hippocampus,hippocampus,manual_safe_alias,direct_anatomical,True,UBERON:0002421,reviewed
+geometa:organ:1df9e1cdfc198c6a,Brain: Hippocampal formation,hippocampal,hippocampal,manual_safe_alias,direct_anatomical,True,UBERON:0002421,reviewed
+geometa:organ:1df9e1cdfc198c6a,Brain: Hippocampal formation,dentate gyrus,dentate gyrus,manual_safe_alias,direct_anatomical,True,UBERON:0002421,reviewed
+geometa:organ:1df9e1cdfc198c6a,Brain: Hippocampal formation,ammon's horn,ammon's horn,manual_safe_alias,direct_anatomical,True,UBERON:0002421,reviewed
+geometa:organ:4d593dc6b3b8ee79,Brain: Hypothalamus,Brain: Hypothalamus,brain: hypothalamus,geometa_label,direct_anatomical,True,UBERON:0001898,reviewed
+geometa:organ:4d593dc6b3b8ee79,Brain: Hypothalamus,hypothalamus,hypothalamus,uberon_preferred_label,direct_anatomical,True,UBERON:0001898,reviewed
+geometa:organ:4d593dc6b3b8ee79,Brain: Hypothalamus,preoptico-hypothalamic area,preoptico-hypothalamic area,uberon_synonym,direct_anatomical,False,UBERON:0001898,inventory_only
+geometa:organ:4d593dc6b3b8ee79,Brain: Hypothalamus,preoptico-hypothalamic region,preoptico-hypothalamic region,uberon_synonym,direct_anatomical,False,UBERON:0001898,inventory_only
+geometa:organ:4d593dc6b3b8ee79,Brain: Hypothalamus,Hy,hy,uberon_synonym,direct_anatomical,False,UBERON:0001898,inventory_only
+geometa:organ:4d593dc6b3b8ee79,Brain: Hypothalamus,hypothalamus,hypothalamus,uberon_synonym,direct_anatomical,False,UBERON:0001898,inventory_only
+geometa:organ:4d593dc6b3b8ee79,Brain: Hypothalamus,hypothalamus,hypothalamus,manual_safe_alias,direct_anatomical,True,UBERON:0001898,reviewed
+geometa:organ:4d593dc6b3b8ee79,Brain: Hypothalamus,hypothalamic,hypothalamic,manual_safe_alias,direct_anatomical,True,UBERON:0001898,reviewed
+geometa:organ:2a139e0190facd02,Brain: Medulla oblongata,Brain: Medulla oblongata,brain: medulla oblongata,geometa_label,direct_anatomical,True,UBERON:0001896,reviewed
+geometa:organ:2a139e0190facd02,Brain: Medulla oblongata,medulla oblongata,medulla oblongata,uberon_preferred_label,direct_anatomical,True,UBERON:0001896,reviewed
+geometa:organ:2a139e0190facd02,Brain: Medulla oblongata,bulb,bulb,uberon_synonym,direct_anatomical,False,UBERON:0001896,inventory_only
+geometa:organ:2a139e0190facd02,Brain: Medulla oblongata,bulbus,bulbus,uberon_synonym,direct_anatomical,False,UBERON:0001896,inventory_only
+geometa:organ:2a139e0190facd02,Brain: Medulla oblongata,medulla oblonzata,medulla oblonzata,uberon_synonym,direct_anatomical,False,UBERON:0001896,inventory_only
+geometa:organ:2a139e0190facd02,Brain: Medulla oblongata,medulla,medulla,uberon_synonym,direct_anatomical,False,UBERON:0001896,inventory_only
+geometa:organ:2a139e0190facd02,Brain: Medulla oblongata,metepencephalon,metepencephalon,uberon_synonym,direct_anatomical,False,UBERON:0001896,inventory_only
+geometa:organ:2a139e0190facd02,Brain: Medulla oblongata,medulla oblongata,medulla oblongata,manual_safe_alias,direct_anatomical,True,UBERON:0001896,reviewed
+geometa:organ:c0427e23f18ee776,Brain: Midbrain,Brain: Midbrain,brain: midbrain,geometa_label,direct_anatomical,True,UBERON:0001891,reviewed
+geometa:organ:c0427e23f18ee776,Brain: Midbrain,midbrain,midbrain,uberon_preferred_label,direct_anatomical,True,UBERON:0001891,reviewed
+geometa:organ:c0427e23f18ee776,Brain: Midbrain,MB,mb,uberon_synonym,direct_anatomical,False,UBERON:0001891,inventory_only
+geometa:organ:c0427e23f18ee776,Brain: Midbrain,mesencephalon,mesencephalon,uberon_synonym,direct_anatomical,False,UBERON:0001891,inventory_only
+geometa:organ:c0427e23f18ee776,Brain: Midbrain,midbrain,midbrain,manual_safe_alias,direct_anatomical,True,UBERON:0001891,reviewed
+geometa:organ:c0427e23f18ee776,Brain: Midbrain,mesencephalon,mesencephalon,manual_safe_alias,direct_anatomical,True,UBERON:0001891,reviewed
+geometa:organ:c0427e23f18ee776,Brain: Midbrain,ventral tegmental area,ventral tegmental area,manual_safe_alias,direct_anatomical,True,UBERON:0001891,reviewed
+geometa:organ:c0427e23f18ee776,Brain: Midbrain,substantia nigra,substantia nigra,manual_safe_alias,direct_anatomical,True,UBERON:0001891,reviewed
+geometa:organ:aaca2ada6f21919c,Brain: Pons,Brain: Pons,brain: pons,geometa_label,direct_anatomical,True,UBERON:0000988,reviewed
+geometa:organ:aaca2ada6f21919c,Brain: Pons,pons,pons,uberon_preferred_label,direct_anatomical,True,UBERON:0000988,reviewed
+geometa:organ:aaca2ada6f21919c,Brain: Pons,pons of Varolius,pons of varolius,uberon_synonym,direct_anatomical,False,UBERON:0000988,inventory_only
+geometa:organ:aaca2ada6f21919c,Brain: Pons,pons Varolii,pons varolii,uberon_synonym,direct_anatomical,False,UBERON:0000988,inventory_only
+geometa:organ:aaca2ada6f21919c,Brain: Pons,pons cerebri,pons cerebri,uberon_synonym,direct_anatomical,False,UBERON:0000988,inventory_only
+geometa:organ:aaca2ada6f21919c,Brain: Pons,pons,pons,manual_safe_alias,direct_anatomical,True,UBERON:0000988,reviewed
+geometa:organ:aaca2ada6f21919c,Brain: Pons,pontine,pontine,manual_safe_alias,direct_anatomical,True,UBERON:0000988,reviewed
+geometa:organ:81389f85d02ffcfd,Brain: Spinal cord,Brain: Spinal cord,brain: spinal cord,geometa_label,direct_anatomical,True,UBERON:0002240,reviewed
+geometa:organ:81389f85d02ffcfd,Brain: Spinal cord,spinal cord,spinal cord,uberon_preferred_label,direct_anatomical,True,UBERON:0002240,reviewed
+geometa:organ:81389f85d02ffcfd,Brain: Spinal cord,SpC,spc,uberon_synonym,direct_anatomical,False,UBERON:0002240,inventory_only
+geometa:organ:81389f85d02ffcfd,Brain: Spinal cord,cerebro-cerebellar fissure,cerebro-cerebellar fissure,uberon_synonym,direct_anatomical,False,UBERON:0002240,inventory_only
+geometa:organ:81389f85d02ffcfd,Brain: Spinal cord,cerebrocerebellar fissure,cerebrocerebellar fissure,uberon_synonym,direct_anatomical,False,UBERON:0002240,inventory_only
+geometa:organ:81389f85d02ffcfd,Brain: Spinal cord,fissura cerebro-cerebellaris,fissura cerebro-cerebellaris,uberon_synonym,direct_anatomical,False,UBERON:0002240,inventory_only
+geometa:organ:81389f85d02ffcfd,Brain: Spinal cord,fissura cerebrocerebellaris,fissura cerebrocerebellaris,uberon_synonym,direct_anatomical,False,UBERON:0002240,inventory_only
+geometa:organ:81389f85d02ffcfd,Brain: Spinal cord,medulla spinalis,medulla spinalis,uberon_synonym,direct_anatomical,False,UBERON:0002240,inventory_only
+geometa:organ:81389f85d02ffcfd,Brain: Spinal cord,spinal cord structure,spinal cord structure,uberon_synonym,direct_anatomical,False,UBERON:0002240,inventory_only
+geometa:organ:81389f85d02ffcfd,Brain: Spinal cord,spinal medulla,spinal medulla,uberon_synonym,direct_anatomical,False,UBERON:0002240,inventory_only
+geometa:organ:81389f85d02ffcfd,Brain: Spinal cord,spinal cord,spinal cord,manual_safe_alias,direct_anatomical,True,UBERON:0002240,reviewed
+geometa:organ:aa4efe0e4e1cd0ca,Brain: Thalamus,Brain: Thalamus,brain: thalamus,geometa_label,direct_anatomical,True,UBERON:0001897,reviewed
+geometa:organ:aa4efe0e4e1cd0ca,Brain: Thalamus,dorsal plus ventral thalamus,dorsal plus ventral thalamus,uberon_preferred_label,direct_anatomical,True,UBERON:0001897,reviewed
+geometa:organ:aa4efe0e4e1cd0ca,Brain: Thalamus,Th,th,uberon_synonym,direct_anatomical,False,UBERON:0001897,inventory_only
+geometa:organ:aa4efe0e4e1cd0ca,Brain: Thalamus,thalamencephalon,thalamencephalon,uberon_synonym,direct_anatomical,False,UBERON:0001897,inventory_only
+geometa:organ:aa4efe0e4e1cd0ca,Brain: Thalamus,thalami,thalami,uberon_synonym,direct_anatomical,False,UBERON:0001897,inventory_only
+geometa:organ:aa4efe0e4e1cd0ca,Brain: Thalamus,thalamus opticus,thalamus opticus,uberon_synonym,direct_anatomical,False,UBERON:0001897,inventory_only
+geometa:organ:aa4efe0e4e1cd0ca,Brain: Thalamus,thalamus,thalamus,uberon_synonym,direct_anatomical,False,UBERON:0001897,inventory_only
+geometa:organ:aa4efe0e4e1cd0ca,Brain: Thalamus,wider thalamus,wider thalamus,uberon_synonym,direct_anatomical,False,UBERON:0001897,inventory_only
+geometa:organ:aa4efe0e4e1cd0ca,Brain: Thalamus,thalamus,thalamus,manual_safe_alias,direct_anatomical,True,UBERON:0001897,reviewed
+geometa:organ:aa4efe0e4e1cd0ca,Brain: Thalamus,thalamic,thalamic,manual_safe_alias,direct_anatomical,True,UBERON:0001897,reviewed
+geometa:organ:3158bba0d510bc9b,Brain: White matter,Brain: White matter,brain: white matter,geometa_label,direct_anatomical,True,UBERON:0003544,reviewed
+geometa:organ:3158bba0d510bc9b,Brain: White matter,brain white matter,brain white matter,uberon_preferred_label,direct_anatomical,True,UBERON:0003544,reviewed
+geometa:organ:3158bba0d510bc9b,Brain: White matter,brain white matter of neuraxis,brain white matter of neuraxis,uberon_synonym,direct_anatomical,False,UBERON:0003544,inventory_only
+geometa:organ:3158bba0d510bc9b,Brain: White matter,brain white substance,brain white substance,uberon_synonym,direct_anatomical,False,UBERON:0003544,inventory_only
+geometa:organ:3158bba0d510bc9b,Brain: White matter,white matter of brain,white matter of brain,uberon_synonym,direct_anatomical,False,UBERON:0003544,inventory_only
+geometa:organ:3158bba0d510bc9b,Brain: White matter,white matter of neuraxis of brain,white matter of neuraxis of brain,uberon_synonym,direct_anatomical,False,UBERON:0003544,inventory_only
+geometa:organ:3158bba0d510bc9b,Brain: White matter,white substance of brain,white substance of brain,uberon_synonym,direct_anatomical,False,UBERON:0003544,inventory_only
+geometa:organ:3158bba0d510bc9b,Brain: White matter,white matter,white matter,manual_safe_alias,direct_anatomical,True,UBERON:0003544,reviewed
+geometa:organ:90a361d4a75e4b47,Breast,Breast,breast,geometa_label,direct_anatomical,True,UBERON:0000310,reviewed
+geometa:organ:90a361d4a75e4b47,Breast,breast,breast,uberon_preferred_label,direct_anatomical,True,UBERON:0000310,reviewed
+geometa:organ:90a361d4a75e4b47,Breast,mamma,mamma,uberon_synonym,direct_anatomical,False,UBERON:0000310,inventory_only
+geometa:organ:90a361d4a75e4b47,Breast,mammary part of chest,mammary part of chest,uberon_synonym,direct_anatomical,False,UBERON:0000310,inventory_only
+geometa:organ:90a361d4a75e4b47,Breast,mammary region,mammary region,uberon_synonym,direct_anatomical,False,UBERON:0000310,inventory_only
+geometa:organ:90a361d4a75e4b47,Breast,breast,breast,manual_safe_alias,direct_anatomical,True,UBERON:0000310,reviewed
+geometa:organ:90a361d4a75e4b47,Breast,mammary gland,mammary gland,manual_safe_alias,direct_anatomical,True,UBERON:0000310,reviewed
+geometa:organ:90a361d4a75e4b47,Breast,mammary tissue,mammary tissue,manual_safe_alias,direct_anatomical,True,UBERON:0000310,reviewed
+geometa:organ:ddc11f4c17db7536,Cervix,Cervix,cervix,geometa_label,direct_anatomical,True,UBERON:0000002,reviewed
+geometa:organ:ddc11f4c17db7536,Cervix,uterine cervix,uterine cervix,uberon_preferred_label,direct_anatomical,True,UBERON:0000002,reviewed
+geometa:organ:ddc11f4c17db7536,Cervix,caudal segment of uterus,caudal segment of uterus,uberon_synonym,direct_anatomical,False,UBERON:0000002,inventory_only
+geometa:organ:ddc11f4c17db7536,Cervix,canalis cervicis uteri,canalis cervicis uteri,uberon_synonym,direct_anatomical,False,UBERON:0000002,inventory_only
+geometa:organ:ddc11f4c17db7536,Cervix,cervical canal of uterus,cervical canal of uterus,uberon_synonym,direct_anatomical,False,UBERON:0000002,inventory_only
+geometa:organ:ddc11f4c17db7536,Cervix,cervical canal,cervical canal,uberon_synonym,direct_anatomical,False,UBERON:0000002,inventory_only
+geometa:organ:ddc11f4c17db7536,Cervix,cervix of uterus,cervix of uterus,uberon_synonym,direct_anatomical,False,UBERON:0000002,inventory_only
+geometa:organ:ddc11f4c17db7536,Cervix,cervix uteri,cervix uteri,uberon_synonym,direct_anatomical,False,UBERON:0000002,inventory_only
+geometa:organ:ddc11f4c17db7536,Cervix,cervix,cervix,uberon_synonym,direct_anatomical,False,UBERON:0000002,inventory_only
+geometa:organ:ddc11f4c17db7536,Cervix,neck of uterus,neck of uterus,uberon_synonym,direct_anatomical,False,UBERON:0000002,inventory_only
+geometa:organ:ddc11f4c17db7536,Cervix,uterine cervix,uterine cervix,uberon_synonym,direct_anatomical,False,UBERON:0000002,inventory_only
+geometa:organ:ddc11f4c17db7536,Cervix,uterine cervix,uterine cervix,manual_safe_alias,direct_anatomical,True,UBERON:0000002,reviewed
+geometa:organ:ddc11f4c17db7536,Cervix,cervical tissue,cervical tissue,manual_safe_alias,direct_anatomical,True,UBERON:0000002,reviewed
+geometa:organ:ddc11f4c17db7536,Cervix,cervix,cervix,manual_safe_alias,direct_anatomical,True,UBERON:0000002,reviewed
+geometa:organ:380e768916a23650,Endometrium,Endometrium,endometrium,geometa_label,direct_anatomical,True,UBERON:0001295,reviewed
+geometa:organ:380e768916a23650,Endometrium,endometrium,endometrium,uberon_preferred_label,direct_anatomical,True,UBERON:0001295,reviewed
+geometa:organ:380e768916a23650,Endometrium,uterine mucosa,uterine mucosa,uberon_synonym,direct_anatomical,False,UBERON:0001295,inventory_only
+geometa:organ:380e768916a23650,Endometrium,tunica mucosa (endometrium),tunica mucosa (endometrium),uberon_synonym,direct_anatomical,False,UBERON:0001295,inventory_only
+geometa:organ:380e768916a23650,Endometrium,tunica mucosa uteri,tunica mucosa uteri,uberon_synonym,direct_anatomical,False,UBERON:0001295,inventory_only
+geometa:organ:380e768916a23650,Endometrium,uterine endometrium,uterine endometrium,uberon_synonym,direct_anatomical,False,UBERON:0001295,inventory_only
+geometa:organ:380e768916a23650,Endometrium,uterine mucous membrane,uterine mucous membrane,uberon_synonym,direct_anatomical,False,UBERON:0001295,inventory_only
+geometa:organ:380e768916a23650,Endometrium,endometrium,endometrium,manual_safe_alias,direct_anatomical,True,UBERON:0001295,reviewed
+geometa:organ:380e768916a23650,Endometrium,endometrial,endometrial,manual_safe_alias,direct_anatomical,True,UBERON:0001295,reviewed
+geometa:organ:e9c2ed12c7e0e1b5,Epididymis,Epididymis,epididymis,geometa_label,direct_anatomical,True,UBERON:0001301,reviewed
+geometa:organ:e9c2ed12c7e0e1b5,Epididymis,epididymis,epididymis,uberon_preferred_label,direct_anatomical,True,UBERON:0001301,reviewed
+geometa:organ:e9c2ed12c7e0e1b5,Epididymis,epididymis,epididymis,manual_safe_alias,direct_anatomical,True,UBERON:0001301,reviewed
+geometa:organ:e9c2ed12c7e0e1b5,Epididymis,epididymal,epididymal,manual_safe_alias,direct_anatomical,True,UBERON:0001301,reviewed
+geometa:organ:d75400099084f9c8,Esophagus,Esophagus,esophagus,geometa_label,direct_anatomical,True,UBERON:0001043,reviewed
+geometa:organ:d75400099084f9c8,Esophagus,esophagus,esophagus,uberon_preferred_label,direct_anatomical,True,UBERON:0001043,reviewed
+geometa:organ:d75400099084f9c8,Esophagus,gullet,gullet,uberon_synonym,direct_anatomical,False,UBERON:0001043,inventory_only
+geometa:organ:d75400099084f9c8,Esophagus,oesophagus,oesophagus,uberon_synonym,direct_anatomical,False,UBERON:0001043,inventory_only
+geometa:organ:d75400099084f9c8,Esophagus,esophagus,esophagus,manual_safe_alias,direct_anatomical,True,UBERON:0001043,reviewed
+geometa:organ:d75400099084f9c8,Esophagus,oesophagus,oesophagus,manual_safe_alias,direct_anatomical,True,UBERON:0001043,reviewed
+geometa:organ:d75400099084f9c8,Esophagus,esophageal,esophageal,manual_safe_alias,direct_anatomical,True,UBERON:0001043,reviewed
+geometa:organ:d75400099084f9c8,Esophagus,oesophageal,oesophageal,manual_safe_alias,direct_anatomical,True,UBERON:0001043,reviewed
+geometa:organ:17b8734638f61608,Eye,Eye,eye,geometa_label,direct_anatomical,True,UBERON:0000970,reviewed
+geometa:organ:17b8734638f61608,Eye,eye,eye,uberon_preferred_label,direct_anatomical,True,UBERON:0000970,reviewed
+geometa:organ:17b8734638f61608,Eye,light-detecting organ,light-detecting organ,uberon_synonym,direct_anatomical,False,UBERON:0000970,inventory_only
+geometa:organ:17b8734638f61608,Eye,visual apparatus,visual apparatus,uberon_synonym,direct_anatomical,False,UBERON:0000970,inventory_only
+geometa:organ:17b8734638f61608,Eye,whole eye,whole eye,manual_safe_alias,direct_anatomical,True,UBERON:0000970,reviewed
+geometa:organ:17b8734638f61608,Eye,eyeball,eyeball,manual_safe_alias,direct_anatomical,True,UBERON:0000970,reviewed
+geometa:organ:17b8734638f61608,Eye,ocular tissue,ocular tissue,manual_safe_alias,direct_anatomical,True,UBERON:0000970,reviewed
+geometa:organ:9ac6213e34c1193a,Fallopian tube,Fallopian tube,fallopian tube,geometa_label,direct_anatomical,True,UBERON:0003889,reviewed
+geometa:organ:9ac6213e34c1193a,Fallopian tube,fallopian tube,fallopian tube,uberon_preferred_label,direct_anatomical,True,UBERON:0003889,reviewed
+geometa:organ:9ac6213e34c1193a,Fallopian tube,salpinx,salpinx,uberon_synonym,direct_anatomical,False,UBERON:0003889,inventory_only
+geometa:organ:9ac6213e34c1193a,Fallopian tube,uterine tube (sensu Mammalia),uterine tube (sensu mammalia),uberon_synonym,direct_anatomical,False,UBERON:0003889,inventory_only
+geometa:organ:9ac6213e34c1193a,Fallopian tube,fallopian tubes,fallopian tubes,uberon_synonym,direct_anatomical,False,UBERON:0003889,inventory_only
+geometa:organ:9ac6213e34c1193a,Fallopian tube,female paramesonephric duct,female paramesonephric duct,uberon_synonym,direct_anatomical,False,UBERON:0003889,inventory_only
+geometa:organ:9ac6213e34c1193a,Fallopian tube,mammalian oviduct,mammalian oviduct,uberon_synonym,direct_anatomical,False,UBERON:0003889,inventory_only
+geometa:organ:9ac6213e34c1193a,Fallopian tube,paramesonephric duct of female,paramesonephric duct of female,uberon_synonym,direct_anatomical,False,UBERON:0003889,inventory_only
+geometa:organ:9ac6213e34c1193a,Fallopian tube,salpinges,salpinges,uberon_synonym,direct_anatomical,False,UBERON:0003889,inventory_only
+geometa:organ:9ac6213e34c1193a,Fallopian tube,tuba uterina,tuba uterina,uberon_synonym,direct_anatomical,False,UBERON:0003889,inventory_only
+geometa:organ:9ac6213e34c1193a,Fallopian tube,fallopian tube,fallopian tube,manual_safe_alias,direct_anatomical,True,UBERON:0003889,reviewed
+geometa:organ:9ac6213e34c1193a,Fallopian tube,uterine tube,uterine tube,manual_safe_alias,direct_anatomical,True,UBERON:0003889,reviewed
+geometa:organ:9ac6213e34c1193a,Fallopian tube,oviduct,oviduct,manual_safe_alias,direct_anatomical,True,UBERON:0003889,reviewed
+geometa:organ:5565cc157c9ffbd2,Gallbladder,Gallbladder,gallbladder,geometa_label,direct_anatomical,True,UBERON:0002110,reviewed
+geometa:organ:5565cc157c9ffbd2,Gallbladder,gallbladder,gallbladder,uberon_preferred_label,direct_anatomical,True,UBERON:0002110,reviewed
+geometa:organ:5565cc157c9ffbd2,Gallbladder,gall bladder,gall bladder,uberon_synonym,direct_anatomical,False,UBERON:0002110,inventory_only
+geometa:organ:5565cc157c9ffbd2,Gallbladder,cholecyst,cholecyst,uberon_synonym,direct_anatomical,False,UBERON:0002110,inventory_only
+geometa:organ:5565cc157c9ffbd2,Gallbladder,vesica biliaris,vesica biliaris,uberon_synonym,direct_anatomical,False,UBERON:0002110,inventory_only
+geometa:organ:5565cc157c9ffbd2,Gallbladder,vesica fellea,vesica fellea,uberon_synonym,direct_anatomical,False,UBERON:0002110,inventory_only
+geometa:organ:5565cc157c9ffbd2,Gallbladder,gallbladder,gallbladder,manual_safe_alias,direct_anatomical,True,UBERON:0002110,reviewed
+geometa:organ:5565cc157c9ffbd2,Gallbladder,gall bladder,gall bladder,manual_safe_alias,direct_anatomical,True,UBERON:0002110,reviewed
+geometa:organ:98739b62661d4fa0,Head and Neck,Head and Neck,head and neck,geometa_label,direct_anatomical,True,,reviewed
+geometa:organ:98739b62661d4fa0,Head and Neck,head and neck,head and neck,manual_safe_alias,direct_anatomical,True,,reviewed
+geometa:organ:98739b62661d4fa0,Head and Neck,head-and-neck,head-and-neck,manual_safe_alias,direct_anatomical,True,,reviewed
+geometa:organ:98739b62661d4fa0,Head and Neck,head neck,head neck,manual_safe_alias,direct_anatomical,True,,reviewed
+geometa:organ:19f13686f8abc162,Heart,Heart,heart,geometa_label,direct_anatomical,True,UBERON:0000948,reviewed
+geometa:organ:19f13686f8abc162,Heart,heart,heart,uberon_preferred_label,direct_anatomical,True,UBERON:0000948,reviewed
+geometa:organ:19f13686f8abc162,Heart,vertebrate heart,vertebrate heart,uberon_synonym,direct_anatomical,False,UBERON:0000948,inventory_only
+geometa:organ:19f13686f8abc162,Heart,branchial heart,branchial heart,uberon_synonym,direct_anatomical,False,UBERON:0000948,inventory_only
+geometa:organ:19f13686f8abc162,Heart,cardium,cardium,uberon_synonym,direct_anatomical,False,UBERON:0000948,inventory_only
+geometa:organ:19f13686f8abc162,Heart,chambered heart,chambered heart,uberon_synonym,direct_anatomical,False,UBERON:0000948,inventory_only
+geometa:organ:19f13686f8abc162,Heart,heart,heart,manual_safe_alias,direct_anatomical,True,UBERON:0000948,reviewed
+geometa:organ:19f13686f8abc162,Heart,cardiac tissue,cardiac tissue,manual_safe_alias,direct_anatomical,True,UBERON:0000948,reviewed
+geometa:organ:19f13686f8abc162,Heart,myocardium,myocardium,manual_safe_alias,direct_anatomical,True,UBERON:0000948,reviewed
+geometa:organ:19f13686f8abc162,Heart,myocardial,myocardial,manual_safe_alias,direct_anatomical,True,UBERON:0000948,reviewed
+geometa:organ:b79de5a0d13ea178,Intestine,Intestine,intestine,geometa_label,direct_anatomical,True,UBERON:0000160,reviewed
+geometa:organ:b79de5a0d13ea178,Intestine,intestine,intestine,uberon_preferred_label,direct_anatomical,True,UBERON:0000160,reviewed
+geometa:organ:b79de5a0d13ea178,Intestine,bowel,bowel,uberon_synonym,direct_anatomical,False,UBERON:0000160,inventory_only
+geometa:organ:b79de5a0d13ea178,Intestine,intestinal tract,intestinal tract,uberon_synonym,direct_anatomical,False,UBERON:0000160,inventory_only
+geometa:organ:b79de5a0d13ea178,Intestine,intestine,intestine,manual_safe_alias,direct_anatomical,True,UBERON:0000160,reviewed
+geometa:organ:b79de5a0d13ea178,Intestine,intestinal,intestinal,manual_safe_alias,direct_anatomical,True,UBERON:0000160,reviewed
+geometa:organ:b79de5a0d13ea178,Intestine,colon,colon,manual_safe_alias,direct_anatomical,True,UBERON:0000160,reviewed
+geometa:organ:b79de5a0d13ea178,Intestine,colonic,colonic,manual_safe_alias,direct_anatomical,True,UBERON:0000160,reviewed
+geometa:organ:b79de5a0d13ea178,Intestine,ileum,ileum,manual_safe_alias,direct_anatomical,True,UBERON:0000160,reviewed
+geometa:organ:b79de5a0d13ea178,Intestine,ileal,ileal,manual_safe_alias,direct_anatomical,True,UBERON:0000160,reviewed
+geometa:organ:b79de5a0d13ea178,Intestine,jejunum,jejunum,manual_safe_alias,direct_anatomical,True,UBERON:0000160,reviewed
+geometa:organ:b79de5a0d13ea178,Intestine,duodenum,duodenum,manual_safe_alias,direct_anatomical,True,UBERON:0000160,reviewed
+geometa:organ:b79de5a0d13ea178,Intestine,rectum,rectum,manual_safe_alias,direct_anatomical,True,UBERON:0000160,reviewed
+geometa:organ:b79de5a0d13ea178,Intestine,colorectal,colorectal,manual_safe_alias,direct_anatomical,True,UBERON:0000160,reviewed
+geometa:organ:c73ddb31a20ede1f,Kidney,Kidney,kidney,geometa_label,direct_anatomical,True,UBERON:0002113,reviewed
+geometa:organ:c73ddb31a20ede1f,Kidney,kidney,kidney,uberon_preferred_label,direct_anatomical,True,UBERON:0002113,reviewed
+geometa:organ:c73ddb31a20ede1f,Kidney,reniculate kidney,reniculate kidney,uberon_synonym,direct_anatomical,False,UBERON:0002113,inventory_only
+geometa:organ:c73ddb31a20ede1f,Kidney,kidney,kidney,manual_safe_alias,direct_anatomical,True,UBERON:0002113,reviewed
+geometa:organ:c73ddb31a20ede1f,Kidney,renal tissue,renal tissue,manual_safe_alias,direct_anatomical,True,UBERON:0002113,reviewed
+geometa:organ:c73ddb31a20ede1f,Kidney,renal cortex,renal cortex,manual_safe_alias,direct_anatomical,True,UBERON:0002113,reviewed
+geometa:organ:c73ddb31a20ede1f,Kidney,renal medulla,renal medulla,manual_safe_alias,direct_anatomical,True,UBERON:0002113,reviewed
+geometa:organ:7e97ea6abb9d1853,Liver,Liver,liver,geometa_label,direct_anatomical,True,UBERON:0002107,reviewed
+geometa:organ:7e97ea6abb9d1853,Liver,liver,liver,uberon_preferred_label,direct_anatomical,True,UBERON:0002107,reviewed
+geometa:organ:7e97ea6abb9d1853,Liver,iecur,iecur,uberon_synonym,direct_anatomical,False,UBERON:0002107,inventory_only
+geometa:organ:7e97ea6abb9d1853,Liver,jecur,jecur,uberon_synonym,direct_anatomical,False,UBERON:0002107,inventory_only
+geometa:organ:7e97ea6abb9d1853,Liver,liver,liver,manual_safe_alias,direct_anatomical,True,UBERON:0002107,reviewed
+geometa:organ:7e97ea6abb9d1853,Liver,hepatic tissue,hepatic tissue,manual_safe_alias,direct_anatomical,True,UBERON:0002107,reviewed
+geometa:organ:48ceeb8eed345982,Lung,Lung,lung,geometa_label,direct_anatomical,True,UBERON:0002048,reviewed
+geometa:organ:48ceeb8eed345982,Lung,lung,lung,uberon_preferred_label,direct_anatomical,True,UBERON:0002048,reviewed
+geometa:organ:48ceeb8eed345982,Lung,pulmo,pulmo,uberon_synonym,direct_anatomical,False,UBERON:0002048,inventory_only
+geometa:organ:48ceeb8eed345982,Lung,lung,lung,manual_safe_alias,direct_anatomical,True,UBERON:0002048,reviewed
+geometa:organ:48ceeb8eed345982,Lung,pulmonary tissue,pulmonary tissue,manual_safe_alias,direct_anatomical,True,UBERON:0002048,reviewed
+geometa:organ:7b6b09bf7a10720f,Lymphoid tissue,Lymphoid tissue,lymphoid tissue,geometa_label,direct_anatomical,True,UBERON:0001744,reviewed
+geometa:organ:7b6b09bf7a10720f,Lymphoid tissue,lymphoid tissue,lymphoid tissue,uberon_preferred_label,direct_anatomical,True,UBERON:0001744,reviewed
+geometa:organ:7b6b09bf7a10720f,Lymphoid tissue,lymphatic tissue,lymphatic tissue,uberon_synonym,direct_anatomical,False,UBERON:0001744,inventory_only
+geometa:organ:7b6b09bf7a10720f,Lymphoid tissue,lymphocytic tissue,lymphocytic tissue,uberon_synonym,direct_anatomical,False,UBERON:0001744,inventory_only
+geometa:organ:7b6b09bf7a10720f,Lymphoid tissue,lymphoid tissue,lymphoid tissue,manual_safe_alias,direct_anatomical,True,UBERON:0001744,reviewed
+geometa:organ:7b6b09bf7a10720f,Lymphoid tissue,lymph node,lymph node,manual_safe_alias,direct_anatomical,True,UBERON:0001744,reviewed
+geometa:organ:7b6b09bf7a10720f,Lymphoid tissue,tonsil,tonsil,manual_safe_alias,direct_anatomical,True,UBERON:0001744,reviewed
+geometa:organ:7b6b09bf7a10720f,Lymphoid tissue,spleen,spleen,manual_safe_alias,direct_anatomical,True,UBERON:0001744,reviewed
+geometa:organ:7b6b09bf7a10720f,Lymphoid tissue,thymus,thymus,manual_safe_alias,direct_anatomical,True,UBERON:0001744,reviewed
+geometa:organ:0e925dabe05a290b,Nasal,Nasal,nasal,geometa_label,direct_anatomical,True,,reviewed
+geometa:organ:0e925dabe05a290b,Nasal,nasal tissue,nasal tissue,manual_safe_alias,direct_anatomical,True,,reviewed
+geometa:organ:0e925dabe05a290b,Nasal,nasal mucosa,nasal mucosa,manual_safe_alias,direct_anatomical,True,,reviewed
+geometa:organ:0e925dabe05a290b,Nasal,nasal epithelium,nasal epithelium,manual_safe_alias,direct_anatomical,True,,reviewed
+geometa:organ:0e925dabe05a290b,Nasal,nasal cavity,nasal cavity,manual_safe_alias,direct_anatomical,True,,reviewed
+geometa:organ:fcb5122e081d5789,Nasopharynx,Nasopharynx,nasopharynx,geometa_label,direct_anatomical,True,UBERON:0001728,reviewed
+geometa:organ:fcb5122e081d5789,Nasopharynx,nasopharynx,nasopharynx,uberon_preferred_label,direct_anatomical,True,UBERON:0001728,reviewed
+geometa:organ:fcb5122e081d5789,Nasopharynx,nasal part of pharynx,nasal part of pharynx,uberon_synonym,direct_anatomical,False,UBERON:0001728,inventory_only
+geometa:organ:fcb5122e081d5789,Nasopharynx,rhinopharynx,rhinopharynx,uberon_synonym,direct_anatomical,False,UBERON:0001728,inventory_only
+geometa:organ:fcb5122e081d5789,Nasopharynx,Nasenrachenraum,nasenrachenraum,uberon_synonym,direct_anatomical,False,UBERON:0001728,inventory_only
+geometa:organ:fcb5122e081d5789,Nasopharynx,epipharynx,epipharynx,uberon_synonym,direct_anatomical,False,UBERON:0001728,inventory_only
+geometa:organ:fcb5122e081d5789,Nasopharynx,pars nasalis pharyngis,pars nasalis pharyngis,uberon_synonym,direct_anatomical,False,UBERON:0001728,inventory_only
+geometa:organ:fcb5122e081d5789,Nasopharynx,nasopharynx,nasopharynx,manual_safe_alias,direct_anatomical,True,UBERON:0001728,reviewed
+geometa:organ:fcb5122e081d5789,Nasopharynx,nasopharyngeal,nasopharyngeal,manual_safe_alias,direct_anatomical,True,UBERON:0001728,reviewed
+geometa:organ:ed22c54b6ddb05bb,Oropharynx,Oropharynx,oropharynx,geometa_label,direct_anatomical,True,UBERON:0001729,reviewed
+geometa:organ:ed22c54b6ddb05bb,Oropharynx,oropharynx,oropharynx,uberon_preferred_label,direct_anatomical,True,UBERON:0001729,reviewed
+geometa:organ:ed22c54b6ddb05bb,Oropharynx,oral part of pharynx,oral part of pharynx,uberon_synonym,direct_anatomical,False,UBERON:0001729,inventory_only
+geometa:organ:ed22c54b6ddb05bb,Oropharynx,mesopharynx,mesopharynx,uberon_synonym,direct_anatomical,False,UBERON:0001729,inventory_only
+geometa:organ:ed22c54b6ddb05bb,Oropharynx,pars oralis pharyngis,pars oralis pharyngis,uberon_synonym,direct_anatomical,False,UBERON:0001729,inventory_only
+geometa:organ:ed22c54b6ddb05bb,Oropharynx,oropharynx,oropharynx,manual_safe_alias,direct_anatomical,True,UBERON:0001729,reviewed
+geometa:organ:ed22c54b6ddb05bb,Oropharynx,oropharyngeal,oropharyngeal,manual_safe_alias,direct_anatomical,True,UBERON:0001729,reviewed
+geometa:organ:65863fb5764c9708,Ovary,Ovary,ovary,geometa_label,direct_anatomical,True,UBERON:0000992,reviewed
+geometa:organ:65863fb5764c9708,Ovary,ovary,ovary,uberon_preferred_label,direct_anatomical,True,UBERON:0000992,reviewed
+geometa:organ:65863fb5764c9708,Ovary,female gonad,female gonad,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,animal ovary,animal ovary,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,female organism genitalia gonad,female organism genitalia gonad,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,female organism genitalia gonada,female organism genitalia gonada,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,female organism reproductive system gonad,female organism reproductive system gonad,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,female organism reproductive system gonada,female organism reproductive system gonada,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,female reproductive system gonad,female reproductive system gonad,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,female reproductive system gonada,female reproductive system gonada,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,genitalia of female organism gonad,genitalia of female organism gonad,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,genitalia of female organism gonada,genitalia of female organism gonada,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,gonad of female organism genitalia,gonad of female organism genitalia,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,gonad of female organism reproductive system,gonad of female organism reproductive system,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,gonad of female reproductive system,gonad of female reproductive system,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,gonad of genitalia of female organism,gonad of genitalia of female organism,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,gonad of reproductive system of female organism,gonad of reproductive system of female organism,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,gonada of female organism genitalia,gonada of female organism genitalia,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,gonada of female organism reproductive system,gonada of female organism reproductive system,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,gonada of female reproductive system,gonada of female reproductive system,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,gonada of genitalia of female organism,gonada of genitalia of female organism,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,gonada of reproductive system of female organism,gonada of reproductive system of female organism,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,ovaries,ovaries,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,ovarium,ovarium,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,ovum-producing ovary,ovum-producing ovary,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,reproductive system of female organism gonad,reproductive system of female organism gonad,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,reproductive system of female organism gonada,reproductive system of female organism gonada,uberon_synonym,direct_anatomical,False,UBERON:0000992,inventory_only
+geometa:organ:65863fb5764c9708,Ovary,ovary,ovary,manual_safe_alias,direct_anatomical,True,UBERON:0000992,reviewed
+geometa:organ:65863fb5764c9708,Ovary,ovarian tissue,ovarian tissue,manual_safe_alias,direct_anatomical,True,UBERON:0000992,reviewed
+geometa:organ:10d9bfe8f7c8875a,Pancreas,Pancreas,pancreas,geometa_label,direct_anatomical,True,UBERON:0001264,reviewed
+geometa:organ:10d9bfe8f7c8875a,Pancreas,pancreas,pancreas,uberon_preferred_label,direct_anatomical,True,UBERON:0001264,reviewed
+geometa:organ:10d9bfe8f7c8875a,Pancreas,pancreas,pancreas,manual_safe_alias,direct_anatomical,True,UBERON:0001264,reviewed
+geometa:organ:10d9bfe8f7c8875a,Pancreas,pancreatic tissue,pancreatic tissue,manual_safe_alias,direct_anatomical,True,UBERON:0001264,reviewed
+geometa:organ:10d9bfe8f7c8875a,Pancreas,pancreatic islet,pancreatic islet,manual_safe_alias,direct_anatomical,True,UBERON:0001264,reviewed
+geometa:organ:10d9bfe8f7c8875a,Pancreas,islets of langerhans,islets of langerhans,manual_safe_alias,direct_anatomical,True,UBERON:0001264,reviewed
+geometa:organ:06567f0391b1a392,Pituitary gland,Pituitary gland,pituitary gland,geometa_label,direct_anatomical,True,UBERON:0000007,reviewed
+geometa:organ:06567f0391b1a392,Pituitary gland,pituitary gland,pituitary gland,uberon_preferred_label,direct_anatomical,True,UBERON:0000007,reviewed
+geometa:organ:06567f0391b1a392,Pituitary gland,Hp,hp,uberon_synonym,direct_anatomical,False,UBERON:0000007,inventory_only
+geometa:organ:06567f0391b1a392,Pituitary gland,glandula pituitaria,glandula pituitaria,uberon_synonym,direct_anatomical,False,UBERON:0000007,inventory_only
+geometa:organ:06567f0391b1a392,Pituitary gland,hypophysis cerebri,hypophysis cerebri,uberon_synonym,direct_anatomical,False,UBERON:0000007,inventory_only
+geometa:organ:06567f0391b1a392,Pituitary gland,hypophysis,hypophysis,uberon_synonym,direct_anatomical,False,UBERON:0000007,inventory_only
+geometa:organ:06567f0391b1a392,Pituitary gland,pituitary body,pituitary body,uberon_synonym,direct_anatomical,False,UBERON:0000007,inventory_only
+geometa:organ:06567f0391b1a392,Pituitary gland,pituitary,pituitary,uberon_synonym,direct_anatomical,False,UBERON:0000007,inventory_only
+geometa:organ:06567f0391b1a392,Pituitary gland,pituitary,pituitary,manual_safe_alias,direct_anatomical,True,UBERON:0000007,reviewed
+geometa:organ:06567f0391b1a392,Pituitary gland,pituitary gland,pituitary gland,manual_safe_alias,direct_anatomical,True,UBERON:0000007,reviewed
+geometa:organ:06567f0391b1a392,Pituitary gland,hypophysis,hypophysis,manual_safe_alias,direct_anatomical,True,UBERON:0000007,reviewed
+geometa:organ:a02d6dac39a2d249,Placenta,Placenta,placenta,geometa_label,direct_anatomical,True,UBERON:0001987,reviewed
+geometa:organ:a02d6dac39a2d249,Placenta,placenta,placenta,uberon_preferred_label,direct_anatomical,True,UBERON:0001987,reviewed
+geometa:organ:a02d6dac39a2d249,Placenta,eutherian placenta,eutherian placenta,uberon_synonym,direct_anatomical,False,UBERON:0001987,inventory_only
+geometa:organ:a02d6dac39a2d249,Placenta,allantoic placenta,allantoic placenta,uberon_synonym,direct_anatomical,False,UBERON:0001987,inventory_only
+geometa:organ:a02d6dac39a2d249,Placenta,placenta,placenta,manual_safe_alias,direct_anatomical,True,UBERON:0001987,reviewed
+geometa:organ:a02d6dac39a2d249,Placenta,placental tissue,placental tissue,manual_safe_alias,direct_anatomical,True,UBERON:0001987,reviewed
+geometa:organ:a02d6dac39a2d249,Placenta,chorionic villus,chorionic villus,manual_safe_alias,direct_anatomical,True,UBERON:0001987,reviewed
+geometa:organ:a02d6dac39a2d249,Placenta,chorionic villi,chorionic villi,manual_safe_alias,direct_anatomical,True,UBERON:0001987,reviewed
+geometa:organ:81634e3fd8b70591,Prostate,Prostate,prostate,geometa_label,direct_anatomical,True,UBERON:0002367,reviewed
+geometa:organ:81634e3fd8b70591,Prostate,prostate gland,prostate gland,uberon_preferred_label,direct_anatomical,True,UBERON:0002367,reviewed
+geometa:organ:81634e3fd8b70591,Prostate,prostate,prostate,uberon_synonym,direct_anatomical,False,UBERON:0002367,inventory_only
+geometa:organ:81634e3fd8b70591,Prostate,male prostate,male prostate,uberon_synonym,direct_anatomical,False,UBERON:0002367,inventory_only
+geometa:organ:81634e3fd8b70591,Prostate,prostata,prostata,uberon_synonym,direct_anatomical,False,UBERON:0002367,inventory_only
+geometa:organ:81634e3fd8b70591,Prostate,prostate,prostate,manual_safe_alias,direct_anatomical,True,UBERON:0002367,reviewed
+geometa:organ:81634e3fd8b70591,Prostate,prostate gland,prostate gland,manual_safe_alias,direct_anatomical,True,UBERON:0002367,reviewed
+geometa:organ:81634e3fd8b70591,Prostate,prostatic tissue,prostatic tissue,manual_safe_alias,direct_anatomical,True,UBERON:0002367,reviewed
+geometa:organ:d7fd075784f01d49,Retina,Retina,retina,geometa_label,direct_anatomical,True,UBERON:0000966,reviewed
+geometa:organ:d7fd075784f01d49,Retina,retina,retina,uberon_preferred_label,direct_anatomical,True,UBERON:0000966,reviewed
+geometa:organ:d7fd075784f01d49,Retina,inner layer of eyeball,inner layer of eyeball,uberon_synonym,direct_anatomical,False,UBERON:0000966,inventory_only
+geometa:organ:d7fd075784f01d49,Retina,tunica interna of eyeball,tunica interna of eyeball,uberon_synonym,direct_anatomical,False,UBERON:0000966,inventory_only
+geometa:organ:d7fd075784f01d49,Retina,Netzhaut,netzhaut,uberon_synonym,direct_anatomical,False,UBERON:0000966,inventory_only
+geometa:organ:d7fd075784f01d49,Retina,retina of camera-type eye,retina of camera-type eye,uberon_synonym,direct_anatomical,False,UBERON:0000966,inventory_only
+geometa:organ:d7fd075784f01d49,Retina,retinas,retinas,uberon_synonym,direct_anatomical,False,UBERON:0000966,inventory_only
+geometa:organ:d7fd075784f01d49,Retina,retina,retina,manual_safe_alias,direct_anatomical,True,UBERON:0000966,reviewed
+geometa:organ:d7fd075784f01d49,Retina,retinal tissue,retinal tissue,manual_safe_alias,direct_anatomical,True,UBERON:0000966,reviewed
+geometa:organ:620d3563166f468c,Salivary gland,Salivary gland,salivary gland,geometa_label,direct_anatomical,True,UBERON:0001044,reviewed
+geometa:organ:620d3563166f468c,Salivary gland,saliva-secreting gland,saliva-secreting gland,uberon_preferred_label,direct_anatomical,True,UBERON:0001044,reviewed
+geometa:organ:620d3563166f468c,Salivary gland,glandulae salivariae,glandulae salivariae,uberon_synonym,direct_anatomical,False,UBERON:0001044,inventory_only
+geometa:organ:620d3563166f468c,Salivary gland,salivary gland,salivary gland,uberon_synonym,direct_anatomical,False,UBERON:0001044,inventory_only
+geometa:organ:620d3563166f468c,Salivary gland,salivary gland,salivary gland,manual_safe_alias,direct_anatomical,True,UBERON:0001044,reviewed
+geometa:organ:620d3563166f468c,Salivary gland,parotid gland,parotid gland,manual_safe_alias,direct_anatomical,True,UBERON:0001044,reviewed
+geometa:organ:620d3563166f468c,Salivary gland,submandibular gland,submandibular gland,manual_safe_alias,direct_anatomical,True,UBERON:0001044,reviewed
+geometa:organ:620d3563166f468c,Salivary gland,sublingual gland,sublingual gland,manual_safe_alias,direct_anatomical,True,UBERON:0001044,reviewed
+geometa:organ:232a6b612a9a44ec,Skeletal muscle,Skeletal muscle,skeletal muscle,geometa_label,direct_anatomical,True,UBERON:0001134,reviewed
+geometa:organ:232a6b612a9a44ec,Skeletal muscle,skeletal muscle tissue,skeletal muscle tissue,uberon_preferred_label,direct_anatomical,True,UBERON:0001134,reviewed
+geometa:organ:232a6b612a9a44ec,Skeletal muscle,skeletal muscle,skeletal muscle,uberon_synonym,direct_anatomical,False,UBERON:0001134,inventory_only
+geometa:organ:232a6b612a9a44ec,Skeletal muscle,skeletal muscle system,skeletal muscle system,uberon_synonym,direct_anatomical,False,UBERON:0001134,inventory_only
+geometa:organ:232a6b612a9a44ec,Skeletal muscle,somatic muscle,somatic muscle,uberon_synonym,direct_anatomical,False,UBERON:0001134,inventory_only
+geometa:organ:232a6b612a9a44ec,Skeletal muscle,skeletal muscle,skeletal muscle,manual_safe_alias,direct_anatomical,True,UBERON:0001134,reviewed
+geometa:organ:232a6b612a9a44ec,Skeletal muscle,striated muscle,striated muscle,manual_safe_alias,direct_anatomical,True,UBERON:0001134,reviewed
+geometa:organ:232a6b612a9a44ec,Skeletal muscle,quadriceps,quadriceps,manual_safe_alias,direct_anatomical,True,UBERON:0001134,reviewed
+geometa:organ:232a6b612a9a44ec,Skeletal muscle,gastrocnemius,gastrocnemius,manual_safe_alias,direct_anatomical,True,UBERON:0001134,reviewed
+geometa:organ:232a6b612a9a44ec,Skeletal muscle,soleus muscle,soleus muscle,manual_safe_alias,direct_anatomical,True,UBERON:0001134,reviewed
+geometa:organ:2348f77c621e759b,Skin,Skin,skin,geometa_label,direct_anatomical,True,UBERON:0002097,reviewed
+geometa:organ:2348f77c621e759b,Skin,skin of body,skin of body,uberon_preferred_label,direct_anatomical,True,UBERON:0002097,reviewed
+geometa:organ:2348f77c621e759b,Skin,entire integument,entire integument,uberon_synonym,direct_anatomical,False,UBERON:0002097,inventory_only
+geometa:organ:2348f77c621e759b,Skin,entire skin,entire skin,uberon_synonym,direct_anatomical,False,UBERON:0002097,inventory_only
+geometa:organ:2348f77c621e759b,Skin,integument,integument,uberon_synonym,direct_anatomical,False,UBERON:0002097,inventory_only
+geometa:organ:2348f77c621e759b,Skin,integumental organ,integumental organ,uberon_synonym,direct_anatomical,False,UBERON:0002097,inventory_only
+geometa:organ:2348f77c621e759b,Skin,pelt,pelt,uberon_synonym,direct_anatomical,False,UBERON:0002097,inventory_only
+geometa:organ:2348f77c621e759b,Skin,skin organ,skin organ,uberon_synonym,direct_anatomical,False,UBERON:0002097,inventory_only
+geometa:organ:2348f77c621e759b,Skin,skin,skin,uberon_synonym,direct_anatomical,False,UBERON:0002097,inventory_only
+geometa:organ:2348f77c621e759b,Skin,skin,skin,manual_safe_alias,direct_anatomical,True,UBERON:0002097,reviewed
+geometa:organ:2348f77c621e759b,Skin,cutaneous tissue,cutaneous tissue,manual_safe_alias,direct_anatomical,True,UBERON:0002097,reviewed
+geometa:organ:2348f77c621e759b,Skin,dermis,dermis,manual_safe_alias,direct_anatomical,True,UBERON:0002097,reviewed
+geometa:organ:2348f77c621e759b,Skin,epidermis,epidermis,manual_safe_alias,direct_anatomical,True,UBERON:0002097,reviewed
+geometa:organ:6bd39a55a5188203,Smooth muscle,Smooth muscle,smooth muscle,geometa_label,direct_anatomical,True,UBERON:0001135,reviewed
+geometa:organ:6bd39a55a5188203,Smooth muscle,smooth muscle tissue,smooth muscle tissue,uberon_preferred_label,direct_anatomical,True,UBERON:0001135,reviewed
+geometa:organ:6bd39a55a5188203,Smooth muscle,involuntary muscle,involuntary muscle,uberon_synonym,direct_anatomical,False,UBERON:0001135,inventory_only
+geometa:organ:6bd39a55a5188203,Smooth muscle,non-striated muscle,non-striated muscle,uberon_synonym,direct_anatomical,False,UBERON:0001135,inventory_only
+geometa:organ:6bd39a55a5188203,Smooth muscle,smooth muscle,smooth muscle,uberon_synonym,direct_anatomical,False,UBERON:0001135,inventory_only
+geometa:organ:6bd39a55a5188203,Smooth muscle,textus muscularis levis; textus muscularis nonstriatus,textus muscularis levis; textus muscularis nonstriatus,uberon_synonym,direct_anatomical,False,UBERON:0001135,inventory_only
+geometa:organ:6bd39a55a5188203,Smooth muscle,textus muscularis nonstriatus,textus muscularis nonstriatus,uberon_synonym,direct_anatomical,False,UBERON:0001135,inventory_only
+geometa:organ:6bd39a55a5188203,Smooth muscle,visceral muscle tissue,visceral muscle tissue,uberon_synonym,direct_anatomical,False,UBERON:0001135,inventory_only
+geometa:organ:6bd39a55a5188203,Smooth muscle,visceral muscle,visceral muscle,uberon_synonym,direct_anatomical,False,UBERON:0001135,inventory_only
+geometa:organ:6bd39a55a5188203,Smooth muscle,smooth muscle,smooth muscle,manual_safe_alias,direct_anatomical,True,UBERON:0001135,reviewed
+geometa:organ:4035860aa9e7d403,Stomach,Stomach,stomach,geometa_label,direct_anatomical,True,UBERON:0000945,reviewed
+geometa:organ:4035860aa9e7d403,Stomach,stomach,stomach,uberon_preferred_label,direct_anatomical,True,UBERON:0000945,reviewed
+geometa:organ:4035860aa9e7d403,Stomach,anterior intestine,anterior intestine,uberon_synonym,direct_anatomical,False,UBERON:0000945,inventory_only
+geometa:organ:4035860aa9e7d403,Stomach,mesenteron,mesenteron,uberon_synonym,direct_anatomical,False,UBERON:0000945,inventory_only
+geometa:organ:4035860aa9e7d403,Stomach,stomach chamber,stomach chamber,uberon_synonym,direct_anatomical,False,UBERON:0000945,inventory_only
+geometa:organ:4035860aa9e7d403,Stomach,gaster,gaster,uberon_synonym,direct_anatomical,False,UBERON:0000945,inventory_only
+geometa:organ:4035860aa9e7d403,Stomach,ventriculus,ventriculus,uberon_synonym,direct_anatomical,False,UBERON:0000945,inventory_only
+geometa:organ:4035860aa9e7d403,Stomach,stomach,stomach,manual_safe_alias,direct_anatomical,True,UBERON:0000945,reviewed
+geometa:organ:4035860aa9e7d403,Stomach,gastric tissue,gastric tissue,manual_safe_alias,direct_anatomical,True,UBERON:0000945,reviewed
+geometa:organ:4035860aa9e7d403,Stomach,gastric mucosa,gastric mucosa,manual_safe_alias,direct_anatomical,True,UBERON:0000945,reviewed
+geometa:organ:a4e497bc9ad0dd2a,Synovium,Synovium,synovium,geometa_label,direct_anatomical,True,UBERON:0002018,reviewed
+geometa:organ:a4e497bc9ad0dd2a,Synovium,synovial membrane of synovial joint,synovial membrane of synovial joint,uberon_preferred_label,direct_anatomical,True,UBERON:0002018,reviewed
+geometa:organ:a4e497bc9ad0dd2a,Synovium,membrana synovialis (capsula articularis),membrana synovialis (capsula articularis),uberon_synonym,direct_anatomical,False,UBERON:0002018,inventory_only
+geometa:organ:a4e497bc9ad0dd2a,Synovium,membrana synovialis capsulae articularis,membrana synovialis capsulae articularis,uberon_synonym,direct_anatomical,False,UBERON:0002018,inventory_only
+geometa:organ:a4e497bc9ad0dd2a,Synovium,stratum synoviale (capsula articularis),stratum synoviale (capsula articularis),uberon_synonym,direct_anatomical,False,UBERON:0002018,inventory_only
+geometa:organ:a4e497bc9ad0dd2a,Synovium,stratum synoviale,stratum synoviale,uberon_synonym,direct_anatomical,False,UBERON:0002018,inventory_only
+geometa:organ:a4e497bc9ad0dd2a,Synovium,synovial layer of articular capsule of synovial joint,synovial layer of articular capsule of synovial joint,uberon_synonym,direct_anatomical,False,UBERON:0002018,inventory_only
+geometa:organ:a4e497bc9ad0dd2a,Synovium,synovial layer,synovial layer,uberon_synonym,direct_anatomical,False,UBERON:0002018,inventory_only
+geometa:organ:a4e497bc9ad0dd2a,Synovium,synovial membrane of articular capsule of synovial joint,synovial membrane of articular capsule of synovial joint,uberon_synonym,direct_anatomical,False,UBERON:0002018,inventory_only
+geometa:organ:a4e497bc9ad0dd2a,Synovium,synovial membrane,synovial membrane,uberon_synonym,direct_anatomical,False,UBERON:0002018,inventory_only
+geometa:organ:a4e497bc9ad0dd2a,Synovium,synovium of articular capsule of synovial joint,synovium of articular capsule of synovial joint,uberon_synonym,direct_anatomical,False,UBERON:0002018,inventory_only
+geometa:organ:a4e497bc9ad0dd2a,Synovium,synovium,synovium,uberon_synonym,direct_anatomical,False,UBERON:0002018,inventory_only
+geometa:organ:a4e497bc9ad0dd2a,Synovium,synovium,synovium,manual_safe_alias,direct_anatomical,True,UBERON:0002018,reviewed
+geometa:organ:a4e497bc9ad0dd2a,Synovium,synovial membrane,synovial membrane,manual_safe_alias,direct_anatomical,True,UBERON:0002018,reviewed
+geometa:organ:a4e497bc9ad0dd2a,Synovium,synovial tissue,synovial tissue,manual_safe_alias,direct_anatomical,True,UBERON:0002018,reviewed
+geometa:organ:7f795d9df1c1c7c3,Testis,Testis,testis,geometa_label,direct_anatomical,True,UBERON:0000473,reviewed
+geometa:organ:7f795d9df1c1c7c3,Testis,testis,testis,uberon_preferred_label,direct_anatomical,True,UBERON:0000473,reviewed
+geometa:organ:7f795d9df1c1c7c3,Testis,gonad of male genitalia,gonad of male genitalia,uberon_synonym,direct_anatomical,False,UBERON:0000473,inventory_only
+geometa:organ:7f795d9df1c1c7c3,Testis,gonad of male reproductive system,gonad of male reproductive system,uberon_synonym,direct_anatomical,False,UBERON:0000473,inventory_only
+geometa:organ:7f795d9df1c1c7c3,Testis,male gonad,male gonad,uberon_synonym,direct_anatomical,False,UBERON:0000473,inventory_only
+geometa:organ:7f795d9df1c1c7c3,Testis,orchis,orchis,uberon_synonym,direct_anatomical,False,UBERON:0000473,inventory_only
+geometa:organ:7f795d9df1c1c7c3,Testis,testes,testes,uberon_synonym,direct_anatomical,False,UBERON:0000473,inventory_only
+geometa:organ:7f795d9df1c1c7c3,Testis,testicle,testicle,uberon_synonym,direct_anatomical,False,UBERON:0000473,inventory_only
+geometa:organ:7f795d9df1c1c7c3,Testis,testiculus,testiculus,uberon_synonym,direct_anatomical,False,UBERON:0000473,inventory_only
+geometa:organ:7f795d9df1c1c7c3,Testis,testis,testis,manual_safe_alias,direct_anatomical,True,UBERON:0000473,reviewed
+geometa:organ:7f795d9df1c1c7c3,Testis,testes,testes,manual_safe_alias,direct_anatomical,True,UBERON:0000473,reviewed
+geometa:organ:7f795d9df1c1c7c3,Testis,testicular tissue,testicular tissue,manual_safe_alias,direct_anatomical,True,UBERON:0000473,reviewed
+geometa:organ:e655111f9e542a38,Thyroid gland,Thyroid gland,thyroid gland,geometa_label,direct_anatomical,True,UBERON:0002046,reviewed
+geometa:organ:e655111f9e542a38,Thyroid gland,thyroid gland,thyroid gland,uberon_preferred_label,direct_anatomical,True,UBERON:0002046,reviewed
+geometa:organ:e655111f9e542a38,Thyroid gland,thyroid,thyroid,uberon_synonym,direct_anatomical,False,UBERON:0002046,inventory_only
+geometa:organ:e655111f9e542a38,Thyroid gland,glandula thyroidea,glandula thyroidea,uberon_synonym,direct_anatomical,False,UBERON:0002046,inventory_only
+geometa:organ:e655111f9e542a38,Thyroid gland,thyroid,thyroid,manual_safe_alias,direct_anatomical,True,UBERON:0002046,reviewed
+geometa:organ:e655111f9e542a38,Thyroid gland,thyroid gland,thyroid gland,manual_safe_alias,direct_anatomical,True,UBERON:0002046,reviewed
+geometa:organ:754dc3f86b388824,Tongue,Tongue,tongue,geometa_label,direct_anatomical,True,UBERON:0001723,reviewed
+geometa:organ:754dc3f86b388824,Tongue,tongue,tongue,uberon_preferred_label,direct_anatomical,True,UBERON:0001723,reviewed
+geometa:organ:754dc3f86b388824,Tongue,glossus,glossus,uberon_synonym,direct_anatomical,False,UBERON:0001723,inventory_only
+geometa:organ:754dc3f86b388824,Tongue,tongue,tongue,manual_safe_alias,direct_anatomical,True,UBERON:0001723,reviewed
+geometa:organ:754dc3f86b388824,Tongue,lingual tissue,lingual tissue,manual_safe_alias,direct_anatomical,True,UBERON:0001723,reviewed
+geometa:organ:42b1b689a9691b8b,Umbilical vein,Umbilical vein,umbilical vein,geometa_label,direct_anatomical,True,UBERON:0002066,reviewed
+geometa:organ:42b1b689a9691b8b,Umbilical vein,umbilical vein,umbilical vein,uberon_preferred_label,direct_anatomical,True,UBERON:0002066,reviewed
+geometa:organ:42b1b689a9691b8b,Umbilical vein,vena umbilicalis,vena umbilicalis,uberon_synonym,direct_anatomical,False,UBERON:0002066,inventory_only
+geometa:organ:42b1b689a9691b8b,Umbilical vein,umbilical vein,umbilical vein,manual_safe_alias,direct_anatomical,True,UBERON:0002066,reviewed
+geometa:organ:8685169f491bc9c7,Urinary bladder,Urinary bladder,urinary bladder,geometa_label,direct_anatomical,True,UBERON:0001255,reviewed
+geometa:organ:8685169f491bc9c7,Urinary bladder,urinary bladder,urinary bladder,uberon_preferred_label,direct_anatomical,True,UBERON:0001255,reviewed
+geometa:organ:8685169f491bc9c7,Urinary bladder,bladder,bladder,uberon_synonym,direct_anatomical,False,UBERON:0001255,inventory_only
+geometa:organ:8685169f491bc9c7,Urinary bladder,urocyst,urocyst,uberon_synonym,direct_anatomical,False,UBERON:0001255,inventory_only
+geometa:organ:8685169f491bc9c7,Urinary bladder,vesica urinaria,vesica urinaria,uberon_synonym,direct_anatomical,False,UBERON:0001255,inventory_only
+geometa:organ:8685169f491bc9c7,Urinary bladder,vesica,vesica,uberon_synonym,direct_anatomical,False,UBERON:0001255,inventory_only
+geometa:organ:8685169f491bc9c7,Urinary bladder,urinary bladder,urinary bladder,manual_safe_alias,direct_anatomical,True,UBERON:0001255,reviewed
+geometa:organ:8685169f491bc9c7,Urinary bladder,bladder tissue,bladder tissue,manual_safe_alias,direct_anatomical,True,UBERON:0001255,reviewed
+geometa:organ:8685169f491bc9c7,Urinary bladder,urothelium,urothelium,manual_safe_alias,direct_anatomical,True,UBERON:0001255,reviewed
+geometa:organ:083eedf20c70a096,Vagina,Vagina,vagina,geometa_label,direct_anatomical,True,UBERON:0000996,reviewed
+geometa:organ:083eedf20c70a096,Vagina,vagina,vagina,uberon_preferred_label,direct_anatomical,True,UBERON:0000996,reviewed
+geometa:organ:083eedf20c70a096,Vagina,distal oviductal region,distal oviductal region,uberon_synonym,direct_anatomical,False,UBERON:0000996,inventory_only
+geometa:organ:083eedf20c70a096,Vagina,distal portion of oviduct,distal portion of oviduct,uberon_synonym,direct_anatomical,False,UBERON:0000996,inventory_only
+geometa:organ:083eedf20c70a096,Vagina,vaginae,vaginae,uberon_synonym,direct_anatomical,False,UBERON:0000996,inventory_only
+geometa:organ:083eedf20c70a096,Vagina,vagina,vagina,manual_safe_alias,direct_anatomical,True,UBERON:0000996,reviewed
+geometa:organ:083eedf20c70a096,Vagina,vaginal tissue,vaginal tissue,manual_safe_alias,direct_anatomical,True,UBERON:0000996,reviewed

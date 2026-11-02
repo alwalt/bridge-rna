@@ -24,6 +24,11 @@ EXPECTED = [
     "survival_5fold_oof_representation_comparison.csv",
     "survival_5fold_oof_comparison_to_repeated_splits.csv",
     "survival_5fold_oof_provenance.json",
+    "bridge_layerwise_survival_5fold_oof_predictions.csv",
+    "bridge_layerwise_survival_5fold_oof_metrics.csv",
+    "bridge_layerwise_survival_5fold_oof_per_cancer.csv",
+    "bridge_layerwise_survival_summary.csv",
+    "bridge_layerwise_survival_provenance.json",
 ]
 FIGURES = [
     "bridge_5fold_oof_per_cancer_survival_forest.png",
@@ -32,6 +37,9 @@ FIGURES = [
     "bridge_pca_raw_5fold_oof_survival_forest.png",
     "bridge_pca_raw_5fold_oof_survival_three_panel.png",
     "bridge_vs_conventional_5fold_oof_delta_cindex.png",
+    "bridge_layerwise_survival_cindex.png",
+    "bridge_layerwise_per_cancer_survival_heatmap.png",
+    "bridge_layerwise_vs_l12_delta_heatmap.png",
 ]
 
 
@@ -67,6 +75,17 @@ def main() -> None:
     assert predictions.groupby(["representation", "patient_id"]).size().eq(1).all()
     assert reference is not None
     assert reference.patient_id.map(manifest.set_index("patient_id").fold).eq(reference.fold).all()
+
+    layerwise = pd.read_csv(RESULTS / "bridge_layerwise_survival_5fold_oof_predictions.csv")
+    assert set(layerwise.layer) == set(range(1, 13))
+    assert layerwise.groupby("layer").size().eq(len(manifest)).all()
+    assert layerwise.groupby(["layer", "patient_id"]).size().eq(1).all()
+    l12 = layerwise[layerwise.layer.eq(12)].sort_values("patient_id").reset_index(drop=True)
+    primary = predictions[predictions.representation.eq("Bridge 45.6M")].sort_values("patient_id").reset_index(drop=True)
+    assert np.array_equal(l12.patient_id.to_numpy(), primary.patient_id.to_numpy())
+    assert np.array_equal(l12.fold.to_numpy(), primary.fold.to_numpy())
+    # CSV round-tripping can move a float by one machine-precision unit.
+    assert np.allclose(l12.risk.to_numpy(), primary.risk_score.to_numpy(), atol=1e-15, rtol=0)
 
     finite_columns(RESULTS / "survival_5fold_oof_metrics.csv",
                    ["oof_survival_c_index", "comparable_pairs"])
@@ -108,6 +127,8 @@ def main() -> None:
         "fold_aware_concordance": True,
         "notebook_all_cells_executed": True,
         "expected_outputs_present": True,
+        "layerwise_l1_l12_complete": True,
+        "layerwise_l12_matches_primary": True,
     }
     (RESULTS / "final_qa.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))

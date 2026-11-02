@@ -1,0 +1,151 @@
+method,source_name_ch1,top10_occurrences
+Raw cosine,RNA from fusiform gyrus,1737
+Raw cosine,tumor,1650
+Raw cosine,Human normal breast tissue,1092
+Raw cosine,paired normal gastric tissue,1001
+Raw cosine,vastus lateralis muscle,922
+Raw cosine,Adult Testis,921
+Raw cosine,gastric body,921
+Raw cosine,subcutaneous adipose tissue (SAT),895
+Raw cosine,PrimaryPDAC,855
+Raw cosine,musculus vastus lateralis,767
+Raw cosine,Human breast adjacent normal,766
+Raw cosine,Gastric,758
+Raw cosine,Breast_BII,700
+Raw cosine,Adjacent non-tumor tissue Colon,690
+Raw cosine,sperm,676
+Raw cosine,Benign_Tissue,675
+Raw cosine,Left Atria,672
+Raw cosine,EPICARDIAL ADIPOSE TISSUE,616
+Raw cosine,bulk synovial tissue,505
+Raw cosine,Right atrial appendage,485
+Raw cosine,Bladder non-tumor tissue,475
+Raw cosine,"Lung,NDC.Apex,Whole lung",468
+Raw cosine,Bulk OFC tissue,453
+Raw cosine,Heart Right Ventricle,452
+Raw cosine,Primary Heart Tissue,417
+Raw cosine,gastric tumor,401
+Raw cosine,Postmortem Brain Brodmann Area 9,386
+Raw cosine,RNA from cardiac left ventricle,385
+Raw cosine,Cardiac tissue,384
+Raw cosine,Shoulder Capsule,377
+ABTT D=10,tumor,1555
+ABTT D=10,subcutaneous adipose tissue (SAT),1344
+ABTT D=10,RNA from fusiform gyrus,1332
+ABTT D=10,Human breast adjacent normal,1275
+ABTT D=10,CBC,1116
+ABTT D=10,vastus lateralis muscle,1109
+ABTT D=10,paired normal gastric tissue,1098
+ABTT D=10,testicular biopsy,1031
+ABTT D=10,Right Atrium,997
+ABTT D=10,BA9 prefrontal cortex,994
+ABTT D=10,gastric tumor,980
+ABTT D=10,Colon wall,936
+ABTT D=10,Gastric,891
+ABTT D=10,Benign_Tissue,888
+ABTT D=10,Stomach muscularis,816
+ABTT D=10,PrimaryPDAC,738
+ABTT D=10,"Lung,IPF.Apex,Whole lung",721
+ABTT D=10,musculus vastus lateralis,702
+ABTT D=10,"Lung,NDC.Apex,Whole lung",640
+ABTT D=10,bulk synovial tissue,604
+ABTT D=10,gastric body,598
+ABTT D=10,human left ventricle apex tissue,587
+ABTT D=10,Breast_BII,511
+ABTT D=10,skeletal_muscle,459
+ABTT D=10,"heart, right atrium",424
+ABTT D=10,Bulk OFC tissue,423
+ABTT D=10,Cardiac tissue,403
+ABTT D=10,Heart Right Ventricle,396
+ABTT D=10,Primary Heart Tissue,374
+ABTT D=10,Left Atria,346
+Whitening,Human breast adjacent normal,1666
+Whitening,Colon wall,1583
+Whitening,tumor,1553
+Whitening,subcutaneous adipose tissue (SAT),1336
+Whitening,Gastric,1260
+Whitening,BA9 prefrontal cortex,1204
+Whitening,CBC,1173
+Whitening,vastus lateralis muscle,1080
+Whitening,RNA from fusiform gyrus,1037
+Whitening,Benign_Tissue,870
+Whitening,Right Atrium,869
+Whitening,paired normal gastric tissue,855
+Whitening,testicular biopsy,853
+Whitening,Human normal breast tissue,740
+Whitening,"Lung,NDC.Apex,Whole lung",711
+Whitening,PrimaryPDAC,702
+Whitening,musculus vastus lateralis,619
+Whitening,"Lung,IPF.Apex,Whole lung",594
+Whitening,Heart Right Ventricle,588
+Whitening,Primary Heart Tissue,547
+Whitening,Adjacent non-tumor tissue Colon,545
+Whitening,Bulk OFC tissue,473
+Whitening,human left ventricle apex tissue,468
+Whitening,Cardiac tissue,435
+Whitening,Stomach muscularis,432
+Whitening,post mortem frozen tissue,403
+Whitening,gastric body,400
+Whitening,gastrocnemius muscle biopsy,396
+Whitening,subcutaneous adipose tissues,393
+Whitening,gastric tumor,373
+NICDM,RNA from fusiform gyrus,1646
+NICDM,sperm,1519
+NICDM,tumor,1216
+NICDM,vastus lateralis muscle,1142
+NICDM,paired normal gastric tissue,883
+NICDM,PrimaryPDAC,832
+NICDM,Human normal breast tissue,826
+NICDM,muscle vastus lateralis,780
+NICDM,gastric body,672
+NICDM,Bladder non-tumor tissue,650
+NICDM,bulk synovial tissue,635
+NICDM,subcutaneous adipose tissue (SAT),630
+NICDM,Gastric,600
+NICDM,Right atrial appendage,583
+NICDM,Adult Testis,576
+NICDM,EPICARDIAL ADIPOSE TISSUE,566
+NICDM,Left Atria,546
+NICDM,Human breast adjacent normal,478
+NICDM,musculus vastus lateralis,457
+NICDM,Breast_BII,436
+NICDM,Lung adjacent normal,431
+NICDM,Benign_Tissue,426
+NICDM,Adjacent non-tumor tissue Colon,414
+NICDM,Heart Right Ventricle,365
+NICDM,Lymphoid tissue,364
+NICDM,Muscle Biopsy,352
+NICDM,Bulk OFC tissue,350
+NICDM,Shoulder Capsule,340
+NICDM,lung carcinoma,323
+NICDM,OMENTAL TISSUE,319
+Local Scaling,RNA from fusiform gyrus,1640
+Local Scaling,sperm,1415
+Local Scaling,tumor,1235
+Local Scaling,vastus lateralis muscle,1125
+Local Scaling,paired normal gastric tissue,889
+Local Scaling,Human normal breast tissue,862
+Local Scaling,PrimaryPDAC,839
+Local Scaling,muscle vastus lateralis,727
+Local Scaling,gastric body,721
+Local Scaling,subcutaneous adipose tissue (SAT),641
+Local Scaling,Bladder non-tumor tissue,624
+Local Scaling,bulk synovial tissue,596
+Local Scaling,Adult Testis,595
+Local Scaling,Gastric,587
+Local Scaling,Right atrial appendage,572
+Local Scaling,EPICARDIAL ADIPOSE TISSUE,545
+Local Scaling,Left Atria,533
+Local Scaling,Human breast adjacent normal,514
+Local Scaling,musculus vastus lateralis,477
+Local Scaling,Breast_BII,449
+Local Scaling,Benign_Tissue,448
+Local Scaling,Adjacent non-tumor tissue Colon,418
+Local Scaling,Lung adjacent normal,390
+Local Scaling,Heart Right Ventricle,390
+Local Scaling,Lymphoid tissue,369
+Local Scaling,Shoulder Capsule,355
+Local Scaling,Bulk OFC tissue,353
+Local Scaling,RNA from cardiac left ventricle,317
+Local Scaling,gastric tumor,316
+Local Scaling,Muscle Biopsy,316

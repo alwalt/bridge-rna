@@ -1,0 +1,32 @@
+[setup] Loaded E0/E1/E2 representations
+[mapping] using mapped non-duplicate genes: 15150
+[mapping] full status counts: {'mapped': 15150, 'unmapped': 11, 'ambiguous_synonym': 2, 'ambiguous_official_symbol': 2}
+[GO/E0_static] terms=20/56 elapsed=0.6m rate=0.58/s eta=1.0m
+[GO/E0_static] terms=40/56 elapsed=1.5m rate=0.46/s eta=0.6m
+[GO/E0_static] terms=56/56 elapsed=1.9m rate=0.49/s eta=0.0m
+[GO/E1_null_L12] terms=20/56 elapsed=0.5m rate=0.71/s eta=0.8m
+[GO/E1_null_L12] terms=40/56 elapsed=1.2m rate=0.55/s eta=0.5m
+[GO/E1_null_L12] terms=56/56 elapsed=1.6m rate=0.59/s eta=0.0m
+[GO/E2_GTEx200_L12] terms=20/56 elapsed=0.5m rate=0.73/s eta=0.8m
+[GO/E2_GTEx200_L12] terms=40/56 elapsed=1.2m rate=0.56/s eta=0.5m
+[GO/E2_GTEx200_L12] terms=56/56 elapsed=1.6m rate=0.60/s eta=0.0m
+[OMIM/E0_static] terms=20/103 elapsed=0.4m rate=0.87/s eta=1.6m
+[OMIM/E0_static] terms=40/103 elapsed=0.8m rate=0.80/s eta=1.3m
+[OMIM/E0_static] terms=60/103 elapsed=1.1m rate=0.87/s eta=0.8m
+[OMIM/E0_static] terms=80/103 elapsed=1.4m rate=0.98/s eta=0.4m
+[OMIM/E0_static] terms=100/103 elapsed=2.0m rate=0.82/s eta=0.1m
+[OMIM/E0_static] terms=103/103 elapsed=2.1m rate=0.83/s eta=0.0m
+[OMIM/E1_null_L12] terms=20/103 elapsed=0.4m rate=0.93/s eta=1.5m
+[OMIM/E1_null_L12] terms=40/103 elapsed=0.7m rate=0.92/s eta=1.1m
+[OMIM/E1_null_L12] terms=60/103 elapsed=1.0m rate=1.04/s eta=0.7m
+[OMIM/E1_null_L12] terms=80/103 elapsed=1.1m rate=1.16/s eta=0.3m
+[OMIM/E1_null_L12] terms=100/103 elapsed=1.7m rate=0.97/s eta=0.1m
+[OMIM/E1_null_L12] terms=103/103 elapsed=1.7m rate=0.98/s eta=0.0m
+[OMIM/E2_GTEx200_L12] terms=20/103 elapsed=0.4m rate=0.91/s eta=1.5m
+[OMIM/E2_GTEx200_L12] terms=40/103 elapsed=0.7m rate=0.93/s eta=1.1m
+[OMIM/E2_GTEx200_L12] terms=60/103 elapsed=1.0m rate=1.04/s eta=0.7m
+[OMIM/E2_GTEx200_L12] terms=80/103 elapsed=1.1m rate=1.17/s eta=0.3m
+[OMIM/E2_GTEx200_L12] terms=100/103 elapsed=1.7m rate=0.96/s eta=0.1m
+[OMIM/E2_GTEx200_L12] terms=103/103 elapsed=1.8m rate=0.97/s eta=0.0m
+[done] GO+OMIM E0/E1/E2 benchmark complete
+[done] results: /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/results

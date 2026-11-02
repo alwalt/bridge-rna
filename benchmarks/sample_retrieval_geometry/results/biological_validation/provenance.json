@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-09-22T23:35:29.750291",
+  "stage": "1A-1H",
+  "bridge_frozen": true,
+  "representation_learning": false,
+  "queries": 562,
+  "references": 510709,
+  "minimum_reference_support": 50,
+  "minimum_study_support": 3,
+  "exact_gsm_excluded_from_biological_retrieval": true,
+  "tissue_mapping_provenance": "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/library_prep_disentanglement/pipeline/analyze_pca_vs_bridgerna_generalization.py",
+  "inputs": {
+    "upstream_benchmark": "/home/walt/bridge-rna/benchmarks/paired_recount3",
+    "embedding_dir": "/home/walt/bridge-rna/embeddings/archs4",
+    "sample_manifest": "/home/walt/bridge-rna/data/manifests/sample_manifest.parquet",
+    "sample_metadata": "/home/walt/bridge-rna/data/manifests/archs4_sample_metadata_v2.5.parquet",
+    "canonical_genes": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv"
+  },
+  "runtime_seconds": 91.63824462890625,
+  "limitations": [
+    "source_name_ch1 is structured but submitter-defined and heterogeneous",
+    "conservative tissue mapping covers only blood and brain among eligible queries and is blood-dominated",
+    "cell type, cell line, disease, treatment, and primary/cultured status were not inferred from free text"
+  ]
+}

@@ -1,0 +1,21 @@
+method,cutoff,recall,weighting
+Raw cosine,r_at_1,0.2846975088967972,Sample-micro
+Whitening,r_at_1,0.4661921708185053,Sample-micro
+Raw cosine,r_at_5,0.6957295373665481,Sample-micro
+Whitening,r_at_5,0.9341637010676156,Sample-micro
+Raw cosine,r_at_10,0.7722419928825622,Sample-micro
+Whitening,r_at_10,0.9448398576512456,Sample-micro
+Raw cosine,r_at_100,0.9181494661921707,Sample-micro
+Whitening,r_at_100,0.9911032028469752,Sample-micro
+Raw cosine,r_at_1000,0.9750889679715302,Sample-micro
+Whitening,r_at_1000,1.0,Sample-micro
+Raw cosine,r_at_1,0.3296507341653618,Study-macro
+Whitening,r_at_1,0.3765808589312579,Study-macro
+Raw cosine,r_at_5,0.6597139950032238,Study-macro
+Whitening,r_at_5,0.92427398989899,Study-macro
+Raw cosine,r_at_10,0.7591886283043199,Study-macro
+Whitening,r_at_10,0.9412089646464648,Study-macro
+Raw cosine,r_at_100,0.9132733585858588,Study-macro
+Whitening,r_at_100,0.9791666666666666,Study-macro
+Raw cosine,r_at_1000,0.9697916666666668,Study-macro
+Whitening,r_at_1000,1.0,Study-macro

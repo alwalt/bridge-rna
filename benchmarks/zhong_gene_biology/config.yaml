@@ -1,0 +1,34 @@
+benchmark_name: zhong_gene_biology
+bridge:
+  checkpoint: model/r7hnr92k/best_model.pt
+  checkpoint_config: model/r7hnr92k/config.json
+  canonical_vocabulary: data/ensembl/canonical_genes.csv
+  static_embedding_tensor: model_state_dict.gene_embedding.weight
+  static_embedding_cache_candidates:
+    - benchmarks/static_gene_embeddings/work/static_gene_embedding.float32.npy
+    - benchmarks/static_gene_embeddings/results/static_embeddings/static_gene_embedding.float32.npy
+zhong_reference:
+  repo_url: https://github.com/ylaboratory/gene-embedding-benchmarks
+  local_repo: benchmarks/zhong_gene_biology/references/gene-embedding-benchmarks
+  go_cv_fold1: data/data_splits/gene_level_benchmark/go_folds_splits/go_cv_fold1_dict_all.pkl
+  go_cv_fold2: data/data_splits/gene_level_benchmark/go_folds_splits/go_cv_fold2_dict_all.pkl
+  go_cv_fold3: data/data_splits/gene_level_benchmark/go_folds_splits/go_cv_fold3_dict_all.pkl
+  go_holdout: data/data_splits/gene_level_benchmark/go_folds_splits/go_holdout_dict_all.pkl
+  omim_cv_fold1: data/data_splits/gene_level_benchmark/omim_folds_splits/omim_cv_fold1_dict_all.pkl
+  omim_cv_fold2: data/data_splits/gene_level_benchmark/omim_folds_splits/omim_cv_fold2_dict_all.pkl
+  omim_cv_fold3: data/data_splits/gene_level_benchmark/omim_folds_splits/omim_cv_fold3_dict_all.pkl
+  omim_holdout: data/data_splits/gene_level_benchmark/omim_folds_splits/omim_holdout_dict_all.pkl
+  pair_sl: data/data_splits/gene_pair_benchmark/sl_nested_cv_splits.pkl
+  pair_ng: data/data_splits/gene_pair_benchmark/ng_nested_cv_splits.pkl
+  pair_tf: data/data_splits/gene_pair_benchmark/tf_nested_cv_splits.pkl
+mapping:
+  ncbi_gene_info_url: https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz
+  ncbi_gene_info_local: benchmarks/zhong_gene_biology/references/Homo_sapiens.gene_info.gz
+  minimum_retained_positive_genes: 20
+outputs:
+  mapping_tsv: benchmarks/zhong_gene_biology/bridge_gene_mapping.tsv
+  phase0_json: benchmarks/zhong_gene_biology/coverage/phase0_bridge_embedding_audit.json
+  coverage_summary_csv: benchmarks/zhong_gene_biology/coverage/coverage_summary.csv
+  term_coverage_csv: benchmarks/zhong_gene_biology/coverage/term_coverage.csv
+  pair_coverage_csv: benchmarks/zhong_gene_biology/coverage/pair_coverage.csv
+  run_log: benchmarks/zhong_gene_biology/logs/phase1_mapping_coverage.log

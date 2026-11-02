@@ -1,0 +1,67 @@
+{
+  "seed": 20260923,
+  "methods": [
+    "Raw cosine",
+    "ABTT D=10",
+    "Whitening",
+    "NICDM",
+    "Local Scaling",
+    "CSLS"
+  ],
+  "primary_methods": [
+    "Raw cosine",
+    "ABTT D=10",
+    "Whitening",
+    "NICDM",
+    "Local Scaling"
+  ],
+  "k": [
+    1,
+    5,
+    10,
+    100
+  ],
+  "minimum_archs4_references": 100,
+  "minimum_archs4_gses": 5,
+  "archs4_tissue_patterns": {
+    "blood": "^(whole |peripheral )?blood$|^pbmcs?$",
+    "brain": "^brain( tissue)?$|^cerebral cortex$|^cortex$",
+    "liver": "^liver( tissue)?$",
+    "lung": "^lung( tissue)?$",
+    "skin": "^skin( tissue)?$",
+    "breast": "^(breast|mammary gland)( tissue)?$",
+    "colon": "^(colon|colonic mucosa)( tissue)?$",
+    "kidney": "^kidney( tissue)?$|^renal cortex$",
+    "prostate": "^prostate( tissue)?$",
+    "pancreas": "^pancreas( tissue)?$",
+    "adipose": "^(adipose|adipose tissue|subcutaneous adipose tissue)$",
+    "ovary": "^ovary( tissue)?$",
+    "heart": "^heart( tissue)?$|^left ventricle$",
+    "skeletal_muscle": "^(skeletal )?muscle( tissue)?$",
+    "spleen": "^spleen( tissue)?$",
+    "testis": "^(testis|testes)( tissue)?$",
+    "adrenal": "^adrenal gland( tissue)?$",
+    "stomach": "^stomach( tissue)?$"
+  },
+  "gtex_to_archs4_mapping": {
+    "adrenal": "adrenal",
+    "subcutaneous adipose": "adipose",
+    "cerebellum": "brain",
+    "cortex": "brain",
+    "frontal cortex": "brain",
+    "hippocampus": "brain",
+    "heart": "heart",
+    "liver": "liver",
+    "lung": "lung",
+    "mammary gland": "breast",
+    "ovary": "ovary",
+    "pancreas": "pancreas",
+    "sigmoid colon": "colon",
+    "skeletal muscle": "skeletal_muscle",
+    "spleen": "spleen",
+    "stomach": "stomach",
+    "testis": "testis"
+  },
+  "reference_exclusion": "explicit GTEx identifier/origin in title or characteristics",
+  "reference_fit_only": true
+}

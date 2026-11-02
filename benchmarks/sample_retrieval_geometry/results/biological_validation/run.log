@@ -1,0 +1,7 @@
+[2026-09-22T23:33:58.112662] Starting Stage 1A-1H biological validation; estimated runtime 2-5 minutes
+[2026-09-22T23:33:58.112848] Monitor with: tail -f /home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/results/biological_validation/run.log
+[2026-09-22T23:34:25.320365] Biological retrieval: Cosine; elapsed=27s
+[2026-09-22T23:34:37.168965] Biological retrieval: CSLS(k=10); elapsed=39s
+[2026-09-22T23:34:49.446643] Biological retrieval: LocalScaling(k=10); elapsed=51s
+[2026-09-22T23:35:01.936973] Biological retrieval: NICDM(k=10); elapsed=64s
+[2026-09-22T23:35:29.750915] Completed biological validation in 91.6s: /home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/results/biological_validation

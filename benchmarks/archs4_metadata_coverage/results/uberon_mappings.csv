@@ -1,0 +1,55 @@
+field,canonical_label,ontology_id,ontology_label,ontology_name,mapping_method,mapping_status
+organ,Adipose tissue,UBERON:0001013,adipose tissue,UBERON,OLS4 exact label,reliable
+organ,Adrenal gland,UBERON:0002369,adrenal gland,UBERON,OLS4 exact label,reliable
+organ,Blood,UBERON:0000178,blood,UBERON,OLS4 exact label,reliable
+organ,Bone marrow,UBERON:0002371,bone marrow,UBERON,OLS4 exact label,reliable
+organ,Brain,UBERON:0000955,brain,UBERON,OLS4 exact label,reliable
+organ,Brain: Amygdala,,,UBERON,OLS4 exact label,unmapped
+organ,Brain: Basal ganglia,,,UBERON,OLS4 exact label,unmapped
+organ,Brain: Cerebellum,,,UBERON,OLS4 exact label,unmapped
+organ,Brain: Cerebral cortex,,,UBERON,OLS4 exact label,unmapped
+organ,Brain: Choroid plexus,,,UBERON,OLS4 exact label,unmapped
+organ,Brain: Hippocampal formation,,,UBERON,OLS4 exact label,unmapped
+organ,Brain: Hypothalamus,,,UBERON,OLS4 exact label,unmapped
+organ,Brain: Medulla oblongata,,,UBERON,OLS4 exact label,unmapped
+organ,Brain: Midbrain,,,UBERON,OLS4 exact label,unmapped
+organ,Brain: Pons,,,UBERON,OLS4 exact label,unmapped
+organ,Brain: Spinal cord,,,UBERON,OLS4 exact label,unmapped
+organ,Brain: Thalamus,,,UBERON,OLS4 exact label,unmapped
+organ,Brain: White matter,,,UBERON,OLS4 exact label,unmapped
+organ,Breast,UBERON:0000310,breast,UBERON,OLS4 exact label,reliable
+organ,Cervix,,,UBERON,OLS4 exact label,unmapped
+organ,Endometrium,UBERON:0001295,endometrium,UBERON,OLS4 exact label,reliable
+organ,Epididymis,UBERON:0001301,epididymis,UBERON,OLS4 exact label,reliable
+organ,Esophagus,UBERON:0001043,esophagus,UBERON,OLS4 exact label,reliable
+organ,Eye,UBERON:0000970,eye,UBERON,OLS4 exact label,reliable
+organ,Fallopian tube,UBERON:0003889,fallopian tube,UBERON,OLS4 exact label,reliable
+organ,Gallbladder,UBERON:0002110,gallbladder,UBERON,OLS4 exact label,reliable
+organ,Head and Neck,,,UBERON,OLS4 exact label,unmapped
+organ,Heart,UBERON:0000948,heart,UBERON,OLS4 exact label,reliable
+organ,Intestine,UBERON:0000160,intestine,UBERON,OLS4 exact label,reliable
+organ,Kidney,UBERON:0002113,kidney,UBERON,OLS4 exact label,reliable
+organ,Liver,UBERON:0002107,liver,UBERON,OLS4 exact label,reliable
+organ,Lung,UBERON:0002048,lung,UBERON,OLS4 exact label,reliable
+organ,Lymphoid tissue,UBERON:0001744,lymphoid tissue,UBERON,OLS4 exact label,reliable
+organ,Nasal,,,UBERON,OLS4 exact label,unmapped
+organ,Nasopharynx,UBERON:0001728,nasopharynx,UBERON,OLS4 exact label,reliable
+organ,Oropharynx,UBERON:0001729,oropharynx,UBERON,OLS4 exact label,reliable
+organ,Ovary,UBERON:0000992,ovary,UBERON,OLS4 exact label,reliable
+organ,Pancreas,UBERON:0001264,pancreas,UBERON,OLS4 exact label,reliable
+organ,Pituitary gland,UBERON:0000007,pituitary gland,UBERON,OLS4 exact label,reliable
+organ,Placenta,UBERON:0001987,placenta,UBERON,OLS4 exact label,reliable
+organ,Prostate,,,UBERON,OLS4 exact label,unmapped
+organ,Retina,UBERON:0000966,retina,UBERON,OLS4 exact label,reliable
+organ,Salivary gland,,,UBERON,OLS4 exact label,unmapped
+organ,Skeletal muscle,,,UBERON,OLS4 exact label,unmapped
+organ,Skin,,,UBERON,OLS4 exact label,unmapped
+organ,Smooth muscle,,,UBERON,OLS4 exact label,unmapped
+organ,Stomach,UBERON:0000945,stomach,UBERON,OLS4 exact label,reliable
+organ,Synovium,,,UBERON,OLS4 exact label,unmapped
+organ,Testis,UBERON:0000473,testis,UBERON,OLS4 exact label,reliable
+organ,Thyroid gland,UBERON:0002046,thyroid gland,UBERON,OLS4 exact label,reliable
+organ,Tongue,UBERON:0001723,tongue,UBERON,OLS4 exact label,reliable
+organ,Umbilical vein,UBERON:0002066,umbilical vein,UBERON,OLS4 exact label,reliable
+organ,Urinary bladder,UBERON:0001255,urinary bladder,UBERON,OLS4 exact label,reliable
+organ,Vagina,UBERON:0000996,vagina,UBERON,OLS4 exact label,reliable

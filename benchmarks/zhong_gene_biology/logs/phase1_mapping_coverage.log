@@ -1,0 +1,11 @@
+[start] Bridge Zhong Phase0/1 audit
+[setup] Reusing local Zhong repository: /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/references/gene-embedding-benchmarks
+[phase0] wrote /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/phase0_bridge_embedding_audit.json
+[setup] Reusing NCBI gene_info: /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/references/Homo_sapiens.gene_info.gz
+[phase1] wrote mapping table: /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/bridge_gene_mapping.tsv
+[phase1] computing term coverage
+[phase1] wrote term coverage: /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/term_coverage.csv
+[phase1] computing pair coverage
+[phase1] wrote pair coverage: /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/pair_coverage.csv
+[phase1] wrote coverage summary: /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/coverage_summary.csv
+[done] wrote report: /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/phase1_report.json

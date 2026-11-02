@@ -1,0 +1,26 @@
+{
+  "state_rules": {
+    "tumor_cancer": {
+      "malignant_terms": "\\b(?:tumou?r|cancer|carcinoma|adenocarcinoma|sarcoma|leukemia|leukaemia|lymphoma|melanoma|glioma|neoplasm|malignan(?:t|cy))\\b"
+    },
+    "normal_healthy": {
+      "normal_terms": "\\b(?:normal|healthy|non[- ]?diseased|non[- ]?malignant|benign)\\b"
+    },
+    "treated": {
+      "treatment_terms": "\\b(?:treated with|drug[- ]treated|treatment\\s*:|exposed to|stimulated with|irradiated|transfected with|knockdown|siRNA[- ]treated|CRISPR[- ]treated)\\b"
+    },
+    "control": {
+      "control_terms": "\\b(?:control|ctrl|vehicle|untreated|mock|baseline|placebo|wild[- ]?type|scrambled|non[- ]?targeting)\\b"
+    }
+  },
+  "material_rules": {
+    "primary_tissue": {
+      "primary_tissue_terms": "\\b(?:primary tissue|primary human (?:tissue|cells?)|biopsy|surgical (?:specimen|tissue)|tissue specimen|post[- ]?mortem|whole blood|peripheral blood)\\b"
+    },
+    "cell_line": {
+      "cell_line_terms": "\\b(?:cell line|cell-line|immortali[sz]ed|transformed cell|cultured cells?)\\b|(?:^|[,;])\\s*cell line\\s*:"
+    }
+  },
+  "conflict_policy": "More than one label on an axis is unknown/conflict; no match is unknown/none.",
+  "query_context": "GTEx source_tissue explicitly supports primary_tissue. GTEx query normal/healthy state is not asserted sample-wise; normal_healthy is reported only as a proxy rate, not authoritative agreement."
+}

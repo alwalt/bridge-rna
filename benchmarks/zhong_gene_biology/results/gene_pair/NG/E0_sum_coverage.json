@@ -1,0 +1,12 @@
+{
+  "task": "NG",
+  "representation": "E0_static",
+  "joining_operation": "sum",
+  "original_pairs": 116248,
+  "original_positive_pairs": 10568,
+  "original_negative_pairs": 105680,
+  "retained_pairs": 90493,
+  "retained_positive_pairs": 9054,
+  "retained_negative_pairs": 81439,
+  "retained_positive_percentage": 0.8567373202119606
+}

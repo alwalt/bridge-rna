@@ -1,0 +1,34 @@
+{
+  "random_seed": 20260922,
+  "pairwise_sample_pairs": 2000000,
+  "reference_density_probe_samples": 1024,
+  "primary_k": 10,
+  "sensitivity_k": [5, 10, 50],
+  "density_k": [10, 50, 100],
+  "reciprocal_k": [1, 5, 10, 100],
+  "snn_k": 10,
+  "empirical_null_observations": 2000000,
+  "reference_chunk_size": 32768,
+  "query_chunk_size": 64,
+  "device": "cuda:0",
+  "representation_metric_controls": {
+    "seed": 20260924,
+    "genes": 15165,
+    "pca_components": 512,
+    "pca_oversampling": 32,
+    "pca_power_iterations": 1,
+    "pca_whitening_eigenvalue_floor_relative_to_largest": 1e-12,
+    "random_pairs_low_dimensional": 2000000,
+    "random_pairs_expression": 100000,
+    "metrics": ["cosine", "pearson", "euclidean", "manhattan", "canberra"],
+    "fit_corpus": "510709 human ARCHS4 references only",
+    "query_fit": false
+  },
+  "inputs": {
+    "upstream_benchmark": "/home/walt/bridge-rna/benchmarks/paired_recount3",
+    "embedding_dir": "/home/walt/bridge-rna/embeddings/archs4",
+    "sample_manifest": "/home/walt/bridge-rna/data/manifests/sample_manifest.parquet",
+    "sample_metadata": "/home/walt/bridge-rna/data/manifests/archs4_sample_metadata_v2.5.parquet",
+    "canonical_genes": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv"
+  }
+}

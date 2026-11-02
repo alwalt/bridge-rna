@@ -1,0 +1,3 @@
+cohort,bridge_samples,existing_published_pairs,existing_upstream_pairs,additional_cached_candidates,additional_candidate_gse_labels,largest_candidate_gse_fraction,mapped_single_additional,mapped_multiple_additional
+seen_study,5292,0,12,1,1,1.0,0,1
+unseen_study,105417,562,562,257,23,0.4280155642023346,0,257

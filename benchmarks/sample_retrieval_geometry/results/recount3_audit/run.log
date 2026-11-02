@@ -1,0 +1,13 @@
+[2026-09-23T01:38:17.652438] Starting metadata-only recount3 provenance/balancing audit; estimate 1-3 minutes
+[2026-09-23T01:38:17.652575] Monitor with: tail -f /home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/results/recount3_audit/run.log
+[2026-09-23T01:38:20.591481] Loaded 84,896 frozen candidates, 574 final pairs
+[2026-09-23T01:38:26.129951] Cached metadata inventory 1,000/8,199 projects
+[2026-09-23T01:38:27.077988] Cached metadata inventory 2,000/8,199 projects
+[2026-09-23T01:38:28.322618] Cached metadata inventory 3,000/8,199 projects
+[2026-09-23T01:38:30.079806] Cached metadata inventory 4,000/8,199 projects
+[2026-09-23T01:38:31.423232] Cached metadata inventory 5,000/8,199 projects
+[2026-09-23T01:38:32.798690] Cached metadata inventory 6,000/8,199 projects
+[2026-09-23T01:38:34.796266] Cached metadata inventory 7,000/8,199 projects
+[2026-09-23T01:38:36.152310] Cached metadata inventory 8,000/8,199 projects
+[2026-09-23T01:38:37.640129] Cached overlap scan found 258 unprocessed unambiguous candidates
+[2026-09-23T01:38:38.382605] Completed audit in 20.7s

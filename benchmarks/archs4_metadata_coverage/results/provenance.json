@@ -1,0 +1,17 @@
+{
+  "created_date": "2026-09-25",
+  "random_seed": 20260925,
+  "bridge_embedding_manifest": "embeddings/archs4/embedding_manifest.json",
+  "bridge_locations": "embeddings/archs4/sample_locations.parquet",
+  "bridge_metadata": "data/manifests/archs4_sample_metadata_v2.5.parquet",
+  "geometa_release": "https://huggingface.co/datasets/binchenlab/GEOMeta",
+  "geometa_revision": "d0cd1e117143b32a392bbe3130e1c4a2a3c8e740",
+  "gemma_api": "https://gemma.msl.ubc.ca/rest/v2",
+  "gemma_catalogue_unique_accessions": 23103,
+  "gemma_overlapping_gse_sample_endpoint_404s": 432,
+  "limitations": [
+    "GEOMeta analysis reflects the three metadata CSVs publicly downloadable at the pinned revision, not the larger sample count stated in the preprint.",
+    "Gemma field mapping is based on observed category labels; free-text BioSource alone is not counted as a structured tissue annotation.",
+    "Agreement marked different_vocabulary_or_conflict requires review and is not automatically a biological contradiction."
+  ]
+}

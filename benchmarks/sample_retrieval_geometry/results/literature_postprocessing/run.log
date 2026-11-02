@@ -1,0 +1,23 @@
+[2026-09-23T22:59:51.921148] Starting literature post-processing comparison; estimated runtime 5-15 minutes on GPU
+[2026-09-23T22:59:51.921284] Monitor with: tail -f /home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/results/literature_postprocessing/run.log
+[2026-09-23T22:59:57.706883] covariance fit 163,840/510,709
+[2026-09-23T22:59:57.990724] covariance fit 327,680/510,709
+[2026-09-23T22:59:58.278058] covariance fit 491,520/510,709
+[2026-09-23T22:59:58.315503] covariance fit 510,709/510,709
+[2026-09-23T23:00:10.561707] geometry/retrieval 32,768/510,709; elapsed=19s
+[2026-09-23T23:00:12.259540] geometry/retrieval 65,536/510,709; elapsed=20s
+[2026-09-23T23:00:14.208024] geometry/retrieval 98,304/510,709; elapsed=22s
+[2026-09-23T23:00:15.586556] geometry/retrieval 131,072/510,709; elapsed=24s
+[2026-09-23T23:00:16.993149] geometry/retrieval 163,840/510,709; elapsed=25s
+[2026-09-23T23:00:18.528486] geometry/retrieval 196,608/510,709; elapsed=27s
+[2026-09-23T23:00:19.864213] geometry/retrieval 229,376/510,709; elapsed=28s
+[2026-09-23T23:00:21.508515] geometry/retrieval 262,144/510,709; elapsed=30s
+[2026-09-23T23:00:23.003826] geometry/retrieval 294,912/510,709; elapsed=31s
+[2026-09-23T23:00:24.355455] geometry/retrieval 327,680/510,709; elapsed=32s
+[2026-09-23T23:00:25.573247] geometry/retrieval 360,448/510,709; elapsed=34s
+[2026-09-23T23:00:26.944329] geometry/retrieval 393,216/510,709; elapsed=35s
+[2026-09-23T23:00:28.385191] geometry/retrieval 425,984/510,709; elapsed=36s
+[2026-09-23T23:00:29.673449] geometry/retrieval 458,752/510,709; elapsed=38s
+[2026-09-23T23:00:31.180592] geometry/retrieval 491,520/510,709; elapsed=39s
+[2026-09-23T23:00:31.967812] geometry/retrieval 510,709/510,709; elapsed=40s
+[2026-09-23T23:01:35.917257] COMPLETE runtime=104.0s peak_RSS=4.95GB

@@ -1,0 +1,2 @@
+dimensions_retained,eigenvalue_floor,affected_dimensions,post_whitening_variance_mean,post_whitening_variance_sd,post_whitening_variance_min,post_whitening_variance_max,post_whitening_max_abs_offdiagonal
+512,2.9223354028428736e-09,0,0.9999999999999999,1.520932101115467e-15,0.9999999999999881,1.0000000000000044,7.015633377449869e-14

@@ -1,0 +1,44 @@
+[2026-09-21T07:35:34.905115+00:00] inference 1/40 elapsed=0.0m ETA=1.6m
+[2026-09-21T07:35:35.295195+00:00] inference 2/40 elapsed=0.0m ETA=0.9m
+[2026-09-21T07:35:35.684991+00:00] inference 3/40 elapsed=0.1m ETA=0.7m
+[2026-09-21T07:35:36.075924+00:00] inference 4/40 elapsed=0.1m ETA=0.5m
+[2026-09-21T07:35:36.465739+00:00] inference 5/40 elapsed=0.1m ETA=0.5m
+[2026-09-21T07:35:36.880306+00:00] inference 6/40 elapsed=0.1m ETA=0.4m
+[2026-09-21T07:35:37.262330+00:00] inference 7/40 elapsed=0.1m ETA=0.4m
+[2026-09-21T07:35:37.650798+00:00] inference 8/40 elapsed=0.1m ETA=0.3m
+[2026-09-21T07:35:38.034584+00:00] inference 9/40 elapsed=0.1m ETA=0.3m
+[2026-09-21T07:35:38.458959+00:00] inference 10/40 elapsed=0.1m ETA=0.3m
+[2026-09-21T07:35:38.842003+00:00] inference 11/40 elapsed=0.1m ETA=0.3m
+[2026-09-21T07:35:39.241905+00:00] inference 12/40 elapsed=0.1m ETA=0.3m
+[2026-09-21T07:35:39.643093+00:00] inference 13/40 elapsed=0.1m ETA=0.3m
+[2026-09-21T07:35:40.052198+00:00] inference 14/40 elapsed=0.1m ETA=0.2m
+[2026-09-21T07:35:40.451327+00:00] inference 15/40 elapsed=0.1m ETA=0.2m
+[2026-09-21T07:35:40.840607+00:00] inference 16/40 elapsed=0.1m ETA=0.2m
+[2026-09-21T07:35:41.228183+00:00] inference 17/40 elapsed=0.1m ETA=0.2m
+[2026-09-21T07:35:41.620682+00:00] inference 18/40 elapsed=0.2m ETA=0.2m
+[2026-09-21T07:35:42.010637+00:00] inference 19/40 elapsed=0.2m ETA=0.2m
+[2026-09-21T07:35:42.396310+00:00] inference 20/40 elapsed=0.2m ETA=0.2m
+[2026-09-21T07:35:42.778982+00:00] inference 21/40 elapsed=0.2m ETA=0.2m
+[2026-09-21T07:35:43.159663+00:00] inference 22/40 elapsed=0.2m ETA=0.1m
+[2026-09-21T07:35:43.544418+00:00] inference 23/40 elapsed=0.2m ETA=0.1m
+[2026-09-21T07:35:43.917382+00:00] inference 24/40 elapsed=0.2m ETA=0.1m
+[2026-09-21T07:35:44.285317+00:00] inference 25/40 elapsed=0.2m ETA=0.1m
+[2026-09-21T07:35:44.647202+00:00] inference 26/40 elapsed=0.2m ETA=0.1m
+[2026-09-21T07:35:45.049694+00:00] inference 27/40 elapsed=0.2m ETA=0.1m
+[2026-09-21T07:35:45.432697+00:00] inference 28/40 elapsed=0.2m ETA=0.1m
+[2026-09-21T07:35:45.840603+00:00] inference 29/40 elapsed=0.2m ETA=0.1m
+[2026-09-21T07:35:46.235298+00:00] inference 30/40 elapsed=0.2m ETA=0.1m
+[2026-09-21T07:35:46.609638+00:00] inference 31/40 elapsed=0.2m ETA=0.1m
+[2026-09-21T07:35:46.988533+00:00] inference 32/40 elapsed=0.2m ETA=0.1m
+[2026-09-21T07:35:47.370544+00:00] inference 33/40 elapsed=0.2m ETA=0.1m
+[2026-09-21T07:35:47.748291+00:00] inference 34/40 elapsed=0.3m ETA=0.0m
+[2026-09-21T07:35:48.135120+00:00] inference 35/40 elapsed=0.3m ETA=0.0m
+[2026-09-21T07:35:48.506558+00:00] inference 36/40 elapsed=0.3m ETA=0.0m
+[2026-09-21T07:35:48.928594+00:00] inference 37/40 elapsed=0.3m ETA=0.0m
+[2026-09-21T07:35:49.301735+00:00] inference 38/40 elapsed=0.3m ETA=0.0m
+[2026-09-21T07:35:49.689369+00:00] inference 39/40 elapsed=0.3m ETA=0.0m
+[2026-09-21T07:35:50.055423+00:00] inference 40/40 elapsed=0.3m ETA=0.0m
+[2026-09-21T07:38:42.033639+00:00] projection complete L0_static
+[2026-09-21T07:40:09.749273+00:00] projection complete L1_early
+[2026-09-21T07:41:55.295739+00:00] projection complete L6_middle
+[2026-09-21T07:43:23.804448+00:00] projection complete L12_final

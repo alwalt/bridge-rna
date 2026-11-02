@@ -1,0 +1,12 @@
+{
+  "task": "SL",
+  "representation": "E0_static",
+  "joining_operation": "concat",
+  "original_pairs": 23364,
+  "original_positive_pairs": 2124,
+  "original_negative_pairs": 21240,
+  "retained_pairs": 17771,
+  "retained_positive_pairs": 1860,
+  "retained_negative_pairs": 15911,
+  "retained_positive_percentage": 0.8757062146892656
+}

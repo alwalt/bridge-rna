@@ -1,0 +1,162 @@
+mapping_id,source,field,raw_value,canonical_id,mapping_method,mapping_status,ontology_id,notes
+462,Gemma,disease,Acute kidney injury,geometa:disease:2717f709551ebb27,exact_normalized,valid,http://purl.obolibrary.org/obo/HP_0001919,Unique exact match to observed GEOMeta vocabulary
+482,Gemma,disease,Aicardi-Goutieres syndrome,geometa:disease:71094a2f565c8d3a,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0018866,Unique exact match to observed GEOMeta vocabulary
+553,Gemma,disease,Alzheimer disease,geometa:disease:f0787d5137d1847f,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0004975,Unique exact match to observed GEOMeta vocabulary
+545,Gemma,disease,Amyotrophic Lateral Sclerosis,geometa:disease:1d90f519e413f188,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+514,Gemma,disease,Angelman syndrome,geometa:disease:0757df1d8a226655,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+497,Gemma,disease,Asthma,geometa:disease:57dff0b9550cf026,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+548,Gemma,disease,Ataxia Telangiectasia,geometa:disease:fd9adb4ce0fcbb2a,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+535,Gemma,disease,Barrett esophagus,geometa:disease:70cf89ac717f77e8,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0013662,Unique exact match to observed GEOMeta vocabulary
+599,Gemma,disease,Bipolar Disorder,geometa:disease:56fcca6a59e964f6,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+555,Gemma,disease,COVID-19,geometa:disease:6bc468996ec739e4,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0100096,Unique exact match to observed GEOMeta vocabulary
+547,Gemma,disease,Cockayne syndrome,geometa:disease:871b56c28b3edbcc,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0016006,Unique exact match to observed GEOMeta vocabulary
+525,Gemma,disease,Covid-19,geometa:disease:6bc468996ec739e4,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+597,Gemma,disease,Crohn disease,geometa:disease:75f6e05f723d4762,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0005011,Unique exact match to observed GEOMeta vocabulary
+489,Gemma,disease,Dermatomyositis,geometa:disease:564ebd69bbafa5c2,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+481,Gemma,disease,Down syndrome,geometa:disease:337c62f0580688d6,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0008608,Unique exact match to observed GEOMeta vocabulary
+542,Gemma,disease,Epilepsy,geometa:disease:2a25f0852301a62b,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+459,Gemma,disease,Fragile X syndrome,geometa:disease:e560e7c0ab593684,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+512,Gemma,disease,Friedreich ataxia,geometa:disease:f3c72965fdbf8dae,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0100339,Unique exact match to observed GEOMeta vocabulary
+543,Gemma,disease,Glioblastoma,geometa:disease:0b4a91d28341c376,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+534,Gemma,disease,Healthy,geometa:disease:8b66bcb51f3a26a4,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+509,Gemma,disease,Huntington disease,geometa:disease:d45a3d3e1f331563,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0007739,Unique exact match to observed GEOMeta vocabulary
+450,Gemma,disease,Ischemic stroke,geometa:disease:5194cc42d6b853fb,exact_normalized,valid,http://purl.obolibrary.org/obo/HP_0002140,Unique exact match to observed GEOMeta vocabulary
+557,Gemma,disease,Leukemia,geometa:disease:c4a67b969031a585,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+490,Gemma,disease,Li-Fraumeni syndrome,geometa:disease:b304947c96778eac,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0018875,Unique exact match to observed GEOMeta vocabulary
+521,Gemma,disease,Melanoma,geometa:disease:4492a4e4eeee9289,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+519,Gemma,disease,Meningioma,geometa:disease:2b2e447672de3da0,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+501,Gemma,disease,Multiple sclerosis,geometa:disease:f7b10da4a9ac15c2,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+476,Gemma,disease,Myeloproliferative neoplasms,geometa:disease:185c6c246aaa9e8c,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+457,Gemma,disease,Normal,geometa:disease:e80b37e82d090ea1,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+559,Gemma,disease,Obesity,geometa:disease:62075db6f35dda08,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+505,Gemma,disease,Osteoarthritis,geometa:disease:83a9e8242b484ac7,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+537,Gemma,disease,Osteosarcoma,geometa:disease:1271e128adeda45c,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+449,Gemma,disease,Parkinson disease,geometa:disease:e30b1f147c5062be,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0005180,Unique exact match to observed GEOMeta vocabulary
+531,Gemma,disease,Pitt-Hopkins syndrome,geometa:disease:c52d231a9390991c,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0012589,Unique exact match to observed GEOMeta vocabulary
+550,Gemma,disease,Prader-Willi syndrome,geometa:disease:65a1035f39e3eaae,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0008300,Unique exact match to observed GEOMeta vocabulary
+544,Gemma,disease,Psoriasis,geometa:disease:43853a04948e12cd,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+495,Gemma,disease,Rett syndrome,geometa:disease:43194e4b7b918e2c,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0010726,Unique exact match to observed GEOMeta vocabulary
+523,Gemma,disease,Schizophrenia,geometa:disease:675a9fc9e1d25306,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+456,Gemma,disease,Small cell lung carcinoma,geometa:disease:02cecacd32b131f1,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0008433,Unique exact match to observed GEOMeta vocabulary
+533,Gemma,disease,Williams syndrome,geometa:disease:53606410ae651576,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0008678,Unique exact match to observed GEOMeta vocabulary
+475,Gemma,disease,acromegaly,geometa:disease:4d1174fda817ea39,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0019933,Unique exact match to observed GEOMeta vocabulary
+474,Gemma,disease,adenoma,geometa:disease:14cd8935bec29830,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0004972,Unique exact match to observed GEOMeta vocabulary
+561,Gemma,disease,adenomyosis,geometa:disease:0b11d18593a46cf1,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0010888,Unique exact match to observed GEOMeta vocabulary
+573,Gemma,disease,adrenoleukodystrophy,geometa:disease:0f8312e1977d38b1,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0018544,Unique exact match to observed GEOMeta vocabulary
+568,Gemma,disease,amyotrophic lateral sclerosis,geometa:disease:1d90f519e413f188,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0004976,Unique exact match to observed GEOMeta vocabulary
+532,Gemma,disease,asthma,geometa:disease:57dff0b9550cf026,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0004979,Unique exact match to observed GEOMeta vocabulary
+515,Gemma,disease,astrocytoma,geometa:disease:dcec68b744d0b5f8,exact_normalized,valid,http://purl.obolibrary.org/obo/MPATH_244,Unique exact match to observed GEOMeta vocabulary
+467,Gemma,disease,ataxia telangiectasia,geometa:disease:fd9adb4ce0fcbb2a,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0008840,Unique exact match to observed GEOMeta vocabulary
+442,Gemma,disease,autism spectrum disorder,geometa:disease:27e4aa386cd56aa8,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+526,Gemma,disease,bipolar disorder,geometa:disease:56fcca6a59e964f6,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0004985,Unique exact match to observed GEOMeta vocabulary
+585,Gemma,disease,celiac disease,geometa:disease:b45e45bbef54372d,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0005130,Unique exact match to observed GEOMeta vocabulary
+520,Gemma,disease,dermatomyositis,geometa:disease:564ebd69bbafa5c2,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0016367,Unique exact match to observed GEOMeta vocabulary
+538,Gemma,disease,diabetes mellitus,geometa:disease:b3aea2d376fb96a7,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0005015,Unique exact match to observed GEOMeta vocabulary
+493,Gemma,disease,diffuse intrinsic pontine glioma,geometa:disease:6cd7293ba6f5aa97,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0006033,Unique exact match to observed GEOMeta vocabulary
+581,Gemma,disease,dyskeratosis congenita,geometa:disease:5641534689d3dd2c,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0015780,Unique exact match to observed GEOMeta vocabulary
+546,Gemma,disease,epilepsy,geometa:disease:2a25f0852301a62b,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0005027,Unique exact match to observed GEOMeta vocabulary
+590,Gemma,disease,fragile X syndrome,geometa:disease:e560e7c0ab593684,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0010383,Unique exact match to observed GEOMeta vocabulary
+486,Gemma,disease,frontotemporal dementia,geometa:disease:98a6c98c9ec43ad4,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0017276,Unique exact match to observed GEOMeta vocabulary
+451,Gemma,disease,glioblastoma,geometa:disease:0b4a91d28341c376,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+584,Gemma,disease,glioma,geometa:disease:f35267528ace85de,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+578,Gemma,disease,healthy,geometa:disease:8b66bcb51f3a26a4,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+455,Gemma,disease,hepatoblastoma,geometa:disease:c3d6b2632ddcb818,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0018666,Unique exact match to observed GEOMeta vocabulary
+479,Gemma,disease,hyperplasia,geometa:disease:29eb00a681d72880,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0005043,Unique exact match to observed GEOMeta vocabulary
+565,Gemma,disease,intellectual disability,geometa:disease:97c9f6efeda3d426,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0001071,Unique exact match to observed GEOMeta vocabulary
+447,Gemma,disease,medulloblastoma,geometa:disease:00e9eff4db77c0cc,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0007959,Unique exact match to observed GEOMeta vocabulary
+518,Gemma,disease,melanoma,geometa:disease:4492a4e4eeee9289,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0005105,Unique exact match to observed GEOMeta vocabulary
+487,Gemma,disease,meningioma,geometa:disease:2b2e447672de3da0,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0016642,Unique exact match to observed GEOMeta vocabulary
+588,Gemma,disease,multiple myeloma,geometa:disease:a0fb53e56b233815,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+579,Gemma,disease,multiple sclerosis,geometa:disease:f7b10da4a9ac15c2,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0005301,Unique exact match to observed GEOMeta vocabulary
+469,Gemma,disease,multiple system atrophy,geometa:disease:c537a5e6da958dfe,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+483,Gemma,disease,myocardial infarction,geometa:disease:39e3f62ed7ad7354,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0005068,Unique exact match to observed GEOMeta vocabulary
+596,Gemma,disease,myotonic dystrophy,geometa:disease:d2b0945b198fc6ee,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0016107,Unique exact match to observed GEOMeta vocabulary
+488,Gemma,disease,neuroblastoma,geometa:disease:c4ee942e56214274,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+601,Gemma,disease,neurofibroma,geometa:disease:b4a5ada7636a87ea,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0016755,Unique exact match to observed GEOMeta vocabulary
+566,Gemma,disease,normal,geometa:disease:e80b37e82d090ea1,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+443,Gemma,disease,oligodendroglioma,geometa:disease:509c2001fd524ae4,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0016695,Unique exact match to observed GEOMeta vocabulary
+529,Gemma,disease,osteoarthritis,geometa:disease:83a9e8242b484ac7,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0005178,Unique exact match to observed GEOMeta vocabulary
+477,Gemma,disease,osteosarcoma,geometa:disease:1271e128adeda45c,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0009807,Unique exact match to observed GEOMeta vocabulary
+591,Gemma,disease,polycystic ovary syndrome,geometa:disease:d7911eecfd1c72e2,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0008487,Unique exact match to observed GEOMeta vocabulary
+458,Gemma,disease,psoriasis,geometa:disease:43853a04948e12cd,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0005083,Unique exact match to observed GEOMeta vocabulary
+575,Gemma,disease,pterygium,geometa:disease:cb9ca3a3157d50ea,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+583,Gemma,disease,retinitis pigmentosa,geometa:disease:e093aeada3ebbbc4,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0019200,Unique exact match to observed GEOMeta vocabulary
+464,Gemma,disease,retinoblastoma,geometa:disease:5fc5faa1f8931745,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0008380,Unique exact match to observed GEOMeta vocabulary
+558,Gemma,disease,rhabdoid tumor,geometa:disease:a94bd224e7bf4a38,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0002728,Unique exact match to observed GEOMeta vocabulary
+452,Gemma,disease,schizophrenia,geometa:disease:675a9fc9e1d25306,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+574,Gemma,disease,sepsis,geometa:disease:8de8fd06dfa10caf,exact_normalized,valid,http://purl.obolibrary.org/obo/MP_0005044,Unique exact match to observed GEOMeta vocabulary
+502,Gemma,disease,small cell lung carcinoma,geometa:disease:02cecacd32b131f1,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0008433,Unique exact match to observed GEOMeta vocabulary
+586,Gemma,disease,tuberculosis,geometa:disease:1a45d34784c942c3,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0018076,Unique exact match to observed GEOMeta vocabulary
+594,Gemma,disease,tuberous sclerosis,geometa:disease:5aff554d4f0e6535,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0001734,Unique exact match to observed GEOMeta vocabulary
+485,Gemma,disease,uveitis,geometa:disease:e6a6398a7ba25fd2,exact_normalized,valid,http://purl.obolibrary.org/obo/MONDO_0020283,Unique exact match to observed GEOMeta vocabulary
+600,Gemma,gender,FEMALE,geometa:gender:ea773a4fadb328f4,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+593,Gemma,gender,Female,geometa:gender:ea773a4fadb328f4,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+527,Gemma,gender,MALE,geometa:gender:1282126270d14720,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+500,Gemma,gender,Male,geometa:gender:1282126270d14720,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+503,Gemma,gender,female,geometa:gender:ea773a4fadb328f4,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+552,Gemma,gender,male,geometa:gender:1282126270d14720,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+454,Gemma,organ,Adipose tissue,geometa:organ:1d4926a939204d08,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+554,Gemma,organ,Adrenal gland,geometa:organ:5ef1d0b867415ab0,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+541,Gemma,organ,Blood,geometa:organ:98e4523492a82f18,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+460,Gemma,organ,Bone Marrow,geometa:organ:37b783532490418d,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+540,Gemma,organ,Bone marrow,geometa:organ:37b783532490418d,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+508,Gemma,organ,Brain,geometa:organ:40cd1788c449f282,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+560,Gemma,organ,Brain: Amygdala,geometa:organ:8b1aaacf847decf9,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+524,Gemma,organ,Breast,geometa:organ:90a361d4a75e4b47,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+549,Gemma,organ,Cervix,geometa:organ:ddc11f4c17db7536,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+453,Gemma,organ,Esophagus,geometa:organ:d75400099084f9c8,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+598,Gemma,organ,Eye,geometa:organ:17b8734638f61608,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+530,Gemma,organ,HEART,geometa:organ:19f13686f8abc162,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+592,Gemma,organ,Heart,geometa:organ:19f13686f8abc162,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+511,Gemma,organ,Intestine,geometa:organ:b79de5a0d13ea178,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+496,Gemma,organ,KIDNEY,geometa:organ:c73ddb31a20ede1f,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+478,Gemma,organ,Kidney,geometa:organ:c73ddb31a20ede1f,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+506,Gemma,organ,LIVER,geometa:organ:7e97ea6abb9d1853,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+498,Gemma,organ,LUNG,geometa:organ:48ceeb8eed345982,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+444,Gemma,organ,Liver,geometa:organ:7e97ea6abb9d1853,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+556,Gemma,organ,Lung,geometa:organ:48ceeb8eed345982,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+577,Gemma,organ,Ovary,geometa:organ:65863fb5764c9708,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+463,Gemma,organ,PLACENTA,geometa:organ:a02d6dac39a2d249,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+576,Gemma,organ,Pancreas,geometa:organ:10d9bfe8f7c8875a,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+510,Gemma,organ,Placenta,geometa:organ:a02d6dac39a2d249,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+461,Gemma,organ,Prostate,geometa:organ:81634e3fd8b70591,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+580,Gemma,organ,Retina,geometa:organ:d7fd075784f01d49,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+513,Gemma,organ,Skeletal Muscle,geometa:organ:232a6b612a9a44ec,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+539,Gemma,organ,Skeletal muscle,geometa:organ:232a6b612a9a44ec,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+571,Gemma,organ,Skin,geometa:organ:2348f77c621e759b,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+441,Gemma,organ,Stomach,geometa:organ:4035860aa9e7d403,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+589,Gemma,organ,Testis,geometa:organ:7f795d9df1c1c7c3,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+564,Gemma,organ,Tongue,geometa:organ:754dc3f86b388824,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+595,Gemma,organ,adipose tissue,geometa:organ:1d4926a939204d08,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0001013,Unique exact match to observed GEOMeta vocabulary
+448,Gemma,organ,adrenal gland,geometa:organ:5ef1d0b867415ab0,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+587,Gemma,organ,blood,geometa:organ:98e4523492a82f18,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0000178,Unique exact match to observed GEOMeta vocabulary
+528,Gemma,organ,bone marrow,geometa:organ:37b783532490418d,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+471,Gemma,organ,brain,geometa:organ:40cd1788c449f282,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+484,Gemma,organ,breast,geometa:organ:90a361d4a75e4b47,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0000310,Unique exact match to observed GEOMeta vocabulary
+470,Gemma,organ,endometrium,geometa:organ:380e768916a23650,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0001295,Unique exact match to observed GEOMeta vocabulary
+567,Gemma,organ,epididymis,geometa:organ:e9c2ed12c7e0e1b5,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0001301,Unique exact match to observed GEOMeta vocabulary
+507,Gemma,organ,esophagus,geometa:organ:d75400099084f9c8,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0001043,Unique exact match to observed GEOMeta vocabulary
+570,Gemma,organ,eye,geometa:organ:17b8734638f61608,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0000970,Unique exact match to observed GEOMeta vocabulary
+494,Gemma,organ,fallopian tube,geometa:organ:9ac6213e34c1193a,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+446,Gemma,organ,heart,geometa:organ:19f13686f8abc162,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+473,Gemma,organ,intestine,geometa:organ:b79de5a0d13ea178,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0000160,Unique exact match to observed GEOMeta vocabulary
+522,Gemma,organ,kidney,geometa:organ:c73ddb31a20ede1f,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0002113,Unique exact match to observed GEOMeta vocabulary
+504,Gemma,organ,liver,geometa:organ:7e97ea6abb9d1853,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+499,Gemma,organ,lung,geometa:organ:48ceeb8eed345982,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+516,Gemma,organ,nasopharynx,geometa:organ:fcb5122e081d5789,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0001728,Unique exact match to observed GEOMeta vocabulary
+517,Gemma,organ,oropharynx,geometa:organ:ed22c54b6ddb05bb,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0001729,Unique exact match to observed GEOMeta vocabulary
+492,Gemma,organ,ovary,geometa:organ:65863fb5764c9708,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0000992,Unique exact match to observed GEOMeta vocabulary
+480,Gemma,organ,pancreas,geometa:organ:10d9bfe8f7c8875a,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0001264,Unique exact match to observed GEOMeta vocabulary
+536,Gemma,organ,pituitary gland,geometa:organ:06567f0391b1a392,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0000007,Unique exact match to observed GEOMeta vocabulary
+491,Gemma,organ,placenta,geometa:organ:a02d6dac39a2d249,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0001987,Unique exact match to observed GEOMeta vocabulary
+572,Gemma,organ,prostate,geometa:organ:81634e3fd8b70591,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+551,Gemma,organ,retina,geometa:organ:d7fd075784f01d49,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0000966,Unique exact match to observed GEOMeta vocabulary
+472,Gemma,organ,skeletal muscle,geometa:organ:232a6b612a9a44ec,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+445,Gemma,organ,skin,geometa:organ:2348f77c621e759b,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+466,Gemma,organ,smooth muscle,geometa:organ:6bd39a55a5188203,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+468,Gemma,organ,stomach,geometa:organ:4035860aa9e7d403,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0000945,Unique exact match to observed GEOMeta vocabulary
+465,Gemma,organ,testis,geometa:organ:7f795d9df1c1c7c3,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+569,Gemma,organ,thyroid gland,geometa:organ:e655111f9e542a38,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0002046,Unique exact match to observed GEOMeta vocabulary
+562,Gemma,organ,tongue,geometa:organ:754dc3f86b388824,exact_normalized,valid,http://purl.obolibrary.org/obo/UBERON_0001723,Unique exact match to observed GEOMeta vocabulary
+582,Gemma,organ,umbilical vein,geometa:organ:42b1b689a9691b8b,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary
+563,Gemma,organ,urinary bladder,geometa:organ:8685169f491bc9c7,exact_normalized,valid,,Unique exact match to observed GEOMeta vocabulary

@@ -1,0 +1,16 @@
+{
+  "seed": 20260922,
+  "random_pairs": 2000000,
+  "pair_batch": 65536,
+  "reference_chunk": 32768,
+  "representations": [
+    "Raw",
+    "Mean-centered",
+    "Centered + remove PC1",
+    "Centered + remove PCs 1\u20132",
+    "Centered + remove PCs 1\u20135",
+    "Centered + remove PCs 1\u201310"
+  ],
+  "reference_fit_only": true,
+  "device": "cuda:0"
+}

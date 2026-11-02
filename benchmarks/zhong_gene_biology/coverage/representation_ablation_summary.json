@@ -1,0 +1,62 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 87.56757855415344,
+  "selected_null_candidate": "zero",
+  "selected_null_value": 0.0,
+  "input_distribution_sample": {
+    "global_min": 0.0,
+    "global_max": 12.648970603942871,
+    "sample_mean": 2.3681760151090803,
+    "sample_median": 2.479951024055481,
+    "sample_p25": 0.4771474599838257,
+    "sample_p75": 3.7612629532814026,
+    "samples": 40000.0
+  },
+  "e0_shape": [
+    15165,
+    512
+  ],
+  "e1_shape": [
+    15165,
+    512
+  ],
+  "e0_finite": true,
+  "e1_finite": true,
+  "cosine_e0_e1_summary": {
+    "min": -0.05054545775055885,
+    "p25": 0.09400797635316849,
+    "median": 0.12442506104707718,
+    "mean": 0.12378719449043274,
+    "p75": 0.153798446059227,
+    "max": 0.3025044798851013
+  },
+  "pairwise_geometry_correlation": {
+    "subset_genes": 2000.0,
+    "pair_count": 1999000.0,
+    "pearson_corr": 0.07943192783683567
+  },
+  "variance_across_genes": {
+    "e0_dimension_variance_summary": {
+      "min": 0.9530396461486816,
+      "p25": 0.9884964227676392,
+      "median": 0.9958305358886719,
+      "mean": 0.9960386157035828,
+      "p75": 1.0041391849517822,
+      "max": 1.0288370847702026
+    },
+    "e1_dimension_variance_summary": {
+      "min": 0.17810940742492676,
+      "p25": 0.3110411763191223,
+      "median": 0.347781240940094,
+      "mean": 0.3663889169692993,
+      "p75": 0.4023725092411041,
+      "max": 0.713831901550293
+    },
+    "e0_mean_dimension_variance": 0.9960386157035828,
+    "e1_mean_dimension_variance": 0.3663889169692993
+  },
+  "candidate_qc_csv": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/e1_null_candidates_qc.csv",
+  "gene_cosine_csv": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/e0_e1_gene_cosine.csv",
+  "e0_provenance": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/representations/E0_static/provenance.json",
+  "e1_provenance": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/representations/E1_null_L12/provenance.json"
+}

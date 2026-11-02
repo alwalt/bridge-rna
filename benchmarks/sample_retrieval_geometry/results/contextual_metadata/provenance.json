@@ -1,0 +1,30 @@
+{
+  "analysis": "contextual metadata audit of frozen GTEx to ARCHS4 Top-100 rankings",
+  "queries": 6064,
+  "unique_retrieved_gsms": 24938,
+  "methods": [
+    "Expression Pearson",
+    "Expression Canberra",
+    "PCA-512 Canberra",
+    "PCA-white cosine",
+    "Raw Bridge cosine",
+    "Bridge-white cosine"
+  ],
+  "ks": [
+    1,
+    5,
+    10,
+    100
+  ],
+  "sample_metadata": "/home/walt/bridge-rna/data/manifests/archs4_sample_metadata_v2.5.parquet",
+  "sample_metadata_sha256": "6306f53227a8e1ff18b84d1d85b4faf9361061972d94989d4f677cada659d3b8",
+  "series_metadata": "No cached corpus-wide GSE title/summary/design asset was found; none was fetched or inferred.",
+  "retrieval_rerun": false,
+  "embedding_rerun": false,
+  "limitations": [
+    "Submitter-provided GEO text is heterogeneous; labels are exploratory and high precision rather than authoritative.",
+    "Absence of a keyword is not evidence of absence of a context.",
+    "State labels are mutually exclusive; explicit cross-state conflicts remain unknown.",
+    "GTEx query state is not labeled healthy at sample level, so normal_healthy is a descriptive proxy rather than a validated agreement endpoint."
+  ]
+}

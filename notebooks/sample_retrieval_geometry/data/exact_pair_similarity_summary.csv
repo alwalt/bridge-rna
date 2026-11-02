@@ -1,0 +1,2 @@
+samples,studies,sample_level_mean_cosine,sample_level_median_cosine,study_macro_mean_cosine,study_macro_median_cosine,median_across_study_means,median_across_study_medians,sd_across_study_means,minimum_study_mean,maximum_study_mean
+562,40,0.9978058474980216,0.9992181062698364,0.9965691291580032,0.9967396877706052,0.9988030989964802,0.9989415258169174,0.0046669525624344,0.9771066904067992,0.9996887048085532

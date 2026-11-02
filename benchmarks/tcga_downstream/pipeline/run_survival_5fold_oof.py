@@ -326,7 +326,9 @@ def individual_plot(per_cancer: pd.DataFrame, label: str, order: list[str], xlim
     plt.close(fig)
 
 
-def combined_plot(per_cancer: pd.DataFrame, order: list[str], xlim) -> None:
+def combined_plot(per_cancer: pd.DataFrame, order: list[str], xlim,
+                  stem: str = "bridge_pca_raw_5fold_oof_survival_forest",
+                  title: str = "Within-cancer survival discrimination by transcriptomic representation") -> None:
     support = per_cancer[per_cancer.representation == LABELS[0]].set_index("cancer").reindex(order)
     fig, ax = plt.subplots(figsize=(8.5, max(8.5, .34 * len(order) + 1.8)))
     y = np.arange(len(order)); offsets = [-.18, 0, .18]
@@ -337,11 +339,11 @@ def combined_plot(per_cancer: pd.DataFrame, order: list[str], xlim) -> None:
                     xerr=np.vstack([data.loc[valid, "c_index"] - data.loc[valid, "ci_low"],
                                     data.loc[valid, "ci_high"] - data.loc[valid, "c_index"]]),
                     fmt="o", color=COLORS[label], label=label, capsize=2, ms=4, lw=1.05)
-    decorate(ax, order, support, xlim, "Within-cancer survival discrimination by transcriptomic representation")
+    decorate(ax, order, support, xlim, title)
     ax.legend(frameon=False, loc="upper center", bbox_to_anchor=(.5, -.035), ncol=3)
     fig.tight_layout(rect=(0, .035, .88, 1))
     for ext in ("png", "pdf"):
-        fig.savefig(FIGURES / f"bridge_pca_raw_5fold_oof_survival_forest.{ext}",
+        fig.savefig(FIGURES / f"{stem}.{ext}",
                     dpi=300 if ext == "png" else None, bbox_inches="tight")
     plt.close(fig)
 
@@ -414,7 +416,15 @@ def plots(table: pd.DataFrame) -> None:
                     "raw_expression_5fold_oof_per_cancer_survival_forest_bridge_sorted"]
     for (label, _, title), stem in zip(specifications, sorted_stems):
         individual_plot(per_cancer, label, bridge_order, xlim, stem, title, pdf=False)
-    combined_plot(per_cancer, order, xlim); three_panel(per_cancer, order, xlim); delta_plot(table, order)
+    combined_plot(per_cancer, order, xlim)
+    combined_plot(
+        per_cancer,
+        bridge_order,
+        xlim,
+        stem="bridge_pca_raw_5fold_oof_survival_forest_bridge_sorted",
+        title="Within-cancer survival discrimination ranked by Bridge C-index",
+    )
+    three_panel(per_cancer, order, xlim); delta_plot(table, order)
 
 
 def summaries(per_cancer: pd.DataFrame, table: pd.DataFrame) -> pd.DataFrame:

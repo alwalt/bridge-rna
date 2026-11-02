@@ -1,0 +1,77 @@
+{
+  "created": "2026-09-23T01:35:00-0700",
+  "config": {
+    "seed": 20260923,
+    "folds": 5,
+    "pca_components": 512,
+    "logistic_regression": {
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "tol": 0.0001
+    },
+    "gtex_excluded_detailed_prefixes": [
+      "Cells -"
+    ],
+    "gtex_expected_samples": 8883,
+    "gtex_expected_detailed_classes": 51,
+    "tcga_expected_samples": 9942,
+    "tcga_expected_classes": 33,
+    "checkpoint_run_id": "r7hnr92k",
+    "embedding_batch_size": 4
+  },
+  "assets": {
+    "/home/walt/bridge-rna/data/gtex/gtex_matrix.h5": {
+      "size": 618136439,
+      "sha256": "1392f2321014147d801f09e2a9a012f267a8c8bd7347099370fb723dbb414592"
+    },
+    "/home/walt/bridge-rna/data/gtex/GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt": {
+      "size": 11512258,
+      "sha256": "74f6ab4c34ed2648d708a0ae6e6dff324f6c86ea723ae7d1c37d76f5221148f0"
+    },
+    "/home/walt/bridge-rna/data/tcga/tcga_matrix.h5": {
+      "size": 730727587,
+      "sha256": "d36d479aba1aa0b3d6e7fa10d255291b1eaa2393e41cd38ffc264f994d215a5a"
+    },
+    "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv": {
+      "size": 175369,
+      "sha256": "1dbe9a5753e5982b3ddb383f35e92ce5795c21fc054fff685514831c8dadbb8d"
+    },
+    "/home/walt/bridge-rna/data/gencode/gencode_v49_gene_exon_lengths.csv": {
+      "size": 1239328,
+      "sha256": "c272e5b8e23698bfb009fad019268897dd173f333dc437b7dd97d28894108609"
+    },
+    "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt": {
+      "size": 547359838,
+      "sha256": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541"
+    },
+    "/home/walt/bridge-rna/model/r7hnr92k/config.json": {
+      "size": 1983,
+      "sha256": "1cccc2a0dc09da29f69b574e96f1fa2c5e70dc99d20a8b79d921d1e4fa49b805"
+    }
+  },
+  "gtex": {
+    "samples": 8883,
+    "donors": 549,
+    "detailed_classes": 51,
+    "broad_classes": 30
+  },
+  "tcga": {
+    "samples": 9942,
+    "patients": 9942,
+    "classes": 33
+  },
+  "input_contract": {
+    "genes": 15165,
+    "observed_genes": 15105,
+    "missing_genes": 60,
+    "missing_gene_value_before_log1p": 0.0,
+    "normalization": "natural_log1p_tpm"
+  },
+  "pretraining": {
+    "objective": "masked expression reconstruction",
+    "annotation_labels_used": false,
+    "archs4_sample_overlap_possible": true
+  },
+  "cross_dataset_normal_tumor": "out_of_scope"
+}

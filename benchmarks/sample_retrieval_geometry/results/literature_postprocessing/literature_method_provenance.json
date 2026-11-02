@@ -1,0 +1,25 @@
+{
+  "ABTT": {
+    "citation": "Mu and Viswanath, ICLR 2018",
+    "url": "https://openreview.net/forum?id=HkuGJ3kCb",
+    "formulation": "subtract reference mean, then subtract projections onto reference PCs 1-10",
+    "D": 10,
+    "tuned_here": false
+  },
+  "BERT_whitening": {
+    "citation": "Su et al., 2021",
+    "url": "https://arxiv.org/abs/2103.15316",
+    "formulation": "(x-mu) U Lambda^-1/2",
+    "dimensions": 512,
+    "covariance": "maximum-likelihood (1/N)"
+  },
+  "alignment_uniformity": {
+    "citation": "Wang and Isola, ICML 2020; used diagnostically by SimCSE",
+    "urls": [
+      "https://proceedings.mlr.press/v119/wang20k.html",
+      "https://arxiv.org/abs/2104.08821"
+    ],
+    "alignment": "mean ||f(x)-f(x+)||_2^2",
+    "uniformity": "log mean exp(-2||f(x)-f(y)||_2^2)"
+  }
+}

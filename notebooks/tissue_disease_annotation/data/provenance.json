@@ -1,0 +1,129 @@
+{
+  "package_created_from_source_commit": "097adb0be9aa6b49d2342b3196c2fd5d7b26f2b7",
+  "research_benchmark": "benchmarks/tissue_disease_annotation",
+  "research_pipeline": "benchmarks/tissue_disease_annotation/pipeline/run_benchmark.py",
+  "approval_record": "benchmarks/tissue_disease_annotation/PUBLICATION_REVIEW.md",
+  "approval_event": "Explicit benchmark-notebook skill invocation in the user conversation on 2026-10-30",
+  "approval_scope": "Supplementary material with a concise main-text reference",
+  "source_artifact_sha256": {
+    "metrics_summary.csv": "e8554717a350a4d086e7debbd0ec23c411f977f6d483d98299c5dc6fbf22b758",
+    "gtex_fold_metrics.csv": "a9ee599790f39163e834ceae10d863f6cb5632106126bda514a20e4ffdfe339a",
+    "tcga_fold_metrics.csv": "0e6e909be5b1fe1ed6515d8c1fea6bf7a82ccd7ab81bfdd8956614128b7b9d68",
+    "paired_macro_f1_differences.csv": "3184e97490bb80e37b62d84b1b2c919a11c55f30286c909f924ee904ed519666",
+    "per_class_summary.csv": "5ecfb3aec232f919d140e46ec8c90cce71f6f7c81ec1cb9e81e7e61fa54adc64",
+    "gtex_detailed_class_counts.csv": "c43f7cbef4233038bb1ebc532b3ff5a5b8f0a2d33975e014e22b3422e369abb7",
+    "gtex_broad_class_counts.csv": "fb96d54dcfe84db7b866f8a575613c51fec2011d40a281f8ba084f3e5b5d6e62",
+    "tcga_class_counts.csv": "3360a701ce11b07cdade7fe63ea5a3d43097e6cdaffabf6a251054287eeb4e19",
+    "gtex_detailed_bridge_confusion_normalized.csv": "ee41cecbea08824164dff32175a152dd8457052b3d05eea2aaf75a7a2c94864b",
+    "gtex_broad_bridge_confusion_normalized.csv": "d79150f6bdb34ad38487b5e9f43507aa6bffdb2fbf5fcfc093fd86bca8b0ee64",
+    "tcga_cancer_bridge_confusion_normalized.csv": "b5e0ba6a01cb8767b1677cc580a555d1bd6a6fa55e0b1ea0d9cd34eb8de963dc",
+    "final_qc.json": "be4885ac369753b20169fe3cd0e07e1401d23cef83de006702d163edc253116b",
+    "runtime_summary.json": "f1d18e737749583a997ea28bd0abf637b2b377f7a1399d6b0f5ba50cb6413396",
+    "gtex_predictions.csv": "0b6c4484b2f7c719caf960c72aaea3ff24adcff5b7e6a55d314e716a903eaf53",
+    "tcga_predictions.csv": "49acc01dd2a61c35a308a08e17326e573c14f06b8cbb6d9335fe66def3ed3e81",
+    "provenance.json": "3d708e4a0429ffc30f724017d55825ecec46b7cfde51f113d7289050e94969df"
+  },
+  "frozen_manifest_sha256": {
+    "gtex_manifest.csv": "623c54fa818bddc3a7785c243f9bb01d80d48bb78e1e1134956d0c08d64d4ff0",
+    "tcga_manifest.csv": "d9447690cb6fa17b0c40efe2e3745ea64a968a9294a7484a694ef3afad62fd20"
+  },
+  "external_asset_hashes_reused_from_research_provenance": {
+    "source_repository/data/gtex/gtex_matrix.h5": {
+      "size": 618136439,
+      "sha256": "1392f2321014147d801f09e2a9a012f267a8c8bd7347099370fb723dbb414592"
+    },
+    "source_repository/data/gtex/GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt": {
+      "size": 11512258,
+      "sha256": "74f6ab4c34ed2648d708a0ae6e6dff324f6c86ea723ae7d1c37d76f5221148f0"
+    },
+    "source_repository/data/tcga/tcga_matrix.h5": {
+      "size": 730727587,
+      "sha256": "d36d479aba1aa0b3d6e7fa10d255291b1eaa2393e41cd38ffc264f994d215a5a"
+    },
+    "source_repository/data/ensembl/canonical_genes.csv": {
+      "size": 175369,
+      "sha256": "1dbe9a5753e5982b3ddb383f35e92ce5795c21fc054fff685514831c8dadbb8d"
+    },
+    "source_repository/data/gencode/gencode_v49_gene_exon_lengths.csv": {
+      "size": 1239328,
+      "sha256": "c272e5b8e23698bfb009fad019268897dd173f333dc437b7dd97d28894108609"
+    },
+    "source_repository/model/r7hnr92k/best_model.pt": {
+      "size": 547359838,
+      "sha256": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541"
+    },
+    "source_repository/model/r7hnr92k/config.json": {
+      "size": 1983,
+      "sha256": "1cccc2a0dc09da29f69b574e96f1fa2c5e70dc99d20a8b79d921d1e4fa49b805"
+    }
+  },
+  "checkpoint_run_id": "r7hnr92k",
+  "parameters": {
+    "seed": 20260923,
+    "folds": 5,
+    "pca_components": 512,
+    "logistic_regression": {
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "tol": 0.0001
+    },
+    "gtex_excluded_detailed_prefixes": [
+      "Cells -"
+    ],
+    "gtex_expected_samples": 8883,
+    "gtex_expected_detailed_classes": 51,
+    "tcga_expected_samples": 9942,
+    "tcga_expected_classes": 33,
+    "checkpoint_run_id": "r7hnr92k",
+    "embedding_batch_size": 4
+  },
+  "input_contract": {
+    "genes": 15165,
+    "observed_genes": 15105,
+    "missing_genes": 60,
+    "missing_gene_value_before_log1p": 0.0,
+    "normalization": "natural_log1p_tpm"
+  },
+  "pretraining": {
+    "objective": "masked expression reconstruction",
+    "annotation_labels_used": false,
+    "archs4_sample_overlap_possible": true
+  },
+  "metric_definitions": {
+    "primary": "macro F1",
+    "secondary": [
+      "accuracy",
+      "weighted F1"
+    ],
+    "uncertainty": "sample SD across five fixed held-out folds",
+    "chance_reference": "1 / number of classes; descriptive uniform-class reference"
+  },
+  "verification": {
+    "prediction_rows_checked": 83124,
+    "fold_representation_groups_checked": 45,
+    "maximum_absolute_metric_difference": {
+      "accuracy": 1.1102230246251565e-16,
+      "macro_f1": 1.1102230246251565e-16,
+      "weighted_f1": 1.1102230246251565e-16
+    },
+    "metric_tolerance": 1e-12,
+    "held_out_sample_sets_identical": true,
+    "duplicate_held_out_predictions": 0
+  },
+  "dependencies": {
+    "python": "3.11.0rc1",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.8.0",
+    "matplotlib": "3.10.9"
+  },
+  "limitations": [
+    "ARCHS4 pretraining may contain public GTEx and/or TCGA profiles.",
+    "This benchmark measures frozen-representation linear separability, not guaranteed sample-unseen external generalization.",
+    "Fold SD reflects one fixed five-fold partition, not independent model-training replicates.",
+    "Rare GTEx classes yield unstable class-level F1 estimates.",
+    "Fold-level PCA cumulative explained variance was not retained in the frozen research outputs.",
+    "GTEx-versus-TCGA normal/tumor classification is out of scope because cohort effects confound disease state."
+  ]
+}

@@ -1,0 +1,9 @@
+step,samples,studies,removed_from_prior,reason
+Bridge human samples,510709,26262,,Frozen master manifest
+Predefined unseen split,110709,5678,400000.0,split == unseen
+Single-GSE eligible candidates,84896,4375,25813.0,mapping_status == mapped_single; both exposure cohorts
+Frozen discovery candidates,84896,4375,0.0,All eligible rows retained; no subsampling
+Any recount3 metadata match,575,43,84321.0,"Catalog-wide scan: 8,199/8,803 project metadata files read"
+Unambiguous project with run(s),574,42,1.0,One multiple-project GSM excluded; no matched_no_run rows
+Expression downloaded / vocabulary compatible,574,42,0.0,"All 574 selected pairs processed on 15,165 canonical genes; no sample QC exclusion"
+Published strict unseen-study benchmark,562,40,12.0,Notebook/report filter; 12 unseen-sample/seen-study pairs excluded from headline

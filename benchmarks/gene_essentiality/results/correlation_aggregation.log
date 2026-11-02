@@ -1,0 +1,13 @@
+[aggregation] target_expression
+[aggregation] pca_context
+[aggregation] bridge_contextual
+[aggregation] bulkformer_contextual
+[aggregation] bridge_plus_pca
+[aggregation] bulkformer_native
+       representation  mean_per_gene_pcc  mean_per_cell_line_pcc  global_pcc  mean_fold_global_pcc
+    target_expression           0.018638                0.409421    0.406919              0.407173
+          pca_context           0.013065                0.476495    0.474747              0.474810
+    bridge_contextual           0.014563                0.908018    0.906957              0.907054
+bulkformer_contextual           0.017751                0.901241    0.900269              0.900333
+      bridge_plus_pca           0.015371                0.906787    0.905730              0.905842
+    bulkformer_native           0.014191                0.894629    0.893594              0.893686

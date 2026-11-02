@@ -1,0 +1,3 @@
+label,labeled_queries,eligible_queries,labeled_references,eligible_references,eligible_classes_corpus,classes_in_eligible_queries,ambiguous_references,largest_query_class_fraction,query_missing_fraction,reference_missing_fraction
+source_label,562,286,510709,228556,731,23,0,0.5034965034965035,0.0,0.0
+tissue_label,162,162,73162,73162,16,2,0,0.8888888888888888,0.7117437722419928,0.856744251618828

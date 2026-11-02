@@ -1,0 +1,95 @@
+[2026-09-29 22:26:45] verified FM input: log1p(TPM), shape=(9816, 15165), checkpoint=r7hnr92k
+[2026-09-29 22:26:45] layer cache startup samples=9,816 genes=15,165 layers=12 devices=['cuda:0', 'cuda:1']; expected ~10 minutes
+[2026-09-29 22:27:52] layer cache worker=1 device=cuda:1 432/4,908 elapsed=1.0m eta=10.4m
+[2026-09-29 22:27:52] layer cache worker=0 device=cuda:0 400/4,908 elapsed=1.0m eta=11.3m
+[2026-09-29 22:28:52] layer cache worker=1 device=cuda:1 864/4,908 elapsed=2.0m eta=9.4m
+[2026-09-29 22:28:53] layer cache worker=0 device=cuda:0 800/4,908 elapsed=2.0m eta=10.3m
+[2026-09-29 22:29:52] layer cache worker=1 device=cuda:1 1,296/4,908 elapsed=3.0m eta=8.4m
+[2026-09-29 22:29:53] layer cache worker=0 device=cuda:0 1,192/4,908 elapsed=3.0m eta=9.4m
+[2026-09-29 22:30:53] layer cache worker=1 device=cuda:1 1,724/4,908 elapsed=4.0m eta=7.4m
+[2026-09-29 22:30:53] layer cache worker=0 device=cuda:0 1,580/4,908 elapsed=4.0m eta=8.5m
+[2026-09-29 22:31:53] layer cache worker=1 device=cuda:1 2,164/4,908 elapsed=5.0m eta=6.4m
+[2026-09-29 22:31:54] layer cache worker=0 device=cuda:0 1,976/4,908 elapsed=5.0m eta=7.5m
+[2026-09-29 22:32:53] layer cache worker=1 device=cuda:1 2,620/4,908 elapsed=6.0m eta=5.3m
+[2026-09-29 22:32:54] layer cache worker=0 device=cuda:0 2,388/4,908 elapsed=6.0m eta=6.4m
+[2026-09-29 22:33:53] layer cache worker=1 device=cuda:1 3,088/4,908 elapsed=7.0m eta=4.1m
+[2026-09-29 22:33:54] layer cache worker=0 device=cuda:0 2,808/4,908 elapsed=7.0m eta=5.3m
+[2026-09-29 22:34:54] layer cache worker=1 device=cuda:1 3,552/4,908 elapsed=8.0m eta=3.1m
+[2026-09-29 22:34:55] layer cache worker=0 device=cuda:0 3,220/4,908 elapsed=8.0m eta=4.2m
+[2026-09-29 22:35:54] layer cache worker=1 device=cuda:1 4,028/4,908 elapsed=9.0m eta=2.0m
+[2026-09-29 22:35:55] layer cache worker=0 device=cuda:0 3,648/4,908 elapsed=9.0m eta=3.1m
+[2026-09-29 22:36:54] layer cache worker=1 device=cuda:1 4,504/4,908 elapsed=10.0m eta=0.9m
+[2026-09-29 22:36:55] layer cache worker=0 device=cuda:0 4,076/4,908 elapsed=10.0m eta=2.1m
+[2026-09-29 22:37:47] layer cache worker=1 device=cuda:1 4,908/4,908 elapsed=10.9m eta=0.0m
+[2026-09-29 22:37:55] layer cache worker=0 device=cuda:0 4,500/4,908 elapsed=11.1m eta=1.0m
+[2026-09-29 22:38:55] layer cache worker=0 device=cuda:0 4,908/4,908 elapsed=12.1m eta=0.0m
+[2026-09-29 22:38:57] L12 cache QA: {'max_abs_l12_difference': 0.0, 'mean_abs_l12_difference': 0.0, 'correlation_l12_flat': 1.0}
+[2026-09-29 22:39:10] Cox layer=L1 fold=0 n=1935 epochs=170 elapsed=0.1m
+[2026-09-29 22:39:12] Cox layer=L1 fold=1 n=1932 epochs=167 elapsed=0.0m
+[2026-09-29 22:39:13] Cox layer=L1 fold=2 n=1936 epochs=162 elapsed=0.0m
+[2026-09-29 22:39:15] Cox layer=L1 fold=3 n=1932 epochs=135 elapsed=0.0m
+[2026-09-29 22:39:16] Cox layer=L1 fold=4 n=1933 epochs=167 elapsed=0.0m
+[2026-09-29 22:39:18] Cox layer=L2 fold=0 n=1935 epochs=141 elapsed=0.0m
+[2026-09-29 22:39:19] Cox layer=L2 fold=1 n=1932 epochs=145 elapsed=0.0m
+[2026-09-29 22:39:21] Cox layer=L2 fold=2 n=1936 epochs=200 elapsed=0.0m
+[2026-09-29 22:39:22] Cox layer=L2 fold=3 n=1932 epochs=200 elapsed=0.0m
+[2026-09-29 22:39:24] Cox layer=L2 fold=4 n=1933 epochs=171 elapsed=0.0m
+[2026-09-29 22:39:25] Cox layer=L3 fold=0 n=1935 epochs=198 elapsed=0.0m
+[2026-09-29 22:39:27] Cox layer=L3 fold=1 n=1932 epochs=154 elapsed=0.0m
+[2026-09-29 22:39:28] Cox layer=L3 fold=2 n=1936 epochs=194 elapsed=0.0m
+[2026-09-29 22:39:30] Cox layer=L3 fold=3 n=1932 epochs=151 elapsed=0.0m
+[2026-09-29 22:39:31] Cox layer=L3 fold=4 n=1933 epochs=200 elapsed=0.0m
+[2026-09-29 22:39:32] Cox layer=L4 fold=0 n=1935 epochs=124 elapsed=0.0m
+[2026-09-29 22:39:34] Cox layer=L4 fold=1 n=1932 epochs=183 elapsed=0.0m
+[2026-09-29 22:39:35] Cox layer=L4 fold=2 n=1936 epochs=178 elapsed=0.0m
+[2026-09-29 22:39:37] Cox layer=L4 fold=3 n=1932 epochs=179 elapsed=0.0m
+[2026-09-29 22:39:38] Cox layer=L4 fold=4 n=1933 epochs=166 elapsed=0.0m
+[2026-09-29 22:39:39] Cox layer=L5 fold=0 n=1935 epochs=127 elapsed=0.0m
+[2026-09-29 22:39:40] Cox layer=L5 fold=1 n=1932 epochs=162 elapsed=0.0m
+[2026-09-29 22:39:42] Cox layer=L5 fold=2 n=1936 epochs=167 elapsed=0.0m
+[2026-09-29 22:39:43] Cox layer=L5 fold=3 n=1932 epochs=138 elapsed=0.0m
+[2026-09-29 22:39:44] Cox layer=L5 fold=4 n=1933 epochs=160 elapsed=0.0m
+[2026-09-29 22:39:46] Cox layer=L6 fold=0 n=1935 epochs=156 elapsed=0.0m
+[2026-09-29 22:39:47] Cox layer=L6 fold=1 n=1932 epochs=180 elapsed=0.0m
+[2026-09-29 22:39:48] Cox layer=L6 fold=2 n=1936 epochs=144 elapsed=0.0m
+[2026-09-29 22:39:50] Cox layer=L6 fold=3 n=1932 epochs=157 elapsed=0.0m
+[2026-09-29 22:39:51] Cox layer=L6 fold=4 n=1933 epochs=147 elapsed=0.0m
+[2026-09-29 22:39:52] Cox layer=L7 fold=0 n=1935 epochs=139 elapsed=0.0m
+[2026-09-29 22:39:54] Cox layer=L7 fold=1 n=1932 epochs=157 elapsed=0.0m
+[2026-09-29 22:39:55] Cox layer=L7 fold=2 n=1936 epochs=117 elapsed=0.0m
+[2026-09-29 22:39:56] Cox layer=L7 fold=3 n=1932 epochs=166 elapsed=0.0m
+[2026-09-29 22:39:57] Cox layer=L7 fold=4 n=1933 epochs=155 elapsed=0.0m
+[2026-09-29 22:39:59] Cox layer=L8 fold=0 n=1935 epochs=200 elapsed=0.0m
+[2026-09-29 22:40:01] Cox layer=L8 fold=1 n=1932 epochs=148 elapsed=0.0m
+[2026-09-29 22:40:02] Cox layer=L8 fold=2 n=1936 epochs=150 elapsed=0.0m
+[2026-09-29 22:40:03] Cox layer=L8 fold=3 n=1932 epochs=171 elapsed=0.0m
+[2026-09-29 22:40:05] Cox layer=L8 fold=4 n=1933 epochs=166 elapsed=0.0m
+[2026-09-29 22:40:06] Cox layer=L9 fold=0 n=1935 epochs=200 elapsed=0.0m
+[2026-09-29 22:40:07] Cox layer=L9 fold=1 n=1932 epochs=150 elapsed=0.0m
+[2026-09-29 22:40:09] Cox layer=L9 fold=2 n=1936 epochs=160 elapsed=0.0m
+[2026-09-29 22:40:10] Cox layer=L9 fold=3 n=1932 epochs=164 elapsed=0.0m
+[2026-09-29 22:40:11] Cox layer=L9 fold=4 n=1933 epochs=168 elapsed=0.0m
+[2026-09-29 22:40:13] Cox layer=L10 fold=0 n=1935 epochs=200 elapsed=0.0m
+[2026-09-29 22:40:14] Cox layer=L10 fold=1 n=1932 epochs=152 elapsed=0.0m
+[2026-09-29 22:40:16] Cox layer=L10 fold=2 n=1936 epochs=174 elapsed=0.0m
+[2026-09-29 22:40:17] Cox layer=L10 fold=3 n=1932 epochs=162 elapsed=0.0m
+[2026-09-29 22:40:18] Cox layer=L10 fold=4 n=1933 epochs=170 elapsed=0.0m
+[2026-09-29 22:40:20] Cox layer=L11 fold=0 n=1935 epochs=149 elapsed=0.0m
+[2026-09-29 22:40:21] Cox layer=L11 fold=1 n=1932 epochs=160 elapsed=0.0m
+[2026-09-29 22:40:22] Cox layer=L11 fold=2 n=1936 epochs=162 elapsed=0.0m
+[2026-09-29 22:40:23] Cox layer=L11 fold=3 n=1932 epochs=154 elapsed=0.0m
+[2026-09-29 22:40:25] Cox layer=L11 fold=4 n=1933 epochs=180 elapsed=0.0m
+[2026-09-29 22:40:33] layerwise summary
+ layer  overall_oof_c_index  median_within_cancer_c_index  patient_weighted_within_cancer_c_index  cancers_better_than_l12  median_delta_vs_l12  mean_delta_vs_l12  signflip_mean_p_vs_l12  wilcoxon_p_vs_l12  signflip_mean_bh_p_vs_l12  wilcoxon_bh_p_vs_l12
+     1             0.747298                      0.606029                                0.612640                       11            -0.018307          -0.017012                0.161868           0.121592                   0.254365              0.167189
+     2             0.753030                      0.600248                                0.613589                       11            -0.007759          -0.015968                0.092409           0.114985                   0.254365              0.167189
+     3             0.752871                      0.605032                                0.615268                       11            -0.009415          -0.016849                0.070419           0.047541                   0.254365              0.156661
+     4             0.754143                      0.605730                                0.616670                        9            -0.013363          -0.016874                0.047330           0.035819                   0.254365              0.156661
+     5             0.754292                      0.601447                                0.616556                        8            -0.012049          -0.015732                0.110519           0.041340                   0.254365              0.156661
+     6             0.756135                      0.604746                                0.618656                        9            -0.013424          -0.015954                0.149909           0.073878                   0.254365              0.162531
+     7             0.755423                      0.606871                                0.620364                       11            -0.012877          -0.016548                0.123909           0.056968                   0.254365              0.156661
+     8             0.755878                      0.610150                                0.621336                       12            -0.009698          -0.014298                0.186118           0.090818                   0.255912              0.166500
+     9             0.755276                      0.605180                                0.620275                       14            -0.003537          -0.011061                0.231338           0.196559                   0.277428              0.240239
+    10             0.755381                      0.607317                                0.621396                       14            -0.004548          -0.011560                0.252207           0.500047                   0.277428              0.530440
+    11             0.756393                      0.615345                                0.624956                       10            -0.003646          -0.003980                0.458565           0.530440                   0.458565              0.530440
+    12             0.757972                      0.623931                                0.624674                        0             0.000000           0.000000                1.000000           1.000000                   1.000000              1.000000

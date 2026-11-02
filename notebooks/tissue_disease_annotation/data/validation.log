@@ -1,0 +1,4 @@
+PASS: prediction-level metrics match saved fold metrics within 1e-12.
+PASS: held-out sample sets are identical across Bridge, PCA, and raw expression.
+PASS: no duplicate held-out predictions were detected.
+PASS: publication figures regenerated from packaged fold-level and aggregate data.

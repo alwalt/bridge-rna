@@ -1,0 +1,30 @@
+[startup] models=['BulkFormer-50M', 'BulkFormer-147M']; tasks=['GO', 'OMIM']; seed=42; C=[0.1, 1.0, 10.0, 100.0, 1000.0]
+[scope] static checkpoint tensors only; no inference, pair tasks, controls, or split generation
+[mapping] rows=20010 usable_unique_entrez=19356 status={'mapped': 19362, 'unmapped': 637, 'ambiguous_synonym': 8, 'ambiguous_official_symbol': 3}
+[model] BulkFormer-50M checkpoint=/home/walt/bridge-rna/model/BulkFormer/BulkFormer_50M.pt native_shape=(20010, 256) usable_shape=(19356, 256)
+[BulkFormer-50M/GO] terms=20/56 elapsed=0.4m rate=0.84/s
+[BulkFormer-50M/GO] terms=40/56 elapsed=1.0m rate=0.67/s
+[BulkFormer-50M/GO] terms=56/56 elapsed=1.3m rate=0.72/s
+[BulkFormer-50M/OMIM] terms=20/103 elapsed=0.3m rate=1.31/s
+[BulkFormer-50M/OMIM] terms=40/103 elapsed=0.5m rate=1.27/s
+[BulkFormer-50M/OMIM] terms=60/103 elapsed=0.7m rate=1.42/s
+[BulkFormer-50M/OMIM] terms=80/103 elapsed=0.8m rate=1.60/s
+[BulkFormer-50M/OMIM] terms=100/103 elapsed=1.2m rate=1.36/s
+[BulkFormer-50M/OMIM] terms=103/103 elapsed=1.3m rate=1.37/s
+[model] BulkFormer-147M checkpoint=/home/walt/bridge-rna/model/BulkFormer/model/BulkFormer_147M.pt native_shape=(20010, 640) usable_shape=(19356, 640)
+[BulkFormer-147M/GO] terms=20/56 elapsed=0.7m rate=0.48/s
+[BulkFormer-147M/GO] terms=40/56 elapsed=1.8m rate=0.37/s
+[BulkFormer-147M/GO] terms=56/56 elapsed=2.3m rate=0.41/s
+[BulkFormer-147M/OMIM] terms=20/103 elapsed=0.4m rate=0.75/s
+[BulkFormer-147M/OMIM] terms=40/103 elapsed=0.9m rate=0.72/s
+[BulkFormer-147M/OMIM] terms=60/103 elapsed=1.3m rate=0.80/s
+[BulkFormer-147M/OMIM] terms=80/103 elapsed=1.5m rate=0.90/s
+[BulkFormer-147M/OMIM] terms=100/103 elapsed=2.3m rate=0.74/s
+[BulkFormer-147M/OMIM] terms=103/103 elapsed=2.3m rate=0.75/s
+[done] elapsed=7.2m
+[done] summary:
+Task           Model  N_terms  Embedding_dim  Mean_AUROC  Median_AUROC  SD_AUROC  Mean_AUPRC  Median_AUPRC  SD_AUPRC
+  GO  BulkFormer-50M       56            256    0.696123      0.698081  0.076921    0.257927      0.238833  0.115104
+OMIM  BulkFormer-50M      103            256    0.653995      0.641865  0.114842    0.252563      0.195029  0.166658
+  GO BulkFormer-147M       56            640    0.714552      0.711903  0.071268    0.275747      0.247732  0.118101
+OMIM BulkFormer-147M      103            640    0.640581      0.642270  0.116388    0.264857      0.207189  0.173774

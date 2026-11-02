@@ -1,0 +1,14 @@
+field,usable,provenance,limitation
+study,True,ARCHS4 series_id / frozen pair manifest,structured
+biological_source,True,ARCHS4 source_name_ch1,structured but submitter-defined and heterogeneous
+tissue,True,existing conservative anchored source-name mapping,limited coverage; not a curated ontology
+cell_type,False,none corpus-wide,present only inside free-text characteristics for some samples
+cell_line,False,none corpus-wide,present only inside free-text characteristics for some samples
+primary_vs_cultured,False,none corpus-wide,cannot determine without free-text inference
+disease_state,False,none corpus-wide,present only inside free-text characteristics for some samples
+treatment_condition,False,none corpus-wide,present only inside free-text characteristics for some samples
+organism,True,ARCHS4 organism_ch1,all evaluation samples are human
+library_strategy,True,ARCHS4 library_strategy,all queries are RNA-Seq
+library_source,True,ARCHS4 library_source,all queries are transcriptomic
+platform,True,ARCHS4 platform_id,structured technical label
+instrument,True,ARCHS4 instrument_model,structured technical label

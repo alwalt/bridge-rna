@@ -1,0 +1,55 @@
+{
+  "validated_at": "2026-10-29",
+  "database": "data/archs4/bridge_metadata.sqlite",
+  "database_bytes": 4371144704,
+  "database_sha256": "d3aa5455ac8466a8ec532d8ebb3da152ea1054a17186e2cccd52f129ffd9fad4",
+  "pre_relocation_sha256": "2b66b3edb489fa5a951b5a1bee817cd91bdafa4c5bd9cb819fe78df3ea1fbf91",
+  "checksum_change_reason": "Updated 754944 geo_sample_extras.source_url values to repository-relative data/geo/geo_family_soft locators; no biological or canonical values changed.",
+  "sqlite_quick_check": "ok",
+  "foreign_key_violations": 0,
+  "table_invariants": {
+    "samples": 940455,
+    "human_samples": 510709,
+    "mouse_samples": 429746,
+    "canonical_metadata": 940455,
+    "studies": 59791,
+    "geo_sample_extras": 754944
+  },
+  "stale_geo_source_paths": 0,
+  "absolute_geo_source_paths": 0,
+  "distinct_geo_source_paths": 40918,
+  "missing_geo_source_files": 0,
+  "relocated_sources": {
+    "data/geo/geo_family_soft": {
+      "files": 59791,
+      "bytes": 276462806
+    },
+    "data/geo/geo_archs4_audit_100": {
+      "files": 337,
+      "bytes": 1879255
+    },
+    "data/gemma/samples": {
+      "json_files": 8076,
+      "bytes": 2172144316
+    },
+    "data/gemma/datasets.parquet": {
+      "bytes": 17224240
+    },
+    "data/gemma/fetch_failures.csv": {
+      "bytes": 47786
+    },
+    "data/geometa": {
+      "csv_files": 3,
+      "bytes": 57769047
+    }
+  },
+  "validation": {
+    "all_expected_destinations_exist": true,
+    "all_old_locations_absent": true,
+    "pipeline_python_compilation": "passed",
+    "benchmark_notebook_execution_from_repository_root": "passed",
+    "benchmark_notebook_execution_from_alternate_checkout_path": "passed",
+    "git_diff_check": "passed",
+    "large_data_git_ignore_check": "passed"
+  }
+}

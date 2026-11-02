@@ -1,0 +1,10 @@
+Model,Input_type,GO_mean_AUROC,OMIM_mean_AUROC
+GenePT-Model3,literature,0.926,0.877
+BioConceptVec-FastText,literature,0.909,0.871
+Mashup,PPI,0.891,0.782
+ProtT5,amino acid,0.845,0.691
+ESMB1,amino acid,0.841,0.685
+scGPT-human,single-cell expression,0.787,0.744
+Bridge E0,bulk-expression FM,0.5177345946414421,0.4891240408445398
+Bridge E1,bulk-expression FM,0.7722056568261634,0.7354328910401389
+Bridge E2,bulk-expression FM,0.7811370673092847,0.7596436766344037

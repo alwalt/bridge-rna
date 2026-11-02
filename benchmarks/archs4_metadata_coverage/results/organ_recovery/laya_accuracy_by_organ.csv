@@ -1,0 +1,61 @@
+mode,true_organ,n,accuracy,unknown_rate
+flat_54,Adipose tissue,1,0.0,0.0
+flat_54,Adrenal gland,2,0.0,0.0
+flat_54,Blood,36,0.0,0.0
+flat_54,Bone marrow,14,0.07142857142857142,0.07142857142857142
+flat_54,Brain,9,0.8888888888888888,0.0
+flat_54,Brain: Amygdala,4,0.0,0.0
+flat_54,Brain: Basal ganglia,2,0.0,0.0
+flat_54,Brain: Cerebellum,3,0.0,0.0
+flat_54,Brain: Cerebral cortex,1,0.0,0.0
+flat_54,Brain: Hypothalamus,2,0.0,0.0
+flat_54,Brain: Thalamus,6,0.0,0.0
+flat_54,Breast,9,0.1111111111111111,0.0
+flat_54,Cervix,1,0.0,0.0
+flat_54,Eye,2,0.0,0.0
+flat_54,Head and Neck,4,0.0,0.0
+flat_54,Heart,3,0.0,0.0
+flat_54,Intestine,5,0.0,0.0
+flat_54,Kidney,1,0.0,0.0
+flat_54,Liver,3,0.0,0.0
+flat_54,Lung,6,0.3333333333333333,0.0
+flat_54,Lymphoid tissue,3,0.0,0.0
+flat_54,Nasopharynx,1,0.0,0.0
+flat_54,Pancreas,4,0.0,0.0
+flat_54,Placenta,1,1.0,0.0
+flat_54,Prostate,7,0.5714285714285714,0.0
+flat_54,Skeletal muscle,4,1.0,0.0
+flat_54,Skin,2,0.0,0.0
+flat_54,Testis,1,0.0,0.0
+flat_54,Tongue,1,0.0,0.0
+flat_54,Urinary bladder,2,1.0,0.0
+shortlist,Adipose tissue,1,0.0,1.0
+shortlist,Adrenal gland,2,0.0,1.0
+shortlist,Blood,36,0.0,0.8333333333333334
+shortlist,Bone marrow,14,0.35714285714285715,0.35714285714285715
+shortlist,Brain,9,0.4444444444444444,0.4444444444444444
+shortlist,Brain: Amygdala,4,0.0,0.0
+shortlist,Brain: Basal ganglia,2,0.0,0.0
+shortlist,Brain: Cerebellum,3,0.0,1.0
+shortlist,Brain: Cerebral cortex,1,0.0,0.0
+shortlist,Brain: Hypothalamus,2,0.0,1.0
+shortlist,Brain: Thalamus,6,0.16666666666666666,0.0
+shortlist,Breast,9,0.4444444444444444,0.5555555555555556
+shortlist,Cervix,1,0.0,1.0
+shortlist,Eye,2,0.0,0.5
+shortlist,Head and Neck,4,0.75,0.25
+shortlist,Heart,3,0.0,1.0
+shortlist,Intestine,5,0.0,1.0
+shortlist,Kidney,1,0.0,1.0
+shortlist,Liver,3,0.0,1.0
+shortlist,Lung,6,0.5,0.3333333333333333
+shortlist,Lymphoid tissue,3,0.3333333333333333,0.0
+shortlist,Nasopharynx,1,0.0,0.0
+shortlist,Pancreas,4,0.0,1.0
+shortlist,Placenta,1,1.0,0.0
+shortlist,Prostate,7,0.7142857142857143,0.2857142857142857
+shortlist,Skeletal muscle,4,0.25,0.75
+shortlist,Skin,2,0.0,1.0
+shortlist,Testis,1,0.0,1.0
+shortlist,Tongue,1,0.0,1.0
+shortlist,Urinary bladder,2,1.0,0.0

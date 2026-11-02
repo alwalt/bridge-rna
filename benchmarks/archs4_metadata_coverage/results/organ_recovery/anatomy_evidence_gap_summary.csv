@@ -1,0 +1,9 @@
+species,mapping_status,evidence_gap_class,n
+human,ambiguous,ambiguous_recognized_candidates,2901
+human,unknown,structured_anatomy_outside_dictionary,8634
+human,unknown,unmapped_explicit_gemma_anatomy,1824
+human,unknown,unrecognized_sample_source_text,52434
+mouse,ambiguous,ambiguous_recognized_candidates,11174
+mouse,unknown,structured_anatomy_outside_dictionary,12005
+mouse,unknown,unmapped_explicit_gemma_anatomy,7519
+mouse,unknown,unrecognized_sample_source_text,97468

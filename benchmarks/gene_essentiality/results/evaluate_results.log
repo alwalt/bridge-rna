@@ -1,0 +1,7 @@
+       representation  gene_count  evaluable_pcc  mean_pcc  median_pcc  mean_scc  median_scc  fraction_pcc_positive
+    bridge_contextual       14415          14415  0.014563    0.008612  0.012542    0.007413               0.566285
+      bridge_plus_pca       14415          14415  0.015371    0.009391  0.012936    0.008353               0.581686
+bulkformer_contextual       14415          14415  0.017751    0.010370  0.015616    0.010104               0.599723
+    bulkformer_native       17525          17525  0.014191    0.008016  0.012480    0.007522               0.576776
+          pca_context       14415          14415  0.013065    0.010905  0.008046    0.007651               0.587790
+    target_expression       14415          14415  0.018638    0.010985  0.011493    0.009170               0.578425

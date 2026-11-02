@@ -151,6 +151,16 @@ Primary figures:
 
 Each point is the fold-aware held-out C-index, each whisker is a patient-bootstrap 95% interval, the dashed line marks C = 0.5, and `events / N` records outcome support. Sparse-event cancers have few comparable pairs and consequently wide or unstable intervals. Complete OOF coverage narrows Bridge intervals in 28/32 cancers; the median width falls from 0.179 to 0.148.
 
+### Exploratory layerwise survival ablation
+
+A final frozen-depth ablation evaluates mean-pooled Bridge representations after every transformer block, L1–L12, using the identical complete OOF folds and Cox head. The layerwise inference pass reproduced the original L12 cache exactly. L12 has the best overall fold-aware OOF C-index (0.758) and the best median within-cancer C-index (0.624). L11 has a trivially higher patient-weighted within-cancer mean (0.6250 versus 0.6247), but its median paired difference from L12 is -0.004, and no earlier layer differs systematically after multiplicity correction.
+
+Earlier-layer point estimates exceed L12 by more than 0.02 in several cancers with at least 20 events: SKCM (L1, Δ=+0.110), UCS (L3, Δ=+0.062), GBM (L1, Δ=+0.051), READ (L5, Δ=+0.048), SARC (L1, Δ=+0.038), COAD (L10, Δ=+0.027), UVM (L2, Δ=+0.026), ACC (L2, Δ=+0.024), ESCA (L2, Δ=+0.020), STAD (L6, Δ=+0.020). These are post hoc maxima across 12 layers and may reflect winner's curse. They are hypotheses for independent validation, not evidence for replacing the prespecified L12 representation or selecting cancer-specific layers on the present test cohort.
+
+- [Layerwise depth curve](results/figures/bridge_layerwise_survival_cindex.png)
+- [Per-cancer layer heatmap](results/figures/bridge_layerwise_per_cancer_survival_heatmap.png)
+- [Layer-versus-L12 delta heatmap](results/figures/bridge_layerwise_vs_l12_delta_heatmap.png)
+
 ## 13. Medical interpretation
 
 The evaluated path is `tumor RNA-seq → Bridge → molecular representation → Cox risk`. It demonstrates retrospective prognostic information, not clinical utility. Clinical utility would require clinical-covariate adjustment, comparisons with stage and grade, combined clinical-plus-expression models, calibration, external independent cohorts, and prospective or temporal validation. A logical future analysis is `Clinical` versus `Clinical + PCA` versus `Clinical + Raw` versus `Clinical + Bridge`; it is outside the present benchmark.

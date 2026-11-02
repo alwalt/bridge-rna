@@ -1,0 +1,5 @@
+strategy,evaluation_scope,n,coverage,precision_among_labeled,incorrect_label_rate,unknown_or_ambiguous_rate,samples_requiring_laya,approx_runtime_seconds
+deterministic_only,5000 held-out GEOMeta samples,5000,0.7098,0.9273034657650042,0.0516,0.2902,0,0.0
+deterministic_plus_shortlist_laya,5000 held-out; Laya only 140 ambiguous cases,5000,0.7214,0.9207097310784585,0.0572,0.27859999999999996,140,33.94379187794402
+flat_54_laya_on_same_ambiguous_cases,140 deterministic-ambiguous held-out cases only,140,0.9928571428571429,0.16546762589928057,0.8285714285714286,0.007142857142857143,140,33.944545545615256
+prior_flat_54_baseline,previous independent 100-sample condition-B pilot,100,,0.39,,,100,

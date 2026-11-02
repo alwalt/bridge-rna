@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": {
+    "raw_exact_identity": "recalculated from 562-row nearest-neighbor context table",
+    "whitened_exact_identity": "verified against two independent compact saved summary tables; prediction-level whitened ranks were not retained",
+    "gtex_archs4": "micro P@10, Hit@10, and Unknown@10 recalculated from the retained 6,064-query table; tissue-macro summaries verified against saved per-tissue summaries",
+    "gtex_gtex": "summary-table verification only; compact prediction-level neighbor labels were not retained in the publication package",
+    "status": "passed"
+  }
+}

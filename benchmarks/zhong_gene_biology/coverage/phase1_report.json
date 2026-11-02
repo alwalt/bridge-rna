@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-21T05:50:36.060495+00:00",
+  "elapsed_seconds": 8.210409879684448,
+  "phase0": {
+    "phase0_json": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/phase0_bridge_embedding_audit.json",
+    "checkpoint_exists": true,
+    "checkpoint_path": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+    "checkpoint_source": "shared_root",
+    "config_path": "/home/walt/bridge-rna/model/r7hnr92k/config.json",
+    "vocab_path": "/home/walt/bridge-rna/data/ensembl/canonical_genes.csv",
+    "embedding_shape": [
+      15165,
+      512
+    ],
+    "shape_source": "checkpoint_tensor",
+    "existing_embedding_matrices": [
+      "/home/walt/bridge-rna/benchmarks/static_gene_embeddings/work/static_gene_embedding.float32.npy"
+    ]
+  },
+  "phase1": {
+    "mapping_tsv": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/bridge_gene_mapping.tsv",
+    "symbol_to_entrez_resource": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/references/Homo_sapiens.gene_info.gz",
+    "symbol_to_entrez_resource_type": "ncbi_gene_info",
+    "coverage_summary_csv": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/coverage_summary.csv",
+    "term_coverage_csv": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/term_coverage.csv",
+    "pair_coverage_csv": "/home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/pair_coverage.csv",
+    "major_problems": [
+      "ambiguous_symbol_to_entrez_mappings"
+    ]
+  }
+}

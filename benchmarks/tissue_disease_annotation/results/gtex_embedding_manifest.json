@@ -1,0 +1,15 @@
+{
+  "shape": [
+    8883,
+    512
+  ],
+  "dtype": "float32",
+  "finite": true,
+  "sample_order_sha256": "c268f25a9f4aaff7f2c4bab3ac99811a3df8d81bb78a3897f9f635f3b5355029",
+  "embedding_sha256": "813bcc52ce3feb99cc58b57c943f77452fb17eda78668864d7efa558df24d73f",
+  "expression_sha256": "92d1462a5d3ecf2aba305935da0e5a20df7c62855c50cbb03a8634c6cffc16d1",
+  "checkpoint": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+  "checkpoint_sha256": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541",
+  "pooling": "final_token_mean",
+  "normalization": "natural_log1p_tpm"
+}

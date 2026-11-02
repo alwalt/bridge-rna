@@ -1,0 +1,441 @@
+mapping_id,source,field,raw_value,canonical_id,mapping_method,mapping_status,ontology_id,notes
+426,GEOMeta,age_group,Adolescent,geometa:age_group:7ec990b6829f8745,identity,valid,,Observed release value
+427,GEOMeta,age_group,Adults-20s,geometa:age_group:37914b82149047e7,identity,valid,,Observed release value
+428,GEOMeta,age_group,Adults-30s,geometa:age_group:418dd155d861eec6,identity,valid,,Observed release value
+429,GEOMeta,age_group,Adults-40s,geometa:age_group:a8f90f838f5dbb56,identity,valid,,Observed release value
+430,GEOMeta,age_group,Adults-50s,geometa:age_group:5b4a43b273cefe2d,identity,valid,,Observed release value
+431,GEOMeta,age_group,Elderly-1,geometa:age_group:2fe59899ace61d4c,identity,valid,,Observed release value
+432,GEOMeta,age_group,Elderly-2,geometa:age_group:b6cc903fd5785264,identity,valid,,Observed release value
+433,GEOMeta,age_group,Elderly-3,geometa:age_group:acf57173b1b8f28c,identity,valid,,Observed release value
+434,GEOMeta,age_group,Infant,geometa:age_group:ffd9e3d7ce10f125,identity,valid,,Observed release value
+435,GEOMeta,age_group,Pediatric,geometa:age_group:c44739a9e8afa90a,identity,valid,,Observed release value
+55,GEOMeta,disease,"Abortion, Habitual",geometa:disease:fb55281a113a62d4,identity,valid,,Observed release value
+56,GEOMeta,disease,Acromegaly,geometa:disease:4d1174fda817ea39,identity,valid,,Observed release value
+57,GEOMeta,disease,Acute Kidney Injury,geometa:disease:2717f709551ebb27,identity,valid,,Observed release value
+58,GEOMeta,disease,Acute-On-Chronic Liver Failure,geometa:disease:ec18a4fd93f975b4,identity,valid,,Observed release value
+59,GEOMeta,disease,"Adenocarcinoma, Clear Cell",geometa:disease:0ccf347dda6b69d0,identity,valid,,Observed release value
+60,GEOMeta,disease,Adenoma,geometa:disease:14cd8935bec29830,identity,valid,,Observed release value
+61,GEOMeta,disease,Adenomatous Polyposis Coli,geometa:disease:395ea563547bce54,identity,valid,,Observed release value
+62,GEOMeta,disease,Adenomyosis,geometa:disease:0b11d18593a46cf1,identity,valid,,Observed release value
+63,GEOMeta,disease,Adjacent Normal,geometa:disease:b3966bb069aaeeab,identity,valid,,Observed release value
+64,GEOMeta,disease,Adrenocortical Carcinoma,geometa:disease:15d13f87176bcb19,identity,valid,,Observed release value
+65,GEOMeta,disease,Adrenoleukodystrophy,geometa:disease:0f8312e1977d38b1,identity,valid,,Observed release value
+66,GEOMeta,disease,Aicardi-Goutieres syndrome,geometa:disease:71094a2f565c8d3a,identity,valid,,Observed release value
+67,GEOMeta,disease,Alcoholism,geometa:disease:76e4bf60f6f8bfd9,identity,valid,,Observed release value
+68,GEOMeta,disease,Alopecia,geometa:disease:23eddebbfd59d941,identity,valid,,Observed release value
+69,GEOMeta,disease,Alopecia Areata,geometa:disease:7923e048afecab88,identity,valid,,Observed release value
+71,GEOMeta,disease,Alzheimer Disease,geometa:disease:f0787d5137d1847f,identity,valid,,Observed release value
+72,GEOMeta,disease,"Amaurosis congenita of Leber, type 1",geometa:disease:60721798cb53a3c8,identity,valid,,Observed release value
+73,GEOMeta,disease,Amyotrophic Lateral Sclerosis,geometa:disease:1d90f519e413f188,identity,valid,,Observed release value
+74,GEOMeta,disease,"Anemia, Dyserythropoietic, Congenital",geometa:disease:68658d78b1c6b575,identity,valid,,Observed release value
+75,GEOMeta,disease,"Anemia, Sickle Cell",geometa:disease:b615960ba4ce3960,identity,valid,,Observed release value
+76,GEOMeta,disease,Angelman Syndrome,geometa:disease:0757df1d8a226655,identity,valid,,Observed release value
+77,GEOMeta,disease,Anterior Cruciate Ligament Injuries,geometa:disease:5473f69b3e79e2aa,identity,valid,,Observed release value
+78,GEOMeta,disease,Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis,geometa:disease:007197311e6cb3ad,identity,valid,,Observed release value
+79,GEOMeta,disease,Aortic Valve Stenosis,geometa:disease:3850036c065a2220,identity,valid,,Observed release value
+80,GEOMeta,disease,Arrhythmogenic Right Ventricular Dysplasia,geometa:disease:eb7161a5824a7616,identity,valid,,Observed release value
+81,GEOMeta,disease,"Arthritis, Juvenile",geometa:disease:929c850fb8d3261f,identity,valid,,Observed release value
+82,GEOMeta,disease,"Arthritis, Psoriatic",geometa:disease:605bb0bac54d575e,identity,valid,,Observed release value
+83,GEOMeta,disease,"Arthritis, Rheumatoid",geometa:disease:acef93c2ea6dd9a7,identity,valid,,Observed release value
+84,GEOMeta,disease,Asthma,geometa:disease:57dff0b9550cf026,identity,valid,,Observed release value
+85,GEOMeta,disease,Astrocytoma,geometa:disease:dcec68b744d0b5f8,identity,valid,,Observed release value
+86,GEOMeta,disease,Ataxia Telangiectasia,geometa:disease:fd9adb4ce0fcbb2a,identity,valid,,Observed release value
+87,GEOMeta,disease,Atherosclerosis,geometa:disease:6a2d9af935d19efc,identity,valid,,Observed release value
+88,GEOMeta,disease,Atrial Fibrillation,geometa:disease:03038cc3fc382750,identity,valid,,Observed release value
+89,GEOMeta,disease,Autism Spectrum Disorder,geometa:disease:27e4aa386cd56aa8,identity,valid,,Observed release value
+90,GEOMeta,disease,Bacterial Infections,geometa:disease:e624eb9540aa1828,identity,valid,,Observed release value
+91,GEOMeta,disease,Barrett Esophagus,geometa:disease:70cf89ac717f77e8,identity,valid,,Observed release value
+92,GEOMeta,disease,Behcet Syndrome,geometa:disease:f3598c7456e705ef,identity,valid,,Observed release value
+94,GEOMeta,disease,Bile Duct Neoplasms,geometa:disease:a80b73dfacb6980e,identity,valid,,Observed release value
+95,GEOMeta,disease,Biliary Atresia,geometa:disease:8e1da9358a7d5836,identity,valid,,Observed release value
+96,GEOMeta,disease,Bipolar Disorder,geometa:disease:56fcca6a59e964f6,identity,valid,,Observed release value
+97,GEOMeta,disease,Bone Neoplasms,geometa:disease:d29429497be945f7,identity,valid,,Observed release value
+98,GEOMeta,disease,Brain Neoplasms,geometa:disease:b286d572305d63f9,identity,valid,,Observed release value
+99,GEOMeta,disease,Breast Neoplasms,geometa:disease:6c806fbeec8f706f,identity,valid,,Observed release value
+100,GEOMeta,disease,Bronchopulmonary Dysplasia,geometa:disease:88c927aa0c5167a2,identity,valid,,Observed release value
+101,GEOMeta,disease,Burkitt Lymphoma,geometa:disease:860fdc65919d6d6f,identity,valid,,Observed release value
+102,GEOMeta,disease,Bursitis,geometa:disease:28e546690670d8c7,identity,valid,,Observed release value
+147,GEOMeta,disease,COVID-19,geometa:disease:6bc468996ec739e4,identity,valid,,Observed release value
+103,GEOMeta,disease,Carcinoid Tumor,geometa:disease:4cccf29a4684fa1c,identity,valid,,Observed release value
+104,GEOMeta,disease,"Carcinoma, Adenoid Cystic",geometa:disease:78559e51cc6c3829,identity,valid,,Observed release value
+105,GEOMeta,disease,"Carcinoma, Adenosquamous",geometa:disease:35f1d35e48252b3b,identity,valid,,Observed release value
+106,GEOMeta,disease,"Carcinoma, Basal Cell",geometa:disease:8017133cc22c0c69,identity,valid,,Observed release value
+107,GEOMeta,disease,"Carcinoma, Ductal, Breast",geometa:disease:fb1e6c3afa928cc6,identity,valid,,Observed release value
+108,GEOMeta,disease,"Carcinoma, Embryonal",geometa:disease:ac649348d9f5968a,identity,valid,,Observed release value
+109,GEOMeta,disease,"Carcinoma, Endometrioid",geometa:disease:687c351a1a6bc59e,identity,valid,,Observed release value
+110,GEOMeta,disease,"Carcinoma, Hepatocellular",geometa:disease:9ae82de36f06f1e4,identity,valid,,Observed release value
+111,GEOMeta,disease,"Carcinoma, Large Cell",geometa:disease:de73984884e2bfce,identity,valid,,Observed release value
+112,GEOMeta,disease,"Carcinoma, Lobular",geometa:disease:7112477259de3dc6,identity,valid,,Observed release value
+113,GEOMeta,disease,"Carcinoma, Merkel Cell",geometa:disease:e5dd7a04ceeaead9,identity,valid,,Observed release value
+114,GEOMeta,disease,"Carcinoma, Neuroendocrine",geometa:disease:082959b48aabf4a4,identity,valid,,Observed release value
+115,GEOMeta,disease,"Carcinoma, Non-Small-Cell Lung",geometa:disease:7b76c560fa42c1ad,identity,valid,,Observed release value
+116,GEOMeta,disease,"Carcinoma, Pancreatic Ductal",geometa:disease:d521a17322d43527,identity,valid,,Observed release value
+117,GEOMeta,disease,"Carcinoma, Renal Cell",geometa:disease:65921fe0b48ac903,identity,valid,,Observed release value
+118,GEOMeta,disease,"Carcinoma, Squamous Cell",geometa:disease:df29c13047f7ad9d,identity,valid,,Observed release value
+119,GEOMeta,disease,"Carcinoma, Transitional Cell",geometa:disease:a1c3ffb96245cf13,identity,valid,,Observed release value
+120,GEOMeta,disease,Cardiomyopathies,geometa:disease:5d5a58f67806a957,identity,valid,,Observed release value
+121,GEOMeta,disease,"Cardiomyopathy, Dilated",geometa:disease:0f5c520ef559ecb0,identity,valid,,Observed release value
+122,GEOMeta,disease,"Cardiomyopathy, Hypertrophic",geometa:disease:2d33b2784ee02631,identity,valid,,Observed release value
+123,GEOMeta,disease,Celiac Disease,geometa:disease:b45e45bbef54372d,identity,valid,,Observed release value
+124,GEOMeta,disease,Central Nervous System Neoplasms,geometa:disease:40a6ca2e69f4b54f,identity,valid,,Observed release value
+125,GEOMeta,disease,Chikungunya Fever,geometa:disease:414d03ae62c59cf7,identity,valid,,Observed release value
+126,GEOMeta,disease,Cholangiocarcinoma,geometa:disease:d217fe02e9915683,identity,valid,,Observed release value
+127,GEOMeta,disease,"Cholangitis, Sclerosing",geometa:disease:53482533afac9e2e,identity,valid,,Observed release value
+128,GEOMeta,disease,Chondrosarcoma,geometa:disease:cb86b24acbfc0d79,identity,valid,,Observed release value
+129,GEOMeta,disease,Chordoma,geometa:disease:abf8c3a885da9608,identity,valid,,Observed release value
+130,GEOMeta,disease,Chorioamnionitis,geometa:disease:1e4cbf458056626e,identity,valid,,Observed release value
+131,GEOMeta,disease,Choriocarcinoma,geometa:disease:abfcd9ff7076e683,identity,valid,,Observed release value
+132,GEOMeta,disease,"Chromosome 12, 12p trisomy",geometa:disease:ae4d6d5c675f6945,identity,valid,,Observed release value
+133,GEOMeta,disease,"Cicatrix, Hypertrophic",geometa:disease:85f08ad4f8956f90,identity,valid,,Observed release value
+134,GEOMeta,disease,Citrullinemia,geometa:disease:252e48c60550eea1,identity,valid,,Observed release value
+135,GEOMeta,disease,Cocaine-Related Disorders,geometa:disease:243cf1c2137ad7e0,identity,valid,,Observed release value
+136,GEOMeta,disease,Cockayne Syndrome,geometa:disease:871b56c28b3edbcc,identity,valid,,Observed release value
+137,GEOMeta,disease,Cognitive Dysfunction,geometa:disease:e082e3e8c9744dfa,identity,valid,,Observed release value
+138,GEOMeta,disease,Colitis,geometa:disease:98de71ab31532d38,identity,valid,,Observed release value
+139,GEOMeta,disease,"Colitis, Ulcerative",geometa:disease:a160ce12919bebfc,identity,valid,,Observed release value
+140,GEOMeta,disease,Colitis-Associated Neoplasms,geometa:disease:80e7c8357356389b,identity,valid,,Observed release value
+141,GEOMeta,disease,Colonic Neoplasms,geometa:disease:3151849285763b64,identity,valid,,Observed release value
+142,GEOMeta,disease,Colorectal Neoplasms,geometa:disease:69099dec8c3a633e,identity,valid,,Observed release value
+143,GEOMeta,disease,"Colorectal Neoplasms, Hereditary Nonpolyposis",geometa:disease:23a43c8fdcaad90d,identity,valid,,Observed release value
+144,GEOMeta,disease,Common Variable Immunodeficiency,geometa:disease:8ea5b474d389bff7,identity,valid,,Observed release value
+145,GEOMeta,disease,Conjunctival Neoplasms,geometa:disease:ec3f3362f1dd8859,identity,valid,,Observed release value
+146,GEOMeta,disease,Coronary Artery Disease,geometa:disease:c1f58d1dc4de9b03,identity,valid,,Observed release value
+148,GEOMeta,disease,Crohn Disease,geometa:disease:75f6e05f723d4762,identity,valid,,Observed release value
+149,GEOMeta,disease,Cryopyrin-Associated Periodic Syndromes,geometa:disease:754e6ece5aaa5943,identity,valid,,Observed release value
+150,GEOMeta,disease,"Cystadenocarcinoma, Serous",geometa:disease:99ab873b650e084b,identity,valid,,Observed release value
+151,GEOMeta,disease,Cystic Fibrosis,geometa:disease:7ceaffe80493cae6,identity,valid,,Observed release value
+152,GEOMeta,disease,Cytomegalovirus Infections,geometa:disease:693f05a2afdad17c,identity,valid,,Observed release value
+153,GEOMeta,disease,De Lange Syndrome,geometa:disease:6c9ef31089cbfdce,identity,valid,,Observed release value
+154,GEOMeta,disease,Dengue,geometa:disease:b4c74fb02b69d00d,identity,valid,,Observed release value
+155,GEOMeta,disease,"Depressive Disorder, Major",geometa:disease:dbceeac82bce828b,identity,valid,,Observed release value
+156,GEOMeta,disease,"Dermatitis, Atopic",geometa:disease:2530e8304e7ee7e9,identity,valid,,Observed release value
+157,GEOMeta,disease,Dermatomyositis,geometa:disease:564ebd69bbafa5c2,identity,valid,,Observed release value
+158,GEOMeta,disease,Desmoplastic Small Round Cell Tumor,geometa:disease:44a98e0057037967,identity,valid,,Observed release value
+159,GEOMeta,disease,Diabetes Mellitus,geometa:disease:b3aea2d376fb96a7,identity,valid,,Observed release value
+160,GEOMeta,disease,"Diabetes Mellitus, Type 1",geometa:disease:965c60914d847f9e,identity,valid,,Observed release value
+161,GEOMeta,disease,"Diabetes Mellitus, Type 2",geometa:disease:b00e62668f154b38,identity,valid,,Observed release value
+162,GEOMeta,disease,"Diabetes, Gestational",geometa:disease:bdb278fae16b6691,identity,valid,,Observed release value
+163,GEOMeta,disease,Diabetic Nephropathies,geometa:disease:0258e44584d16188,identity,valid,,Observed release value
+164,GEOMeta,disease,Diffuse Intrinsic Pontine Glioma,geometa:disease:6cd7293ba6f5aa97,identity,valid,,Observed release value
+165,GEOMeta,disease,Down Syndrome,geometa:disease:337c62f0580688d6,identity,valid,,Observed release value
+166,GEOMeta,disease,Dyskeratosis Congenita,geometa:disease:5641534689d3dd2c,identity,valid,,Observed release value
+167,GEOMeta,disease,Endometrial Neoplasms,geometa:disease:d75495f61d170bb9,identity,valid,,Observed release value
+168,GEOMeta,disease,Endometrial Stromal Tumors,geometa:disease:e0f945aa8713d1d8,identity,valid,,Observed release value
+169,GEOMeta,disease,Endometriosis,geometa:disease:5d1ace4a2a6632bc,identity,valid,,Observed release value
+170,GEOMeta,disease,"Enterocolitis, Necrotizing",geometa:disease:a12dc5e2f9166fd3,identity,valid,,Observed release value
+171,GEOMeta,disease,Eosinophilic Esophagitis,geometa:disease:6845b45d41b347f4,identity,valid,,Observed release value
+172,GEOMeta,disease,Ependymoma,geometa:disease:0df2933f6dee27ed,identity,valid,,Observed release value
+173,GEOMeta,disease,Epilepsy,geometa:disease:2a25f0852301a62b,identity,valid,,Observed release value
+174,GEOMeta,disease,"Epilepsy, Temporal Lobe",geometa:disease:a01d7d39be171753,identity,valid,,Observed release value
+175,GEOMeta,disease,Epstein-Barr Virus Infections,geometa:disease:45fa929d8eb9d275,identity,valid,,Observed release value
+176,GEOMeta,disease,Erdheim-Chester Disease,geometa:disease:01ef33491631523f,identity,valid,,Observed release value
+177,GEOMeta,disease,Esophageal Neoplasms,geometa:disease:acd39b6413609130,identity,valid,,Observed release value
+178,GEOMeta,disease,Esophageal Squamous Cell Carcinoma,geometa:disease:0a53e576765de842,identity,valid,,Observed release value
+179,GEOMeta,disease,Familial Primary Pulmonary Hypertension,geometa:disease:d10aa446900da813,identity,valid,,Observed release value
+180,GEOMeta,disease,"Fatigue Syndrome, Chronic",geometa:disease:1f032eb352f78c52,identity,valid,,Observed release value
+181,GEOMeta,disease,Fetal Growth Retardation,geometa:disease:c545e14a945d844f,identity,valid,,Observed release value
+182,GEOMeta,disease,Fibrocystic Breast Disease,geometa:disease:a99e0fc52233c661,identity,valid,,Observed release value
+183,GEOMeta,disease,Fibrolamellar Carcinoma,geometa:disease:586ad8b87d87d720,identity,valid,,Observed release value
+184,GEOMeta,disease,Fibrolamellar hepatocellular carcinoma,geometa:disease:4ac1538515e0e939,identity,valid,,Observed release value
+185,GEOMeta,disease,Fibromyalgia,geometa:disease:23e647159cbc1a83,identity,valid,,Observed release value
+186,GEOMeta,disease,Fibrosarcoma,geometa:disease:5a22607aebdbf138,identity,valid,,Observed release value
+187,GEOMeta,disease,Fibrosis,geometa:disease:d2db8f61cd30793b,identity,valid,,Observed release value
+188,GEOMeta,disease,Fragile X Syndrome,geometa:disease:e560e7c0ab593684,identity,valid,,Observed release value
+189,GEOMeta,disease,Frailty,geometa:disease:3c055b23e151c626,identity,valid,,Observed release value
+190,GEOMeta,disease,Friedreich Ataxia,geometa:disease:f3c72965fdbf8dae,identity,valid,,Observed release value
+191,GEOMeta,disease,Frontotemporal Dementia,geometa:disease:98a6c98c9ec43ad4,identity,valid,,Observed release value
+192,GEOMeta,disease,Gallbladder Neoplasms,geometa:disease:45851c31b1a76824,identity,valid,,Observed release value
+193,GEOMeta,disease,Gastro-enteropancreatic neuroendocrine tumor,geometa:disease:753a9e5e243276b0,identity,valid,,Observed release value
+194,GEOMeta,disease,Gastrointestinal Stromal Tumors,geometa:disease:13e85f105848e2c6,identity,valid,,Observed release value
+195,GEOMeta,disease,Glioblastoma,geometa:disease:0b4a91d28341c376,identity,valid,,Observed release value
+196,GEOMeta,disease,Glioma,geometa:disease:f35267528ace85de,identity,valid,,Observed release value
+197,GEOMeta,disease,"Glioma of Brain, Familial",geometa:disease:8027f11408794c94,identity,valid,,Observed release value
+198,GEOMeta,disease,"Glomerulonephritis, IGA",geometa:disease:90f1804b5afd0d10,identity,valid,,Observed release value
+199,GEOMeta,disease,"Glomerulosclerosis, Focal Segmental",geometa:disease:499423583c9d2830,identity,valid,,Observed release value
+200,GEOMeta,disease,Graft vs Host Disease,geometa:disease:0d16a5502b641eb1,identity,valid,,Observed release value
+201,GEOMeta,disease,Granulosa Cell Tumor,geometa:disease:4a7684f6836ecad4,identity,valid,,Observed release value
+215,GEOMeta,disease,HIV Infections,geometa:disease:006fd95ee76ab0de,identity,valid,,Observed release value
+202,GEOMeta,disease,Head and Neck Neoplasms,geometa:disease:568cb8c7cae0f3c6,identity,valid,,Observed release value
+203,GEOMeta,disease,Healthy,geometa:disease:8b66bcb51f3a26a4,identity,valid,,Observed release value
+204,GEOMeta,disease,"Heart Defects, Congenital",geometa:disease:04cfabfb40eed390,identity,valid,,Observed release value
+205,GEOMeta,disease,Heart Failure,geometa:disease:9fee8c5701761483,identity,valid,,Observed release value
+206,GEOMeta,disease,"Hemangioendothelioma, Epithelioid",geometa:disease:6340858c306e1e9a,identity,valid,,Observed release value
+207,GEOMeta,disease,"Hemangioma, Cavernous, Central Nervous System",geometa:disease:78f10ec57a2a4490,identity,valid,,Observed release value
+208,GEOMeta,disease,Hemorrhagic Fever with Renal Syndrome,geometa:disease:7a2a104f8a1e7dfb,identity,valid,,Observed release value
+209,GEOMeta,disease,"Hemorrhagic Fever, Ebola",geometa:disease:871c1ad88434c572,identity,valid,,Observed release value
+210,GEOMeta,disease,Hepatitis B,geometa:disease:693a666ae0a2d4fa,identity,valid,,Observed release value
+211,GEOMeta,disease,Hepatitis C,geometa:disease:173ef48e8f4d326e,identity,valid,,Observed release value
+212,GEOMeta,disease,Hepatoblastoma,geometa:disease:c3d6b2632ddcb818,identity,valid,,Observed release value
+213,GEOMeta,disease,Herpes Simplex,geometa:disease:be7d3c0ad6939bc8,identity,valid,,Observed release value
+214,GEOMeta,disease,Hidradenitis Suppurativa,geometa:disease:a98166450e500482,identity,valid,,Observed release value
+216,GEOMeta,disease,Hodgkin Disease,geometa:disease:c07ea17485bacb58,identity,valid,,Observed release value
+217,GEOMeta,disease,Huntington Disease,geometa:disease:d45a3d3e1f331563,identity,valid,,Observed release value
+218,GEOMeta,disease,Hyperplasia,geometa:disease:29eb00a681d72880,identity,valid,,Observed release value
+219,GEOMeta,disease,Hypersensitivity,geometa:disease:78f65a9ba3d2012c,identity,valid,,Observed release value
+220,GEOMeta,disease,"Hypertension, Pulmonary",geometa:disease:a4f445c0404d3138,identity,valid,,Observed release value
+221,GEOMeta,disease,Idiopathic Pulmonary Fibrosis,geometa:disease:4e66dc20a9562f4b,identity,valid,,Observed release value
+222,GEOMeta,disease,Infertility,geometa:disease:a545c2ca15effed0,identity,valid,,Observed release value
+223,GEOMeta,disease,Inflammatory Bowel Diseases,geometa:disease:9b4ee7a5a172fc06,identity,valid,,Observed release value
+224,GEOMeta,disease,"Influenza, Human",geometa:disease:7da79f5f885e488e,identity,valid,,Observed release value
+225,GEOMeta,disease,Intellectual Disability,geometa:disease:97c9f6efeda3d426,identity,valid,,Observed release value
+226,GEOMeta,disease,Intervertebral Disc Degeneration,geometa:disease:57f37a861fede11c,identity,valid,,Observed release value
+227,GEOMeta,disease,Intracranial Aneurysm,geometa:disease:1c78fd357854373c,identity,valid,,Observed release value
+228,GEOMeta,disease,Irritable Bowel Syndrome,geometa:disease:1a9c54cb3fc3d801,identity,valid,,Observed release value
+229,GEOMeta,disease,Ischemic Stroke,geometa:disease:5194cc42d6b853fb,identity,valid,,Observed release value
+230,GEOMeta,disease,Job Syndrome,geometa:disease:92084c85352071f6,identity,valid,,Observed release value
+231,GEOMeta,disease,Keloid,geometa:disease:ca1bec6db637be99,identity,valid,,Observed release value
+232,GEOMeta,disease,Kidney Diseases,geometa:disease:e3289032236091f7,identity,valid,,Observed release value
+233,GEOMeta,disease,Kidney Neoplasms,geometa:disease:76e0c2615bce4f68,identity,valid,,Observed release value
+234,GEOMeta,disease,Klinefelter Syndrome,geometa:disease:b64a428191940fae,identity,valid,,Observed release value
+235,GEOMeta,disease,Laryngeal Neoplasms,geometa:disease:f746a6afcbd1a13c,identity,valid,,Observed release value
+236,GEOMeta,disease,Latent Tuberculosis,geometa:disease:0f5c014b040f9329,identity,valid,,Observed release value
+237,GEOMeta,disease,Leigh Disease,geometa:disease:819c6428890547c4,identity,valid,,Observed release value
+238,GEOMeta,disease,Leiomyoma,geometa:disease:77afc7f62cd4e5de,identity,valid,,Observed release value
+239,GEOMeta,disease,Leiomyosarcoma,geometa:disease:2e7124d697b9b84a,identity,valid,,Observed release value
+240,GEOMeta,disease,"Leishmaniasis, Cutaneous",geometa:disease:7f9686a973e4d875,identity,valid,,Observed release value
+241,GEOMeta,disease,Leprosy,geometa:disease:79312b9d656a9833,identity,valid,,Observed release value
+242,GEOMeta,disease,Leukemia,geometa:disease:c4a67b969031a585,identity,valid,,Observed release value
+243,GEOMeta,disease,"Leukemia, Biphenotypic, Acute",geometa:disease:983a1d57765227f4,identity,valid,,Observed release value
+244,GEOMeta,disease,"Leukemia, Erythroblastic, Acute",geometa:disease:9bf26de2b64c0999,identity,valid,,Observed release value
+245,GEOMeta,disease,"Leukemia, Large Granular Lymphocytic",geometa:disease:371a6061bfd989b7,identity,valid,,Observed release value
+246,GEOMeta,disease,"Leukemia, Lymphocytic, Chronic, B-Cell",geometa:disease:50bf5940deeec4d2,identity,valid,,Observed release value
+247,GEOMeta,disease,"Leukemia, Megakaryoblastic, Acute",geometa:disease:e450d722474aa020,identity,valid,,Observed release value
+248,GEOMeta,disease,"Leukemia, Monocytic, Acute",geometa:disease:a420cddadcd10afa,identity,valid,,Observed release value
+249,GEOMeta,disease,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",geometa:disease:44577918e3124dac,identity,valid,,Observed release value
+250,GEOMeta,disease,"Leukemia, Myeloid",geometa:disease:eb0d69d0b0be9bfd,identity,valid,,Observed release value
+251,GEOMeta,disease,"Leukemia, Myeloid, Acute",geometa:disease:a011bf6b59ddda3e,identity,valid,,Observed release value
+252,GEOMeta,disease,"Leukemia, Myelomonocytic, Chronic",geometa:disease:dfd088aff2d85d1f,identity,valid,,Observed release value
+253,GEOMeta,disease,"Leukemia, Myelomonocytic, Juvenile",geometa:disease:50c022034a4a821a,identity,valid,,Observed release value
+254,GEOMeta,disease,"Leukemia, Plasma Cell",geometa:disease:f7ba0ea6f4b044f9,identity,valid,,Observed release value
+255,GEOMeta,disease,"Leukemia, Promyelocytic, Acute",geometa:disease:ca4fbe98864a4158,identity,valid,,Observed release value
+256,GEOMeta,disease,"Leukemia, T-Cell",geometa:disease:dbe717ea47f5fb64,identity,valid,,Observed release value
+257,GEOMeta,disease,"Leukemia-Lymphoma, Adult T-Cell",geometa:disease:944b5d5a6593f404,identity,valid,,Observed release value
+258,GEOMeta,disease,"Leukoplakia, Oral",geometa:disease:a602bcd26691c712,identity,valid,,Observed release value
+259,GEOMeta,disease,Li-Fraumeni Syndrome,geometa:disease:b304947c96778eac,identity,valid,,Observed release value
+260,GEOMeta,disease,Lichen Planus,geometa:disease:9655161033bdde45,identity,valid,,Observed release value
+261,GEOMeta,disease,"Lichen Planus, Oral",geometa:disease:8352a95d3a67af4a,identity,valid,,Observed release value
+262,GEOMeta,disease,Liposarcoma,geometa:disease:8a63f2d2dc558d44,identity,valid,,Observed release value
+263,GEOMeta,disease,"Liposarcoma, Myxoid",geometa:disease:348b93bde15d2a62,identity,valid,,Observed release value
+264,GEOMeta,disease,Liver Cirrhosis,geometa:disease:f5bca8cc5b973f24,identity,valid,,Observed release value
+265,GEOMeta,disease,"Liver Cirrhosis, Alcoholic",geometa:disease:9ce3b0f1d2bcd612,identity,valid,,Observed release value
+266,GEOMeta,disease,Liver Neoplasms,geometa:disease:a731e1092ac6160b,identity,valid,,Observed release value
+267,GEOMeta,disease,Lung Neoplasms,geometa:disease:5ff5b5701d1908be,identity,valid,,Observed release value
+268,GEOMeta,disease,"Lupus Erythematosus, Systemic",geometa:disease:088a82ba948e2033,identity,valid,,Observed release value
+269,GEOMeta,disease,Lupus Nephritis,geometa:disease:686d2a235aa07102,identity,valid,,Observed release value
+270,GEOMeta,disease,Lyme Disease,geometa:disease:5af908c471459ed8,identity,valid,,Observed release value
+271,GEOMeta,disease,Lymphangioleiomyomatosis,geometa:disease:a00eca05bc9783e6,identity,valid,,Observed release value
+272,GEOMeta,disease,Lymphoma,geometa:disease:6a6aed4ca83bba60,identity,valid,,Observed release value
+273,GEOMeta,disease,"Lymphoma, B-Cell",geometa:disease:c3ca4d1517846944,identity,valid,,Observed release value
+274,GEOMeta,disease,"Lymphoma, B-Cell, Marginal Zone",geometa:disease:76679f307dec47c7,identity,valid,,Observed release value
+275,GEOMeta,disease,"Lymphoma, Extranodal NK-T-Cell",geometa:disease:33506c39580907fe,identity,valid,,Observed release value
+276,GEOMeta,disease,"Lymphoma, Follicular",geometa:disease:2b8c1065d3240103,identity,valid,,Observed release value
+277,GEOMeta,disease,"Lymphoma, Large B-Cell, Diffuse",geometa:disease:7b85fa6c7604084a,identity,valid,,Observed release value
+278,GEOMeta,disease,"Lymphoma, Large-Cell, Anaplastic",geometa:disease:f8d287abea2a0e08,identity,valid,,Observed release value
+279,GEOMeta,disease,"Lymphoma, Mantle-Cell",geometa:disease:d571d336b15fdef6,identity,valid,,Observed release value
+280,GEOMeta,disease,"Lymphoma, Non-Hodgkin",geometa:disease:a83f3b6fa8a7525a,identity,valid,,Observed release value
+281,GEOMeta,disease,"Lymphoma, Primary Effusion",geometa:disease:a7eab7f0ac88b2bb,identity,valid,,Observed release value
+282,GEOMeta,disease,"Lymphoma, T-Cell",geometa:disease:cf21a25c2cca40b6,identity,valid,,Observed release value
+283,GEOMeta,disease,"Lymphoma, T-Cell, Cutaneous",geometa:disease:fe81b9cc1fe87f0b,identity,valid,,Observed release value
+284,GEOMeta,disease,"Lymphoma, T-Cell, Peripheral",geometa:disease:3825eb3be88d0af5,identity,valid,,Observed release value
+291,GEOMeta,disease,MELAS Syndrome,geometa:disease:76063e098bc19b97,identity,valid,,Observed release value
+285,GEOMeta,disease,Macular Degeneration,geometa:disease:23052f54a9c2a876,identity,valid,,Observed release value
+286,GEOMeta,disease,Malaria,geometa:disease:9f2629f7782037d8,identity,valid,,Observed release value
+287,GEOMeta,disease,Mason-Type Diabetes,geometa:disease:3bacf72122ff937f,identity,valid,,Observed release value
+288,GEOMeta,disease,Medulloblastoma,geometa:disease:00e9eff4db77c0cc,identity,valid,,Observed release value
+289,GEOMeta,disease,Melanoma,geometa:disease:4492a4e4eeee9289,identity,valid,,Observed release value
+290,GEOMeta,disease,"Melanoma, Cutaneous Malignant",geometa:disease:e90efd6ff413ebd5,identity,valid,,Observed release value
+292,GEOMeta,disease,Meningioma,geometa:disease:2b2e447672de3da0,identity,valid,,Observed release value
+293,GEOMeta,disease,Mesothelioma,geometa:disease:c6a0c936ed75a153,identity,valid,,Observed release value
+294,GEOMeta,disease,"Mesothelioma, Malignant",geometa:disease:0e93f14f35e48d99,identity,valid,,Observed release value
+295,GEOMeta,disease,Mouth Neoplasms,geometa:disease:e28a6c9f1a60ed9f,identity,valid,,Observed release value
+296,GEOMeta,disease,Mucocutaneous Lymph Node Syndrome,geometa:disease:20c2170144b43fc7,identity,valid,,Observed release value
+297,GEOMeta,disease,Multiple Myeloma,geometa:disease:a0fb53e56b233815,identity,valid,,Observed release value
+298,GEOMeta,disease,Multiple Sclerosis,geometa:disease:f7b10da4a9ac15c2,identity,valid,,Observed release value
+299,GEOMeta,disease,Multiple System Atrophy,geometa:disease:c537a5e6da958dfe,identity,valid,,Observed release value
+300,GEOMeta,disease,"Muscular Atrophy, Spinal",geometa:disease:d0352fe7c85fa650,identity,valid,,Observed release value
+301,GEOMeta,disease,"Muscular Dystrophy, Duchenne",geometa:disease:cc3b2dffae227bfc,identity,valid,,Observed release value
+302,GEOMeta,disease,"Muscular Dystrophy, Facioscapulohumeral",geometa:disease:7e4f0ff994305b6a,identity,valid,,Observed release value
+303,GEOMeta,disease,Mycosis Fungoides,geometa:disease:f4cc2ae88e82cf09,identity,valid,,Observed release value
+304,GEOMeta,disease,Myelodysplastic Syndromes,geometa:disease:91660082a7ed37e4,identity,valid,,Observed release value
+305,GEOMeta,disease,Myeloproliferative Neoplasms,geometa:disease:185c6c246aaa9e8c,identity,valid,,Observed release value
+306,GEOMeta,disease,Myocardial Infarction,geometa:disease:39e3f62ed7ad7354,identity,valid,,Observed release value
+307,GEOMeta,disease,Myocardial Ischemia,geometa:disease:acf6dfa1f7bce499,identity,valid,,Observed release value
+308,GEOMeta,disease,Myositis Ossificans,geometa:disease:cc0fd92a84b2ee28,identity,valid,,Observed release value
+309,GEOMeta,disease,"Myositis, Inclusion Body",geometa:disease:6907b5afb753b1c3,identity,valid,,Observed release value
+310,GEOMeta,disease,Myotonic Dystrophy,geometa:disease:d2b0945b198fc6ee,identity,valid,,Observed release value
+327,GEOMeta,disease,NUT Carcinoma,geometa:disease:8a5c5129f334db40,identity,valid,,Observed release value
+311,GEOMeta,disease,Nasopharyngeal Carcinoma,geometa:disease:88c08a75d19e8c25,identity,valid,,Observed release value
+312,GEOMeta,disease,"Neoplasms, Plasma Cell",geometa:disease:57ad2318c5ad52a2,identity,valid,,Observed release value
+313,GEOMeta,disease,"Neoplasms, Squamous Cell",geometa:disease:5bb4da24c8fbb27c,identity,valid,,Observed release value
+314,GEOMeta,disease,Nervous System Diseases,geometa:disease:25faa45e662f654d,identity,valid,,Observed release value
+315,GEOMeta,disease,Neuroblastoma,geometa:disease:c4ee942e56214274,identity,valid,,Observed release value
+316,GEOMeta,disease,Neurodegenerative Diseases,geometa:disease:9b689675936f7cfe,identity,valid,,Observed release value
+317,GEOMeta,disease,Neurodevelopmental Disorders,geometa:disease:ec44ade8a7709b3a,identity,valid,,Observed release value
+318,GEOMeta,disease,Neuroendocrine Tumors,geometa:disease:3f97a132eb2e0662,identity,valid,,Observed release value
+319,GEOMeta,disease,Neurofibroma,geometa:disease:b4a5ada7636a87ea,identity,valid,,Observed release value
+320,GEOMeta,disease,"Neurofibroma, Plexiform",geometa:disease:61172759d7e95723,identity,valid,,Observed release value
+321,GEOMeta,disease,Neurofibromatosis 1,geometa:disease:0d01973f2ef50b7b,identity,valid,,Observed release value
+322,GEOMeta,disease,Neurofibromatosis 2,geometa:disease:edf01b6ea3f80f9b,identity,valid,,Observed release value
+323,GEOMeta,disease,Neurofibrosarcoma,geometa:disease:75f78c76d6a5274f,identity,valid,,Observed release value
+324,GEOMeta,disease,Non-alcoholic Fatty Liver Disease,geometa:disease:0745f1a1a68719dc,identity,valid,,Observed release value
+325,GEOMeta,disease,Nonseminomatous germ cell tumor,geometa:disease:0f3c695742d394ed,identity,valid,,Observed release value
+326,GEOMeta,disease,Normal,geometa:disease:e80b37e82d090ea1,identity,valid,,Observed release value
+328,GEOMeta,disease,Obesity,geometa:disease:62075db6f35dda08,identity,valid,,Observed release value
+329,GEOMeta,disease,"Obesity, Morbid",geometa:disease:44710f3cbb953886,identity,valid,,Observed release value
+330,GEOMeta,disease,Oligodendroglioma,geometa:disease:509c2001fd524ae4,identity,valid,,Observed release value
+331,GEOMeta,disease,Opioid-Related Disorders,geometa:disease:8d21fa00b18525d2,identity,valid,,Observed release value
+332,GEOMeta,disease,Osteoarthritis,geometa:disease:83a9e8242b484ac7,identity,valid,,Observed release value
+333,GEOMeta,disease,Osteochondroma,geometa:disease:c1ed61d1796cd59e,identity,valid,,Observed release value
+334,GEOMeta,disease,Osteosarcoma,geometa:disease:1271e128adeda45c,identity,valid,,Observed release value
+335,GEOMeta,disease,Ovarian Neoplasms,geometa:disease:1c58da3d1b3ed5b4,identity,valid,,Observed release value
+336,GEOMeta,disease,Pancreatic Neoplasms,geometa:disease:372a0efc79c6a7ef,identity,valid,,Observed release value
+337,GEOMeta,disease,Papillomavirus Infections,geometa:disease:c67738515c8999cc,identity,valid,,Observed release value
+338,GEOMeta,disease,Parkinson Disease,geometa:disease:e30b1f147c5062be,identity,valid,,Observed release value
+339,GEOMeta,disease,Peanut Hypersensitivity,geometa:disease:00c56d1ae4089705,identity,valid,,Observed release value
+341,GEOMeta,disease,Periodontitis,geometa:disease:bd83e1b27aa6d3ca,identity,valid,,Observed release value
+342,GEOMeta,disease,Peripheral Arterial Disease,geometa:disease:f73856ff06348241,identity,valid,,Observed release value
+343,GEOMeta,disease,Pitt-Hopkins syndrome,geometa:disease:c52d231a9390991c,identity,valid,,Observed release value
+344,GEOMeta,disease,Pituitary ACTH Hypersecretion,geometa:disease:fd82577a6063da64,identity,valid,,Observed release value
+345,GEOMeta,disease,Pituitary Neoplasms,geometa:disease:a68d8236ee096482,identity,valid,,Observed release value
+346,GEOMeta,disease,"Polycystic Kidney, Autosomal Dominant",geometa:disease:40093030e1d011bd,identity,valid,,Observed release value
+347,GEOMeta,disease,Polycystic Ovary Syndrome,geometa:disease:d7911eecfd1c72e2,identity,valid,,Observed release value
+348,GEOMeta,disease,Polyps,geometa:disease:3c946ffb644f9df2,identity,valid,,Observed release value
+349,GEOMeta,disease,Prader-Willi Syndrome,geometa:disease:65a1035f39e3eaae,identity,valid,,Observed release value
+350,GEOMeta,disease,Pre-Eclampsia,geometa:disease:1cab180715d4ae20,identity,valid,,Observed release value
+351,GEOMeta,disease,Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,geometa:disease:66c4c7736ad340d0,identity,valid,,Observed release value
+352,GEOMeta,disease,Precursor Cell Lymphoblastic Leukemia-Lymphoma,geometa:disease:d267276efe69ea4d,identity,valid,,Observed release value
+353,GEOMeta,disease,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,geometa:disease:f83b2d0dca5d940f,identity,valid,,Observed release value
+354,GEOMeta,disease,Prediabetic State,geometa:disease:22130ead651ae2c4,identity,valid,,Observed release value
+355,GEOMeta,disease,Premature Birth,geometa:disease:a3028916258fde47,identity,valid,,Observed release value
+356,GEOMeta,disease,Primary Ovarian Insufficiency,geometa:disease:c87b72e52d25079d,identity,valid,,Observed release value
+357,GEOMeta,disease,Progeria,geometa:disease:753d62fa9e9b2f53,identity,valid,,Observed release value
+358,GEOMeta,disease,Prostatic Hyperplasia,geometa:disease:ca0ae06a69435a20,identity,valid,,Observed release value
+359,GEOMeta,disease,Prostatic Neoplasms,geometa:disease:6fcb1a63551d7f09,identity,valid,,Observed release value
+360,GEOMeta,disease,Psoriasis,geometa:disease:43853a04948e12cd,identity,valid,,Observed release value
+361,GEOMeta,disease,Pterygium,geometa:disease:cb9ca3a3157d50ea,identity,valid,,Observed release value
+362,GEOMeta,disease,Pulmonary Arterial Hypertension,geometa:disease:ff34e6f96639c69b,identity,valid,,Observed release value
+363,GEOMeta,disease,"Pulmonary Disease, Chronic Obstructive",geometa:disease:21cdfcd67257a152,identity,valid,,Observed release value
+364,GEOMeta,disease,Pulmonary Fibrosis,geometa:disease:a22b6cc66af9f48a,identity,valid,,Observed release value
+365,GEOMeta,disease,Rectal Neoplasms,geometa:disease:6be23adde557f906,identity,valid,,Observed release value
+366,GEOMeta,disease,Respiratory Distress Syndrome,geometa:disease:eb03bb70a52bf841,identity,valid,,Observed release value
+367,GEOMeta,disease,Respiratory Syncytial Virus Infections,geometa:disease:93de6a1049da53de,identity,valid,,Observed release value
+368,GEOMeta,disease,Retinitis Pigmentosa,geometa:disease:e093aeada3ebbbc4,identity,valid,,Observed release value
+369,GEOMeta,disease,Retinoblastoma,geometa:disease:5fc5faa1f8931745,identity,valid,,Observed release value
+370,GEOMeta,disease,Rett Syndrome,geometa:disease:43194e4b7b918e2c,identity,valid,,Observed release value
+371,GEOMeta,disease,Rhabdoid Tumor,geometa:disease:a94bd224e7bf4a38,identity,valid,,Observed release value
+372,GEOMeta,disease,Rhabdomyosarcoma,geometa:disease:6be948de4ce84b74,identity,valid,,Observed release value
+373,GEOMeta,disease,"Rhabdomyosarcoma, Alveolar",geometa:disease:d4cc2b452afca23e,identity,valid,,Observed release value
+374,GEOMeta,disease,"Rhabdomyosarcoma, Embryonal",geometa:disease:f28d118737560c40,identity,valid,,Observed release value
+375,GEOMeta,disease,"Rhinitis, Allergic",geometa:disease:259bfd64b0bb370d,identity,valid,,Observed release value
+376,GEOMeta,disease,Rhinosinusitis,geometa:disease:d609745243665701,identity,valid,,Observed release value
+377,GEOMeta,disease,Sarcoidosis,geometa:disease:456763498f6a7211,identity,valid,,Observed release value
+378,GEOMeta,disease,"Sarcoma, Alveolar Soft Part",geometa:disease:af3ebfbd42a17f17,identity,valid,,Observed release value
+379,GEOMeta,disease,"Sarcoma, Clear Cell",geometa:disease:de021415d31da4a9,identity,valid,,Observed release value
+380,GEOMeta,disease,"Sarcoma, Ewing",geometa:disease:1c4e8831671986bb,identity,valid,,Observed release value
+381,GEOMeta,disease,"Sarcoma, Kaposi",geometa:disease:c8b5c1b42b3bf32a,identity,valid,,Observed release value
+382,GEOMeta,disease,"Sarcoma, Synovial",geometa:disease:202777c40b722f14,identity,valid,,Observed release value
+383,GEOMeta,disease,Sarcopenia,geometa:disease:f20f987f56fe94d6,identity,valid,,Observed release value
+384,GEOMeta,disease,Schizophrenia,geometa:disease:675a9fc9e1d25306,identity,valid,,Observed release value
+385,GEOMeta,disease,"Scleroderma, Systemic",geometa:disease:96e3ef717b062146,identity,valid,,Observed release value
+386,GEOMeta,disease,Seminoma,geometa:disease:a9c11684e8a64c02,identity,valid,,Observed release value
+387,GEOMeta,disease,Sepsis,geometa:disease:8de8fd06dfa10caf,identity,valid,,Observed release value
+388,GEOMeta,disease,Severe Combined Immunodeficiency,geometa:disease:8b680caecf8feb74,identity,valid,,Observed release value
+389,GEOMeta,disease,Sezary Syndrome,geometa:disease:2af8e408c56a1447,identity,valid,,Observed release value
+390,GEOMeta,disease,"Shock, Septic",geometa:disease:11acc673d22d3b36,identity,valid,,Observed release value
+391,GEOMeta,disease,Sjogren's Syndrome,geometa:disease:fbe55bc382b6834b,identity,valid,,Observed release value
+392,GEOMeta,disease,Sjögren-Mikulicz syndrome,geometa:disease:210ed6a2daa92085,identity,valid,,Observed release value
+393,GEOMeta,disease,Skin Neoplasms,geometa:disease:b9823fb8495ab188,identity,valid,,Observed release value
+394,GEOMeta,disease,Small Cell Lung Carcinoma,geometa:disease:02cecacd32b131f1,identity,valid,,Observed release value
+395,GEOMeta,disease,"Spinocerebellar ataxia, autosomal recessive 1",geometa:disease:bccee2169703d40f,identity,valid,,Observed release value
+396,GEOMeta,disease,"Spondylitis, Ankylosing",geometa:disease:a7d9eb646201faae,identity,valid,,Observed release value
+397,GEOMeta,disease,Squamous Cell Carcinoma of Head and Neck,geometa:disease:782bd8d7c634260d,identity,valid,,Observed release value
+398,GEOMeta,disease,Squamous Intraepithelial Lesions,geometa:disease:d1b327e28d41d5fe,identity,valid,,Observed release value
+399,GEOMeta,disease,Stomach Neoplasms,geometa:disease:59e672a32df2440e,identity,valid,,Observed release value
+400,GEOMeta,disease,"Stress Disorders, Post-Traumatic",geometa:disease:3f9a1e1b1e4a027f,identity,valid,,Observed release value
+401,GEOMeta,disease,Telomeric 22q13 Monosomy Syndrome,geometa:disease:bde31784356bb393,identity,valid,,Observed release value
+402,GEOMeta,disease,Teratocarcinoma,geometa:disease:56b442ac27616f08,identity,valid,,Observed release value
+403,GEOMeta,disease,Testicular Germ Cell Tumor,geometa:disease:e5b3a8627d20b3c1,identity,valid,,Observed release value
+404,GEOMeta,disease,Testicular Neoplasms,geometa:disease:c330b76a5f353b8f,identity,valid,,Observed release value
+405,GEOMeta,disease,Tetralogy of Fallot,geometa:disease:8daac40558212a4c,identity,valid,,Observed release value
+406,GEOMeta,disease,"Thyroid Cancer, Papillary",geometa:disease:75242fbd71aba3c4,identity,valid,,Observed release value
+407,GEOMeta,disease,"Thyroid Carcinoma, Anaplastic",geometa:disease:bd3155da2a911530,identity,valid,,Observed release value
+408,GEOMeta,disease,Thyroid Neoplasms,geometa:disease:9e2a107e56f166fa,identity,valid,,Observed release value
+409,GEOMeta,disease,Tuberculosis,geometa:disease:1a45d34784c942c3,identity,valid,,Observed release value
+410,GEOMeta,disease,"Tuberculosis, Pulmonary",geometa:disease:6604a32788423f27,identity,valid,,Observed release value
+411,GEOMeta,disease,Tuberous Sclerosis,geometa:disease:5aff554d4f0e6535,identity,valid,,Observed release value
+412,GEOMeta,disease,Turner Syndrome,geometa:disease:db675ee4f07c4732,identity,valid,,Observed release value
+413,GEOMeta,disease,Urinary Bladder Neoplasms,geometa:disease:40063d94e156fe3b,identity,valid,,Observed release value
+414,GEOMeta,disease,Uterine Cervical Dysplasia,geometa:disease:61fe0a1c37379a66,identity,valid,,Observed release value
+415,GEOMeta,disease,Uterine Cervical Neoplasms,geometa:disease:af3f5c44a149e876,identity,valid,,Observed release value
+416,GEOMeta,disease,Uveal Melanoma,geometa:disease:1d7cca0f4ee54171,identity,valid,,Observed release value
+417,GEOMeta,disease,Uveitis,geometa:disease:e6a6398a7ba25fd2,identity,valid,,Observed release value
+418,GEOMeta,disease,Virus Diseases,geometa:disease:b763618322c8c24f,identity,valid,,Observed release value
+419,GEOMeta,disease,Vulvar Neoplasms,geometa:disease:c51434741fc54afe,identity,valid,,Observed release value
+420,GEOMeta,disease,Werner Syndrome,geometa:disease:fa05eb6628aacbf6,identity,valid,,Observed release value
+421,GEOMeta,disease,Williams Syndrome,geometa:disease:53606410ae651576,identity,valid,,Observed release value
+422,GEOMeta,disease,Wilms Tumor,geometa:disease:3508eea4191d96e4,identity,valid,,Observed release value
+423,GEOMeta,disease,Zika Virus Infection,geometa:disease:e4276c0b111e676f,identity,valid,,Observed release value
+70,GEOMeta,disease,alpha 1-Antitrypsin Deficiency,geometa:disease:f38d3711e776925a,identity,valid,,Observed release value
+93,GEOMeta,disease,beta-Thalassemia,geometa:disease:a9173b6045741e53,identity,valid,,Observed release value
+340,GEOMeta,disease,"pediatric multisystem inflammatory disease, COVID-19 related",geometa:disease:42e67fd72e517e1a,identity,valid,,Observed release value
+436,GEOMeta,experimental_setting,Ex Vivo,geometa:experimental_setting:0380454a1bfcfd4c,identity,valid,,Observed release value
+437,GEOMeta,experimental_setting,In Vitro,geometa:experimental_setting:e0031591e910d65c,identity,valid,,Observed release value
+438,GEOMeta,experimental_setting,In Vivo,geometa:experimental_setting:db84e013ee678539,identity,valid,,Observed release value
+424,GEOMeta,gender,Female,geometa:gender:ea773a4fadb328f4,identity,valid,,Observed release value
+425,GEOMeta,gender,Male,geometa:gender:1282126270d14720,identity,valid,,Observed release value
+1,GEOMeta,organ,Adipose tissue,geometa:organ:1d4926a939204d08,identity,valid,UBERON:0001013,OLS4 exact label
+2,GEOMeta,organ,Adrenal gland,geometa:organ:5ef1d0b867415ab0,identity,valid,UBERON:0002369,OLS4 exact label
+3,GEOMeta,organ,Blood,geometa:organ:98e4523492a82f18,identity,valid,UBERON:0000178,OLS4 exact label
+4,GEOMeta,organ,Bone marrow,geometa:organ:37b783532490418d,identity,valid,UBERON:0002371,OLS4 exact label
+5,GEOMeta,organ,Brain,geometa:organ:40cd1788c449f282,identity,valid,UBERON:0000955,OLS4 exact label
+6,GEOMeta,organ,Brain: Amygdala,geometa:organ:8b1aaacf847decf9,identity,valid,,Observed release value
+7,GEOMeta,organ,Brain: Basal ganglia,geometa:organ:d8616aa78ab44ccb,identity,valid,,Observed release value
+8,GEOMeta,organ,Brain: Cerebellum,geometa:organ:f46d2b33eb289f61,identity,valid,,Observed release value
+9,GEOMeta,organ,Brain: Cerebral cortex,geometa:organ:6b2f0ab50e5046d0,identity,valid,,Observed release value
+10,GEOMeta,organ,Brain: Choroid plexus,geometa:organ:f4f509bd9420aeb1,identity,valid,,Observed release value
+11,GEOMeta,organ,Brain: Hippocampal formation,geometa:organ:1df9e1cdfc198c6a,identity,valid,,Observed release value
+12,GEOMeta,organ,Brain: Hypothalamus,geometa:organ:4d593dc6b3b8ee79,identity,valid,,Observed release value
+13,GEOMeta,organ,Brain: Medulla oblongata,geometa:organ:2a139e0190facd02,identity,valid,,Observed release value
+14,GEOMeta,organ,Brain: Midbrain,geometa:organ:c0427e23f18ee776,identity,valid,,Observed release value
+15,GEOMeta,organ,Brain: Pons,geometa:organ:aaca2ada6f21919c,identity,valid,,Observed release value
+16,GEOMeta,organ,Brain: Spinal cord,geometa:organ:81389f85d02ffcfd,identity,valid,,Observed release value
+17,GEOMeta,organ,Brain: Thalamus,geometa:organ:aa4efe0e4e1cd0ca,identity,valid,,Observed release value
+18,GEOMeta,organ,Brain: White matter,geometa:organ:3158bba0d510bc9b,identity,valid,,Observed release value
+19,GEOMeta,organ,Breast,geometa:organ:90a361d4a75e4b47,identity,valid,UBERON:0000310,OLS4 exact label
+20,GEOMeta,organ,Cervix,geometa:organ:ddc11f4c17db7536,identity,valid,,Observed release value
+21,GEOMeta,organ,Endometrium,geometa:organ:380e768916a23650,identity,valid,UBERON:0001295,OLS4 exact label
+22,GEOMeta,organ,Epididymis,geometa:organ:e9c2ed12c7e0e1b5,identity,valid,UBERON:0001301,OLS4 exact label
+23,GEOMeta,organ,Esophagus,geometa:organ:d75400099084f9c8,identity,valid,UBERON:0001043,OLS4 exact label
+24,GEOMeta,organ,Eye,geometa:organ:17b8734638f61608,identity,valid,UBERON:0000970,OLS4 exact label
+25,GEOMeta,organ,Fallopian tube,geometa:organ:9ac6213e34c1193a,identity,valid,UBERON:0003889,OLS4 exact label
+26,GEOMeta,organ,Gallbladder,geometa:organ:5565cc157c9ffbd2,identity,valid,UBERON:0002110,OLS4 exact label
+27,GEOMeta,organ,Head and Neck,geometa:organ:98739b62661d4fa0,identity,valid,,Observed release value
+28,GEOMeta,organ,Heart,geometa:organ:19f13686f8abc162,identity,valid,UBERON:0000948,OLS4 exact label
+29,GEOMeta,organ,Intestine,geometa:organ:b79de5a0d13ea178,identity,valid,UBERON:0000160,OLS4 exact label
+30,GEOMeta,organ,Kidney,geometa:organ:c73ddb31a20ede1f,identity,valid,UBERON:0002113,OLS4 exact label
+31,GEOMeta,organ,Liver,geometa:organ:7e97ea6abb9d1853,identity,valid,UBERON:0002107,OLS4 exact label
+32,GEOMeta,organ,Lung,geometa:organ:48ceeb8eed345982,identity,valid,UBERON:0002048,OLS4 exact label
+33,GEOMeta,organ,Lymphoid tissue,geometa:organ:7b6b09bf7a10720f,identity,valid,UBERON:0001744,OLS4 exact label
+34,GEOMeta,organ,Nasal,geometa:organ:0e925dabe05a290b,identity,valid,,Observed release value
+35,GEOMeta,organ,Nasopharynx,geometa:organ:fcb5122e081d5789,identity,valid,UBERON:0001728,OLS4 exact label
+36,GEOMeta,organ,Oropharynx,geometa:organ:ed22c54b6ddb05bb,identity,valid,UBERON:0001729,OLS4 exact label
+37,GEOMeta,organ,Ovary,geometa:organ:65863fb5764c9708,identity,valid,UBERON:0000992,OLS4 exact label
+38,GEOMeta,organ,Pancreas,geometa:organ:10d9bfe8f7c8875a,identity,valid,UBERON:0001264,OLS4 exact label
+39,GEOMeta,organ,Pituitary gland,geometa:organ:06567f0391b1a392,identity,valid,UBERON:0000007,OLS4 exact label
+40,GEOMeta,organ,Placenta,geometa:organ:a02d6dac39a2d249,identity,valid,UBERON:0001987,OLS4 exact label
+41,GEOMeta,organ,Prostate,geometa:organ:81634e3fd8b70591,identity,valid,,Observed release value
+42,GEOMeta,organ,Retina,geometa:organ:d7fd075784f01d49,identity,valid,UBERON:0000966,OLS4 exact label
+43,GEOMeta,organ,Salivary gland,geometa:organ:620d3563166f468c,identity,valid,,Observed release value
+44,GEOMeta,organ,Skeletal muscle,geometa:organ:232a6b612a9a44ec,identity,valid,,Observed release value
+45,GEOMeta,organ,Skin,geometa:organ:2348f77c621e759b,identity,valid,,Observed release value
+46,GEOMeta,organ,Smooth muscle,geometa:organ:6bd39a55a5188203,identity,valid,,Observed release value
+47,GEOMeta,organ,Stomach,geometa:organ:4035860aa9e7d403,identity,valid,UBERON:0000945,OLS4 exact label
+48,GEOMeta,organ,Synovium,geometa:organ:a4e497bc9ad0dd2a,identity,valid,,Observed release value
+49,GEOMeta,organ,Testis,geometa:organ:7f795d9df1c1c7c3,identity,valid,UBERON:0000473,OLS4 exact label
+50,GEOMeta,organ,Thyroid gland,geometa:organ:e655111f9e542a38,identity,valid,UBERON:0002046,OLS4 exact label
+51,GEOMeta,organ,Tongue,geometa:organ:754dc3f86b388824,identity,valid,UBERON:0001723,OLS4 exact label
+52,GEOMeta,organ,Umbilical vein,geometa:organ:42b1b689a9691b8b,identity,valid,UBERON:0002066,OLS4 exact label
+53,GEOMeta,organ,Urinary bladder,geometa:organ:8685169f491bc9c7,identity,valid,UBERON:0001255,OLS4 exact label
+54,GEOMeta,organ,Vagina,geometa:organ:083eedf20c70a096,identity,valid,UBERON:0000996,OLS4 exact label
+439,GEOMeta,perturbation,No,geometa:perturbation:c56ec2203714d798,identity,valid,,Observed release value
+440,GEOMeta,perturbation,Yes,geometa:perturbation:bf77fc11b6658d97,identity,valid,,Observed release value

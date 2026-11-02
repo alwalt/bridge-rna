@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-23T08:38:38.346605+00:00",
+  "random_seed": 20260923,
+  "analysis": "metadata-only provenance audit, cached overlap inventory, and saved-rank balancing",
+  "inputs": {
+    "/home/walt/bridge-rna/data/manifests/sample_manifest.parquet": {
+      "sha256": "a45f80bacf7b96ee1a8743e2f858aa46e9ce8a81380925a53df95784fe4324d9",
+      "bytes": 11181465
+    },
+    "/home/walt/bridge-rna/data/manifests/archs4_sample_metadata_v2.5.parquet": {
+      "sha256": "6306f53227a8e1ff18b84d1d85b4faf9361061972d94989d4f677cada659d3b8",
+      "bytes": 34654346
+    },
+    "/home/walt/bridge-rna/benchmarks/paired_recount3/work/candidate_samples.parquet": {
+      "sha256": "5d0d51291f7f617f68fbdb807b590b150103896fe2ebc53754b9ade8f133b0c0",
+      "bytes": 3780413
+    },
+    "/home/walt/bridge-rna/benchmarks/paired_recount3/work/recount3_matches.parquet": {
+      "sha256": "f29e88a4a1d023013a929b4bea87cc63f262c2d655226a1d6fb7e917e957ee87",
+      "bytes": 3779753
+    },
+    "/home/walt/bridge-rna/benchmarks/paired_recount3/work/final_pairs.parquet": {
+      "sha256": "943d0c82a7e8d2377cd5767c115b60db208b34a0e43d3ec20389a3660585946a",
+      "bytes": 39796
+    },
+    "/home/walt/bridge-rna/benchmarks/paired_recount3/work/recount3_matches_metadata_failures.csv": {
+      "sha256": "b99cc8c2b7f58ee7553d4e253e16c793ecce5d08cbf1332478a76da05cc14676",
+      "bytes": 22971
+    },
+    "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/results/per_query_ranked_results.parquet": {
+      "sha256": "a4f11d056eb33ee5796d5f5e6eb3af70e52c8b989024cde56da659facb497935",
+      "bytes": 88576
+    },
+    "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/results/biological_validation/query_composition_and_density.parquet": {
+      "sha256": "5bbb1ae7cdf529c81afaeae2a7788b08cabefa7f59e0f5624b4f440362b00a5e",
+      "bytes": 45566
+    }
+  },
+  "upstream_read_only": "/home/walt/bridge-rna/benchmarks/paired_recount3",
+  "cached_projects_read": 8199,
+  "cached_projects_failed_in_original_run": 604,
+  "limitations": [
+    "The current upstream config differs from the preserved candidate/final tables; tables describe the executed run.",
+    "Cached metadata overlap is an inventory, not proof of current recount3 availability.",
+    "The original run failed to download/read 604 project metadata files, so its not_found statuses are not fully auditable.",
+    "Mapped-multiple GSE samples were outside the original single-GSE eligibility protocol.",
+    "No candidate expression was downloaded and no embedding was generated."
+  ],
+  "elapsed_seconds": 20.72987174987793
+}

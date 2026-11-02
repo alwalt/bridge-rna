@@ -1,0 +1,71 @@
+source,entity,field,nonempty_records_in_audit_100,repeatable_records_in_audit_100,description
+NCBI_GEO_SOFT_brief,GSM,channel_count,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,characteristics_ch1,100,98,Repeatable free-text biological characteristics.
+NCBI_GEO_SOFT_brief,GSM,contact_address,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,contact_city,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,contact_country,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,contact_department,59,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,contact_email,88,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,contact_institute,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,contact_laboratory,24,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,contact_name,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,contact_phone,30,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,contact_state,66,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,contact_zip,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,data_processing,100,96,Data processing and alignment description.
+NCBI_GEO_SOFT_brief,GSM,data_row_count,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,description,49,22,Additional sample description.
+NCBI_GEO_SOFT_brief,GSM,extract_protocol_ch1,100,93,Extraction and library-preparation protocol.
+NCBI_GEO_SOFT_brief,GSM,geo_accession,100,0,Stable GEO accession.
+NCBI_GEO_SOFT_brief,GSM,growth_protocol_ch1,41,1,"Growth, culture, husbandry, or collection protocol."
+NCBI_GEO_SOFT_brief,GSM,instrument_model,100,0,Sequencing instrument.
+NCBI_GEO_SOFT_brief,GSM,last_update_date,100,0,Last GEO record update date.
+NCBI_GEO_SOFT_brief,GSM,library_selection,100,0,Sequencing library selection method.
+NCBI_GEO_SOFT_brief,GSM,library_source,100,0,Sequencing library source.
+NCBI_GEO_SOFT_brief,GSM,library_strategy,100,0,Sequencing library strategy.
+NCBI_GEO_SOFT_brief,GSM,molecule_ch1,100,0,Extracted molecule type.
+NCBI_GEO_SOFT_brief,GSM,organism_ch1,100,0,Sample organism.
+NCBI_GEO_SOFT_brief,GSM,platform_id,100,0,GEO platform accession.
+NCBI_GEO_SOFT_brief,GSM,relation,100,100,"Relations to SRA, BioSample, BioProject, or other records."
+NCBI_GEO_SOFT_brief,GSM,series_id,100,20,GSE accessions containing a sample.
+NCBI_GEO_SOFT_brief,GSM,source_name_ch1,100,0,Submitter-provided biological source name.
+NCBI_GEO_SOFT_brief,GSM,status,100,0,Public/release status.
+NCBI_GEO_SOFT_brief,GSM,submission_date,100,0,GEO submission date.
+NCBI_GEO_SOFT_brief,GSM,supplementary_file,100,8,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSM,taxid_ch1,100,0,NCBI taxonomy identifier.
+NCBI_GEO_SOFT_brief,GSM,title,100,0,Submitter-provided sample or study title.
+NCBI_GEO_SOFT_brief,GSM,treatment_protocol_ch1,36,0,Sample treatment or perturbation protocol.
+NCBI_GEO_SOFT_brief,GSM,type,100,0,GEO record or study assay type.
+NCBI_GEO_SOFT_brief,GSE,citation,2,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,contact_address,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,contact_city,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,contact_country,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,contact_department,59,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,contact_email,88,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,contact_institute,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,contact_laboratory,24,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,contact_name,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,contact_phone,30,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,contact_state,66,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,contact_zip,100,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,contributor,93,86,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,geo_accession,100,0,Stable GEO accession.
+NCBI_GEO_SOFT_brief,GSE,gp_id,4,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,last_update_date,100,0,Last GEO record update date.
+NCBI_GEO_SOFT_brief,GSE,overall_design,100,8,"Experimental design, groups, controls, and replication."
+NCBI_GEO_SOFT_brief,GSE,platform_id,100,7,GEO platform accession.
+NCBI_GEO_SOFT_brief,GSE,platform_organism,100,2,Organism represented by study platform.
+NCBI_GEO_SOFT_brief,GSE,platform_taxid,100,2,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,project,4,0,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,pubmed_id,87,12,Associated PubMed identifier.
+NCBI_GEO_SOFT_brief,GSE,relation,96,64,"Relations to SRA, BioSample, BioProject, or other records."
+NCBI_GEO_SOFT_brief,GSE,sample_id,100,99,GSM accessions belonging to a study.
+NCBI_GEO_SOFT_brief,GSE,sample_organism,100,2,Organisms represented by study samples.
+NCBI_GEO_SOFT_brief,GSE,sample_taxid,100,2,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,status,100,0,Public/release status.
+NCBI_GEO_SOFT_brief,GSE,submission_date,100,0,GEO submission date.
+NCBI_GEO_SOFT_brief,GSE,summary,100,14,Study goals and context.
+NCBI_GEO_SOFT_brief,GSE,supplementary_file,99,46,Observed GEO SOFT attribute.
+NCBI_GEO_SOFT_brief,GSE,title,100,0,Submitter-provided sample or study title.
+NCBI_GEO_SOFT_brief,GSE,type,100,5,GEO record or study assay type.
+NCBI_GEO_SOFT_brief,GSE,web_link,5,0,Observed GEO SOFT attribute.

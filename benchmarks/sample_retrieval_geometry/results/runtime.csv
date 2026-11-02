@@ -1,0 +1,10 @@
+stage,runtime_seconds
+load_and_validate,5.782711231149733
+stage0_ranges,21.111247039865702
+reference_density_probe,6.2615315220318735
+local_scaling,9.61833099136129
+nicdm,5.462488283868879
+empirical_null,0.173877009190619
+snn,10.05644587194547
+summaries_and_diagnostics,2.452115952037275
+total,105.47863554954529

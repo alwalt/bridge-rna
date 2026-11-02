@@ -1,0 +1,53 @@
+{
+  "frozen_before_gtex": true,
+  "reference_corpus": "510,709 human ARCHS4 embeddings",
+  "query_data_examined": false,
+  "candidates": {
+    "Raw cosine": {
+      "transform": "L2 normalize original embedding",
+      "ranking": "cosine"
+    },
+    "ABTT D=10": {
+      "fit": "ARCHS4 references only",
+      "center": true,
+      "removed_components": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ranking": "cosine"
+    },
+    "Whitening": {
+      "fit": "ARCHS4 references only",
+      "covariance_denominator": "N",
+      "dimensions": 512,
+      "eigendecomposition": "Sigma=U diag(lambda) U^T; W=U diag(max(lambda,lambda_floor)^-1/2)",
+      "eigenvalue_floor_relative_to_lambda_max": 1e-12,
+      "eigenvalues_affected_by_floor": 0,
+      "post_transform": "L2 normalization",
+      "ranking": "cosine",
+      "parameter_file": "/home/walt/bridge-rna.worktrees/we-are-creating-a-new-bridge-benchmark-to/benchmarks/sample_retrieval_geometry/work/literature_postprocessing_transform.npz"
+    },
+    "NICDM": {
+      "k": 10,
+      "configuration": "existing frozen Stage-1 formulation"
+    },
+    "Local Scaling": {
+      "k": 10,
+      "configuration": "existing frozen Stage-1 formulation"
+    }
+  },
+  "supplemental_not_advanced_as_primary": {
+    "Mean-centered": {},
+    "CSLS": {
+      "k": 10
+    }
+  }
+}

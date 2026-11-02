@@ -1,0 +1,9 @@
+{
+  "rows": 940455,
+  "expected_gsm_sha256": "110ff6fd5f1dea9c7509fe4fb61b0c13285e6b8f67ee721ba44e2c499151a1e8",
+  "database_gsm_sha256": "110ff6fd5f1dea9c7509fe4fb61b0c13285e6b8f67ee721ba44e2c499151a1e8",
+  "exact_match": true,
+  "quick_check": "ok",
+  "foreign_key_violations": 0,
+  "database_bytes": 4371132416
+}

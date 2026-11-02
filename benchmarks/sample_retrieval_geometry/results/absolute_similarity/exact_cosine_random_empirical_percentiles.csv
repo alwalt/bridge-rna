@@ -1,0 +1,4 @@
+exact_statistic,cosine,random_pairs_at_or_below,random_pair_empirical_percentile,random_pairs_exceeding_fraction
+exact_minimum,0.9740576148033142,1942820,0.97141,0.02859
+exact_q1,0.9984964579343796,1999451,0.9997255,0.0002745
+exact_median,0.9992181062698364,1999872,0.999936,6.4e-05

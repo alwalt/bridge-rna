@@ -1,0 +1,29 @@
+{
+  "run_id": "organ-recovery-v1",
+  "created_at": "2026-09-28T00:38:21.778028+00:00",
+  "database": "data/archs4/bridge_metadata.sqlite",
+  "relocated_from": "benchmarks/archs4_metadata_coverage/results/bridge_metadata.sqlite",
+  "database_open_mode": "read_only",
+  "seed": "bridge-organ-recovery-v1",
+  "validation_n": 5000,
+  "vocabulary_n": 54,
+  "uberon_reliable_n": 52,
+  "ontology_api": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms",
+  "rules": {
+    "precedence": "Gemma anatomy > ARCHS4 source > characteristics/GEO description > title > protocols > study context",
+    "boundaries": "negative alphanumeric lookarounds; no raw substring matching",
+    "ambiguity": "multiple labels at strongest evidence tier returns ambiguous",
+    "specificity": "listed child label suppresses its broad parent only within the same field",
+    "study_context": "used only if no stronger sample-level or Gemma evidence exists"
+  },
+  "missing_status_counts": {
+    "unknown": 179884,
+    "resolved": 342230,
+    "ambiguous": 14075
+  },
+  "limitations": [
+    "Direct anatomical aliases only; cell-type-to-organ inference is intentionally excluded.",
+    "Unknown means no recognized 54-category alias, not proof that the source contains no free-text anatomical clue.",
+    "GEOMeta ground truth is human-only, so held-out precision is not independently established for mouse."
+  ]
+}

@@ -1,0 +1,8 @@
+[assets] checkpoint=/home/walt/bridge-rna/model/r7hnr92k/best_model.pt (shared_root)
+[assets] config=/home/walt/bridge-rna/model/r7hnr92k/config.json (shared_root)
+[assets] vocab=/home/walt/bridge-rna/data/ensembl/canonical_genes.csv (shared_root)
+[assets] static_cache=/home/walt/bridge-rna/benchmarks/static_gene_embeddings/work/static_gene_embedding.float32.npy (shared_root)
+[E0] shape=(15165, 512), cache_allclose=True
+[null] sampled input distribution median=2.479951, mean=2.368176, p25=0.477147, p75=3.761263
+[done] selected_null=zero value=0.000000
+[done] wrote /home/walt/bridge-rna.worktrees/bridge-gene-embedding-benchmarking/benchmarks/zhong_gene_biology/coverage/representation_ablation_summary.json
