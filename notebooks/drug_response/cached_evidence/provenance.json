@@ -1,0 +1,156 @@
+{
+  "approval_scope": "Supplementary frozen drug-response representation benchmark approved by explicit benchmark-notebook invocation.",
+  "cohort": {
+    "broad_lineages": 27,
+    "cell_lines": 700,
+    "folds": 5,
+    "gdsc_drug_ids": 295,
+    "pubchem_compounds": 255,
+    "response_observations": 212299,
+    "test_cell_lines_per_fold": 140,
+    "version_specific_screens": 355
+  },
+  "dependencies": {
+    "matplotlib": "3.10.9",
+    "nbformat": "5.11.0",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "python": "3.11.0rc1",
+    "scikit_learn": "1.8.0",
+    "scipy": "1.17.1"
+  },
+  "limitations": [
+    "Released expression preprocessing is undocumented and frozen-model input conversion is approximate.",
+    "One split realization; screen-bootstrap intervals do not capture split variability or full dependence.",
+    "One-pass mean completion and fixed dimension-scaled ridge penalty were not nested-CV optimized.",
+    "Exact Bridge pretraining exposure is unresolved.",
+    "Known-screen to unseen-cell-line prediction only; unseen compounds are not tested.",
+    "Published BulkFormer PCC 0.373 is not protocol-equivalent to the local comparison."
+  ],
+  "model": {
+    "bridge_name": "Bridge-45.6M",
+    "canonical_genes": 15165,
+    "checkpoint_recorded_in_source_benchmark": "model/r7hnr92k/best_model.pt",
+    "frozen": true,
+    "observed_canonical_genes": 15130,
+    "representation_dimensions": 512
+  },
+  "protocol": {
+    "alpha": "1000 * dimensions / 128",
+    "metric": "PCC/SCC/RMSE per screen over pooled OOF predictions; unweighted mean across screens",
+    "missing_targets": "one-pass training-screen-mean completion",
+    "pca_dimensions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "readout": "standardized independent ridge output per version-specific screen",
+    "seed": 20260922,
+    "split": "deterministic lineage-stratified held-out cell lines"
+  },
+  "source_artifacts": [
+    {
+      "bytes": 1776,
+      "path": "benchmarks/drug_response/results/primary_results.csv",
+      "sha256": "a7a86871ea89c12c08a2ba110ba006d2daef618982b991e6e56dccdd9eae73b0"
+    },
+    {
+      "bytes": 743683,
+      "path": "benchmarks/drug_response/results/per_drug_metrics.csv",
+      "sha256": "7793fc6e9334f6c924b5cfbde4f0f714f6251550cfeca951f846d1a5e00c0805"
+    },
+    {
+      "bytes": 708,
+      "path": "benchmarks/drug_response/results/paired_comparisons.csv",
+      "sha256": "c433e4241de8634c6c8ddf2dce195dca314870f562d55119e18cc561762b11c6"
+    },
+    {
+      "bytes": 1206,
+      "path": "benchmarks/drug_response/results/pca_component_sensitivity.csv",
+      "sha256": "fa4374cf28b291cb3cb958efad8658aade92acaa3bae1f6cf1c13023b20f5cef"
+    },
+    {
+      "bytes": 30930,
+      "path": "benchmarks/drug_response/results/bridge_vs_pca4_per_screen.csv",
+      "sha256": "2b60652f8d1d20e6343fcfeb3b599ab8075053d0585c9d1d77ba599f8f98c63b"
+    },
+    {
+      "bytes": 4114,
+      "path": "benchmarks/drug_response/results/fold_diagnostics.csv",
+      "sha256": "554caf07a0633f1e2db07092cd4031418332a12ead37c5e67dcea57c3dc61869"
+    },
+    {
+      "bytes": 1132,
+      "path": "benchmarks/drug_response/results/variance_controls.csv",
+      "sha256": "77bbb9282c19036c0ceff124a37de09e4df84379ff3738a13bc496ef5161ed84"
+    },
+    {
+      "bytes": 127,
+      "path": "benchmarks/drug_response/results/published_results.csv",
+      "sha256": "32cdb1ef03e0f3d3fd349b6aa1d6b7000427c6bb129c9b6c72d584ac2258f938"
+    },
+    {
+      "bytes": 105038,
+      "path": "benchmarks/drug_response/results/pca_component_sensitivity.png",
+      "sha256": "051806f57c4c2c7fe74e4dabfc2a35ff15b956e38685304a1a96bae89a86ecdd"
+    },
+    {
+      "bytes": 16982,
+      "path": "benchmarks/drug_response/results/pca_component_sensitivity.pdf",
+      "sha256": "617be6f6c77dd8f23b71de495ffa7aae67301a0453979d92f58c1fdb626eefda"
+    },
+    {
+      "bytes": 254823,
+      "path": "benchmarks/drug_response/results/bridge_vs_pca4_per_screen.png",
+      "sha256": "b94276c3db86c3275a68cf939339af6bb92a7f87663284e2d98a4e97cbeb7bc6"
+    },
+    {
+      "bytes": 25753,
+      "path": "benchmarks/drug_response/results/bridge_vs_pca4_per_screen.pdf",
+      "sha256": "449d4d8c2a50a195b7b178ac0140b5cc22ca4d511b8580ea4bd3bb5ceaa62e3e"
+    }
+  ],
+  "source_benchmark": "benchmarks/drug_response",
+  "source_git_revision": "ef1f80b48c04f516ef5183f54134b661fde8c8b8",
+  "source_release": {
+    "assets": [
+      {
+        "bytes": 174252427,
+        "name": "drug_response_expr_data.csv",
+        "sha256": "f3398260029d368e01e9ea78dd77b07ec81615976cd52cabdbf70a034666638d",
+        "zenodo_md5": "0cdf07dfd599142efbfb625a661d4a92"
+      },
+      {
+        "bytes": 50640558,
+        "name": "drug_response_ic50.csv",
+        "sha256": "9f79783d315c6db2120daf49c8a323bebf554863ae69f92f367851d5bff0b497",
+        "zenodo_md5": "7b81c3a153c2a19b508e175c1bbdcc57"
+      }
+    ],
+    "doi": "10.5281/zenodo.15744294"
+  },
+  "verification": {
+    "cell_lines": 700,
+    "maximum_absolute_metric_error": {
+      "pcc": 9.8879238130678e-17,
+      "rmse": 1.7763568394002505e-15,
+      "scc": 9.71445146547012e-17
+    },
+    "observed_responses": 212299,
+    "prediction_mask": "exactly one finite prediction per observed response; none at missing responses",
+    "representations": 19,
+    "screens": 355,
+    "status": "passed"
+  }
+}

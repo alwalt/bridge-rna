@@ -3,10 +3,10 @@
 ## Review record
 
 - **Reviewed benchmark:** `benchmarks/drug_response/`
-- **Source Git revision:** `26af449797c8497664505d4949d7c948108f9d1e`
-- **Review date:** 2026-10-31
-- **Working-tree context:** the review was performed with uncommitted changes limited to the figure-generation script, two regenerated PDFs, and the new Bridge-only regression PNG/PDF. The numerical result tables and prediction arrays were not modified during review.
-- **Evidence inspected:** the executed primary notebook; README and scientific report; frozen configuration; dataset, protocol, asset, and pretraining-exposure audits; cohort and observation manifests; split definitions; input and evaluation provenance; primary, per-screen, paired-comparison, fold-diagnostic, variance-control, and published-reference tables; saved out-of-fold predictions and embedding shapes; pipeline source; and final figures.
+- **Source Git revision:** `ef1f80b48c04f516ef5183f54134b661fde8c8b8`
+- **Review date:** 2026-10-31; updated 2026-11-03 after the final PCA sweep and figure validation
+- **Working-tree context:** the review update was performed from a clean worktree after the PCA-1–512 sensitivity extension and publication-figure commit. No benchmark computation or non-review artifact was modified during this review update.
+- **Evidence inspected:** the executed primary notebook; README and scientific report; frozen configuration; dataset, protocol, asset, and pretraining-exposure audits; cohort and observation manifests; split definitions; input and evaluation provenance; primary, per-screen, paired-comparison, PCA-sensitivity, fold-diagnostic, variance-control, and published-reference tables; saved out-of-fold predictions and embedding shapes; pipeline source; and final figures, including the PCA sensitivity curve and paired Bridge-versus-PCA-4 screen plot.
 - **Review mode:** saved evidence plus bounded, read-only in-memory checks. No notebook execution, fitting, inference, download, split regeneration, or pipeline run was performed.
 
 ## Benchmark objective
@@ -55,7 +55,7 @@ Missing training responses are initialized to the training-screen mean and inclu
 
 ### Metrics and uncertainty
 
-Predictions are assembled out of fold. PCC, SCC, and RMSE are computed separately within each of the 355 screens and summarized as unweighted means across screens; median PCC is also retained. Read-only verification found exactly one finite out-of-fold prediction for every observed response and no predictions outside observed response positions, for all seven representations.
+Predictions are assembled out of fold. PCC, SCC, and RMSE are computed separately within each of the 355 screens and summarized as unweighted means across screens; median PCC is also retained. Read-only verification found exactly one finite out-of-fold prediction for every observed response and no predictions outside observed response positions, for all 19 representations.
 
 The paired intervals use 10,000 bootstrap resamples of the 355 screens. They quantify variation across screens under an exchangeability assumption, not variation across random splits, cell-line cohorts, studies, or model seeds. Because screens share cell lines and some compounds recur across versions, these intervals may be too narrow if interpreted as independent-replicate confidence intervals. Only one split seed and one representation extraction per model are available; no across-seed mean or SD is reported.
 
@@ -99,6 +99,8 @@ All summary values below reproduce from [`results/per_drug_metrics.csv`](results
 
 The local Bridge advantage over BulkFormer is small in magnitude but consistent across screens. The paired screen bootstrap excludes zero, but it is not a substitute for repeated-split uncertainty and does not fully account for dependence among screens.
 
+The full PCA curve brackets an interior optimum: PCA-4 is the best observed dimension, with neighboring PCA-3 and PCA-5 producing similar mean PCC values (0.359 and 0.357). This reduces concern that the conventional baseline was made artificially weak by reporting only high-dimensional PCA. Bridge remains higher than PCA-4 on 342 of 355 screens (96.3%), as recorded in [`results/bridge_vs_pca4_per_screen.csv`](results/bridge_vs_pca4_per_screen.csv). Because the component sweep was motivated by inspection of the original PCA-128/PCA-512 results, PCA-4 remains an exploratory best-observed control rather than an independently selected hyperparameter.
+
 ### Discrepant or unverified claims
 
 | Claim | Assessment |
@@ -116,8 +118,8 @@ The local Bridge advantage over BulkFormer is small in magnitude but consistent 
 
 1. Frozen Bridge representations contain clear information about differential drug sensitivity across held-out cell lines: mean per-screen PCC is 0.448 over all 355 screens.
 2. Under an identical local split, endpoint, completion rule, and readout heuristic, Bridge modestly exceeds both locally evaluated BulkFormer checkpoints by mean ΔPCC of 0.010–0.012 and is higher on 72%–75% of screens.
-3. Bridge adds substantial information beyond PCA-128 under the same readout, supporting representation transfer beyond a low-rank expression summary.
-4. The benchmark has strong auditability: exact cohort and split manifests, full per-screen outputs, cached out-of-fold predictions, frozen configuration, checksummed source assets, and explicit preprocessing and exposure limitations are preserved.
+3. Bridge exceeds the best observed conventional PCA representation, PCA-4, by mean ΔPCC 0.0883 and is higher on 96.3% of screens. This supports representation utility beyond a low-rank unsupervised expression summary under the shared readout, while remaining exploratory because PCA dimensionality was selected after inspecting the benchmark.
+4. The benchmark has strong auditability: exact cohort and split manifests, full per-screen outputs, cached out-of-fold predictions, frozen configuration, checksummed source assets, compact plotting tables, and explicit preprocessing and exposure limitations are preserved.
 
 ### Negative and null findings
 
@@ -133,7 +135,7 @@ The local Bridge advantage over BulkFormer is small in magnitude but consistent 
 3. **Single split realization.** Five folds come from one deterministic partition and one seed. The small Bridge–BulkFormer effect lacks repeated-split or nested resampling uncertainty.
 4. **Dependent screen bootstrap.** The 355 screens are not independent experiments: they reuse cell lines, and some compounds occur in both GDSC versions. Reported intervals should be labeled descriptive screen-bootstrap intervals.
 5. **Mean-completed target objective.** Sparse screens can contain up to 81.4% imputed training pseudo-targets. An observed-only per-screen ridge sensitivity analysis is needed.
-6. **Fixed dimension-scaled regularization.** The penalty was not tuned within training folds. Different representation dimensions (259, 512, 643, 128, and 19,098) receive different absolute penalties, and poor raw/PCA results may reflect this heuristic.
+6. **Fixed dimension-scaled regularization.** The penalty was not tuned within training folds. Different representation dimensions receive different absolute penalties. The complete PCA dimension sweep addresses component-count sensitivity, but it does not establish that PCA-4, raw expression, Bridge, or BulkFormer received their optimal ridge penalties.
 7. **No unseen-drug task.** Separate screen heads only interpolate to held-out cell lines for known screens.
 8. **Limited biological interpretation.** No lineage-stratified performance, mechanism-level validation, or external cohort is provided.
 9. **Published-protocol noncomparability.** The final BulkFormer score of 0.373 cannot be reconstructed and must remain contextual rather than comparative.
@@ -145,7 +147,7 @@ The local Bridge advantage over BulkFormer is small in magnitude but consistent 
 
 The benchmark is scientifically useful as a transparent, controlled demonstration that frozen Bridge features transfer to a pharmacogenomic phenotype. It is stronger than an exploratory clustering result because it uses complete-cell-line holdout, out-of-fold prediction, identical local evaluation across representations, and auditable per-screen outputs.
 
-It should not currently support a headline main-manuscript superiority claim. The Bridge–BulkFormer advantage is modest, preprocessing is necessarily approximate, exact pretraining exposure is unresolved, uncertainty comes from one partition, and the readout's mean-completion and regularization choices have not been stress-tested. These issues weaken comparative attribution to the representation itself.
+It should not currently support a headline main-manuscript superiority claim. The Bridge–BulkFormer advantage is modest, preprocessing is necessarily approximate, exact pretraining exposure is unresolved, uncertainty comes from one partition, and the readout's mean-completion and regularization choices have not been stress-tested. The completed PCA dimension sweep strengthens the conventional-baseline comparison but does not resolve those broader issues.
 
 Prerequisites for promotion to a main-manuscript result are:
 
@@ -158,7 +160,7 @@ Prerequisites for promotion to a main-manuscript result are:
 
 ## Proposed publication scope and approval status
 
-**Status: pending explicit user approval. Saving this review does not approve publication packaging.**
+**Status: approved for the supplementary scope below by explicit `benchmark-notebook` invocation on 2026-11-03.**
 
 ### Proposed supplementary scope
 
@@ -166,8 +168,8 @@ Prerequisites for promotion to a main-manuscript result are:
 - **Primary claim:** “Frozen Bridge representations predict IC50 variation in held-out cell lines and show a modest advantage over locally evaluated frozen BulkFormer representations under one transparent common protocol.”
 - **Required qualifiers:** known screens only; approximate FM preprocessing; unresolved ARCHS4 exposure; single split partition; screen-bootstrap dependence; no direct comparison with published BulkFormer PCC 0.373.
 - **Primary table:** Bridge, BulkFormer-50M, and BulkFormer-147M mean/median PCC, mean SCC, mean per-screen RMSE, paired mean ΔPCC, descriptive screen-bootstrap intervals, and fraction of screens favoring Bridge.
-- **Control table:** raw expression, PCA-128, PCA-512, and PCA-128 + Bridge, explicitly labeled readout-sensitive controls.
-- **Recommended figures:** mean per-screen PCC summary and paired per-screen PCC distributions. The pooled z-score scatter may be included only as an illustrative association plot, not as evidence of IC50 calibration.
+- **Control table:** raw expression; the complete PCA-1–8, 16, 32, 64, 128, 256, and 512 sensitivity series; and PCA-128 + Bridge. PCA-4 must be labeled the exploratory best-observed dimension rather than a prospectively selected optimum.
+- **Recommended figures:** the full PCA component-sensitivity curve ([`results/pca_component_sensitivity.png`](results/pca_component_sensitivity.png)) and paired Bridge-versus-PCA-4 per-screen scatter with an identity line ([`results/bridge_vs_pca4_per_screen.png`](results/bridge_vs_pca4_per_screen.png)). The paired figure's source table must accompany it. The pooled z-score scatter may be included only as an illustrative association plot, not as evidence of IC50 calibration.
 - **Negative results to retain:** PCA concatenation does not improve over Bridge alone; raw expression has the highest mean SCC; no unseen-drug or causal conclusion is supported.
 
 If this scope is approved, publication packaging should preserve the exact saved values and limitations above rather than strengthening the claims.

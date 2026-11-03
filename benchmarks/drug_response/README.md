@@ -35,6 +35,16 @@ cd benchmarks/drug_response
   drug_response.ipynb --ExecutePreprocessor.timeout=1200
 ```
 
+Build the portable cached scientific notebook after review approval:
+
+```bash
+/home/walt/bridge-rna/.venv/bin/python \
+  benchmarks/drug_response/pipeline/build_scientific_notebook.py
+cd notebooks/drug_response
+/home/walt/bridge-rna/.venv/bin/jupyter nbconvert --to notebook --execute --inplace \
+  drug_response.ipynb --ExecutePreprocessor.timeout=1200
+```
+
 ## Interpretation
 
 The final BulkFormer publication reports mean PCC 0.373, but its exact folds,
