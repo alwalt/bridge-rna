@@ -42,6 +42,8 @@ def main() -> None:
     provenance = json.loads((R / "survival_5fold_oof_provenance.json").read_text())
     layer_summary = pd.read_csv(R / "bridge_layerwise_survival_summary.csv")
     layer_best = pd.read_csv(R / "bridge_layerwise_survival_best_layer_per_cancer.csv")
+    head_factorial = pd.read_csv(R / "survival_head_factorial_metrics.csv")
+    head_factorial_stats = pd.read_csv(R / "survival_head_factorial_statistical_summary.csv")
 
     label_names = {"ours_45.6m": "Bridge 45.6M", "bulkformer_50m": "BulkFormer-50M",
                    "bulkformer_147m": "BulkFormer-147M",
@@ -90,6 +92,16 @@ def main() -> None:
 
     oof_table = oof[["representation", "oof_survival_c_index", "comparable_pairs"]].copy()
     oof_table.columns = ["Representation", "Fold-aware OOF C-index", "Comparable pairs"]
+
+    head_table = head_factorial[["representation", "head", "oof_c_index",
+                                 "comparable_pairs"]].copy()
+    head_table.columns = ["Representation", "Head", "Fold-aware OOF C-index",
+                          "Comparable pairs"]
+    head_contrasts = head_factorial_stats.loc[
+        head_factorial_stats.comparison_type.ne("cell_summary"),
+        ["comparison_type", "representation", "head", "contrast",
+         "median_difference", "cancers_first_gt_second", "signflip_p",
+         "wilcoxon_p", "signflip_bh_p", "wilcoxon_bh_p"]].copy()
 
     bridge = per.query("representation == 'Bridge 45.6M'").copy()
     bridge_table = bridge[["cancer", "n_patients", "n_events", "c_index", "ci_low", "ci_high",
@@ -196,6 +208,20 @@ Median within-cancer C-indices are {stats['median_bridge_c_index']:.3f} for Brid
 
 The paired sign-flip/Wilcoxon p-values are {stats['paired_signflip_mean_p_pca128']:.3f}/{stats['paired_wilcoxon_p_pca128']:.3f} against PCA and {stats['paired_signflip_mean_p_full_raw']:.3f}/{stats['paired_wilcoxon_p_full_raw']:.3f} against raw expression. There is no evidence of a systematic cancer-level difference; nonsignificance is not proof of equivalence. Bridge retains prognostic information comparable to conventional transcriptomic representations, but this benchmark does not demonstrate systematic survival-prediction superiority over PCA or full expression. Bridge compresses the 15,165-gene input into 512 learned dimensions, but storage, compute, transfer, and clinical advantages of that compression were not tested.
 
+### Head-controlled sensitivity analysis
+
+The primary OOF benchmark preserved the conventional PCA pipeline, in which PCA-128 used penalized linear Cox while Bridge and full expression used the nonlinear `[512,256]` Cox head. A prespecified 3 × 2 factorial control therefore evaluates all three representations with both a bias-free linear Cox head and the same Cox MLP. Both heads use Cox partial likelihood, identical outer folds and inner validation partitions, training-only standardization, fixed AdamW settings, and the same seeds. PCA is fitted on each outer training fold only. Existing Bridge/raw MLP predictions are reused exactly; no encoder inference is repeated.
+
+{md_table(head_table)}
+
+Bridge is nearly head-insensitive overall: C-index 0.7589 with linear Cox and 0.7580 with the MLP. With the linear head fixed, Bridge is 0.0026 below PCA overall and 0.0056 above raw expression. With the MLP fixed, Bridge is 0.0058 below PCA and 0.0011 below raw expression. Median within-cancer C-indices are 0.652/0.624 for Bridge linear/MLP, 0.628/0.639 for PCA, and 0.637/0.601 for raw expression.
+
+{md_table(head_contrasts)}
+
+No representation contrast or head effect remains significant after Benjamini–Hochberg correction across the seven paired cancer-level tests. Unadjusted results suggest the MLP can help PCA and that linear Cox can help full expression within some cancers, but these are secondary, head-dependent observations. The key conclusion is robust: Bridge retains prognostic information in the same broad range as PCA and full expression, without a systematic advantage under either downstream head.
+
+The initial 200-epoch ceiling was nonbinding for every MLP but was reached by multiple linear fits. Before accepting results, the common ceiling was raised to 10,000 while retaining learning rate, weight decay, patience, folds, and all preprocessing. Every accepted fit stopped below the ceiling. This correction was triggered by convergence diagnostics rather than test performance.
+
 ## 12. Forest-plot interpretation
 
 Primary figures:
@@ -205,6 +231,9 @@ Primary figures:
 - [Full-expression forest plot](results/figures/raw_expression_5fold_oof_per_cancer_survival_forest.png)
 - [Combined forest plot](results/figures/bridge_pca_raw_5fold_oof_survival_forest.png)
 - [Three-panel comparison](results/figures/bridge_pca_raw_5fold_oof_survival_three_panel.png)
+- [Head-controlled overall comparison](results/figures/survival_head_factorial_overall.png)
+- [Head-controlled per-cancer comparison](results/figures/survival_head_factorial_per_cancer_two_panel.png)
+- [Head-effect heatmap](results/figures/survival_head_factorial_head_effect_heatmap.png)
 
 Each point is the fold-aware held-out C-index, each whisker is a patient-bootstrap 95% interval, the dashed line marks C = 0.5, and `events / N` records outcome support. Sparse-event cancers have few comparable pairs and consequently wide or unstable intervals. Complete OOF coverage narrows Bridge intervals in {narrowed}/32 cancers; the median width falls from {median_old:.3f} to {median_new:.3f}.
 
@@ -241,6 +270,7 @@ The evaluated path is `tumor RNA-seq → Bridge → molecular representation →
 - Published BulkFormer protocols and local paired reconstructions differ, and exact final-release folds/code are unavailable.
 - Clinical covariates are absent from the current representation comparison.
 - Results depend on the declared downstream survival head and fixed hyperparameters.
+- The head-controlled analysis reduces estimator confounding, but identical optimizer settings do not guarantee identical effective regularization across 128, 512, and 25,150 input dimensions.
 - Pooled metrics can reflect cancer-type composition and between-cancer prognosis differences.
 - Alive/dead parity results are not censoring-aware survival results.
 
@@ -260,12 +290,19 @@ The TCGA downstream benchmark is closed for the current manuscript. Detailed met
 - BulkFormer-style alive/dead prognosis parity, kept separate from censoring-aware survival.
 - Original repeated 80/20 Cox survival with pooled, weighted within-cancer, and macro within-cancer C-index.
 - Complete true five-fold OOF Cox survival for all 9,668 eligible patients, including 1,000-draw patient-bootstrap intervals and matched Bridge/PCA/raw forest plots.
+- Head-controlled 3 × 2 OOF survival sensitivity analysis for Bridge, PCA-128, and full expression with linear Cox and the `[512,256]` Cox MLP.
 
 ## Final complete OOF survival
 
 {md_table(oof_table)}
 
 Bridge's median within-cancer C-index is {stats['median_bridge_c_index']:.3f}; PCA-128 is {stats['median_pca128_c_index']:.3f}; full raw expression is {stats['median_full_raw_c_index']:.3f}. Bridge exceeds PCA and raw expression in 15 of 32 cancers each. Paired sign-flip and Wilcoxon analyses find no systematic difference. Seventeen Bridge cancer-specific intervals are wholly above chance.
+
+## Head-controlled survival sensitivity
+
+{md_table(head_table)}
+
+Bridge is stable across head families (overall OOF C-index 0.759 linear and 0.758 MLP). Within either fixed head, paired cancer-level tests do not show a systematic Bridge advantage over PCA or full expression; no factorial contrast remains significant after BH correction.
 
 ## BulkFormer context
 
@@ -278,6 +315,8 @@ The final Cell Systems release reports TCGA classification weighted F1 = 0.907 a
 - [Gap audit](bulkformer_tcga_gap_audit.md)
 - [OOF representation table](results/survival_5fold_oof_representation_comparison.csv)
 - [OOF provenance](results/survival_5fold_oof_provenance.json)
+- [Head-controlled metrics](results/survival_head_factorial_metrics.csv)
+- [Head-controlled provenance](results/survival_head_factorial_provenance.json)
 - [Final QA](results/final_qa.json)
 """
     (ROOT / "BULKFORMER_PARITY_SUMMARY.md").write_text(parity_summary)

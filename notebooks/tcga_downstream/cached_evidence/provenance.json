@@ -1,0 +1,105 @@
+{
+  "analysis": "complete five-fold OOF TCGA survival",
+  "source_benchmark": "benchmarks/tcga_downstream",
+  "source_git_commit": "2015b886028479996cbfe7364fcd510739e13403",
+  "cohort": {
+    "patients": 9668,
+    "cancers": 32,
+    "events": 2774
+  },
+  "folds": 5,
+  "bootstrap_replicates": 1000,
+  "representations": [
+    "Bridge 45.6M",
+    "PCA-128",
+    "Full raw expression"
+  ],
+  "heads": [
+    "Linear Cox",
+    "Cox MLP [512,256]"
+  ],
+  "bridge_frozen": true,
+  "pca_training_fold_only": true,
+  "concordance": "Harrell C-index aggregated over fold-valid comparable pairs",
+  "approval_scope": "complete OOF survival only",
+  "evidence_sha256": {
+    "survival_head_factorial_metrics.csv": "f5d28f31050dddf2d4c6f3973260d8b7af217964894b0a9f195d74768f3067c5",
+    "survival_head_factorial_per_cancer.csv": "b647d14202f3ca9b7865e4a20f871258ec08b3be5eb82bffbf40971540bd2669",
+    "survival_head_factorial_statistical_summary.csv": "2074efc1e80594733d71c58928af1ff4df608eb7bd72db2cf3ca1a3483d24352",
+    "survival_head_factorial_training_qc.csv": "b881b1b5bf92fd82170a5f0b3c3c439cee4d0ef8029fbedd6bccd241e3df845c",
+    "survival_head_factorial_provenance.json": "3957fc843d477bf370e51e34dad49f3159ed82019d151d212afcc4b25c296b5e",
+    "survival_5fold_oof_metrics.csv": "676450044f6b355833904dddd18b7f132407b8a175403558b8b7f697332510bd",
+    "survival_5fold_oof_per_cancer.csv": "08eb6923e6f5562f9435ed5fd5bee750adba42cd2db03b3be4bd48687bd3dc1e",
+    "survival_5fold_oof_representation_comparison.csv": "56751cf3ab17d4be22e535afba175cacf54787fde292a0d47608d5b47ccd521b",
+    "bridge_layerwise_survival_summary.csv": "3e879463183a027d16d2a073e766bc8aab970c09c2a44c44de60636a156707cf",
+    "final_qa.json": "3f1f5bb222f3f837533f58d390c6bfb1a2d9a67884c76effce5b86d0693584a8"
+  },
+  "dependency_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.7",
+    "lifelines": "0.30.0",
+    "nbformat": "5.10.4",
+    "nbconvert": "7.16.6",
+    "scipy": "1.14.0"
+  },
+  "environment_note": "lifelines 0.30.0 was used for cached-report validation because the repository-pinned 0.30.3 was unavailable from the configured index and 0.30.2 required a newer Python datetime API; recalculated concordance matched every saved value exactly.",
+  "prediction_level_validation": {
+    "status": "passed",
+    "prediction_rows_checked": 58008,
+    "patients_per_representation_head": 9668,
+    "identical_patients_folds_outcomes": true,
+    "unique_prediction_per_patient_representation_head": true,
+    "recalculated_metrics": [
+      {
+        "representation": "Bridge 45.6M",
+        "head": "Cox MLP [512,256]",
+        "recalculated_c_index": 0.7579715472270669,
+        "comparable_pairs": 3068664,
+        "absolute_difference_from_saved": 0.0
+      },
+      {
+        "representation": "Bridge 45.6M",
+        "head": "Linear Cox",
+        "recalculated_c_index": 0.7588898621680314,
+        "comparable_pairs": 3068664,
+        "absolute_difference_from_saved": 0.0
+      },
+      {
+        "representation": "Full raw expression",
+        "head": "Cox MLP [512,256]",
+        "recalculated_c_index": 0.7590423715336707,
+        "comparable_pairs": 3068664,
+        "absolute_difference_from_saved": 0.0
+      },
+      {
+        "representation": "Full raw expression",
+        "head": "Linear Cox",
+        "recalculated_c_index": 0.753278299611818,
+        "comparable_pairs": 3068664,
+        "absolute_difference_from_saved": 0.0
+      },
+      {
+        "representation": "PCA-128",
+        "head": "Cox MLP [512,256]",
+        "recalculated_c_index": 0.7638014458409262,
+        "comparable_pairs": 3068664,
+        "absolute_difference_from_saved": 0.0
+      },
+      {
+        "representation": "PCA-128",
+        "head": "Linear Cox",
+        "recalculated_c_index": 0.7615261885954279,
+        "comparable_pairs": 3068664,
+        "absolute_difference_from_saved": 0.0
+      }
+    ]
+  },
+  "limitations": [
+    "retrospective TCGA cohort",
+    "no clinical-covariate adjustment",
+    "no external validation",
+    "heterogeneous event support",
+    "cross-study literature values are not paired"
+  ]
+}

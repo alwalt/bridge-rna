@@ -29,6 +29,12 @@ EXPECTED = [
     "bridge_layerwise_survival_5fold_oof_per_cancer.csv",
     "bridge_layerwise_survival_summary.csv",
     "bridge_layerwise_survival_provenance.json",
+    "survival_head_factorial_predictions.csv",
+    "survival_head_factorial_metrics.csv",
+    "survival_head_factorial_per_cancer.csv",
+    "survival_head_factorial_statistical_summary.csv",
+    "survival_head_factorial_training_qc.csv",
+    "survival_head_factorial_provenance.json",
 ]
 FIGURES = [
     "bridge_5fold_oof_per_cancer_survival_forest.png",
@@ -40,6 +46,9 @@ FIGURES = [
     "bridge_layerwise_survival_cindex.png",
     "bridge_layerwise_per_cancer_survival_heatmap.png",
     "bridge_layerwise_vs_l12_delta_heatmap.png",
+    "survival_head_factorial_overall.png",
+    "survival_head_factorial_per_cancer_two_panel.png",
+    "survival_head_factorial_head_effect_heatmap.png",
 ]
 
 
@@ -87,6 +96,25 @@ def main() -> None:
     # CSV round-tripping can move a float by one machine-precision unit.
     assert np.allclose(l12.risk.to_numpy(), primary.risk_score.to_numpy(), atol=1e-15, rtol=0)
 
+    factorial = pd.read_csv(RESULTS / "survival_head_factorial_predictions.csv")
+    factorial_representations = ["Bridge 45.6M", "PCA-128", "Full raw expression"]
+    factorial_heads = ["Linear Cox", "Cox MLP [512,256]"]
+    assert len(factorial) == len(manifest) * len(factorial_representations) * len(factorial_heads)
+    assert factorial.groupby(["representation", "head", "patient_id"]).size().eq(1).all()
+    factorial_reference = None
+    for representation in factorial_representations:
+        for head in factorial_heads:
+            frame = factorial[(factorial.representation.eq(representation)) &
+                              (factorial["head"].eq(head))]
+            assert len(frame) == len(manifest) == frame.patient_id.nunique()
+            ordered = frame[keys].sort_values("patient_id").reset_index(drop=True)
+            if factorial_reference is None:
+                factorial_reference = ordered
+            else:
+                pd.testing.assert_frame_equal(factorial_reference, ordered, check_dtype=False)
+    training_qc = pd.read_csv(RESULTS / "survival_head_factorial_training_qc.csv")
+    assert training_qc.epochs.max() < 10_000
+
     finite_columns(RESULTS / "survival_5fold_oof_metrics.csv",
                    ["oof_survival_c_index", "comparable_pairs"])
     finite_columns(RESULTS / "survival_5fold_oof_per_cancer.csv",
@@ -129,6 +157,9 @@ def main() -> None:
         "expected_outputs_present": True,
         "layerwise_l1_l12_complete": True,
         "layerwise_l12_matches_primary": True,
+        "head_factorial_complete": True,
+        "head_factorial_identical_patients_folds_outcomes": True,
+        "head_factorial_training_converged_below_ceiling": True,
     }
     (RESULTS / "final_qa.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))

@@ -1,0 +1,35 @@
+{
+  "analysis": "Head-controlled 3 representation x 2 Cox-head TCGA OOF comparison",
+  "representations": [
+    "Bridge 45.6M",
+    "PCA-128",
+    "Full raw expression"
+  ],
+  "heads": [
+    "Linear Cox",
+    "Cox MLP [512,256]"
+  ],
+  "cohort": "same 9,668-patient, 32-cancer complete OOF survival cohort",
+  "folds": "same saved five mutually exclusive OOF folds",
+  "objective": "separate representation effects from downstream Cox-head effects",
+  "linear_head": "single bias-free linear layer trained with Cox partial likelihood",
+  "mlp_head": "existing [512,256] Cox MLP",
+  "shared_training": {
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "max_epochs": 10000,
+    "patience": 20,
+    "inner_validation_fraction": 0.125,
+    "seed": 20260922
+  },
+  "preprocessing": "feature standardization learned on inner-training patients only",
+  "pca": "StandardScaler + randomized PCA-128 fitted on each outer training fold only",
+  "reused_predictions": "exact existing Bridge and raw-expression MLP OOF predictions",
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 20261102,
+  "encoder_inference": "none; cached frozen Bridge embeddings reused",
+  "optimization_qa": "initial 200-epoch ceiling was nonbinding for every reused MLP but was reached by all Bridge/PCA linear fits; the common ceiling was raised until nonbinding (10000) before accepting results, with all other settings unchanged",
+  "prespecification": "architecture and hyperparameters fixed before factorial results were inspected; the only post-run correction was the outcome-independent nonconvergence rule described in optimization_qa",
+  "limitation": "identical optimizer hyperparameters do not guarantee equal effective regularization across input dimensions"
+}

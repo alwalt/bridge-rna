@@ -30,5 +30,8 @@
   "notebook_all_cells_executed": true,
   "expected_outputs_present": true,
   "layerwise_l1_l12_complete": true,
-  "layerwise_l12_matches_primary": true
+  "layerwise_l12_matches_primary": true,
+  "head_factorial_complete": true,
+  "head_factorial_identical_patients_folds_outcomes": true,
+  "head_factorial_training_converged_below_ceiling": true
 }

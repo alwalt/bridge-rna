@@ -1,0 +1,7 @@
+representation,head,oof_c_index,comparable_pairs,aggregation
+Bridge 45.6M,"Cox MLP [512,256]",0.7579715472270669,3068664,fold-aware pair-weighted
+Bridge 45.6M,Linear Cox,0.7588898621680314,3068664,fold-aware pair-weighted
+Full raw expression,"Cox MLP [512,256]",0.7590423715336707,3068664,fold-aware pair-weighted
+Full raw expression,Linear Cox,0.753278299611818,3068664,fold-aware pair-weighted
+PCA-128,"Cox MLP [512,256]",0.7638014458409262,3068664,fold-aware pair-weighted
+PCA-128,Linear Cox,0.7615261885954279,3068664,fold-aware pair-weighted

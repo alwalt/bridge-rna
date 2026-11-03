@@ -162,6 +162,23 @@ The three plots use identical patients, folds, endpoint, bootstrap definition, a
 display(oof_comparison.style.format({column: '{:.3f}' for column in oof_comparison.columns
                                      if 'index' in column.lower() or 'CI' in column or '−' in column})
         .hide(axis='index'))"""),
+    markdown("""### Head-controlled representation comparison
+
+The primary OOF benchmark preserved the pre-existing conventional PCA control: PCA-128 used penalized linear Cox while Bridge and full expression used the nonlinear `[512,256]` Cox head. The factorial control below removes that ambiguity by evaluating Bridge, training-fold-only PCA-128, and full expression with both a bias-free linear Cox head and the same Cox MLP. Both heads use the same Cox partial-likelihood objective, outer folds, inner validation partitions, train-only standardization, AdamW settings, and seeds. Existing Bridge/raw MLP predictions are reused exactly; no encoder inference is performed.
+
+An optimization QA run showed that a 200-epoch ceiling was nonbinding for every MLP but insufficient for several linear fits. The ceiling was therefore raised uniformly until all accepted fits stopped by the prespecified validation-patience rule; this convergence correction was triggered without reference to test C-index."""),
+    code("""head_factorial = pd.read_csv('results/survival_head_factorial_metrics.csv')
+display(head_factorial.style.format({'oof_c_index': '{:.4f}',
+                                     'comparable_pairs': '{:,.0f}'}).hide(axis='index'))"""),
+    code("""display(Image(filename=str(FIGURES / 'survival_head_factorial_overall.png')))"""),
+    code("""display(Image(filename=str(FIGURES / 'survival_head_factorial_per_cancer_two_panel.png')))"""),
+    code("""display(Image(filename=str(FIGURES / 'survival_head_factorial_head_effect_heatmap.png')))"""),
+    code("""head_factorial_stats = pd.read_csv('results/survival_head_factorial_statistical_summary.csv')
+display(head_factorial_stats.style.format({column: '{:.4f}' for column in
+    ['median_c_index', 'patient_weighted_c_index', 'median_difference',
+     'mean_difference', 'signflip_p', 'wilcoxon_p', 'signflip_bh_p',
+     'wilcoxon_bh_p']}).hide(axis='index'))"""),
+    markdown("""Bridge's overall OOF C-index is essentially head-insensitive (linear 0.7589; MLP 0.7580). Within a fixed linear head, Bridge is 0.0026 below PCA overall and 0.0056 above raw expression; within the MLP, Bridge is 0.0058 below PCA and 0.0011 below raw expression. Cancer-level paired tests find no representation contrast that remains significant after correction. The MLP improves PCA on average, while linear Cox has higher median within-cancer performance for raw expression; none of the seven head/representation contrasts remains significant after BH correction. Thus the main conclusion—Bridge retains comparable prognostic information without systematic superiority—is robust to the downstream head family."""),
     markdown("""### Comparison with repeated 80/20 tests"""),
     code("""repeated_comparison = pd.read_csv('results/survival_5fold_oof_comparison_to_repeated_splits.csv')
 bridge_repeat_comparison = repeated_comparison.query("representation == 'Bridge 45.6M'")

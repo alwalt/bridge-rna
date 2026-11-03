@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "prediction_rows_checked": 58008,
+  "patients_per_representation_head": 9668,
+  "identical_patients_folds_outcomes": true,
+  "unique_prediction_per_patient_representation_head": true,
+  "recalculated_metrics": [
+    {
+      "representation": "Bridge 45.6M",
+      "head": "Cox MLP [512,256]",
+      "recalculated_c_index": 0.7579715472270669,
+      "comparable_pairs": 3068664,
+      "absolute_difference_from_saved": 0.0
+    },
+    {
+      "representation": "Bridge 45.6M",
+      "head": "Linear Cox",
+      "recalculated_c_index": 0.7588898621680314,
+      "comparable_pairs": 3068664,
+      "absolute_difference_from_saved": 0.0
+    },
+    {
+      "representation": "Full raw expression",
+      "head": "Cox MLP [512,256]",
+      "recalculated_c_index": 0.7590423715336707,
+      "comparable_pairs": 3068664,
+      "absolute_difference_from_saved": 0.0
+    },
+    {
+      "representation": "Full raw expression",
+      "head": "Linear Cox",
+      "recalculated_c_index": 0.753278299611818,
+      "comparable_pairs": 3068664,
+      "absolute_difference_from_saved": 0.0
+    },
+    {
+      "representation": "PCA-128",
+      "head": "Cox MLP [512,256]",
+      "recalculated_c_index": 0.7638014458409262,
+      "comparable_pairs": 3068664,
+      "absolute_difference_from_saved": 0.0
+    },
+    {
+      "representation": "PCA-128",
+      "head": "Linear Cox",
+      "recalculated_c_index": 0.7615261885954279,
+      "comparable_pairs": 3068664,
+      "absolute_difference_from_saved": 0.0
+    }
+  ]
+}

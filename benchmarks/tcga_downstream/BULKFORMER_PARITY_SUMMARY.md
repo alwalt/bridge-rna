@@ -1,34 +1,30 @@
-# BulkFormer parity and TCGA benchmark summary
+# Complete OOF TCGA survival summary
 
-The TCGA downstream benchmark is closed for the current manuscript. Detailed methods, tables, interpretation, and limitations are in [SCIENTIFIC_REPORT.md](SCIENTIFIC_REPORT.md).
+The current manuscript scope is restricted to the complete five-fold OOF survival comparison of Bridge 45.6M, PCA-128, and full raw expression. Historical analyses are retained as reproducibility artifacts but are not part of the reported comparison.
 
-## Completed analyses
+## Cohort and design
 
-- Five-cohort classification with frozen Bridge 45.6M, BulkFormer-50M, BulkFormer-147M, PCA controls, and full expression.
-- Locally paired 33-class pan-cancer classification, separated from the final published BulkFormer literature value.
-- BulkFormer-style alive/dead prognosis parity, kept separate from censoring-aware survival.
-- Original repeated 80/20 Cox survival with pooled, weighted within-cancer, and macro within-cancer C-index.
-- Complete true five-fold OOF Cox survival for all 9,668 eligible patients, including 1,000-draw patient-bootstrap intervals and matched Bridge/PCA/raw forest plots.
+- 9,668 patients across 32 cancers.
+- 2,774 overall-survival events.
+- Five mutually exclusive cancer × event-balanced folds.
+- Exactly one held-out prediction per patient, representation, and head.
+- Frozen Bridge encoder.
+- Training-fold-only scaling and PCA.
+- Fold-aware concordance aggregation.
+- 1,000 patient-level bootstrap replicates for cancer-specific pointwise intervals.
 
-## Final complete OOF survival
+## Results
 
-| Representation | Fold-aware OOF C-index | Comparable pairs |
-| --- | --- | --- |
-| Bridge 45.6M | 0.7580 | 3068664.0000 |
-| PCA-128 | 0.7621 | 3068664.0000 |
-| Full raw expression | 0.7590 | 3068664.0000 |
+| Representation | Linear Cox C-index | Cox MLP C-index |
+| --- | ---: | ---: |
+| Bridge 45.6M | 0.7589 | 0.7580 |
+| PCA-128 | 0.7615 | 0.7638 |
+| Full raw expression | 0.7533 | 0.7590 |
 
-Bridge's median within-cancer C-index is 0.624; PCA-128 is 0.636; full raw expression is 0.601. Bridge exceeds PCA and raw expression in 15 of 32 cancers each. Paired sign-flip and Wilcoxon analyses find no systematic difference. Seventeen Bridge cancer-specific intervals are wholly above chance.
+Bridge's median within-cancer C-index is 0.6239, compared with 0.6360 for PCA-128 and 0.6008 for full expression. Bridge exceeds each comparator in 15/32 cancers. Paired cancer-level tests do not show a systematic representation advantage after multiplicity correction.
 
-## BulkFormer context
+## Conclusion
 
-The final Cell Systems release reports TCGA classification weighted F1 = 0.907 as a literature value. It is not directly paired with the local evaluation because exact downstream code and folds are unavailable and the released object contains repeated-patient and normal-tissue rows. The local 33-class comparison uses one eligible specimen per patient and common folds while preserving native model vocabularies.
+Frozen Bridge embeddings retain substantial censoring-aware prognostic information in 512 dimensions. Performance is in the same broad range as PCA-128 and full expression, without evidence of systematic superiority.
 
-## Primary records
-
-- [Scientific report](SCIENTIFIC_REPORT.md)
-- [Executed notebook](tcga_downstream_benchmark.ipynb)
-- [Gap audit](bulkformer_tcga_gap_audit.md)
-- [OOF representation table](results/survival_5fold_oof_representation_comparison.csv)
-- [OOF provenance](results/survival_5fold_oof_provenance.json)
-- [Final QA](results/final_qa.json)
+See the [scientific report](SCIENTIFIC_REPORT.md), [publication review](PUBLICATION_REVIEW.md), and [combined forest plot](results/figures/bridge_pca_raw_5fold_oof_survival_forest.png).
