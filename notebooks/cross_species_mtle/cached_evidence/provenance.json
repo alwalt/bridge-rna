@@ -1,0 +1,136 @@
+{
+  "created_utc": "2026-11-03T00:36:13.976743+00:00",
+  "source_git_revision": "cbd48b7d2bd0eb87bc71225de6f58f6b74924ea6",
+  "source_branch": "agents/bridge-cross-species-mtle",
+  "research_benchmark": "benchmarks/cross_species_mtle",
+  "approval_scope": "Supplementary translational stress test approved by explicit benchmark-notebook invocation.",
+  "cohort": {
+    "human_control": 10,
+    "human_mtle": 58,
+    "mouse_per_phase_control": 6,
+    "mouse_per_phase_kainate": 6,
+    "mouse_phases": [
+      "Acute",
+      "Intermediate",
+      "Chronic"
+    ]
+  },
+  "preprocessing": "natural log1p(TPM), canonical 15,165-gene order; no fitted cross-species alignment",
+  "checkpoint_sha256_recorded": "f3491bea...5541",
+  "hallmark_probe_sha256_recorded": "f3f6c2dd...8931",
+  "seeds_and_resampling": {
+    "primary_bootstrap": 5000,
+    "primary_label_permutations": 10000
+  },
+  "verification": [
+    "104 unique GSMs",
+    "9 primary method-phase rows",
+    "150 mouse Hallmark phase rows; 50 per phase",
+    "22 focused Hallmarks",
+    "headline Bridge cosines matched cached source within 1e-9"
+  ],
+  "dependencies": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3"
+  },
+  "artifacts": [
+    {
+      "package_path": "cached_evidence/primary_direction_metrics.csv",
+      "source_path": "benchmarks/cross_species_mtle/results/cross_species_direction_metrics.csv",
+      "sha256": "0f8ad40841cdbf4a55f47a8711652a965ff5734ac8c36fa4591531cb58eb8e21",
+      "bytes": 2139
+    },
+    {
+      "package_path": "cached_evidence/primary_manifest.csv",
+      "source_path": "benchmarks/cross_species_mtle/results/final_primary_manifest.csv",
+      "sha256": "dcd4fd9a885c7f1d6013e12b327ce5694acc8b88c6ae8d02211dc0d3bfd96b15",
+      "bytes": 38505
+    },
+    {
+      "package_path": "cached_evidence/mouse_hallmark_recovery_values.csv",
+      "source_path": "benchmarks/cross_species_mtle/results/hallmark_head/mouse_hallmark_recovery_values.csv",
+      "sha256": "c98a1d857f638b70c737398f6e516d613b85f0edda64946e3952511d66089897",
+      "bytes": 15709
+    },
+    {
+      "package_path": "cached_evidence/mouse_hallmark_recovery_metrics.csv",
+      "source_path": "benchmarks/cross_species_mtle/results/hallmark_head/mouse_hallmark_recovery_metrics.csv",
+      "sha256": "b0d2c2886c1e043bf4bf280dc0f149634017985d3a17b08c286b84e57f320b83",
+      "bytes": 736
+    },
+    {
+      "package_path": "cached_evidence/phase_resolved_hallmarks.csv",
+      "source_path": "benchmarks/cross_species_mtle/results/hallmark_head/epilepsy_energy_three_phase_hallmark_states.csv",
+      "sha256": "589f424e13671052c913cba8b64bdfb6e0fbca6aa869c2e46dc1b37ba4fcf8d2",
+      "bytes": 4993
+    },
+    {
+      "package_path": "cached_evidence/strict_hallmark_correspondence.csv",
+      "source_path": "benchmarks/cross_species_mtle/results/hallmark_head/strict_hallmark_correspondence.csv",
+      "sha256": "8f87d72bcce11b97b8294cf26c88c548bc2c72230bf496a32a7badbaf11d3f92",
+      "bytes": 1717
+    },
+    {
+      "package_path": "cached_evidence/kim_validation_counts.csv",
+      "source_path": "benchmarks/cross_species_mtle/results/kim_external_validation/kim_validation_counts.csv",
+      "sha256": "3b5623555a9a5ad00981f6bfb43b00a5d1665152c13aa66b765ed6b62ceb1bdb",
+      "bytes": 98
+    },
+    {
+      "package_path": "cached_evidence/kim_independent_replication.csv",
+      "source_path": "benchmarks/cross_species_mtle/results/kim_external_validation/independent_bridge_replication.csv",
+      "sha256": "0b60e68812b7bfe6e54a73a153496d253394727a908fa77de56ef0cf21371491",
+      "bytes": 1271
+    },
+    {
+      "package_path": "cached_evidence/network_method_summary.csv",
+      "source_path": "benchmarks/cross_species_mtle/results/network_final/network_method_summary.csv",
+      "sha256": "f45b208d1a29bb1f06cabd8d3b2c5d7c3c4144a00e409046af4180c44db3c978",
+      "bytes": 729
+    },
+    {
+      "package_path": "cached_evidence/network_functional_validation.csv",
+      "source_path": "benchmarks/cross_species_mtle/results/network_final/edge_functional_validation.csv",
+      "sha256": "049a260fa9f4b1d1a4efb88cf5cd5ed00981308da108c7baa1ec52c8c5083a40",
+      "bytes": 7276
+    },
+    {
+      "package_path": "cached_evidence/network_rewiring_metrics.csv",
+      "source_path": "benchmarks/cross_species_mtle/results/network_final/rewiring_conservation_metrics.csv",
+      "sha256": "74d3551993ca983fc3f245bac518b5ba360789fc179eccebea50854f3c766719",
+      "bytes": 2994
+    },
+    {
+      "package_path": "figures/mouse_hallmark_recovery_summary.png",
+      "source_path": "benchmarks/cross_species_mtle/figures/hallmark_head/mouse_hallmark_recovery_summary.png",
+      "sha256": "457883272ecc4f9bb82ae73ed79e722ef667402ab65112321fd6714d17503006",
+      "bytes": 774648
+    },
+    {
+      "package_path": "figures/mouse_hallmark_recovery_summary.pdf",
+      "source_path": "benchmarks/cross_species_mtle/figures/hallmark_head/mouse_hallmark_recovery_summary.pdf",
+      "sha256": "eaacc0ef4cc98044aea5fab880775cc93d87525117ae9e00673920bf6405cbd8",
+      "bytes": 43916
+    },
+    {
+      "package_path": "figures/epilepsy_energy_three_phase_hallmark_states.png",
+      "source_path": "benchmarks/cross_species_mtle/figures/hallmark_head/epilepsy_energy_three_phase_hallmark_states.png",
+      "sha256": "dfc4ea1833c534f30147f4e1972bf86171a3d80b1c5f15d92106fce769a27d38",
+      "bytes": 623855
+    },
+    {
+      "package_path": "figures/epilepsy_energy_three_phase_hallmark_states.pdf",
+      "source_path": "benchmarks/cross_species_mtle/figures/hallmark_head/epilepsy_energy_three_phase_hallmark_states.pdf",
+      "sha256": "ad50e2fcf4f8a8e0b5827f27aef6d56dd48c8666821fbedc5a42f5f032c8089f",
+      "bytes": 43854
+    }
+  ],
+  "limitations": [
+    "One strict study per species",
+    "Human procurement confounded with phenotype",
+    "Six animals per mouse condition",
+    "Hallmark head targets expression-derived scores",
+    "Primary phenotype-label endpoint nonsignificant"
+  ]
+}

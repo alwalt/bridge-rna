@@ -1,0 +1,4 @@
+method,state_edges_min,state_edges_max,rewiring_cosine_min,rewiring_cosine_max,top1000_overlap_edges_total,disease_module_ami_mean,within_species_module_ami_mean,module_rewiring_cosine_mean,significant_module_terms,top_rewiring_functional_tests_q05,top_rewiring_functional_tests_total
+Bridge contextual L12,124298,137112,-0.0009293964778586,0.0018178142651688,42,0.4014373274055596,0.6042811251541913,-0.3410978933818238,13972,9,9
+Pearson coexpression,92361,134171,5.7878320513700166e-05,0.0004663295595952,1,0.056081826466047535,0.09139044729279222,0.16593237852855935,3814,0,9
+Spearman coexpression,108848,134386,-0.0003985978653799,-4.222180451738354e-05,0,0.0404238205387647,0.0562226059247278,-0.07507648668229779,11521,0,9

@@ -1,0 +1,15 @@
+kim_theme,kim_reported,testable,contextual_supports,ig_supports,both_support,direction_consistent,overall_correspondence,mapped_terms,contextual_significant_terms,ig_significant_terms,opposed
+neuroinflammation,True,True,True,True,True,True,replicated,3,9,1,False
+gliogenesis,True,True,False,False,False,True,no evidence,2,0,0,False
+synaptic plasticity,True,True,False,False,False,False,opposite result,3,0,0,True
+neurotransmission,True,True,False,False,False,False,opposite result,2,0,0,True
+ion channels,True,False,False,False,False,True,not testable,1,0,0,False
+neurogenesis,True,True,False,False,False,True,no evidence,1,0,0,False
+axonogenesis,True,True,False,False,False,True,no evidence,1,0,0,False
+neuronal death,True,True,False,False,False,True,no evidence,3,0,0,False
+TNF signaling,True,True,True,False,False,True,partial replication,4,1,0,False
+kainate intermediate fidelity,True,False,False,False,False,True,not testable,0,0,0,False
+astrocytic fidelity,True,False,False,False,False,True,not testable,0,0,0,False
+HS-specific fidelity,True,False,False,False,False,True,not testable,0,0,0,False
+PPS synaptic remodeling,True,False,False,False,False,True,not testable,0,0,0,False
+cross-species marker genes,True,False,False,False,False,True,not testable,0,0,0,False
