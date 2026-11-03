@@ -23,6 +23,7 @@ EVIDENCE = {
     "mouse_hallmark_recovery_metrics.csv": "results/hallmark_head/mouse_hallmark_recovery_metrics.csv",
     "phase_resolved_hallmarks.csv": "results/hallmark_head/epilepsy_energy_three_phase_hallmark_states.csv",
     "strict_hallmark_correspondence.csv": "results/hallmark_head/strict_hallmark_correspondence.csv",
+    "human_bridge_gsea_agreement.csv": "results/hallmark_head/comparison_options/human_bridge_gsea_agreement.csv",
     "kim_validation_counts.csv": "results/kim_external_validation/kim_validation_counts.csv",
     "kim_independent_replication.csv": "results/kim_external_validation/independent_bridge_replication.csv",
     "network_method_summary.csv": "results/network_final/network_method_summary.csv",
@@ -35,6 +36,8 @@ FIGURES = {
     "mouse_hallmark_recovery_summary.pdf": "figures/hallmark_head/mouse_hallmark_recovery_summary.pdf",
     "epilepsy_energy_three_phase_hallmark_states.png": "figures/hallmark_head/epilepsy_energy_three_phase_hallmark_states.png",
     "epilepsy_energy_three_phase_hallmark_states.pdf": "figures/hallmark_head/epilepsy_energy_three_phase_hallmark_states.pdf",
+    "human_bridge_gsea_agreement.png": "figures/hallmark_head/comparison_options/human_bridge_gsea_agreement.png",
+    "human_bridge_gsea_agreement.pdf": "figures/hallmark_head/comparison_options/human_bridge_gsea_agreement.pdf",
 }
 
 
@@ -190,6 +193,26 @@ plt.show()"""))
 head_cos = strict_head.query("statistic == 'cosine'").set_index('phase').loc[order]
 display(head_cos[['observed','bootstrap_ci_low','bootstrap_ci_high',
                   'permutation_p_one_sided','family_q']].round(4))"""))
+    cells.append(nbf.v4.new_markdown_cell(
+        """## Human pathway structure retained after compression
+
+Conventional GSEA tests coordinated movement of pathway genes in the human MTLE differential-expression ranking, whereas the Hallmark head projects the mean-pooled 512-dimensional Bridge representation onto functional axes learned from GTEx. Their numerical scales are not interchangeable. The comparison below therefore scales each method by its across-pathway standard deviation without centering; zero and the original effect directions are preserved."""))
+    cells.append(nbf.v4.new_code_cell(
+        """human_agreement = pd.read_csv(CACHE / 'human_bridge_gsea_agreement.csv')
+assert len(human_agreement) == 50
+same_direction = human_agreement['direction'].eq('same direction').sum()
+both_supported = human_agreement['evidence_category'].eq('Both supported').sum()
+supported_discordant = human_agreement['supported_discordant'].sum()
+assert (same_direction, both_supported, supported_discordant) == (35, 2, 4)
+print(f'Same raw direction: {same_direction}/50 ({100*same_direction/50:.0f}%)')
+print(f'Supported by both methods: {both_supported}/50')
+print(f'Opposite direction and supported by either method: {supported_discordant}/50')
+display(human_agreement.loc[human_agreement.supported_discordant,
+       ['hallmark','nes','fdr_q','human_delta','human_delta_ci_low',
+        'human_delta_ci_high','evidence_category']].round(4))
+display(Image(filename=str(FIGURES / 'human_bridge_gsea_agreement.png'), width=900))"""))
+    cells.append(nbf.v4.new_markdown_cell(
+        """Bridge retained the raw direction of 35/50 Hallmarks (70%) despite compression from 15,165 genes to a 512-dimensional sample representation and then to 50 functional scores. Angiogenesis and Interferon Alpha Response were supported in the same negative direction by both method-specific criteria, so directional agreement is broader than shared inferential support. Four supported discordances were resolved by one method only: Bridge-positive Apical Surface, Bile Acid Metabolism, and Fatty Acid Metabolism contrasted with nonsignificant negative GSEA tendencies, whereas GSEA supported negative Complement and Bridge was unresolved. The lipid-related Bridge results are compatible with known MTLE lipid remodeling, but the head score denotes a learned functional state rather than increased lipid abundance. Overall, the human result is best described as partial directional retention with attenuation and method-specific resolution, not full reproduction of the GSEA landscape."""))
     cells.append(nbf.v4.new_markdown_cell(
         """## Phase-resolved injury, energy, and signaling programs
 

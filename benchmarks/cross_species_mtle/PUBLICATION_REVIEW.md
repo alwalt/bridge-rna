@@ -1,6 +1,6 @@
 # Publication review: cross-species MTLE benchmark
 
-**Review status:** pending user approval
+**Review status:** approved for supplementary packaging
 **Reviewed benchmark:** `benchmarks/cross_species_mtle/`
 **Worktree:** `/home/walt/bridge-rna.worktrees/bridge-cross-species-mtle`
 **Branch:** `agents/bridge-cross-species-mtle`
@@ -15,6 +15,8 @@ This is a technically substantial, unusually transparent negative/qualified benc
 The prespecified primary endpoint is not positive. Bridge disease-direction cosines are larger than raw-expression/PCA point estimates, especially acutely, but none exceeds its phenotype-label permutation null. Whole-gene DE and cross-fitted Integrated Gradients (IG) are weakly discordant in acute/intermediate phases. The separately trained frozen Hallmark head is also globally discordant and nonsignificant. Individual-gene and signed network-rewiring conservation are essentially absent.
 
 The narrow positive result is at the pathway/program and functional-organization level. Exact inflammatory-response terms are supported by contextual rankings and acute IG, and Bridge network edges are strongly enriched for GO/KEGG/Hallmark co-membership even after removing matched coexpression top edges. In addition, the frozen human GTEx-trained Hallmark head recovers much of the **mouse** conventional-GSEA landscape zero-shot: across all 50 Hallmarks, mouse GSEA versus mouse Bridge-head Spearman correlation is 0.660 acute, 0.347 intermediate, and 0.567 chronic, with 78%, 92%, and 86% sign agreement. This is a useful transfer result, but it is not an independent assay—the head was trained against expression-derived Hallmark targets—and it does not overturn the negative human–mouse global Hallmark correspondence. These findings do not establish conserved mechanism, conserved individual genes, conserved rewiring, Bridge superiority, or model-fidelity ranking.
+
+Within the human MTLE contrast, the head nevertheless retains substantial directional pathway structure: 35/50 Hallmarks (70%) have the same raw direction as conventional GSEA after comparing the same strict samples. Only two pathways satisfy both method-specific support criteria, so this is directional retention rather than broad inferential replication. Four opposite-direction pathways are supported by one method: Bridge-positive Apical Surface, Bile Acid Metabolism, and Fatty Acid Metabolism oppose nonsignificant negative GSEA tendencies, while GSEA-supported negative Complement has an unresolved positive Bridge estimate. The lipid-related results are biologically compatible with MTLE lipid remodeling, but remain method-specific functional-state signals rather than evidence of increased lipid abundance.
 
 **Publication recommendation: supplementary material.** The benchmark is scientifically useful as a rigorous boundary-case and multiscale diagnostic, but its irreducible human procurement confounding, one-study-per-species primary design, nonsignificant primary endpoint, extensive post-primary analyses, and method-dependent pathway conclusions make it unsuitable as a principal efficacy figure. A concise main-text sentence may reference it as a study-unseen translational stress test; the detailed result belongs in the supplement.
 
@@ -170,6 +172,14 @@ The independent 50-Hallmark functional-state head does not confirm global positi
 The head leaves inflammatory response and TNF directionally compatible but unresolved, while interferon/IL-6 components are discordant. Therefore broad pathway conclusions are method-dependent.
 
 Supporting artifacts: [global correspondence](./results/hallmark_head/strict_hallmark_correspondence.csv), [temporal metrics](./results/hallmark_head/direct_head_temporal_metrics.csv), [individual Hallmarks](./results/hallmark_head/strict_individual_hallmarks.csv), and [four-level landscape](./figures/hallmark_head/de_gsea_hallmark_head_ig_4x3_landscape.png).
+
+### Human GSEA–Bridge pathway retention
+
+Using the same 50 Hallmarks and strict human samples, conventional GSEA and the frozen Bridge head have matching raw directions for 35/50 pathways (70%). This comparison is performed on scale-normalized effects without centering, preserving the biological zero and avoiding direct comparison of NES with head-score magnitude. Angiogenesis and Interferon Alpha Response are supported in the same negative direction by both method-specific criteria; most disagreements are unresolved by at least one method.
+
+The supported-discordant subset is small and asymmetric. Apical Surface, Bile Acid Metabolism, and Fatty Acid Metabolism have Bridge bootstrap intervals above zero but negative, nonsignificant GSEA estimates (FDR 0.905–1.000). Complement is negative and significant by GSEA (FDR 0.0154), while its small positive Bridge estimate crosses zero. These observations are consistent with partial pathway structure surviving mean pooling and a GTEx-trained functional projection, but they do not establish that Bridge is more biologically correct than GSEA. The most plausible added signal is lipid-remodeling state; Apical Surface and Bile Acid Metabolism require broader polarity/barrier and lipid/sterol interpretations rather than literal tissue-specific pathway activation.
+
+Supporting artifacts: [human agreement table](./results/hallmark_head/comparison_options/human_bridge_gsea_agreement.csv), [human agreement figure](./figures/hallmark_head/comparison_options/human_bridge_gsea_agreement.png), and [comparison provenance](./results/hallmark_head/comparison_options/human_bridge_gsea_comparison_provenance.json).
 
 ### Zero-shot mouse Hallmark recovery and phase-resolved programs
 

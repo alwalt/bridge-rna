@@ -1,6 +1,6 @@
 {
-  "created_utc": "2026-11-03T00:36:13.976743+00:00",
-  "source_git_revision": "cbd48b7d2bd0eb87bc71225de6f58f6b74924ea6",
+  "created_utc": "2026-11-03T01:29:21.642848+00:00",
+  "source_git_revision": "0448891ede3e63ab606c4aa79366cfdec3c97981",
   "source_branch": "agents/bridge-cross-species-mtle",
   "research_benchmark": "benchmarks/cross_species_mtle",
   "approval_scope": "Supplementary translational stress test approved by explicit benchmark-notebook invocation.",
@@ -72,6 +72,12 @@
       "bytes": 1717
     },
     {
+      "package_path": "cached_evidence/human_bridge_gsea_agreement.csv",
+      "source_path": "benchmarks/cross_species_mtle/results/hallmark_head/comparison_options/human_bridge_gsea_agreement.csv",
+      "sha256": "495652b3e27679341f7c73638f2a416ebeec6f6fbf1dbe803b45939afaafd416",
+      "bytes": 10325
+    },
+    {
       "package_path": "cached_evidence/kim_validation_counts.csv",
       "source_path": "benchmarks/cross_species_mtle/results/kim_external_validation/kim_validation_counts.csv",
       "sha256": "3b5623555a9a5ad00981f6bfb43b00a5d1665152c13aa66b765ed6b62ceb1bdb",
@@ -124,6 +130,18 @@
       "source_path": "benchmarks/cross_species_mtle/figures/hallmark_head/epilepsy_energy_three_phase_hallmark_states.pdf",
       "sha256": "ad50e2fcf4f8a8e0b5827f27aef6d56dd48c8666821fbedc5a42f5f032c8089f",
       "bytes": 43854
+    },
+    {
+      "package_path": "figures/human_bridge_gsea_agreement.png",
+      "source_path": "benchmarks/cross_species_mtle/figures/hallmark_head/comparison_options/human_bridge_gsea_agreement.png",
+      "sha256": "12fa6e79af9f9bcc00fe24339d6e7f27cef7a3ce2d38ee040b3d326317ef89a6",
+      "bytes": 400073
+    },
+    {
+      "package_path": "figures/human_bridge_gsea_agreement.pdf",
+      "source_path": "benchmarks/cross_species_mtle/figures/hallmark_head/comparison_options/human_bridge_gsea_agreement.pdf",
+      "sha256": "4aad91bf62d74be7d2621bd75465e43ba11829572dd682337074423f2772cc97",
+      "bytes": 69546
     }
   ],
   "limitations": [
