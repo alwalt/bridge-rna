@@ -1,0 +1,23 @@
+{
+  "analysis": "visualization only from strict saved results",
+  "human_scatter": {
+    "axes": "raw effect divided by SD across the same 50 pathways within each method; no centering",
+    "direction_quadrants": "based on raw GSEA NES and Bridge-head delta signs",
+    "gsea_support": "FDR q < 0.05",
+    "bridge_support": "human biological-sample bootstrap 95% CI excludes zero",
+    "labels": "five literature-relevant programs plus every opposite-direction pathway supported by either method"
+  },
+  "relative_heatmap": {
+    "transformation": "each method/condition column divided by its maximum absolute effect",
+    "preserves": [
+      "raw sign",
+      "within-column relative magnitude",
+      "pathway ordering"
+    ],
+    "does_not_preserve": [
+      "absolute magnitude between columns",
+      "absolute magnitude between methods"
+    ]
+  },
+  "upstream_recomputation": false
+}
