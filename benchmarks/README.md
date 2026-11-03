@@ -13,6 +13,7 @@ the folder README documents provenance and rerun instructions.
 | Landmark-gene sufficiency | Do L1000 or other fixed reduced gene panels preserve disproportionate information for masked transcriptome reconstruction? | [`landmark_gene_sufficiency/landmark_gene_sufficiency_benchmark.ipynb`](landmark_gene_sufficiency/landmark_gene_sufficiency_benchmark.ipynb) | Reproducible pilot complete |
 | Mouse ENCODE | Does tissue identity retrieve across GTEx human and fully unseen ENCODE mouse profiles without alignment? | [`mouse_encode/mouse_encode_benchmark.ipynb`](mouse_encode/mouse_encode_benchmark.ipynb) | Task 1A complete |
 | Library-prep disentanglement | Can a frozen BridgeRNA embedding be decomposed into library-invariant and library-associated representations? | [`library_prep_disentanglement/library_prep_disentanglement_benchmark.ipynb`](library_prep_disentanglement/library_prep_disentanglement_benchmark.ipynb) | Data audit and controlled-pair pipeline |
+| Drug-response prediction (#5) | Does frozen Bridge predict held-out-cell-line GDSC IC50 beyond raw/PCA and frozen BulkFormer representations? | [`drug_response/drug_response.ipynb`](drug_response/drug_response.ipynb) | Complete common-protocol run; published-protocol gaps audited |
 
 ## Folder convention
 

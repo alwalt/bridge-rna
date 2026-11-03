@@ -1,0 +1,10 @@
+{
+  "bridge_genes_observed": 15130,
+  "bridge_genes_total": 15165,
+  "bulkformer_genes_observed": 18919,
+  "bulkformer_genes_total": 20010,
+  "fm_approximation": "clip negative values to zero; multiply by ln(2), assuming log2(TPM+1)",
+  "limitation": "Not equivalent to natural log1p(TPM) if the released matrix was batch corrected.",
+  "raw_pca": "released values unchanged",
+  "source_semantics": "released processed expression; exact transform undocumented"
+}

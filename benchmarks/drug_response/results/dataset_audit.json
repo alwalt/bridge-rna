@@ -1,0 +1,57 @@
+{
+  "all_response_cells_in_expression": true,
+  "auc_summary": {
+    "25%": 0.8110872810216815,
+    "50%": 0.9318555397673008,
+    "75%": 0.974121805856417,
+    "count": 212299.0,
+    "max": 0.9995518764712854,
+    "mean": 0.8577541656214982,
+    "min": 0.0059955003287364,
+    "std": 0.17461616698234042
+  },
+  "bridge_symbol_overlap": 15130,
+  "bulkformer_symbol_overlap": 18916,
+  "cell_lines": 700,
+  "dataset_version_drug_screens": 355,
+  "dataset_versions": {
+    "GDSC1": 116895,
+    "GDSC2": 95404
+  },
+  "duplicate_cell_drug_id_rows": 65546,
+  "duplicate_cell_version_drug_rows": 0,
+  "exact_duplicate_rows": 0,
+  "expression_duplicate_cell_ids": 0,
+  "expression_genes": 19098,
+  "expression_max": 17.223230361938477,
+  "expression_min": -1.841268539428711,
+  "expression_missing_values": 0,
+  "expression_negative_values": 1782260,
+  "expression_rows": 700,
+  "gdsc_drug_ids": 295,
+  "ic50_summary": {
+    "25%": 0.8103532219536431,
+    "50%": 2.7286285890693343,
+    "75%": 4.230792997802965,
+    "count": 212299.0,
+    "max": 12.354551771505358,
+    "mean": 2.259086827743557,
+    "min": -9.799938784252562,
+    "std": 2.776159380288455
+  },
+  "pubchem_cids": 255,
+  "response_rows": 212299,
+  "screen_observations_max": 697,
+  "screen_observations_median": 658.0,
+  "screen_observations_min": 134,
+  "z_score_summary": {
+    "25%": -0.616923034103154,
+    "50%": 0.0432486458756464,
+    "75%": 0.6821121177652253,
+    "count": 212299.0,
+    "max": 6.16083539068163,
+    "mean": 0.019689448302862473,
+    "min": -10.069812824832823,
+    "std": 1.0035237440232418
+  }
+}

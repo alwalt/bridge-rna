@@ -1,0 +1,17 @@
+{
+  "assets": [
+    {
+      "bytes": 174252427,
+      "path": "/home/walt/bridge-rna/data/bulkformer_drug_response/drug_response_expr_data.csv",
+      "sha256": "f3398260029d368e01e9ea78dd77b07ec81615976cd52cabdbf70a034666638d",
+      "zenodo_md5": "0cdf07dfd599142efbfb625a661d4a92"
+    },
+    {
+      "bytes": 50640558,
+      "path": "/home/walt/bridge-rna/data/bulkformer_drug_response/drug_response_ic50.csv",
+      "sha256": "9f79783d315c6db2120daf49c8a323bebf554863ae69f92f367851d5bff0b497",
+      "zenodo_md5": "7b81c3a153c2a19b508e175c1bbdcc57"
+    }
+  ],
+  "zenodo_record": "10.5281/zenodo.15744294"
+}
