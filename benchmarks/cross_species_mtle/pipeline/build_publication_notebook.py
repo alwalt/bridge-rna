@@ -165,8 +165,26 @@ fig.tight_layout()
 fig.savefig(FIGURES / 'mouse_hallmark_recovery_scatter.png', dpi=300)
 fig.savefig(FIGURES / 'mouse_hallmark_recovery_scatter.pdf')
 plt.show()"""))
+    cells.append(nbf.v4.new_code_cell(
+        """comparisons = ['Mouse GSEA ↔ Bridge', 'Human ↔ mouse GSEA', 'Human ↔ mouse Bridge']
+colors = ['#27866a', '#7f858e', '#ca5145']
+x = np.arange(3); width = 0.23
+fig, ax = plt.subplots(figsize=(7.4, 4.8))
+for i, (comparison, color) in enumerate(zip(comparisons, colors)):
+    q = metrics.query('comparison == @comparison').set_index('phase').loc[order]
+    ax.bar(x + (i-1)*width, q['spearman'], width, color=color, label=comparison)
+ax.axhline(0, color='#333333', lw=.9)
+ax.set(xticks=x, xticklabels=order, ylim=(-.75,.82),
+       ylabel='Spearman correlation across 50 Hallmarks',
+       title='Recovery of mouse biology does not imply human–mouse conservation')
+ax.grid(axis='y', color='#e8e8e8', lw=.6)
+ax.legend(frameon=False, loc='lower center')
+fig.tight_layout()
+fig.savefig(FIGURES / 'hallmark_recovery_vs_conservation.png', dpi=300)
+fig.savefig(FIGURES / 'hallmark_recovery_vs_conservation.pdf')
+plt.show()"""))
     cells.append(nbf.v4.new_markdown_cell(
-        """Across all 50 Hallmarks, mouse GSEA versus mouse Bridge-head Spearman correlation was 0.6596 acute, 0.3466 intermediate, and 0.5673 chronic; sign agreement was 78%, 92%, and 86%. This demonstrates functional transfer to mouse without mouse retraining. It does not establish global human–mouse conservation: the corresponding complete human–mouse Bridge-head vectors were negative and nonsignificant in every phase."""))
+        """Across all 50 Hallmarks, mouse GSEA versus mouse Bridge-head Spearman correlation was 0.6596 acute, 0.3466 intermediate, and 0.5673 chronic; sign agreement was 78%, 92%, and 86%. This demonstrates functional transfer to mouse without mouse retraining. The comparison panel makes the boundary explicit: both conventional GSEA and the Bridge head show negative human–mouse rank correlation in this strict cohort. Mouse functional recovery therefore does not establish global human–mouse conservation."""))
     cells.append(nbf.v4.new_code_cell(
         """strict_head = pd.read_csv(CACHE / 'strict_hallmark_correspondence.csv')
 head_cos = strict_head.query("statistic == 'cosine'").set_index('phase').loc[order]
