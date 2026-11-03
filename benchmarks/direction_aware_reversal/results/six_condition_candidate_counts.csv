@@ -1,0 +1,7 @@
+condition,bridge_candidates,de_candidates,bridge_only_candidates,shared_candidates,de_only_candidates,cross_study_reproducible_bridge
+Bone loss,131,131,128,3,128,79
+Crohn's disease,130,131,128,2,129,0
+Multiple sclerosis,131,130,130,1,129,0
+Muscle atrophy,131,131,131,0,131,9
+Radiation injury,131,131,128,3,128,29
+Systemic lupus erythematosus,131,131,131,0,131,0

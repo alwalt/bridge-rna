@@ -1,0 +1,678 @@
+gene,significant_pathway_count,top_pathways
+ADIPOR1,37,GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0016477 cell migration
+ALDH3B1,7,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; REAC:REAC:R-HSA-6798695 Neutrophil degranulation; REAC:REAC:R-HSA-168249 Innate Immune System
+CYB561D2,1,GO:BP:GO:0051179 localization
+KCTD3,4,REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-162582 Signal Transduction; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0071840 cellular component organization or biogenesis
+POGLUT2,0,
+PXDC1,0,
+SLC17A9,4,KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0051179 localization; GO:BP:GO:0007039 protein catabolic process in the vacuole; GO:BP:GO:0051641 cellular localization
+UBE2A,10,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process
+BCL9L,29,GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0009719 response to endogenous stimulus
+BIRC5,43,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process
+CDK7,13,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0080090 regulation of primary metabolic process
+CDKN1B,71,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term
+CDKN2C,27,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process
+DPP4,40,GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization
+GPRASP2,0,
+GPX4,20,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death
+GTPBP4,28,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0016477 cell migration; GO:BP:GO:0048519 negative regulation of biological process
+LAMB2,47,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization
+OGFOD1,11,GO:BP:GO:0008283 cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0051128 regulation of cellular component organization; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0080090 regulation of primary metabolic process
+PTGR1,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+PTPN2,66,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process
+S100A6,16,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; GO:BP:GO:0009653 anatomical structure morphogenesis; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048522 positive regulation of cellular process
+SMYD3,29,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009719 response to endogenous stimulus; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process
+TRIM29,24,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; REAC:REAC:R-HSA-168256 Immune System; GO:BP:GO:0019222 regulation of metabolic process
+UBTF,14,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0080090 regulation of primary metabolic process; GO:BP:GO:0048518 positive regulation of biological process
+ZMYM4,7,GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0050793 regulation of developmental process; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process; GO:BP:GO:0016043 cellular component organization
+BTG1,50,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term
+CLDND1,0,
+CPT1A,28,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0060429 epithelium development; GO:BP:GO:0036293 response to decreased oxygen levels
+CREG1,28,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; REAC:REAC:R-HSA-168256 Immune System; GO:BP:GO:0019222 regulation of metabolic process
+GAL3ST4,1,GO:BP:GO:0050789 regulation of biological process
+ICAM1,49,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation
+IGFBP3,49,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-381426 Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs); GO:BP:GO:0048523 negative regulation of cellular process
+ITGA3,55,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; GO:BP:GO:0009888 tissue development; REAC:REAC:R-HSA-210991 Basigin interactions
+LIPA,37,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0060429 epithelium development
+LMNB1,26,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System
+NFIC,22,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process
+PDLIM1,26,GO:BP:GO:0016477 cell migration; GO:BP:GO:0036293 response to decreased oxygen levels; GO:BP:GO:0072359 circulatory system development; GO:BP:GO:0001666 response to hypoxia; KEGG:KEGG:00000 KEGG root term
+PHLDA2,32,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0042127 regulation of cell population proliferation; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death
+PLGRKT,14,GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0010755 regulation of plasminogen activation; GO:BP:GO:0080090 regulation of primary metabolic process; GO:BP:GO:0048518 positive regulation of biological process
+PRKDC,58,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process
+RUNX1,56,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization
+SPRY4,12,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0071495 cellular response to endogenous stimulus
+TDRD7,24,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0060429 epithelium development; GO:BP:GO:0009653 anatomical structure morphogenesis
+TEAD4,24,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0050793 regulation of developmental process; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process
+ANKRD13D,11,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0051128 regulation of cellular component organization; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0051179 localization
+APH1A,14,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0065009 regulation of molecular function; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-9006934 Signaling by Receptor Tyrosine Kinases; GO:BP:GO:0048856 anatomical structure development
+ATP6V1D,16,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; GO:BP:GO:0019222 regulation of metabolic process; REAC:REAC:R-HSA-9006934 Signaling by Receptor Tyrosine Kinases
+ATP8B2,5,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization; GO:BP:GO:0071840 cellular component organization or biogenesis
+B2M,37,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0045595 regulation of cell differentiation
+CDCA7,14,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death
+GRB14,15,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009719 response to endogenous stimulus
+HID1,0,
+ID1,41,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0016477 cell migration
+KDM5B,44,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term
+MLPH,4,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization; GO:BP:GO:0051641 cellular localization
+MRPS26,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+NXN,19,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0072359 circulatory system development; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048856 anatomical structure development
+PDE5A,6,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-162582 Signal Transduction; GO:BP:GO:0050794 regulation of cellular process
+PLOD3,31,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization
+RAB34,12,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048518 positive regulation of biological process; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization
+RHOB,50,REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0060429 epithelium development
+SESTD1,5,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0051179 localization; GO:BP:GO:0050794 regulation of cellular process; GO:BP:GO:0050789 regulation of biological process
+SMARCA1,22,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process
+TIMP1,51,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0042127 regulation of cell population proliferation
+UXS1,2,KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0005996 monosaccharide metabolic process
+WASHC4,10,GO:BP:GO:0051128 regulation of cellular component organization; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048518 positive regulation of biological process; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization
+CCT6A,15,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0051128 regulation of cellular component organization; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0080090 regulation of primary metabolic process
+DCTD,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+DDX21,29,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process
+EID2,33,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0048519 negative regulation of biological process
+ERRFI1,50,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0060429 epithelium development
+ETV1,22,GO:BP:GO:0009653 anatomical structure morphogenesis; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048856 anatomical structure development
+FAT1,9,GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0016477 cell migration; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process
+KCTD11,14,GO:BP:GO:0045595 regulation of cell differentiation; GO:BP:GO:0050793 regulation of developmental process; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process
+KDM1A,55,REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term
+MYD88,62,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term
+NHLRC1,13,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0080090 regulation of primary metabolic process
+P4HA2,5,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; REAC:REAC:R-HSA-1474290 Collagen formation; REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-1650814 Collagen biosynthesis and modifying enzymes
+RUVBL1,30,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death; GO:BP:GO:0050793 regulation of developmental process
+SNRPA,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+TAGLN2,11,REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0060429 epithelium development
+XRCC5,46,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0045595 regulation of cell differentiation
+ZNHIT3,13,GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0080090 regulation of primary metabolic process; GO:BP:GO:0006351 DNA-templated transcription; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization
+CCDC149,0,
+NEDD4,52,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0048519 negative regulation of biological process
+SDHAF3,9,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0080090 regulation of primary metabolic process; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0009889 regulation of biosynthetic process
+SERINC2,5,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization; GO:BP:GO:0071840 cellular component organization or biogenesis
+TRIM69,7,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death; REAC:REAC:R-HSA-168256 Immune System
+USF1,26,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0036293 response to decreased oxygen levels; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0001666 response to hypoxia
+AHNAK,16,GO:BP:GO:0065009 regulation of molecular function; GO:BP:GO:0051128 regulation of cellular component organization; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process
+ANXA2,69,REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization; REAC:REAC:0000000 REACTOME root term
+ATF4,54,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0060429 epithelium development
+ATP13A2,28,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death
+BBLN,13,GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process
+CAP2,10,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0065009 regulation of molecular function; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0050790 regulation of catalytic activity
+CENPF,36,GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0050793 regulation of developmental process
+COL4A2,48,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization
+COPZ2,4,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization; GO:BP:GO:0051641 cellular localization
+CTSB,41,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; GO:BP:GO:0009888 tissue development; REAC:REAC:R-HSA-1474290 Collagen formation
+DTX3,3,KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0050794 regulation of cellular process; GO:BP:GO:0050789 regulation of biological process
+ECHDC2,0,
+EML4,5,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0051179 localization; GO:BP:GO:0071840 cellular component organization or biogenesis
+EXOC6B,5,GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization; GO:BP:GO:0071840 cellular component organization or biogenesis; GO:BP:GO:0051641 cellular localization
+FBXL19,13,REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-168256 Immune System; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0080090 regulation of primary metabolic process; GO:BP:GO:0006351 DNA-templated transcription
+FSCN1,20,GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0016477 cell migration
+FSTL1,29,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-381426 Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs); GO:BP:GO:0048523 negative regulation of cellular process
+GALNT6,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+GLS,6,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0071840 cellular component organization or biogenesis; GO:BP:GO:0050789 regulation of biological process
+HOXA13,47,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0060429 epithelium development; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death
+IGF2BP1,33,GO:BP:GO:0008283 cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0048519 negative regulation of biological process
+KDELR2,5,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization; GO:BP:GO:0051641 cellular localization
+LAMB1,53,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization
+LGALS1,31,GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0044403 biological process involved in symbiotic interaction; REAC:REAC:R-HSA-381426 Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)
+LOXL2,55,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization
+LRP1,58,GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process
+MAP1B,36,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0060429 epithelium development
+METTL17,3,GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0071840 cellular component organization or biogenesis; GO:BP:GO:0000028 ribosomal small subunit assembly
+MVD,8,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048522 positive regulation of cellular process
+NAT14,11,GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0080090 regulation of primary metabolic process; GO:BP:GO:0048518 positive regulation of biological process; GO:BP:GO:0006351 DNA-templated transcription
+PEA15,17,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death
+PELI2,14,REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-168256 Immune System; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0080090 regulation of primary metabolic process
+PLBD1,1,REAC:REAC:0000000 REACTOME root term
+PTPRS,42,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:R-HSA-3000178 ECM proteoglycans; REAC:REAC:0000000 REACTOME root term
+SERINC1,2,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0071840 cellular component organization or biogenesis
+SLC1A4,6,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0051179 localization; GO:BP:GO:0098657 import into cell; REAC:REAC:R-HSA-352230 Amino acid transport across the plasma membrane; REAC:REAC:R-HSA-9958863 SLC-mediated transport of amino acids
+SLC3A2,16,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; REAC:REAC:R-HSA-210991 Basigin interactions
+SLC44A2,10,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; GO:BP:GO:0048522 positive regulation of cellular process; REAC:REAC:R-HSA-6798695 Neutrophil degranulation
+SMARCB1,38,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term
+SPDL1,14,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0016477 cell migration; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0051128 regulation of cellular component organization
+SPINDOC,21,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0065009 regulation of molecular function; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0050790 regulation of catalytic activity
+TCIM,25,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0045595 regulation of cell differentiation; GO:BP:GO:0012501 programmed cell death
+TEAD2,36,GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0060429 epithelium development; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0045595 regulation of cell differentiation
+TGFB2,88,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization
+WASF3,22,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0050793 regulation of developmental process; GO:BP:GO:0051128 regulation of cellular component organization; KEGG:KEGG:00000 KEGG root term
+ZFHX3,33,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0045595 regulation of cell differentiation; GO:BP:GO:0048519 negative regulation of biological process
+ZNF532,9,GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0080090 regulation of primary metabolic process; GO:BP:GO:0006351 DNA-templated transcription; GO:BP:GO:0009889 regulation of biosynthetic process; GO:BP:GO:0050794 regulation of cellular process
+ACSS1,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+ACTN4,46,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death
+ALDH1L2,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+ANPEP,23,GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0044403 biological process involved in symbiotic interaction; GO:BP:GO:0051701 biological process involved in interaction with host
+ARNT,36,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0036293 response to decreased oxygen levels
+CACNB3,10,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0065009 regulation of molecular function; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048518 positive regulation of biological process
+CAV1,101,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; GO:BP:GO:0008283 cell population proliferation
+CCN2,43,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis
+CLTB,9,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-162582 Signal Transduction; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization
+CNN2,38,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0016477 cell migration
+CPE,14,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0072359 circulatory system development; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048856 anatomical structure development
+CROCC,10,GO:BP:GO:0051128 regulation of cellular component organization; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048518 positive regulation of biological process; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization
+CTNNAL1,2,GO:BP:GO:0050794 regulation of cellular process; GO:BP:GO:0050789 regulation of biological process
+DLG3,18,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process
+ERBB2,64,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process
+FBXO7,27,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0045595 regulation of cell differentiation
+FNDC3B,0,
+FOXQ1,27,GO:BP:GO:0009888 tissue development; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0060429 epithelium development; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0048519 negative regulation of biological process
+GTF2E2,3,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0006351 DNA-templated transcription
+GTF3A,3,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0006351 DNA-templated transcription; GO:BP:GO:0071840 cellular component organization or biogenesis
+GYPC,5,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; KEGG:KEGG:05144 Malaria
+IGFBP6,13,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-381426 Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs); GO:BP:GO:0048523 negative regulation of cellular process
+IRX5,17,GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process; GO:BP:GO:0080090 regulation of primary metabolic process
+ITGA7,27,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0009888 tissue development; REAC:REAC:R-HSA-3000178 ECM proteoglycans; KEGG:KEGG:04512 ECM-receptor interaction; REAC:REAC:0000000 REACTOME root term
+LPCAT1,24,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System
+MEX3A,0,
+MMP2,67,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization
+MOAP1,18,GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death; GO:BP:GO:0051128 regulation of cellular component organization; GO:BP:GO:0019222 regulation of metabolic process
+MYH9,55,GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0044403 biological process involved in symbiotic interaction
+NES,24,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death
+OSTF1,7,REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-168256 Immune System; REAC:REAC:R-HSA-6798695 Neutrophil degranulation; REAC:REAC:R-HSA-168249 Innate Immune System; GO:BP:GO:0001503 ossification
+PDCD2,19,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0045595 regulation of cell differentiation
+PHC2,23,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process
+PLEKHB2,7,GO:BP:GO:0045595 regulation of cell differentiation; GO:BP:GO:0050793 regulation of developmental process; GO:BP:GO:0032502 developmental process; GO:BP:GO:0030154 cell differentiation; GO:BP:GO:0048869 cellular developmental process
+PLOD1,17,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization
+RPS6KA2,28,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process
+SH3BP4,22,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process
+SKAP2,8,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process
+SLC25A20,9,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process; GO:BP:GO:0007275 multicellular organism development
+SRGN,30,REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process
+SULT4A1,9,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process; GO:BP:GO:0030154 cell differentiation
+TCIRG1,38,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0006915 apoptotic process
+TCOF1,17,GO:BP:GO:0009888 tissue development; GO:BP:GO:0009653 anatomical structure morphogenesis; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048856 anatomical structure development
+TIMM17A,4,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization; GO:BP:GO:0051641 cellular localization
+TMEM230,2,GO:BP:GO:0051179 localization; GO:BP:GO:0051641 cellular localization
+TRIP6,17,GO:BP:GO:0016477 cell migration; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0030334 regulation of cell migration
+UBL5,1,REAC:REAC:0000000 REACTOME root term
+VAMP8,22,GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0044403 biological process involved in symbiotic interaction; GO:BP:GO:0051701 biological process involved in interaction with host
+ZFYVE21,0,
+ZNF22,14,GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process; GO:BP:GO:0080090 regulation of primary metabolic process
+AAGAB,2,GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization
+ABCC3,6,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0070887 cellular response to chemical stimulus; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0042221 response to chemical
+AIP,21,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process
+ANGPTL4,34,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0009653 anatomical structure morphogenesis
+ARHGAP23,4,REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-162582 Signal Transduction; GO:BP:GO:0050794 regulation of cellular process; GO:BP:GO:0050789 regulation of biological process
+AXIN2,54,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization
+BICD1,22,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0051128 regulation of cellular component organization
+BMI1,56,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process
+CBX5,23,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0019222 regulation of metabolic process
+CDA,21,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0051128 regulation of cellular component organization; KEGG:KEGG:00000 KEGG root term
+CDCA7L,13,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0080090 regulation of primary metabolic process
+CDCP1,0,
+CEBPD,33,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0045595 regulation of cell differentiation; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0050793 regulation of developmental process
+CEMIP,20,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0016477 cell migration; GO:BP:GO:0065009 regulation of molecular function; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process
+CKAP4,8,REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-381426 Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs); KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; REAC:REAC:R-HSA-8957275 Post-translational protein phosphorylation
+CLDN1,47,GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation
+CTSS,31,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization; REAC:REAC:R-HSA-1474290 Collagen formation
+CYBRD1,5,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0042221 response to chemical; GO:BP:GO:0051179 localization; GO:BP:GO:0051641 cellular localization
+DCXR,8,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048518 positive regulation of biological process
+DNALI1,8,KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process; GO:BP:GO:0030154 cell differentiation; GO:BP:GO:0048869 cellular developmental process
+DPYSL2,14,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process; GO:BP:GO:0030154 cell differentiation
+ENAH,12,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009653 anatomical structure morphogenesis; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; GO:BP:GO:0048856 anatomical structure development
+ENO2,4,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0005996 monosaccharide metabolic process; KEGG:KEGG:04820 Cytoskeleton in muscle cells
+ERI3,0,
+ESRP1,21,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0060429 epithelium development; GO:BP:GO:0045595 regulation of cell differentiation
+FBXO3,1,GO:BP:GO:0042221 response to chemical
+FBXO32,12,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009719 response to endogenous stimulus; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; GO:BP:GO:0071495 cellular response to endogenous stimulus
+FNBP1L,15,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0051128 regulation of cellular component organization; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048518 positive regulation of biological process
+FSTL3,31,REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-381426 Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs); GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0045595 regulation of cell differentiation
+GSE1,0,
+IGFBP4,18,GO:BP:GO:0008283 cell population proliferation; REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-381426 Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs); GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process
+ITGA6,55,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; GO:BP:GO:0009888 tissue development; REAC:REAC:R-HSA-1474290 Collagen formation
+KPNA6,19,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0044403 biological process involved in symbiotic interaction; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019058 viral life cycle; GO:BP:GO:0019222 regulation of metabolic process
+KRT7,12,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0060429 epithelium development; KEGG:KEGG:00000 KEGG root term
+KRT8,15,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death; KEGG:KEGG:00000 KEGG root term
+LAMC2,31,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; REAC:REAC:R-HSA-1474290 Collagen formation; GO:BP:GO:0042127 regulation of cell population proliferation
+LASP1,1,GO:BP:GO:0051179 localization
+LIMK1,27,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0045595 regulation of cell differentiation; GO:BP:GO:0050793 regulation of developmental process; GO:BP:GO:0051128 regulation of cellular component organization
+LRRC20,0,
+LUM,22,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization; REAC:REAC:R-HSA-3000178 ECM proteoglycans
+MAFG,37,REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0042127 regulation of cell population proliferation
+MAPK3,72,REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term
+MARCKSL1,12,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048856 anatomical structure development
+ME1,12,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009719 response to endogenous stimulus; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0080090 regulation of primary metabolic process
+MKRN1,3,REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-168256 Immune System; REAC:REAC:R-HSA-162582 Signal Transduction
+MMAA,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+MRPL43,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+MT-ND2,8,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0036293 response to decreased oxygen levels; GO:BP:GO:0001666 response to hypoxia; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0070482 response to oxygen levels
+NDRG3,11,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0051128 regulation of cellular component organization; GO:BP:GO:0032502 developmental process; GO:BP:GO:0030154 cell differentiation
+OAF,0,
+PANK1,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+PDLIM7,18,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0072359 circulatory system development; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process
+PERP,35,GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0060429 epithelium development; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death
+PHF14,30,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0050793 regulation of developmental process
+PNPLA2,16,REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-381426 Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs); GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; KEGG:KEGG:00000 KEGG root term
+QSER1,0,
+RANBP10,6,REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-9006934 Signaling by Receptor Tyrosine Kinases; REAC:REAC:R-HSA-162582 Signal Transduction; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0071840 cellular component organization or biogenesis
+RHBDF1,14,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0016477 cell migration; GO:BP:GO:0048519 negative regulation of biological process; KEGG:KEGG:00000 KEGG root term
+S100A16,2,KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0042221 response to chemical
+SCARB1,36,GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0044403 biological process involved in symbiotic interaction; GO:BP:GO:0051701 biological process involved in interaction with host
+SIGMAR1,17,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death; GO:BP:GO:0051128 regulation of cellular component organization
+SLC16A3,6,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; REAC:REAC:R-HSA-210991 Basigin interactions; REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+SLC43A1,9,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0051179 localization; GO:BP:GO:0098657 import into cell
+SMC4,8,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0051128 regulation of cellular component organization; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048518 positive regulation of biological process; GO:BP:GO:0016043 cellular component organization
+SMO,79,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term
+SPOCK1,24,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0016477 cell migration; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0065009 regulation of molecular function; GO:BP:GO:0051128 regulation of cellular component organization
+TAF5L,15,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0050793 regulation of developmental process; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process
+TDP2,25,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048856 anatomical structure development
+THOC6,11,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death; KEGG:KEGG:00000 KEGG root term
+TKFC,10,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System
+TMED3,6,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization; GO:BP:GO:0071840 cellular component organization or biogenesis
+TMEM14A,15,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death; GO:BP:GO:0048519 negative regulation of biological process
+TPX2,19,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death
+TRIB3,49,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0009719 response to endogenous stimulus
+TRIP10,10,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-162582 Signal Transduction; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0051179 localization
+TST,11,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0060429 epithelium development; KEGG:KEGG:00000 KEGG root term
+TTC17,4,GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0051179 localization; GO:BP:GO:0071840 cellular component organization or biogenesis; GO:BP:GO:0051641 cellular localization
+TTC5,18,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process
+UBE2T,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+USE1,7,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization
+WDR35,8,REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-162582 Signal Transduction; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0042221 response to chemical
+ZSWIM4,0,
+ACE,41,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009719 response to endogenous stimulus
+AJUBA,46,GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0060429 epithelium development; GO:BP:GO:0009653 anatomical structure morphogenesis
+ANXA3,25,GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0016477 cell migration; GO:BP:GO:0072359 circulatory system development; GO:BP:GO:0050793 regulation of developmental process; GO:BP:GO:0001944 vasculature development
+ANXA7,19,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0060429 epithelium development; GO:BP:GO:0048519 negative regulation of biological process
+APP,66,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization
+ARMCX2,0,
+ARMCX4,0,
+ATP1B1,19,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; REAC:REAC:R-HSA-210991 Basigin interactions; REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+BCL11B,40,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0042127 regulation of cell population proliferation; GO:BP:GO:0048523 negative regulation of cellular process
+CA2,19,GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0060429 epithelium development; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0009719 response to endogenous stimulus
+CCDC167,0,
+CCDC88C,23,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0060429 epithelium development
+CD276,10,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process
+CD44,45,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; GO:BP:GO:0009888 tissue development; KEGG:KEGG:04512 ECM-receptor interaction
+CDR2L,2,GO:BP:GO:0051179 localization; GO:BP:GO:0051641 cellular localization
+CEP55,7,GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0051179 localization; GO:BP:GO:0071840 cellular component organization or biogenesis
+CFD,8,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; REAC:REAC:R-HSA-6798695 Neutrophil degranulation
+CFLAR,57,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization
+CHAMP1,4,GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization; GO:BP:GO:0071840 cellular component organization or biogenesis
+CKS2,13,GO:BP:GO:0008283 cell population proliferation; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0080090 regulation of primary metabolic process; GO:BP:GO:0006351 DNA-templated transcription
+CNOT10,17,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process
+COL1A2,53,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization
+COL6A1,67,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization
+CTSD,33,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0009719 response to endogenous stimulus
+CUL7,37,GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0009719 response to endogenous stimulus
+CXXC5,23,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process
+CZIB,0,
+DAD1,15,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death
+DCP1A,20,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0065009 regulation of molecular function; KEGG:KEGG:00000 KEGG root term
+DHRS3,20,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0072359 circulatory system development
+DKK1,60,GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0060429 epithelium development; GO:BP:GO:0006915 apoptotic process
+DNAJB4,19,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0080090 regulation of primary metabolic process; GO:BP:GO:0009892 negative regulation of metabolic process
+DNAJB5,0,
+DOK4,9,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process; GO:BP:GO:0048518 positive regulation of biological process
+DUSP6,44,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0009719 response to endogenous stimulus
+EMC7,5,GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization; GO:BP:GO:0071840 cellular component organization or biogenesis; GO:BP:GO:0051641 cellular localization
+ERAL1,4,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0071840 cellular component organization or biogenesis; GO:BP:GO:0000028 ribosomal small subunit assembly
+ERO1A,31,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization; REAC:REAC:0000000 REACTOME root term
+ESYT1,6,REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-162582 Signal Transduction; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization
+F10,14,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0016477 cell migration; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0048522 positive regulation of cellular process
+F11R,49,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell
+FGD4,12,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0050793 regulation of developmental process; GO:BP:GO:0065009 regulation of molecular function; GO:BP:GO:0048856 anatomical structure development
+FJX1,6,GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process; GO:BP:GO:0007275 multicellular organism development; GO:BP:GO:0048513 animal organ development
+FOSL2,40,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0042127 regulation of cell population proliferation; GO:BP:GO:0060429 epithelium development
+FOXN3,24,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048856 anatomical structure development
+FURIN,54,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization
+FUS,23,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process
+GATAD2A,31,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0045595 regulation of cell differentiation; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0050793 regulation of developmental process
+GPR173,22,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0016477 cell migration; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0048856 anatomical structure development
+GRN,59,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process
+GTPBP2,2,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:0000000 REACTOME root term
+HBP1,9,GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0080090 regulation of primary metabolic process; GO:BP:GO:0006351 DNA-templated transcription; GO:BP:GO:0009889 regulation of biosynthetic process; GO:BP:GO:0050794 regulation of cellular process
+HOXB3,39,GO:BP:GO:0009888 tissue development; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0045595 regulation of cell differentiation
+HSF4,28,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0060429 epithelium development; GO:BP:GO:0048519 negative regulation of biological process
+ID4,45,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process
+IGIP,0,
+INHBA,71,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term
+INPP5A,7,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0050794 regulation of cellular process
+IP6K2,23,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death
+JRK,4,GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048518 positive regulation of biological process; GO:BP:GO:0050794 regulation of cellular process; GO:BP:GO:0050789 regulation of biological process
+JUN,49,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process
+JUNB,45,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009653 anatomical structure morphogenesis
+JUP,48,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis
+KIF11,8,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; GO:BP:GO:0016043 cellular component organization
+KIF1C,5,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0051179 localization; GO:BP:GO:0051641 cellular localization
+KIF4A,8,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; GO:BP:GO:0016043 cellular component organization
+KLF5,49,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0060429 epithelium development
+LDLR,57,GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0044403 biological process involved in symbiotic interaction; GO:BP:GO:0051701 biological process involved in interaction with host
+LDLRAP1,24,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0065009 regulation of molecular function; GO:BP:GO:0051128 regulation of cellular component organization
+LENG8,0,
+LIMK2,23,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0051128 regulation of cellular component organization; KEGG:KEGG:00000 KEGG root term
+LRIG3,6,GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process; GO:BP:GO:0007275 multicellular organism development; GO:BP:GO:0048513 animal organ development
+LURAP1L,4,GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048518 positive regulation of biological process; GO:BP:GO:0050794 regulation of cellular process; GO:BP:GO:0050789 regulation of biological process
+MAFF,37,REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process
+MON2,3,GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization; GO:BP:GO:0051641 cellular localization
+MRPS30,5,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death; KEGG:KEGG:00000 KEGG root term
+NBL1,29,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0016477 cell migration; GO:BP:GO:0045595 regulation of cell differentiation
+NCAPD2,8,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0051128 regulation of cellular component organization; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048518 positive regulation of biological process; GO:BP:GO:0016043 cellular component organization
+NR2F2,58,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term
+NT5DC2,18,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0065009 regulation of molecular function; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0050790 regulation of catalytic activity
+OAT,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+OPTN,22,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0008219 cell death; GO:BP:GO:0048519 negative regulation of biological process; KEGG:KEGG:00000 KEGG root term
+P4HA1,11,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization; REAC:REAC:R-HSA-1474290 Collagen formation
+PACSIN2,25,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0016477 cell migration; GO:BP:GO:0072359 circulatory system development
+PDCD4,65,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process
+PDK4,25,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0009719 response to endogenous stimulus
+PIGG,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+PITX1,31,GO:BP:GO:0009888 tissue development; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0019222 regulation of metabolic process
+PLAU,40,REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process
+PMP22,20,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process
+POLR3E,5,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; REAC:REAC:R-HSA-168249 Innate Immune System; GO:BP:GO:0006351 DNA-templated transcription
+PPP1R3F,9,GO:BP:GO:0065009 regulation of molecular function; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0050790 regulation of catalytic activity; GO:BP:GO:0080090 regulation of primary metabolic process
+PPP2R5D,19,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; REAC:REAC:R-HSA-9006934 Signaling by Receptor Tyrosine Kinases
+PRPS2,2,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term
+PRR3,0,
+PTRHD1,0,
+PUM3,8,GO:BP:GO:0065009 regulation of molecular function; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0050790 regulation of catalytic activity; GO:BP:GO:0080090 regulation of primary metabolic process; GO:BP:GO:0009889 regulation of biosynthetic process
+RAB13,27,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0060429 epithelium development; GO:BP:GO:0009719 response to endogenous stimulus
+RAP1B,41,REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:0000000 REACTOME root term
+RIN2,28,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0016477 cell migration; GO:BP:GO:0045595 regulation of cell differentiation; GO:BP:GO:0072359 circulatory system development
+RNF185,11,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0080090 regulation of primary metabolic process
+RTN4,61,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process
+RUNX1T1,25,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0045595 regulation of cell differentiation; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0050793 regulation of developmental process; KEGG:KEGG:00000 KEGG root term
+SAT1,11,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0072359 circulatory system development; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0001944 vasculature development
+SCPEP1,0,
+SDC1,31,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; KEGG:KEGG:04512 ECM-receptor interaction; REAC:REAC:0000000 REACTOME root term
+SDC4,39,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0009888 tissue development
+SDF4,3,GO:BP:GO:0032502 developmental process; GO:BP:GO:0030154 cell differentiation; GO:BP:GO:0048869 cellular developmental process
+SERPINE1,71,REAC:REAC:R-HSA-1474244 Extracellular matrix organization; REAC:REAC:R-HSA-109582 Hemostasis; GO:BP:GO:0009888 tissue development; GO:BP:GO:0030855 epithelial cell differentiation; REAC:REAC:R-HSA-3000178 ECM proteoglycans
+SF3A1,4,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0071840 cellular component organization or biogenesis
+SFXN4,3,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0051179 localization; GO:BP:GO:0051641 cellular localization
+SGO1,6,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-162582 Signal Transduction; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0051179 localization
+SH3PXD2B,17,GO:BP:GO:0009888 tissue development; GO:BP:GO:0030198 extracellular matrix organization; GO:BP:GO:0043062 extracellular structure organization; GO:BP:GO:0045229 external encapsulating structure organization; GO:BP:GO:0072359 circulatory system development
+SIGIRR,19,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; REAC:REAC:R-HSA-168256 Immune System; GO:BP:GO:0019222 regulation of metabolic process
+SINHCAF,38,GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0016477 cell migration
+SLC2A1,19,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0009719 response to endogenous stimulus; GO:BP:GO:0036293 response to decreased oxygen levels; GO:BP:GO:0001666 response to hypoxia; KEGG:KEGG:00000 KEGG root term
+SLC30A1,26,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0045595 regulation of cell differentiation; GO:BP:GO:0048519 negative regulation of biological process
+SLC41A1,4,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0070887 cellular response to chemical stimulus; GO:BP:GO:0042221 response to chemical; GO:BP:GO:0051179 localization
+SLC7A1,19,GO:BP:GO:0044409 symbiont entry into host; GO:BP:GO:0046718 symbiont entry into host cell; GO:BP:GO:0008283 cell population proliferation; GO:BP:GO:0042127 regulation of cell population proliferation; REAC:REAC:0000000 REACTOME root term
+SLC7A11,36,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:R-HSA-202733 Cell surface interactions at the vascular wall; GO:BP:GO:0008283 cell population proliferation; REAC:REAC:R-HSA-210991 Basigin interactions; GO:BP:GO:0042127 regulation of cell population proliferation
+SORBS3,25,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0051128 regulation of cellular component organization; GO:BP:GO:0019222 regulation of metabolic process
+SPEN,34,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0045595 regulation of cell differentiation; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0050793 regulation of developmental process
+SPIRE1,17,GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0050793 regulation of developmental process; GO:BP:GO:0051128 regulation of cellular component organization; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048522 positive regulation of cellular process
+TIMM22,6,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization; GO:BP:GO:0051179 localization; GO:BP:GO:0071840 cellular component organization or biogenesis
+TKT,3,REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0050789 regulation of biological process
+TM4SF1,5,GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process; GO:BP:GO:0007275 multicellular organism development; GO:BP:GO:0009790 embryo development
+TMEM106C,0,
+TOP1,15,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0048856 anatomical structure development
+TSN,12,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0009892 negative regulation of metabolic process
+TSPAN12,14,GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0072359 circulatory system development; GO:BP:GO:0050793 regulation of developmental process; GO:BP:GO:0001944 vasculature development; GO:BP:GO:0048514 blood vessel morphogenesis
+TUBB6,8,REAC:REAC:R-HSA-109582 Hemostasis; REAC:REAC:0000000 REACTOME root term; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System; REAC:REAC:R-HSA-162582 Signal Transduction
+TXNL1,2,REAC:REAC:0000000 REACTOME root term; REAC:REAC:R-HSA-162582 Signal Transduction
+UACA,9,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0006915 apoptotic process; GO:BP:GO:0008219 cell death; GO:BP:GO:0012501 programmed cell death
+UBE2C,15,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0065009 regulation of molecular function; GO:BP:GO:0051128 regulation of cellular component organization; KEGG:KEGG:00000 KEGG root term; REAC:REAC:R-HSA-168256 Immune System
+UBXN6,4,KEGG:KEGG:00000 KEGG root term; GO:BP:GO:0042221 response to chemical; GO:BP:GO:0051179 localization; GO:BP:GO:0051641 cellular localization
+ULK2,21,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0009653 anatomical structure morphogenesis; GO:BP:GO:0045595 regulation of cell differentiation; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0050793 regulation of developmental process
+UNC119B,8,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process; GO:BP:GO:0007275 multicellular organism development; GO:BP:GO:0016043 cellular component organization
+VOPP1,0,
+WDR46,2,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0071840 cellular component organization or biogenesis
+WSB2,3,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0050794 regulation of cellular process; GO:BP:GO:0050789 regulation of biological process
+YEATS2,28,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0050793 regulation of developmental process; GO:BP:GO:0019222 regulation of metabolic process
+YTHDC2,11,GO:BP:GO:0048523 negative regulation of cellular process; GO:BP:GO:0048519 negative regulation of biological process; GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048856 anatomical structure development; GO:BP:GO:0032502 developmental process
+ZDHHC14,2,GO:BP:GO:0051179 localization; GO:BP:GO:0051641 cellular localization
+ZFAND1,11,GO:BP:GO:0048522 positive regulation of cellular process; GO:BP:GO:0048518 positive regulation of biological process; GO:BP:GO:0070887 cellular response to chemical stimulus; GO:BP:GO:0016043 cellular component organization; GO:BP:GO:0033036 macromolecule localization
+ZNF334,10,REAC:REAC:0000000 REACTOME root term; GO:BP:GO:0019222 regulation of metabolic process; GO:BP:GO:0080090 regulation of primary metabolic process; GO:BP:GO:0006351 DNA-templated transcription; GO:BP:GO:0009889 regulation of biosynthetic process
+B4GALT1,0,
+CAVIN1,0,
+CNN3,0,
+CPNE3,0,
+DKK3,0,
+DNAJC3,0,
+EIF2D,0,
+EMD,0,
+EMILIN1,0,
+FOXC2,0,
+FSD1,0,
+GPC1,0,
+MT-CYB,0,
+RASGRP2,0,
+RER1,0,
+RND3,0,
+RUSF1,0,
+TMEM52B,0,
+UXT,0,
+ZFYVE9,0,
+ACOT7,0,
+ARHGDIA,0,
+ATP10D,0,
+ATRAID,0,
+CCDC117,0,
+CD248,0,
+CDH11,0,
+CERS2,0,
+CLEC11A,0,
+CLIC4,0,
+CLPTM1,0,
+CNPY2,0,
+COL13A1,0,
+COMP,0,
+CPT2,0,
+DAG1,0,
+DBNDD1,0,
+DNMT1,0,
+EHD2,0,
+ELOVL5,0,
+EPS8,0,
+EXT1,0,
+FARP1,0,
+FEZ1,0,
+FKBP11,0,
+FOXD1,0,
+FUCA2,0,
+GAS6,0,
+GJA1,0,
+GLI3,0,
+GPX7,0,
+HNRNPUL1,0,
+HTR7,0,
+IGFBP5,0,
+IRF1,0,
+ISLR,0,
+KCTD2,0,
+KPNB1,0,
+MAP3K20,0,
+MDH1,0,
+MFGE8,0,
+MOXD1,0,
+MSRB3,0,
+MYO6,0,
+NOL3,0,
+NPDC1,0,
+OSR2,0,
+PFN2,0,
+PLCB3,0,
+PPFIBP1,0,
+PRKACB,0,
+PTPRD,0,
+QSOX1,0,
+RAD23A,0,
+RAI14,0,
+RCN3,0,
+RHBDD2,0,
+RNF122,0,
+RPS20,0,
+SERPINB10,0,
+SETBP1,0,
+SLC17A5,0,
+SMIM13,0,
+SPRED3,0,
+TEAD3,0,
+TFAP2A,0,
+TOB2,0,
+VIM,0,
+WNT5A,0,
+XPO7,0,
+YAP1,0,
+ZNF282,0,
+ADGRG6,0,
+ANXA10,0,
+APOA1,0,
+APOA4,0,
+APOBEC1,0,
+ARL14,0,
+ARSB,0,
+ATP6V0E1,0,
+ATP8B1,0,
+BHLHE40,0,
+CALHM2,0,
+CAPN2,0,
+CCDC34,0,
+CCDC43,0,
+CDH1,0,
+CDHR2,0,
+CDHR5,0,
+CFAP300,0,
+CFAP58,0,
+CHP2,0,
+CLDN15,0,
+CLDN2,0,
+CLDN3,0,
+CLDN7,0,
+CLIC6,0,
+CMAS,0,
+CMTM3,0,
+COG1,0,
+COL11A1,0,
+COL14A1,0,
+COL5A2,0,
+COLQ,0,
+CRB3,0,
+CSDC2,0,
+CYSTM1,0,
+DIRAS1,0,
+DUSP5,0,
+EFHD2,0,
+EGLN3,0,
+EMB,0,
+EPCAM,0,
+ESRP2,0,
+FA2H,0,
+FAT4,0,
+FBLIM1,0,
+FBP1,0,
+FERMT2,0,
+GAL3ST1,0,
+GALNT10,0,
+GCKR,0,
+GFPT1,0,
+GGT6,0,
+GLO1,0,
+GNAI2,0,
+GNAZ,0,
+GPT,0,
+H2AC21,0,
+HDAC1,0,
+HEBP1,0,
+HECTD2,0,
+HEPH,0,
+HKDC1,0,
+HLA-DRA,0,
+HNF4A,0,
+HOXA11,0,
+HOXA5,0,
+HUNK,0,
+IGFBP1,0,
+IL17RB,0,
+IL17RC,0,
+IL2RG,0,
+IQGAP1,0,
+JMJD8,0,
+JOSD2,0,
+KIF7,0,
+KLK10,0,
+KLK6,0,
+KLK8,0,
+LAPTM4A,0,
+LATS2,0,
+LCN2,0,
+LEPROT,0,
+LETM1,0,
+LGALS4,0,
+LOXL1,0,
+LSR,0,
+LURAP1,0,
+MAP3K10,0,
+MGST1,0,
+MISP,0,
+MPP2,0,
+MS4A8,0,
+MSLN,0,
+MST1R,0,
+MYL12A,0,
+MYO1A,0,
+NABP2,0,
+NDRG1,0,
+NDST1,0,
+NFE2L1,0,
+NFIX,0,
+NGRN,0,
+NOTCH3,0,
+NQO1,0,
+NRGN,0,
+PALS2,0,
+PAPSS1,0,
+PCDH10,0,
+PHGDH,0,
+PIGL,0,
+PIGR,0,
+PLA2G15,0,
+PLAC9,0,
+PLEKHG5,0,
+PLEKHG6,0,
+PLEKHM2,0,
+PLPPR2,0,
+PODNL1,0,
+POLR2L,0,
+PPFIBP2,0,
+PPP1R1B,0,
+PRRC2A,0,
+PTPRN2,0,
+PYGO1,0,
+RAB11FIP4,0,
+RAB11FIP5,0,
+RASGRP1,0,
+RBM24,0,
+RBP2,0,
+RFX5,0,
+RNF43,0,
+RPS6KA4,0,
+RRBP1,0,
+RRM2B,0,
+SCNN1A,0,
+SEC22B,0,
+SERPING1,0,
+SH3PXD2A,0,
+SI,0,
+SLC26A3,0,
+SLC31A2,0,
+SLC4A4,0,
+SLC6A19,0,
+SMIM3,0,
+SPAG9,0,
+SPATA7,0,
+SPINT2,0,
+SULF1,0,
+SYTL1,0,
+TAGLN,0,
+TBX15,0,
+TFF3,0,
+TIMP2,0,
+TJP3,0,
+TM4SF5,0,
+TOM1L2,0,
+TPM2,0,
+TSPAN1,0,
+TSPAN15,0,
+TSPAN8,0,
+UBAC2,0,
+UBASH3B,0,
+UBFD1,0,
+UBLCP1,0,
+URB2,0,
+VCAN,0,
+VIL1,0,
+VIT,0,
+ZBTB7C,0,
+ZFAND5,0,
+ZNHIT1,0,

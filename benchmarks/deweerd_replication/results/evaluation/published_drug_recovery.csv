@@ -1,0 +1,31 @@
+accession,disease,reference_drug,deweerd_reported_rank,present_in_chembl_mechanism_resource,method,drug_id,target_count,eligible_gt10,strict_rank,sensitivity_ge3_rank,overlap_genes,pvalue,fdr,audit_ge1_rank
+GSE138614,Multiple sclerosis — active lesion,MUROMONAB,1,False,Bridge,,0,False,,,,,,
+GSE138614,Multiple sclerosis — active lesion,MUROMONAB,1,False,DE,,0,False,,,,,,
+GSE138614,Multiple sclerosis — active lesion,IBRUTINIB,2,True,Bridge,CHEMBL1873475,1,False,,,,1.0,1.0,446.0
+GSE138614,Multiple sclerosis — active lesion,IBRUTINIB,2,True,DE,CHEMBL1873475,1,False,,,,1.0,1.0,484.0
+GSE138614,Multiple sclerosis — active lesion,DACLIZUMAB,3,False,Bridge,,0,False,,,,,,
+GSE138614,Multiple sclerosis — active lesion,DACLIZUMAB,3,False,DE,,0,False,,,,,,
+GSE138614,Multiple sclerosis — active lesion,ZANUBRUTINIB,4,True,Bridge,CHEMBL3936761,1,False,,,,1.0,1.0,661.0
+GSE138614,Multiple sclerosis — active lesion,ZANUBRUTINIB,4,True,DE,CHEMBL3936761,1,False,,,,1.0,1.0,686.0
+GSE138614,Multiple sclerosis — active lesion,ALEMTUZUMAB,5,False,Bridge,,0,False,,,,,,
+GSE138614,Multiple sclerosis — active lesion,ALEMTUZUMAB,5,False,DE,,0,False,,,,,,
+GSE101794,Crohn's disease — ileum,ZINC,1,False,Bridge,,0,False,,,,,,
+GSE101794,Crohn's disease — ileum,ZINC,1,False,DE,,0,False,,,,,,
+GSE101794,Crohn's disease — ileum,ZINC ACETATE,2,False,Bridge,,0,False,,,,,,
+GSE101794,Crohn's disease — ileum,ZINC ACETATE,2,False,DE,,0,False,,,,,,
+GSE101794,Crohn's disease — ileum,DILMAPIMOD,3,False,Bridge,,0,False,,,,,,
+GSE101794,Crohn's disease — ileum,DILMAPIMOD,3,False,DE,,0,False,,,,,,
+GSE101794,Crohn's disease — ileum,GLUCOSAMINE,4,False,Bridge,,0,False,,,,,,
+GSE101794,Crohn's disease — ileum,GLUCOSAMINE,4,False,DE,,0,False,,,,,,
+GSE101794,Crohn's disease — ileum,VX-702,5,False,Bridge,,0,False,,,,,,
+GSE101794,Crohn's disease — ileum,VX-702,5,False,DE,,0,False,,,,,,
+GSE72509,Systemic lupus erythematosus — blood,GEMCITABINE,1,True,Bridge,CHEMBL888,1,False,,,,1.0,1.0,916.0
+GSE72509,Systemic lupus erythematosus — blood,GEMCITABINE,1,True,DE,CHEMBL888,1,False,,,,1.0,1.0,917.0
+GSE72509,Systemic lupus erythematosus — blood,ENZASTAURIN,2,False,Bridge,,0,False,,,,,,
+GSE72509,Systemic lupus erythematosus — blood,ENZASTAURIN,2,False,DE,,0,False,,,,,,
+GSE72509,Systemic lupus erythematosus — blood,SUNITINIB,3,True,Bridge,CHEMBL535,9,False,,14.0,CSF1R,0.28231515728089196,1.0,45.0
+GSE72509,Systemic lupus erythematosus — blood,SUNITINIB,3,True,DE,CHEMBL535,9,False,,43.0,,1.0,1.0,784.0
+GSE72509,Systemic lupus erythematosus — blood,FOSTAMATINIB,4,True,Bridge,CHEMBL2103830,1,False,,,,1.0,1.0,487.0
+GSE72509,Systemic lupus erythematosus — blood,FOSTAMATINIB,4,True,DE,CHEMBL2103830,1,False,,,,1.0,1.0,477.0
+GSE72509,Systemic lupus erythematosus — blood,CLADRIBINE,5,False,Bridge,,0,False,,,,,,
+GSE72509,Systemic lupus erythematosus — blood,CLADRIBINE,5,False,DE,,0,False,,,,,,

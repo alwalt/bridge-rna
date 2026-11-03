@@ -1,0 +1,31 @@
+accession,disease,method,reference_drug,deweerd_reported_rank,exact_alias_candidate_ids,present_in_chembl_clinical_scope,represented_in_universe,ambiguous_exact_alias,drug_id,drug_name,target_count,eligible_gt10,rank,overlap_genes,pvalue,fdr,audit_all_rank,audit_all_pvalue,audit_all_fdr
+GSE138614,Multiple sclerosis — active lesion,Bridge,muromonab,1,CHEMBL1201608,True,True,False,CHEMBL1201608,MUROMONAB-CD3,3,False,,,,,427.0,1.0,1.0
+GSE138614,Multiple sclerosis — active lesion,DE,muromonab,1,CHEMBL1201608,True,True,False,CHEMBL1201608,MUROMONAB-CD3,3,False,,CD3E;CD3G,,,6.0,0.003183617726514075,0.6533750885665432
+GSE138614,Multiple sclerosis — active lesion,Bridge,ibrutinib,2,CHEMBL1873475,True,True,False,CHEMBL1873475,IBRUTINIB,32,True,17.0,ERBB2;FGR,0.28480484634650277,1.0,261.0,0.28480484634650277,1.0
+GSE138614,Multiple sclerosis — active lesion,DE,ibrutinib,2,CHEMBL1873475,True,True,False,CHEMBL1873475,IBRUTINIB,32,True,7.0,BLK;ITK;LCK;TEC,0.020217904539945968,0.9383187351978579,35.0,0.020217904539945968,0.6533750885665432
+GSE138614,Multiple sclerosis — active lesion,Bridge,daclizumab,3,CHEMBL1201605,True,True,False,CHEMBL1201605,DACLIZUMAB,3,False,,,,,427.0,1.0,1.0
+GSE138614,Multiple sclerosis — active lesion,DE,daclizumab,3,CHEMBL1201605,True,True,False,CHEMBL1201605,DACLIZUMAB,3,False,,IL2RG,,,285.0,0.09569271711463688,1.0
+GSE138614,Multiple sclerosis — active lesion,Bridge,zanubrutinib,4,CHEMBL3936761,True,True,False,CHEMBL3936761,ZANUBRUTINIB,15,True,11.0,ERBB2;FGR,0.08584830304650867,1.0,127.0,0.08584830304650867,1.0
+GSE138614,Multiple sclerosis — active lesion,DE,zanubrutinib,4,CHEMBL3936761,True,True,False,CHEMBL3936761,ZANUBRUTINIB,15,True,1.0,BLK;ITK;LCK;TEC,0.0011928632493059504,0.28353302158905513,3.0,0.0011928632493059504,0.6533750885665432
+GSE138614,Multiple sclerosis — active lesion,Bridge,alemtuzumab,5,CHEMBL1201587,True,False,False,,,0,False,,,,,,,
+GSE138614,Multiple sclerosis — active lesion,DE,alemtuzumab,5,CHEMBL1201587,True,False,False,,,0,False,,,,,,,
+GSE101794,Crohn's disease — ileum,Bridge,zinc,1,,False,False,False,,,0,False,,,,,,,
+GSE101794,Crohn's disease — ileum,DE,zinc,1,,False,False,False,,,0,False,,,,,,,
+GSE101794,Crohn's disease — ileum,Bridge,zinc acetate,2,CHEMBL1200928,True,False,False,,,0,False,,,,,,,
+GSE101794,Crohn's disease — ileum,DE,zinc acetate,2,CHEMBL1200928,True,False,False,,,0,False,,,,,,,
+GSE101794,Crohn's disease — ileum,Bridge,dilmapimod,3,CHEMBL2103838,True,True,False,CHEMBL2103838,DILMAPIMOD,1,False,,,,,521.0,1.0,1.0
+GSE101794,Crohn's disease — ileum,DE,dilmapimod,3,CHEMBL2103838,True,True,False,CHEMBL2103838,DILMAPIMOD,1,False,,,,,635.0,1.0,1.0
+GSE101794,Crohn's disease — ileum,Bridge,glucosamine,4,CHEMBL493287,True,False,False,,,0,False,,,,,,,
+GSE101794,Crohn's disease — ileum,DE,glucosamine,4,CHEMBL493287,True,False,False,,,0,False,,,,,,,
+GSE101794,Crohn's disease — ileum,Bridge,VX-702,5,CHEMBL1090090,True,True,False,CHEMBL1090090,VX-702,5,False,,,,,521.0,1.0,1.0
+GSE101794,Crohn's disease — ileum,DE,VX-702,5,CHEMBL1090090,True,True,False,CHEMBL1090090,VX-702,5,False,,,,,635.0,1.0,1.0
+GSE72509,Systemic lupus erythematosus — blood,Bridge,gemcitabine,1,CHEMBL888,True,True,False,CHEMBL888,GEMCITABINE,13,True,114.0,,1.0,1.0,452.0,1.0,1.0
+GSE72509,Systemic lupus erythematosus — blood,DE,gemcitabine,1,CHEMBL888,True,True,False,CHEMBL888,GEMCITABINE,13,True,117.0,,1.0,1.0,291.0,1.0,1.0
+GSE72509,Systemic lupus erythematosus — blood,Bridge,enzastaurin,2,CHEMBL300138,True,True,False,CHEMBL300138,ENZASTAURIN,13,True,114.0,,1.0,1.0,452.0,1.0,1.0
+GSE72509,Systemic lupus erythematosus — blood,DE,enzastaurin,2,CHEMBL300138,True,True,False,CHEMBL300138,ENZASTAURIN,13,True,35.0,GSK3A,0.353394666494143,1.0,209.0,0.353394666494143,1.0
+GSE72509,Systemic lupus erythematosus — blood,Bridge,sunitinib,3,CHEMBL535,True,True,False,CHEMBL535,SUNITINIB,137,True,22.0,BLK;CAMK1;CAMK1D;CAMK2G;CSF1R;EIF2AK2;LRRK2,0.16700434201455153,1.0,325.0,0.16700434201455153,1.0
+GSE72509,Systemic lupus erythematosus — blood,DE,sunitinib,3,CHEMBL535,True,True,False,CHEMBL535,SUNITINIB,137,True,101.0,EIF2AK2;FGFR2;MAP2K1;NTRK1,0.6659754935850095,1.0,275.0,0.6659754935850095,1.0
+GSE72509,Systemic lupus erythematosus — blood,Bridge,fostamatinib,4,CHEMBL2103830,True,True,False,CHEMBL2103830,FOSTAMATINIB,6,False,,,,,452.0,1.0,1.0
+GSE72509,Systemic lupus erythematosus — blood,DE,fostamatinib,4,CHEMBL2103830,True,True,False,CHEMBL2103830,FOSTAMATINIB,6,False,,,,,291.0,1.0,1.0
+GSE72509,Systemic lupus erythematosus — blood,Bridge,cladribine,5,CHEMBL1619,True,False,False,,,0,False,,,,,,,
+GSE72509,Systemic lupus erythematosus — blood,DE,cladribine,5,CHEMBL1619,True,False,False,,,0,False,,,,,,,

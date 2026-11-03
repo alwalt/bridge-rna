@@ -1,0 +1,67 @@
+{
+  "lock_status": "frozen",
+  "deweerd_labels": {
+    "GSE138614": "ms_modalyser_al_vs_control / MS Active Lesion",
+    "GSE101794": "E-GEOD-101794_chron_a1a_vs_control / Crohn Ileum 1",
+    "GSE72509": "E-GEOD-72509_sle_vs_control / Systemic Lupus Erythematosus Blood"
+  },
+  "expression_contract": "natural log1p(TPM), canonical 15,165 genes",
+  "ms_independence": "donor is the biological unit; no lesion-control pairing is invented",
+  "crohn_subset": "Paris age A1a only, matching de Weerd supplemental contrast label",
+  "sle_subset": "all SLE and healthy whole-blood samples",
+  "sources": {
+    "GSE138614_countMatrix.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE138nnn/GSE138614/suppl/GSE138614_countMatrix.txt.gz",
+      "bytes": 5229203,
+      "sha256": "30f430b7b4101dd6f363fd19f7d54835545cf1e67005e9a10a26453876e14095"
+    },
+    "GSE138614_family.soft.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE138nnn/GSE138614/soft/GSE138614_family.soft.gz",
+      "bytes": 6342,
+      "sha256": "6759de97d11e24dc77addcd3b93d424a193226cf537abfd13c3551db0040050f"
+    },
+    "GSE101794_RAW.tar": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE101nnn/GSE101794/suppl/GSE101794_RAW.tar",
+      "bytes": 30750720,
+      "sha256": "958aca340a41f0249f50b0cb94b1bf685a029f5d0edfc176d34e8cc3a1bf7fb2"
+    },
+    "GSE101794_family.soft.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE101nnn/GSE101794/soft/GSE101794_family.soft.gz",
+      "bytes": 20126,
+      "sha256": "6da47ca2f389d0f13c3eaf4f1532edf22ad8732021945dadada92d50d2bebf76"
+    },
+    "GSE72509_SLE_RPKMs.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE72nnn/GSE72509/suppl/GSE72509_SLE_RPKMs.txt.gz",
+      "bytes": 8479503,
+      "sha256": "920742afeed16f5291bd2b3435f0d5c6390c6d8f4b4f553ec8bb74902c7f39ac"
+    },
+    "GSE72509_family.soft.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE72nnn/GSE72509/soft/GSE72509_family.soft.gz",
+      "bytes": 7181,
+      "sha256": "81ffd15999844f96e5f6fd02c3391faa181e1f77d78b09998dfc9215e1b67150"
+    }
+  },
+  "coverage": {
+    "GSE138614": {
+      "source_gene_rows": 40792,
+      "mapped_canonical_genes": 15069,
+      "mapped_canonical_fraction": 0.9936696340257171,
+      "expressed_canonical_genes": 14991,
+      "missing_canonical_genes": 96
+    },
+    "GSE101794": {
+      "source_gene_rows": 13151,
+      "mapped_canonical_genes": 10738,
+      "mapped_canonical_fraction": 0.7080778107484339,
+      "expressed_canonical_genes": 10738,
+      "missing_canonical_genes": 4427
+    },
+    "GSE72509": {
+      "source_gene_rows": 26366,
+      "mapped_canonical_genes": 13874,
+      "mapped_canonical_fraction": 0.9148697659083416,
+      "expressed_canonical_genes": 13821,
+      "missing_canonical_genes": 1291
+    }
+  }
+}

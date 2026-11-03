@@ -1,0 +1,49 @@
+{
+  "resource": "ChEMBL 37 SQLite",
+  "selection_frozen_before_reference_drug_audit": true,
+  "inclusion_rules": {
+    "drug": "parent-normalized ChEMBL molecule with max_phase >=2; exclude Cell, Gene, Vaccine component",
+    "target": "human protein component with ChEMBL GENE_SYMBOL mapping present in frozen 15,165-gene canonical universe",
+    "mechanism_evidence": "all curated drug_mechanism records mapped through human protein target components (single proteins, complexes, complex groups, families, and protein interactions); direct_interaction not required",
+    "bioactivity_evidence": "binding assay, confidence_score=9, pChEMBL>=6, relation =/< /<=, standard_flag=1, no validity comment, not potential duplicate",
+    "deduplication": "parent ChEMBL molecule x HGNC gene",
+    "eligibility": ">10 targets before disease-module testing",
+    "fisher_background": "frozen 15,165 canonical genes, identical for Bridge and DE"
+  },
+  "broad_universe": {
+    "drugs_with_edges": 4389,
+    "targets": 2046,
+    "edges": 16986,
+    "drugs_gt10_targets": 366,
+    "target_count_quantiles": {
+      "0.0": 1.0,
+      "0.25": 1.0,
+      "0.5": 1.0,
+      "0.75": 3.0,
+      "0.9": 9.0,
+      "0.95": 14.0,
+      "0.99": 37.11999999999989,
+      "1.0": 226.0
+    }
+  },
+  "evidence": {
+    "mechanism_rows": 9984,
+    "binding_rows": 23173
+  },
+  "frozen_direct_comparator": {
+    "drugs": 985,
+    "targets": 323,
+    "edges": 1344,
+    "drugs_gt10_targets": 1
+  },
+  "deweerd_drugbank": {
+    "reported_tested_drugs": 328,
+    "protein_background": 16600,
+    "eligibility": ">10 known targets"
+  },
+  "archive_sha256": "33c203740555f96067710cdfc1c3c55d890660e5908ec5cbf5817492c290d281",
+  "frozen_module_file_sha256": "88d0d5c1c5d15d9ffaeff727916c389de1c105f659b9e68e2918330c1f581937",
+  "frozen_direct_edge_file_sha256": "1a8fdaedfff023790a0789f1aac44869b1d90dcd33849dc9efb7c538e4b37a30",
+  "edge_file_sha256": "4ec6795db6a647a1f20078254ddc70af82920230f6f92097423e0658d757e038",
+  "direction_aware_reversal": false
+}

@@ -1,0 +1,13 @@
+analysis,context_distance,context_class,pairs,mean_jaccard,median_jaccard,mean_overlap,mean_random_p,significant_random_pairs
+Bridge top-500,1,"same system, different radiation exposure",7,0.42337636547179985,0.2755102040816326,286.14285714285717,0.0004997501249375312,7
+Bridge top-500,3,"different cell type, similar radiation exposure",4,0.14429607011146178,0.13717174590450085,125.75,0.0004997501249375312,4
+Bridge top-500,4,different cell type and different radiation exposure,10,0.14223180054513057,0.13654122092940657,124.2,0.0004997501249375312,10
+Bridge-only,1,"same system, different radiation exposure",7,0.3487394725753267,0.2625169147496617,178.0,0.0004997501249375312,7
+Bridge-only,3,"different cell type, similar radiation exposure",4,0.1325195028768988,0.12711901995050076,101.5,0.0004997501249375312,4
+Bridge-only,4,different cell type and different radiation exposure,10,0.1302958206557535,0.12394413956186141,91.7,0.0004997501249375312,10
+DE top-500,1,"same system, different radiation exposure",7,0.3494829466748136,0.1210762331838565,225.14285714285714,0.0004997501249375312,7
+DE top-500,3,"different cell type, similar radiation exposure",4,0.0265455042668972,0.022494887525562373,25.75,0.315592203898051,1
+DE top-500,4,different cell type and different radiation exposure,10,0.020163783094373132,0.017293997965412006,19.7,0.5607696151924038,2
+DE-only,1,"same system, different radiation exposure",7,0.27938733972718616,0.08356940509915015,128.42857142857142,0.0004997501249375312,7
+DE-only,3,"different cell type, similar radiation exposure",4,0.01761064376594607,0.015339767836181035,15.25,0.5112443778110944,1
+DE-only,4,different cell type and different radiation exposure,10,0.015604611041591342,0.01391118385850048,12.4,0.4921539230384807,2

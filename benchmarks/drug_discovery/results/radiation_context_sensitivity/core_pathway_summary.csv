@@ -1,0 +1,10 @@
+query_id,gene_count,significant_term_count,coherent_gene_count,coherent_gene_fraction,top_source,top_term_id,top_term_name,top_adjusted_pvalue
+Bridge|strict_universal,15,10,5,0.3333333333333333,REAC,REAC:R-HSA-3000157,Laminin interactions,0.014810826982385486
+Bridge|majority_cross_study_core,237,259,223,0.9409282700421941,REAC,REAC:R-HSA-1474244,Extracellular matrix organization,3.460233765356875e-08
+DE|strict_universal,0,0,0,0.0,,,,
+DE|majority_cross_study_core,35,170,31,0.8857142857142857,GO:BP,GO:0061870,positive regulation of hepatic stellate cell migration,0.0025855622325403763
+Bridge-only|recurrent_cross_study,414,183,385,0.9299516908212561,REAC,REAC:R-HSA-1474244,Extracellular matrix organization,8.345642415320971e-08
+Bridge|context_recurrent_GSE297090,92,52,44,0.4782608695652174,GO:BP,GO:0007586,digestion,6.235024579111241e-05
+Bridge|context_recurrent_GSE297560,293,340,259,0.8839590443686007,REAC,REAC:R-HSA-1474244,Extracellular matrix organization,5.825681276551988e-11
+DE|context_recurrent_GSE297090,30,146,26,0.8666666666666667,GO:BP,GO:0022402,cell cycle process,1.1095547044440503e-10
+DE|context_recurrent_GSE297560,470,631,451,0.9595744680851064,GO:BP,GO:0009653,anatomical structure morphogenesis,5.22670967813915e-26

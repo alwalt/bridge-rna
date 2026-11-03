@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "expanded_enrichment_rows": 6588,
+  "eligible_drugs": 366,
+  "datasets": 9,
+  "partitions": 27,
+  "pathway_queries": 30,
+  "protected_steps_rerun": {
+    "expression": false,
+    "embeddings": false,
+    "condition_vectors": false,
+    "integrated_gradients": false,
+    "differential_expression": false,
+    "gene_module_construction": false
+  },
+  "original_phase2_values_unchanged": true
+}

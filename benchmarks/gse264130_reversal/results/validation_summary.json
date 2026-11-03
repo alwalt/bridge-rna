@@ -1,0 +1,23 @@
+{
+  "valid": true,
+  "benchmark6_input_hash_mismatches": [],
+  "frozen_lincs_hash_mismatches": [],
+  "drugs": 372,
+  "cells": 2,
+  "expression_rows": 26784,
+  "latent_rows": 13392,
+  "candidate_rows": 39,
+  "bh_significant_expression": 0,
+  "bh_significant_latent": 0,
+  "strict_cross_study_candidates": 0,
+  "encoder_control_max_abs_difference": 0.0,
+  "output_sha256": {
+    "benchmark6_handoff_audit.json": "70190b27808630999b8a22c70e1810358dfdf55245f4326fa606d01f95e70419",
+    "expression_reversal_by_contrast_cell.parquet": "a3b76beef35ac049cf0ecd64838f3a48fafd4ff6530b718e2b19055b7a58d607",
+    "latent_reversal_by_contrast_cell.parquet": "60c2ced5d3e0627d0c053a6f287ca9ddca837c780b3a99abeeafea26928e56f9",
+    "integrated_candidate_evidence.csv": "eeeedd366787752c1faa5a1aeb107df31aec4062b2893b8a7810c261c03de4bd",
+    "unified_primary_summary.csv": "02741da5d0e0f56876dd6a345c3796bf1cbf7ad7361a0c3e7e7cbf9d5fbb73df",
+    "../GSE264130_PRIMARY_REVERSAL_REPORT.md": "073cdd6643e140b8ba740c83e3a55a244ce002633dd9d92c86e54951d00b8404",
+    "../figures/gse264130_primary_reversal_summary.png": "e9177467e2fe1fdb2e538c77fb76b5a48ac6f2f40f46e5b6fd5976f41c1a90b0"
+  }
+}

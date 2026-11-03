@@ -1,0 +1,12 @@
+{
+  "accession": "GSE138614",
+  "checkpoint": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+  "checkpoint_config": "/home/walt/bridge-rna/model/r7hnr92k/config.json",
+  "encoder_frozen": true,
+  "input": "natural log1p(TPM), canonical 15,165 genes",
+  "condition_direction": "case-minus-control pooled embedding; donor-weighted for GSE138614",
+  "attribution_direction": "leave-one-whole-donor-out",
+  "attribution": "signed Integrated Gradients; all-zero baseline; midpoint Riemann",
+  "ig_steps": 16,
+  "score_normalization": "L1 absolute sum"
+}

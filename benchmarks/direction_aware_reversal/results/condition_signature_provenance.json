@@ -1,0 +1,53 @@
+{
+  "space_primary_contrasts": {
+    "GSE297090_gamma": "Radiation injury",
+    "GSE297090_proton": "Radiation injury",
+    "GSE184119_10Gy": "Radiation injury",
+    "GSE297560_gamma": "Radiation injury",
+    "GSE297560_proton": "Radiation injury",
+    "GSE297560_iron": "Radiation injury",
+    "GSE297560_silicon": "Radiation injury",
+    "GSE189524_OP": "Bone loss",
+    "GSE276529_GIOP": "Bone loss",
+    "GSE273868_week1": "Bone loss",
+    "GSE273868_week2": "Bone loss",
+    "GSE211204_ULLS": "Muscle atrophy",
+    "GSE113165_bedrest": "Muscle atrophy",
+    "GSE234465_old": "Muscle atrophy",
+    "GSE234465_young": "Muscle atrophy"
+  },
+  "disease_contrasts": {
+    "GSE138614": "Multiple sclerosis",
+    "GSE101794": "Crohn's disease",
+    "GSE72509": "Systemic lupus erythematosus"
+  },
+  "top_module_definition": "frozen absolute-score top 500 per contrast and method",
+  "direction_rule": "signed_bridge_score for Bridge and moderated t statistic for DE; no directions inferred from drug data",
+  "recurrent_direction_rule": "stable only when every contributing frozen top-500 contrast has the same nonzero sign",
+  "excluded_primary_duplicate": "GSE211204_ULLS_unseen is a leakage sensitivity subset, not an independent condition contrast",
+  "input_hashes": {
+    "benchmarks/deweerd_replication/results/bridge/GSE138614_gene_ranking.parquet": "207b2b253ce48c80be52aef8c13b6b3d028a2b8f8008cfe143fbf28070da0440",
+    "benchmarks/deweerd_replication/results/differential_expression/GSE138614_gene_ranking.csv.gz": "d03d20d6e547f0e164ed7fa34c8cedb201574582e632d52f1252380368cb4e43",
+    "benchmarks/deweerd_replication/results/bridge/GSE101794_gene_ranking.parquet": "5de7a2a540261c6cf916a728ee3abdbbfdcadb2cc386183c8b3497ee0ebf2920",
+    "benchmarks/deweerd_replication/results/differential_expression/GSE101794_gene_ranking.csv.gz": "fdabb22fa3c488a061ff9ab675d739ced46c99b24b23f876fe7dcafa8b43a530",
+    "benchmarks/deweerd_replication/results/bridge/GSE72509_gene_ranking.parquet": "8977049aa036887ac9fb42054c90db5ced0eff42d34364414666937089ac167d",
+    "benchmarks/deweerd_replication/results/differential_expression/GSE72509_gene_ranking.csv.gz": "1d05371529ef95f8aa75ad884eb24dcc3da680f45b25bb85db108bf1e1b45659",
+    "benchmarks/drug_discovery/results/bridge/contrast_gene_scores.parquet": "ef783bdc95007e316f2db7229399deeadfa69db321ce517aab4ec3e1f17a9e83",
+    "benchmarks/drug_discovery/results/differential_expression/GSE297090_gamma.csv.gz": "ffaf6022af184d6f175fcd65d25b655c61b195f61d4e114eb6e952965da48551",
+    "benchmarks/drug_discovery/results/differential_expression/GSE297090_proton.csv.gz": "4509cefc7fe11887ca2c6d514db6f1eb0e12d915ffdf4ca0aa6da338b3451bb6",
+    "benchmarks/drug_discovery/results/differential_expression/GSE184119_10Gy.csv.gz": "4f4f67b672e50c3f3a2569be9a93343c9866ff4eb864bd2ce877543a603ad88d",
+    "benchmarks/drug_discovery/results/differential_expression/GSE297560_gamma.csv.gz": "6862ac8853e0360f3b68c93aa7b859ffb6831f38bc1e9019b0ceb7553b84e509",
+    "benchmarks/drug_discovery/results/differential_expression/GSE297560_proton.csv.gz": "909cb28056e7c252da1928cab7f9bb6c62d6427fecc2d4a984240c57a2eca59b",
+    "benchmarks/drug_discovery/results/differential_expression/GSE297560_iron.csv.gz": "11378a13b42ceaead8b0f31c6eac64876026996b3769d95ee85e166c2d09ec05",
+    "benchmarks/drug_discovery/results/differential_expression/GSE297560_silicon.csv.gz": "d4356a515019cb9de56f123bb7c89c01ef35267fe28076cbefe1e139d0c04638",
+    "benchmarks/drug_discovery/results/differential_expression/GSE189524_OP.csv.gz": "a9af2ec372963eb95f386dd54aec5755d426a0cdf686392b430f6b017d5025ef",
+    "benchmarks/drug_discovery/results/differential_expression/GSE276529_GIOP.csv.gz": "6c645a442640710f2629feb4306ad5a580742132b3de7f8d1b66682ee789e4d7",
+    "benchmarks/drug_discovery/results/differential_expression/GSE273868_week1.csv.gz": "cfbda3b3fcc12661a88526d8a3bd0b3bfed3283a2fb0291ad64d16d9dfce54dc",
+    "benchmarks/drug_discovery/results/differential_expression/GSE273868_week2.csv.gz": "5849d03f0fa74edf011f0e2bb89dc57a1c3d632ae1e0e427e91cf52aa1f73e9c",
+    "benchmarks/drug_discovery/results/differential_expression/GSE211204_ULLS.csv.gz": "95624f699e05988d090fc6a7d87d0185037a6b2d789cab4f31557d8a78c6334b",
+    "benchmarks/drug_discovery/results/differential_expression/GSE113165_bedrest.csv.gz": "c34dcad71c783f3b265c6e686524631f912408d624e7140f4ce9305f168f1bb7",
+    "benchmarks/drug_discovery/results/differential_expression/GSE234465_old.csv.gz": "0fc17a170a2d8cd0233ce07381b9bf5967280dc5b4985144641b9218dcfeb73a",
+    "benchmarks/drug_discovery/results/differential_expression/GSE234465_young.csv.gz": "f600224a5fd177041defba02ac52f3b6bde638022b332bc767ad9892b051929b"
+  },
+  "upstream_steps_rerun": false
+}

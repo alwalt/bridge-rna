@@ -1,0 +1,24 @@
+{
+  "source_accession": "GSE92742",
+  "source_file": "GSE92742_Broad_LINCS_Level5_COMPZ.MODZ_n473647x12328.gctx.gz",
+  "source_sha512": "6a3115cf3aaa402bb1bc098678b52b9c03632fc21087050e3e1a56c24a60196c4809bbac3797978dab63a47d955ff7a2c6110025a6e6d3cef4c5f6e010208a2a",
+  "source_checksum_verified": true,
+  "source_logical_matrix_shape": [
+    12328,
+    473647
+  ],
+  "source_hdf5_matrix_shape": [
+    473647,
+    12328
+  ],
+  "source_hdf5_transposed": true,
+  "selected_contexts": 112495,
+  "selected_genes": 8831,
+  "filters": {
+    "pert_type": "trt_cp",
+    "is_exemplar": 1,
+    "genes": "BING intersect canonical"
+  },
+  "extracted_matrix": "benchmarks/direction_aware_reversal/work/lincs/GSE92742/lincs_gse92742_exemplar_bing.npy",
+  "extracted_matrix_sha256": "3b7c7540eb0e0cdb2c7f8a40a66548de360bfbcbc6f1b0854294964f737a3fea"
+}

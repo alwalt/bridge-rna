@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "artifact_hashes_verified": 14,
+  "executed_code_cells": 8,
+  "figures_verified": 10,
+  "checks": [
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/disease_gene_recovery.csv",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    },
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/locked_disease_cohorts.csv",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    },
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/dataset_matrix.csv",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    },
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/partition_overall_summary.csv",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    },
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/partition_condition_summary.csv",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    },
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/partition_deletion_summary.csv",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    },
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/expanded_vs_restrictive.csv",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    },
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/radiation_stability.csv",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    },
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/radiation_core_genes.csv",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    },
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/fibroblast_comparison.csv",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    },
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/muscle_target_summary.csv",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    },
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/muscle_target_removal.csv",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    },
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/space_validation.json",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    },
+    {
+      "artifact": "notebooks/drug_discovery/cached_evidence/disease_validation.json",
+      "packaged_exists": true,
+      "source_exists": true,
+      "packaged_hash_matches": true,
+      "source_hash_matches": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "checkpoint": "/home/walt/bridge-rna/model/r7hnr92k/best_model.pt",
+  "checkpoint_config": "/home/walt/bridge-rna/model/r7hnr92k/config.json",
+  "encoder_frozen": true,
+  "input": "natural log1p(TPM), canonical 15,165 genes",
+  "pooling": "mean contextual gene token",
+  "condition_direction": "unit mean of within-block case-minus-control embedding contributions; GSE276529 is age-adjusted",
+  "attribution_direction": "leave-one-donor/block-out, or leave-one-sample-out for unblocked contrasts; fallback to overall only if exclusion makes a contrast unidentifiable",
+  "target": "dot product of pooled embedding and contrast direction",
+  "attribution": "signed Integrated Gradients; all-zero baseline; midpoint Riemann",
+  "ig_steps": 16,
+  "study_consensus": "arithmetic mean of per-contrast signed IG scores after L1 absolute normalization",
+  "sensitivity": "GSE211204 subjects with either primary endpoint in ARCHS4 train/validation removed"
+}

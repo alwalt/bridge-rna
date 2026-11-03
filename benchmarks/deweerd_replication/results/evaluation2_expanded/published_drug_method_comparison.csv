@@ -1,0 +1,5 @@
+accession,disease,eligible_reference_drugs,mean_bridge_minus_de_rank_percentile,exact_two_sided_sign_flip_pvalue
+GSE138614,Multiple sclerosis — active lesion,2,-0.0273972602739726,0.5
+GSE101794,Crohn's disease — ileum,0,,
+GSE72509,Systemic lupus erythematosus — blood,3,0.002739726027397286,1.0
+ALL,Pooled,5,-0.009315068493150669,0.75

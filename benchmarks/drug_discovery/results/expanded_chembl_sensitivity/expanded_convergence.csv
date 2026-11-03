@@ -1,0 +1,25 @@
+condition,method,dataset_1,dataset_2,role_1,role_2,top_n,overlap,jaccard
+Radiation,Bridge,GSE297090,GSE184119,terrestrial_discovery,terrestrial_replication,25,4,0.08695652173913043
+Radiation,Bridge,GSE297090,GSE297560,terrestrial_discovery,osdr_validation,25,2,0.041666666666666664
+Radiation,Bridge,GSE184119,GSE297560,terrestrial_replication,osdr_validation,25,3,0.06382978723404255
+Radiation,Bridge,three_way,three_way,mixed,mixed,25,0,0.0
+Radiation,DE,GSE297090,GSE184119,terrestrial_discovery,terrestrial_replication,25,6,0.13636363636363635
+Radiation,DE,GSE297090,GSE297560,terrestrial_discovery,osdr_validation,25,3,0.06382978723404255
+Radiation,DE,GSE184119,GSE297560,terrestrial_replication,osdr_validation,25,1,0.02040816326530612
+Radiation,DE,three_way,three_way,mixed,mixed,25,1,0.015151515151515152
+Bone loss,Bridge,GSE189524,GSE276529,terrestrial_discovery,terrestrial_replication,25,2,0.041666666666666664
+Bone loss,Bridge,GSE189524,GSE273868,terrestrial_discovery,osdr_validation,25,7,0.16279069767441862
+Bone loss,Bridge,GSE276529,GSE273868,terrestrial_replication,osdr_validation,25,4,0.08695652173913043
+Bone loss,Bridge,three_way,three_way,mixed,mixed,25,2,0.03125
+Bone loss,DE,GSE189524,GSE276529,terrestrial_discovery,terrestrial_replication,25,2,0.041666666666666664
+Bone loss,DE,GSE189524,GSE273868,terrestrial_discovery,osdr_validation,25,3,0.06382978723404255
+Bone loss,DE,GSE276529,GSE273868,terrestrial_replication,osdr_validation,25,0,0.0
+Bone loss,DE,three_way,three_way,mixed,mixed,25,0,0.0
+Muscle atrophy,Bridge,GSE211204,GSE113165,terrestrial_discovery,terrestrial_replication,25,9,0.21951219512195122
+Muscle atrophy,Bridge,GSE211204,GSE234465,terrestrial_discovery,osdr_validation,25,6,0.13636363636363635
+Muscle atrophy,Bridge,GSE113165,GSE234465,terrestrial_replication,osdr_validation,25,6,0.13636363636363635
+Muscle atrophy,Bridge,three_way,three_way,mixed,mixed,25,3,0.05263157894736842
+Muscle atrophy,DE,GSE211204,GSE113165,terrestrial_discovery,terrestrial_replication,25,0,0.0
+Muscle atrophy,DE,GSE211204,GSE234465,terrestrial_discovery,osdr_validation,25,0,0.0
+Muscle atrophy,DE,GSE113165,GSE234465,terrestrial_replication,osdr_validation,25,1,0.02040816326530612
+Muscle atrophy,DE,three_way,three_way,mixed,mixed,25,0,0.0

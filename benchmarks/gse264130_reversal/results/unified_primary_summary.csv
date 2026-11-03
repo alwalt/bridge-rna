@@ -1,0 +1,7 @@
+Condition,Bridge expression candidates,DE expression candidates,Shared Bridge/DE,Bridge-only,DE-only,Latent candidates,Expression + latent,Strict cross-study expression,Strict cross-study latent,ChEMBL-supported candidate union,LINCS same-direction candidate union,Literature-supported candidate union
+Multiple sclerosis,2,2,0,2,2,3,0,0,0,0,1,0
+Crohn's disease,1,1,0,1,1,0,0,0,0,1,0,0
+Systemic lupus erythematosus,2,3,0,2,3,3,0,0,0,1,2,2
+Radiation injury,4,1,0,4,1,0,0,0,0,0,2,0
+Bone loss,3,1,0,3,1,5,2,0,0,2,2,0
+Muscle atrophy,2,3,0,2,3,3,0,0,0,0,0,0

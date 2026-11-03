@@ -1,0 +1,53 @@
+{
+  "frozen_before_matrix_scoring": "2026-09-22",
+  "resource": {
+    "release": "GSE92742",
+    "matrix": "Level 5 COMPZ.MODZ",
+    "eligible_perturbation_type": "trt_cp",
+    "primary_quality_filter": "is_exemplar == 1",
+    "gene_subset": "LINCS best-inferred (BING) genes only: 978 measured landmarks plus high-confidence inferred genes; 8,831 overlap the Bridge canonical universe",
+    "interpretation": "replicate-collapsed, plate-control-standardized moderated z-score signatures; each cell/dose/time signature remains separate"
+  },
+  "condition_signature": {
+    "primary_module_size": 500,
+    "score_direction": "signed Bridge attribution or matched moderated DE t statistic",
+    "rank_weight": "linear from 1.0 at rank 1 to 0.002 at rank 500",
+    "minimum_module_overlap": 300,
+    "partitions": ["Bridge-only", "shared", "DE-only"]
+  },
+  "primary_reversal_score": "negative rank-weighted cosine between condition signs and LINCS Level-5 z scores on overlapping top-500 genes; positive means reversal",
+  "full_ranking_sensitivity": "negative cosine between the LINCS z vector and signed condition ranks weighted by inverse square-root absolute rank",
+  "drug_consensus": {
+    "context_unit": "one LINCS Level-5 signature retaining cell line, dose, timepoint and replicate metadata",
+    "summary": "median across eligible contexts",
+    "minimum_contexts": 3,
+    "minimum_cell_lines": 2,
+    "sign_consistency": "fraction of contexts with reversal score > 0"
+  },
+  "candidate_rule": {
+    "competitive_random_drug_p": "upper-tail rank of drug median against all eligible drug medians",
+    "threshold": "competitive p <= 0.01, median reversal > 0, sign consistency >= 0.60, >=3 contexts and >=2 cell lines",
+    "fdr": "BH reported but not required for descriptive candidate status"
+  },
+  "cross_study_rule": "positive dataset-level median and competitive p <= 0.10 in every one of the three independent datasets, including OSDR",
+  "nulls": {
+    "random_drugs": "competitive empirical distribution across eligible compound consensuses",
+    "shuffled_signs": "2000 sign permutations for prioritized candidates; descriptive post-ranking validation",
+    "expression_matched_genes": "200 random modules matched by source-expression decile and L1000 measured/inferred status for prioritized candidates",
+    "cell_line": "all results retain cell context; relevant-context subsets are reported separately",
+    "dose_time": "individual contexts retained; sensitivity summarized by dose and time where at least three contexts exist"
+  },
+  "relevant_cell_contexts": {
+    "Multiple sclerosis": ["U937", "THP1", "JURKAT", "NOMO1", "CD34"],
+    "Systemic lupus erythematosus": ["U937", "THP1", "JURKAT", "NOMO1", "CD34"],
+    "Crohn's disease": ["HT29"],
+    "Radiation injury": ["FIBRNPC", "HT29"],
+    "Bone loss": ["CD34", "ASC"],
+    "Muscle atrophy": ["SKB"]
+  },
+  "latent_reversal": {
+    "run": false,
+    "reason": "LINCS Level-5 z scores with inferred genes are not the validated 15,165-gene canonical log1p(TPM) Bridge input. Negative latent cosine would therefore be uninterpretable."
+  },
+  "anti_tuning_statement": "Resource, filters, scoring, candidate thresholds, context rules and nulls were fixed before loading the Level-5 expression matrix or examining reversal outcomes."
+}

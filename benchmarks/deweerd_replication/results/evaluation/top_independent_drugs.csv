@@ -1,0 +1,39 @@
+accession,disease,method,drug_endpoint,minimum_targets,drug_id,drug_name,target_count,overlap_count,overlap_genes,pvalue,fdr,rank
+GSE138614,Multiple sclerosis — active lesion,Bridge,chembl_contract_sensitivity,3,CHEMBL1173655,AFATINIB,3,1,ERBB2,0.09676604040677121,1.0,1
+GSE138614,Multiple sclerosis — active lesion,Bridge,chembl_contract_sensitivity,3,CHEMBL180022,NERATINIB,3,1,ERBB2,0.09676604040677121,1.0,2
+GSE138614,Multiple sclerosis — active lesion,Bridge,chembl_contract_sensitivity,3,CHEMBL2110732,DACOMITINIB ANHYDROUS,3,1,ERBB2,0.09676604040677121,1.0,3
+GSE138614,Multiple sclerosis — active lesion,Bridge,chembl_contract_sensitivity,3,CHEMBL3358920,ETRASIMOD,3,1,S1PR5,0.09676604040677121,1.0,4
+GSE138614,Multiple sclerosis — active lesion,Bridge,chembl_contract_sensitivity,3,CHEMBL3646221,VADADUSTAT,3,1,EGLN3,0.09676604040677121,1.0,5
+GSE138614,Multiple sclerosis — active lesion,DE,chembl_contract_sensitivity,3,CHEMBL477772,PAZOPANIB,6,2,ITK;LCK,0.015232949067780588,0.9596757912701771,1
+GSE138614,Multiple sclerosis — active lesion,DE,chembl_contract_sensitivity,3,CHEMBL3646221,VADADUSTAT,3,1,EGLN3,0.09676604040677121,1.0,2
+GSE138614,Multiple sclerosis — active lesion,DE,chembl_contract_sensitivity,3,CHEMBL3948730,UMBRALISIB,3,1,PIK3CD,0.09676604040677121,1.0,3
+GSE138614,Multiple sclerosis — active lesion,DE,chembl_contract_sensitivity,3,CHEMBL644,TRIMIPRAMINE,5,1,HRH1,0.15602659125756374,1.0,4
+GSE101794,Crohn's disease — ileum,Bridge,chembl_contract_sensitivity,3,CHEMBL3646221,VADADUSTAT,3,1,EGLN3,0.13329909479143678,1.0,1
+GSE101794,Crohn's disease — ileum,Bridge,chembl_contract_sensitivity,3,CHEMBL17,DICHLORPHENAMIDE,4,1,CA2,0.1736670922394369,1.0,2
+GSE101794,Crohn's disease — ileum,Bridge,chembl_contract_sensitivity,3,CHEMBL19,METHAZOLAMIDE,4,1,CA2,0.1736670922394369,1.0,3
+GSE101794,Crohn's disease — ileum,Bridge,chembl_contract_sensitivity,3,CHEMBL20,ACETAZOLAMIDE,4,1,CA2,0.1736670922394369,1.0,4
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL3358920,ETRASIMOD,3,2,S1PR4;S1PR5,0.0038245737096557395,0.2218252751600329,1
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL1173655,AFATINIB,3,1,ERBB2,0.10465884993851844,0.6624396963013758,2
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL1433,DOXYCYCLINE ANHYDROUS,3,1,MMP8,0.10465884993851844,0.6624396963013758,3
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL180022,NERATINIB,3,1,ERBB2,0.10465884993851844,0.6624396963013758,4
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL19449,IBUDILAST,3,1,PDE5A,0.10465884993851844,0.6624396963013758,5
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL2110732,DACOMITINIB ANHYDROUS,3,1,ERBB2,0.10465884993851844,0.6624396963013758,6
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL3813873,PEXIDARTINIB,3,1,CSF1R,0.10465884993851844,0.6624396963013758,7
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL75880,PERHEXILINE,3,1,CPT1B,0.10465884993851844,0.6624396963013758,8
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL17,DICHLORPHENAMIDE,4,1,CA4,0.13705648888993982,0.6624396963013758,9
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL19,METHAZOLAMIDE,4,1,CA4,0.13705648888993982,0.6624396963013758,10
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL20,ACETAZOLAMIDE,4,1,CA4,0.13705648888993982,0.6624396963013758,11
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL576982,QUIZARTINIB,4,1,CSF1R,0.13705648888993982,0.6624396963013758,12
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL477772,PAZOPANIB,6,1,CSF1R,0.198383825548859,0.8850970678333709,13
+GSE72509,Systemic lupus erythematosus — blood,Bridge,chembl_contract_sensitivity,3,CHEMBL535,SUNITINIB,9,1,CSF1R,0.28231515728089196,1.0,14
+GSE72509,Systemic lupus erythematosus — blood,DE,chembl_contract_sensitivity,3,CHEMBL1946170,REGORAFENIB,13,3,EPHA2;FGFR2;NTRK1,0.010265163050607748,0.5953794569352494,1
+GSE72509,Systemic lupus erythematosus — blood,DE,chembl_contract_sensitivity,3,CHEMBL4297522,PEMIGATINIB,3,1,FGFR2,0.10465884993851844,1.0,2
+GSE72509,Systemic lupus erythematosus — blood,DE,chembl_contract_sensitivity,3,CHEMBL75880,PERHEXILINE,3,1,CPT1B,0.10465884993851844,1.0,3
+GSE72509,Systemic lupus erythematosus — blood,DE,chembl_contract_sensitivity,3,CHEMBL1421,DASATINIB ANHYDROUS,4,1,EPHA2,0.13705648888993982,1.0,4
+GSE72509,Systemic lupus erythematosus — blood,DE,chembl_contract_sensitivity,3,CHEMBL2111112,VERNAKALANT,4,1,KCNA5,0.13705648888993982,1.0,5
+GSE72509,Systemic lupus erythematosus — blood,DE,chembl_contract_sensitivity,3,CHEMBL4298138,REPOTRECTINIB,4,1,NTRK1,0.13705648888993982,1.0,6
+GSE72509,Systemic lupus erythematosus — blood,DE,chembl_contract_sensitivity,3,CHEMBL1200694,SEVOFLURANE,6,1,KCNK10,0.198383825548859,1.0,7
+GSE72509,Systemic lupus erythematosus — blood,DE,chembl_contract_sensitivity,3,CHEMBL1200733,DESFLURANE,6,1,KCNK10,0.198383825548859,1.0,8
+GSE72509,Systemic lupus erythematosus — blood,DE,chembl_contract_sensitivity,3,CHEMBL1256,ISOFLURANE,6,1,KCNK10,0.198383825548859,1.0,9
+GSE72509,Systemic lupus erythematosus — blood,DE,chembl_contract_sensitivity,3,CHEMBL1257,ENFLURANE,6,1,KCNK10,0.198383825548859,1.0,10
+GSE72509,Systemic lupus erythematosus — blood,DE,chembl_contract_sensitivity,3,CHEMBL931,HALOTHANE,6,1,KCNK10,0.198383825548859,1.0,11

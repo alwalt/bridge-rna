@@ -1,0 +1,26 @@
+{
+  "frozen_before_scoring": "2026-09-22",
+  "source": "benchmark #6 finalized observed GSE264130 assets",
+  "expression_primary": {
+    "vectors": "experimentally observed plate-averaged treated minus matched-DMSO natural log1p(TPM)",
+    "contexts": "each drug and cell line separately",
+    "condition_program": "frozen signed top-500 Bridge or DE module per contrast",
+    "statistic": "negative linear-rank-weighted cosine on genes observed in both resources; positive means opposition",
+    "null": "competitive empirical rank within the 372 drugs in the same cell line and frozen condition contrast",
+    "multiple_testing": "BH within condition contrast x method x cell line",
+    "descriptive_candidate": "positive score, empirical p <= 0.05 in both GSE264130 cell lines",
+    "cross_study_candidate": "positive score and empirical p <= 0.10 in both cell lines for every one of the three condition datasets"
+  },
+  "latent_primary": {
+    "input": "observed GSE264130 natural log1p(TPM), zero-filled to canonical 15,165-gene order",
+    "encoder": "frozen r7hnr92k checkpoint, mean final contextual token layer",
+    "drug_delta": "mean over two plate-level treated embedding minus matched six-DMSO-well embedding centroid",
+    "condition_delta": "existing frozen Bridge condition direction",
+    "statistic": "cosine; negative means opposition; reported reversal is negative cosine",
+    "null": "competitive empirical rank within the 372 drugs in the same cell line and contrast",
+    "multiple_testing": "BH within condition contrast x cell line"
+  },
+  "cell_consensus": "never average cell lines before individual scoring; classify both/one/mixed/reinforcement/insufficient",
+  "anti_tuning": "resource, signatures, statistics, nulls and thresholds frozen before scoring observed drug outcomes",
+  "forbidden": ["benchmark #6 predictions", "Morgan fingerprints", "MoLFormer embeddings", "condition redefinition", "LINCS rerun", "ChEMBL rerun"]
+}

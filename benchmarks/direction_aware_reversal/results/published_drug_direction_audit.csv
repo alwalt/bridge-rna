@@ -1,0 +1,31 @@
+condition,requested_drug,represented,lincs_name,method,classification,median_reversal,sign_consistency,competitive_p,competitive_q,contexts,cells
+Multiple sclerosis,muromonab,False,,Bridge,insufficient perturbation data,,,,,0,0
+Multiple sclerosis,muromonab,False,,DE,insufficient perturbation data,,,,,0,0
+Multiple sclerosis,ibrutinib,True,ibrutinib,Bridge,reverses,0.028819480910897255,0.6666666666666666,0.12899802940730634,0.999924207973321,6,6
+Multiple sclerosis,ibrutinib,True,ibrutinib,DE,reinforces,-0.15820163488388062,0.0,0.9771108079430044,0.9999242079733212,6,6
+Multiple sclerosis,daclizumab,False,,Bridge,insufficient perturbation data,,,,,0,0
+Multiple sclerosis,daclizumab,False,,DE,insufficient perturbation data,,,,,0,0
+Multiple sclerosis,zanubrutinib,False,,Bridge,insufficient perturbation data,,,,,0,0
+Multiple sclerosis,zanubrutinib,False,,DE,insufficient perturbation data,,,,,0,0
+Multiple sclerosis,alemtuzumab,False,,Bridge,insufficient perturbation data,,,,,0,0
+Multiple sclerosis,alemtuzumab,False,,DE,insufficient perturbation data,,,,,0,0
+Crohn's disease,zinc,False,,Bridge,insufficient perturbation data,,,,,0,0
+Crohn's disease,zinc,False,,DE,insufficient perturbation data,,,,,0,0
+Crohn's disease,zinc acetate,False,,Bridge,insufficient perturbation data,,,,,0,0
+Crohn's disease,zinc acetate,False,,DE,insufficient perturbation data,,,,,0,0
+Crohn's disease,dilmapimod,False,,Bridge,insufficient perturbation data,,,,,0,0
+Crohn's disease,dilmapimod,False,,DE,insufficient perturbation data,,,,,0,0
+Crohn's disease,glucosamine,True,glucosamine,Bridge,reinforces,-0.028454797342419624,0.3333333333333333,0.7110807943004396,0.999924207973321,3,3
+Crohn's disease,glucosamine,True,glucosamine,DE,reinforces,-0.05832524225115776,0.3333333333333333,0.9246627254812794,0.999924207973321,3,3
+Crohn's disease,vx-702,True,VX-702,Bridge,reinforces,-0.015342511236667633,0.35714285714285715,0.5657116871305139,0.999924207973321,14,14
+Crohn's disease,vx-702,True,VX-702,DE,reverses,0.09657061845064163,0.7857142857142857,0.07420039411853872,0.999924207973321,14,14
+Systemic lupus erythematosus,gemcitabine,True,gemcitabine,Bridge,mixed/context-dependent,0.010779586620628834,0.5510204081632653,0.44565711687130516,0.999924207973321,49,46
+Systemic lupus erythematosus,gemcitabine,True,gemcitabine,DE,mixed/context-dependent,-0.009911788627505302,0.4489795918367347,0.4758223434894649,0.999924207973321,49,46
+Systemic lupus erythematosus,enzastaurin,True,enzastaurin,Bridge,reverses,0.04448186606168747,0.6842105263157895,0.13907836895558587,0.999924207973321,19,19
+Systemic lupus erythematosus,enzastaurin,True,enzastaurin,DE,mixed/context-dependent,-0.01802174001932144,0.47368421052631576,0.5331211156586327,0.999924207973321,19,19
+Systemic lupus erythematosus,sunitinib,True,sunitinib,Bridge,reverses,0.02282245084643364,0.7857142857142857,0.3177959678641807,0.999924207973321,14,14
+Systemic lupus erythematosus,sunitinib,True,sunitinib,DE,mixed/context-dependent,-0.02779930830001831,0.42857142857142855,0.596483249962104,0.999924207973321,14,14
+Systemic lupus erythematosus,fostamatinib,True,fostamatinib,Bridge,mixed/context-dependent,0.004971032962203026,0.509090909090909,0.5122025162952857,0.999924207973321,55,55
+Systemic lupus erythematosus,fostamatinib,True,fostamatinib,DE,reverses,0.044552017003297806,0.6545454545454545,0.16128543277247234,0.999924207973321,55,55
+Systemic lupus erythematosus,cladribine,True,cladribine,Bridge,mixed/context-dependent,0.00669142697006464,0.5555555555555556,0.4918144611186903,0.999924207973321,9,9
+Systemic lupus erythematosus,cladribine,True,cladribine,DE,reverses,0.010131261311471462,0.6666666666666666,0.33901773533424284,0.999924207973321,9,9

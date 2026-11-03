@@ -1,0 +1,18 @@
+{
+  "matrix_sha256": "3b7c7540eb0e0cdb2c7f8a40a66548de360bfbcbc6f1b0854294964f737a3fea",
+  "score_matrix_sha256": "1bdd4ba16ace7d92a7749dbcca504b44de758737d04b63d5a4a511d823365ac6",
+  "contexts": 112495,
+  "genes": 8831,
+  "definitions": 135,
+  "formula": "negative weighted cosine on definition genes; positive is reversal",
+  "definition_counts": {
+    "top500": 36,
+    "full_ranking": 36,
+    "Bridge-only": 18,
+    "shared": 18,
+    "DE-only": 18,
+    "stable_recurrent": 6,
+    "stable_recurrent_bridge_only": 3
+  },
+  "upstream_steps_rerun": false
+}

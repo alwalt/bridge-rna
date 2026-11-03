@@ -1,0 +1,13 @@
+condition,method,candidates,target_supported
+Bone loss,Bridge,131,1
+Bone loss,DE,131,3
+Crohn's disease,Bridge,130,0
+Crohn's disease,DE,131,0
+Multiple sclerosis,Bridge,131,0
+Multiple sclerosis,DE,130,1
+Muscle atrophy,Bridge,131,0
+Muscle atrophy,DE,131,2
+Radiation injury,Bridge,131,0
+Radiation injury,DE,131,0
+Systemic lupus erythematosus,Bridge,131,0
+Systemic lupus erythematosus,DE,131,0

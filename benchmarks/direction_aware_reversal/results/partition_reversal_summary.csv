@@ -1,0 +1,25 @@
+condition,partition,candidate_count,named_candidate_count
+Multiple sclerosis,Bridge-only,131,9
+Multiple sclerosis,shared,130,15
+Multiple sclerosis,DE-only,130,38
+Multiple sclerosis,stable_recurrent_bridge_only,0,0
+Crohn's disease,Bridge-only,129,15
+Crohn's disease,shared,131,22
+Crohn's disease,DE-only,131,21
+Crohn's disease,stable_recurrent_bridge_only,0,0
+Systemic lupus erythematosus,Bridge-only,131,28
+Systemic lupus erythematosus,shared,131,23
+Systemic lupus erythematosus,DE-only,129,39
+Systemic lupus erythematosus,stable_recurrent_bridge_only,0,0
+Radiation injury,Bridge-only,754,175
+Radiation injury,shared,731,118
+Radiation injury,DE-only,745,163
+Radiation injury,stable_recurrent_bridge_only,131,56
+Bone loss,Bridge-only,481,156
+Bone loss,shared,514,75
+Bone loss,DE-only,498,121
+Bone loss,stable_recurrent_bridge_only,130,60
+Muscle atrophy,Bridge-only,502,108
+Muscle atrophy,shared,498,78
+Muscle atrophy,DE-only,445,110
+Muscle atrophy,stable_recurrent_bridge_only,131,14

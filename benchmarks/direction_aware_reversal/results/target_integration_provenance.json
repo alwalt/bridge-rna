@@ -1,0 +1,11 @@
+{
+  "mapping_priority": [
+    "exact full InChIKey",
+    "unique exact normalized preferred name"
+  ],
+  "expanded_chembl_edge_file": "benchmarks/deweerd_replication/results/evaluation2_expanded/chembl37_broad_drug_target_edges.csv.gz",
+  "eligible_chembl_drugs": 4389,
+  "lincs_compounds": 51383,
+  "mapped_lincs_compounds": 1423,
+  "target_support_definition": "at least one module-overlapping target in the frozen expanded-ChEMBL enrichment"
+}

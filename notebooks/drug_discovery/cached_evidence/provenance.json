@@ -1,0 +1,144 @@
+{
+  "report": "BridgeRNA biological prioritization and cross-study generalization",
+  "source_git_commit": "a7a4cd6f928f0bc118990301dfedbbf4ad7cb396",
+  "source_branch": "agents/bridge-rna-drug-discovery-benchmark",
+  "approval_scope": {
+    "task_1": "MS, Crohn's disease, and SLE single-cohort Bridge-versus-DE disease-gene recovery",
+    "task_2": "muscle atrophy, bone loss, and radiation cross-study terrestrial-to-OSDR generalization",
+    "pharmacology": "ChEMBL-connected experimental hypotheses only",
+    "excluded": "LINCS/L1000 and GSE264130 exploratory directionality analyses"
+  },
+  "frozen_model": {
+    "checkpoint": "model/r7hnr92k/best_model.pt",
+    "canonical_genes": 15165,
+    "input_transform": "natural log1p(TPM)",
+    "attribution": "signed Integrated Gradients; all-zero baseline; 16 midpoint-Riemann steps",
+    "primary_module_size": 500
+  },
+  "cohort_references": [
+    "benchmarks/deweerd_replication/results/locked_cohorts.csv",
+    "benchmarks/drug_discovery/results/dataset_matrix.csv",
+    "benchmarks/drug_discovery/results/manifests/sample_manifest.csv"
+  ],
+  "metric_definitions": {
+    "recurrence_fraction": "fraction of partition genes recurring in another independent same-condition dataset",
+    "osdr_jaccard": "mean Jaccard overlap between terrestrial and OSDR gene partitions",
+    "disease_gene_recovery": "top-500 module overlap with exact-CUI DisGeNET v7 genes; right-sided Fisher test with BH correction",
+    "radiation_stability": "paired top-500 Jaccard comparisons with Wilcoxon signed-rank test and matched random-gene nulls"
+  },
+  "random_seeds": {
+    "radiation_matched_random": "recorded in source provenance; 2,000 replicates"
+  },
+  "verification": {
+    "level": "aggregate-table recalculation and invariant checking; prediction-level arrays not packaged",
+    "tolerance": "5e-7 for selected stored summary values",
+    "status": "passed",
+    "artifact_hashes_verified": 14,
+    "executed_code_cells": 8,
+    "notebook_error_outputs": 0,
+    "prediction_level_verification": "not performed; compact aggregate source tables were verified"
+  },
+  "dependencies": {
+    "python": "Python 3.10.12",
+    "pandas": "2.2.3",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.7",
+    "nbformat": "5.10.4",
+    "nbconvert": "7.16.6"
+  },
+  "limitations": [
+    "Three independent studies per space condition.",
+    "Heterogeneous tissues, exposures, and model systems.",
+    "ARCHS4 exposure in some terrestrial cohorts.",
+    "Documented DisGeNET v7 differs from unavailable motivating-study filters.",
+    "ChEMBL used because no authorized DrugBank export was available.",
+    "Overall partition effects are descriptive without a saved paired null.",
+    "Target connectivity does not establish beneficial direction or efficacy."
+  ],
+  "artifacts": [
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/disease_gene_recovery.csv",
+      "source_path": "benchmarks/deweerd_replication/results/evaluation/disease_gene_recovery.csv",
+      "bytes": 20460,
+      "sha256": "30f8e163cc235cffa09767d33f294376230039cfdb2439ca75ff027a388a9a09"
+    },
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/locked_disease_cohorts.csv",
+      "source_path": "benchmarks/deweerd_replication/results/locked_cohorts.csv",
+      "bytes": 859,
+      "sha256": "062eac382c9ca664b6784b481883e7d07a5dbe3189fcd33cd0a7f1e74a6c1d83"
+    },
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/dataset_matrix.csv",
+      "source_path": "benchmarks/drug_discovery/results/dataset_matrix.csv",
+      "bytes": 1931,
+      "sha256": "a030eb59d8aa7f06f1814949269732b6c0d3a95608530ba2d401cbffc8925328"
+    },
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/partition_overall_summary.csv",
+      "source_path": "benchmarks/drug_discovery/results/expanded_chembl_sensitivity/partition_overall_summary.csv",
+      "bytes": 523,
+      "sha256": "2d2e04d00d214908e010f2750e6bb053bd1437ca40c5f9aaaa671807c4188018"
+    },
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/partition_condition_summary.csv",
+      "source_path": "benchmarks/drug_discovery/results/expanded_chembl_sensitivity/partition_condition_summary.csv",
+      "bytes": 1061,
+      "sha256": "19a6e6ee8fd8854cf7758fce6c0afe61e95909b096a59f5ff6d2d7f2ec85426e"
+    },
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/partition_deletion_summary.csv",
+      "source_path": "benchmarks/drug_discovery/results/expanded_chembl_sensitivity/partition_deletion_summary.csv",
+      "bytes": 3631,
+      "sha256": "cfb438a12745212ef5dea5156fc940af2f9f802c6c55870e1d158b86c719eb72"
+    },
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/expanded_vs_restrictive.csv",
+      "source_path": "benchmarks/drug_discovery/results/expanded_chembl_sensitivity/expanded_vs_restrictive.csv",
+      "bytes": 1035,
+      "sha256": "826fbdfd8ad1e8ec68ecdc7679f4b099f973826296a6e6ea085f862dd21291cd"
+    },
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/radiation_stability.csv",
+      "source_path": "benchmarks/drug_discovery/results/radiation_context_sensitivity/bridge_vs_de_stability.csv",
+      "bytes": 469,
+      "sha256": "b91006417712eb8f5d26a77179602931f335732be0d15ae76bc099a15e49dd87"
+    },
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/radiation_core_genes.csv",
+      "source_path": "benchmarks/drug_discovery/results/radiation_context_sensitivity/radiation_core_genes.csv",
+      "bytes": 235374,
+      "sha256": "c5c05095ddae69220af2200f2eaa2dcef246dd1e234c2513bff30d4755d572ed"
+    },
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/fibroblast_comparison.csv",
+      "source_path": "benchmarks/drug_discovery/results/radiation_context_sensitivity/fibroblast_comparison.csv",
+      "bytes": 1682,
+      "sha256": "d66bb6207ee37f6c09db430a5b2aa79025a3c9045d663444279ef017fa7f67ad"
+    },
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/muscle_target_summary.csv",
+      "source_path": "benchmarks/drug_discovery/results/muscle_target_decomposition/bridge_target_drug_dataset_summary.csv",
+      "bytes": 373,
+      "sha256": "28b6cf3d1b0f777fc413e0ae79499be18d02e05750b7ac2b60fae081501f191f"
+    },
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/muscle_target_removal.csv",
+      "source_path": "benchmarks/drug_discovery/results/muscle_target_decomposition/bridge_target_removal_sensitivity.csv",
+      "bytes": 634,
+      "sha256": "5eb8d9168facae062f76505a3fb05f2b39089d76d9890341ef08578ec0ac3e45"
+    },
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/space_validation.json",
+      "source_path": "benchmarks/drug_discovery/results/expanded_chembl_sensitivity/validation_summary.json",
+      "bytes": 414,
+      "sha256": "a9ec64ca945aea39be67c90e4af33277be0f4ca890416b1a336eca3c926ec5bb"
+    },
+    {
+      "packaged_path": "notebooks/drug_discovery/cached_evidence/disease_validation.json",
+      "source_path": "benchmarks/deweerd_replication/results/validation_summary.json",
+      "bytes": 814,
+      "sha256": "1f4a9cb0e62b410f2e66e7176cdf9ca7fe471594d28155f257e5cfe928c33348"
+    }
+  ]
+}

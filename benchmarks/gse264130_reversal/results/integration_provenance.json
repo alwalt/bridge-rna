@@ -1,0 +1,7 @@
+{
+  "prior_analyses_rerun": false,
+  "LINCS_role": "secondary cross-assay only",
+  "composite_score_created": false,
+  "drug_matching": "normalized exact name",
+  "layers_kept_separate": true
+}

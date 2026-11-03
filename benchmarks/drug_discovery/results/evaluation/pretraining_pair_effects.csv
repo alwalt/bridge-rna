@@ -1,0 +1,10 @@
+condition,dataset_1,dataset_2,status_1,status_2,pretraining_pair,Bridge,DE,bridge_minus_de
+Bone loss,GSE189524,GSE273868,unseen,unseen,strict_unseen_pair,0.25,0.16666666666666666,0.08333333333333334
+Bone loss,GSE189524,GSE276529,unseen,unseen,strict_unseen_pair,0.07692307692307693,0.375,-0.2980769230769231
+Bone loss,GSE276529,GSE273868,unseen,unseen,strict_unseen_pair,0.1,0.0,0.1
+Muscle atrophy,GSE113165,GSE234465,seen,unused-held-out,exposure_involved,0.5714285714285714,0.18181818181818182,0.3896103896103896
+Muscle atrophy,GSE211204,GSE113165,partial,seen,exposure_involved,1.0,0.2222222222222222,0.7777777777777778
+Muscle atrophy,GSE211204,GSE234465,partial,unused-held-out,exposure_involved,0.5714285714285714,0.14285714285714285,0.42857142857142855
+Radiation,GSE184119,GSE297560,seen,unseen,exposure_involved,0.07692307692307693,0.125,-0.04807692307692307
+Radiation,GSE297090,GSE184119,unseen,seen,exposure_involved,0.15384615384615385,0.0,0.15384615384615385
+Radiation,GSE297090,GSE297560,unseen,unseen,strict_unseen_pair,0.23529411764705882,0.0,0.23529411764705882
