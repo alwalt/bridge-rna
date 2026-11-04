@@ -1,0 +1,383 @@
+{
+  "source_git_revision": "d565279a1dbd276cdb8adf07466834f301ba519c",
+  "uncommitted_layout_migration": true,
+  "research_name": "static_gene_embeddings",
+  "report_name": "representation_analysis",
+  "approval_scope": "User invoked benchmark-notebook after representation review and manuscript-outline discussion; static identity, sampled depth, GTEx/TCGA within-between variation, and expression/coexpression controls.",
+  "checkpoint_sha256": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541",
+  "normalization": "natural log1p(TPM), canonical 15165-gene order",
+  "layers": [
+    "L0_static",
+    "L1_early",
+    "L6_middle",
+    "L12_final"
+  ],
+  "samples": {
+    "GTEx": 200,
+    "TCGA": 200,
+    "contexts_per_dataset": 10,
+    "samples_per_context": 20
+  },
+  "seeds": {
+    "static_characterization": [
+      42,
+      43,
+      44
+    ],
+    "cohort_modules": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "conditional_pair_sampling": 20260921
+  },
+  "source_files": [
+    {
+      "source": "research/static_gene_embeddings/results/static_embeddings/gene_embedding_analysis.csv",
+      "sha256": "e7ed18997bc718a7f6b7e5e25ba328345ad95ee13f84c2b72e6b19151d62ecca",
+      "bytes": 1082212,
+      "cached_file": "static_gene_coordinates.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/static_characterization/representation_summary.csv",
+      "sha256": "1300f0e7a6ce101b8867735b96a01b9789569c8b41b0f253d325aa7d89dba071",
+      "bytes": 1602,
+      "cached_file": "static_geometry.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/static_characterization/pca_variance_raw.csv",
+      "sha256": "19e16614dc42f7d72bd8f76703b317d8efd26a38e7fe1157b1b26f311e10b379",
+      "bytes": 16042,
+      "cached_file": "static_pca_variance.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/matched_gtex_tcga/gtex_tcga_summary.csv",
+      "sha256": "96eeca74a421ab8f8e1ea9fb9cf86913ef2c813807fc4c0b1c6c63dd14fd39fc",
+      "bytes": 18854,
+      "cached_file": "depth_summary.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/matched_gtex_tcga/neighbor_enrichment_per_sample.csv",
+      "sha256": "7a98b0304c41b4df6c3c2c4b1c9cd1bd7d88bef7e31087d08a5edef28ee97215",
+      "bytes": 1936379,
+      "cached_file": "depth_per_sample.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/matched_gtex_tcga/cohort_manifest.csv",
+      "sha256": "a2d7ed7aec4183abb7405cfd64363e44dd7d384c97ceb0c61af1e44e7ce26b54",
+      "bytes": 20655,
+      "cached_file": "sample_manifest.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/matched_gtex_tcga/context_dependence_summary.csv",
+      "sha256": "b5498e3bf349e69cd1ce46fb1946906bc38c3f5c7982a934218d40175e061ce8",
+      "bytes": 756,
+      "cached_file": "context_dependence.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/coexpression_baseline/coexpression_vs_bridge_summary.csv",
+      "sha256": "147d34bc12226b7f36fd2a78a7d377cc2e8dc941dfc0d220424f8dcba31f4119",
+      "bytes": 10995,
+      "cached_file": "coexpression_comparison.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/coexpression_baseline/primary_k25_comparison.csv",
+      "sha256": "f662dc6a653f100ef752a986200dff98da00172768bb983444231375fb182bfa",
+      "bytes": 767,
+      "cached_file": "coexpression_primary_k25.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/coexpression_baseline/gene_eligibility.csv",
+      "sha256": "e9cf675a27f10ebf0e8ef050524a245b4ff74d36ab2c9ce3f0e3bfb0d29e054d",
+      "bytes": 113,
+      "cached_file": "gene_eligibility.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/l12_conditional_function/l12_conditional_results.csv",
+      "sha256": "640e5088a53ee952d7209e8d29fa60d145cdb62311179c06924dd02ac047572a",
+      "bytes": 2944,
+      "cached_file": "conditional_results.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/contextual_gene_modules/contextual_gene_module_summary.csv",
+      "sha256": "95fd31126397a870bb34f87f2d7d42f9b627a99738470cefee763e53e286ce8c",
+      "bytes": 2684,
+      "cached_file": "module_summary.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/contextual_gene_modules/expression_control_summary.csv",
+      "sha256": "ce80776ec96aea7c8eeb1e8b9e242d3f840265a20f0e1b22cd2545b723cfedd2",
+      "bytes": 821,
+      "cached_file": "expression_control_summary.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/context_colored_gene_projections/context_residual_gene_projections.csv",
+      "sha256": "8e80fbda9903a351465876a3e3f21b55e8f03bc2e9019d18773391d0a6f24034",
+      "bytes": 2495904,
+      "cached_file": "context_umap_coordinates.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/static_embeddings/provenance.json",
+      "sha256": "ec21b1fec58ebf583aad05e762d3299373e4b74b70d8a17df31e64f434c37f4a",
+      "bytes": 2697,
+      "cached_file": "static_embeddings_source_provenance.json"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/static_characterization/provenance.json",
+      "sha256": "1ca0058055b78e574b7a72ee7f7c041b3916820de0e0cf6dfdcd2acf57082c5e",
+      "bytes": 954,
+      "cached_file": "static_characterization_source_provenance.json"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/contextual_depth/provenance.json",
+      "sha256": "cdc4ade8f06f37500402faeba1963452291d8be4f6a4a9858c45b1245055844c",
+      "bytes": 1140,
+      "cached_file": "contextual_depth_source_provenance.json"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/matched_gtex_tcga/provenance.json",
+      "sha256": "d643bfe4b8e2875d492051650690ebaa29d1386f49b5d2dabd9c60693596c103",
+      "bytes": 1382,
+      "cached_file": "matched_gtex_tcga_source_provenance.json"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/coexpression_baseline/provenance.json",
+      "sha256": "8374c2d83f8379801ef007ce9ac832724c63d8df0caf1352f7091c5ae73e9bf2",
+      "bytes": 1786,
+      "cached_file": "coexpression_baseline_source_provenance.json"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/l12_conditional_function/provenance.json",
+      "sha256": "6d7ea0d7a35a888e75d389a34b5b664b231666e4131f5cc4964b3b2b6ec692a5",
+      "bytes": 1470,
+      "cached_file": "l12_conditional_function_source_provenance.json"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/contextual_gene_modules/provenance.json",
+      "sha256": "b8467412a8c6c877d3b7506e0ad3e699501bd235cb55aef79222782e0b46d8be",
+      "bytes": 1314,
+      "cached_file": "contextual_gene_modules_source_provenance.json"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/context_colored_gene_projections/provenance.json",
+      "sha256": "d0e59352c51a066ffbf419cb8685383c718024a952a82a54c4e8163938392ce8",
+      "bytes": 771,
+      "cached_file": "context_colored_gene_projections_source_provenance.json"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/contextual_gene_modules/expression_control_provenance.json",
+      "sha256": "fa48198dc5da3e626c9c03091bc081aea997d84f915a986dd74346589fc331ed",
+      "bytes": 554,
+      "cached_file": "expression_control_provenance.json"
+    }
+  ],
+  "prediction_verification": {
+    "status": "passed",
+    "manifest_samples": 400,
+    "contexts_per_cohort": 10,
+    "samples_per_context": 20,
+    "depth_groups_checked": 96,
+    "prediction_rows_checked": 535206,
+    "conditional_groups_checked": 4,
+    "repeated_directed_pair_rows_by_group": [
+      {
+        "dataset": "GTEx",
+        "library": "GO",
+        "repeated_directed_pair_rows": 722
+      },
+      {
+        "dataset": "GTEx",
+        "library": "KEGG",
+        "repeated_directed_pair_rows": 198
+      },
+      {
+        "dataset": "TCGA",
+        "library": "GO",
+        "repeated_directed_pair_rows": 722
+      },
+      {
+        "dataset": "TCGA",
+        "library": "KEGG",
+        "repeated_directed_pair_rows": 198
+      }
+    ],
+    "maximum_metric_difference": 8.326672684688674e-17,
+    "absolute_metric_tolerance": 1e-12,
+    "canonical_order_verified": true,
+    "pca_cumulative_tolerance": 1e-06,
+    "pca_tolerance_reason": "Original PCA arrays and cumulative sum were float32; recomputing a CSV-loaded float64 sum differs by at most 2.4e-7",
+    "coexpression_ratios_checked": 72,
+    "fold_exclusivity": "anchor-grouped split read from original implementation; fold IDs not available in saved predictions",
+    "uncertainty": "saved CIs retained; not recalculated",
+    "prediction_source": {
+      "path": "research/static_gene_embeddings/results/l12_conditional_function/out_of_fold_predictions.parquet",
+      "sha256": "4fb09c50f9a9ed362dca337aaebe4956a8125fad29019f2ad39f9b49ce7aa5c2",
+      "bytes": 10198020
+    }
+  },
+  "dependencies": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9",
+    "scikit-learn": "1.8.0",
+    "pyarrow": "24.0.0",
+    "nbformat": "5.11.0",
+    "nbclient": "0.11.0",
+    "nbconvert": "7.17.1",
+    "ipykernel": "7.3.0"
+  },
+  "generator": {
+    "path": "research/static_gene_embeddings/pipeline/build_representation_analysis_report.py",
+    "sha256": "c65e59e5aeb6d2880fa98da0beb966556bec990f3b45d8b89ecdc46c51ae8adb"
+  },
+  "preprocessing_notes": "Source provenance retains historical paths; UMAP cache selects existing coordinates without refitting. Original prediction rows are not duplicated.",
+  "limitations": [
+    "Annotation rather than experimental phenotype",
+    "Anchor-grouped, not fully gene-disjoint prediction",
+    "Unpaired normal/tumor cohorts; donor/pretraining exposure not established",
+    "No recomputation of confidence intervals or original encoder outputs",
+    "Exploratory protocols and multiple related endpoints"
+  ],
+  "cached_files": [
+    {
+      "file": "coexpression_baseline_source_provenance.json",
+      "sha256": "8374c2d83f8379801ef007ce9ac832724c63d8df0caf1352f7091c5ae73e9bf2",
+      "bytes": 1786
+    },
+    {
+      "file": "coexpression_comparison.csv",
+      "sha256": "147d34bc12226b7f36fd2a78a7d377cc2e8dc941dfc0d220424f8dcba31f4119",
+      "bytes": 10995
+    },
+    {
+      "file": "coexpression_primary_k25.csv",
+      "sha256": "f662dc6a653f100ef752a986200dff98da00172768bb983444231375fb182bfa",
+      "bytes": 767
+    },
+    {
+      "file": "conditional_results.csv",
+      "sha256": "640e5088a53ee952d7209e8d29fa60d145cdb62311179c06924dd02ac047572a",
+      "bytes": 2944
+    },
+    {
+      "file": "context_colored_gene_projections_source_provenance.json",
+      "sha256": "d0e59352c51a066ffbf419cb8685383c718024a952a82a54c4e8163938392ce8",
+      "bytes": 771
+    },
+    {
+      "file": "context_dependence.csv",
+      "sha256": "b5498e3bf349e69cd1ce46fb1946906bc38c3f5c7982a934218d40175e061ce8",
+      "bytes": 756
+    },
+    {
+      "file": "context_umap_coordinates.csv",
+      "sha256": "55f461c8fa3c04435a417d4270c34cefaf9f376ec2760f13d86215eadf2c3843",
+      "bytes": 1807147
+    },
+    {
+      "file": "contextual_depth_source_provenance.json",
+      "sha256": "cdc4ade8f06f37500402faeba1963452291d8be4f6a4a9858c45b1245055844c",
+      "bytes": 1140
+    },
+    {
+      "file": "contextual_gene_modules_source_provenance.json",
+      "sha256": "b8467412a8c6c877d3b7506e0ad3e699501bd235cb55aef79222782e0b46d8be",
+      "bytes": 1314
+    },
+    {
+      "file": "depth_per_sample.csv",
+      "sha256": "7a98b0304c41b4df6c3c2c4b1c9cd1bd7d88bef7e31087d08a5edef28ee97215",
+      "bytes": 1936379
+    },
+    {
+      "file": "depth_summary.csv",
+      "sha256": "96eeca74a421ab8f8e1ea9fb9cf86913ef2c813807fc4c0b1c6c63dd14fd39fc",
+      "bytes": 18854
+    },
+    {
+      "file": "expression_control_provenance.json",
+      "sha256": "fa48198dc5da3e626c9c03091bc081aea997d84f915a986dd74346589fc331ed",
+      "bytes": 554
+    },
+    {
+      "file": "expression_control_summary.csv",
+      "sha256": "ce80776ec96aea7c8eeb1e8b9e242d3f840265a20f0e1b22cd2545b723cfedd2",
+      "bytes": 821
+    },
+    {
+      "file": "gene_eligibility.csv",
+      "sha256": "e9cf675a27f10ebf0e8ef050524a245b4ff74d36ab2c9ce3f0e3bfb0d29e054d",
+      "bytes": 113
+    },
+    {
+      "file": "l12_conditional_function_source_provenance.json",
+      "sha256": "6d7ea0d7a35a888e75d389a34b5b664b231666e4131f5cc4964b3b2b6ec692a5",
+      "bytes": 1470
+    },
+    {
+      "file": "matched_gtex_tcga_source_provenance.json",
+      "sha256": "d643bfe4b8e2875d492051650690ebaa29d1386f49b5d2dabd9c60693596c103",
+      "bytes": 1382
+    },
+    {
+      "file": "module_summary.csv",
+      "sha256": "95fd31126397a870bb34f87f2d7d42f9b627a99738470cefee763e53e286ce8c",
+      "bytes": 2684
+    },
+    {
+      "file": "recomputed_prediction_metrics.csv",
+      "sha256": "3f9b87f7cf5dc40c8dd48b3e18626edce7401b884b1458a436a7454c48e1cabe",
+      "bytes": 593
+    },
+    {
+      "file": "requirements.txt",
+      "sha256": "d0dc7303d45ddded382c69133edfeaf93ff6ce594ff1663a9fcdfbdebf61accb",
+      "bytes": 152
+    },
+    {
+      "file": "sample_manifest.csv",
+      "sha256": "a2d7ed7aec4183abb7405cfd64363e44dd7d384c97ceb0c61af1e44e7ce26b54",
+      "bytes": 20655
+    },
+    {
+      "file": "static_characterization_source_provenance.json",
+      "sha256": "1ca0058055b78e574b7a72ee7f7c041b3916820de0e0cf6dfdcd2acf57082c5e",
+      "bytes": 954
+    },
+    {
+      "file": "static_embeddings_source_provenance.json",
+      "sha256": "ec21b1fec58ebf583aad05e762d3299373e4b74b70d8a17df31e64f434c37f4a",
+      "bytes": 2697
+    },
+    {
+      "file": "static_gene_coordinates.csv",
+      "sha256": "e7ed18997bc718a7f6b7e5e25ba328345ad95ee13f84c2b72e6b19151d62ecca",
+      "bytes": 1082212
+    },
+    {
+      "file": "static_geometry.csv",
+      "sha256": "1300f0e7a6ce101b8867735b96a01b9789569c8b41b0f253d325aa7d89dba071",
+      "bytes": 1602
+    },
+    {
+      "file": "static_pca_variance.csv",
+      "sha256": "19e16614dc42f7d72bd8f76703b317d8efd26a38e7fe1157b1b26f311e10b379",
+      "bytes": 16042
+    },
+    {
+      "file": "validation.json",
+      "sha256": "8ca57cf53a44adc22c0b801668876ee1774db97d29a97f095540d630fa5ce3bb",
+      "bytes": 1666
+    }
+  ],
+  "notebook_execution": {
+    "status": "passed",
+    "fresh_kernel": true,
+    "external_research_and_archive_access_blocked": true,
+    "network_access_blocked": true,
+    "code_cells": 10,
+    "figure_pairs": 7
+  }
+}

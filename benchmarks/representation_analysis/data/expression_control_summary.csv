@@ -1,0 +1,11 @@
+dataset,control,significant_go_terms,significant_kegg_terms,layer,silhouette,stability_ari
+GTEx,expression_deciles,382,73,,,
+GTEx,linear_tpm_residual,0,0,L0_static,0.000580257794354111,0.0063930166874981
+GTEx,linear_tpm_residual,59,22,L1_early,0.0010520139476284385,0.0973905824778285
+GTEx,linear_tpm_residual,1945,302,L6_middle,-0.007955373264849186,0.4344669779165482
+GTEx,linear_tpm_residual,2229,305,L12_final,0.019278082996606827,0.9265869981999988
+TCGA,expression_deciles,493,98,,,
+TCGA,linear_tpm_residual,0,0,L0_static,0.0005563856684602797,0.006735927048102585
+TCGA,linear_tpm_residual,69,35,L1_early,0.0009114674176089466,0.11529560632785496
+TCGA,linear_tpm_residual,1773,274,L6_middle,-0.006892514415085316,0.4572040173725874
+TCGA,linear_tpm_residual,2192,280,L12_final,0.016036884859204292,0.8587434620038927

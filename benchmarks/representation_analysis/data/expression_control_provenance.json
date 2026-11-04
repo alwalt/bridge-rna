@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "expression_only": "ten equal-frequency bins of cohort mean log1p(TPM)",
+  "residualization": "per dataset/layer, subtract least-squares linear association of each of 512 dimensions with centered mean log1p(TPM)",
+  "clustering": {
+    "k": 10,
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "n_init": 10,
+    "space": "original 512-D residual vectors"
+  },
+  "caveat": "linear residualization does not remove nonlinear or higher-order expression effects",
+  "elapsed_seconds": 812.1093146800995
+}

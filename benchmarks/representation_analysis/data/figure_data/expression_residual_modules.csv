@@ -1,0 +1,9 @@
+dataset,library,condition,significant_cluster_term_rows
+GTEx,GO,Original L12,2305
+TCGA,GO,Original L12,2239
+GTEx,GO,Linear expression residual,2229
+TCGA,GO,Linear expression residual,2192
+GTEx,KEGG,Original L12,374
+TCGA,KEGG,Original L12,366
+GTEx,KEGG,Linear expression residual,305
+TCGA,KEGG,Linear expression residual,280

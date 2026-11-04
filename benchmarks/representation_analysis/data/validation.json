@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "manifest_samples": 400,
+  "contexts_per_cohort": 10,
+  "samples_per_context": 20,
+  "depth_groups_checked": 96,
+  "prediction_rows_checked": 535206,
+  "conditional_groups_checked": 4,
+  "repeated_directed_pair_rows_by_group": [
+    {
+      "dataset": "GTEx",
+      "library": "GO",
+      "repeated_directed_pair_rows": 722
+    },
+    {
+      "dataset": "GTEx",
+      "library": "KEGG",
+      "repeated_directed_pair_rows": 198
+    },
+    {
+      "dataset": "TCGA",
+      "library": "GO",
+      "repeated_directed_pair_rows": 722
+    },
+    {
+      "dataset": "TCGA",
+      "library": "KEGG",
+      "repeated_directed_pair_rows": 198
+    }
+  ],
+  "maximum_metric_difference": 8.326672684688674e-17,
+  "absolute_metric_tolerance": 1e-12,
+  "canonical_order_verified": true,
+  "pca_cumulative_tolerance": 1e-06,
+  "pca_tolerance_reason": "Original PCA arrays and cumulative sum were float32; recomputing a CSV-loaded float64 sum differs by at most 2.4e-7",
+  "coexpression_ratios_checked": 72,
+  "fold_exclusivity": "anchor-grouped split read from original implementation; fold IDs not available in saved predictions",
+  "uncertainty": "saved CIs retained; not recalculated",
+  "prediction_source": {
+    "path": "research/static_gene_embeddings/results/l12_conditional_function/out_of_fold_predictions.parquet",
+    "sha256": "4fb09c50f9a9ed362dca337aaebe4956a8125fad29019f2ad39f9b49ce7aa5c2",
+    "bytes": 10198020
+  },
+  "notebook_execution": {
+    "status": "passed",
+    "fresh_kernel": true,
+    "external_research_and_archive_access_blocked": true,
+    "network_access_blocked": true,
+    "code_cells": 10,
+    "figure_pairs": 7
+  }
+}

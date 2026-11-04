@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "profile": "lightweight_exploratory",
+  "samples": 8,
+  "sample_selection": "one deterministic primary tumor from each of eight distinct TCGA cohorts",
+  "layers": {
+    "L0_static": 0,
+    "L1_early": 1,
+    "L6_middle": 6,
+    "L12_final": 12
+  },
+  "L0_definition": "pure gene_embedding.weight; sample invariant; excludes expression rotary embedding",
+  "individual_gene_tokens": true,
+  "neighbor_candidates": "other genes within the same sample; same-gene cross-sample identity matches excluded by design",
+  "geometries": [
+    "raw_cosine",
+    "mean_centered_cosine"
+  ],
+  "pc_removal": "not run in lightweight screen",
+  "ks": [
+    10,
+    25,
+    50
+  ],
+  "annotation_background_genes": 15165,
+  "matched_pairs_per_class": 5000,
+  "null_reps": 10,
+  "limitations": [
+    "TCGA tumors are biologically diverse but not healthy tissue controls",
+    "small exploratory sample count",
+    "random controls are degree-quartile matched for pair retrieval and annotation-eligible for neighborhoods",
+    "empirical p-values are coarse with 10 null replicates"
+  ],
+  "elapsed_seconds": 50.86504864692688
+}
