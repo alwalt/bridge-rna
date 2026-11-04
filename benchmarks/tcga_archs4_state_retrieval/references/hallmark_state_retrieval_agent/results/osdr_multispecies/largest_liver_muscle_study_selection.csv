@@ -1,3 +1,0 @@
-domain,study,samples,FLT,GC,groups,tissues,tie_break
-liver,OSD-379,70,35,35,1,left lobe of the liver,largest eligible sample count; lexicographically first OSD ID if tied
-muscle,OSD-665,20,10,10,1,right extensor digitorum longus,largest eligible sample count; lexicographically first OSD ID if tied

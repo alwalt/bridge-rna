@@ -1,6 +1,0 @@
-[IG] 1/4 elapsed=110.5s
-[IG] 2/4 elapsed=220.7s
-[IG] 3/4 elapsed=330.8s
-[IG] 4/4 elapsed=440.8s
-/home/walt/bridge-rna.worktrees/create-a-new-self-contained-benchmark-investigat/benchmarks/bridge_hallmark_representation/pipeline/integrated_gradients.py:55: RuntimeWarning: Mean of empty slice
-  subset=rows.groupby(["gene"],as_index=False).agg(ig_absolute=("ig_absolute","mean"),de_statistic=("de_statistic",lambda x:np.nanmean(abs(x))));fig,ax=plt.subplots(figsize=(7,6));ax.scatter(subset.de_statistic,subset.ig_absolute,s=4,alpha=.4);ax.set(xlabel="Mean absolute DE statistic",ylabel="Mean absolute IG");fig.tight_layout();fig.savefig(RESULTS/"ig_vs_de.png",dpi=180);plt.close(fig)

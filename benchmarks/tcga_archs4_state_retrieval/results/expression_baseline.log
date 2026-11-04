@@ -1,8 +1,0 @@
-[2026-09-25T05:51:43.777707+00:00] expression centroid: 1/32 queries; 4.3/s; ETA=7.2s
-[2026-09-25T05:51:43.813406+00:00] expression centroid: 10/32 queries; 37.5/s; ETA=0.6s
-[2026-09-25T05:51:43.852289+00:00] expression centroid: 20/32 queries; 65.4/s; ETA=0.2s
-[2026-09-25T05:51:43.895122+00:00] expression centroid: 30/32 queries; 86.1/s; ETA=0.0s
-[2026-09-25T05:51:43.903874+00:00] expression centroid: 32/32 queries; 89.6/s; ETA=0.0s
-[2026-09-25T05:51:45.376131+00:00] bridge512_cosine 40k: 32/32 queries; 9685.1/s; ETA=0.0s
-[2026-09-25T05:51:45.588246+00:00] hallmark50_cosine 40k: 32/32 queries; 52108.9/s; ETA=0.0s
-[2026-09-25T05:51:46.742499+00:00] Expression baseline complete

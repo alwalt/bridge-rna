@@ -1,8 +1,0 @@
-[IG validation] 1/4 elapsed=2.2s eta=6.7s
-[IG validation] 2/4 elapsed=4.4s eta=4.4s
-[IG validation] 3/4 elapsed=6.5s eta=2.2s
-[IG validation] 4/4 elapsed=8.6s eta=0.0s
-{
-  "validated_steps": 128,
-  "profiles": 16
-}

@@ -1,3 +1,0 @@
-contrast,group_a,group_b,n_a,n_b,de_method,whole_genes,bridge_intersection_genes
-LUAD_vs_LUSC,LUAD,LUSC,516,501,Welch t statistic on log1p CPM,25150,14656
-KIRC_vs_KIRP,KIRC,KIRP,531,290,Welch t statistic on log1p CPM,25150,14656

@@ -1,9 +1,0 @@
-{
-  "status": "complete",
-  "scope": "cancer centroids only; deterministic existing 40,000-sample cache",
-  "candidate_samples": 40000,
-  "genes": 15165,
-  "representation": "natural log1p(TPM), exact canonical Bridge order",
-  "same_candidate_universe_for_method_overlap": true,
-  "reason_for_scope": "full 9,816 x 510,709 x 15,165 expression retrieval is unnecessarily expensive and explicitly permitted to be centroid/subset scoped"
-}

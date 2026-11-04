@@ -1,3 +1,0 @@
-contrast,nes_pearson,rank_spearman,direction_agreement,significant_both,significant_whole_only,significant_vocab_only,significant_jaccard,mean_leading_edge_jaccard,bridge_whole_rank_spearman,bridge_vocab_rank_spearman
-KIRC_vs_KIRP,0.9653155789091304,0.9830972388955582,0.96,26,3,0,0.896551724137931,0.8549303593991465,0.7360864345738295,0.7745018007202881
-LUAD_vs_LUSC,0.9840040155418048,0.9722448979591836,0.98,20,5,0,0.8,0.8563095969390463,0.5987515006002401,0.6134453781512604
