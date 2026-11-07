@@ -1,0 +1,69 @@
+{
+  "samples_per_context": 20,
+  "total_samples": 400,
+  "genes": 500,
+  "checkpoint_sha256": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541",
+  "layers": {
+    "L0_static": 0,
+    "L1_early": 1,
+    "L6_middle": 6,
+    "L12_final": 12
+  },
+  "source_manifest": "sample_manifest.csv",
+  "cohort_selection": "cohort_selection.json",
+  "organ_pairs": [
+    [
+      "mammary gland",
+      "BRCA"
+    ],
+    [
+      "sigmoid colon",
+      "COAD"
+    ],
+    [
+      "cortex",
+      "GBM"
+    ],
+    [
+      "liver",
+      "LIHC"
+    ],
+    [
+      "lung",
+      "LUAD"
+    ],
+    [
+      "stomach",
+      "STAD"
+    ],
+    [
+      "pancreas",
+      "PAAD"
+    ],
+    [
+      "ovary",
+      "OV"
+    ],
+    [
+      "adrenal",
+      "ACC"
+    ],
+    [
+      "testis",
+      "TGCT"
+    ]
+  ],
+  "method": "Mean raw token vectors across all 20 samples per context; subtract gene mean across contexts within cohort/layer; joint GTEx+TCGA PCA50/UMAP per layer",
+  "pca_seed": 42,
+  "umap": {
+    "n_neighbors": 30,
+    "min_dist": 0.1,
+    "metric": "cosine",
+    "seed": 42
+  },
+  "status": "complete; approved organ-corresponding visualization",
+  "limitations": "Organ correspondence is not cell-type matching or patient pairing; new visualization cohort differs from the original quantitative benchmark. Independent layouts by layer; visual separation is not an effect size; averaged contexts hide within-context heterogeneity",
+  "genes_per_context": 500,
+  "cohort_scope": "Separate visualization cohort; original benchmark numerical results unchanged",
+  "selection_manifest_sha256": "cb1db39c0736a82708df21b9d14057d18ef5517d4c5ffba8e3c6e9be91579343"
+}

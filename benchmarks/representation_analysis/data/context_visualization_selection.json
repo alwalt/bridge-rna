@@ -1,0 +1,148 @@
+{
+  "seed": 20260920,
+  "pairs": [
+    [
+      "mammary gland",
+      "BRCA"
+    ],
+    [
+      "sigmoid colon",
+      "COAD"
+    ],
+    [
+      "cortex",
+      "GBM"
+    ],
+    [
+      "liver",
+      "LIHC"
+    ],
+    [
+      "lung",
+      "LUAD"
+    ],
+    [
+      "stomach",
+      "STAD"
+    ],
+    [
+      "pancreas",
+      "PAAD"
+    ],
+    [
+      "ovary",
+      "OV"
+    ],
+    [
+      "adrenal",
+      "ACC"
+    ],
+    [
+      "testis",
+      "TGCT"
+    ]
+  ],
+  "selection": [
+    {
+      "dataset": "GTEx",
+      "context": "mammary gland",
+      "method": "20 cached samples selected with pandas sample random_state=20260920"
+    },
+    {
+      "dataset": "GTEx",
+      "context": "sigmoid colon",
+      "method": "20 cached samples selected with pandas sample random_state=20260920"
+    },
+    {
+      "dataset": "GTEx",
+      "context": "cortex",
+      "method": "Retained exact 20 frozen samples from original benchmark"
+    },
+    {
+      "dataset": "GTEx",
+      "context": "liver",
+      "method": "Retained exact 20 frozen samples from original benchmark"
+    },
+    {
+      "dataset": "GTEx",
+      "context": "lung",
+      "method": "Retained exact 20 frozen samples from original benchmark"
+    },
+    {
+      "dataset": "GTEx",
+      "context": "stomach",
+      "method": "20 cached samples selected with pandas sample random_state=20260920"
+    },
+    {
+      "dataset": "GTEx",
+      "context": "pancreas",
+      "method": "Retained exact 20 frozen samples from original benchmark"
+    },
+    {
+      "dataset": "GTEx",
+      "context": "ovary",
+      "method": "20 cached samples selected with pandas sample random_state=20260920"
+    },
+    {
+      "dataset": "GTEx",
+      "context": "adrenal",
+      "method": "20 cached samples selected with pandas sample random_state=20260920"
+    },
+    {
+      "dataset": "GTEx",
+      "context": "testis",
+      "method": "Retained exact 20 frozen samples from original benchmark"
+    },
+    {
+      "dataset": "TCGA",
+      "context": "BRCA",
+      "method": "Retained exact 20 frozen samples from original benchmark"
+    },
+    {
+      "dataset": "TCGA",
+      "context": "COAD",
+      "method": "Retained exact 20 frozen samples from original benchmark"
+    },
+    {
+      "dataset": "TCGA",
+      "context": "GBM",
+      "method": "Retained exact 20 frozen samples from original benchmark"
+    },
+    {
+      "dataset": "TCGA",
+      "context": "LIHC",
+      "method": "Retained exact 20 frozen samples from original benchmark"
+    },
+    {
+      "dataset": "TCGA",
+      "context": "LUAD",
+      "method": "Retained exact 20 frozen samples from original benchmark"
+    },
+    {
+      "dataset": "TCGA",
+      "context": "STAD",
+      "method": "Retained exact 20 frozen samples from original benchmark"
+    },
+    {
+      "dataset": "TCGA",
+      "context": "PAAD",
+      "method": "20 primary tumors, unique patients, pandas sample random_state=20260920"
+    },
+    {
+      "dataset": "TCGA",
+      "context": "OV",
+      "method": "20 primary tumors, unique patients, pandas sample random_state=20260920"
+    },
+    {
+      "dataset": "TCGA",
+      "context": "ACC",
+      "method": "20 primary tumors, unique patients, pandas sample random_state=20260920"
+    },
+    {
+      "dataset": "TCGA",
+      "context": "TGCT",
+      "method": "20 primary tumors, unique patients, pandas sample random_state=20260920"
+    }
+  ],
+  "note": "Organ-corresponding unpaired normal/tumor visualization; not a replacement for the original quantitative benchmark cohort."
+}

@@ -41,12 +41,20 @@
     "sha256": "4fb09c50f9a9ed362dca337aaebe4956a8125fad29019f2ad39f9b49ce7aa5c2",
     "bytes": 10198020
   },
+  "context_visualization": {
+    "samples_per_context": 20,
+    "manifest_samples": 400,
+    "genes_per_context": 500,
+    "points_per_dataset_layer": 5000,
+    "total_coordinates": 40000,
+    "organ_pairs": 10,
+    "scope": "separate visualization cohort"
+  },
   "notebook_execution": {
     "status": "passed",
     "fresh_kernel": true,
-    "external_research_and_archive_access_blocked": true,
-    "network_access_blocked": true,
+    "isolated_report_copy": true,
     "code_cells": 10,
-    "figure_pairs": 7
+    "cached_results_only": true
   }
 }

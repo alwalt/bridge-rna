@@ -1,0 +1,29 @@
+{
+  "samples_per_context": 20,
+  "total_samples": 400,
+  "genes": 500,
+  "checkpoint_sha256": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541",
+  "layers": {
+    "L0_static": 0,
+    "L1_early": 1,
+    "L6_middle": 6,
+    "L12_final": 12
+  },
+  "source_manifest": "benchmarks/representation_analysis/data/sample_manifest.csv",
+  "method": "Mean raw token vectors across all 20 samples per context; subtract gene mean across contexts within cohort/layer; joint GTEx+TCGA PCA50/UMAP per layer",
+  "pca_seed": 42,
+  "umap": {
+    "n_neighbors": 30,
+    "min_dist": 0.1,
+    "metric": "cosine",
+    "seed": 42
+  },
+  "status": "complete; approved for notebook replacement",
+  "limitations": "Independent layouts by layer; visual separation is not a quantitative effect size; averaged contexts hide within-context heterogeneity",
+  "genes_per_context": 500,
+  "unit": "one gene-in-context point: gene token averaged across all 20 frozen samples in that context",
+  "sample_selection": "all 400 samples in the frozen balanced benchmark manifest",
+  "projection": "Joint GTEx+TCGA PCA50 and UMAP per layer, not t-SNE",
+  "original_two_sample_analysis": "research/static_gene_embeddings/results/context_colored_gene_projections/",
+  "warning": "Independent UMAP layouts; visual separation is not an effect size. L0 residuals are zero by construction."
+}

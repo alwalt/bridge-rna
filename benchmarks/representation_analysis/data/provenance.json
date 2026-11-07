@@ -113,12 +113,6 @@
       "cached_file": "expression_control_summary.csv"
     },
     {
-      "source": "research/static_gene_embeddings/results/context_colored_gene_projections/context_residual_gene_projections.csv",
-      "sha256": "8e80fbda9903a351465876a3e3f21b55e8f03bc2e9019d18773391d0a6f24034",
-      "bytes": 2495904,
-      "cached_file": "context_umap_coordinates.csv"
-    },
-    {
       "source": "research/static_gene_embeddings/results/static_embeddings/provenance.json",
       "sha256": "ec21b1fec58ebf583aad05e762d3299373e4b74b70d8a17df31e64f434c37f4a",
       "bytes": 2697,
@@ -171,6 +165,48 @@
       "sha256": "fa48198dc5da3e626c9c03091bc081aea997d84f915a986dd74346589fc331ed",
       "bytes": 554,
       "cached_file": "expression_control_provenance.json"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/context_colored_gene_projections_20_per_context/provenance.json",
+      "sha256": "7fe8ab295c22a1bab4520f2bf1b82b794522e4ec5c652f7519befb7201eaa4d9",
+      "bytes": 1363,
+      "cached_file": "context_colored_gene_projections_20_per_context_source_provenance.json"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/organ_matched_context_visualization/coordinates.csv",
+      "sha256": "4738ae99fa85c7a33b2793457e9278bae1c0ab780e04859534e09f096501cd64",
+      "bytes": 2306102,
+      "cached_file": "context_umap_coordinates.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/organ_matched_context_visualization/sample_manifest.csv",
+      "sha256": "cb1db39c0736a82708df21b9d14057d18ef5517d4c5ffba8e3c6e9be91579343",
+      "bytes": 20323,
+      "cached_file": "context_visualization_sample_manifest.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/organ_matched_context_visualization/visualized_genes.csv",
+      "sha256": "9263802cd2554438fa661d30b1f987368959973e8a244f87087a70308f678e12",
+      "bytes": 5770,
+      "cached_file": "context_visualization_genes.csv"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/organ_matched_context_visualization/palette.json",
+      "sha256": "22fe83d265a3431030266a960cd3478b5e7d76d297db38ee82ce6e17b1169d8c",
+      "bytes": 1032,
+      "cached_file": "context_visualization_palette.json"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/organ_matched_context_visualization/cohort_selection.json",
+      "sha256": "cff1ba6433bbc1936d7cd8f9178a7d85675cdcb3adadd7ea47f39ed2e51d4a06",
+      "bytes": 3532,
+      "cached_file": "context_visualization_selection.json"
+    },
+    {
+      "source": "research/static_gene_embeddings/results/organ_matched_context_visualization/provenance.json",
+      "sha256": "7265db4509de4ff772eb0e3a01fdcd260966e2e8c5d533187bc9fb70e5a5bab0",
+      "bytes": 1668,
+      "cached_file": "organ_matched_context_visualization_source_provenance.json"
     }
   ],
   "prediction_verification": {
@@ -230,15 +266,15 @@
   },
   "generator": {
     "path": "research/static_gene_embeddings/pipeline/build_representation_analysis_report.py",
-    "sha256": "c65e59e5aeb6d2880fa98da0beb966556bec990f3b45d8b89ecdc46c51ae8adb"
+    "sha256": "8bdeabe813472a2c2dda6b21fee3687038f2a1bbc53525dd658c8199f3e54430"
   },
-  "preprocessing_notes": "Source provenance retains historical paths; UMAP cache selects existing coordinates without refitting. Original prediction rows are not duplicated.",
+  "preprocessing_notes": "Quantitative benchmark cohort unchanged. Context UMAP uses a separate organ-corresponding 400-sample cohort, 500 fixed genes, within-cohort/layer gene centering, and joint GTEx/TCGA PCA50/UMAP per layer. Notebook redraws saved coordinates without model or projection fitting.",
   "limitations": [
     "Annotation rather than experimental phenotype",
     "Anchor-grouped, not fully gene-disjoint prediction",
     "Unpaired normal/tumor cohorts; donor/pretraining exposure not established",
-    "No recomputation of confidence intervals or original encoder outputs",
-    "Exploratory protocols and multiple related endpoints"
+    "Exploratory protocols and multiple related endpoints",
+    "Saved confidence intervals retained; only context visualization was regenerated from frozen encoder outputs."
   ],
   "cached_files": [
     {
@@ -262,6 +298,11 @@
       "bytes": 2944
     },
     {
+      "file": "context_colored_gene_projections_20_per_context_source_provenance.json",
+      "sha256": "7fe8ab295c22a1bab4520f2bf1b82b794522e4ec5c652f7519befb7201eaa4d9",
+      "bytes": 1363
+    },
+    {
       "file": "context_colored_gene_projections_source_provenance.json",
       "sha256": "d0e59352c51a066ffbf419cb8685383c718024a952a82a54c4e8163938392ce8",
       "bytes": 771
@@ -273,8 +314,28 @@
     },
     {
       "file": "context_umap_coordinates.csv",
-      "sha256": "55f461c8fa3c04435a417d4270c34cefaf9f376ec2760f13d86215eadf2c3843",
-      "bytes": 1807147
+      "sha256": "4738ae99fa85c7a33b2793457e9278bae1c0ab780e04859534e09f096501cd64",
+      "bytes": 2306102
+    },
+    {
+      "file": "context_visualization_genes.csv",
+      "sha256": "9263802cd2554438fa661d30b1f987368959973e8a244f87087a70308f678e12",
+      "bytes": 5770
+    },
+    {
+      "file": "context_visualization_palette.json",
+      "sha256": "22fe83d265a3431030266a960cd3478b5e7d76d297db38ee82ce6e17b1169d8c",
+      "bytes": 1032
+    },
+    {
+      "file": "context_visualization_sample_manifest.csv",
+      "sha256": "cb1db39c0736a82708df21b9d14057d18ef5517d4c5ffba8e3c6e9be91579343",
+      "bytes": 20323
+    },
+    {
+      "file": "context_visualization_selection.json",
+      "sha256": "cff1ba6433bbc1936d7cd8f9178a7d85675cdcb3adadd7ea47f39ed2e51d4a06",
+      "bytes": 3532
     },
     {
       "file": "contextual_depth_source_provenance.json",
@@ -327,6 +388,11 @@
       "bytes": 2684
     },
     {
+      "file": "organ_matched_context_visualization_source_provenance.json",
+      "sha256": "7265db4509de4ff772eb0e3a01fdcd260966e2e8c5d533187bc9fb70e5a5bab0",
+      "bytes": 1668
+    },
+    {
       "file": "recomputed_prediction_metrics.csv",
       "sha256": "3f9b87f7cf5dc40c8dd48b3e18626edce7401b884b1458a436a7454c48e1cabe",
       "bytes": 593
@@ -368,16 +434,66 @@
     },
     {
       "file": "validation.json",
-      "sha256": "8ca57cf53a44adc22c0b801668876ee1774db97d29a97f095540d630fa5ce3bb",
-      "bytes": 1666
+      "sha256": "331364bbec8704cd9a237d61eb0e6958c5b98428d5bc5e18637e98a7b045a57a",
+      "bytes": 1878
     }
   ],
+  "context_visualization": {
+    "samples_per_context": 20,
+    "total_samples": 400,
+    "genes_per_context": 500,
+    "organ_pairs": [
+      [
+        "mammary gland",
+        "BRCA"
+      ],
+      [
+        "sigmoid colon",
+        "COAD"
+      ],
+      [
+        "cortex",
+        "GBM"
+      ],
+      [
+        "liver",
+        "LIHC"
+      ],
+      [
+        "lung",
+        "LUAD"
+      ],
+      [
+        "stomach",
+        "STAD"
+      ],
+      [
+        "pancreas",
+        "PAAD"
+      ],
+      [
+        "ovary",
+        "OV"
+      ],
+      [
+        "adrenal",
+        "ACC"
+      ],
+      [
+        "testis",
+        "TGCT"
+      ]
+    ],
+    "manifest": "context_visualization_sample_manifest.csv",
+    "palette": "context_visualization_palette.json",
+    "source_provenance": "organ_matched_context_visualization_source_provenance.json",
+    "cohort_scope": "Separate visualization cohort; quantitative results retain data/sample_manifest.csv"
+  },
   "notebook_execution": {
     "status": "passed",
     "fresh_kernel": true,
-    "external_research_and_archive_access_blocked": true,
-    "network_access_blocked": true,
+    "isolated_report_copy": true,
     "code_cells": 10,
-    "figure_pairs": 7
+    "cached_results_only": true
   }
 }

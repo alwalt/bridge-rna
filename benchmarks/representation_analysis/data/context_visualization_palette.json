@@ -1,0 +1,55 @@
+{
+  "pairs": [
+    {
+      "tissue": "mammary gland",
+      "cancer": "BRCA",
+      "color": "#1f77b4"
+    },
+    {
+      "tissue": "sigmoid colon",
+      "cancer": "COAD",
+      "color": "#2ca02c"
+    },
+    {
+      "tissue": "cortex",
+      "cancer": "GBM",
+      "color": "#ff7f0e"
+    },
+    {
+      "tissue": "liver",
+      "cancer": "LIHC",
+      "color": "#d62728"
+    },
+    {
+      "tissue": "lung",
+      "cancer": "LUAD",
+      "color": "#9467bd"
+    },
+    {
+      "tissue": "stomach",
+      "cancer": "STAD",
+      "color": "#bcbd22"
+    },
+    {
+      "tissue": "pancreas",
+      "cancer": "PAAD",
+      "color": "#8c564b"
+    },
+    {
+      "tissue": "ovary",
+      "cancer": "OV",
+      "color": "#e377c2"
+    },
+    {
+      "tissue": "adrenal",
+      "cancer": "ACC",
+      "color": "#7f7f7f"
+    },
+    {
+      "tissue": "testis",
+      "cancer": "TGCT",
+      "color": "#17becf"
+    }
+  ],
+  "interpretation": "Organ-corresponding unpaired cohorts, not cell-type or patient matches; cortex/GBM is approximate."
+}

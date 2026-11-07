@@ -1,0 +1,155 @@
+{
+  "source": "data/context_umap_coordinates.csv",
+  "source_sha256": "4738ae99fa85c7a33b2793457e9278bae1c0ab780e04859534e09f096501cd64",
+  "dataset": "TCGA",
+  "points": 5000,
+  "samples_per_context": 20,
+  "samples_per_dataset": 200,
+  "total_source_samples": 400,
+  "cohort_scope": "Separate organ-corresponding visualization cohort; quantitative benchmark unchanged",
+  "organ_pairs": [
+    {
+      "tissue": "mammary gland",
+      "cancer": "BRCA",
+      "color": "#1f77b4"
+    },
+    {
+      "tissue": "sigmoid colon",
+      "cancer": "COAD",
+      "color": "#2ca02c"
+    },
+    {
+      "tissue": "cortex",
+      "cancer": "GBM",
+      "color": "#ff7f0e"
+    },
+    {
+      "tissue": "liver",
+      "cancer": "LIHC",
+      "color": "#d62728"
+    },
+    {
+      "tissue": "lung",
+      "cancer": "LUAD",
+      "color": "#9467bd"
+    },
+    {
+      "tissue": "stomach",
+      "cancer": "STAD",
+      "color": "#bcbd22"
+    },
+    {
+      "tissue": "pancreas",
+      "cancer": "PAAD",
+      "color": "#8c564b"
+    },
+    {
+      "tissue": "ovary",
+      "cancer": "OV",
+      "color": "#e377c2"
+    },
+    {
+      "tissue": "adrenal",
+      "cancer": "ACC",
+      "color": "#7f7f7f"
+    },
+    {
+      "tissue": "testis",
+      "cancer": "TGCT",
+      "color": "#17becf"
+    }
+  ],
+  "legend_order": [
+    "BRCA",
+    "COAD",
+    "GBM",
+    "LIHC",
+    "LUAD",
+    "STAD",
+    "PAAD",
+    "OV",
+    "ACC",
+    "TGCT"
+  ],
+  "identity_keys": [
+    "context",
+    "gene"
+  ],
+  "layers": [
+    "L0_static",
+    "L1_early",
+    "L6_middle",
+    "L12_final"
+  ],
+  "fps": 30,
+  "duration_seconds": 15.0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "display_transforms": [
+    {
+      "layer": "L0_static",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 2.0
+    },
+    {
+      "layer": "L1_early",
+      "center": [
+        4.357034206390381,
+        6.0412558391690245
+      ],
+      "uniform_scale": 0.0786372953220875
+    },
+    {
+      "layer": "L6_middle",
+      "center": [
+        6.845633029937744,
+        4.010745525360107
+      ],
+      "uniform_scale": 0.058924443574550046
+    },
+    {
+      "layer": "L12_final",
+      "center": [
+        3.401859402656555,
+        6.855114728212357
+      ],
+      "uniform_scale": 0.14999563237331479
+    }
+  ],
+  "status": "design preview; PowerPoint and event playback not verified",
+  "interpolation": "smoothstep between separate unaligned UMAP fits; not a measured trajectory",
+  "rendered_endpoints": "/tmp/bridge-context-animation-dc69cm8h",
+  "slide_inches": [
+    13.333,
+    7.5
+  ],
+  "design": {
+    "system": "NASA HDS",
+    "fonts": {
+      "heading": "Inter Bold",
+      "ui": "Inter Regular",
+      "body": "Public Sans Regular"
+    },
+    "background": "#17171b",
+    "categorical_colors": {
+      "BRCA": "#1f77b4",
+      "COAD": "#2ca02c",
+      "GBM": "#ff7f0e",
+      "LIHC": "#d62728",
+      "LUAD": "#9467bd",
+      "STAD": "#bcbd22",
+      "PAAD": "#8c564b",
+      "OV": "#e377c2",
+      "ACC": "#7f7f7f",
+      "TGCT": "#17becf"
+    },
+    "categorical_palette_source": "representation_analysis notebook tab10 mapping; NASA fonts and Carbon 90 background; original notebook category colors",
+    "typography_source": "https://github.com/nasa/hds-core/blob/main/stories/foundations/Typography.mdx",
+    "color_source": "https://github.com/nasa/hds-core/blob/main/stories/helpers/hdsDatavizColors.js"
+  }
+}

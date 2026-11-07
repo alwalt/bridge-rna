@@ -1,0 +1,156 @@
+{
+  "source": "data/context_umap_coordinates.csv",
+  "source_sha256": "4738ae99fa85c7a33b2793457e9278bae1c0ab780e04859534e09f096501cd64",
+  "dataset": "GTEx",
+  "points": 5000,
+  "samples_per_context": 20,
+  "samples_per_dataset": 200,
+  "total_source_samples": 400,
+  "export_mode": "separate plot, legend and native PowerPoint text",
+  "cohort_scope": "Separate organ-corresponding visualization cohort; quantitative benchmark unchanged",
+  "organ_pairs": [
+    {
+      "tissue": "mammary gland",
+      "cancer": "BRCA",
+      "color": "#1f77b4"
+    },
+    {
+      "tissue": "sigmoid colon",
+      "cancer": "COAD",
+      "color": "#2ca02c"
+    },
+    {
+      "tissue": "cortex",
+      "cancer": "GBM",
+      "color": "#ff7f0e"
+    },
+    {
+      "tissue": "liver",
+      "cancer": "LIHC",
+      "color": "#d62728"
+    },
+    {
+      "tissue": "lung",
+      "cancer": "LUAD",
+      "color": "#9467bd"
+    },
+    {
+      "tissue": "stomach",
+      "cancer": "STAD",
+      "color": "#bcbd22"
+    },
+    {
+      "tissue": "pancreas",
+      "cancer": "PAAD",
+      "color": "#8c564b"
+    },
+    {
+      "tissue": "ovary",
+      "cancer": "OV",
+      "color": "#e377c2"
+    },
+    {
+      "tissue": "adrenal",
+      "cancer": "ACC",
+      "color": "#7f7f7f"
+    },
+    {
+      "tissue": "testis",
+      "cancer": "TGCT",
+      "color": "#17becf"
+    }
+  ],
+  "legend_order": [
+    "mammary gland",
+    "sigmoid colon",
+    "cortex",
+    "liver",
+    "lung",
+    "stomach",
+    "pancreas",
+    "ovary",
+    "adrenal",
+    "testis"
+  ],
+  "identity_keys": [
+    "context",
+    "gene"
+  ],
+  "layers": [
+    "L0_static",
+    "L1_early",
+    "L6_middle",
+    "L12_final"
+  ],
+  "fps": 30,
+  "duration_seconds": 15.0,
+  "resolution": [
+    1920,
+    1920
+  ],
+  "display_transforms": [
+    {
+      "layer": "L0_static",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 2.0
+    },
+    {
+      "layer": "L1_early",
+      "center": [
+        5.980073928833008,
+        5.543530315160751
+      ],
+      "uniform_scale": 0.09145775803871561
+    },
+    {
+      "layer": "L6_middle",
+      "center": [
+        9.346030950546265,
+        -1.1246490478515625
+      ],
+      "uniform_scale": 0.05626019222904807
+    },
+    {
+      "layer": "L12_final",
+      "center": [
+        3.275282144546509,
+        6.853294543921947
+      ],
+      "uniform_scale": 0.15065472613801031
+    }
+  ],
+  "status": "design preview; PowerPoint and event playback not verified",
+  "interpolation": "smoothstep between separate unaligned UMAP fits; not a measured trajectory",
+  "rendered_endpoints": "/tmp/bridge-context-animation-o4bworim",
+  "slide_inches": [
+    13.333,
+    7.5
+  ],
+  "design": {
+    "system": "NASA HDS",
+    "fonts": {
+      "heading": "Inter Bold",
+      "ui": "Inter Regular",
+      "body": "Public Sans Regular"
+    },
+    "background": "#17171b",
+    "categorical_colors": {
+      "mammary gland": "#1f77b4",
+      "sigmoid colon": "#2ca02c",
+      "cortex": "#ff7f0e",
+      "liver": "#d62728",
+      "lung": "#9467bd",
+      "stomach": "#bcbd22",
+      "pancreas": "#8c564b",
+      "ovary": "#e377c2",
+      "adrenal": "#7f7f7f",
+      "testis": "#17becf"
+    },
+    "categorical_palette_source": "representation_analysis notebook tab10 mapping; NASA fonts and Carbon 90 background; original notebook category colors",
+    "typography_source": "https://github.com/nasa/hds-core/blob/main/stories/foundations/Typography.mdx",
+    "color_source": "https://github.com/nasa/hds-core/blob/main/stories/helpers/hdsDatavizColors.js"
+  }
+}

@@ -15,12 +15,12 @@ jupyter nbconvert --to notebook --execute --inplace \
   --ExecutePreprocessor.timeout=300
 ```
 
-The notebook can also run with its kernel working directory set to this benchmark folder or `benchmarks/`. It uses only `data/` and `figures/`; it requires no network, checkpoint, embeddings, source expression matrices, research archives, or model fitting. Cells regenerate seven PNG/PDF figures and unrounded figure-data CSVs under `data/figure_data/`. Allow approximately one minute on CPU, depending on plotting and notebook startup.
+The notebook can also run with its kernel working directory set to this benchmark folder or `benchmarks/`. It uses only `data/` and `figures/`; it requires no network, checkpoint, embeddings, source expression matrices, research archives, or model fitting. Cells regenerate seven PNG/PDF figures (plus SVG for the context UMAP) and unrounded figure-data CSVs under `data/figure_data/`. Allow approximately one minute on CPU, depending on plotting and notebook startup.
 
 ## Evidence and interpretation
 
 - The balanced cohort includes 200 GTEx samples across 10 tissues and 200 TCGA samples across 10 tumor contexts, with 20 samples per context. The exact frozen sample manifest is in `data/sample_manifest.csv`.
-- L0 is sample-invariant; contextual summaries use sample SD over 200 samples. Context UMAPs redraw saved coordinates and remain exploratory.
+- L0 is sample-invariant; contextual summaries use sample SD over 200 samples. Context UMAPs use a separate organ-corresponding cohort: 500 genes averaged across 20 samples per tissue/cancer group (400 samples total). The original quantitative cohort remains in `data/sample_manifest.csv`; visualization samples and organ/color pairs are in `data/context_visualization_sample_manifest.csv` and `data/context_visualization_palette.json`. Saved gene-centered PCA50/UMAP layouts are descriptive, not comparable effect sizes or patient/cell-type matches.
 - GTEx has greater between-context differentiation; TCGA has lower within-context same-gene directional consistency. Neither quantity is absolute embedding variance or a paired tumor effect.
 - Cohort-level coexpression comparisons differ from per-sample neighborhoods. Their confidence intervals resample genes; conditional prediction intervals resample anchors.
 - Conditional metrics were recalculated from 535,206 saved OOF prediction rows. Partner sampling includes repeats: 722 directed GO rows and 198 directed KEGG rows per cohort. Rows are retained as originally sampled. The split groups anchors, not both genes, so it does not establish fully gene-disjoint generalization.
