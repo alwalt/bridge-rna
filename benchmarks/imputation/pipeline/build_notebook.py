@@ -9,9 +9,11 @@ md=nbf.v4.new_markdown_cell;code=nbf.v4.new_code_cell
 nb=nbf.v4.new_notebook(cells=[
 md('''# TCGA expression imputation
 
-Do frozen BridgeRNA representations reconstruct masked expression more accurately than BulkFormer and a training-derived gene-expression baseline?
+## Introduction
 
-This is a fresh inference run on the previously frozen cohort. Execution of this notebook reads saved results only; the pipeline performs inference.'''),
+This benchmark compares masked-expression reconstruction by frozen BridgeRNA, BulkFormer, and training-derived gene-expression baselines on a fixed TCGA cohort.
+
+The notebook reads saved results; model inference and metric generation are performed by the benchmark pipeline.'''),
 code('''from pathlib import Path
 import json
 import pandas as pd
