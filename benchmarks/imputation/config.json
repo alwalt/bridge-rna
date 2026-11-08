@@ -1,0 +1,27 @@
+{
+  "selection_seed": 20260827,
+  "num_samples": 1000,
+  "mask_ratios": [
+    0.15,
+    0.3,
+    0.5,
+    0.7,
+    0.9,
+    1.0
+  ],
+  "mask_seeds": [
+    0,
+    1,
+    2
+  ],
+  "mask_token": -10.0,
+  "device": "cuda",
+  "batch_sizes": {
+    "ours_45.6m": 4,
+    "bulkformer_50m": 32,
+    "bulkformer_147m": 16
+  },
+  "benchmark_modes": [
+    "native_vocab"
+  ]
+}

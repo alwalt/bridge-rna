@@ -1,0 +1,317 @@
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=540/1,000 elapsed=1.0m rate=8.96/s ETA=0.9m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.91/s ETA=0.0m
+[progress] model=ours_45.6m completed=1/120 elapsed=0.03h rate=0.00871 conditions/s ETA=3.80h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=528/1,000 elapsed=1.0m rate=8.76/s ETA=0.9m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.73/s ETA=0.0m
+[progress] model=ours_45.6m completed=2/120 elapsed=0.06h rate=0.00867 conditions/s ETA=3.78h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=524/1,000 elapsed=1.0m rate=8.67/s ETA=0.9m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=1.9m rate=8.65/s ETA=0.0m
+[progress] model=ours_45.6m completed=3/120 elapsed=0.10h rate=0.00864 conditions/s ETA=3.76h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=512/1,000 elapsed=1.0m rate=8.52/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.50/s ETA=0.0m
+[progress] model=ours_45.6m completed=4/120 elapsed=0.13h rate=0.00858 conditions/s ETA=3.76h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=512/1,000 elapsed=1.0m rate=8.48/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=996/1,000 elapsed=2.0m rate=8.27/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.26/s ETA=0.0m
+[progress] model=ours_45.6m completed=5/120 elapsed=0.16h rate=0.00850 conditions/s ETA=3.76h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=468/1,000 elapsed=1.0m rate=7.79/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=936/1,000 elapsed=2.0m rate=7.78/s ETA=0.1m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=7.78/s ETA=0.0m
+[progress] model=ours_45.6m completed=6/120 elapsed=0.20h rate=0.00836 conditions/s ETA=3.79h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=468/1,000 elapsed=1.0m rate=7.78/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=936/1,000 elapsed=2.0m rate=7.78/s ETA=0.1m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=7.78/s ETA=0.0m
+[progress] model=ours_45.6m completed=7/120 elapsed=0.24h rate=0.00826 conditions/s ETA=3.80h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=468/1,000 elapsed=1.0m rate=7.78/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=936/1,000 elapsed=2.0m rate=7.78/s ETA=0.1m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=7.78/s ETA=0.0m
+[progress] model=ours_45.6m completed=8/120 elapsed=0.27h rate=0.00819 conditions/s ETA=3.80h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=468/1,000 elapsed=1.0m rate=7.78/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=936/1,000 elapsed=2.0m rate=7.78/s ETA=0.1m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=7.78/s ETA=0.0m
+[progress] model=ours_45.6m completed=9/120 elapsed=0.31h rate=0.00813 conditions/s ETA=3.79h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=468/1,000 elapsed=1.0m rate=7.77/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=936/1,000 elapsed=2.0m rate=7.77/s ETA=0.1m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=7.77/s ETA=0.0m
+[progress] model=ours_45.6m completed=10/120 elapsed=0.34h rate=0.00808 conditions/s ETA=3.78h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=468/1,000 elapsed=1.0m rate=7.78/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=936/1,000 elapsed=2.0m rate=7.78/s ETA=0.1m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=7.78/s ETA=0.0m
+[progress] model=ours_45.6m completed=11/120 elapsed=0.38h rate=0.00805 conditions/s ETA=3.76h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=468/1,000 elapsed=1.0m rate=7.78/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=936/1,000 elapsed=2.0m rate=7.78/s ETA=0.1m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=7.78/s ETA=0.0m
+[progress] model=ours_45.6m completed=12/120 elapsed=0.42h rate=0.00801 conditions/s ETA=3.74h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=468/1,000 elapsed=1.0m rate=7.77/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=936/1,000 elapsed=2.0m rate=7.78/s ETA=0.1m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=7.78/s ETA=0.0m
+[progress] model=ours_45.6m completed=13/120 elapsed=0.45h rate=0.00799 conditions/s ETA=3.72h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=468/1,000 elapsed=1.0m rate=7.78/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=936/1,000 elapsed=2.0m rate=7.78/s ETA=0.1m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=7.78/s ETA=0.0m
+[progress] model=ours_45.6m completed=14/120 elapsed=0.49h rate=0.00796 conditions/s ETA=3.70h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=468/1,000 elapsed=1.0m rate=7.75/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=932/1,000 elapsed=2.0m rate=7.73/s ETA=0.1m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.73/s ETA=0.0m
+[progress] model=ours_45.6m completed=15/120 elapsed=0.52h rate=0.00794 conditions/s ETA=3.67h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=464/1,000 elapsed=1.0m rate=7.70/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=928/1,000 elapsed=2.0m rate=7.68/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.68/s ETA=0.0m
+[progress] model=ours_45.6m completed=16/120 elapsed=0.56h rate=0.00792 conditions/s ETA=3.65h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=464/1,000 elapsed=1.0m rate=7.68/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=924/1,000 elapsed=2.0m rate=7.67/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.67/s ETA=0.0m
+[progress] model=ours_45.6m completed=17/120 elapsed=0.60h rate=0.00790 conditions/s ETA=3.62h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=484/1,000 elapsed=1.0m rate=8.01/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=984/1,000 elapsed=2.0m rate=8.14/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.14/s ETA=0.0m
+[progress] model=ours_45.6m completed=18/120 elapsed=0.63h rate=0.00790 conditions/s ETA=3.58h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=500/1,000 elapsed=1.0m rate=8.28/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=996/1,000 elapsed=2.0m rate=8.26/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.26/s ETA=0.0m
+[progress] model=ours_45.6m completed=19/120 elapsed=0.67h rate=0.00792 conditions/s ETA=3.54h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=496/1,000 elapsed=1.0m rate=8.26/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=992/1,000 elapsed=2.0m rate=8.26/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.26/s ETA=0.0m
+[progress] model=ours_45.6m completed=20/120 elapsed=0.70h rate=0.00793 conditions/s ETA=3.50h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=496/1,000 elapsed=1.0m rate=8.27/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=992/1,000 elapsed=2.0m rate=8.26/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.26/s ETA=0.0m
+[progress] model=ours_45.6m completed=21/120 elapsed=0.74h rate=0.00794 conditions/s ETA=3.47h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=496/1,000 elapsed=1.0m rate=8.25/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=992/1,000 elapsed=2.0m rate=8.25/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.25/s ETA=0.0m
+[progress] model=ours_45.6m completed=22/120 elapsed=0.77h rate=0.00794 conditions/s ETA=3.43h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=496/1,000 elapsed=1.0m rate=8.24/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=992/1,000 elapsed=2.0m rate=8.24/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.24/s ETA=0.0m
+[progress] model=ours_45.6m completed=23/120 elapsed=0.80h rate=0.00795 conditions/s ETA=3.39h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=496/1,000 elapsed=1.0m rate=8.24/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=992/1,000 elapsed=2.0m rate=8.24/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.24/s ETA=0.0m
+[progress] model=ours_45.6m completed=24/120 elapsed=0.84h rate=0.00796 conditions/s ETA=3.35h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=496/1,000 elapsed=1.0m rate=8.24/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=956/1,000 elapsed=2.0m rate=7.95/s ETA=0.1m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=7.93/s ETA=0.0m
+[progress] model=ours_45.6m completed=25/120 elapsed=0.87h rate=0.00795 conditions/s ETA=3.32h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.61/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.61/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.61/s ETA=0.0m
+[progress] model=ours_45.6m completed=26/120 elapsed=0.91h rate=0.00793 conditions/s ETA=3.29h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.61/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.61/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.61/s ETA=0.0m
+[progress] model=ours_45.6m completed=27/120 elapsed=0.95h rate=0.00791 conditions/s ETA=3.26h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.61/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.61/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.61/s ETA=0.0m
+[progress] model=ours_45.6m completed=28/120 elapsed=0.98h rate=0.00790 conditions/s ETA=3.24h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.62/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.61/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.61/s ETA=0.0m
+[progress] model=ours_45.6m completed=29/120 elapsed=1.02h rate=0.00788 conditions/s ETA=3.21h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.61/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.60/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.60/s ETA=0.0m
+[progress] model=ours_45.6m completed=30/120 elapsed=1.06h rate=0.00787 conditions/s ETA=3.18h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.61/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.61/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.61/s ETA=0.0m
+[progress] model=ours_45.6m completed=31/120 elapsed=1.10h rate=0.00786 conditions/s ETA=3.15h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.63/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.62/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.62/s ETA=0.0m
+[progress] model=ours_45.6m completed=32/120 elapsed=1.13h rate=0.00784 conditions/s ETA=3.12h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.61/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.61/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.61/s ETA=0.0m
+[progress] model=ours_45.6m completed=33/120 elapsed=1.17h rate=0.00783 conditions/s ETA=3.09h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.62/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.62/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.62/s ETA=0.0m
+[progress] model=ours_45.6m completed=34/120 elapsed=1.21h rate=0.00782 conditions/s ETA=3.06h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.62/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.62/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.62/s ETA=0.0m
+[progress] model=ours_45.6m completed=35/120 elapsed=1.25h rate=0.00781 conditions/s ETA=3.02h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.63/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.62/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.62/s ETA=0.0m
+[progress] model=ours_45.6m completed=36/120 elapsed=1.28h rate=0.00780 conditions/s ETA=2.99h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.62/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.62/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.62/s ETA=0.0m
+[progress] model=ours_45.6m completed=37/120 elapsed=1.32h rate=0.00779 conditions/s ETA=2.96h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.63/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.62/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.62/s ETA=0.0m
+[progress] model=ours_45.6m completed=38/120 elapsed=1.36h rate=0.00778 conditions/s ETA=2.93h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.63/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.62/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.62/s ETA=0.0m
+[progress] model=ours_45.6m completed=39/120 elapsed=1.39h rate=0.00777 conditions/s ETA=2.90h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.62/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.61/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.61/s ETA=0.0m
+[progress] model=ours_45.6m completed=40/120 elapsed=1.43h rate=0.00776 conditions/s ETA=2.86h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.62/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.62/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.62/s ETA=0.0m
+[progress] model=ours_45.6m completed=41/120 elapsed=1.47h rate=0.00775 conditions/s ETA=2.83h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=460/1,000 elapsed=1.0m rate=7.62/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=920/1,000 elapsed=2.0m rate=7.62/s ETA=0.2m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.62/s ETA=0.0m
+[progress] model=ours_45.6m completed=42/120 elapsed=1.51h rate=0.00775 conditions/s ETA=2.80h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=496/1,000 elapsed=1.0m rate=8.24/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=988/1,000 elapsed=2.0m rate=8.21/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.21/s ETA=0.0m
+[progress] model=ours_45.6m completed=43/120 elapsed=1.54h rate=0.00775 conditions/s ETA=2.76h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=492/1,000 elapsed=1.0m rate=8.19/s ETA=1.0m
+[progress] model=ours_45.6m completed=1/36 elapsed=0.00h rate=0.67255 conditions/s ETA=0.01h
+[progress] model=ours_45.6m completed=2/36 elapsed=0.00h rate=1.34501 conditions/s ETA=0.01h
+[progress] model=ours_45.6m completed=3/36 elapsed=0.00h rate=2.01748 conditions/s ETA=0.00h
+[progress] model=ours_45.6m completed=4/36 elapsed=0.00h rate=2.68994 conditions/s ETA=0.00h
+[progress] model=ours_45.6m completed=5/36 elapsed=0.00h rate=3.36238 conditions/s ETA=0.00h
+[progress] model=ours_45.6m completed=6/36 elapsed=0.00h rate=4.03481 conditions/s ETA=0.00h
+[progress] model=ours_45.6m completed=7/36 elapsed=0.00h rate=4.70719 conditions/s ETA=0.00h
+[progress] model=ours_45.6m completed=8/36 elapsed=0.00h rate=5.37956 conditions/s ETA=0.00h
+[progress] model=ours_45.6m completed=9/36 elapsed=0.00h rate=6.05193 conditions/s ETA=0.00h
+[progress] model=ours_45.6m completed=10/36 elapsed=0.00h rate=6.72414 conditions/s ETA=0.00h
+[progress] model=ours_45.6m completed=11/36 elapsed=0.00h rate=7.39641 conditions/s ETA=0.00h
+[progress] model=ours_45.6m completed=12/36 elapsed=0.00h rate=8.06871 conditions/s ETA=0.00h
+[progress] model=ours_45.6m completed=13/36 elapsed=0.00h rate=8.74096 conditions/s ETA=0.00h
+[progress] model=ours_45.6m completed=14/36 elapsed=0.00h rate=9.41322 conditions/s ETA=0.00h
+[progress] model=ours_45.6m completed=15/36 elapsed=0.00h rate=10.08546 conditions/s ETA=0.00h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=516/1,000 elapsed=1.0m rate=8.54/s ETA=0.9m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.42/s ETA=0.0m
+[progress] model=ours_45.6m completed=1/18 elapsed=0.03h rate=0.00825 conditions/s ETA=0.57h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=496/1,000 elapsed=1.0m rate=8.19/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=996/1,000 elapsed=2.0m rate=8.26/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.26/s ETA=0.0m
+[progress] model=ours_45.6m completed=2/18 elapsed=0.07h rate=0.00822 conditions/s ETA=0.54h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=504/1,000 elapsed=1.0m rate=8.35/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.34/s ETA=0.0m
+[progress] model=ours_45.6m completed=3/18 elapsed=0.10h rate=0.00824 conditions/s ETA=0.51h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=496/1,000 elapsed=1.0m rate=8.25/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=980/1,000 elapsed=2.0m rate=8.15/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.15/s ETA=0.0m
+[progress] model=ours_45.6m completed=4/18 elapsed=0.14h rate=0.00819 conditions/s ETA=0.47h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=472/1,000 elapsed=1.0m rate=7.81/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=968/1,000 elapsed=2.0m rate=8.02/s ETA=0.1m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=8.03/s ETA=0.0m
+[progress] model=ours_45.6m completed=5/18 elapsed=0.17h rate=0.00814 conditions/s ETA=0.44h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=496/1,000 elapsed=1.0m rate=8.21/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=988/1,000 elapsed=2.0m rate=8.19/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.19/s ETA=0.0m
+[progress] model=ours_45.6m completed=6/18 elapsed=0.21h rate=0.00813 conditions/s ETA=0.41h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=488/1,000 elapsed=1.0m rate=8.12/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=980/1,000 elapsed=2.0m rate=8.15/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.15/s ETA=0.0m
+[progress] model=ours_45.6m completed=7/18 elapsed=0.24h rate=0.00811 conditions/s ETA=0.38h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=492/1,000 elapsed=1.0m rate=8.18/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=984/1,000 elapsed=2.0m rate=8.17/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.17/s ETA=0.0m
+[progress] model=ours_45.6m completed=8/18 elapsed=0.27h rate=0.00810 conditions/s ETA=0.34h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=492/1,000 elapsed=1.0m rate=8.20/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=984/1,000 elapsed=2.0m rate=8.18/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.18/s ETA=0.0m
+[progress] model=ours_45.6m completed=9/18 elapsed=0.31h rate=0.00810 conditions/s ETA=0.31h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=480/1,000 elapsed=1.0m rate=7.95/s ETA=1.1m
+[heartbeat] model=ours_45.6m samples=976/1,000 elapsed=2.0m rate=8.08/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=8.08/s ETA=0.0m
+[progress] model=ours_45.6m completed=10/18 elapsed=0.34h rate=0.00808 conditions/s ETA=0.28h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=496/1,000 elapsed=1.0m rate=8.21/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=992/1,000 elapsed=2.0m rate=8.20/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.20/s ETA=0.0m
+[progress] model=ours_45.6m completed=11/18 elapsed=0.38h rate=0.00808 conditions/s ETA=0.24h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=448/1,000 elapsed=1.0m rate=7.41/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=888/1,000 elapsed=2.0m rate=7.35/s ETA=0.3m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.2m rate=7.42/s ETA=0.0m
+[progress] model=ours_45.6m completed=12/18 elapsed=0.42h rate=0.00800 conditions/s ETA=0.21h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=464/1,000 elapsed=1.0m rate=7.69/s ETA=1.2m
+[heartbeat] model=ours_45.6m samples=956/1,000 elapsed=2.0m rate=7.93/s ETA=0.1m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=7.93/s ETA=0.0m
+[progress] model=ours_45.6m completed=13/18 elapsed=0.45h rate=0.00798 conditions/s ETA=0.17h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=492/1,000 elapsed=1.0m rate=8.16/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=980/1,000 elapsed=2.0m rate=8.15/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.14/s ETA=0.0m
+[progress] model=ours_45.6m completed=14/18 elapsed=0.49h rate=0.00798 conditions/s ETA=0.14h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=492/1,000 elapsed=1.0m rate=8.13/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=984/1,000 elapsed=2.0m rate=8.14/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.13/s ETA=0.0m
+[progress] model=ours_45.6m completed=15/18 elapsed=0.52h rate=0.00798 conditions/s ETA=0.10h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=492/1,000 elapsed=1.0m rate=8.20/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=984/1,000 elapsed=2.0m rate=8.17/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.17/s ETA=0.0m
+[progress] model=ours_45.6m completed=16/18 elapsed=0.56h rate=0.00797 conditions/s ETA=0.07h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=492/1,000 elapsed=1.0m rate=8.19/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=984/1,000 elapsed=2.0m rate=8.16/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.0m rate=8.16/s ETA=0.0m
+[progress] model=ours_45.6m completed=17/18 elapsed=0.59h rate=0.00797 conditions/s ETA=0.03h
+[inference] model=ours_45.6m samples=1,000 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=492/1,000 elapsed=1.0m rate=8.14/s ETA=1.0m
+[heartbeat] model=ours_45.6m samples=980/1,000 elapsed=2.0m rate=8.11/s ETA=0.0m
+[heartbeat] model=ours_45.6m samples=1,000/1,000 elapsed=2.1m rate=8.11/s ETA=0.0m
+[progress] model=ours_45.6m completed=18/18 elapsed=0.63h rate=0.00797 conditions/s ETA=0.00h

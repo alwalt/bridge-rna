@@ -1,0 +1,36 @@
+[inference] model=ours_45.6m samples=32 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=32/32 elapsed=0.1m rate=8.20/s
+[inference] model=ours_45.6m samples=32 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=32/32 elapsed=0.1m rate=9.00/s
+[inference] model=ours_45.6m samples=32 batch_size=4 device=cuda
+[heartbeat] model=ours_45.6m samples=32/32 elapsed=0.1m rate=9.05/s
+{
+  "model": "ours_45.6m",
+  "device": "cuda",
+  "load_seconds": 2.0968682980164886,
+  "timings": [
+    {
+      "mask_ratio": 0.15,
+      "samples": 32,
+      "seconds": 4.003581947006751,
+      "sample_rate": 7.992842515419116,
+      "pearson_defined": 32
+    },
+    {
+      "mask_ratio": 0.9,
+      "samples": 32,
+      "seconds": 3.9704542249965016,
+      "sample_rate": 8.059531274416894,
+      "pearson_defined": 32
+    },
+    {
+      "mask_ratio": 1.0,
+      "samples": 32,
+      "seconds": 3.6843982499849517,
+      "sample_rate": 8.685271740135773,
+      "pearson_defined": 32
+    }
+  ],
+  "estimated_120_conditions_hours": 4.048067507634793,
+  "status": "passed"
+}

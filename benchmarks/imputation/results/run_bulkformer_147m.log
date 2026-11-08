@@ -1,0 +1,270 @@
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.58/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=592/1,000 elapsed=2.1m rate=4.69/s ETA=1.4m
+[heartbeat] model=bulkformer_147m samples=896/1,000 elapsed=3.2m rate=4.74/s ETA=0.4m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.75/s ETA=0.0m
+[progress] model=bulkformer_147m completed=1/120 elapsed=0.06h rate=0.00461 conditions/s ETA=7.18h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.64/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=592/1,000 elapsed=2.1m rate=4.72/s ETA=1.4m
+[heartbeat] model=bulkformer_147m samples=896/1,000 elapsed=3.1m rate=4.75/s ETA=0.4m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.76/s ETA=0.0m
+[progress] model=bulkformer_147m completed=2/120 elapsed=0.12h rate=0.00466 conditions/s ETA=7.03h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.64/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.0m rate=4.72/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=848/1,000 elapsed=3.0m rate=4.65/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.6m rate=4.64/s ETA=0.0m
+[progress] model=bulkformer_147m completed=3/120 elapsed=0.18h rate=0.00464 conditions/s ETA=7.01h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.38/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.45/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.48/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.49/s ETA=0.0m
+[progress] model=bulkformer_147m completed=4/120 elapsed=0.24h rate=0.00459 conditions/s ETA=7.02h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.38/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.45/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.48/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.49/s ETA=0.0m
+[progress] model=bulkformer_147m completed=5/120 elapsed=0.30h rate=0.00456 conditions/s ETA=7.00h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.36/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.44/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.47/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.48/s ETA=0.0m
+[progress] model=bulkformer_147m completed=6/120 elapsed=0.37h rate=0.00454 conditions/s ETA=6.97h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.36/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.44/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.47/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.49/s ETA=0.0m
+[progress] model=bulkformer_147m completed=7/120 elapsed=0.43h rate=0.00453 conditions/s ETA=6.93h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.38/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.45/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.47/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.49/s ETA=0.0m
+[progress] model=bulkformer_147m completed=8/120 elapsed=0.49h rate=0.00452 conditions/s ETA=6.89h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.36/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.44/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.46/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.48/s ETA=0.0m
+[progress] model=bulkformer_147m completed=9/120 elapsed=0.55h rate=0.00451 conditions/s ETA=6.84h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.35/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.43/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.1m rate=4.46/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.52/s ETA=0.0m
+[progress] model=bulkformer_147m completed=10/120 elapsed=0.62h rate=0.00450 conditions/s ETA=6.78h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.60/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.0m rate=4.69/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.1m rate=4.72/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.74/s ETA=0.0m
+[progress] model=bulkformer_147m completed=11/120 elapsed=0.68h rate=0.00452 conditions/s ETA=6.70h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.64/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.0m rate=4.71/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.0m rate=4.73/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.75/s ETA=0.0m
+[progress] model=bulkformer_147m completed=12/120 elapsed=0.74h rate=0.00453 conditions/s ETA=6.62h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.64/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.0m rate=4.71/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.0m rate=4.73/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.75/s ETA=0.0m
+[progress] model=bulkformer_147m completed=13/120 elapsed=0.79h rate=0.00455 conditions/s ETA=6.54h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.64/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.0m rate=4.71/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.0m rate=4.73/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.75/s ETA=0.0m
+[progress] model=bulkformer_147m completed=14/120 elapsed=0.85h rate=0.00456 conditions/s ETA=6.46h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.40/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.46/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.47/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.49/s ETA=0.0m
+[progress] model=bulkformer_147m completed=15/120 elapsed=0.92h rate=0.00455 conditions/s ETA=6.41h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.37/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.44/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.46/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.48/s ETA=0.0m
+[progress] model=bulkformer_147m completed=16/120 elapsed=0.98h rate=0.00454 conditions/s ETA=6.36h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.38/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.44/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.47/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.48/s ETA=0.0m
+[progress] model=bulkformer_147m completed=17/120 elapsed=1.04h rate=0.00453 conditions/s ETA=6.31h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.38/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.44/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.47/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.48/s ETA=0.0m
+[progress] model=bulkformer_147m completed=18/120 elapsed=1.10h rate=0.00453 conditions/s ETA=6.26h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.38/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.44/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.47/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.48/s ETA=0.0m
+[progress] model=bulkformer_147m completed=19/120 elapsed=1.17h rate=0.00452 conditions/s ETA=6.20h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.38/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.44/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.47/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.48/s ETA=0.0m
+[progress] model=bulkformer_147m completed=20/120 elapsed=1.23h rate=0.00452 conditions/s ETA=6.15h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.37/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.44/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.46/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.48/s ETA=0.0m
+[progress] model=bulkformer_147m completed=21/120 elapsed=1.29h rate=0.00451 conditions/s ETA=6.09h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.36/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.43/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.1m rate=4.46/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.48/s ETA=0.0m
+[progress] model=bulkformer_147m completed=22/120 elapsed=1.36h rate=0.00451 conditions/s ETA=6.04h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.38/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.44/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.46/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.48/s ETA=0.0m
+[progress] model=bulkformer_147m completed=23/120 elapsed=1.42h rate=0.00451 conditions/s ETA=5.98h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.37/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.44/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=816/1,000 elapsed=3.0m rate=4.46/s ETA=0.7m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.48/s ETA=0.0m
+[progress] model=bulkformer_147m completed=24/120 elapsed=1.48h rate=0.00450 conditions/s ETA=5.92h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.38/s ETA=2.8m
+[heartbeat] model=bulkformer_147m samples=560/1,000 elapsed=2.1m rate=4.51/s ETA=1.6m
+[heartbeat] model=bulkformer_147m samples=848/1,000 elapsed=3.1m rate=4.59/s ETA=0.6m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.6m rate=4.62/s ETA=0.0m
+[progress] model=bulkformer_147m completed=25/120 elapsed=1.54h rate=0.00450 conditions/s ETA=5.86h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.60/s ETA=2.6m
+[progress] model=bulkformer_147m completed=1/36 elapsed=0.00h rate=0.21600 conditions/s ETA=0.05h
+[progress] model=bulkformer_147m completed=2/36 elapsed=0.00h rate=0.43198 conditions/s ETA=0.02h
+[progress] model=bulkformer_147m completed=3/36 elapsed=0.00h rate=0.64797 conditions/s ETA=0.01h
+[progress] model=bulkformer_147m completed=4/36 elapsed=0.00h rate=0.86395 conditions/s ETA=0.01h
+[progress] model=bulkformer_147m completed=5/36 elapsed=0.00h rate=1.07993 conditions/s ETA=0.01h
+[progress] model=bulkformer_147m completed=6/36 elapsed=0.00h rate=1.29592 conditions/s ETA=0.01h
+[progress] model=bulkformer_147m completed=7/36 elapsed=0.00h rate=1.51189 conditions/s ETA=0.01h
+[progress] model=bulkformer_147m completed=8/36 elapsed=0.00h rate=1.72787 conditions/s ETA=0.00h
+[progress] model=bulkformer_147m completed=9/36 elapsed=0.00h rate=1.94384 conditions/s ETA=0.00h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.50/s ETA=2.7m
+[heartbeat] model=bulkformer_147m samples=560/1,000 elapsed=2.0m rate=4.59/s ETA=1.6m
+[heartbeat] model=bulkformer_147m samples=848/1,000 elapsed=3.1m rate=4.62/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.6m rate=4.65/s ETA=0.0m
+[progress] model=bulkformer_147m completed=1/18 elapsed=0.06h rate=0.00451 conditions/s ETA=1.05h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.60/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.1m rate=4.68/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.1m rate=4.69/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.71/s ETA=0.0m
+[progress] model=bulkformer_147m completed=2/18 elapsed=0.12h rate=0.00459 conditions/s ETA=0.97h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.48/s ETA=2.7m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.0m rate=4.51/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=832/1,000 elapsed=3.0m rate=4.59/s ETA=0.6m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.6m rate=4.62/s ETA=0.0m
+[progress] model=bulkformer_147m completed=3/18 elapsed=0.18h rate=0.00458 conditions/s ETA=0.91h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.1m rate=4.57/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.1m rate=4.64/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.1m rate=4.67/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.6m rate=4.69/s ETA=0.0m
+[progress] model=bulkformer_147m completed=4/18 elapsed=0.24h rate=0.00460 conditions/s ETA=0.85h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.60/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.1m rate=4.67/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.1m rate=4.69/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.71/s ETA=0.0m
+[progress] model=bulkformer_147m completed=5/18 elapsed=0.30h rate=0.00461 conditions/s ETA=0.78h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.59/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.1m rate=4.62/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.1m rate=4.67/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.6m rate=4.69/s ETA=0.0m
+[progress] model=bulkformer_147m completed=6/18 elapsed=0.36h rate=0.00461 conditions/s ETA=0.72h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.62/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=560/1,000 elapsed=2.1m rate=4.50/s ETA=1.6m
+[heartbeat] model=bulkformer_147m samples=832/1,000 elapsed=3.1m rate=4.45/s ETA=0.6m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.47/s ETA=0.0m
+[progress] model=bulkformer_147m completed=7/18 elapsed=0.42h rate=0.00458 conditions/s ETA=0.67h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.48/s ETA=2.7m
+[heartbeat] model=bulkformer_147m samples=560/1,000 elapsed=2.0m rate=4.62/s ETA=1.6m
+[heartbeat] model=bulkformer_147m samples=848/1,000 elapsed=3.0m rate=4.66/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.6m rate=4.69/s ETA=0.0m
+[progress] model=bulkformer_147m completed=8/18 elapsed=0.48h rate=0.00459 conditions/s ETA=0.61h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.60/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.1m rate=4.66/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.1m rate=4.69/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.71/s ETA=0.0m
+[progress] model=bulkformer_147m completed=9/18 elapsed=0.54h rate=0.00459 conditions/s ETA=0.54h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.63/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.0m rate=4.70/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.1m rate=4.72/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.72/s ETA=0.0m
+[progress] model=bulkformer_147m completed=10/18 elapsed=0.60h rate=0.00460 conditions/s ETA=0.48h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.60/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.1m rate=4.68/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.1m rate=4.71/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.72/s ETA=0.0m
+[progress] model=bulkformer_147m completed=11/18 elapsed=0.66h rate=0.00460 conditions/s ETA=0.42h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.62/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.0m rate=4.69/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.1m rate=4.71/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.72/s ETA=0.0m
+[progress] model=bulkformer_147m completed=12/18 elapsed=0.72h rate=0.00461 conditions/s ETA=0.36h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.62/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.0m rate=4.70/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.1m rate=4.71/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.72/s ETA=0.0m
+[progress] model=bulkformer_147m completed=13/18 elapsed=0.78h rate=0.00461 conditions/s ETA=0.30h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.62/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.1m rate=4.68/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.1m rate=4.70/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.71/s ETA=0.0m
+[progress] model=bulkformer_147m completed=14/18 elapsed=0.84h rate=0.00461 conditions/s ETA=0.24h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.1m rate=4.55/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.1m rate=4.63/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.1m rate=4.67/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.5m rate=4.70/s ETA=0.0m
+[progress] model=bulkformer_147m completed=15/18 elapsed=0.90h rate=0.00461 conditions/s ETA=0.18h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=272/1,000 elapsed=1.0m rate=4.45/s ETA=2.7m
+[heartbeat] model=bulkformer_147m samples=544/1,000 elapsed=2.1m rate=4.40/s ETA=1.7m
+[heartbeat] model=bulkformer_147m samples=832/1,000 elapsed=3.1m rate=4.50/s ETA=0.6m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.7m rate=4.54/s ETA=0.0m
+[progress] model=bulkformer_147m completed=16/18 elapsed=0.97h rate=0.00460 conditions/s ETA=0.12h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.0m rate=4.58/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.1m rate=4.67/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=864/1,000 elapsed=3.1m rate=4.66/s ETA=0.5m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.6m rate=4.68/s ETA=0.0m
+[progress] model=bulkformer_147m completed=17/18 elapsed=1.03h rate=0.00460 conditions/s ETA=0.06h
+[inference] model=bulkformer_147m samples=1,000 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=288/1,000 elapsed=1.1m rate=4.57/s ETA=2.6m
+[heartbeat] model=bulkformer_147m samples=576/1,000 elapsed=2.1m rate=4.65/s ETA=1.5m
+[heartbeat] model=bulkformer_147m samples=848/1,000 elapsed=3.1m rate=4.60/s ETA=0.6m
+[heartbeat] model=bulkformer_147m samples=1,000/1,000 elapsed=3.6m rate=4.63/s ETA=0.0m
+[progress] model=bulkformer_147m completed=18/18 elapsed=1.09h rate=0.00460 conditions/s ETA=0.00h

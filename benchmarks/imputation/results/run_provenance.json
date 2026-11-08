@@ -1,0 +1,75 @@
+{
+  "status": "complete",
+  "started_utc": "2026-11-08T01:14:34Z",
+  "config": {
+    "selection_seed": 20260827,
+    "num_samples": 1000,
+    "mask_ratios": [
+      0.15,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0
+    ],
+    "mask_seeds": [
+      0,
+      1,
+      2
+    ],
+    "mask_token": -10.0,
+    "device": "cuda",
+    "batch_sizes": {
+      "ours_45.6m": 4,
+      "bulkformer_50m": 32,
+      "bulkformer_147m": 16
+    },
+    "benchmark_modes": [
+      "native_vocab"
+    ]
+  },
+  "input_sha256": {
+    "benchmarks/imputation/work/bulkformer_genes.parquet": "8fde6cf8ad0c687995e633025196d9bfa4436836b4f757976e33b47cdf2cd5d0",
+    "benchmarks/imputation/work/bulkformer_log1p_tpm.npy": "5bf116fc70e991ed6172209f54153cb81045f13eb9208d6978056de1937668b0",
+    "benchmarks/imputation/work/frozen_training_gene_baselines.npz": "68a30b4040a4887bc009b40bd8eb1f09cf214b3fd936e3d7eca1f173203286a2",
+    "benchmarks/imputation/work/launcher.pid": "ae9dae23a4e57a4dabac5913500f7f8d2f053d286ec54eb1040d455f0e3625ce",
+    "benchmarks/imputation/work/ours_genes.parquet": "3c401f93feb4e8c4bbfa80d39daf977309984ca1390df895ffbaa8aa98def4e1",
+    "benchmarks/imputation/work/ours_log1p_tpm.npy": "7b2745beadea09f03206cc9088858946b25d20f1e40b6cd6b0a01c488367791c",
+    "benchmarks/imputation/work/selected_tcga_samples.parquet": "9a1643e261518bd39ddff8fbc6e8a8d1b57c642c16953d20e72217a7b94bc310",
+    "benchmarks/imputation/work/shared_genes.parquet": "35c6ba6aa8c08b90b76f6c3156a5cd0ae2fec3bb9cdbebdb9c96c29684a2d0bd"
+  },
+  "checkpoint_sha256": {
+    "model/r7hnr92k/best_model.pt": "f3491beaa697a0408dc1daeb6f8d648566bd46bafc6e44938d723e7ffc325541",
+    "model/BulkFormer/BulkFormer_50M.pt": "ab84dc4ad30471452ce3276cbc87931115397939379e9a511e801b6b86ac1fda",
+    "model/BulkFormer/model/BulkFormer_147M.pt": "07b69eed9b74154bf6f98a5632f0b8b685124e90bea32b795f73d9e23d9e9f3f"
+  },
+  "resource_sha256": {
+    "model/r7hnr92k/config.json": "1cccc2a0dc09da29f69b574e96f1fa2c5e70dc99d20a8b79d921d1e4fa49b805",
+    "model/BulkFormer/utils/BulkFormer.py": "85dabcd2f05db97f5956c9390f5c1c088bc8e782329e5f31426c0a86e745ef9f",
+    "model/BulkFormer/data/G_tcga.pt": "f37103436e56798ad542bf9d336a23335c4d780b9fed7cbb422ac9c3b00a12e1",
+    "model/BulkFormer/data/G_tcga_weight.pt": "32ca5904aaa3ffb432256fd46e54d30f6e26f747135c091a460ace6352195cd2",
+    "data/ensembl/canonical_genes.csv": "1dbe9a5753e5982b3ddb383f35e92ce5795c21fc054fff685514831c8dadbb8d",
+    "data/gencode/gencode_v49_gene_exon_lengths.csv": "c272e5b8e23698bfb009fad019268897dd173f333dc437b7dd97d28894108609",
+    "model/BulkFormer/data/bulkformer_gene_info.csv": "0ac27c1adfb3cb2548ae37ddbbac221a4aefd5ae79e7950ec13c56e0d9e5ab68"
+  },
+  "pipeline_sha256": {
+    "build_notebook.py": "f6277d003da85eee987594ec76d7d0f8b844c0df090169c7489807d8ce858f98",
+    "common.py": "08214ebead8d4adb184e151937c8607619095b5f818b39d1e3bce1e30e31ebfd",
+    "evaluation.py": "668debd431740f1b1fcf8e298a4046ded719158ccd1fecfdb25b78df4a08952f",
+    "fresh_run.py": "0c62c864ec8d588ba8e113a0a4508514d0396028989eaec85c13fa702333fb67",
+    "launch_fresh.py": "16155d9d6915cd3b5f1925e86a024d4bda75b34cb6d8272faa8e76066a2cdcc6",
+    "model_adapters.py": "3b538fc106863ffc4ae36fdc4412c2b874814b12b97933688c71108fa4e2a347",
+    "prepare_frozen_baselines.py": "1e9e9b11d4a6e345f8cea2bd08cad9486fed68f522a5f664bdf824c8f14ac943",
+    "prepare_tcga.py": "2bde37204caf278408a24d5f5d2dc9da5d7658c789fd357cce367d0d6bc10583",
+    "validate_protocol.py": "b0ab86ba8e821dcc57218d09a2db3e88dfb621487e07f6e6e8a499c6cb491b8f"
+  },
+  "torch_version": "2.12.0+cu130",
+  "fresh_model_inference": true,
+  "prepared_matrices_and_frozen_training_profiles_reused": true,
+  "limitations": [
+    "Different native target preprocessing: cross-model MSE is not common-target MSE.",
+    "Native-only evaluation: gene panels and exact masks differ across model vocabularies.",
+    "TCGA pretraining exposure not established; no patient-level uncertainty estimated."
+  ],
+  "elapsed_seconds": 4469.289486021997
+}

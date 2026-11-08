@@ -1,0 +1,46 @@
+{
+  "font": "Arial",
+  "font_file": "/home/walt/.local/share/fonts/Arial/Arial.TTF",
+  "width_mm": 183,
+  "label_size_pt": 7.5,
+  "title_size_pt": 8,
+  "png_dpi": 600,
+  "svg_editable_text": true,
+  "style_reference": "benchmarks/gene_function_prediction/pipeline/build_manuscript_pair_figures.py",
+  "series": [
+    {
+      "method": "ours_45.6m",
+      "target_space": "ours",
+      "label": "BRIDGE",
+      "color": "#0072B2",
+      "linestyle": "-"
+    },
+    {
+      "method": "bulkformer_50m",
+      "target_space": "bulkformer",
+      "label": "BulkFormer 50M",
+      "color": "#009E73",
+      "linestyle": "-"
+    },
+    {
+      "method": "bulkformer_147m",
+      "target_space": "bulkformer",
+      "label": "BulkFormer 147M",
+      "color": "#D55E00",
+      "linestyle": "-"
+    },
+    {
+      "method": "train_gene_mean",
+      "target_space": "ours",
+      "label": "Training-gene mean",
+      "color": "#666666",
+      "linestyle": "--"
+    }
+  ],
+  "source_sha256": "9ad2a6c0fb15e5d7c92136c454a091196a04e1f54ac8652a28d20a4a847712c6",
+  "plot_generator_sha256": "23fe94a2f8a0711d8aa765e38b9620cb14e420bd0cbbbe484c02fcb70037c6ba",
+  "error_bars": "Model error bars and baseline shaded band: SD across three mask seeds, not patient confidence intervals",
+  "undefined_correlations": "NaN preserved as gaps; never replaced with zero",
+  "baseline_display": "Only the BRIDGE-target training mean is drawn; both target-space baselines remain in saved tables.",
+  "mse_limitation": "Model-specific gene panels and preprocessing: MSE is in native target units."
+}

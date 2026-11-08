@@ -1,0 +1,30 @@
+{
+  "model": "bulkformer_50m",
+  "device": "cuda",
+  "load_seconds": 5.113207605987554,
+  "timings": [
+    {
+      "mask_ratio": 0.15,
+      "samples": 32,
+      "seconds": 2.4225327959866263,
+      "sample_rate": 13.209315495341867,
+      "pearson_defined": 32
+    },
+    {
+      "mask_ratio": 0.9,
+      "samples": 32,
+      "seconds": 1.239493836008478,
+      "sample_rate": 25.816990024774213,
+      "pearson_defined": 32
+    },
+    {
+      "mask_ratio": 1.0,
+      "samples": 32,
+      "seconds": 1.2087931289861444,
+      "sample_rate": 26.472685220207595,
+      "pearson_defined": 32
+    }
+  ],
+  "estimated_120_conditions_hours": 1.6912568614518224,
+  "status": "passed"
+}

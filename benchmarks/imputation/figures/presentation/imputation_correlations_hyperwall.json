@@ -1,0 +1,24 @@
+{
+  "description": "Native vocabulary; 1,000 TCGA primary tumors; six measured masking ratios and three mask seeds. Error bars and baseline band show mask-seed SD, not patient CIs. Training mean uses BRIDGE targets. Gene panels differ between models. Undefined correlations are omitted. Animation progressively reveals saved curves, not additional estimates or evolving predictions.",
+  "source_sha256": "9ad2a6c0fb15e5d7c92136c454a091196a04e1f54ac8652a28d20a4a847712c6",
+  "font": "/home/walt/.local/share/fonts/Arial/Arial.TTF",
+  "canvas_px": [
+    5760,
+    3240
+  ],
+  "minimum_label_size_pt": 24,
+  "layout": "Publication arrangement: centered titles, aligned labels, shared horizontal legend below.",
+  "seam_priority": "Publication layout requested; text may cross assumed 3x3 boundaries.",
+  "transparent_static_background": true,
+  "movie_background": "#000000",
+  "movie": {
+    "size": [
+      1920,
+      1080
+    ],
+    "fps": 24,
+    "seconds": 11,
+    "codec": "H.264"
+  },
+  "event_display_configuration_confirmed": false
+}

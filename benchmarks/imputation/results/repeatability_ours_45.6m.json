@@ -1,0 +1,9 @@
+{
+  "model": "ours_45.6m",
+  "max_absolute_prediction_difference": 0.0,
+  "max_metric_difference": {
+    "pearson": 0.0,
+    "spearman": 0.0,
+    "mse": 0.0
+  }
+}

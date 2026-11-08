@@ -1,0 +1,36 @@
+[inference] model=bulkformer_147m samples=32 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=32/32 elapsed=0.2m rate=2.60/s
+[inference] model=bulkformer_147m samples=32 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=32/32 elapsed=0.1m rate=3.91/s
+[inference] model=bulkformer_147m samples=32 batch_size=16 device=cuda
+[heartbeat] model=bulkformer_147m samples=32/32 elapsed=0.1m rate=3.77/s
+{
+  "model": "bulkformer_147m",
+  "device": "cuda",
+  "load_seconds": 6.5728753289731685,
+  "timings": [
+    {
+      "mask_ratio": 0.15,
+      "samples": 32,
+      "seconds": 13.235546467010863,
+      "sample_rate": 2.4177316803472286,
+      "pearson_defined": 32
+    },
+    {
+      "mask_ratio": 0.9,
+      "samples": 32,
+      "seconds": 9.178550699987682,
+      "sample_rate": 3.4863891965038607,
+      "pearson_defined": 32
+    },
+    {
+      "mask_ratio": 1.0,
+      "samples": 32,
+      "seconds": 9.509139689005679,
+      "sample_rate": 3.3651835020362473,
+      "pearson_defined": 32
+    }
+  ],
+  "estimated_120_conditions_hours": 11.084457241668133,
+  "status": "passed"
+}

@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "conditions": [
+    {
+      "model": "ours_45.6m",
+      "benchmark": "shared_vocab",
+      "mask_ratio": 0.15,
+      "finite_output": true,
+      "defined_pearson": 2,
+      "samples": 2
+    },
+    {
+      "model": "ours_45.6m",
+      "benchmark": "shared_vocab",
+      "mask_ratio": 1.0,
+      "finite_output": true,
+      "defined_pearson": 2,
+      "samples": 2
+    },
+    {
+      "model": "ours_45.6m",
+      "benchmark": "native_vocab",
+      "mask_ratio": 0.15,
+      "finite_output": true,
+      "defined_pearson": 2,
+      "samples": 2
+    },
+    {
+      "model": "ours_45.6m",
+      "benchmark": "native_vocab",
+      "mask_ratio": 1.0,
+      "finite_output": true,
+      "defined_pearson": 2,
+      "samples": 2
+    },
+    {
+      "model": "bulkformer_50m",
+      "benchmark": "shared_vocab",
+      "mask_ratio": 0.15,
+      "finite_output": true,
+      "defined_pearson": 2,
+      "samples": 2
+    },
+    {
+      "model": "bulkformer_50m",
+      "benchmark": "shared_vocab",
+      "mask_ratio": 1.0,
+      "finite_output": true,
+      "defined_pearson": 2,
+      "samples": 2
+    },
+    {
+      "model": "bulkformer_50m",
+      "benchmark": "native_vocab",
+      "mask_ratio": 0.15,
+      "finite_output": true,
+      "defined_pearson": 2,
+      "samples": 2
+    },
+    {
+      "model": "bulkformer_50m",
+      "benchmark": "native_vocab",
+      "mask_ratio": 1.0,
+      "finite_output": true,
+      "defined_pearson": 2,
+      "samples": 2
+    },
+    {
+      "model": "bulkformer_147m",
+      "benchmark": "shared_vocab",
+      "mask_ratio": 0.15,
+      "finite_output": true,
+      "defined_pearson": 2,
+      "samples": 2
+    },
+    {
+      "model": "bulkformer_147m",
+      "benchmark": "shared_vocab",
+      "mask_ratio": 1.0,
+      "finite_output": true,
+      "defined_pearson": 2,
+      "samples": 2
+    },
+    {
+      "model": "bulkformer_147m",
+      "benchmark": "native_vocab",
+      "mask_ratio": 0.15,
+      "finite_output": true,
+      "defined_pearson": 2,
+      "samples": 2
+    },
+    {
+      "model": "bulkformer_147m",
+      "benchmark": "native_vocab",
+      "mask_ratio": 1.0,
+      "finite_output": true,
+      "defined_pearson": 0,
+      "samples": 2
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+cancer_type,samples
+Adrenocortical Carcinoma,10
+Bladder Urothelial Carcinoma,44
+Brain Lower Grade Glioma,53
+Breast Invasive Carcinoma,118
+Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,30
+Cholangiocarcinoma,1
+Colon Adenocarcinoma,32
+Esophageal Carcinoma,23
+Glioblastoma Multiforme,15
+Head and Neck Squamous Cell Carcinoma,46
+Kidney Chromophobe,7
+Kidney Renal Clear Cell Carcinoma,54
+Kidney Renal Papillary Cell Carcinoma,25
+Liver Hepatocellular Carcinoma,43
+Lung Adenocarcinoma,58
+Lung Squamous Cell Carcinoma,56
+Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,7
+Mesothelioma,5
+Ovarian Serous Cystadenocarcinoma,43
+Pancreatic Adenocarcinoma,15
+Pheochromocytoma and Paraganglioma,22
+Prostate Adenocarcinoma,48
+Rectum Adenocarcinoma,12
+Sarcoma,25
+Skin Cutaneous Melanoma,7
+Stomach Adenocarcinoma,39
+Testicular Germ Cell Tumors,17
+Thymoma,14
+Thyroid Carcinoma,55
+Uterine Carcinosarcoma,5
+Uterine Corpus Endometrial Carcinoma,63
+Uveal Melanoma,8

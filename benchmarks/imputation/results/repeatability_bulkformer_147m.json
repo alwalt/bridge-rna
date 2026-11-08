@@ -1,0 +1,9 @@
+{
+  "model": "bulkformer_147m",
+  "max_absolute_prediction_difference": 0.009765625,
+  "max_metric_difference": {
+    "pearson": 2.682209014892578e-06,
+    "spearman": 6.151061953563186e-06,
+    "mse": 1.430511474609375e-05
+  }
+}

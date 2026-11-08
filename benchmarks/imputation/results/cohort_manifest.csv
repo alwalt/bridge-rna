@@ -1,0 +1,1001 @@
+sample_id,cancer_type,sample_type,gdc_cases_samples_submitter_id,cancertype,gdc_cases_project_project_id,gdc_cases_samples_sample_type
+009C6A5C-3F63-4925-A92B-2AF54F1A4852,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-D1-A2G0-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+00F24662-71C8-4939-AA6E-0427038545D9,Breast Invasive Carcinoma,Primary Tumor,TCGA-B6-A0RI-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+012DB96E-1CF8-46D4-8B60-A07A1219EF9A,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-QK-AA3K-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+01CCE3D3-B5CD-48A4-ACCE-73D8FEBB930F,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-A1EE-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+01D0B940-6E58-40D4-A2A7-111BC26F4C14,Prostate Adenocarcinoma,Primary Tumor,TCGA-KK-A7B4-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+022BCEE2-4794-4D5D-87E5-22CD25FDBA98,Lung Adenocarcinoma,Primary Tumor,TCGA-55-A57B-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+02580B63-8DA8-4A9D-99B7-5747008AB42A,Breast Invasive Carcinoma,Primary Tumor,TCGA-AC-A2FO-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+02BB39E5-7DB7-4A83-AB23-2F425CD4E00A,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CV-7236-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+02CE7DF7-64BD-4297-A240-A5B9EE8771D3,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-DR-A0ZM-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+02D46E43-75BB-4A0A-8A02-403C7FBFB112,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-5527-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+0318E33D-FE94-4AAE-A20B-FCB4B6490729,Skin Cutaneous Melanoma,Primary Tumor,TCGA-EB-A5SE-01A,Skin Cutaneous Melanoma,TCGA-SKCM,Primary Tumor
+03C22FB8-0643-48FB-A09A-6119F722C09A,Breast Invasive Carcinoma,Primary Tumor,TCGA-GI-A2C8-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+03EB7EB9-2C9C-4A7B-BAF5-71295FD5ADB2,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-B3-8121-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+04D5FB28-FB50-4EAE-95FB-72ABF0E618CA,Sarcoma,Primary Tumor,TCGA-DX-A7EM-01A,Sarcoma,TCGA-SARC,Primary Tumor
+052F5358-94F2-44F2-B52B-A79068EB032F,Breast Invasive Carcinoma,Primary Tumor,TCGA-D8-A1JI-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+0531E3CE-CE85-4C38-A9D0-8BA58C600D62,Lung Adenocarcinoma,Primary Tumor,TCGA-05-4420-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+05C785F0-A525-4522-B495-24004E80B6D0,Lung Adenocarcinoma,Primary Tumor,TCGA-86-8585-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+05FAAE20-A94E-41FA-B6B6-7DDCFB4F9657,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-85-8070-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+063FC5C8-4318-4ECC-9CA0-1976CBC8ACB6,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-4J-AA1J-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+066B10C1-777F-4863-ACCA-6684310B913E,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-MT-A67D-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+0689C389-9AFA-432E-B678-28B1BD854A14,Colon Adenocarcinoma,Primary Tumor,TCGA-G4-6307-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+072BAC5F-4E09-4831-9C32-F42B94C4B30D,Breast Invasive Carcinoma,Primary Tumor,TCGA-B6-A1KI-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+075CCD50-6508-4D3B-BD1F-F527813B816B,Lung Adenocarcinoma,Primary Tumor,TCGA-69-A59K-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+077523A7-E1C9-4E9F-8C9F-B9F647B4DF7C,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-7681-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+07AEBA8E-4A69-4C21-AF19-C34C7D404F46,Thyroid Carcinoma,Primary Tumor,TCGA-EL-A4JX-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+07B99B18-192F-40A4-86B4-219EEE164D42,Breast Invasive Carcinoma,Primary Tumor,TCGA-E2-A570-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+07E4B4AA-6B2A-4ACF-A629-87E116DBC439,Thyroid Carcinoma,Primary Tumor,TCGA-EM-A3AJ-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+07F15081-CEFC-47E3-BECC-8A8B52AB097E,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-DQ-5631-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+07F29A3E-F230-4AB3-A474-E841533D1FDE,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-13-1509-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+081A9095-55FB-4766-930A-08B5EE030CEC,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4961-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+082DFC6B-C6E6-48B9-BDE5-74FF3B3DC954,Mesothelioma,Primary Tumor,TCGA-MQ-A4LI-01A,Mesothelioma,TCGA-MESO,Primary Tumor
+087F39E0-2C2D-479E-AC56-CF64D9936755,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-B9-4116-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+0990F823-0F26-4B81-8C4F-531854BDB0E7,Thyroid Carcinoma,Primary Tumor,TCGA-ET-A39N-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+0A248E23-1EDC-4D1A-A563-58BB127FE4BF,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-G3-A7M9-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+0ABF8DA0-9E14-4092-9497-03C355B53246,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-5530-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+0B367451-F169-4F59-80BB-CF2D51799DE8,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-FD-A5BU-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+0BEE8DD4-9D91-454F-9E75-79739C6F9A0F,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-P4-A5EB-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+0C134DDC-FAB0-4976-BB6A-8A48CB7AC4A9,Breast Invasive Carcinoma,Primary Tumor,TCGA-AC-A3OD-01B,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+0C24C03A-FE76-4FA4-8E63-B3A6F908B256,Breast Invasive Carcinoma,Primary Tumor,TCGA-EW-A1J3-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+0C6BEC3A-7C61-4470-B92C-A1471CEAA3D7,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-3A-A9IH-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+0C8678AD-C771-463A-B9BD-27D1F8F7E5FC,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-ZP-A9D0-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+0CB7DE4F-82C6-472B-A5CA-45D26882E7F3,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-85-A4CL-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+0CE61CDC-3257-4F03-951B-CC2CFCF675AE,Uveal Melanoma,Primary Tumor,TCGA-VD-A8KK-01A,Uveal Melanoma,TCGA-UVM,Primary Tumor
+0D907A63-D23F-4684-80D9-0BA552435B86,Mesothelioma,Primary Tumor,TCGA-ZN-A9VQ-01A,Mesothelioma,TCGA-MESO,Primary Tumor
+0DBA04CB-417D-4E2B-BE83-3563F45291C4,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-24-1424-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+0DF8FC8E-9ECF-48D8-BF31-29B911DD7804,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CJ-4900-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+0E7CC7F7-BAA2-4AB8-A4D7-E915E97693AA,Lung Adenocarcinoma,Primary Tumor,TCGA-55-8203-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+0EC08423-F96B-4721-A2BF-4593BD5696B1,Lung Adenocarcinoma,Primary Tumor,TCGA-97-7554-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+0F057CAF-4F9A-4DE9-8601-730E96873733,Esophageal Carcinoma,Primary Tumor,TCGA-V5-AASW-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+0F55CDA9-7584-4D21-96A1-79882AF97CF4,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-CF-A47X-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+0F797735-CCCA-4BEA-BB94-C524E7D0A875,Brain Lower Grade Glioma,Primary Tumor,TCGA-DB-A64V-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+0F7E6345-B20C-4A06-9669-89F7EFB50764,Colon Adenocarcinoma,Primary Tumor,TCGA-AA-3696-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+0FB3E997-4E31-4FA6-9654-11C3C0AF8D86,Lung Adenocarcinoma,Primary Tumor,TCGA-49-4512-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+0FEB903F-6DED-410E-8409-5B47D306D4BB,Kidney Chromophobe,Primary Tumor,TCGA-KN-8427-01A,Kidney Chromophobe,TCGA-KICH,Primary Tumor
+10161FA0-E389-4D98-B854-098AF908C898,Testicular Germ Cell Tumors,Primary Tumor,TCGA-2G-AAGX-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+10F38C34-3956-48ED-AB62-3439EF00D46B,Mesothelioma,Primary Tumor,TCGA-LK-A4NY-01A,Mesothelioma,TCGA-MESO,Primary Tumor
+112132FF-AA09-4F39-9804-4A4939FDA22B,Lung Adenocarcinoma,Primary Tumor,TCGA-97-8176-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+112C634F-F6F1-4851-B85D-4924DB51E665,Kidney Chromophobe,Primary Tumor,TCGA-KL-8340-01A,Kidney Chromophobe,TCGA-KICH,Primary Tumor
+112F7032-0212-4939-9449-D67E3600CCD5,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-61-2009-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+113A40B9-46B0-4025-82FF-AA2D8DE2BFD6,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CV-A45U-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+115916CD-8561-425B-9B9E-50C4F416B6E8,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-UZ-A9Q1-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+11FAAC26-D8DA-41B3-92A2-04E99C023E4C,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-GV-A3JX-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+1200AF21-94CC-493A-85BD-70CC56F50497,Breast Invasive Carcinoma,Primary Tumor,TCGA-D8-A1XR-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+1242A492-03F1-42C0-A0D7-A1ADFD034E47,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-DK-A3IN-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+1243D92B-57EF-4A19-B09D-8D0D440248C1,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-HZ-A49I-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+12717794-B627-4EDF-B486-D3ABC5121EFD,Prostate Adenocarcinoma,Primary Tumor,TCGA-V1-A9OY-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+12C63A6A-7031-45A0-AFDD-7272BCF773E5,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-4Z-AA7N-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+13D33F82-8575-43BC-9161-CD5AA1A1BC3D,Colon Adenocarcinoma,Primary Tumor,TCGA-AA-A01K-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+13E15398-82CB-4A44-AFA5-307DD0838564,Lung Adenocarcinoma,Primary Tumor,TCGA-44-2661-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+14171E29-31B6-47FC-9212-9F5189353487,Colon Adenocarcinoma,Primary Tumor,TCGA-SS-A7HO-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+14B4BE11-4576-4511-946E-28EB079ABA3E,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CV-6939-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+14BDD068-484C-4038-8BFD-722A7A9ECC3E,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CX-7086-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+15037D3D-2D9B-4640-B6C5-E3C2951AC0B8,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-24-2035-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+150FEEB1-7643-4B1C-A77C-CFD97D301D37,Breast Invasive Carcinoma,Primary Tumor,TCGA-E9-A1RH-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+157390D2-EE7A-4EED-A445-2764163EF70A,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-4Z-AA82-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+158EF652-E08F-4671-B2E1-AE48ACDD7E31,Thymoma,Primary Tumor,TCGA-ZB-A96H-01A,Thymoma,TCGA-THYM,Primary Tumor
+15D9DE0E-9A17-4679-B63D-071650CCD356,Testicular Germ Cell Tumors,Primary Tumor,TCGA-XE-A9SE-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+162C25FB-84CB-4DA7-8012-EA50A1B00C66,Stomach Adenocarcinoma,Primary Tumor,TCGA-HF-7131-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+1667B17C-C5E2-4E65-98FF-A6DDE44CC4B6,Brain Lower Grade Glioma,Primary Tumor,TCGA-DH-A66G-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+16F5BF94-5103-4973-9432-34FDCC82B6A2,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-HD-A6I0-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+1701DFD9-74CD-4203-B2AA-B158932825FC,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A18N-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+172944FC-5D14-491C-BD4A-F1EAAE96A38D,Breast Invasive Carcinoma,Primary Tumor,TCGA-E2-A1LS-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+17899F0B-76DD-48EF-893E-C7E95118B243,Breast Invasive Carcinoma,Primary Tumor,TCGA-EW-A1OY-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+180867F0-954B-47C7-8B86-CBA55FA1F137,Prostate Adenocarcinoma,Primary Tumor,TCGA-KK-A7AW-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+181A26D8-AD25-40E5-9703-66D771B42B13,Breast Invasive Carcinoma,Primary Tumor,TCGA-EW-A6SB-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+1839B1D7-F5D9-4D6D-8AB4-64656DFA38F5,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-13-1482-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+1860247C-3EC4-4D8E-905F-E999F2FE783F,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-43-5668-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+18971368-40F0-42D3-B1A3-707850C53B18,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-B5-A0K6-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+18B29573-822C-405F-B793-DBC8924866CE,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-24-1425-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+193E9034-42A2-4701-AA3E-2E852CA5C043,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-51-4080-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+194676E1-632C-4B99-A9C8-80E36DD6C85E,Brain Lower Grade Glioma,Primary Tumor,TCGA-R8-A6MK-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+19C664DD-3CBE-48A0-9FE4-47B542CCE4AE,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-GC-A3I6-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+1A20C6D9-94A1-4B89-B73B-294D4553E578,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-7786-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+1A4D5867-E890-4227-AD6E-4869DD09A4F0,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-CC-5262-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+1A6D233F-CAAC-4D74-8D79-298FC30D8C20,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-E7-A541-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+1ACE6BB9-A332-42DD-BA4F-E9902DB413AA,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-EY-A4KR-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+1AF24109-5FE4-4868-ADB9-5DFDB57BCA0F,Brain Lower Grade Glioma,Primary Tumor,TCGA-R8-A6YH-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+1B76089D-785F-4353-A898-4E632023D482,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-34-5232-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+1CF6959A-F352-4EA1-95A4-F43F15E79F76,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-43-A56U-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+1D0379B1-0E99-4E6D-B890-907C92860654,Lung Adenocarcinoma,Primary Tumor,TCGA-55-7995-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+1D0FDDC6-F247-4BD8-8AEF-245E558092E1,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-CC-A3MB-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+1D4337D7-B3AF-4D92-9441-B48D325E9774,Prostate Adenocarcinoma,Primary Tumor,TCGA-KC-A7F3-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+1DA5B13C-F18A-4CEC-891D-17E2735E0B7C,Uterine Carcinosarcoma,Primary Tumor,TCGA-ND-A4WA-01A,Uterine Carcinosarcoma,TCGA-UCS,Primary Tumor
+1DD762B5-653D-4516-8215-1CED908182B2,Breast Invasive Carcinoma,Primary Tumor,TCGA-EW-A1IY-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+1E09E7AE-B848-4B41-BD70-CA820F1FCA16,Skin Cutaneous Melanoma,Primary Tumor,TCGA-XV-AAZV-01A,Skin Cutaneous Melanoma,TCGA-SKCM,Primary Tumor
+1E6CEA84-E628-472E-BCE6-438EA27B58D7,Cholangiocarcinoma,Primary Tumor,TCGA-3X-AAV9-01A,Cholangiocarcinoma,TCGA-CHOL,Primary Tumor
+1E9744FA-0F15-4D0F-9999-744259F3ED12,Lung Adenocarcinoma,Primary Tumor,TCGA-05-5423-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+1EB81C57-EA75-4D8E-A494-9637B858F659,Stomach Adenocarcinoma,Primary Tumor,TCGA-CD-8527-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+1F156293-491F-4DF4-AC7A-52BB36BEE4E4,Lung Adenocarcinoma,Primary Tumor,TCGA-44-6145-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+1F179559-D93E-491C-B499-64F86C31DAE0,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-24-1471-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+1F746AE9-EF0E-448F-A0FE-80A243288040,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B0-5692-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+1F8BF4E8-BD84-4EFE-9E3E-89E7CE8FA72D,Sarcoma,Primary Tumor,TCGA-DX-AB3B-01A,Sarcoma,TCGA-SARC,Primary Tumor
+20C4D047-28DA-4AB7-9B3C-32EDA6B22C9D,Sarcoma,Primary Tumor,TCGA-MO-A47R-01A,Sarcoma,TCGA-SARC,Primary Tumor
+20EAA6BD-AD88-4B32-915C-EFD54C7AC0DE,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A0CY-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+20EB9CC6-EABB-438A-9030-E766459996D1,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-IR-A3LB-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+211FD575-40D6-4E44-818F-3A382F4634DA,Testicular Germ Cell Tumors,Primary Tumor,TCGA-YU-AA61-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+21821B38-6786-4078-9918-EC0E877C1533,Breast Invasive Carcinoma,Primary Tumor,TCGA-E9-A1N6-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+219A9B4A-C6EB-4D2A-AA44-FDB768AB3135,Lung Adenocarcinoma,Primary Tumor,TCGA-97-8175-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+21BFABFE-7C78-4879-BEC0-74C0CFD20529,Breast Invasive Carcinoma,Primary Tumor,TCGA-E9-A2JS-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+21F95DBD-67B5-4D03-9A20-22883C4473A1,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-BG-A0M9-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+229B786F-7955-409B-A85D-A33D5810F519,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-AAEG-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+22B0BD3B-EE08-4BC7-90B2-01C372A56BA2,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-QT-A5XL-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+231614D1-4FD6-455D-A65D-364599F6167D,Thyroid Carcinoma,Primary Tumor,TCGA-EM-A2OX-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+23238B08-AA91-46A3-B147-91185A5FAE3F,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CN-5365-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+2343975A-0AB3-448E-A633-4B433B1DF960,Prostate Adenocarcinoma,Primary Tumor,TCGA-CH-5765-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+234C42B7-E6A1-4CB3-9B30-D066541E918B,Prostate Adenocarcinoma,Primary Tumor,TCGA-KK-A6DY-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+2356B998-0930-403F-9B04-57A18A150955,Breast Invasive Carcinoma,Primary Tumor,TCGA-AO-A0J8-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+23F34B20-F029-44F5-B3B5-06A74FC0FC9D,Glioblastoma Multiforme,Primary Tumor,TCGA-76-4931-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+2426AB48-FBD3-41A0-90AE-84F7FC3AF673,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-CC-A7IL-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+24363857-9A33-40D4-8409-C17225570833,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-BG-A18C-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+24565113-7FC0-4E9F-84E3-6329DC06522D,Thyroid Carcinoma,Primary Tumor,TCGA-4C-A93U-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+248C0F63-A5EF-4F6F-9536-07FEBE171BC9,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-K4-A5RI-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+24FE253B-BC9F-48FE-84C4-33AA8EF99641,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-AADG-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+254A9134-7D3D-4A21-AADE-C5AC69AA6F9A,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-24-1564-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+25F10D96-5B62-47A4-A720-EC3D384560F6,Brain Lower Grade Glioma,Primary Tumor,TCGA-DU-A76O-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+261EB7DA-4BF5-4272-9CB8-ADF4C90E69FC,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-66-2771-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+26635F72-F34D-4543-908F-484441832E9E,Prostate Adenocarcinoma,Primary Tumor,TCGA-M7-A723-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+26769C35-BD7C-4C66-8ABD-EB8D0D60AE67,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-5524-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+26DABC83-DB30-452F-9BE2-366760CB138E,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-JW-A69B-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+26E46808-D736-4B6A-AC7E-F638DC5560CD,Breast Invasive Carcinoma,Primary Tumor,TCGA-GM-A2DK-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+2738FCA4-813D-49F5-A8B3-3C9886AE40FE,Lung Adenocarcinoma,Primary Tumor,TCGA-69-8255-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+28350D40-F35C-4A7D-9687-960F99C6FE5F,Lung Adenocarcinoma,Primary Tumor,TCGA-35-4122-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+2843FA7E-CDC1-4D4E-96F2-B87BFB91FA20,Prostate Adenocarcinoma,Primary Tumor,TCGA-2A-AAYU-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+2874DC37-CDD9-42D2-9EB5-5B0155253318,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-63-7020-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+29294D9A-434B-4581-9591-63D16107C7B1,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-BG-A0YV-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+29B5B851-7CBE-49D0-8288-0F3AA8B70F67,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CV-7438-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+29B732C6-0404-4B37-AD22-654A9348C95E,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-AK-3426-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+29DE9C1A-36DC-44E0-84A4-67BF57CF6FAF,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-A5-A0GQ-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+2A1E86E8-4713-465F-ACFF-C584864C57A1,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-WB-A80P-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+2A2D30F5-0B31-40B5-8DC5-30C659052FD3,Breast Invasive Carcinoma,Primary Tumor,TCGA-AO-A03T-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+2A508D90-FEDC-46A3-9A02-E51E5467CDCB,Esophageal Carcinoma,Primary Tumor,TCGA-S8-A6BW-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+2ACF1C92-C65E-4928-84D6-67F6EB755341,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-DK-AA71-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+2AE7105D-D494-45B0-947A-315D8C20ECDC,Sarcoma,Primary Tumor,TCGA-X6-A7WC-01A,Sarcoma,TCGA-SARC,Primary Tumor
+2B055171-F33E-4D6C-9990-37E154A4FCAE,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-H4-A2HQ-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+2B213FCE-35A8-4F07-86D9-9843BE15FB79,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B8-5552-01B,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+2B3D8D62-AF3E-4F76-99FC-0F0CF55FCB32,Stomach Adenocarcinoma,Primary Tumor,TCGA-HF-7133-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+2B707CB8-8F1D-4247-997C-F3FF4FC29D90,Lung Adenocarcinoma,Primary Tumor,TCGA-L9-A50W-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+2B729CD9-71A5-4336-ACBA-922A30AF4949,Uveal Melanoma,Primary Tumor,TCGA-VD-AA8O-01A,Uveal Melanoma,TCGA-UVM,Primary Tumor
+2B930936-4A32-42CA-80EA-58F2589CF2DB,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-3K-AAZ8-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+2B980C5A-2D45-46F6-B95F-CCCB152A9381,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-3E-AAAY-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+2BADCD01-27E8-49EC-B707-4FAE3D3CB489,Uveal Melanoma,Primary Tumor,TCGA-VD-A8KF-01A,Uveal Melanoma,TCGA-UVM,Primary Tumor
+2C2F376A-2AA7-4C45-9056-B612707C3FCF,Breast Invasive Carcinoma,Primary Tumor,TCGA-EW-A1P4-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+2ECFBCA0-AB35-461A-A4B5-C60B2651A962,Sarcoma,Primary Tumor,TCGA-MJ-A68H-01A,Sarcoma,TCGA-SARC,Primary Tumor
+2ED9F780-A4D9-442E-8742-725183DEAC99,Prostate Adenocarcinoma,Primary Tumor,TCGA-HC-7079-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+2F6A0808-8F01-4721-938D-F1FC7C5D8357,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-04-1651-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+2FBF997D-B138-4BB4-B51E-81CEF9C0C8A3,Brain Lower Grade Glioma,Primary Tumor,TCGA-TQ-A7RS-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+2FCBFD59-296D-496C-B591-441403881EAE,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-92-7341-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+2FCDC5DE-76AC-429D-85CC-BE1B8874C836,Thyroid Carcinoma,Primary Tumor,TCGA-GE-A2C6-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+2FE8D6DA-BB60-4F02-AFF7-B9A9A5C139C4,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CN-A497-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+304A0E46-3449-4B44-9C30-BDDF6459391D,Esophageal Carcinoma,Primary Tumor,TCGA-IG-A50L-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+3076973D-97E4-4E3E-BA81-910F8B505E06,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-A4NG-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+30BA7371-5377-4740-8F99-F5390CB6469C,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-21-1078-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+30CBAFDB-D1A6-4DF8-8D9E-3EEFA85F1195,Thyroid Carcinoma,Primary Tumor,TCGA-ET-A3BV-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+31DB5B8F-C659-4D87-9CC3-52D1273BBB62,Lung Adenocarcinoma,Primary Tumor,TCGA-55-6983-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+327B2123-6DD8-4263-87DE-EE917E911DD4,Colon Adenocarcinoma,Primary Tumor,TCGA-CM-4743-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+327E0B69-E439-4161-BD58-2E22C5D3A76F,Colon Adenocarcinoma,Primary Tumor,TCGA-F4-6460-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+32A2E606-1DEF-439B-B2C1-A40F56085FD9,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CN-A63T-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+32B3C71A-C4AE-42AA-AA11-63ACE64EAAD2,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-7880-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+32BE0941-12B7-46E1-B783-72D0B5353554,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-BC-A10Y-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+32CBFBAF-7064-4595-8D54-2C5E7DE0FD9B,Esophageal Carcinoma,Primary Tumor,TCGA-VR-A8ET-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+33266777-E07B-49D0-9E24-2EDE2577CF16,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-23-1110-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+3334280B-2A36-4AC7-A021-A76C10E958F0,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-W2-A7HH-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+335283CD-E3A8-48C3-B9EA-0FD6FB1E878D,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-21-1079-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+33580931-57FC-41D9-91B5-21EAE9BC0AF7,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-QK-A64Z-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+3366CC3C-2BBA-4CA7-848E-4E16AA70AE7A,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-SR-A6MQ-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+33A5FE1E-E6AA-4C35-88C3-3054149A8D3B,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-BC-A3KG-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+33CC70DD-82B3-413C-B3B1-BE06634D95D0,Esophageal Carcinoma,Primary Tumor,TCGA-LN-A49V-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+33DE9BAA-3B78-4026-96C5-A1A82FB61274,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-B5-A1N2-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+340E8861-0515-4EC4-B22E-4C9521A16C15,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-59-2350-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+3426E239-7D86-4FD5-8F46-9DC79BE7AA35,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-A44T-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+3460B92C-977B-4658-BC7F-FBBEC9A5332A,Prostate Adenocarcinoma,Primary Tumor,TCGA-XJ-A83H-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+34A6454E-814C-4EA3-B807-AC006D9CA9DF,Thyroid Carcinoma,Primary Tumor,TCGA-EL-A3ZL-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+3508F4B0-1ADA-4937-B924-424AC2596341,Breast Invasive Carcinoma,Primary Tumor,TCGA-AN-A0XT-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+354DC705-216E-42F0-B29E-C1F8D6C9489A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-C5-A7CG-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+356F02A7-7619-4A94-9A54-1ECB15B2F52F,Prostate Adenocarcinoma,Primary Tumor,TCGA-V1-A9ZR-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+357C1FC3-5038-4BD3-A629-C31E97A7B6A3,Lung Adenocarcinoma,Primary Tumor,TCGA-44-7672-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+35CD1BE6-D38C-4302-B0D6-188207F295B5,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CV-6955-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+35E082F4-AA88-4B71-A9EE-19BD7E4D4847,Breast Invasive Carcinoma,Primary Tumor,TCGA-D8-A1XD-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+361D2308-A050-4178-BDF9-85109F15C8DA,Colon Adenocarcinoma,Primary Tumor,TCGA-QL-A97D-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+36452FD9-5F23-4650-A75D-34EC955EBFD8,Colon Adenocarcinoma,Primary Tumor,TCGA-D5-6927-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+36C94172-B70D-4DD7-97A8-AC7785C026B5,Testicular Germ Cell Tumors,Primary Tumor,TCGA-2G-AAG3-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+36CC954C-F90E-41E8-87D3-1AEB51BAB83B,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-13-2060-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+37A58DA6-AEE8-4279-9738-FCBB1B92AA3E,Thymoma,Primary Tumor,TCGA-ZB-A96B-01A,Thymoma,TCGA-THYM,Primary Tumor
+37B29806-FBD6-432F-9A47-CE72BEE3A5BB,Breast Invasive Carcinoma,Primary Tumor,TCGA-LL-A5YO-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+37B86425-204C-40FC-995E-EBD0E797B1DB,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AJ-A2QL-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+37BA8258-7A6D-4664-B85F-9AE51BE0BC90,Thyroid Carcinoma,Primary Tumor,TCGA-EM-A2CN-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+37EE421C-B2AC-45DD-9266-F6AAFC7E7F93,Thyroid Carcinoma,Primary Tumor,TCGA-BJ-A4O8-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+37F648DB-7979-4A23-A640-F058A95BBD84,Colon Adenocarcinoma,Primary Tumor,TCGA-AA-3860-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+38443F8E-9707-4995-BA83-39C8D93A2AF1,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-29-1701-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+38941CF3-9C54-4BA4-A005-CC88CA97D504,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-WB-A81A-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+38D2BE9E-15D4-47BC-8FEB-55310F23825B,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-BS-A0UV-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+38D5AF7E-B3B6-4851-AFB7-C7152B8EAE30,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4161-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+38EA4B66-BF10-4D01-8885-E0E60DE1D471,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B0-4834-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+38F7976C-4A68-47D7-9F75-1B187E78C221,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-4257-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+39286936-7CC8-4045-9D84-8340D2A49CCA,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AP-A1DK-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+3948FBBB-9B5D-414B-B6F7-46208D614E0B,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-39-5034-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+3A712325-2D7E-44FB-94B6-CF4A98758794,Lung Adenocarcinoma,Primary Tumor,TCGA-50-5935-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+3AEB8943-FE34-4014-B851-BBF83857A794,Lung Adenocarcinoma,Primary Tumor,TCGA-L9-A8F4-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+3B2B0D97-5713-41AD-89EE-D5CB4FBEA787,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-EV-5903-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+3B2F39D5-0530-488E-B8D3-49E5E18175E3,Thyroid Carcinoma,Primary Tumor,TCGA-ET-A3DW-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+3B6CE2E6-9A99-4CD7-9529-AA3AB2B300DD,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-2J-AABI-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+3B8267C3-6FCC-4753-BA84-96950B342E39,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AJ-A3BD-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+3BA72C4D-DB4C-440C-B76B-036961EC8914,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-D1-A17B-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+3C14A318-E9ED-4383-9F57-E227D478B450,Colon Adenocarcinoma,Primary Tumor,TCGA-AD-5900-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+3C2D3BEE-7F61-40C5-8ADE-231EA1D30645,Testicular Germ Cell Tumors,Primary Tumor,TCGA-VF-A8A9-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+3CAD86F5-C320-492B-A32E-92E4B1B7F01E,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4177-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+3CC2C458-0920-4C5A-B3B9-AFBE2E122C52,Thyroid Carcinoma,Primary Tumor,TCGA-EM-A3O7-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+3CFE193B-09B3-4038-AA66-156BEEA28DDC,Brain Lower Grade Glioma,Primary Tumor,TCGA-HW-A5KL-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+3D23319C-990C-4A8C-A3E1-E07D49E2A08D,Uterine Carcinosarcoma,Primary Tumor,TCGA-N5-A4RV-01A,Uterine Carcinosarcoma,TCGA-UCS,Primary Tumor
+3D5E28A0-5C13-4049-8BF1-3FF107DD0DAE,Breast Invasive Carcinoma,Primary Tumor,TCGA-OL-A97C-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+3D6B2ADC-F22F-471E-960E-4F13F3A3D081,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-ZF-A9R9-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+3D8EF19B-A881-43C2-9ACB-8A566954DE28,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CZ-5454-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+3DF0CB8F-4559-40CE-BCF4-4B038929FB4E,Breast Invasive Carcinoma,Primary Tumor,TCGA-A7-A13D-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+3E751A3D-573E-42E1-A361-6303669FB7EB,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A0D0-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+3EC982CB-D013-443E-B21D-39DE6B8EF370,Sarcoma,Primary Tumor,TCGA-DX-A1KY-01A,Sarcoma,TCGA-SARC,Primary Tumor
+3F120E90-1486-4215-B9B9-79D5B413CAAC,Sarcoma,Primary Tumor,TCGA-DX-A8BU-01A,Sarcoma,TCGA-SARC,Primary Tumor
+3F458A99-ED35-41E2-A90C-D78483268A68,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-A5-A0GD-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+3F8DA39C-BC9B-4343-8838-5CE271E80C51,Sarcoma,Primary Tumor,TCGA-QQ-A5VD-01A,Sarcoma,TCGA-SARC,Primary Tumor
+3F9403BF-0B47-40E4-8709-9DB0D218E607,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-BL-A0C8-01B,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+3F962513-9A2D-43C1-8873-D8404F7A2BA3,Stomach Adenocarcinoma,Primary Tumor,TCGA-R5-A7ZF-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+3FD52E66-AB76-4079-80DB-281A795D1EC0,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-RW-A68G-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+3FE58F32-ED1C-43BA-8724-8420D77939F8,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-21-1080-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+40424A8F-CE23-436B-8F65-4919F90F6691,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-7789-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+404AFCE1-7048-4FB7-821F-3E47FFD1121D,Thyroid Carcinoma,Primary Tumor,TCGA-ET-A39L-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+4099642A-F8D6-428C-AA12-1E76C27BB368,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-7611-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+41F0988E-3BF0-4733-98B3-863B7D11B521,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-7125-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+424A05C2-C0C2-439A-A483-E959810E155B,Thyroid Carcinoma,Primary Tumor,TCGA-ET-A2N0-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+428600DE-74FA-48E9-B229-83C7992C5649,Lung Adenocarcinoma,Primary Tumor,TCGA-99-8025-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+4287781B-8C52-4B61-9CF8-47A3FCC83201,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CN-5358-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+42DF2F32-7E39-415A-9C06-966DBB23B165,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-A1EL-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+431CF176-101C-482F-B2A4-617ADF6475A8,Brain Lower Grade Glioma,Primary Tumor,TCGA-DB-A75L-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+434AB74E-67E1-444D-9906-C967D8F93343,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4998-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+448F68C4-512B-4FC4-856C-7375EEF9356E,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-21-1077-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+4496EE84-2C36-413B-A328-A5B598A6C387,Thymoma,Primary Tumor,TCGA-X7-A8DB-01A,Thymoma,TCGA-THYM,Primary Tumor
+44B1F003-553A-4C8A-A6AE-44C49262081C,Glioblastoma Multiforme,Primary Tumor,TCGA-14-0789-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+44B988F8-8B4B-4B7C-B91E-99C513F7E753,Brain Lower Grade Glioma,Primary Tumor,TCGA-S9-A6WQ-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+44C04683-DE81-45AB-9695-4BA64CE73155,Testicular Germ Cell Tumors,Primary Tumor,TCGA-2G-AAGO-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+45CA3F9E-40EE-43A4-AE57-FE51D4003844,Rectum Adenocarcinoma,Primary Tumor,TCGA-AG-A01W-01A,Rectum Adenocarcinoma,TCGA-READ,Primary Tumor
+46BEFC7F-2F51-4331-BA86-9823EC5781B3,Brain Lower Grade Glioma,Primary Tumor,TCGA-QH-A86X-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+46C04E67-F4D4-41B9-8724-EF7328BE226C,Brain Lower Grade Glioma,Primary Tumor,TCGA-WH-A86K-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+46C7DDE5-A2B5-494F-96AE-0B6E2D51B003,Adrenocortical Carcinoma,Primary Tumor,TCGA-OR-A5JC-01A,Adrenocortical Carcinoma,TCGA-ACC,Primary Tumor
+46E513F2-B915-433B-8659-6A4BCA3A0579,Testicular Germ Cell Tumors,Primary Tumor,TCGA-2G-AAHP-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+47030843-A3FD-4411-B1C1-BB19F13FC366,Skin Cutaneous Melanoma,Primary Tumor,TCGA-ER-A2NF-01A,Skin Cutaneous Melanoma,TCGA-SKCM,Primary Tumor
+472B75A2-A8C0-4503-B212-CADB781802EB,Thymoma,Primary Tumor,TCGA-3T-AA9L-01A,Thymoma,TCGA-THYM,Primary Tumor
+473713F7-EB41-4F20-A37F-ACD209E3CB75,Rectum Adenocarcinoma,Primary Tumor,TCGA-DC-6158-01A,Rectum Adenocarcinoma,TCGA-READ,Primary Tumor
+476E8F79-2F9B-4EF8-9A91-3DF184AB71BA,Thyroid Carcinoma,Primary Tumor,TCGA-EL-A3H8-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+47761280-913E-4826-B400-F04F85B17476,Breast Invasive Carcinoma,Primary Tumor,TCGA-A8-A085-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+47B91ADC-2079-40C1-927B-F9C38297AF80,Thymoma,Primary Tumor,TCGA-ZB-A96O-01A,Thymoma,TCGA-THYM,Primary Tumor
+48A7E8CB-E473-45B8-A066-5BFEE0DFEC89,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4795-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+48BB2CF5-8B56-42C1-94BD-252540A3FD79,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-98-A53B-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+48E311AF-131C-4A0B-9DA8-8CD52BB799BF,Prostate Adenocarcinoma,Primary Tumor,TCGA-G9-6353-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+4913FF90-E563-48E0-A632-A6CFF90D810F,Breast Invasive Carcinoma,Primary Tumor,TCGA-B6-A0IG-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+4942E435-61E6-4A43-B031-4E08F0B41186,Brain Lower Grade Glioma,Primary Tumor,TCGA-CS-4941-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+494A6ED0-C989-4979-892D-FD9D3EE2C3B3,Thyroid Carcinoma,Primary Tumor,TCGA-ET-A3BP-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+494D71B2-79C1-4183-9E49-8D1C198C3E8E,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-8676-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+495C0075-8BB1-4616-8896-1F5F59E8332F,Thyroid Carcinoma,Primary Tumor,TCGA-H2-A422-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+4975AB35-93E5-400D-A429-CEA81BA89FFE,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-29-1703-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+499238AB-07C7-4EB0-AC88-EEA6D9F87A3F,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-5180-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+49B4CDAD-26FB-4B62-AEA7-7DB13F13C389,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A18M-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+49B8F49B-1C21-4145-BCDC-403B3D37CCD5,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-D1-A102-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+4A0BCB85-73E0-4371-8437-709BF899DA42,Lung Adenocarcinoma,Primary Tumor,TCGA-53-7626-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+4A3985CA-FC08-4478-AB20-A18BAFDFBC64,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-CC-A3MA-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+4AAA6060-A678-48B4-A2ED-388D0FFB229F,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-DK-AA6T-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+4AEE4E66-F11A-4D09-BFDC-9F3FA94312CC,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AX-A062-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+4B18B059-0D01-422E-9BE2-27DEA86994BC,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-EY-A1GV-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+4B3D8B07-8B44-45F3-BE30-A0B6EDBF8265,Lung Adenocarcinoma,Primary Tumor,TCGA-NJ-A7XG-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+4B996600-09E0-4BED-B6D0-DDA3F3A0244A,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-A4J9-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+4BA56207-18D4-4C7A-A3E6-7834FA888DBA,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-MT-A51X-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+4BB9587B-88CB-4BD9-BE1D-2CDF61337579,Brain Lower Grade Glioma,Primary Tumor,TCGA-CS-6666-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+4BE13F18-43C2-4B90-90EA-BAC3B995E8D9,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-18-3415-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+4BE5A149-C72A-4A37-BAA3-A94F57774B0F,Prostate Adenocarcinoma,Primary Tumor,TCGA-V1-A9Z8-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+4CBE0475-73DA-4DB3-AB71-29FE1AE332F6,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AP-A05O-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+4D20804F-E5DE-4023-8D79-9F953BC006B2,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-22-5489-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+4D4E894A-91BA-4DEB-803F-473EE53A2B2C,Thyroid Carcinoma,Primary Tumor,TCGA-EM-A4FH-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+4DECB19A-290F-4CEB-BE25-AAF9B9E2B58F,Rectum Adenocarcinoma,Primary Tumor,TCGA-AF-2687-01A,Rectum Adenocarcinoma,TCGA-READ,Primary Tumor
+4E232D58-ED36-4F53-B5BE-A9A7AD3B26F6,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A0CO-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+4E5BEEDF-3052-4A74-9427-9029CC2FF36E,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-7330-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+4F556BC6-3A10-4EB1-A835-DE1B9E64D292,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-EO-A1Y5-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+4F579967-6CB9-4672-BA7A-F94F789B280E,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A1EV-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+5037DC80-5E81-4281-89A0-E0B58071B1D9,Rectum Adenocarcinoma,Primary Tumor,TCGA-F5-6465-01A,Rectum Adenocarcinoma,TCGA-READ,Primary Tumor
+5063882F-6377-4976-BB48-7275D46C44E6,Glioblastoma Multiforme,Primary Tumor,TCGA-06-0168-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+50805093-E39E-4A07-A02C-87BED9D6BF54,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CJ-5675-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+50E5597F-CD6F-4816-9E37-A5A651D65E96,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-36-1570-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+50ECFB2A-FF9D-4A8A-91CB-3902D3B670A0,Colon Adenocarcinoma,Primary Tumor,TCGA-CA-5797-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+514BCECF-4BCD-4082-A0AA-AE60CB84E45E,Rectum Adenocarcinoma,Primary Tumor,TCGA-AF-6136-01A,Rectum Adenocarcinoma,TCGA-READ,Primary Tumor
+51FED657-41CD-4B03-9E57-4A1EC2E10FF2,Thyroid Carcinoma,Primary Tumor,TCGA-DO-A2HM-01B,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+52020307-71A6-46E5-ACB3-8F885CA8F1EB,Sarcoma,Primary Tumor,TCGA-QQ-A8VG-01A,Sarcoma,TCGA-SARC,Primary Tumor
+5243D1B8-8168-4FF1-A8C6-505F080EF0D3,Esophageal Carcinoma,Primary Tumor,TCGA-2H-A9GR-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+52618F7D-E02F-4A49-A6EE-927FE6D90CC8,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-DV-5569-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+52AFCAB5-BE0B-4814-B085-80A7DF9015DE,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-A3-3349-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+52BC932E-FE9B-49FF-8584-2F92E61D5871,Breast Invasive Carcinoma,Primary Tumor,TCGA-AC-A2BK-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+52D00759-223A-49B6-B61E-115095B512C3,Colon Adenocarcinoma,Primary Tumor,TCGA-A6-6781-01B,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+530DDD97-7352-4F72-8891-D3B8DA235EFD,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-F7-A50G-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+531C44C7-A03C-4AD5-AD6F-2A68496AFCAB,Thyroid Carcinoma,Primary Tumor,TCGA-DJ-A3V9-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+533CFA6A-C250-4F52-8637-0A77C398C78A,Breast Invasive Carcinoma,Primary Tumor,TCGA-AO-A0JC-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+53575575-3303-4F8F-B6A8-B42131CFB4AC,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-WB-A81E-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+535B17B1-D5E8-4FF6-AC93-049871EB14BB,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-FD-A3SO-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+53932F11-DE7B-4BD1-BC3D-22F084FD60DE,Kidney Chromophobe,Primary Tumor,TCGA-KL-8335-01A,Kidney Chromophobe,TCGA-KICH,Primary Tumor
+53ED3333-2BE6-4738-A2C9-43C9F0A7B5BE,Brain Lower Grade Glioma,Primary Tumor,TCGA-S9-A6TX-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+5473210D-37F9-4192-86D2-E2A2C77F3BD2,Sarcoma,Primary Tumor,TCGA-PT-A8TR-01A,Sarcoma,TCGA-SARC,Primary Tumor
+552D3B42-8D22-4B64-B3A2-B3E5D51A8524,Lung Adenocarcinoma,Primary Tumor,TCGA-L9-A443-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+55788408-50CF-4518-8A82-1D94AEA7444E,Prostate Adenocarcinoma,Primary Tumor,TCGA-HC-7080-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+55D67692-09C2-4EEB-8424-DE12B47FAF2C,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-T2-A6WX-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+55E9BC6F-3123-4444-BC23-33FBA5F84BD7,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AP-A1DM-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+562291E5-AB47-4455-9C92-7904DAB14AB4,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-FI-A2CX-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+563EB6A9-F589-49A8-89B2-2F1185C65C4E,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B0-4714-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+5663C145-B465-4509-BA9A-1A40584952BD,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-BL-A13I-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+568EB516-7103-4BE2-BB92-052FF5C7D095,Stomach Adenocarcinoma,Primary Tumor,TCGA-VQ-A924-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+569320D2-316C-4E2D-B7B3-D7D5C4DAD42D,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-C5-A1BI-01B,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+570F7FED-AD06-4274-97FA-BAFD9D5CB3F8,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CN-4729-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+571C7D1C-E7C1-47FF-810C-42449570063E,Colon Adenocarcinoma,Primary Tumor,TCGA-AA-A02O-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+57F2CD81-20B0-4814-9C40-42EC9C2F3915,Skin Cutaneous Melanoma,Primary Tumor,TCGA-EB-A3Y7-01A,Skin Cutaneous Melanoma,TCGA-SKCM,Primary Tumor
+589816F0-A080-4792-A857-BDB2B15DEC68,Rectum Adenocarcinoma,Primary Tumor,TCGA-AG-A036-01A,Rectum Adenocarcinoma,TCGA-READ,Primary Tumor
+589A94F8-2432-4D6D-94EB-B327ECA291AF,Brain Lower Grade Glioma,Primary Tumor,TCGA-HW-8319-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+58DC9179-9BC6-4919-855E-1599A2136F5E,Lung Adenocarcinoma,Primary Tumor,TCGA-44-6774-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+5A3A95CC-E103-4D0F-9EDC-212B5654C507,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-AB27-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+5AC193EA-E5E4-4F76-8E88-0DC317995690,Lung Adenocarcinoma,Primary Tumor,TCGA-55-8204-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+5B046939-1D30-44CB-998E-5C95716A70D8,Breast Invasive Carcinoma,Primary Tumor,TCGA-AO-A03O-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+5B1839C4-549D-41D1-B559-3C6D2A1528CE,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-UC-A7PD-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+5B3B61FE-EEA5-46C3-BC4E-BB9A880E4407,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-A4NQ-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+5B9D33F5-1B4F-4C06-A73A-CC723C1EF409,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-7684-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+5C28442C-27A3-4C42-A796-9F8BF214D879,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-21-1070-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+5C689B08-91FF-45D3-8294-2A8E84D9A018,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-DI-A1BU-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+5CDFAF15-5227-4917-A66C-2447CF9BC70E,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A0BP-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+5D903B69-80C4-4149-B23B-534B0027C8DF,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,Primary Tumor,TCGA-GR-A4D4-01A,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,TCGA-DLBC,Primary Tumor
+5E1D8FD3-8E0F-4950-8B00-8F4EAA206EC0,Thyroid Carcinoma,Primary Tumor,TCGA-EL-A3CS-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+5E6353C0-CD05-44ED-8A9E-9EB008F98795,Stomach Adenocarcinoma,Primary Tumor,TCGA-HU-A4H8-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+5E63F693-8F47-4922-B25B-45E77716DAAB,Lung Adenocarcinoma,Primary Tumor,TCGA-78-7159-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+5ED97B1F-466D-4A6E-800D-39BD27F18762,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CW-6097-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+5F1FB4E0-D5EA-46B4-9E62-E86E75AC030F,Testicular Germ Cell Tumors,Primary Tumor,TCGA-2G-AAGC-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+5F7EBDA1-6E6A-45F9-B3EE-FF3340D38B7F,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-A453-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+5FFEF93E-3421-44BC-95BE-CA07D2343CD9,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-66-2727-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+6005494F-5D3D-43A3-B3E8-8C91955B2A98,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-QT-A69Q-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+604E434F-EACB-4E6F-9EA9-2D50991CE930,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,Primary Tumor,TCGA-RQ-A68N-01A,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,TCGA-DLBC,Primary Tumor
+6081001C-D782-4FA3-A3DE-266F560E5A57,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-AK-3434-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+60AFD798-AF56-41CC-9EA9-2F1CA1986886,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AP-A05J-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+61081954-392A-40CE-8092-659B76B097CB,Lung Adenocarcinoma,Primary Tumor,TCGA-55-8512-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+61496AD6-7265-4D58-87CC-4FEE9723106E,Glioblastoma Multiforme,Primary Tumor,TCGA-28-2510-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+61791DBE-58DC-44D0-96A4-864BF2961E1A,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B8-A54G-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+61D1FD4D-F0FF-4D89-B26F-C1102685ED9D,Glioblastoma Multiforme,Primary Tumor,TCGA-28-5216-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+61D2738A-607C-4037-960E-73586C59D6CA,Prostate Adenocarcinoma,Primary Tumor,TCGA-XA-A8JR-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+61D4E8E7-0110-480A-A4A7-D406DE74C31E,Sarcoma,Primary Tumor,TCGA-DX-AB35-01A,Sarcoma,TCGA-SARC,Primary Tumor
+62361DA2-E4EE-46DA-BB1F-C51DCA9307CC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-PN-A8MA-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+6238087F-24DD-4BF1-903F-3BD4E446C1AE,Esophageal Carcinoma,Primary Tumor,TCGA-2H-A9GK-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+6239D979-7AED-4751-A97A-A4DD628D9259,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B0-5085-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+62A348D2-E7FD-48D0-9622-8B485DA5E327,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A25B-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+631F847D-1E4E-404F-A98D-F105DBD08CF6,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CN-6020-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+63351C27-1DF5-45FD-A08F-6AD2B2AF8BBF,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-FD-A6TE-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+638C5407-A6E5-49FB-B3E2-A089AC00E09E,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-85-8277-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+63B96C26-3379-4D57-917F-5931F5286C50,Lung Adenocarcinoma,Primary Tumor,TCGA-55-6985-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+63F4281A-4D90-4589-879E-549097FB3459,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-D1-A17Q-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+641A082E-5CA1-48F1-80E2-F7AAB53611F0,Breast Invasive Carcinoma,Primary Tumor,TCGA-C8-A26V-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+648AC1EF-E63F-4B15-9548-61F759D2C769,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-66-2756-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+64F4FE1B-1B96-49CC-B4E9-454D971DB7BC,Brain Lower Grade Glioma,Primary Tumor,TCGA-DU-8165-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+656A8DD4-5421-4F6A-ACF2-24201F775B32,Stomach Adenocarcinoma,Primary Tumor,TCGA-IN-8462-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+66012924-1391-4AD2-AC98-A1EEA16CF83D,Thyroid Carcinoma,Primary Tumor,TCGA-DJ-A2Q4-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+665EFC06-88FE-4AAE-B645-C04A3FB95ACB,Rectum Adenocarcinoma,Primary Tumor,TCGA-AG-4008-01A,Rectum Adenocarcinoma,TCGA-READ,Primary Tumor
+66BAE682-8610-4458-8564-FD205858F507,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,Primary Tumor,TCGA-GS-A9U3-01A,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,TCGA-DLBC,Primary Tumor
+66C79790-288F-4273-9F87-6C21CD256C8E,Lung Adenocarcinoma,Primary Tumor,TCGA-44-6147-01B,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+66CB88EC-2DDD-403E-9B48-DBD26C22A35D,Thyroid Carcinoma,Primary Tumor,TCGA-FY-A3BL-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+66EF51CF-3953-4B82-9ACD-7179A2A4C4C2,Testicular Germ Cell Tumors,Primary Tumor,TCGA-2G-AAG6-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+6794CB9F-5326-4F57-B2E2-5D877C03F5D4,Brain Lower Grade Glioma,Primary Tumor,TCGA-QH-A6XC-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+67A7E9D8-C2A0-4B52-95BD-BDB781E7A9D5,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-B5-A1MU-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+67BE48A1-AA86-4EA8-9460-100715F12A25,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-F9-A7VF-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+68135BBA-EE73-4A52-BE3C-469F10EFD665,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B2-5633-01B,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+682C11E8-099C-466F-BC8A-B09A754205E3,Breast Invasive Carcinoma,Primary Tumor,TCGA-S3-AA11-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+68A22CB5-427C-4DD0-8483-1AC27BD6A049,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-O2-A52N-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+68A3F13D-319D-4603-A27F-B5DD46FE5C5B,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-WB-A80O-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+68B73B22-487B-43D8-9B68-06AD1022F46D,Brain Lower Grade Glioma,Primary Tumor,TCGA-DU-5852-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+68CE8E02-F24A-4580-9881-DFBB288E2ED7,Brain Lower Grade Glioma,Primary Tumor,TCGA-E1-5307-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+68E56692-D46D-4A27-86CD-717E10AADDDA,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-13-0801-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+691BFA81-F8E6-4711-BB06-9838704D9955,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-GL-7773-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+692C65BB-BF32-4846-806B-01A285BED1B9,Thymoma,Primary Tumor,TCGA-X7-A8M7-01A,Thymoma,TCGA-THYM,Primary Tumor
+699DC654-3950-4D7B-A142-45253518A5AC,Stomach Adenocarcinoma,Primary Tumor,TCGA-VQ-A8PC-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+69C63329-4865-4FB8-9E32-2AB1A2A9223B,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-5185-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+6A193B2E-EA8D-4CBE-8EAE-B2486E65C920,Breast Invasive Carcinoma,Primary Tumor,TCGA-LL-A8F5-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+6A57D69C-8E19-47F2-8261-1419A45995A3,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CN-A63W-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+6A7C9F33-2061-42F9-B6A1-C94B9360904D,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-FB-AAPQ-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+6A9B0429-EF12-4E9B-9C4E-F89919D17B8B,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-90-A4EE-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+6ACB4FA8-1E5E-40FF-8C1F-980CF41215FB,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-7476-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+6B0D80D5-401D-4D0B-BE6C-BF72E9277E17,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-77-8154-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+6B131704-D54C-4E0E-9D01-BFEE2C59BE88,Breast Invasive Carcinoma,Primary Tumor,TCGA-AR-A5QN-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+6B15E85B-0882-487B-BDC2-950EA679A81D,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-BK-A0CA-01B,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+6B1F8A0B-FE7F-4EDF-8F1E-8C703B8234EB,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AJ-A3BF-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+6B5D346F-F5CE-4AA5-A8D9-E50EBEE04A8E,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-IB-A7M4-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+6BAC4B1B-C3FC-4A09-9821-232E510E6A47,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-58-8390-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+6BC21C0D-3866-4503-A72C-BF550CB67E97,Thymoma,Primary Tumor,TCGA-ZT-A8OM-01A,Thymoma,TCGA-THYM,Primary Tumor
+6BF28F22-A2BF-486D-B823-4DFF86B8A97C,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-FI-A2F9-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+6C34A7D7-3756-4DCC-9A9F-B5FC4A148B7E,Sarcoma,Primary Tumor,TCGA-HB-A3YV-01A,Sarcoma,TCGA-SARC,Primary Tumor
+6C7F8B1C-497C-4120-B8D1-EB724DE077C9,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,Primary Tumor,TCGA-FA-A4BB-01A,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,TCGA-DLBC,Primary Tumor
+6C8FCD10-3AD0-4B68-BC4B-FF47A3AD62FF,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-DK-AA6X-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+6D378FDE-0785-4EE8-A620-0D4A249A847A,Thyroid Carcinoma,Primary Tumor,TCGA-IM-A3ED-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+6D5D5E3D-0089-4FED-9683-47B3677FA8D7,Thyroid Carcinoma,Primary Tumor,TCGA-BJ-A18Z-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+6DF0AECD-840C-4E22-80FD-9B0A78882074,Kidney Chromophobe,Primary Tumor,TCGA-KN-8434-01A,Kidney Chromophobe,TCGA-KICH,Primary Tumor
+6E2502CB-DF7F-4D9B-8BE2-031AE75A2D76,Thyroid Carcinoma,Primary Tumor,TCGA-DJ-A3US-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+6E7F1C5E-83BE-4260-A4EB-2E8FB7B5AEDF,Lung Adenocarcinoma,Primary Tumor,TCGA-44-2662-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+6EDD11DF-519C-4CFB-A3B9-BE1CD2E26F14,Colon Adenocarcinoma,Primary Tumor,TCGA-AZ-6605-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+6EF22E72-6FCD-4645-8E8A-F6F117387082,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B0-5108-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+6F54F9C0-5687-4A07-BF75-B506752B4A52,Breast Invasive Carcinoma,Primary Tumor,TCGA-AC-A62V-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+6F7E9F0D-164E-4696-A353-18D379AA4EF7,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CJ-4869-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+6F9405E7-9279-42E1-99B1-DEC727D9EC1A,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AX-A1CN-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+6FBCEADE-1A61-4D62-BAD0-88DDB21D95D7,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CZ-5452-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+6FC5B56B-711B-4174-9B06-4E843124AAB6,Adrenocortical Carcinoma,Primary Tumor,TCGA-OR-A5LT-01A,Adrenocortical Carcinoma,TCGA-ACC,Primary Tumor
+7053DEF6-F90B-49C8-8F1C-AE3E475357D9,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CV-7180-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+705D8441-3436-49B6-9575-E77C5252844A,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-HV-A5A6-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+708798CA-F7BA-4B85-840D-AAC815E2DAA3,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-BC-A10Q-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+708F24EB-4551-4A3F-8E59-FA76ABE305D7,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-DV-5574-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+70AA4670-C75B-4E39-8958-3F9C29811871,Colon Adenocarcinoma,Primary Tumor,TCGA-AA-3495-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+70BC3EEE-B8C9-40D2-BECD-8BED3AD96E22,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-MM-A84U-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+70BEA149-3CB1-4B6B-9B3A-84C6EB88972C,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A202-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+7125B861-75F8-4119-8FB1-2F7B81413780,Breast Invasive Carcinoma,Primary Tumor,TCGA-EW-A1IW-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+719A1E5C-F438-4A11-8EF9-F4385A99004F,Prostate Adenocarcinoma,Primary Tumor,TCGA-QU-A6IO-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+71FFB439-22A1-4EBB-AEA6-A6BCA8CA6648,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-13-0923-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+721E9BA5-6CD7-4389-B6BB-D223FC7C6C5E,Prostate Adenocarcinoma,Primary Tumor,TCGA-KK-A8IH-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+723C5794-B977-44E8-A15C-396179621EFB,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-61-1910-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+7248E306-3877-46F8-91F6-706AD5D8207E,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-DK-A1AD-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+7257A739-CD09-4933-93F8-787753C55AA2,Lung Adenocarcinoma,Primary Tumor,TCGA-62-A46U-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+72781523-C5BA-4B54-8410-E238B5F441B4,Brain Lower Grade Glioma,Primary Tumor,TCGA-WY-A85D-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+727911B5-45AA-42A6-8D32-4D131C8B0824,Breast Invasive Carcinoma,Primary Tumor,TCGA-A7-A26J-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+72B5B724-FEB5-43BD-83F6-2E2152DDD800,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-LP-A5U2-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+72E11C03-D4E0-47DD-B89B-287AC907DBD1,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-FV-A3I0-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+737E69AC-0930-45B9-B6BA-7CE5E300290B,Esophageal Carcinoma,Primary Tumor,TCGA-IG-A625-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+73A0DF2D-684E-4A90-8608-E07CBA593D40,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B8-5546-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+7409A62F-0F0B-44AA-85BD-91B6C646E36F,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CV-6935-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+741518B3-206F-45AE-995D-47DD5CA2E59D,Lung Adenocarcinoma,Primary Tumor,TCGA-55-8089-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+743C3A64-081C-4001-A8F0-6A510981D6E0,Breast Invasive Carcinoma,Primary Tumor,TCGA-E9-A1RC-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+7441B31D-C6DA-4F1B-8013-DB0BF98F673C,Prostate Adenocarcinoma,Primary Tumor,TCGA-XJ-A9DX-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+745F18CA-080D-42FE-BAA6-89AD7E3D3408,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-25-1322-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+7480A3B3-3BF8-4123-8E2E-8C2B52688EC6,Lung Adenocarcinoma,Primary Tumor,TCGA-49-6744-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+74880702-8A08-4103-ABE3-ED9E53AD6207,Thyroid Carcinoma,Primary Tumor,TCGA-BJ-A0ZF-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+75021778-A96B-4F57-8C26-68E8F33D7EB7,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-09-2045-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+751AAE96-9476-4B22-A370-2195FB1E4CAA,Thyroid Carcinoma,Primary Tumor,TCGA-ET-A3DU-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+7535F262-9B96-44F6-988C-4C9EBB3FFCA9,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-QR-A6H1-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+7550AFDC-56C1-46A3-954F-B129431AA249,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-P4-A5E8-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+7559E197-0527-40D8-A982-C37B35A9A902,Testicular Germ Cell Tumors,Primary Tumor,TCGA-2G-AAFJ-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+75682769-79E2-4C6D-967F-7B9AFC8BDF8C,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-K4-A4AB-01B,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+75D5BB54-137F-43F8-A88A-88BAC55FFFE1,Colon Adenocarcinoma,Primary Tumor,TCGA-AA-3949-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+75F7B5E2-6559-4B48-A2A4-287C35C559CC,Adrenocortical Carcinoma,Primary Tumor,TCGA-OR-A5L4-01A,Adrenocortical Carcinoma,TCGA-ACC,Primary Tumor
+763F284D-B99A-4646-A84C-5EFB15C07376,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-30-1853-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+766D5820-4C4A-4A9E-8059-97B66F19FB9F,Lung Adenocarcinoma,Primary Tumor,TCGA-49-AARN-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+7702BEDB-2351-4CC7-A513-A5AEB871F37A,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-F2-6879-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+7779D220-647F-4D6C-890B-022208B51F57,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-7855-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+77A27A5A-7DE7-4D82-BD76-6C073F0A2E8F,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-B5-A11Z-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+77D801F5-8630-4B17-AFF4-8FC832A881E4,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-UF-A71D-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+785B5B06-4115-46FD-9BEB-F888AFDC855D,Esophageal Carcinoma,Primary Tumor,TCGA-L5-A8NG-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+788A8487-6A02-4BF5-8E84-16BE5D92BF0F,Glioblastoma Multiforme,Primary Tumor,TCGA-32-1982-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+78AFD286-1D48-4CC5-8D01-CEBF637679D6,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-CC-A3MC-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+78EEB2C7-4B64-4CB0-9C94-E2AC46A75237,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-37-4132-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+79658D82-668B-49D8-AEC5-EAC6AB8E83D9,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-60-2721-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+7987E019-8FED-469B-A6C1-34EE430A60C3,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-C5-A1MH-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+79A8F606-9A9B-45F4-99E2-61B8498AB4BD,Breast Invasive Carcinoma,Primary Tumor,TCGA-AN-A046-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+79B11925-9772-474F-A729-D00315959710,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-29-1702-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+79B630BF-2DB0-406C-8274-4840D5EEEB21,Lung Adenocarcinoma,Primary Tumor,TCGA-97-A4M1-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+79BDCA7C-DAB8-455E-812A-A08265753D7A,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-E5-A2PC-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+7A29ADBD-837E-408C-9414-F9171C0C4827,Thyroid Carcinoma,Primary Tumor,TCGA-E8-A436-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+7A728862-43EB-4965-85D0-B92AF8DE1FE1,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-79-5596-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+7AA24995-3DD2-4682-B36A-4EBFEEACF625,Esophageal Carcinoma,Primary Tumor,TCGA-VR-A8EU-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+7AD22869-92C5-43D5-B334-9781A311CB2E,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A0SW-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+7AF6E8FF-2E16-4D5B-A475-8C2492BE0325,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-10-0927-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+7B2BD361-2BF1-4E97-BC08-457F5A9C2682,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-EK-A2RL-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+7B7DBEA3-DF47-4051-8A58-548705A21035,Breast Invasive Carcinoma,Primary Tumor,TCGA-AO-A0JI-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+7B8AB60E-77DA-48E4-9320-CC5595D12131,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-EY-A1GP-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+7BC016C0-D634-48F6-B221-3D730FE1604D,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-85-A4QQ-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+7CCE062C-AB6C-4AD5-B2A6-700B84DD5C7F,Colon Adenocarcinoma,Primary Tumor,TCGA-AA-A02H-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+7D2EF3FC-2977-4410-947F-244B54755779,Thyroid Carcinoma,Primary Tumor,TCGA-EL-A3T2-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+7DFAC404-3AB3-4274-A533-CFDAF4CE122D,Sarcoma,Primary Tumor,TCGA-DX-A8BK-01A,Sarcoma,TCGA-SARC,Primary Tumor
+7E84698B-0394-4498-A8D4-F3F96F49E669,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-13-0883-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+7F04B5C2-E111-474D-869C-23239D15CCE1,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-2Z-A9JG-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+7F4BD890-C986-45F3-A9DA-0E152A3E23F6,Lung Adenocarcinoma,Primary Tumor,TCGA-55-8096-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+7F9A203E-4C66-4FCD-983B-C27BA8531A0A,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-5P-A9JV-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+800E78BA-08BE-463B-ABBA-45255B48362B,Brain Lower Grade Glioma,Primary Tumor,TCGA-DB-A4XE-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+8026EF80-8CFB-4A62-9C72-BB5B50BDECFE,Prostate Adenocarcinoma,Primary Tumor,TCGA-KK-A6E8-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+80CC16D9-AD26-488B-8ADE-4706A843D4F5,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-5P-A9KE-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+81A2D108-72B9-4397-AADE-80FB5DC2354E,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AX-A3G1-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+821E3D5D-5BAC-415B-B722-AE97A23D142C,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-AACU-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+825AC0F8-4D16-4109-AA6A-4648934E3C35,Glioblastoma Multiforme,Primary Tumor,TCGA-06-2562-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+827232CC-8035-440C-8B12-02C789C70B1B,Sarcoma,Primary Tumor,TCGA-DX-A6YS-01A,Sarcoma,TCGA-SARC,Primary Tumor
+82A7523D-02C1-4F75-956A-B95519DD7547,Breast Invasive Carcinoma,Primary Tumor,TCGA-E9-A5FL-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+82CD07FF-7566-4360-8210-EB17ECB7591A,Breast Invasive Carcinoma,Primary Tumor,TCGA-AR-A0U4-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+82EACD7E-A014-4F98-8C4E-05D2492A68A5,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-BQ-7060-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+83249D65-3579-40C8-959A-76EB3208DDA8,Lung Adenocarcinoma,Primary Tumor,TCGA-93-A4JN-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+836C94CC-2F01-4137-9CFA-8E1619C1969A,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CV-A45V-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+836F841E-4B66-4AB0-957A-5C62BE787E49,Breast Invasive Carcinoma,Primary Tumor,TCGA-C8-A26Z-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+8379F24E-3BFF-4C1B-BD4B-1E8BEC4199B0,Breast Invasive Carcinoma,Primary Tumor,TCGA-AC-A3HN-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+83B88608-0506-428C-B9E8-621F38477B42,Esophageal Carcinoma,Primary Tumor,TCGA-VR-A8EW-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+83CAFA8C-E9DD-47E7-AAB3-EA054D15CFD6,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-UY-A78O-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+841E2203-5B7F-4306-BD38-4BD68E79F9C8,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-B5-A11Y-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+8430DA8A-AEF6-40A2-B298-9EE519B112B6,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-RC-A6M6-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+84D517AC-3E3F-4ABA-A1F0-500F2A19154C,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B4-5377-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+851363D9-BF87-4014-BD80-D6DFC7444041,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CJ-4887-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+85252141-5469-4F68-8F3F-934F8B3277E5,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-6A-AB49-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+852F1EDF-6046-462C-820F-9782410E1845,Testicular Germ Cell Tumors,Primary Tumor,TCGA-W4-A7U4-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+8533DA90-5905-4682-80CE-648101AED690,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-63-A5MB-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+8586E94A-F9B6-4387-A877-A4B118EC1784,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-P3-A6SX-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+862D8DE4-0F24-427A-BAA8-B2F42E74D43D,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-AL-3466-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+8631ADA8-2CDA-42F7-927E-76A24EFA128D,Breast Invasive Carcinoma,Primary Tumor,TCGA-E2-A156-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+869B62A4-5B6F-41DC-8113-C2CA9ECB681C,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AP-A0LL-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+86B33612-1B08-4B6A-AA15-D1849CFF9B11,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-2Z-A9J3-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+8709CFA2-0F90-4A18-B5EF-56D1D60A7947,Thyroid Carcinoma,Primary Tumor,TCGA-EL-A3CW-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+870E6C5B-94C3-466E-A599-064FD900F110,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-7794-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+87117BE1-D328-4972-85DA-6672412D8860,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-S7-A7WL-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+8731F05E-B6AF-4930-97DD-6C933DC91361,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A0BR-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+87ABB098-8C1E-4677-8C31-48B71EFE41C7,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-C5-A902-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+87C9F796-21D9-4B51-A129-0DDDC39A06A3,Breast Invasive Carcinoma,Primary Tumor,TCGA-A7-A0CG-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+881B9916-6845-4D0A-936B-1D7E6B32E21D,Thyroid Carcinoma,Primary Tumor,TCGA-DE-A69J-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+88526A0E-6DFE-46CB-BFAD-B4826F482C67,Esophageal Carcinoma,Primary Tumor,TCGA-LN-A4A9-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+8865E079-D8AB-406C-8886-C854F1A26201,Breast Invasive Carcinoma,Primary Tumor,TCGA-E9-A5UP-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+88A6D5D6-1945-431B-9602-A10CE85E6C32,Lung Adenocarcinoma,Primary Tumor,TCGA-44-5645-01B,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+891C47EF-2EB9-4D87-A070-BA561660E4CA,Thyroid Carcinoma,Primary Tumor,TCGA-DJ-A2Q3-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+899CB9E0-48D0-413D-8566-BC151F146453,Adrenocortical Carcinoma,Primary Tumor,TCGA-OR-A5K1-01A,Adrenocortical Carcinoma,TCGA-ACC,Primary Tumor
+8A237A65-28EC-434D-A78A-A8B7308B5204,Esophageal Carcinoma,Primary Tumor,TCGA-VR-AA7I-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+8A97F930-D5CC-4EB9-8DA8-870FCDA9E50C,Prostate Adenocarcinoma,Primary Tumor,TCGA-HC-7821-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+8AACDB46-9BB3-42BA-871D-7A593F14430A,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-7607-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+8AC7406E-558E-437D-A335-5BDA778EAAF3,Prostate Adenocarcinoma,Primary Tumor,TCGA-ZG-A9MC-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+8B162C63-7AC8-49E5-B705-BA38DD9F4556,Stomach Adenocarcinoma,Primary Tumor,TCGA-VQ-A91A-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+8B6F9CCD-0878-419B-9872-373D18CA67AA,Thyroid Carcinoma,Primary Tumor,TCGA-BJ-A28V-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+8B75F7D4-98D8-44DE-B19D-B733D6A031DB,Sarcoma,Primary Tumor,TCGA-DX-A2J4-01A,Sarcoma,TCGA-SARC,Primary Tumor
+8B948ED4-41E9-4441-9609-ADAF4D3A102E,Breast Invasive Carcinoma,Primary Tumor,TCGA-A1-A0SM-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+8BA0C590-87C2-4476-988D-CEC188466C80,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-18-3414-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+8BC067E8-7BD6-41DA-8682-317236F42328,Brain Lower Grade Glioma,Primary Tumor,TCGA-DU-5855-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+8BDC643C-79AD-4437-A33A-7097586895A6,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-60-2710-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+8C260BBA-B36C-4712-98EE-16C83496FAA4,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-QK-A6IG-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+8C34CD93-1AC0-4920-9E72-439EED0CF85D,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-7479-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+8C5989FF-9BAC-4086-8D37-F7FA689FDBF1,Lung Adenocarcinoma,Primary Tumor,TCGA-38-4625-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+8DBE419E-A360-4493-AC3B-C145887D9237,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-FD-A5BR-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+8DE8FA53-7E21-4EE4-8205-B802A8970F18,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-B9-A5W9-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+8E566039-B56C-4F41-B9EF-DE18BEEF2C95,Sarcoma,Primary Tumor,TCGA-DX-A7EU-01A,Sarcoma,TCGA-SARC,Primary Tumor
+8EA5EF4B-9045-4D5F-A20C-255F0ECC08C6,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-G7-6793-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+8ED4FB56-825C-48BC-B789-B1D13FE478E6,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-A3A5-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+8EFC9A71-8F38-4A88-B720-B94C96A3CF85,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-5508-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+8F349F98-4D93-4F97-AC6B-50D2BF072B0C,Breast Invasive Carcinoma,Primary Tumor,TCGA-A7-A0CH-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+8FA989D7-3FBA-43B9-8D10-F2790E4A1B51,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-77-7141-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+8FBB326D-E544-498E-8A47-8C8291063E14,Thyroid Carcinoma,Primary Tumor,TCGA-DJ-A1QH-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+8FE1BEA7-0BFE-4868-A093-AB5540A0475D,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-66-2789-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+8FF5C8FC-2565-49BE-9EE0-91A84A85AB2A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-C5-A1MQ-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+8FF6B0AB-C03C-4A06-A851-EBB4B0FFB769,Breast Invasive Carcinoma,Primary Tumor,TCGA-5L-AAT1-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+9002DDA4-4F38-44FE-B21D-186CFF528B25,Prostate Adenocarcinoma,Primary Tumor,TCGA-VP-A87D-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+9030AC3F-19D2-4173-9025-87726923621D,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A0DT-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+904EDF2E-411E-43BD-901D-46129AFA283A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-VS-A9V3-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+90837DC9-BC40-4642-BEF9-7D3C99B54069,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-EO-A22Y-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+90A24A23-B495-4BE2-8CC6-488C68BC6B4B,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-AADU-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+90B53BBE-689F-45BB-B298-F0501A98DB77,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-IB-A7LX-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+90F8EB31-A33C-4434-90FC-B6721774D68C,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-DK-A3IT-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+918CA71C-C91B-4E3B-B554-14078A53E120,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-60-2716-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+92E2A146-7C92-44DA-B372-D51AD76BDCE0,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-CC-A123-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+92EA1846-62FF-41D5-A441-5E52E6B9E7F9,Esophageal Carcinoma,Primary Tumor,TCGA-LN-A49R-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+93492AEE-B4C2-4839-AC13-E46BA43F8F67,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-2J-AABT-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+93B382E4-9C9A-43F5-BD3B-502CC260B886,Adrenocortical Carcinoma,Primary Tumor,TCGA-OR-A5K5-01A,Adrenocortical Carcinoma,TCGA-ACC,Primary Tumor
+944BB71C-6508-4743-BFE3-3F2970AEB780,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-A5-A0G1-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+94D3B158-1C7B-43A2-AE00-64E115344C52,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-25-1329-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+94DFD2C1-D707-4ECC-A108-E8DA83FA15DE,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A04Y-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+96089343-B7DE-46D0-B51F-65D5E0F07116,Prostate Adenocarcinoma,Primary Tumor,TCGA-G9-6371-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+964526C8-72E3-498C-A413-FBEBD33FDB6C,Rectum Adenocarcinoma,Primary Tumor,TCGA-DC-6683-01A,Rectum Adenocarcinoma,TCGA-READ,Primary Tumor
+96AF8FCE-DF6E-4139-A201-ECCD2803BF17,Thyroid Carcinoma,Primary Tumor,TCGA-E8-A438-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+96C74703-A813-4937-B93E-92019823A474,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-AAD5-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+9701D912-40FA-46EA-8716-5A4AD7DA9A4C,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4330-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+97073DEA-73AD-4DFD-BD1A-9035DC03445B,Esophageal Carcinoma,Primary Tumor,TCGA-L5-A4OM-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+976507F2-192B-4095-920A-3014889CD617,Uveal Melanoma,Primary Tumor,TCGA-V4-A9F3-01A,Uveal Melanoma,TCGA-UVM,Primary Tumor
+978A315F-CCE9-4D03-A680-C0AD60B10557,Lung Adenocarcinoma,Primary Tumor,TCGA-44-A47B-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+985D9304-E4DA-4038-B235-067CBFEAC902,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-61-2003-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+98C89F70-92DF-469A-A8DF-E96838B61A76,Colon Adenocarcinoma,Primary Tumor,TCGA-AA-A00Q-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+98D004A9-E3F0-448E-BFE2-359F25DF356C,Brain Lower Grade Glioma,Primary Tumor,TCGA-E1-A7YI-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+9928C165-0A54-4FF2-ACF0-FABAE0D8D4BF,Stomach Adenocarcinoma,Primary Tumor,TCGA-D7-6518-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+993399A4-1B9F-4258-B2D0-155AD58A2E82,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-C5-A1BJ-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+998A0059-F532-4044-9C25-6D175854F963,Stomach Adenocarcinoma,Primary Tumor,TCGA-CG-4460-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+99AADBA6-DEC2-4191-AA99-6F53F07E5FD6,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-F7-A50I-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+9A33172F-AEEA-4B7D-9605-0C60D7872CEA,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-BG-A18A-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+9A53C473-1364-4BB6-AD36-EF53E0208450,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-85-A53L-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+9A88299D-5C74-47FA-B42C-1A1D6D935AAB,Esophageal Carcinoma,Primary Tumor,TCGA-LN-A4A8-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+9AFFBD57-6886-46FC-9874-D14BF9734304,Colon Adenocarcinoma,Primary Tumor,TCGA-AA-3930-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+9B1D6277-4356-42AB-AD8D-24B260D17C10,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-E7-A6MD-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+9B35C36A-E24A-4854-933F-5626DC1BC38B,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-58-8393-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+9B74391D-0CA9-40CA-BEC4-AB6D2983C251,Thyroid Carcinoma,Primary Tumor,TCGA-EM-A4FU-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+9B8AFAED-70D4-4E61-85B3-BBCED05ECFA9,Breast Invasive Carcinoma,Primary Tumor,TCGA-AC-A2FM-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+9BE3F538-EF0F-4891-99CA-EDB794962914,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-6852-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+9BFFA41C-8D78-4077-9343-A124B370C8B6,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A0W3-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+9C3F2ACF-CDC6-44F7-A051-37A94EA9AB3C,Thyroid Carcinoma,Primary Tumor,TCGA-EL-A3GZ-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+9C8760C9-ABD0-448F-B8FB-5AEE16691356,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-A1EI-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+9CC73F06-A5AF-4D94-87A9-2F25B039D029,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4964-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+9CD9CF8F-31AC-414D-AD37-1669BB56547C,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A18Q-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+9DD5272A-2D6E-4774-83E3-0CD761EDE926,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-C5-A2LT-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+9DE372FA-FA7F-41AB-BE52-B0B7D957CF9D,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-EY-A1GD-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+9DFED478-492A-401A-9742-14FA7D9AEFBC,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CV-7091-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+9E2420C3-FD2A-45BB-B5A3-DC25D9F7CB3C,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-7695-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+9E514933-EA60-4958-85A3-F6CA82055196,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-BW-A5NP-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+9E8F1F6E-8115-49A7-A208-3A6308CFD2B2,Breast Invasive Carcinoma,Primary Tumor,TCGA-B6-A0IO-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+9ECD0F8A-3D97-4CF0-9A95-A34CA9E3306A,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-A4NN-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+9EE0367C-7A37-4D91-A397-D27B109112FE,Glioblastoma Multiforme,Primary Tumor,TCGA-76-4929-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+9F0EAB4C-BC1A-4646-9BC5-8597C8EA6887,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-BG-A0M2-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+9F59F086-C9D1-4624-8023-DB2EB9377743,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-B5-A3FA-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+9FEBF0C6-10FC-4D52-910E-19A2E339B969,Colon Adenocarcinoma,Primary Tumor,TCGA-AA-3527-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+A017FC0A-3FE9-4C46-B71A-F079EB7D18D3,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-5499-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+A033D709-F383-4E08-A1E4-4F6FD8549975,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B2-5635-01B,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+A0663EC1-6682-4BE3-82AF-B9577700B320,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-MH-A856-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+A07ADC09-084C-422D-AF59-505DD79EDBDE,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AX-A063-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+A0A07F44-C51B-420C-92E8-65F464DB0442,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A3KC-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+A11F6487-644D-42A2-9F68-E773E71E58D1,Breast Invasive Carcinoma,Primary Tumor,TCGA-B6-A0WS-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+A15B58A5-9C4A-4E81-AE49-D7AF4E78F0CD,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CJ-4878-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+A19ADC4B-C7E3-4855-9B59-009865D4FBF0,Brain Lower Grade Glioma,Primary Tumor,TCGA-DU-A6S3-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+A20F40C9-4FD6-41C5-9A1E-F885BD5DA9C1,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-FD-A43Y-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+A26025AC-9F71-4C07-9135-83593193BBB2,Adrenocortical Carcinoma,Primary Tumor,TCGA-OR-A5LM-01A,Adrenocortical Carcinoma,TCGA-ACC,Primary Tumor
+A2C68C81-7371-4E0C-BFD1-EA868A7C9499,Colon Adenocarcinoma,Primary Tumor,TCGA-CK-5914-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+A3099C9A-ED73-44F5-AD88-14AE01373AD6,Breast Invasive Carcinoma,Primary Tumor,TCGA-AR-A2LM-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+A31DD727-F50A-4077-81E7-7B8D0CAD7310,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A4RY-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+A3853813-B9D5-4E8C-B075-19FCC35F8686,Esophageal Carcinoma,Primary Tumor,TCGA-R6-A6DN-01B,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+A3B4DE21-DDF0-4468-A300-7BECBAFD0BCD,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-24-1560-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+A3CD519E-CF55-417F-AAB3-DEF0B25358C7,Testicular Germ Cell Tumors,Primary Tumor,TCGA-ZM-AA0E-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+A3DBF047-C112-47D2-B192-87B2FD3C8694,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-DK-A3WY-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+A4318DA0-6021-4931-A583-1087BD2BC837,Breast Invasive Carcinoma,Primary Tumor,TCGA-B6-A0X7-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+A4338E43-C48E-4D1F-9CAB-83DCBC2120E0,Prostate Adenocarcinoma,Primary Tumor,TCGA-HI-7168-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+A49AE37F-6705-4796-85E3-F8D52489D2F8,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,Primary Tumor,TCGA-GR-A4D6-01A,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,TCGA-DLBC,Primary Tumor
+A4FDC009-60AD-4F30-9883-40C13D2F1F1F,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-QS-A8F1-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+A548DB97-6D28-4DEA-8334-201093A67B1E,Brain Lower Grade Glioma,Primary Tumor,TCGA-TM-A7CF-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+A678E1E5-E02D-49A1-BB2B-C91A60E6382E,Glioblastoma Multiforme,Primary Tumor,TCGA-32-2638-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+A6B67C26-3357-4E70-A056-E7BE7FAEE36A,Uterine Carcinosarcoma,Primary Tumor,TCGA-N6-A4VE-01A,Uterine Carcinosarcoma,TCGA-UCS,Primary Tumor
+A6C06064-8194-4DFB-9262-A30E63DB2514,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-HQ-A5NE-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+A6E7A318-EAA0-4AC3-8CDD-54EFBCC59113,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A0EB-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+A716BC29-161F-4CA0-B240-00B330137F2C,Esophageal Carcinoma,Primary Tumor,TCGA-LN-A9FR-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+A72CAFBF-C3E4-4518-AE38-16A3B3914D2B,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-S5-A6DX-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+A73A2348-FC50-42A5-ADF0-6647E5ECF0EA,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-EY-A1GX-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+A782EE71-EDA4-4385-83B3-D16DE81296C0,Sarcoma,Primary Tumor,TCGA-IW-A3M5-01A,Sarcoma,TCGA-SARC,Primary Tumor
+A7C71CEF-A5C7-4BAC-9090-9808B029190B,Brain Lower Grade Glioma,Primary Tumor,TCGA-DU-7019-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+A7EA898D-9421-4B7E-A19A-096A1280A1C8,Testicular Germ Cell Tumors,Primary Tumor,TCGA-ZM-AA0H-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+A82BF67F-6B69-499A-8631-4101BE9BA9AB,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A0W5-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+A8574381-5644-4F7A-BDD7-C579A6398B70,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-PQ-A6FN-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+A85974ED-BC0B-46D9-87A7-159ABC3B8BA1,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-NK-A5CX-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+A8D65DDB-516A-4F8C-8038-483A254D41B1,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-A5-A0GP-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+A8D8311C-73C4-4806-A8CA-D275905FC1AE,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A0HQ-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+A8E11B1B-B6CD-4723-8042-AB86B044AD8D,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-EO-A3AY-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+A8F79C08-3943-4707-ADCB-890A955B5394,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-24-1928-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+A98023B3-D269-4E82-A93C-3BB6228462C2,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-A3-3307-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+A9B66FF7-E5B7-4CDD-91B5-0B32E8231436,Prostate Adenocarcinoma,Primary Tumor,TCGA-2A-A8W3-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+A9E21619-E99A-4D90-A04F-5D59999F00B3,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-6709-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+AA7C4701-02D4-480B-9709-1C7218E2AC08,Lung Adenocarcinoma,Primary Tumor,TCGA-MP-A4T4-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+AA87E619-E232-4A3A-926A-4EA8F862DEE1,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A3XS-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+AAE77BCD-09B9-480E-B019-5C95DFA4CDA1,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-66-2770-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+AB103F12-A3A1-4660-8FB9-614CEC5A2A54,Colon Adenocarcinoma,Primary Tumor,TCGA-D5-6928-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+AB4D330F-6916-48DE-AF36-D00237C16020,Thyroid Carcinoma,Primary Tumor,TCGA-ET-A3BT-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+AB75BCA7-5635-4839-A178-120A02EF575F,Breast Invasive Carcinoma,Primary Tumor,TCGA-E2-A15E-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+AB839BD2-BAC0-48CB-AF5C-C31ACDF6272F,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CV-7429-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+ABAF7694-F260-4509-99DB-82449EC507CE,Stomach Adenocarcinoma,Primary Tumor,TCGA-IN-8663-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+ABB7CDD0-71C6-4813-9A1E-4CE9B2F88884,Kidney Chromophobe,Primary Tumor,TCGA-KO-8415-01A,Kidney Chromophobe,TCGA-KICH,Primary Tumor
+ABEE1D65-A98E-4FB0-8F15-2E2C094CCEB3,Stomach Adenocarcinoma,Primary Tumor,TCGA-HU-A4GP-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+AC376BBB-667B-4469-B567-9BE18DE0F811,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-85-7844-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+AC7DD1B2-EF04-435B-BC5E-F25496DB73E9,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CV-7423-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+ACCEC75A-8EDF-4D83-97DE-BD30FACAC774,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-UZ-A9PS-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+ACFDAF18-F84C-4F90-9280-C3BF2F19CD1B,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4345-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+AD36D45C-5BD4-4C14-87B7-EB57DC110AC7,Breast Invasive Carcinoma,Primary Tumor,TCGA-E9-A1RA-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+ADC8F806-7E6E-4547-BEDC-9B32F10EA709,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-ZF-AA53-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+ADD6F72C-49D0-4FF1-BE53-FA5FE58A0D11,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-G3-A25X-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+ADD7449B-340C-46FD-841C-414F967825EB,Breast Invasive Carcinoma,Primary Tumor,TCGA-B6-A0IP-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+ADF3C1B2-7562-4207-B7D0-2187E2AA66F1,Colon Adenocarcinoma,Primary Tumor,TCGA-DM-A0XD-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+AE2797D3-2C96-4853-A741-B979676AFD7C,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-A4-8518-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+AE43FF42-0266-4CD1-8C27-C3A2DB9C4F55,Breast Invasive Carcinoma,Primary Tumor,TCGA-D8-A1XJ-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+AE4C3956-76DF-4059-8D69-3D764F31817F,Rectum Adenocarcinoma,Primary Tumor,TCGA-AG-3574-01A,Rectum Adenocarcinoma,TCGA-READ,Primary Tumor
+AE6AFB55-6D43-46C1-9EC7-162CBB5F1613,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-ZP-A9CV-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+AE903797-7FFB-44A1-B834-C644784B5DC2,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CN-5366-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+AEC88672-61FD-4639-81BB-E1DBFD4CDCF6,Testicular Germ Cell Tumors,Primary Tumor,TCGA-2G-AAGE-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+AF573EC8-E4EE-4B8F-8199-9817B9FAC67D,Adrenocortical Carcinoma,Primary Tumor,TCGA-OR-A5JG-01A,Adrenocortical Carcinoma,TCGA-ACC,Primary Tumor
+AF739504-76EC-4C97-8155-5BA161688083,Thyroid Carcinoma,Primary Tumor,TCGA-EL-A3ZO-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+AFAEF14F-81B6-493F-89BC-A689F699AD66,Thymoma,Primary Tumor,TCGA-XU-A92T-01A,Thymoma,TCGA-THYM,Primary Tumor
+B04AA6FE-DE3C-4387-8249-BB29B873FF1F,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-25-1318-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+B055A70B-3003-47CB-BDAA-6378C000BF24,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-JW-A5VG-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+B0CE5521-96E9-4087-89EE-309D785C0F96,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-13-0919-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+B0F7E58A-1DDB-4C59-BFCB-1227A29141C4,Breast Invasive Carcinoma,Primary Tumor,TCGA-A7-A13E-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+B12A5565-F8C2-4BEE-9E1D-5417FA82EFB0,Colon Adenocarcinoma,Primary Tumor,TCGA-AA-A01X-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+B12D2F99-CA71-4C1B-8B97-C5C289D357E0,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-A5-A0GX-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+B14E4A93-3186-42D4-A36C-EB287EFFC653,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-A74H-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+B17D9FCC-C687-4C04-BACD-846B822E1FE7,Thymoma,Primary Tumor,TCGA-ZB-A96I-01A,Thymoma,TCGA-THYM,Primary Tumor
+B24F602F-159E-4EC4-B026-ADFEFAA8E9C0,Stomach Adenocarcinoma,Primary Tumor,TCGA-ZQ-A9CR-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+B2C5B924-0F76-42DA-B186-219DCA0533BA,Thyroid Carcinoma,Primary Tumor,TCGA-EM-A1YC-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+B2FF9472-A988-4FA0-8405-BE271EEC3C70,Thyroid Carcinoma,Primary Tumor,TCGA-DE-A4MB-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+B33316E1-11FD-4C10-956A-C9C6F78508C5,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-10-0928-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+B388CA82-5BF7-4BDD-8821-4EC0B213121F,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-QR-A706-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+B3B87DC5-D5C7-4F3A-8BEA-CBDC8195D9C3,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-2J-AABO-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+B4604353-EC2D-4FF5-91C1-FAEDB89F6BC0,Breast Invasive Carcinoma,Primary Tumor,TCGA-E2-A14V-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+B473C676-5C50-4322-B43A-05F500FFEBAF,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-NC-A5HO-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+B56357FA-E93B-411C-B100-FCD96460ACC9,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AP-A05D-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+B57F6995-D67F-4587-AB0E-02447C0CC52A,Lung Adenocarcinoma,Primary Tumor,TCGA-MP-A4T8-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+B583566B-A014-417A-A973-41204DC35ECF,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-8114-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+B588950F-14D6-41C8-845B-EFD2096013C6,Esophageal Carcinoma,Primary Tumor,TCGA-R6-A8WC-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+B5BB6B5E-75C7-4E0B-BA74-B86E4DF8BF8E,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-SY-A9G0-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+B5C9EA22-F758-4BD2-BD1F-282EC1078AED,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-VS-A9UP-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+B634ABD7-247E-43BE-8BC4-1C48BA2960FB,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-77-8133-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+B645B1D6-8FDC-47F2-9309-60784C9B27BD,Stomach Adenocarcinoma,Primary Tumor,TCGA-D7-A4YY-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+B6653CE1-2BB3-4632-A061-1AAC2ECB1D15,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CN-6010-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+B7005B5F-217E-4073-BFB5-CE7E884B80C0,Sarcoma,Primary Tumor,TCGA-PC-A5DL-01A,Sarcoma,TCGA-SARC,Primary Tumor
+B715C1BF-C3E1-43B5-8480-462F38692E59,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A0HO-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+B71EF25E-7DDB-42DA-84A5-920A90E85512,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-7688-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+B72D6269-48C8-4B73-9372-0197194F8768,Rectum Adenocarcinoma,Primary Tumor,TCGA-EI-7004-01A,Rectum Adenocarcinoma,TCGA-READ,Primary Tumor
+B743D4F2-DA2C-4F41-8D7E-C9EE70C2F37F,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-UY-A9PB-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+B78B7692-B0B1-4051-BECB-8A09876AC4C0,Testicular Germ Cell Tumors,Primary Tumor,TCGA-2X-A9D6-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+B78F78E4-7997-4476-996E-61EE8EB4BB82,Colon Adenocarcinoma,Primary Tumor,TCGA-AZ-6600-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+B7A695A4-0B74-41E9-8662-4010C8CA38F0,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-24-1413-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+B7AEC5E2-0774-464D-A572-5CC84BEF7FEE,Testicular Germ Cell Tumors,Primary Tumor,TCGA-ZM-AA06-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+B7E14E69-007A-4F04-8C8F-B424F73AD883,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-BK-A26L-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+B8AED170-C88C-4A86-8377-93B5D14AB334,Glioblastoma Multiforme,Primary Tumor,TCGA-02-2486-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+B90927EE-2978-45BC-872B-200DE436605C,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-3A-A9J0-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+B9E39F41-722E-40C0-8A2D-0AC960F5FCD1,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-FV-A3I1-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+BA5B80A9-05B7-4329-9AB7-ACD69F1528D2,Stomach Adenocarcinoma,Primary Tumor,TCGA-VQ-A92D-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+BA84E10F-480A-4B3C-9723-10FECE4AF5B9,Lung Adenocarcinoma,Primary Tumor,TCGA-50-6673-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+BAA39781-DB94-473C-98B1-FA6CD3E1C67A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-EA-A1QT-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+BB2A06D9-AF9B-4BF6-8EEC-8F53BD5536B0,Brain Lower Grade Glioma,Primary Tumor,TCGA-WY-A85B-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+BB999B1B-0681-4055-AC1D-8B14C6B78D65,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4787-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+BBCEA0D1-DE66-4C0C-8D3C-D1398D04B472,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-24-1546-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+BC55CCAB-D8AD-4FF6-814D-508C2FBD5DFE,Thyroid Carcinoma,Primary Tumor,TCGA-J8-A4HW-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+BCC474D8-08FE-4E99-B8E8-B29E65F84D2E,Esophageal Carcinoma,Primary Tumor,TCGA-LN-A49S-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+BCC71FF5-8729-4E6B-8C2C-471F80A4F91D,Breast Invasive Carcinoma,Primary Tumor,TCGA-EW-A1J6-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+BCEA34CA-360D-4776-BAD1-387F48E5550D,Thymoma,Primary Tumor,TCGA-ZB-A969-01A,Thymoma,TCGA-THYM,Primary Tumor
+BCF9508C-9600-4CA8-924F-A7BDCF8D3636,Prostate Adenocarcinoma,Primary Tumor,TCGA-J4-A83M-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+BD2081D7-90DD-4F9A-89C1-76D4322A1C8E,Breast Invasive Carcinoma,Primary Tumor,TCGA-D8-A73X-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+BD3559EC-93EC-4DBC-8631-35EFC27A5C08,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-UZ-A9PK-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+BD6E5E3C-DC43-4A85-84DF-84C68ABB851A,Lung Adenocarcinoma,Primary Tumor,TCGA-75-6211-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+BDCEEABA-4D55-4FDD-A180-C6FDF6EEF46F,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-7793-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+BDF79CC0-00C7-49C1-900B-AB065A733B17,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-EK-A2IP-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+BE04FDC1-6EAC-4877-ABF3-CDEC248EEBBB,Breast Invasive Carcinoma,Primary Tumor,TCGA-OL-A66O-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+BE2DCA51-1C21-4598-98A7-F2FB9B2DFCB4,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-QR-A6H4-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+BEDB0135-0A26-44EF-9028-C4907403B110,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-24-1431-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+BF0969AB-4A2E-4890-A215-3A636E6E7731,Breast Invasive Carcinoma,Primary Tumor,TCGA-AN-A0FV-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+BF0F538C-A405-4FAE-AD61-17E38732F4A1,Stomach Adenocarcinoma,Primary Tumor,TCGA-VQ-A925-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+BF502604-A252-475A-9471-31F526E37927,Colon Adenocarcinoma,Primary Tumor,TCGA-AZ-4614-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+BF5E7EF3-0DF8-48AF-AEF7-9CB1FD8C502C,Prostate Adenocarcinoma,Primary Tumor,TCGA-HC-A6AL-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+BF79E030-47EE-4D08-B910-5685A4BD8B60,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-QR-A70I-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+BFA78EE1-F867-4DBD-BE12-2C647C2F53E6,Brain Lower Grade Glioma,Primary Tumor,TCGA-DU-8166-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+BFC5B75A-E4AE-486B-BA30-23BBAA33A125,Sarcoma,Primary Tumor,TCGA-DX-A6BB-01A,Sarcoma,TCGA-SARC,Primary Tumor
+BFC6BCB5-F6A8-41D1-A36D-0220FF31B577,Prostate Adenocarcinoma,Primary Tumor,TCGA-G9-A9S7-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+C0133A01-0F93-4306-954E-A725AE8B56C3,Thyroid Carcinoma,Primary Tumor,TCGA-ET-A40R-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+C04DEDC8-747C-4053-BB23-225C9FD9FC5F,Brain Lower Grade Glioma,Primary Tumor,TCGA-P5-A5F6-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+C07800C1-91B6-4612-9831-F4F6FC6CF318,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A1EW-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+C0D98C97-15A4-4F52-862D-8B57AED60665,Stomach Adenocarcinoma,Primary Tumor,TCGA-D7-6525-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+C0E23436-A40D-4E71-9E53-F61E9A99EF59,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-5P-A9KC-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+C12206E3-0D85-44AA-864F-97B833FA1F0A,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-QS-A744-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+C1411CDA-814D-4E21-8929-C0F77858828F,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-VS-A958-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+C149CEF5-61F3-4B53-B8A9-8244B673EBD0,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-DG-A2KL-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+C1522FA7-3B21-4F3E-B32D-844B5090D2D3,Uterine Carcinosarcoma,Primary Tumor,TCGA-N8-A56S-01A,Uterine Carcinosarcoma,TCGA-UCS,Primary Tumor
+C196188B-7979-4AEF-8CAA-5187BD4F955D,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-HZ-A77P-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+C25B6919-5DC7-4A8A-97B0-8EE5128B868A,Breast Invasive Carcinoma,Primary Tumor,TCGA-LL-A5YP-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+C2864531-CBF6-41A1-87DC-D166EBF8B962,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A18S-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+C2CD2742-2FB4-468E-90FF-8F65A5C425A9,Sarcoma,Primary Tumor,TCGA-X6-A8C6-01A,Sarcoma,TCGA-SARC,Primary Tumor
+C2FE5128-FCA0-40D8-86FF-F966D7CED63F,Thyroid Carcinoma,Primary Tumor,TCGA-ET-A39K-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+C33EDB64-C7B9-49A1-AE73-1D293F8522F6,Glioblastoma Multiforme,Primary Tumor,TCGA-32-2615-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+C35CBC8E-8243-4AB8-BA23-61DAC181B983,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-13-0890-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+C3B7657E-B340-4808-86D9-277E661D48DD,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-MI-A75E-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+C3E94C5D-68C4-400C-B7CB-38C42E9D5FFF,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-BI-A20A-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+C42EB6B8-2CA4-413E-B217-FE9804BC0716,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CN-6017-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+C480F1FB-3100-436C-B0F5-DED63B7A580E,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-S7-A7X2-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+C49078E1-E730-4E81-8EAE-5AAAB9FA1BF5,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AX-A3G4-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+C4EC541D-8BEA-4B1D-8E7D-83B04E349944,Breast Invasive Carcinoma,Primary Tumor,TCGA-WT-AB44-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+C5102A81-265F-4CD9-9B6C-390348FB690C,Prostate Adenocarcinoma,Primary Tumor,TCGA-HC-7745-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+C543A527-3E25-4389-9722-E9325C733243,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-7602-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+C576FF0D-B291-4935-9DA3-628EDCE1F732,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-CC-A3M9-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+C60821D0-7043-45F1-8E08-56067761432A,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AJ-A3I9-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+C6A60028-2402-4048-90DF-F2B3712FB530,Brain Lower Grade Glioma,Primary Tumor,TCGA-S9-A6U0-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+C6ACBA34-164B-419D-9C2B-ED2DC3C68FDD,Brain Lower Grade Glioma,Primary Tumor,TCGA-S9-A7J3-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+C6EE6B0F-F750-4DDA-8BBD-182A78D08AE8,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-NI-A8LF-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+C7698440-CD13-438F-A60F-063D94C9ECAD,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-3E-AAAZ-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+C771527F-A09E-4173-8EB9-8DCE3882476A,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A0DQ-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+C7C6FBAA-4A63-4B32-9B43-306F69E1867E,Thymoma,Primary Tumor,TCGA-5G-A9ZZ-01A,Thymoma,TCGA-THYM,Primary Tumor
+C7FED0F5-C27A-4405-9232-30BF39362CF7,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-RW-A684-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+C7FEEB6B-05E1-4EBF-8790-4E9060C48367,Breast Invasive Carcinoma,Primary Tumor,TCGA-D8-A1Y0-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+C80E6D4B-AF21-42F0-8E20-6F7D2E99C062,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-QR-A70E-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+C886CA33-5080-4E3E-88A2-F9A3CF03A857,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-13-0901-01B,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+C90561AF-452D-47CA-BC9B-3A0E1ECA417B,Breast Invasive Carcinoma,Primary Tumor,TCGA-AR-A24K-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+C92CD178-D0AC-4E90-A1EB-0D5936E8B85F,Thyroid Carcinoma,Primary Tumor,TCGA-EL-A3CM-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+C9F94A6E-D104-4D8D-8EC5-EADECD85F092,Sarcoma,Primary Tumor,TCGA-DX-A3UB-01A,Sarcoma,TCGA-SARC,Primary Tumor
+C9F99B05-B169-47E5-94CD-545644FE78AD,Breast Invasive Carcinoma,Primary Tumor,TCGA-AC-A6IX-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+CA356591-D24F-41A8-8C9A-1178C7781510,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-04-1357-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+CA6D11CC-6933-4EEB-A3B2-B364608ABF82,Breast Invasive Carcinoma,Primary Tumor,TCGA-OL-A5D7-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+CABF3F65-C489-4050-BAFE-64105B4DA9A0,Lung Adenocarcinoma,Primary Tumor,TCGA-55-A48Y-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+CAF246CF-659B-4C64-B0AA-125B11D23E43,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AJ-A3NE-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+CB846F43-7719-4B7E-946B-32E6384F3CC4,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-77-8131-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+CC03F1D9-C4C3-47B3-80D6-CFD1684757DA,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-D1-A17U-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+CC26B5BC-9E6B-47F1-AC08-F72FDA2E06EB,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-A4CS-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+CC8017C7-4128-48DA-8E43-503F63158D85,Adrenocortical Carcinoma,Primary Tumor,TCGA-OR-A5JE-01A,Adrenocortical Carcinoma,TCGA-ACC,Primary Tumor
+CC960C25-E7AE-4EDB-AEEC-80B21CD2A7C2,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-FD-A6TC-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+CC9815B3-88D0-4376-B96F-B979E1FBD0C7,Glioblastoma Multiforme,Primary Tumor,TCGA-41-2572-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+CCD9F0CC-EBDA-41B1-B1B4-5B59ED1E82E6,Lung Adenocarcinoma,Primary Tumor,TCGA-97-7553-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+CD700104-BB1D-4D62-BA80-A8A13EC3555C,Stomach Adenocarcinoma,Primary Tumor,TCGA-RD-A8N1-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+CDB7C7C5-AA40-4A19-9FDB-B0FEF096FC33,Uterine Carcinosarcoma,Primary Tumor,TCGA-N9-A4Q7-01A,Uterine Carcinosarcoma,TCGA-UCS,Primary Tumor
+CE075FE9-1386-4CC3-A23A-F5BA531742FE,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B8-5164-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+CE2C166A-95D1-44CE-9ECA-3C39D1067739,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-8366-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+CE539000-92D7-4622-9C8D-BC6E01310681,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-C5-A7CM-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+CE87056A-D12B-4B59-B3B0-2DCFBE0A2CFC,Stomach Adenocarcinoma,Primary Tumor,TCGA-CG-5720-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+CE88B625-47D8-4D58-9FB4-23464DB7DDAD,Esophageal Carcinoma,Primary Tumor,TCGA-L5-A8NM-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+CEC774CC-CCD4-4446-B7D4-AE37636F5A18,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4991-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+CEE2741C-F60A-4E33-AB1F-3AC56245F780,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-TN-A7HI-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+CEFDFF80-861E-40BD-900C-F779BD3D86F2,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-8590-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+CF1DAD66-E423-4354-AF7C-58FC2394967A,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-BT-A20T-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+CF2E531C-2848-4BA7-8BAE-3FF6D4DD5BE8,Breast Invasive Carcinoma,Primary Tumor,TCGA-AR-A0TQ-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+CF4D8284-B0DC-4AFB-8609-362573E2C24E,Lung Adenocarcinoma,Primary Tumor,TCGA-05-5420-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+CF674380-93D3-47C5-A5D3-53413155C0A1,Thyroid Carcinoma,Primary Tumor,TCGA-BJ-A45H-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+CFB8573C-9F36-4715-B6F1-6E5B543168A8,Uveal Melanoma,Primary Tumor,TCGA-WC-A883-01A,Uveal Melanoma,TCGA-UVM,Primary Tumor
+CFD74BF3-B9E4-4E47-871E-7D9D2E07AB42,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-63-A5MY-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+D0091AD4-D3D7-4C03-ACD9-DA9F8B6076C6,Sarcoma,Primary Tumor,TCGA-SI-A71O-01A,Sarcoma,TCGA-SARC,Primary Tumor
+D0213FF6-3B56-440A-8D5D-53F6E6C70F11,Breast Invasive Carcinoma,Primary Tumor,TCGA-AN-A0XP-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+D021A258-8713-4383-9DCA-45E2F54A0411,Breast Invasive Carcinoma,Primary Tumor,TCGA-A7-A26E-01B,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+D02BC44E-84E6-4D72-8BF3-317B41F6C73B,Thyroid Carcinoma,Primary Tumor,TCGA-J8-A3YH-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+D0BEF190-7437-42B8-82E3-9B24DBCFC468,Stomach Adenocarcinoma,Primary Tumor,TCGA-CG-4449-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+D1168568-9AAD-4333-BDEC-DF19DDFA8F52,Skin Cutaneous Melanoma,Primary Tumor,TCGA-D3-A5GT-01A,Skin Cutaneous Melanoma,TCGA-SKCM,Primary Tumor
+D12597ED-1404-42A2-A9E9-E6B6322C353B,Lung Adenocarcinoma,Primary Tumor,TCGA-67-3771-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+D17803A2-4BF2-4382-A544-76E28695214F,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CQ-A4CE-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+D2265922-C650-4648-B888-C39D306AC21F,Kidney Chromophobe,Primary Tumor,TCGA-KN-8422-01A,Kidney Chromophobe,TCGA-KICH,Primary Tumor
+D28DDCAA-682C-451F-8327-D2C2AFB044E2,Colon Adenocarcinoma,Primary Tumor,TCGA-AA-3688-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+D2E56596-4B4F-4A71-BF81-2D83CB356CCC,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-F7-A622-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+D3138878-37FB-40AE-AA52-D057A25FEDD1,Prostate Adenocarcinoma,Primary Tumor,TCGA-YL-A9WK-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+D316C207-8020-47A7-8C2D-753CF42223B5,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-K4-A5RH-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+D363816A-D8DE-40FF-8A02-D2AEEFA94E09,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-5497-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+D3748EFD-0DB6-49AA-835A-BD527E8D8300,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CJ-4894-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+D39DAFC6-DFD3-42BF-BFC7-6B164AEAC01A,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-7716-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+D3FC3968-B263-4756-BF7F-1941F70B04DA,Uveal Melanoma,Primary Tumor,TCGA-VD-AA8N-01A,Uveal Melanoma,TCGA-UVM,Primary Tumor
+D4024B08-4879-47EA-99E5-D9FCE1CD40DF,Sarcoma,Primary Tumor,TCGA-DX-A1L3-01A,Sarcoma,TCGA-SARC,Primary Tumor
+D40381B2-24C0-480A-8926-1CD5511B320E,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CZ-5462-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+D4137836-3F03-4A66-A7E1-1A735B289CBD,Breast Invasive Carcinoma,Primary Tumor,TCGA-E2-A9RU-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+D41C5AAC-3C53-46F0-83E8-6E78BB6F4FF5,Lung Adenocarcinoma,Primary Tumor,TCGA-67-3770-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+D42B7981-3D8E-4233-B90D-F2B8A9C04D7F,Breast Invasive Carcinoma,Primary Tumor,TCGA-OL-A5S0-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+D47CE687-5215-4251-8DF9-F4223F588DE8,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A0CT-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+D494D692-9EC2-429A-A0FE-696D2A152D4A,Brain Lower Grade Glioma,Primary Tumor,TCGA-P5-A5EU-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+D4A0284F-F1FE-4DFC-985A-341AD160DD3C,Skin Cutaneous Melanoma,Primary Tumor,TCGA-FR-A3R1-01A,Skin Cutaneous Melanoma,TCGA-SKCM,Primary Tumor
+D542C5B6-8568-471D-9967-6300925E4A6E,Colon Adenocarcinoma,Primary Tumor,TCGA-AD-6548-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+D56CD09C-FF78-4F5D-A5E5-12B334F772D5,Colon Adenocarcinoma,Primary Tumor,TCGA-G4-6303-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+D58FE309-D4AB-48A4-ADDA-B442A6C23809,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-FV-A4ZP-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+D59AE55D-EB0F-40A8-AC23-5F14D3BB3DF9,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A25D-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+D61A9E35-556D-489F-8C67-894C34F00D88,Thyroid Carcinoma,Primary Tumor,TCGA-DJ-A4V4-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+D6365FEB-CC12-4337-BF8C-66236A585B5D,Uveal Melanoma,Primary Tumor,TCGA-V4-A9EM-01A,Uveal Melanoma,TCGA-UVM,Primary Tumor
+D67FDA28-D47C-4672-867E-367DF0202E52,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-61-2110-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+D6988F7F-9D15-466E-9586-018C41098A3F,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-A39Z-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+D6A907FC-3A1B-4E3B-A440-1CE9BE9B334B,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-EY-A54A-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+D6E4775E-6B5F-41C2-A10E-7305DF78167F,Prostate Adenocarcinoma,Primary Tumor,TCGA-EJ-7218-01B,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+D6FC41FB-370B-44C0-940C-862554ECB645,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-CC-A9FS-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+D7381872-F807-4600-9102-08C064D97E4A,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,Primary Tumor,TCGA-FF-A7CQ-01A,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,TCGA-DLBC,Primary Tumor
+D79925A7-9171-4FB1-A898-9598CA0B58D4,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A0BF-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+D7D4461C-60DA-4EE9-80FC-0D98CB87BA8F,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-HE-A5NK-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+D80096DE-AB23-41A1-8E66-FB4A52E18E65,Lung Adenocarcinoma,Primary Tumor,TCGA-67-4679-01B,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+D80B6617-0E4C-47C9-A2A5-E4C1CDD11D54,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-10-0938-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+D83CA5FB-D13C-49D2-B21B-928FA777F871,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-FD-A5C1-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+D8985489-B182-4538-A0C2-59649231B71F,Stomach Adenocarcinoma,Primary Tumor,TCGA-CD-8524-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+D93F1B3C-1502-46FD-8EEE-973CF8BB3724,Thymoma,Primary Tumor,TCGA-ZB-A96R-01A,Thymoma,TCGA-THYM,Primary Tumor
+D951C2C5-B19D-475F-914C-DAC73179138B,Thyroid Carcinoma,Primary Tumor,TCGA-BJ-A0ZB-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+D969521C-2BC9-4015-B2D3-22B428D2B833,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-2Z-A9JM-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+D9B6EA9C-323A-457B-8B16-48988BB8019C,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-CC-A8HS-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+D9C02B51-F92B-4F5F-89AC-BD526832C915,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CQ-5334-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+DA007FDE-7301-4C08-BD30-B296826729BE,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CW-5591-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+DA2A7E1E-3CFB-4DCA-A815-C7E2AEC7704A,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B0-5119-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+DA772E38-FD97-4E03-A660-634DC499551C,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4342-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+DB0E8DA9-5249-4EB4-AB2A-78889B8CA9A8,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-BG-A0M4-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+DB58ECA2-6F2D-42DE-BBBB-379C9D1D8BBC,Rectum Adenocarcinoma,Primary Tumor,TCGA-DC-6160-01A,Rectum Adenocarcinoma,TCGA-READ,Primary Tumor
+DB676839-02AA-42A7-962F-89D6AD892008,Uveal Melanoma,Primary Tumor,TCGA-VD-A8KD-01A,Uveal Melanoma,TCGA-UVM,Primary Tumor
+DB893843-F0C1-407E-B598-5CB810844041,Colon Adenocarcinoma,Primary Tumor,TCGA-AA-3976-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+DB970740-9AC1-4C10-9658-8A77B1C390DD,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-C5-A1MF-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+DBB55216-E6A1-46F8-8B8E-767B805E3C4F,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B2-A4SR-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+DBB7547C-AB04-43E4-8164-84FE3859E576,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4965-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+DC77DCAC-72A7-48E2-A598-42D9A2C6F366,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-85-7698-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+DCD0313D-5206-4111-8743-A8A0227257D9,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-EK-A2RN-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+DCE8AC82-81FB-43FB-A6FF-1D3DE2B802C7,Skin Cutaneous Melanoma,Primary Tumor,TCGA-EB-A5FP-01A,Skin Cutaneous Melanoma,TCGA-SKCM,Primary Tumor
+DD138FF8-D54F-4A77-AAF7-DBFEA3BEB17D,Breast Invasive Carcinoma,Primary Tumor,TCGA-E2-A1L9-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+DD14F103-81DC-482F-BE77-B5DC48C59DD7,Thymoma,Primary Tumor,TCGA-XM-AAZ3-01A,Thymoma,TCGA-THYM,Primary Tumor
+DD23B50F-4F48-47D3-96BE-237B33E2F7B0,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-BT-A20X-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+DD28FBAB-4A9C-4654-8FE5-E030ABD064AE,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CZ-5982-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+DD2C1231-2724-4F32-8307-9C8C03E3448B,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B0-5094-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+DD2C6204-0402-42E6-9DCF-C596B254684D,Lung Adenocarcinoma,Primary Tumor,TCGA-49-4514-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+DD51C17C-300F-44A4-955A-C9BC85417842,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-C5-A8YR-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+DD9D5964-3E96-4ACC-ACB2-D1AE5DE3BEE0,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-ED-A97K-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+DDB6A47A-3E0A-4738-9D1E-EAB8682485C3,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-20-1682-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+DDD94B58-D3FF-4DA5-B3EA-1333FA4C611E,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CN-4725-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+DE60834E-364B-4814-AD26-D6891D6EB9FF,Breast Invasive Carcinoma,Primary Tumor,TCGA-C8-A1HG-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+DF37A417-BDB2-42EC-B0C4-C623F2EE103B,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-7707-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+DFE39A3F-C79C-4F5E-85D3-60996A3B4570,Prostate Adenocarcinoma,Primary Tumor,TCGA-KK-A6E3-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+E0594CFE-F7B6-4546-B130-30DF6A514B1F,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-QR-A70A-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+E07B4C18-8CB4-4006-935E-C5036B5E1879,Breast Invasive Carcinoma,Primary Tumor,TCGA-EW-A1OW-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+E0A39CEE-BDDD-48F9-8F1E-717296911D0C,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-66-2785-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+E0ABE0DB-4D09-4AF1-9FED-EE37A6497110,Lung Adenocarcinoma,Primary Tumor,TCGA-MN-A4N4-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+E0E68C5F-649A-4A21-B0EF-C09063CFB45F,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-98-A53H-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+E130F8A6-004B-45B9-9322-BCB2F402E583,Thyroid Carcinoma,Primary Tumor,TCGA-EM-A22L-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+E190109B-2CAE-4D04-82F3-F1EDDD137BB6,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-DQ-7591-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+E1C7FEEC-09BE-4F5C-B050-D89978F026D5,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-ED-A66Y-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+E1E564B8-EAFA-4093-8758-2D31A414BB92,Kidney Chromophobe,Primary Tumor,TCGA-KM-8440-01A,Kidney Chromophobe,TCGA-KICH,Primary Tumor
+E1FFC76B-1F86-4776-A6DE-A488C5A1261D,Breast Invasive Carcinoma,Primary Tumor,TCGA-A8-A0A2-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+E208F6A1-FCA4-4895-887C-B042256A0B33,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CN-A6UY-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+E24D233D-71BD-4EC2-A671-375917F24E5C,Glioblastoma Multiforme,Primary Tumor,TCGA-06-0686-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+E2AB2CAD-67A8-47DE-A775-8DD9461F1F41,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A1FZ-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+E2B1FAC6-6B60-4750-BDD2-D44A9679A690,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4758-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+E2E857AB-E18D-41F8-8090-14CD0956D472,Thyroid Carcinoma,Primary Tumor,TCGA-EL-A3N3-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+E344638F-9060-460F-8F7A-60D19442F294,Sarcoma,Primary Tumor,TCGA-PC-A5DN-01A,Sarcoma,TCGA-SARC,Primary Tumor
+E36597D1-60C3-4EB8-867A-0E808599E300,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CN-6024-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+E374F34C-1D42-41B1-8740-EDE2026D44BE,Pancreatic Adenocarcinoma,Primary Tumor,TCGA-HZ-8317-01A,Pancreatic Adenocarcinoma,TCGA-PAAD,Primary Tumor
+E3B71CB7-673B-4741-8607-4F0A11633036,Mesothelioma,Primary Tumor,TCGA-MQ-A4LM-01A,Mesothelioma,TCGA-MESO,Primary Tumor
+E3DEE7D1-60A8-447E-822F-6B2C7FE0F295,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AP-A1E1-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+E3E13B94-9335-4B34-9975-ECA99EB1BCBE,Prostate Adenocarcinoma,Primary Tumor,TCGA-KK-A8I5-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+E45975EB-FC41-44C1-9E60-4D1BD70D2FB7,Prostate Adenocarcinoma,Primary Tumor,TCGA-M7-A722-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+E45A1A52-4285-492D-A868-EB18DE119DF3,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-G3-A7M7-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+E475009E-2082-43DF-903D-7B85D9DF0587,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-ZP-A9CZ-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+E4BE3002-D06A-4E89-AF8E-C4F4106D17EF,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-SX-A7SL-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+E55DA565-D03C-46BF-A498-0677AFA19D74,Brain Lower Grade Glioma,Primary Tumor,TCGA-HT-A74L-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+E60851CD-F0DF-42AF-BDD6-799907821CDB,Thyroid Carcinoma,Primary Tumor,TCGA-EL-A3TA-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+E65D0B66-B1D6-40E2-916E-990522AD7E7B,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A0CP-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+E663DFD7-CD0D-43C6-BCDB-FED773F2C716,Lung Adenocarcinoma,Primary Tumor,TCGA-MP-A4TJ-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+E6AA40DA-9AB7-478B-B46B-827F9AFE52D1,Brain Lower Grade Glioma,Primary Tumor,TCGA-DU-7301-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+E6C74B82-B9D8-4D7C-96FB-50DFB80929D2,Rectum Adenocarcinoma,Primary Tumor,TCGA-AG-3726-01A,Rectum Adenocarcinoma,TCGA-READ,Primary Tumor
+E70B53F9-6491-48B3-A4FF-FFDC99477983,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-AAVZ-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+E716F762-F1ED-4298-B23D-9E53BEC6D318,Lung Adenocarcinoma,Primary Tumor,TCGA-86-8672-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+E769E41D-5949-42C5-9594-E563C05ACE52,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-SP-A6QG-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+E773014C-98DE-4394-95F9-845E29F35A2B,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-ZF-AA58-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+E7A37263-DD1F-4EEE-A3BC-E36BE8B47E44,Colon Adenocarcinoma,Primary Tumor,TCGA-A6-2671-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+E7F58338-6854-4C5F-ABA8-3CC3570B7CA8,Testicular Germ Cell Tumors,Primary Tumor,TCGA-2G-AAM3-01A,Testicular Germ Cell Tumors,TCGA-TGCT,Primary Tumor
+E898DC9E-5CA7-4092-B6C2-4C541C4B767C,Breast Invasive Carcinoma,Primary Tumor,TCGA-A8-A08Z-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+E9013476-D037-41EA-921E-E9E62E93B75C,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-29-2425-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+E9C9F3ED-7A9F-4E55-9B60-0E3E3D94DD17,Colon Adenocarcinoma,Primary Tumor,TCGA-DM-A28M-01A,Colon Adenocarcinoma,TCGA-COAD,Primary Tumor
+EA38585E-E393-4E7F-A2C1-64B33CAF168D,Breast Invasive Carcinoma,Primary Tumor,TCGA-D8-A27M-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+EA690C2B-7658-4F73-8F32-C75CFED80119,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-85-A4JB-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+EABDCDE3-9DA0-4E91-96E7-46DBFB39F0D3,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4992-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+EAC2EBF0-D3D4-4B62-8AB3-5710D91694E4,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,Primary Tumor,TCGA-FA-A4XK-01A,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,TCGA-DLBC,Primary Tumor
+EACD1021-7B52-4531-8806-B7555B73AC84,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-D1-A15X-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+EB187529-4F67-4C45-AB12-7652D31E5C03,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-25-2042-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+EB2D043E-B722-4E95-A8FE-68E23171705A,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-66-2758-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+EB8F7B74-694A-4F9F-9C0B-F04006033CA4,Glioblastoma Multiforme,Primary Tumor,TCGA-06-5408-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+EBE6A1A2-8084-4B84-BE78-43E3CD5EEA32,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-4Z-AA7M-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+EBFAD137-050F-47D0-A43D-72B8F7D70C2B,Sarcoma,Primary Tumor,TCGA-IF-A3RQ-01A,Sarcoma,TCGA-SARC,Primary Tumor
+EC0C5E95-D2E0-4053-9DF2-F936D23EE6F4,Lung Adenocarcinoma,Primary Tumor,TCGA-55-8615-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+EC6F630A-8F81-4170-B41B-97D9E4582B68,Breast Invasive Carcinoma,Primary Tumor,TCGA-EW-A6S9-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+ED1274DE-46F1-4371-921E-758F4DE49353,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-96-A4JK-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+ED5F8AA1-59A0-423E-A5DE-9A3028BDDCC8,Liver Hepatocellular Carcinoma,Primary Tumor,TCGA-DD-A3A9-01A,Liver Hepatocellular Carcinoma,TCGA-LIHC,Primary Tumor
+ED8DA4E8-0D6D-4724-8C70-D52EA49F8D08,Lung Adenocarcinoma,Primary Tumor,TCGA-05-4250-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+EE759127-DAA0-4281-AC47-880BC8563114,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-CF-A47W-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+EE98E1B4-DFB3-4AEC-8527-E1FD544C9475,Adrenocortical Carcinoma,Primary Tumor,TCGA-OR-A5K6-01A,Adrenocortical Carcinoma,TCGA-ACC,Primary Tumor
+EE9D0C01-742E-49EB-8859-8A803D17E9F2,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AP-A0LN-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+EF18318D-3D25-4D65-803A-ED6E62871E7E,Adrenocortical Carcinoma,Primary Tumor,TCGA-OR-A5J8-01A,Adrenocortical Carcinoma,TCGA-ACC,Primary Tumor
+EF184FFA-5DF2-4043-84A0-792C2AC15157,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-AX-A3G7-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+EF357C46-5C3C-4F51-9383-FF7694D07B97,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-IR-A3LF-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+EF5618C6-6AFB-4FB5-A32B-7946F18E9736,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-E6-A2P9-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+EFE2F248-C13E-4E8D-9153-8C903848AC4A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-VS-A9U6-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+EFE4B0DB-A0DC-482E-88F8-B530E76A4BB0,Brain Lower Grade Glioma,Primary Tumor,TCGA-DU-A76K-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+F06FBFAB-D143-47AE-BEE7-51B48164764F,Ovarian Serous Cystadenocarcinoma,Primary Tumor,TCGA-13-1487-01A,Ovarian Serous Cystadenocarcinoma,TCGA-OV,Primary Tumor
+F0E12296-CBCE-41C8-BA7F-E7E085F72439,Brain Lower Grade Glioma,Primary Tumor,TCGA-E1-A7YU-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+F0EEF94B-586D-415F-813A-E79579430608,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CJ-4899-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+F12BD7C5-699C-4F80-B02C-CFA9D8BBD99C,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-G2-A2EK-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+F12BE7AC-D2DD-4AD1-AB37-32DC85954F59,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-60-2706-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+F19C96EE-D936-4385-B543-07FA8447A3DD,Brain Lower Grade Glioma,Primary Tumor,TCGA-DU-5871-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+F1ACB2DD-E948-4F88-A249-F1BD1977D667,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-RW-A7CZ-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+F1B4E808-BFD1-4209-BC35-B9F98140AEC3,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-56-A4BX-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+F1CB57A3-55DD-4487-9307-1B4F652E729A,Esophageal Carcinoma,Primary Tumor,TCGA-IG-A3QL-01A,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+F1D36132-F3C3-47BB-A41F-A10DF40B69D1,Brain Lower Grade Glioma,Primary Tumor,TCGA-FG-A710-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+F1E14A8A-A89E-4C4D-8B35-520E155236DB,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-8363-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+F21EF450-28FC-4A66-BAB9-157140CB534E,Kidney Renal Papillary Cell Carcinoma,Primary Tumor,TCGA-4A-A93W-01A,Kidney Renal Papillary Cell Carcinoma,TCGA-KIRP,Primary Tumor
+F285EF28-075D-4732-8F70-697D7AD745F3,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-8680-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+F2EB65DD-59F7-4C1F-8D92-0DCF439FF41A,Glioblastoma Multiforme,Primary Tumor,TCGA-06-0238-01A,Glioblastoma Multiforme,TCGA-GBM,Primary Tumor
+F35A8359-3A7A-414F-8A5C-D278F3B45387,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Primary Tumor,TCGA-C5-A2LS-01A,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,TCGA-CESC,Primary Tumor
+F36A9525-230A-4B07-8EAC-CA7E03E991B1,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-CJ-4897-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+F38BBE3D-3C37-4ED8-A194-B7D723DDD39C,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-D1-A167-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+F50854E2-2F5D-4474-BB7D-842679B3DA09,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-33-AASI-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+F51B1C91-C9FF-441C-ACB5-5653523DBBF8,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CQ-6221-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+F53A9C63-1AF7-4CBC-B8B7-4AA7AAED3364,Breast Invasive Carcinoma,Primary Tumor,TCGA-A8-A07W-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+F5B8F1ED-8FE2-42CE-885C-D67C4DE176B4,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-77-8150-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+F636374D-4C9F-4F34-B7A2-9B5557CC82DA,Prostate Adenocarcinoma,Primary Tumor,TCGA-ZG-A8QX-01A,Prostate Adenocarcinoma,TCGA-PRAD,Primary Tumor
+F703B62A-687F-4084-BC52-DE28EDE411C3,Thyroid Carcinoma,Primary Tumor,TCGA-BJ-A28X-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+F7946671-1EC2-4665-BB8D-CCBA87B69C33,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-CV-6934-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+F7A34221-C818-40BD-8FD0-2DAA5AAEC2D4,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-8384-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+F8571DD8-DB9D-448A-AA30-01D56EE892EF,Breast Invasive Carcinoma,Primary Tumor,TCGA-A2-A0EX-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+F9135D0D-6447-4452-8EA8-98DEE4610226,Breast Invasive Carcinoma,Primary Tumor,TCGA-D8-A146-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+F92010B1-94DC-4BD3-BDE9-B3FCBE957A62,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-F7-7848-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+F92135A9-1981-4C79-99A5-4243EEC5D30D,Mesothelioma,Primary Tumor,TCGA-3H-AB3U-01A,Mesothelioma,TCGA-MESO,Primary Tumor
+F99D2B23-A7C3-4115-AA68-17AE6914AC2A,Brain Lower Grade Glioma,Primary Tumor,TCGA-DH-A7UV-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+FA34308A-349D-4AAD-94CF-3F3B7F9AD629,Esophageal Carcinoma,Primary Tumor,TCGA-R6-A6DQ-01B,Esophageal Carcinoma,TCGA-ESCA,Primary Tumor
+FA716037-886B-4DD0-8016-686C2D24550A,Thymoma,Primary Tumor,TCGA-3Q-A9WF-01A,Thymoma,TCGA-THYM,Primary Tumor
+FA8E73EA-649C-43ED-854E-B9472820D1C6,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-DF-A2KS-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+FAA38111-F046-4ACD-B787-764A17EAF548,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-K4-A3WV-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+FAEAD161-D1CA-4329-8C04-F39140A2A9C6,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-8690-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+FB0B9483-6302-48C7-BE5B-DA667E00AE2D,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-QR-A70Q-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor
+FBE93EC7-CA18-41CE-8B85-50B4EC204278,Uterine Corpus Endometrial Carcinoma,Primary Tumor,TCGA-BK-A0CA-01A,Uterine Corpus Endometrial Carcinoma,TCGA-UCEC,Primary Tumor
+FC2F983B-2530-4886-B759-E2C571E2D068,Brain Lower Grade Glioma,Primary Tumor,TCGA-DB-A4XC-01A,Brain Lower Grade Glioma,TCGA-LGG,Primary Tumor
+FC752F34-F97E-46F5-AA5D-0AFDC584D706,Stomach Adenocarcinoma,Primary Tumor,TCGA-BR-A4IV-01A,Stomach Adenocarcinoma,TCGA-STAD,Primary Tumor
+FCA0DB35-708A-45A5-8F18-CC0B0A123F42,Breast Invasive Carcinoma,Primary Tumor,TCGA-GM-A2DO-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+FD6A070B-DF61-4E40-A7D5-ED4439F88F2C,Lung Adenocarcinoma,Primary Tumor,TCGA-86-8358-01A,Lung Adenocarcinoma,TCGA-LUAD,Primary Tumor
+FDB439C9-20A3-41FA-A5D5-EA95B285F806,Thyroid Carcinoma,Primary Tumor,TCGA-EL-A3N2-01A,Thyroid Carcinoma,TCGA-THCA,Primary Tumor
+FE1D94EA-68A4-4B0B-B0B9-F49DC8E9D42A,Head and Neck Squamous Cell Carcinoma,Primary Tumor,TCGA-BA-5153-01A,Head and Neck Squamous Cell Carcinoma,TCGA-HNSC,Primary Tumor
+FE8652A7-7AF4-4AE9-ADBE-229F6E6278BE,Lung Squamous Cell Carcinoma,Primary Tumor,TCGA-22-5492-01A,Lung Squamous Cell Carcinoma,TCGA-LUSC,Primary Tumor
+FED748B7-70A5-41CC-94BE-8799D115932C,Bladder Urothelial Carcinoma,Primary Tumor,TCGA-R3-A69X-01A,Bladder Urothelial Carcinoma,TCGA-BLCA,Primary Tumor
+FEF6E287-8F0D-455B-BA19-7C48C2C583D2,Breast Invasive Carcinoma,Primary Tumor,TCGA-BH-A0DD-01A,Breast Invasive Carcinoma,TCGA-BRCA,Primary Tumor
+FEF9AC74-03B0-4BE0-8844-3AA874527B73,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-B0-4848-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+FF9677ED-0E73-428A-A253-FF4772A62A7D,Kidney Renal Clear Cell Carcinoma,Primary Tumor,TCGA-BP-4974-01A,Kidney Renal Clear Cell Carcinoma,TCGA-KIRC,Primary Tumor
+FFE0C4B1-8EEC-484A-AB87-3401B71BD081,Pheochromocytoma and Paraganglioma,Primary Tumor,TCGA-QR-A70C-01A,Pheochromocytoma and Paraganglioma,TCGA-PCPG,Primary Tumor

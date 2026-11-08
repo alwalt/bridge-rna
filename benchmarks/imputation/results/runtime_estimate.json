@@ -1,0 +1,18 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "benchmark_modes": [
+    "native_vocab"
+  ],
+  "conditions_per_model": 18,
+  "model_conditions_total": 54,
+  "estimated_remaining_wall_hours": 1.2,
+  "planning_range_minutes": [
+    65,
+    90
+  ],
+  "basis": "Native-only throughput extrapolation from observed model rates; no completed native conditions yet."
+}

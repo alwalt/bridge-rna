@@ -1,0 +1,54 @@
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.3m rate=66.29/s ETA=0.0m
+[progress] model=bulkformer_50m completed=1/18 elapsed=0.01h rate=0.05068 conditions/s ETA=0.09h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.3m rate=66.65/s ETA=0.0m
+[progress] model=bulkformer_50m completed=2/18 elapsed=0.01h rate=0.05513 conditions/s ETA=0.08h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=67.47/s ETA=0.0m
+[progress] model=bulkformer_50m completed=3/18 elapsed=0.01h rate=0.05711 conditions/s ETA=0.07h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.3m rate=64.52/s ETA=0.0m
+[progress] model=bulkformer_50m completed=4/18 elapsed=0.02h rate=0.05713 conditions/s ETA=0.07h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=73.86/s ETA=0.0m
+[progress] model=bulkformer_50m completed=5/18 elapsed=0.02h rate=0.05844 conditions/s ETA=0.06h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=73.07/s ETA=0.0m
+[progress] model=bulkformer_50m completed=6/18 elapsed=0.03h rate=0.05930 conditions/s ETA=0.06h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.3m rate=66.10/s ETA=0.0m
+[progress] model=bulkformer_50m completed=7/18 elapsed=0.03h rate=0.05903 conditions/s ETA=0.05h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=79.28/s ETA=0.0m
+[progress] model=bulkformer_50m completed=8/18 elapsed=0.04h rate=0.05989 conditions/s ETA=0.05h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=68.12/s ETA=0.0m
+[progress] model=bulkformer_50m completed=9/18 elapsed=0.04h rate=0.05980 conditions/s ETA=0.04h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=79.96/s ETA=0.0m
+[progress] model=bulkformer_50m completed=10/18 elapsed=0.05h rate=0.06040 conditions/s ETA=0.04h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=78.39/s ETA=0.0m
+[progress] model=bulkformer_50m completed=11/18 elapsed=0.05h rate=0.06081 conditions/s ETA=0.03h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=80.42/s ETA=0.0m
+[progress] model=bulkformer_50m completed=12/18 elapsed=0.05h rate=0.06125 conditions/s ETA=0.03h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=78.57/s ETA=0.0m
+[progress] model=bulkformer_50m completed=13/18 elapsed=0.06h rate=0.06144 conditions/s ETA=0.02h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=80.93/s ETA=0.0m
+[progress] model=bulkformer_50m completed=14/18 elapsed=0.06h rate=0.06167 conditions/s ETA=0.02h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=81.07/s ETA=0.0m
+[progress] model=bulkformer_50m completed=15/18 elapsed=0.07h rate=0.06188 conditions/s ETA=0.01h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=80.25/s ETA=0.0m
+[progress] model=bulkformer_50m completed=16/18 elapsed=0.07h rate=0.06197 conditions/s ETA=0.01h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=81.85/s ETA=0.0m
+[progress] model=bulkformer_50m completed=17/18 elapsed=0.08h rate=0.06214 conditions/s ETA=0.00h
+[inference] model=bulkformer_50m samples=1,000 batch_size=32 device=cuda
+[heartbeat] model=bulkformer_50m samples=1,000/1,000 elapsed=0.2m rate=79.95/s ETA=0.0m
+[progress] model=bulkformer_50m completed=18/18 elapsed=0.08h rate=0.06226 conditions/s ETA=0.00h

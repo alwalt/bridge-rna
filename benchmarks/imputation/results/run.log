@@ -1,0 +1,6 @@
+Fresh 360-condition inference: estimated 11–13 hours on two RTX 3090 GPUs.
+Fresh 108-condition inference: six ratios, three seeds, two protocols; reuse matching fresh conditions.
+Fresh 54-condition inference: six ratios, three seeds, native vocabulary only.
+All 54 model conditions and 72 baseline conditions validated.
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+/home/walt/bridge-rna/benchmarks/imputation/imputation.ipynb

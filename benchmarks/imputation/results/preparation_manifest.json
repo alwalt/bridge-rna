@@ -1,0 +1,35 @@
+{
+  "samples": 1000,
+  "selection_seed": 20260827,
+  "selection_population": "TCGA Primary Tumor",
+  "tcga_source": "/home/walt/bridge-rna/data/tcga/tcga_matrix.h5",
+  "our_native_genes": 15165,
+  "our_tcga_observed_genes": 15105,
+  "bulkformer_native_genes": 20010,
+  "bulkformer_tcga_observed_genes": 18949,
+  "model_vocab_intersection": 15163,
+  "approved_model_vocab_intersection": 15162,
+  "our_duplicate_approved_symbols": 0,
+  "bulkformer_duplicate_approved_symbols": 4,
+  "shared_evaluable_genes": 15101,
+  "tcga_gene_labels": 25150,
+  "tcga_hgnc_mapping_counts": {
+    "approved_symbol": 22070,
+    "unmapped": 1762,
+    "previous_symbol": 1201,
+    "alias_symbol": 70,
+    "shadowed_by_approved_symbol": 29,
+    "multiple_tcga_symbols_for_approved_gene": 10,
+    "ambiguous_previous_symbol": 4,
+    "ambiguous_alias_symbol": 4
+  },
+  "hgnc_source": "/home/walt/bridge-rna/data/annotations/hgnc/hgnc_complete_set_2026-08-27.tsv",
+  "hgnc_sha256": "0615a070f1628e6727953f67ad9248dd0f0ddbb16d41a7b40e06aa852fc3f448",
+  "our_preprocessing": "raw counts -> GENCODE v49 exon-length TPM -> natural log1p",
+  "bulkformer_preprocessing": "raw counts -> published BulkFormer gene-length TPM -> natural log1p",
+  "source_sha256": "d36d479aba1aa0b3d6e7fa10d255291b1eaa2393e41cd38ffc264f994d215a5a",
+  "bulkformer_graph_md5_expected": {
+    "G_tcga.pt": "1c4d43a92514a4c5c974006d892a4ef2",
+    "G_tcga_weight.pt": "eebb7f5a75d0049e00fa4d86185a2b52"
+  }
+}
