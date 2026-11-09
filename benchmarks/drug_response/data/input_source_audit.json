@@ -1,0 +1,108 @@
+{
+  "audit_date": "2026-11-09",
+  "method": "HTTP byte-range download of first 4 MiB of each official expression CSV; complete rows only; exact DepMap IDs; gene symbols parsed by removing final parenthesized identifier; no value transform before comparison.",
+  "official_release": "https://doi.org/10.25452/figshare.plus.27993248.v1",
+  "batch_corrected_file": "https://ndownloader.figshare.com/files/51065492",
+  "uncorrected_file": "https://ndownloader.figshare.com/files/51065489",
+  "bulkformer_release": "https://doi.org/10.5281/zenodo.15744294",
+  "batch_correction_explanation": "https://forum.depmap.org/t/clarification-on-negative-values-in-log-transformed-gene-expression-data/3902",
+  "comparisons": [
+    {
+      "cell": "ACH-000873",
+      "genes": 18849,
+      "max_error": 5.452643354357765,
+      "mean_error": 0.0010912707466843043,
+      "fraction_within_1e-6": 0.9995225210886519
+    },
+    {
+      "cell": "ACH-000860",
+      "genes": 18849,
+      "max_error": 5.181668669505591,
+      "mean_error": 0.0011872988524797574,
+      "fraction_within_1e-6": 0.9995225210886519
+    },
+    {
+      "cell": "ACH-000439",
+      "genes": 18849,
+      "max_error": 4.671111740986982,
+      "mean_error": 0.0009046632588666824,
+      "fraction_within_1e-6": 0.9995225210886519
+    },
+    {
+      "cell": "ACH-000318",
+      "genes": 18849,
+      "max_error": 4.7941550509574276,
+      "mean_error": 0.0012430531886774951,
+      "fraction_within_1e-6": 0.9995225210886519
+    },
+    {
+      "cell": "ACH-000789",
+      "genes": 18849,
+      "max_error": 3.8376748426178544,
+      "mean_error": 0.0008463329273345547,
+      "fraction_within_1e-6": 0.9995225210886519
+    },
+    {
+      "cell": "ACH-000544",
+      "genes": 18849,
+      "max_error": 5.083854285981194,
+      "mean_error": 0.0009215984830291123,
+      "fraction_within_1e-6": 0.9995225210886519
+    },
+    {
+      "cell": "ACH-000399",
+      "genes": 18849,
+      "max_error": 4.186512734629097,
+      "mean_error": 0.001126265455512175,
+      "fraction_within_1e-6": 0.9995225210886519
+    }
+  ],
+  "uncorrected_comparisons": [
+    {
+      "cell": "ACH-000242",
+      "genes": 18849,
+      "max_error": 4.637866881611883,
+      "mean_error": 0.10909880975836217,
+      "fraction_within_1e-6": 5.305321237200913e-05
+    },
+    {
+      "cell": "ACH-000708",
+      "genes": 18849,
+      "max_error": 5.147455508284903,
+      "mean_error": 0.11232958421596959,
+      "fraction_within_1e-6": 5.305321237200913e-05
+    },
+    {
+      "cell": "ACH-000233",
+      "genes": 18849,
+      "max_error": 3.541501808055984,
+      "mean_error": 0.11102478151163113,
+      "fraction_within_1e-6": 5.305321237200913e-05
+    }
+  ],
+  "shared_genes_per_cell": 18849,
+  "matched_genes_per_cell": 18840,
+  "absolute_tolerance": 1e-06,
+  "mismatching_genes_first_matched_cell": [
+    "SCHIP1",
+    "ZNF280D",
+    "SLC35D2",
+    "BOLA2",
+    "ZNF844",
+    "HERC3",
+    "TMEM217",
+    "MPV17L",
+    "LRTOMT"
+  ],
+  "conclusion": "Strong partial numerical match to batch-corrected 24Q4 matrix; not complete provenance verification.",
+  "conversion": "maximum(released_expression,0) * ln(2); base rescaling plus clipping, not recovery of uncorrected ln(TPM+1).",
+  "limitations": [
+    "Seven batch-corrected cell lines and three different uncorrected cell lines compared; samples were the matching complete rows in initial file chunks, not a random validation panel.",
+    "Nine shared genes per corrected cell differ; reason unresolved.",
+    "Source batch correction may use broader data than downstream training folds; preprocessing leakage was not evaluated."
+  ],
+  "partial_download_sha256": {
+    "batch_corrected_first4MB.csv": "dbad396730837f2c462838fb929c66465cf59f1424687ab1f6535e8bfd2f83fa",
+    "uncorrected_first4MB.csv": "26326394aa60b7341860da4ab56819118f15e1c9cc687daa3c6ceddbab5d3268"
+  }
+}

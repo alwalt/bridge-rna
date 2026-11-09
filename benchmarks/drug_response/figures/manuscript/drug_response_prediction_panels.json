@@ -1,0 +1,22 @@
+{
+  "sources": {
+    "figures/bridge_oof_ic50_regression_values.csv.gz": "a93532949ceea61b489421a8962909714c6bb61a22650a28d8019698f2c515fb",
+    "data/tables/per_drug_metrics.csv": "7793fc6e9334f6c924b5cfbde4f0f714f6251550cfeca951f846d1a5e00c0805"
+  },
+  "panels": {
+    "a": "All 212299 measured responses against held-out predictions; native released scale; no standardization or subsampling.",
+    "b": "Histogram of all 355 within-screen Pearson correlations; 40 bins of width 0.05 over [-1,1]."
+  },
+  "all_point_pearson": 0.8876213410287014,
+  "mean_within_screen_pearson": 0.4484621960302474,
+  "background": "white; dark text",
+  "font": "/home/walt/.local/share/fonts/Arial/Arial.TTF",
+  "font_pt": 7.5,
+  "title_font_pt": 8.5,
+  "title_weight": "normal",
+  "width_mm": 183,
+  "height_mm": 90,
+  "png_dpi": 600,
+  "point_layer": "Rasterized at 600 dpi in PDF/SVG; axes/text remain vector.",
+  "layout": "Side-by-side manuscript panels; regular-weight Arial headings."
+}

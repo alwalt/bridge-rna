@@ -1,0 +1,12 @@
+{
+  "source": "data/tables/per_drug_metrics.csv",
+  "source_sha256": "7793fc6e9334f6c924b5cfbde4f0f714f6251550cfeca951f846d1a5e00c0805",
+  "screens": 355,
+  "mean_pcc": 0.4484621960302474,
+  "histogram": "40 equal-width bins over [-1,1], width 0.05; all 355 scores counted.",
+  "point_unit": "Within-screen Pearson r between observed and held-out predicted IC50 across cell lines.",
+  "width_mm": 85,
+  "height_mm": 90,
+  "png_dpi": 600,
+  "font": "/home/walt/.local/share/fonts/Arial/Arial.TTF"
+}

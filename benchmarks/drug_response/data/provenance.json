@@ -20,7 +20,7 @@
     "scipy": "1.17.1"
   },
   "limitations": [
-    "Released expression preprocessing is undocumented and frozen-model input conversion is approximate.",
+    "Partial numerical source audit strongly identifies DepMap 24Q4 batch-corrected expression; clipping and log-base conversion do not recover uncorrected log1p(TPM).",
     "One split realization; screen-bootstrap intervals do not capture split variability or full dependence.",
     "One-pass mean completion and fixed dimension-scaled ridge penalty were not nested-CV optimized.",
     "Exact Bridge pretraining exposure is unresolved.",
@@ -152,5 +152,6 @@
     "representations": 19,
     "screens": 355,
     "status": "passed"
-  }
+  },
+  "input_source_audit": "data/input_source_audit.json"
 }

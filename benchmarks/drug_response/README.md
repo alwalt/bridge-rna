@@ -60,3 +60,17 @@ The research pipeline under `research/drug_response/pipeline/` remains the compu
 - `drug_response.ipynb`: scientific report.
 
 Run the notebook from this directory with its documented Python dependencies. Historical source paths in provenance describe the original runs and are retained unchanged. Research scripts now live under the local `research/` directory; archive copies preserve their original contents.
+
+## Saved observed-versus-predicted IC50 plot
+
+`figures/bridge_oof_ic50_regression.{png,pdf,svg}` shows all 212,299 measured cell-line–screen responses against saved held-out BRIDGE predictions. No target standardization, averaging, screen selection, or recalibration is applied. The all-point correlation includes between-screen differences and is distinct from mean per-screen PCC. A compressed full-precision plotted-value CSV and provenance JSON accompany the figure. PDF/SVG point layers are rasterized at 600 dpi, with vector axes/text.
+
+Regenerate from the saved points with:
+
+```bash
+.venv/bin/python benchmarks/drug_response/pipeline/plot_ic50_predictions.py
+```
+
+To re-extract points from original research caches, pass `--research-root /path/to/original/drug_response`. That directory must contain the saved prediction array, cell-line splits, and observation manifest. All 355 screen correlations are checked before export. The notebook displays the saved plot without requiring original worktree caches.
+
+The notebook pairs this scatter with `figures/bridge_per_screen_pcc_histogram.{png,pdf,svg}`, showing all 355 within-screen correlations (mean 0.448). Regenerate with `.venv/bin/python benchmarks/drug_response/pipeline/plot_screen_correlations.py`.

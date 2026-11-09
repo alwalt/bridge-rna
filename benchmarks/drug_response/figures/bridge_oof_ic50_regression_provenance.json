@@ -1,0 +1,26 @@
+{
+  "source_files": {
+    "/home/walt/bridge-rna.worktrees/attachment-pasted-text-1/benchmarks/drug_response/results/observation_manifest.parquet": "9f79d01df6660d1b40b6ab37e88eb5a90d40ffee8d52e68daa90dfad90dd2bfd",
+    "/home/walt/bridge-rna.worktrees/attachment-pasted-text-1/benchmarks/drug_response/results/cell_line_splits.csv": "625633adf90f89644b3618232c261624b9b3b45b7fe95f7d4bfeafb4d261a79a",
+    "/home/walt/bridge-rna.worktrees/attachment-pasted-text-1/benchmarks/drug_response/work/bridge_45.6m_oof_predictions.npy": "730631f0926eda39aff08e403dcd50d165e18cf788e43b1402651a07d7696eff"
+  },
+  "all_355_screens_metric_max_abs_error": 1.7881393432617188e-07,
+  "prediction_type": "Saved out-of-fold predictions; whole cell lines held out from downstream training.",
+  "source_precision": "Observed targets and predictions are float32, as used by saved evaluation.",
+  "selection_rule": "All 212299 measured cell-line\u2013screen responses; no screen selection or subsampling.",
+  "evaluation_axis": "One measured cell-line\u2013drug-screen response per point; all 355 screens on shared raw axes.",
+  "transform": "None; no standardization, averaging, or recalibration of observed/predicted IC50.",
+  "all_point_pearson": 0.8876215219497681,
+  "all_point_pearson_interpretation": "Includes between-screen differences; not mean within-screen PCC.",
+  "equality_line": "y=x; no fitted regression line or prediction recalibration.",
+  "input_boundary": "Released IC50 target scale retained; no physical concentration units or additional log transform asserted.",
+  "point_rendering": "Every point drawn; point layer rasterized at 600 dpi in PDF/SVG to avoid excessive vector size; axes/text remain vector.",
+  "font": "/home/walt/.local/share/fonts/Arial/Arial.TTF",
+  "width_mm": 183,
+  "height_mm": 160,
+  "font_pt": 7.5,
+  "tick_font_pt": 7,
+  "heading_font_pt": 8.5,
+  "png_dpi": 600,
+  "script": "pipeline/plot_ic50_predictions.py"
+}

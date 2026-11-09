@@ -1,0 +1,11 @@
+{
+  "source": "data/tables/pca_component_sensitivity.csv",
+  "sha256": "fa4374cf28b291cb3cb958efad8658aade92acaa3bae1f6cf1c13023b20f5cef",
+  "selection": "All evaluated PCA dimensions; dimensionality sweep exploratory.",
+  "baseline": 0.4484621960302474,
+  "baseline_source": "data/tables/primary_results.csv",
+  "font": "Arial",
+  "width_mm": 183,
+  "height_mm": 75,
+  "png_dpi": 600
+}
