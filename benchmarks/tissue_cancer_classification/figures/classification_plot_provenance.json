@@ -1,0 +1,34 @@
+{
+  "script": "pipeline/plot_classification.py",
+  "source_sha256": {
+    "recomputed_fold_metrics.csv": "48fcba32fdaff84b685cec04e40fbb8ded58c5216aec80c05324eb3bcfc51e0d",
+    "metrics_summary.csv": "e8554717a350a4d086e7debbd0ec23c411f977f6d483d98299c5dc6fbf22b758",
+    "per_class_summary.csv": "5ecfb3aec232f919d140e46ec8c90cce71f6f7c81ec1cb9e81e7e61fa54adc64",
+    "annotation_figure_data.csv": "763da13d58c6265d43279ac3e9dfb044b502d7649887eb4487124a342d858491",
+    "cohort_summary.csv": "3be6491570d673404d9417035971e6c312f28f588ac4b7492c1b0a958db9a99e",
+    "gtex_broad_class_counts.csv": "fb96d54dcfe84db7b866f8a575613c51fec2011d40a281f8ba084f3e5b5d6e62",
+    "tcga_class_counts.csv": "3360a701ce11b07cdade7fe63ea5a3d43097e6cdaffabf6a251054287eeb4e19",
+    "gtex_broad_bridge_confusion_normalized.csv": "d79150f6bdb34ad38487b5e9f43507aa6bffdb2fbf5fcfc093fd86bca8b0ee64",
+    "gtex_fold_metrics.csv": "a9ee599790f39163e834ceae10d863f6cb5632106126bda514a20e4ffdfe339a",
+    "tcga_cancer_bridge_confusion_normalized.csv": "b5e0ba6a01cb8767b1677cc580a555d1bd6a6fa55e0b1ea0d9cd34eb8de963dc",
+    "paired_macro_f1_differences.csv": "3184e97490bb80e37b62d84b1b2c919a11c55f30286c909f924ee904ed519666",
+    "gtex_detailed_class_counts.csv": "c43f7cbef4233038bb1ebc532b3ff5a5b8f0a2d33975e014e22b3422e369abb7",
+    "tcga_fold_metrics.csv": "0e6e909be5b1fe1ed6515d8c1fea6bf7a82ccd7ab81bfdd8956614128b7b9d68",
+    "gtex_detailed_bridge_confusion_normalized.csv": "ee41cecbea08824164dff32175a152dd8457052b3d05eea2aaf75a7a2c94864b"
+  },
+  "font": "/home/walt/.local/share/fonts/Arial/Arial.TTF",
+  "width_mm": 183,
+  "broad_width_mm": 90,
+  "font_pt": 7.5,
+  "ticks_pt": 7,
+  "heading_pt": 8.5,
+  "colors": {
+    "bridge": "#0072B2",
+    "pca": "#E69F00",
+    "raw": "#009E73"
+  },
+  "png_dpi": 600,
+  "intervals": "Mean \u00b1 sample SD across five fixed folds; not confidence intervals.",
+  "removed_annotations": "Uniform-class reference text removed; 1/K is not a general macro-F1 chance baseline.",
+  "source_values_unchanged": true
+}

@@ -85,3 +85,7 @@ This benchmark shows high linear accessibility of tissue and cancer identity fro
 - `tissue_cancer_classification.ipynb`: scientific report.
 
 Run the notebook from this directory with its documented Python dependencies. Historical source paths in provenance describe the original runs and are retained unchanged. Research scripts now live under the local `research/` directory; archive copies preserve their original contents.
+
+## Regenerate figures from saved evidence
+
+Run `.venv/bin/python benchmarks/tissue_cancer_classification/pipeline/plot_classification.py` from the repository root. This uses cached tables only and exports PDF, editable-text SVG, 600-dpi PNG, raw plotted-value CSVs, and styling provenance. Error bars show sample SD across five fixed folds.

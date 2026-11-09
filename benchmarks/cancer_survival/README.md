@@ -53,3 +53,20 @@ The scientific scope is limited to Bridge 45.6M, PCA-128, and full raw expressio
 - `cancer_survival.ipynb`: scientific report.
 
 Run the notebook from this directory with its documented Python dependencies. Historical source paths in provenance describe the original runs and are retained unchanged. Research scripts now live under the local `research/` directory; archive copies preserve their original contents.
+
+## Regenerate the within-cancer forest plots
+
+Run `.venv/bin/python benchmarks/cancer_survival/pipeline/plot_survival_forest.py`
+from the repository root. This reads saved per-cancer metrics only, sorts all
+32 cancer types by decreasing Bridge C-index, and writes combined and Bridge-only
+PNG/PDF/SVG figures. A small x-axis margin below zero keeps interval endpoints
+visible. Point estimates, bootstrap intervals, and event counts are unchanged.
+
+The Bridge-only forest plot uses two columns of 16 cancers: decreasing Bridge
+C-index from top to bottom in the left panel, then the right panel.
+
+Survival plot display labels use **BRIDGE**; underlying saved representation keys
+are preserved. Figures use the manuscript convention: 183-mm width, Arial
+7–8.5-pt typography, restrained colors, embedded-font PDF, editable SVG, and
+600-dpi PNG. Sorting subtitles, rank annotations, and the redundant single-model
+legend are omitted. Axis labels, cancer labels, intervals, and events/N remain.

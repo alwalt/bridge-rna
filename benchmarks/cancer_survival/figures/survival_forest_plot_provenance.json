@@ -1,0 +1,70 @@
+{
+  "source": "data/survival_5fold_oof_per_cancer.csv",
+  "source_sha256": "08eb6923e6f5562f9435ed5fd5bee750adba42cd2db03b3be4bd48687bd3dc1e",
+  "overall_source": "data/survival_head_factorial_metrics.csv",
+  "order": [
+    "KIRP",
+    "ACC",
+    "LGG",
+    "UVM",
+    "KIRC",
+    "UCEC",
+    "MESO",
+    "TGCT",
+    "KICH",
+    "CESC",
+    "LIHC",
+    "LUAD",
+    "PAAD",
+    "PCPG",
+    "BLCA",
+    "THYM",
+    "READ",
+    "HNSC",
+    "BRCA",
+    "COAD",
+    "SARC",
+    "UCS",
+    "STAD",
+    "THCA",
+    "LUSC",
+    "OV",
+    "ESCA",
+    "DLBC",
+    "GBM",
+    "PRAD",
+    "CHOL",
+    "SKCM"
+  ],
+  "sort": "decreasing Bridge 45.6M c_index; alphabetical cancer tie-break",
+  "model_display_name": "BRIDGE",
+  "source_representation_keys_unchanged": true,
+  "x_limits": [
+    -0.015,
+    1.02
+  ],
+  "intervals": "Existing saved ci_low/ci_high; no bootstrapping or refitting.",
+  "bridge_only_layout": "Two columns of 16; first 16 left, next 16 right",
+  "style": {
+    "font": "Arial",
+    "font_file": "/home/walt/.local/share/fonts/Arial/Arial.TTF",
+    "width_mm": 183,
+    "font_pt": 7.5,
+    "tick_font_pt": 7,
+    "heading_font_pt": 8.5,
+    "png_dpi": 600,
+    "pdf_fonttype": 42,
+    "svg_text": "editable"
+  },
+  "removed_annotations": [
+    "Sorting subtitle",
+    "Rank annotations",
+    "Redundant single-model legend"
+  ],
+  "figures": [
+    "oof_survival_forest",
+    "oof_survival_forest_bridge_only",
+    "oof_survival_forest_comparison_two_columns",
+    "oof_survival_overall"
+  ]
+}
