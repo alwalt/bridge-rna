@@ -1,0 +1,229 @@
+condition,method,gene
+Muscle atrophy,BRIDGE,ACTA1
+Muscle atrophy,BRIDGE,AHNAK
+Muscle atrophy,BRIDGE,AIF1L
+Muscle atrophy,BRIDGE,ALPK3
+Muscle atrophy,BRIDGE,ANGPTL2
+Muscle atrophy,BRIDGE,ANK1
+Muscle atrophy,BRIDGE,ANKRD1
+Muscle atrophy,BRIDGE,ASB2
+Muscle atrophy,BRIDGE,ASB5
+Muscle atrophy,BRIDGE,ATP1A2
+Muscle atrophy,BRIDGE,ATPAF1
+Muscle atrophy,BRIDGE,CACNB1
+Muscle atrophy,BRIDGE,CAP2
+Muscle atrophy,BRIDGE,CASQ1
+Muscle atrophy,BRIDGE,CEBPB
+Muscle atrophy,BRIDGE,CHCHD10
+Muscle atrophy,BRIDGE,CKM
+Muscle atrophy,BRIDGE,COL14A1
+Muscle atrophy,BRIDGE,COQ9
+Muscle atrophy,BRIDGE,CUL7
+Muscle atrophy,BRIDGE,DES
+Muscle atrophy,BRIDGE,DPYSL2
+Muscle atrophy,BRIDGE,ECPAS
+Muscle atrophy,BRIDGE,ERBB2
+Muscle atrophy,BRIDGE,FABP3
+Muscle atrophy,BRIDGE,FBXO3
+Muscle atrophy,BRIDGE,FBXO32
+Muscle atrophy,BRIDGE,FHOD1
+Muscle atrophy,BRIDGE,FHOD3
+Muscle atrophy,BRIDGE,FNBP1L
+Muscle atrophy,BRIDGE,FNDC5
+Muscle atrophy,BRIDGE,GLO1
+Muscle atrophy,BRIDGE,GPD1L
+Muscle atrophy,BRIDGE,GPX4
+Muscle atrophy,BRIDGE,GSE1
+Muscle atrophy,BRIDGE,GTF3A
+Muscle atrophy,BRIDGE,HDAC4
+Muscle atrophy,BRIDGE,HSF4
+Muscle atrophy,BRIDGE,ISLR
+Muscle atrophy,BRIDGE,ITGA6
+Muscle atrophy,BRIDGE,ITGA7
+Muscle atrophy,BRIDGE,JUNB
+Muscle atrophy,BRIDGE,KDM5B
+Muscle atrophy,BRIDGE,LAMB2
+Muscle atrophy,BRIDGE,LGALS1
+Muscle atrophy,BRIDGE,LRRC39
+Muscle atrophy,BRIDGE,MAP3K20
+Muscle atrophy,BRIDGE,MB
+Muscle atrophy,BRIDGE,MRPS26
+Muscle atrophy,BRIDGE,MVD
+Muscle atrophy,BRIDGE,MYBPC2
+Muscle atrophy,BRIDGE,MYH7
+Muscle atrophy,BRIDGE,MYL1
+Muscle atrophy,BRIDGE,MYLK3
+Muscle atrophy,BRIDGE,MYOM1
+Muscle atrophy,BRIDGE,NDUFS6
+Muscle atrophy,BRIDGE,NEB
+Muscle atrophy,BRIDGE,NEDD4
+Muscle atrophy,BRIDGE,NHLRC2
+Muscle atrophy,BRIDGE,NMRK2
+Muscle atrophy,BRIDGE,NRAP
+Muscle atrophy,BRIDGE,NREP
+Muscle atrophy,BRIDGE,OTUD1
+Muscle atrophy,BRIDGE,P4HA1
+Muscle atrophy,BRIDGE,PADI2
+Muscle atrophy,BRIDGE,PALS2
+Muscle atrophy,BRIDGE,PANK1
+Muscle atrophy,BRIDGE,PDE4B
+Muscle atrophy,BRIDGE,PDE5A
+Muscle atrophy,BRIDGE,PDK4
+Muscle atrophy,BRIDGE,PDLIM3
+Muscle atrophy,BRIDGE,PGM1
+Muscle atrophy,BRIDGE,PLEKHM2
+Muscle atrophy,BRIDGE,PLGRKT
+Muscle atrophy,BRIDGE,POPDC3
+Muscle atrophy,BRIDGE,RBM24
+Muscle atrophy,BRIDGE,RHOB
+Muscle atrophy,BRIDGE,RTN4
+Muscle atrophy,BRIDGE,SDHAF3
+Muscle atrophy,BRIDGE,SETBP1
+Muscle atrophy,BRIDGE,SETD7
+Muscle atrophy,BRIDGE,SLC2A4
+Muscle atrophy,BRIDGE,SLC44A2
+Muscle atrophy,BRIDGE,SMAD3
+Muscle atrophy,BRIDGE,SORBS1
+Muscle atrophy,BRIDGE,STRIP2
+Muscle atrophy,BRIDGE,SVIL
+Muscle atrophy,BRIDGE,TBX15
+Muscle atrophy,BRIDGE,TEAD4
+Muscle atrophy,BRIDGE,TNNC1
+Muscle atrophy,BRIDGE,TNNI1
+Muscle atrophy,BRIDGE,TPM1
+Muscle atrophy,BRIDGE,TPM2
+Muscle atrophy,BRIDGE,TRIM69
+Muscle atrophy,BRIDGE,USF1
+Muscle atrophy,BRIDGE,USP54
+Muscle atrophy,BRIDGE,UXS1
+Muscle atrophy,BRIDGE,XIRP2
+Muscle atrophy,BRIDGE,XRCC5
+Muscle atrophy,BRIDGE,YPEL1
+Muscle atrophy,BRIDGE,ZMYM4
+Muscle atrophy,BRIDGE,ZNF282
+Muscle atrophy,DE,GOLIM4
+Muscle atrophy,DE,NMRK2
+Muscle atrophy,DE,PDE11A
+Muscle atrophy,DE,TMEM120A
+Muscle atrophy,DE,TMTC4
+Muscle atrophy,DE,XPO4
+Muscle atrophy,DE,ZNF385B
+Bone loss,BRIDGE,AHNAK
+Bone loss,BRIDGE,ALDH1L2
+Bone loss,BRIDGE,AMMECR1
+Bone loss,BRIDGE,ARNT
+Bone loss,BRIDGE,ATP6V1D
+Bone loss,BRIDGE,BTG1
+Bone loss,BRIDGE,CBX5
+Bone loss,BRIDGE,CCDC80
+Bone loss,BRIDGE,CCN2
+Bone loss,BRIDGE,CDKN2C
+Bone loss,BRIDGE,CENPF
+Bone loss,BRIDGE,CHTF18
+Bone loss,BRIDGE,COMP
+Bone loss,BRIDGE,COPZ2
+Bone loss,BRIDGE,CTNNAL1
+Bone loss,BRIDGE,CYB561D2
+Bone loss,BRIDGE,CYP1B1
+Bone loss,BRIDGE,DCTD
+Bone loss,BRIDGE,DPYSL2
+Bone loss,BRIDGE,EHD1
+Bone loss,BRIDGE,EXT1
+Bone loss,BRIDGE,FBXO32
+Bone loss,BRIDGE,FBXO7
+Bone loss,BRIDGE,FKBP10
+Bone loss,BRIDGE,FNDC3B
+Bone loss,BRIDGE,FOXC2
+Bone loss,BRIDGE,IGF2BP1
+Bone loss,BRIDGE,IGIP
+Bone loss,BRIDGE,JUNB
+Bone loss,BRIDGE,KCNE4
+Bone loss,BRIDGE,KDM5B
+Bone loss,BRIDGE,KIF1C
+Bone loss,BRIDGE,LAMB2
+Bone loss,BRIDGE,LGALS1
+Bone loss,BRIDGE,ME1
+Bone loss,BRIDGE,MMP2
+Bone loss,BRIDGE,MT-ND2
+Bone loss,BRIDGE,MVD
+Bone loss,BRIDGE,MYH9
+Bone loss,BRIDGE,NAT14
+Bone loss,BRIDGE,NHLRC1
+Bone loss,BRIDGE,NOL3
+Bone loss,BRIDGE,OLFML3
+Bone loss,BRIDGE,P4HA1
+Bone loss,BRIDGE,PDE5A
+Bone loss,BRIDGE,PLK1
+Bone loss,BRIDGE,PRKDC
+Bone loss,BRIDGE,PTGIS
+Bone loss,BRIDGE,PXDC1
+Bone loss,BRIDGE,RND3
+Bone loss,BRIDGE,SETBP1
+Bone loss,BRIDGE,SETD7
+Bone loss,BRIDGE,SLC17A9
+Bone loss,BRIDGE,SLC44A2
+Bone loss,BRIDGE,SMAD3
+Bone loss,BRIDGE,SPEN
+Bone loss,BRIDGE,SPIRE1
+Bone loss,BRIDGE,SPOCK1
+Bone loss,BRIDGE,SRGN
+Bone loss,BRIDGE,TGFB2
+Bone loss,BRIDGE,TMEM119
+Bone loss,BRIDGE,UACA
+Bone loss,BRIDGE,USF1
+Bone loss,BRIDGE,XPO7
+Bone loss,BRIDGE,ZFYVE21
+Bone loss,BRIDGE,ZMYM4
+Radiation,BRIDGE,ANKRD13D
+Radiation,BRIDGE,ATP8B2
+Radiation,BRIDGE,BCL9L
+Radiation,BRIDGE,BIRC5
+Radiation,BRIDGE,CD44
+Radiation,BRIDGE,CDKN1A
+Radiation,BRIDGE,CDKN1B
+Radiation,BRIDGE,CDKN2C
+Radiation,BRIDGE,CEMIP
+Radiation,BRIDGE,CENPF
+Radiation,BRIDGE,CPT1A
+Radiation,BRIDGE,CXXC5
+Radiation,BRIDGE,DHRS3
+Radiation,BRIDGE,DPP4
+Radiation,BRIDGE,DPYSL2
+Radiation,BRIDGE,ENAH
+Radiation,BRIDGE,ERRFI1
+Radiation,BRIDGE,GDF15
+Radiation,BRIDGE,GPX4
+Radiation,BRIDGE,GTPBP4
+Radiation,BRIDGE,HID1
+Radiation,BRIDGE,ICAM1
+Radiation,BRIDGE,IGFBP3
+Radiation,BRIDGE,ITGA3
+Radiation,BRIDGE,KCTD11
+Radiation,BRIDGE,KCTD3
+Radiation,BRIDGE,LAMB2
+Radiation,BRIDGE,LIPA
+Radiation,BRIDGE,LMNB1
+Radiation,BRIDGE,MAFF
+Radiation,BRIDGE,MRPS26
+Radiation,BRIDGE,NFIC
+Radiation,BRIDGE,OGFOD1
+Radiation,BRIDGE,P4HA2
+Radiation,BRIDGE,PDLIM1
+Radiation,BRIDGE,PTGR1
+Radiation,BRIDGE,PTPN2
+Radiation,BRIDGE,PXDC1
+Radiation,BRIDGE,RAB34
+Radiation,BRIDGE,RHOB
+Radiation,BRIDGE,RRM2B
+Radiation,BRIDGE,TAGLN2
+Radiation,BRIDGE,TEAD4
+Radiation,BRIDGE,TIMP1
+Radiation,BRIDGE,TRIM29
+Radiation,BRIDGE,UBE2A
+Radiation,BRIDGE,UBTF
+Radiation,BRIDGE,WASHC4
+Radiation,BRIDGE,ZMYM4
+Radiation,BRIDGE,ZNHIT3
+Radiation,DE,GDF15
+Radiation,DE,HAS3
+Radiation,DE,NAB2

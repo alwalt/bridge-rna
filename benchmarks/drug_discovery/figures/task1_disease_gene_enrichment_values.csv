@@ -1,0 +1,7 @@
+accession,disease,method,module_size,reference_definition,universe_genes,disgenet_cui,disgenet_genes_in_universe,module_genes_in_universe,known_genes_recovered,odds_ratio,pvalue,fdr,deweerd_vae_reference_genes,deweerd_vae_recovered,deweerd_vae_odds_ratio,deweerd_vae_pvalue
+GSE138614,Multiple sclerosis — active lesion,Bridge,500,all_v7_associations,14991,C0026769,1330,500,72,1.7695645067827586,2.5468010737715087e-05,3.05616128852581e-05,300.0,141.0,10.028949,3.3437170000000004e-69
+GSE138614,Multiple sclerosis — active lesion,DE,500,all_v7_associations,14991,C0026769,1330,500,87,2.245165663794732,5.857262521102348e-10,1.7571787563307043e-09,300.0,141.0,10.028949,3.3437170000000004e-69
+GSE101794,Crohn's disease — ileum,Bridge,500,all_v7_associations,10738,C0010346,859,500,70,1.949568190526719,2.2173987830477884e-06,3.3260981745716826e-06,168.0,61.0,6.969721,1.121464e-25
+GSE101794,Crohn's disease — ileum,DE,500,all_v7_associations,10738,C0010346,859,500,79,2.275357817163042,2.264882548532135e-09,4.52976509706427e-09,168.0,61.0,6.969721,1.121464e-25
+GSE72509,Systemic lupus erythematosus — blood,Bridge,500,all_v7_associations,13821,C0024141,1289,500,106,2.760400084101763,2.362608758948077e-16,1.4175652553688465e-15,95.0,6.0,0.670451,0.8751437
+GSE72509,Systemic lupus erythematosus — blood,DE,500,all_v7_associations,13821,C0024141,1289,500,72,1.6731198980179545,0.0001220964707791,0.0001220964707791,95.0,6.0,0.670451,0.8751437

@@ -1,0 +1,26 @@
+{
+  "input": "significant_pathways.csv",
+  "sha256": "75a467d6b5e081bc90d2482e05ca1ba4614e88aa9d7c0d45ef19c5e75706869f",
+  "scope": "study_top500",
+  "top_terms_per_method_per_study_library": 3,
+  "cross_study_filter": false,
+  "analysis_rerun": false,
+  "studies": {
+    "Muscle atrophy": [
+      "GSE211204",
+      "GSE113165",
+      "GSE234465"
+    ],
+    "Bone loss": [
+      "GSE189524",
+      "GSE276529",
+      "GSE273868"
+    ],
+    "Radiation": [
+      "GSE297090",
+      "GSE184119",
+      "GSE297560"
+    ]
+  },
+  "font": "Arial"
+}

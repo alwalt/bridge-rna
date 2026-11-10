@@ -1,0 +1,3001 @@
+condition,replicate,intersection_genes
+Muscle atrophy,0,0
+Muscle atrophy,1,1
+Muscle atrophy,2,1
+Muscle atrophy,3,0
+Muscle atrophy,4,0
+Muscle atrophy,5,1
+Muscle atrophy,6,1
+Muscle atrophy,7,0
+Muscle atrophy,8,2
+Muscle atrophy,9,1
+Muscle atrophy,10,1
+Muscle atrophy,11,0
+Muscle atrophy,12,0
+Muscle atrophy,13,0
+Muscle atrophy,14,0
+Muscle atrophy,15,0
+Muscle atrophy,16,1
+Muscle atrophy,17,0
+Muscle atrophy,18,0
+Muscle atrophy,19,2
+Muscle atrophy,20,1
+Muscle atrophy,21,0
+Muscle atrophy,22,1
+Muscle atrophy,23,0
+Muscle atrophy,24,0
+Muscle atrophy,25,1
+Muscle atrophy,26,0
+Muscle atrophy,27,0
+Muscle atrophy,28,0
+Muscle atrophy,29,1
+Muscle atrophy,30,0
+Muscle atrophy,31,0
+Muscle atrophy,32,0
+Muscle atrophy,33,3
+Muscle atrophy,34,0
+Muscle atrophy,35,0
+Muscle atrophy,36,0
+Muscle atrophy,37,0
+Muscle atrophy,38,1
+Muscle atrophy,39,1
+Muscle atrophy,40,0
+Muscle atrophy,41,0
+Muscle atrophy,42,0
+Muscle atrophy,43,1
+Muscle atrophy,44,0
+Muscle atrophy,45,0
+Muscle atrophy,46,1
+Muscle atrophy,47,0
+Muscle atrophy,48,2
+Muscle atrophy,49,0
+Muscle atrophy,50,0
+Muscle atrophy,51,0
+Muscle atrophy,52,1
+Muscle atrophy,53,0
+Muscle atrophy,54,0
+Muscle atrophy,55,0
+Muscle atrophy,56,1
+Muscle atrophy,57,0
+Muscle atrophy,58,0
+Muscle atrophy,59,0
+Muscle atrophy,60,0
+Muscle atrophy,61,0
+Muscle atrophy,62,0
+Muscle atrophy,63,0
+Muscle atrophy,64,1
+Muscle atrophy,65,1
+Muscle atrophy,66,0
+Muscle atrophy,67,1
+Muscle atrophy,68,0
+Muscle atrophy,69,2
+Muscle atrophy,70,1
+Muscle atrophy,71,0
+Muscle atrophy,72,0
+Muscle atrophy,73,0
+Muscle atrophy,74,0
+Muscle atrophy,75,1
+Muscle atrophy,76,1
+Muscle atrophy,77,0
+Muscle atrophy,78,1
+Muscle atrophy,79,1
+Muscle atrophy,80,0
+Muscle atrophy,81,0
+Muscle atrophy,82,0
+Muscle atrophy,83,0
+Muscle atrophy,84,1
+Muscle atrophy,85,1
+Muscle atrophy,86,0
+Muscle atrophy,87,2
+Muscle atrophy,88,4
+Muscle atrophy,89,0
+Muscle atrophy,90,1
+Muscle atrophy,91,0
+Muscle atrophy,92,0
+Muscle atrophy,93,1
+Muscle atrophy,94,1
+Muscle atrophy,95,0
+Muscle atrophy,96,0
+Muscle atrophy,97,1
+Muscle atrophy,98,1
+Muscle atrophy,99,0
+Muscle atrophy,100,0
+Muscle atrophy,101,2
+Muscle atrophy,102,0
+Muscle atrophy,103,0
+Muscle atrophy,104,0
+Muscle atrophy,105,1
+Muscle atrophy,106,0
+Muscle atrophy,107,0
+Muscle atrophy,108,1
+Muscle atrophy,109,0
+Muscle atrophy,110,0
+Muscle atrophy,111,1
+Muscle atrophy,112,0
+Muscle atrophy,113,1
+Muscle atrophy,114,0
+Muscle atrophy,115,1
+Muscle atrophy,116,1
+Muscle atrophy,117,0
+Muscle atrophy,118,1
+Muscle atrophy,119,0
+Muscle atrophy,120,1
+Muscle atrophy,121,0
+Muscle atrophy,122,0
+Muscle atrophy,123,0
+Muscle atrophy,124,0
+Muscle atrophy,125,0
+Muscle atrophy,126,0
+Muscle atrophy,127,0
+Muscle atrophy,128,0
+Muscle atrophy,129,0
+Muscle atrophy,130,1
+Muscle atrophy,131,1
+Muscle atrophy,132,1
+Muscle atrophy,133,0
+Muscle atrophy,134,1
+Muscle atrophy,135,0
+Muscle atrophy,136,0
+Muscle atrophy,137,0
+Muscle atrophy,138,2
+Muscle atrophy,139,3
+Muscle atrophy,140,1
+Muscle atrophy,141,0
+Muscle atrophy,142,1
+Muscle atrophy,143,0
+Muscle atrophy,144,0
+Muscle atrophy,145,1
+Muscle atrophy,146,2
+Muscle atrophy,147,0
+Muscle atrophy,148,0
+Muscle atrophy,149,0
+Muscle atrophy,150,1
+Muscle atrophy,151,0
+Muscle atrophy,152,0
+Muscle atrophy,153,0
+Muscle atrophy,154,0
+Muscle atrophy,155,1
+Muscle atrophy,156,1
+Muscle atrophy,157,2
+Muscle atrophy,158,0
+Muscle atrophy,159,1
+Muscle atrophy,160,2
+Muscle atrophy,161,1
+Muscle atrophy,162,1
+Muscle atrophy,163,2
+Muscle atrophy,164,2
+Muscle atrophy,165,0
+Muscle atrophy,166,0
+Muscle atrophy,167,0
+Muscle atrophy,168,0
+Muscle atrophy,169,1
+Muscle atrophy,170,0
+Muscle atrophy,171,1
+Muscle atrophy,172,2
+Muscle atrophy,173,0
+Muscle atrophy,174,0
+Muscle atrophy,175,0
+Muscle atrophy,176,0
+Muscle atrophy,177,1
+Muscle atrophy,178,0
+Muscle atrophy,179,2
+Muscle atrophy,180,1
+Muscle atrophy,181,1
+Muscle atrophy,182,1
+Muscle atrophy,183,1
+Muscle atrophy,184,1
+Muscle atrophy,185,1
+Muscle atrophy,186,1
+Muscle atrophy,187,0
+Muscle atrophy,188,0
+Muscle atrophy,189,0
+Muscle atrophy,190,0
+Muscle atrophy,191,1
+Muscle atrophy,192,2
+Muscle atrophy,193,0
+Muscle atrophy,194,0
+Muscle atrophy,195,0
+Muscle atrophy,196,0
+Muscle atrophy,197,0
+Muscle atrophy,198,0
+Muscle atrophy,199,0
+Muscle atrophy,200,0
+Muscle atrophy,201,0
+Muscle atrophy,202,1
+Muscle atrophy,203,0
+Muscle atrophy,204,0
+Muscle atrophy,205,1
+Muscle atrophy,206,1
+Muscle atrophy,207,0
+Muscle atrophy,208,0
+Muscle atrophy,209,1
+Muscle atrophy,210,0
+Muscle atrophy,211,1
+Muscle atrophy,212,0
+Muscle atrophy,213,0
+Muscle atrophy,214,0
+Muscle atrophy,215,0
+Muscle atrophy,216,0
+Muscle atrophy,217,0
+Muscle atrophy,218,1
+Muscle atrophy,219,1
+Muscle atrophy,220,0
+Muscle atrophy,221,0
+Muscle atrophy,222,0
+Muscle atrophy,223,1
+Muscle atrophy,224,1
+Muscle atrophy,225,1
+Muscle atrophy,226,0
+Muscle atrophy,227,0
+Muscle atrophy,228,0
+Muscle atrophy,229,0
+Muscle atrophy,230,0
+Muscle atrophy,231,1
+Muscle atrophy,232,1
+Muscle atrophy,233,0
+Muscle atrophy,234,1
+Muscle atrophy,235,2
+Muscle atrophy,236,1
+Muscle atrophy,237,0
+Muscle atrophy,238,0
+Muscle atrophy,239,0
+Muscle atrophy,240,2
+Muscle atrophy,241,2
+Muscle atrophy,242,0
+Muscle atrophy,243,0
+Muscle atrophy,244,0
+Muscle atrophy,245,0
+Muscle atrophy,246,0
+Muscle atrophy,247,0
+Muscle atrophy,248,1
+Muscle atrophy,249,2
+Muscle atrophy,250,0
+Muscle atrophy,251,0
+Muscle atrophy,252,0
+Muscle atrophy,253,0
+Muscle atrophy,254,0
+Muscle atrophy,255,0
+Muscle atrophy,256,1
+Muscle atrophy,257,0
+Muscle atrophy,258,0
+Muscle atrophy,259,0
+Muscle atrophy,260,0
+Muscle atrophy,261,1
+Muscle atrophy,262,0
+Muscle atrophy,263,0
+Muscle atrophy,264,0
+Muscle atrophy,265,0
+Muscle atrophy,266,0
+Muscle atrophy,267,0
+Muscle atrophy,268,0
+Muscle atrophy,269,0
+Muscle atrophy,270,0
+Muscle atrophy,271,0
+Muscle atrophy,272,1
+Muscle atrophy,273,1
+Muscle atrophy,274,1
+Muscle atrophy,275,0
+Muscle atrophy,276,2
+Muscle atrophy,277,2
+Muscle atrophy,278,0
+Muscle atrophy,279,1
+Muscle atrophy,280,1
+Muscle atrophy,281,1
+Muscle atrophy,282,0
+Muscle atrophy,283,0
+Muscle atrophy,284,0
+Muscle atrophy,285,1
+Muscle atrophy,286,2
+Muscle atrophy,287,0
+Muscle atrophy,288,0
+Muscle atrophy,289,1
+Muscle atrophy,290,1
+Muscle atrophy,291,0
+Muscle atrophy,292,4
+Muscle atrophy,293,0
+Muscle atrophy,294,2
+Muscle atrophy,295,2
+Muscle atrophy,296,0
+Muscle atrophy,297,3
+Muscle atrophy,298,0
+Muscle atrophy,299,2
+Muscle atrophy,300,0
+Muscle atrophy,301,0
+Muscle atrophy,302,0
+Muscle atrophy,303,0
+Muscle atrophy,304,0
+Muscle atrophy,305,1
+Muscle atrophy,306,0
+Muscle atrophy,307,0
+Muscle atrophy,308,1
+Muscle atrophy,309,0
+Muscle atrophy,310,1
+Muscle atrophy,311,2
+Muscle atrophy,312,0
+Muscle atrophy,313,1
+Muscle atrophy,314,0
+Muscle atrophy,315,0
+Muscle atrophy,316,0
+Muscle atrophy,317,0
+Muscle atrophy,318,1
+Muscle atrophy,319,0
+Muscle atrophy,320,0
+Muscle atrophy,321,0
+Muscle atrophy,322,0
+Muscle atrophy,323,0
+Muscle atrophy,324,1
+Muscle atrophy,325,1
+Muscle atrophy,326,1
+Muscle atrophy,327,1
+Muscle atrophy,328,2
+Muscle atrophy,329,0
+Muscle atrophy,330,0
+Muscle atrophy,331,0
+Muscle atrophy,332,0
+Muscle atrophy,333,0
+Muscle atrophy,334,1
+Muscle atrophy,335,0
+Muscle atrophy,336,1
+Muscle atrophy,337,0
+Muscle atrophy,338,0
+Muscle atrophy,339,1
+Muscle atrophy,340,0
+Muscle atrophy,341,2
+Muscle atrophy,342,1
+Muscle atrophy,343,2
+Muscle atrophy,344,0
+Muscle atrophy,345,1
+Muscle atrophy,346,1
+Muscle atrophy,347,2
+Muscle atrophy,348,3
+Muscle atrophy,349,1
+Muscle atrophy,350,1
+Muscle atrophy,351,0
+Muscle atrophy,352,0
+Muscle atrophy,353,0
+Muscle atrophy,354,0
+Muscle atrophy,355,0
+Muscle atrophy,356,1
+Muscle atrophy,357,1
+Muscle atrophy,358,0
+Muscle atrophy,359,0
+Muscle atrophy,360,0
+Muscle atrophy,361,1
+Muscle atrophy,362,0
+Muscle atrophy,363,0
+Muscle atrophy,364,0
+Muscle atrophy,365,0
+Muscle atrophy,366,0
+Muscle atrophy,367,0
+Muscle atrophy,368,0
+Muscle atrophy,369,0
+Muscle atrophy,370,0
+Muscle atrophy,371,0
+Muscle atrophy,372,1
+Muscle atrophy,373,1
+Muscle atrophy,374,0
+Muscle atrophy,375,0
+Muscle atrophy,376,1
+Muscle atrophy,377,0
+Muscle atrophy,378,0
+Muscle atrophy,379,0
+Muscle atrophy,380,0
+Muscle atrophy,381,0
+Muscle atrophy,382,0
+Muscle atrophy,383,3
+Muscle atrophy,384,1
+Muscle atrophy,385,1
+Muscle atrophy,386,1
+Muscle atrophy,387,1
+Muscle atrophy,388,1
+Muscle atrophy,389,1
+Muscle atrophy,390,0
+Muscle atrophy,391,0
+Muscle atrophy,392,1
+Muscle atrophy,393,0
+Muscle atrophy,394,1
+Muscle atrophy,395,2
+Muscle atrophy,396,0
+Muscle atrophy,397,1
+Muscle atrophy,398,2
+Muscle atrophy,399,0
+Muscle atrophy,400,2
+Muscle atrophy,401,1
+Muscle atrophy,402,0
+Muscle atrophy,403,3
+Muscle atrophy,404,0
+Muscle atrophy,405,0
+Muscle atrophy,406,0
+Muscle atrophy,407,0
+Muscle atrophy,408,1
+Muscle atrophy,409,0
+Muscle atrophy,410,0
+Muscle atrophy,411,0
+Muscle atrophy,412,0
+Muscle atrophy,413,0
+Muscle atrophy,414,1
+Muscle atrophy,415,0
+Muscle atrophy,416,0
+Muscle atrophy,417,1
+Muscle atrophy,418,0
+Muscle atrophy,419,1
+Muscle atrophy,420,0
+Muscle atrophy,421,0
+Muscle atrophy,422,1
+Muscle atrophy,423,0
+Muscle atrophy,424,1
+Muscle atrophy,425,1
+Muscle atrophy,426,0
+Muscle atrophy,427,0
+Muscle atrophy,428,0
+Muscle atrophy,429,0
+Muscle atrophy,430,1
+Muscle atrophy,431,1
+Muscle atrophy,432,1
+Muscle atrophy,433,0
+Muscle atrophy,434,0
+Muscle atrophy,435,2
+Muscle atrophy,436,0
+Muscle atrophy,437,0
+Muscle atrophy,438,0
+Muscle atrophy,439,0
+Muscle atrophy,440,0
+Muscle atrophy,441,2
+Muscle atrophy,442,0
+Muscle atrophy,443,0
+Muscle atrophy,444,0
+Muscle atrophy,445,0
+Muscle atrophy,446,0
+Muscle atrophy,447,0
+Muscle atrophy,448,1
+Muscle atrophy,449,1
+Muscle atrophy,450,0
+Muscle atrophy,451,1
+Muscle atrophy,452,0
+Muscle atrophy,453,0
+Muscle atrophy,454,1
+Muscle atrophy,455,0
+Muscle atrophy,456,0
+Muscle atrophy,457,1
+Muscle atrophy,458,0
+Muscle atrophy,459,0
+Muscle atrophy,460,1
+Muscle atrophy,461,0
+Muscle atrophy,462,1
+Muscle atrophy,463,0
+Muscle atrophy,464,0
+Muscle atrophy,465,0
+Muscle atrophy,466,1
+Muscle atrophy,467,0
+Muscle atrophy,468,1
+Muscle atrophy,469,1
+Muscle atrophy,470,3
+Muscle atrophy,471,0
+Muscle atrophy,472,2
+Muscle atrophy,473,0
+Muscle atrophy,474,0
+Muscle atrophy,475,1
+Muscle atrophy,476,0
+Muscle atrophy,477,2
+Muscle atrophy,478,0
+Muscle atrophy,479,0
+Muscle atrophy,480,0
+Muscle atrophy,481,1
+Muscle atrophy,482,1
+Muscle atrophy,483,0
+Muscle atrophy,484,1
+Muscle atrophy,485,2
+Muscle atrophy,486,3
+Muscle atrophy,487,2
+Muscle atrophy,488,0
+Muscle atrophy,489,0
+Muscle atrophy,490,0
+Muscle atrophy,491,0
+Muscle atrophy,492,0
+Muscle atrophy,493,1
+Muscle atrophy,494,0
+Muscle atrophy,495,1
+Muscle atrophy,496,0
+Muscle atrophy,497,1
+Muscle atrophy,498,0
+Muscle atrophy,499,1
+Muscle atrophy,500,1
+Muscle atrophy,501,0
+Muscle atrophy,502,1
+Muscle atrophy,503,2
+Muscle atrophy,504,1
+Muscle atrophy,505,1
+Muscle atrophy,506,1
+Muscle atrophy,507,0
+Muscle atrophy,508,0
+Muscle atrophy,509,0
+Muscle atrophy,510,1
+Muscle atrophy,511,1
+Muscle atrophy,512,1
+Muscle atrophy,513,0
+Muscle atrophy,514,0
+Muscle atrophy,515,2
+Muscle atrophy,516,0
+Muscle atrophy,517,0
+Muscle atrophy,518,2
+Muscle atrophy,519,0
+Muscle atrophy,520,1
+Muscle atrophy,521,2
+Muscle atrophy,522,1
+Muscle atrophy,523,0
+Muscle atrophy,524,0
+Muscle atrophy,525,1
+Muscle atrophy,526,2
+Muscle atrophy,527,2
+Muscle atrophy,528,0
+Muscle atrophy,529,1
+Muscle atrophy,530,0
+Muscle atrophy,531,0
+Muscle atrophy,532,0
+Muscle atrophy,533,0
+Muscle atrophy,534,0
+Muscle atrophy,535,1
+Muscle atrophy,536,1
+Muscle atrophy,537,1
+Muscle atrophy,538,1
+Muscle atrophy,539,1
+Muscle atrophy,540,0
+Muscle atrophy,541,2
+Muscle atrophy,542,1
+Muscle atrophy,543,0
+Muscle atrophy,544,1
+Muscle atrophy,545,1
+Muscle atrophy,546,3
+Muscle atrophy,547,0
+Muscle atrophy,548,1
+Muscle atrophy,549,1
+Muscle atrophy,550,4
+Muscle atrophy,551,2
+Muscle atrophy,552,0
+Muscle atrophy,553,2
+Muscle atrophy,554,0
+Muscle atrophy,555,0
+Muscle atrophy,556,0
+Muscle atrophy,557,0
+Muscle atrophy,558,0
+Muscle atrophy,559,1
+Muscle atrophy,560,0
+Muscle atrophy,561,0
+Muscle atrophy,562,1
+Muscle atrophy,563,2
+Muscle atrophy,564,0
+Muscle atrophy,565,0
+Muscle atrophy,566,0
+Muscle atrophy,567,0
+Muscle atrophy,568,1
+Muscle atrophy,569,2
+Muscle atrophy,570,1
+Muscle atrophy,571,0
+Muscle atrophy,572,2
+Muscle atrophy,573,0
+Muscle atrophy,574,1
+Muscle atrophy,575,0
+Muscle atrophy,576,0
+Muscle atrophy,577,1
+Muscle atrophy,578,1
+Muscle atrophy,579,1
+Muscle atrophy,580,2
+Muscle atrophy,581,1
+Muscle atrophy,582,0
+Muscle atrophy,583,0
+Muscle atrophy,584,1
+Muscle atrophy,585,0
+Muscle atrophy,586,0
+Muscle atrophy,587,0
+Muscle atrophy,588,0
+Muscle atrophy,589,0
+Muscle atrophy,590,1
+Muscle atrophy,591,2
+Muscle atrophy,592,0
+Muscle atrophy,593,0
+Muscle atrophy,594,0
+Muscle atrophy,595,0
+Muscle atrophy,596,0
+Muscle atrophy,597,0
+Muscle atrophy,598,0
+Muscle atrophy,599,0
+Muscle atrophy,600,0
+Muscle atrophy,601,0
+Muscle atrophy,602,1
+Muscle atrophy,603,0
+Muscle atrophy,604,0
+Muscle atrophy,605,0
+Muscle atrophy,606,0
+Muscle atrophy,607,0
+Muscle atrophy,608,0
+Muscle atrophy,609,3
+Muscle atrophy,610,0
+Muscle atrophy,611,1
+Muscle atrophy,612,1
+Muscle atrophy,613,0
+Muscle atrophy,614,1
+Muscle atrophy,615,0
+Muscle atrophy,616,2
+Muscle atrophy,617,1
+Muscle atrophy,618,1
+Muscle atrophy,619,0
+Muscle atrophy,620,0
+Muscle atrophy,621,0
+Muscle atrophy,622,0
+Muscle atrophy,623,0
+Muscle atrophy,624,0
+Muscle atrophy,625,1
+Muscle atrophy,626,1
+Muscle atrophy,627,0
+Muscle atrophy,628,1
+Muscle atrophy,629,0
+Muscle atrophy,630,0
+Muscle atrophy,631,0
+Muscle atrophy,632,0
+Muscle atrophy,633,0
+Muscle atrophy,634,0
+Muscle atrophy,635,0
+Muscle atrophy,636,1
+Muscle atrophy,637,0
+Muscle atrophy,638,1
+Muscle atrophy,639,0
+Muscle atrophy,640,0
+Muscle atrophy,641,1
+Muscle atrophy,642,1
+Muscle atrophy,643,1
+Muscle atrophy,644,0
+Muscle atrophy,645,1
+Muscle atrophy,646,1
+Muscle atrophy,647,0
+Muscle atrophy,648,0
+Muscle atrophy,649,0
+Muscle atrophy,650,0
+Muscle atrophy,651,1
+Muscle atrophy,652,1
+Muscle atrophy,653,2
+Muscle atrophy,654,1
+Muscle atrophy,655,0
+Muscle atrophy,656,2
+Muscle atrophy,657,0
+Muscle atrophy,658,2
+Muscle atrophy,659,2
+Muscle atrophy,660,1
+Muscle atrophy,661,0
+Muscle atrophy,662,0
+Muscle atrophy,663,0
+Muscle atrophy,664,3
+Muscle atrophy,665,1
+Muscle atrophy,666,1
+Muscle atrophy,667,1
+Muscle atrophy,668,2
+Muscle atrophy,669,1
+Muscle atrophy,670,1
+Muscle atrophy,671,0
+Muscle atrophy,672,0
+Muscle atrophy,673,0
+Muscle atrophy,674,0
+Muscle atrophy,675,2
+Muscle atrophy,676,2
+Muscle atrophy,677,0
+Muscle atrophy,678,0
+Muscle atrophy,679,0
+Muscle atrophy,680,2
+Muscle atrophy,681,0
+Muscle atrophy,682,1
+Muscle atrophy,683,1
+Muscle atrophy,684,0
+Muscle atrophy,685,2
+Muscle atrophy,686,0
+Muscle atrophy,687,1
+Muscle atrophy,688,0
+Muscle atrophy,689,0
+Muscle atrophy,690,1
+Muscle atrophy,691,1
+Muscle atrophy,692,2
+Muscle atrophy,693,0
+Muscle atrophy,694,0
+Muscle atrophy,695,2
+Muscle atrophy,696,0
+Muscle atrophy,697,0
+Muscle atrophy,698,0
+Muscle atrophy,699,1
+Muscle atrophy,700,0
+Muscle atrophy,701,0
+Muscle atrophy,702,0
+Muscle atrophy,703,1
+Muscle atrophy,704,0
+Muscle atrophy,705,2
+Muscle atrophy,706,1
+Muscle atrophy,707,0
+Muscle atrophy,708,0
+Muscle atrophy,709,2
+Muscle atrophy,710,1
+Muscle atrophy,711,1
+Muscle atrophy,712,1
+Muscle atrophy,713,1
+Muscle atrophy,714,0
+Muscle atrophy,715,1
+Muscle atrophy,716,0
+Muscle atrophy,717,1
+Muscle atrophy,718,1
+Muscle atrophy,719,1
+Muscle atrophy,720,1
+Muscle atrophy,721,0
+Muscle atrophy,722,1
+Muscle atrophy,723,0
+Muscle atrophy,724,0
+Muscle atrophy,725,3
+Muscle atrophy,726,0
+Muscle atrophy,727,0
+Muscle atrophy,728,0
+Muscle atrophy,729,0
+Muscle atrophy,730,0
+Muscle atrophy,731,0
+Muscle atrophy,732,0
+Muscle atrophy,733,0
+Muscle atrophy,734,0
+Muscle atrophy,735,0
+Muscle atrophy,736,0
+Muscle atrophy,737,0
+Muscle atrophy,738,2
+Muscle atrophy,739,0
+Muscle atrophy,740,1
+Muscle atrophy,741,0
+Muscle atrophy,742,2
+Muscle atrophy,743,1
+Muscle atrophy,744,1
+Muscle atrophy,745,5
+Muscle atrophy,746,1
+Muscle atrophy,747,1
+Muscle atrophy,748,1
+Muscle atrophy,749,2
+Muscle atrophy,750,0
+Muscle atrophy,751,0
+Muscle atrophy,752,1
+Muscle atrophy,753,0
+Muscle atrophy,754,1
+Muscle atrophy,755,1
+Muscle atrophy,756,2
+Muscle atrophy,757,1
+Muscle atrophy,758,1
+Muscle atrophy,759,0
+Muscle atrophy,760,0
+Muscle atrophy,761,0
+Muscle atrophy,762,0
+Muscle atrophy,763,0
+Muscle atrophy,764,0
+Muscle atrophy,765,0
+Muscle atrophy,766,1
+Muscle atrophy,767,0
+Muscle atrophy,768,1
+Muscle atrophy,769,2
+Muscle atrophy,770,0
+Muscle atrophy,771,1
+Muscle atrophy,772,0
+Muscle atrophy,773,1
+Muscle atrophy,774,1
+Muscle atrophy,775,0
+Muscle atrophy,776,1
+Muscle atrophy,777,0
+Muscle atrophy,778,0
+Muscle atrophy,779,0
+Muscle atrophy,780,0
+Muscle atrophy,781,0
+Muscle atrophy,782,0
+Muscle atrophy,783,2
+Muscle atrophy,784,0
+Muscle atrophy,785,2
+Muscle atrophy,786,1
+Muscle atrophy,787,1
+Muscle atrophy,788,0
+Muscle atrophy,789,3
+Muscle atrophy,790,0
+Muscle atrophy,791,1
+Muscle atrophy,792,1
+Muscle atrophy,793,1
+Muscle atrophy,794,0
+Muscle atrophy,795,0
+Muscle atrophy,796,0
+Muscle atrophy,797,0
+Muscle atrophy,798,0
+Muscle atrophy,799,1
+Muscle atrophy,800,0
+Muscle atrophy,801,0
+Muscle atrophy,802,0
+Muscle atrophy,803,0
+Muscle atrophy,804,1
+Muscle atrophy,805,0
+Muscle atrophy,806,0
+Muscle atrophy,807,0
+Muscle atrophy,808,0
+Muscle atrophy,809,0
+Muscle atrophy,810,0
+Muscle atrophy,811,1
+Muscle atrophy,812,1
+Muscle atrophy,813,0
+Muscle atrophy,814,0
+Muscle atrophy,815,1
+Muscle atrophy,816,1
+Muscle atrophy,817,1
+Muscle atrophy,818,3
+Muscle atrophy,819,0
+Muscle atrophy,820,1
+Muscle atrophy,821,1
+Muscle atrophy,822,0
+Muscle atrophy,823,0
+Muscle atrophy,824,0
+Muscle atrophy,825,0
+Muscle atrophy,826,0
+Muscle atrophy,827,0
+Muscle atrophy,828,0
+Muscle atrophy,829,0
+Muscle atrophy,830,0
+Muscle atrophy,831,1
+Muscle atrophy,832,1
+Muscle atrophy,833,0
+Muscle atrophy,834,0
+Muscle atrophy,835,0
+Muscle atrophy,836,0
+Muscle atrophy,837,0
+Muscle atrophy,838,1
+Muscle atrophy,839,0
+Muscle atrophy,840,1
+Muscle atrophy,841,0
+Muscle atrophy,842,2
+Muscle atrophy,843,0
+Muscle atrophy,844,1
+Muscle atrophy,845,2
+Muscle atrophy,846,1
+Muscle atrophy,847,0
+Muscle atrophy,848,0
+Muscle atrophy,849,1
+Muscle atrophy,850,2
+Muscle atrophy,851,0
+Muscle atrophy,852,0
+Muscle atrophy,853,0
+Muscle atrophy,854,0
+Muscle atrophy,855,0
+Muscle atrophy,856,0
+Muscle atrophy,857,0
+Muscle atrophy,858,0
+Muscle atrophy,859,1
+Muscle atrophy,860,0
+Muscle atrophy,861,1
+Muscle atrophy,862,2
+Muscle atrophy,863,0
+Muscle atrophy,864,0
+Muscle atrophy,865,0
+Muscle atrophy,866,1
+Muscle atrophy,867,0
+Muscle atrophy,868,0
+Muscle atrophy,869,0
+Muscle atrophy,870,1
+Muscle atrophy,871,0
+Muscle atrophy,872,0
+Muscle atrophy,873,0
+Muscle atrophy,874,0
+Muscle atrophy,875,2
+Muscle atrophy,876,0
+Muscle atrophy,877,0
+Muscle atrophy,878,0
+Muscle atrophy,879,0
+Muscle atrophy,880,1
+Muscle atrophy,881,0
+Muscle atrophy,882,0
+Muscle atrophy,883,2
+Muscle atrophy,884,0
+Muscle atrophy,885,0
+Muscle atrophy,886,0
+Muscle atrophy,887,0
+Muscle atrophy,888,1
+Muscle atrophy,889,0
+Muscle atrophy,890,1
+Muscle atrophy,891,0
+Muscle atrophy,892,0
+Muscle atrophy,893,0
+Muscle atrophy,894,1
+Muscle atrophy,895,0
+Muscle atrophy,896,2
+Muscle atrophy,897,0
+Muscle atrophy,898,0
+Muscle atrophy,899,0
+Muscle atrophy,900,2
+Muscle atrophy,901,0
+Muscle atrophy,902,0
+Muscle atrophy,903,0
+Muscle atrophy,904,0
+Muscle atrophy,905,0
+Muscle atrophy,906,1
+Muscle atrophy,907,0
+Muscle atrophy,908,1
+Muscle atrophy,909,2
+Muscle atrophy,910,1
+Muscle atrophy,911,0
+Muscle atrophy,912,0
+Muscle atrophy,913,0
+Muscle atrophy,914,0
+Muscle atrophy,915,0
+Muscle atrophy,916,1
+Muscle atrophy,917,0
+Muscle atrophy,918,0
+Muscle atrophy,919,0
+Muscle atrophy,920,3
+Muscle atrophy,921,1
+Muscle atrophy,922,1
+Muscle atrophy,923,1
+Muscle atrophy,924,0
+Muscle atrophy,925,2
+Muscle atrophy,926,1
+Muscle atrophy,927,0
+Muscle atrophy,928,1
+Muscle atrophy,929,0
+Muscle atrophy,930,1
+Muscle atrophy,931,0
+Muscle atrophy,932,0
+Muscle atrophy,933,0
+Muscle atrophy,934,1
+Muscle atrophy,935,1
+Muscle atrophy,936,0
+Muscle atrophy,937,0
+Muscle atrophy,938,0
+Muscle atrophy,939,1
+Muscle atrophy,940,1
+Muscle atrophy,941,2
+Muscle atrophy,942,0
+Muscle atrophy,943,1
+Muscle atrophy,944,0
+Muscle atrophy,945,0
+Muscle atrophy,946,1
+Muscle atrophy,947,0
+Muscle atrophy,948,0
+Muscle atrophy,949,0
+Muscle atrophy,950,1
+Muscle atrophy,951,0
+Muscle atrophy,952,0
+Muscle atrophy,953,2
+Muscle atrophy,954,2
+Muscle atrophy,955,0
+Muscle atrophy,956,0
+Muscle atrophy,957,0
+Muscle atrophy,958,0
+Muscle atrophy,959,1
+Muscle atrophy,960,0
+Muscle atrophy,961,0
+Muscle atrophy,962,0
+Muscle atrophy,963,1
+Muscle atrophy,964,0
+Muscle atrophy,965,1
+Muscle atrophy,966,2
+Muscle atrophy,967,0
+Muscle atrophy,968,0
+Muscle atrophy,969,1
+Muscle atrophy,970,1
+Muscle atrophy,971,0
+Muscle atrophy,972,0
+Muscle atrophy,973,0
+Muscle atrophy,974,0
+Muscle atrophy,975,0
+Muscle atrophy,976,0
+Muscle atrophy,977,0
+Muscle atrophy,978,1
+Muscle atrophy,979,0
+Muscle atrophy,980,1
+Muscle atrophy,981,1
+Muscle atrophy,982,0
+Muscle atrophy,983,1
+Muscle atrophy,984,0
+Muscle atrophy,985,0
+Muscle atrophy,986,0
+Muscle atrophy,987,1
+Muscle atrophy,988,0
+Muscle atrophy,989,0
+Muscle atrophy,990,2
+Muscle atrophy,991,0
+Muscle atrophy,992,1
+Muscle atrophy,993,1
+Muscle atrophy,994,1
+Muscle atrophy,995,0
+Muscle atrophy,996,0
+Muscle atrophy,997,1
+Muscle atrophy,998,0
+Muscle atrophy,999,0
+Bone loss,0,0
+Bone loss,1,2
+Bone loss,2,1
+Bone loss,3,0
+Bone loss,4,0
+Bone loss,5,2
+Bone loss,6,3
+Bone loss,7,2
+Bone loss,8,2
+Bone loss,9,0
+Bone loss,10,2
+Bone loss,11,0
+Bone loss,12,1
+Bone loss,13,0
+Bone loss,14,0
+Bone loss,15,0
+Bone loss,16,0
+Bone loss,17,1
+Bone loss,18,0
+Bone loss,19,1
+Bone loss,20,0
+Bone loss,21,0
+Bone loss,22,0
+Bone loss,23,0
+Bone loss,24,0
+Bone loss,25,3
+Bone loss,26,1
+Bone loss,27,0
+Bone loss,28,0
+Bone loss,29,0
+Bone loss,30,1
+Bone loss,31,3
+Bone loss,32,0
+Bone loss,33,1
+Bone loss,34,0
+Bone loss,35,0
+Bone loss,36,1
+Bone loss,37,0
+Bone loss,38,1
+Bone loss,39,2
+Bone loss,40,1
+Bone loss,41,1
+Bone loss,42,1
+Bone loss,43,0
+Bone loss,44,1
+Bone loss,45,2
+Bone loss,46,3
+Bone loss,47,1
+Bone loss,48,0
+Bone loss,49,0
+Bone loss,50,3
+Bone loss,51,2
+Bone loss,52,1
+Bone loss,53,0
+Bone loss,54,0
+Bone loss,55,0
+Bone loss,56,0
+Bone loss,57,0
+Bone loss,58,0
+Bone loss,59,0
+Bone loss,60,0
+Bone loss,61,1
+Bone loss,62,0
+Bone loss,63,0
+Bone loss,64,0
+Bone loss,65,0
+Bone loss,66,1
+Bone loss,67,1
+Bone loss,68,1
+Bone loss,69,2
+Bone loss,70,2
+Bone loss,71,1
+Bone loss,72,0
+Bone loss,73,0
+Bone loss,74,0
+Bone loss,75,3
+Bone loss,76,1
+Bone loss,77,0
+Bone loss,78,1
+Bone loss,79,0
+Bone loss,80,1
+Bone loss,81,0
+Bone loss,82,0
+Bone loss,83,1
+Bone loss,84,0
+Bone loss,85,1
+Bone loss,86,1
+Bone loss,87,0
+Bone loss,88,1
+Bone loss,89,0
+Bone loss,90,1
+Bone loss,91,0
+Bone loss,92,0
+Bone loss,93,1
+Bone loss,94,1
+Bone loss,95,1
+Bone loss,96,1
+Bone loss,97,1
+Bone loss,98,0
+Bone loss,99,3
+Bone loss,100,0
+Bone loss,101,0
+Bone loss,102,1
+Bone loss,103,0
+Bone loss,104,1
+Bone loss,105,1
+Bone loss,106,0
+Bone loss,107,0
+Bone loss,108,1
+Bone loss,109,0
+Bone loss,110,1
+Bone loss,111,1
+Bone loss,112,1
+Bone loss,113,0
+Bone loss,114,1
+Bone loss,115,0
+Bone loss,116,0
+Bone loss,117,0
+Bone loss,118,1
+Bone loss,119,0
+Bone loss,120,0
+Bone loss,121,1
+Bone loss,122,0
+Bone loss,123,2
+Bone loss,124,2
+Bone loss,125,1
+Bone loss,126,2
+Bone loss,127,2
+Bone loss,128,0
+Bone loss,129,1
+Bone loss,130,0
+Bone loss,131,0
+Bone loss,132,0
+Bone loss,133,1
+Bone loss,134,1
+Bone loss,135,0
+Bone loss,136,1
+Bone loss,137,1
+Bone loss,138,0
+Bone loss,139,2
+Bone loss,140,0
+Bone loss,141,0
+Bone loss,142,1
+Bone loss,143,0
+Bone loss,144,1
+Bone loss,145,2
+Bone loss,146,0
+Bone loss,147,0
+Bone loss,148,0
+Bone loss,149,2
+Bone loss,150,2
+Bone loss,151,0
+Bone loss,152,1
+Bone loss,153,0
+Bone loss,154,1
+Bone loss,155,1
+Bone loss,156,0
+Bone loss,157,1
+Bone loss,158,0
+Bone loss,159,0
+Bone loss,160,3
+Bone loss,161,1
+Bone loss,162,0
+Bone loss,163,0
+Bone loss,164,1
+Bone loss,165,0
+Bone loss,166,0
+Bone loss,167,0
+Bone loss,168,1
+Bone loss,169,0
+Bone loss,170,2
+Bone loss,171,0
+Bone loss,172,0
+Bone loss,173,0
+Bone loss,174,3
+Bone loss,175,1
+Bone loss,176,0
+Bone loss,177,1
+Bone loss,178,2
+Bone loss,179,0
+Bone loss,180,0
+Bone loss,181,1
+Bone loss,182,0
+Bone loss,183,1
+Bone loss,184,0
+Bone loss,185,1
+Bone loss,186,0
+Bone loss,187,0
+Bone loss,188,0
+Bone loss,189,1
+Bone loss,190,2
+Bone loss,191,0
+Bone loss,192,1
+Bone loss,193,2
+Bone loss,194,0
+Bone loss,195,0
+Bone loss,196,0
+Bone loss,197,0
+Bone loss,198,0
+Bone loss,199,0
+Bone loss,200,1
+Bone loss,201,1
+Bone loss,202,0
+Bone loss,203,1
+Bone loss,204,0
+Bone loss,205,1
+Bone loss,206,0
+Bone loss,207,0
+Bone loss,208,0
+Bone loss,209,4
+Bone loss,210,0
+Bone loss,211,1
+Bone loss,212,0
+Bone loss,213,1
+Bone loss,214,0
+Bone loss,215,1
+Bone loss,216,1
+Bone loss,217,0
+Bone loss,218,2
+Bone loss,219,0
+Bone loss,220,2
+Bone loss,221,1
+Bone loss,222,2
+Bone loss,223,0
+Bone loss,224,0
+Bone loss,225,1
+Bone loss,226,0
+Bone loss,227,4
+Bone loss,228,0
+Bone loss,229,0
+Bone loss,230,1
+Bone loss,231,0
+Bone loss,232,0
+Bone loss,233,2
+Bone loss,234,2
+Bone loss,235,1
+Bone loss,236,0
+Bone loss,237,0
+Bone loss,238,0
+Bone loss,239,1
+Bone loss,240,1
+Bone loss,241,1
+Bone loss,242,0
+Bone loss,243,2
+Bone loss,244,1
+Bone loss,245,0
+Bone loss,246,0
+Bone loss,247,0
+Bone loss,248,1
+Bone loss,249,0
+Bone loss,250,0
+Bone loss,251,0
+Bone loss,252,0
+Bone loss,253,2
+Bone loss,254,2
+Bone loss,255,2
+Bone loss,256,2
+Bone loss,257,1
+Bone loss,258,0
+Bone loss,259,4
+Bone loss,260,0
+Bone loss,261,1
+Bone loss,262,0
+Bone loss,263,0
+Bone loss,264,0
+Bone loss,265,0
+Bone loss,266,0
+Bone loss,267,0
+Bone loss,268,0
+Bone loss,269,0
+Bone loss,270,1
+Bone loss,271,0
+Bone loss,272,1
+Bone loss,273,0
+Bone loss,274,0
+Bone loss,275,1
+Bone loss,276,0
+Bone loss,277,2
+Bone loss,278,0
+Bone loss,279,0
+Bone loss,280,2
+Bone loss,281,1
+Bone loss,282,1
+Bone loss,283,0
+Bone loss,284,0
+Bone loss,285,2
+Bone loss,286,0
+Bone loss,287,1
+Bone loss,288,1
+Bone loss,289,2
+Bone loss,290,1
+Bone loss,291,1
+Bone loss,292,0
+Bone loss,293,1
+Bone loss,294,0
+Bone loss,295,0
+Bone loss,296,0
+Bone loss,297,1
+Bone loss,298,0
+Bone loss,299,1
+Bone loss,300,0
+Bone loss,301,0
+Bone loss,302,1
+Bone loss,303,0
+Bone loss,304,0
+Bone loss,305,1
+Bone loss,306,1
+Bone loss,307,2
+Bone loss,308,0
+Bone loss,309,0
+Bone loss,310,0
+Bone loss,311,1
+Bone loss,312,1
+Bone loss,313,1
+Bone loss,314,1
+Bone loss,315,0
+Bone loss,316,0
+Bone loss,317,2
+Bone loss,318,0
+Bone loss,319,0
+Bone loss,320,0
+Bone loss,321,1
+Bone loss,322,0
+Bone loss,323,2
+Bone loss,324,0
+Bone loss,325,0
+Bone loss,326,0
+Bone loss,327,1
+Bone loss,328,1
+Bone loss,329,0
+Bone loss,330,2
+Bone loss,331,1
+Bone loss,332,1
+Bone loss,333,0
+Bone loss,334,0
+Bone loss,335,1
+Bone loss,336,1
+Bone loss,337,1
+Bone loss,338,0
+Bone loss,339,0
+Bone loss,340,0
+Bone loss,341,1
+Bone loss,342,1
+Bone loss,343,0
+Bone loss,344,0
+Bone loss,345,0
+Bone loss,346,2
+Bone loss,347,0
+Bone loss,348,1
+Bone loss,349,0
+Bone loss,350,0
+Bone loss,351,1
+Bone loss,352,0
+Bone loss,353,0
+Bone loss,354,1
+Bone loss,355,0
+Bone loss,356,1
+Bone loss,357,3
+Bone loss,358,0
+Bone loss,359,1
+Bone loss,360,0
+Bone loss,361,1
+Bone loss,362,1
+Bone loss,363,0
+Bone loss,364,1
+Bone loss,365,0
+Bone loss,366,0
+Bone loss,367,0
+Bone loss,368,1
+Bone loss,369,0
+Bone loss,370,0
+Bone loss,371,0
+Bone loss,372,0
+Bone loss,373,0
+Bone loss,374,1
+Bone loss,375,0
+Bone loss,376,0
+Bone loss,377,0
+Bone loss,378,1
+Bone loss,379,1
+Bone loss,380,0
+Bone loss,381,0
+Bone loss,382,1
+Bone loss,383,0
+Bone loss,384,0
+Bone loss,385,0
+Bone loss,386,2
+Bone loss,387,1
+Bone loss,388,0
+Bone loss,389,1
+Bone loss,390,1
+Bone loss,391,0
+Bone loss,392,1
+Bone loss,393,0
+Bone loss,394,1
+Bone loss,395,2
+Bone loss,396,2
+Bone loss,397,1
+Bone loss,398,1
+Bone loss,399,1
+Bone loss,400,1
+Bone loss,401,1
+Bone loss,402,2
+Bone loss,403,0
+Bone loss,404,0
+Bone loss,405,0
+Bone loss,406,0
+Bone loss,407,0
+Bone loss,408,0
+Bone loss,409,2
+Bone loss,410,0
+Bone loss,411,0
+Bone loss,412,0
+Bone loss,413,0
+Bone loss,414,1
+Bone loss,415,1
+Bone loss,416,0
+Bone loss,417,1
+Bone loss,418,0
+Bone loss,419,0
+Bone loss,420,0
+Bone loss,421,0
+Bone loss,422,0
+Bone loss,423,1
+Bone loss,424,0
+Bone loss,425,0
+Bone loss,426,1
+Bone loss,427,0
+Bone loss,428,1
+Bone loss,429,1
+Bone loss,430,0
+Bone loss,431,0
+Bone loss,432,0
+Bone loss,433,0
+Bone loss,434,1
+Bone loss,435,1
+Bone loss,436,1
+Bone loss,437,0
+Bone loss,438,0
+Bone loss,439,0
+Bone loss,440,2
+Bone loss,441,0
+Bone loss,442,0
+Bone loss,443,1
+Bone loss,444,0
+Bone loss,445,1
+Bone loss,446,0
+Bone loss,447,0
+Bone loss,448,0
+Bone loss,449,0
+Bone loss,450,0
+Bone loss,451,2
+Bone loss,452,0
+Bone loss,453,2
+Bone loss,454,0
+Bone loss,455,0
+Bone loss,456,0
+Bone loss,457,0
+Bone loss,458,1
+Bone loss,459,0
+Bone loss,460,2
+Bone loss,461,0
+Bone loss,462,1
+Bone loss,463,1
+Bone loss,464,0
+Bone loss,465,1
+Bone loss,466,0
+Bone loss,467,1
+Bone loss,468,0
+Bone loss,469,1
+Bone loss,470,0
+Bone loss,471,0
+Bone loss,472,0
+Bone loss,473,0
+Bone loss,474,1
+Bone loss,475,2
+Bone loss,476,0
+Bone loss,477,2
+Bone loss,478,1
+Bone loss,479,0
+Bone loss,480,0
+Bone loss,481,1
+Bone loss,482,0
+Bone loss,483,0
+Bone loss,484,1
+Bone loss,485,3
+Bone loss,486,0
+Bone loss,487,2
+Bone loss,488,1
+Bone loss,489,2
+Bone loss,490,0
+Bone loss,491,0
+Bone loss,492,1
+Bone loss,493,0
+Bone loss,494,0
+Bone loss,495,0
+Bone loss,496,0
+Bone loss,497,0
+Bone loss,498,0
+Bone loss,499,0
+Bone loss,500,0
+Bone loss,501,2
+Bone loss,502,0
+Bone loss,503,0
+Bone loss,504,0
+Bone loss,505,0
+Bone loss,506,0
+Bone loss,507,0
+Bone loss,508,0
+Bone loss,509,1
+Bone loss,510,0
+Bone loss,511,2
+Bone loss,512,0
+Bone loss,513,0
+Bone loss,514,0
+Bone loss,515,0
+Bone loss,516,0
+Bone loss,517,2
+Bone loss,518,3
+Bone loss,519,0
+Bone loss,520,0
+Bone loss,521,0
+Bone loss,522,0
+Bone loss,523,0
+Bone loss,524,1
+Bone loss,525,1
+Bone loss,526,2
+Bone loss,527,0
+Bone loss,528,0
+Bone loss,529,2
+Bone loss,530,1
+Bone loss,531,1
+Bone loss,532,1
+Bone loss,533,0
+Bone loss,534,0
+Bone loss,535,1
+Bone loss,536,0
+Bone loss,537,2
+Bone loss,538,0
+Bone loss,539,1
+Bone loss,540,2
+Bone loss,541,0
+Bone loss,542,2
+Bone loss,543,0
+Bone loss,544,0
+Bone loss,545,1
+Bone loss,546,0
+Bone loss,547,1
+Bone loss,548,0
+Bone loss,549,1
+Bone loss,550,1
+Bone loss,551,0
+Bone loss,552,0
+Bone loss,553,0
+Bone loss,554,0
+Bone loss,555,1
+Bone loss,556,0
+Bone loss,557,1
+Bone loss,558,1
+Bone loss,559,1
+Bone loss,560,1
+Bone loss,561,2
+Bone loss,562,2
+Bone loss,563,0
+Bone loss,564,0
+Bone loss,565,1
+Bone loss,566,1
+Bone loss,567,0
+Bone loss,568,0
+Bone loss,569,0
+Bone loss,570,0
+Bone loss,571,0
+Bone loss,572,0
+Bone loss,573,0
+Bone loss,574,1
+Bone loss,575,2
+Bone loss,576,1
+Bone loss,577,1
+Bone loss,578,0
+Bone loss,579,0
+Bone loss,580,1
+Bone loss,581,2
+Bone loss,582,2
+Bone loss,583,0
+Bone loss,584,0
+Bone loss,585,1
+Bone loss,586,0
+Bone loss,587,1
+Bone loss,588,0
+Bone loss,589,2
+Bone loss,590,0
+Bone loss,591,0
+Bone loss,592,2
+Bone loss,593,2
+Bone loss,594,1
+Bone loss,595,0
+Bone loss,596,0
+Bone loss,597,0
+Bone loss,598,1
+Bone loss,599,1
+Bone loss,600,1
+Bone loss,601,0
+Bone loss,602,0
+Bone loss,603,1
+Bone loss,604,1
+Bone loss,605,0
+Bone loss,606,0
+Bone loss,607,1
+Bone loss,608,1
+Bone loss,609,2
+Bone loss,610,0
+Bone loss,611,0
+Bone loss,612,0
+Bone loss,613,1
+Bone loss,614,2
+Bone loss,615,0
+Bone loss,616,0
+Bone loss,617,1
+Bone loss,618,0
+Bone loss,619,0
+Bone loss,620,2
+Bone loss,621,1
+Bone loss,622,1
+Bone loss,623,0
+Bone loss,624,0
+Bone loss,625,1
+Bone loss,626,0
+Bone loss,627,1
+Bone loss,628,2
+Bone loss,629,1
+Bone loss,630,0
+Bone loss,631,1
+Bone loss,632,2
+Bone loss,633,0
+Bone loss,634,5
+Bone loss,635,1
+Bone loss,636,0
+Bone loss,637,1
+Bone loss,638,2
+Bone loss,639,1
+Bone loss,640,0
+Bone loss,641,1
+Bone loss,642,1
+Bone loss,643,0
+Bone loss,644,0
+Bone loss,645,2
+Bone loss,646,2
+Bone loss,647,1
+Bone loss,648,1
+Bone loss,649,0
+Bone loss,650,0
+Bone loss,651,0
+Bone loss,652,0
+Bone loss,653,0
+Bone loss,654,0
+Bone loss,655,1
+Bone loss,656,1
+Bone loss,657,1
+Bone loss,658,1
+Bone loss,659,2
+Bone loss,660,2
+Bone loss,661,2
+Bone loss,662,0
+Bone loss,663,0
+Bone loss,664,0
+Bone loss,665,0
+Bone loss,666,0
+Bone loss,667,0
+Bone loss,668,0
+Bone loss,669,0
+Bone loss,670,0
+Bone loss,671,0
+Bone loss,672,1
+Bone loss,673,0
+Bone loss,674,0
+Bone loss,675,0
+Bone loss,676,0
+Bone loss,677,2
+Bone loss,678,0
+Bone loss,679,1
+Bone loss,680,2
+Bone loss,681,1
+Bone loss,682,0
+Bone loss,683,1
+Bone loss,684,0
+Bone loss,685,1
+Bone loss,686,1
+Bone loss,687,0
+Bone loss,688,1
+Bone loss,689,0
+Bone loss,690,0
+Bone loss,691,1
+Bone loss,692,0
+Bone loss,693,0
+Bone loss,694,1
+Bone loss,695,1
+Bone loss,696,0
+Bone loss,697,1
+Bone loss,698,0
+Bone loss,699,0
+Bone loss,700,0
+Bone loss,701,0
+Bone loss,702,2
+Bone loss,703,0
+Bone loss,704,0
+Bone loss,705,0
+Bone loss,706,0
+Bone loss,707,1
+Bone loss,708,1
+Bone loss,709,1
+Bone loss,710,0
+Bone loss,711,1
+Bone loss,712,0
+Bone loss,713,0
+Bone loss,714,0
+Bone loss,715,0
+Bone loss,716,0
+Bone loss,717,0
+Bone loss,718,3
+Bone loss,719,2
+Bone loss,720,0
+Bone loss,721,0
+Bone loss,722,0
+Bone loss,723,0
+Bone loss,724,0
+Bone loss,725,0
+Bone loss,726,0
+Bone loss,727,0
+Bone loss,728,1
+Bone loss,729,1
+Bone loss,730,0
+Bone loss,731,1
+Bone loss,732,2
+Bone loss,733,0
+Bone loss,734,2
+Bone loss,735,0
+Bone loss,736,0
+Bone loss,737,0
+Bone loss,738,0
+Bone loss,739,0
+Bone loss,740,0
+Bone loss,741,0
+Bone loss,742,2
+Bone loss,743,0
+Bone loss,744,0
+Bone loss,745,0
+Bone loss,746,1
+Bone loss,747,0
+Bone loss,748,2
+Bone loss,749,0
+Bone loss,750,1
+Bone loss,751,0
+Bone loss,752,2
+Bone loss,753,2
+Bone loss,754,2
+Bone loss,755,0
+Bone loss,756,0
+Bone loss,757,1
+Bone loss,758,0
+Bone loss,759,2
+Bone loss,760,2
+Bone loss,761,0
+Bone loss,762,0
+Bone loss,763,0
+Bone loss,764,1
+Bone loss,765,1
+Bone loss,766,0
+Bone loss,767,2
+Bone loss,768,0
+Bone loss,769,0
+Bone loss,770,1
+Bone loss,771,0
+Bone loss,772,1
+Bone loss,773,0
+Bone loss,774,0
+Bone loss,775,0
+Bone loss,776,0
+Bone loss,777,0
+Bone loss,778,2
+Bone loss,779,0
+Bone loss,780,1
+Bone loss,781,1
+Bone loss,782,0
+Bone loss,783,0
+Bone loss,784,1
+Bone loss,785,0
+Bone loss,786,0
+Bone loss,787,1
+Bone loss,788,1
+Bone loss,789,1
+Bone loss,790,1
+Bone loss,791,1
+Bone loss,792,0
+Bone loss,793,0
+Bone loss,794,0
+Bone loss,795,1
+Bone loss,796,0
+Bone loss,797,2
+Bone loss,798,0
+Bone loss,799,1
+Bone loss,800,2
+Bone loss,801,0
+Bone loss,802,2
+Bone loss,803,1
+Bone loss,804,3
+Bone loss,805,0
+Bone loss,806,0
+Bone loss,807,0
+Bone loss,808,2
+Bone loss,809,2
+Bone loss,810,1
+Bone loss,811,0
+Bone loss,812,1
+Bone loss,813,1
+Bone loss,814,1
+Bone loss,815,0
+Bone loss,816,0
+Bone loss,817,0
+Bone loss,818,1
+Bone loss,819,0
+Bone loss,820,0
+Bone loss,821,0
+Bone loss,822,2
+Bone loss,823,2
+Bone loss,824,0
+Bone loss,825,0
+Bone loss,826,0
+Bone loss,827,0
+Bone loss,828,1
+Bone loss,829,0
+Bone loss,830,0
+Bone loss,831,0
+Bone loss,832,0
+Bone loss,833,0
+Bone loss,834,1
+Bone loss,835,0
+Bone loss,836,1
+Bone loss,837,0
+Bone loss,838,1
+Bone loss,839,0
+Bone loss,840,1
+Bone loss,841,1
+Bone loss,842,3
+Bone loss,843,0
+Bone loss,844,0
+Bone loss,845,0
+Bone loss,846,0
+Bone loss,847,0
+Bone loss,848,0
+Bone loss,849,1
+Bone loss,850,0
+Bone loss,851,0
+Bone loss,852,0
+Bone loss,853,2
+Bone loss,854,0
+Bone loss,855,0
+Bone loss,856,0
+Bone loss,857,0
+Bone loss,858,2
+Bone loss,859,0
+Bone loss,860,1
+Bone loss,861,0
+Bone loss,862,0
+Bone loss,863,2
+Bone loss,864,1
+Bone loss,865,1
+Bone loss,866,0
+Bone loss,867,0
+Bone loss,868,0
+Bone loss,869,0
+Bone loss,870,0
+Bone loss,871,0
+Bone loss,872,1
+Bone loss,873,1
+Bone loss,874,0
+Bone loss,875,0
+Bone loss,876,0
+Bone loss,877,0
+Bone loss,878,0
+Bone loss,879,1
+Bone loss,880,0
+Bone loss,881,3
+Bone loss,882,0
+Bone loss,883,0
+Bone loss,884,0
+Bone loss,885,0
+Bone loss,886,1
+Bone loss,887,0
+Bone loss,888,1
+Bone loss,889,1
+Bone loss,890,1
+Bone loss,891,1
+Bone loss,892,1
+Bone loss,893,1
+Bone loss,894,1
+Bone loss,895,2
+Bone loss,896,2
+Bone loss,897,0
+Bone loss,898,1
+Bone loss,899,0
+Bone loss,900,0
+Bone loss,901,0
+Bone loss,902,1
+Bone loss,903,0
+Bone loss,904,0
+Bone loss,905,0
+Bone loss,906,2
+Bone loss,907,0
+Bone loss,908,0
+Bone loss,909,0
+Bone loss,910,0
+Bone loss,911,0
+Bone loss,912,1
+Bone loss,913,2
+Bone loss,914,0
+Bone loss,915,0
+Bone loss,916,0
+Bone loss,917,0
+Bone loss,918,1
+Bone loss,919,1
+Bone loss,920,1
+Bone loss,921,0
+Bone loss,922,0
+Bone loss,923,1
+Bone loss,924,0
+Bone loss,925,3
+Bone loss,926,0
+Bone loss,927,2
+Bone loss,928,1
+Bone loss,929,0
+Bone loss,930,0
+Bone loss,931,0
+Bone loss,932,1
+Bone loss,933,0
+Bone loss,934,2
+Bone loss,935,0
+Bone loss,936,0
+Bone loss,937,2
+Bone loss,938,1
+Bone loss,939,0
+Bone loss,940,1
+Bone loss,941,1
+Bone loss,942,4
+Bone loss,943,0
+Bone loss,944,1
+Bone loss,945,1
+Bone loss,946,2
+Bone loss,947,2
+Bone loss,948,1
+Bone loss,949,1
+Bone loss,950,0
+Bone loss,951,0
+Bone loss,952,0
+Bone loss,953,0
+Bone loss,954,0
+Bone loss,955,1
+Bone loss,956,0
+Bone loss,957,1
+Bone loss,958,1
+Bone loss,959,0
+Bone loss,960,2
+Bone loss,961,1
+Bone loss,962,0
+Bone loss,963,0
+Bone loss,964,0
+Bone loss,965,1
+Bone loss,966,0
+Bone loss,967,0
+Bone loss,968,0
+Bone loss,969,1
+Bone loss,970,0
+Bone loss,971,0
+Bone loss,972,0
+Bone loss,973,0
+Bone loss,974,0
+Bone loss,975,0
+Bone loss,976,1
+Bone loss,977,1
+Bone loss,978,0
+Bone loss,979,1
+Bone loss,980,1
+Bone loss,981,0
+Bone loss,982,0
+Bone loss,983,0
+Bone loss,984,0
+Bone loss,985,0
+Bone loss,986,0
+Bone loss,987,0
+Bone loss,988,1
+Bone loss,989,0
+Bone loss,990,2
+Bone loss,991,1
+Bone loss,992,0
+Bone loss,993,0
+Bone loss,994,0
+Bone loss,995,3
+Bone loss,996,1
+Bone loss,997,0
+Bone loss,998,1
+Bone loss,999,0
+Radiation,0,2
+Radiation,1,0
+Radiation,2,0
+Radiation,3,2
+Radiation,4,0
+Radiation,5,0
+Radiation,6,0
+Radiation,7,0
+Radiation,8,0
+Radiation,9,0
+Radiation,10,0
+Radiation,11,1
+Radiation,12,0
+Radiation,13,1
+Radiation,14,0
+Radiation,15,0
+Radiation,16,0
+Radiation,17,1
+Radiation,18,1
+Radiation,19,0
+Radiation,20,1
+Radiation,21,1
+Radiation,22,0
+Radiation,23,0
+Radiation,24,1
+Radiation,25,0
+Radiation,26,0
+Radiation,27,1
+Radiation,28,1
+Radiation,29,1
+Radiation,30,0
+Radiation,31,1
+Radiation,32,0
+Radiation,33,2
+Radiation,34,0
+Radiation,35,1
+Radiation,36,1
+Radiation,37,0
+Radiation,38,0
+Radiation,39,0
+Radiation,40,1
+Radiation,41,1
+Radiation,42,1
+Radiation,43,0
+Radiation,44,0
+Radiation,45,0
+Radiation,46,2
+Radiation,47,0
+Radiation,48,0
+Radiation,49,1
+Radiation,50,1
+Radiation,51,1
+Radiation,52,0
+Radiation,53,0
+Radiation,54,0
+Radiation,55,1
+Radiation,56,0
+Radiation,57,0
+Radiation,58,2
+Radiation,59,1
+Radiation,60,0
+Radiation,61,0
+Radiation,62,0
+Radiation,63,2
+Radiation,64,0
+Radiation,65,0
+Radiation,66,0
+Radiation,67,0
+Radiation,68,0
+Radiation,69,1
+Radiation,70,2
+Radiation,71,2
+Radiation,72,0
+Radiation,73,0
+Radiation,74,0
+Radiation,75,0
+Radiation,76,2
+Radiation,77,1
+Radiation,78,0
+Radiation,79,0
+Radiation,80,1
+Radiation,81,3
+Radiation,82,1
+Radiation,83,0
+Radiation,84,0
+Radiation,85,1
+Radiation,86,1
+Radiation,87,1
+Radiation,88,0
+Radiation,89,1
+Radiation,90,0
+Radiation,91,0
+Radiation,92,1
+Radiation,93,0
+Radiation,94,0
+Radiation,95,0
+Radiation,96,0
+Radiation,97,0
+Radiation,98,1
+Radiation,99,1
+Radiation,100,1
+Radiation,101,1
+Radiation,102,2
+Radiation,103,0
+Radiation,104,1
+Radiation,105,0
+Radiation,106,0
+Radiation,107,0
+Radiation,108,0
+Radiation,109,0
+Radiation,110,1
+Radiation,111,0
+Radiation,112,1
+Radiation,113,1
+Radiation,114,0
+Radiation,115,0
+Radiation,116,1
+Radiation,117,0
+Radiation,118,0
+Radiation,119,0
+Radiation,120,1
+Radiation,121,1
+Radiation,122,1
+Radiation,123,1
+Radiation,124,0
+Radiation,125,1
+Radiation,126,0
+Radiation,127,1
+Radiation,128,0
+Radiation,129,0
+Radiation,130,1
+Radiation,131,1
+Radiation,132,1
+Radiation,133,0
+Radiation,134,1
+Radiation,135,0
+Radiation,136,1
+Radiation,137,0
+Radiation,138,0
+Radiation,139,1
+Radiation,140,1
+Radiation,141,1
+Radiation,142,0
+Radiation,143,1
+Radiation,144,0
+Radiation,145,0
+Radiation,146,1
+Radiation,147,0
+Radiation,148,0
+Radiation,149,2
+Radiation,150,0
+Radiation,151,0
+Radiation,152,0
+Radiation,153,0
+Radiation,154,1
+Radiation,155,1
+Radiation,156,0
+Radiation,157,0
+Radiation,158,1
+Radiation,159,1
+Radiation,160,0
+Radiation,161,1
+Radiation,162,2
+Radiation,163,0
+Radiation,164,1
+Radiation,165,1
+Radiation,166,1
+Radiation,167,0
+Radiation,168,0
+Radiation,169,0
+Radiation,170,1
+Radiation,171,1
+Radiation,172,0
+Radiation,173,0
+Radiation,174,2
+Radiation,175,3
+Radiation,176,0
+Radiation,177,0
+Radiation,178,0
+Radiation,179,0
+Radiation,180,0
+Radiation,181,0
+Radiation,182,0
+Radiation,183,0
+Radiation,184,0
+Radiation,185,0
+Radiation,186,0
+Radiation,187,2
+Radiation,188,0
+Radiation,189,0
+Radiation,190,1
+Radiation,191,0
+Radiation,192,0
+Radiation,193,0
+Radiation,194,0
+Radiation,195,0
+Radiation,196,1
+Radiation,197,0
+Radiation,198,0
+Radiation,199,1
+Radiation,200,1
+Radiation,201,1
+Radiation,202,0
+Radiation,203,0
+Radiation,204,1
+Radiation,205,0
+Radiation,206,1
+Radiation,207,0
+Radiation,208,1
+Radiation,209,1
+Radiation,210,0
+Radiation,211,1
+Radiation,212,2
+Radiation,213,0
+Radiation,214,0
+Radiation,215,0
+Radiation,216,0
+Radiation,217,0
+Radiation,218,2
+Radiation,219,0
+Radiation,220,1
+Radiation,221,0
+Radiation,222,0
+Radiation,223,0
+Radiation,224,0
+Radiation,225,0
+Radiation,226,0
+Radiation,227,0
+Radiation,228,1
+Radiation,229,1
+Radiation,230,0
+Radiation,231,0
+Radiation,232,0
+Radiation,233,0
+Radiation,234,2
+Radiation,235,0
+Radiation,236,0
+Radiation,237,0
+Radiation,238,2
+Radiation,239,0
+Radiation,240,1
+Radiation,241,1
+Radiation,242,0
+Radiation,243,1
+Radiation,244,2
+Radiation,245,0
+Radiation,246,1
+Radiation,247,0
+Radiation,248,1
+Radiation,249,1
+Radiation,250,1
+Radiation,251,3
+Radiation,252,0
+Radiation,253,0
+Radiation,254,1
+Radiation,255,1
+Radiation,256,1
+Radiation,257,1
+Radiation,258,0
+Radiation,259,1
+Radiation,260,1
+Radiation,261,0
+Radiation,262,0
+Radiation,263,0
+Radiation,264,1
+Radiation,265,3
+Radiation,266,1
+Radiation,267,1
+Radiation,268,0
+Radiation,269,1
+Radiation,270,2
+Radiation,271,2
+Radiation,272,0
+Radiation,273,0
+Radiation,274,0
+Radiation,275,1
+Radiation,276,0
+Radiation,277,1
+Radiation,278,0
+Radiation,279,0
+Radiation,280,0
+Radiation,281,1
+Radiation,282,1
+Radiation,283,1
+Radiation,284,2
+Radiation,285,0
+Radiation,286,0
+Radiation,287,0
+Radiation,288,1
+Radiation,289,0
+Radiation,290,1
+Radiation,291,1
+Radiation,292,1
+Radiation,293,0
+Radiation,294,1
+Radiation,295,0
+Radiation,296,0
+Radiation,297,1
+Radiation,298,1
+Radiation,299,1
+Radiation,300,1
+Radiation,301,0
+Radiation,302,0
+Radiation,303,0
+Radiation,304,0
+Radiation,305,1
+Radiation,306,0
+Radiation,307,0
+Radiation,308,0
+Radiation,309,0
+Radiation,310,0
+Radiation,311,1
+Radiation,312,0
+Radiation,313,0
+Radiation,314,1
+Radiation,315,0
+Radiation,316,0
+Radiation,317,2
+Radiation,318,1
+Radiation,319,1
+Radiation,320,0
+Radiation,321,1
+Radiation,322,0
+Radiation,323,0
+Radiation,324,0
+Radiation,325,0
+Radiation,326,1
+Radiation,327,0
+Radiation,328,2
+Radiation,329,0
+Radiation,330,1
+Radiation,331,1
+Radiation,332,1
+Radiation,333,0
+Radiation,334,0
+Radiation,335,2
+Radiation,336,0
+Radiation,337,1
+Radiation,338,0
+Radiation,339,0
+Radiation,340,1
+Radiation,341,3
+Radiation,342,1
+Radiation,343,2
+Radiation,344,1
+Radiation,345,2
+Radiation,346,1
+Radiation,347,0
+Radiation,348,1
+Radiation,349,1
+Radiation,350,1
+Radiation,351,0
+Radiation,352,0
+Radiation,353,1
+Radiation,354,1
+Radiation,355,1
+Radiation,356,0
+Radiation,357,1
+Radiation,358,0
+Radiation,359,2
+Radiation,360,0
+Radiation,361,0
+Radiation,362,1
+Radiation,363,0
+Radiation,364,1
+Radiation,365,0
+Radiation,366,1
+Radiation,367,2
+Radiation,368,3
+Radiation,369,1
+Radiation,370,1
+Radiation,371,0
+Radiation,372,0
+Radiation,373,0
+Radiation,374,0
+Radiation,375,1
+Radiation,376,0
+Radiation,377,3
+Radiation,378,0
+Radiation,379,0
+Radiation,380,3
+Radiation,381,1
+Radiation,382,2
+Radiation,383,2
+Radiation,384,0
+Radiation,385,0
+Radiation,386,0
+Radiation,387,0
+Radiation,388,0
+Radiation,389,0
+Radiation,390,1
+Radiation,391,0
+Radiation,392,1
+Radiation,393,1
+Radiation,394,1
+Radiation,395,0
+Radiation,396,0
+Radiation,397,0
+Radiation,398,1
+Radiation,399,0
+Radiation,400,1
+Radiation,401,0
+Radiation,402,1
+Radiation,403,1
+Radiation,404,2
+Radiation,405,0
+Radiation,406,1
+Radiation,407,0
+Radiation,408,0
+Radiation,409,0
+Radiation,410,1
+Radiation,411,2
+Radiation,412,0
+Radiation,413,0
+Radiation,414,1
+Radiation,415,0
+Radiation,416,2
+Radiation,417,0
+Radiation,418,2
+Radiation,419,1
+Radiation,420,0
+Radiation,421,0
+Radiation,422,1
+Radiation,423,0
+Radiation,424,1
+Radiation,425,0
+Radiation,426,0
+Radiation,427,0
+Radiation,428,0
+Radiation,429,1
+Radiation,430,0
+Radiation,431,2
+Radiation,432,0
+Radiation,433,0
+Radiation,434,0
+Radiation,435,0
+Radiation,436,1
+Radiation,437,1
+Radiation,438,0
+Radiation,439,0
+Radiation,440,1
+Radiation,441,0
+Radiation,442,0
+Radiation,443,0
+Radiation,444,0
+Radiation,445,1
+Radiation,446,0
+Radiation,447,0
+Radiation,448,1
+Radiation,449,1
+Radiation,450,2
+Radiation,451,1
+Radiation,452,1
+Radiation,453,0
+Radiation,454,0
+Radiation,455,0
+Radiation,456,0
+Radiation,457,0
+Radiation,458,0
+Radiation,459,0
+Radiation,460,0
+Radiation,461,0
+Radiation,462,0
+Radiation,463,0
+Radiation,464,1
+Radiation,465,1
+Radiation,466,1
+Radiation,467,0
+Radiation,468,1
+Radiation,469,0
+Radiation,470,0
+Radiation,471,0
+Radiation,472,0
+Radiation,473,0
+Radiation,474,0
+Radiation,475,0
+Radiation,476,0
+Radiation,477,1
+Radiation,478,1
+Radiation,479,0
+Radiation,480,0
+Radiation,481,1
+Radiation,482,0
+Radiation,483,1
+Radiation,484,1
+Radiation,485,3
+Radiation,486,1
+Radiation,487,0
+Radiation,488,0
+Radiation,489,1
+Radiation,490,1
+Radiation,491,0
+Radiation,492,2
+Radiation,493,1
+Radiation,494,0
+Radiation,495,2
+Radiation,496,1
+Radiation,497,1
+Radiation,498,0
+Radiation,499,0
+Radiation,500,1
+Radiation,501,2
+Radiation,502,1
+Radiation,503,0
+Radiation,504,0
+Radiation,505,0
+Radiation,506,0
+Radiation,507,1
+Radiation,508,2
+Radiation,509,1
+Radiation,510,2
+Radiation,511,0
+Radiation,512,0
+Radiation,513,0
+Radiation,514,0
+Radiation,515,0
+Radiation,516,0
+Radiation,517,0
+Radiation,518,0
+Radiation,519,0
+Radiation,520,0
+Radiation,521,0
+Radiation,522,2
+Radiation,523,0
+Radiation,524,0
+Radiation,525,2
+Radiation,526,0
+Radiation,527,1
+Radiation,528,0
+Radiation,529,3
+Radiation,530,1
+Radiation,531,0
+Radiation,532,1
+Radiation,533,0
+Radiation,534,2
+Radiation,535,1
+Radiation,536,0
+Radiation,537,0
+Radiation,538,0
+Radiation,539,0
+Radiation,540,0
+Radiation,541,1
+Radiation,542,0
+Radiation,543,0
+Radiation,544,0
+Radiation,545,0
+Radiation,546,1
+Radiation,547,0
+Radiation,548,2
+Radiation,549,1
+Radiation,550,0
+Radiation,551,0
+Radiation,552,1
+Radiation,553,0
+Radiation,554,0
+Radiation,555,0
+Radiation,556,0
+Radiation,557,0
+Radiation,558,0
+Radiation,559,0
+Radiation,560,1
+Radiation,561,0
+Radiation,562,1
+Radiation,563,0
+Radiation,564,0
+Radiation,565,0
+Radiation,566,1
+Radiation,567,2
+Radiation,568,0
+Radiation,569,0
+Radiation,570,0
+Radiation,571,0
+Radiation,572,0
+Radiation,573,2
+Radiation,574,0
+Radiation,575,2
+Radiation,576,1
+Radiation,577,1
+Radiation,578,1
+Radiation,579,0
+Radiation,580,0
+Radiation,581,0
+Radiation,582,0
+Radiation,583,1
+Radiation,584,0
+Radiation,585,0
+Radiation,586,0
+Radiation,587,0
+Radiation,588,0
+Radiation,589,0
+Radiation,590,0
+Radiation,591,2
+Radiation,592,1
+Radiation,593,1
+Radiation,594,0
+Radiation,595,1
+Radiation,596,1
+Radiation,597,0
+Radiation,598,0
+Radiation,599,0
+Radiation,600,0
+Radiation,601,0
+Radiation,602,2
+Radiation,603,0
+Radiation,604,1
+Radiation,605,0
+Radiation,606,0
+Radiation,607,0
+Radiation,608,0
+Radiation,609,0
+Radiation,610,0
+Radiation,611,0
+Radiation,612,0
+Radiation,613,1
+Radiation,614,1
+Radiation,615,1
+Radiation,616,0
+Radiation,617,0
+Radiation,618,0
+Radiation,619,2
+Radiation,620,2
+Radiation,621,0
+Radiation,622,0
+Radiation,623,1
+Radiation,624,1
+Radiation,625,1
+Radiation,626,1
+Radiation,627,2
+Radiation,628,2
+Radiation,629,1
+Radiation,630,0
+Radiation,631,0
+Radiation,632,0
+Radiation,633,0
+Radiation,634,2
+Radiation,635,1
+Radiation,636,1
+Radiation,637,2
+Radiation,638,2
+Radiation,639,0
+Radiation,640,0
+Radiation,641,0
+Radiation,642,0
+Radiation,643,2
+Radiation,644,1
+Radiation,645,1
+Radiation,646,1
+Radiation,647,0
+Radiation,648,0
+Radiation,649,2
+Radiation,650,0
+Radiation,651,0
+Radiation,652,0
+Radiation,653,0
+Radiation,654,1
+Radiation,655,1
+Radiation,656,0
+Radiation,657,1
+Radiation,658,1
+Radiation,659,3
+Radiation,660,1
+Radiation,661,0
+Radiation,662,0
+Radiation,663,0
+Radiation,664,0
+Radiation,665,0
+Radiation,666,1
+Radiation,667,3
+Radiation,668,0
+Radiation,669,0
+Radiation,670,0
+Radiation,671,0
+Radiation,672,0
+Radiation,673,1
+Radiation,674,0
+Radiation,675,1
+Radiation,676,0
+Radiation,677,2
+Radiation,678,2
+Radiation,679,0
+Radiation,680,1
+Radiation,681,1
+Radiation,682,0
+Radiation,683,0
+Radiation,684,1
+Radiation,685,0
+Radiation,686,2
+Radiation,687,1
+Radiation,688,0
+Radiation,689,2
+Radiation,690,0
+Radiation,691,0
+Radiation,692,1
+Radiation,693,1
+Radiation,694,0
+Radiation,695,0
+Radiation,696,0
+Radiation,697,0
+Radiation,698,0
+Radiation,699,1
+Radiation,700,0
+Radiation,701,0
+Radiation,702,1
+Radiation,703,1
+Radiation,704,1
+Radiation,705,2
+Radiation,706,0
+Radiation,707,0
+Radiation,708,0
+Radiation,709,0
+Radiation,710,0
+Radiation,711,0
+Radiation,712,1
+Radiation,713,1
+Radiation,714,1
+Radiation,715,0
+Radiation,716,2
+Radiation,717,0
+Radiation,718,0
+Radiation,719,0
+Radiation,720,1
+Radiation,721,1
+Radiation,722,0
+Radiation,723,0
+Radiation,724,1
+Radiation,725,2
+Radiation,726,2
+Radiation,727,2
+Radiation,728,1
+Radiation,729,1
+Radiation,730,0
+Radiation,731,0
+Radiation,732,2
+Radiation,733,1
+Radiation,734,1
+Radiation,735,1
+Radiation,736,1
+Radiation,737,2
+Radiation,738,0
+Radiation,739,0
+Radiation,740,1
+Radiation,741,1
+Radiation,742,2
+Radiation,743,1
+Radiation,744,1
+Radiation,745,2
+Radiation,746,0
+Radiation,747,1
+Radiation,748,0
+Radiation,749,0
+Radiation,750,0
+Radiation,751,0
+Radiation,752,0
+Radiation,753,0
+Radiation,754,1
+Radiation,755,1
+Radiation,756,1
+Radiation,757,0
+Radiation,758,2
+Radiation,759,1
+Radiation,760,0
+Radiation,761,0
+Radiation,762,0
+Radiation,763,2
+Radiation,764,0
+Radiation,765,1
+Radiation,766,2
+Radiation,767,1
+Radiation,768,1
+Radiation,769,1
+Radiation,770,0
+Radiation,771,1
+Radiation,772,2
+Radiation,773,2
+Radiation,774,0
+Radiation,775,0
+Radiation,776,0
+Radiation,777,0
+Radiation,778,1
+Radiation,779,1
+Radiation,780,0
+Radiation,781,0
+Radiation,782,1
+Radiation,783,0
+Radiation,784,0
+Radiation,785,3
+Radiation,786,0
+Radiation,787,0
+Radiation,788,0
+Radiation,789,0
+Radiation,790,1
+Radiation,791,0
+Radiation,792,0
+Radiation,793,0
+Radiation,794,0
+Radiation,795,1
+Radiation,796,2
+Radiation,797,1
+Radiation,798,0
+Radiation,799,1
+Radiation,800,0
+Radiation,801,0
+Radiation,802,1
+Radiation,803,0
+Radiation,804,0
+Radiation,805,1
+Radiation,806,0
+Radiation,807,3
+Radiation,808,0
+Radiation,809,1
+Radiation,810,1
+Radiation,811,1
+Radiation,812,0
+Radiation,813,1
+Radiation,814,1
+Radiation,815,0
+Radiation,816,1
+Radiation,817,0
+Radiation,818,1
+Radiation,819,0
+Radiation,820,0
+Radiation,821,0
+Radiation,822,0
+Radiation,823,1
+Radiation,824,0
+Radiation,825,0
+Radiation,826,1
+Radiation,827,1
+Radiation,828,1
+Radiation,829,0
+Radiation,830,0
+Radiation,831,1
+Radiation,832,0
+Radiation,833,1
+Radiation,834,0
+Radiation,835,0
+Radiation,836,0
+Radiation,837,1
+Radiation,838,0
+Radiation,839,0
+Radiation,840,0
+Radiation,841,0
+Radiation,842,1
+Radiation,843,1
+Radiation,844,1
+Radiation,845,0
+Radiation,846,1
+Radiation,847,0
+Radiation,848,0
+Radiation,849,0
+Radiation,850,1
+Radiation,851,0
+Radiation,852,0
+Radiation,853,0
+Radiation,854,0
+Radiation,855,0
+Radiation,856,1
+Radiation,857,0
+Radiation,858,0
+Radiation,859,1
+Radiation,860,0
+Radiation,861,0
+Radiation,862,3
+Radiation,863,0
+Radiation,864,1
+Radiation,865,0
+Radiation,866,0
+Radiation,867,1
+Radiation,868,1
+Radiation,869,2
+Radiation,870,0
+Radiation,871,0
+Radiation,872,1
+Radiation,873,1
+Radiation,874,0
+Radiation,875,0
+Radiation,876,1
+Radiation,877,1
+Radiation,878,1
+Radiation,879,0
+Radiation,880,1
+Radiation,881,1
+Radiation,882,1
+Radiation,883,0
+Radiation,884,0
+Radiation,885,0
+Radiation,886,0
+Radiation,887,0
+Radiation,888,0
+Radiation,889,0
+Radiation,890,1
+Radiation,891,1
+Radiation,892,0
+Radiation,893,0
+Radiation,894,2
+Radiation,895,0
+Radiation,896,0
+Radiation,897,1
+Radiation,898,0
+Radiation,899,0
+Radiation,900,0
+Radiation,901,0
+Radiation,902,0
+Radiation,903,0
+Radiation,904,1
+Radiation,905,2
+Radiation,906,0
+Radiation,907,1
+Radiation,908,0
+Radiation,909,1
+Radiation,910,0
+Radiation,911,1
+Radiation,912,0
+Radiation,913,0
+Radiation,914,0
+Radiation,915,4
+Radiation,916,0
+Radiation,917,3
+Radiation,918,1
+Radiation,919,0
+Radiation,920,0
+Radiation,921,1
+Radiation,922,0
+Radiation,923,0
+Radiation,924,0
+Radiation,925,0
+Radiation,926,1
+Radiation,927,0
+Radiation,928,0
+Radiation,929,0
+Radiation,930,0
+Radiation,931,0
+Radiation,932,0
+Radiation,933,1
+Radiation,934,0
+Radiation,935,0
+Radiation,936,0
+Radiation,937,0
+Radiation,938,0
+Radiation,939,0
+Radiation,940,0
+Radiation,941,0
+Radiation,942,0
+Radiation,943,1
+Radiation,944,1
+Radiation,945,3
+Radiation,946,0
+Radiation,947,1
+Radiation,948,2
+Radiation,949,0
+Radiation,950,2
+Radiation,951,1
+Radiation,952,1
+Radiation,953,0
+Radiation,954,1
+Radiation,955,1
+Radiation,956,0
+Radiation,957,0
+Radiation,958,0
+Radiation,959,1
+Radiation,960,1
+Radiation,961,0
+Radiation,962,1
+Radiation,963,1
+Radiation,964,0
+Radiation,965,0
+Radiation,966,0
+Radiation,967,0
+Radiation,968,1
+Radiation,969,1
+Radiation,970,0
+Radiation,971,0
+Radiation,972,2
+Radiation,973,0
+Radiation,974,0
+Radiation,975,0
+Radiation,976,1
+Radiation,977,1
+Radiation,978,0
+Radiation,979,3
+Radiation,980,0
+Radiation,981,0
+Radiation,982,1
+Radiation,983,0
+Radiation,984,1
+Radiation,985,1
+Radiation,986,0
+Radiation,987,1
+Radiation,988,1
+Radiation,989,0
+Radiation,990,0
+Radiation,991,1
+Radiation,992,1
+Radiation,993,0
+Radiation,994,0
+Radiation,995,2
+Radiation,996,0
+Radiation,997,1
+Radiation,998,0
+Radiation,999,2

@@ -1,0 +1,10 @@
+{
+  "report_cell_executed_clean_kernel": true,
+  "summary_rows": 18,
+  "plotted_q_values_below_0_05": true,
+  "formats": [
+    "png",
+    "pdf",
+    "svg"
+  ]
+}

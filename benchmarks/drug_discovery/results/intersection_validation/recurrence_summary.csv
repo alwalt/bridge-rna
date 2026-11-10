@@ -1,0 +1,7 @@
+condition,method,top_genes_per_study,studies,common_eligible_genes,all_three_genes,at_least_two_genes,random_mean_intersection,random_95th_percentile,random_max_intersection,random_empirical_p,null_draws
+Muscle atrophy,BRIDGE,500,3,14146,102,351,0.544,2.0,5,0.000999000999000999,1000
+Muscle atrophy,DE,500,3,14146,7,180,0.544,2.0,5,0.000999000999000999,1000
+Bone loss,BRIDGE,500,3,13765,66,300,0.613,2.0,5,0.000999000999000999,1000
+Bone loss,DE,500,3,13765,0,59,0.613,2.0,5,1.0,1000
+Radiation,BRIDGE,500,3,12239,50,286,0.564,2.0,4,0.000999000999000999,1000
+Radiation,DE,500,3,12239,3,84,0.564,2.0,4,0.01998001998001998,1000

@@ -1,0 +1,6 @@
+condition,method,scope,dataset,library,term,query_genes,background_genes,term_genes,overlap,fold_enrichment,pvalue,overlap_genes,fdr
+Muscle atrophy,BRIDGE,all_three,all_three,Reactome_Pathways_2024,Striated Muscle Contraction,70,8552,35,9,31.415510204081627,5.782767564767123e-12,ACTA1;DES;MYBPC2;MYL1;NEB;TNNC1;TNNI1;TPM1;TPM2,2.7462363165079063e-08
+Muscle atrophy,BRIDGE,all_three,all_three,Reactome_Pathways_2024,Muscle Contraction,70,8552,185,14,9.245405405405409,2.0137251778473989e-10,ACTA1;ATP1A2;CACNB1;CASQ1;DES;MYBPC2;MYL1;NEB;PDE5A;SORBS1;TNNC1;TNNI1;TPM1;TPM2,4.781590434798649e-07
+Muscle atrophy,BRIDGE,all_three,all_three,GO_Biological_Process_2025,Sarcomere Organization (GO:0045214),89,11529,33,6,23.552604698672116,1.671884389772725e-07,ANKRD1;CASQ1;MYBPC2;MYLK3;MYOM1;TPM1,0.000264659298901
+Muscle atrophy,BRIDGE,all_three,all_three,GO_Biological_Process_2025,Myofibril Assembly (GO:0030239),89,11529,48,6,16.19241573033708,1.688369378418784e-06,ANKRD1;CASQ1;MYBPC2;MYLK3;MYOM1;TPM1,0.0020045165445277
+Muscle atrophy,BRIDGE,all_three,all_three,GO_Biological_Process_2025,Actomyosin Structure Organization (GO:0031032),89,11529,83,7,10.925003384323812,3.320359683837731e-06,ANKRD1;CASQ1;MYBPC2;MYLK3;MYOM1;SORBS1;TPM1,0.003153677627709

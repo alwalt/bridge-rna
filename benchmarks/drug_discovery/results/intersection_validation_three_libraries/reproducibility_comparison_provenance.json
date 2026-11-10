@@ -1,0 +1,21 @@
+{
+  "sources": {
+    "recurrence_summary.csv": "42259b18f07ad422edc8ad0426f1ae6f1fe55cab5ed547040af7ff60e97fb8c0",
+    "pathway_summary.csv": "ff16c93276564ba94cf07d86e741af320a27c9755fa0ac01080f67e13dd7e60f"
+  },
+  "analysis_rerun": false,
+  "top_genes_per_study": 500,
+  "conditions": [
+    "Muscle atrophy",
+    "Bone loss",
+    "Radiation"
+  ],
+  "libraries": [
+    "GO Biological Process 2025",
+    "KEGG Human 2021",
+    "Reactome Pathways 2024"
+  ],
+  "figure_width_mm": 183,
+  "font": "Arial regular",
+  "no_direct_method_difference_test": true
+}

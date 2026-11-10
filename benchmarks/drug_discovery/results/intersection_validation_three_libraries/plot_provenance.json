@@ -1,0 +1,12 @@
+{
+  "layout": "3 condition rows x 3 library columns",
+  "selection": "Up to 3 lowest q passing terms per panel; no manual condition filter",
+  "font": "Arial",
+  "width_mm": 183,
+  "height_mm": 195,
+  "q_family": "All three libraries jointly within each query",
+  "endpoints": [
+    "Enrichment of three-way gene intersection",
+    "Terms enriched separately in all three top500 study lists"
+  ]
+}

@@ -1,0 +1,31 @@
+Estimate: 1–3 minutes including two small annotation downloads; cached-only gene analysis, 1000 random draws per condition.
+Muscle atrophy: shared BRIDGE=102; DE=7; eligibility checked.
+Bone loss: shared BRIDGE=66; DE=0; eligibility checked.
+Radiation: shared BRIDGE=50; DE=3; eligibility checked.
+Annotations ready: GO_Biological_Process_2025, 5343 terms.
+Annotations ready: Reactome_Pathways_2024, 2105 terms.
+heartbeat 1/24 queries; Muscle atrophy/BRIDGE/all_three; elapsed=12.0s
+heartbeat 2/24 queries; Muscle atrophy/BRIDGE/study_top500; elapsed=12.6s
+heartbeat 3/24 queries; Muscle atrophy/BRIDGE/study_top500; elapsed=13.1s
+heartbeat 4/24 queries; Muscle atrophy/BRIDGE/study_top500; elapsed=13.7s
+heartbeat 5/24 queries; Muscle atrophy/DE/all_three; elapsed=13.9s
+heartbeat 6/24 queries; Muscle atrophy/DE/study_top500; elapsed=14.4s
+heartbeat 7/24 queries; Muscle atrophy/DE/study_top500; elapsed=14.9s
+heartbeat 8/24 queries; Muscle atrophy/DE/study_top500; elapsed=15.5s
+heartbeat 9/24 queries; Bone loss/BRIDGE/all_three; elapsed=15.8s
+heartbeat 10/24 queries; Bone loss/BRIDGE/study_top500; elapsed=16.5s
+heartbeat 11/24 queries; Bone loss/BRIDGE/study_top500; elapsed=17.0s
+heartbeat 12/24 queries; Bone loss/BRIDGE/study_top500; elapsed=17.5s
+heartbeat 13/24 queries; Bone loss/DE/all_three; elapsed=17.6s
+heartbeat 14/24 queries; Bone loss/DE/study_top500; elapsed=18.2s
+heartbeat 15/24 queries; Bone loss/DE/study_top500; elapsed=18.7s
+heartbeat 16/24 queries; Bone loss/DE/study_top500; elapsed=19.2s
+heartbeat 17/24 queries; Radiation/BRIDGE/all_three; elapsed=19.6s
+heartbeat 18/24 queries; Radiation/BRIDGE/study_top500; elapsed=20.1s
+heartbeat 19/24 queries; Radiation/BRIDGE/study_top500; elapsed=20.9s
+heartbeat 20/24 queries; Radiation/BRIDGE/study_top500; elapsed=21.5s
+heartbeat 21/24 queries; Radiation/DE/all_three; elapsed=21.7s
+heartbeat 22/24 queries; Radiation/DE/study_top500; elapsed=22.2s
+heartbeat 23/24 queries; Radiation/DE/study_top500; elapsed=22.8s
+heartbeat 24/24 queries; Radiation/DE/study_top500; elapsed=23.5s
+Completed in 24.7s; 789 significant query–term rows.

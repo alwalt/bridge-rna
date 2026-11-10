@@ -1,0 +1,19 @@
+condition,method,library,significant_intersection_terms,pathways_significant_in_all_three_top500_sets
+Muscle atrophy,BRIDGE,GO Biological Process,5,6
+Muscle atrophy,BRIDGE,KEGG,3,2
+Muscle atrophy,BRIDGE,Reactome,2,2
+Muscle atrophy,DE,GO Biological Process,0,0
+Muscle atrophy,DE,KEGG,0,0
+Muscle atrophy,DE,Reactome,0,0
+Bone loss,BRIDGE,GO Biological Process,0,2
+Bone loss,BRIDGE,KEGG,0,0
+Bone loss,BRIDGE,Reactome,0,2
+Bone loss,DE,GO Biological Process,0,0
+Bone loss,DE,KEGG,0,0
+Bone loss,DE,Reactome,0,0
+Radiation,BRIDGE,GO Biological Process,0,0
+Radiation,BRIDGE,KEGG,0,0
+Radiation,BRIDGE,Reactome,0,0
+Radiation,DE,GO Biological Process,0,0
+Radiation,DE,KEGG,0,0
+Radiation,DE,Reactome,0,0

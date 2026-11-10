@@ -1,0 +1,49 @@
+condition,method,scope,dataset,library,selected_genes,eligible_background,annotated_background,annotated_query_genes,unannotated_query_genes,tested_terms
+Muscle atrophy,BRIDGE,all_three,all_three,GO_Biological_Process_2025,102,14146,11529,89,13,3218
+Muscle atrophy,BRIDGE,all_three,all_three,Reactome_Pathways_2024,102,14146,8552,70,32,1531
+Muscle atrophy,BRIDGE,study_top500,GSE211204,GO_Biological_Process_2025,500,14765,11972,420,80,3264
+Muscle atrophy,BRIDGE,study_top500,GSE211204,Reactome_Pathways_2024,500,14765,8877,343,157,1551
+Muscle atrophy,BRIDGE,study_top500,GSE113165,GO_Biological_Process_2025,500,14699,11925,416,84,3259
+Muscle atrophy,BRIDGE,study_top500,GSE113165,Reactome_Pathways_2024,500,14699,8843,321,179,1550
+Muscle atrophy,BRIDGE,study_top500,GSE234465,GO_Biological_Process_2025,500,14342,11667,416,84,3227
+Muscle atrophy,BRIDGE,study_top500,GSE234465,Reactome_Pathways_2024,500,14342,8653,317,183,1532
+Muscle atrophy,DE,all_three,all_three,GO_Biological_Process_2025,7,14146,11529,6,1,3218
+Muscle atrophy,DE,all_three,all_three,Reactome_Pathways_2024,7,14146,8552,3,4,1531
+Muscle atrophy,DE,study_top500,GSE211204,GO_Biological_Process_2025,500,14765,11972,425,75,3264
+Muscle atrophy,DE,study_top500,GSE211204,Reactome_Pathways_2024,500,14765,8877,323,177,1551
+Muscle atrophy,DE,study_top500,GSE113165,GO_Biological_Process_2025,500,14699,11925,421,79,3259
+Muscle atrophy,DE,study_top500,GSE113165,Reactome_Pathways_2024,500,14699,8843,320,180,1550
+Muscle atrophy,DE,study_top500,GSE234465,GO_Biological_Process_2025,500,14342,11667,414,86,3227
+Muscle atrophy,DE,study_top500,GSE234465,Reactome_Pathways_2024,500,14342,8653,325,175,1532
+Bone loss,BRIDGE,all_three,all_three,GO_Biological_Process_2025,66,13765,11222,52,14,3156
+Bone loss,BRIDGE,all_three,all_three,Reactome_Pathways_2024,66,13765,8411,45,21,1523
+Bone loss,BRIDGE,study_top500,GSE189524,GO_Biological_Process_2025,500,14665,11881,412,88,3254
+Bone loss,BRIDGE,study_top500,GSE189524,Reactome_Pathways_2024,500,14665,8882,354,146,1558
+Bone loss,BRIDGE,study_top500,GSE276529,GO_Biological_Process_2025,500,15051,12165,398,102,3281
+Bone loss,BRIDGE,study_top500,GSE276529,Reactome_Pathways_2024,500,15051,9015,312,188,1561
+Bone loss,BRIDGE,study_top500,GSE273868,GO_Biological_Process_2025,500,14175,11527,405,95,3192
+Bone loss,BRIDGE,study_top500,GSE273868,Reactome_Pathways_2024,500,14175,8567,331,169,1527
+Bone loss,DE,all_three,all_three,GO_Biological_Process_2025,0,13765,11222,0,0,3156
+Bone loss,DE,all_three,all_three,Reactome_Pathways_2024,0,13765,8411,0,0,1523
+Bone loss,DE,study_top500,GSE189524,GO_Biological_Process_2025,500,14665,11881,404,96,3254
+Bone loss,DE,study_top500,GSE189524,Reactome_Pathways_2024,500,14665,8882,303,197,1558
+Bone loss,DE,study_top500,GSE276529,GO_Biological_Process_2025,500,15051,12165,388,112,3281
+Bone loss,DE,study_top500,GSE276529,Reactome_Pathways_2024,500,15051,9015,224,276,1561
+Bone loss,DE,study_top500,GSE273868,GO_Biological_Process_2025,500,14175,11527,413,87,3192
+Bone loss,DE,study_top500,GSE273868,Reactome_Pathways_2024,500,14175,8567,347,153,1527
+Radiation,BRIDGE,all_three,all_three,GO_Biological_Process_2025,50,12239,10112,42,8,2924
+Radiation,BRIDGE,all_three,all_three,Reactome_Pathways_2024,50,12239,7558,39,11,1445
+Radiation,BRIDGE,study_top500,GSE297090,GO_Biological_Process_2025,500,14221,11553,413,87,3180
+Radiation,BRIDGE,study_top500,GSE297090,Reactome_Pathways_2024,500,14221,8578,346,154,1530
+Radiation,BRIDGE,study_top500,GSE184119,GO_Biological_Process_2025,500,12713,10471,411,89,3005
+Radiation,BRIDGE,study_top500,GSE184119,Reactome_Pathways_2024,500,12713,7825,351,149,1459
+Radiation,BRIDGE,study_top500,GSE297560,GO_Biological_Process_2025,500,14053,11438,423,77,3163
+Radiation,BRIDGE,study_top500,GSE297560,Reactome_Pathways_2024,500,14053,8502,329,171,1528
+Radiation,DE,all_three,all_three,GO_Biological_Process_2025,3,12239,10112,3,0,2924
+Radiation,DE,all_three,all_three,Reactome_Pathways_2024,3,12239,7558,2,1,1445
+Radiation,DE,study_top500,GSE297090,GO_Biological_Process_2025,500,14221,11553,413,87,3180
+Radiation,DE,study_top500,GSE297090,Reactome_Pathways_2024,500,14221,8578,327,173,1530
+Radiation,DE,study_top500,GSE184119,GO_Biological_Process_2025,500,12713,10471,429,71,3005
+Radiation,DE,study_top500,GSE184119,Reactome_Pathways_2024,500,12713,7825,284,216,1459
+Radiation,DE,study_top500,GSE297560,GO_Biological_Process_2025,500,14053,11438,412,88,3163
+Radiation,DE,study_top500,GSE297560,Reactome_Pathways_2024,500,14053,8502,320,180,1528

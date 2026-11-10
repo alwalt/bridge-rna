@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="226.771654pt" viewBox="0 0 518.740157 226.771654" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-09T15:45:14.134370</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 226.771654 
+L 518.740157 226.771654 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 207.496063 183.685039 
+L 508.365354 183.685039 
+L 508.365354 36.283465 
+L 207.496063 36.283465 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 301.517717 183.685039 
+L 301.517717 36.283465 
+" clip-path="url(#p6e8441c49b)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #777777; stroke-width: 0.7"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 207.496063 42.983536 
+L 373.873444 42.983536 
+L 373.873444 58.983707 
+L 207.496063 58.983707 
+z
+" clip-path="url(#p6e8441c49b)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 207.496063 92.98407 
+L 390.797688 92.98407 
+L 390.797688 108.984241 
+L 207.496063 108.984241 
+z
+" clip-path="url(#p6e8441c49b)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 207.496063 142.984605 
+L 467.033443 142.984605 
+L 467.033443 158.984775 
+L 207.496063 158.984775 
+z
+" clip-path="url(#p6e8441c49b)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 207.496063 60.983728 
+L 418.590251 60.983728 
+L 418.590251 76.983899 
+L 207.496063 76.983899 
+z
+" clip-path="url(#p6e8441c49b)" style="fill: #e69f00"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 207.496063 110.984263 
+L 421.428967 110.984263 
+L 421.428967 126.984434 
+L 207.496063 126.984434 
+z
+" clip-path="url(#p6e8441c49b)" style="fill: #e69f00"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 207.496063 160.984797 
+L 364.805562 160.984797 
+L 364.805562 176.984968 
+L 207.496063 176.984968 
+z
+" clip-path="url(#p6e8441c49b)" style="fill: #e69f00"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_2">
+      <defs>
+       <path id="m6ec2f91149" d="M 0 0 
+L 0 3 
+" style="stroke: #000000; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#m6ec2f91149" x="207.496063" y="183.685039" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 7px; font-family: 'Arial'; text-anchor: middle" x="207.496063" y="195.195508" transform="rotate(-0 207.496063 195.195508)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m6ec2f91149" x="254.50689" y="183.685039" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 7px; font-family: 'Arial'; text-anchor: middle" x="254.50689" y="195.195508" transform="rotate(-0 254.50689 195.195508)">0.5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m6ec2f91149" x="301.517717" y="183.685039" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 7px; font-family: 'Arial'; text-anchor: middle" x="301.517717" y="195.195508" transform="rotate(-0 301.517717 195.195508)">1.0</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m6ec2f91149" x="348.528543" y="183.685039" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 7px; font-family: 'Arial'; text-anchor: middle" x="348.528543" y="195.195508" transform="rotate(-0 348.528543 195.195508)">1.5</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m6ec2f91149" x="395.53937" y="183.685039" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 7px; font-family: 'Arial'; text-anchor: middle" x="395.53937" y="195.195508" transform="rotate(-0 395.53937 195.195508)">2.0</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m6ec2f91149" x="442.550197" y="183.685039" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 7px; font-family: 'Arial'; text-anchor: middle" x="442.550197" y="195.195508" transform="rotate(-0 442.550197 195.195508)">2.5</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m6ec2f91149" x="489.561024" y="183.685039" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 7px; font-family: 'Arial'; text-anchor: middle" x="489.561024" y="195.195508" transform="rotate(-0 489.561024 195.195508)">3.0</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 7.5px; font-family: 'Arial'; text-anchor: middle" x="357.930709" y="206.046524" transform="rotate(-0 357.930709 206.046524)">Disease-gene enrichment (odds ratio)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <defs>
+       <path id="m4da082f3c5" d="M 0 0 
+L -3 0 
+" style="stroke: #000000; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4da082f3c5" x="207.496063" y="59.983718" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="200.996063" y="62.488952" transform="rotate(-0 200.996063 62.488952)">Multiple sclerosis · active lesion</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m4da082f3c5" x="207.496063" y="109.984252" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="200.996063" y="112.489486" transform="rotate(-0 200.996063 112.489486)">Crohn’s disease · ileum</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m4da082f3c5" x="207.496063" y="159.984786" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="200.996063" y="162.532677" transform="rotate(-0 200.996063 162.532677)">Systemic lupus erythematosus · blood</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 207.496063 183.685039 
+L 207.496063 36.283465 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 207.496063 183.685039 
+L 508.365354 183.685039 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="376.873444" y="52.793231" transform="rotate(-0 376.873444 52.793231)">1.77</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="393.797688" y="102.793765" transform="rotate(-0 393.797688 102.793765)">1.95</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="470.033443" y="152.794299" transform="rotate(-0 470.033443 152.794299)">2.76</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="421.590251" y="70.793423" transform="rotate(-0 421.590251 70.793423)">2.25</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="424.428967" y="120.793957" transform="rotate(-0 424.428967 120.793957)">2.28</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="367.805562" y="170.794492" transform="rotate(-0 367.805562 170.794492)">1.67</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8.5px; font-family: 'Arial'; text-anchor: middle" x="357.930709" y="30.283465" transform="rotate(-0 357.930709 30.283465)">Documented disease-gene enrichment in top-500 gene sets</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_11">
+     <path d="M 413.337073 166.006758 
+L 427.337073 166.006758 
+L 427.337073 161.106758 
+L 413.337073 161.106758 
+z
+" style="fill: #0072b2"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="432.937073" y="166.006758" transform="rotate(-0 432.937073 166.006758)">BRIDGE</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 413.337073 175.993789 
+L 427.337073 175.993789 
+L 427.337073 171.093789 
+L 413.337073 171.093789 
+z
+" style="fill: #e69f00"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="432.937073" y="175.993789" transform="rotate(-0 432.937073 175.993789)">Differential expression</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6e8441c49b">
+   <rect x="207.496063" y="36.283465" width="300.869291" height="147.401575"/>
+  </clipPath>
+ </defs>
+</svg>

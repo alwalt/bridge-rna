@@ -1,0 +1,25 @@
+endpoint,condition,method,library,count
+gene_recurrence,Muscle atrophy,BRIDGE,,102
+gene_recurrence,Bone loss,BRIDGE,,66
+gene_recurrence,Radiation,BRIDGE,,50
+gene_recurrence,Muscle atrophy,DE,,7
+gene_recurrence,Bone loss,DE,,0
+gene_recurrence,Radiation,DE,,3
+pathway_recurrence,Muscle atrophy,BRIDGE,GO Biological Process,6
+pathway_recurrence,Bone loss,BRIDGE,GO Biological Process,2
+pathway_recurrence,Radiation,BRIDGE,GO Biological Process,0
+pathway_recurrence,Muscle atrophy,DE,GO Biological Process,0
+pathway_recurrence,Bone loss,DE,GO Biological Process,0
+pathway_recurrence,Radiation,DE,GO Biological Process,0
+pathway_recurrence,Muscle atrophy,BRIDGE,KEGG,2
+pathway_recurrence,Bone loss,BRIDGE,KEGG,0
+pathway_recurrence,Radiation,BRIDGE,KEGG,0
+pathway_recurrence,Muscle atrophy,DE,KEGG,0
+pathway_recurrence,Bone loss,DE,KEGG,0
+pathway_recurrence,Radiation,DE,KEGG,0
+pathway_recurrence,Muscle atrophy,BRIDGE,Reactome,2
+pathway_recurrence,Bone loss,BRIDGE,Reactome,2
+pathway_recurrence,Radiation,BRIDGE,Reactome,0
+pathway_recurrence,Muscle atrophy,DE,Reactome,0
+pathway_recurrence,Bone loss,DE,Reactome,0
+pathway_recurrence,Radiation,DE,Reactome,0

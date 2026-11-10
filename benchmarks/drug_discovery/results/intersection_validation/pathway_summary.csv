@@ -1,0 +1,7 @@
+condition,method,significant_intersection_terms,pathways_significant_in_all_three_top500_sets
+Muscle atrophy,BRIDGE,7,8
+Muscle atrophy,DE,0,0
+Bone loss,BRIDGE,0,4
+Bone loss,DE,0,0
+Radiation,BRIDGE,0,0
+Radiation,DE,0,0

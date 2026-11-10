@@ -1,0 +1,810 @@
+condition,method,library,term,studies,datasets,max_fdr,min_fold_enrichment
+Bone loss,BRIDGE,GO_Biological_Process_2025,Antibacterial Humoral Response (GO:0019731),1,GSE276529,0.03117888536904069,8.04350700872785
+Bone loss,BRIDGE,GO_Biological_Process_2025,Antimicrobial Humoral Response (GO:0019730),1,GSE276529,0.029187963324274036,4.7945610404966015
+Bone loss,BRIDGE,GO_Biological_Process_2025,Axon Extension (GO:0048675),1,GSE273868,0.010558111598540209,8.538518518518519
+Bone loss,BRIDGE,GO_Biological_Process_2025,Cellular Response to Growth Factor Stimulus (GO:0071363),2,GSE189524;GSE276529,0.034044565835002275,3.1344976783452934
+Bone loss,BRIDGE,GO_Biological_Process_2025,Cellular Response to Molecule of Bacterial Origin (GO:0071219),1,GSE276529,0.043410535293790804,3.513255934846647
+Bone loss,BRIDGE,GO_Biological_Process_2025,Cellular Response to Oxygen-Containing Compound (GO:1901701),1,GSE276529,0.041604612705571045,2.143300343179311
+Bone loss,BRIDGE,GO_Biological_Process_2025,Collagen Fibril Organization (GO:0030199),3,GSE189524;GSE273868;GSE276529,0.02348135249403747,5.433835845896147
+Bone loss,BRIDGE,GO_Biological_Process_2025,Defense Response to Bacterium (GO:0042742),1,GSE276529,0.029187963324274036,3.1535654462790146
+Bone loss,BRIDGE,GO_Biological_Process_2025,Defense Response to Gram-negative Bacterium (GO:0050829),1,GSE276529,0.033338608135495454,5.21847040078441
+Bone loss,BRIDGE,GO_Biological_Process_2025,Endoderm Formation (GO:0001706),1,GSE273868,0.0036760573325401455,6.899812944257389
+Bone loss,BRIDGE,GO_Biological_Process_2025,Endodermal Cell Differentiation (GO:0035987),1,GSE273868,0.0026382023798770496,7.344962166467543
+Bone loss,BRIDGE,GO_Biological_Process_2025,Endothelial Cell Migration (GO:0043542),2,GSE189524;GSE273868,0.00032705608188011667,7.692359025692359
+Bone loss,BRIDGE,GO_Biological_Process_2025,External Encapsulating Structure Organization (GO:0045229),1,GSE276529,0.0005942746177437695,4.584798994974874
+Bone loss,BRIDGE,GO_Biological_Process_2025,Extracellular Matrix Organization (GO:0030198),3,GSE189524;GSE273868;GSE276529,6.146278868262624e-06,4.194527802294792
+Bone loss,BRIDGE,GO_Biological_Process_2025,Extracellular Structure Organization (GO:0043062),1,GSE276529,0.0005942746177437695,4.539404945519678
+Bone loss,BRIDGE,GO_Biological_Process_2025,Negative Regulation of Protein Processing (GO:0010955),1,GSE189524,0.0014980678721251894,13.309559372666168
+Bone loss,BRIDGE,GO_Biological_Process_2025,Neuron Projection Extension (GO:1990138),1,GSE273868,0.024239839890617128,6.037336326225215
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Angiogenesis (GO:0045766),2,GSE273868;GSE276529,0.03980770816008813,3.1349052957093155
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Apoptotic Process (GO:0043065),1,GSE276529,0.029187963324274036,2.351178971781987
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Biosynthetic Process (GO:0009891),1,GSE276529,0.0357808911308568,3.6825694738754016
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Cell Adhesion (GO:0045785),2,GSE189524;GSE276529,0.03126582938929582,3.7734971152056582
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Cell Differentiation (GO:0045597),1,GSE276529,0.025810358491879026,2.393014896546791
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of ERK1 and ERK2 Cascade (GO:0070374),1,GSE276529,0.033338608135495454,3.0565326633165832
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of MAPK Cascade (GO:0043410),1,GSE276529,0.027890797630485947,2.2571318129107074
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Nitric Oxide Biosynthetic Process (GO:0045429),1,GSE276529,0.028621791100920037,6.792294807370183
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Nitric Oxide Metabolic Process (GO:1904407),1,GSE276529,0.029187963324274036,6.549712849964106
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Protein Localization to Nucleus (GO:1900182),1,GSE276529,0.03980770816008813,3.9298277099784635
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Smooth Muscle Cell Proliferation (GO:0048661),1,GSE276529,0.025810358491879026,5.202608788623971
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Vascular Associated Smooth Muscle Cell Proliferation (GO:1904707),1,GSE276529,0.041398477104379494,7.277458722182341
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Vasculature Development (GO:1904018),1,GSE273868,0.002587572575048983,4.065961199294532
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of miRNA Metabolic Process (GO:2000630),1,GSE276529,0.028621791100920037,4.890452261306533
+Bone loss,BRIDGE,GO_Biological_Process_2025,Positive Regulation of miRNA Transcription (GO:1902895),1,GSE276529,0.022074139694448717,5.55733211512106
+Bone loss,BRIDGE,GO_Biological_Process_2025,Regulation of Anatomical Structure Morphogenesis (GO:0022603),1,GSE276529,0.04273224420792581,3.0822178117478147
+Bone loss,BRIDGE,GO_Biological_Process_2025,Regulation of Angiogenesis (GO:0045765),2,GSE273868;GSE276529,0.041398477104379494,2.5875408789981655
+Bone loss,BRIDGE,GO_Biological_Process_2025,Regulation of Cell Adhesion Mediated by Integrin (GO:0033628),1,GSE189524,0.027190728489045163,6.728721682847897
+Bone loss,BRIDGE,GO_Biological_Process_2025,Regulation of ERK1 and ERK2 Cascade (GO:0070372),1,GSE276529,0.027658325718151536,2.734792382967469
+Bone loss,BRIDGE,GO_Biological_Process_2025,Regulation of Epithelial Cell Proliferation (GO:0050678),1,GSE276529,0.02378630038562604,3.9555128584096955
+Bone loss,BRIDGE,GO_Biological_Process_2025,Regulation of Fat Cell Differentiation (GO:0045598),1,GSE276529,0.023371105023379034,4.366475233309404
+Bone loss,BRIDGE,GO_Biological_Process_2025,Regulation of Nitric Oxide Biosynthetic Process (GO:0045428),1,GSE276529,0.03056178377134293,5.34893216080402
+Bone loss,BRIDGE,GO_Biological_Process_2025,Regulation of Protein Localization to Nucleus (GO:1900180),1,GSE276529,0.029187963324274036,4.702357943563974
+Bone loss,BRIDGE,GO_Biological_Process_2025,Regulation of SMAD Protein Signal Transduction (GO:0060390),1,GSE273868,0.004577968735738376,5.174859708193042
+Bone loss,BRIDGE,GO_Biological_Process_2025,Regulation of miRNA Transcription (GO:1902893),1,GSE276529,0.0019783269975272104,5.511780212538101
+Bone loss,BRIDGE,GO_Biological_Process_2025,Response to Amyloid-Beta (GO:1904645),1,GSE276529,0.016671587406613408,5.963966172325041
+Bone loss,BRIDGE,GO_Biological_Process_2025,Response to UV-A (GO:0070141),1,GSE276529,0.0402704564956345,10.188442211055277
+Bone loss,BRIDGE,GO_Biological_Process_2025,Supramolecular Fiber Organization (GO:0097435),2,GSE273868;GSE276529,0.027658325718151536,2.312508265009257
+Bone loss,BRIDGE,GO_Biological_Process_2025,Transforming Growth Factor Beta Receptor Signaling Pathway (GO:0007179),1,GSE273868,0.036522450722472,3.953017832647462
+Bone loss,BRIDGE,KEGG_2021_Human,ECM-receptor interaction,1,GSE276529,0.022074139694448717,3.7172431204241354
+Bone loss,BRIDGE,KEGG_2021_Human,Malaria,1,GSE276529,0.03786907298995131,4.981440668135947
+Bone loss,BRIDGE,KEGG_2021_Human,Protein digestion and absorption,1,GSE273868,0.0036240209776362657,4.089116379310345
+Bone loss,BRIDGE,KEGG_2021_Human,Rheumatoid arthritis,1,GSE276529,0.02604420924100045,4.05084186200066
+Bone loss,BRIDGE,Reactome_Pathways_2024,Activation of Matrix Metalloproteinases,1,GSE276529,0.025810358491879026,7.2235576923076925
+Bone loss,BRIDGE,Reactome_Pathways_2024,Antimicrobial Peptides,1,GSE276529,0.008401399722565187,6.604395604395604
+Bone loss,BRIDGE,Reactome_Pathways_2024,Assembly of Collagen Fibrils and Other Multimeric Structures,1,GSE273868,0.00036226194650404274,5.751594494796912
+Bone loss,BRIDGE,Reactome_Pathways_2024,CS DS Degradation,1,GSE273868,0.024239839890617128,9.243634009495038
+Bone loss,BRIDGE,Reactome_Pathways_2024,Cellular Senescence,1,GSE276529,0.028621791100920037,3.041497975708502
+Bone loss,BRIDGE,Reactome_Pathways_2024,Collagen Biosynthesis and Modifying Enzymes,2,GSE189524;GSE273868,0.007467394099383144,4.758523280732515
+Bone loss,BRIDGE,Reactome_Pathways_2024,Collagen Chain Trimerization,1,GSE273868,0.003076282476842608,6.1299888694546025
+Bone loss,BRIDGE,Reactome_Pathways_2024,Collagen Degradation,2,GSE273868;GSE276529,0.025810358491879026,4.562246963562753
+Bone loss,BRIDGE,Reactome_Pathways_2024,Collagen Formation,2,GSE189524;GSE273868,0.0014980678721251894,4.446399199027391
+Bone loss,BRIDGE,Reactome_Pathways_2024,Degradation of the Extracellular Matrix,2,GSE273868;GSE276529,0.0027626228200862404,3.6984615384615385
+Bone loss,BRIDGE,Reactome_Pathways_2024,ECM Proteoglycans,3,GSE189524;GSE273868;GSE276529,0.0012776253345706844,4.67317052702249
+Bone loss,BRIDGE,Reactome_Pathways_2024,Erythrocytes Take up Carbon Dioxide and Release Oxygen,1,GSE276529,0.029187963324274036,11.557692307692307
+Bone loss,BRIDGE,Reactome_Pathways_2024,Extracellular Matrix Organization,3,GSE189524;GSE273868;GSE276529,6.146278868262624e-06,3.1831098743570285
+Bone loss,BRIDGE,Reactome_Pathways_2024,FOXO-mediated Transcription,1,GSE276529,0.0005942746177437695,5.684110970996217
+Bone loss,BRIDGE,Reactome_Pathways_2024,FOXO-mediated Transcription of Cell Cycle Genes,1,GSE276529,0.028621791100920037,8.498303167420813
+Bone loss,BRIDGE,Reactome_Pathways_2024,"FOXO-mediated Transcription of Oxidative Stress, Metabolic and Neuronal Genes",1,GSE276529,0.028621791100920037,6.667899408284024
+Bone loss,BRIDGE,Reactome_Pathways_2024,Glycosaminoglycan Metabolism,1,GSE273868,0.01094298985193956,3.2624590621747185
+Bone loss,BRIDGE,Reactome_Pathways_2024,Integrin Cell Surface Interactions,1,GSE273868,0.0072595400835612405,4.0866592463030695
+Bone loss,BRIDGE,Reactome_Pathways_2024,Interleukin-4 and Interleukin-13 Signaling,1,GSE276529,1.0577800584642136e-05,5.253496503496504
+Bone loss,BRIDGE,Reactome_Pathways_2024,Maternal to Zygotic Transition (MZT),1,GSE276529,0.029187963324274036,4.1943238213399505
+Bone loss,BRIDGE,Reactome_Pathways_2024,NOTCH4 Intracellular Domain Regulates Transcription,1,GSE276529,0.0357808911308568,7.6037449392712535
+Bone loss,BRIDGE,Reactome_Pathways_2024,Neutrophil Degranulation,1,GSE276529,0.016671587406613408,2.2226331360946743
+Bone loss,BRIDGE,Reactome_Pathways_2024,O2 CO2 Exchange in Erythrocytes,1,GSE276529,0.029187963324274036,11.557692307692307
+Bone loss,BRIDGE,Reactome_Pathways_2024,Platelet Degranulation,1,GSE276529,0.025810358491879026,3.324115044247787
+Bone loss,BRIDGE,Reactome_Pathways_2024,Post-translational Protein Phosphorylation,2,GSE189524;GSE273868,0.024239839890617128,3.5699552036670488
+Bone loss,BRIDGE,Reactome_Pathways_2024,Pre-NOTCH Expression and Processing,1,GSE276529,0.020238098057445354,5.000924556213017
+Bone loss,BRIDGE,Reactome_Pathways_2024,Pre-NOTCH Transcription and Translation,1,GSE276529,0.0014994340326830288,7.2235576923076925
+Bone loss,BRIDGE,Reactome_Pathways_2024,Regulation of IGF Transport and Uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs),2,GSE189524;GSE273868,0.002030004947494768,3.921541700997894
+Bone loss,BRIDGE,Reactome_Pathways_2024,Response to Elevated Platelet Cytosolic Ca2+,1,GSE276529,0.028621791100920037,3.1832627118644066
+Bone loss,BRIDGE,Reactome_Pathways_2024,Senescence-Associated Secretory Phenotype (SASP),1,GSE276529,0.0357808911308568,4.4452662721893486
+Bone loss,BRIDGE,Reactome_Pathways_2024,Signaling by Interleukins,1,GSE276529,0.0001904588991159705,2.60643834258525
+Bone loss,BRIDGE,Reactome_Pathways_2024,Transcriptional Regulation by RUNX3,1,GSE276529,0.025810358491879026,3.7837683150183152
+Bone loss,BRIDGE,Reactome_Pathways_2024,Transcriptional Regulation of Granulopoiesis,1,GSE276529,0.025810358491879026,5.94881221719457
+Bone loss,DE,GO_Biological_Process_2025,Activation of Protein Kinase Activity (GO:0032147),1,GSE273868,0.008771850250011757,5.5820823244552065
+Bone loss,DE,GO_Biological_Process_2025,Ceramide Catabolic Process (GO:0046514),1,GSE273868,0.046583093099906554,9.303470540758676
+Bone loss,DE,GO_Biological_Process_2025,Cholesterol Biosynthetic Process (GO:0006695),1,GSE273868,0.0038865469689882593,8.14053672316384
+Bone loss,DE,GO_Biological_Process_2025,Collagen Fibril Organization (GO:0030199),1,GSE273868,0.0013081386804410014,6.343275368699097
+Bone loss,DE,GO_Biological_Process_2025,Establishment of Chromosome Localization (GO:0051303),1,GSE273868,0.01689221531379356,8.72200363196126
+Bone loss,DE,GO_Biological_Process_2025,Extracellular Matrix Organization (GO:0030198),1,GSE273868,3.5412840419134423e-06,4.212892320343552
+Bone loss,DE,GO_Biological_Process_2025,Glycosphingolipid Catabolic Process (GO:0046479),1,GSE273868,0.007941604328443175,10.734773700875396
+Bone loss,DE,GO_Biological_Process_2025,Kinetochore Organization (GO:0051383),1,GSE273868,0.0038865469689882593,13.955205811138015
+Bone loss,DE,GO_Biological_Process_2025,Microtubule Cytoskeleton Organization Involved in Mitosis (GO:1902850),1,GSE273868,0.004028772352259766,5.074620294959278
+Bone loss,DE,GO_Biological_Process_2025,Mitotic Nuclear Division (GO:0140014),1,GSE273868,0.04678850543148384,4.651735270379339
+Bone loss,DE,GO_Biological_Process_2025,Mitotic Sister Chromatid Segregation (GO:0000070),1,GSE273868,0.0009805563602949667,4.059696235967422
+Bone loss,DE,GO_Biological_Process_2025,Mitotic Spindle Assembly Checkpoint Signaling (GO:0007094),1,GSE273868,0.004028772352259766,7.814915254237288
+Bone loss,DE,GO_Biological_Process_2025,Mitotic Spindle Checkpoint Signaling (GO:0071174),1,GSE273868,0.004028772352259766,7.814915254237288
+Bone loss,DE,GO_Biological_Process_2025,Mitotic Spindle Organization (GO:0007052),1,GSE273868,0.005984295266833549,3.9872016603251472
+Bone loss,DE,GO_Biological_Process_2025,Negative Regulation of Epithelial Cell Proliferation (GO:0050680),1,GSE273868,0.012226759059823757,4.228850245799398
+Bone loss,DE,GO_Biological_Process_2025,Negative Regulation of Mitotic Metaphase/Anaphase Transition (GO:0045841),1,GSE273868,0.0053940747903270395,7.236032642812304
+Bone loss,DE,GO_Biological_Process_2025,Nuclear Chromosome Segregation (GO:0098813),1,GSE273868,0.01689221531379356,8.72200363196126
+Bone loss,DE,GO_Biological_Process_2025,Positive Regulation of Cell Cycle Process (GO:0090068),1,GSE273868,0.0002953173535824202,4.465665859564165
+Bone loss,DE,GO_Biological_Process_2025,Positive Regulation of Cell Division (GO:0051781),1,GSE273868,0.004028772352259766,6.567155675829654
+Bone loss,DE,GO_Biological_Process_2025,Positive Regulation of Cell Migration (GO:0030335),1,GSE273868,0.0349485072587458,2.161412347853026
+Bone loss,DE,GO_Biological_Process_2025,Positive Regulation of Chromosome Segregation (GO:0051984),1,GSE273868,0.02857977664369917,7.752892117298897
+Bone loss,DE,GO_Biological_Process_2025,Positive Regulation of Chromosome Separation (GO:1905820),1,GSE273868,0.046583093099906554,9.303470540758676
+Bone loss,DE,GO_Biological_Process_2025,Positive Regulation of Cytokinesis (GO:0032467),1,GSE273868,0.045073088495637424,5.5820823244552065
+Bone loss,DE,GO_Biological_Process_2025,Regulation of Attachment of Spindle Microtubules to Kinetochore (GO:0051988),1,GSE273868,0.0056451570316410895,11.629338175948345
+Bone loss,DE,GO_Biological_Process_2025,Regulation of Cytokinesis (GO:0032465),1,GSE273868,0.016117211617236053,4.044987191634207
+Bone loss,DE,GO_Biological_Process_2025,Regulation of Mitotic Cell Cycle (GO:0007346),1,GSE273868,0.04678850543148384,2.99040124524386
+Bone loss,DE,GO_Biological_Process_2025,Regulation of Mitotic Cell Cycle Phase Transition (GO:1901990),1,GSE273868,0.04574047212432123,3.445729829910621
+Bone loss,DE,GO_Biological_Process_2025,Secondary Alcohol Biosynthetic Process (GO:1902653),1,GSE273868,0.013392246074465203,7.280976944941573
+Bone loss,DE,GO_Biological_Process_2025,Sister Chromatid Segregation (GO:0000819),1,GSE273868,0.004025356367262308,6.766160393279038
+Bone loss,DE,GO_Biological_Process_2025,Spindle Assembly Checkpoint Signaling (GO:0071173),1,GSE273868,0.004028772352259766,7.814915254237288
+Bone loss,DE,GO_Biological_Process_2025,Sterol Biosynthetic Process (GO:0016126),1,GSE273868,0.004547985144282855,7.514341590612777
+Bone loss,DE,KEGG_2021_Human,Calcium signaling pathway,1,GSE276529,0.03430563624529691,3.3093589858851025
+Bone loss,DE,KEGG_2021_Human,Glycosaminoglycan degradation,1,GSE273868,0.03391395055008105,7.369351173945973
+Bone loss,DE,KEGG_2021_Human,Lysosome,1,GSE273868,2.4950330640774266e-10,5.733105404815596
+Bone loss,DE,KEGG_2021_Human,Other glycan degradation,1,GSE273868,0.0038865469689882593,10.022317596566523
+Bone loss,DE,KEGG_2021_Human,Steroid biosynthesis,1,GSE273868,0.010476610462362156,7.516738197424893
+Bone loss,DE,Reactome_Pathways_2024,Activation of Gene Expression by SREBF (SREBP),1,GSE273868,0.001364911769424138,6.172190201729106
+Bone loss,DE,Reactome_Pathways_2024,Amplification of Signal From Unattached Kinetochores via a MAD2 Inhibitory Signal,1,GSE273868,0.0034812871030792895,3.9277574011003407
+Bone loss,DE,Reactome_Pathways_2024,Amplification of Signal From the Kinetochores,1,GSE273868,0.0034812871030792895,3.9277574011003407
+Bone loss,DE,Reactome_Pathways_2024,Cholesterol Biosynthesis,1,GSE273868,1.9953282749281667e-05,9.87550432276657
+Bone loss,DE,Reactome_Pathways_2024,Chondroitin Sulfate Dermatan Sulfate Metabolism,1,GSE273868,0.04574047212432123,4.114793467819404
+Bone loss,DE,Reactome_Pathways_2024,Collagen Biosynthesis and Modifying Enzymes,1,GSE273868,0.004662757085095789,4.452071620919355
+Bone loss,DE,Reactome_Pathways_2024,Collagen Degradation,1,GSE273868,0.008771850250011757,4.408707286949362
+Bone loss,DE,Reactome_Pathways_2024,Collagen Formation,1,GSE273868,0.004028772352259766,3.9623937097520185
+Bone loss,DE,Reactome_Pathways_2024,Condensation of Prometaphase Chromosomes,1,GSE273868,0.035936147177452235,9.87550432276657
+Bone loss,DE,Reactome_Pathways_2024,Condensation of Prophase Chromosomes,1,GSE273868,0.027709219395001216,7.715237752161383
+Bone loss,DE,Reactome_Pathways_2024,"Defective EXT1 Causes Exostoses 1, TRPS2 and CHDS",1,GSE273868,0.01607615114356776,8.817414573898724
+Bone loss,DE,Reactome_Pathways_2024,Defective EXT2 Causes Exostoses 2,1,GSE273868,0.01607615114356776,8.817414573898724
+Bone loss,DE,Reactome_Pathways_2024,Diseases Associated With Glycosaminoglycan Metabolism,1,GSE273868,0.016244871266555806,4.937752161383285
+Bone loss,DE,Reactome_Pathways_2024,Diseases Associated With N-glycosylation of Proteins,1,GSE273868,0.008771850250011757,7.796450781131504
+Bone loss,DE,Reactome_Pathways_2024,Diseases of Glycosylation,1,GSE273868,0.0034812871030792895,3.3847494654643486
+Bone loss,DE,Reactome_Pathways_2024,Diseases of Metabolism,1,GSE273868,0.004703509072986322,2.5694185455161893
+Bone loss,DE,Reactome_Pathways_2024,EML4 and NUDC in Mitotic Spindle Formation,1,GSE273868,0.004028772352259766,3.4936925670164753
+Bone loss,DE,Reactome_Pathways_2024,Extracellular Matrix Organization,1,GSE273868,9.148491013889818e-06,3.062891378301662
+Bone loss,DE,Reactome_Pathways_2024,FASTK Family Proteins Regulate Processing and Stability of Mitochondrial RNAs,1,GSE273868,0.027709219395001216,7.715237752161383
+Bone loss,DE,Reactome_Pathways_2024,Glycosaminoglycan Metabolism,1,GSE273868,0.0001851786507261769,3.941902985978253
+Bone loss,DE,Reactome_Pathways_2024,Glycosphingolipid Catabolism,1,GSE273868,1.1316024568169331e-06,10.216038954586107
+Bone loss,DE,Reactome_Pathways_2024,Glycosphingolipid Metabolism,1,GSE273868,0.0001851786507261769,6.303513397510577
+Bone loss,DE,Reactome_Pathways_2024,HS-GAG Biosynthesis,1,GSE273868,0.01607615114356776,5.760710854947166
+Bone loss,DE,Reactome_Pathways_2024,Hyaluronan Metabolism,1,GSE273868,0.0349485072587458,7.261400237328361
+Bone loss,DE,Reactome_Pathways_2024,Keratan Sulfate Degradation,1,GSE273868,0.0034812871030792895,10.580897488678469
+Bone loss,DE,Reactome_Pathways_2024,Metabolism of Carbohydrates,1,GSE273868,0.008771850250011757,2.370121037463977
+Bone loss,DE,Reactome_Pathways_2024,Mitotic Prometaphase,1,GSE273868,0.01654838080536262,2.5356024612508765
+Bone loss,DE,Reactome_Pathways_2024,Mitotic Spindle Checkpoint,1,GSE273868,0.008771850250011757,3.3234870317002883
+Bone loss,DE,Reactome_Pathways_2024,Neutrophil Degranulation,1,GSE273868,0.02081955673583535,1.99102909733197
+Bone loss,DE,Reactome_Pathways_2024,RHO GTPases Activate Formins,1,GSE273868,0.01795280195690766,2.8932141570605188
+Bone loss,DE,Reactome_Pathways_2024,Regulation of Cholesterol Biosynthesis by SREBP (SREBF),1,GSE273868,0.005996891308285046,4.6582567560219665
+Bone loss,DE,Reactome_Pathways_2024,Regulation of IGF Transport and Uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs),1,GSE273868,0.005984295266833549,3.4913399120891917
+Bone loss,DE,Reactome_Pathways_2024,Resolution of Sister Chromatid Cohesion,1,GSE273868,0.0038865469689882593,3.4349580253101113
+Bone loss,DE,Reactome_Pathways_2024,Sphingolipid Metabolism,1,GSE273868,0.010171406876296122,3.451117102042081
+Bone loss,DE,Reactome_Pathways_2024,Trafficking and Processing of Endosomal TLR,1,GSE273868,0.004051480944551298,12.344380403458212
+Bone loss,DE,Reactome_Pathways_2024,tRNA Processing in the Mitochondrion,1,GSE273868,0.0349485072587458,7.261400237328361
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,2-Oxoglutarate Metabolic Process (GO:0006103),1,GSE211204,0.020299844465804736,10.180272108843536
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,ATP Metabolic Process (GO:0046034),1,GSE113165,0.040898771561459844,4.680141287284145
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Actin Filament Organization (GO:0007015),2,GSE113165;GSE211204,0.035848049895877844,2.905324194386694
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Actin-Myosin Filament Sliding (GO:0033275),1,GSE234465,0.011028758008155342,12.748033216783217
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Actomyosin Structure Organization (GO:0031032),3,GSE113165;GSE211204;GSE234465,2.8871291067136036e-05,5.365602240896359
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Aerobic Respiration (GO:0009060),1,GSE113165,0.028753588401633348,4.095123626373627
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Cardiac Muscle Cell Development (GO:0055013),2,GSE211204;GSE234465,0.03360900418721732,7.316262541806021
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Cardiac Muscle Contraction (GO:0060048),2,GSE211204;GSE234465,0.032252224158882514,6.134990985576923
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Cellular Response to Growth Factor Stimulus (GO:0071363),1,GSE234465,0.032252224158882514,3.093272765837104
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Glucose Homeostasis (GO:0042593),1,GSE234465,0.032252224158882514,4.006524725274725
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Heart Contraction (GO:0060047),3,GSE113165;GSE211204;GSE234465,0.0240001583261068,5.752958579881657
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Long-Chain Fatty Acid Transport (GO:0015909),1,GSE113165,0.028061991860281087,7.166466346153847
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Muscle Cell Differentiation (GO:0042692),1,GSE211204,0.010786617945434633,6.334391534391536
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Muscle Contraction (GO:0006936),2,GSE113165;GSE211204,0.0009211070827677836,4.586973180076629
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Muscle Filament Sliding (GO:0030049),1,GSE234465,0.011028758008155342,12.748033216783217
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Muscle Organ Development (GO:0007517),1,GSE113165,0.024968258420991343,4.690777972027972
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Myofibril Assembly (GO:0030239),3,GSE113165;GSE211204;GSE234465,1.4624595385212244e-07,8.551428571428572
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Negative Regulation of ERK1 and ERK2 Cascade (GO:0070373),1,GSE234465,0.032252224158882514,5.342032967032967
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Oxidative Phosphorylation (GO:0006119),1,GSE113165,0.005790890969692438,5.733173076923077
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Regulation of Cardiac Muscle Cell Contraction (GO:0086004),1,GSE113165,0.002887493842981156,8.72439381270903
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Regulation of Heart Contraction (GO:0008016),1,GSE113165,0.03649682582453393,4.2998798076923075
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Regulation of Muscle Contraction (GO:0006937),2,GSE113165;GSE211204,0.010996391469008177,7.390123456790123
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Regulation of Myoblast Fusion (GO:1901739),1,GSE234465,0.0166853309654682,11.685697115384617
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Sarcomere Organization (GO:0045214),3,GSE113165;GSE211204;GSE234465,1.0372776831080626e-06,10.060504201680672
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Skeletal Muscle Organ Development (GO:0060538),3,GSE113165;GSE211204;GSE234465,0.032252224158882514,6.134990985576923
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Skeletal Muscle Tissue Development (GO:0007519),1,GSE113165,2.8151814503750103e-06,9.052378542510123
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Striated Muscle Cell Development (GO:0055002),1,GSE211204,0.0467065148225405,6.578021978021979
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Striated Muscle Contraction (GO:0006941),3,GSE113165;GSE211204;GSE234465,0.00457525888287557,5.481684981684982
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Striated Muscle Tissue Development (GO:0014706),1,GSE113165,0.0008707142595638514,7.371222527472527
+Muscle atrophy,BRIDGE,GO_Biological_Process_2025,Supramolecular Fiber Organization (GO:0097435),1,GSE211204,0.01778305080372527,2.3753968253968254
+Muscle atrophy,BRIDGE,KEGG_2021_Human,Adrenergic signaling in cardiomyocytes,1,GSE211204,0.016729055568400306,2.9708212839791788
+Muscle atrophy,BRIDGE,KEGG_2021_Human,Cardiac muscle contraction,2,GSE113165;GSE211204,5.3477787995370516e-05,5.213282469221433
+Muscle atrophy,BRIDGE,KEGG_2021_Human,Diabetic cardiomyopathy,2,GSE113165;GSE211204,0.020299844465804736,2.769689099381254
+Muscle atrophy,BRIDGE,KEGG_2021_Human,Dilated cardiomyopathy,3,GSE113165;GSE211204;GSE234465,0.012643558605257463,3.624472573839663
+Muscle atrophy,BRIDGE,KEGG_2021_Human,Hypertrophic cardiomyopathy,3,GSE113165;GSE211204;GSE234465,0.028061991860281087,3.4994907609486394
+Muscle atrophy,BRIDGE,KEGG_2021_Human,PPAR signaling pathway,1,GSE113165,0.028784093840733396,4.027191748710735
+Muscle atrophy,BRIDGE,KEGG_2021_Human,Th17 cell differentiation,1,GSE211204,0.04590071722707949,3.3362164151637836
+Muscle atrophy,BRIDGE,Reactome_Pathways_2024,Aerobic Respiration and Respiratory Electron Transport,2,GSE113165;GSE211204,0.0016986595701860077,2.83621550381405
+Muscle atrophy,BRIDGE,Reactome_Pathways_2024,FOXO-mediated Transcription,1,GSE113165,0.0030122536014580968,4.96772381390123
+Muscle atrophy,BRIDGE,Reactome_Pathways_2024,FOXO-mediated Transcription of Cell Cycle Genes,1,GSE113165,0.040898771561459844,8.102437236576874
+Muscle atrophy,BRIDGE,Reactome_Pathways_2024,Glycogen Metabolism,1,GSE113165,0.028061991860281087,7.186509548963835
+Muscle atrophy,BRIDGE,Reactome_Pathways_2024,Ion Homeostasis,1,GSE113165,0.018873717362384742,4.861462341946124
+Muscle atrophy,BRIDGE,Reactome_Pathways_2024,Muscle Contraction,3,GSE113165;GSE211204;GSE234465,1.3938657063332138e-07,4.109155049014619
+Muscle atrophy,BRIDGE,Reactome_Pathways_2024,Pyruvate Metabolism,1,GSE113165,0.040898771561459844,4.689070060316829
+Muscle atrophy,BRIDGE,Reactome_Pathways_2024,Respiratory Electron Transport,1,GSE113165,0.03208154523985284,2.930668787698018
+Muscle atrophy,BRIDGE,Reactome_Pathways_2024,Smooth Muscle Contraction,2,GSE113165;GSE211204,0.020299844465804736,5.44851925732699
+Muscle atrophy,BRIDGE,Reactome_Pathways_2024,Striated Muscle Contraction,3,GSE113165;GSE211204;GSE234465,3.9026600125401853e-10,11.8064085447263
+Muscle atrophy,DE,GO_Biological_Process_2025,Aerobic Electron Transport Chain (GO:0019646),1,GSE211204,4.125776900286226e-10,9.219080213903744
+Muscle atrophy,DE,GO_Biological_Process_2025,Aerobic Respiration (GO:0009060),1,GSE211204,0.0002279440213483904,5.2314621848739495
+Muscle atrophy,DE,GO_Biological_Process_2025,Cardiac Muscle Cell Development (GO:0055013),1,GSE113165,0.04195985387028973,8.09297590770275
+Muscle atrophy,DE,GO_Biological_Process_2025,Cardiac Muscle Contraction (GO:0060048),1,GSE113165,0.019218154688817254,7.0813539192399055
+Muscle atrophy,DE,GO_Biological_Process_2025,Cellular Respiration (GO:0045333),1,GSE211204,8.322498044523102e-07,6.219220779220779
+Muscle atrophy,DE,GO_Biological_Process_2025,Cristae Formation (GO:0042407),1,GSE211204,0.008436753233287676,10.834389140271494
+Muscle atrophy,DE,GO_Biological_Process_2025,Cytoplasmic Translation (GO:0002181),1,GSE234465,0.0013374070904717975,4.7630128597673
+Muscle atrophy,DE,GO_Biological_Process_2025,Energy Derivation by Oxidation of Organic Compounds (GO:0015980),1,GSE211204,0.019323159101869703,5.7995847750865055
+Muscle atrophy,DE,GO_Biological_Process_2025,Heart Contraction (GO:0060047),1,GSE113165,0.04195985387028973,5.665083135391924
+Muscle atrophy,DE,GO_Biological_Process_2025,Inner Mitochondrial Membrane Organization (GO:0007007),1,GSE211204,0.0009164628128135938,6.6717027863777085
+Muscle atrophy,DE,GO_Biological_Process_2025,Mitochondrial ATP Synthesis Coupled Electron Transport (GO:0042775),1,GSE211204,4.413087018976779e-10,9.054453781512604
+Muscle atrophy,DE,GO_Biological_Process_2025,"Mitochondrial Electron Transport, NADH to Ubiquinone (GO:0006120)",1,GSE211204,0.00031125116950760876,7.682566844919785
+Muscle atrophy,DE,GO_Biological_Process_2025,Mitochondrial Gene Expression (GO:0140053),1,GSE211204,4.8044006876159706e-06,5.173973589435773
+Muscle atrophy,DE,GO_Biological_Process_2025,Mitochondrial Membrane Organization (GO:0007006),1,GSE211204,0.011445933961222917,6.360834914611007
+Muscle atrophy,DE,GO_Biological_Process_2025,Mitochondrial Respiratory Chain Complex Assembly (GO:0033108),1,GSE211204,2.2471283221639286e-05,5.487547746371276
+Muscle atrophy,DE,GO_Biological_Process_2025,Mitochondrial Respiratory Chain Complex I Assembly (GO:0032981),1,GSE211204,0.00031125116950760876,7.682566844919785
+Muscle atrophy,DE,GO_Biological_Process_2025,Mitochondrial Translation (GO:0032543),1,GSE211204,3.42949448814817e-05,4.899028132992327
+Muscle atrophy,DE,GO_Biological_Process_2025,Mitochondrion Organization (GO:0007005),1,GSE211204,0.03741549657326753,3.051686274509804
+Muscle atrophy,DE,GO_Biological_Process_2025,Muscle Contraction (GO:0006936),2,GSE113165;GSE211204,0.028470480327200624,3.5616497633536173
+Muscle atrophy,DE,GO_Biological_Process_2025,NADH Dehydrogenase Complex Assembly (GO:0010257),1,GSE211204,0.00031125116950760876,7.682566844919785
+Muscle atrophy,DE,GO_Biological_Process_2025,Oxidative Phosphorylation (GO:0006119),1,GSE211204,0.0005679505940657259,6.259869281045751
+Muscle atrophy,DE,GO_Biological_Process_2025,Peptidyl-Threonine Phosphorylation (GO:0018107),1,GSE211204,0.019323159101869703,5.7995847750865055
+Muscle atrophy,DE,GO_Biological_Process_2025,Proton Motive Force-Driven ATP Synthesis (GO:0015986),1,GSE211204,0.00031125116950760876,6.707002801120448
+Muscle atrophy,DE,GO_Biological_Process_2025,Proton Motive Force-Driven Mitochondrial ATP Synthesis (GO:0042776),1,GSE211204,0.0002914443758853679,6.870588235294118
+Muscle atrophy,DE,GO_Biological_Process_2025,RNA Processing (GO:0006396),1,GSE234465,0.024980363131117542,2.216495684741899
+Muscle atrophy,DE,GO_Biological_Process_2025,Regulation of Heart Contraction (GO:0008016),1,GSE234465,0.01723050241759999,4.025879917184265
+Muscle atrophy,DE,GO_Biological_Process_2025,Striated Muscle Contraction (GO:0006941),2,GSE113165;GSE211204,0.04195985387028973,4.875475113122172
+Muscle atrophy,DE,KEGG_2021_Human,Alzheimer disease,1,GSE211204,0.000820577964399785,2.468615297929286
+Muscle atrophy,DE,KEGG_2021_Human,Amyotrophic lateral sclerosis,1,GSE211204,0.0036224159242802243,2.359249833714104
+Muscle atrophy,DE,KEGG_2021_Human,Cardiac muscle contraction,1,GSE211204,0.012127254103811096,3.922636610409536
+Muscle atrophy,DE,KEGG_2021_Human,Coronavirus disease,1,GSE234465,0.0013374070904717975,3.1342234912103906
+Muscle atrophy,DE,KEGG_2021_Human,Diabetic cardiomyopathy,1,GSE211204,1.6081609725542806e-07,4.315124550273269
+Muscle atrophy,DE,KEGG_2021_Human,ECM-receptor interaction,1,GSE113165,0.04195985387028973,3.686695278969957
+Muscle atrophy,DE,KEGG_2021_Human,Huntington disease,1,GSE211204,9.383549475566303e-06,3.11676924663893
+Muscle atrophy,DE,KEGG_2021_Human,Non-alcoholic fatty liver disease,1,GSE211204,1.0300387446754379e-05,4.135534119794043
+Muscle atrophy,DE,KEGG_2021_Human,Oxidative phosphorylation,1,GSE211204,5.246006861160077e-07,5.570936438622028
+Muscle atrophy,DE,KEGG_2021_Human,Parkinson disease,1,GSE211204,3.405550619882678e-05,3.282169936344479
+Muscle atrophy,DE,KEGG_2021_Human,Pathways of neurodegeneration,1,GSE211204,0.0006685253311967291,2.252689317286186
+Muscle atrophy,DE,KEGG_2021_Human,Prion disease,1,GSE211204,0.0014089651899950877,2.7463297042028096
+Muscle atrophy,DE,KEGG_2021_Human,Proteasome,1,GSE234465,0.0026796417632956523,5.386107443891541
+Muscle atrophy,DE,KEGG_2021_Human,Protein digestion and absorption,1,GSE113165,0.04195985387028973,3.686695278969957
+Muscle atrophy,DE,KEGG_2021_Human,Ribosome,1,GSE234465,0.005120462642880369,3.4488362670508264
+Muscle atrophy,DE,KEGG_2021_Human,Spinocerebellar ataxia,1,GSE234465,0.026898003956915825,2.7088025741208916
+Muscle atrophy,DE,KEGG_2021_Human,Thermogenesis,1,GSE211204,2.3814787532390184e-05,3.4608060705848662
+Muscle atrophy,DE,Reactome_Pathways_2024,ABC Transporter Disorders,1,GSE234465,0.0020124457841608234,4.648742368742369
+Muscle atrophy,DE,Reactome_Pathways_2024,ABC-family Proteins Mediated Transport,1,GSE234465,0.0042568139792817285,3.803516483516484
+Muscle atrophy,DE,Reactome_Pathways_2024,APC C Cdc20 Mediated Degradation of Mitotic Proteins,1,GSE234465,0.004419195268001047,4.437435897435898
+Muscle atrophy,DE,Reactome_Pathways_2024,APC C Cdc20 Mediated Degradation of Securin,1,GSE234465,0.0020124457841608234,5.120118343195267
+Muscle atrophy,DE,Reactome_Pathways_2024,APC C Cdh1 Mediated Degradation of Cdc20 and Other APC C Cdh1 Targets in Late Mitosis Early G1,1,GSE234465,0.0013374070904717975,5.049496021220159
+Muscle atrophy,DE,Reactome_Pathways_2024,APC C-mediated Degradation of Cell Cycle Proteins,1,GSE234465,0.004419195268001047,4.0676495726495725
+Muscle atrophy,DE,Reactome_Pathways_2024,APC Cdc20 Mediated Degradation of Cell Cycle Proteins Prior to Satisfation of the Checkpoint,1,GSE234465,0.004120397644131094,4.51264667535854
+Muscle atrophy,DE,Reactome_Pathways_2024,AUF1 (hnRNP D0) Binds and Destabilizes mRNA,1,GSE234465,0.0014662178502308435,6.14414201183432
+Muscle atrophy,DE,Reactome_Pathways_2024,Activation of APC C and APC C Cdc20 Mediated Degradation of Mitotic Proteins,1,GSE234465,0.00492546322775511,4.36469104665826
+Muscle atrophy,DE,Reactome_Pathways_2024,Activation of NF-kappaB in B Cells,1,GSE234465,0.0077121143755943715,4.521161103047896
+Muscle atrophy,DE,Reactome_Pathways_2024,Aerobic Respiration and Respiratory Electron Transport,1,GSE211204,6.709417124569566e-15,5.145213961575979
+Muscle atrophy,DE,Reactome_Pathways_2024,Antigen processing-Cross Presentation,1,GSE234465,0.0030365003086807456,3.993692307692308
+Muscle atrophy,DE,Reactome_Pathways_2024,Assembly of the Pre-Replicative Complex,1,GSE234465,0.005306735702283499,3.9577130977130976
+Muscle atrophy,DE,Reactome_Pathways_2024,Asymmetric Localization of PCP Proteins,1,GSE234465,0.0017475060825836884,5.324923076923077
+Muscle atrophy,DE,Reactome_Pathways_2024,Autodegradation of Cdh1 by Cdh1 APC C,1,GSE234465,0.0020124457841608234,5.120118343195267
+Muscle atrophy,DE,Reactome_Pathways_2024,Autodegradation of the E3 Ubiquitin Ligase COP1,1,GSE234465,0.0013374070904717975,6.476257796257797
+Muscle atrophy,DE,Reactome_Pathways_2024,Axon Guidance,1,GSE234465,0.0020124457841608234,2.06090119085935
+Muscle atrophy,DE,Reactome_Pathways_2024,C-type Lectin Receptors (CLRs),1,GSE234465,0.019742541141474907,3.1323076923076925
+Muscle atrophy,DE,Reactome_Pathways_2024,CDK-mediated Phosphorylation and Removal of Cdc6,1,GSE234465,0.0037431207384058204,4.590450928381963
+Muscle atrophy,DE,Reactome_Pathways_2024,CLEC7A (Dectin-1) Signaling,1,GSE234465,0.013288955348000871,3.528563484708063
+Muscle atrophy,DE,Reactome_Pathways_2024,Cap-dependent Translation Initiation,1,GSE234465,0.0013374070904717975,4.273086419753087
+Muscle atrophy,DE,Reactome_Pathways_2024,Cdc20 Phospho-APC C Mediated Degradation of Cyclin A,1,GSE234465,0.0037431207384058204,4.590450928381963
+Muscle atrophy,DE,Reactome_Pathways_2024,Cellular Response to Chemical Stress,1,GSE211204,0.020045652826770184,2.7163402692778456
+Muscle atrophy,DE,Reactome_Pathways_2024,Cellular Response to Hypoxia,1,GSE234465,0.0015987037099731358,4.881179487179487
+Muscle atrophy,DE,Reactome_Pathways_2024,Cellular Response to Starvation,1,GSE234465,0.007367749619162099,3.158852672750978
+Muscle atrophy,DE,Reactome_Pathways_2024,Collagen Chain Trimerization,1,GSE113165,0.04195985387028973,5.817763157894737
+Muscle atrophy,DE,Reactome_Pathways_2024,Complex I Biogenesis,1,GSE211204,0.000435062997832193,5.23485183547103
+Muscle atrophy,DE,Reactome_Pathways_2024,Complex IV Assembly,1,GSE211204,9.723907327481715e-07,8.506634232640424
+Muscle atrophy,DE,Reactome_Pathways_2024,Cross-presentation of Soluble Exogenous Antigens (Endosomes),1,GSE234465,0.0028266872340410336,6.085626373626374
+Muscle atrophy,DE,Reactome_Pathways_2024,Cyclin A Cdk2-associated Events at S Phase Entry,1,GSE234465,0.01761440236899234,3.6472075869336145
+Muscle atrophy,DE,Reactome_Pathways_2024,Cyclin E Associated Events During G1 S Transition,1,GSE234465,0.014681558909828104,3.7499458288190683
+Muscle atrophy,DE,Reactome_Pathways_2024,Cytoprotection by HMOX1,1,GSE211204,0.010925952081967293,4.849936259333455
+Muscle atrophy,DE,Reactome_Pathways_2024,DNA Replication,1,GSE234465,0.04774747039652511,2.802591093117409
+Muscle atrophy,DE,Reactome_Pathways_2024,DNA Replication Pre-Initiation,1,GSE234465,0.023907934419244832,3.254119658119658
+Muscle atrophy,DE,Reactome_Pathways_2024,Dectin-1 Mediated Noncanonical NF-kB Signaling,1,GSE234465,0.0013374070904717975,5.664811783960721
+Muscle atrophy,DE,Reactome_Pathways_2024,Defective CFTR Causes Cystic Fibrosis,1,GSE234465,0.0013374070904717975,5.664811783960721
+Muscle atrophy,DE,Reactome_Pathways_2024,Degradation of AXIN,1,GSE234465,0.0018991022797360116,5.844427767354596
+Muscle atrophy,DE,Reactome_Pathways_2024,Degradation of Beta-Catenin by the Destruction Complex,1,GSE234465,0.040258669589750565,3.5238461538461543
+Muscle atrophy,DE,Reactome_Pathways_2024,Degradation of DVL,1,GSE234465,0.002277977979393302,5.572593917710196
+Muscle atrophy,DE,Reactome_Pathways_2024,Degradation of GLI1 by the Proteasome,1,GSE234465,0.0028266872340410336,5.324923076923078
+Muscle atrophy,DE,Reactome_Pathways_2024,Degradation of GLI2 by the Proteasome,1,GSE234465,0.0028266872340410336,5.324923076923078
+Muscle atrophy,DE,Reactome_Pathways_2024,Deubiquitination,1,GSE234465,0.01656004198706257,2.408893772893773
+Muscle atrophy,DE,Reactome_Pathways_2024,Downstream Signaling Events of B Cell Receptor (BCR),1,GSE234465,0.0077121143755943715,4.0960946745562135
+Muscle atrophy,DE,Reactome_Pathways_2024,Downstream TCR Signaling,1,GSE234465,0.014681558909828104,3.7499458288190683
+Muscle atrophy,DE,Reactome_Pathways_2024,ECM Proteoglycans,1,GSE113165,0.04195985387028973,4.1078125000000005
+Muscle atrophy,DE,Reactome_Pathways_2024,ER-Phagosome Pathway,1,GSE234465,0.0028266872340410336,4.371205510907004
+Muscle atrophy,DE,Reactome_Pathways_2024,Eukaryotic Translation Elongation,1,GSE234465,0.0007450819665061414,5.415176010430248
+Muscle atrophy,DE,Reactome_Pathways_2024,Eukaryotic Translation Initiation,1,GSE234465,0.0013374070904717975,4.273086419753087
+Muscle atrophy,DE,Reactome_Pathways_2024,Eukaryotic Translation Termination,1,GSE234465,0.0003689530848159835,5.768666666666667
+Muscle atrophy,DE,Reactome_Pathways_2024,FBXL7 Down-Regulates AURKA During Mitotic Entry and in Early Mitosis,1,GSE234465,0.000816063094674429,6.493808630393996
+Muscle atrophy,DE,Reactome_Pathways_2024,FCERI Mediated NF-kB Activation,1,GSE234465,0.0021929887658147813,4.576105769230769
+Muscle atrophy,DE,Reactome_Pathways_2024,Fc Epsilon Receptor (FCERI) Signaling,1,GSE234465,0.005295948886908724,3.269689608636977
+Muscle atrophy,DE,Reactome_Pathways_2024,Formation of Paraxial Mesoderm,1,GSE234465,0.0033483664999966033,4.670985155195681
+Muscle atrophy,DE,Reactome_Pathways_2024,Formation of a Pool of Free 40S Subunits,1,GSE234465,0.0006295954827557656,5.165970149253731
+Muscle atrophy,DE,Reactome_Pathways_2024,G1 S DNA Damage Checkpoints,1,GSE234465,0.0077121143755943715,4.521161103047896
+Muscle atrophy,DE,Reactome_Pathways_2024,G2 M Checkpoints,1,GSE234465,0.01637991023763388,3.0361403508771927
+Muscle atrophy,DE,Reactome_Pathways_2024,GLI3 Is Processed to GLI3R by the Proteasome,1,GSE234465,0.0028266872340410336,5.324923076923078
+Muscle atrophy,DE,Reactome_Pathways_2024,GSK3B and BTRC CUL1-mediated-degradation of NFE2L2,1,GSE234465,0.0018991022797360116,5.844427767354596
+Muscle atrophy,DE,Reactome_Pathways_2024,GTP Hydrolysis and Joining of the 60S Ribosomal Subunit,1,GSE234465,0.0013294387277118268,4.5542105263157895
+Muscle atrophy,DE,Reactome_Pathways_2024,Hedgehog 'On' State,1,GSE234465,0.003473497407145551,4.2445039018952055
+Muscle atrophy,DE,Reactome_Pathways_2024,Hedgehog Ligand Biogenesis,1,GSE234465,0.0018991022797360116,5.220512820512821
+Muscle atrophy,DE,Reactome_Pathways_2024,Hh Mutants Abrogate Ligand Secretion,1,GSE234465,0.0028266872340410336,5.324923076923078
+Muscle atrophy,DE,Reactome_Pathways_2024,Hh Mutants Are Degraded by ERAD,1,GSE234465,0.0020124457841608234,5.705274725274725
+Muscle atrophy,DE,Reactome_Pathways_2024,Influenza Infection,1,GSE234465,0.017345553333483647,3.0097391304347827
+Muscle atrophy,DE,Reactome_Pathways_2024,Influenza Viral RNA Transcription and Replication,1,GSE234465,0.004884261598278522,3.496161616161616
+Muscle atrophy,DE,Reactome_Pathways_2024,KEAP1-NFE2L2 Pathway,1,GSE234465,0.02140881598486705,3.1018969380134434
+Muscle atrophy,DE,Reactome_Pathways_2024,L13a-mediated Translational Silencing of Ceruloplasmin Expression,1,GSE234465,0.0011141977450514042,4.677297297297297
+Muscle atrophy,DE,Reactome_Pathways_2024,Major Pathway of rRNA Processing in the Nucleolus and Cytosol,1,GSE234465,0.04569850753553799,2.5706525198938994
+Muscle atrophy,DE,Reactome_Pathways_2024,Metabolism of Amino Acids and Derivatives,1,GSE234465,0.00998029660655502,2.2342334588488435
+Muscle atrophy,DE,Reactome_Pathways_2024,Metabolism of Polyamines,1,GSE234465,0.01063636511356592,4.8408391608391605
+Muscle atrophy,DE,Reactome_Pathways_2024,Mitochondrial Protein Import,1,GSE211204,0.01858490044107693,4.497213622291022
+Muscle atrophy,DE,Reactome_Pathways_2024,Mitochondrial Translation,1,GSE211204,3.42949448814817e-05,4.885861713106295
+Muscle atrophy,DE,Reactome_Pathways_2024,Mitochondrial Translation Elongation,1,GSE211204,1.6121438985373284e-05,5.234851835471031
+Muscle atrophy,DE,Reactome_Pathways_2024,Mitochondrial Translation Initiation,1,GSE211204,1.6121438985373284e-05,5.234851835471031
+Muscle atrophy,DE,Reactome_Pathways_2024,Mitochondrial Translation Termination,1,GSE211204,1.6121438985373284e-05,5.234851835471031
+Muscle atrophy,DE,Reactome_Pathways_2024,NFE2L2 Regulating Anti-Oxidant Detoxification Enzymes,1,GSE211204,0.003126166813242962,9.69987251866691
+Muscle atrophy,DE,Reactome_Pathways_2024,NIK-->noncanonical NF-kB Signaling,1,GSE234465,0.0013374070904717975,5.916581196581197
+Muscle atrophy,DE,Reactome_Pathways_2024,Negative Regulation of NOTCH4 Signaling,1,GSE234465,0.0018991022797360116,5.844427767354596
+Muscle atrophy,DE,Reactome_Pathways_2024,Non-integrin membrane-ECM Interactions,1,GSE113165,0.014917339461571493,5.241002155172414
+Muscle atrophy,DE,Reactome_Pathways_2024,Nonsense Mediated Decay (NMD) Enhanced by the Exon Junction Complex (EJC),1,GSE234465,0.0013374070904717975,4.3265
+Muscle atrophy,DE,Reactome_Pathways_2024,Nonsense Mediated Decay (NMD) Independent of the Exon Junction Complex (EJC),1,GSE234465,0.0003721257828130698,5.582580645161291
+Muscle atrophy,DE,Reactome_Pathways_2024,Nonsense-Mediated Decay (NMD),1,GSE234465,0.0013374070904717975,4.3265
+Muscle atrophy,DE,Reactome_Pathways_2024,Nuclear Events Mediated by NFE2L2,1,GSE234465,0.03381779139526993,3.328076923076923
+Muscle atrophy,DE,Reactome_Pathways_2024,Orc1 Removal From Chromatin,1,GSE234465,0.012866542059865127,4.203886639676114
+Muscle atrophy,DE,Reactome_Pathways_2024,Oxygen-dependent Proline Hydroxylation of Hypoxia-inducible Factor Alpha,1,GSE234465,0.0008558409984924736,5.742564102564103
+Muscle atrophy,DE,Reactome_Pathways_2024,PCP CE Pathway,1,GSE234465,0.02810019272921733,3.4134122287968442
+Muscle atrophy,DE,Reactome_Pathways_2024,Peptide Chain Elongation,1,GSE234465,0.0006295954827557656,5.705274725274726
+Muscle atrophy,DE,Reactome_Pathways_2024,Proteasome Assembly,1,GSE234465,0.0045924688864690585,4.890235478806908
+Muscle atrophy,DE,Reactome_Pathways_2024,RUNX1 Regulates Transcription of Genes Involved in Differentiation of HSCs,1,GSE234465,0.004120397644131094,4.51264667535854
+Muscle atrophy,DE,Reactome_Pathways_2024,Regulation of APC C Activators Between G1 S and Early Anaphase,1,GSE234465,0.00869629177828814,4.034032634032634
+Muscle atrophy,DE,Reactome_Pathways_2024,Regulation of Activated PAK-2p34 by Proteasome Mediated Degradation,1,GSE234465,0.0013374070904717975,6.656153846153846
+Muscle atrophy,DE,Reactome_Pathways_2024,Regulation of Apoptosis,1,GSE234465,0.0014662178502308435,6.14414201183432
+Muscle atrophy,DE,Reactome_Pathways_2024,Regulation of Expression of SLITs and ROBOs,1,GSE234465,3.4042213440515965e-06,4.801160151324086
+Muscle atrophy,DE,Reactome_Pathways_2024,Regulation of Mitotic Cell Cycle,1,GSE234465,0.004419195268001047,4.0676495726495725
+Muscle atrophy,DE,Reactome_Pathways_2024,Regulation of Ornithine Decarboxylase (ODC),1,GSE234465,0.003913107132020462,5.756673596673597
+Muscle atrophy,DE,Reactome_Pathways_2024,Regulation of PTEN Stability and Activity,1,GSE234465,0.0021929887658147813,5.023512336719884
+Muscle atrophy,DE,Reactome_Pathways_2024,Regulation of RAS by GAPs,1,GSE234465,0.0020124457841608234,5.120118343195267
+Muscle atrophy,DE,Reactome_Pathways_2024,Regulation of RUNX2 Expression and Activity,1,GSE234465,0.014434907998912764,4.131405835543767
+Muscle atrophy,DE,Reactome_Pathways_2024,Regulation of RUNX3 Expression and Activity,1,GSE234465,0.0026245851376701154,5.4459440559440555
+Muscle atrophy,DE,Reactome_Pathways_2024,Regulation of mRNA Stability by Proteins That Bind AU-rich Elements,1,GSE234465,0.014681558909828104,3.7499458288190683
+Muscle atrophy,DE,Reactome_Pathways_2024,Respiratory Electron Transport,1,GSE211204,8.85498115408152e-14,6.193345833515022
+Muscle atrophy,DE,Reactome_Pathways_2024,Response of EIF2AK4 (GCN2) to Amino Acid Deficiency,1,GSE234465,0.0006367345836412252,5.090000000000001
+Muscle atrophy,DE,Reactome_Pathways_2024,SARS-CoV-1 Modulates Host Translation Machinery,1,GSE234465,0.0475522577158032,6.0510489510489505
+Muscle atrophy,DE,Reactome_Pathways_2024,SCF(Skp2)-mediated Degradation of P27 P21,1,GSE234465,0.004189261721994158,4.992115384615385
+Muscle atrophy,DE,Reactome_Pathways_2024,SCF-beta-TrCP Mediated Degradation of Emi1,1,GSE234465,0.0018991022797360116,5.844427767354596
+Muscle atrophy,DE,Reactome_Pathways_2024,SRP-dependent Cotranslational Protein Targeting to Membrane,1,GSE234465,0.002378607598098236,4.14929070929071
+Muscle atrophy,DE,Reactome_Pathways_2024,Selenoamino Acid Metabolism,1,GSE234465,0.002194314619494573,4.203886639676114
+Muscle atrophy,DE,Reactome_Pathways_2024,Selenocysteine Synthesis,1,GSE234465,0.000816063094674429,5.324923076923078
+Muscle atrophy,DE,Reactome_Pathways_2024,Signaling by NOTCH4,1,GSE234465,0.010859102643344326,3.9153846153846157
+Muscle atrophy,DE,Reactome_Pathways_2024,Signaling by ROBO Receptors,1,GSE234465,0.0003689530848159835,3.549948717948718
+Muscle atrophy,DE,Reactome_Pathways_2024,Somitogenesis,1,GSE234465,0.0013068765139748206,6.0510489510489505
+Muscle atrophy,DE,Reactome_Pathways_2024,Stabilization of P53,1,GSE234465,0.0020124457841608234,5.705274725274725
+Muscle atrophy,DE,Reactome_Pathways_2024,Switching of Origins to a Post-Replicative State,1,GSE234465,0.025775533044283257,3.4577422577422583
+Muscle atrophy,DE,Reactome_Pathways_2024,TNFR2 Non-Canonical NF-kB Pathway,1,GSE234465,0.002378607598098236,4.14929070929071
+Muscle atrophy,DE,Reactome_Pathways_2024,TP53 Regulates Metabolic Genes,1,GSE211204,0.010925952081967293,4.030835913312693
+Muscle atrophy,DE,Reactome_Pathways_2024,The Role of GTSE1 in G2 M Progression After G2 Checkpoint,1,GSE234465,0.004120397644131094,4.51264667535854
+Muscle atrophy,DE,Reactome_Pathways_2024,Transcriptional Regulation by RUNX2,1,GSE234465,0.023188484285364387,3.07207100591716
+Muscle atrophy,DE,Reactome_Pathways_2024,Transcriptional Regulation by RUNX3,1,GSE234465,0.0042568139792817285,3.803516483516484
+Muscle atrophy,DE,Reactome_Pathways_2024,UCH Proteinases,1,GSE234465,0.0003689530848159835,5.249924160346695
+Muscle atrophy,DE,Reactome_Pathways_2024,Ubiquitin Mediated Degradation of Phosphorylated Cdc25A,1,GSE234465,0.0013374070904717975,6.3058299595141705
+Muscle atrophy,DE,Reactome_Pathways_2024,Ubiquitin-dependent Degradation of Cyclin D,1,GSE234465,0.0013374070904717975,6.3058299595141705
+Muscle atrophy,DE,Reactome_Pathways_2024,Vif-mediated Degradation of APOBEC3G,1,GSE234465,0.0014662178502308435,6.14414201183432
+Muscle atrophy,DE,Reactome_Pathways_2024,Viral mRNA Translation,1,GSE234465,0.0006295954827557656,5.605182186234818
+Muscle atrophy,DE,Reactome_Pathways_2024,Vpu Mediated Degradation of CD4,1,GSE234465,0.0013374070904717975,6.3058299595141705
+Muscle atrophy,DE,Reactome_Pathways_2024,p53-Dependent G1 DNA Damage Response,1,GSE234465,0.005853291312047433,4.6984615384615385
+Muscle atrophy,DE,Reactome_Pathways_2024,p53-Dependent G1 S DNA Damage Checkpoint,1,GSE234465,0.005853291312047433,4.6984615384615385
+Muscle atrophy,DE,Reactome_Pathways_2024,p53-Independent DNA Damage Response,1,GSE234465,0.0013374070904717975,6.3058299595141705
+Muscle atrophy,DE,Reactome_Pathways_2024,p53-Independent G1 S DNA Damage Checkpoint,1,GSE234465,0.0013374070904717975,6.3058299595141705
+Muscle atrophy,DE,Reactome_Pathways_2024,p75NTR Recruits Signalling Complexes,1,GSE234465,0.04569850753553799,8.192189349112425
+Muscle atrophy,DE,Reactome_Pathways_2024,rRNA Processing in the Nucleus and Cytosol,1,GSE234465,0.030913623639908266,2.576575682382134
+Radiation,BRIDGE,GO_Biological_Process_2025,Cellular Response to Mechanical Stimulus (GO:0071260),1,GSE184119,0.04099100793819887,4.529224114625574
+Radiation,BRIDGE,GO_Biological_Process_2025,Collagen Fibril Organization (GO:0030199),1,GSE297560,2.7834054801845646e-08,9.21824629271438
+Radiation,BRIDGE,GO_Biological_Process_2025,Endothelial Cell Migration (GO:0043542),2,GSE184119;GSE297560,0.04831957407786979,4.819951338199513
+Radiation,BRIDGE,GO_Biological_Process_2025,Epithelial Cell Differentiation (GO:0030855),2,GSE184119;GSE297560,0.044225789997042714,3.181198720623001
+Radiation,BRIDGE,GO_Biological_Process_2025,External Encapsulating Structure Organization (GO:0045229),1,GSE297560,0.00021231179181454256,4.460237381492042
+Radiation,BRIDGE,GO_Biological_Process_2025,Extracellular Matrix Organization (GO:0030198),2,GSE184119;GSE297560,0.02859010942741359,2.870635002227477
+Radiation,BRIDGE,GO_Biological_Process_2025,Extracellular Structure Organization (GO:0043062),1,GSE297560,0.000224830316954383,4.414724755150288
+Radiation,BRIDGE,GO_Biological_Process_2025,Hippo Signaling (GO:0035329),1,GSE297560,0.009525789868957484,8.539007092198581
+Radiation,BRIDGE,GO_Biological_Process_2025,Integrin-Mediated Signaling Pathway (GO:0007229),1,GSE297560,0.023207777995542214,3.7180260047281326
+Radiation,BRIDGE,GO_Biological_Process_2025,Intrinsic Apoptotic Signaling Pathway in Response to DNA Damage (GO:0008630),1,GSE184119,0.027273319934524944,4.67942797556979
+Radiation,BRIDGE,GO_Biological_Process_2025,Mitotic Sister Chromatid Segregation (GO:0000070),1,GSE184119,0.04099100793819887,3.0666621609443996
+Radiation,BRIDGE,GO_Biological_Process_2025,Negative Regulation of Canonical Wnt Signaling Pathway (GO:0090090),1,GSE297560,0.021898962775473294,3.3162496097060528
+Radiation,BRIDGE,GO_Biological_Process_2025,Negative Regulation of Cell Adhesion (GO:0007162),1,GSE184119,0.0482446059393772,3.886304589879995
+Radiation,BRIDGE,GO_Biological_Process_2025,Negative Regulation of Cell Migration (GO:0030336),1,GSE297560,0.01969239808238496,2.820142424110575
+Radiation,BRIDGE,GO_Biological_Process_2025,Negative Regulation of Cell Population Proliferation (GO:0008285),1,GSE297560,0.011725959220841024,2.274408431099622
+Radiation,BRIDGE,GO_Biological_Process_2025,Negative Regulation of Cellular Process (GO:0048523),2,GSE184119;GSE297560,0.027348004540399335,1.9922683087141522
+Radiation,BRIDGE,GO_Biological_Process_2025,Negative Regulation of Endothelial Cell Proliferation (GO:0001937),1,GSE184119,0.04831957407786979,5.661530143281968
+Radiation,BRIDGE,GO_Biological_Process_2025,Negative Regulation of Epithelial Cell Proliferation (GO:0050680),1,GSE184119,0.02859010942741359,4.109175103994977
+Radiation,BRIDGE,GO_Biological_Process_2025,Negative Regulation of Fibrinolysis (GO:0051918),1,GSE297560,0.04135544870764902,10.816075650118204
+Radiation,BRIDGE,GO_Biological_Process_2025,Negative Regulation of Myeloid Leukocyte Differentiation (GO:0002762),1,GSE184119,0.03994245924976154,6.369221411192214
+Radiation,BRIDGE,GO_Biological_Process_2025,Negative Regulation of Phosphate Metabolic Process (GO:0045936),1,GSE184119,0.04831957407786979,7.076912679102461
+Radiation,BRIDGE,GO_Biological_Process_2025,Negative Regulation of Protein Processing (GO:0010955),1,GSE297560,0.01307177302207116,10.400072740498272
+Radiation,BRIDGE,GO_Biological_Process_2025,Negative Regulation of Wnt Signaling Pathway (GO:0030178),1,GSE297560,0.04160527582027356,2.8897912042300544
+Radiation,BRIDGE,GO_Biological_Process_2025,Positive Chemotaxis (GO:0050918),1,GSE184119,0.03611454069902616,8.492295214922953
+Radiation,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Angiogenesis (GO:0045766),1,GSE184119,0.02365923741650946,3.364871688931736
+Radiation,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Apoptotic Process (GO:0043065),2,GSE184119;GSE297560,0.021051467530257623,2.3468843391765914
+Radiation,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Blood Coagulation (GO:0030194),1,GSE297560,0.009525789868957484,8.539007092198581
+Radiation,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Cell Differentiation (GO:0045597),1,GSE184119,0.04099100793819887,2.269196292246619
+Radiation,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Cell Migration (GO:0030335),1,GSE297560,0.002828164863018421,2.535017730496454
+Radiation,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Cell Population Proliferation (GO:0008284),1,GSE184119,0.027273319934524944,2.1055277392370955
+Radiation,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Epithelial to Mesenchymal Transition (GO:0010718),1,GSE184119,0.018324842697451042,5.211181154611812
+Radiation,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Non-Canonical Wnt Signaling Pathway (GO:2000052),1,GSE297560,0.04135544870764902,10.816075650118204
+Radiation,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Programmed Cell Death (GO:0043068),1,GSE184119,0.002116359766889748,2.8706350022274765
+Radiation,BRIDGE,GO_Biological_Process_2025,Positive Regulation of Vasculature Development (GO:1904018),1,GSE184119,0.020364243870626342,3.6395550921098367
+Radiation,BRIDGE,GO_Biological_Process_2025,Protein Hydroxylation (GO:0018126),1,GSE297560,0.009525789868957484,11.266745468873127
+Radiation,BRIDGE,GO_Biological_Process_2025,Regulation of Angiogenesis (GO:0045765),1,GSE184119,9.806219824976588e-05,3.618019263162441
+Radiation,BRIDGE,GO_Biological_Process_2025,Regulation of Cell Adhesion Mediated by Integrin (GO:0033628),1,GSE184119,0.027273319934524944,6.149593086668345
+Radiation,BRIDGE,GO_Biological_Process_2025,Regulation of Fatty Acid Metabolic Process (GO:0019217),1,GSE184119,0.045730658231244344,10.190754257907543
+Radiation,BRIDGE,GO_Biological_Process_2025,Regulation of Inflammatory Response (GO:0050727),1,GSE184119,0.04563193329734865,2.532789800941933
+Radiation,BRIDGE,GO_Biological_Process_2025,Regulation of Mitotic Cell Cycle (GO:0007346),1,GSE184119,0.04099100793819887,3.0385276457063775
+Radiation,BRIDGE,GO_Biological_Process_2025,Regulation of SMAD Protein Signal Transduction (GO:0060390),1,GSE184119,0.03994245924976154,4.168944923689449
+Radiation,BRIDGE,GO_Biological_Process_2025,Regulation of Signal Transduction (GO:0009966),1,GSE297560,0.02247047708980861,2.6596907336356237
+Radiation,BRIDGE,GO_Biological_Process_2025,Signal Transduction in Response to DNA Damage (GO:0042770),1,GSE184119,0.009447137870612066,4.305952503341215
+Radiation,BRIDGE,GO_Biological_Process_2025,Supramolecular Fiber Organization (GO:0097435),2,GSE184119;GSE297560,0.04831957407786979,2.1464042850904166
+Radiation,BRIDGE,GO_Biological_Process_2025,Transforming Growth Factor Beta Receptor Superfamily Signaling Pathway (GO:0141091),1,GSE184119,0.02464705538901625,3.5233990785318636
+Radiation,BRIDGE,KEGG_2021_Human,AGE-RAGE signaling pathway in diabetic complications,1,GSE184119,0.04831957407786979,2.893279297534616
+Radiation,BRIDGE,KEGG_2021_Human,Chronic myeloid leukemia,1,GSE184119,0.018225196269579677,3.675246675246675
+Radiation,BRIDGE,KEGG_2021_Human,ECM-receptor interaction,1,GSE184119,0.027348004540399335,3.5358819584171695
+Radiation,BRIDGE,KEGG_2021_Human,Epstein-Barr virus infection,1,GSE184119,0.039131341730082696,2.5273250239693192
+Radiation,BRIDGE,KEGG_2021_Human,MicroRNAs in cancer,1,GSE297560,0.04135544870764902,2.6381958321438765
+Radiation,BRIDGE,KEGG_2021_Human,NF-kappa B signaling pathway,1,GSE184119,0.04099100793819887,3.177817962628089
+Radiation,BRIDGE,KEGG_2021_Human,Pathways in cancer,1,GSE184119,0.039131341730082696,1.8127950633805436
+Radiation,BRIDGE,KEGG_2021_Human,Small cell lung cancer,1,GSE184119,0.03611454069902616,3.162421557770395
+Radiation,BRIDGE,KEGG_2021_Human,Transcriptional misregulation in cancer,1,GSE184119,0.0007537284358143123,3.3111796277263905
+Radiation,BRIDGE,KEGG_2021_Human,p53 signaling pathway,1,GSE184119,0.0008007395162361233,4.724014336917562
+Radiation,BRIDGE,Reactome_Pathways_2024,Assembly of Collagen Fibrils and Other Multimeric Structures,1,GSE297560,6.539958367973058e-06,6.826174227217985
+Radiation,BRIDGE,Reactome_Pathways_2024,Basigin Interactions,1,GSE184119,0.027273319934524944,7.431149097815765
+Radiation,BRIDGE,Reactome_Pathways_2024,Cell Surface Interactions at the Vascular Wall,1,GSE184119,0.0007537284358143123,4.2975320083753825
+Radiation,BRIDGE,Reactome_Pathways_2024,Cellular Senescence,1,GSE184119,0.04831957407786979,2.6539818206484873
+Radiation,BRIDGE,Reactome_Pathways_2024,Collagen Biosynthesis and Modifying Enzymes,1,GSE297560,2.4597128737766482e-05,6.029787234042553
+Radiation,BRIDGE,Reactome_Pathways_2024,Collagen Degradation,1,GSE297560,0.007642677402024676,4.875838733727132
+Radiation,BRIDGE,Reactome_Pathways_2024,Collagen Formation,1,GSE297560,3.681794060268258e-09,6.783510638297872
+Radiation,BRIDGE,Reactome_Pathways_2024,Degradation of the Extracellular Matrix,1,GSE297560,7.961911945396838e-06,4.53367461206207
+Radiation,BRIDGE,Reactome_Pathways_2024,Dissolution of Fibrin Clot,1,GSE297560,0.005314449768420156,12.9209726443769
+Radiation,BRIDGE,Reactome_Pathways_2024,ECM Proteoglycans,1,GSE297560,3.703458227577555e-05,5.3837386018237074
+Radiation,BRIDGE,Reactome_Pathways_2024,Elastic Fibre Formation,1,GSE297560,0.006975334180871902,5.537559704732956
+Radiation,BRIDGE,Reactome_Pathways_2024,Extracellular Matrix Organization,2,GSE184119;GSE297560,0.00406494129273002,2.539759818240831
+Radiation,BRIDGE,Reactome_Pathways_2024,FOXO-mediated Transcription,1,GSE184119,0.027348004540399335,4.128416165453203
+Radiation,BRIDGE,Reactome_Pathways_2024,FOXO-mediated Transcription of Cell Cycle Genes,1,GSE184119,0.04831957407786979,6.966702279202279
+Radiation,BRIDGE,Reactome_Pathways_2024,Hemostasis,2,GSE184119;GSE297560,0.023207777995542214,1.8832186850103982
+Radiation,BRIDGE,Reactome_Pathways_2024,Integrin Cell Surface Interactions,2,GSE184119;GSE297560,0.03994245924976154,3.5032560032560034
+Radiation,BRIDGE,Reactome_Pathways_2024,Interleukin-4 and Interleukin-13 Signaling,2,GSE184119;GSE297560,0.04099100793819887,3.1847781847781853
+Radiation,BRIDGE,Reactome_Pathways_2024,MET Activates PTK2 Signaling,1,GSE297560,0.0030372887085976805,7.128812493449324
+Radiation,BRIDGE,Reactome_Pathways_2024,MET Promotes Cell Motility,1,GSE297560,0.020692954154930512,5.16838905775076
+Radiation,BRIDGE,Reactome_Pathways_2024,Neutrophil Degranulation,2,GSE184119;GSE297560,0.03479402852467618,1.9916336198756948
+Radiation,BRIDGE,Reactome_Pathways_2024,Post-translational Protein Phosphorylation,1,GSE297560,0.0004455813982947094,4.404877037855761
+Radiation,BRIDGE,Reactome_Pathways_2024,RHO GTPase Effectors,1,GSE184119,0.04540333321032975,2.1634991044273746
+Radiation,BRIDGE,Reactome_Pathways_2024,Regulation of IGF Transport and Uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs),1,GSE297560,1.8252628718327316e-05,4.7464797469139635
+Radiation,BRIDGE,Reactome_Pathways_2024,Senescence-Associated Secretory Phenotype (SASP),1,GSE184119,0.04099100793819887,4.012820512820513
+Radiation,BRIDGE,Reactome_Pathways_2024,Signaling by Interleukins,1,GSE184119,0.045730658231244344,1.9218489046075253
+Radiation,BRIDGE,Reactome_Pathways_2024,Signaling by MET,1,GSE297560,0.023207777995542214,3.691706469821971
+Radiation,BRIDGE,Reactome_Pathways_2024,YAP1- and WWTR1 (TAZ)-stimulated Gene Expression,1,GSE297560,0.01551916289917354,9.939209726443769
+Radiation,DE,GO_Biological_Process_2025,+ Reg of Phosphatidylinositol 3-Kinase/Prot Kinase B Signal Transduction (GO:0051897),1,GSE297560,0.0017632684783150969,3.3003937809763055
+Radiation,DE,GO_Biological_Process_2025,+ Reg of Transmembrane Receptor Prot Serine/Threonine Kinase Sgnlng Pway (GO:0090100),1,GSE297560,0.04948370261730694,3.3314563106796116
+Radiation,DE,GO_Biological_Process_2025,Attachment of Mitotic Spindle Microtubules to Kinetochore (GO:0051315),1,GSE297090,0.0030864954442782824,9.990487720511933
+Radiation,DE,GO_Biological_Process_2025,Axon Guidance (GO:0007411),1,GSE297560,0.0033790895945268254,3.2187983678063876
+Radiation,DE,GO_Biological_Process_2025,Axonogenesis (GO:0007409),1,GSE297560,0.002502022313388284,2.9468188967836415
+Radiation,DE,GO_Biological_Process_2025,Cardiac Muscle Cell Development (GO:0055013),1,GSE297560,0.016605513526354705,8.165334094802969
+Radiation,DE,GO_Biological_Process_2025,Cell Cycle G1/S Phase Transition (GO:0044843),1,GSE297090,0.005657911387014067,4.416847202752644
+Radiation,DE,GO_Biological_Process_2025,Cell Cycle G2/M Phase Transition (GO:0044839),1,GSE297090,1.8301872233020064e-08,9.32445520581114
+Radiation,DE,GO_Biological_Process_2025,Cell-Cell Adhesion via Plasma-Membrane Adhesion Molecules (GO:0098742),1,GSE297560,0.029645407081913742,2.8195919296116507
+Radiation,DE,GO_Biological_Process_2025,Cell-Matrix Adhesion (GO:0007160),1,GSE297560,8.24054118743257e-05,4.5325936199722605
+Radiation,DE,GO_Biological_Process_2025,Cellular Response to Decreased Oxygen Levels (GO:0036294),1,GSE297560,0.01791281736209417,3.751639989504067
+Radiation,DE,GO_Biological_Process_2025,Cellular Response to Hypoxia (GO:0071456),1,GSE297560,0.017136774979720357,3.8030323181274106
+Radiation,DE,GO_Biological_Process_2025,Cellular Response to Ionizing Radiation (GO:0071479),1,GSE297090,0.007312978786689903,4.761423934882283
+Radiation,DE,GO_Biological_Process_2025,Cellular Response to Radiation (GO:0071478),1,GSE297090,0.01054531092889743,5.152988403211419
+Radiation,DE,GO_Biological_Process_2025,Cellular Response to Transforming Growth Factor Beta Stimulus (GO:0071560),1,GSE297560,0.0018413781475085324,4.055143449329115
+Radiation,DE,GO_Biological_Process_2025,Centromere Complex Assembly (GO:0034508),1,GSE297090,0.00014146654803002935,12.910784131123116
+Radiation,DE,GO_Biological_Process_2025,Chromosome Condensation (GO:0030261),1,GSE297090,0.001337633569344082,7.252354048964219
+Radiation,DE,GO_Biological_Process_2025,Chromosome Organization (GO:0051276),1,GSE297090,0.04057741776494286,4.662227602905569
+Radiation,DE,GO_Biological_Process_2025,Cilium Organization (GO:0044782),1,GSE297090,0.027128664422269057,2.3425971206717637
+Radiation,DE,GO_Biological_Process_2025,Collagen Fibril Organization (GO:0030199),1,GSE297560,1.1138851320380463e-06,8.202449249779347
+Radiation,DE,GO_Biological_Process_2025,Cytoskeleton-Dependent Cytokinesis (GO:0061640),1,GSE297090,2.5455137919998528e-05,5.152988403211419
+Radiation,DE,GO_Biological_Process_2025,DNA Conformation Change (GO:0071103),1,GSE297090,0.03216280265988267,7.992390176409547
+Radiation,DE,GO_Biological_Process_2025,DNA Damage Checkpoint Signaling (GO:0000077),1,GSE297090,0.035577839691891065,4.795434105845729
+Radiation,DE,GO_Biological_Process_2025,DNA Damage Response (GO:0006974),2,GSE184119;GSE297090,0.026390024047875858,2.09755608974359
+Radiation,DE,GO_Biological_Process_2025,"DNA Damage Response, Signal Transduction by P53 Class Mediator (GO:0030330)",1,GSE184119,0.04252585745967511,6.327980661313994
+Radiation,DE,GO_Biological_Process_2025,DNA Integrity Checkpoint Signaling (GO:0031570),1,GSE297090,0.003521182882378505,5.328260117606365
+Radiation,DE,GO_Biological_Process_2025,DNA Metabolic Process (GO:0006259),1,GSE297090,1.7653783414343356e-14,4.492073310828723
+Radiation,DE,GO_Biological_Process_2025,DNA Recombination (GO:0006310),1,GSE297090,0.00035453490749746573,6.455392065561557
+Radiation,DE,GO_Biological_Process_2025,DNA Repair (GO:0006281),1,GSE297090,1.099595344946475e-12,4.247807371536185
+Radiation,DE,GO_Biological_Process_2025,DNA Replication (GO:0006260),1,GSE297090,2.7315184492395264e-06,6.216303470540759
+Radiation,DE,GO_Biological_Process_2025,DNA Replication Initiation (GO:0006270),1,GSE297090,0.0019069957046033313,8.392009685230025
+Radiation,DE,GO_Biological_Process_2025,DNA Strand Elongation (GO:0022616),1,GSE297090,0.012915118341238764,10.17213295179397
+Radiation,DE,GO_Biological_Process_2025,DNA Strand Elongation Involved in DNA Replication (GO:0006271),1,GSE297090,0.012915118341238764,10.17213295179397
+Radiation,DE,GO_Biological_Process_2025,DNA Synthesis Involved in DNA Repair (GO:0000731),1,GSE297090,0.036066841509393655,5.827784503631961
+Radiation,DE,GO_Biological_Process_2025,DNA-templated DNA Replication (GO:0006261),1,GSE297090,1.6661404413531988e-07,7.832542372881357
+Radiation,DE,GO_Biological_Process_2025,DNA-templated DNA Replication Maintenance of Fidelity (GO:0045005),1,GSE297090,0.006481286537474737,5.594673123486682
+Radiation,DE,GO_Biological_Process_2025,Double-Strand Break Repair (GO:0006302),1,GSE297090,1.5070510436155773e-06,3.9471620196378434
+Radiation,DE,GO_Biological_Process_2025,Double-Strand Break Repair via Break-Induced Replication (GO:0000727),1,GSE297090,0.0005597640976628671,13.986682808716708
+Radiation,DE,GO_Biological_Process_2025,Double-Strand Break Repair via Homologous Recombination (GO:0000724),1,GSE297090,3.2672531025353976e-08,5.439265536723164
+Radiation,DE,GO_Biological_Process_2025,Endoderm Formation (GO:0001706),1,GSE297560,0.00899798398666567,6.072967233009709
+Radiation,DE,GO_Biological_Process_2025,Endodermal Cell Differentiation (GO:0035987),1,GSE297560,0.024155876110763527,5.743890190826917
+Radiation,DE,GO_Biological_Process_2025,Endothelial Cell Migration (GO:0043542),1,GSE297560,0.04948370261730694,4.7592233009708735
+Radiation,DE,GO_Biological_Process_2025,Establishment of Chromosome Localization (GO:0051303),1,GSE297090,2.0872822518522333e-06,13.986682808716708
+Radiation,DE,GO_Biological_Process_2025,Establishment of Mitotic Spindle Localization (GO:0040001),1,GSE297090,0.00013823352080119593,7.1931511587685915
+Radiation,DE,GO_Biological_Process_2025,Establishment of Mitotic Spindle Orientation (GO:0000132),1,GSE297090,0.0003591566004239696,7.459564164648911
+Radiation,DE,GO_Biological_Process_2025,Establishment of Spindle Orientation (GO:0051294),1,GSE297090,2.7765380695656398e-05,7.560369085792814
+Radiation,DE,GO_Biological_Process_2025,External Encapsulating Structure Organization (GO:0045229),1,GSE297560,1.5480845431385104e-05,4.865528976078471
+Radiation,DE,GO_Biological_Process_2025,Extracellular Matrix Organization (GO:0030198),1,GSE297560,1.5289992326741822e-08,4.744162467739954
+Radiation,DE,GO_Biological_Process_2025,Extracellular Structure Organization (GO:0043062),1,GSE297560,1.7166306468786683e-05,4.815880721220528
+Radiation,DE,GO_Biological_Process_2025,G1/S Transition of Mitotic Cell Cycle (GO:0000082),1,GSE297090,0.004404254766271068,4.577459828307285
+Radiation,DE,GO_Biological_Process_2025,G2/M Transition of Mitotic Cell Cycle (GO:0000086),1,GSE297090,7.056343539123184e-08,9.32445520581114
+Radiation,DE,GO_Biological_Process_2025,Integrin-Mediated Signaling Pathway (GO:0007229),1,GSE297560,1.1138851320380463e-06,5.899453883495146
+Radiation,DE,GO_Biological_Process_2025,Interstrand Cross-Link Repair (GO:0036297),1,GSE297090,0.0006937283974625662,6.781421967862646
+Radiation,DE,GO_Biological_Process_2025,Intrinsic Apoptotic Signaling Pathway in Response to DNA Damage (GO:0008630),1,GSE297090,0.008452383807493151,4.66222760290557
+Radiation,DE,GO_Biological_Process_2025,Kinetochore Organization (GO:0051383),1,GSE297090,0.0005597640976628671,13.986682808716708
+Radiation,DE,GO_Biological_Process_2025,Metaphase Chromosome Alignment (GO:0051310),1,GSE297090,7.998151746631564e-07,7.576119854721551
+Radiation,DE,GO_Biological_Process_2025,Microtubule Cytoskeleton Organization Involved in Mitosis (GO:1902850),1,GSE297090,8.597157550508302e-10,8.646313009024873
+Radiation,DE,GO_Biological_Process_2025,Mitochondrial Ribosome Assembly (GO:0061668),1,GSE297090,0.040621079291469714,7.459564164648911
+Radiation,DE,GO_Biological_Process_2025,Mitotic Cell Cycle Phase Transition (GO:0044772),1,GSE297090,6.0675872718029705e-06,4.755472154963681
+Radiation,DE,GO_Biological_Process_2025,Mitotic Chromosome Condensation (GO:0007076),1,GSE297090,2.2910599361127572e-05,13.054237288135592
+Radiation,DE,GO_Biological_Process_2025,Mitotic Cytokinesis (GO:0000281),1,GSE297090,1.7882021656299077e-07,7.111872614601714
+Radiation,DE,GO_Biological_Process_2025,Mitotic DNA Damage Checkpoint Signaling (GO:0044773),1,GSE297090,0.0050163098717964745,4.49571947423037
+Radiation,DE,GO_Biological_Process_2025,Mitotic DNA Replication (GO:1902969),1,GSE297090,0.0005597640976628671,13.986682808716708
+Radiation,DE,GO_Biological_Process_2025,Mitotic G2 DNA Damage Checkpoint Signaling (GO:0007095),1,GSE297090,0.014020401692090761,5.787592886365535
+Radiation,DE,GO_Biological_Process_2025,Mitotic Metaphase Chromosome Alignment (GO:0007080),1,GSE297090,9.774327560881527e-06,6.71360774818402
+Radiation,DE,GO_Biological_Process_2025,Mitotic Nuclear Division (GO:0140014),1,GSE297090,1.6661404413531988e-07,8.658422691110344
+Radiation,DE,GO_Biological_Process_2025,Mitotic Sister Chromatid Segregation (GO:0000070),1,GSE297090,1.0748420233112343e-17,8.137706361435175
+Radiation,DE,GO_Biological_Process_2025,Mitotic Spindle Assembly (GO:0090307),1,GSE297090,0.00010751434695454989,6.505433864519398
+Radiation,DE,GO_Biological_Process_2025,Mitotic Spindle Assembly Checkpoint Signaling (GO:0007094),1,GSE297090,5.070352348451378e-08,12.308280871670704
+Radiation,DE,GO_Biological_Process_2025,Mitotic Spindle Checkpoint Signaling (GO:0071174),1,GSE297090,5.070352348451378e-08,12.308280871670704
+Radiation,DE,GO_Biological_Process_2025,Mitotic Spindle Organization (GO:0007052),1,GSE297090,3.4759222704632346e-11,7.326357661708752
+Radiation,DE,GO_Biological_Process_2025,Myofibril Assembly (GO:0030239),1,GSE297560,0.0017632684783150969,5.949029126213592
+Radiation,DE,GO_Biological_Process_2025,Negative Chemotaxis (GO:0050919),1,GSE297560,0.04948370261730694,5.783778317152103
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Blood Coagulation (GO:0030195),1,GSE297560,0.006011470795444585,7.932038834951456
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Cell Adhesion (GO:0007162),1,GSE297560,0.03990751366508879,3.8292601272179443
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Cell Cycle Process (GO:0010948),1,GSE297090,0.00377825005521162,6.119173728813559
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Cell Migration (GO:0030336),1,GSE297560,0.03240627693901658,2.554797784263506
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Cell Population Proliferation (GO:0008285),1,GSE297560,0.04875712938739477,1.9891873090766115
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Cell-Substrate Adhesion (GO:0010812),1,GSE297560,0.014555825578792486,5.552427184466019
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Cellular Process (GO:0048523),1,GSE297560,0.0001182276142029799,2.3760386600192422
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Endothelial Cell Proliferation (GO:0001937),1,GSE297560,0.03441943844376602,5.205400485436893
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Fibrinolysis (GO:0051918),1,GSE297560,0.017654395915342604,11.104854368932038
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Innate Immune Response (GO:0045824),1,GSE297090,0.03081823185419762,4.256816507000736
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Mitotic Metaphase/Anaphase Transition (GO:0045841),1,GSE297090,8.464548479686836e-09,12.432606941081518
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Ossification (GO:0030279),1,GSE297560,0.014555825578792486,6.662912621359224
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Peptidase Activity (GO:0010466),1,GSE297560,0.035759316719874326,8.54219566840926
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Protein Processing (GO:0010955),1,GSE297560,2.659340813414379e-05,14.948842419716206
+Radiation,DE,GO_Biological_Process_2025,Negative Regulation of Proteolysis (GO:0045861),1,GSE297560,0.026717339393902167,5.552427184466019
+Radiation,DE,GO_Biological_Process_2025,Neural Crest Cell Migration (GO:0001755),1,GSE297560,0.029782644832933698,5.373316630128405
+Radiation,DE,GO_Biological_Process_2025,Neuron Projection Guidance (GO:0097485),1,GSE297560,0.002897724461955767,3.4415870978095158
+Radiation,DE,GO_Biological_Process_2025,Nuclear Chromosome Segregation (GO:0098813),1,GSE297090,1.1827120498142456e-07,15.735018159806293
+Radiation,DE,GO_Biological_Process_2025,Peptide Cross-Linking (GO:0018149),1,GSE297560,0.017654395915342604,11.104854368932038
+Radiation,DE,GO_Biological_Process_2025,Platelet-Derived Growth Factor Receptor Signaling Pathway (GO:0048008),1,GSE297560,0.016605513526354705,8.165334094802969
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Angiogenesis (GO:0045766),1,GSE297560,0.0005179771699527504,3.8625580413676657
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Blood Coagulation (GO:0030194),1,GSE297560,0.023098867411732345,7.305825242718447
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Cell Cycle G2/M Phase Transition (GO:1902751),1,GSE297090,0.00018426311258004765,9.790677966101695
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Cell Cycle Process (GO:0090068),1,GSE297090,2.7102295078857767e-17,8.563275189010229
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Cell Division (GO:0051781),1,GSE297090,0.00046008053589586054,7.218933062563463
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Cell Migration (GO:0030335),1,GSE297560,1.4657810759905674e-07,3.373870685005394
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Cell Motility (GO:2000147),1,GSE297560,5.07588241687532e-06,3.591122059604888
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Cell Population Proliferation (GO:0008284),1,GSE297560,0.003342855470183245,2.189888584204155
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Cell-Matrix Adhesion (GO:0001954),1,GSE297560,0.022286364567383678,4.982947473238735
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Cell-Substrate Adhesion (GO:0010811),1,GSE297560,0.0017914372083597866,4.771617111650485
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Chromosome Organization (GO:2001252),1,GSE297090,2.2841836740209873e-06,7.629099713845477
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Chromosome Segregation (GO:0051984),1,GSE297090,8.655670819822385e-05,10.878531073446327
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Chromosome Separation (GO:1905820),1,GSE297090,3.773435189764541e-06,16.31779661016949
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Cytokinesis (GO:0032467),1,GSE297090,1.9502295469723818e-06,9.990487720511933
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of DNA Metabolic Process (GO:0051054),1,GSE297090,0.032121971446302515,2.9587213633823803
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Epithelial to Mesenchymal Transition (GO:0010718),1,GSE297560,0.0003510644079600287,6.456310679611651
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of G2/M Transition of Mitotic Cell Cycle (GO:0010971),1,GSE297090,8.655670819822385e-05,10.878531073446327
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of MAPK Cascade (GO:0043410),1,GSE297560,0.04295715973965553,2.0495536586955105
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Mitotic Cell Cycle Phase Transition (GO:1901992),1,GSE297090,0.007183225356374729,4.267123568761028
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Mitotic Cell Cycle Spindle Assembly Checkpoint (GO:0090267),1,GSE297090,0.0005597640976628671,13.986682808716708
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Mitotic Cytokinesis (GO:1903490),1,GSE297090,0.0009138152369534595,12.715166189742462
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Mitotic Sister Chromatid Separation (GO:1901970),1,GSE297090,0.040621079291469714,7.459564164648911
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Multicellular Organismal Process (GO:0051240),1,GSE297560,0.025109405415087965,2.053412420290688
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Non-Canonical Wnt Signaling Pathway (GO:2000052),1,GSE297560,0.017654395915342604,11.104854368932038
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Response to External Stimulus (GO:0032103),1,GSE297560,0.03480122649830133,2.8969185310257495
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Signal Transduction (GO:0009967),1,GSE297560,0.0012410275417162316,2.77621359223301
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Smooth Muscle Cell Proliferation (GO:0048661),1,GSE297560,0.04897723545294928,4.134786201198099
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Spindle Checkpoint (GO:0090232),1,GSE297090,4.660953771662469e-05,15.258199427690954
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Vasculature Development (GO:1904018),1,GSE297560,0.0015179433070762528,3.925958615279004
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Wnt Signaling Pathway (GO:0030177),1,GSE297560,0.022263918276624536,3.142883311961898
+Radiation,DE,GO_Biological_Process_2025,Positive Regulation of Wound Healing (GO:0090303),1,GSE297560,0.01969145788446852,5.114077669902913
+Radiation,DE,GO_Biological_Process_2025,Protein Localization to Chromosome (GO:0034502),1,GSE297090,0.02723662179884178,4.351412429378531
+Radiation,DE,GO_Biological_Process_2025,"Protein Localization to Chromosome, Centromeric Region (GO:0071459)",1,GSE297090,0.0030864954442782824,9.990487720511933
+Radiation,DE,GO_Biological_Process_2025,Protein Localization to Kinetochore (GO:0034501),1,GSE297090,0.012915118341238764,10.17213295179397
+Radiation,DE,GO_Biological_Process_2025,Recombinational Repair (GO:0000725),1,GSE297090,6.859624849356208e-05,4.416847202752644
+Radiation,DE,GO_Biological_Process_2025,Regulation of Angiogenesis (GO:0045765),1,GSE297560,3.617987272193444e-05,3.508401792382375
+Radiation,DE,GO_Biological_Process_2025,Regulation of Attachment of Spindle Microtubules to Kinetochore (GO:0051988),1,GSE297090,3.773435189764541e-06,16.31779661016949
+Radiation,DE,GO_Biological_Process_2025,Regulation of Blood Coagulation (GO:0030193),1,GSE297560,0.012173046116177167,6.940533980582524
+Radiation,DE,GO_Biological_Process_2025,Regulation of Cell Cycle (GO:0051726),1,GSE297090,0.01888673212564924,2.136854317998386
+Radiation,DE,GO_Biological_Process_2025,Regulation of Cell Cycle Process (GO:0010564),1,GSE297090,6.347979661107125e-05,3.785869030930838
+Radiation,DE,GO_Biological_Process_2025,Regulation of Cell Migration (GO:0030334),1,GSE297560,7.779940140078262e-08,3.0069819764740404
+Radiation,DE,GO_Biological_Process_2025,Regulation of Cell-Matrix Adhesion (GO:0001952),1,GSE297560,0.017136774979720357,4.164320388349514
+Radiation,DE,GO_Biological_Process_2025,Regulation of Centriole Replication (GO:0046599),1,GSE297090,0.002134138351172139,10.758986775935929
+Radiation,DE,GO_Biological_Process_2025,Regulation of Centrosome Duplication (GO:0010824),1,GSE297090,0.025141307349662412,6.357583094871231
+Radiation,DE,GO_Biological_Process_2025,Regulation of Chromosome Segregation (GO:0051983),1,GSE297090,0.0006487564808330749,8.158898305084746
+Radiation,DE,GO_Biological_Process_2025,Regulation of Chromosome Separation (GO:1905818),1,GSE297090,0.0005597640976628671,13.986682808716708
+Radiation,DE,GO_Biological_Process_2025,Regulation of Cyclin-Dependent Protein Serine/Threonine Kinase Activity (GO:0000079),1,GSE297090,1.3111230582591614e-07,8.869603732356937
+Radiation,DE,GO_Biological_Process_2025,Regulation of Cytokinesis (GO:0032465),1,GSE297090,3.413270686708893e-05,5.427667955621409
+Radiation,DE,GO_Biological_Process_2025,Regulation of DNA Metabolic Process (GO:0051052),1,GSE297090,0.0057680936410969995,3.2469085091663787
+Radiation,DE,GO_Biological_Process_2025,Regulation of DNA Replication (GO:0006275),1,GSE297090,0.0013520686716655432,4.395814597025251
+Radiation,DE,GO_Biological_Process_2025,Regulation of DNA-templated DNA Replication (GO:0090329),1,GSE297090,0.002134138351172139,10.758986775935929
+Radiation,DE,GO_Biological_Process_2025,Regulation of DNA-templated DNA Replication Initiation (GO:0030174),1,GSE297090,0.0009138152369534595,12.715166189742462
+Radiation,DE,GO_Biological_Process_2025,Regulation of ERK1 and ERK2 Cascade (GO:0070372),1,GSE297560,0.0256438974744696,2.552840084811963
+Radiation,DE,GO_Biological_Process_2025,Regulation of Endothelial Cell Migration (GO:0010594),1,GSE297560,0.029645407081913742,3.385626331991475
+Radiation,DE,GO_Biological_Process_2025,Regulation of Endothelial Cell Proliferation (GO:0001936),1,GSE297560,0.024748785156482312,3.5141944205481135
+Radiation,DE,GO_Biological_Process_2025,Regulation of Fibrinolysis (GO:0051917),1,GSE297560,0.00516704260058355,10.677744585511576
+Radiation,DE,GO_Biological_Process_2025,Regulation of G2/M Transition of Mitotic Cell Cycle (GO:0010389),1,GSE297090,7.164459987484468e-07,9.615844430992736
+Radiation,DE,GO_Biological_Process_2025,Regulation of Integrin-Mediated Signaling Pathway (GO:2001044),1,GSE297560,0.016605513526354705,8.165334094802969
+Radiation,DE,GO_Biological_Process_2025,Regulation of Mitotic Cell Cycle (GO:0007346),2,GSE184119;GSE297090,0.0030234803990635546,3.806740659951669
+Radiation,DE,GO_Biological_Process_2025,Regulation of Mitotic Cell Cycle Spindle Assembly Checkpoint (GO:0090266),1,GSE297090,4.690805968508638e-11,17.66738881101058
+Radiation,DE,GO_Biological_Process_2025,Regulation of Mitotic Metaphase/Anaphase Transition (GO:0030071),1,GSE297090,0.009609994008315179,4.567080100805456
+Radiation,DE,GO_Biological_Process_2025,Regulation of Mitotic Nuclear Division (GO:0007088),1,GSE297090,1.598661563810111e-06,7.130465745620282
+Radiation,DE,GO_Biological_Process_2025,Regulation of Mitotic Sister Chromatid Separation (GO:0010965),1,GSE297090,1.821290941790138e-06,17.801232665639446
+Radiation,DE,GO_Biological_Process_2025,Regulation of Nuclear Division (GO:0051783),1,GSE297090,0.0007773783032585244,9.872952570858851
+Radiation,DE,GO_Biological_Process_2025,Regulation of Ossification (GO:0030278),1,GSE297560,0.03212116252520217,4.519417475728155
+Radiation,DE,GO_Biological_Process_2025,Regulation of Phosphatidylinositol 3-Kinase/Protein Kinase B Signal Transduction (GO:0051896),1,GSE297560,0.0024329815215774603,2.862075868281453
+Radiation,DE,GO_Biological_Process_2025,Regulation of Phosphorylation (GO:0042325),1,GSE297560,0.03990751366508879,3.8292601272179443
+Radiation,DE,GO_Biological_Process_2025,Regulation of Plasminogen Activation (GO:0010755),1,GSE297560,0.0011419473745452886,11.104854368932038
+Radiation,DE,GO_Biological_Process_2025,Regulation of Protein Processing (GO:0070613),1,GSE297560,0.01909340649751888,7.711704422869472
+Radiation,DE,GO_Biological_Process_2025,Regulation of Protein Serine/Threonine Kinase Activity (GO:0071900),1,GSE297090,0.00010130564055407191,5.328260117606365
+Radiation,DE,GO_Biological_Process_2025,Regulation of SMAD Protein Signal Transduction (GO:0060390),1,GSE297560,0.010342117486539997,4.542894969108561
+Radiation,DE,GO_Biological_Process_2025,Regulation of Signal Transduction (GO:0009966),1,GSE297560,0.018524473128386905,2.578996233221922
+Radiation,DE,GO_Biological_Process_2025,Regulation of Ubiquitin Protein Ligase Activity (GO:1904666),1,GSE297090,0.040621079291469714,7.459564164648911
+Radiation,DE,GO_Biological_Process_2025,Replication Fork Processing (GO:0031297),1,GSE297090,0.0005241397450069564,6.140494891631724
+Radiation,DE,GO_Biological_Process_2025,Response to Ionizing Radiation (GO:0010212),1,GSE297090,0.00013823352080119593,5.164313652449246
+Radiation,DE,GO_Biological_Process_2025,Response to UV (GO:0009411),1,GSE297090,0.040621079291469714,3.04058321928624
+Radiation,DE,GO_Biological_Process_2025,Response to UV-A (GO:0070141),1,GSE297560,0.023065648358308165,10.09532215357458
+Radiation,DE,GO_Biological_Process_2025,Response to Unfolded Protein (GO:0006986),1,GSE297560,0.026442420975606284,4.739876864788065
+Radiation,DE,GO_Biological_Process_2025,Semaphorin-Plexin Signaling Pathway (GO:0071526),1,GSE297560,0.016605513526354705,5.39819309600863
+Radiation,DE,GO_Biological_Process_2025,Signal Transduction in Response to DNA Damage (GO:0042770),1,GSE297090,0.0017305355836347975,4.273708635996772
+Radiation,DE,GO_Biological_Process_2025,Sister Chromatid Segregation (GO:0000819),1,GSE297090,8.464548479686836e-09,11.019810697776801
+Radiation,DE,GO_Biological_Process_2025,Skin Development (GO:0043588),1,GSE297560,0.0018224532963858806,5.238138853269829
+Radiation,DE,GO_Biological_Process_2025,Spindle Assembly (GO:0051225),1,GSE297090,0.01888673212564924,3.702357214072069
+Radiation,DE,GO_Biological_Process_2025,Spindle Assembly Checkpoint Signaling (GO:0071173),1,GSE297090,5.070352348451378e-08,12.308280871670704
+Radiation,DE,GO_Biological_Process_2025,Sprouting Angiogenesis (GO:0002040),1,GSE297560,0.03326351184849348,3.966019417475728
+Radiation,DE,GO_Biological_Process_2025,Supramolecular Fiber Organization (GO:0097435),1,GSE297560,0.00016782258621291857,2.7762135922330096
+Radiation,DE,GO_Biological_Process_2025,Transforming Growth Factor Beta Receptor Signaling Pathway (GO:0007179),1,GSE297560,0.0031511949998301847,4.425847755733783
+Radiation,DE,GO_Biological_Process_2025,Transforming Growth Factor Beta Receptor Superfamily Signaling Pathway (GO:0141091),1,GSE297560,0.006011470795444585,3.538311441081287
+Radiation,DE,KEGG_2021_Human,Antigen processing and presentation,1,GSE297560,0.02403378999679108,4.8133333333333335
+Radiation,DE,KEGG_2021_Human,Axon guidance,1,GSE297560,0.01791281736209417,2.4754285714285715
+Radiation,DE,KEGG_2021_Human,Cell adhesion molecules,1,GSE297560,0.04040937933948136,2.803883495145631
+Radiation,DE,KEGG_2021_Human,Cell cycle,1,GSE297090,9.90184748568959e-11,6.115324130700682
+Radiation,DE,KEGG_2021_Human,DNA replication,1,GSE297090,5.952879467105924e-05,7.958914493632505
+Radiation,DE,KEGG_2021_Human,Dilated cardiomyopathy,1,GSE297560,0.013093229702219508,3.3976470588235297
+Radiation,DE,KEGG_2021_Human,ECM-receptor interaction,1,GSE297560,0.00013464400352800174,4.5125
+Radiation,DE,KEGG_2021_Human,Epstein-Barr virus infection,1,GSE184119,0.024282718691996736,3.037895735882313
+Radiation,DE,KEGG_2021_Human,Fanconi anemia pathway,1,GSE297090,1.7674592444118754e-05,7.036959859618338
+Radiation,DE,KEGG_2021_Human,Focal adhesion,1,GSE297560,1.143355944140481e-06,3.546666666666667
+Radiation,DE,KEGG_2021_Human,FoxO signaling pathway,1,GSE297090,0.0414905618086822,2.826812935060358
+Radiation,DE,KEGG_2021_Human,Homologous recombination,1,GSE297090,0.032516814769890386,4.875731401504598
+Radiation,DE,KEGG_2021_Human,Human papillomavirus infection,1,GSE297560,0.003844075283079398,2.28
+Radiation,DE,KEGG_2021_Human,Hypertrophic cardiomyopathy,1,GSE297560,0.023576886759766387,3.2683127572016457
+Radiation,DE,KEGG_2021_Human,Oocyte meiosis,1,GSE297090,0.016726123451164577,3.211039935942348
+Radiation,DE,KEGG_2021_Human,PI3K-Akt signaling pathway,1,GSE297560,0.003670093457990794,2.2462222222222223
+Radiation,DE,KEGG_2021_Human,Progesterone-mediated oocyte maturation,1,GSE297090,2.135857381749937e-05,5.196767213949344
+Radiation,DE,KEGG_2021_Human,Prostate cancer,1,GSE297560,0.04945080379157966,2.877536231884058
+Radiation,DE,KEGG_2021_Human,Proteoglycans in cancer,1,GSE297560,5.474876649714209e-06,3.384375
+Radiation,DE,KEGG_2021_Human,Regulation of actin cytoskeleton,1,GSE297560,0.01340787092678619,2.430976430976431
+Radiation,DE,KEGG_2021_Human,TGF-beta signaling pathway,1,GSE297560,3.907861430759574e-05,4.695934959349594
+Radiation,DE,KEGG_2021_Human,TNF signaling pathway,1,GSE184119,0.017716263589162812,3.690769076907691
+Radiation,DE,KEGG_2021_Human,p53 signaling pathway,2,GSE184119;GSE297090,2.365019935990321e-07,7.158811978399607
+Radiation,DE,Reactome_Pathways_2024,A Tetrasaccharide Linker Sequence Is Required for GAG Synthesis,1,GSE297560,0.018524473128386905,6.13125
+Radiation,DE,Reactome_Pathways_2024,APC C-mediated Degradation of Cell Cycle Proteins,1,GSE297090,0.0028175263170318525,4.007730207271491
+Radiation,DE,Reactome_Pathways_2024,AURKA Activation by TPX2,1,GSE297090,0.0017368737204364684,4.243479042993344
+Radiation,DE,Reactome_Pathways_2024,Activation of ATR in Response to Replication Stress,1,GSE297090,4.640803957673086e-05,7.089842135713695
+Radiation,DE,Reactome_Pathways_2024,Activation of Matrix Metalloproteinases,1,GSE297560,0.02572050199456808,6.991776315789474
+Radiation,DE,Reactome_Pathways_2024,Activation of the Pre-Replicative Complex,1,GSE297090,1.2373481739937638e-05,8.19762996941896
+Radiation,DE,Reactome_Pathways_2024,Amplification of Signal From Unattached Kinetochores via a MAD2 Inhibitory Signal,1,GSE297090,4.6164186127633743e-14,7.750486516541562
+Radiation,DE,Reactome_Pathways_2024,Amplification of Signal From the Kinetochores,1,GSE297090,4.6164186127633743e-14,7.750486516541562
+Radiation,DE,Reactome_Pathways_2024,"Antigen Presentation Folding, Assembly and Peptide Loading of Class I MHC",1,GSE297560,0.009336486408513549,7.246022727272727
+Radiation,DE,Reactome_Pathways_2024,Assembly of Collagen Fibrils and Other Multimeric Structures,1,GSE297560,9.119210035370185e-05,6.015566037735849
+Radiation,DE,Reactome_Pathways_2024,Axon Guidance,1,GSE297560,0.0017632684783150969,2.087141719745223
+Radiation,DE,Reactome_Pathways_2024,Binding and Uptake of Ligands by Scavenger Receptors,1,GSE297560,0.04670724011384649,4.830681818181818
+Radiation,DE,Reactome_Pathways_2024,COPI-dependent Golgi-to-ER Retrograde Traffic,1,GSE297090,0.018520949338522174,3.170951372786235
+Radiation,DE,Reactome_Pathways_2024,Cell Cycle Checkpoints,1,GSE297090,3.9942484960733197e-23,5.905132584031667
+Radiation,DE,Reactome_Pathways_2024,"Cell Cycle, Mitotic",1,GSE297090,6.1361267039391744e-33,4.885860168026201
+Radiation,DE,Reactome_Pathways_2024,Cell Junction Organization,1,GSE297560,0.017654395915342604,3.253316326530612
+Radiation,DE,Reactome_Pathways_2024,Cell-Cell Communication,1,GSE297560,0.03684282094024024,2.7196358267716536
+Radiation,DE,Reactome_Pathways_2024,Cell-extracellular Matrix Interactions,1,GSE297560,0.01791281736209417,7.814338235294118
+Radiation,DE,Reactome_Pathways_2024,Centrosome Maturation,1,GSE297090,0.04275401430727947,3.234133467387206
+Radiation,DE,Reactome_Pathways_2024,Chk1 Chk2(Cds1) Mediated Inactivation of Cyclin B Cdk1 Complex,1,GSE297090,0.022566455076343462,8.744138634046891
+Radiation,DE,Reactome_Pathways_2024,Chromosome Maintenance,1,GSE297090,8.772250833944906e-09,6.100561837707133
+Radiation,DE,Reactome_Pathways_2024,Collagen Biosynthesis and Modifying Enzymes,1,GSE297560,2.0657745880321022e-07,7.085
+Radiation,DE,Reactome_Pathways_2024,Collagen Chain Trimerization,1,GSE297560,0.02115586258010187,5.02652027027027
+Radiation,DE,Reactome_Pathways_2024,Collagen Degradation,1,GSE297560,0.0024329815215774603,5.0129716981132075
+Radiation,DE,Reactome_Pathways_2024,Collagen Formation,1,GSE297560,1.5289992326741822e-08,6.6421875
+Radiation,DE,Reactome_Pathways_2024,Condensation of Prometaphase Chromosomes,1,GSE297090,1.1098604312360887e-06,18.36269113149847
+Radiation,DE,Reactome_Pathways_2024,Condensation of Prophase Chromosomes,1,GSE297090,5.383364679721353e-05,11.476681957186544
+Radiation,DE,Reactome_Pathways_2024,Crosslinking of Collagen Fibrils,1,GSE297560,0.022263918276624536,7.380208333333333
+Radiation,DE,Reactome_Pathways_2024,Cyclin A B1 B2 Associated Events During G2 M Transition,1,GSE297090,7.164459987484468e-07,10.930173292558614
+Radiation,DE,Reactome_Pathways_2024,DNA Double-Strand Break Repair,1,GSE297090,1.9496147768937482e-05,3.9245346625249824
+Radiation,DE,Reactome_Pathways_2024,DNA Repair,1,GSE297090,3.169593834982316e-07,3.182609282245008
+Radiation,DE,Reactome_Pathways_2024,DNA Replication,1,GSE297090,1.782415018472181e-05,4.141960405601159
+Radiation,DE,Reactome_Pathways_2024,DNA Strand Elongation,1,GSE297090,8.621699719306459e-08,10.154483575022196
+Radiation,DE,Reactome_Pathways_2024,Defective B3GALT6 Causes EDSP2 and SEMDJL1,1,GSE297560,0.029645407081913742,6.6421875
+Radiation,DE,Reactome_Pathways_2024,Defective B3GALTL Causes PpS,1,GSE297560,0.003962250058398065,5.904166666666667
+Radiation,DE,Reactome_Pathways_2024,Defective B3GAT3 Causes JDSSDHD,1,GSE297560,0.029645407081913742,6.6421875
+Radiation,DE,Reactome_Pathways_2024,"Defective B4GALT7 Causes EDS, Progeroid Type",1,GSE297560,0.029645407081913742,6.6421875
+Radiation,DE,Reactome_Pathways_2024,Defective HDR Through Homologous Recomb Repair Due to PALB2 Loss of BRCA2 RAD51 RAD51C Binding Fnc,1,GSE297090,0.0011604039123645057,7.345076452599388
+Radiation,DE,Reactome_Pathways_2024,Defective HDR Through Homologous Recombination Repair Due to PALB2 Loss of BRCA1 Binding Function,1,GSE297090,0.0011604039123645057,7.345076452599388
+Radiation,DE,Reactome_Pathways_2024,Defective Homologous Recombination Repair (HRR) Due to BRCA1 Loss of Function,1,GSE297090,0.0011604039123645057,7.345076452599388
+Radiation,DE,Reactome_Pathways_2024,Defective Homologous Recombination Repair (HRR) Due to BRCA2 Loss of Function,1,GSE297090,0.0007777523115291129,5.75833519803088
+Radiation,DE,Reactome_Pathways_2024,Defective Homologous Recombination Repair (HRR) Due to PALB2 Loss of Function,1,GSE297090,0.0011604039123645057,7.345076452599388
+Radiation,DE,Reactome_Pathways_2024,Defective Intrinsic Pathway for Apoptosis,1,GSE297090,0.032121971446302515,5.9619127050319705
+Radiation,DE,Reactome_Pathways_2024,Degradation of the Extracellular Matrix,1,GSE297560,1.1694633120654934e-05,4.428125
+Radiation,DE,Reactome_Pathways_2024,Deposition of New CENPA-containing Nucleosomes at the Centromere,1,GSE297090,1.071427039332035e-06,10.49296636085627
+Radiation,DE,Reactome_Pathways_2024,Deregulated CDK5 Triggers Multiple Neurodegenerative Pathways in Alzheimer's Disease Models,1,GSE297090,0.016889956922925883,6.903267342668597
+Radiation,DE,Reactome_Pathways_2024,Diseases Associated With Glycosaminoglycan Metabolism,1,GSE297560,0.007848996049596577,5.313750000000001
+Radiation,DE,Reactome_Pathways_2024,Diseases Associated With O-glycosylation of Proteins,1,GSE297560,0.024155876110763527,4.251
+Radiation,DE,Reactome_Pathways_2024,Diseases of DNA Double-Strand Break Repair,1,GSE297090,0.0007777523115291129,5.75833519803088
+Radiation,DE,Reactome_Pathways_2024,Diseases of DNA Repair,1,GSE297090,0.0001324965835078497,5.657972057324459
+Radiation,DE,Reactome_Pathways_2024,Diseases of Glycosylation,1,GSE297560,0.0017470074419849045,3.4560975609756097
+Radiation,DE,Reactome_Pathways_2024,Diseases of Programmed Cell Death,1,GSE297090,0.007023111970540301,4.769530164025577
+Radiation,DE,Reactome_Pathways_2024,Dissolution of Fibrin Clot,1,GSE297560,0.00010031232974308516,15.94125
+Radiation,DE,Reactome_Pathways_2024,E2F Mediated Regulation of DNA Replication,1,GSE297090,0.003434645139606931,7.494975972040193
+Radiation,DE,Reactome_Pathways_2024,ECM Proteoglycans,1,GSE297560,7.779940140078262e-08,6.6421874999999995
+Radiation,DE,Reactome_Pathways_2024,EML4 and NUDC in Mitotic Spindle Formation,1,GSE297090,3.638221790929272e-12,6.495645842434834
+Radiation,DE,Reactome_Pathways_2024,Elastic Fibre Formation,1,GSE297560,1.5289992326741822e-08,9.488839285714285
+Radiation,DE,Reactome_Pathways_2024,Extension of Telomeres,1,GSE297090,0.00048542808182501897,5.465086646279307
+Radiation,DE,Reactome_Pathways_2024,Extracellular Matrix Organization,1,GSE297560,1.787319732581223e-22,5.560901162790698
+Radiation,DE,Reactome_Pathways_2024,Fanconi Anemia Pathway,1,GSE297090,0.006481286537474737,5.564451858029839
+Radiation,DE,Reactome_Pathways_2024,G1 S Transition,1,GSE297090,1.1098604312360887e-06,4.522830327955289
+Radiation,DE,Reactome_Pathways_2024,G1 S-Specific Transcription,1,GSE297090,0.0023815835767494096,6.558103975535167
+Radiation,DE,Reactome_Pathways_2024,G2 M Checkpoints,1,GSE297090,8.464548479686836e-09,5.246483180428135
+Radiation,DE,Reactome_Pathways_2024,G2 M DNA Damage Checkpoint,1,GSE297090,5.412682773753561e-05,5.621231979030144
+Radiation,DE,Reactome_Pathways_2024,G2 M Transition,1,GSE297090,4.5225632378775023e-07,3.9036333187709333
+Radiation,DE,Reactome_Pathways_2024,Glycosaminoglycan Metabolism,1,GSE297560,0.026717339393902167,2.8544938016528927
+Radiation,DE,Reactome_Pathways_2024,Golgi Cisternae Pericentriolar Stack Reorganization,1,GSE297090,0.030763967633397768,8.071512585274053
+Radiation,DE,Reactome_Pathways_2024,HDR Through Homologous Recombination (HRR),1,GSE297090,9.774327560881527e-06,5.564451858029839
+Radiation,DE,Reactome_Pathways_2024,HDR Through Homologous Recombination (HRR) or Single Strand Annealing (SSA),1,GSE297090,2.0893503637401228e-05,4.562159287328813
+Radiation,DE,Reactome_Pathways_2024,HDR Through Single Strand Annealing (SSA),1,GSE297090,0.01272058205808698,4.962889494999587
+Radiation,DE,Reactome_Pathways_2024,Hemostasis,1,GSE297560,0.014555825578792486,1.8824013157894737
+Radiation,DE,Reactome_Pathways_2024,Homologous DNA Pairing and Strand Exchange,1,GSE297090,0.0011224211132052258,5.49050565393642
+Radiation,DE,Reactome_Pathways_2024,Homology Directed Repair,1,GSE297090,1.9757285365778465e-06,4.818198839168695
+Radiation,DE,Reactome_Pathways_2024,Impaired BRCA2 Binding to PALB2,1,GSE297090,0.0009138152369534595,7.651121304791029
+Radiation,DE,Reactome_Pathways_2024,Impaired BRCA2 Binding to RAD51,1,GSE297090,0.009146408476475864,5.246483180428134
+Radiation,DE,Reactome_Pathways_2024,Initiation of Nuclear Envelope (NE) Reformation,1,GSE297090,0.0014242726376936792,8.744138634046891
+Radiation,DE,Reactome_Pathways_2024,Integrin Cell Surface Interactions,1,GSE297560,6.535104501528357e-07,6.103631756756757
+Radiation,DE,Reactome_Pathways_2024,Interleukin-4 and Interleukin-13 Signaling,1,GSE297560,0.0009828628291593975,4.0875
+Radiation,DE,Reactome_Pathways_2024,Kinesins,1,GSE297090,0.0009122089725783302,5.044695365796283
+Radiation,DE,Reactome_Pathways_2024,M Phase,1,GSE297090,1.8153291069291617e-15,4.150698718693144
+Radiation,DE,Reactome_Pathways_2024,MET Activates PTK2 Signaling,1,GSE297560,0.006267035565275449,6.413146551724138
+Radiation,DE,Reactome_Pathways_2024,MET Promotes Cell Motility,1,GSE297560,0.028063490334414087,4.64953125
+Radiation,DE,Reactome_Pathways_2024,Mitotic Anaphase,1,GSE297090,2.3310345620458744e-10,4.264382880643558
+Radiation,DE,Reactome_Pathways_2024,Mitotic G1 Phase and G1 S Transition,1,GSE297090,5.147132857081392e-07,4.33919661539169
+Radiation,DE,Reactome_Pathways_2024,Mitotic G2-G2 M Phases,1,GSE297090,1.4896708285798486e-07,4.012016549739162
+Radiation,DE,Reactome_Pathways_2024,Mitotic Metaphase and Anaphase,1,GSE297090,5.4178380403181145e-11,4.3720693170234455
+Radiation,DE,Reactome_Pathways_2024,Mitotic Prometaphase,1,GSE297090,6.308599555294639e-17,5.702699109161016
+Radiation,DE,Reactome_Pathways_2024,Mitotic Prophase,1,GSE297090,0.00037463834325584183,4.316726667440871
+Radiation,DE,Reactome_Pathways_2024,Mitotic Spindle Checkpoint,1,GSE297090,3.069970941142708e-12,6.558103975535168
+Radiation,DE,Reactome_Pathways_2024,Molecules Associated With Elastic Fibres,1,GSE297560,1.1933361540985842e-07,9.868392857142858
+Radiation,DE,Reactome_Pathways_2024,Muscle Contraction,1,GSE297560,0.007848996049596577,2.7327857142857144
+Radiation,DE,Reactome_Pathways_2024,Nervous System Development,1,GSE297560,0.0005053631164020109,2.146969696969697
+Radiation,DE,Reactome_Pathways_2024,Neurodegenerative Diseases,1,GSE297090,0.016889956922925883,6.903267342668597
+Radiation,DE,Reactome_Pathways_2024,Non-integrin membrane-ECM Interactions,1,GSE297560,0.0011725123317196217,5.0389008620689655
+Radiation,DE,Reactome_Pathways_2024,Nuclear Envelope (NE) Reassembly,1,GSE297090,0.02309976977523144,3.577147623019183
+Radiation,DE,Reactome_Pathways_2024,Nuclear Envelope Breakdown,1,GSE297090,0.0024944257824975526,4.918577981651376
+Radiation,DE,Reactome_Pathways_2024,Nuclear Pore Complex (NPC) Disassembly,1,GSE297090,0.03094377537805555,4.918577981651377
+Radiation,DE,Reactome_Pathways_2024,Nucleosome Assembly,1,GSE297090,1.071427039332035e-06,10.49296636085627
+Radiation,DE,Reactome_Pathways_2024,O-glycosylation of TSR Domain-Containing Proteins,1,GSE297560,0.004806030860636658,5.744594594594595
+Radiation,DE,Reactome_Pathways_2024,O-linked Glycosylation,1,GSE297560,0.04945080379157966,3.089389534883721
+Radiation,DE,Reactome_Pathways_2024,Platelet Degranulation,1,GSE297560,0.026717339393902167,3.0077830188679244
+Radiation,DE,Reactome_Pathways_2024,Polo-like Kinase Mediated Events,1,GSE297090,1.7291666366188328e-07,14.75573394495413
+Radiation,DE,Reactome_Pathways_2024,Presynaptic Phase of Homologous DNA Pairing and Strand Exchange,1,GSE297090,0.0037446740576328372,5.246483180428134
+Radiation,DE,Reactome_Pathways_2024,Processing of DNA Double-Strand Break Ends,1,GSE297090,0.010830496627447892,4.001554968123154
+Radiation,DE,Reactome_Pathways_2024,RHO GTPase Effectors,1,GSE297090,2.97026148127269e-07,3.346522193277205
+Radiation,DE,Reactome_Pathways_2024,RHO GTPases Activate Formins,1,GSE297090,4.704131151320951e-11,5.576970309903923
+Radiation,DE,Reactome_Pathways_2024,RHO GTPases Activate PAKs,1,GSE297560,0.029645407081913742,6.6421875
+Radiation,DE,Reactome_Pathways_2024,RHO GTPases Activate PKNs,1,GSE297560,0.04670724011384649,4.830681818181818
+Radiation,DE,Reactome_Pathways_2024,Recruitment of Mitotic Centrosome Proteins and Complexes,1,GSE297090,0.04275401430727947,3.234133467387206
+Radiation,DE,Reactome_Pathways_2024,Regulation of IGF Transport and Uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs),1,GSE297560,0.040868339627366156,2.9822066326530616
+Radiation,DE,Reactome_Pathways_2024,Regulation of Mitotic Cell Cycle,1,GSE297090,0.0028175263170318525,4.007730207271491
+Radiation,DE,Reactome_Pathways_2024,Regulation of PLK1 Activity at G2 M Transition,1,GSE297090,0.009061377150900867,3.4765852400427395
+Radiation,DE,Reactome_Pathways_2024,Regulation of TP53 Activity,2,GSE184119;GSE297090,0.04454059848177768,2.9586917478022494
+Radiation,DE,Reactome_Pathways_2024,Regulation of TP53 Activity Through Phosphorylation,1,GSE297090,3.609374677671653e-05,4.629249865083649
+Radiation,DE,Reactome_Pathways_2024,Resolution of D-Loop Structures,1,GSE297090,2.135857381749937e-05,7.715416441806079
+Radiation,DE,Reactome_Pathways_2024,Resolution of D-loop Structures Through Holliday Junction Intermediates,1,GSE297090,1.691709054118868e-05,7.949216940042628
+Radiation,DE,Reactome_Pathways_2024,Resolution of D-loop Structures Through Synthesis-Dependent Strand Annealing (SDSA),1,GSE297090,0.0019014455323470808,6.800996715369804
+Radiation,DE,Reactome_Pathways_2024,Resolution of Sister Chromatid Cohesion,1,GSE297090,5.743472342215706e-14,6.6731584312463115
+Radiation,DE,Reactome_Pathways_2024,Response to Elevated Platelet Cytosolic Ca2+,1,GSE297560,0.035759316719874326,2.872297297297297
+Radiation,DE,Reactome_Pathways_2024,S Phase,1,GSE297090,9.774327560881527e-06,3.7731557119517407
+Radiation,DE,Reactome_Pathways_2024,SUMO E3 Ligases SUMOylate Target Proteins,1,GSE297090,0.02151216912601814,2.555105445013702
+Radiation,DE,Reactome_Pathways_2024,SUMOylation,1,GSE297090,0.010830496627447892,2.6397399649952877
+Radiation,DE,Reactome_Pathways_2024,SUMOylation of DNA Replication Proteins,1,GSE297090,0.005195485649905141,4.996650648026796
+Radiation,DE,Reactome_Pathways_2024,Scavenging by Class A Receptors,1,GSE297560,0.01791281736209417,7.814338235294118
+Radiation,DE,Reactome_Pathways_2024,Sema4D in Semaphorin Signaling,1,GSE297560,0.04948370261730694,5.775815217391305
+Radiation,DE,Reactome_Pathways_2024,Semaphorin Interactions,1,GSE297560,0.023631772124479335,3.8567540322580647
+Radiation,DE,Reactome_Pathways_2024,Separation of Sister Chromatids,1,GSE297090,6.74674690780967e-08,4.184311738991764
+Radiation,DE,Reactome_Pathways_2024,Signaling by Interleukins,1,GSE297560,0.04948370261730694,1.877139945652174
+Radiation,DE,Reactome_Pathways_2024,Signaling by MET,1,GSE297560,0.026442420975606284,3.450487012987013
+Radiation,DE,Reactome_Pathways_2024,Signaling by PDGF,1,GSE297560,0.0031511949998301847,4.8306818181818185
+Radiation,DE,Reactome_Pathways_2024,Signaling by Receptor Tyrosine Kinases,1,GSE297560,0.00023617980253033368,2.1917882293762574
+Radiation,DE,Reactome_Pathways_2024,Signaling by TGF-beta Receptor Complex,1,GSE297560,0.026442420975606284,3.2116071428571433
+Radiation,DE,Reactome_Pathways_2024,Signaling by TGFB Family Members,1,GSE297560,0.02281375878692667,2.6927787162162162
+Radiation,DE,Reactome_Pathways_2024,Smooth Muscle Contraction,1,GSE297560,0.00016365299752209829,6.991776315789474
+Radiation,DE,Reactome_Pathways_2024,Syndecan Interactions,1,GSE297560,7.396416666151146e-06,9.840277777777777
+Radiation,DE,Reactome_Pathways_2024,Synthesis of DNA,1,GSE297090,2.4623054430408746e-05,4.247153050822775
+Radiation,DE,Reactome_Pathways_2024,TGF-beta Receptor Signaling Activates SMADs,1,GSE297560,0.016115664848894744,4.723333333333334
+Radiation,DE,Reactome_Pathways_2024,TP53 Regulates Transcription of Cell Cycle Genes,2,GSE184119;GSE297090,0.017716263589162812,5.635803457106274
+Radiation,DE,Reactome_Pathways_2024,TP53 Regulates Transcription of Cell Death Genes,1,GSE184119,0.015991708305840065,6.888204225352113
+Radiation,DE,Reactome_Pathways_2024,TP53 Regulates Transcription of DNA Repair Genes,1,GSE297090,0.03843090892380633,3.6182642623642307
+Radiation,DE,Reactome_Pathways_2024,TP53 Regulates Transcription of Genes Involved in G2 Cell Cycle Arrest,1,GSE297090,0.0014242726376936792,8.744138634046891
+Radiation,DE,Reactome_Pathways_2024,Telomere C-strand (Lagging Strand) Synthesis,1,GSE297090,0.004436340306235579,5.923448752096281
+Radiation,DE,Reactome_Pathways_2024,Telomere Maintenance,1,GSE297090,0.005195485649905141,4.035756292637027
+Radiation,DE,Reactome_Pathways_2024,Transcriptional Regulation by TP53,2,GSE184119;GSE297090,1.2073913876093117e-06,2.941953185286805
+Radiation,DE,Reactome_Pathways_2024,Transport of Mature Transcript to Cytoplasm,1,GSE297090,0.036690755774466184,3.325235818581212
+Radiation,DE,Reactome_Pathways_2024,Transport of Mature mRNA Derived From an Intron-Containing Transcript,1,GSE297090,0.016889956922925883,3.7474879860200963
+Radiation,DE,Reactome_Pathways_2024,Unwinding of DNA,1,GSE297090,2.1222106528790174e-07,17.488277268093782

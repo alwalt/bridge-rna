@@ -1,0 +1,12 @@
+{
+  "source": "data/disease_gene_recovery.csv",
+  "source_sha256": "30f8e163cc235cffa09767d33f294376230039cfdb2439ca75ff027a388a9a09",
+  "reference": "DisGeNET v7 all associations, exact disease CUI; common eligible gene universe within each cohort.",
+  "selection": "Prespecified top 500 BRIDGE and matched DE genes; three existing disease cohorts only.",
+  "validation": "All six odds ratios and right-sided Fisher p-values reconstructed from saved contingency counts; BH correction over six primary tests reproduced.",
+  "comparison_scope": "Per-list enrichment versus background, not a direct BRIDGE\u2013DE significance test. Not an exact replication of the original paper\u2019s 25 comparisons or reference filtering.",
+  "font": "/home/walt/.local/share/fonts/Arial/Arial.TTF",
+  "width_mm": 183,
+  "height_mm": 80,
+  "png_dpi": 600
+}

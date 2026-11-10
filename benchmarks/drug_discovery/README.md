@@ -66,3 +66,48 @@ The notebook reports Task 1 single-disease biological validation and Task 2 cros
 - `drug_discovery.ipynb`: scientific report.
 
 Run the notebook from this directory with its documented Python dependencies. Historical source paths in provenance describe the original runs and are retained unchanged. Research scripts now live under the local `research/` directory; archive copies preserve their original contents.
+
+## Disease-gene enrichment comparison
+
+Run `.venv/bin/python benchmarks/drug_discovery/pipeline/plot_disease_gene_enrichment.py` to regenerate the Figure-3B-style comparison for the three existing disease cohorts. It reconstructs and checks all six Fisher odds ratios/p-values and BH-adjusted values from saved contingency counts, then writes PNG/PDF/SVG and numerical/provenance files. The original paper’s 25 comparisons are not reproduced from the summary workbook alone.
+
+## Focused three-study intersection validation
+
+New exploratory results are isolated under `results/intersection_validation/`; prior analyses are preserved. Run from the repository root:
+
+```bash
+.venv/bin/python -u benchmarks/drug_discovery/pipeline/validate_intersections.py > benchmarks/drug_discovery/results/intersection_validation/run.log 2>&1
+.venv/bin/python benchmarks/drug_discovery/pipeline/report_intersection_validation.py
+```
+
+The analysis reuses original top-500 selections and prepared positive-expression universes, downloads/caches two annotation libraries under ignored `work/intersection_validation/`, and performs cheap random-set and pathway calculations. No encoder inference or DE refitting. The primary notebook loads only saved compact results and figures. The exact three-study muscle intersection has muscle-related enrichment; bone and radiation intersections do not pass the same threshold. Bone pathway recurrence is supported separately in the equal-sized per-study lists. See `results/intersection_validation/REPORT.md` for details and limits.
+
+
+The intersection and per-study pathway analyses below are preserved as separate exploratory outputs; they are not included in the primary notebook, which retains the original two-task analysis.
+
+### Three-library pathway validation
+
+Select 500 genes independently per study and method, then test exact three-study intersections and, separately, pathways recurring across the three full lists. GO Biological Process 2025, KEGG Human 2021, and Reactome Pathways 2024 are corrected jointly per query. Previous two-library outputs remain preserved.
+
+```bash
+.venv/bin/python benchmarks/drug_discovery/pipeline/validate_intersections.py --include-kegg
+.venv/bin/python benchmarks/drug_discovery/pipeline/plot_three_library_enrichment.py
+```
+
+Tables, three-column PNG/PDF/SVG plots, methods, and provenance: `results/intersection_validation_three_libraries/`. Annotation caches and full test tables are ignored under `work/`.
+
+Generate the combined gene/pathway reproducibility figure from saved tables:
+
+```bash
+.venv/bin/python benchmarks/drug_discovery/pipeline/plot_reproducibility_comparison.py
+```
+
+Outputs: `results/intersection_validation_three_libraries/reproducibility_comparison.{png,pdf,svg}`, with values, caption, and source hashes alongside.
+
+Per-study top-500 BRIDGE-versus-DE term plots (no recurrence filter):
+
+```bash
+.venv/bin/python benchmarks/drug_discovery/pipeline/plot_per_study_top500_enrichment.py
+```
+
+Outputs: `results/intersection_validation_three_libraries/per_study_top500_{muscle_atrophy,bone_loss,radiation}.{png,pdf,svg}`. The plotted terms, complete significant-term counts, caption, and provenance are alongside.

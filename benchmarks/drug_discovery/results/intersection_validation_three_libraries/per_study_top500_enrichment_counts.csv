@@ -1,0 +1,55 @@
+condition,dataset,library,method,significant_terms
+Muscle atrophy,GSE211204,GO Biological Process,BRIDGE,15
+Muscle atrophy,GSE211204,GO Biological Process,DE,21
+Muscle atrophy,GSE211204,KEGG,BRIDGE,6
+Muscle atrophy,GSE211204,KEGG,DE,11
+Muscle atrophy,GSE211204,Reactome,BRIDGE,4
+Muscle atrophy,GSE211204,Reactome,DE,13
+Muscle atrophy,GSE113165,GO Biological Process,BRIDGE,18
+Muscle atrophy,GSE113165,GO Biological Process,DE,5
+Muscle atrophy,GSE113165,KEGG,BRIDGE,5
+Muscle atrophy,GSE113165,KEGG,DE,2
+Muscle atrophy,GSE113165,Reactome,BRIDGE,10
+Muscle atrophy,GSE113165,Reactome,DE,3
+Muscle atrophy,GSE234465,GO Biological Process,BRIDGE,14
+Muscle atrophy,GSE234465,GO Biological Process,DE,3
+Muscle atrophy,GSE234465,KEGG,BRIDGE,2
+Muscle atrophy,GSE234465,KEGG,DE,4
+Muscle atrophy,GSE234465,Reactome,BRIDGE,2
+Muscle atrophy,GSE234465,Reactome,DE,114
+Bone loss,GSE189524,GO Biological Process,BRIDGE,7
+Bone loss,GSE189524,GO Biological Process,DE,0
+Bone loss,GSE189524,KEGG,BRIDGE,0
+Bone loss,GSE189524,KEGG,DE,0
+Bone loss,GSE189524,Reactome,BRIDGE,6
+Bone loss,GSE189524,Reactome,DE,0
+Bone loss,GSE276529,GO Biological Process,BRIDGE,36
+Bone loss,GSE276529,GO Biological Process,DE,0
+Bone loss,GSE276529,KEGG,BRIDGE,3
+Bone loss,GSE276529,KEGG,DE,1
+Bone loss,GSE276529,Reactome,BRIDGE,24
+Bone loss,GSE276529,Reactome,DE,0
+Bone loss,GSE273868,GO Biological Process,BRIDGE,13
+Bone loss,GSE273868,GO Biological Process,DE,31
+Bone loss,GSE273868,KEGG,BRIDGE,1
+Bone loss,GSE273868,KEGG,DE,4
+Bone loss,GSE273868,Reactome,BRIDGE,13
+Bone loss,GSE273868,Reactome,DE,36
+Radiation,GSE297090,GO Biological Process,BRIDGE,0
+Radiation,GSE297090,GO Biological Process,DE,103
+Radiation,GSE297090,KEGG,BRIDGE,0
+Radiation,GSE297090,KEGG,DE,8
+Radiation,GSE297090,Reactome,BRIDGE,0
+Radiation,GSE297090,Reactome,DE,91
+Radiation,GSE184119,GO Biological Process,BRIDGE,29
+Radiation,GSE184119,GO Biological Process,DE,3
+Radiation,GSE184119,KEGG,BRIDGE,9
+Radiation,GSE184119,KEGG,DE,3
+Radiation,GSE184119,Reactome,BRIDGE,13
+Radiation,GSE184119,Reactome,DE,4
+Radiation,GSE297560,GO Biological Process,BRIDGE,22
+Radiation,GSE297560,GO Biological Process,DE,77
+Radiation,GSE297560,KEGG,BRIDGE,1
+Radiation,GSE297560,KEGG,DE,13
+Radiation,GSE297560,Reactome,BRIDGE,19
+Radiation,GSE297560,Reactome,DE,55

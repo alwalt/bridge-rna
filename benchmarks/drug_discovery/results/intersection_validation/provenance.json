@@ -1,0 +1,59 @@
+{
+  "protocol": "Frozen top500 per method per study; three-way intersections; uniform per-study-eligibility random size control; overrepresentation of intersections and equal-sized individual lists.",
+  "seed": 20261109,
+  "random_draws": 1000,
+  "null_limit": "Uniform eligibility-matched draws, not expression/detectability/rank-propensity matched; tests random selection, not BRIDGE vs DE superiority. Random intersections are not used to claim biological coherence.",
+  "annotations": {
+    "GO_Biological_Process_2025": {
+      "url": "https://maayanlab.cloud/Enrichr/geneSetLibrary?mode=text&libraryName=GO_Biological_Process_2025",
+      "sha256": "0fc02458765cfce6c9348dce9f7a9397c6caf7c09ba318f468135d7ac60342ee",
+      "terms": 5343
+    },
+    "Reactome_Pathways_2024": {
+      "url": "https://maayanlab.cloud/Enrichr/geneSetLibrary?mode=text&libraryName=Reactome_Pathways_2024",
+      "sha256": "1a7c43cb503d9db23494605169614a7b1741ef8f208c37295e834d1f92b34181",
+      "terms": 2105
+    }
+  },
+  "term_size_in_background": [
+    10,
+    500
+  ],
+  "fdr": "BH jointly across both libraries per query; significant display requires q<0.05 and >=3 overlap genes. No preselection of stress-related terms.",
+  "background": "Original frozen selection universe: canonical genes with positive summed prepared log1p(TPM) within each study. Intersection across all three studies for three-way ORA; library-annotated subset used per library. The DE fitting filter is stricter and is not substituted for the original shared selection universe.",
+  "source_sha256": {
+    "research/drug_discovery/results/expanded_chembl_sensitivity/gene_partitions.csv.gz": "ebb1f1cf431683e11637288654f1b0e6bd3b161aca7a7b73a23edf8a927bcd9c",
+    "research/drug_discovery/results/manifests/contrast_members.csv": "ce1dfb5a94f80fa9c760f9bc06329fbb3ce365ba4a5c8c052ebef1020e62a956",
+    "research/drug_discovery/results/differential_expression/GSE211204_ULLS.csv.gz": "95624f699e05988d090fc6a7d87d0185037a6b2d789cab4f31557d8a78c6334b",
+    "benchmarks/drug_discovery/research_archive/drug_discovery/work/prepared/GSE211204_log1p_tpm.npy": "fb82a39c4113647a583cdb6dbf14a5f0242ab55340a2a9a03c38b667d8d0ed90",
+    "research/drug_discovery/results/differential_expression/GSE113165_bedrest.csv.gz": "c34dcad71c783f3b265c6e686524631f912408d624e7140f4ce9305f168f1bb7",
+    "benchmarks/drug_discovery/research_archive/drug_discovery/work/prepared/GSE113165_log1p_tpm.npy": "be0810dc7060bcb69f70a6107d3813eb133aebd16a3e827cf8873f747572770f",
+    "research/drug_discovery/results/differential_expression/GSE234465_young.csv.gz": "f600224a5fd177041defba02ac52f3b6bde638022b332bc767ad9892b051929b",
+    "research/drug_discovery/results/differential_expression/GSE234465_old.csv.gz": "0fc17a170a2d8cd0233ce07381b9bf5967280dc5b4985144641b9218dcfeb73a",
+    "benchmarks/drug_discovery/research_archive/drug_discovery/work/prepared/GSE234465_log1p_tpm.npy": "344f39409deac1933afeddb1ad426e5a7c47448ddc3c3fa2dac19636ba1a671f",
+    "research/drug_discovery/results/differential_expression/GSE189524_OP.csv.gz": "a9af2ec372963eb95f386dd54aec5755d426a0cdf686392b430f6b017d5025ef",
+    "benchmarks/drug_discovery/research_archive/drug_discovery/work/prepared/GSE189524_log1p_tpm.npy": "9c2173ddf92ef032d78206848b476da1e077ba424b68522d3fe4efa7634eb379",
+    "research/drug_discovery/results/differential_expression/GSE276529_GIOP.csv.gz": "6c645a442640710f2629feb4306ad5a580742132b3de7f8d1b66682ee789e4d7",
+    "benchmarks/drug_discovery/research_archive/drug_discovery/work/prepared/GSE276529_log1p_tpm.npy": "ae201608afec5cd296ccd5fbfcfdd369027833d71c7b2c1c53163a6431554dad",
+    "research/drug_discovery/results/differential_expression/GSE273868_week1.csv.gz": "cfbda3b3fcc12661a88526d8a3bd0b3bfed3283a2fb0291ad64d16d9dfce54dc",
+    "research/drug_discovery/results/differential_expression/GSE273868_week2.csv.gz": "5849d03f0fa74edf011f0e2bb89dc57a1c3d632ae1e0e427e91cf52aa1f73e9c",
+    "benchmarks/drug_discovery/research_archive/drug_discovery/work/prepared/GSE273868_log1p_tpm.npy": "be83d25da97a4f4fa46af9a1fd6ff3725af417811cf8813c7a314978b5ae869c",
+    "research/drug_discovery/results/differential_expression/GSE297090_gamma.csv.gz": "ffaf6022af184d6f175fcd65d25b655c61b195f61d4e114eb6e952965da48551",
+    "research/drug_discovery/results/differential_expression/GSE297090_proton.csv.gz": "4509cefc7fe11887ca2c6d514db6f1eb0e12d915ffdf4ca0aa6da338b3451bb6",
+    "benchmarks/drug_discovery/research_archive/drug_discovery/work/prepared/GSE297090_log1p_tpm.npy": "b538d40b981b11afc30ff711638614bf8808bec450c68cf143479ecd97b97eef",
+    "research/drug_discovery/results/differential_expression/GSE184119_10Gy.csv.gz": "4f4f67b672e50c3f3a2569be9a93343c9866ff4eb864bd2ce877543a603ad88d",
+    "benchmarks/drug_discovery/research_archive/drug_discovery/work/prepared/GSE184119_log1p_tpm.npy": "3d24f786c0a8903f6377cf95a2985dfb10b437de6aec0900bfd4681aafebb56e",
+    "research/drug_discovery/results/differential_expression/GSE297560_silicon.csv.gz": "d4356a515019cb9de56f123bb7c89c01ef35267fe28076cbefe1e139d0c04638",
+    "research/drug_discovery/results/differential_expression/GSE297560_iron.csv.gz": "11378a13b42ceaead8b0f31c6eac64876026996b3769d95ee85e166c2d09ec05",
+    "research/drug_discovery/results/differential_expression/GSE297560_proton.csv.gz": "909cb28056e7c252da1928cab7f9bb6c62d6427fecc2d4a984240c57a2eca59b",
+    "research/drug_discovery/results/differential_expression/GSE297560_gamma.csv.gz": "6862ac8853e0360f3b68c93aa7b859ffb6831f38bc1e9019b0ceb7553b84e509",
+    "benchmarks/drug_discovery/research_archive/drug_discovery/work/prepared/GSE297560_log1p_tpm.npy": "e558d104e91940e2b47a45b56e520eddc93ffdbe0df3641e007c2cd75b59d1bc"
+  },
+  "elapsed_seconds": 24.687442157999612,
+  "limitations": [
+    "Exploratory annotation-based coherence, not causal or therapeutic validation.",
+    "Small DE intersections lack enrichment power. Different significance outcomes are not a direct method-difference test.",
+    "Studies differ in tissues and exposures; some terrestrial cohorts had pretraining exposure.",
+    "Pathways overlap and are not independent biological endpoints."
+  ]
+}

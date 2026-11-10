@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "top500_lists": 18,
+  "independent_fisher_checks": 20,
+  "recurrence_counts": "102/66/50 BRIDGE and 7/0/3 DE",
+  "all_original_source_hashes_unchanged": true,
+  "notebook": "All cached report cells executed successfully; prior figure files preserved."
+}
